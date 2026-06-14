@@ -7,38 +7,976 @@
     "verification_status = verified because the clue is authored from the cited source; the independent verifier is a second check."
   ],
   "questions": [
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Argentina", "external_id": "geo-rebuild-001-001", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Occupying most of the Southern Cone, this is South America's second-largest country after Brazil.", "answer": "Argentina", "aliases": ["Argentine Republic"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Argentina", "url": "https://en.wikipedia.org/wiki/Argentina" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Bolivia", "external_id": "geo-rebuild-001-002", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "This landlocked South American nation spans an Andean west and tropical lowlands, including the high-altitude Altiplano.", "answer": "Bolivia", "aliases": ["Plurinational State of Bolivia"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Bolivia", "url": "https://en.wikipedia.org/wiki/Bolivia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/India", "external_id": "geo-rebuild-001-003", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "Bounded by the Arabian Sea and the Bay of Bengal, this South Asian country is the world's most populous.", "answer": "India", "aliases": ["Republic of India"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "India", "url": "https://en.wikipedia.org/wiki/India" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Kenya", "external_id": "geo-rebuild-001-004", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "This East African country's capital is Nairobi, while its oldest city is the port of Mombasa.", "answer": "Kenya", "aliases": ["Republic of Kenya"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Kenya", "url": "https://en.wikipedia.org/wiki/Kenya" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Myanmar", "external_id": "geo-rebuild-001-005", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Formerly called Burma, this nation is the largest country by area in mainland Southeast Asia.", "answer": "Myanmar", "aliases": ["Burma"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Myanmar", "url": "https://en.wikipedia.org/wiki/Myanmar" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Oman", "external_id": "geo-rebuild-001-006", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "This sultanate on the southeastern Arabian Peninsula borders Saudi Arabia, the UAE, and Yemen.", "answer": "Oman", "aliases": ["Sultanate of Oman"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Oman", "url": "https://en.wikipedia.org/wiki/Oman" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/South_Korea", "external_id": "geo-rebuild-001-007", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "This East Asian country occupies the lower half of its peninsula, separated from its neighbor by the DMZ.", "answer": "South Korea", "aliases": ["Republic of Korea", "ROK"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "South Korea", "url": "https://en.wikipedia.org/wiki/South_Korea" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia", "external_id": "geo-rebuild-001-008", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Founded in 1960 to replace Rio de Janeiro, this planned city in the Brazilian Highlands is the national capital.", "answer": "Brasília", "aliases": ["Brasilia"], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Brasília", "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Cairo", "external_id": "geo-rebuild-001-009", "category_id": "geography", "subcategory_name": "World Capitals", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "Home to over 9.8 million people, this capital of Egypt anchors the largest urban area in the Arab world.", "answer": "Cairo", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Cairo", "url": "https://en.wikipedia.org/wiki/Cairo" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Bogot%C3%A1", "external_id": "geo-rebuild-001-010", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Administered as a Capital District high in the Andes, this is the capital and largest city of Colombia.", "answer": "Bogotá", "aliases": ["Bogota"], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Bogotá", "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Cardiff", "external_id": "geo-rebuild-001-011", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "In the country's southeast, this largest city of Wales serves as its capital.", "answer": "Cardiff", "aliases": ["Caerdydd"], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Cardiff", "url": "https://en.wikipedia.org/wiki/Cardiff" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Riyadh", "external_id": "geo-rebuild-001-012", "category_id": "geography", "subcategory_name": "World Capitals", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Sitting on the eastern bank of Wadi Hanifa, this capital and largest city of Saudi Arabia grew from an 18th-century walled town.", "answer": "Riyadh", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Riyadh", "url": "https://en.wikipedia.org/wiki/Riyadh" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Delaware", "external_id": "geo-rebuild-001-013", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "This Mid-Atlantic state borders Maryland, Pennsylvania, and New Jersey, and takes its name from a bay honoring Baron De La Warr.", "answer": "Delaware", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Delaware", "url": "https://en.wikipedia.org/wiki/Delaware" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Iowa", "external_id": "geo-rebuild-001-014", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "This Upper Midwestern state is bordered by the Mississippi River on the east and the Missouri and Big Sioux rivers on the west.", "answer": "Iowa", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Iowa", "url": "https://en.wikipedia.org/wiki/Iowa" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Louisiana", "external_id": "geo-rebuild-001-015", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Bordered by Texas, Arkansas, and Mississippi, this Deep South state ranks 31st in area among the 50.", "answer": "Louisiana", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Louisiana", "url": "https://en.wikipedia.org/wiki/Louisiana" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Minnesota", "external_id": "geo-rebuild-001-016", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Bordering Manitoba and Ontario to the north, this Upper Midwest state is nicknamed the Land of 10,000 Lakes.", "answer": "Minnesota", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Minnesota", "url": "https://en.wikipedia.org/wiki/Minnesota" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Cleveland", "external_id": "geo-rebuild-001-017", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "On the southern shore of Lake Erie, this Ohio city is the seat of Cuyahoga County.", "answer": "Cleveland", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-cities"], "citations": [{ "source": "wikipedia", "title": "Cleveland", "url": "https://en.wikipedia.org/wiki/Cleveland" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Pittsburgh", "external_id": "geo-rebuild-001-018", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Where the Allegheny and Monongahela rivers meet to form the Ohio, this is Pennsylvania's second-most populous city.", "answer": "Pittsburgh", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-cities"], "citations": [{ "source": "wikipedia", "title": "Pittsburgh", "url": "https://en.wikipedia.org/wiki/Pittsburgh" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Las_Vegas", "external_id": "geo-rebuild-001-019", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "The most populous city in Nevada, it is the seat of Clark County.", "answer": "Las Vegas", "aliases": ["Vegas"], "tags": ["geography-rebuild", "sourced", "us-cities"], "citations": [{ "source": "wikipedia", "title": "Las Vegas", "url": "https://en.wikipedia.org/wiki/Las_Vegas" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Hartford%2C_Connecticut", "external_id": "geo-rebuild-001-020", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "The core city of a metro area of 1.17 million, it is the capital of Connecticut.", "answer": "Hartford", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-cities"], "citations": [{ "source": "wikipedia", "title": "Hartford, Connecticut", "url": "https://en.wikipedia.org/wiki/Hartford%2C_Connecticut" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Charleston%2C_South_Carolina", "external_id": "geo-rebuild-001-021", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "On a harbor formed by the Ashley, Cooper, and Wando rivers, this is the most populous city in South Carolina.", "answer": "Charleston", "aliases": ["Charleston, South Carolina"], "tags": ["geography-rebuild", "sourced", "us-cities"], "citations": [{ "source": "wikipedia", "title": "Charleston, South Carolina", "url": "https://en.wikipedia.org/wiki/Charleston%2C_South_Carolina" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Rh%C3%B4ne", "external_id": "geo-rebuild-001-022", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Rising in the Alps and passing through Lake Geneva, this river empties into the Mediterranean at the Gulf of Lion.", "answer": "Rhône", "aliases": ["Rhone", "the Rhône"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Rhône", "url": "https://en.wikipedia.org/wiki/Rh%C3%B4ne" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Brahmaputra_River", "external_id": "geo-rebuild-001-023", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "Called the Yarlung Tsangpo in Tibet, this trans-boundary river flows through China, India, and Bangladesh.", "answer": "Brahmaputra", "aliases": ["the Brahmaputra", "Brahmaputra River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Brahmaputra River", "url": "https://en.wikipedia.org/wiki/Brahmaputra_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Red_Sea", "external_id": "geo-rebuild-001-024", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Connected to the Indian Ocean by the Bab-el-Mandeb Strait, this sea lies between Africa and Asia.", "answer": "Red Sea", "aliases": ["the Red Sea"], "tags": ["geography-rebuild", "sourced", "seas"], "citations": [{ "source": "wikipedia", "title": "Red Sea", "url": "https://en.wikipedia.org/wiki/Red_Sea" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Mount_Rainier", "external_id": "geo-rebuild-001-025", "category_id": "geography", "subcategory_name": "Mountains & Deserts", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "At 14,410 feet, this active stratovolcano in the Cascade Range is the highest mountain in Washington state.", "answer": "Mount Rainier", "aliases": ["Rainier", "Tahoma"], "tags": ["geography-rebuild", "sourced", "mountains"], "citations": [{ "source": "wikipedia", "title": "Mount Rainier", "url": "https://en.wikipedia.org/wiki/Mount_Rainier" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Berkshires", "external_id": "geo-rebuild-001-026", "category_id": "geography", "subcategory_name": "Mountains & Deserts", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "These western Massachusetts highlands lie between the Housatonic and Connecticut rivers.", "answer": "Berkshires", "aliases": ["the Berkshires"], "tags": ["geography-rebuild", "sourced", "mountains"], "citations": [{ "source": "wikipedia", "title": "Berkshires", "url": "https://en.wikipedia.org/wiki/Berkshires" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Bimini", "external_id": "geo-rebuild-001-027", "category_id": "geography", "subcategory_name": "Islands & Archipelagos", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "The westernmost district of the Bahamas, this island chain lies about 50 miles east of Miami.", "answer": "Bimini", "aliases": [], "tags": ["geography-rebuild", "sourced", "islands"], "citations": [{ "source": "wikipedia", "title": "Bimini", "url": "https://en.wikipedia.org/wiki/Bimini" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Tierra_del_Fuego", "external_id": "geo-rebuild-001-028", "category_id": "geography", "subcategory_name": "Islands & Archipelagos", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Across the Strait of Magellan from the mainland, this archipelago's name is Spanish for 'Land of Fire.'", "answer": "Tierra del Fuego", "aliases": [], "tags": ["geography-rebuild", "sourced", "islands"], "citations": [{ "source": "wikipedia", "title": "Tierra del Fuego", "url": "https://en.wikipedia.org/wiki/Tierra_del_Fuego" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Bavaria", "external_id": "geo-rebuild-001-029", "category_id": "geography", "subcategory_name": "World Regions", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Germany's largest state by area, it has Munich as its capital and borders Austria and the Czech Republic.", "answer": "Bavaria", "aliases": ["Bayern", "Free State of Bavaria"], "tags": ["geography-rebuild", "sourced", "regions"], "citations": [{ "source": "wikipedia", "title": "Bavaria", "url": "https://en.wikipedia.org/wiki/Bavaria" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Western_Australia", "external_id": "geo-rebuild-001-030", "category_id": "geography", "subcategory_name": "World Regions", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Bounded by the Indian and Southern Oceans, it is Australia's largest state by area.", "answer": "Western Australia", "aliases": ["WA"], "tags": ["geography-rebuild", "sourced", "regions"], "citations": [{ "source": "wikipedia", "title": "Western Australia", "url": "https://en.wikipedia.org/wiki/Western_Australia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Casablanca", "external_id": "geo-rebuild-001-031", "category_id": "geography", "subcategory_name": "World Regions", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "On the Atlantic coast of the Chaouia plain, this is Morocco's largest city and economic center — though not its capital.", "answer": "Casablanca", "aliases": [], "tags": ["geography-rebuild", "sourced", "regions"], "citations": [{ "source": "wikipedia", "title": "Casablanca", "url": "https://en.wikipedia.org/wiki/Casablanca" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo", "external_id": "geo-rebuild-001-032", "category_id": "geography", "subcategory_name": "World Regions", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Sharing its name with the surrounding state, this is the most populous city in Brazil and in all the Americas.", "answer": "São Paulo", "aliases": ["Sao Paulo"], "tags": ["geography-rebuild", "sourced", "regions"], "citations": [{ "source": "wikipedia", "title": "São Paulo", "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Time_zone", "external_id": "geo-rebuild-001-033", "category_id": "geography", "subcategory_name": "Maps, Coordinates & Extremes", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Tending to follow country boundaries rather than strict longitude, these areas each observe a uniform standard time.", "answer": "time zone", "aliases": ["time zones"], "tags": ["geography-rebuild", "sourced", "maps"], "citations": [{ "source": "wikipedia", "title": "Time zone", "url": "https://en.wikipedia.org/wiki/Time_zone" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" }
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Argentina",
+      "external_id": "geo-rebuild-001-001",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Occupying most of the Southern Cone, this is South America's second-largest country after Brazil.",
+      "answer": "Argentina",
+      "aliases": [
+        "Argentine Republic"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Argentina",
+          "url": "https://en.wikipedia.org/wiki/Argentina"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bolivia",
+      "external_id": "geo-rebuild-001-002",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This landlocked South American nation spans an Andean west and tropical lowlands, including the high-altitude Altiplano.",
+      "answer": "Bolivia",
+      "aliases": [
+        "Plurinational State of Bolivia"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bolivia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/India",
+      "external_id": "geo-rebuild-001-003",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Bounded by the Arabian Sea and the Bay of Bengal, this South Asian country is the world's most populous.",
+      "answer": "India",
+      "aliases": [
+        "Republic of India"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "India",
+          "url": "https://en.wikipedia.org/wiki/India"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Kenya",
+      "external_id": "geo-rebuild-001-004",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This East African country's oldest city is the port of Mombasa; its capital and largest city sits inland.",
+      "answer": "Kenya",
+      "aliases": [
+        "Republic of Kenya"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Kenya",
+          "url": "https://en.wikipedia.org/wiki/Kenya"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Myanmar",
+      "external_id": "geo-rebuild-001-005",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Formerly called Burma, this nation is the largest country by area in mainland Southeast Asia.",
+      "answer": "Myanmar",
+      "aliases": [
+        "Burma"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Myanmar",
+          "url": "https://en.wikipedia.org/wiki/Myanmar"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Oman",
+      "external_id": "geo-rebuild-001-006",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This sultanate on the southeastern Arabian Peninsula borders Saudi Arabia, the UAE, and Yemen.",
+      "answer": "Oman",
+      "aliases": [
+        "Sultanate of Oman"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Oman",
+          "url": "https://en.wikipedia.org/wiki/Oman"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/South_Korea",
+      "external_id": "geo-rebuild-001-007",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This East Asian country occupies the lower half of its peninsula, separated from its neighbor by the DMZ.",
+      "answer": "South Korea",
+      "aliases": [
+        "Republic of Korea",
+        "ROK"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "South Korea",
+          "url": "https://en.wikipedia.org/wiki/South_Korea"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+      "external_id": "geo-rebuild-001-008",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded in 1960 to replace Rio de Janeiro as the national capital, this planned city sits in the Brazilian Highlands.",
+      "answer": "Brasília",
+      "aliases": [
+        "Brasilia"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Brasília",
+          "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cairo",
+      "external_id": "geo-rebuild-001-009",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Home to over 9.8 million people, this capital of Egypt anchors the largest urban area in the Arab world.",
+      "answer": "Cairo",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cairo",
+          "url": "https://en.wikipedia.org/wiki/Cairo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+      "external_id": "geo-rebuild-001-010",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Administered as a Capital District high in the Andes, this is the capital and largest city of Colombia.",
+      "answer": "Bogotá",
+      "aliases": [
+        "Bogota"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bogotá",
+          "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cardiff",
+      "external_id": "geo-rebuild-001-011",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The largest city in Wales, it was formally recognized as the country's capital in 1955.",
+      "answer": "Cardiff",
+      "aliases": [
+        "Caerdydd"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cardiff",
+          "url": "https://en.wikipedia.org/wiki/Cardiff"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Riyadh",
+      "external_id": "geo-rebuild-001-012",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Sitting on the eastern bank of Wadi Hanifa, this capital and largest city of Saudi Arabia grew from an 18th-century walled town.",
+      "answer": "Riyadh",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Riyadh",
+          "url": "https://en.wikipedia.org/wiki/Riyadh"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Delaware",
+      "external_id": "geo-rebuild-001-013",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Mid-Atlantic state borders Maryland, Pennsylvania, and New Jersey, and takes its name from a bay honoring Baron De La Warr.",
+      "answer": "Delaware",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Delaware",
+          "url": "https://en.wikipedia.org/wiki/Delaware"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Iowa",
+      "external_id": "geo-rebuild-001-014",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Upper Midwestern state is bordered by the Mississippi River on the east and the Missouri and Big Sioux rivers on the west.",
+      "answer": "Iowa",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Iowa",
+          "url": "https://en.wikipedia.org/wiki/Iowa"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Louisiana",
+      "external_id": "geo-rebuild-001-015",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Bordered by Texas, Arkansas, and Mississippi, this Deep South state ranks 31st in area among the 50.",
+      "answer": "Louisiana",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Louisiana",
+          "url": "https://en.wikipedia.org/wiki/Louisiana"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Minnesota",
+      "external_id": "geo-rebuild-001-016",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Bordering Manitoba and Ontario to the north, this Upper Midwest state is nicknamed the Land of 10,000 Lakes.",
+      "answer": "Minnesota",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Minnesota",
+          "url": "https://en.wikipedia.org/wiki/Minnesota"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cleveland",
+      "external_id": "geo-rebuild-001-017",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On the southern shore of Lake Erie, this Ohio city is the seat of Cuyahoga County.",
+      "answer": "Cleveland",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-cities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cleveland",
+          "url": "https://en.wikipedia.org/wiki/Cleveland"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pittsburgh",
+      "external_id": "geo-rebuild-001-018",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Pennsylvania's second-largest city sits where the Allegheny and Monongahela rivers meet to form the Ohio.",
+      "answer": "Pittsburgh",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-cities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pittsburgh",
+          "url": "https://en.wikipedia.org/wiki/Pittsburgh"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Las_Vegas",
+      "external_id": "geo-rebuild-001-019",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The most populous city in Nevada, it is the seat of Clark County.",
+      "answer": "Las Vegas",
+      "aliases": [
+        "Vegas"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-cities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Las Vegas",
+          "url": "https://en.wikipedia.org/wiki/Las_Vegas"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hartford%2C_Connecticut",
+      "external_id": "geo-rebuild-001-020",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Once home to Mark Twain and long a hub of the U.S. insurance industry, it is the capital of Connecticut.",
+      "answer": "Hartford",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-cities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hartford, Connecticut",
+          "url": "https://en.wikipedia.org/wiki/Hartford%2C_Connecticut"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Charleston%2C_South_Carolina",
+      "external_id": "geo-rebuild-001-021",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "South Carolina's most populous city, it sits on a harbor formed by the Ashley, Cooper, and Wando rivers.",
+      "answer": "Charleston",
+      "aliases": [
+        "Charleston, South Carolina"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-cities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Charleston, South Carolina",
+          "url": "https://en.wikipedia.org/wiki/Charleston%2C_South_Carolina"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Rh%C3%B4ne",
+      "external_id": "geo-rebuild-001-022",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rising in the Alps and passing through Lake Geneva, this river empties into the Mediterranean at the Gulf of Lion.",
+      "answer": "Rhône",
+      "aliases": [
+        "Rhone",
+        "the Rhône"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rhône",
+          "url": "https://en.wikipedia.org/wiki/Rh%C3%B4ne"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Brahmaputra_River",
+      "external_id": "geo-rebuild-001-023",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Called the Yarlung Tsangpo in Tibet, this trans-boundary river flows through China, India, and Bangladesh.",
+      "answer": "Brahmaputra",
+      "aliases": [
+        "the Brahmaputra",
+        "Brahmaputra River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Brahmaputra River",
+          "url": "https://en.wikipedia.org/wiki/Brahmaputra_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Red_Sea",
+      "external_id": "geo-rebuild-001-024",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Connected to the Indian Ocean by the Bab-el-Mandeb Strait, this sea lies between Africa and Asia.",
+      "answer": "Red Sea",
+      "aliases": [
+        "the Red Sea"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "seas"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Red Sea",
+          "url": "https://en.wikipedia.org/wiki/Red_Sea"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mount_Rainier",
+      "external_id": "geo-rebuild-001-025",
+      "category_id": "geography",
+      "subcategory_name": "Mountains & Deserts",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "At 14,410 feet, this active stratovolcano in the Cascade Range is the highest mountain in Washington state.",
+      "answer": "Mount Rainier",
+      "aliases": [
+        "Rainier",
+        "Tahoma"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "mountains"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mount Rainier",
+          "url": "https://en.wikipedia.org/wiki/Mount_Rainier"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Berkshires",
+      "external_id": "geo-rebuild-001-026",
+      "category_id": "geography",
+      "subcategory_name": "Mountains & Deserts",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "These western Massachusetts highlands lie between the Housatonic and Connecticut rivers.",
+      "answer": "Berkshires",
+      "aliases": [
+        "the Berkshires"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "mountains"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Berkshires",
+          "url": "https://en.wikipedia.org/wiki/Berkshires"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bimini",
+      "external_id": "geo-rebuild-001-027",
+      "category_id": "geography",
+      "subcategory_name": "Islands & Archipelagos",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The westernmost district of the Bahamas, this island chain lies about 50 miles east of Miami.",
+      "answer": "Bimini",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "islands"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bimini",
+          "url": "https://en.wikipedia.org/wiki/Bimini"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tierra_del_Fuego",
+      "external_id": "geo-rebuild-001-028",
+      "category_id": "geography",
+      "subcategory_name": "Islands & Archipelagos",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This southern South American archipelago draws its name from the inhabitants' bonfires, which Magellan spotted as he sailed past.",
+      "answer": "Tierra del Fuego",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "islands"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tierra del Fuego",
+          "url": "https://en.wikipedia.org/wiki/Tierra_del_Fuego"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bavaria",
+      "external_id": "geo-rebuild-001-029",
+      "category_id": "geography",
+      "subcategory_name": "World Regions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Germany's largest state by area, it has Munich as its capital and borders Austria and the Czech Republic.",
+      "answer": "Bavaria",
+      "aliases": [
+        "Bayern",
+        "Free State of Bavaria"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "regions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bavaria",
+          "url": "https://en.wikipedia.org/wiki/Bavaria"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Western_Australia",
+      "external_id": "geo-rebuild-001-030",
+      "category_id": "geography",
+      "subcategory_name": "World Regions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Perth is the capital of this state, the largest in its country by area.",
+      "answer": "Western Australia",
+      "aliases": [
+        "WA"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "regions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Western Australia",
+          "url": "https://en.wikipedia.org/wiki/Western_Australia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Casablanca",
+      "external_id": "geo-rebuild-001-031",
+      "category_id": "geography",
+      "subcategory_name": "World Regions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On the Atlantic coast of the Chaouia plain, this is Morocco's largest city and economic center — though not its capital.",
+      "answer": "Casablanca",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "regions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Casablanca",
+          "url": "https://en.wikipedia.org/wiki/Casablanca"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+      "external_id": "geo-rebuild-001-032",
+      "category_id": "geography",
+      "subcategory_name": "World Regions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Sharing its name with the surrounding state, this is the most populous city in Brazil and in all the Americas.",
+      "answer": "São Paulo",
+      "aliases": [
+        "Sao Paulo"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "regions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "São Paulo",
+          "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Time_zone",
+      "external_id": "geo-rebuild-001-033",
+      "category_id": "geography",
+      "subcategory_name": "Maps, Coordinates & Extremes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Roughly following national borders rather than strict lines of longitude, these divisions of the globe each keep a single standard clock.",
+      "answer": "time zone",
+      "aliases": [
+        "time zones"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "maps"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Time zone",
+          "url": "https://en.wikipedia.org/wiki/Time_zone"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    }
   ]
 }

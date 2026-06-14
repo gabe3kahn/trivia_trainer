@@ -12,11 +12,11 @@
       "external_id": "geo-rebuild-006-001",
       "category_id": "geography",
       "subcategory_name": "U.S. States & Cities",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This island state lies about 2,000 miles from the U.S. mainland in the Pacific Ocean.",
+      "clue": "Some 2,000 miles west-southwest of the U.S. mainland, it is the country's only island state.",
       "answer": "Hawaii",
       "aliases": [],
       "tags": [
@@ -72,7 +72,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "It is the most populous state in the American South.",
+      "clue": "The second-most populous U.S. state, it was an independent republic from 1836 until joining the Union in 1845.",
       "answer": "Texas",
       "aliases": [],
       "tags": [
@@ -100,7 +100,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Made up of two peninsulas, this Great Lakes state touches four of the five Great Lakes.",
+      "clue": "Split into Upper and Lower peninsulas, this state touches four of the five Great Lakes.",
       "answer": "Michigan",
       "aliases": [],
       "tags": [
@@ -128,7 +128,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "It is the only U.S. state described as 'triple-landlocked.'",
+      "clue": "The only U.S. state with a unicameral, officially nonpartisan legislature, it lies in the Great Plains.",
       "answer": "Nebraska",
       "aliases": [],
       "tags": [
@@ -156,7 +156,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "It is the northeasternmost state in the contiguous United States.",
+      "clue": "It is the easternmost state in the contiguous United States.",
       "answer": "Maine",
       "aliases": [],
       "tags": [
@@ -180,8 +180,8 @@
       "external_id": "geo-rebuild-006-007",
       "category_id": "geography",
       "subcategory_name": "U.S. States & Cities",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "It is the upper of the two U.S. states named for a group of Sioux peoples.",
@@ -240,7 +240,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "It is the most densely populated U.S. state, in the Mid-Atlantic region.",
+      "clue": "Located on the eastern seaboard, it is the most densely populated of all U.S. states.",
       "answer": "New Jersey",
       "aliases": [],
       "tags": [
@@ -264,8 +264,8 @@
       "external_id": "geo-rebuild-006-010",
       "category_id": "geography",
       "subcategory_name": "U.S. States & Cities",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Pacific Northwest state was named for the first U.S. president.",
@@ -406,8 +406,8 @@
       "external_id": "geo-rebuild-006-015",
       "category_id": "geography",
       "subcategory_name": "U.S. States & Cities",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Mid-Atlantic state wraps around much of Washington, D.C., and borders Virginia and West Virginia.",
@@ -746,6 +746,35 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Commonwealth_(U.S._state)",
+      "external_id": "geo-rebuild-006-027",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Kentucky, Massachusetts, Pennsylvania, and Virginia are the four U.S. states officially designated by this term.",
+      "answer": "Commonwealth",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Commonwealth (U.S. state)",
+          "url": "https://en.wikipedia.org/wiki/Commonwealth_(U.S._state)"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z",
+      "reviewer_note": "Four U.S. states are officially styled a 'Commonwealth': Kentucky, Massachusetts, Pennsylvania, Virginia."
     }
   ]
 }
