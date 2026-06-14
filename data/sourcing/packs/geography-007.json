@@ -94,7 +94,8 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-13T00:00:00Z"
+      "verified_at": "2026-06-13T00:00:00Z",
+      "lock_value": true
     },
     {
       "source": "original_sourced",
@@ -500,7 +501,8 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-13T00:00:00Z"
+      "verified_at": "2026-06-13T00:00:00Z",
+      "lock_value": true
     },
     {
       "source": "original_sourced",
