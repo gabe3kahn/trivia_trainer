@@ -102,11 +102,11 @@
       "external_id": "geo-rebuild-004-004",
       "category_id": "geography",
       "subcategory_name": "Countries & Borders",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Extending along a narrow strip between the Andes and the Pacific, it is the southernmost country in the world.",
+      "clue": "It is generally regarded as the world's southernmost country.",
       "answer": "Chile",
       "aliases": [
         "Republic of Chile"
@@ -136,7 +136,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "On South America's western coast, it is bordered by Ecuador, Colombia, Brazil, Bolivia, and Chile.",
+      "clue": "This Andean nation was the heart of the Inca Empire and is home to the ruins of Machu Picchu.",
       "answer": "Peru",
       "aliases": [
         "Republic of Peru"
@@ -166,7 +166,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Bordered by Venezuela to the east and Brazil to the south, it has a Caribbean coast to its north.",
+      "clue": "It is the only South American country that borders Central America.",
       "answer": "Colombia",
       "aliases": [
         "Republic of Colombia"
@@ -317,7 +317,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "At the eastern edge of mainland Southeast Asia, this country of over 100 million is officially a Socialist Republic.",
+      "clue": "Bordering China, Laos, and Cambodia, this Socialist Republic of over 100 million stretches along the South China Sea.",
       "answer": "Vietnam",
       "aliases": [
         "Socialist Republic of Vietnam",
@@ -348,7 +348,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Comprising over 17,000 islands including Java and Sumatra, it lies between the Indian and Pacific Oceans.",
+      "clue": "The world's largest archipelago and most populous Muslim-majority nation, it spans over 17,000 islands.",
       "answer": "Indonesia",
       "aliases": [
         "Republic of Indonesia"
@@ -378,7 +378,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "An archipelago of some 7,641 islands in the western Pacific, it is a country in Southeast Asia.",
+      "clue": "This Southeast Asian archipelago of more than 7,000 islands is named for a 16th-century Spanish king.",
       "answer": "Philippines",
       "aliases": [
         "Republic of the Philippines"
@@ -464,11 +464,11 @@
       "external_id": "geo-rebuild-004-016",
       "category_id": "geography",
       "subcategory_name": "Countries & Borders",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The second-largest country lying entirely in Europe, it is bordered to the east by Russia and to the west by Poland.",
+      "clue": "It is the largest country lying entirely within Europe.",
       "answer": "Ukraine",
       "aliases": [],
       "tags": [
@@ -527,7 +527,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In the Southern Levant, it is bordered by Lebanon, Syria, Jordan, and Egypt.",
+      "clue": "The world's only Jewish-majority state, it was established in 1948 on the eastern shore of the Mediterranean.",
       "answer": "Israel",
       "aliases": [
         "State of Israel"
@@ -581,8 +581,8 @@
       "external_id": "geo-rebuild-004-020",
       "category_id": "geography",
       "subcategory_name": "World Capitals",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "With a metro population around 3 million, it is the capital and most populous city of Portugal.",
@@ -674,7 +674,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "On a desert coast overlooking the Pacific, this primate city is the capital of Peru.",
+      "clue": "On a desert coast overlooking the Pacific, this metropolis is the capital of Peru.",
       "answer": "Lima",
       "aliases": [],
       "tags": [
@@ -818,7 +818,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Neither Sydney nor Melbourne, this purpose-built city in its own territory is the capital of Australia.",
+      "clue": "Purpose-built in its own territory as a compromise between the nation's two largest cities, it became the capital of Australia in 1913.",
       "answer": "Canberra",
       "aliases": [],
       "tags": [
@@ -870,11 +870,11 @@
       "external_id": "geo-rebuild-004-030",
       "category_id": "geography",
       "subcategory_name": "World Capitals",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The southernmost capital on the European mainland, it is the capital of Greece.",
+      "clue": "It is the southernmost capital on the European mainland.",
       "answer": "Athens",
       "aliases": [],
       "tags": [
