@@ -2,47 +2,1192 @@
   "generated_at": "2026-06-13T00:00:00Z",
   "provider": "original_sourced",
   "category_id": "geography",
-  "notes": ["Geography batch 008 — rivers + lakes, grounded in cited Wikipedia extracts. Varied hooks: superlatives (longest/deepest/largest), what they flow into, what they border/separate."],
+  "notes": [
+    "Geography batch 008 — rivers + lakes, grounded in cited Wikipedia extracts. Varied hooks: superlatives (longest/deepest/largest), what they flow into, what they border/separate."
+  ],
   "questions": [
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Nile", "external_id": "geo-rebuild-008-001", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "This north-flowing river of northeast Africa empties into the Mediterranean and is the longest in the world.", "answer": "Nile", "aliases": ["Nile River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Nile", "url": "https://en.wikipedia.org/wiki/Nile" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Amazon_River", "external_id": "geo-rebuild-008-002", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "It is the largest river in the world by discharge volume of water.", "answer": "Amazon River", "aliases": ["Amazon"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Amazon River", "url": "https://en.wikipedia.org/wiki/Amazon_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Yangtze", "external_id": "geo-rebuild-008-003", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "It is the longest river in China and the third-longest in the world.", "answer": "Yangtze", "aliases": ["Yangtze River", "Chang Jiang"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Yangtze", "url": "https://en.wikipedia.org/wiki/Yangtze" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Mississippi_River", "external_id": "geo-rebuild-008-004", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "The primary river of the largest U.S. drainage basin, it is the country's second-longest, behind the Missouri.", "answer": "Mississippi River", "aliases": ["Mississippi"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Mississippi River", "url": "https://en.wikipedia.org/wiki/Mississippi_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Yellow_River", "external_id": "geo-rebuild-008-005", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Also known as the Huang He, it is the second-longest river in China.", "answer": "Yellow River", "aliases": ["Huang He"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Yellow River", "url": "https://en.wikipedia.org/wiki/Yellow_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Congo_River", "external_id": "geo-rebuild-008-006", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Formerly known as the Zaire, it is the second-longest river in Africa, after the Nile.", "answer": "Congo River", "aliases": ["Congo", "Zaire River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Congo River", "url": "https://en.wikipedia.org/wiki/Congo_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Danube", "external_id": "geo-rebuild-008-007", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Europe's second-longest river, it flows from Germany's Black Forest to the Black Sea.", "answer": "Danube", "aliases": ["Danube River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Danube", "url": "https://en.wikipedia.org/wiki/Danube" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Volga", "external_id": "geo-rebuild-008-008", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "It is the longest river in Europe, flowing through Russia into the Caspian Sea.", "answer": "Volga", "aliases": ["Volga River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Volga", "url": "https://en.wikipedia.org/wiki/Volga" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Mekong", "external_id": "geo-rebuild-008-009", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "The longest river in Southeast Asia, it runs through six countries to a vast delta in Vietnam.", "answer": "Mekong", "aliases": ["Mekong River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Mekong", "url": "https://en.wikipedia.org/wiki/Mekong" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Niger_River", "external_id": "geo-rebuild-008-010", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "The principal river of West Africa, it lends its name to two neighboring countries.", "answer": "Niger River", "aliases": ["Niger"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Niger River", "url": "https://en.wikipedia.org/wiki/Niger_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Indus_River", "external_id": "geo-rebuild-008-011", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "Rising in Tibet, this river gives its name to one of the world's earliest civilizations.", "answer": "Indus River", "aliases": ["Indus"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Indus River", "url": "https://en.wikipedia.org/wiki/Indus_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Amur", "external_id": "geo-rebuild-008-012", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "This river forms much of the natural border between the Russian Far East and northeastern China.", "answer": "Amur River", "aliases": ["Amur", "Heilong River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Amur", "url": "https://en.wikipedia.org/wiki/Amur" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lena_(river)", "external_id": "geo-rebuild-008-013", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 1000, "difficulty_rank": 5, "mechanic": "standard", "constraint_text": null, "clue": "The easternmost of the three great Siberian rivers that flow into the Arctic Ocean.", "answer": "Lena River", "aliases": ["Lena"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Lena", "url": "https://en.wikipedia.org/wiki/Lena_(river)" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Ob_(river)", "external_id": "geo-rebuild-008-014", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 1000, "difficulty_rank": 5, "mechanic": "standard", "constraint_text": null, "clue": "With its tributary the Irtysh, this western Siberian river forms one of the world's longest river systems.", "answer": "Ob River", "aliases": ["Ob"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Ob", "url": "https://en.wikipedia.org/wiki/Ob_(river)" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Yenisei", "external_id": "geo-rebuild-008-015", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 1000, "difficulty_rank": 5, "mechanic": "standard", "constraint_text": null, "clue": "Rising near Mongolia, it is the largest river to drain into the Arctic Ocean.", "answer": "Yenisei", "aliases": ["Yenisey", "Yenisei River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Yenisei", "url": "https://en.wikipedia.org/wiki/Yenisei" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Mackenzie_River", "external_id": "geo-rebuild-008-016", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "The longest river in Canada, it flows through boreal forest and tundra to the Arctic Ocean.", "answer": "Mackenzie River", "aliases": ["Mackenzie"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Mackenzie River", "url": "https://en.wikipedia.org/wiki/Mackenzie_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Murray_River", "external_id": "geo-rebuild-008-017", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "It is the longest river in Australia, flowing through the country's southeast.", "answer": "Murray River", "aliases": ["Murray"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Murray River", "url": "https://en.wikipedia.org/wiki/Murray_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Paran%C3%A1_River", "external_id": "geo-rebuild-008-018", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "Running through Brazil, Paraguay, and Argentina, it is South America's second-longest river.", "answer": "Paraná River", "aliases": ["Parana River", "Paraná"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Paraná River", "url": "https://en.wikipedia.org/wiki/Paran%C3%A1_River" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Tigris", "external_id": "geo-rebuild-008-019", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Along with the Euphrates, this river defined ancient Mesopotamia.", "answer": "Tigris", "aliases": ["Tigris River"], "tags": ["geography-rebuild", "sourced", "rivers"], "citations": [{ "source": "wikipedia", "title": "Tigris", "url": "https://en.wikipedia.org/wiki/Tigris" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Caspian_Sea", "external_id": "geo-rebuild-008-020", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "It is the world's largest inland body of water, an endorheic basin usually referred to as a sea.", "answer": "Caspian Sea", "aliases": ["Caspian"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Caspian Sea", "url": "https://en.wikipedia.org/wiki/Caspian_Sea" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Baikal", "external_id": "geo-rebuild-008-021", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "In southern Siberia, it is the deepest lake in the world.", "answer": "Lake Baikal", "aliases": ["Baikal"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Baikal", "url": "https://en.wikipedia.org/wiki/Lake_Baikal" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Superior", "external_id": "geo-rebuild-008-022", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "The largest of North America's Great Lakes by surface area, it straddles the U.S.–Canada border.", "answer": "Lake Superior", "aliases": ["Superior"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Superior", "url": "https://en.wikipedia.org/wiki/Lake_Superior" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Victoria", "external_id": "geo-rebuild-008-023", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Africa's largest lake by area, it is also the world's largest tropical lake.", "answer": "Lake Victoria", "aliases": ["Victoria"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Victoria", "url": "https://en.wikipedia.org/wiki/Lake_Victoria" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Tanganyika", "external_id": "geo-rebuild-008-024", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "After Baikal, it is the world's second-largest freshwater lake by volume and the second-deepest.", "answer": "Lake Tanganyika", "aliases": ["Tanganyika"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Tanganyika", "url": "https://en.wikipedia.org/wiki/Lake_Tanganyika" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Michigan", "external_id": "geo-rebuild-008-025", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "It is the only one of the five Great Lakes that lies entirely within the United States.", "answer": "Lake Michigan", "aliases": [], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Michigan", "url": "https://en.wikipedia.org/wiki/Lake_Michigan" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Huron", "external_id": "geo-rebuild-008-026", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Shared by Ontario and Michigan, it is the second-largest Great Lake by surface area.", "answer": "Lake Huron", "aliases": ["Huron"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Huron", "url": "https://en.wikipedia.org/wiki/Lake_Huron" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Erie", "external_id": "geo-rebuild-008-027", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "The shallowest and southernmost of the Great Lakes, it is the smallest by volume.", "answer": "Lake Erie", "aliases": ["Erie"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Erie", "url": "https://en.wikipedia.org/wiki/Lake_Erie" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Ontario", "external_id": "geo-rebuild-008-028", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "The smallest Great Lake by surface area, it is the last in the chain before the St. Lawrence River.", "answer": "Lake Ontario", "aliases": [], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Ontario", "url": "https://en.wikipedia.org/wiki/Lake_Ontario" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Great_Bear_Lake", "external_id": "geo-rebuild-008-029", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "It is the largest lake located entirely within Canada.", "answer": "Great Bear Lake", "aliases": [], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Great Bear Lake", "url": "https://en.wikipedia.org/wiki/Great_Bear_Lake" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Great_Slave_Lake", "external_id": "geo-rebuild-008-030", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 1000, "difficulty_rank": 5, "mechanic": "standard", "constraint_text": null, "clue": "The deepest lake in North America, it lies in Canada's Northwest Territories.", "answer": "Great Slave Lake", "aliases": [], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Great Slave Lake", "url": "https://en.wikipedia.org/wiki/Great_Slave_Lake" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Malawi", "external_id": "geo-rebuild-008-031", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "Also called Lake Nyasa, it is the southernmost lake of the East African Rift system.", "answer": "Lake Malawi", "aliases": ["Lake Nyasa"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Malawi", "url": "https://en.wikipedia.org/wiki/Lake_Malawi" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Ladoga", "external_id": "geo-rebuild-008-032", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 1000, "difficulty_rank": 5, "mechanic": "standard", "constraint_text": null, "clue": "Near Saint Petersburg, it is the largest lake located entirely in Europe.", "answer": "Lake Ladoga", "aliases": ["Ladoga"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Ladoga", "url": "https://en.wikipedia.org/wiki/Lake_Ladoga" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Balkhash", "external_id": "geo-rebuild-008-033", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 1000, "difficulty_rank": 5, "mechanic": "standard", "constraint_text": null, "clue": "One of the largest lakes in Asia, it lies in southeastern Kazakhstan.", "answer": "Lake Balkhash", "aliases": ["Balkhash"], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Balkhash", "url": "https://en.wikipedia.org/wiki/Lake_Balkhash" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lake_Winnipeg", "external_id": "geo-rebuild-008-034", "category_id": "geography", "subcategory_name": "Rivers, Lakes & Seas", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "Covering some 24,500 square kilometers, this large lake lies in the Canadian province of Manitoba.", "answer": "Lake Winnipeg", "aliases": [], "tags": ["geography-rebuild", "sourced", "lakes"], "citations": [{ "source": "wikipedia", "title": "Lake Winnipeg", "url": "https://en.wikipedia.org/wiki/Lake_Winnipeg" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Idaho", "external_id": "geo-rebuild-008-035", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "A landlocked state of the Pacific Northwest and Mountain West, it touches Canada and borders Montana and Wyoming.", "answer": "Idaho", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Idaho", "url": "https://en.wikipedia.org/wiki/Idaho" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Tennessee", "external_id": "geo-rebuild-008-036", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "A landlocked Southeastern state, it borders Kentucky to the north and Georgia, Alabama, and Mississippi to the south.", "answer": "Tennessee", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Tennessee", "url": "https://en.wikipedia.org/wiki/Tennessee" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Vermont", "external_id": "geo-rebuild-008-037", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "This landlocked New England state borders Massachusetts, New Hampshire, and New York.", "answer": "Vermont", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Vermont", "url": "https://en.wikipedia.org/wiki/Vermont" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/West_Virginia", "external_id": "geo-rebuild-008-038", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "A mountainous, landlocked state, it split from a larger neighbor during the Civil War.", "answer": "West Virginia", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "West Virginia", "url": "https://en.wikipedia.org/wiki/West_Virginia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/South_Dakota", "external_id": "geo-rebuild-008-039", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "This landlocked North Central state is named, like its northern neighbor, for a group of Sioux peoples.", "answer": "South Dakota", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "South Dakota", "url": "https://en.wikipedia.org/wiki/South_Dakota" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Nevada", "external_id": "geo-rebuild-008-040", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "A landlocked state in the Western U.S., it is the driest state in the nation.", "answer": "Nevada", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Nevada", "url": "https://en.wikipedia.org/wiki/Nevada" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" }
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nile",
+      "external_id": "geo-rebuild-008-001",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This north-flowing river of northeast Africa empties into the Mediterranean and is the longest in the world.",
+      "answer": "Nile",
+      "aliases": [
+        "Nile River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nile",
+          "url": "https://en.wikipedia.org/wiki/Nile"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Amazon_River",
+      "external_id": "geo-rebuild-008-002",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the largest river in the world by discharge volume of water.",
+      "answer": "Amazon River",
+      "aliases": [
+        "Amazon"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Amazon River",
+          "url": "https://en.wikipedia.org/wiki/Amazon_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Yangtze",
+      "external_id": "geo-rebuild-008-003",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the longest river in China and the third-longest in the world.",
+      "answer": "Yangtze",
+      "aliases": [
+        "Yangtze River",
+        "Chang Jiang"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Yangtze",
+          "url": "https://en.wikipedia.org/wiki/Yangtze"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mississippi_River",
+      "external_id": "geo-rebuild-008-004",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The primary river of the largest U.S. drainage basin, it is the country's second-longest, behind the Missouri.",
+      "answer": "Mississippi River",
+      "aliases": [
+        "Mississippi"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mississippi River",
+          "url": "https://en.wikipedia.org/wiki/Mississippi_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Yellow_River",
+      "external_id": "geo-rebuild-008-005",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Draining the North China Plain, it is the country's second-longest river, after the Yangtze.",
+      "answer": "Yellow River",
+      "aliases": [
+        "Huang He"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Yellow River",
+          "url": "https://en.wikipedia.org/wiki/Yellow_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Congo_River",
+      "external_id": "geo-rebuild-008-006",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Formerly known as the Zaire, it is the second-longest river in Africa, after the Nile.",
+      "answer": "Congo River",
+      "aliases": [
+        "Congo",
+        "Zaire River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Congo River",
+          "url": "https://en.wikipedia.org/wiki/Congo_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Danube",
+      "external_id": "geo-rebuild-008-007",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Europe's second-longest river, it flows from Germany's Black Forest to the Black Sea.",
+      "answer": "Danube",
+      "aliases": [
+        "Danube River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Danube",
+          "url": "https://en.wikipedia.org/wiki/Danube"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Volga",
+      "external_id": "geo-rebuild-008-008",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the longest river in Europe, flowing through Russia into the Caspian Sea.",
+      "answer": "Volga",
+      "aliases": [
+        "Volga River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Volga",
+          "url": "https://en.wikipedia.org/wiki/Volga"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mekong",
+      "external_id": "geo-rebuild-008-009",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The longest river in Southeast Asia, it runs through six countries to a vast delta in Vietnam.",
+      "answer": "Mekong",
+      "aliases": [
+        "Mekong River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mekong",
+          "url": "https://en.wikipedia.org/wiki/Mekong"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Niger_River",
+      "external_id": "geo-rebuild-008-010",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The principal river of West Africa, it lends its name to two neighboring countries.",
+      "answer": "Niger River",
+      "aliases": [
+        "Niger"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Niger River",
+          "url": "https://en.wikipedia.org/wiki/Niger_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Indus_River",
+      "external_id": "geo-rebuild-008-011",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rising in Tibet, this river gives its name to one of the world's earliest civilizations.",
+      "answer": "Indus River",
+      "aliases": [
+        "Indus"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Indus River",
+          "url": "https://en.wikipedia.org/wiki/Indus_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Amur",
+      "external_id": "geo-rebuild-008-012",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This river forms much of the natural border between the Russian Far East and northeastern China.",
+      "answer": "Amur River",
+      "aliases": [
+        "Amur",
+        "Heilong River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Amur",
+          "url": "https://en.wikipedia.org/wiki/Amur"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lena_(river)",
+      "external_id": "geo-rebuild-008-013",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The easternmost of the three great Siberian rivers that flow into the Arctic Ocean.",
+      "answer": "Lena River",
+      "aliases": [
+        "Lena"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lena",
+          "url": "https://en.wikipedia.org/wiki/Lena_(river)"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ob_(river)",
+      "external_id": "geo-rebuild-008-014",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "With its tributary the Irtysh, this western Siberian river forms one of the world's longest river systems.",
+      "answer": "Ob River",
+      "aliases": [
+        "Ob"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ob",
+          "url": "https://en.wikipedia.org/wiki/Ob_(river)"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Yenisei",
+      "external_id": "geo-rebuild-008-015",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rising near Mongolia, it is the largest river to drain into the Arctic Ocean.",
+      "answer": "Yenisei",
+      "aliases": [
+        "Yenisey",
+        "Yenisei River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Yenisei",
+          "url": "https://en.wikipedia.org/wiki/Yenisei"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mackenzie_River",
+      "external_id": "geo-rebuild-008-016",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The longest river in Canada, it flows through boreal forest and tundra to the Arctic Ocean.",
+      "answer": "Mackenzie River",
+      "aliases": [
+        "Mackenzie"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mackenzie River",
+          "url": "https://en.wikipedia.org/wiki/Mackenzie_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Murray_River",
+      "external_id": "geo-rebuild-008-017",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the longest river in Australia, flowing through the country's southeast.",
+      "answer": "Murray River",
+      "aliases": [
+        "Murray"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Murray River",
+          "url": "https://en.wikipedia.org/wiki/Murray_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Paran%C3%A1_River",
+      "external_id": "geo-rebuild-008-018",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Running through Brazil, Paraguay, and Argentina, it is South America's second-longest river.",
+      "answer": "Paraná River",
+      "aliases": [
+        "Parana River",
+        "Paraná"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Paraná River",
+          "url": "https://en.wikipedia.org/wiki/Paran%C3%A1_River"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tigris",
+      "external_id": "geo-rebuild-008-019",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Along with the Euphrates, this river defined ancient Mesopotamia.",
+      "answer": "Tigris",
+      "aliases": [
+        "Tigris River"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "rivers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tigris",
+          "url": "https://en.wikipedia.org/wiki/Tigris"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Caspian_Sea",
+      "external_id": "geo-rebuild-008-020",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the world's largest inland body of water, an endorheic basin usually referred to as a sea.",
+      "answer": "Caspian Sea",
+      "aliases": [
+        "Caspian"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Caspian Sea",
+          "url": "https://en.wikipedia.org/wiki/Caspian_Sea"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Baikal",
+      "external_id": "geo-rebuild-008-021",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In southern Siberia, it is the deepest lake in the world.",
+      "answer": "Lake Baikal",
+      "aliases": [
+        "Baikal"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Baikal",
+          "url": "https://en.wikipedia.org/wiki/Lake_Baikal"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Superior",
+      "external_id": "geo-rebuild-008-022",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The largest of North America's Great Lakes by surface area, it straddles the U.S.–Canada border.",
+      "answer": "Lake Superior",
+      "aliases": [
+        "Superior"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Superior",
+          "url": "https://en.wikipedia.org/wiki/Lake_Superior"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Victoria",
+      "external_id": "geo-rebuild-008-023",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Africa's largest lake by area, it is also the world's largest tropical lake.",
+      "answer": "Lake Victoria",
+      "aliases": [
+        "Victoria"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Victoria",
+          "url": "https://en.wikipedia.org/wiki/Lake_Victoria"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Tanganyika",
+      "external_id": "geo-rebuild-008-024",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After Baikal, it is the world's second-largest freshwater lake by volume and the second-deepest.",
+      "answer": "Lake Tanganyika",
+      "aliases": [
+        "Tanganyika"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Tanganyika",
+          "url": "https://en.wikipedia.org/wiki/Lake_Tanganyika"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Michigan",
+      "external_id": "geo-rebuild-008-025",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the only one of the five Great Lakes that lies entirely within the United States.",
+      "answer": "Lake Michigan",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Michigan",
+          "url": "https://en.wikipedia.org/wiki/Lake_Michigan"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Huron",
+      "external_id": "geo-rebuild-008-026",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Shared by Ontario and Michigan, it is the second-largest Great Lake by surface area.",
+      "answer": "Lake Huron",
+      "aliases": [
+        "Huron"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Huron",
+          "url": "https://en.wikipedia.org/wiki/Lake_Huron"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Erie",
+      "external_id": "geo-rebuild-008-027",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The shallowest and southernmost of the Great Lakes, it is the smallest by volume.",
+      "answer": "Lake Erie",
+      "aliases": [
+        "Erie"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Erie",
+          "url": "https://en.wikipedia.org/wiki/Lake_Erie"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Ontario",
+      "external_id": "geo-rebuild-008-028",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The smallest Great Lake by surface area, it is the last in the chain before the St. Lawrence River.",
+      "answer": "Lake Ontario",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Ontario",
+          "url": "https://en.wikipedia.org/wiki/Lake_Ontario"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Bear_Lake",
+      "external_id": "geo-rebuild-008-029",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the largest lake located entirely within Canada.",
+      "answer": "Great Bear Lake",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Great Bear Lake",
+          "url": "https://en.wikipedia.org/wiki/Great_Bear_Lake"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Slave_Lake",
+      "external_id": "geo-rebuild-008-030",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The deepest lake in North America, it lies in Canada's Northwest Territories.",
+      "answer": "Great Slave Lake",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Great Slave Lake",
+          "url": "https://en.wikipedia.org/wiki/Great_Slave_Lake"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Malawi",
+      "external_id": "geo-rebuild-008-031",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the southernmost lake of the East African Rift system.",
+      "answer": "Lake Malawi",
+      "aliases": [
+        "Lake Nyasa"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Malawi",
+          "url": "https://en.wikipedia.org/wiki/Lake_Malawi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Ladoga",
+      "external_id": "geo-rebuild-008-032",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Near Saint Petersburg, it is the largest lake located entirely in Europe.",
+      "answer": "Lake Ladoga",
+      "aliases": [
+        "Ladoga"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Ladoga",
+          "url": "https://en.wikipedia.org/wiki/Lake_Ladoga"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Balkhash",
+      "external_id": "geo-rebuild-008-033",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "One of the largest lakes in Asia, it lies in southeastern Kazakhstan.",
+      "answer": "Lake Balkhash",
+      "aliases": [
+        "Balkhash"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Balkhash",
+          "url": "https://en.wikipedia.org/wiki/Lake_Balkhash"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lake_Winnipeg",
+      "external_id": "geo-rebuild-008-034",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Covering some 24,500 square kilometers, this large lake lies in the Canadian province of Manitoba.",
+      "answer": "Lake Winnipeg",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "lakes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lake Winnipeg",
+          "url": "https://en.wikipedia.org/wiki/Lake_Winnipeg"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Idaho",
+      "external_id": "geo-rebuild-008-035",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A landlocked state of the Pacific Northwest and Mountain West, it touches Canada and borders Montana and Wyoming.",
+      "answer": "Idaho",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Idaho",
+          "url": "https://en.wikipedia.org/wiki/Idaho"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tennessee",
+      "external_id": "geo-rebuild-008-036",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A landlocked Southeastern state, it borders Kentucky to the north and Georgia, Alabama, and Mississippi to the south.",
+      "answer": "Tennessee",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tennessee",
+          "url": "https://en.wikipedia.org/wiki/Tennessee"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Vermont",
+      "external_id": "geo-rebuild-008-037",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This landlocked New England state borders Massachusetts, New Hampshire, and New York.",
+      "answer": "Vermont",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Vermont",
+          "url": "https://en.wikipedia.org/wiki/Vermont"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/West_Virginia",
+      "external_id": "geo-rebuild-008-038",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A mountainous, landlocked state, it split from a larger neighbor during the Civil War.",
+      "answer": "West Virginia",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "West Virginia",
+          "url": "https://en.wikipedia.org/wiki/West_Virginia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/South_Dakota",
+      "external_id": "geo-rebuild-008-039",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This landlocked North Central state is named, like its northern neighbor, for a group of Sioux peoples.",
+      "answer": "South Dakota",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "South Dakota",
+          "url": "https://en.wikipedia.org/wiki/South_Dakota"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nevada",
+      "external_id": "geo-rebuild-008-040",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A landlocked state in the Western U.S., it is the driest state in the nation.",
+      "answer": "Nevada",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nevada",
+          "url": "https://en.wikipedia.org/wiki/Nevada"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    }
   ]
 }

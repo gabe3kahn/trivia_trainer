@@ -2,38 +2,923 @@
   "generated_at": "2026-06-13T00:00:00Z",
   "provider": "original_sourced",
   "category_id": "geography",
-  "notes": ["Geography batch 004 — volume across regions (countries + capitals) from the seeded corpus, grounded in cited Wikipedia extracts."],
+  "notes": [
+    "Geography batch 004 — volume across regions (countries + capitals) from the seeded corpus, grounded in cited Wikipedia extracts."
+  ],
   "questions": [
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Germany", "external_id": "geo-rebuild-004-001", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "Lying between the Baltic and North Seas with the Alps to its south, this country has sixteen constituent states.", "answer": "Germany", "aliases": ["Federal Republic of Germany"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Germany", "url": "https://en.wikipedia.org/wiki/Germany" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Portugal", "external_id": "geo-rebuild-004-002", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "On the southwest of the Iberian Peninsula, this country is bordered on land only by Spain.", "answer": "Portugal", "aliases": ["Portuguese Republic"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Portugal", "url": "https://en.wikipedia.org/wiki/Portugal" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Mexico", "external_id": "geo-rebuild-004-003", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "The northernmost country in Latin America, it borders the United States to the north and Guatemala and Belize to the southeast.", "answer": "Mexico", "aliases": ["United Mexican States"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Mexico", "url": "https://en.wikipedia.org/wiki/Mexico" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Chile", "external_id": "geo-rebuild-004-004", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Extending along a narrow strip between the Andes and the Pacific, it is the southernmost country in the world.", "answer": "Chile", "aliases": ["Republic of Chile"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Chile", "url": "https://en.wikipedia.org/wiki/Chile" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Peru", "external_id": "geo-rebuild-004-005", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "On South America's western coast, it is bordered by Ecuador, Colombia, Brazil, Bolivia, and Chile.", "answer": "Peru", "aliases": ["Republic of Peru"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Peru", "url": "https://en.wikipedia.org/wiki/Peru" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Colombia", "external_id": "geo-rebuild-004-006", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Bordered by Venezuela to the east and Brazil to the south, it has a Caribbean coast to its north.", "answer": "Colombia", "aliases": ["Republic of Colombia"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Colombia", "url": "https://en.wikipedia.org/wiki/Colombia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Egypt", "external_id": "geo-rebuild-004-007", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "Spanning the northeast corner of Africa and the Sinai Peninsula in Asia, it borders the Mediterranean and the Red Sea.", "answer": "Egypt", "aliases": ["Arab Republic of Egypt"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Egypt", "url": "https://en.wikipedia.org/wiki/Egypt" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Nigeria", "external_id": "geo-rebuild-004-008", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "In West Africa between the Sahel and the Gulf of Guinea, it is the continent's most populous country.", "answer": "Nigeria", "aliases": ["Federal Republic of Nigeria"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Nigeria", "url": "https://en.wikipedia.org/wiki/Nigeria" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Morocco", "external_id": "geo-rebuild-004-009", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "In North Africa's Maghreb, it has Mediterranean and Atlantic coastlines and borders Algeria to the east.", "answer": "Morocco", "aliases": ["Kingdom of Morocco"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Morocco", "url": "https://en.wikipedia.org/wiki/Morocco" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Thailand", "external_id": "geo-rebuild-004-010", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Formerly known as Siam until 1939, this Southeast Asian kingdom borders Myanmar, Laos, and Cambodia.", "answer": "Thailand", "aliases": ["Kingdom of Thailand", "Siam"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Thailand", "url": "https://en.wikipedia.org/wiki/Thailand" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Vietnam", "external_id": "geo-rebuild-004-011", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "At the eastern edge of mainland Southeast Asia, this country of over 100 million is officially a Socialist Republic.", "answer": "Vietnam", "aliases": ["Socialist Republic of Vietnam", "Viet Nam"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Vietnam", "url": "https://en.wikipedia.org/wiki/Vietnam" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Indonesia", "external_id": "geo-rebuild-004-012", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Comprising over 17,000 islands including Java and Sumatra, it lies between the Indian and Pacific Oceans.", "answer": "Indonesia", "aliases": ["Republic of Indonesia"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Indonesia", "url": "https://en.wikipedia.org/wiki/Indonesia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Philippines", "external_id": "geo-rebuild-004-013", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "An archipelago of some 7,641 islands in the western Pacific, it is a country in Southeast Asia.", "answer": "Philippines", "aliases": ["Republic of the Philippines"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Philippines", "url": "https://en.wikipedia.org/wiki/Philippines" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Australia", "external_id": "geo-rebuild-004-014", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "Comprising a mainland continent, Tasmania, and many smaller islands, it is the world's sixth-largest country by area.", "answer": "Australia", "aliases": ["Commonwealth of Australia"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Australia", "url": "https://en.wikipedia.org/wiki/Australia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/New_Zealand", "external_id": "geo-rebuild-004-015", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "An island country in the southwestern Pacific, it consists of the North and South Islands plus over 600 smaller ones.", "answer": "New Zealand", "aliases": ["Aotearoa"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "New Zealand", "url": "https://en.wikipedia.org/wiki/New_Zealand" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Ukraine", "external_id": "geo-rebuild-004-016", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "The second-largest country lying entirely in Europe, it is bordered to the east by Russia and to the west by Poland.", "answer": "Ukraine", "aliases": [], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Ukraine", "url": "https://en.wikipedia.org/wiki/Ukraine" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Saudi_Arabia", "external_id": "geo-rebuild-004-017", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Covering the bulk of its peninsula, this West Asian kingdom is the Middle East's largest country by area.", "answer": "Saudi Arabia", "aliases": ["Kingdom of Saudi Arabia", "KSA"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Saudi Arabia", "url": "https://en.wikipedia.org/wiki/Saudi_Arabia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Israel", "external_id": "geo-rebuild-004-018", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "In the Southern Levant, it is bordered by Lebanon, Syria, Jordan, and Egypt.", "answer": "Israel", "aliases": ["State of Israel"], "tags": ["geography-rebuild", "sourced", "countries"], "citations": [{ "source": "wikipedia", "title": "Israel", "url": "https://en.wikipedia.org/wiki/Israel" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Berlin", "external_id": "geo-rebuild-004-019", "category_id": "geography", "subcategory_name": "World Capitals", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "With about 3.7 million inhabitants, it is the capital and largest city of Germany.", "answer": "Berlin", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Berlin", "url": "https://en.wikipedia.org/wiki/Berlin" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lisbon", "external_id": "geo-rebuild-004-020", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "With a metro population around 3 million, it is the capital and most populous city of Portugal.", "answer": "Lisbon", "aliases": ["Lisboa"], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Lisbon", "url": "https://en.wikipedia.org/wiki/Lisbon" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Amsterdam", "external_id": "geo-rebuild-004-021", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "It is the capital and largest city of the Netherlands.", "answer": "Amsterdam", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Amsterdam", "url": "https://en.wikipedia.org/wiki/Amsterdam" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Mexico_City", "external_id": "geo-rebuild-004-022", "category_id": "geography", "subcategory_name": "World Capitals", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "The most populous city in North America, it is the capital of Mexico.", "answer": "Mexico City", "aliases": ["Ciudad de México", "CDMX"], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Mexico City", "url": "https://en.wikipedia.org/wiki/Mexico_City" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Lima", "external_id": "geo-rebuild-004-023", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "On a desert coast overlooking the Pacific, this primate city is the capital of Peru.", "answer": "Lima", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Lima", "url": "https://en.wikipedia.org/wiki/Lima" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Santiago", "external_id": "geo-rebuild-004-024", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "One of the largest cities in the Americas, it is the capital and largest city of Chile.", "answer": "Santiago", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Santiago", "url": "https://en.wikipedia.org/wiki/Santiago" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Bangkok", "external_id": "geo-rebuild-004-025", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Known in Thai as Krung Thep, this city on the Chao Phraya delta is the capital of Thailand.", "answer": "Bangkok", "aliases": ["Krung Thep"], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Bangkok", "url": "https://en.wikipedia.org/wiki/Bangkok" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Hanoi", "external_id": "geo-rebuild-004-026", "category_id": "geography", "subcategory_name": "World Capitals", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Not the largest city of its country, this second-most-populous municipality is the capital of Vietnam.", "answer": "Hanoi", "aliases": ["Ha Noi"], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Hanoi", "url": "https://en.wikipedia.org/wiki/Hanoi" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Jakarta", "external_id": "geo-rebuild-004-027", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "On the northwestern coast of Java, it is the capital and largest city of Indonesia.", "answer": "Jakarta", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Jakarta", "url": "https://en.wikipedia.org/wiki/Jakarta" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Canberra", "external_id": "geo-rebuild-004-028", "category_id": "geography", "subcategory_name": "World Capitals", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Neither Sydney nor Melbourne, this purpose-built city in its own territory is the capital of Australia.", "answer": "Canberra", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Canberra", "url": "https://en.wikipedia.org/wiki/Canberra" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Wellington", "external_id": "geo-rebuild-004-029", "category_id": "geography", "subcategory_name": "World Capitals", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "At the southwestern tip of the North Island, it is the capital of New Zealand.", "answer": "Wellington", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Wellington", "url": "https://en.wikipedia.org/wiki/Wellington" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Athens", "external_id": "geo-rebuild-004-030", "category_id": "geography", "subcategory_name": "World Capitals", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "The southernmost capital on the European mainland, it is the capital of Greece.", "answer": "Athens", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Athens", "url": "https://en.wikipedia.org/wiki/Athens" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Nairobi", "external_id": "geo-rebuild-004-031", "category_id": "geography", "subcategory_name": "World Capitals", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "In the south-central part of the country, this city of 4.8 million is the capital of Kenya.", "answer": "Nairobi", "aliases": [], "tags": ["geography-rebuild", "sourced", "capitals"], "citations": [{ "source": "wikipedia", "title": "Nairobi", "url": "https://en.wikipedia.org/wiki/Nairobi" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" }
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Germany",
+      "external_id": "geo-rebuild-004-001",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Lying between the Baltic and North Seas with the Alps to its south, this country has sixteen constituent states.",
+      "answer": "Germany",
+      "aliases": [
+        "Federal Republic of Germany"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Germany",
+          "url": "https://en.wikipedia.org/wiki/Germany"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Portugal",
+      "external_id": "geo-rebuild-004-002",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On the southwest of the Iberian Peninsula, this country is bordered on land only by Spain.",
+      "answer": "Portugal",
+      "aliases": [
+        "Portuguese Republic"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Portugal",
+          "url": "https://en.wikipedia.org/wiki/Portugal"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mexico",
+      "external_id": "geo-rebuild-004-003",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The northernmost country in Latin America, it borders the United States to the north and Guatemala and Belize to the southeast.",
+      "answer": "Mexico",
+      "aliases": [
+        "United Mexican States"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mexico",
+          "url": "https://en.wikipedia.org/wiki/Mexico"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chile",
+      "external_id": "geo-rebuild-004-004",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Extending along a narrow strip between the Andes and the Pacific, it is the southernmost country in the world.",
+      "answer": "Chile",
+      "aliases": [
+        "Republic of Chile"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chile",
+          "url": "https://en.wikipedia.org/wiki/Chile"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Peru",
+      "external_id": "geo-rebuild-004-005",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On South America's western coast, it is bordered by Ecuador, Colombia, Brazil, Bolivia, and Chile.",
+      "answer": "Peru",
+      "aliases": [
+        "Republic of Peru"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Peru",
+          "url": "https://en.wikipedia.org/wiki/Peru"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Colombia",
+      "external_id": "geo-rebuild-004-006",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Bordered by Venezuela to the east and Brazil to the south, it has a Caribbean coast to its north.",
+      "answer": "Colombia",
+      "aliases": [
+        "Republic of Colombia"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Colombia",
+          "url": "https://en.wikipedia.org/wiki/Colombia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Egypt",
+      "external_id": "geo-rebuild-004-007",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Spanning the northeast corner of Africa and the Sinai Peninsula in Asia, it borders the Mediterranean and the Red Sea.",
+      "answer": "Egypt",
+      "aliases": [
+        "Arab Republic of Egypt"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Egypt",
+          "url": "https://en.wikipedia.org/wiki/Egypt"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nigeria",
+      "external_id": "geo-rebuild-004-008",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In West Africa between the Sahel and the Gulf of Guinea, it is the continent's most populous country.",
+      "answer": "Nigeria",
+      "aliases": [
+        "Federal Republic of Nigeria"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nigeria",
+          "url": "https://en.wikipedia.org/wiki/Nigeria"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Morocco",
+      "external_id": "geo-rebuild-004-009",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In North Africa's Maghreb, it has Mediterranean and Atlantic coastlines and borders Algeria to the east.",
+      "answer": "Morocco",
+      "aliases": [
+        "Kingdom of Morocco"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Morocco",
+          "url": "https://en.wikipedia.org/wiki/Morocco"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Thailand",
+      "external_id": "geo-rebuild-004-010",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Southeast Asian kingdom borders Myanmar, Laos, and Cambodia.",
+      "answer": "Thailand",
+      "aliases": [
+        "Kingdom of Thailand",
+        "Siam"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Thailand",
+          "url": "https://en.wikipedia.org/wiki/Thailand"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+      "external_id": "geo-rebuild-004-011",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "At the eastern edge of mainland Southeast Asia, this country of over 100 million is officially a Socialist Republic.",
+      "answer": "Vietnam",
+      "aliases": [
+        "Socialist Republic of Vietnam",
+        "Viet Nam"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Vietnam",
+          "url": "https://en.wikipedia.org/wiki/Vietnam"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Indonesia",
+      "external_id": "geo-rebuild-004-012",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Comprising over 17,000 islands including Java and Sumatra, it lies between the Indian and Pacific Oceans.",
+      "answer": "Indonesia",
+      "aliases": [
+        "Republic of Indonesia"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Indonesia",
+          "url": "https://en.wikipedia.org/wiki/Indonesia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Philippines",
+      "external_id": "geo-rebuild-004-013",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "An archipelago of some 7,641 islands in the western Pacific, it is a country in Southeast Asia.",
+      "answer": "Philippines",
+      "aliases": [
+        "Republic of the Philippines"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Philippines",
+          "url": "https://en.wikipedia.org/wiki/Philippines"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Australia",
+      "external_id": "geo-rebuild-004-014",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Comprising a mainland continent, Tasmania, and many smaller islands, it is the world's sixth-largest country by area.",
+      "answer": "Australia",
+      "aliases": [
+        "Commonwealth of Australia"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Australia",
+          "url": "https://en.wikipedia.org/wiki/Australia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/New_Zealand",
+      "external_id": "geo-rebuild-004-015",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "An island country in the southwestern Pacific, it consists of the North and South Islands plus over 600 smaller ones.",
+      "answer": "New Zealand",
+      "aliases": [
+        "Aotearoa"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "New Zealand",
+          "url": "https://en.wikipedia.org/wiki/New_Zealand"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ukraine",
+      "external_id": "geo-rebuild-004-016",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The second-largest country lying entirely in Europe, it is bordered to the east by Russia and to the west by Poland.",
+      "answer": "Ukraine",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ukraine",
+          "url": "https://en.wikipedia.org/wiki/Ukraine"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+      "external_id": "geo-rebuild-004-017",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Covering the bulk of its peninsula, this West Asian kingdom is the Middle East's largest country by area.",
+      "answer": "Saudi Arabia",
+      "aliases": [
+        "Kingdom of Saudi Arabia",
+        "KSA"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Saudi Arabia",
+          "url": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Israel",
+      "external_id": "geo-rebuild-004-018",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the Southern Levant, it is bordered by Lebanon, Syria, Jordan, and Egypt.",
+      "answer": "Israel",
+      "aliases": [
+        "State of Israel"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Israel",
+          "url": "https://en.wikipedia.org/wiki/Israel"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Berlin",
+      "external_id": "geo-rebuild-004-019",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "With about 3.7 million inhabitants, it is the capital and largest city of Germany.",
+      "answer": "Berlin",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Berlin",
+          "url": "https://en.wikipedia.org/wiki/Berlin"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lisbon",
+      "external_id": "geo-rebuild-004-020",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "With a metro population around 3 million, it is the capital and most populous city of Portugal.",
+      "answer": "Lisbon",
+      "aliases": [
+        "Lisboa"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lisbon",
+          "url": "https://en.wikipedia.org/wiki/Lisbon"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Amsterdam",
+      "external_id": "geo-rebuild-004-021",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the capital and largest city of the Netherlands.",
+      "answer": "Amsterdam",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Amsterdam",
+          "url": "https://en.wikipedia.org/wiki/Amsterdam"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mexico_City",
+      "external_id": "geo-rebuild-004-022",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The most populous city in North America, it is the capital of Mexico.",
+      "answer": "Mexico City",
+      "aliases": [
+        "Ciudad de México",
+        "CDMX"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mexico City",
+          "url": "https://en.wikipedia.org/wiki/Mexico_City"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lima",
+      "external_id": "geo-rebuild-004-023",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On a desert coast overlooking the Pacific, this primate city is the capital of Peru.",
+      "answer": "Lima",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lima",
+          "url": "https://en.wikipedia.org/wiki/Lima"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Santiago",
+      "external_id": "geo-rebuild-004-024",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "One of the largest cities in the Americas, it is the capital and largest city of Chile.",
+      "answer": "Santiago",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Santiago",
+          "url": "https://en.wikipedia.org/wiki/Santiago"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bangkok",
+      "external_id": "geo-rebuild-004-025",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On the Chao Phraya delta, this metropolis is the capital of Thailand.",
+      "answer": "Bangkok",
+      "aliases": [
+        "Krung Thep"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bangkok",
+          "url": "https://en.wikipedia.org/wiki/Bangkok"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hanoi",
+      "external_id": "geo-rebuild-004-026",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Not the largest city of its country, this second-most-populous municipality is the capital of Vietnam.",
+      "answer": "Hanoi",
+      "aliases": [
+        "Ha Noi"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hanoi",
+          "url": "https://en.wikipedia.org/wiki/Hanoi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jakarta",
+      "external_id": "geo-rebuild-004-027",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On the northwestern coast of Java, it is the capital and largest city of Indonesia.",
+      "answer": "Jakarta",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jakarta",
+          "url": "https://en.wikipedia.org/wiki/Jakarta"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Canberra",
+      "external_id": "geo-rebuild-004-028",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Neither Sydney nor Melbourne, this purpose-built city in its own territory is the capital of Australia.",
+      "answer": "Canberra",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Canberra",
+          "url": "https://en.wikipedia.org/wiki/Canberra"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wellington",
+      "external_id": "geo-rebuild-004-029",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "At the southwestern tip of the North Island, it is the capital of New Zealand.",
+      "answer": "Wellington",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wellington",
+          "url": "https://en.wikipedia.org/wiki/Wellington"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Athens",
+      "external_id": "geo-rebuild-004-030",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The southernmost capital on the European mainland, it is the capital of Greece.",
+      "answer": "Athens",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Athens",
+          "url": "https://en.wikipedia.org/wiki/Athens"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nairobi",
+      "external_id": "geo-rebuild-004-031",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the south-central part of the country, this city of 4.8 million is the capital of Kenya.",
+      "answer": "Nairobi",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "capitals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nairobi",
+          "url": "https://en.wikipedia.org/wiki/Nairobi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    }
   ]
 }
