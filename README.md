@@ -1,8 +1,8 @@
 # Trivia Trainer
 
-Planning workspace for a trivia-practice app focused on Jeopardy-style recall, weak-area tracking, and social study/play.
+A trivia-practice app focused on Jeopardy-style recall, weak-area tracking, and a source-grounded clue bank. It pairs an Expo / React Native app (`mobile/`) and Supabase backend with an expectation-relative competency model and a question-acquisition pipeline that authors clues only from cited sources.
 
-Start with `planning/product-plan.md`.
+Start with `planning/product-plan.md`. For authoring clues, see `planning/clue-authoring-guide.md`.
 
 Prototype:
 
@@ -165,6 +165,27 @@ Competency is computed in `supabase/migrations/` (function `recalculate_user_com
 - **Overall** is the evidence-weighted average of the smoothed category scores.
 
 The par rates are fixed constants for now; they're the natural place to plug in empirical per-clue difficulty (IRT) once there's enough real attempt data. **Migrations 010 and 011 must both be applied**; existing competency rows refresh on the next attempt (trigger) or via `select recalculate_user_competencies('<user_id>')`.
+
+## Source-Grounded Clue Authoring
+
+The clue bank is being rebuilt **source-first, one category at a time** (build-then-swap: import the new sourced clues, then deactivate the old ones for that category — reversible via `is_active`). Every clue is written *only* from a cited source and carries that citation; authored answers are never trusted blind.
+
+The full calibration rules live in **[`planning/clue-authoring-guide.md`](planning/clue-authoring-guide.md)** — read it before authoring. In brief: declarative "this/it" phrasing; no answer leaks (not even a word sharing a *stem* with the answer, e.g. "southernmost" leaks "Southern Ocean"); difficulty comes from revealing *less* and asking from the surprising end, **not** from stacking facts ($200–400 = recall, $600 = triangulation, $800–1000 = a single oblique hook).
+
+Sourcing tools (all in `tools/acquisition/`):
+
+- `seed-geography-candidates.mjs` — seeds canonical entity sets via **Wikidata SPARQL** (UN members + capitals, plus curated rivers/oceans/seas/lakes/ranges/parks/states) and fetches each one's Wikipedia doc.
+- `build-topic-docs.mjs` — fetches a Wikipedia lead-extract + citation per topic into `data/sourcing/docs/<category>/<slug>.json`.
+- `build-geo-facts.mjs` + `verify-clue-uniqueness.mjs` — a structured fact store and a uniqueness checker for *combinatorial* clues: a clever constraint clue ships only if it resolves to **exactly one** answer. (Caveat the verifier surfaced: Wikidata border *counts* and population figures are unreliable; border membership, area, continent, and landlocked status are not.)
+- `verify-clue-sources.mjs` (with `source-verifier.mjs`) — independent corroboration against reputable sources (Wikipedia; Wiktionary for definitions), recording citations. `--from-db` checks the live bank; `--write-back` records citations + `verification_status` into a pack. Anything `unverified` is held for a human, not trusted.
+- `subcategories.json` (in `data/sourcing/`) — a static snapshot of the valid subcategory names per category, so packs can be validated offline (no Supabase needed).
+
+Citations and verification status persist to the bank via migration `012_question_citations.sql` (`questions.citations`, `verification_status`, `verified_at`), and `import-to-supabase.mjs` writes them.
+
+## Automation
+
+- **Daily job** (`tools/acquisition/daily-job.mjs`, run by the `TriviaTrainer-JArchiveHarvest` Windows scheduled task, ~8am local). Two deterministic phases: harvest ~5 recent J! Archive games to grow the per-category topic stores (`data/sourcing/topics/`), then top up the cited Wikipedia doc corpus for every category. It grows the "what to ask" signal and the source corpus — it does **not** author clues (authoring stays a reviewed step).
+- **Weekly draft-clues routine** (remote, Mondays 9am ET). A scheduled remote agent that clones this repo, picks one under-covered category, **drafts** ~15 clues grounded only in the cited docs (following `planning/clue-authoring-guide.md`), runs the source verifier, and opens a **pull request** for human review. It never imports to Supabase and never merges — drafts only. Managed at https://claude.ai/code/routines.
 
 ## Roadmap / Next Steps
 
