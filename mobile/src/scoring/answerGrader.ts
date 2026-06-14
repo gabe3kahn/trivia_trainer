@@ -83,6 +83,12 @@ function isClose(submitted: string, answer: string) {
 
   const distance = levenshtein(submitted, answer);
   const maxLength = Math.max(submitted.length, answer.length);
+  // A single substitution on a short answer usually turns one entity into a
+  // *different* one (Rhône→Rhine, Mars→Mark), not a typo. Only forgive a short
+  // answer when the edit adds or drops a character (insertion/deletion), which
+  // is far more typo-like; block equal-length substitutions. Longer answers keep
+  // the normal fuzzy tolerance, where a stray substitution is more likely a typo.
+  if (maxLength < 8 && submitted.length === answer.length) return false;
   const tolerance = maxLength >= 10 ? 2 : 1;
   return distance <= tolerance;
 }
