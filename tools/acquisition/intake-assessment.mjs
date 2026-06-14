@@ -41,6 +41,16 @@ function mergeQuality(quality, feedback) {
   // Strong feedback alone can demote an otherwise-clean "keep" to "rewrite".
   if (feedback.severity >= FEEDBACK_REWRITE_SEVERITY && decision === 'keep') decision = 'rewrite';
 
+  // Hard leak: a distinctive word from the PRIMARY answer appears verbatim in the
+  // clue (e.g. "Mexico" when the answer is "Mexico City"). This severity is low on
+  // its own, so it used to slip through as an active "keep". Never let a hard leak
+  // go live — hold it inactive for a human fix regardless of the overall score.
+  // (Softer alias/stem reveals stay a "rewrite" so legitimate former-name clues
+  // like "Helsingfors → Helsinki" aren't over-held.)
+  if (feedback.issues.includes('answer-content-word-in-clue') && isActiveQualityDecision(decision)) {
+    decision = 'replace';
+  }
+
   return {
     score,
     decision,

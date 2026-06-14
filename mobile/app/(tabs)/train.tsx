@@ -1,6 +1,7 @@
 import { useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Card, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
 import { displayClue } from '@/src/clues/jeopardyStyle';
@@ -154,7 +155,14 @@ export default function TrainScreen() {
   /* ---------------------------- In session ---------------------------- */
   if (activeQuestion) {
     return (
-      <Screen contentStyle={styles.trainScreen}>
+      <SafeAreaView style={styles.activeContainer} edges={['top']}>
+        <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+          <ScrollView
+            contentContainerStyle={styles.activeContent}
+            keyboardShouldPersistTaps="handled"
+            keyboardDismissMode="interactive"
+            showsVerticalScrollIndicator={false}
+          >
         <View style={styles.progressRow}>
           <Text style={styles.progressText}>
             Clue {activeIndex + 1} of {questions.length}
@@ -246,7 +254,9 @@ export default function TrainScreen() {
             </Pressable>
           </View>
         ) : null}
-      </Screen>
+          </ScrollView>
+        </KeyboardAvoidingView>
+      </SafeAreaView>
     );
   }
 
@@ -406,6 +416,18 @@ const styles = StyleSheet.create({
   trainScreen: {
     gap: spacing.md,
   },
+  flex: {
+    flex: 1,
+  },
+  activeContainer: {
+    flex: 1,
+    backgroundColor: colors.background,
+  },
+  activeContent: {
+    padding: spacing.md,
+    paddingBottom: 96,
+    gap: spacing.md,
+  },
   progressRow: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -429,7 +451,7 @@ const styles = StyleSheet.create({
   },
 
   board: {
-    minHeight: 200,
+    minHeight: 150,
     gap: spacing.md,
     justifyContent: 'center',
     borderColor: colors.boardEdge,

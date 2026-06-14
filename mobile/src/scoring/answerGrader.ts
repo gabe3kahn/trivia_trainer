@@ -83,6 +83,19 @@ function isClose(submitted: string, answer: string) {
 
   const distance = levenshtein(submitted, answer);
   const maxLength = Math.max(submitted.length, answer.length);
+  // Short answers are where fuzzy matching is most dangerous, because a tiny edit
+  // often lands on a *different real word*. Two guards:
+  //  - Equal-length edits are substitutions (Rhône→Rhine, Mars→Mark) → a different
+  //    entity, not a typo. Reject.
+  //  - A changed first letter usually means a different word too ("hone"≠"Rhône"),
+  //    whereas dropped/added inner letters are real typos (Rone/Rhon→Rhône). Reject
+  //    only when the initial differs.
+  // Longer answers keep the normal fuzzy tolerance, where a stray edit is more
+  // likely a genuine typo. The self-grade override is the safety net either way.
+  if (maxLength < 8) {
+    if (submitted.length === answer.length) return false;
+    if (submitted[0] !== answer[0]) return false;
+  }
   const tolerance = maxLength >= 10 ? 2 : 1;
   return distance <= tolerance;
 }

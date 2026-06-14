@@ -107,7 +107,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This East African country's capital is Nairobi, while its oldest city is the port of Mombasa.",
+      "clue": "This East African country's oldest city is the port of Mombasa; its capital and largest city sits inland.",
       "answer": "Kenya",
       "aliases": [
         "Republic of Kenya"
@@ -228,7 +228,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Founded in 1960 to replace Rio de Janeiro, this planned city in the Brazilian Highlands is the national capital.",
+      "clue": "Founded in 1960 to replace Rio de Janeiro as the national capital, this planned city sits in the Brazilian Highlands.",
       "answer": "Brasília",
       "aliases": [
         "Brasilia"
@@ -316,7 +316,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In the country's southeast, this largest city of Wales serves as its capital.",
+      "clue": "The largest city in Wales, it was formally recognized as the country's capital in 1955.",
       "answer": "Cardiff",
       "aliases": [
         "Caerdydd"
@@ -370,8 +370,8 @@
       "external_id": "geo-rebuild-001-013",
       "category_id": "geography",
       "subcategory_name": "U.S. States & Cities",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Mid-Atlantic state borders Maryland, Pennsylvania, and New Jersey, and takes its name from a bay honoring Baron De La Warr.",
@@ -514,7 +514,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Where the Allegheny and Monongahela rivers meet to form the Ohio, this is Pennsylvania's second-most populous city.",
+      "clue": "Pennsylvania's second-largest city sits where the Allegheny and Monongahela rivers meet to form the Ohio.",
       "answer": "Pittsburgh",
       "aliases": [],
       "tags": [
@@ -572,7 +572,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The core city of a metro area of 1.17 million, it is the capital of Connecticut.",
+      "clue": "Once home to Mark Twain and long a hub of the U.S. insurance industry, it is the capital of Connecticut.",
       "answer": "Hartford",
       "aliases": [],
       "tags": [
@@ -600,7 +600,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "On a harbor formed by the Ashley, Cooper, and Wando rivers, this is the most populous city in South Carolina.",
+      "clue": "South Carolina's most populous city, it sits on a harbor formed by the Ashley, Cooper, and Wando rivers.",
       "answer": "Charleston",
       "aliases": [
         "Charleston, South Carolina"
@@ -657,8 +657,8 @@
       "external_id": "geo-rebuild-001-023",
       "category_id": "geography",
       "subcategory_name": "Rivers, Lakes & Seas",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Called the Yarlung Tsangpo in Tibet, this trans-boundary river flows through China, India, and Bangladesh.",
@@ -779,8 +779,8 @@
       "external_id": "geo-rebuild-001-027",
       "category_id": "geography",
       "subcategory_name": "Islands & Archipelagos",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "The westernmost district of the Bahamas, this island chain lies about 50 miles east of Miami.",
@@ -811,7 +811,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Across the Strait of Magellan from the mainland, this archipelago's name is Spanish for 'Land of Fire.'",
+      "clue": "This southern South American archipelago draws its name from the inhabitants' bonfires, which Magellan spotted as he sailed past.",
       "answer": "Tierra del Fuego",
       "aliases": [],
       "tags": [
@@ -870,7 +870,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Bounded by the Indian and Southern Oceans, it is Australia's largest state by area.",
+      "clue": "Perth is the capital of this state, the largest in its country by area.",
       "answer": "Western Australia",
       "aliases": [
         "WA"
@@ -958,7 +958,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Tending to follow country boundaries rather than strict longitude, these areas each observe a uniform standard time.",
+      "clue": "Roughly following national borders rather than strict lines of longitude, these divisions of the globe each keep a single standard clock.",
       "answer": "time zone",
       "aliases": [
         "time zones"
