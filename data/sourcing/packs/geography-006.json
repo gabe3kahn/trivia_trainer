@@ -494,7 +494,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The only Commonwealth bordering Washington, D.C., it lies between the Atlantic coast and the Appalachians.",
+      "clue": "Bordering Washington, D.C. to the south, this Commonwealth stretches from the Atlantic coast to the Appalachians.",
       "answer": "Virginia",
       "aliases": [],
       "tags": [
@@ -750,7 +750,7 @@
     {
       "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Commonwealth_(U.S._state)",
-      "external_id": "geo-rebuild-006-021",
+      "external_id": "geo-rebuild-006-027",
       "category_id": "geography",
       "subcategory_name": "U.S. States & Cities",
       "value": 800,
