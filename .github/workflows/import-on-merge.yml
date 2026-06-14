@@ -1,0 +1,69 @@
+name: Import merged clue packs
+
+# When a PR that touches clue packs is merged to main, import the packs that
+# changed in that merge into Supabase. Imports are idempotent (the importer
+# upserts on stable external IDs), so re-runs update rather than duplicate.
+#
+# Requires two repository secrets (Settings → Secrets and variables → Actions):
+#   SUPABASE_URL                – your Supabase project URL
+#   SUPABASE_SERVICE_ROLE_KEY   – the service-role key (same values as .env.local)
+# Without them the import step fails fast; nothing else in the repo exposes them.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/sourcing/packs/**/*.json'
+
+# Never let two imports race on the same database.
+concurrency:
+  group: import-clue-packs
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # need the previous commit to diff against
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Find clue packs changed in this push
+        id: changed
+        run: |
+          base='${{ github.event.before }}'
+          if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ]; then
+            base="$(git rev-parse HEAD^ 2>/dev/null || true)"
+          fi
+          if [ -n "$base" ]; then
+            files="$(git diff --name-only --diff-filter=AM "$base" '${{ github.sha }}' -- 'data/sourcing/packs/**/*.json' || true)"
+          else
+            files="$(git show --name-only --pretty=format: '${{ github.sha }}' | grep -E '^data/sourcing/packs/.*\.json$' || true)"
+          fi
+          {
+            echo "files<<EOF"
+            echo "$files"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "Changed packs:"; echo "${files:-<none>}"
+
+      - name: Import changed packs
+        if: steps.changed.outputs.files != ''
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::error::SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY secrets are not set." >&2
+            exit 1
+          fi
+          echo "${{ steps.changed.outputs.files }}" | while IFS= read -r pack; do
+            [ -z "$pack" ] && continue
+            echo "::group::Importing $pack"
+            node tools/acquisition/import-to-supabase.mjs "$pack"
+            echo "::endgroup::"
+          done
