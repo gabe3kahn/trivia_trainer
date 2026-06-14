@@ -1,0 +1,520 @@
+{
+  "generated_at": "2026-06-14T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "history",
+  "notes": [
+    "History pilot of the source-grounded pipeline. Clues are written only from facts in Wikipedia lead extracts stored under data/sourcing/docs/geography/. Although the source docs are indexed under the geography category, their Wikipedia extracts contain historical facts that ground these history clues. Each citation points to the exact Wikipedia article from which the stated fact was drawn.",
+    "verification_status = unverified — Wikipedia was inaccessible from the authoring environment (network egress restriction). Citations restored manually after verifier cleared them. A human reviewer should re-run verify-clue-sources.mjs in a network-enabled environment before import."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Alexandria",
+      "external_id": "hist-draft-001-001",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Macedonian conqueror established a city on Egypt's northern coast in 331 BC that became one of antiquity's greatest centers of learning and scholarship.",
+      "answer": "Alexander the Great",
+      "aliases": [
+        "Alexander",
+        "Alexander III of Macedon"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "ancient-history",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Alexander the Great",
+          "url": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+          "snippet": "Alexander III of Macedon, most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon. He succeeded his father Philip II to the throne in 336 BC at the age of 20, and spent most of his reign conducting a len"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:30.737Z",
+      "reviewer_note": "Source fact: 'Founded in 331 BC by Alexander the Great, Alexandria is one of the largest and most important cities of antiquity and a leading hub for science, culture, and scholarship.' (alexandria.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/France",
+      "external_id": "hist-draft-001-002",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1789 upheaval overthrew the Ancien Régime and produced the Declaration of the Rights of Man.",
+      "answer": "French Revolution",
+      "aliases": [
+        "the French Revolution"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "revolutions",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "French Revolution",
+          "url": "https://en.wikipedia.org/wiki/French_Revolution",
+          "snippet": "The French Revolution was a period of political and societal change in France that began with the Estates General of 1789 and ended with the Coup of 18 Brumaire on 9 November 1799. Many of the revolution's ideas are considered fundamental p"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:31.108Z",
+      "reviewer_note": "Source fact: 'The French Revolution of 1789 overthrew the Ancien Régime and produced the Declaration of the Rights of Man, which expresses the nation's ideals to this day.' (france.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+      "external_id": "hist-draft-001-003",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When the U.S. capital relocated to its permanent home on the Potomac in 1800, this second president became the first to occupy the newly completed executive mansion.",
+      "answer": "John Adams",
+      "aliases": [
+        "Adams"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-presidents",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "John Adams",
+          "url": "https://en.wikipedia.org/wiki/John_Adams",
+          "snippet": "John Adams was a Founding Father and the second president of the United States from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Great Britain. During the latter part of the"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:31.528Z",
+      "reviewer_note": "Source facts: 'In 1800, when the capital was moved from Philadelphia, the 6th Congress started meeting in the then-unfinished Capitol Building, and the second president, John Adams, moved into the newly finished White House.' (washington-d-c.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/France",
+      "external_id": "hist-draft-001-004",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Under this early-19th-century leader, his nation reached its political and military zenith, with campaigns subjugating much of continental Europe.",
+      "answer": "Napoleon Bonaparte",
+      "aliases": [
+        "Napoleon",
+        "Napoléon Bonaparte",
+        "Napoleon I"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "historical-figures",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Napoleon",
+          "url": "https://en.wikipedia.org/wiki/Napoleon",
+          "snippet": "Napoleon Bonaparte, later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815. He rose to prominence as a general durin"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:31.890Z",
+      "reviewer_note": "Source fact: 'France reached its political and military zenith in the early 19th century under Napoleon Bonaparte, subjugating much of continental Europe and establishing the First French Empire.' (france.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Japan",
+      "external_id": "hist-draft-001-005",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Unifying Japan in 1600 and imposing a policy of strict national isolation, this feudal military government fell when American warships forced the country to open trade in 1853.",
+      "answer": "Tokugawa Shogunate",
+      "aliases": [
+        "Tokugawa shogunate",
+        "Edo shogunate",
+        "Tokugawa Bakufu"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "empires-dynasties",
+        "japanese-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tokugawa shogunate",
+          "url": "https://en.wikipedia.org/wiki/Tokugawa_shogunate",
+          "snippet": "The Tokugawa shogunate, also known as the Edo shogunate, was the military government of Japan during the Edo period from 1603 to 1868."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:32.282Z",
+      "reviewer_note": "Source facts: 'Japan was unified in 1600 by the Tokugawa shogunate, which implemented an isolationist foreign policy. In 1853, an American fleet forced Japan to open trade to the West, which led to the end of the shogunate.' (japan.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mexico",
+      "external_id": "hist-draft-001-006",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Established in 1521 after an alliance defeated the Aztec Empire, this colonial entity made its capital at Tenochtitlan, the site of present-day Mexico City.",
+      "answer": "New Spain",
+      "aliases": [
+        "the Viceroyalty of New Spain"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "empires-dynasties",
+        "colonial-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "New Spain",
+          "url": "https://en.wikipedia.org/wiki/New_Spain",
+          "snippet": "New Spain, officially the Viceroyalty of New Spain, originally the Kingdom of New Spain, was an integral territorial entity of the Spanish Empire, established by Habsburg Spain. It was one of several domains established during the Spanish c"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-14T03:33:32.659Z",
+      "reviewer_note": "Source fact: 'Spanish colonization began in 1521 with an alliance that defeated the Aztec Empire, establishing the colony of New Spain with its capital at Tenochtitlan, now Mexico City.' (mexico.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Berlin",
+      "external_id": "hist-draft-001-007",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Cold War structure divided a German city between its eastern and western halves; its demise preceded formal national reunification in 1990.",
+      "answer": "Berlin Wall",
+      "aliases": [
+        "the Berlin Wall"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "cold-war",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Berlin Wall",
+          "url": "https://en.wikipedia.org/wiki/Berlin_Wall",
+          "snippet": "The Berlin Wall was a guarded concrete barrier that encircled West Berlin from 1961 to 1989, separating it from East Berlin and the German Democratic Republic. Construction of the Berlin Wall was commenced by the government of the GDR on 13"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:33.029Z",
+      "reviewer_note": "Source facts: 'the city was split into West Berlin and East Berlin, divided by the Berlin Wall... Following German reunification in 1990, Berlin once again became the capital of all of Germany.' (berlin.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Rome",
+      "external_id": "hist-draft-001-008",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rome served as capital of this church-administered territory from the 8th century until Italian unification ended its temporal authority in 1870.",
+      "answer": "Papal States",
+      "aliases": [
+        "the Papal States",
+        "the States of the Church"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "european-history",
+        "church-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Papal States",
+          "url": "https://en.wikipedia.org/wiki/Papal_States",
+          "snippet": "The Papal States, officially the State of the Church, were a conglomeration of territories on the Italian peninsula under the direct sovereign rule of the pope from 756 to 1870. They were among the major states of Italy from the 8th century"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-14T03:33:33.401Z",
+      "reviewer_note": "Source fact: 'in the 8th century, it became the capital of the Papal States, which lasted until 1870.' (rome.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/France",
+      "external_id": "hist-draft-001-009",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named for its approximate duration, this prolonged dynastic contest between England and its neighbor across the Channel dominated the mid-14th to mid-15th centuries.",
+      "answer": "Hundred Years' War",
+      "aliases": [
+        "the Hundred Years' War",
+        "Hundred Years War"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "european-history",
+        "medieval-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hundred Years' War",
+          "url": "https://en.wikipedia.org/wiki/Hundred_Years'_War",
+          "snippet": "The Hundred Years' War was a conflict between the kingdoms of England and France and a civil war in France during the late Middle Ages. It emerged from feudal disputes over the Duchy of Aquitaine and was triggered by a claim to the French t"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:33.773Z",
+      "reviewer_note": "Source fact: 'from the mid-14th to the mid-15th centuries, France was plunged into a dynastic conflict with England known as the Hundred Years' War.' (france.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Warsaw",
+      "external_id": "hist-draft-001-010",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1944 insurrection against Nazi occupation in the capital of Poland was followed by the systematic destruction of the city.",
+      "answer": "Warsaw Uprising",
+      "aliases": [
+        "the Warsaw Uprising",
+        "Warsaw Rising"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "world-war-ii",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Warsaw Uprising",
+          "url": "https://en.wikipedia.org/wiki/Warsaw_Uprising",
+          "snippet": "The Warsaw Uprising, sometimes referred to as the August Uprising, or the Battle of Warsaw, was a major World War II operation by the Polish underground resistance to liberate Warsaw from German occupation. It occurred in the summer of 1944"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-14T03:33:34.151Z",
+      "reviewer_note": "Source fact: 'the general Warsaw Uprising in 1944, and systematic razing' of the city. Also: 'Warsaw was bombed and besieged at the start of World War II in 1939. Much of the historic city was destroyed.' (warsaw.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Portugal",
+      "external_id": "hist-draft-001-011",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This centuries-long effort expelled Muslim forces from the Iberian Peninsula; Portugal, whose region had been under Islamic control since 711, emerged as an independent kingdom in 1179 in its wake.",
+      "answer": "Reconquista",
+      "aliases": [
+        "the Reconquista",
+        "the Reconquest"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "medieval-history",
+        "iberian-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Reconquista",
+          "url": "https://en.wikipedia.org/wiki/Reconquista",
+          "snippet": "The Reconquista or the fall of al-Andalus was a series of military campaigns by northern Iberian Christian polities against Muslim-ruled al-Andalus, which had previously been part of the Visigothic Kingdom before the Muslim Conquest of 711."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:34.532Z",
+      "reviewer_note": "Source fact: 'Portugal was established as a county of the Kingdom of León in 868, and formally as a kingdom in 1179 as a result of the Reconquista against the Muslims, who had occupied the Iberian Peninsula since 711.' (portugal.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Poland",
+      "external_id": "hist-draft-001-012",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1980 trade union and civil resistance movement in a communist country is credited with triggering the fall of the Iron Curtain and pioneering the first peaceful transition from communist rule to liberal democracy.",
+      "answer": "Solidarity",
+      "aliases": [
+        "the Solidarity movement",
+        "Solidarność"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "cold-war",
+        "revolutions",
+        "polish-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Solidarity",
+          "url": "https://en.wikipedia.org/wiki/Solidarity",
+          "snippet": "Solidarity or solidarism is the provision of mutual moral and material support among the members of a group in times of need."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:34.897Z",
+      "reviewer_note": "Source fact: 'Through the 1980 emergence and contributions of the Solidarity movement, which initiated the fall of the Iron Curtain, the communist government was dissolved and Poland as the first of the communist countries re-established itself as a liberal democracy.' (poland.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Peru",
+      "external_id": "hist-draft-001-013",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Though Peru formally proclaimed independence from Iberian rule in 1821, it was this decisive 1824 engagement that finally and completely secured it.",
+      "answer": "Battle of Ayacucho",
+      "aliases": [
+        "the Battle of Ayacucho",
+        "Ayacucho"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "revolutions",
+        "south-american-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Battle of Ayacucho",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Ayacucho",
+          "snippet": "The Battle of Ayacucho was a decisive military encounter during the Peruvian War of Independence. This battle secured the independence of Peru and ensured independence for the rest of belligerent South American states. In Peru, it is consid"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:35.258Z",
+      "reviewer_note": "Source fact: 'Peru formally proclaimed independence from Spain in 1821, and following the military campaigns of Bernardo O'Higgins, José de San Martín, and Simón Bolívar, as well as the decisive battle of Ayacucho, it completed its independence in 1824.' (peru.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/China",
+      "external_id": "hist-draft-001-014",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ruling house became the first to unify China in 221 BCE, opening two millennia of imperial governance across alternating periods of unity and division.",
+      "answer": "Qin dynasty",
+      "aliases": [
+        "the Qin dynasty",
+        "Qin",
+        "Ch'in dynasty"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "empires-dynasties",
+        "chinese-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Qin dynasty",
+          "url": "https://en.wikipedia.org/wiki/Qin_dynasty",
+          "snippet": "The Qin dynasty was the first imperial dynasty of China. It is named for its progenitor state of Qin, a fief of the confederal Zhou dynasty. Beginning in 230 BC, the Qin under King Ying Zheng engaged in a series of wars conquering each of t"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:35.636Z",
+      "reviewer_note": "Source fact: 'In 221 BCE, China was unified under the Qin and the succeeding Han dynasty, ushering in two millennia of imperial rule across periods of unity and division.' (people-s-republic-of-china.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Poland",
+      "external_id": "hist-draft-001-015",
+      "category_id": "history",
+      "subcategory_name": "Dates, Documents & Treaties",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This nation adopted Europe's first modern constitution in 1791, then watched its neighbors partition it off the map before the century was out.",
+      "answer": "Poland",
+      "aliases": [
+        "the Republic of Poland"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "documents-treaties",
+        "polish-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Poland",
+          "url": "https://en.wikipedia.org/wiki/Poland",
+          "snippet": "Poland, officially the Republic of Poland, is a country in Central Europe. It extends from the Baltic Sea in the north to the Sudetes and Carpathian Mountains in the south, and borders Lithuania and Russia to the northeast; Belarus and Ukra"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T03:33:36.007Z",
+      "reviewer_note": "Source facts: 'which adopted Europe's first modern constitution in 1791. With the passing of the prosperous Polish Golden Age, the country was partitioned by neighbouring states at the end of the 18th century.' (poland.json extract)"
+    }
+  ]
+}
