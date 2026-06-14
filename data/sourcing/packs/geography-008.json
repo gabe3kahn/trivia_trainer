@@ -107,7 +107,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The primary river of the largest U.S. drainage basin, it is the country's second-longest, behind the Missouri.",
+      "clue": "It drains the largest watershed in North America, running from northern Minnesota to a delta below New Orleans.",
       "answer": "Mississippi River",
       "aliases": [
         "Mississippi"
@@ -258,7 +258,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The longest river in Southeast Asia, it runs through six countries to a vast delta in Vietnam.",
+      "clue": "Each monsoon its surge reverses the flow of Cambodia's Tonlé Sap; its delta is the 'rice bowl' of Vietnam.",
       "answer": "Mekong",
       "aliases": [
         "Mekong River"
@@ -530,7 +530,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Running through Brazil, Paraguay, and Argentina, it is South America's second-longest river.",
+      "clue": "Home to the colossal Itaipu hydroelectric dam, it is South America's second-longest river, after the Amazon.",
       "answer": "Paraná River",
       "aliases": [
         "Parana River",
@@ -617,11 +617,11 @@
       "external_id": "geo-rebuild-008-021",
       "category_id": "geography",
       "subcategory_name": "Rivers, Lakes & Seas",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In southern Siberia, it is the deepest lake in the world.",
+      "clue": "It is the world's deepest and oldest lake, holding roughly a fifth of Earth's unfrozen fresh water.",
       "answer": "Lake Baikal",
       "aliases": [
         "Baikal"
@@ -711,7 +711,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "After Baikal, it is the world's second-largest freshwater lake by volume and the second-deepest.",
+      "clue": "The world's longest freshwater lake, it is shared by Tanzania, the DR Congo, Burundi, and Zambia.",
       "answer": "Lake Tanganyika",
       "aliases": [
         "Tanganyika"
@@ -769,7 +769,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Shared by Ontario and Michigan, it is the second-largest Great Lake by surface area.",
+      "clue": "Its Georgian Bay and Manitoulin Island — the world's largest lake island — give it the longest shoreline of any Great Lake.",
       "answer": "Lake Huron",
       "aliases": [
         "Huron"
@@ -973,7 +973,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "One of the largest lakes in Asia, it lies in southeastern Kazakhstan.",
+      "clue": "Fresh in its western half and saline in its eastern half, this is one of Asia's largest lakes, in Kazakhstan.",
       "answer": "Lake Balkhash",
       "aliases": [
         "Balkhash"
@@ -1003,7 +1003,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Covering some 24,500 square kilometers, this large lake lies in the Canadian province of Manitoba.",
+      "clue": "One of Canada's largest lakes, it shares its name with the capital of Manitoba.",
       "answer": "Lake Winnipeg",
       "aliases": [],
       "tags": [
@@ -1031,7 +1031,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A landlocked state of the Pacific Northwest and Mountain West, it touches Canada and borders Montana and Wyoming.",
+      "clue": "Famous for its potatoes, this Mountain West state's narrow panhandle reaches north to touch Canada.",
       "answer": "Idaho",
       "aliases": [],
       "tags": [
@@ -1059,7 +1059,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A landlocked Southeastern state, it borders Kentucky to the north and Georgia, Alabama, and Mississippi to the south.",
+      "clue": "Home to Nashville and the Grand Ole Opry, this state stretches from the Appalachians west to the Mississippi River.",
       "answer": "Tennessee",
       "aliases": [],
       "tags": [
@@ -1087,7 +1087,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This landlocked New England state borders Massachusetts, New Hampshire, and New York.",
+      "clue": "The top U.S. producer of maple syrup, it was an independent republic before becoming the 14th state in 1791.",
       "answer": "Vermont",
       "aliases": [],
       "tags": [
@@ -1139,8 +1139,8 @@
       "external_id": "geo-rebuild-008-039",
       "category_id": "geography",
       "subcategory_name": "U.S. States & Cities",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This landlocked North Central state is named, like its northern neighbor, for a group of Sioux peoples.",

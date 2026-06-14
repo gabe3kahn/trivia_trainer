@@ -286,11 +286,10 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Southeast Asian kingdom borders Myanmar, Laos, and Cambodia.",
+      "clue": "This Southeast Asian kingdom was formerly known as Siam until 1939.",
       "answer": "Thailand",
       "aliases": [
-        "Kingdom of Thailand",
-        "Siam"
+        "Kingdom of Thailand"
       ],
       "tags": [
         "geography-rebuild",
@@ -730,7 +729,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "On the Chao Phraya delta, this metropolis is the capital of Thailand.",
+      "clue": "This metropolis on the Chao Phraya delta is the capital of Thailand.",
       "answer": "Bangkok",
       "aliases": [
         "Krung Thep"
