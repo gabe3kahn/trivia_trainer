@@ -1,0 +1,15 @@
+{
+  "count": 1,
+  "updates": [
+    {
+      "id": "f7f3da08-0d06-4cbd-aa02-4931905d25b4",
+      "previous_clue": "In science, this scale measures earthquake magnitude.",
+      "next_clue": "Named for Charles Richter, this scale measures earthquake magnitude.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    }
+  ]
+}

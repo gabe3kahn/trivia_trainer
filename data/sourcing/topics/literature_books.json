@@ -1,0 +1,419 @@
+{
+  "category_id": "literature_books",
+  "updated_at": "2026-06-13T21:46:45.927Z",
+  "total_clues_seen": 50,
+  "category_titles": {
+    "NAME THAT AUTHOR": 5,
+    "AMERICAN LITERATURE": 5,
+    "POETRY IN NOVELS": 5,
+    "BOOK RECOMMENDATIONS": 5,
+    "IT'S IN THE BOOK": 5,
+    "FROM BOOK TO FILM WITH A DIFFERENT TITLE": 5,
+    "BOOK DEDICATIONS": 5,
+    "CELEBRITIES' BOOK CLUBS": 5,
+    "AUTHOR FIGURES": 5,
+    "\"BOOK\" TITLES": 5
+  },
+  "answers": {
+    "jules verne": {
+      "display": "Jules Verne",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "\"Captain Nemo looked at me. I asked him no questions, but he guessed my thoughts\""
+    },
+    "jane austen": {
+      "display": "Jane Austen",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"'What a pity it is, Elinor,' said Marianne, 'that Edward should have no taste for drawing'\""
+    },
+    "hunter s. thompson": {
+      "display": "Hunter S. Thompson",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "\"The sporting editors had also given me $300 in cash, most of which was already spent on extremely dangerous drugs\""
+    },
+    "joyce": {
+      "display": "Joyce",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "\"Ask again yes and then he asked me would I yes to say yes my mountain flower and first I put my arms around him yes\""
+    },
+    "(mary) shelley": {
+      "display": "(Mary) Shelley",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"Your threats... confirm me in a determination of not creating you a companion in vice. Shall I... set loose... a daemon\"?"
+    },
+    "world war i": {
+      "display": "World War I",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "\"A Farewell to Arms\" is based on Ernest Hemingway's experiences in this conflict"
+    },
+    "the natural": {
+      "display": "The Natural",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Brooklyn Dodgers fan Bernard Malamud gained fame with this debut novel about a baseball phenom"
+    },
+    "mcmurtry": {
+      "display": "McMurtry",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The 1986 Pulitzer Prize for Fiction went to this author's \"Lonesome Dove\""
+    },
+    "sinclair lewis": {
+      "display": "Sinclair Lewis",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "He won a Nobel Prize for Literature in 1930 shortly after his novel \"Dodsworth\" had been published"
+    },
+    "emerson": {
+      "display": "Emerson",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "His 1841 essay \"Self-Reliance\" urges the reader not to be ruled by society's regulations or traditions"
+    },
+    "the da vinci code": {
+      "display": "The Da Vinci Code",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This Dan Brown novel contains a poem that begins, \"The Holy Grail 'neath ancient Roslin waits\""
+    },
+    "through the looking-glass": {
+      "display": "Through the Looking-Glass",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"Jabberwocky\" is a nonsense poem found in this sequel from 1871"
+    },
+    "gloucester": {
+      "display": "Gloucester",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In a Kipling novel Old Captain Edwardes reads a poem at the Memorial Day of this Massachusetts fishing town"
+    },
+    "doctor zhivago": {
+      "display": "Doctor Zhivago",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This Pasternak epic contains dozens of poems, including \"Indian Summer\" & \"Hops\""
+    },
+    "tennyson": {
+      "display": "Tennyson",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Chapters in Meg Cabot's \"Avalon High\" begin with lines from this poet's \"Lady of Shalott\""
+    },
+    "the age of innocence": {
+      "display": "The Age of Innocence",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Roxane Gay's go-to book is this Pulitzer Prize winner by Edith Wharton set in Old New York"
+    },
+    "the great gatsby": {
+      "display": "The Great Gatsby",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Jay McInerney called this \"love story of a bootlegger & a southern belle\" \"the Rosetta Stone of the American dream\""
+    },
+    "madeline": {
+      "display": "Madeline",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Judy Blume said this 1939 work set at an all-girl boarding school in Paris was the first book she fell in love with"
+    },
+    "the remains of the day": {
+      "display": "The Remains of the Day",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Filmmaker Emerald Fennell loves the British restraint of this 1989 novel by Kazuo Ishiguro: \"A perfect story of lost love & regret\""
+    },
+    "fanny price": {
+      "display": "Fanny Price",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Alison Bechdel of \"Fun Home\" fame loves \"Mansfield Park\" & identifies with this lead character"
+    },
+    "alice": {
+      "display": "Alice",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "As she's falling down a hole in an 1865 work, she dreams of walking \"hand in hand\" with her cat Dinah; it gives one paws..."
+    },
+    "chandler": {
+      "display": "Chandler",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "In \"The Long Goodbye\" by this author, P.I. Philip Marlowe feels \"as hollow & empty as the spaces between the stars\""
+    },
+    "angelou": {
+      "display": "Angelou",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In an autobiography by this poet who passed in 2014, she calls William Shakespeare her \"first white love\""
+    },
+    "murakami": {
+      "display": "Murakami",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "In \"1Q84\" by this Japanese author, Aomame sees \"two moons... clearly floating in the sky\""
+    },
+    "(elena) ferrante": {
+      "display": "(Elena) Ferrante",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Near the end of a work by this author, Lila tells her pal, \"You're my brilliant friend, you have to be the best of all, boys and girls\""
+    },
+    "the scarlet letter": {
+      "display": "The Scarlet Letter",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In \"Easy A\" Emma Stone gets high marks in an adaptation of this study in morals from 1850"
+    },
+    "stand by me": {
+      "display": "Stand by Me",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The Stephen King novella \"The Body\" became this movie, also a better choice for a song title"
+    },
+    "hellraiser": {
+      "display": "Hellraiser",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Any Pinhead might know Clive Barker's \"The Hellbound Heart\" has bled, er... led to this movie franchise"
+    },
+    "heart of darkness": {
+      "display": "Heart of Darkness",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This Joseph Conrad work enlisted as \"Apocalypse Now\""
+    },
+    "10 things i hate about you": {
+      "display": "10 Things I Hate About You",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"How do I loathe thee? Let me count the ways\" was a tagline for this high school-set adaptation of \"The Taming of the Shrew\""
+    },
+    "c.s. lewis": {
+      "display": "C.S. Lewis",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "He wrote \"The Lion, the Witch and the Wardrobe\" for Lucy Barfield & dedicated it to her from \"your affectionate Godfather\""
+    },
+    "vietnam": {
+      "display": "Vietnam",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Kristin Hannah dedicated \"The Women\" to \"the courageous women who served\" here, as well as to all veterans & POW/MIA"
+    },
+    "(shirley) jackson": {
+      "display": "(Shirley) Jackson",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Stephen King dedicated \"Firestarter\" \"in memory of\" this \"Haunting of Hill House\" author"
+    },
+    "salinger": {
+      "display": "Salinger",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "In \"Franny & Zooey\", he paid homage to William Shawn of The New Yorker, calling him his closest friend & \"lover of the long shot\""
+    },
+    "joan didion": {
+      "display": "Joan Didion",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "She dedicated \"Play It as It Lays\" to her husband John Gregor Dunne, & he dedicated \"True Confessions\" partly to her"
+    },
+    "chicago": {
+      "display": "Chicago",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The 100th pick for Oprah's Book Club is Ann Napolitano's \"Hello Beautiful\", set in this city that brought Oprah to fame"
+    },
+    "mindy kaling": {
+      "display": "Mindy Kaling",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "For her book club & her publishing imprint, this sitcom star chose a book by Sonali Dev about 3 generations of Indian women"
+    },
+    "shondaland": {
+      "display": "Shondaland",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Fiction & nonfiction mix in the picks from this company, the empire of TV producer Ms. Rimes"
+    },
+    "dua lipa": {
+      "display": "Dua Lipa",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Granddaughter of a noted Kosovo historian, this British singer founded the Service95 Book Club"
+    },
+    "spring awakening": {
+      "display": "Spring Awakening",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Library Science from Kaia Gerber & Alyssa Reeder (good name!) has quirky picks like this 1891 play about teens & sex, later a 2006 musical"
+    },
+    "pippi longstocking": {
+      "display": "Pippi Longstocking",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "astridlindgren.com says this girl has been translated into 80 languages; in French, she's Fifi Brindacier"
+    },
+    "kerouac": {
+      "display": "Kerouac",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "When this Beat author died in 1969, 12 years after the publication of his best-known book, his estate was valued at $91"
+    },
+    "the odyssey": {
+      "display": "the Odyssey",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Nikos Kazantzakis felt this epic poem needed a 33,333-line sequel in which the hero gets tired of being home & leaves once more"
+    },
+    "walter scott": {
+      "display": "Walter Scott",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This Edinburgh author was also a publishing investor & an 1826 bankruptcy left him liable for 120,000 pounds"
+    },
+    "marlon james": {
+      "display": "Marlon James",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This Jamaican author of \"A Brief History of Seven Killings\" had his first novel, \"John Crow's Devil\", rejected 78 times"
+    },
+    "the world book": {
+      "display": "the World Book",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Encyclopedia Britannica says this American rival is for \"elementary through high-school students\""
+    },
+    "green book": {
+      "display": "Green Book",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A Harlem postal worker began compiling this travel guide in 1936"
+    },
+    "the little red book": {
+      "display": "The Little Red Book",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The pocket-sized \"Quotations from Chairman Mao Tse-tung\" is also known by this diminutive & colorful name"
+    },
+    "the book of kells": {
+      "display": "the Book of Kells",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "\"The Arrest of Christ\" is one of the illuminations in this medieval masterpiece held in Dublin's Trinity College Library"
+    },
+    "the pillow book": {
+      "display": "The Pillow Book",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "An 11th century Japanese courtesan wrote the best-known of the diaries called this, traditionally kept in sleeping quarters"
+    }
+  }
+}

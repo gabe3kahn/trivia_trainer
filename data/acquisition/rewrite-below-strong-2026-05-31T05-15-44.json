@@ -1,0 +1,401 @@
+{
+  "generated_at": "2026-05-31T05:15:44.516Z",
+  "dry_run": true,
+  "candidates": 124,
+  "changed": 28,
+  "unchanged": 96,
+  "changes": [
+    {
+      "id": "0f8cc062-093a-48ce-b258-4cf153471ec3",
+      "source": "opentdb",
+      "category_id": "religion_mythology_philosophy",
+      "previous_score": 52,
+      "previous_clue": "What weakpoint of Achilles was expoited by the Trojan prince, Paris.",
+      "next_clue": "Achilles had this weak point, which was expoited by the Trojan prince, Paris.",
+      "previous_aliases": [
+        "Heel"
+      ],
+      "next_aliases": [
+        "Heel"
+      ]
+    },
+    {
+      "id": "f1bc34ea-bd28-4f87-9944-a699107022eb",
+      "source": "opentdb",
+      "category_id": "arts_visual_culture",
+      "previous_score": 52,
+      "previous_clue": "What nationality was the surrealist painter Salvador Dali.",
+      "next_clue": "The surrealist painter Salvador Dali was of this nationality.",
+      "previous_aliases": [
+        "Spanish"
+      ],
+      "next_aliases": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "14ab98b5-6068-4413-9c29-51d742f3c103",
+      "source": "opentdb",
+      "category_id": "arts_visual_culture",
+      "previous_score": 52,
+      "previous_clue": "What year was the Mona Lisa finished.",
+      "next_clue": "This year is when the Mona Lisa finished.",
+      "previous_aliases": [
+        "1504"
+      ],
+      "next_aliases": [
+        "1504"
+      ]
+    },
+    {
+      "id": "8964beee-035b-441c-b790-5f74233fb517",
+      "source": "opentdb",
+      "category_id": "arts_visual_culture",
+      "previous_score": 52,
+      "previous_clue": "What year did Albrecht Dürer create the painting \"The Young Hare\".",
+      "next_clue": "This year is when Albrecht Dürer create the painting \"The Young Hare\".",
+      "previous_aliases": [
+        "1502"
+      ],
+      "next_aliases": [
+        "1502"
+      ]
+    },
+    {
+      "id": "07a162cc-dce4-4131-9a10-b50f2ff0db9a",
+      "source": "opentdb",
+      "category_id": "arts_visual_culture",
+      "previous_score": 52,
+      "previous_clue": "What nationality was the famous artist Pablo Picasso.",
+      "next_clue": "The famous artist Pablo Picasso was of this nationality.",
+      "previous_aliases": [
+        "Spanish"
+      ],
+      "next_aliases": [
+        "Spanish"
+      ]
+    },
+    {
+      "id": "4ef882a8-85c7-4b55-9950-335c22e9fc49",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 52,
+      "previous_clue": "What year did Gerald Ford Become President.",
+      "next_clue": "This year is when Gerald Ford Become President.",
+      "previous_aliases": [
+        "1974"
+      ],
+      "next_aliases": [
+        "1974"
+      ]
+    },
+    {
+      "id": "632f09e4-0426-4fac-b5b6-78a6a28cdc5f",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 67,
+      "previous_clue": "What year did the effort to deploy the Common Core State Standards (CCSS) in the US begin.",
+      "next_clue": "This year is when the effort to deploy the Common Core State Standards (CCSS) in the US begin.",
+      "previous_aliases": [
+        "2009"
+      ],
+      "next_aliases": [
+        "2009"
+      ]
+    },
+    {
+      "id": "415d9880-b4f1-452f-9b48-2d8fa65995a1",
+      "source": "opentdb",
+      "category_id": "geography",
+      "previous_score": 52,
+      "previous_clue": "What country is not a part of Scandinavia.",
+      "next_clue": "This country is not a part of Scandinavia.",
+      "previous_aliases": [
+        "Finland"
+      ],
+      "next_aliases": [
+        "Finland"
+      ]
+    },
+    {
+      "id": "63cd0ff6-618c-443b-a4be-1a77aa466070",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 67,
+      "previous_clue": "What year was Min Yoongi from South Korea boy band \"BTS\" born in.",
+      "next_clue": "This year is when Min Yoongi from South Korea boy band \"BTS\" born in.",
+      "previous_aliases": [
+        "1993"
+      ],
+      "next_aliases": [
+        "1993"
+      ]
+    },
+    {
+      "id": "37b740ea-b39a-4c74-a184-15a08ce95a78",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 52,
+      "previous_clue": "What year was Red Hot Chill Pepper's album \"Californication\" released.",
+      "next_clue": "This year is when Red Hot Chill Pepper's album \"Californication\" released.",
+      "previous_aliases": [
+        "1999"
+      ],
+      "next_aliases": [
+        "1999"
+      ]
+    },
+    {
+      "id": "77af1b82-cba0-4cbb-8880-622d62106d27",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 52,
+      "previous_clue": "What type of animal is a natterjack.",
+      "next_clue": "A natterjack is this type of animal.",
+      "previous_aliases": [
+        "Toad"
+      ],
+      "next_aliases": [
+        "Toad"
+      ]
+    },
+    {
+      "id": "33f733e9-38ec-4fd2-a9ef-e430f956c1ca",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 52,
+      "previous_clue": "What scientific family does the Aardwolf belong to.",
+      "next_clue": "The Aardwolf belongs to this scientific family.",
+      "previous_aliases": [
+        "Hyaenidae"
+      ],
+      "next_aliases": [
+        "Hyaenidae"
+      ]
+    },
+    {
+      "id": "9bd2c0b7-6869-4661-b113-deedc519757f",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 52,
+      "previous_clue": "What type of creature is a Bonobo.",
+      "next_clue": "A Bonobo is this type of creature.",
+      "previous_aliases": [
+        "Ape"
+      ],
+      "next_aliases": [
+        "Ape"
+      ]
+    },
+    {
+      "id": "5cfa469f-c06b-41f8-b3eb-c998f758dae3",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 52,
+      "previous_clue": "What fast food chain has the most locations globally.",
+      "next_clue": "This fast food chain has the most locations globally.",
+      "previous_aliases": [
+        "Subway"
+      ],
+      "next_aliases": [
+        "Subway"
+      ]
+    },
+    {
+      "id": "02c3dfda-b622-45cd-a4c9-1abecd08a7d2",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 52,
+      "previous_clue": "What does a milliner make and sell.",
+      "next_clue": "A milliner makes and sells these.",
+      "previous_aliases": [
+        "Hats"
+      ],
+      "next_aliases": [
+        "Hats"
+      ]
+    },
+    {
+      "id": "08496d41-afd1-4588-8da9-6c0d9d71cb70",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 52,
+      "previous_clue": "What organ of the body produces bile.",
+      "next_clue": "This organ of the body produces bile.",
+      "previous_aliases": [
+        "Liver"
+      ],
+      "next_aliases": [
+        "Liver"
+      ]
+    },
+    {
+      "id": "f39f3faa-c914-421c-956c-448790cfeeb7",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 52,
+      "previous_clue": "What nation produces roughly 40% of the world’s vanilla.",
+      "next_clue": "This nation produces roughly 40% of the world’s vanilla.",
+      "previous_aliases": [
+        "Madagascar"
+      ],
+      "next_aliases": [
+        "Madagascar"
+      ]
+    },
+    {
+      "id": "2af52854-5fae-4b6e-9c1e-1322855a7a26",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 59,
+      "previous_clue": "What year was Canada founded in.",
+      "next_clue": "This year is when Canada founded in.",
+      "previous_aliases": [
+        "1867"
+      ],
+      "next_aliases": [
+        "1867"
+      ]
+    },
+    {
+      "id": "7ad49cc5-f6f9-46b0-9608-f6b27cc9e72b",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 52,
+      "previous_clue": "What year did World War II end.",
+      "next_clue": "This year is when World War II end.",
+      "previous_aliases": [
+        "1945"
+      ],
+      "next_aliases": [
+        "1945"
+      ]
+    },
+    {
+      "id": "25589e55-480e-428b-9093-a188bf1147c7",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 52,
+      "previous_clue": "What disease crippled President Franklin D. Roosevelt and led him to help the nation find a cure.",
+      "next_clue": "This disease crippled President Franklin D. Roosevelt and led him to help the nation find a cure.",
+      "previous_aliases": [
+        "Polio"
+      ],
+      "next_aliases": [
+        "Polio"
+      ]
+    },
+    {
+      "id": "ae1f3391-d1f6-4479-8c39-a4b7851aff16",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 67,
+      "previous_clue": "What year did the Boxing Day earthquake & tsunami occur in the Indian Ocean.",
+      "next_clue": "This year is when the Boxing Day earthquake & tsunami occur in the Indian Ocean.",
+      "previous_aliases": [
+        "2004"
+      ],
+      "next_aliases": [
+        "2004"
+      ]
+    },
+    {
+      "id": "8ec9ca9d-b452-49fd-b350-14efbe12c879",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 52,
+      "previous_clue": "What date was the first flight of the P-40 Warhawk.",
+      "next_clue": "This date was the first flight of the P-40 Warhawk.",
+      "previous_aliases": [
+        "October 14 1938"
+      ],
+      "next_aliases": [
+        "October 14 1938"
+      ]
+    },
+    {
+      "id": "4d872c86-49ba-4ebf-b56b-cdcfb4ea4cc3",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 52,
+      "previous_clue": "What number does the Roman numeral \"D\" stand for.",
+      "next_clue": "This number does the Roman numeral \"D\" stand for.",
+      "previous_aliases": [
+        "500"
+      ],
+      "next_aliases": [
+        "500"
+      ]
+    },
+    {
+      "id": "3ad3ca4d-542a-4e53-b5f6-ef23a33745c8",
+      "source": "opentdb",
+      "category_id": "geography",
+      "previous_score": 52,
+      "previous_clue": "What tiny principality lies between Spain and France.",
+      "next_clue": "This tiny principality lies between Spain and France.",
+      "previous_aliases": [
+        "Andorra"
+      ],
+      "next_aliases": [
+        "Andorra"
+      ]
+    },
+    {
+      "id": "c67a8686-4263-45cb-839b-5bba4f108d06",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 44,
+      "previous_clue": "What does \"LCD\" stand for.",
+      "next_clue": "These words are abbreviated \"LCD\".",
+      "previous_aliases": [
+        "Liquid Crystal Display"
+      ],
+      "next_aliases": [
+        "Liquid Crystal Display"
+      ]
+    },
+    {
+      "id": "d25fb15f-fa48-473b-82d9-9ec520c9e67a",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 44,
+      "previous_clue": "What does CPU stand for.",
+      "next_clue": "These words are abbreviated CPU.",
+      "previous_aliases": [
+        "Central Processing Unit"
+      ],
+      "next_aliases": [
+        "Central Processing Unit"
+      ]
+    },
+    {
+      "id": "a1e8360d-5512-4d3d-9b02-e9b29afc2aa0",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 44,
+      "previous_clue": "What type of function is x²+2x+1.",
+      "next_clue": "X²+2x+1 is this type of function.",
+      "previous_aliases": [
+        "Quadratic"
+      ],
+      "next_aliases": [
+        "Quadratic"
+      ]
+    },
+    {
+      "id": "1be908d0-f041-446f-a6e3-ddb6a0487f26",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 44,
+      "previous_clue": "What is the derivative of sin(x)",
+      "next_clue": "This is the derivative of sin(x).",
+      "previous_aliases": [
+        "cos(x)"
+      ],
+      "next_aliases": [
+        "cos(x)"
+      ]
+    }
+  ]
+}

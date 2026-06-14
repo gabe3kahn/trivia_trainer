@@ -1,0 +1,95 @@
+{
+  "count": 4,
+  "updates": [
+    {
+      "id": "4cbf20a2-1a5e-41c9-8133-cdde3fdc8dd4",
+      "previous": {
+        "clue": "This pistol model was designed in the year named by its designation.",
+        "answer": "1911",
+        "value": 400
+      },
+      "next": {
+        "clue": "This pistol model was designed in the year named by its designation.",
+        "answer": "1911",
+        "aliases": [
+          "1911"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "a02cbff3-2118-4674-b2a6-628af9412e1d",
+      "previous": {
+        "clue": "No sovereign nation owns this continent, though several countries maintain territorial claims there.",
+        "answer": "Antarctica",
+        "value": 400
+      },
+      "next": {
+        "clue": "No sovereign nation owns this continent, though several countries maintain territorial claims there.",
+        "answer": "Antarctica",
+        "aliases": [
+          "Antarctica"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "rewrite",
+        "quality_score": 83,
+        "quality_issues": [
+          "low-anchor-density",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "0ffe4de2-43f3-4a15-83af-023e29996896",
+      "previous": {
+        "clue": "The Battle of the Somme in World War I took place in which country.",
+        "answer": "France",
+        "value": 400
+      },
+      "next": {
+        "clue": "The Battle of the Somme in World War I took place in this country.",
+        "answer": "France",
+        "aliases": [
+          "France"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "a7509a05-d0c2-468b-9eef-eb47c75222e1",
+      "previous": {
+        "clue": "In competitive Counter-Strike: Global Offensive, this pistol is the Terrorist side starting weapon.",
+        "answer": "Glock-18",
+        "value": 400
+      },
+      "next": {
+        "clue": "In competitive Counter-Strike: Global Offensive, this pistol is the Terrorist side starting weapon.",
+        "answer": "Glock-18",
+        "aliases": [
+          "Glock-18",
+          "Glock 18"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    }
+  ]
+}

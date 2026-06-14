@@ -1,0 +1,1492 @@
+{
+  "generated_at": "2026-05-31T03:22:41.433Z",
+  "provider": "opentdb",
+  "target_per_main_category": 100,
+  "dry_run": true,
+  "questions": [
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-b6c9fd9348cf6118",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which of the following is not true about the life of Tiresias?",
+      "answer": "Sailed with the Argonauts to find the golden fleece",
+      "aliases": [],
+      "distractors": [
+        "Athena turned him into a woman, and then years later back into a man",
+        "Hera blinded him after he agreed with Zeus in an argument",
+        "Revealed to Oedipus that Oedipus had married his own mother"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-8b69f7a01b902bbd",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "boolean",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Roman god \"Jupiter\" was first known as \"Zeus\" to the Greeks.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-bf5c8744d88b3aca",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who was the only god from Greece who did not get a name change in Rome?",
+      "answer": "Apollo",
+      "aliases": [],
+      "distractors": [
+        "Demeter",
+        "Zeus",
+        "Athena"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-1ada3f11abc00427",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Greek Mythology, who was the daughter of King Minos?",
+      "answer": "Ariadne",
+      "aliases": [],
+      "distractors": [
+        "Athena",
+        "Ariel",
+        "Alana"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-6610d24dad19f56b",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?",
+      "answer": "A Horse",
+      "aliases": [],
+      "distractors": [
+        "A Dragon",
+        "A Tiger",
+        "A Lion"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-84c62d0e2e04d2b4",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Norse god Odin has two pet crows named \"Huginn\" and \"Muninn\".  What do their names mean?",
+      "answer": "Thought & Memory",
+      "aliases": [],
+      "distractors": [
+        "Power & Peace",
+        "War & Learning",
+        "Sleeping & Waking"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-bc99cbd4a633568e",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Greek Mythology, who killed Achilles?",
+      "answer": "Paris",
+      "aliases": [],
+      "distractors": [
+        "Hector",
+        "Helen",
+        "Pericles"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-4548714174c937a3",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who is the God Loki's son?",
+      "answer": "Fenrir",
+      "aliases": [],
+      "distractors": [
+        "Odin",
+        "Hel",
+        "Sigyn"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-a80e4dd69d29c4a2",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Greek mythology, Persephone must return to the underworld because she had eaten what kind of seeds?",
+      "answer": "Pomegranate",
+      "aliases": [],
+      "distractors": [
+        "Sunflower",
+        "Orange",
+        "Fig"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-7248d20276db68ef",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Norse Mythology, Baldr was killed by Loki with a magical spear made from what plant?",
+      "answer": "Mistletoe",
+      "aliases": [],
+      "distractors": [
+        "Wolf's Bane",
+        "Buckthorn",
+        "Hemlock"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-0910389afd145dd0",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who did Hippomenes defeat in a footrace?",
+      "answer": "Atalanta",
+      "aliases": [],
+      "distractors": [
+        "Peleus",
+        "Theseus",
+        "Jason"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-2dad509d6696f5b8",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "boolean",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Japanese god Izanagi successfully returned his wife Izanami from the Underworld.",
+      "answer": "False",
+      "aliases": [],
+      "distractors": [
+        "True"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-5f93c877c2aee6d6",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Neptune's greek name was...",
+      "answer": "Poseidon",
+      "aliases": [],
+      "distractors": [
+        "Ares",
+        "Zeus",
+        "Apollo"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-482d933ff49d279a",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
+      "answer": "Tree",
+      "aliases": [],
+      "distractors": [
+        "Mountain",
+        "Temple",
+        "Castle"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-58500889b5001719",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which of these mythological creatures is said to be half-man and half-horse?",
+      "answer": "Centaur",
+      "aliases": [],
+      "distractors": [
+        "Minotaur",
+        "Pegasus",
+        "Gorgon"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-e5e3d1451ac79f8e",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Norse mythology, what is the name of the serpent which eats the roots of the ash tree Yggdrasil?",
+      "answer": "Nidhogg",
+      "aliases": [],
+      "distractors": [
+        "Bragi",
+        "Odin",
+        "Ymir"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-df4a5db170d5ffed",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Hera is god of...",
+      "answer": "Marriage",
+      "aliases": [],
+      "distractors": [
+        "Agriculture",
+        "Sea",
+        "War"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-d60753072475fca7",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "How many heads does Cerberus have?",
+      "answer": "3",
+      "aliases": [],
+      "distractors": [
+        "2",
+        "1",
+        "5"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-c55c2e679604b320",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "According to Algonquian folklore, how does one transform into a Wendigo?",
+      "answer": "Participating in cannibalism.",
+      "aliases": [],
+      "distractors": [
+        "Excessive mutilation of animal corpses.",
+        "Performing a ritual involving murder.",
+        "Drinking the blood of many slain animals."
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-d19bb5285290ac46",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who is the Egyptian god of reproduction and lettuce?",
+      "answer": "Min",
+      "aliases": [],
+      "distractors": [
+        "Menu",
+        "Mut",
+        "Meret"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-104f855567f53166",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "An Ankh is the Egyptian Hieroglyph for what?",
+      "answer": "Life",
+      "aliases": [],
+      "distractors": [
+        "Love",
+        "Hatred",
+        "Poison"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-ef1a77900ba2b725",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who was the King of Gods in Ancient Greek mythology?",
+      "answer": "Zeus",
+      "aliases": [],
+      "distractors": [
+        "Apollo",
+        "Hermes",
+        "Poseidon"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-4d2e096b88414972",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the name of the first human being in Norse mythology?",
+      "answer": "Ask",
+      "aliases": [],
+      "distractors": [
+        "Asmund",
+        "Ake",
+        "Asger"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-ae049ea939e901de",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The ancient Roman god of war was commonly known as which of the following?",
+      "answer": "Mars",
+      "aliases": [],
+      "distractors": [
+        "Jupiter",
+        "Juno",
+        "Ares"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-72ec9130573ca0b9",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What mytological creatures have women's faces and vultures' bodies?",
+      "answer": "Harpies",
+      "aliases": [],
+      "distractors": [
+        "Mermaids",
+        "Nymph",
+        "Lilith"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-b7e7d422bd25c157",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which Norse God has a horse named Sleipnir?",
+      "answer": "Odin",
+      "aliases": [],
+      "distractors": [
+        "Thor",
+        "Frigg",
+        "Balder"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-ea1d52c686b098b7",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What mythology did the god \"Apollo\" come from?",
+      "answer": "Greek and Roman",
+      "aliases": [],
+      "distractors": [
+        "Roman and Spanish",
+        "Greek and Chinese",
+        "Greek, Roman and Norse"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-416cc1bb162e67ab",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Greek mythology, who is the god of wine?",
+      "answer": "Dionysus",
+      "aliases": [],
+      "distractors": [
+        "Hephaestus",
+        "Demeter",
+        "Apollo"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-13ada23cf091fa55",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "boolean",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "According to Greek Mythology, Zeus can control lightning.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-b2ef122b123c0076",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which of the following is not one of the Greek Fates?",
+      "answer": "Narcissus",
+      "aliases": [],
+      "distractors": [
+        "Clotho",
+        "Atropos",
+        "Lachesis"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-c9e366668984e097",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "boolean",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "According to Greek Mythology, Atlas was an Olympian God.",
+      "answer": "False",
+      "aliases": [],
+      "distractors": [
+        "True"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-12b9e14b653c4285",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who is the god of war in Polynesian mythology?",
+      "answer": "'Oro",
+      "aliases": [],
+      "distractors": [
+        "Hina",
+        "Kohara",
+        "Māui"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-530599c4a5aa5086",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "boolean",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the Greek Mythology, the Gorgon can turn those who behold her to stone.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-4d636b8fce04367f",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "boolean",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the Greek Mythology, the god of war is called Mars.",
+      "answer": "False",
+      "aliases": [],
+      "distractors": [
+        "True"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-60e9dee53de08885",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who is the father of Icarus, who flew too close to the sun?",
+      "answer": "Daedalus",
+      "aliases": [],
+      "distractors": [
+        "Minos",
+        "Perseus",
+        "Zeus"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-429f27e099cfe79f",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What animal did Queen Pasipahe sleep with before she gave birth to the Minotaur in Greek Mythology?",
+      "answer": "Bull",
+      "aliases": [],
+      "distractors": [
+        "Pig",
+        "Ox",
+        "Horse"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-322ee2b62ed6973d",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which greek god/goddess tossed a golden apple with the words \"for the fairest\" into the middle of the feast of the gods?",
+      "answer": "Eris",
+      "aliases": [],
+      "distractors": [
+        "Hades",
+        "Ares",
+        "Artemis"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-ad3fd8aff8901c9d",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What was the punishment for Sysiphus's craftiness?",
+      "answer": "Cursed to roll a boulder up a hill for eternity.",
+      "aliases": [],
+      "distractors": [
+        "Tied to a boulder for eternity, being pecked by birds.",
+        "Standing in a lake filled with water he could not drink.",
+        "To fell a tree that regenerated after every axe swing."
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-1af69d4e9d98c9f0",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?",
+      "answer": "Jason",
+      "aliases": [],
+      "distractors": [
+        "Castor",
+        "Daedalus",
+        "Odysseus"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-1e3439dcdde33568",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A minotaur is half human half what?",
+      "answer": "Bull",
+      "aliases": [],
+      "distractors": [
+        "Cow",
+        "Horse",
+        "Eagle"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-ce58467fcbd99706",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who was the Roman god of fire?",
+      "answer": "Vulcan",
+      "aliases": [],
+      "distractors": [
+        "Apollo",
+        "Jupiter",
+        "Mercury"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-758a03dcd0b56727",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the name of the wildman that Gilgamesh befriends and goes on adventures with?",
+      "answer": "Enkidu",
+      "aliases": [],
+      "distractors": [
+        "Ishtar",
+        "Inanna",
+        "Agga"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-efc0514b6995e2cf",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Greek goddess's name was chosen for the dwarf planet responsible for discord on Pluto's classification amongst astronomers.",
+      "answer": "Eris",
+      "aliases": [],
+      "distractors": [
+        "Charon",
+        "Ceres",
+        "Dysnomia"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-feae3cfc5ebd2894",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "boolean",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rannamaari was a sea demon that haunted the people of the Maldives and had to be appeased monthly with the sacrifice of a virgin girl.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-f2ba19d54696b5b3",
+      "provider_category": "Mythology",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which of the following is NOT a god in Norse Mythology.",
+      "answer": "Jens",
+      "aliases": [],
+      "distractors": [
+        "Loki",
+        "Tyr",
+        "Snotra"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-3c6275103d0ad702",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which Greek & Roman god was known as the god of music, truth and prophecy, healing, the sun and light, plague, poetry, and more?",
+      "answer": "Apollo",
+      "aliases": [],
+      "distractors": [
+        "Aphrodite",
+        "Artemis",
+        "Athena"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-ef93890106aa020b",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Nike apparel and footwear brand takes it's name from the Greek goddess of what?",
+      "answer": "Victory",
+      "aliases": [],
+      "distractors": [
+        "Courage",
+        "Strength",
+        "Honor"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-b74dc0241356d52d",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "According to Japanese folklore, what is the favorite food of the Kappa.",
+      "answer": "Cucumbers",
+      "aliases": [],
+      "distractors": [
+        "Kabocha",
+        "Nasu",
+        "Soba"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-3bb5546cdcd8f764",
+      "provider_category": "Mythology",
+      "provider_difficulty": "easy",
+      "provider_type": "boolean",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Norse mythology, Thor once dressed as a woman.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "easy",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-73e8bcf3cd34e2ae",
+      "provider_category": "Mythology",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the name of the Greek god of peaceful deaths?",
+      "answer": "Thanatos",
+      "aliases": [],
+      "distractors": [
+        "Tartarus",
+        "Hades",
+        "Moros"
+      ],
+      "tags": [
+        "opentdb",
+        "mythology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    }
+  ]
+}

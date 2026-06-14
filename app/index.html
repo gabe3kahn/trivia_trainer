@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trivia Trainer</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">TT</div>
+          <div>
+            <h1>Trivia Trainer</h1>
+            <p>Fast reps. Clean tracking.</p>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Main">
+          <button class="nav-button active" data-view="practice">Practice</button>
+          <button class="nav-button" data-view="review">Review</button>
+          <button class="nav-button" data-view="stats">Stats</button>
+          <button class="nav-button" data-view="challenge">Challenge</button>
+        </nav>
+
+        <section class="panel filters">
+          <h2>Filters</h2>
+          <label>
+            Category
+            <select id="category-filter"></select>
+          </label>
+          <label>
+            Subcategory
+            <select id="subcategory-filter"></select>
+          </label>
+          <label>
+            Value
+            <select id="value-filter"></select>
+          </label>
+          <label>
+            Mechanic
+            <select id="mechanic-filter"></select>
+          </label>
+          <button id="start-session" class="primary-button">Start Set</button>
+        </section>
+      </aside>
+
+      <section class="content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="view-label">Practice</p>
+            <h2 id="screen-title">Question Set</h2>
+          </div>
+          <div class="session-meter">
+            <span id="session-count">0 / 0</span>
+            <span id="session-score">$0</span>
+          </div>
+        </header>
+
+        <section id="practice-view" class="view active">
+          <article class="clue-card">
+            <div class="clue-meta">
+              <span id="clue-category">Category</span>
+              <span id="clue-subcategory">Subcategory</span>
+              <span id="clue-value">$200</span>
+            </div>
+            <p id="clue-mechanic" class="mechanic-line"></p>
+            <div id="clue-text" class="clue-text">Start a set to begin.</div>
+            <label class="answer-label">
+              Response
+              <input id="answer-input" type="text" autocomplete="off" placeholder="Type your answer">
+            </label>
+            <div class="answer-row">
+              <button id="reveal-answer" class="secondary-button">Reveal</button>
+              <div id="answer-display" class="answer-display"></div>
+            </div>
+            <div id="grade-controls" class="grade-controls" hidden>
+              <button data-grade="correct" class="grade correct">Correct</button>
+              <button data-grade="close" class="grade close">Close</button>
+              <button data-grade="missed" class="grade missed">Missed</button>
+              <button data-grade="unknown" class="grade unknown">No Idea</button>
+            </div>
+          </article>
+
+          <section class="panel session-log">
+            <h2>Recent Results</h2>
+            <ol id="recent-results"></ol>
+          </section>
+        </section>
+
+        <section id="review-view" class="view">
+          <section class="panel">
+            <div class="panel-heading">
+              <h2>Miss Queue</h2>
+              <button id="clear-misses" class="secondary-button">Clear</button>
+            </div>
+            <div id="miss-list" class="list"></div>
+          </section>
+        </section>
+
+        <section id="stats-view" class="view">
+          <section class="stats-grid">
+            <article class="stat-card">
+              <span>Total Attempts</span>
+              <strong id="stat-attempts">0</strong>
+            </article>
+            <article class="stat-card">
+              <span>Accuracy</span>
+              <strong id="stat-accuracy">0%</strong>
+            </article>
+            <article class="stat-card">
+              <span>Close Rate</span>
+              <strong id="stat-close">0%</strong>
+            </article>
+            <article class="stat-card">
+              <span>Misses Saved</span>
+              <strong id="stat-misses">0</strong>
+            </article>
+          </section>
+          <section class="panel">
+            <h2>Category Breakdown</h2>
+            <div id="category-stats" class="breakdown"></div>
+          </section>
+        </section>
+
+        <section id="challenge-view" class="view">
+          <section class="panel">
+            <h2>Daily Challenge</h2>
+            <p class="muted">Generate a shareable local challenge from the current filters. Accounts and friend groups can plug into this later.</p>
+            <div class="challenge-actions">
+              <button id="build-challenge" class="primary-button">Build Challenge</button>
+              <button id="copy-challenge" class="secondary-button">Copy Code</button>
+            </div>
+            <textarea id="challenge-code" readonly rows="10"></textarea>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

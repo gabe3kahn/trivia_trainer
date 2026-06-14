@@ -1,0 +1,619 @@
+{
+  "generated_at": "2026-05-31T05:18:40.556Z",
+  "dry_run": false,
+  "candidates": 98,
+  "changed": 43,
+  "unchanged": 55,
+  "changes": [
+    {
+      "id": "03b34772-23ee-49ba-a2c8-5795dbac2410",
+      "source": "opentdb",
+      "category_id": "religion_mythology_philosophy",
+      "previous_score": 67,
+      "previous_clue": "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
+      "next_clue": "This immense structure is referred to in Norse Mythology as the Yggdrasil.",
+      "previous_aliases": [
+        "Tree"
+      ],
+      "next_aliases": [
+        "Tree"
+      ]
+    },
+    {
+      "id": "cd67cd20-1d18-4d5c-84d6-e29e730379d0",
+      "source": "opentdb",
+      "category_id": "religion_mythology_philosophy",
+      "previous_score": 67,
+      "previous_clue": "A minotaur is half human half what.",
+      "next_clue": "A minotaur is half human half this animal.",
+      "previous_aliases": [
+        "Bull"
+      ],
+      "next_aliases": [
+        "Bull"
+      ]
+    },
+    {
+      "id": "fd82b092-6d55-42e4-ac39-5ac35a514a93",
+      "source": "opentdb",
+      "category_id": "religion_mythology_philosophy",
+      "previous_score": 52,
+      "previous_clue": "What mytological creatures have women's faces and vultures' bodies.",
+      "next_clue": "These mytological creatures have women's faces and vultures' bodies.",
+      "previous_aliases": [
+        "Harpies"
+      ],
+      "next_aliases": [
+        "Harpies"
+      ]
+    },
+    {
+      "id": "b2cb3c9a-8f2c-4002-8298-f10adc72159c",
+      "source": "opentdb",
+      "category_id": "religion_mythology_philosophy",
+      "previous_score": 77,
+      "previous_clue": "The greek god Poseidon was the god of what.",
+      "next_clue": "The greek god Poseidon was the god of this.",
+      "previous_aliases": [
+        "The Sea",
+        "Sea"
+      ],
+      "next_aliases": [
+        "The Sea",
+        "Sea"
+      ]
+    },
+    {
+      "id": "05edd33b-8bc9-4c57-9d0f-7e14de77a68e",
+      "source": "opentdb",
+      "category_id": "arts_visual_culture",
+      "previous_score": 77,
+      "previous_clue": "Painter Piet Mondrian (1872 - 1944) was a part of what movement.",
+      "next_clue": "Painter Piet Mondrian (1872 - 1944) was a part of this movement.",
+      "previous_aliases": [
+        "Neoplasticism"
+      ],
+      "next_aliases": [
+        "Neoplasticism"
+      ]
+    },
+    {
+      "id": "af339a2e-c446-4dd0-82e6-295d391abd25",
+      "source": "opentdb",
+      "category_id": "arts_visual_culture",
+      "previous_score": 67,
+      "previous_clue": "Which time signature is commonly known as “Cut Time?”",
+      "next_clue": "This time signature is commonly known as “Cut Time?”",
+      "previous_aliases": [
+        "2/2"
+      ],
+      "next_aliases": [
+        "2/2"
+      ]
+    },
+    {
+      "id": "ed94334a-0aba-41aa-b2b5-2e52d6765bd8",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 77,
+      "previous_clue": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984.",
+      "next_clue": "Stephen King published five novels between 1977 and 1984 under this pseudonym.",
+      "previous_aliases": [
+        "Richard Bachman"
+      ],
+      "next_aliases": [
+        "Richard Bachman"
+      ]
+    },
+    {
+      "id": "150e6edd-45de-413d-ae45-b403a785674d",
+      "source": "opentdb",
+      "category_id": "geography",
+      "previous_score": 77,
+      "previous_clue": "The Svalbard Archipelago is a dependency of which country.",
+      "next_clue": "The Svalbard Archipelago is a dependency of this country.",
+      "previous_aliases": [
+        "Norway"
+      ],
+      "next_aliases": [
+        "Norway"
+      ]
+    },
+    {
+      "id": "dcc3d949-7700-4dd7-86f2-247b1aac0073",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 77,
+      "previous_clue": "The tuba is a part of which musical family.",
+      "next_clue": "The tuba is a part of this musical family.",
+      "previous_aliases": [
+        "Brass"
+      ],
+      "next_aliases": [
+        "Brass"
+      ]
+    },
+    {
+      "id": "b2090124-8194-4daf-a249-2776c51197f4",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 67,
+      "previous_clue": "What album did The Lumineers release in 2016.",
+      "next_clue": "The Lumineers released this album in 2016.",
+      "previous_aliases": [
+        "Cleopatra"
+      ],
+      "next_aliases": [
+        "Cleopatra"
+      ]
+    },
+    {
+      "id": "d3c81410-d04c-4a5c-ad5f-f068a23bcb89",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 77,
+      "previous_clue": "The co-creator of Gorillaz, Damon Albarn, is also the lead singer of what band.",
+      "next_clue": "The co-creator of Gorillaz, Damon Albarn, is also the lead singer of this band.",
+      "previous_aliases": [
+        "Blur"
+      ],
+      "next_aliases": [
+        "Blur"
+      ]
+    },
+    {
+      "id": "1f332367-1f49-45b0-ac65-4ec843e1caa4",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 77,
+      "previous_clue": "'The Safety Dance' was the biggest hit single for which Canadian act.",
+      "next_clue": "'The Safety Dance' was the biggest hit single for this Canadian act.",
+      "previous_aliases": [
+        "Men Without Hats"
+      ],
+      "next_aliases": [
+        "Men Without Hats"
+      ]
+    },
+    {
+      "id": "853e116e-4aeb-42b2-9bc7-fff201802662",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 77,
+      "previous_clue": "\"Doctor Jones\", \"Turn Back Time\" and \"Barbie Girl\" were UK number ones for which Eurodance group.",
+      "next_clue": "\"Doctor Jones\", \"Turn Back Time\" and \"Barbie Girl\" were UK number ones for this Eurodance group.",
+      "previous_aliases": [
+        "Aqua"
+      ],
+      "next_aliases": [
+        "Aqua"
+      ]
+    },
+    {
+      "id": "00f1a98d-5e3a-462a-8bf5-cbde891176c6",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 77,
+      "previous_clue": "For what reason would a spotted hyena \"laugh\".",
+      "next_clue": "A spotted hyena would \"laugh\" for this reason.",
+      "previous_aliases": [
+        "Nervousness"
+      ],
+      "next_aliases": [
+        "Nervousness"
+      ]
+    },
+    {
+      "id": "d72f06ef-cf9c-4cce-8480-fa061c6541ac",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 69,
+      "previous_clue": "Wombats are native to which Country.",
+      "next_clue": "Wombats are native to this country.",
+      "previous_aliases": [
+        "Australia"
+      ],
+      "next_aliases": [
+        "Australia"
+      ]
+    },
+    {
+      "id": "b9b04800-6c1d-401c-9deb-c5eac8342ce4",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 77,
+      "previous_clue": "The board game \"Ra\" was designed by which designer.",
+      "next_clue": "The board game \"Ra\" was designed by this designer.",
+      "previous_aliases": [
+        "Reiner Knizia"
+      ],
+      "next_aliases": [
+        "Reiner Knizia"
+      ]
+    },
+    {
+      "id": "852881a5-6512-492b-b2ee-4017c119acd9",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 77,
+      "previous_clue": "The board game \"Monopoly\" is a variation of what board game.",
+      "next_clue": "The board game \"Monopoly\" is a variation of this board game.",
+      "previous_aliases": [
+        "The Landlord's Game",
+        "Landlord's Game"
+      ],
+      "next_aliases": [
+        "The Landlord's Game",
+        "Landlord's Game"
+      ]
+    },
+    {
+      "id": "9a0820e7-d313-426b-9b61-9d2dabd34189",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 77,
+      "previous_clue": "All Souls and Merton are constituent colleges of what university.",
+      "next_clue": "All Souls and Merton are constituent colleges of this university.",
+      "previous_aliases": [
+        "Oxford"
+      ],
+      "next_aliases": [
+        "Oxford"
+      ]
+    },
+    {
+      "id": "305efd92-a8e5-46d5-bc3e-0552ee0b97e1",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 77,
+      "previous_clue": "Astraphobia is the irrational fear of what.",
+      "next_clue": "Astraphobia is the irrational fear of this.",
+      "previous_aliases": [
+        "Thunder"
+      ],
+      "next_aliases": [
+        "Thunder"
+      ]
+    },
+    {
+      "id": "1913a75a-4cda-4b9b-93b1-21f1c14ca4e9",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 77,
+      "previous_clue": "The novel \"Jane Eyre\" was written by what author.",
+      "next_clue": "The novel \"Jane Eyre\" was written by this author.",
+      "previous_aliases": [
+        "Charlotte Brontë"
+      ],
+      "next_aliases": [
+        "Charlotte Brontë"
+      ]
+    },
+    {
+      "id": "1687f5f2-4539-4720-84b6-956173cccc15",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 77,
+      "previous_clue": "Mary Shelley is the author of what classic horror story.",
+      "next_clue": "Mary Shelley is the author of this classic horror story.",
+      "previous_aliases": [
+        "Frankenstein"
+      ],
+      "next_aliases": [
+        "Frankenstein"
+      ]
+    },
+    {
+      "id": "592aac01-f865-4140-b59f-4431a263f2bb",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 77,
+      "previous_clue": "\"Green Eggs And Ham\" is a book by which author.",
+      "next_clue": "\"Green Eggs And Ham\" is a book by this author.",
+      "previous_aliases": [
+        "Dr. Seuss"
+      ],
+      "next_aliases": [
+        "Dr. Seuss"
+      ]
+    },
+    {
+      "id": "11a7e736-2df4-4e36-bacd-1b52be3dc61b",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 77,
+      "previous_clue": "The book \"Fahrenheit 451\" was written by whom.",
+      "next_clue": "The book \"Fahrenheit 451\" was written by this author.",
+      "previous_aliases": [
+        "Ray Bradbury"
+      ],
+      "next_aliases": [
+        "Ray Bradbury"
+      ]
+    },
+    {
+      "id": "329a5818-b3fd-46e2-ba8f-2977f5f305e1",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 77,
+      "previous_clue": "Pol Pot was the former dictator of which country.",
+      "next_clue": "Pol Pot was the former dictator of this country.",
+      "previous_aliases": [
+        "Cambodia"
+      ],
+      "next_aliases": [
+        "Cambodia"
+      ]
+    },
+    {
+      "id": "1890eae4-9758-4f91-8eaf-625c2ca4496b",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 77,
+      "previous_clue": "The crown of the Empire State Building was originally built for what purpose.",
+      "next_clue": "The crown of the Empire State Building was originally built for this purpose.",
+      "previous_aliases": [
+        "Airship Dock"
+      ],
+      "next_aliases": [
+        "Airship Dock"
+      ]
+    },
+    {
+      "id": "6240c11a-8be6-4afe-bd68-15b94ae7836d",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 77,
+      "previous_clue": "The Panama Canal was finished under the administration of which U.S. president.",
+      "next_clue": "The Panama Canal was finished under the administration of this U.S. president.",
+      "previous_aliases": [
+        "Woodrow Wilson"
+      ],
+      "next_aliases": [
+        "Woodrow Wilson"
+      ]
+    },
+    {
+      "id": "4e591054-9d7d-4dd3-85f9-fd0e59e2232d",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 77,
+      "previous_clue": "King Henry VIII was the second monarch of which European royal house.",
+      "next_clue": "King Henry VIII was the second monarch of this European royal house.",
+      "previous_aliases": [
+        "Tudor"
+      ],
+      "next_aliases": [
+        "Tudor"
+      ]
+    },
+    {
+      "id": "530c7bcd-dee4-44d3-99b7-7a5884833985",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 77,
+      "previous_clue": "The song \"Twin Size Mattress\" was written by which band.",
+      "next_clue": "The song \"Twin Size Mattress\" was written by this band.",
+      "previous_aliases": [
+        "The Front Bottoms",
+        "Front Bottoms"
+      ],
+      "next_aliases": [
+        "The Front Bottoms",
+        "Front Bottoms"
+      ]
+    },
+    {
+      "id": "595041cc-722f-490d-9808-6c571659b6ca",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 77,
+      "previous_clue": "Grand Theft Autumn/Where Is Your Boy is a song by which band.",
+      "next_clue": "Grand Theft Autumn/Where Is Your Boy is a song by this band.",
+      "previous_aliases": [
+        "Fall Out Boy"
+      ],
+      "next_aliases": [
+        "Fall Out Boy"
+      ]
+    },
+    {
+      "id": "14bea2e3-4c32-40ff-97a5-543027c8bc7b",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 67,
+      "previous_clue": "What album did Bon Iver release in 2016.",
+      "next_clue": "Bon Iver released this album in 2016.",
+      "previous_aliases": [
+        "22, A Million"
+      ],
+      "next_aliases": [
+        "22, A Million"
+      ]
+    },
+    {
+      "id": "1044d0a1-caf7-4219-8fe4-b8f4afd59f3c",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 59,
+      "previous_clue": "What port does HTTP run on.",
+      "next_clue": "HTTP runs on this port.",
+      "previous_aliases": [
+        "80"
+      ],
+      "next_aliases": [
+        "80"
+      ]
+    },
+    {
+      "id": "251522e9-9df7-45f8-b6eb-f69571bac9db",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 52,
+      "previous_clue": "What major programming language does Unreal Engine 4 use.",
+      "next_clue": "Unreal Engine 4 uses this major programming language.",
+      "previous_aliases": [
+        "C++"
+      ],
+      "next_aliases": [
+        "C++"
+      ]
+    },
+    {
+      "id": "92544346-de26-4ff7-96d5-b3ef730d5548",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 52,
+      "previous_clue": "What does the term USB stand for.",
+      "next_clue": "These words are abbreviated by the term USB.",
+      "previous_aliases": [
+        "Universal Serial Bus"
+      ],
+      "next_aliases": [
+        "Universal Serial Bus"
+      ]
+    },
+    {
+      "id": "d375dce5-648d-4dfe-ade7-95a12a2d2287",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 52,
+      "previous_clue": "What Greek letter is used to signify summation.",
+      "next_clue": "This Greek letter is used to signify summation.",
+      "previous_aliases": [
+        "Sigma"
+      ],
+      "next_aliases": [
+        "Sigma"
+      ]
+    },
+    {
+      "id": "622ebb16-3cab-41be-85a0-497e4d4d79bb",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 67,
+      "previous_clue": "What video game sparked controversy because of its hidden \"Hot Coffee\" minigame.",
+      "next_clue": "This video game sparked controversy because of its hidden \"Hot Coffee\" minigame.",
+      "previous_aliases": [
+        "Grand Theft Auto: San Andreas"
+      ],
+      "next_aliases": [
+        "Grand Theft Auto: San Andreas"
+      ]
+    },
+    {
+      "id": "47250850-da83-42f3-920c-9a4c6ca2b361",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 77,
+      "previous_clue": "The games Cry of Fear, Natural Selection and Counter-Strike were originally mods for what video game.",
+      "next_clue": "The games Cry of Fear, Natural Selection and Counter-Strike were originally mods for this video game.",
+      "previous_aliases": [
+        "Half-Life"
+      ],
+      "next_aliases": [
+        "Half-Life"
+      ]
+    },
+    {
+      "id": "4c8047d3-0cee-4cc6-b2ca-967482e25f67",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 67,
+      "previous_clue": "How long are all the cutscenes from Metal Gear Solid 4 (PS3, 2008) combined.",
+      "next_clue": "All the cutscenes from Metal Gear Solid 4 (PS3, 2008) are this long combined.",
+      "previous_aliases": [
+        "8 hours"
+      ],
+      "next_aliases": [
+        "8 hours"
+      ]
+    },
+    {
+      "id": "3fe1abc5-3952-46fd-b146-282b34d4f4e3",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 52,
+      "previous_clue": "What game was used to advertise Steam.",
+      "next_clue": "This game was used to advertise Steam.",
+      "previous_aliases": [
+        "Counter-Strike 1.6"
+      ],
+      "next_aliases": [
+        "Counter-Strike 1.6"
+      ]
+    },
+    {
+      "id": "844d48a0-af96-4a0d-82f8-5e907a90922e",
+      "source": "opentdb",
+      "category_id": "religion_mythology_philosophy",
+      "previous_score": 77,
+      "previous_clue": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what.",
+      "next_clue": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of this animal.",
+      "previous_aliases": [
+        "A Horse",
+        "Horse"
+      ],
+      "next_aliases": [
+        "A Horse",
+        "Horse"
+      ]
+    },
+    {
+      "id": "71f4593f-a554-4e64-92b8-49e948717038",
+      "source": "opentdb",
+      "category_id": "arts_visual_culture",
+      "previous_score": 52,
+      "previous_clue": "What French sculptor designed the Statue of Liberty.",
+      "next_clue": "This French sculptor designed the Statue of Liberty.",
+      "previous_aliases": [
+        "Frédéric Auguste Bartholdi"
+      ],
+      "next_aliases": [
+        "Frédéric Auguste Bartholdi"
+      ]
+    },
+    {
+      "id": "67cc46de-9f1a-44f3-ac93-4816b0bc4dfa",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 67,
+      "previous_clue": "What type is \"Magic Drain\" in Yugioh! Trading Card Game.",
+      "next_clue": "\"Magic Drain\" is this type in Yugioh! Trading Card Game.",
+      "previous_aliases": [
+        "Counter Trap"
+      ],
+      "next_aliases": [
+        "Counter Trap"
+      ]
+    },
+    {
+      "id": "5ea31f99-ae4b-4610-a690-781c456cd7c1",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 67,
+      "previous_clue": "If someone said \"you are olid\", what would they mean.",
+      "next_clue": "If someone said \"you are olid\", they mean this.",
+      "previous_aliases": [
+        "You smell extremely unpleasant."
+      ],
+      "next_aliases": [
+        "You smell extremely unpleasant."
+      ]
+    },
+    {
+      "id": "c69fbb58-3da1-4633-8f0c-7e4651fa3e33",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 52,
+      "previous_clue": "What does the Prt Sc button do.",
+      "next_clue": "The Prt Sc button does this.",
+      "previous_aliases": [
+        "Captures what's on the screen and copies it to your clipboard"
+      ],
+      "next_aliases": [
+        "Captures what's on the screen and copies it to your clipboard"
+      ]
+    }
+  ]
+}

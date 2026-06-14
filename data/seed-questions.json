@@ -1,0 +1,18 @@
+[
+  {
+    "source": "manual_seed",
+    "category": "World Capitals",
+    "value": 400,
+    "clue": "This city on the Tiber is the capital of Italy.",
+    "answer": "Rome",
+    "tags": ["geography", "capitals"]
+  },
+  {
+    "source": "manual_seed",
+    "category": "Literature",
+    "value": 400,
+    "clue": "This author wrote 'Pride and Prejudice'.",
+    "answer": "Jane Austen",
+    "tags": ["literature", "authors"]
+  }
+]

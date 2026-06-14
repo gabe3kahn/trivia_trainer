@@ -1,0 +1,1992 @@
+{
+  "count": 90,
+  "updates": [
+    {
+      "id": "ed9610c6-e9dc-4f26-92f8-4a464e16621e",
+      "previous": {
+        "clue": "This word for a school comes from Greek for leisure.",
+        "answer": "School",
+        "aliases": [
+          "school"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "Greek skhole, meaning leisure, eventually gave English this word for an educational institution.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "96a65219-faf7-4d4c-91c5-83e98d430937",
+      "previous": {
+        "clue": "This word for a disaster comes from Italian words meaning bad star.",
+        "answer": "Disaster",
+        "aliases": [
+          "disaster"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Italian roots meaning bad star gave English this word for a catastrophe.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "fd709754-5e08-4f70-9df9-044b431939a9",
+      "previous": {
+        "clue": "This word for salary comes from Latin salarium, linked with salt.",
+        "answer": "Salary",
+        "aliases": [
+          "salary"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Latin salarium, linked with salt money, gives English this word for regular pay.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "4cdc16fa-484c-49f8-af1a-1db7f2856bb4",
+      "previous": {
+        "clue": "The strategy video game Europa Universalis was based on this French board game.",
+        "answer": "Europa Universalis",
+        "aliases": [
+          "Europa Universalis"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This French board game inspired a Paradox grand strategy video game of the same name.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "2ce96771-9d6c-41e9-a78e-1d5cafc25df7",
+      "previous": {
+        "clue": "This capital of Japan sits on Tokyo Bay.",
+        "answer": "Tokyo",
+        "aliases": [],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This capital of Japan sits on a bay at the mouth of the Sumida River.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "781d0ade-77be-431a-a088-e201b1c27c68",
+      "previous": {
+        "clue": "This capital of Kenya is a major city near Nairobi National Park.",
+        "answer": "Nairobi",
+        "aliases": [],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This capital of Kenya lies near the Athi Plains and is served by Jomo Kenyatta International Airport.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "773ca081-502c-487b-922d-af90addc427d",
+      "previous": {
+        "clue": "In geography, this Cambodian temple complex includes Angkor Wat.",
+        "answer": "Angkor",
+        "aliases": [
+          "Angkor Wat"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This former Khmer capital in Cambodia is now a vast temple complex and UNESCO site.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "eed7da36-0d93-47db-87e5-6a7296ff6490",
+      "previous": {
+        "clue": "This 1824 election was decided by the House after no candidate won an electoral majority.",
+        "answer": "Election of 1824",
+        "aliases": [
+          "1824 election"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "John Quincy Adams won the presidency after this disputed election was decided by the House.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "391fa32a-3b87-4769-944b-9c5460f94ab1",
+      "previous": {
+        "clue": "This Fitzgerald novel features Jay Gatsby's parties on Long Island.",
+        "answer": "The Great Gatsby",
+        "aliases": [
+          "Great Gatsby"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This Fitzgerald novel follows Nick Carraway into the parties of a mysterious Long Island millionaire.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "3b8af34e-b07a-42ad-ae33-a791c8bb8912",
+      "previous": {
+        "clue": "This musical about Alexander Hamilton was created by Lin-Manuel Miranda.",
+        "answer": "Hamilton",
+        "aliases": [],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "Lin-Manuel Miranda created this musical about an immigrant founding father.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "e7056b6b-a362-4aef-bdac-dbbb57e5b5ca",
+      "previous": {
+        "clue": "This Stephen Sondheim musical explores fairy tales in Into the Woods.",
+        "answer": "Into the Woods",
+        "aliases": [],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This Sondheim musical mixes Cinderella, Jack, Rapunzel, and other fairy-tale figures.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 92,
+        "quality_issues": [
+          "missing-multiword-aliases"
+        ]
+      }
+    },
+    {
+      "id": "305efd92-a8e5-46d5-bc3e-0552ee0b97e1",
+      "previous": {
+        "clue": "Astraphobia is the irrational fear of thunder and this weather phenomenon.",
+        "answer": "Thunder",
+        "aliases": [
+          "Thunder"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Astraphobia is the irrational fear of lightning and this rumbling weather phenomenon.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "5e3056bd-84d7-4b94-a12e-6ad57211e457",
+      "previous": {
+        "clue": "This Marvel hero was bitten by a radioactive spider.",
+        "answer": "Spider-Man",
+        "aliases": [
+          "Spiderman"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "This Marvel hero gained powers after being bitten by a radioactive arachnid.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "1a5bbdea-a13a-4160-a153-b4547156deb2",
+      "previous": {
+        "clue": "This denim fabric is commonly used for blue jeans.",
+        "answer": "Denim",
+        "aliases": [],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "Blue jeans are commonly made from this sturdy cotton twill fabric.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "56de2194-52c5-4f5a-8481-4245c27d0cae",
+      "previous": {
+        "clue": "This short New Testament letter asks Philemon to receive an escaped slave as a brother.",
+        "answer": "Philemon",
+        "aliases": [
+          "Epistle to Philemon"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This short New Testament letter asks a slave owner to receive Onesimus as a brother.",
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "ecc433a1-c000-4691-ae41-3a4a94962d92",
+      "previous": {
+        "clue": "This Jewish prayer beginning Shema Yisrael declares the oneness of God.",
+        "answer": "Shema",
+        "aliases": [],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This Jewish prayer begins with a Hebrew command to hear and declares God's oneness.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "75ce66d3-df14-4eb7-906b-beb0699b62ae",
+      "previous": {
+        "clue": "This unit named for Isaac Newton measures force.",
+        "answer": "Newton",
+        "aliases": [],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Named for an English physicist, this SI unit measures force.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "f7f3da08-0d06-4cbd-aa02-4931905d25b4",
+      "previous": {
+        "clue": "Named for Charles Richter, this scale measures earthquake magnitude.",
+        "answer": "Richter scale",
+        "aliases": [
+          "Richter magnitude scale"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This earthquake-magnitude scale is named for a California seismologist.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "0fe23131-8404-468c-a957-fdaee47a1edb",
+      "previous": {
+        "clue": "This is the average lifespan of a domestic rabbit.",
+        "answer": "8-12 years",
+        "aliases": [
+          "8-12 years"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "A domestic rabbit has an average lifespan of this many years.",
+        "answer": "8 to 12 years",
+        "aliases": [
+          "8-12 years",
+          "8 to 12 years",
+          "eight to twelve years"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "rewrite",
+        "quality_score": 79,
+        "quality_issues": [
+          "low-anchor-density",
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "4c8047d3-0cee-4cc6-b2ca-967482e25f67",
+      "previous": {
+        "clue": "All the cutscenes from Metal Gear Solid 4 (PS3, 2008) are this long combined.",
+        "answer": "8 hours",
+        "aliases": [
+          "8 hours"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "Combined, all cutscenes from Metal Gear Solid 4 are about this many hours long.",
+        "answer": "8 hours",
+        "aliases": [
+          "8 hours",
+          "eight hours"
+        ],
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "7525d899-6856-4385-a181-b49926b4eac2",
+      "previous": {
+        "clue": "This translucent Chinese ceramic became prized in Europe and is often called fine china.",
+        "answer": "Porcelain",
+        "aliases": [
+          "china"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "This translucent ceramic, prized in Europe after imports from China, is used for fine tableware.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "a37aea89-e638-4a2b-9fc4-a314db117d85",
+      "previous": {
+        "clue": "In the European Union license system, motorcycles generally require this license category.",
+        "answer": "Category A",
+        "aliases": [
+          "A",
+          "category A"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "In the European Union license system, motorcycles generally require this lettered license classification.",
+        "aliases": [
+          "A",
+          "category A",
+          "Category A"
+        ],
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "94ca725c-a50b-420d-a265-f5d81738831b",
+      "previous": {
+        "clue": "This homophone of “knight” is the opposite of day.",
+        "answer": "Night",
+        "aliases": [
+          "night"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "This homophone of knight names the opposite of day.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "8f3d1dfc-769e-42c0-a15f-6a57b4afec46",
+      "previous": {
+        "clue": "This abbreviation means “manuscript” in publishing and library catalogs.",
+        "answer": "MS",
+        "aliases": [
+          "manuscript"
+        ],
+        "value": 1000,
+        "difficulty_rank": 5
+      },
+      "next": {
+        "clue": "In publishing and library catalogs, this two-letter abbreviation means manuscript.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "rewrite",
+        "quality_score": 80,
+        "quality_issues": [
+          "low-anchor-density",
+          "very-short-answer-needs-strong-clue"
+        ]
+      }
+    },
+    {
+      "id": "185f798e-9c2a-4044-8541-19a9b33a8fd6",
+      "previous": {
+        "clue": "In sports and games, this statistic abbreviates runs batted in.",
+        "answer": "RBI",
+        "aliases": [
+          "runs batted in"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "In baseball, this three-letter statistic credits a batter for driving runners home.",
+        "aliases": [
+          "R.B.I.",
+          "runs batted in"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "467d5492-8086-4c98-bef5-96c48bd19d38",
+      "previous": {
+        "clue": "This idiom means to reveal a secret: let the cat out of the what.",
+        "answer": "Bag",
+        "aliases": [
+          "the bag"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "In this idiom, revealing a secret lets the cat escape from this container.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "bd9ad750-e5f8-4e2f-80cf-fa2d32edd368",
+      "previous": {
+        "clue": "This idiom means to make a small problem worse: add fuel to the what.",
+        "answer": "Fire",
+        "aliases": [
+          "the fire"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "In this idiom, making a problem worse adds fuel to this.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "c7230978-c986-4086-933d-5ec7bb012ab5",
+      "previous": {
+        "clue": "This idiom means a final tolerated problem: the last straw that broke the what.",
+        "answer": "Camel’s back",
+        "aliases": [
+          "camel's back",
+          "camel back"
+        ],
+        "value": 1000,
+        "difficulty_rank": 5
+      },
+      "next": {
+        "clue": "In this idiom, a final tolerated problem is the straw that breaks this animal's back.",
+        "answer": "Camel",
+        "aliases": [
+          "camel",
+          "camel's back",
+          "camel back"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "89173c72-2a2e-483a-8f4c-1987d5a3e0ab",
+      "previous": {
+        "clue": "This idiom means an obvious problem no one wants to discuss: the elephant in the what.",
+        "answer": "Room",
+        "aliases": [
+          "the room"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "In this idiom, an obvious unspoken problem is the elephant standing in this place.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "f6bb952d-5ea6-4215-a513-3f0dbeb54339",
+      "previous": {
+        "clue": "This simple chair design by Charles and Ray Eames uses molded plywood and leather cushions.",
+        "answer": "Eames lounge chair",
+        "aliases": [
+          "lounge chair"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "Charles and Ray Eames created this molded-plywood-and-leather seat, a midcentury design icon.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "5ea31f99-ae4b-4610-a690-781c456cd7c1",
+      "previous": {
+        "clue": "The adjective \"olid\" means having this unpleasant smell.",
+        "answer": "You smell extremely unpleasant.",
+        "aliases": [
+          "You smell extremely unpleasant."
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "The adjective olid describes something with this disagreeable sensory quality.",
+        "answer": "An unpleasant smell",
+        "aliases": [
+          "unpleasant smell",
+          "foul smell",
+          "bad smell",
+          "stink"
+        ],
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "c0e38f64-e1f2-4490-a7e7-f8cf340b2399",
+      "previous": {
+        "clue": "In Yu-Gi-Oh!, a player performs an Xyz Summon by doing this with monsters of the same level.",
+        "answer": "Overlay at least 2 Monsters of the Same Level",
+        "aliases": [
+          "Overlay at least 2 Monsters of the Same Level"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "In Yu-Gi-Oh!, an Xyz Summon uses monsters of the same level by placing them this way.",
+        "answer": "Overlaying them",
+        "aliases": [
+          "overlay",
+          "overlaying",
+          "overlaying monsters"
+        ],
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "af339a2e-c446-4dd0-82e6-295d391abd25",
+      "previous": {
+        "clue": "This time signature is commonly known as “Cut Time?”",
+        "answer": "2/2",
+        "aliases": [
+          "2/2"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Musicians commonly write cut time with this time signature.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "f2fc110a-3aeb-45a4-be1a-5be5c89c3dde",
+      "previous": {
+        "clue": "One World Trade Center in New York City is this tall.",
+        "answer": "1,776 ft",
+        "aliases": [
+          "1,776 ft"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "One World Trade Center in New York City reaches this height in feet.",
+        "aliases": [
+          "1,776 ft",
+          "1776 feet",
+          "1,776 feet"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "e863ecda-0f4a-4e37-b586-af1f9a9e5200",
+      "previous": {
+        "clue": "This is the most common time signature for rock songs.",
+        "answer": "4/4",
+        "aliases": [
+          "4/4"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Rock songs most often use this time signature.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "f042dfb2-ce9f-4b54-a8c5-b2be476c4f43",
+      "previous": {
+        "clue": "This is the airspeed velocity of an unladen swallow.",
+        "answer": "24 MPH",
+        "aliases": [
+          "24 MPH"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "In Monty Python and the Holy Grail, the joking airspeed of an unladen European swallow is this many miles per hour.",
+        "aliases": [
+          "24 MPH",
+          "24 mph",
+          "twenty-four miles per hour"
+        ],
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "0972e8e4-391f-4849-a327-c243a8ecc35b",
+      "previous": {
+        "clue": "Originally used in PCM adapters, this frequency is the standard for sampling audio in the Compact Disc Digital Audio format.",
+        "answer": "44.1 kHz",
+        "aliases": [
+          "44.1 kHz"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Compact Disc Digital Audio uses this standard sampling frequency in kilohertz.",
+        "aliases": [
+          "44.1 kHz",
+          "44.1 kilohertz"
+        ],
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "503abe5a-9d23-4e5c-a057-5c721f452da9",
+      "previous": {
+        "clue": "This is the approximate value of mathematical constant e.",
+        "answer": "2.72",
+        "aliases": [
+          "2.72"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "The mathematical constant e is approximately this value to two decimal places.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "d3fd3801-bbd3-4b48-a8f7-9f4fbe3cea9c",
+      "previous": {
+        "clue": "These numbers are in the 5th row of Pascal's Triangle.",
+        "answer": "1 4 6 4 1",
+        "aliases": [
+          "1 4 6 4 1"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Counting the top 1 as row zero, row 4 of Pascal's Triangle has these five numbers.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "9f6839cb-ec05-4d1a-898b-47ac034fcdca",
+      "previous": {
+        "clue": "On a standard Monopoly board, Tennessee Avenue costs this amount.",
+        "answer": "$180",
+        "aliases": [
+          "$180"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "On a standard Monopoly board, Tennessee Avenue has this purchase price.",
+        "aliases": [
+          "$180",
+          "180 dollars",
+          "180"
+        ],
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "a8d86176-73a7-494b-8654-88627f16f420",
+      "previous": {
+        "clue": "This Botticelli painting shows Venus arriving on a shell.",
+        "answer": "The Birth of Venus",
+        "aliases": [
+          "Birth of Venus"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This Botticelli painting shows a nude goddess arriving on a shell.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "3afd63d6-ae00-43d7-9650-dea2c390a24a",
+      "previous": {
+        "clue": "This Seurat painting places leisure seekers on an island in pointillist dots.",
+        "answer": "A Sunday Afternoon on the Island of La Grande Jatte",
+        "aliases": [
+          "La Grande Jatte"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This Seurat painting places leisure seekers beside the Seine in pointillist dots.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "d0c51df5-be9b-4f9d-ab71-d2b4e16ee2bb",
+      "previous": {
+        "clue": "This Paris tower was built for the 1889 Exposition Universelle.",
+        "answer": "Eiffel Tower",
+        "aliases": [
+          "the Eiffel Tower"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This iron Paris landmark was built for the 1889 Exposition Universelle.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "0d10eb93-f657-4f7e-8e39-c63c9cab5701",
+      "previous": {
+        "clue": "This Maya Lin-designed memorial in Washington lists names on polished black granite.",
+        "answer": "Vietnam Veterans Memorial",
+        "aliases": [
+          "the Vietnam Veterans Memorial"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This Maya Lin-designed Washington memorial lists the names of U.S. service members on polished black granite.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "7f0c8a12-a6d6-4eb6-be24-ab25832cc83c",
+      "previous": {
+        "clue": "This Christ statue overlooks Rio de Janeiro from Mount Corcovado.",
+        "answer": "Christ the Redeemer",
+        "aliases": [
+          "Cristo Redentor"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This Art Deco statue overlooks Rio de Janeiro from Mount Corcovado.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "33daeb9a-89fd-42d0-84b0-910f03ece14f",
+      "previous": {
+        "clue": "This Peggy built a major modern art collection and opened Art of This Century in New York.",
+        "answer": "Peggy Guggenheim",
+        "aliases": [
+          "Guggenheim"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This American collector built a major modern art collection and opened Art of This Century in New York.",
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "81b64248-4f80-4be6-907b-32af05fb59dd",
+      "previous": {
+        "clue": "This Washington monument honors the author of the Declaration of Independence with a domed memorial.",
+        "answer": "Jefferson Memorial",
+        "aliases": [
+          "Thomas Jefferson Memorial"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This domed Washington monument honors the main author of the Declaration of Independence.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "ea9b603b-17a0-41aa-8bd6-b8117c1afed6",
+      "previous": {
+        "clue": "The city known as the Rose Capital of the World is this Texas city.",
+        "answer": "Tyler, Texas",
+        "aliases": [
+          "Tyler, Texas"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This Texas city is known as the Rose Capital of the World.",
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "f59d809b-154d-4f41-9368-50e461ac6bc7",
+      "previous": {
+        "clue": "This desert in Mongolia and China is known for harsh temperatures.",
+        "answer": "Gobi Desert",
+        "aliases": [
+          "Gobi"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This vast desert in Mongolia and China is known for harsh temperatures.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "68fa7ffd-6f7b-4173-9dcd-337000924b72",
+      "previous": {
+        "clue": "This region around the Amazon River spans parts of Brazil, Peru, and other countries.",
+        "answer": "Amazon Basin",
+        "aliases": [
+          "the Amazon Basin"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This South American drainage region spans parts of Brazil, Peru, and other countries.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "36104073-5eb6-4c7c-a872-1fd24934b086",
+      "previous": {
+        "clue": "This point on Earth is at 90 degrees north latitude.",
+        "answer": "North Pole",
+        "aliases": [
+          "the North Pole"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "Santa's legendary home is this geographic point at 90 degrees N.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "6bc7b6c2-bbaf-4d17-8588-ed4b3e2fcff7",
+      "previous": {
+        "clue": "This 1773 protest dumped tea into Boston Harbor.",
+        "answer": "Boston Tea Party",
+        "aliases": [],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "This 1773 colonial protest dumped tea into a Massachusetts harbor.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 92,
+        "quality_issues": [
+          "missing-multiword-aliases"
+        ]
+      }
+    },
+    {
+      "id": "5dfc91e8-2bd0-411a-8224-ee0777fe29ce",
+      "previous": {
+        "clue": "This 1890 massacre of Lakota people took place in South Dakota.",
+        "answer": "Wounded Knee Massacre",
+        "aliases": [
+          "Wounded Knee"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This 1890 massacre of Lakota people took place near a South Dakota creek.",
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "89a8b2d1-2629-4446-8c9c-a472d3115a38",
+      "previous": {
+        "clue": "This conference placed Roosevelt, Churchill, and Stalin together in Crimea in 1945.",
+        "answer": "Yalta Conference",
+        "aliases": [
+          "Yalta"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This 1945 Crimea meeting brought together Roosevelt, Churchill, and Stalin.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "22338522-0092-4fd1-9dcf-a2c6a82a0876",
+      "previous": {
+        "clue": "This 1803 purchase from France doubled the size of the United States.",
+        "answer": "Louisiana Purchase",
+        "aliases": [],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This 1803 land acquisition from France doubled the size of the United States.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 92,
+        "quality_issues": [
+          "missing-multiword-aliases"
+        ]
+      }
+    },
+    {
+      "id": "b7910cff-3989-4669-8dd0-3334f6f540b1",
+      "previous": {
+        "clue": "This 1917 Russian revolution brought the Bolsheviks to power.",
+        "answer": "October Revolution",
+        "aliases": [
+          "Bolshevik Revolution"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This 1917 Bolshevik uprising brought Lenin's party to power in Russia.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "4544d739-3902-4546-a8b3-bd86010c1d6b",
+      "previous": {
+        "clue": "This Chinese dynasty built much of the Great Wall and standardized writing.",
+        "answer": "Qin Dynasty",
+        "aliases": [
+          "Qin"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This Chinese dynasty built early Great Wall sections and standardized writing.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "4ec05224-de8f-4492-8b7b-6351dc5a6d18",
+      "previous": {
+        "clue": "This misplaced modifier appears to attach to the wrong word in a sentence.",
+        "answer": "Dangling modifier",
+        "aliases": [
+          "dangling participle"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This grammar error makes a descriptive phrase attach to the wrong word in a sentence.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "e46f86dd-b0c0-44f3-8a16-9801c8874cb9",
+      "previous": {
+        "clue": "Stephen King's \"IT\" takes place in this fictional Maine town.",
+        "answer": "Derry, Maine",
+        "aliases": [
+          "Derry, Maine"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Stephen King's It takes place in this fictional Maine town.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "c191fb3a-9ecf-4319-9a99-f78a087cff76",
+      "previous": {
+        "clue": "This Roald Dahl book sends a poor boy into Willy Wonka's factory.",
+        "answer": "Charlie and the Chocolate Factory",
+        "aliases": [],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "This Roald Dahl book sends a poor boy into Willy Wonka's factory.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "missing-multiword-aliases",
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "939a6e0d-0a14-42c2-946c-dd49fc6a5a05",
+      "previous": {
+        "clue": "In which classic novel by Mark Twain did a beggar and Prince of Wales switch clothes, and learn about social class inequality.",
+        "answer": "The Prince and the Pauper",
+        "aliases": [
+          "The Prince and the Pauper",
+          "Prince and the Pauper"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "In this Mark Twain novel, two look-alike boys trade clothes and social roles.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "cc0fd655-72a6-4caa-adea-7ca611e897bf",
+      "previous": {
+        "clue": "This Arthur Miller play follows Willy Loman near the end of his salesman life.",
+        "answer": "Death of a Salesman",
+        "aliases": [],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This Arthur Miller play follows Willy Loman as his career and family life collapse.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 92,
+        "quality_issues": [
+          "missing-multiword-aliases"
+        ]
+      }
+    },
+    {
+      "id": "5a597d06-663b-48c1-97ee-0c6d6a25ab0f",
+      "previous": {
+        "clue": "This C. S. Lewis novel begins with children entering Narnia through a wardrobe.",
+        "answer": "The Lion, the Witch and the Wardrobe",
+        "aliases": [
+          "Lion Witch and Wardrobe"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This C. S. Lewis novel sends four children through furniture into Narnia.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "2c5dec8e-9991-4419-ac6a-a48a950394b9",
+      "previous": {
+        "clue": "This annual prize honors a distinguished work of American fiction.",
+        "answer": "Pulitzer Prize for Fiction",
+        "aliases": [
+          "Pulitzer Prize"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This annual literary award category honors a distinguished American novel or story collection.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "6ca1c881-0267-4734-8843-8321d4732ea5",
+      "previous": {
+        "clue": "This was the first music video to be broadcast on MTV.",
+        "answer": "Video Killed the Radio Star",
+        "aliases": [
+          "Video Killed the Radio Star"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This Buggles song launched MTV's broadcast day on August 1, 1981.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "f87f97c5-6f83-48fe-8257-45ec41c25724",
+      "previous": {
+        "clue": "Traditional haggis is made from these sheep organs.",
+        "answer": "Sheep's Heart, Liver and Lungs",
+        "aliases": [
+          "Sheep's Heart, Liver and Lungs"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Traditional haggis uses this trio of sheep organs.",
+        "answer": "Heart, liver, and lungs",
+        "aliases": [
+          "heart liver and lungs",
+          "sheep's heart liver and lungs"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "5e09dd2f-9905-4463-a5f3-9d60fcf2c7bc",
+      "previous": {
+        "clue": "This was the soft drink Pepsi originally introduced as.",
+        "answer": "Brad's Drink",
+        "aliases": [
+          "Brad's Drink"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Pepsi was originally introduced under this name honoring its inventor's surname.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "c69fbb58-3da1-4633-8f0c-7e4651fa3e33",
+      "previous": {
+        "clue": "On a keyboard, the Prt Sc button performs this screen-capture action.",
+        "answer": "Captures what's on the screen and copies it to your clipboard",
+        "aliases": [
+          "Captures what's on the screen and copies it to your clipboard"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "On a keyboard, the Prt Sc button performs this action.",
+        "answer": "Takes a screenshot",
+        "aliases": [
+          "takes a screenshot",
+          "captures the screen",
+          "copies the screen to the clipboard"
+        ],
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "c67a8686-4263-45cb-839b-5bba4f108d06",
+      "previous": {
+        "clue": "The display abbreviation LCD stands for these words.",
+        "answer": "Liquid Crystal Display",
+        "aliases": [
+          "Liquid Crystal Display"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "The display abbreviation LCD expands to these three words.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "17808066-866f-4b3b-8764-7a696da39785",
+      "previous": {
+        "clue": "In modern culture, this global health agency is abbreviated WHO.",
+        "answer": "World Health Organization",
+        "aliases": [
+          "WHO"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "This global health agency uses the abbreviation WHO.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "62163841-4ecd-435f-800d-71f55d2dd94d",
+      "previous": {
+        "clue": "This agreement aims to limit global warming and is named for a French capital.",
+        "answer": "Paris Agreement",
+        "aliases": [
+          "Paris climate agreement"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This climate accord is named for the French capital where it was adopted in 2015.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 92,
+        "quality_issues": [
+          "possibly-time-sensitive-pop-culture"
+        ]
+      }
+    },
+    {
+      "id": "0b1679cf-c619-4a41-8ba6-920887d4aad5",
+      "previous": {
+        "clue": "This telescope released its first full-color images in 2022.",
+        "answer": "James Webb Space Telescope",
+        "aliases": [
+          "JWST"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This space telescope released its first full-color images in 2022.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "possibly-time-sensitive-pop-culture",
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "c30ac00c-aa61-4605-83c1-02c726162a84",
+      "previous": {
+        "clue": "In Japanese pop culture, a dakimakura is this kind of pillow.",
+        "answer": "A body pillow",
+        "aliases": [
+          "A body pillow",
+          "body pillow"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "In Japanese pop culture, a dakimakura is this type of pillow.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "f5118f47-23d6-4a86-b9d6-685349159acf",
+      "previous": {
+        "clue": "Moore's law originally predicted the transistor count on integrated circuits would double after this many years.",
+        "answer": "Two years",
+        "aliases": [
+          "2 years",
+          "two years",
+          "24 months"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "Moore's law originally predicted the transistor count on integrated circuits would double after this many years.",
+        "answer": "Two",
+        "aliases": [
+          "2",
+          "two",
+          "2 years",
+          "two years",
+          "24 months"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "65d6be8c-0567-42a4-be44-018318e2e2aa",
+      "previous": {
+        "clue": "The world's longest venomous snake is this cobra species.",
+        "answer": "King Cobra",
+        "aliases": [
+          "King Cobra"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "The world's longest venomous snake is this species of cobra.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "26bc7421-2ff7-44b8-b0a5-cae7aed5ac0f",
+      "previous": {
+        "clue": "The French mathematician Évariste Galois is primarily known for his work in which.",
+        "answer": "Galois Theory",
+        "aliases": [
+          "Galois Theory"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This branch of abstract algebra studies polynomial equations through groups of symmetries.",
+        "value": 1000,
+        "difficulty_rank": 5,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "d66f7ea1-5aff-4dd2-b46f-ba87f3f5853a",
+      "previous": {
+        "clue": "This telescope launched in 1990 and has produced deep-field images.",
+        "answer": "Hubble Space Telescope",
+        "aliases": [
+          "Hubble"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This 1990 space telescope has produced famous deep-field images.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "6093879b-f048-471c-9721-c4f5ad42dfea",
+      "previous": {
+        "clue": "This cloud of icy bodies is thought to surround the Solar System far beyond Pluto.",
+        "answer": "Oort Cloud",
+        "aliases": [
+          "the Oort Cloud"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "This distant cloud of icy bodies is thought to surround the Solar System far beyond Pluto.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "047a3546-d938-46a3-9087-ab72f54e1de0",
+      "previous": {
+        "clue": "In the game Danganronpa: Happy Trigger Havoc, the character Aoi Asahina's ultimate ability is this.",
+        "answer": "Ultimate Swimmer",
+        "aliases": [
+          "Ultimate Swimmer"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "In Danganronpa: Trigger Happy Havoc, Aoi Asahina has this talent.",
+        "answer": "Swimmer",
+        "aliases": [
+          "swimmer",
+          "Ultimate Swimmer"
+        ],
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "3acb4389-db5b-4dfc-ac81-e9d8f64f99f8",
+      "previous": {
+        "clue": "In Overwatch lore, Lúcio is known by this full name.",
+        "answer": "Lúcio Correia Dos Santos",
+        "aliases": [
+          "Lúcio Correia Dos Santos"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "This Brazilian DJ and support hero in Overwatch has the surname Correia dos Santos.",
+        "answer": "Lucio",
+        "aliases": [
+          "Lucio",
+          "Lucio Correia dos Santos"
+        ],
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "a8c8d3a5-62b9-42c1-864e-4dc3f24eddb6",
+      "previous": {
+        "clue": "This shot behind the arc is worth three points.",
+        "answer": "Three-pointer",
+        "aliases": [
+          "three point shot"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "In basketball, this hyphenated shot is taken from behind the arc.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "8cdf01ef-2c49-415a-954e-044699e33d1e",
+      "previous": {
+        "clue": "This baseball count has three balls and two strikes.",
+        "answer": "Full count",
+        "aliases": [],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "next": {
+        "clue": "This situation in baseball has three balls and two strikes.",
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 92,
+        "quality_issues": [
+          "missing-multiword-aliases"
+        ]
+      }
+    },
+    {
+      "id": "82236fa5-895e-48a5-9e64-bc5fde56c72f",
+      "previous": {
+        "clue": "This college football trophy is awarded annually to the most outstanding player.",
+        "answer": "Heisman Trophy",
+        "aliases": [
+          "Heisman"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "This college football trophy goes annually to the most outstanding player.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 96,
+        "quality_issues": [
+          "answer-content-word-in-clue"
+        ]
+      }
+    },
+    {
+      "id": "9eba4ad5-d2ec-4830-8070-c8bf3bce86a1",
+      "previous": {
+        "clue": "This word for a clue or hint comes from the thread Ariadne gave Theseus.",
+        "answer": "Clue",
+        "aliases": [
+          "clew"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "Ariadne's thread gave English this word meaning a hint.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "66a72d57-e6eb-4515-afef-c1ae5a26e35e",
+      "previous": {
+        "clue": "This word for a map book comes from a Titan forced to hold the sky.",
+        "answer": "Atlas",
+        "aliases": [
+          "atlas"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "next": {
+        "clue": "Named for a Titan forced to hold the sky, this word means a book of maps.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "6dbce510-5f9e-41e2-ad26-1d74cd2bc5ea",
+      "previous": {
+        "clue": "This word for a tiny amount comes from Latin scrupulus, a small sharp stone.",
+        "answer": "Scruple",
+        "aliases": [
+          "scruple"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "Latin scrupulus, a small sharp stone, gave English this word for a tiny amount.",
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "fe34f32a-0275-4208-8cf9-717f235b42ab",
+      "previous": {
+        "clue": "This word refers back to a noun, as “she” refers to Maria.",
+        "answer": "Pronoun",
+        "aliases": [
+          "pronoun"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "next": {
+        "clue": "As she can refer to Maria, this part of speech stands in for a noun.",
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "db5c54c6-d57f-485f-9b07-324cc69c3769",
+      "previous": {
+        "clue": "This word means deliberately ambiguous or evasive, especially in language.",
+        "answer": "Equivocal",
+        "aliases": [
+          "equivocal"
+        ],
+        "value": 1000,
+        "difficulty_rank": 5
+      },
+      "next": {
+        "clue": "This word means deliberately ambiguous or evasive, especially in language.",
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "050c1eea-63cb-418f-9e8b-95419596a668",
+      "previous": {
+        "clue": "This word for a false name comes from Greek roots meaning false name.",
+        "answer": "Pseudonym",
+        "aliases": [
+          "pseudonym"
+        ],
+        "value": 800,
+        "difficulty_rank": 4
+      },
+      "next": {
+        "clue": "Greek roots meaning false name give English this term for an assumed author name.",
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "350d8af1-8dec-49b7-acef-e5d178a0b85f",
+      "previous": {
+        "clue": "This word for a word’s origin comes from Greek roots meaning true sense.",
+        "answer": "Etymology",
+        "aliases": [
+          "etymology"
+        ],
+        "value": 1000,
+        "difficulty_rank": 5
+      },
+      "next": {
+        "clue": "Greek roots meaning true sense give English this term for the study of word origins.",
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    }
+  ]
+}

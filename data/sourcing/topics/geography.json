@@ -1,0 +1,815 @@
+{
+  "category_id": "geography",
+  "updated_at": "2026-06-13T21:46:45.917Z",
+  "total_clues_seen": 100,
+  "category_titles": {
+    "STATE FACTS": 5,
+    "GEOGRAPHY \"R\" US": 5,
+    "CITY MUSEUMS": 5,
+    "BRAZILIAN GEOGRAPHY": 5,
+    "A BIG COUNTRY": 5,
+    "\"C\", THE CITY": 5,
+    "GEOGRAPHY \"B\"": 5,
+    "COUNTRY FACTS": 5,
+    "THE GREAT STATE OF...": 5,
+    "NAME YOUR DAUGHTER FROM THE U.S. MAP": 5,
+    "BRITISH GEOGRAPHY": 5,
+    "RIVER CITIES & TOWNS": 5,
+    "AUSTRALIAN GEOGRAPHY": 5,
+    "GEOGRAPHY": 5,
+    "WORLD GEOGRAPHY": 5,
+    "STATE GOVERNMENT": 5,
+    "\"A\" CITY TO REMEMBER": 5,
+    "REPPING THE CITY": 5,
+    "U.S. GEOGRAPHY": 5,
+    "MEXICAN GEOGRAPHY": 5
+  },
+  "answers": {
+    "iowa": {
+      "display": "Iowa",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It's the only state whose name begins with 2 vowels"
+    },
+    "a snapping turtle": {
+      "display": "a snapping turtle",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Stand back! This turtle that has a pretty good bite with its hooked beak is the state reptile of New York"
+    },
+    "delaware": {
+      "display": "Delaware",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In land area it ranks 49th in the nation"
+    },
+    "the land of 10,000 lakes": {
+      "display": "the Land of 10,000 Lakes",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Despite this nickname for Minnesota, the state actually boasts many more"
+    },
+    "kamehameha": {
+      "display": "Kamehameha",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "On June 11 Hawaii celebrates this great king with a parade & other festivities"
+    },
+    "the red sea": {
+      "display": "the Red Sea",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The Gulf of Aqaba & the Gulf of Suez are arms of it"
+    },
+    "the rhône": {
+      "display": "the Rhône",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The Arve River has its origins on Mont Blanc & flows into this river near Geneva"
+    },
+    "mount rainier": {
+      "display": "Mount Rainier",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "George Vancouver named this peak that's southeast of Tacoma for his fellow naval officer Peter"
+    },
+    "richmond": {
+      "display": "Richmond",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This city on the James River is home to the Robert E. Lee House & the home of Chief Justice John Marshall"
+    },
+    "riyadh": {
+      "display": "Riyadh",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This capital city at the junction of 2 wadis is home to more than 15,000 mosques"
+    },
+    "cleveland": {
+      "display": "Cleveland",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The Rock & Roll Hall of Fame & Museum"
+    },
+    "las vegas": {
+      "display": "Las Vegas",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The Neon Museum"
+    },
+    "roswell": {
+      "display": "Roswell",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The International UFO Museum"
+    },
+    "pittsburgh": {
+      "display": "Pittsburgh",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The Carnegie Museum of Art"
+    },
+    "hartford": {
+      "display": "Hartford",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The Mark Twain House & Museum"
+    },
+    "serra": {
+      "display": "Serra",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Without the \"I\" that Spanish uses, it's the Portuguese word for a jagged mountain range; the one da Mantiqueira is in Brazil's south"
+    },
+    "brasília": {
+      "display": "Brasília",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Carved out of Goiás State, this city of about 3 million is found within the Distrito Federal"
+    },
+    "bolivia": {
+      "display": "Bolivia",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Brazil's longest land border, about 2,100 miles, is shared with this landlocked nation"
+    },
+    "são paulo": {
+      "display": "São Paulo",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This city of 12 million in the southeast was named in 1554 on the anniversary of the conversion of an apostle"
+    },
+    "amazonas": {
+      "display": "Amazonas",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Manaus is the capital of this largely rainforest state that adds 2 letters to the name of the river that runs through it"
+    },
+    "time zones": {
+      "display": "time zones",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Though it has only one official one, China spans 5 of these east to west"
+    },
+    "india": {
+      "display": "India",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Though it lost about 350,000 square miles of territory in 1947, it was still the world's 7th-largest country"
+    },
+    "tierra del fuego": {
+      "display": "Tierra Del Fuego",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Argentina spans more than 2,000 miles from Jujuy province in the north to this island province down south"
+    },
+    "western australia": {
+      "display": "Western Australia",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "It's the apt name of the nearly one million square mile area seen here"
+    },
+    "oblasts": {
+      "display": "oblasts",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"O\", I hope you know Russia has 46 of these provinces, from an old Slavonic word meaning \"empire\""
+    },
+    "cairo": {
+      "display": "Cairo",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "An obelisk located in the northeast of this big city memorializes the ancient site of Heliopolis"
+    },
+    "casablanca": {
+      "display": "Casablanca",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "If you travel by sea to this, Morocco's main port city, you can take a train from there to Tangier"
+    },
+    "columbia & charleston": {
+      "display": "Columbia & Charleston",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "They're the 2 cities that have served as South Carolina's capital"
+    },
+    "chihuahua": {
+      "display": "Chihuahua",
+      "count": 2,
+      "values": [
+        800,
+        200
+      ],
+      "example_clue": "In Northern Mexico, a capital city, a state & a desert all have this name"
+    },
+    "cardiff": {
+      "display": "Cardiff",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"Doctor Who\" fans know that this Welsh city is the home base for production"
+    },
+    "bavaria": {
+      "display": "Bavaria",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It 's Germany's largest state in area"
+    },
+    "bogotá": {
+      "display": "Bogotá",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Panama City lies about 470 miles northwest of this other capital"
+    },
+    "bimini": {
+      "display": "Bimini",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The Bahamas include these other \"B\" islands that lie about 50 miles off the coast of Florida"
+    },
+    "the berkshires": {
+      "display": "the Berkshires",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Mount Greylock, the highest point in Massachusetts, is part of this range"
+    },
+    "the brahmaputra": {
+      "display": "the Brahmaputra",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Beginning in the Himalayas, this big river flows some 1,800 miles before joining the Ganges & emptying into the Bay of Bengal"
+    },
+    "south korea": {
+      "display": "South Korea",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Its northern end roughly follows the 38th parallel from the mouth of the Han River to the town of Kosong"
+    },
+    "argentina": {
+      "display": "Argentina",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "It has the highest & lowest points in all of the Americas"
+    },
+    "oman": {
+      "display": "Oman",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "There are at least 8 \"A\"s, \"E\"s, \"I\"s & \"U\"s but this is the only U.N. member that starts with \"O\""
+    },
+    "kenya": {
+      "display": "Kenya",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The Mau Escarpment is a rampart along the western rim of the Great Rift Valley in this country"
+    },
+    "myanmar": {
+      "display": "Myanmar",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Nay Pyi Taw was purpose built in 2005 & declared the new capital of this nation in 2006"
+    },
+    "grace": {
+      "display": "grace",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Be close to God in a state of this, the name of a Monégasque princess"
+    },
+    "shock": {
+      "display": "shock",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "It precedes \"jock\" to help describe a provocative talk-radio DJ"
+    },
+    "equilibrium": {
+      "display": "equilibrium",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Let's even out opposing forces to produce an absence of change & get things in this 11-letter word"
+    },
+    "confusion": {
+      "display": "confusion",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Let's get you out of a state of this, bewilderment; there's a matrix for it in machine learning"
+    },
+    "affairs": {
+      "display": "affairs",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A series of illicit liaisons or in a very separate meaning, public events"
+    },
+    "colorado": {
+      "display": "Colorado",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "How about Aurora in this state, founded in 1891 during a silver mining boom"
+    },
+    "paris, texas": {
+      "display": "Paris, Texas",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The 65-foot landmark replica seen here is found in this city northeast of Dallas"
+    },
+    "olympia": {
+      "display": "Olympia",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Greek heritage? How about this, the capital of a West Coast state"
+    },
+    "oklahoma": {
+      "display": "Oklahoma",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The seat of Garfield County, Enid in this state is located at a watering place on the Chisholm Trail"
+    },
+    "alexandria": {
+      "display": "Alexandria",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "George Washington helped lay out this place on the Potomac & drilled troops there during the French & Indian War"
+    },
+    "sherwood": {
+      "display": "Sherwood",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Associated with an outlaw hero of medieval legend, this forest once covered about 1/5 of Nottinghamshire County"
+    },
+    "wales": {
+      "display": "Wales",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Known for its volcanic rock mountains, like 3,500-foot Yr Wyddfa , Eryri National Park is found in this UK country"
+    },
+    "edinburgh": {
+      "display": "Edinburgh",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Castle Rock & Arthur's Seat are 2 of the \"Seven Hills of\" this Scottish city"
+    },
+    "liverpool": {
+      "display": "Liverpool",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Chartered by King John in 1207, this city lies on the northern shore of the River Mersey a few miles from the Irish Sea"
+    },
+    "loch lomond": {
+      "display": "Loch Lomond",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Loch Ness & this other bonnie, bonnie loch are the 2 largest lakes in Scotland"
+    },
+    "the volga": {
+      "display": "the Volga",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Astrakhan & Ulyanovsk"
+    },
+    "the mekong": {
+      "display": "the Mekong",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Luang Prabang & Pak Lay"
+    },
+    "the loire": {
+      "display": "the Loire",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Amboise & Orléans"
+    },
+    "the mackenzie": {
+      "display": "the Mackenzie",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The towns of Fort Providence & Inuvik, as shown here"
+    },
+    "the orinoco": {
+      "display": "the Orinoco",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Puerto Ayacucho & Ciudad Bolívar"
+    },
+    "the pacific & indian": {
+      "display": "the Pacific & Indian",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "These 2 oceans lap at Australia's easternmost & westernmost shores"
+    },
+    "the tropic of capricorn": {
+      "display": "the Tropic of Capricorn",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Australia lies in the Southern Hemisphere, roughly split by this major line of latitude"
+    },
+    "sydney": {
+      "display": "Sydney",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "See many of those wild & weird Aussie animals at the Taronga Zoo in this coastal metropolis, the most populous city"
+    },
+    "the outback": {
+      "display": "the Outback",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Aka the Never-Never, this 2.1-million-square-mile region is where explorer Ludwig Leichhardt & his team disappeared in 1848"
+    },
+    "tasmania": {
+      "display": "Tasmania",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This island off Australia's southern coast makes up most of its smallest state"
+    },
+    "malaysia": {
+      "display": "Malaysia",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "After gaining self-government, Sarawak joined this country in 1963 & became a state"
+    },
+    "the departments": {
+      "display": "the departments",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Mainland France has 12 metropolitan regions that are further divided into 94 of these, like Hautes-Alpes"
+    },
+    "rwanda": {
+      "display": "Rwanda",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This country is sometimes called \"Land of a Thousand Hills\" & its capital Kigali is built on several of them"
+    },
+    "the appalachian valley": {
+      "display": "the Appalachian Valley",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Stretching from Canada to Alabama, this lengthy valley includes the Cumberland Valley"
+    },
+    "the rhine & the rhône": {
+      "display": "the Rhine & the Rhône",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Britannica calls these 2 bodies of water that differ by a letter Switzerland's 2 most important rivers"
+    },
+    "nunavut": {
+      "display": "Nunavut",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Canada's geographic center is in or near a lake in this easternmost Arctic territory"
+    },
+    "the caspian sea": {
+      "display": "the Caspian Sea",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The ancients called this body of water the Hyrcanian Sea; clever Herodotus thought it had no outlet to the ocean"
+    },
+    "the blue mountains": {
+      "display": "the Blue Mountains",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "On Jamaica a more than 7,400-foot peak is named for this \"colorful\" range"
+    },
+    "sudan": {
+      "display": "Sudan",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A part of the Sahara called the Nubian Desert is largely in the northeastern part of this country"
+    },
+    "the governor": {
+      "display": "the governor",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In every U.S. state & commonwealth, this head of the executive branch is directly elected by the people"
+    },
+    "alabama": {
+      "display": "Alabama",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This state's constitution, based largely on one drafted in Montgomery in 1901, is thought to be the longest in the world"
+    },
+    "louisiana": {
+      "display": "Louisiana",
+      "count": 2,
+      "values": [
+        600,
+        200
+      ],
+      "example_clue": "This state has civil law based on French & Spanish law, a holdover from its colonial past"
+    },
+    "an (state) auditor": {
+      "display": "an (state) auditor",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Washington & Maine each have a state one of these officials to examine accounting records"
+    },
+    "boroughs": {
+      "display": "boroughs",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Local governments mostly have 2 tiers: cities & towns, aka municipalities, & counties, which in Alaska are called these"
+    },
+    "austin": {
+      "display": "Austin",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The South by Southwest Conference is a big draw in this city"
+    },
+    "auckland": {
+      "display": "Auckland",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Beautiful Waitemada Harbour can be found in this, New Zealand's most populous city"
+    },
+    "asheville": {
+      "display": "Asheville",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "This North Carolina city is the eastern gateway to the Great Smoky Mountains"
+    },
+    "aberdeen": {
+      "display": "Aberdeen",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Great Scot! It sits upon the Rivers Dee & Don on the North Sea"
+    },
+    "aqaba": {
+      "display": "Aqaba",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In 1917 T.E. Lawrence helped capture this Jordanian port town on a gulf of the same name"
+    },
+    "bruce springsteen": {
+      "display": "Bruce Springsteen",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This singer tells Sandy that \"Fireworks are hailing over Little Eden tonight\" in \"4th Of July, Asbury Park\""
+    },
+    "\"empire state of mind\"": {
+      "display": "\"Empire State Of Mind\"",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Not to snitch, but Jay-Z references Harlem, Tribeca & a stash spot on 560 State Street -- that's right, officer, 560 State -- in this song"
+    },
+    "\"black and yellow\"": {
+      "display": "\"Black And Yellow\"",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Wiz Khalifa reps Pittsburgh in this song, also the 2 colors of the city's Steelers"
+    },
+    "long beach city": {
+      "display": "Long Beach City",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The Dove Shack had a hit with \"Summertime In The LBC\" -- LBC is short for this California city, home of Vince Staples & Snoop Dogg"
+    },
+    "nwa": {
+      "display": "NWA",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "On the first track off the same-named album, this 3-initialed group came \"Straight Outta Compton\""
+    },
+    "wyoming": {
+      "display": "Wyoming",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Behold the majesty at the National Elk Refuge adjoining Grand Teton National Park in this state"
+    },
+    "the yukon territory": {
+      "display": "the Yukon Territory",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Mount Augusta isn't in Georgia -- or Maine for that matter -- it's in Alaska on the state's border with this Canadian territory"
+    },
+    "tortugas": {
+      "display": "Tortugas",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The last of Florida's Keys are a group of 7 islands known as the \"Dry\" these"
+    },
+    "columbia": {
+      "display": "Columbia",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Congaree National Park is roughly 20 miles southeast of this southern capital"
+    },
+    "sierra madre": {
+      "display": "Sierra Madre",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Three connected ranges of these mountains form a backbone through Mexico"
+    },
+    "baja california & yucatán": {
+      "display": "Baja California & Yucatán",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Mexico's 2 largest peninsulas, they are found on opposite sides of the country"
+    },
+    "roma": {
+      "display": "Roma",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Showcased in a 2018 movie by Alfonso Cuarón, it's the name for a trendy neighborhood near the center of Mexico City"
+    },
+    "chiapas": {
+      "display": "Chiapas",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This southern Mexican state is known for the Mayan ruins of Palenque & Bonampak & as the site of the Zapatista uprising"
+    },
+    "zacatecas": {
+      "display": "Zacatecas",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Alphabetically, Mexico's states run from Aguascalientes in the center to this \"Z\" one to the north"
+    }
+  }
+}

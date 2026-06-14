@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-06-01T17:21:46.409Z",
+  "total_active": 1200,
+  "overall": {
+    "count": 1200,
+    "average_score": 97,
+    "keep": 1200,
+    "rewrite": 0,
+    "replace": 0,
+    "deactivate": 0
+  },
+  "by_category": {
+    "arts_visual_culture": {
+      "count": 120,
+      "average_score": 98,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "geography": {
+      "count": 120,
+      "average_score": 97,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "history": {
+      "count": 120,
+      "average_score": 97,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "language_wordplay": {
+      "count": 120,
+      "average_score": 97,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "literature_books": {
+      "count": 120,
+      "average_score": 96,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "music_performing_arts": {
+      "count": 120,
+      "average_score": 97,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "pop_culture_media_modern_life": {
+      "count": 120,
+      "average_score": 97,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "religion_mythology_philosophy": {
+      "count": 120,
+      "average_score": 99,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "science": {
+      "count": 120,
+      "average_score": 97,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "sports_games_leisure": {
+      "count": 120,
+      "average_score": 97,
+      "keep": 120,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    }
+  },
+  "by_source": {
+    "manual_seed": {
+      "count": 15,
+      "average_score": 98,
+      "keep": 15,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "opentdb": {
+      "count": 479,
+      "average_score": 95,
+      "keep": 479,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "original_gap_pack": {
+      "count": 196,
+      "average_score": 98,
+      "keep": 196,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "original_strategy_pack": {
+      "count": 200,
+      "average_score": 99,
+      "keep": 200,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    },
+    "original_topoff_pack": {
+      "count": 310,
+      "average_score": 98,
+      "keep": 310,
+      "rewrite": 0,
+      "replace": 0,
+      "deactivate": 0
+    }
+  },
+  "issue_counts": {},
+  "flagged": []
+}

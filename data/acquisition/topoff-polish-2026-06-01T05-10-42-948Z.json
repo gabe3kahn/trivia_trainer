@@ -1,0 +1,402 @@
+{
+  "count": 38,
+  "updates": [
+    {
+      "id": "773ca081-502c-487b-922d-af90addc427d",
+      "previous_clue": "This Cambodian temple complex includes Angkor Wat.",
+      "next_clue": "In geography, this Cambodian temple complex includes Angkor Wat.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "f65bb36a-b3c1-469e-b7ac-50c3f5717057",
+      "previous_clue": "This demonym describes a person from Denmark.",
+      "next_clue": "In geography, this demonym describes a person from Denmark.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "396bf448-c8e3-46cc-8170-64352df72986",
+      "previous_clue": "This language is primarily spoken in Brazil.",
+      "next_clue": "In geography, this language is primarily spoken in Brazil.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "c87b30bd-5740-443e-af8e-dcd35b6e6817",
+      "previous_clue": "This 1815 battle ended Napoleon's final campaign.",
+      "next_clue": "In history, this 1815 battle ended Napoleon's final campaign.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "44f60e91-6612-444f-b37f-6c039db82477",
+      "previous_clue": "This state has Sacramento as its capital.",
+      "next_clue": "In geography, this state has Sacramento as its capital.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "f6205e19-bd44-438a-9273-0ad7227a617a",
+      "previous_clue": "This desert covers much of northern Africa.",
+      "next_clue": "In geography, this desert covers much of northern Africa.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "d015639d-fc9f-4dd7-8a6d-a34d372fba60",
+      "previous_clue": "This region includes Norway, Sweden, and Denmark.",
+      "next_clue": "In geography, this region includes Norway, Sweden, and Denmark.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "5059591c-c798-40b4-a547-cb3997e16148",
+      "previous_clue": "This Belgian region is primarily Dutch-speaking.",
+      "next_clue": "In geography, this Belgian region is primarily Dutch-speaking.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "ed696ccd-6cb1-4177-a72a-020846932761",
+      "previous_clue": "This ancient amphitheater stands in Rome.",
+      "next_clue": "In geography, this ancient amphitheater stands in Rome.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "93325f8d-084d-426a-9254-190c28082bf2",
+      "previous_clue": "This kingdom includes mushrooms, molds, and yeasts.",
+      "next_clue": "In science, this kingdom includes mushrooms, molds, and yeasts.",
+      "quality": {
+        "score": 88,
+        "decision": "keep",
+        "issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "a0bd0bfe-ec3a-4faa-9c75-f0ace0ea6374",
+      "previous_clue": "This element has the chemical symbol Fe.",
+      "next_clue": "In science, this element has the chemical symbol Fe.",
+      "quality": {
+        "score": 88,
+        "decision": "keep",
+        "issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "2bab30cd-8ee7-4b27-bcec-8c524ef9f60d",
+      "previous_clue": "This galaxy contains the Solar System.",
+      "next_clue": "In science, this galaxy contains the Solar System.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "f7f3da08-0d06-4cbd-aa02-4931905d25b4",
+      "previous_clue": "This scale measures earthquake magnitude.",
+      "next_clue": "In science, this scale measures earthquake magnitude.",
+      "quality": {
+        "score": 73,
+        "decision": "rewrite",
+        "issues": [
+          "thin-clue",
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "fac1cd3b-1fc5-4592-a1f2-fe54a84b20c2",
+      "previous_clue": "This bone is commonly called the collarbone.",
+      "next_clue": "In science, this bone is commonly called the collarbone.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "d313158c-6630-43c0-96ab-ce2163b7e9aa",
+      "previous_clue": "This physicist discovered X-rays in 1895.",
+      "next_clue": "In science, this physicist discovered X-rays in 1895.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "61c2a643-de8a-4446-83bb-b8affcc25525",
+      "previous_clue": "This SI unit named for a French physicist measures electric current.",
+      "next_clue": "In SI measurement, this unit named for a French physicist measures electric flow.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "7d905cb3-a72e-4dc8-ba76-7bb56d33fc01",
+      "previous_clue": "This physicist formulated the uncertainty principle.",
+      "next_clue": "In science, this physicist formulated the uncertainty principle.",
+      "quality": {
+        "score": 88,
+        "decision": "keep",
+        "issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "00a9d417-99a6-43b9-8a10-e44ed2387600",
+      "previous_clue": "This Spanish court painter created Las Meninas.",
+      "next_clue": "In art history, this Spanish court painter created Las Meninas.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "e144c068-3096-46f5-b784-ad648b6ecb4a",
+      "previous_clue": "This Romanian-born sculptor created Bird in Space.",
+      "next_clue": "In art history, this Romanian-born sculptor created Bird in Space.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "ec4b76ae-12f2-438b-8aed-a1b04e545d49",
+      "previous_clue": "This composer wrote The Four Seasons.",
+      "next_clue": "In music and theater, this composer wrote The Four Seasons.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "09b883f0-1885-48f0-ab65-d7b6877f9078",
+      "previous_clue": "This Canadian singer-songwriter wrote Hallelujah.",
+      "next_clue": "In music and theater, this Canadian singer-songwriter wrote Hallelujah.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "11723e95-2795-442f-a024-ccaa15aeec75",
+      "previous_clue": "This trumpeter and singer was nicknamed Satchmo.",
+      "next_clue": "In music and theater, this trumpeter and singer was nicknamed Satchmo.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "469406cf-4bba-49bc-a65f-950ebfc0c57b",
+      "previous_clue": "This Italian term means gradually getting louder.",
+      "next_clue": "In music and theater, this Italian term means gradually getting louder.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "2c3ab951-66ac-41f9-a95a-72787db8aa7f",
+      "previous_clue": "This ancient Greek playwright wrote Oedipus Rex.",
+      "next_clue": "In music and theater, this ancient Greek playwright wrote Oedipus Rex.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "8d01f70b-6044-4150-b83b-fa98a9ee2732",
+      "previous_clue": "This Greek hero completed twelve labors.",
+      "next_clue": "In religion and philosophy, this Greek hero completed twelve labors.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "5b26c7e8-8b72-4bf7-8aa3-0ce51f2375eb",
+      "previous_clue": "This sea parted in the Exodus story.",
+      "next_clue": "In religion and philosophy, this sea parted in the Exodus story.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "db45f3b4-b1c9-46db-9e01-4ef77da91bed",
+      "previous_clue": "This city is home to the Kaaba.",
+      "next_clue": "In religion and philosophy, this city is home to the Kaaba.",
+      "quality": {
+        "score": 92,
+        "decision": "keep",
+        "issues": [
+          "generic-answer-class-wrapper"
+        ]
+      }
+    },
+    {
+      "id": "2e4833d4-cc12-453a-b50f-d3ea5866baf3",
+      "previous_clue": "This philosopher wrote The Second Sex.",
+      "next_clue": "In religion and philosophy, this philosopher wrote The Second Sex.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "9830c94d-870b-467b-9a55-c0d4a7ebfe98",
+      "previous_clue": "This philosopher wrote Thus Spoke Zarathustra.",
+      "next_clue": "In religion and philosophy, this philosopher wrote Thus Spoke Zarathustra.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "45dcb9fc-cbdc-418a-b810-4b1b408f98b4",
+      "previous_clue": "This philosopher wrote A Theory of Justice.",
+      "next_clue": "In religion and philosophy, this philosopher wrote A Theory of Justice.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "185f798e-9c2a-4044-8541-19a9b33a8fd6",
+      "previous_clue": "This statistic abbreviates runs batted in.",
+      "next_clue": "In sports and games, this statistic abbreviates runs batted in.",
+      "quality": {
+        "score": 88,
+        "decision": "keep",
+        "issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "7738f29b-e225-418c-8b89-7bd13b5ac347",
+      "previous_clue": "This quarterback won seven Super Bowls.",
+      "next_clue": "In sports and games, this quarterback won seven Super Bowls.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "d440bf70-cea7-4ae3-b0ff-d473000c7b70",
+      "previous_clue": "This golfer is nicknamed the Golden Bear.",
+      "next_clue": "In sports and games, this golfer is nicknamed the Golden Bear.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "1aa9b357-0992-40d7-a297-3c632840f222",
+      "previous_clue": "This city hosted the 2008 Summer Olympics.",
+      "next_clue": "In sports and games, this city hosted the 2008 Summer Olympics.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "c271fa1a-a44e-477d-bf29-ade801422110",
+      "previous_clue": "This Microsoft console brand launched with Halo.",
+      "next_clue": "In sports and games, this Microsoft console brand launched with Halo.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    },
+    {
+      "id": "ea692248-2104-4ce6-a47c-42ef21b7df29",
+      "previous_clue": "This company uses the swoosh logo.",
+      "next_clue": "In modern culture, this company uses the swoosh logo.",
+      "quality": {
+        "score": 88,
+        "decision": "keep",
+        "issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "7e47de9f-288a-405b-b1d9-e14b1b25f7e8",
+      "previous_clue": "This company makes the iPhone.",
+      "next_clue": "In modern culture, this company makes the iPhone.",
+      "quality": {
+        "score": 88,
+        "decision": "keep",
+        "issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "17808066-866f-4b3b-8764-7a696da39785",
+      "previous_clue": "This global health agency is abbreviated WHO.",
+      "next_clue": "In modern culture, this global health agency is abbreviated WHO.",
+      "quality": {
+        "score": 100,
+        "decision": "keep",
+        "issues": []
+      }
+    }
+  ]
+}

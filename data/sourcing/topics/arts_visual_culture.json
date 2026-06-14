@@ -1,0 +1,214 @@
+{
+  "category_id": "arts_visual_culture",
+  "updated_at": "2026-06-13T21:46:45.929Z",
+  "total_clues_seen": 25,
+  "category_titles": {
+    "LANDSCAPE ART": 5,
+    "SUBWAY ART & CULTURE": 5,
+    "L.A. ART & MUSIC": 5,
+    "ART FOR ART'S SAKE": 5,
+    "NOVELTY ARCHITECTURE": 5
+  },
+  "answers": {
+    "van gogh": {
+      "display": "van Gogh",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This troubled artist considered \" A Wheat Field with Cypresses \" one of his best landscapes"
+    },
+    "brazil": {
+      "display": "Brazil",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Two Portuguese planters & two Black slaves appear in the first European artwork to depict this country from 1637"
+    },
+    "claude monet": {
+      "display": "Claude Monet",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In 1873, he painted a field of poppies near Argenteuil"
+    },
+    "yosemite": {
+      "display": "Yosemite",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Albert Bierstadt's landscape of this iconic American valley shows the Sun's rays bathing Sentinel Rock"
+    },
+    "thomas gainsborough": {
+      "display": "Thomas Gainsborough",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Combining a double portrait & a landscape, \" Mr. and Mrs. Andrews \" is by this Englishman also famous for a \"Blue\" portrait"
+    },
+    "taggers": {
+      "display": "taggers",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "( Kareem Rahma presents the clue. ) In a 1974 essay, Norman Mailer compared these subway graffiti artists with their own signatures to Boticelli & Michelangelo"
+    },
+    "coming to america": {
+      "display": "Coming to America",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "( Kareem Rahma presents the clue. ) Underground can be a romantic place, as in this film when Eddie Murphy as Prince Akeem Joffer proposes to Lisa on the subway; one filming location was Brooklyn's Hoyt-Schermerhorn Station"
+    },
+    "(gene) hackman": {
+      "display": "(Gene) Hackman",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "( Kareem Rahma presents the clue. ) Including a scene where he gets outfoxed on the subway platform, the role of Popeye Doyle in \"The French Connection\" won an Oscar for this man who prided himself on being a New York actor"
+    },
+    "the colosseum": {
+      "display": "the Colosseum",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "( Kareem Rahma presents the clue. ) Rome is building a new subway line to help with the city's \"eternal\" traffic; you can see ancient artifacts in the station under this vast landmark begun by Emperor Vespasian"
+    },
+    "take the a train": {
+      "display": "take the A train",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "( Kareem Rahma presents the clue. ) If you want to get from the Transit Museum to Duke Ellington's longtime home at 935 St. Nicholas Avenue in Harlem, all I can tell you is to do this -- Duke's signature tune"
+    },
+    "streetlights (lampposts)": {
+      "display": "streetlights (lampposts)",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A landmark outside a landmark, \"Urban Light\" at LACMA is made up of 202 cast-iron these, refurbished by artist Chris Burden"
+    },
+    "falstaff": {
+      "display": "Falstaff",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The Dorothy Chandler Pavilion is home to the L.A. Opera, which in 2026 staged Verdi's comic opera named for this Shakespeare wooer"
+    },
+    "the newman family": {
+      "display": "the Newman family",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A USC recital hall is named for 9-time Oscar-winning composer Alfred of this family, father of Thomas & David"
+    },
+    "walt disney": {
+      "display": "Walt Disney",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Designed by Frank Gehry & completed in 2003, this Concert Hall in downtown L.A. has been called an acoustical nirvana"
+    },
+    "(armand) hammer": {
+      "display": "(Armand) Hammer",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This former chairman of Occidental Petroleum founded an L.A. museum that opened in 1990, just 2 weeks before he died"
+    },
+    "dante": {
+      "display": "Dante",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The coup de grace of \"The Gates of Hell\" is Rodin's \"The Thinker\", a representation of this Italian writer"
+    },
+    "pop art": {
+      "display": "pop art",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "An Obie & Emmy winner, Rosalyn Drexler was also a formidable artist in this movement of Warhol & Marisol"
+    },
+    "david": {
+      "display": "David",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "While the original of this Michelangelo statue is indoors at Florence's Accademia Gallery, there are 2 outdoor copies nearby"
+    },
+    "velázquez": {
+      "display": "Velázquez",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Born in Seville, this 17th c. artist traveled to Italy to create paintings like \" Vulcan's Forge \""
+    },
+    "(dale) chihuly": {
+      "display": "(Dale) Chihuly",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The Glasshouse in Seattle is a one-of-a-kind structure holding a 100-foot sculpture by this artist"
+    },
+    "an igloo": {
+      "display": "an igloo",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Everett, Pennsylvania is home to an ice cream shop named for these domed structures but actually shaped like a sundae"
+    },
+    "a hot dog": {
+      "display": "a hot dog",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Around since 1946, west Hollywood's Tail o' the Pup is shaped like this food item it serves (& no, it's not a sandwich)"
+    },
+    "route 66": {
+      "display": "Route 66",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The rooms at the Wigwam Village Motel in Hollbrook, Arizona, on this historic road, are actually shaped like teepees"
+    },
+    "a shell": {
+      "display": "a shell",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Winston-Salem, North Carolina has the last gas station shaped like this, also the name of an oil company"
+    },
+    "a howdah": {
+      "display": "a howdah",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Henry Ford is among the notables who visited Lucy the Elephant in New Jersey & climbed the 130 stairs to this seat on her back"
+    }
+  }
+}

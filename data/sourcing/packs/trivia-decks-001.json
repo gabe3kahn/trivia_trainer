@@ -1,0 +1,1319 @@
+{
+  "generated_at": "2026-06-13T00:00:00Z",
+  "provider": "deck_import",
+  "notes": [
+    "Clues adapted from two trivia PowerPoints (A2Ethics Trivia, Second Story Trivia). Decks were clue-only; answers supplied + to be source-verified, each routed to its true app category."
+  ],
+  "questions": [
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-001",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A corporation committing to a higher standard of social and environmental accountability may seek this third-party accreditation.",
+      "answer": "B Corporation",
+      "aliases": [
+        "B Corp",
+        "Certified B Corporation"
+      ],
+      "tags": [
+        "deck-import",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "B Lab",
+          "url": "https://en.wikipedia.org/wiki/B_Lab",
+          "snippet": "B Lab is a non-profit organization that was founded in 2006 in Berwyn, Pennsylvania, by Andrew Kassoy, Jay Coen Gilbert and Bart Houlahan. B Lab created, and awards, the B corporation certification for for-profit organizations. The \"B\" stan"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:49:44.512Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-003",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 2018, employees walked out of this company over its Pentagon drone contract, Project Maven.",
+      "answer": "Google",
+      "aliases": [
+        "Alphabet"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Google",
+          "url": "https://en.wikipedia.org/wiki/Google",
+          "snippet": "Google LLC is an American multinational technology corporation focused on information technology, online advertising, search engine technology, email, cloud computing, software, quantum computing, e-commerce, consumer electronics, and artif"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:49:46.687Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-004",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 2021, Major League Baseball moved its All-Star Game out of this state to protest newly passed voting laws.",
+      "answer": "Georgia",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-13T23:49:47.464Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-005",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 19th-century American advocate campaigned for humane treatment of the mentally ill and helped create the first U.S. mental asylums.",
+      "answer": "Dorothea Dix",
+      "aliases": [
+        "Dix"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dorothea Dix",
+          "url": "https://en.wikipedia.org/wiki/Dorothea_Dix",
+          "snippet": "Dorothea Lynde Dix was an American advocate on behalf of the poor mentally ill. By her vigorous and sustained program of lobbying state legislatures and the United States Congress, she helped create the first generation of American mental a"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:49:47.988Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-006",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Concern over this company's bankruptcy centered on the genetic data stored in its databases.",
+      "answer": "23andMe",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "23andMe",
+          "url": "https://en.wikipedia.org/wiki/23andMe",
+          "snippet": "23andMe Research Institute is an American personal genomics and biotechnology nonprofit public benefit company based in Palo Alto, California. It provides a direct-to-consumer genetic testing service in which customers submit a saliva sampl"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:49:48.507Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-007",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Jennifer Doudna shared a Nobel Prize for developing this precise gene-editing technology.",
+      "answer": "CRISPR",
+      "aliases": [
+        "CRISPR-Cas9"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "CRISPR",
+          "url": "https://en.wikipedia.org/wiki/CRISPR",
+          "snippet": "CRISPR is a family of DNA sequences found in the genomes of prokaryotic organisms such as bacteria and archaea. Each sequence within an individual prokaryotic CRISPR is derived from a DNA fragment of a bacteriophage that had previously infe"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:49:49.026Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-008",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A scientist from this country sparked global outrage by announcing he had edited the genes of twin babies.",
+      "answer": "China",
+      "aliases": [
+        "People's Republic of China"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "China",
+          "url": "https://en.wikipedia.org/wiki/China",
+          "snippet": "China, officially the People's Republic of China (PRC), is a country in East Asia. It is the second-most populous country after India, with a population exceeding 1.4 billion, across an area of 9.6 million square kilometers (3,700,000 sq mi"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:49:49.550Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-009",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 2021 Netflix satire follows two astronomers struggling to warn a distracted public about a comet, echoing climate-change denial.",
+      "answer": "Don't Look Up",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Don't Look Up",
+          "url": "https://en.wikipedia.org/wiki/Don't_Look_Up",
+          "snippet": "Don't Look Up is a 2021 American political satire black comedy film written, co-produced, and directed by Adam McKay from a story he co-wrote with David Sirota. It stars an ensemble cast featuring Leonardo DiCaprio, Jennifer Lawrence, Rob M"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:49:50.075Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-010",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This whistleblower leaked internal documents showing how Facebook's algorithms amplified misinformation.",
+      "answer": "Frances Haugen",
+      "aliases": [
+        "Haugen"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Frances Haugen",
+          "url": "https://en.wikipedia.org/wiki/Frances_Haugen",
+          "snippet": "Frances Haugen is an American product manager, data engineer, scientist, and whistleblower. She disclosed tens of thousands of Facebook's internal documents to the Securities and Exchange Commission and The Wall Street Journal in the 2021 F"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:49:50.588Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-011",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Death-penalty opponents invoke this amendment's ban on 'cruel and unusual punishment,' though the Supreme Court has upheld capital punishment.",
+      "answer": "Eighth Amendment",
+      "aliases": [
+        "8th Amendment"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Eighth Amendment to the United States Constitution",
+          "url": "https://en.wikipedia.org/wiki/Eighth_Amendment_to_the_United_States_Constitution"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:50:01.507Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-012",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Babylonian king's law code, famous for 'an eye for an eye,' is among history's earliest written legal codes.",
+      "answer": "Hammurabi",
+      "aliases": [
+        "Code of Hammurabi"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hammurabi",
+          "url": "https://en.wikipedia.org/wiki/Hammurabi",
+          "snippet": "Hammurabi, also spelled Hammurapi, was the sixth Amorite king of Babylon, reigning from c. 1792 to c. 1750 BC. He was preceded by his father, Sin-Muballit, who abdicated due to failing health. During his reign, he conquered the city-states "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:50:02.031Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-013",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This principle distinguishes intended harm from merely foreseen harm, and is invoked to justify a life-saving abortion.",
+      "answer": "principle of double effect",
+      "aliases": [
+        "double effect"
+      ],
+      "tags": [
+        "deck-import",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Principle of double effect",
+          "url": "https://en.wikipedia.org/wiki/Principle_of_double_effect",
+          "snippet": "The principle of double effect is a set of ethical criteria which Christian philosophers have advocated for evaluating the permissibility of acting when one's otherwise legitimate act may also cause an effect one would otherwise be obliged "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:50:02.559Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-014",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "She used a famous 'violinist' thought experiment in her essay 'A Defense of Abortion.'",
+      "answer": "Judith Jarvis Thomson",
+      "aliases": [
+        "Thomson"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Judith Jarvis Thomson",
+          "url": "https://en.wikipedia.org/wiki/Judith_Jarvis_Thomson",
+          "snippet": "Judith Jarvis Thomson was an American philosopher who studied and worked on ethics and metaphysics. Her work ranges across a variety of fields, but she is most known for her work regarding the thought experiment titled the trolley problem a"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:50:03.089Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-015",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Émile Durkheim coined this term for a state of normlessness when a society's shared values break down.",
+      "answer": "anomie",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Anomie",
+          "url": "https://en.wikipedia.org/wiki/Anomie",
+          "snippet": "In sociology, anomie or anomy is a social condition defined by an uprooting or breakdown of any moral values, standards or guidance for individuals to follow. Anomie is believed to possibly evolve from conflict of belief systems and causes "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:50:03.613Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-016",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Greek philosopher held that 'eudaimonia,' or flourishing, is the highest human good.",
+      "answer": "Aristotle",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Aristotle",
+          "url": "https://en.wikipedia.org/wiki/Aristotle",
+          "snippet": "Aristotle was an ancient Greek philosopher and polymath. His writings span the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:50:04.134Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-017",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This author devised the Three Laws of Robotics across his science-fiction stories.",
+      "answer": "Isaac Asimov",
+      "aliases": [
+        "Asimov"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Isaac Asimov",
+          "url": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+          "snippet": "Isaac Asimov was an American writer and professor of biochemistry at Boston University. During his lifetime, Asimov was considered one of the \"Big Three\" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke. He wrote "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:50:04.651Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-018",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Popularized on 'The Good Place,' this thought experiment about a runaway tram is often applied to driverless-car dilemmas.",
+      "answer": "trolley problem",
+      "aliases": [
+        "the trolley problem"
+      ],
+      "tags": [
+        "deck-import",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Trolley problem",
+          "url": "https://en.wikipedia.org/wiki/Trolley_problem",
+          "snippet": "The trolley problem is a thought experiment in moral philosophy and moral psychology with many variations, involving hypothetical ethical dilemmas about whether to sacrifice one person to save a larger number of people. The series usually b"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:50:05.452Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-019",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 2024 film drew criticism for using AI to refine its actors' Hungarian accents.",
+      "answer": "The Brutalist",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Brutalist",
+          "url": "https://en.wikipedia.org/wiki/The_Brutalist",
+          "snippet": "The Brutalist is a 2024 epic period drama film directed and produced by Brady Corbet, who co-wrote the screenplay with Mona Fastvold. It stars Adrien Brody as a Jewish-Hungarian architect and severely traumatized Holocaust survivor who emig"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:50:05.975Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-020",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "An AI flipping into the very behavior it was trained to avoid is informally named for this purple, mustachioed Nintendo villain.",
+      "answer": "Waluigi",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Waluigi",
+          "url": "https://en.wikipedia.org/wiki/Waluigi",
+          "snippet": "Waluigi is a character in the Mario franchise. He plays the role of Luigi's arch-rival and accompanies Wario in spin-offs from the main Mario series, often for the sake of causing mischief. He was created by Camelot employee Fumihide Aoki a"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:50:06.513Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-021",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Microsoft pulled this 2016 chatbot within a day after it began posting offensive content.",
+      "answer": "Tay",
+      "aliases": [
+        "Tay (chatbot)"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tay (chatbot)",
+          "url": "https://en.wikipedia.org/wiki/Tay_(chatbot)",
+          "snippet": "Tay was a chatbot that was originally released by Microsoft Corporation as a Twitter bot on March 23, 2016. It caused subsequent controversy when the bot began to post inflammatory and offensive tweets through its Twitter account, causing M"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:51:00.282Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-022",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often summarized as treating others as you would wish to be treated, this maxim shares its name with a precious metal.",
+      "answer": "the Golden Rule",
+      "aliases": [
+        "Golden Rule"
+      ],
+      "tags": [
+        "deck-import",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Golden Rule",
+          "url": "https://en.wikipedia.org/wiki/Golden_Rule",
+          "snippet": "The Golden Rule is the principle of treating others as one would want to be treated by them. It is sometimes called an ethics of reciprocity, meaning that one should reciprocate to others how one would like them to treat the person. Various"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:51:01.507Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-023",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "\"Your scientists were so preoccupied with whether they could, they didn't stop to think if they should\" is a line from this 1993 film.",
+      "answer": "Jurassic Park",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jurassic Park",
+          "url": "https://en.wikipedia.org/wiki/Jurassic_Park",
+          "snippet": "Jurassic Park is a 1993 American science fiction adventure film directed by Steven Spielberg and written by Michael Crichton and David Koepp, based on Crichton's 1990 novel. Starring Sam Neill, Laura Dern, Jeff Goldblum, and Richard Attenbo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:51:02.038Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-024",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ethical stance prioritizes actions that benefit the long-run future and far-future generations.",
+      "answer": "longtermism",
+      "aliases": [],
+      "tags": [
+        "deck-import",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Longtermism",
+          "url": "https://en.wikipedia.org/wiki/Longtermism",
+          "snippet": "Longtermism is the ethical view that positively influencing the long-term future is a key moral priority. It is an important concept in effective altruism and a primary motivation for efforts that aim to reduce existential risks to humanity"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:51:02.578Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-025",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this Plato work, the tale of a shepherd with a ring of invisibility prefigures Tolkien's One Ring.",
+      "answer": "The Republic",
+      "aliases": [
+        "Republic"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Republic",
+          "url": "https://en.wikipedia.org/wiki/Republic",
+          "snippet": "A republic, based on the Latin phrase res publica, is a state in which political power rests with the public (people), typically through their representatives—in contrast to a monarchy. Although a republic is most often a single sovereign s"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:51:03.574Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-026",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Steinbeck novella ends with one friend killing another to spare him from an enraged mob.",
+      "answer": "Of Mice and Men",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Of Mice and Men",
+          "url": "https://en.wikipedia.org/wiki/Of_Mice_and_Men",
+          "snippet": "Of Mice and Men is a 1937 novella written by American author John Steinbeck. It describes the experiences of George Milton and Lennie Small, two displaced migrant ranch workers, as they move from place to place in California, searching for "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:51:04.104Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-027",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this sitcom's pilot, Ted ruins a first date by telling Robin he loves her.",
+      "answer": "How I Met Your Mother",
+      "aliases": [
+        "HIMYM"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "How I Met Your Mother",
+          "url": "https://en.wikipedia.org/wiki/How_I_Met_Your_Mother",
+          "snippet": "How I Met Your Mother is an American sitcom created by Craig Thomas and Carter Bays for CBS. The series, which aired from September 19, 2005, to March 31, 2014, follows main character Ted Mosby and his group of friends in New York City's Ma"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:51:04.646Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-028",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "FDR, Churchill, and Stalin met at this Crimean resort in 1945 to plan the postwar reorganization of Europe.",
+      "answer": "Yalta Conference",
+      "aliases": [
+        "Yalta"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Yalta Conference",
+          "url": "https://en.wikipedia.org/wiki/Yalta_Conference",
+          "snippet": "The Yalta Conference, held 4–11 February 1945, was the World War II meeting of the heads of government of the United States, the United Kingdom, and the Soviet Union to discuss the postwar reorganization of Germany and Europe. The three sta"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:52:00.217Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-029",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Colts traded the 1984 first overall pick rather than draft this future MVP, who threatened to play baseball instead.",
+      "answer": "John Elway",
+      "aliases": [
+        "Elway"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "John Elway",
+          "url": "https://en.wikipedia.org/wiki/John_Elway",
+          "snippet": "John Albert Elway Jr. is an American former professional football player who spent his entire 16-year career as a quarterback with the Denver Broncos of the National Football League (NFL). Following his playing career, he then spent 11 year"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:52:00.746Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-030",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 'Top Gun,' Maverick starts a rivalry with this rival pilot played by Val Kilmer.",
+      "answer": "Iceman",
+      "aliases": [
+        "Tom Kazansky"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Iceman (album)",
+          "url": "https://en.wikipedia.org/wiki/Iceman_(album)",
+          "snippet": "Iceman is one of three studio albums released by Canadian rapper Drake on May 15, 2026, through OVO Sound and Republic Records. Production was handled by Drake's frequent collaborators, including 40, Boi-1da, and Tay Keith, among others, an"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:52:01.414Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-031",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Count Vronsky's affair with this Tolstoy title heroine begins and ends with a death at a train station.",
+      "answer": "Anna Karenina",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Anna Karenina",
+          "url": "https://en.wikipedia.org/wiki/Anna_Karenina",
+          "snippet": "Anna Karenina is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy. Often considered to be among the greatest works of world literature, Tolstoy himself called it his first true novel. It was initially release"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:52:01.934Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-032",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Thirteen Colonies revolted against Britain during the reign of this king later remembered as 'mad.'",
+      "answer": "George III",
+      "aliases": [
+        "King George III"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "George III",
+          "url": "https://en.wikipedia.org/wiki/George_III",
+          "snippet": "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was co"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:52:02.448Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-033",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On 'Game of Thrones,' this king plotted to burn King's Landing with wildfire before his Kingsguard, Jaime Lannister, killed him.",
+      "answer": "Aerys II Targaryen",
+      "aliases": [
+        "Aerys Targaryen"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "List of A Song of Ice and Fire characters",
+          "url": "https://en.wikipedia.org/wiki/List_of_A_Song_of_Ice_and_Fire_characters",
+          "snippet": "\n\nGeorge R. R. Martin's A Song of Ice and Fire saga features a large cast of characters. The series follows three interwoven plotlines: a dynastic war for control of Westeros by several families; the rising threat of the Others beyond the n"
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-13T23:52:02.978Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-034",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Post-Impressionist cut off part of his own ear after a confrontation with fellow painter Paul Gauguin.",
+      "answer": "Vincent van Gogh",
+      "aliases": [
+        "van Gogh"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Vincent van Gogh",
+          "url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+          "snippet": "Vincent Willem van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, mo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:52:03.508Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-035",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hall of Famer stole a record 1,406 bases, far more than any other player in MLB history.",
+      "answer": "Rickey Henderson",
+      "aliases": [
+        "Henderson"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rickey Henderson",
+          "url": "https://en.wikipedia.org/wiki/Rickey_Henderson",
+          "snippet": "Rickey Nelson Henley Henderson, nicknamed \"Man of Steal\", was an American professional baseball left fielder who played 25 seasons in Major League Baseball (MLB) for nine teams from 1979 to 2003, including four separate tenures with his ori"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:52:04.261Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-036",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "He wore number 23 while winning six championships for the Chicago Bulls.",
+      "answer": "Michael Jordan",
+      "aliases": [
+        "Jordan"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Michael Jordan",
+          "url": "https://en.wikipedia.org/wiki/Michael_Jordan",
+          "snippet": "Michael Jeffrey Jordan, also known by his initials MJ, is an American businessman and retired professional basketball player who is a minority owner of the Charlotte Hornets of the National Basketball Association (NBA). He played 15 seasons"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:52:04.786Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-037",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The phone number 867-5309 is the hook of a 1981 hit by this band.",
+      "answer": "Tommy Tutone",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tommy Tutone",
+          "url": "https://en.wikipedia.org/wiki/Tommy_Tutone",
+          "snippet": "Tommy Tutone is an American power pop band, known for its 1981 song \"867-5309/Jenny\", which peaked at number four on the Billboard Hot 100. The band's lead singer and rhythm guitarist is Tommy Heath. Heath grew up in Philadelphia, Texas, an"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:52:05.319Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-038",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this author's novels, 42 is the Answer to the Ultimate Question of Life, the Universe, and Everything.",
+      "answer": "Douglas Adams",
+      "aliases": [
+        "Adams"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Douglas Adams",
+          "url": "https://en.wikipedia.org/wiki/Douglas_Adams",
+          "snippet": "Douglas Noël Adams was an English author, humourist, and screenwriter. He is best known as the creator of The Hitchhiker's Guide to the Galaxy, a 1978 radio comedy series which he adapted into a \"trilogy\" of five books that sold over 14 mil"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:52:05.834Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-039",
+      "category_id": "science",
+      "subcategory_name": "Units, Laws & Constants",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This constant, about 6.022 x 10^23, is the number of particles in one mole of a substance.",
+      "answer": "Avogadro's number",
+      "aliases": [
+        "Avogadro constant"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Avogadro constant",
+          "url": "https://en.wikipedia.org/wiki/Avogadro_constant",
+          "snippet": "In chemistry, the Avogadro constant, commonly denoted NA, is a conversion constant or ratio between an amount of substance and the number of particles that it contains. The particles in question are any designated elementary entity, such as"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:52:06.356Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-040",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This animation pioneer and studio founder won a record 26 competitive Academy Awards.",
+      "answer": "Walt Disney",
+      "aliases": [
+        "Disney"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Walt Disney",
+          "url": "https://en.wikipedia.org/wiki/Walt_Disney",
+          "snippet": "Walter Elias Disney was an American animator, film producer, voice actor, and entrepreneur. A pioneer of the American animation industry, he introduced several developments in the production of cartoons. As a film producer, he holds the rec"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:52:06.865Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-041",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Puck, Titania, and Ariel are among the moons orbiting this planet.",
+      "answer": "Uranus",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Uranus",
+          "url": "https://en.wikipedia.org/wiki/Uranus",
+          "snippet": "Uranus is the seventh planet from the Sun. It is a gaseous cyan-coloured ice giant. Most of the planet is made of water, ammonia, and methane in a supercritical phase of matter, which astronomy calls \"ice\" or volatiles. The planet's atmosph"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:52:07.387Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-042",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This system of dots and dashes is named for one of the inventors of the telegraph.",
+      "answer": "Morse code",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Morse code",
+          "url": "https://en.wikipedia.org/wiki/Morse_code",
+          "snippet": "\nMorse code is a telecommunications method which encodes text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs. It is named after Samuel Morse, one of several developers of the"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:52:08.012Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-043",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This WWII cipher device was finally broken with the help of Alan Turing and the team at Bletchley Park.",
+      "answer": "Enigma machine",
+      "aliases": [
+        "Enigma"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Enigma machine",
+          "url": "https://en.wikipedia.org/wiki/Enigma_machine",
+          "snippet": "The Enigma machine is a cipher device developed and used in the early- to mid-20th century to protect commercial, diplomatic, and military communication. It was employed extensively by Nazi Germany during World War II, in all branches of th"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:53:00.602Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-044",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Pulses of laser light carry data through these thin glass strands that form much of the internet's backbone.",
+      "answer": "fiber optics",
+      "aliases": [
+        "optical fiber",
+        "fibre optics"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Optical fiber",
+          "url": "https://en.wikipedia.org/wiki/Optical_fiber",
+          "snippet": "An optical fiber, or optical fibre, is a flexible glass or plastic fiber that can transmit light from one end to the other. Such fibers are widely used in fiber-optic communication, where they permit transmission over longer distances and a"
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-13T23:53:01.205Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-045",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "L. L. Zamenhof designed this constructed language in 1887, intending it as a universal second tongue.",
+      "answer": "Esperanto",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "Esperanto",
+          "url": "https://en.wiktionary.org/wiki/Esperanto",
+          "snippet": "   An international  auxiliary language  designed by  L. L. Zamenhof .    Anything that is used as a  single   international   medium  in place of  plural   distinct   national   media ."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:53:01.928Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-046",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The wings of these tiny birds can beat up to about 80 times per second.",
+      "answer": "hummingbird",
+      "aliases": [
+        "hummingbirds"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hummingbird",
+          "url": "https://en.wikipedia.org/wiki/Hummingbird",
+          "snippet": "Hummingbirds are birds native to the Americas and comprise the biological family Trochilidae. With approximately 375 species and 113 genera, they occur from Alaska to Tierra del Fuego, but most species are found in Central and South America"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:53:02.458Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-047",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Paul, a member of this eight-armed species, correctly called all eight matches he was given at the 2010 World Cup.",
+      "answer": "octopus",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Octopus",
+          "url": "https://en.wikipedia.org/wiki/Octopus",
+          "snippet": "An octopus is a soft-bodied, eight-limbed mollusc of the order Octopoda. The order consists of some 300 species and is grouped within the class Cephalopoda with squids, cuttlefish, and nautiloids. Like other cephalopods, an octopus is bilat"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-13T23:53:02.988Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-048",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Native to much of South America, it is the largest living rodent.",
+      "answer": "capybara",
+      "aliases": [],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Capybara",
+          "url": "https://en.wikipedia.org/wiki/Capybara",
+          "snippet": "The capybara or greater capybara is the largest living rodent, native to all countries in South America except Chile. It is a semiaquatic herbivore that inhabits savannas and dense forests, living near and in bodies of water and feeding mai"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:53:03.512Z"
+    },
+    {
+      "source": "deck_import",
+      "external_id": "deck-001-049",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Taking the throne in 1553, she was the first queen to rule England in her own right.",
+      "answer": "Mary I",
+      "aliases": [
+        "Mary Tudor",
+        "Mary I of England"
+      ],
+      "tags": [
+        "deck-import"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mary I",
+          "url": "https://en.wikipedia.org/wiki/Mary_I",
+          "snippet": "Mary I was Queen of England and Ireland from July 1553 and Queen of Spain as the wife of King Philip II from January 1556 until her death in 1558. She made vigorous attempts to reverse the English Reformation, which had begun during the rei"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T23:53:04.025Z"
+    }
+  ]
+}

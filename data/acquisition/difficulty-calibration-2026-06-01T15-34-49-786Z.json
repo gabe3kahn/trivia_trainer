@@ -1,0 +1,3187 @@
+{
+  "generated_at": "2026-06-01T15:34:49.785Z",
+  "count": 217,
+  "lowered": 163,
+  "raised": 54,
+  "updates": [
+    {
+      "id": "97c5bc8e-4a90-4c13-8b75-08c5736f81c3",
+      "category_id": "geography",
+      "clue": "This capital of Kazakhstan replaced Almaty as the national capital in 1997.",
+      "answer": "Astana",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.8,
+      "reasons": [
+        "many-strong-clue-anchors",
+        "direct-canonical-hook",
+        "direct-recognition-hook",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "fa168dba-b1c8-47c4-ae3c-bec4923fe470",
+      "category_id": "language_wordplay",
+      "clue": "In Rhyme Time, this phrase means a sleepy royal ruler.",
+      "answer": "Dozing king",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.69,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "direct-recognition-hook",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "9e0be757-08af-4c39-aa23-79d76db9ac64",
+      "category_id": "geography",
+      "clue": "This smallest U.S. state by area has Providence as its capital.",
+      "answer": "Rhode Island",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.66,
+      "reasons": [
+        "many-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "804a320c-ef80-4f05-b970-c99fecdaa6db",
+      "category_id": "language_wordplay",
+      "clue": "This homophone of “discreet” means separate or distinct.",
+      "answer": "Discrete",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.65,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "63b74092-3288-4dca-afab-dc88123d84e6",
+      "category_id": "language_wordplay",
+      "clue": "This adjective means using few words, terse, or concise.",
+      "answer": "Laconic",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.65,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "bf952d53-df71-4c58-8527-95960ea5f365",
+      "category_id": "language_wordplay",
+      "clue": "This noun means a remedy for all ills or difficulties.",
+      "answer": "Panacea",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.61,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "bf6d6ef2-cd6d-4ae3-93ea-3568458348f0",
+      "category_id": "language_wordplay",
+      "clue": "This adjective means showing keen mental discernment and good judgment.",
+      "answer": "Sagacious",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.61,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "7b159ccc-3d54-45e4-8132-c16f2946a721",
+      "category_id": "geography",
+      "clue": "This Jordanian archaeological city is famous for a rock-cut facade called Al-Khazneh.",
+      "answer": "Petra",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.6,
+      "reasons": [
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "de5fae59-85da-4d0e-abc5-a0eee2f35d5c",
+      "category_id": "geography",
+      "clue": "This volcanic mountain is the highest peak in Japan.",
+      "answer": "Mount Fuji",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "93325f8d-084d-426a-9254-190c28082bf2",
+      "category_id": "science",
+      "clue": "In science, this kingdom includes mushrooms, molds, and yeasts.",
+      "answer": "Fungi",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "e37aef03-9179-4390-b0a8-382a9e8195c8",
+      "category_id": "science",
+      "clue": "This supercontinent began breaking apart during the Mesozoic Era.",
+      "answer": "Pangaea",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "b97fa370-f7c6-44ae-a9fd-5a8159abd5af",
+      "category_id": "science",
+      "clue": "This plant family includes peas, beans, lentils, and peanuts.",
+      "answer": "Legumes",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "efacad75-08bf-4668-9be0-c4ca19b79a7d",
+      "category_id": "arts_visual_culture",
+      "clue": "This Russian avant-garde movement included Malevich’s Black Square and emphasized pure geometric forms.",
+      "answer": "Suprematism",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "e822f8ac-21c0-40c3-98ef-589c7a0e449c",
+      "category_id": "geography",
+      "clue": "This antipodal point from the Greenwich meridian lies at 180 degrees longitude.",
+      "answer": "Antimeridian",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "5b575762-f1f0-4206-a9b3-61145bade43d",
+      "category_id": "science",
+      "clue": "This scientist arranged elements into a periodic table and predicted missing ones.",
+      "answer": "Dmitri Mendeleev",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "4f242134-56ff-40f2-bda8-af6109735d67",
+      "category_id": "science",
+      "clue": "This theory links mass and energy with the formula E equals mc squared.",
+      "answer": "Special relativity",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "518f4b28-93bb-4be1-80a6-430916f10793",
+      "category_id": "science",
+      "clue": "This boundary around a black hole marks the point beyond which light cannot escape.",
+      "answer": "Event horizon",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "6ce980d3-fab4-4242-a3a0-defc033d09ab",
+      "category_id": "science",
+      "clue": "This part of the brain coordinates balance and fine motor control.",
+      "answer": "Cerebellum",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "2502aaa9-8877-44d3-9fe1-1397b39a5889",
+      "category_id": "arts_visual_culture",
+      "clue": "This photographer published The Americans after traveling the United States in the 1950s.",
+      "answer": "Robert Frank",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "ee4b5350-ad14-4f5d-b3d4-8ed88e919152",
+      "category_id": "literature_books",
+      "clue": "This Italian poet guides readers through Hell, Purgatory, and Paradise in the Divine Comedy.",
+      "answer": "Dante Alighieri",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "e144c068-3096-46f5-b784-ad648b6ecb4a",
+      "category_id": "arts_visual_culture",
+      "clue": "In art history, this Romanian-born sculptor created Bird in Space.",
+      "answer": "Constantin Brancusi",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.54,
+      "reasons": [
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "0dbd63cc-d745-469c-bb69-3ff826ddd7f6",
+      "category_id": "arts_visual_culture",
+      "clue": "This Russian-born painter helped pioneer abstract art and wrote Concerning the Spiritual in Art.",
+      "answer": "Wassily Kandinsky",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.54,
+      "reasons": [
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "0137ba59-417a-490c-8dc2-4d9910f3eec7",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This open-source operating system kernel was created by Linus Torvalds.",
+      "answer": "Linux",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.54,
+      "reasons": [
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "7f91c121-cc94-45ad-a75a-c4ac88c799ad",
+      "category_id": "geography",
+      "clue": "This river flows through Baghdad before joining the Euphrates.",
+      "answer": "Tigris",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.52,
+      "reasons": [
+        "short-clue"
+      ]
+    },
+    {
+      "id": "51224e69-7394-4557-971d-10e4457ca094",
+      "category_id": "geography",
+      "clue": "This enclave country is surrounded by Italy and is home to Mount Titano.",
+      "answer": "San Marino",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.48,
+      "reasons": []
+    },
+    {
+      "id": "ea9b603b-17a0-41aa-8bd6-b8117c1afed6",
+      "category_id": "geography",
+      "clue": "This Texas city is known as the Rose Capital of the World.",
+      "answer": "Tyler, Texas",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.86,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "direct-canonical-hook",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "4b319583-67a2-4196-b9ee-e72107ea6353",
+      "category_id": "geography",
+      "clue": "This is the largest city and commercial capital of Sri Lanka.",
+      "answer": "Colombo",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.86,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "direct-canonical-hook",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "ce8483a8-0096-4894-ae2a-ceacb40da0bd",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This company founded by Jeff Bezos began as an online bookstore.",
+      "answer": "Amazon",
+      "previous_value": 600,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.84,
+      "reasons": [
+        "high-recognition-answer",
+        "many-strong-clue-anchors",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "b250d699-70ed-4306-b04f-311ae648ec94",
+      "category_id": "language_wordplay",
+      "clue": "Rearrange ELEVEN PLUS TWO into an equivalent number phrase.",
+      "answer": "Twelve plus one",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.82,
+      "reasons": [
+        "long-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "short-clue",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "97f48f89-b455-4e26-9e6c-e8b5f27872db",
+      "category_id": "literature_books",
+      "clue": "This Colombian author wrote One Hundred Years of Solitude.",
+      "answer": "Gabriel Garcia Marquez",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.78,
+      "reasons": [
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "80d1ce14-4c05-468d-bc3d-bb6f849e4664",
+      "category_id": "language_wordplay",
+      "clue": "This acronym names the U.S. agency created in 1958 for space exploration.",
+      "answer": "NASA",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.78,
+      "reasons": [
+        "short-answer-form",
+        "many-strong-clue-anchors",
+        "direct-canonical-hook",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "f654c032-f141-4710-905c-5fa74f56e49f",
+      "category_id": "language_wordplay",
+      "clue": "In Rhyme Time, this phrase means a feline wearing a topper.",
+      "answer": "Cat in a hat",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.77,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "direct-recognition-hook",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "fede5808-5f48-40a1-9f84-ca68fbebec4b",
+      "category_id": "language_wordplay",
+      "clue": "Breakfast cereal mascot Tony + award for Broadway theater.",
+      "answer": "Tony the Tiger Award",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.75,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "short-clue",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "60acc2ab-999a-4baa-b1a9-18d05d30d270",
+      "category_id": "language_wordplay",
+      "clue": "This French phrase means thank you very much.",
+      "answer": "Merci beaucoup",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.73,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue",
+        "direct-recognition-hook",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "cf9ac2e7-017b-416d-ad32-c5f14b6eecc9",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This Hellenistic school taught apatheia and is associated with Epictetus and Marcus Aurelius.",
+      "answer": "Stoicism",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.72,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specific-detail-hook",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "57d1f2c5-d025-42a2-90e2-91756e08cfd6",
+      "category_id": "language_wordplay",
+      "clue": "In wordplay, this letter-shaped valley is carved by glaciers.",
+      "answer": "U-shaped valley",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.71,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "f65bb36a-b3c1-469e-b7ac-50c3f5717057",
+      "category_id": "geography",
+      "clue": "In geography, this demonym describes a person from Denmark.",
+      "answer": "Dane",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.71,
+      "reasons": [
+        "short-answer-form",
+        "few-strong-clue-anchors",
+        "short-clue",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "b0b0b00b-b911-4336-8665-297912508c21",
+      "category_id": "music_performing_arts",
+      "clue": "This German composer wrote the Ring cycle of operas.",
+      "answer": "Richard Wagner",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "many-strong-clue-anchors",
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "8bedc90b-0411-42dc-bca7-8c558b786205",
+      "category_id": "literature_books",
+      "clue": "This George Orwell novel features Big Brother and the slogan War is Peace.",
+      "answer": "Nineteen Eighty-Four",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.69,
+      "reasons": [
+        "long-answer-form",
+        "numeric-answer",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "51d2e45d-bbd7-470e-855a-584f77260958",
+      "category_id": "language_wordplay",
+      "clue": "This Latin phrase means after the fact and often describes retroactive reasoning.",
+      "answer": "Post hoc",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.69,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "direct-recognition-hook",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "c0906d70-1109-486b-aadc-761774bbf9c2",
+      "category_id": "language_wordplay",
+      "clue": "In Rhyme Time, this phrase means a cautious legal document.",
+      "answer": "Wary diary",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.69,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "direct-recognition-hook",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "7c8ac006-6106-4a11-a2f2-cbae5ff6006b",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This drama begins with chemistry teacher Walter White turning to meth production.",
+      "answer": "Breaking Bad",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.69,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "direct-recognition-hook",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "3879a87f-4a3d-4cb6-ad87-3a7083f2b419",
+      "category_id": "literature_books",
+      "clue": "This Dickens novel begins with the line about the best of times and the worst of times.",
+      "answer": "A Tale of Two Cities",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.69,
+      "reasons": [
+        "long-answer-form",
+        "numeric-answer",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "173f0724-5c4f-4835-b809-07e953bc63db",
+      "category_id": "arts_visual_culture",
+      "clue": "This wall-painting method applies pigment to wet plaster.",
+      "answer": "Fresco",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.67,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "1f8d0b84-74d3-4411-8389-4696d606f94c",
+      "category_id": "sports_games_leisure",
+      "clue": "This ballpark's Green Monster stands in left field.",
+      "answer": "Fenway Park",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.67,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "001dfa6f-3726-47a1-8a4b-e91db3c2f3a8",
+      "category_id": "geography",
+      "clue": "This state capital is named for the fourth U.S. president.",
+      "answer": "Madison",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.66,
+      "reasons": [
+        "many-strong-clue-anchors",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "1283b51d-82d9-4ecd-a477-2522a3e2f8ff",
+      "category_id": "music_performing_arts",
+      "clue": "This Mozart opera features the Queen of the Night.",
+      "answer": "The Magic Flute",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.66,
+      "reasons": [
+        "long-answer-form",
+        "short-clue",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "af094d06-662a-4bb2-82ef-0df8db696fd6",
+      "category_id": "language_wordplay",
+      "clue": "This homophone of “stationary” means paper for writing letters.",
+      "answer": "Stationery",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.65,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "60f874ff-f04d-40d7-9a2d-a953a50e7aec",
+      "category_id": "language_wordplay",
+      "clue": "This idiom means to pursue the wrong course: bark up the wrong what.",
+      "answer": "Tree",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.65,
+      "reasons": [
+        "short-answer-form",
+        "few-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "6c1582fa-6d5d-4bf8-91ba-c11bd28f8d03",
+      "category_id": "language_wordplay",
+      "clue": "This idiom means to reveal your true intention: show your what.",
+      "answer": "Hand",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.65,
+      "reasons": [
+        "short-answer-form",
+        "few-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "d313158c-6630-43c0-96ab-ce2163b7e9aa",
+      "category_id": "science",
+      "clue": "In science, this physicist discovered X-rays in 1895.",
+      "answer": "Wilhelm Roentgen",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.65,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "13575e41-f769-479c-9a4b-4fae47e11ee8",
+      "category_id": "language_wordplay",
+      "clue": "First U.S. president + Irving Berlin song about the holidays.",
+      "answer": "George Washington Christmas",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.64,
+      "reasons": [
+        "long-answer-form",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "2bdabe3a-92c1-4ea1-b401-d693097675ca",
+      "category_id": "history",
+      "clue": "This 1776 document announced the American colonies' separation from Britain.",
+      "answer": "Declaration of Independence",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.64,
+      "reasons": [
+        "long-answer-form",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "30630883-9026-4bed-9bef-fef4f6c81c4c",
+      "category_id": "history",
+      "clue": "This president signed the Pendleton Civil Service Reform Act after Garfield's assassination.",
+      "answer": "Chester A. Arthur",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.64,
+      "reasons": [
+        "long-answer-form",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "48ea13ff-fdb7-43c1-826c-50148b0d6310",
+      "category_id": "history",
+      "clue": "This 1215 English charter limited King John's power.",
+      "answer": "Magna Carta",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.64,
+      "reasons": [
+        "many-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "c0e38f64-e1f2-4490-a7e7-f8cf340b2399",
+      "category_id": "sports_games_leisure",
+      "clue": "In Yu-Gi-Oh!, an Xyz Summon uses monsters of the same level by placing them this way.",
+      "answer": "Overlaying them",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "provider-medium",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "bd9a20ac-da37-452c-afa2-9d0b5f8b574a",
+      "category_id": "arts_visual_culture",
+      "clue": "This technique uses small dots of color that blend in the viewer’s eye.",
+      "answer": "Pointillism",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "0c90705d-e28e-4b59-bd31-f3d735a25bbe",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This mortal hunter saw Artemis bathing and was changed into a stag.",
+      "answer": "Actaeon",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "bab7aa05-8710-4029-b866-12309aaf6737",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This Islamic holy book is traditionally understood as revealed to Muhammad.",
+      "answer": "Quran",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "50f9a533-6b8f-4c60-bea6-e0954d9a1a3b",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This ethical theory judges actions by their consequences for overall happiness.",
+      "answer": "Utilitarianism",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "22dde832-4542-48bb-bd9b-959147ffd588",
+      "category_id": "language_wordplay",
+      "clue": "This punctuation mark joins two independent clauses when no conjunction is used.",
+      "answer": "Semicolon",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "d91cd3d3-0d9c-4df7-beca-ef153f8a47e5",
+      "category_id": "language_wordplay",
+      "clue": "This Japanese word describes finding beauty in imperfection and transience.",
+      "answer": "Wabi-sabi",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "30af3978-f486-4162-9bc0-95ca8e3e6501",
+      "category_id": "language_wordplay",
+      "clue": "This rhetorical device repeats initial consonant sounds in nearby words.",
+      "answer": "Alliteration",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "e09d6009-ceaf-41c4-894f-17bc05f31c99",
+      "category_id": "arts_visual_culture",
+      "clue": "This Raphael fresco gathers ancient philosophers in a grand architectural setting.",
+      "answer": "The School of Athens",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "151ce5ba-6db4-4825-8030-93e9f536fcc6",
+      "category_id": "arts_visual_culture",
+      "clue": "This Le Corbusier chapel in France is famous for its sculptural roof at Ronchamp.",
+      "answer": "Notre-Dame du Haut",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "3d2fd083-c384-4f36-a22f-fe72a7ac82e3",
+      "category_id": "arts_visual_culture",
+      "clue": "This Harlem Renaissance patron promoted Black artists and writers as the New Negro movement grew.",
+      "answer": "Alain Locke",
+      "previous_value": 1000,
+      "next_value": 600,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "73f2f17c-4c63-4ff0-9527-08fcd57e8628",
+      "category_id": "music_performing_arts",
+      "clue": "This term names the speed of a piece of music.",
+      "answer": "Tempo",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "ac41dbe0-bd6b-4db4-b1fc-c0a29f68234f",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This Greek hero flew too close to the sun with waxen wings.",
+      "answer": "Icarus",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "cbe32694-8ce8-4ea9-86ab-ee8e06145e8b",
+      "category_id": "sports_games_leisure",
+      "clue": "This position usually snaps the ball to begin a football play.",
+      "answer": "Center",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "8cdf01ef-2c49-415a-954e-044699e33d1e",
+      "category_id": "sports_games_leisure",
+      "clue": "This situation in baseball has three balls and two strikes.",
+      "answer": "Full count",
+      "previous_value": 200,
+      "next_value": 600,
+      "verdict": "likely-underrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "b507a5f3-79f1-43cf-8309-928162b46df3",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This French term names vegetables cut into long thin strips.",
+      "answer": "Julienne",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.63,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "38ae0d4a-9f8f-43dc-9275-127b0937a426",
+      "category_id": "language_wordplay",
+      "clue": "This word means an exaggerated love of one’s country.",
+      "answer": "Patriotism",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.62,
+      "reasons": [
+        "direct-recognition-hook",
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "09b883f0-1885-48f0-ab65-d7b6877f9078",
+      "category_id": "music_performing_arts",
+      "clue": "In music and theater, this Canadian singer-songwriter wrote Hallelujah.",
+      "answer": "Leonard Cohen",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.62,
+      "reasons": [
+        "direct-canonical-hook",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "93f2646e-1e46-4457-b996-1390127ab166",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This Miyazaki film features Chihiro in a spirit world bathhouse.",
+      "answer": "Spirited Away",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.62,
+      "reasons": [
+        "direct-recognition-hook",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "f916c769-40b4-4c30-8c86-3f97ff98b659",
+      "category_id": "language_wordplay",
+      "clue": "This adjective means harmful in a gradual or subtle way.",
+      "answer": "Insidious",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.61,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "40198ad5-5a6e-42c4-9b86-06c89b0dba10",
+      "category_id": "science",
+      "clue": "This dwarf planet was reclassified from planet status in 2006.",
+      "answer": "Pluto",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.6,
+      "reasons": [
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "6e71a24b-d8c2-47ce-b536-088fc13ed4e0",
+      "category_id": "geography",
+      "clue": "This Portuguese archipelago in the Atlantic includes Sao Miguel.",
+      "answer": "Azores",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "5059591c-c798-40b4-a547-cb3997e16148",
+      "category_id": "geography",
+      "clue": "In geography, this Belgian region is primarily Dutch-speaking.",
+      "answer": "Flanders",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "da53c745-7cf6-44fc-9c43-b9fad0a3fc38",
+      "category_id": "science",
+      "clue": "This particle carries a negative electric charge in atoms.",
+      "answer": "Electron",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "fac1cd3b-1fc5-4592-a1f2-fe54a84b20c2",
+      "category_id": "science",
+      "clue": "In science, this bone is commonly called the collarbone.",
+      "answer": "Clavicle",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "2ac8e339-3b20-4759-9d25-28938d9a7fc3",
+      "category_id": "science",
+      "clue": "This quantum particle of light carries electromagnetic radiation.",
+      "answer": "Photon",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "7d905cb3-a72e-4dc8-ba76-7bb56d33fc01",
+      "category_id": "science",
+      "clue": "In science, this physicist formulated the uncertainty principle.",
+      "answer": "Werner Heisenberg",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.59,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "df63b1cf-7c39-4a44-ab25-76fe01251406",
+      "category_id": "language_wordplay",
+      "clue": "This homophone of “cereal” means arranged in a series.",
+      "answer": "Serial",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.58,
+      "reasons": [
+        "short-clue",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "bf2d78ad-5477-45aa-b11d-b3589b9a36d5",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This Scottish philosopher wrote A Treatise of Human Nature.",
+      "answer": "David Hume",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.58,
+      "reasons": [
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "44dcb805-8055-4229-ac5b-69a25ccfbfa4",
+      "category_id": "language_wordplay",
+      "clue": "Greek hero of the Trojan War + tendon at the back of the ankle.",
+      "answer": "Achilles tendon",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.56,
+      "reasons": [
+        "wordplay-mechanic"
+      ]
+    },
+    {
+      "id": "050c1eea-63cb-418f-9e8b-95419596a668",
+      "category_id": "language_wordplay",
+      "clue": "Greek roots meaning false name give English this term for an assumed author name.",
+      "answer": "Pseudonym",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.56,
+      "reasons": [
+        "negative-logic"
+      ]
+    },
+    {
+      "id": "862f1963-f627-464d-b297-31773149adb5",
+      "category_id": "sports_games_leisure",
+      "clue": "This WNBA franchise won multiple titles behind Sue Bird and Lauren Jackson.",
+      "answer": "Seattle Storm",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.56,
+      "reasons": [
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "c234dbde-ed6e-4ab8-947c-4037a6452ce1",
+      "category_id": "geography",
+      "clue": "This official language of Ethiopia uses the Ge'ez script.",
+      "answer": "Amharic",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.56,
+      "reasons": [
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "fe5cd634-12f4-422b-bdbb-d6358668d10a",
+      "category_id": "geography",
+      "clue": "This prehistoric stone circle stands on Salisbury Plain in England.",
+      "answer": "Stonehenge",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "e8d1a0b2-a459-4479-9a03-c83ede164584",
+      "category_id": "arts_visual_culture",
+      "clue": "This early-20th-century Italian movement celebrated speed, machines, and modern violence.",
+      "answer": "Futurism",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "91cf98aa-fb5e-454c-88ad-bbb540da3b25",
+      "category_id": "arts_visual_culture",
+      "clue": "This Catalan architect designed Barcelona’s still-unfinished Sagrada Familia.",
+      "answer": "Antoni Gaudi",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "56de2194-52c5-4f5a-8481-4245c27d0cae",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This short New Testament letter asks a slave owner to receive Onesimus as a brother.",
+      "answer": "Philemon",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "6dbce510-5f9e-41e2-ad26-1d74cd2bc5ea",
+      "category_id": "language_wordplay",
+      "clue": "Latin scrupulus, a small sharp stone, gave English this word for a tiny amount.",
+      "answer": "Scruple",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "e58a3303-120b-4eed-8dc8-186149db1fb5",
+      "category_id": "geography",
+      "clue": "This sea between Europe and Africa includes the Balearic and Aegean areas.",
+      "answer": "Mediterranean Sea",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "5900e1f7-fbfa-4b84-8592-49b4944d0f3e",
+      "category_id": "geography",
+      "clue": "This lowest point on land lies along the border of Israel and Jordan.",
+      "answer": "Dead Sea",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "302d2a95-89a5-4455-a5ea-bef74d33cfe7",
+      "category_id": "science",
+      "clue": "This scientist proposed natural selection after studying variation and adaptation.",
+      "answer": "Charles Darwin",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "7ee3e7e0-53d9-4ac6-98b1-2f01f5ee74c1",
+      "category_id": "science",
+      "clue": "This bond involves the sharing of electron pairs between atoms.",
+      "answer": "Covalent bond",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "da478cab-7ac0-45d3-a449-e6f4a3172a6a",
+      "category_id": "science",
+      "clue": "This atmospheric layer contains most of Earth's ozone layer.",
+      "answer": "Stratosphere",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "fcd5a203-eb67-4a32-a593-7b12435949fe",
+      "category_id": "science",
+      "clue": "This mammal lays eggs and has a duck-like bill.",
+      "answer": "Platypus",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "6e82cd99-f03b-4f5e-8e72-856aaed88a4b",
+      "category_id": "science",
+      "clue": "This process splits water into hydrogen and oxygen using electricity.",
+      "answer": "Electrolysis",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "f59a53fb-c53a-4918-b1fa-61a97230d260",
+      "category_id": "science",
+      "clue": "This artery carries oxygen-rich blood from the heart to the body.",
+      "answer": "Aorta",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "14921c38-7568-492a-821a-4a4e9dc9a17d",
+      "category_id": "arts_visual_culture",
+      "clue": "This Grant Wood painting shows a farmer with a pitchfork beside a woman.",
+      "answer": "American Gothic",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "6257ee0a-c668-42da-bc21-2188d41ba3f7",
+      "category_id": "arts_visual_culture",
+      "clue": "This St. Petersburg museum began with Catherine the Great's collection.",
+      "answer": "Hermitage Museum",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "5ce599a9-97e0-43ad-8524-0fa9711918b1",
+      "category_id": "arts_visual_culture",
+      "clue": "This art movement used commercial imagery and included Warhol and Lichtenstein.",
+      "answer": "Pop Art",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "2728e615-2d07-4afd-af8c-9189fbf40227",
+      "category_id": "sports_games_leisure",
+      "clue": "This term names three goals by one player in a single match.",
+      "answer": "Hat trick",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "3961ef9a-c6b4-4cde-8af5-626ae626a62e",
+      "category_id": "sports_games_leisure",
+      "clue": "This golf tournament awards a green jacket to its winner.",
+      "answer": "The Masters",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "88696672-75ca-47a6-a919-4bcd72cb1f5c",
+      "category_id": "sports_games_leisure",
+      "clue": "This NBA award honors the league's most valuable player.",
+      "answer": "MVP Award",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.55,
+      "reasons": [
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "ba015995-a1f8-4d47-996b-f0631c788d55",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This Danish philosopher wrote Fear and Trembling under the pseudonym Johannes de Silentio.",
+      "answer": "Soren Kierkegaard",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.54,
+      "reasons": [
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "db5c54c6-d57f-485f-9b07-324cc69c3769",
+      "category_id": "language_wordplay",
+      "clue": "This word means deliberately ambiguous or evasive, especially in language.",
+      "answer": "Equivocal",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.54,
+      "reasons": [
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "00a9d417-99a6-43b9-8a10-e44ed2387600",
+      "category_id": "arts_visual_culture",
+      "clue": "In art history, this Spanish court painter created Las Meninas.",
+      "answer": "Diego Velazquez",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.54,
+      "reasons": [
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "5790355a-0557-4c77-a78b-496ebdef9eb1",
+      "category_id": "geography",
+      "clue": "This country is surrounded entirely by South Africa.",
+      "answer": "Lesotho",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.52,
+      "reasons": [
+        "short-clue"
+      ]
+    },
+    {
+      "id": "354c6ddc-ffa1-4ddd-9ce3-abbb09a638ee",
+      "category_id": "geography",
+      "clue": "This country shares the island of Hispaniola with Haiti.",
+      "answer": "Dominican Republic",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.52,
+      "reasons": [
+        "short-clue"
+      ]
+    },
+    {
+      "id": "d27fed96-cb97-4902-aa8d-000d2a023840",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This programming language shares its name with a type of coffee.",
+      "answer": "Java",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.52,
+      "reasons": [
+        "short-answer-form"
+      ]
+    },
+    {
+      "id": "705fdfee-4b9e-4605-be16-a898127399cb",
+      "category_id": "literature_books",
+      "clue": "This Eliot novel centers on Dorothea Brooke and the town of its title.",
+      "answer": "Middlemarch",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.48,
+      "reasons": []
+    },
+    {
+      "id": "2f98fd4a-fed5-4eb8-82c7-9fc1b736777d",
+      "category_id": "history",
+      "clue": "This Persian king fought the Greeks at Thermopylae in 480 BCE.",
+      "answer": "Xerxes",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.48,
+      "reasons": []
+    },
+    {
+      "id": "b302727d-14e0-4b41-ad25-b6b2eb622bc6",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This Roman two-faced god is linked with doorways, beginnings, and January.",
+      "answer": "Janus",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.48,
+      "reasons": []
+    },
+    {
+      "id": "ddc3b32a-f704-4ff5-a02b-889f0de8310d",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "In Japanese myth, this sun goddess emerges from a cave after being lured by a mirror and dance.",
+      "answer": "Amaterasu",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.48,
+      "reasons": []
+    },
+    {
+      "id": "1def4458-a3d8-4e99-8465-61e4da1ba9f2",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This cryptocurrency introduced in 2009 uses a blockchain and proof of work.",
+      "answer": "Bitcoin",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.48,
+      "reasons": []
+    },
+    {
+      "id": "34286f2e-ad7d-4fb6-9217-a7ae34b48834",
+      "category_id": "history",
+      "clue": "This Russian czar issued the 1861 emancipation of the serfs.",
+      "answer": "Alexander II",
+      "previous_value": 800,
+      "next_value": 400,
+      "verdict": "likely-overrated",
+      "confidence": 0.48,
+      "reasons": []
+    },
+    {
+      "id": "d4feb8ee-ae4d-432c-8ab3-15fdcac5c88f",
+      "category_id": "history",
+      "clue": "\"Yes, America Can!\" was this United States politician's de facto campaign slogan in 2004.",
+      "answer": "George W. Bush",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "8964beee-035b-441c-b790-5f74233fb517",
+      "category_id": "arts_visual_culture",
+      "clue": "Albrecht Dürer created the painting \"The Young Hare\" in this year.",
+      "answer": "1502",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "many-strong-clue-anchors",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "10081791-63b7-4fc5-933b-5ea5e29882e3",
+      "category_id": "arts_visual_culture",
+      "clue": "In art history, this artist painted The Starry Night.",
+      "answer": "Vincent van Gogh",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-easy",
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "3b9efe6a-f8ee-454f-b19d-f10b7f1be864",
+      "category_id": "arts_visual_culture",
+      "clue": "In art history, this artist painted \"The Starry Night.\"",
+      "answer": "Vincent van Gogh",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-easy",
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "e3c0d856-a06a-43bb-a751-2763d5c90bfd",
+      "category_id": "literature_books",
+      "clue": "This is the second book in George R. R. Martin's 'A Song of Ice and Fire' series.",
+      "answer": "A Clash of Kings",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-easy",
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "specific-detail-hook"
+      ]
+    },
+    {
+      "id": "855529df-26ee-47fd-8f87-263c0385671e",
+      "category_id": "literature_books",
+      "clue": "In literature, in literature, this author wrote \"Harry Potter.\"",
+      "answer": "J.K. Rowling",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-easy",
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "bdda0449-670e-4abc-aa9a-1f1785ad2df3",
+      "category_id": "history",
+      "clue": "The Watergate scandal began with a break-in during this presidential election year.",
+      "answer": "1972",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "63cd0ff6-618c-443b-a4be-1a77aa466070",
+      "category_id": "music_performing_arts",
+      "clue": "Min Yoongi from South Korea boy band \"BTS\" was born in this year.",
+      "answer": "1993",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "many-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "c9fac1da-c4b9-4a8d-947f-298da2a65b3b",
+      "category_id": "music_performing_arts",
+      "clue": "This is the first track on the Dave Matthews Band album \"Before These Crowded Streets\".",
+      "answer": "Pantala Naga Pampa",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "4cbf20a2-1a5e-41c9-8133-cdde3fdc8dd4",
+      "category_id": "history",
+      "clue": "This year is when was the M1911 pistol designed.",
+      "answer": "1911",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "632f09e4-0426-4fac-b5b6-78a6a28cdc5f",
+      "category_id": "history",
+      "clue": "The effort to deploy the Common Core State Standards (CCSS) in the US began in this year.",
+      "answer": "2009",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.9,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "27c3a6ec-69aa-4619-8eca-ce6420a778e4",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This date or year was when WhatsApp founded.",
+      "answer": "2009",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.89,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "027ff593-6dec-4359-b94d-22fc840473a7",
+      "category_id": "geography",
+      "clue": "Lithuania's second-largest city is this former temporary capital.",
+      "answer": "Kaunas",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.89,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "direct-recognition-hook",
+        "specific-detail-hook"
+      ]
+    },
+    {
+      "id": "1b1103d3-e195-43f5-b1f2-43b4092a9d2c",
+      "category_id": "history",
+      "clue": "This is the number of voting members in the U.S. House of Representatives.",
+      "answer": "435",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.88,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "6549cbac-74c0-46eb-ac9c-3a3cb49c2ad9",
+      "category_id": "music_performing_arts",
+      "clue": "In music, French electronic duo Daft Punk released this many studio albums.",
+      "answer": "4",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.88,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "6d9eddaa-20bc-43c3-8812-947dd5a04725",
+      "category_id": "science",
+      "clue": "The Greek-derived name heptagon describes a polygon with this many sides.",
+      "answer": "7",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.88,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "7c315d85-7151-47ed-b304-c356fae183db",
+      "category_id": "science",
+      "clue": "The Greek-derived name pentagon describes a polygon with this many sides.",
+      "answer": "5",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.88,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "5bf2d26a-9142-4e22-9932-8275c06ca38f",
+      "category_id": "science",
+      "clue": "The first Mersenne prime exponent greater than 1000 is this number.",
+      "answer": "1279",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.87,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "f5503288-dabc-4645-a65a-0f3e4a98a83c",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "Only about 9% of U.S. households owned a television in this year.",
+      "answer": "1950",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.86,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "95860adc-1930-481e-bba1-d64ed06939ca",
+      "category_id": "sports_games_leisure",
+      "clue": "A standard FIDE chess game begins with this many pieces on the board.",
+      "answer": "32",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.86,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "ae1f3391-d1f6-4479-8c39-a4b7851aff16",
+      "category_id": "history",
+      "clue": "The Boxing Day earthquake & tsunami occurred in the Indian Ocean in this year.",
+      "answer": "2004",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.86,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "17ec36b2-2d4a-4516-af43-4b2d7a9e2b2a",
+      "category_id": "sports_games_leisure",
+      "clue": "This year is when was the card game Magic: the Gathering first introduced.",
+      "answer": "1993",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.86,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "c6a73d28-14b5-4e03-bc71-ae255f89c629",
+      "category_id": "sports_games_leisure",
+      "clue": "In which year was the pen and paper RPG \"Deadlands\" released.",
+      "answer": "1996",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.85,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer"
+      ]
+    },
+    {
+      "id": "93ecb7f0-99d7-49de-8b0b-352f15bffe76",
+      "category_id": "music_performing_arts",
+      "clue": "This was the name of the hip hop group Kanye West was a member of in the late 90s.",
+      "answer": "The Go-Getters",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.85,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "8748ad7e-801a-431f-8e27-9d6084b1428b",
+      "category_id": "science",
+      "clue": "This is the equation for the area of a sphere.",
+      "answer": "(4/3)πr^3",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.85,
+      "reasons": [
+        "provider-easy",
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "7ad49cc5-f6f9-46b0-9608-f6b27cc9e72b",
+      "category_id": "history",
+      "clue": "World War II ended with Allied victory in this year.",
+      "answer": "1945",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.85,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer"
+      ]
+    },
+    {
+      "id": "46a6ec83-6c91-48eb-bef1-9b2ad1c47769",
+      "category_id": "sports_games_leisure",
+      "clue": "This English football team is nicknamed 'The Tigers'.",
+      "answer": "Hull City",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.84,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "short-clue",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "1044d0a1-caf7-4219-8fe4-b8f4afd59f3c",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "HTTP uses this number as its default TCP port.",
+      "answer": "80",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.84,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "c6458144-b8de-4ece-9788-9fb80cff1e5d",
+      "category_id": "literature_books",
+      "clue": "In literature, this author wrote the novel \"Moby-Dick.\"",
+      "answer": "Herman Melville",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.84,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "short-clue",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "110b1ffe-347e-4563-b3f1-da2de3db18a1",
+      "category_id": "geography",
+      "clue": "In geography, China officially uses this many time zones.",
+      "answer": "1",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.84,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "b6cb6ac9-66fd-4c24-a487-5348372e6eba",
+      "category_id": "geography",
+      "clue": "The Suez Canal is located in which African country.",
+      "answer": "Egypt",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.84,
+      "reasons": [
+        "provider-hard",
+        "high-recognition-answer",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "a02cbff3-2118-4674-b2a6-628af9412e1d",
+      "category_id": "geography",
+      "clue": "No sovereign nation has ownership of Antarctica; this is the answer to who owns it.",
+      "answer": "No one, but there are claims.",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.84,
+      "reasons": [
+        "provider-easy",
+        "long-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "a8f2cfc0-86db-4992-8ccc-6cac2fd33999",
+      "category_id": "history",
+      "clue": "This political term means concentrating power and authority in one central organization.",
+      "answer": "Centralism",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.83,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "direct-recognition-hook",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "a97aa02d-0395-41ff-8cdc-b920b81fe166",
+      "category_id": "history",
+      "clue": "The Second Boer War, beginning in 1899, was fought in this country.",
+      "answer": "South Africa",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.83,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "specific-detail-hook"
+      ]
+    },
+    {
+      "id": "b50afe9d-d73e-4a3c-88ef-56538f7bd29b",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "CMOS is tech used for constructing integrated circuits. CMOS stands for these words.",
+      "answer": "Complementary metal–oxide–semiconductor",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.83,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "d25fb15f-fa48-473b-82d9-9ec520c9e67a",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "In modern life, in computing, CPU stands for these words.",
+      "answer": "Central Processing Unit",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.83,
+      "reasons": [
+        "provider-easy",
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "f5118f47-23d6-4a86-b9d6-685349159acf",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "Moore's law originally predicted the transistor count on integrated circuits would double after this many years.",
+      "answer": "Two",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.83,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "specific-detail-hook"
+      ]
+    },
+    {
+      "id": "031d14e5-c345-4dc5-8b7a-a1861c54c58b",
+      "category_id": "history",
+      "clue": "This US state was the first to allow women to vote in 1869.",
+      "answer": "Wyoming",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.82,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "a5f23a8a-5157-4ae3-990a-da4996800c18",
+      "category_id": "music_performing_arts",
+      "clue": "On which Beatles album would you find the song 'Eleanor Rigby'.",
+      "answer": "Revolver",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.82,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "fb07c8f1-b704-43aa-ad75-ee9fbfa9f0ba",
+      "category_id": "history",
+      "clue": "In addition to his career as an astrologer and \"prophet\", Nostradamus published a 1555 treatise that included a section on what.",
+      "answer": "Making jams and jellies",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.82,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form",
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "c85d5079-deef-48e6-8a93-9deddb6699d5",
+      "category_id": "science",
+      "clue": "This is the number of books in Euclid's Elements of Geometry.",
+      "answer": "13",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.82,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "f43770bb-3849-4625-a3c4-280f4322956f",
+      "category_id": "arts_visual_culture",
+      "clue": "Picasso's \"Guernica\" responded to the bombing of a town during this war.",
+      "answer": "Spanish Civil War",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.82,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form",
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "28dd7e56-aa67-4abd-b177-4824791552a4",
+      "category_id": "science",
+      "clue": "Mathematician Edward Kasner popularized the googol, written as 1 followed by this many zeroes.",
+      "answer": "100",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.82,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "b2c05036-14d0-40af-80e3-1a3662330f41",
+      "category_id": "science",
+      "clue": "This is the derivative of Acceleration with respect to time.",
+      "answer": "Jerk",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.81,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "3bd3d9d9-cfa5-4c31-90dc-2a82083085e6",
+      "category_id": "language_wordplay",
+      "clue": "In wordplay, this Italian phrase means sweet doing nothing.",
+      "answer": "Dolce far niente",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.81,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "short-clue",
+        "direct-recognition-hook",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "a787224b-5350-4b5e-bf1b-933761eed3a0",
+      "category_id": "sports_games_leisure",
+      "clue": "The original Super Smash Bros. roster for Nintendo 64 included this many unlockable characters.",
+      "answer": "5",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "6fc1c932-0764-46cc-9db6-91e75e79e540",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "In Greek myth, Cerberus is usually shown with this many heads.",
+      "answer": "3",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "2033cdd0-d4d5-4c65-a902-8caf7d2efcc2",
+      "category_id": "literature_books",
+      "clue": "This author and poet famously wrote the line, \"The female of the species is more deadly than the male\".",
+      "answer": "Rudyard Kipling",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "4c471dcc-3a48-49e8-9da4-b0a3dd6344ff",
+      "category_id": "sports_games_leisure",
+      "clue": "In games and sports, A standard Monopoly board has this many spaces.",
+      "answer": "40",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "868d53f8-1d8b-4175-86b2-ac0905937e95",
+      "category_id": "sports_games_leisure",
+      "clue": "The face values of all tiles in a standard Scrabble set add up to this number.",
+      "answer": "187",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "3ef5f2de-0ff0-4637-861a-69e0611197b6",
+      "category_id": "sports_games_leisure",
+      "clue": "The pips on a single standard die add up to this number.",
+      "answer": "21",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "9c1bb714-8b56-40bc-a677-c556246b3b82",
+      "category_id": "literature_books",
+      "clue": "This author co-wrote \"The Communist Manifesto\" alongside Karl Marx.",
+      "answer": "Friedrich Engels",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "595b520b-3955-46f8-a082-ded2a2ad4740",
+      "category_id": "sports_games_leisure",
+      "clue": "On PlayStation 4, Minecraft has this many obtainable trophies including expansions.",
+      "answer": "685",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "9ec036b8-7aec-40f6-bed6-fa007baabadf",
+      "category_id": "arts_visual_culture",
+      "clue": "Norwegian painter Edvard Munch is believed to have produced this many paint and pastel versions of The Scream.",
+      "answer": "4",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.8,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "94beb0bb-7c47-4a45-8e5a-942bdfd1d92b",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This date or year is when the online streaming service \"Mixer\" launch.",
+      "answer": "2016",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.79,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "exact-year-answer",
+        "numeric-answer"
+      ]
+    },
+    {
+      "id": "b4876605-0c6c-4f54-9115-c6cb25783e86",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This is the romanized Arabic word for \"moon\".",
+      "answer": "Qamar",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.78,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "51cce01d-57cb-4f72-86f3-964b267e8e6a",
+      "category_id": "geography",
+      "clue": "In geography, In geography, Australia has this many states.",
+      "answer": "6",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.78,
+      "reasons": [
+        "provider-medium",
+        "short-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "096fa54c-42bf-4cfa-9561-eff07d5dab56",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "Out of these four buildings, which one is the tallest, with a height of 1,776 ft (541.3 m).",
+      "answer": "One World Trade Center, United States",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.78,
+      "reasons": [
+        "provider-medium",
+        "long-answer-form",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "1913a75a-4cda-4b9b-93b1-21f1c14ca4e9",
+      "category_id": "literature_books",
+      "clue": "The novel \"Jane Eyre\" was written by this author.",
+      "answer": "Charlotte Brontë",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.78,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "62cac619-3fe3-46eb-8093-ba34c347b97d",
+      "category_id": "music_performing_arts",
+      "clue": "This person sings the rap song \"Secret Wars Part 1\".",
+      "answer": "The Last Emperor",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.78,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "aea6f5b7-4563-443a-8480-197f9d6670e5",
+      "category_id": "arts_visual_culture",
+      "clue": "This Italian term means smoke-like softness in painting and is associated with Leonardo.",
+      "answer": "Sfumato",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.78,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "direct-recognition-hook",
+        "specific-detail-hook",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "dd366617-2a50-4a08-8545-5cf4823cd778",
+      "category_id": "literature_books",
+      "clue": "The main Harry Potter series contains this many books.",
+      "answer": "7",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.77,
+      "reasons": [
+        "provider-easy",
+        "short-answer-form",
+        "numeric-answer",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "ddab24ed-073d-4e6e-b52e-89b97259038e",
+      "category_id": "science",
+      "clue": "Fermat's Last Theorem was finally proved in the 1990s by this mathematician.",
+      "answer": "Andrew Wiles",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.77,
+      "reasons": [
+        "provider-easy",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "f1310271-7e44-4c32-ad17-5943f222f4e1",
+      "category_id": "science",
+      "clue": "This comes after a Million, a Billion, and a Trillion.",
+      "answer": "Quadrillion",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.77,
+      "reasons": [
+        "provider-easy",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "26bc7421-2ff7-44b8-b0a5-cae7aed5ac0f",
+      "category_id": "science",
+      "clue": "This branch of abstract algebra studies polynomial equations through groups of symmetries.",
+      "answer": "Galois Theory",
+      "previous_value": 1000,
+      "next_value": 800,
+      "verdict": "possibly-overrated",
+      "confidence": 0.77,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "bc77da4a-7ad9-4570-a35f-38decd77f34e",
+      "category_id": "music_performing_arts",
+      "clue": "This is the official name of Prince's backing band.",
+      "answer": "The Revolution",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.77,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "a37aea89-e638-4a2b-9fc4-a314db117d85",
+      "category_id": "history",
+      "clue": "In the European Union license system, motorcycles generally require this lettered license classification.",
+      "answer": "Category A",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.77,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "503abe5a-9d23-4e5c-a057-5c721f452da9",
+      "category_id": "science",
+      "clue": "The mathematical constant e is approximately this value to two decimal places.",
+      "answer": "2.72",
+      "previous_value": 600,
+      "next_value": 800,
+      "verdict": "possibly-underrated",
+      "confidence": 0.77,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "791b1734-4d43-44b9-82ae-09b45ad9b21a",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "The Kentucky Derby is 10 furlongs; a full mile equals this many furlongs.",
+      "answer": "Eight",
+      "previous_value": 200,
+      "next_value": 400,
+      "verdict": "possibly-underrated",
+      "confidence": 0.76,
+      "reasons": [
+        "provider-easy",
+        "numeric-answer",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "112a48ea-4cf1-479c-be57-78ebcda2ad20",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "The Egyptian god associated with reproduction and lettuce was this deity.",
+      "answer": "Min",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.75,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "specific-detail-hook"
+      ]
+    },
+    {
+      "id": "3a3f34dc-aeb9-4ae4-a2bc-fe7ff5ffb169",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "The Spanning Tree Protocol was invented by this computer scientist.",
+      "answer": "Radia Perlman",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.75,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "id": "d375dce5-648d-4dfe-ade7-95a12a2d2287",
+      "category_id": "science",
+      "clue": "This Greek letter is used to signify summation.",
+      "answer": "Sigma",
+      "previous_value": 400,
+      "next_value": 600,
+      "verdict": "possibly-underrated",
+      "confidence": 0.75,
+      "reasons": [
+        "provider-medium",
+        "few-strong-clue-anchors",
+        "short-clue",
+        "specialist-subcategory"
+      ]
+    },
+    {
+      "id": "17293a14-d388-4db7-ad55-ed5c42633316",
+      "category_id": "literature_books",
+      "clue": "In the book series \"Odd Thomas\", Danny Jessup has what genetic disease.",
+      "answer": "Osteogenesis Imperfecta",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.74,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "e8bef50a-d444-4b10-b65d-e79e870e542a",
+      "category_id": "history",
+      "clue": "This date or year was when the \"Siege of Leningrad\" lifted during World War II.",
+      "answer": "January 1944",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.74,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "6fb69144-c0ec-4df1-a540-0cf6a66fdb59",
+      "category_id": "sports_games_leisure",
+      "clue": "This was the development code name for the \"Weatherlight\" expansion for \"Magic: The Gathering\", released in 1997.",
+      "answer": "Mocha Latte",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.74,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "feb290c0-bee0-4013-baf7-7835232f0b80",
+      "category_id": "arts_visual_culture",
+      "clue": "Albrecht Durer was born and died in this German city.",
+      "answer": "Nurnberg",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.74,
+      "reasons": [
+        "provider-hard",
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "95aa828f-9e84-4eff-8119-c5ca58e78939",
+      "category_id": "geography",
+      "clue": "Finland celebrates their independence day on this date.",
+      "answer": "December 6th",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.73,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "39870151-2f98-4c91-b51a-3f0bd52ff6e7",
+      "category_id": "science",
+      "clue": "This is the scientific name for the Bald Eagle.",
+      "answer": "Haliaeetus Leucocephalus",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.73,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "9bd2c0b7-6869-4661-b113-deedc519757f",
+      "category_id": "science",
+      "clue": "Bonobos are classified as this kind of primate, along with gorillas and chimpanzees.",
+      "answer": "Ape",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.73,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "51a079bb-7e88-4e07-bebc-6ecd91bce2c9",
+      "category_id": "science",
+      "clue": "Unlike on most salamanders, this part of a newt is flat.",
+      "answer": "Tail",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.73,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "b162ea4a-bd00-4bf2-8a67-1682e1953fbe",
+      "category_id": "science",
+      "clue": "This is the scientific name of the cheetah.",
+      "answer": "Acinonyx jubatus",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.73,
+      "reasons": [
+        "provider-hard",
+        "few-strong-clue-anchors",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "6db74e0d-505e-4653-98b4-fdba013af036",
+      "category_id": "literature_books",
+      "clue": "In the Harry Potter books, Hermione Granger's middle name is this.",
+      "answer": "Jean",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.73,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "03b34772-23ee-49ba-a2c8-5795dbac2410",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This immense structure is referred to in Norse Mythology as the Yggdrasil.",
+      "answer": "Tree",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.73,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "id": "cf2b5c33-991f-4b70-9ba3-029cd6e35089",
+      "category_id": "geography",
+      "clue": "This is the world's smallest country by population.",
+      "answer": "Vatican City",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.72,
+      "reasons": [
+        "provider-hard",
+        "short-clue",
+        "direct-recognition-hook"
+      ]
+    },
+    {
+      "id": "bdfcb35d-d80e-449e-9a0a-6b318ae09580",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This minor Greek god protected rustic arts such as cheesemaking and beekeeping.",
+      "answer": "Aristaeus",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.71,
+      "reasons": [
+        "provider-hard",
+        "specific-detail-hook"
+      ]
+    },
+    {
+      "id": "b94fe7cb-4cd1-48a6-bb90-3f539a6d409f",
+      "category_id": "religion_mythology_philosophy",
+      "clue": "This Norse God has a horse named Sleipnir.",
+      "answer": "Odin",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "d50065ff-2ea8-4308-b1a9-4cd8dafa86e2",
+      "category_id": "history",
+      "clue": "The longest-serving U.S. senator, serving from 1959 to 2010, was this West Virginian.",
+      "answer": "Robert Byrd",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "a6b89aff-edea-40c9-a1b8-28cd5a01d7ae",
+      "category_id": "history",
+      "clue": "This major bank's collapse was notable as one of the causes of the Financal Crisis of 2008.",
+      "answer": "Lehman Brothers",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "27c442d4-edaa-4182-9b78-38e7c16eeda4",
+      "category_id": "history",
+      "clue": "The only U.S. president to serve two non-consecutive terms was this Democrat.",
+      "answer": "Grover Cleveland",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "5f0fd411-93dc-4871-b218-394d7c139820",
+      "category_id": "geography",
+      "clue": "In world geography, Lake Titicaca is known for this distinction.",
+      "answer": "Highest navigable lake",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form"
+      ]
+    },
+    {
+      "id": "b4791adb-2cb7-4bc6-acb3-acbc98f4acdf",
+      "category_id": "music_performing_arts",
+      "clue": "This Manchester nightclub was considered central to the 'Madchester' music scene in the late 80's.",
+      "answer": "The Haçienda",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "251522e9-9df7-45f8-b6eb-f69571bac9db",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "Unreal Engine 4 uses this major programming language.",
+      "answer": "C++",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "15025502-7e47-4d1b-b13d-7a9c5638e7dd",
+      "category_id": "music_performing_arts",
+      "clue": "This was the last Aphex Twin album released before his decade-long hiatus.",
+      "answer": "Drukqs",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "broad-accessible-subcategory"
+      ]
+    },
+    {
+      "id": "57c6ef1f-83a8-421a-993d-1d507e6d39d8",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This internet protocol was documented in RFC 1459.",
+      "answer": "IRC",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "short-answer-form",
+        "short-clue"
+      ]
+    },
+    {
+      "id": "c76a370a-7edc-4803-8059-7b4e58fcfe33",
+      "category_id": "pop_culture_media_modern_life",
+      "clue": "This song was the callsign for Stefan Verdemann's KWFM radio station in Urasawa Naoki's \"Monster\".",
+      "answer": "Over the Rainbow",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form"
+      ]
+    },
+    {
+      "id": "57752063-b108-42a2-9735-b7e389648d47",
+      "category_id": "literature_books",
+      "clue": "The book \"The Silence of the Lambs\" gets its title from this.",
+      "answer": "The main character's trauma in childhood",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form"
+      ]
+    },
+    {
+      "id": "a03e3189-bc0e-478c-8a67-7e658fa04d18",
+      "category_id": "literature_books",
+      "clue": "In which classic novel is there a character named Homer Simpson.",
+      "answer": "The Day of the Locust",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form"
+      ]
+    },
+    {
+      "id": "852881a5-6512-492b-b2ee-4017c119acd9",
+      "category_id": "sports_games_leisure",
+      "clue": "The board game \"Monopoly\" is a variation of this board game.",
+      "answer": "The Landlord's Game",
+      "previous_value": 800,
+      "next_value": 600,
+      "verdict": "possibly-overrated",
+      "confidence": 0.7,
+      "reasons": [
+        "provider-hard",
+        "long-answer-form"
+      ]
+    }
+  ]
+}

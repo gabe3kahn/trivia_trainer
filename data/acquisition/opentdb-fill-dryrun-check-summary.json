@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-05-31T03:22:41.439Z",
+  "target_per_main_category": 100,
+  "dry_run": true,
+  "calls": 1,
+  "counts": {
+    "geography": 5,
+    "literature_books": 4,
+    "history": 4,
+    "science": 7,
+    "arts_visual_culture": 3,
+    "music_performing_arts": 5,
+    "religion_mythology_philosophy": 51,
+    "language_wordplay": 1,
+    "sports_games_leisure": 13,
+    "pop_culture_media_modern_life": 22
+  },
+  "exhausted_provider_ids": [],
+  "call_log": [
+    {
+      "category_id": "religion_mythology_philosophy",
+      "provider": "Mythology",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    }
+  ]
+}

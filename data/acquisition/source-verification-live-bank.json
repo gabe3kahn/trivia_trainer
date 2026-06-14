@@ -1,0 +1,773 @@
+{
+  "generated_at": "2026-06-13T21:29:01.745Z",
+  "source": "live active bank",
+  "total": 40,
+  "counts": {
+    "verified": 13,
+    "weak": 15,
+    "unverified": 10,
+    "skipped": 2
+  },
+  "by_source": {
+    "opentdb": {
+      "verified": 5,
+      "weak": 10,
+      "unverified": 9,
+      "skipped": 0,
+      "total": 24
+    },
+    "manual_seed": {
+      "verified": 8,
+      "weak": 4,
+      "unverified": 1,
+      "skipped": 2,
+      "total": 15
+    },
+    "original_gap_pack": {
+      "verified": 0,
+      "weak": 1,
+      "unverified": 0,
+      "skipped": 0,
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "id": "83c88aec-86fe-494a-a98c-cd2bd73defa9",
+      "question_source": "opentdb",
+      "category_id": "music_performing_arts",
+      "value": 400,
+      "clue": "The Red Hot Chili Peppers song \"Give It Away\" is from what album.",
+      "answer": "Blood Sugar Sex Magik",
+      "status": "verified",
+      "confidence": 0.5,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Blood Sugar Sex Magik",
+          "url": "https://en.wikipedia.org/wiki/Blood_Sugar_Sex_Magik",
+          "snippet": "Blood Sugar Sex Magik is the fifth studio album by American rock band Red Hot Chili Peppers, released on September 24, 1991, by Warner Bros. Records. Produced by Rick Rubin, its musical style differed notably from the band's previous album "
+        }
+      ]
+    },
+    {
+      "id": "2e46df0c-08bc-4186-a969-4fc1c2a4f630",
+      "question_source": "manual_seed",
+      "category_id": "geography",
+      "value": 200,
+      "clue": "This city on the Tiber is the capital of Italy.",
+      "answer": "Rome",
+      "status": "verified",
+      "confidence": 1,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rome",
+          "url": "https://en.wikipedia.org/wiki/Rome",
+          "snippet": "Rome is the capital city and most populated comune (municipality) of Italy. It is also the administrative centre of the Lazio region and of the Metropolitan City of Rome. A special comune named Roma Capitale with a population of 2.7 million"
+        }
+      ]
+    },
+    {
+      "id": "dfdc1b04-12d3-4709-9386-4911b6370477",
+      "question_source": "manual_seed",
+      "category_id": "geography",
+      "value": 600,
+      "clue": "This river flows through Vienna, Budapest, and Belgrade before reaching the Black Sea.",
+      "answer": "Danube",
+      "status": "verified",
+      "confidence": 0.88,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Danube",
+          "url": "https://en.wikipedia.org/wiki/Danube",
+          "snippet": "The Danube is a river in Europe, the second-longest after the Volga in Russia. It flows through Central and Southeastern Europe, from the Black Forest of Germany south through the Danube Delta in Romania into the Black Sea. A large and hist"
+        }
+      ]
+    },
+    {
+      "id": "ca7296e5-3dfb-41d8-862d-c30993a5c286",
+      "question_source": "manual_seed",
+      "category_id": "literature_books",
+      "value": 400,
+      "clue": "This 1866 Dostoevsky novel follows Raskolnikov after the murder of a pawnbroker.",
+      "answer": "Crime and Punishment",
+      "status": "verified",
+      "confidence": 0.43,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Crime and Punishment",
+          "url": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+          "snippet": "Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. It is the s"
+        }
+      ]
+    },
+    {
+      "id": "8b3f3b31-52dd-4e04-9fd6-736e42d93aab",
+      "question_source": "manual_seed",
+      "category_id": "history",
+      "value": 200,
+      "clue": "This president issued the Emancipation Proclamation in 1863.",
+      "answer": "Abraham Lincoln",
+      "status": "weak",
+      "confidence": 0.2,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Abraham Lincoln",
+          "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+          "snippet": "Abraham Lincoln was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederacy and playing a major role in the abolition of "
+        }
+      ]
+    },
+    {
+      "id": "d4feb8ee-ae4d-432c-8ab3-15fdcac5c88f",
+      "question_source": "opentdb",
+      "category_id": "history",
+      "value": 800,
+      "clue": "\"Yes, America Can!\" was this United States politician's de facto campaign slogan in 2004.",
+      "answer": "George W. Bush",
+      "status": "verified",
+      "confidence": 0.38,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "George W. Bush",
+          "url": "https://en.wikipedia.org/wiki/George_W._Bush",
+          "snippet": "George Walker Bush is an American politician, businessman, and former United States Air Force officer who was the 43rd president of the United States, serving from 2001 to 2009. The eldest son of George H. W. Bush, the 41st president of the"
+        }
+      ]
+    },
+    {
+      "id": "3e1423fa-1cc9-4a37-8bb2-ca0e9121b394",
+      "question_source": "manual_seed",
+      "category_id": "science",
+      "value": 400,
+      "clue": "This largest moon of Saturn has a thick atmosphere and methane lakes.",
+      "answer": "Titan",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "no-wikipedia-page",
+      "citations": []
+    },
+    {
+      "id": "bdfcb35d-d80e-449e-9a0a-6b318ae09580",
+      "question_source": "opentdb",
+      "category_id": "religion_mythology_philosophy",
+      "value": 800,
+      "clue": "This minor Greek god protected rustic arts such as cheesemaking and beekeeping.",
+      "answer": "Aristaeus",
+      "status": "weak",
+      "confidence": 0.29,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Aristaeus",
+          "url": "https://en.wikipedia.org/wiki/Aristaeus",
+          "snippet": "Aristaeus was the mythological culture hero credited with the discovery of many rural useful arts and handicrafts, including beekeeping. He was the son of the huntress Cyrene and Apollo."
+        }
+      ]
+    },
+    {
+      "id": "850f9d67-27dc-46c8-9508-1d2eb307f6d5",
+      "question_source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 400,
+      "clue": "In Spanish phrasebooks, this everyday greeting means \"hello\" and pairs with adios.",
+      "answer": "Hola",
+      "status": "weak",
+      "confidence": 0.13,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "¡Hola!",
+          "url": "https://en.wikipedia.org/wiki/%C2%A1Hola!",
+          "snippet": "¡Hola!, is a Spanish weekly celebrity magazine that covers celebrity news, royalty, society, fashion, beauty, and lifestyle. An asset of Grupo Hola, it began publication in 1944 from Barcelona, however, it is now published from Madrid. Edua"
+        }
+      ]
+    },
+    {
+      "id": "5723a4e8-bc11-4f61-82e7-b6bdb056fee7",
+      "question_source": "manual_seed",
+      "category_id": "religion_mythology_philosophy",
+      "value": 200,
+      "clue": "This Greek god of the sea carried a trident.",
+      "answer": "Poseidon",
+      "status": "verified",
+      "confidence": 0.67,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Poseidon",
+          "url": "https://en.wikipedia.org/wiki/Poseidon",
+          "snippet": "Poseidon is one of the twelve Olympians in ancient Greek religion and mythology, presiding over the sea, storms, earthquakes and horses. He was the protector of seafarers and the guardian of many Hellenic cities and colonies. In pre-Olympia"
+        }
+      ]
+    },
+    {
+      "id": "5260189a-183f-449b-9cc4-fa92976d3b62",
+      "question_source": "opentdb",
+      "category_id": "science",
+      "value": 200,
+      "clue": "Below the bathypelagic layer, this deep-ocean zone near the seafloor is home to abyssopelagic animals.",
+      "answer": "Abyssal zone",
+      "status": "verified",
+      "confidence": 0.36,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Abyssal zone",
+          "url": "https://en.wikipedia.org/wiki/Abyssal_zone",
+          "snippet": "The abyssal zone or abyssopelagic zone is a layer of the pelagic zone of the ocean. The word abyss comes from the Greek word ἄβυσσος (ábussos), meaning \"bottomless\". At depths of 4,000–6,000 m (13,000–20,000 ft), this zone remains in perpet"
+        }
+      ]
+    },
+    {
+      "id": "ae610c67-3ba5-4458-af34-093c8982dad1",
+      "question_source": "manual_seed",
+      "category_id": "arts_visual_culture",
+      "value": 400,
+      "clue": "In art history, this Dutch painter created The Starry Night.",
+      "answer": "Vincent van Gogh",
+      "status": "verified",
+      "confidence": 0.67,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Vincent van Gogh",
+          "url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+          "snippet": "Vincent Willem van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, mo"
+        }
+      ]
+    },
+    {
+      "id": "3a753263-bac8-46c6-97ad-8d86e6020a27",
+      "question_source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 400,
+      "clue": "In Mario Kart and Super Smash Bros., Princess Rosalina is generally considered this weight class.",
+      "answer": "Heavy",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "no-wikipedia-page",
+      "citations": []
+    },
+    {
+      "id": "a20a1947-b597-4269-8023-47656b45c014",
+      "question_source": "manual_seed",
+      "category_id": "language_wordplay",
+      "value": 200,
+      "clue": "This is a large body of salt water.",
+      "answer": "Sea",
+      "status": "skipped",
+      "confidence": null,
+      "verified_via": null,
+      "note": "constructed-mechanic:crossword_clue",
+      "citations": []
+    },
+    {
+      "id": "2ea98591-4aa5-45d0-9da5-a3fdb931527a",
+      "question_source": "manual_seed",
+      "category_id": "geography",
+      "value": 400,
+      "clue": "In geography, this city is the capital of Chile.",
+      "answer": "Santiago",
+      "status": "skipped",
+      "confidence": null,
+      "verified_via": null,
+      "note": "constructed-mechanic:crossword_clue",
+      "citations": []
+    },
+    {
+      "id": "782887f5-ff61-4fb6-8a04-b29b5645313b",
+      "question_source": "manual_seed",
+      "category_id": "literature_books",
+      "value": 200,
+      "clue": "In literature, this English author wrote Pride and Prejudice.",
+      "answer": "Jane Austen",
+      "status": "weak",
+      "confidence": 0.17,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jane Austen",
+          "url": "https://en.wikipedia.org/wiki/Jane_Austen",
+          "snippet": "Jane Austen was an English writer known primarily for her six novels, which implicitly interpret, critique, and comment on the English landed gentry at the end of the 18th century."
+        }
+      ]
+    },
+    {
+      "id": "b9082838-a6e1-4e21-adb3-982a9f6a03cd",
+      "question_source": "manual_seed",
+      "category_id": "science",
+      "value": 200,
+      "clue": "In science, this chemical element has the symbol O.",
+      "answer": "Oxygen",
+      "status": "verified",
+      "confidence": 0.75,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Oxygen",
+          "url": "https://en.wikipedia.org/wiki/Oxygen",
+          "snippet": "Oxygen is a chemical element; it has the symbol O and its atomic number is 8. It is a member of the chalcogen group in the periodic table. It is highly reactive, a nonmetal, and a potent oxidizing agent that readily forms oxides with most e"
+        }
+      ]
+    },
+    {
+      "id": "3e7de2ca-dffc-4515-98bb-d8297807faad",
+      "question_source": "manual_seed",
+      "category_id": "history",
+      "value": 800,
+      "clue": "This 1919 treaty formally ended World War I between Germany and the Allied powers.",
+      "answer": "Treaty of Versailles",
+      "status": "verified",
+      "confidence": 0.89,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Treaty of Versailles",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+          "snippet": "The Treaty of Versailles was a peace treaty signed on 28 June 1919. As the most important treaty of World War I, it ended the state of war between Germany and most of the Allied Powers. It was signed in the Palace of Versailles, exactly fiv"
+        }
+      ]
+    },
+    {
+      "id": "a787224b-5350-4b5e-bf1b-933761eed3a0",
+      "question_source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 400,
+      "clue": "The original Super Smash Bros. roster for Nintendo 64 included this many unlockable characters.",
+      "answer": "5",
+      "status": "weak",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "5",
+          "url": "https://en.wikipedia.org/wiki/5",
+          "snippet": "5 (five) is a number, numeral and digit. It is the natural number, and cardinal number, following 4 and preceding 6, and is a prime number."
+        }
+      ]
+    },
+    {
+      "id": "89ddb26f-a598-4e95-b7b9-1786e2dd21a6",
+      "question_source": "manual_seed",
+      "category_id": "music_performing_arts",
+      "value": 400,
+      "clue": "This German composer wrote the Ninth Symphony and its Ode to Joy finale.",
+      "answer": "Ludwig van Beethoven",
+      "status": "verified",
+      "confidence": 0.5,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ludwig van Beethoven",
+          "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
+          "snippet": "Ludwig van Beethoven was a German composer, conductor, and pianist. Regarded as one of the greatest composers in the history of Western music, he was mentored during the Classical period, and his musical style was a key driver of the transi"
+        }
+      ]
+    },
+    {
+      "id": "791b1734-4d43-44b9-82ae-09b45ad9b21a",
+      "question_source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 400,
+      "clue": "The Kentucky Derby is 10 furlongs; a full mile equals this many furlongs.",
+      "answer": "Eight",
+      "status": "weak",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "8",
+          "url": "https://en.wikipedia.org/wiki/8",
+          "snippet": "8 (eight) is the natural number following 7 and preceding 9."
+        }
+      ]
+    },
+    {
+      "id": "e9a0a325-995c-48fe-97a2-aeb26db3cfad",
+      "question_source": "manual_seed",
+      "category_id": "sports_games_leisure",
+      "value": 400,
+      "clue": "This city hosted the 1992 Summer Olympics and later became associated with a Dream Team.",
+      "answer": "Barcelona",
+      "status": "weak",
+      "confidence": 0.1,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Barcelona",
+          "url": "https://en.wikipedia.org/wiki/Barcelona",
+          "snippet": "Barcelona is a city on the northeastern coast of Spain. It is the capital and largest city of the autonomous community of Catalonia, as well as the second-most populous municipality of Spain. With a population of 1.7 million within city lim"
+        }
+      ]
+    },
+    {
+      "id": "097c6002-b36b-45ce-9022-2dac83def16c",
+      "question_source": "manual_seed",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 200,
+      "clue": "This 1997 James Cameron film follows Jack and Rose aboard a doomed ocean liner.",
+      "answer": "Titanic",
+      "status": "weak",
+      "confidence": 0.27,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Titanic",
+          "url": "https://en.wikipedia.org/wiki/Titanic",
+          "snippet": "RMS Titanic was a British ocean liner that sank in the early hours of 15 April 1912 as a result of striking an iceberg on her maiden voyage from Southampton, England, to New York City. Of the 2,208 passengers and crew aboard, approximately "
+        }
+      ]
+    },
+    {
+      "id": "63a9e773-26a3-42cc-9d71-ddc773b0627a",
+      "question_source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 200,
+      "clue": "The main antagonist of Ori and the Blind Forest is this owl.",
+      "answer": "Kuro",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "no-wikipedia-page",
+      "citations": []
+    },
+    {
+      "id": "095ce52b-488f-46ae-86ab-172221bcb779",
+      "question_source": "opentdb",
+      "category_id": "music_performing_arts",
+      "value": 400,
+      "clue": "This Athens, Georgia singer was R.E.M.'s lead vocalist and frontman.",
+      "answer": "Michael Stipe",
+      "status": "verified",
+      "confidence": 0.33,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Michael Stipe",
+          "url": "https://en.wikipedia.org/wiki/Michael_Stipe",
+          "snippet": "John Michael Stipe is an American singer, songwriter and artist, best known as the lead singer and lyricist of the alternative rock band R.E.M."
+        }
+      ]
+    },
+    {
+      "id": "79814e62-a4dd-43af-b9b0-ee2da84df393",
+      "question_source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 400,
+      "clue": "The website \"Shut Up & Sit Down\" reviews this form of media.",
+      "answer": "Board Games",
+      "status": "weak",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Board game",
+          "url": "https://en.wikipedia.org/wiki/Board_game",
+          "snippet": "A board game is a type of tabletop game that involves small objects that are placed and moved in particular ways on a specially designed patterned game board, potentially including other components, e.g. dice. The earliest known uses of the"
+        }
+      ]
+    },
+    {
+      "id": "e863ecda-0f4a-4e37-b586-af1f9a9e5200",
+      "question_source": "opentdb",
+      "category_id": "music_performing_arts",
+      "value": 400,
+      "clue": "Rock songs most often use this time signature.",
+      "answer": "4/4",
+      "status": "weak",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "4-8-4+4-8-4",
+          "url": "https://en.wikipedia.org/wiki/4-8-4%2B4-8-4",
+          "snippet": "Under the Whyte notation for the classification of steam locomotives by wheel arrangement, the 4-8-4+4-8-4 is a Garratt locomotive. The wheel arrangement is effectively two 4-8-4 locomotives operating back to back, with the boiler and cab s"
+        }
+      ]
+    },
+    {
+      "id": "9199fdc1-02e6-4538-a180-15fa2ae3ca80",
+      "question_source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 400,
+      "clue": "The Fields Medal, one of the most sought after awards in mathematics, is awarded every this many years.",
+      "answer": "4",
+      "status": "weak",
+      "confidence": 0.11,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "4",
+          "url": "https://en.wikipedia.org/wiki/4",
+          "snippet": "4 (four) is a number, numeral and digit. It is the natural number following 3 and preceding 5. It is a square number, the smallest semiprime and composite number, and is considered unlucky in many East Asian cultures."
+        }
+      ]
+    },
+    {
+      "id": "bdeaf026-bbdf-45bd-84dc-ba860de2122e",
+      "question_source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 400,
+      "clue": "This American city was featured in the 1999 PC game Midtown Madness.",
+      "answer": "Chicago",
+      "status": "weak",
+      "confidence": 0.14,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chicago",
+          "url": "https://en.wikipedia.org/wiki/Chicago",
+          "snippet": "Chicago is the most populous city in the U.S. state of Illinois and in the Midwestern United States. Located on the western shore of Lake Michigan, it is the third-most populous city in the United States, with a population of 2.74 million a"
+        }
+      ]
+    },
+    {
+      "id": "d734ea77-cc3a-4c43-a47e-699ee90ffd9e",
+      "question_source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 600,
+      "clue": "In a 1994 CBS interview, Microsoft co-founder Bill Gates performed this unusual trick on camera.",
+      "answer": "Jumping over an office chair",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "answer-not-explicit-in-summary",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jerome Powell",
+          "url": "https://en.wikipedia.org/wiki/Jerome_Powell",
+          "snippet": "Jerome Hayden \"Jay\" Powell is an American central banker and attorney who served as the 16th chair of the Federal Reserve from 2018 to 2026. He was previously both a lawyer and investment banker in the private sector before entering public "
+        }
+      ]
+    },
+    {
+      "id": "0fe23131-8404-468c-a957-fdaee47a1edb",
+      "question_source": "opentdb",
+      "category_id": "science",
+      "value": 400,
+      "clue": "Domestic rabbits typically live this many years on average.",
+      "answer": "8 to 12 years",
+      "status": "unverified",
+      "confidence": 0.14,
+      "verified_via": "wikipedia",
+      "note": "answer-not-explicit-in-summary",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "12 Years a Slave (film)",
+          "url": "https://en.wikipedia.org/wiki/12_Years_a_Slave_(film)",
+          "snippet": "12 Years a Slave is a 2013 biographical historical drama film directed by Steve McQueen from a screenplay by John Ridley, based on the 1853 slave memoir Twelve Years a Slave by Solomon Northup, a Black American, who was kidnapped from Washi"
+        }
+      ]
+    },
+    {
+      "id": "b4876605-0c6c-4f54-9115-c6cb25783e86",
+      "question_source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 600,
+      "clue": "This is the romanized Arabic word for \"moon\".",
+      "answer": "Qamar",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "no-wikipedia-page",
+      "citations": []
+    },
+    {
+      "id": "f0651336-6209-4401-b491-08b7e1b3fe99",
+      "question_source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 200,
+      "clue": "This is what sailors call the front of a boat.",
+      "answer": "Bow",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "no-wikipedia-page",
+      "citations": []
+    },
+    {
+      "id": "539db349-c80e-4375-a1f2-d309756ed938",
+      "question_source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 200,
+      "clue": "In Ms. Kobayashi's Dragon Maid, this character is Kobayashi's maid.",
+      "answer": "Tohru",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "answer-not-explicit-in-summary",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tōru (given name)",
+          "url": "https://en.wikipedia.org/wiki/T%C5%8Dru_(given_name)",
+          "snippet": "Tōru is a masculine Japanese given name."
+        }
+      ]
+    },
+    {
+      "id": "11e109f2-f0eb-4704-8319-aa09835ac4fe",
+      "question_source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 600,
+      "clue": "\"Garry's Mod\" was first released on this date.",
+      "answer": "December 24, 2004",
+      "status": "weak",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "2004",
+          "url": "https://en.wikipedia.org/wiki/2004",
+          "snippet": "2004 (MMIV) was a leap year starting on Thursday of the Gregorian calendar, the 2004th year of the Common Era (CE) and Anno Domini (AD) designations, the 4th year of the 3rd millennium and the 21st century, and the 5th year of the 2000s dec"
+        }
+      ]
+    },
+    {
+      "id": "cf3f88c5-c783-4dc3-bab1-3fcfba2b17b3",
+      "question_source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 400,
+      "clue": "This many playable characters were in Street Fighter II: Champion Edition.",
+      "answer": "12",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "no-wikipedia-page",
+      "citations": []
+    },
+    {
+      "id": "c0d1662a-11be-4cc4-af69-4ac2f79378aa",
+      "question_source": "opentdb",
+      "category_id": "music_performing_arts",
+      "value": 400,
+      "clue": "This rapper had an album that went double platinum with no features.",
+      "answer": "J. Cole",
+      "status": "weak",
+      "confidence": 0.2,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "J. Cole",
+          "url": "https://en.wikipedia.org/wiki/J._Cole",
+          "snippet": "Jermaine Lamarr Cole is an American rapper, singer, songwriter and record producer. Born on a military base in Germany and raised in Fayetteville, North Carolina, Cole initially gained attention as a rapper following the release of his debu"
+        }
+      ]
+    },
+    {
+      "id": "4ba620d7-983f-422b-b8fa-85c9e430b3c7",
+      "question_source": "opentdb",
+      "category_id": "science",
+      "value": 400,
+      "clue": "The yellow diamond on the NFPA 704 fire diamond represents this.",
+      "answer": "Reactivity",
+      "status": "unverified",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "no-wikipedia-page",
+      "citations": []
+    },
+    {
+      "id": "afed448c-605f-4c14-958b-528ffe75d91d",
+      "question_source": "opentdb",
+      "category_id": "science",
+      "value": 400,
+      "clue": "Absorbed radiation dose is measured in this SI unit.",
+      "answer": "Gray",
+      "status": "weak",
+      "confidence": 0,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Grey",
+          "url": "https://en.wikipedia.org/wiki/Grey",
+          "snippet": "Grey or gray is an intermediate color between black and white. It is a neutral or achromatic color, meaning that it has no chroma. It is the color of a rain or storm cloud, of ash, and of lead."
+        }
+      ]
+    },
+    {
+      "id": "46a6ec83-6c91-48eb-bef1-9b2ad1c47769",
+      "question_source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 800,
+      "clue": "This English football team is nicknamed 'The Tigers'.",
+      "answer": "Hull City",
+      "status": "verified",
+      "confidence": 0.4,
+      "verified_via": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hull City A.F.C.",
+          "url": "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
+          "snippet": "Hull City Association Football Club is a professional association football club based in Kingston upon Hull, East Riding of Yorkshire, England. The club competes in the Premier League in the 2026–27 season following promotion via the playof"
+        }
+      ]
+    }
+  ]
+}

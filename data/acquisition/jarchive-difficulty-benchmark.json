@@ -1,0 +1,1739 @@
+{
+  "generated_at": "2026-06-03T05:49:45.188Z",
+  "source_note": "Benchmark only. J! Archive clues are not imported into the app question bank.",
+  "games": [
+    {
+      "gameId": "9202",
+      "url": "https://j-archive.com/showgame.php?game_id=9202",
+      "title": "Show #9337 - Tuesday, May 20, 2025",
+      "aired": "Tuesday, May 20, 2025",
+      "clue_count": 60
+    },
+    {
+      "gameId": "9171",
+      "url": "https://j-archive.com/showgame.php?game_id=9171",
+      "title": "Show #9314 - Thursday, April 17, 2025",
+      "aired": "Thursday, April 17, 2025",
+      "clue_count": 60
+    },
+    {
+      "gameId": "9121",
+      "url": "https://j-archive.com/showgame.php?game_id=9121",
+      "title": "Show #9269 - Thursday, February 13, 2025",
+      "aired": "Thursday, February 13, 2025",
+      "clue_count": 60
+    },
+    {
+      "gameId": "9095",
+      "url": "https://j-archive.com/showgame.php?game_id=9095",
+      "title": "Show #9248 - Wednesday, January 15, 2025",
+      "aired": "Wednesday, January 15, 2025",
+      "clue_count": 60
+    },
+    {
+      "gameId": "9086",
+      "url": "https://j-archive.com/showgame.php?game_id=9086",
+      "title": "Show #9241 - Monday, January 6, 2025",
+      "aired": "Monday, January 6, 2025",
+      "clue_count": 60
+    }
+  ],
+  "total_clues": 300,
+  "overall": {
+    "count": 300,
+    "exact_match": 192,
+    "exact_match_rate": 64,
+    "within_one": 300,
+    "within_one_rate": 100,
+    "average_delta_rank": 0.14,
+    "average_absolute_delta_rank": 0.36,
+    "suggested_easier": 33,
+    "suggested_same": 192,
+    "suggested_harder": 75
+  },
+  "by_round": {
+    "DJ": {
+      "count": 150,
+      "exact_match": 96,
+      "exact_match_rate": 64,
+      "within_one": 150,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.15,
+      "average_absolute_delta_rank": 0.36,
+      "suggested_easier": 16,
+      "suggested_same": 96,
+      "suggested_harder": 38
+    },
+    "J": {
+      "count": 150,
+      "exact_match": 96,
+      "exact_match_rate": 64,
+      "within_one": 150,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.13,
+      "average_absolute_delta_rank": 0.36,
+      "suggested_easier": 17,
+      "suggested_same": 96,
+      "suggested_harder": 37
+    }
+  },
+  "by_actual_value": {
+    "200": {
+      "count": 60,
+      "exact_match": 17,
+      "exact_match_rate": 28.3,
+      "within_one": 60,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.72,
+      "average_absolute_delta_rank": 0.72,
+      "suggested_easier": 0,
+      "suggested_same": 17,
+      "suggested_harder": 43
+    },
+    "400": {
+      "count": 60,
+      "exact_match": 35,
+      "exact_match_rate": 58.3,
+      "within_one": 60,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.42,
+      "average_absolute_delta_rank": 0.42,
+      "suggested_easier": 0,
+      "suggested_same": 35,
+      "suggested_harder": 25
+    },
+    "600": {
+      "count": 60,
+      "exact_match": 53,
+      "exact_match_rate": 88.3,
+      "within_one": 60,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.12,
+      "average_absolute_delta_rank": 0.12,
+      "suggested_easier": 0,
+      "suggested_same": 53,
+      "suggested_harder": 7
+    },
+    "800": {
+      "count": 60,
+      "exact_match": 51,
+      "exact_match_rate": 85,
+      "within_one": 60,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.15,
+      "average_absolute_delta_rank": 0.15,
+      "suggested_easier": 9,
+      "suggested_same": 51,
+      "suggested_harder": 0
+    },
+    "1000": {
+      "count": 60,
+      "exact_match": 36,
+      "exact_match_rate": 60,
+      "within_one": 60,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 24,
+      "suggested_same": 36,
+      "suggested_harder": 0
+    }
+  },
+  "by_category": {
+    "18th CENTURY AVIATION": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 1,
+      "suggested_same": 2,
+      "suggested_harder": 2
+    },
+    "2-WORD CITIES": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "20th CENTURY BOOKSHELF": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 1,
+      "suggested_same": 4,
+      "suggested_harder": 0
+    },
+    "A + (DIRECTOR'S NAME) + (WORD FOR A MOVIE)": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "A LITTLE LOVE POETRY": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "ADDRESSES": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "ALBUMS": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "ALLITERATION ON THE MAP": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "ALMA MATERS": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "ART FOR ART'S SAKE": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 2,
+      "suggested_same": 2,
+      "suggested_harder": 1
+    },
+    "AT THE CEMETERY": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "CANADIAN LAKES": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.6,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 0,
+      "suggested_same": 2,
+      "suggested_harder": 3
+    },
+    "CIVIL WAR PLACES": {
+      "count": 5,
+      "exact_match": 5,
+      "exact_match_rate": 100,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0,
+      "suggested_easier": 0,
+      "suggested_same": 5,
+      "suggested_harder": 0
+    },
+    "COLLEGE ATHLETES": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "DIRECTION TO PERFECTION": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 1,
+      "suggested_same": 4,
+      "suggested_harder": 0
+    },
+    "EVERYTHING FROM B TO Y": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "FICTIONAL FEMALES": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "FIDDLIN' AROUND": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "FLAGS!": {
+      "count": 5,
+      "exact_match": 1,
+      "exact_match_rate": 20,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.8,
+      "suggested_easier": 1,
+      "suggested_same": 1,
+      "suggested_harder": 3
+    },
+    "FLY": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "FURNISHING SOME FURNITURE": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 2,
+      "suggested_same": 3,
+      "suggested_harder": 0
+    },
+    "GAME OVER, MAN! IT'S GAME OVER!": {
+      "count": 5,
+      "exact_match": 5,
+      "exact_match_rate": 100,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0,
+      "suggested_easier": 0,
+      "suggested_same": 5,
+      "suggested_harder": 0
+    },
+    "GEOMETRY": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "GIVE US 2 WORDS": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "HISTORIC HISTORY": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "KICKIN' BRASS": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "MANUAL EVENTS": {
+      "count": 5,
+      "exact_match": 5,
+      "exact_match_rate": 100,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0,
+      "suggested_easier": 0,
+      "suggested_same": 5,
+      "suggested_harder": 0
+    },
+    "MATHEMATICAL OVERLAPS": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "MYTHOLOGY": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "NO TIME TO SAY THE WHOLE WORD": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "NOT ON MY WATCH": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.6,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 0,
+      "suggested_same": 2,
+      "suggested_harder": 3
+    },
+    "OFF THE SHELVES": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "PALINDROMIC WORDS": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "PLAYS & PLAYWRIGHTS": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 1,
+      "suggested_same": 2,
+      "suggested_harder": 2
+    },
+    "POP CULTURE JEOPARDY!": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "POP CULTURE PEOPLE": {
+      "count": 5,
+      "exact_match": 5,
+      "exact_match_rate": 100,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0,
+      "suggested_easier": 0,
+      "suggested_same": 5,
+      "suggested_harder": 0
+    },
+    "RECENT HORROR MOVIES": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 2,
+      "suggested_same": 3,
+      "suggested_harder": 0
+    },
+    "RECENT SCIENCE NOBEL PRIZES": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "SHADES OF RED": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 2,
+      "suggested_same": 2,
+      "suggested_harder": 1
+    },
+    "SILVER": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.6,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 0,
+      "suggested_same": 2,
+      "suggested_harder": 3
+    },
+    "SOY QUE?": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "SOY WHAT?": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "SPITTIN' SCIENCE FACTS": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 2,
+      "suggested_same": 2,
+      "suggested_harder": 1
+    },
+    "STARS OF STAGE & SCREEN": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "STARTS WITH \"U-N\"": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "STATE CAPITALS": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 1,
+      "suggested_same": 2,
+      "suggested_harder": 2
+    },
+    "TAKE ME TO YOUR COMPANY LEADER": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "TEARJERKERS": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "THAT HAPPENED IN 2024": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 2,
+      "suggested_same": 3,
+      "suggested_harder": 0
+    },
+    "THAT'S THE END OF THE LINE": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 1,
+      "suggested_same": 4,
+      "suggested_harder": 0
+    },
+    "THE 19th CENTURY": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "THE VICE PRESIDENT WHO...": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "TV ABBREVIATIONS & ACRONYMS": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 0,
+      "suggested_same": 4,
+      "suggested_harder": 1
+    },
+    "TV SHOWS BY EPISODE TITLES": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 1,
+      "suggested_same": 3,
+      "suggested_harder": 1
+    },
+    "U.S. HISTORY": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 2,
+      "suggested_same": 2,
+      "suggested_harder": 1
+    },
+    "WEIGHTS & MEASURES": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 1,
+      "suggested_same": 2,
+      "suggested_harder": 2
+    },
+    "WORDS ENDING IN \"B\"": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    },
+    "WORDS WITH INTEREST": {
+      "count": 5,
+      "exact_match": 2,
+      "exact_match_rate": 40,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.2,
+      "average_absolute_delta_rank": 0.6,
+      "suggested_easier": 1,
+      "suggested_same": 2,
+      "suggested_harder": 2
+    },
+    "YOUR STOCK IS CLIMBING": {
+      "count": 5,
+      "exact_match": 4,
+      "exact_match_rate": 80,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": -0.2,
+      "average_absolute_delta_rank": 0.2,
+      "suggested_easier": 1,
+      "suggested_same": 4,
+      "suggested_harder": 0
+    },
+    "____ & ____": {
+      "count": 5,
+      "exact_match": 3,
+      "exact_match_rate": 60,
+      "within_one": 5,
+      "within_one_rate": 100,
+      "average_delta_rank": 0.4,
+      "average_absolute_delta_rank": 0.4,
+      "suggested_easier": 0,
+      "suggested_same": 3,
+      "suggested_harder": 2
+    }
+  },
+  "calibration": {
+    "mean_absolute_error": 0.36,
+    "overall_bias": 0.14,
+    "by_actual_rank": [
+      {
+        "actual_rank": 1,
+        "actual_value": 200,
+        "count": 60,
+        "mean_suggested_rank": 1.72,
+        "bias": 0.72,
+        "mean_absolute_error": 0.72
+      },
+      {
+        "actual_rank": 2,
+        "actual_value": 400,
+        "count": 60,
+        "mean_suggested_rank": 2.42,
+        "bias": 0.42,
+        "mean_absolute_error": 0.42
+      },
+      {
+        "actual_rank": 3,
+        "actual_value": 600,
+        "count": 60,
+        "mean_suggested_rank": 3.12,
+        "bias": 0.12,
+        "mean_absolute_error": 0.12
+      },
+      {
+        "actual_rank": 4,
+        "actual_value": 800,
+        "count": 60,
+        "mean_suggested_rank": 3.85,
+        "bias": -0.15,
+        "mean_absolute_error": 0.15
+      },
+      {
+        "actual_rank": 5,
+        "actual_value": 1000,
+        "count": 60,
+        "mean_suggested_rank": 4.6,
+        "bias": -0.4,
+        "mean_absolute_error": 0.4
+      }
+    ],
+    "confusion": {
+      "1": {
+        "1": 17,
+        "2": 43
+      },
+      "2": {
+        "2": 35,
+        "3": 25
+      },
+      "3": {
+        "3": 53,
+        "4": 7
+      },
+      "4": {
+        "3": 9,
+        "4": 51
+      },
+      "5": {
+        "4": 24,
+        "5": 36
+      }
+    }
+  },
+  "reason_counts": {
+    "specific-answer-form": 106,
+    "few-strong-clue-anchors": 97,
+    "specialized-category-title": 85,
+    "many-strong-clue-anchors": 76,
+    "long-answer-form": 56,
+    "category-gimmick": 50,
+    "direct-canonical-hook": 22,
+    "generous-clue-length": 22,
+    "short-answer-form": 19,
+    "direct-recognition-hook": 15,
+    "negative-logic": 14,
+    "short-clue": 14,
+    "specific-detail-hook": 3,
+    "numeric-answer": 2,
+    "exact-year-answer": 1,
+    "high-recognition-answer": 1
+  },
+  "largest_drift": [
+    {
+      "game_id": "9202",
+      "aired": "Tuesday, May 20, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_4_2",
+      "category": "PLAYS & PLAYWRIGHTS",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.84,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "direct-canonical-hook",
+        "specific-detail-hook",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9202",
+      "aired": "Tuesday, May 20, 2025",
+      "round": "J",
+      "source_ref": "J_3_3",
+      "category": "18th CENTURY AVIATION",
+      "actual_value": 600,
+      "suggested_value": 800,
+      "delta_rank": 1,
+      "confidence": 0.81,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9202",
+      "aired": "Tuesday, May 20, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_1_2",
+      "category": "ALMA MATERS",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.81,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "J",
+      "source_ref": "J_1_3",
+      "category": "NOT ON MY WATCH",
+      "actual_value": 600,
+      "suggested_value": 800,
+      "delta_rank": 1,
+      "confidence": 0.77,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "direct-canonical-hook",
+        "negative-logic"
+      ]
+    },
+    {
+      "game_id": "9121",
+      "aired": "Thursday, February 13, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_5_3",
+      "category": "POP CULTURE JEOPARDY!",
+      "actual_value": 600,
+      "suggested_value": 800,
+      "delta_rank": 1,
+      "confidence": 0.76,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "game_id": "9202",
+      "aired": "Tuesday, May 20, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_5_2",
+      "category": "U.S. HISTORY",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.75,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "numeric-answer"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "J",
+      "source_ref": "J_2_3",
+      "category": "SILVER",
+      "actual_value": 600,
+      "suggested_value": 800,
+      "delta_rank": 1,
+      "confidence": 0.75,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9121",
+      "aired": "Thursday, February 13, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_3_1",
+      "category": "ADDRESSES",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.75,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "J",
+      "source_ref": "J_1_1",
+      "category": "HISTORIC HISTORY",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.75,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_4_2",
+      "category": "STATE CAPITALS",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.74,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_1_3",
+      "category": "THE 19th CENTURY",
+      "actual_value": 600,
+      "suggested_value": 800,
+      "delta_rank": 1,
+      "confidence": 0.74,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_4_1",
+      "category": "WEIGHTS & MEASURES",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.73,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_2_3",
+      "category": "CANADIAN LAKES",
+      "actual_value": 600,
+      "suggested_value": 800,
+      "delta_rank": 1,
+      "confidence": 0.73,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "J",
+      "source_ref": "J_5_1",
+      "category": "SPITTIN' SCIENCE FACTS",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.73,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "J",
+      "source_ref": "J_5_3",
+      "category": "FLAGS!",
+      "actual_value": 600,
+      "suggested_value": 800,
+      "delta_rank": 1,
+      "confidence": 0.73,
+      "reasons": [
+        "specific-answer-form",
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "J",
+      "source_ref": "J_3_1",
+      "category": "PALINDROMIC WORDS",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.72,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "short-clue",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_1_1",
+      "category": "ALLITERATION ON THE MAP",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.72,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "short-clue"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_2_2",
+      "category": "CANADIAN LAKES",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.71,
+      "reasons": [
+        "specific-answer-form",
+        "few-strong-clue-anchors",
+        "direct-recognition-hook",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_6_1",
+      "category": "GIVE US 2 WORDS",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.7,
+      "reasons": [
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_1_2",
+      "category": "THE VICE PRESIDENT WHO...",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.69,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "direct-canonical-hook"
+      ]
+    },
+    {
+      "game_id": "9121",
+      "aired": "Thursday, February 13, 2025",
+      "round": "J",
+      "source_ref": "J_2_2",
+      "category": "2-WORD CITIES",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.69,
+      "reasons": [
+        "specific-answer-form",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "J",
+      "source_ref": "J_2_2",
+      "category": "ALBUMS",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.69,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_3_1",
+      "category": "STARS OF STAGE & SCREEN",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.69,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form",
+        "many-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_2_2",
+      "category": "A LITTLE LOVE POETRY",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.69,
+      "reasons": [
+        "specific-answer-form",
+        "generous-clue-length",
+        "negative-logic",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9202",
+      "aired": "Tuesday, May 20, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_6_1",
+      "category": "A + (DIRECTOR'S NAME) + (WORD FOR A MOVIE)",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "specific-answer-form",
+        "many-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9202",
+      "aired": "Tuesday, May 20, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_3_2",
+      "category": "STARTS WITH \"U-N\"",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "J",
+      "source_ref": "J_3_1",
+      "category": "WORDS ENDING IN \"B\"",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "J",
+      "source_ref": "J_2_2",
+      "category": "SILVER",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "J",
+      "source_ref": "J_3_2",
+      "category": "WORDS ENDING IN \"B\"",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_5_2",
+      "category": "TV ABBREVIATIONS & ACRONYMS",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "specific-answer-form",
+        "long-answer-form"
+      ]
+    },
+    {
+      "game_id": "9121",
+      "aired": "Thursday, February 13, 2025",
+      "round": "J",
+      "source_ref": "J_2_1",
+      "category": "2-WORD CITIES",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "specific-answer-form",
+        "many-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9121",
+      "aired": "Thursday, February 13, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_6_1",
+      "category": "WORDS WITH INTEREST",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9121",
+      "aired": "Thursday, February 13, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_6_2",
+      "category": "WORDS WITH INTEREST",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "J",
+      "source_ref": "J_6_2",
+      "category": "SOY WHAT?",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_6_1",
+      "category": "SOY QUE?",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.68,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "category-gimmick"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "J",
+      "source_ref": "J_2_1",
+      "category": "SILVER",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "specific-answer-form",
+        "many-strong-clue-anchors",
+        "negative-logic"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_1_1",
+      "category": "THE VICE PRESIDENT WHO...",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "specific-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9121",
+      "aired": "Thursday, February 13, 2025",
+      "round": "J",
+      "source_ref": "J_6_2",
+      "category": "MATHEMATICAL OVERLAPS",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "negative-logic"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "J",
+      "source_ref": "J_1_1",
+      "category": "NOT ON MY WATCH",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "negative-logic"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "J",
+      "source_ref": "J_3_1",
+      "category": "____ & ____",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "J",
+      "source_ref": "J_1_2",
+      "category": "NOT ON MY WATCH",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "specific-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "J",
+      "source_ref": "J_2_2",
+      "category": "FICTIONAL FEMALES",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "specific-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "J",
+      "source_ref": "J_3_2",
+      "category": "____ & ____",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "long-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9095",
+      "aired": "Wednesday, January 15, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_6_2",
+      "category": "EVERYTHING FROM B TO Y",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "specific-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_1_2",
+      "category": "ALLITERATION ON THE MAP",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.67,
+      "reasons": [
+        "specific-answer-form",
+        "few-strong-clue-anchors"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "J",
+      "source_ref": "J_5_2",
+      "category": "FLAGS!",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.66,
+      "reasons": [
+        "long-answer-form",
+        "many-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9086",
+      "aired": "Monday, January 6, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_5_2",
+      "category": "RECENT SCIENCE NOBEL PRIZES",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.66,
+      "reasons": [
+        "long-answer-form",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9202",
+      "aired": "Tuesday, May 20, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_2_1",
+      "category": "GEOMETRY",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.65,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_3_1",
+      "category": "MYTHOLOGY",
+      "actual_value": 200,
+      "suggested_value": 400,
+      "delta_rank": 1,
+      "confidence": 0.65,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    },
+    {
+      "game_id": "9171",
+      "aired": "Thursday, April 17, 2025",
+      "round": "DJ",
+      "source_ref": "DJ_4_2",
+      "category": "WEIGHTS & MEASURES",
+      "actual_value": 400,
+      "suggested_value": 600,
+      "delta_rank": 1,
+      "confidence": 0.65,
+      "reasons": [
+        "few-strong-clue-anchors",
+        "specialized-category-title"
+      ]
+    }
+  ]
+}

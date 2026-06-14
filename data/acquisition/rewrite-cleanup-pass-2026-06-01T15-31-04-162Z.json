@@ -1,0 +1,53 @@
+{
+  "count": 2,
+  "updates": [
+    {
+      "id": "0fe23131-8404-468c-a957-fdaee47a1edb",
+      "previous": {
+        "clue": "A domestic rabbit has an average lifespan of this many years.",
+        "answer": "8 to 12 years",
+        "value": 400
+      },
+      "next": {
+        "clue": "Domestic rabbits typically live this many years on average.",
+        "answer": "8 to 12 years",
+        "aliases": [
+          "8-12 years",
+          "8 to 12 years",
+          "eight to twelve years"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "8f3d1dfc-769e-42c0-a15f-6a57b4afec46",
+      "previous": {
+        "clue": "In publishing and library catalogs, this two-letter abbreviation means manuscript.",
+        "answer": "MS",
+        "value": 600
+      },
+      "next": {
+        "clue": "This abbreviation for a written draft appears in publishing and library catalogs.",
+        "answer": "MS",
+        "aliases": [
+          "MS",
+          "manuscript"
+        ],
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 92,
+        "quality_issues": [
+          "very-short-answer-needs-strong-clue"
+        ]
+      }
+    }
+  ]
+}

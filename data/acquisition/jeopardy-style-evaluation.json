@@ -1,0 +1,392 @@
+{
+  "generated_at": "2026-06-01T15:36:35.937Z",
+  "total_active": 1000,
+  "overall": {
+    "count": 1000,
+    "average_score": 96,
+    "strong": 1000,
+    "usable": 0,
+    "weak": 0,
+    "bad_fit": 0
+  },
+  "by_category": {
+    "arts_visual_culture": {
+      "count": 100,
+      "average_score": 97,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "geography": {
+      "count": 100,
+      "average_score": 96,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "history": {
+      "count": 100,
+      "average_score": 95,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "language_wordplay": {
+      "count": 100,
+      "average_score": 97,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "literature_books": {
+      "count": 100,
+      "average_score": 94,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "music_performing_arts": {
+      "count": 100,
+      "average_score": 95,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "pop_culture_media_modern_life": {
+      "count": 100,
+      "average_score": 94,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "religion_mythology_philosophy": {
+      "count": 100,
+      "average_score": 98,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "science": {
+      "count": 100,
+      "average_score": 96,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "sports_games_leisure": {
+      "count": 100,
+      "average_score": 94,
+      "strong": 100,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    }
+  },
+  "by_source": {
+    "manual_seed": {
+      "count": 15,
+      "average_score": 99,
+      "strong": 15,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "opentdb": {
+      "count": 479,
+      "average_score": 92,
+      "strong": 479,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "original_gap_pack": {
+      "count": 196,
+      "average_score": 98,
+      "strong": 196,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    },
+    "original_topoff_pack": {
+      "count": 310,
+      "average_score": 99,
+      "strong": 310,
+      "usable": 0,
+      "weak": 0,
+      "bad_fit": 0
+    }
+  },
+  "issue_counts": {
+    "provider-wording": 479,
+    "missing-aliases-for-multiword-answer": 36,
+    "low-specificity": 31,
+    "weak-clue-anchor": 12
+  },
+  "weakest_samples": [
+    {
+      "id": "1044d0a1-caf7-4219-8fe4-b8f4afd59f3c",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 600,
+      "score": 82,
+      "issues": [
+        "low-specificity",
+        "provider-wording"
+      ]
+    },
+    {
+      "id": "b50afe9d-d73e-4a3c-88ef-56538f7bd29b",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 600,
+      "score": 82,
+      "issues": [
+        "low-specificity",
+        "provider-wording"
+      ]
+    },
+    {
+      "id": "d25fb15f-fa48-473b-82d9-9ec520c9e67a",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "value": 400,
+      "score": 82,
+      "issues": [
+        "low-specificity",
+        "provider-wording"
+      ]
+    },
+    {
+      "id": "95860adc-1930-481e-bba1-d64ed06939ca",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 400,
+      "score": 82,
+      "issues": [
+        "low-specificity",
+        "provider-wording"
+      ]
+    },
+    {
+      "id": "781f4bd0-80c8-46bc-b97b-a6ab4f13535b",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "value": 400,
+      "score": 82,
+      "issues": [
+        "low-specificity",
+        "provider-wording"
+      ]
+    },
+    {
+      "id": "a02cbff3-2118-4674-b2a6-628af9412e1d",
+      "source": "opentdb",
+      "category_id": "geography",
+      "value": 400,
+      "score": 82,
+      "issues": [
+        "low-specificity",
+        "provider-wording"
+      ]
+    },
+    {
+      "id": "95097c52-6132-4be4-b357-e733cca68b49",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 200,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "e05226cc-102e-4479-9a4d-b40efa51d3c4",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 400,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "991be9bd-f1a9-4612-8721-a6cbc65aee66",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 600,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "e64c13c4-c1e8-4273-b82c-4ca387ff041c",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 600,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "8cde63f2-88ae-4b7e-804c-859f6d4eb5d0",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 400,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "8c41d840-0eb8-42ec-a164-7c35b06e8eae",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 600,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "44dcb805-8055-4229-ac5b-69a25ccfbfa4",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 400,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "6945dd5f-aec4-4474-abb9-5a6c267e2b23",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 800,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "b250d699-70ed-4306-b04f-311ae648ec94",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 600,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "06cd2553-7726-4b5e-a5b8-6336201e2c67",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 400,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "fede5808-5f48-40a1-9f84-ca68fbebec4b",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 600,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "13575e41-f769-479c-9a4b-4fae47e11ee8",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 600,
+      "score": 85,
+      "issues": [
+        "weak-clue-anchor"
+      ]
+    },
+    {
+      "id": "b9082838-a6e1-4e21-adb3-982a9f6a03cd",
+      "source": "manual_seed",
+      "category_id": "science",
+      "value": 200,
+      "score": 90,
+      "issues": [
+        "low-specificity"
+      ]
+    },
+    {
+      "id": "3523b823-417b-4821-863d-11693dd8b6e5",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 200,
+      "score": 90,
+      "issues": [
+        "low-specificity"
+      ]
+    },
+    {
+      "id": "467d5492-8086-4c98-bef5-96c48bd19d38",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 200,
+      "score": 90,
+      "issues": [
+        "low-specificity"
+      ]
+    },
+    {
+      "id": "bd9ad750-e5f8-4e2f-80cf-fa2d32edd368",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 200,
+      "score": 90,
+      "issues": [
+        "low-specificity"
+      ]
+    },
+    {
+      "id": "5d7e542a-2cfb-4827-8739-ea5f19c3705e",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 400,
+      "score": 90,
+      "issues": [
+        "low-specificity"
+      ]
+    },
+    {
+      "id": "3fde99b0-7b86-47a2-9626-af321537e853",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 200,
+      "score": 90,
+      "issues": [
+        "low-specificity"
+      ]
+    },
+    {
+      "id": "c7230978-c986-4086-933d-5ec7bb012ab5",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "value": 400,
+      "score": 90,
+      "issues": [
+        "low-specificity"
+      ]
+    }
+  ]
+}

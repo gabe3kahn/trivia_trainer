@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "description": "Jeopardy-style training taxonomy for original clue writing and open-source question generation.",
+  "difficulty_values": [
+    {
+      "value": 200,
+      "difficulty_rank": 1,
+      "label": "Recognition"
+    },
+    {
+      "value": 400,
+      "difficulty_rank": 2,
+      "label": "Standard"
+    },
+    {
+      "value": 600,
+      "difficulty_rank": 3,
+      "label": "Competitive"
+    },
+    {
+      "value": 800,
+      "difficulty_rank": 4,
+      "label": "Deep Cut"
+    },
+    {
+      "value": 1000,
+      "difficulty_rank": 5,
+      "label": "Tournament"
+    }
+  ],
+  "clue_mechanics": [
+    "standard",
+    "starts_with",
+    "ends_with",
+    "contains",
+    "crossword_clue",
+    "before_after",
+    "rhyme_time",
+    "anagram",
+    "initials",
+    "quote_completion",
+    "same_name",
+    "hidden_word",
+    "word_ladder"
+  ],
+  "primary_categories": [
+    {
+      "id": "literature_books",
+      "name": "Literature & Books",
+      "subcategories": [
+        "Authors & Works",
+        "19th-Century Novels",
+        "Shakespeare & Drama",
+        "Poetry",
+        "Children's & Young Adult Literature",
+        "American Literature",
+        "British & Irish Literature",
+        "World Literature",
+        "Literary Characters",
+        "Awards, Movements & Terms"
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "subcategories": [
+        "U.S. Presidents & Elections",
+        "U.S. History",
+        "Ancient History",
+        "Medieval & Renaissance History",
+        "European History",
+        "World Wars",
+        "Revolutions & Independence Movements",
+        "Empires & Dynasties",
+        "Historical Figures",
+        "Dates, Documents & Treaties"
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "subcategories": [
+        "World Capitals",
+        "Countries & Borders",
+        "U.S. States & Cities",
+        "Rivers, Lakes & Seas",
+        "Mountains & Deserts",
+        "Islands & Archipelagos",
+        "World Regions",
+        "Landmarks & UNESCO Sites",
+        "Demonyms & Languages",
+        "Maps, Coordinates & Extremes"
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "subcategories": [
+        "Biology",
+        "Chemistry",
+        "Physics",
+        "Astronomy & Space",
+        "Earth Science",
+        "Medicine & Anatomy",
+        "Animals & Plants",
+        "Inventions & Discoveries",
+        "Scientists",
+        "Units, Laws & Constants"
+      ]
+    },
+    {
+      "id": "arts_visual_culture",
+      "name": "Arts & Visual Culture",
+      "subcategories": [
+        "Painters & Sculptors",
+        "Famous Artworks",
+        "Art Movements",
+        "Architecture",
+        "Museums & Collections",
+        "Photography",
+        "Design & Decorative Arts",
+        "Public Art & Monuments",
+        "Art Terms & Techniques",
+        "Patrons, Critics & Schools"
+      ]
+    },
+    {
+      "id": "music_performing_arts",
+      "name": "Music & Performing Arts",
+      "subcategories": [
+        "Classical Composers",
+        "Opera",
+        "Broadway & Musicals",
+        "Popular Music",
+        "Jazz & Blues",
+        "Instruments",
+        "Music Theory & Terms",
+        "Dance",
+        "Theater",
+        "Film Scores & Soundtracks"
+      ]
+    },
+    {
+      "id": "religion_mythology_philosophy",
+      "name": "Religion, Mythology & Philosophy",
+      "subcategories": [
+        "Greek Mythology",
+        "Roman & Norse Mythology",
+        "World Mythology",
+        "Bible",
+        "World Religions",
+        "Religious Texts & Terms",
+        "Philosophers",
+        "Philosophical Schools",
+        "Ethics & Political Thought",
+        "Symbols, Rituals & Holidays"
+      ]
+    },
+    {
+      "id": "language_wordplay",
+      "name": "Language & Wordplay",
+      "subcategories": [
+        "Etymology",
+        "Definitions",
+        "Homophones & Soundalikes",
+        "Anagrams",
+        "Before & After",
+        "Initials & Abbreviations",
+        "Foreign Words & Phrases",
+        "Grammar & Usage",
+        "Rhymes & Word Ladders",
+        "Puns, Quotes & Idioms"
+      ]
+    },
+    {
+      "id": "sports_games_leisure",
+      "name": "Sports, Games & Leisure",
+      "subcategories": [
+        "Baseball",
+        "Football",
+        "Basketball",
+        "Soccer",
+        "Tennis & Golf",
+        "Olympics",
+        "Sports Records & Awards",
+        "Rules & Terminology",
+        "Board Games & Card Games",
+        "Video Games & Esports"
+      ]
+    },
+    {
+      "id": "pop_culture_media_modern_life",
+      "name": "Pop Culture, Media & Modern Life",
+      "subcategories": [
+        "Film",
+        "Television",
+        "Streaming & Internet Culture",
+        "Comics & Graphic Novels",
+        "Celebrities & Public Figures",
+        "Brands & Advertising",
+        "Food & Drink",
+        "Fashion & Lifestyle",
+        "Technology & Companies",
+        "Recent Events & Current Affairs"
+      ]
+    }
+  ]
+}

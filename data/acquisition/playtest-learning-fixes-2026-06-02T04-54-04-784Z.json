@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-06-02T04:54:04.783Z",
+  "count": 4,
+  "updates": [
+    {
+      "id": "aff8200f-89c7-40ca-97ae-ee18e769508a",
+      "external_id": "opentdb-e4e8d7c0c26c902c",
+      "category_id": "music_performing_arts",
+      "previous": {
+        "clue": "This punk rock band released hit songs such as \"Californication\", \"Can't Stop\" and \"Under the Bridge\".",
+        "answer": "Red Hot Chilli Peppers",
+        "aliases": [
+          "Red Hot Chilli Peppers"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "patch": {
+        "answer": "Red Hot Chili Peppers",
+        "aliases": [
+          "Red Hot Chilli Peppers"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_issues": [
+          "playtest-learning: canonical-name-misspelling",
+          "playtest-learning: low-value-long-specialist-answer"
+        ]
+      },
+      "issues": [
+        "canonical-name-misspelling",
+        "low-value-long-specialist-answer"
+      ]
+    },
+    {
+      "id": "83c88aec-86fe-494a-a98c-cd2bd73defa9",
+      "external_id": "opentdb-1afe171fb5326f2d",
+      "category_id": "music_performing_arts",
+      "previous": {
+        "clue": "The Red Hot Chili Pepper song \"Give It Away\" is from what album.",
+        "answer": "Blood Sugar Sex Magik",
+        "aliases": [
+          "Blood Sugar Sex Magik"
+        ],
+        "value": 400,
+        "difficulty_rank": 2
+      },
+      "patch": {
+        "clue": "The Red Hot Chili Peppers song \"Give It Away\" is from what album.",
+        "quality_issues": [
+          "user-feedback: album recall too hard for 200",
+          "playtest-learning: canonical-name-singularized",
+          "playtest-learning: low-value-long-specialist-answer"
+        ]
+      },
+      "issues": [
+        "canonical-name-singularized",
+        "low-value-long-specialist-answer"
+      ]
+    },
+    {
+      "id": "51cce01d-57cb-4f72-86f3-964b267e8e6a",
+      "external_id": "opentdb-93bce0a7586cffe8",
+      "category_id": "geography",
+      "previous": {
+        "clue": "In geography, In geography, Australia has this many states.",
+        "answer": "6",
+        "aliases": [
+          "6"
+        ],
+        "value": 600,
+        "difficulty_rank": 3
+      },
+      "patch": {
+        "clue": "In geography, Australia has this many states.",
+        "quality_issues": [
+          "playtest-learning: duplicate-opening-phrase"
+        ]
+      },
+      "issues": [
+        "duplicate-opening-phrase"
+      ]
+    },
+    {
+      "id": "14bea2e3-4c32-40ff-97a5-543027c8bc7b",
+      "external_id": "opentdb-fe86904c8c1186d2",
+      "category_id": "music_performing_arts",
+      "previous": {
+        "clue": "Bon Iver released this symbol-heavy album in 2016.",
+        "answer": "22, A Million",
+        "aliases": [
+          "22, A Million"
+        ],
+        "value": 200,
+        "difficulty_rank": 1
+      },
+      "patch": {
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_issues": [
+          "playtest-learning: low-value-long-specialist-answer"
+        ]
+      },
+      "issues": [
+        "low-value-long-specialist-answer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4559 @@
+{
+  "generated_at": "2026-05-31T03:30:17.975Z",
+  "provider": "original_gap_pack",
+  "notes": [
+    "Original fill pack for categories undercovered by OpenTDB.",
+    "Designed for reviewable MVP volume rather than final tournament polish."
+  ],
+  "questions": [
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-77b0bf74cc613aa0",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Renaissance artist painted the Mona Lisa and designed flying-machine sketches.",
+      "answer": "Leonardo da Vinci",
+      "aliases": [
+        "Da Vinci"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "art",
+        "renaissance"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0f61ef1355fbe953",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Spanish artist painted Guernica after the bombing of a Basque town.",
+      "answer": "Pablo Picasso",
+      "aliases": [
+        "Picasso"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "art",
+        "painters"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-00cade0098913997",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Dutch painter cut off part of his ear and painted Sunflowers.",
+      "answer": "Vincent van Gogh",
+      "aliases": [
+        "Van Gogh"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "art",
+        "painters"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-63f747fd39313286",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Mexican painter often used self-portraits, monkeys, and thorn imagery.",
+      "answer": "Frida Kahlo",
+      "aliases": [
+        "Kahlo"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "art",
+        "painters"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-152d9e4783fb2b32",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French sculptor created The Thinker and The Burghers of Calais.",
+      "answer": "Auguste Rodin",
+      "aliases": [
+        "Rodin"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "sculpture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1209cd7634994af1",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Italian sculptor carved David before he painted the Sistine Chapel ceiling.",
+      "answer": "Michelangelo",
+      "aliases": [
+        "Michelangelo Buonarroti"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "renaissance",
+        "sculpture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-e717a08b63692543",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American painter is linked with drip painting and abstract expressionism.",
+      "answer": "Jackson Pollock",
+      "aliases": [
+        "Pollock"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "modern-art"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-a6ea9903a21b8808",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This painter of American Gothic often showed stern Midwestern subjects.",
+      "answer": "Grant Wood",
+      "aliases": [
+        "Wood"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "american-art"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-510091d820aca046",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Leonardo portrait is famous for an ambiguous smile.",
+      "answer": "Mona Lisa",
+      "aliases": [
+        "the Mona Lisa"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "artworks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-e04e153dc5e16222",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Munch painting shows a figure clutching its face beneath a blood-red sky.",
+      "answer": "The Scream",
+      "aliases": [
+        "Scream"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "artworks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c22e1058f124bfd1",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Botticelli painting shows Venus arriving on a shell.",
+      "answer": "The Birth of Venus",
+      "aliases": [
+        "Birth of Venus"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "renaissance"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-44d444e5f0cdff53",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Seurat painting places leisure seekers on an island in pointillist dots.",
+      "answer": "A Sunday Afternoon on the Island of La Grande Jatte",
+      "aliases": [
+        "La Grande Jatte"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "pointillism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-b2bde29291b76c8d",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Vermeer painting is nicknamed for the jewelry worn by its turbaned subject.",
+      "answer": "Girl with a Pearl Earring",
+      "aliases": [
+        "The Girl with a Pearl Earring"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "dutch-art"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-95a237565d58e390",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Diego Velazquez painting centers on the young Infanta Margarita and her attendants.",
+      "answer": "Las Meninas",
+      "aliases": [
+        "The Maids of Honour"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "spanish-art"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-b0baf06767410f94",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This large Delacroix canvas personifies revolution with a bare-breasted woman carrying the French tricolor.",
+      "answer": "Liberty Leading the People",
+      "aliases": [
+        "La Liberte guidant le peuple"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "french-art"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-fb9ee2804f40d839",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Monet, Renoir, and Degas are strongly associated with this light-focused French movement.",
+      "answer": "Impressionism",
+      "aliases": [
+        "Impressionist movement"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0520a29fbfef2c5b",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Dalí and Magritte worked in this dreamlike movement shaped by the unconscious.",
+      "answer": "Surrealism",
+      "aliases": [
+        "Surrealist movement"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-2620da6cfa1e4299",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Picasso and Braque helped develop this movement of fractured planes and multiple viewpoints.",
+      "answer": "Cubism",
+      "aliases": [
+        "Cubist movement"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6b896bf6420096df",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This post-World War I movement mocked reason and embraced absurdity.",
+      "answer": "Dada",
+      "aliases": [
+        "Dadaism"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-619871a0a87c447e",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This early-20th-century Italian movement celebrated speed, machines, and modern violence.",
+      "answer": "Futurism",
+      "aliases": [
+        "Italian Futurism"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-91d08b76a3e32968",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient Greek building on the Acropolis was dedicated to Athena.",
+      "answer": "Parthenon",
+      "aliases": [
+        "the Parthenon"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "architecture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-29d108c6144b4381",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Paris tower was built for the 1889 Exposition Universelle.",
+      "answer": "Eiffel Tower",
+      "aliases": [
+        "the Eiffel Tower"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "architecture",
+        "landmarks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-59956ed584a8346c",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Frank Lloyd Wright designed this Pennsylvania house built over a waterfall.",
+      "answer": "Fallingwater",
+      "aliases": [
+        "Falling Water"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "architecture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-78e6a35e88f969f0",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This architect designed the Guggenheim Museum in New York and Fallingwater.",
+      "answer": "Frank Lloyd Wright",
+      "aliases": [
+        "Wright"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "architecture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-dc36df161c70f582",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Catalan architect designed Barcelona’s still-unfinished Sagrada Familia.",
+      "answer": "Antoni Gaudi",
+      "aliases": [
+        "Gaudi"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "architecture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0d8f7fd4d6eaa943",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Paris museum houses the Mona Lisa and the Venus de Milo.",
+      "answer": "Louvre",
+      "aliases": [
+        "the Louvre",
+        "Louvre Museum"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "museums"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-e18c653cc3cf0b1c",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This New York museum is commonly abbreviated MoMA.",
+      "answer": "Museum of Modern Art",
+      "aliases": [
+        "MoMA"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "museums"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-7cb7a48ea09d9cdf",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This London museum displays the Rosetta Stone and the Elgin Marbles.",
+      "answer": "British Museum",
+      "aliases": [
+        "the British Museum"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "museums"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-a9bea818db474e19",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Prado, known for Velazquez and Goya, is in this European capital.",
+      "answer": "Madrid",
+      "aliases": [
+        "Madrid, Spain"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "museums",
+        "spain"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d317d935464522a7",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This photographer captured Migrant Mother during the Great Depression.",
+      "answer": "Dorothea Lange",
+      "aliases": [
+        "Lange"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "photography"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-499f695b17c86a9c",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This landscape photographer helped found Group f/64 and photographed Yosemite.",
+      "answer": "Ansel Adams",
+      "aliases": [
+        "Adams"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "photography"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-cd005ec7309aafca",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French photographer is linked with the phrase the decisive moment.",
+      "answer": "Henri Cartier-Bresson",
+      "aliases": [
+        "Cartier-Bresson"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "photography"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-ab61839089f0c455",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Design & Decorative Arts",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This translucent Chinese ceramic became prized in Europe and is often called fine china.",
+      "answer": "Porcelain",
+      "aliases": [
+        "china"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "decorative-arts"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6a5768012999b28f",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Design & Decorative Arts",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German school connected craft, modern design, and architecture from 1919 to 1933.",
+      "answer": "Bauhaus",
+      "aliases": [
+        "the Bauhaus"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "design"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4414fe62a041f848",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Design & Decorative Arts",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This late-19th-century style used whiplash curves, florals, and decorative unity.",
+      "answer": "Art Nouveau",
+      "aliases": [
+        "Art Nouveau style"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "design"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-11bf410becf837c7",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Public Art & Monuments",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This colossal figure in New York Harbor was a gift from France.",
+      "answer": "Statue of Liberty",
+      "aliases": [
+        "the Statue of Liberty"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "monuments"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4ec84c12c0745dfa",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Public Art & Monuments",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Maya Lin-designed memorial in Washington lists names on polished black granite.",
+      "answer": "Vietnam Veterans Memorial",
+      "aliases": [
+        "the Vietnam Veterans Memorial"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "monuments"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-3807bea2b6962145",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Public Art & Monuments",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Christ statue overlooks Rio de Janeiro from Mount Corcovado.",
+      "answer": "Christ the Redeemer",
+      "aliases": [
+        "Cristo Redentor"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "monuments"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d943cae47a8b0a25",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This technique uses small dots of color that blend in the viewer’s eye.",
+      "answer": "Pointillism",
+      "aliases": [
+        "Divisionism"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "technique"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-45dd993eeea3a7b5",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This wall-painting method applies pigment to wet plaster.",
+      "answer": "Fresco",
+      "aliases": [
+        "fresco painting"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "technique"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c202ebe9e8698e5f",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This dramatic contrast of light and dark is associated with Caravaggio.",
+      "answer": "Chiaroscuro",
+      "aliases": [
+        "chiaroscuro"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "technique"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1e7b2cfb660ea596",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This printmaking process uses acid to bite lines into a metal plate.",
+      "answer": "Etching",
+      "aliases": [
+        "etching"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "technique"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-5049d86e40403e76",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This technique creates an image from small pieces of colored stone, glass, or tile.",
+      "answer": "Mosaic",
+      "aliases": [
+        "mosaic"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "technique"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0296cf0407c14ffc",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This powerful Florence family patronized Botticelli, Michelangelo, and Renaissance humanists.",
+      "answer": "Medici",
+      "aliases": [
+        "the Medici family"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "patrons"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-43052894f198e1a6",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This term describes artists who worked outside official academic traditions, often self-taught.",
+      "answer": "Outsider art",
+      "aliases": [
+        "art brut"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "art-terms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1f9bdb5ea0bf12e3",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This group included Monet and Renoir after breaking from the official Paris Salon.",
+      "answer": "Impressionists",
+      "aliases": [
+        "the Impressionists"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-ab9ae72d2ed68146",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American critic promoted abstract expressionism and championed flatness in modern painting.",
+      "answer": "Clement Greenberg",
+      "aliases": [
+        "Greenberg"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "criticism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-cfa447d3ab0cf413",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Peggy built a major modern art collection and opened Art of This Century in New York.",
+      "answer": "Peggy Guggenheim",
+      "aliases": [
+        "Guggenheim"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "patrons"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d4aa4b852be39d48",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Russian avant-garde movement included Malevich’s Black Square and emphasized pure geometric forms.",
+      "answer": "Suprematism",
+      "aliases": [
+        "Suprematist movement"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-270a83a9c020dce9",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Greek goddess of wisdom was born from Zeus’s head.",
+      "answer": "Athena",
+      "aliases": [
+        "Pallas Athena"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "greek-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-a725a31535bd01ea",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This hero killed Medusa and rescued Andromeda.",
+      "answer": "Perseus",
+      "aliases": [
+        "Perseus"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "greek-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-eb3933faeb8a7929",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This musician looked back and lost Eurydice on the way out of the underworld.",
+      "answer": "Orpheus",
+      "aliases": [
+        "Orpheus"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "greek-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-51388fdd32b293fa",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Titan was punished by having an eagle eat his liver.",
+      "answer": "Prometheus",
+      "aliases": [
+        "Prometheus"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "greek-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-bfe3efd84411d612",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This daughter of Minos helped Theseus escape the Labyrinth with a thread.",
+      "answer": "Ariadne",
+      "aliases": [
+        "Ariadne"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "greek-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1d17c72a2176ce7c",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This mortal hunter saw Artemis bathing and was changed into a stag.",
+      "answer": "Actaeon",
+      "aliases": [
+        "Actaeon"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "greek-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-9874ead0d04654af",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Norse trickster is the father of Fenrir and Hel.",
+      "answer": "Loki",
+      "aliases": [
+        "Loki"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "norse"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d50d81d555773fc5",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Roman god of war gives his name to the month of March.",
+      "answer": "Mars",
+      "aliases": [
+        "Mars"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "roman"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-a7d3194fb3b756ab",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Norse god traded an eye for wisdom at Mimir’s well.",
+      "answer": "Odin",
+      "aliases": [
+        "Odin"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "norse"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-19bd639f7fe1794c",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This hammer-wielding Norse god rides in a chariot pulled by goats.",
+      "answer": "Thor",
+      "aliases": [
+        "Thor"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "norse"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-b34eba1303f32fd0",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Norse world tree connects the Nine Worlds.",
+      "answer": "Yggdrasil",
+      "aliases": [
+        "Yggdrasil"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "norse"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d5dc2f28a7801587",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Roman two-faced god is linked with doorways, beginnings, and January.",
+      "answer": "Janus",
+      "aliases": [
+        "Janus"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "roman"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c7d5ff2220c3c07a",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Egyptian jackal-headed god is associated with mummification and the dead.",
+      "answer": "Anubis",
+      "aliases": [
+        "Anubis"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "egyptian-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-ee6e4d865447be3b",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Egyptian goddess, wife of Osiris, reassembled him after Seth’s attack.",
+      "answer": "Isis",
+      "aliases": [
+        "Isis"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "egyptian-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6620fc203fe2e875",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hindu remover of obstacles is depicted with an elephant head.",
+      "answer": "Ganesha",
+      "aliases": [
+        "Ganesh"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "hinduism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d39999933f103364",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This feathered serpent deity appears in Aztec tradition.",
+      "answer": "Quetzalcoatl",
+      "aliases": [
+        "Quetzalcoatl"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "mesoamerica"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4b595348a2d80b73",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Japanese myth, this sun goddess emerges from a cave after being lured by a mirror and dance.",
+      "answer": "Amaterasu",
+      "aliases": [
+        "Amaterasu Omikami"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "japan"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-e3ae469657ccaeb7",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This first book of the Bible begins with creation.",
+      "answer": "Genesis",
+      "aliases": [
+        "Book of Genesis"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6655afbb05b1080b",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This young shepherd defeated Goliath.",
+      "answer": "David",
+      "aliases": [
+        "King David"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6c3e6cd7f6447af8",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This prophet was swallowed by a great fish after fleeing toward Tarshish.",
+      "answer": "Jonah",
+      "aliases": [
+        "Jonah"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-17f299669459b1e1",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This apostle is associated with denial before the rooster crowed.",
+      "answer": "Peter",
+      "aliases": [
+        "Saint Peter"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-37a10578c66cd3f4",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Babylonian king dreams of a statue interpreted by Daniel.",
+      "answer": "Nebuchadnezzar",
+      "aliases": [
+        "Nebuchadnezzar II"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-7444fb8176396581",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This short New Testament letter asks Philemon to receive an escaped slave as a brother.",
+      "answer": "Philemon",
+      "aliases": [
+        "Epistle to Philemon"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-81e1cc8c40f8e770",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This religion’s Five Pillars include prayer, fasting, almsgiving, pilgrimage, and confession of faith.",
+      "answer": "Islam",
+      "aliases": [
+        "Islam"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "religion"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-b5a92a8e99ae014d",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This religion traces its Four Noble Truths to Siddhartha Gautama.",
+      "answer": "Buddhism",
+      "aliases": [
+        "Buddhism"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "religion"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-401b180f01b1ecf7",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Sikh house of worship serves a communal meal called langar.",
+      "answer": "Gurdwara",
+      "aliases": [
+        "Gurudwara"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "sikhism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d172971aac1c8d30",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Jewish holiday commemorates the Exodus and includes a seder.",
+      "answer": "Passover",
+      "aliases": [
+        "Pesach"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "judaism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-808ee0784733f3e2",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Shinto shrine gate marks the transition into sacred space.",
+      "answer": "Torii",
+      "aliases": [
+        "torii gate"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "shinto"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-54b5610ce691cd2b",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Islamic holy book is traditionally understood as revealed to Muhammad.",
+      "answer": "Quran",
+      "aliases": [
+        "Koran",
+        "the Quran"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "islam"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4cbc65d637c4b5b7",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Sanskrit word can mean duty, law, or cosmic order in Indian religions.",
+      "answer": "Dharma",
+      "aliases": [
+        "dharma"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "hinduism",
+        "buddhism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0923f8c2aaf2b732",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This collection of rabbinic discussions includes the Mishnah and Gemara.",
+      "answer": "Talmud",
+      "aliases": [
+        "the Talmud"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "judaism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-01364a2d4a074ed2",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "These ancient Indian texts include the Rigveda and Sama Veda.",
+      "answer": "Vedas",
+      "aliases": [
+        "the Vedas"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "hinduism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-265b9cf630f8c1db",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This student of Socrates wrote the Republic.",
+      "answer": "Plato",
+      "aliases": [
+        "Plato"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1a0d44ba632225f7",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This philosopher taught Alexander the Great and wrote the Nicomachean Ethics.",
+      "answer": "Aristotle",
+      "aliases": [
+        "Aristotle"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-87c92d6cce845859",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French thinker began by doubting everything and wrote “I think, therefore I am.”",
+      "answer": "Rene Descartes",
+      "aliases": [
+        "Descartes"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-f05a96e94fb63dd1",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German philosopher wrote the Critique of Pure Reason.",
+      "answer": "Immanuel Kant",
+      "aliases": [
+        "Kant"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c7738f55e5855e85",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This utilitarian thinker wrote On Liberty and The Subjection of Women.",
+      "answer": "John Stuart Mill",
+      "aliases": [
+        "J. S. Mill",
+        "Mill"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-df1f1a68e9bfd400",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Danish philosopher wrote Fear and Trembling under the pseudonym Johannes de Silentio.",
+      "answer": "Soren Kierkegaard",
+      "aliases": [
+        "Kierkegaard"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-05b6d1d7d15de229",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hellenistic school taught apatheia and is associated with Epictetus and Marcus Aurelius.",
+      "answer": "Stoicism",
+      "aliases": [
+        "Stoic philosophy"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-2ab411fc9f4e3ecd",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This school founded by Epicurus argued that pleasure and freedom from disturbance are central goods.",
+      "answer": "Epicureanism",
+      "aliases": [
+        "Epicurean philosophy"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-30e8dc19497cac0b",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This modern movement associated with Sartre emphasizes freedom, choice, and responsibility.",
+      "answer": "Existentialism",
+      "aliases": [
+        "Existentialist philosophy"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-3daffd76e5798e4e",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This school from Charles Sanders Peirce and William James measures ideas by practical consequences.",
+      "answer": "Pragmatism",
+      "aliases": [
+        "American pragmatism"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-169605bcbf26cede",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ethical theory judges actions by their consequences for overall happiness.",
+      "answer": "Utilitarianism",
+      "aliases": [
+        "utilitarian ethics"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "ethics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d16b8f2596900bb6",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hobbes book imagines life without government as solitary, poor, nasty, brutish, and short.",
+      "answer": "Leviathan",
+      "aliases": [
+        "Leviathan"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "political-thought"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6bb757dcd4385b7a",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Rawls concept asks people to design society without knowing their own place in it.",
+      "answer": "Veil of ignorance",
+      "aliases": [
+        "the veil of ignorance"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "ethics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-be69a964b8ceddaf",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Machiavelli treatise advises rulers on power and reputation.",
+      "answer": "The Prince",
+      "aliases": [
+        "Il Principe"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "political-thought"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-eb19f74ffd04b71f",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This nine-branched candelabrum is used during Hanukkah.",
+      "answer": "Menorah",
+      "aliases": [
+        "Hanukkah menorah",
+        "hanukkiah"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "judaism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-55ce67360271f949",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hindu festival of lights celebrates themes of victory and renewal.",
+      "answer": "Diwali",
+      "aliases": [
+        "Deepavali"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "hinduism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-775533009165ce7c",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Christian period of fasting and reflection precedes Easter.",
+      "answer": "Lent",
+      "aliases": [
+        "Lenten season"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "christianity"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1042f94c3ba81563",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This adjective means happening every two years.",
+      "answer": "Biennial",
+      "aliases": [
+        "biennial"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-b6515c0080f97cfa",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This verb means to make amends or repair harm.",
+      "answer": "Atone",
+      "aliases": [
+        "atone"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-67de73b3a8cca17c",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This noun means a short, witty saying or observation.",
+      "answer": "Aphorism",
+      "aliases": [
+        "aphorism"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-14a6d63ec121c857",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This adjective means noisy, energetic, and hard to control.",
+      "answer": "Boisterous",
+      "aliases": [
+        "boisterous"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-a4db2315c4c757b3",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This adjective describes something that seems reasonable or believable.",
+      "answer": "Plausible",
+      "aliases": [
+        "plausible"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d6a95b4dfd4d2e95",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This verb means to lessen the force or severity of something.",
+      "answer": "Mitigate",
+      "aliases": [
+        "mitigate"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0e232da7b4aa8855",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This adjective means harmful in a gradual or subtle way.",
+      "answer": "Insidious",
+      "aliases": [
+        "insidious"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1f51fe5ee9701f1b",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This noun means a remedy for all ills or difficulties.",
+      "answer": "Panacea",
+      "aliases": [
+        "panacea"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0cfef7a6a6ce2c26",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a school comes from Greek for leisure.",
+      "answer": "School",
+      "aliases": [
+        "school"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-16ea98702d83af3f",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a disaster comes from Italian words meaning bad star.",
+      "answer": "Disaster",
+      "aliases": [
+        "disaster"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c230b2c4e15f0b29",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for salary comes from Latin salarium, linked with salt.",
+      "answer": "Salary",
+      "aliases": [
+        "salary"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-53325bccc86930df",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a clue or hint comes from the thread Ariadne gave Theseus.",
+      "answer": "Clue",
+      "aliases": [
+        "clew"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-550eba7e2274e916",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a map book comes from a Titan forced to hold the sky.",
+      "answer": "Atlas",
+      "aliases": [
+        "atlas"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-af9fa7b51eff91d5",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a tiny amount comes from Latin scrupulus, a small sharp stone.",
+      "answer": "Scruple",
+      "aliases": [
+        "scruple"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4ad5fd98f8739a18",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “pair” is a fruit often found in lunchboxes.",
+      "answer": "Pear",
+      "aliases": [
+        "pear"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c5c0e362a9bd7502",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “knight” is the opposite of day.",
+      "answer": "Night",
+      "aliases": [
+        "night"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-b482ce78e217d3aa",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “sole” can mean a person’s spiritual essence.",
+      "answer": "Soul",
+      "aliases": [
+        "soul"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-648241555a47a6dc",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “cite” is the ability to see.",
+      "answer": "Sight",
+      "aliases": [
+        "sight"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1c11b4265eb3c279",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “principal” means a rule or belief.",
+      "answer": "Principle",
+      "aliases": [
+        "principle"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-bebf7e237792442f",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “stationary” means paper for writing letters.",
+      "answer": "Stationery",
+      "aliases": [
+        "stationery"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4d0f723cadd76810",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of CARE",
+      "clue": "Rearrange CARE to name a unit of land area.",
+      "answer": "Acre",
+      "aliases": [
+        "acre"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-3d0207899b233747",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of TEA",
+      "clue": "Rearrange TEA to name something you consume.",
+      "answer": "Eat",
+      "aliases": [
+        "eat"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-7422b65b861697b6",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of LISTEN",
+      "clue": "Rearrange LISTEN to name what you should do while someone speaks.",
+      "answer": "Silent",
+      "aliases": [
+        "silent"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6f6ce6394ba856a9",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of ELBOW",
+      "clue": "Rearrange ELBOW to mean under or beneath.",
+      "answer": "Below",
+      "aliases": [
+        "below"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6646b3b5205b9cbe",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of DORMITORY",
+      "clue": "Rearrange DORMITORY into a phrase meaning a messy room.",
+      "answer": "Dirty room",
+      "aliases": [
+        "dirty room"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-bc3cbc40e77e8b62",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of ASTRONOMER",
+      "clue": "Rearrange ASTRONOMER into a phrase praising the moon.",
+      "answer": "Moon starer",
+      "aliases": [
+        "moon starer"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c4f2a2dc81de3a38",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of CONVERSATION",
+      "clue": "Rearrange CONVERSATION into a phrase about speaking.",
+      "answer": "Voices rant on",
+      "aliases": [
+        "voices rant on"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-9950ee621c7553c2",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Breakfast cereal mascot Tony + award for Broadway theater.",
+      "answer": "Tony the Tiger Award",
+      "aliases": [
+        "Tony the Tiger award"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-e00d8758f470ffb0",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Jane Austen novel + Steinbeck novella about George and Lennie.",
+      "answer": "Pride and Prejudice and Of Mice and Men",
+      "aliases": [
+        "Pride and Prejudice and Of Mice and Men"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-e12661d06dc47095",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Beatles album road + Sherlock Holmes address.",
+      "answer": "Abbey Road Baker Street",
+      "aliases": [
+        "Abbey Road Baker Street"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-af148e5f1e48ed79",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Shakespeare tragedy prince + small pork dish served at breakfast.",
+      "answer": "Hamlet and eggs",
+      "aliases": [
+        "Hamlet and eggs"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-f1d0d767f2aab449",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Disney snowman + Newton unit of force.",
+      "answer": "Olaf newton",
+      "aliases": [
+        "Olaf Newton"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-f52042644612722f",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Greek hero of the Trojan War + tendon at the back of the ankle.",
+      "answer": "Achilles tendon",
+      "aliases": [
+        "Achilles tendon"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-fe1e186451604a16",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "initials",
+      "constraint_text": null,
+      "clue": "In internet slang, these three letters mean “laughing out loud.”",
+      "answer": "LOL",
+      "aliases": [
+        "lol"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "initials"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0f00f064fa0bcc82",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "initials",
+      "constraint_text": null,
+      "clue": "This two-letter postal abbreviation stands for California.",
+      "answer": "CA",
+      "aliases": [
+        "CA"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "initials"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-67cb8fc5d57bc5a6",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": null,
+      "clue": "In publishing, this abbreviation means “for example.”",
+      "answer": "e.g.",
+      "aliases": [
+        "eg",
+        "e.g"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "initials"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-890bd608d9d298ca",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": null,
+      "clue": "This abbreviation means “that is” and comes from Latin id est.",
+      "answer": "i.e.",
+      "aliases": [
+        "ie",
+        "i.e"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "initials"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0a82a1e6c78751cb",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": null,
+      "clue": "This acronym names the space telescope launched in 1990 and named for an astronomer.",
+      "answer": "HST",
+      "aliases": [
+        "Hubble Space Telescope"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "initials",
+        "space"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-259a76fa99b9777c",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Spanish word means hello.",
+      "answer": "Hola",
+      "aliases": [
+        "hola"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "foreign-words"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-ef01e920fae0bed2",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French phrase means thank you very much.",
+      "answer": "Merci beaucoup",
+      "aliases": [
+        "merci beaucoup"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "foreign-words"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-2558cbba48db073e",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Italian phrase means sweet doing nothing.",
+      "answer": "Dolce far niente",
+      "aliases": [
+        "dolce far niente"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "foreign-words"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-a87058498a615307",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German loanword means pleasure at another’s misfortune.",
+      "answer": "Schadenfreude",
+      "aliases": [
+        "schadenfreude"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "foreign-words"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-9aa0d4b805e888d9",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French phrase literally meaning already seen names a familiar feeling.",
+      "answer": "Deja vu",
+      "aliases": [
+        "deja vu",
+        "déjà vu"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "foreign-words"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-976ae6294eff1a32",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Latin phrase means after the fact and often describes retroactive reasoning.",
+      "answer": "Post hoc",
+      "aliases": [
+        "post hoc"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "latin"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-cafc32fd663a7980",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This part of speech names a person, place, thing, or idea.",
+      "answer": "Noun",
+      "aliases": [
+        "noun"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "grammar"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-86a10ba720d18c4f",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This punctuation mark joins two independent clauses when no conjunction is used.",
+      "answer": "Semicolon",
+      "aliases": [
+        "semicolon"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "grammar"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d7231a5def4309b9",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This verb mood is used for wishes or hypotheticals, as in “if I were.”",
+      "answer": "Subjunctive",
+      "aliases": [
+        "subjunctive mood"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "grammar"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4f609a8d1a1893ed",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word refers back to a noun, as “she” refers to Maria.",
+      "answer": "Pronoun",
+      "aliases": [
+        "pronoun"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "grammar"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-7a952d5ff25b7884",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This term names a verb form functioning as a noun, such as “swimming” in “Swimming is fun.”",
+      "answer": "Gerund",
+      "aliases": [
+        "gerund"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "grammar"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-642ba76b03e25a8b",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This misplaced modifier appears to attach to the wrong word in a sentence.",
+      "answer": "Dangling modifier",
+      "aliases": [
+        "dangling participle"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "grammar"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-8ee3095f1220d025",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhymes & Word Ladders",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "A rhyming phrase for a feline wearing a topper.",
+      "answer": "Cat in a hat",
+      "aliases": [
+        "cat in a hat"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "rhyme-time"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c7daa9902a0a56ca",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhymes & Word Ladders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "A rhyming phrase for a speedy vegetable.",
+      "answer": "Fast repast",
+      "aliases": [
+        "fast repast"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "rhyme-time"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-60aa0d6e923d31c7",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhymes & Word Ladders",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "word_ladder",
+      "constraint_text": null,
+      "clue": "Change one letter in COLD to get a precious metal.",
+      "answer": "Gold",
+      "aliases": [
+        "gold"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "word-ladder"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-7c6ab366805713c0",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhymes & Word Ladders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "word_ladder",
+      "constraint_text": null,
+      "clue": "Change one letter in SAND to get the body part that grips a pencil.",
+      "answer": "Hand",
+      "aliases": [
+        "hand"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "word-ladder"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-e85f21fd1deab3aa",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhymes & Word Ladders",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "A rhyming phrase for a cautious legal document.",
+      "answer": "Wary diary",
+      "aliases": [
+        "wary diary"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "rhyme-time"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-5678134439c08aed",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom means to reveal a secret: let the cat out of the what?",
+      "answer": "Bag",
+      "aliases": [
+        "the bag"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-f611553b4b616fb7",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom means an obvious problem no one wants to discuss: the elephant in the what?",
+      "answer": "Room",
+      "aliases": [
+        "the room"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d86692383769303c",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom means to stop working for the day: call it a what?",
+      "answer": "Day",
+      "aliases": [
+        "a day"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-870687f43543faa2",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom means something is very easy: a piece of what?",
+      "answer": "Cake",
+      "aliases": [
+        "cake"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4afe54580cc42728",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom means to make a small problem worse: add fuel to the what?",
+      "answer": "Fire",
+      "aliases": [
+        "the fire"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-d4ae9a658ce25c24",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom means to pursue the wrong course: bark up the wrong what?",
+      "answer": "Tree",
+      "aliases": [
+        "tree"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-027d791e649a0004",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word means deliberately ambiguous or evasive, especially in language.",
+      "answer": "Equivocal",
+      "aliases": [
+        "equivocal"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-e4cb99081525a919",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "crossword_clue",
+      "constraint_text": "S",
+      "clue": "Opposite of north.",
+      "answer": "South",
+      "aliases": [
+        "south"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "crossword"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-cfe1e22d817ff698",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword_clue",
+      "constraint_text": "R",
+      "clue": "Opposite of left.",
+      "answer": "Right",
+      "aliases": [
+        "right"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "crossword"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-5c49b9c50335b33c",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "starts_with",
+      "constraint_text": "starts with \"TR\"",
+      "clue": "This word means a three-sided polygon.",
+      "answer": "Triangle",
+      "aliases": [
+        "triangle"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "starts-with"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-455789009f49a676",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "starts_with",
+      "constraint_text": "starts with \"OB\"",
+      "clue": "This adjective means stubbornly refusing to change an opinion.",
+      "answer": "Obstinate",
+      "aliases": [
+        "obstinate"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "starts-with"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-37e847bf073e2b01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "ends_with",
+      "constraint_text": "ends with \"TION\"",
+      "clue": "This word means the act of explaining or translating meaning.",
+      "answer": "Interpretation",
+      "aliases": [
+        "interpretation"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "ends-with"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-977b535e14681a38",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "contains",
+      "constraint_text": "contains \"PHOR\"",
+      "clue": "This figure of speech describes one thing as another.",
+      "answer": "Metaphor",
+      "aliases": [
+        "metaphor"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "contains"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-7421238ae1c05e23",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a false name comes from Greek roots meaning false name.",
+      "answer": "Pseudonym",
+      "aliases": [
+        "pseudonym"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c78d203593aebcdf",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a word’s origin comes from Greek roots meaning true sense.",
+      "answer": "Etymology",
+      "aliases": [
+        "etymology"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-8d5af0acc20c7bbb",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “altar” means to change.",
+      "answer": "Alter",
+      "aliases": [
+        "alter"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-1aefd099fe6d8832",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “cereal” means arranged in a series.",
+      "answer": "Serial",
+      "aliases": [
+        "serial"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-9fddf1d4ca8f2f6d",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of THE EYES",
+      "clue": "Rearrange THE EYES into a phrase meaning “they observe.”",
+      "answer": "They see",
+      "aliases": [
+        "they see"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-52936b6c0cfd9776",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of ELEVEN PLUS TWO",
+      "clue": "Rearrange ELEVEN PLUS TWO into an equivalent number phrase.",
+      "answer": "Twelve plus one",
+      "aliases": [
+        "twelve plus one"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-fac49c52d85965c3",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "First U.S. president + Irving Berlin song about the holidays.",
+      "answer": "George Washington Christmas",
+      "aliases": [
+        "George Washington Christmas"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-6c3a3ddba560f155",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": null,
+      "clue": "This acronym names the international organization founded after World War II to promote peace.",
+      "answer": "UN",
+      "aliases": [
+        "United Nations"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "initials"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-bbe9064272ec2d96",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "initials",
+      "constraint_text": null,
+      "clue": "This acronym names the U.S. agency created in 1958 for space exploration.",
+      "answer": "NASA",
+      "aliases": [
+        "National Aeronautics and Space Administration"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "initials"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-0e4c8444abc2f656",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Latin phrase meaning “seize the day” is associated with Horace.",
+      "answer": "Carpe diem",
+      "aliases": [
+        "carpe diem"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "latin"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-48cb2bcc6d2b0990",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Japanese word describes finding beauty in imperfection and transience.",
+      "answer": "Wabi-sabi",
+      "aliases": [
+        "wabi sabi"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "foreign-words"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-3898cfee4ace2996",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This punctuation mark can indicate omitted letters, as in “don’t.”",
+      "answer": "Apostrophe",
+      "aliases": [
+        "apostrophe"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "grammar"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-8f608c6c2fa48d60",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This rhetorical device repeats initial consonant sounds in nearby words.",
+      "answer": "Alliteration",
+      "aliases": [
+        "alliteration"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "rhetoric"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-f513aef7ad65030b",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhymes & Word Ladders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "A rhyming phrase for a tiny violin.",
+      "answer": "Small fiddle",
+      "aliases": [
+        "small fiddle"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "rhyme-time"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-3f226fe5d0f25e56",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhymes & Word Ladders",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "A rhyming phrase for a sleepy royal ruler.",
+      "answer": "Dozing king",
+      "aliases": [
+        "dozing king"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "rhyme-time"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-269956ad93889d22",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this idiom, delaying action is kicking the can farther down this.",
+      "answer": "Road",
+      "aliases": [
+        "road"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-4ba5fe84ad3ff09e",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom means a final tolerated problem: the last straw that broke the what?",
+      "answer": "Camel’s back",
+      "aliases": [
+        "camel's back",
+        "camel back"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-a21faf488e75b597",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "crossword_clue",
+      "constraint_text": "A",
+      "clue": "One more than none.",
+      "answer": "Any",
+      "aliases": [
+        "any"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "crossword"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-8cc1ddff1fbe8c78",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword_clue",
+      "constraint_text": "E",
+      "clue": "Poet’s before.",
+      "answer": "Ere",
+      "aliases": [
+        "ere"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "crossword"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-5f336b8a410a63a4",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "crossword_clue",
+      "constraint_text": "O",
+      "clue": "Suffix meaning “one who.”",
+      "answer": "Or",
+      "aliases": [
+        "-or",
+        "or"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "crossword"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-3d024d5744c281bc",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "crossword_clue",
+      "constraint_text": "I",
+      "clue": "Self, in psychology.",
+      "answer": "Id",
+      "aliases": [
+        "id"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "crossword"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-551c4c592aec1b63",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "crossword_clue",
+      "constraint_text": "U",
+      "clue": "Letter-shaped valley carved by glaciers.",
+      "answer": "U-shaped valley",
+      "aliases": [
+        "u-shaped valley"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "crossword"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-3c57c6b69e07327b",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "starts_with",
+      "constraint_text": "starts with \"ER\"",
+      "clue": "This hospital department handles acute emergencies.",
+      "answer": "ER",
+      "aliases": [
+        "emergency room"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "starts-with"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-bd323756b98915db",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "contains",
+      "constraint_text": "contains \"LIT\"",
+      "clue": "This quality means being able to read and write.",
+      "answer": "Literacy",
+      "aliases": [
+        "literacy"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "contains"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-518682d2b9e7e6e5",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "ends_with",
+      "constraint_text": "ends with \"ISM\"",
+      "clue": "This word means an exaggerated love of one’s country.",
+      "answer": "Patriotism",
+      "aliases": [
+        "patriotism"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "ends-with"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-111fd524e12f6067",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This month name comes from the Roman god Janus.",
+      "answer": "January",
+      "aliases": [
+        "January"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-f1eb3ca9ac788fab",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of “discreet” means separate or distinct.",
+      "answer": "Discrete",
+      "aliases": [
+        "discrete"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c0be492f8beadb88",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This adjective means using few words, terse, or concise.",
+      "answer": "Laconic",
+      "aliases": [
+        "laconic"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-584a933c60d55ee4",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Classic board game with Mr. Boddy + weather hint that makes you carry an umbrella.",
+      "answer": "Clue forecast",
+      "aliases": [
+        "Clue forecast"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-b07374f6779f683c",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "initials",
+      "constraint_text": null,
+      "clue": "This abbreviation means “manuscript” in publishing and library catalogs.",
+      "answer": "MS",
+      "aliases": [
+        "manuscript"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "initials"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_gap_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "gap-c00a77cd7d1ee30c",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom means to reveal your true intention: show your what?",
+      "answer": "Hand",
+      "aliases": [
+        "your hand"
+      ],
+      "distractors": [],
+      "tags": [
+        "gap-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    }
+  ]
+}

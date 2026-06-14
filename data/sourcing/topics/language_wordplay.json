@@ -1,0 +1,1198 @@
+{
+  "category_id": "language_wordplay",
+  "updated_at": "2026-06-13T21:46:45.925Z",
+  "total_clues_seen": 145,
+  "category_titles": {
+    "TRIPLE RHYME TIME": 5,
+    "5-LETTER WORDS": 5,
+    "THAT WORD IS A MOUTHFUL!": 5,
+    "THAT NAME IS A WORD": 5,
+    "GEOGRAPHIC BEFORE & AFTER": 5,
+    "BRANDS BY LETTER": 5,
+    "13-LETTER WORDS": 5,
+    "2-WORD MAGAZINE TITLES": 5,
+    "10-LETTER WORDS": 5,
+    "THERE'S A WORD FOR THAT": 5,
+    "3-WORD CITIES": 5,
+    "WORD PUZZLES": 5,
+    "TOUGH 10-LETTER WORDS": 5,
+    "12-LETTER WORDS": 5,
+    "2-WORD PALINDROMES": 5,
+    "BEFORE & AFTER": 5,
+    "RHYME TIME": 5,
+    "WORD ORIGINS": 5,
+    "A WORD FROM THE FOUNDING FATHERS": 5,
+    "5-LETTER MEDICAL ISSUES": 5,
+    "THE SAME WORD TWICE": 5,
+    "11-LETTER WORDS": 5,
+    "7-LETTER WORDS": 5,
+    "JUST BEFORE SUNRISE": 5,
+    "IT'S THE ONE-LETTER LAST NAME OF...": 5,
+    "ONE LETTER DIFFERENT": 5,
+    "4-LETTER WORDS": 5,
+    "10-LETTER WORLD CAPITALS": 5,
+    "FIRST DRAFTS OF ONE-WORD BAND NAMES": 5
+  },
+  "answers": {
+    "a plump ump rump": {
+      "display": "a plump ump rump",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Bodacious booty of a baseball adjudicator"
+    },
+    "a scary hairy fairy": {
+      "display": "a scary hairy fairy",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A creature like Tinkerbell whose hirsuteness causes quite the fright"
+    },
+    "a lame frame name": {
+      "display": "a lame frame name",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Uncool moniker for your new painting enclosure"
+    },
+    "erring bering herring (erring herring bering)": {
+      "display": "erring Bering herring (erring herring Bering)",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Mistake-making pickled fish from the sea named for Vitus"
+    },
+    "seize the chinese trees": {
+      "display": "seize the Chinese trees",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "An order to forcefully take the Shanghai maples"
+    },
+    "tarot cards": {
+      "display": "tarot cards",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The Lovers, the Wheel of Fortune & the Knight of Wands are examples of these cards"
+    },
+    "umami": {
+      "display": "umami",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The word for this flavor sometimes called the fifth basic taste comes from Japanese for \"deliciousness\""
+    },
+    "salty": {
+      "display": "salty",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "This adjective can describe your upset friend after you roast them; it also describes the taste of Old Bay seasoning"
+    },
+    "nacre": {
+      "display": "nacre",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "It's a synonym for mother-of-pearl"
+    },
+    "taiga": {
+      "display": "taiga",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "It's a Russian word for a boreal forest with many pine trees"
+    },
+    "a dramatization": {
+      "display": "a dramatization",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It's the specific word for a novel or story adapted for the theater, like Craig Walker's stage version of \"Finnegans Wake\""
+    },
+    "nonconfrontational": {
+      "display": "nonconfrontational",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Because I'm this adjective, I really don't want to argue; I'm pretty sure the word has 5 \"N\"s but if you disagree, I'll walk away"
+    },
+    "mostaccioli": {
+      "display": "mostaccioli",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Penne rigate has ridges; penne lisce is smooth & is also known as this, a real mouthful, especially good with tomato sauce"
+    },
+    "contraindication": {
+      "display": "contraindication",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "6-syllable word for a symptom that tells a doctor not to prescribe a certain drug to a patient"
+    },
+    "a semiquincentennial": {
+      "display": "a semiquincentennial",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "It's the word for a 250th, half of 500th, birthday & for the special coins the U.S. Mint is issuing for our country's"
+    },
+    "a patsy": {
+      "display": "a patsy",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The name of a naive stage character, this diminutive of Patrick came to mean a fall guy or rube (hey, there's another one!)"
+    },
+    "jerry": {
+      "display": "jerry",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "It can precede \"built\" to mean something constructed cheaply & badly"
+    },
+    "brandy": {
+      "display": "Brandy",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "It's a fine girl's name as well as a class of fine distilled beverages like cognac & armagnac"
+    },
+    "a barb": {
+      "display": "a barb",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "A cut-down form of a female name, it can also mean a cutting remark or a cutting part of a fishhook"
+    },
+    "a derrick": {
+      "display": "a derrick",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A hoisting apparatus, or a support tower over a drill hole"
+    },
+    "vatican city of brotherly love": {
+      "display": "Vatican City of Brotherly Love",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Papal realm that's a nickname for Philadelphia"
+    },
+    "the golden gate bridge of sighs": {
+      "display": "the Golden Gate Bridge of Sighs",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Span that links Marin County to San Francisco while also leading to the doge's palace"
+    },
+    "key west end": {
+      "display": "Key West End",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Florida city connected to the mainland by the Overseas Highway that's home to the London Theatre District"
+    },
+    "the bering strait of messina": {
+      "display": "the Bering Strait of Messina",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Waterway that links the Pacific to the Arctic Ocean while separating Sicily from Italy"
+    },
+    "oak park place": {
+      "display": "Oak Park Place",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Suburb of Chicago with many Frank Lloyd Wright homes that's one of the most valuable properties in Monopoly"
+    },
+    "dawn": {
+      "display": "Dawn",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "D: \"The better grease getter\""
+    },
+    "spotify": {
+      "display": "Spotify",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "S: Wrapped is its Year-in-Review feature"
+    },
+    "dirt devil": {
+      "display": "Dirt Devil",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "DD: In 1984 its new hand vac really sucked"
+    },
+    "bose": {
+      "display": "Bose",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "B: Speakers with headquarters in Framingham, Massachusetts"
+    },
+    "the big green egg": {
+      "display": "the Big Green Egg",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "BGE: \"Verdant\" barbecue cookers"
+    },
+    "quadrennially": {
+      "display": "quadrennially",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "An event that occurs every 4 years happens this adverbial way"
+    },
+    "insubordinate": {
+      "display": "insubordinate",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"I\" know if you're disobedient or disrespectful to authority, you're this adjective, soldier!"
+    },
+    "precipitation": {
+      "display": "precipitation",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "It can mean both hastiness & rain, for example"
+    },
+    "pontificating": {
+      "display": "pontificating",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "You're not the pope, so stop doing this, speaking in a pompous or dogmatic manner"
+    },
+    "paterfamilias": {
+      "display": "paterfamilias",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Latin word for the head of a family; in law it follows \"diligens\" to mean a theoretical person who takes proper care"
+    },
+    "sports illustrated": {
+      "display": "Sports Illustrated",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Turns out this mag with cover subjects like Lynn Swann (1976) & Candace Parker (2007) used A.I.-generated articles in 2023"
+    },
+    "good housekeeping": {
+      "display": "Good Housekeeping",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Its Seal of Approval dates back to 1909"
+    },
+    "reader's digest": {
+      "display": "Reader's Digest",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "It now publishes a large-print edition to go along with its familiar 5.5-inch by 7.5-inch version"
+    },
+    "national geographic": {
+      "display": "National Geographic",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Under editor Gilbert Grosvenor, this magazine known for maps & photos reached a circulation of 1 million by 1926"
+    },
+    "harper's bazaar": {
+      "display": "Harper's Bazaar",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This fashion magazine was founded in 1867 with Mary Louise Booth as its editor; the double-A spelling came in 1929"
+    },
+    "birthstone": {
+      "display": "birthstone",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Aquamarine is the one for March; September's is sapphire"
+    },
+    "gesundheit": {
+      "display": "Gesundheit",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This word, German for \"health\", is nothing to sneeze at... or is it?"
+    },
+    "equestrian": {
+      "display": "equestrian",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "This fancy adjective for horse riding describes certain Olympic events"
+    },
+    "apothecary": {
+      "display": "apothecary",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "It's a synonym for pharmacy, or a term for one who prepares & sells medicinal drugs"
+    },
+    "indigenous": {
+      "display": "indigenous",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "If we may go native, this adjective refers to someone born in a specific region"
+    },
+    "penultimate": {
+      "display": "penultimate",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It means next to last in a series"
+    },
+    "blep": {
+      "display": "blep",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Used affectionately, this slangy 4-letter word is when an animal has its tongue hanging partway out"
+    },
+    "a lycanthrope": {
+      "display": "a lycanthrope",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Derived from Greek, it's the technical term for a werewolf"
+    },
+    "gossamer": {
+      "display": "gossamer",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "It can describe a thin, light fabric, or be a film of cobwebs floating in the air"
+    },
+    "akimbo": {
+      "display": "akimbo",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The person seen here has their arms in this position"
+    },
+    "salt lake city": {
+      "display": "Salt Lake City",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This state capital is found between Ogden to the north & Provo to the south"
+    },
+    "rio de janeiro": {
+      "display": "Rio de Janeiro",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Surf's up at Prainha, a gorgeous little beach in this Brazilian city"
+    },
+    "san juan capistrano": {
+      "display": "San Juan Capistrano",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "It 's where Southern California swallows return every March"
+    },
+    "port-au-prince": {
+      "display": "Port-au-Prince",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This Haitian city's National Palace collapsed in 2010 due to a big earthquake"
+    },
+    "dar es salaam": {
+      "display": "Dar es Salaam",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Arabic for \"abode of peace\", it's Tanzania's biggest city"
+    },
+    "unfinished business": {
+      "display": "unfinished business",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "What you might still have with that bully from grade school BUSINES"
+    },
+    "buy low, sell high": {
+      "display": "buy low, sell high",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A good strategy when buying stocks SELL BUY"
+    },
+    "the good, the bad and the ugly": {
+      "display": "The Good, the Bad and the Ugly",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A classic Sergio Leone film SAMARITAN APPLE & DUCKLING"
+    },
+    "bend over backwards": {
+      "display": "bend over backwards",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "To make an extraordinary exertion BEND REVO REVO"
+    },
+    "a foreign language": {
+      "display": "a foreign language",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Good to learn before your next vacation, perhaps SWA4HILI"
+    },
+    "abstinence": {
+      "display": "abstinence",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Early Carmelites vowed austerity & this other \"A\" word referring to refraining from a certain desire"
+    },
+    "decimation": {
+      "display": "decimation",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "In Latin times this noun referred to the punishing of every tenth man; now it refers to any wholesale slaughter"
+    },
+    "johnnycake": {
+      "display": "johnnycake",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "This breakfast food cooked on the griddle begins with a boy's name"
+    },
+    "ruminating": {
+      "display": "ruminating",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "If you're doing this, you're either chewing cud or pondering the world"
+    },
+    "gastrology": {
+      "display": "gastrology",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Add one letter to the practice of divining omens from the stars & you get this, the study of the stomach"
+    },
+    "a kleptomaniac": {
+      "display": "a kleptomaniac",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It's a person with a compulsive urge to cop, crib or boost"
+    },
+    "ambidextrous": {
+      "display": "ambidextrous",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Though he favored his left, James Garfield was this, from words meaning \"right-handed on both sides\""
+    },
+    "instrumental": {
+      "display": "instrumental",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "This word can refer to music played without vocals or, in another sense, anything helpful to a cause"
+    },
+    "pumpernickel": {
+      "display": "pumpernickel",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This dark bread is made with rye flour & can be substituted for rye bread in sandwiches"
+    },
+    "salutatorian": {
+      "display": "salutatorian",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "It's the student with the second-highest ranking in a high school class"
+    },
+    "pot top": {
+      "display": "pot top",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The lid of a cauldron"
+    },
+    "a bun nub": {
+      "display": "a bun nub",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A protuberance on one's bread roll"
+    },
+    "sleek keels": {
+      "display": "sleek keels",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Smooth & glossy boat bottoms"
+    },
+    "trap part": {
+      "display": "trap part",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "A snare component"
+    },
+    "suez zeus": {
+      "display": "Suez Zeus",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A Greek deity visiting a port city in Northern Egypt"
+    },
+    "shaun white elephant": {
+      "display": "Shaun White elephant",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A legendary redheaded snowboarder is given as a gift but sadly becomes an expensive inconvenience"
+    },
+    "covalent bond, james bond": {
+      "display": "covalent Bond, James Bond",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The sharing of an electron pair between 2 atoms becomes even more unique when agent 007 gives his clichéd introduction"
+    },
+    "latin quarter pounder": {
+      "display": "Latin Quarter Pounder",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Paris district that's home to the St. Michel Fountain & doubles as a beefy burger at McDonald's"
+    },
+    "relationship status quo": {
+      "display": "relationship status quo",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "An indication on Facebook of whether you're taken, followed by a Latin phrase for \"the way things are\""
+    },
+    "public defender of the faith": {
+      "display": "public Defender of the Faith",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A lawyer who represents those who can't pay on their own & the title given by Pope Leo X to the British sovereign"
+    },
+    "piles of tiles": {
+      "display": "piles of tiles",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A stack of Scrabble letters"
+    },
+    "a clam tam": {
+      "display": "a clam tam",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A woolen cap for a bivalve"
+    },
+    "waste paste": {
+      "display": "waste paste",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "To use far more glue than is necessary"
+    },
+    "ponder yonder": {
+      "display": "ponder yonder",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "To really think about what's over there, thataway"
+    },
+    "anchor rancor": {
+      "display": "anchor rancor",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Deep-seated ill will among news broadcasters"
+    },
+    "a revolver": {
+      "display": "a revolver",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The guns made by Samuel Colt acquired this name from the way the cylinder turned"
+    },
+    "a portuguese man o' war": {
+      "display": "a Portuguese man o' war",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This jellyfish relative is named for its resemblance to an old combat ship with sails"
+    },
+    "escalate": {
+      "display": "escalate",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "This 8-letter verb meaning to increase was created after the invention of a moving staircase"
+    },
+    "pedigree": {
+      "display": "pedigree",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This word comes from French genealogical charts -- the branching lines looked like the pied or foot of a bird"
+    },
+    "foosball": {
+      "display": "Foosball",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The name of this game is basically a German word minus Tisch, or \"table\""
+    },
+    "wolves": {
+      "display": "wolves",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Thomas Jefferson: A monarchy \"is a government of\" these \"over sheep\""
+    },
+    "the constitution": {
+      "display": "the Constitution",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "John Adams: \"Avarice, ambition, revenge... would break the strongest cords of\" this document \"as a whale goes through a net\""
+    },
+    "a debt": {
+      "display": "a debt",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Alexander Hamilton, who knew about handling money: \"A national\" this, \"if it is not excessive will be to us a national blessing\""
+    },
+    "the federalist papers": {
+      "display": "the Federalist Papers",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "James Madison, in No. 47 of these papers: Tyranny is \"legislative, executive, and judiciary, in the same hands\""
+    },
+    "george mason": {
+      "display": "George Mason",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This man for whom a Fairfax, Virginia university is named said the slave trade was \"disgraceful to mankind\""
+    },
+    "fever": {
+      "display": "fever",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Coloring your world in a not-so-great way, it follows scarlet & yellow"
+    },
+    "hives": {
+      "display": "hives",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Bee aware this skin reaction is also called urticaria"
+    },
+    "ebola": {
+      "display": "Ebola",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Claiming 11,000 lives before containment, the worst-ever outbreak of this virus plagued West Africa from 2014 to 2016"
+    },
+    "lupus": {
+      "display": "lupus",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Guess what, TV's \"House\"? It is in fact this auto-immune disorder; the discoid type affects only the skin, not organs"
+    },
+    "croup": {
+      "display": "croup",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The HIB vaccine is highly effective vs. bacterial this acute respiratory illness, which tends to strike kids 7 or younger"
+    },
+    "a fair fair": {
+      "display": "a fair fair",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "An exposition of average quality"
+    },
+    "a stock stock": {
+      "display": "a stock stock",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A supply of broth kept on hand"
+    },
+    "a count count": {
+      "display": "a count count",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A tally of European noblemen"
+    },
+    "to squash squash": {
+      "display": "to squash squash",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "To flatten a gourd"
+    },
+    "the kind kind": {
+      "display": "the kind kind",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The warm-hearted type"
+    },
+    "a conjunction": {
+      "display": "a conjunction",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In a \"Schoolhouse Rock!\" song, this part of speech is \"hookin' up words & phrases & clauses\""
+    },
+    "the magnificent": {
+      "display": "the Magnificent",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This impressive epithet graced a cinematic septet & an Ottoman Suleyman"
+    },
+    "dysfunction": {
+      "display": "dysfunction",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Some late-night TV ads mention items delivered \"discreetly\" & this word, erected from words meaning \"bad\" & \"performance\""
+    },
+    "a barnstormer": {
+      "display": "a barnstormer",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Showcasing aviation excitement, it's someone traveling from place to place flying & performing aerial stunts"
+    },
+    "imagination": {
+      "display": "imagination",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Albert Einstein once said this creative ability \"is more important than knowledge\""
+    },
+    "an attaché": {
+      "display": "an attaché",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A specialized officer with an embassy may be a liaison or this; you can be a military one or perhaps an agricultural one"
+    },
+    "a hammock": {
+      "display": "a hammock",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Quilted & rope are types of this backyard swinger"
+    },
+    "a phalanx": {
+      "display": "a phalanx",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "\"X\" marks the last letter of this ancient Macedonian tactical formation"
+    },
+    "an acolyte": {
+      "display": "an acolyte",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "It can refer to a person assisting a priest celebrating mass, or to a devoted follower"
+    },
+    "a brazier": {
+      "display": "a brazier",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "From French, it's a portable heater on a stand with a pan for holding hot coals"
+    },
+    "sultan": {
+      "display": "Sultan",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Around 1000 A.D. Mahmud of Ghazna was the 1st Muslim ruler to be called this title; this \"of Swat\" was a much different guy"
+    },
+    "a succubus": {
+      "display": "a succubus",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Time to throw you (figuratively!) under this female type of promiscuous demon"
+    },
+    "sugarcoat": {
+      "display": "sugarcoat",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Give it to me straight -- don't do this 9-letter verb that means to try to sweeten an unpleasant situation"
+    },
+    "suet": {
+      "display": "suet",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "It's the solid white fat around sheep's kidneys"
+    },
+    "subclavicular (subclavian)": {
+      "display": "subclavicular (subclavian)",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This adjective means beneath the collarbone"
+    },
+    "x": {
+      "display": "X",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The man who founded Boston Temple No. 11 in the 1950s before moving to No. 7 in Harlem"
+    },
+    "g": {
+      "display": "G",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The musician who somehow took a jazz album to No. 2 on both the Billboard 200 and R&B/Hip-Hop charts"
+    },
+    "o": {
+      "display": "O",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The historic figure in the N.Y. Post headline that reported her \"childhood home asks $44M at 740 Park Ave\" in 2014"
+    },
+    "w": {
+      "display": "W",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The co-founder of a self-help group whose wife Lois co-founded Al-Anon"
+    },
+    "k": {
+      "display": "K",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The 1925 literary character who \"was informed by telephone that there would be a small hearing concerning his case\""
+    },
+    "worm & warm": {
+      "display": "worm & warm",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A certain invertebrate & tepid"
+    },
+    "baron & bacon": {
+      "display": "baron & bacon",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The lowest rank of nobility & a delicious breakfast meat"
+    },
+    "encourage & entourage": {
+      "display": "encourage & entourage",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "To inspire & your retinue, maybe including Turtle & Johnny Drama"
+    },
+    "the doge & the loge": {
+      "display": "the doge & the loge",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Old title for a Venetian official & seating section in an opera house"
+    },
+    "a miser & a miter": {
+      "display": "a miser & a miter",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A stingy sort & a tall hat for a bishop"
+    },
+    "aide": {
+      "display": "aide",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "You can get this word meaning helper by adding an \"E\" to a verb meaning help"
+    },
+    "gird": {
+      "display": "gird",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "To prepare oneself for action, loins & all"
+    },
+    "lede": {
+      "display": "lede",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The spelling of this word for part of a news article was meant to prevent confusion with one of its homophones"
+    },
+    "twee": {
+      "display": "twee",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This mainly British word once meant adorably dainty but now signifies overly precious & cute"
+    },
+    "mete": {
+      "display": "mete",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This word means to dole something out in portions, like, say, sausages or turkey legs"
+    },
+    "copenhagen": {
+      "display": "Copenhagen",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This city is located on the islands of Zealand & Amager just west of Malmö, Sweden"
+    },
+    "wellington": {
+      "display": "Wellington",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Mount Victoria rises over 600 feet above this capital at the southern end of North Island"
+    },
+    "montevideo": {
+      "display": "Montevideo",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A port city on the Rio de la Plata, it's the southernmost capital in South America"
+    },
+    "addis ababa": {
+      "display": "Addis Ababa",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Empress Taitu, the wife of Menelik II, had a house built at the site that would become this world capital"
+    },
+    "bratislava": {
+      "display": "Bratislava",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Rick Steves says this Danube city was a \"damaged husk\" under communism; it revived since 1993 & becoming the capital of its own country"
+    },
+    "heart": {
+      "display": "Heart",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In the Rock & Roll Hall of Fame: Center; Ticker"
+    },
+    "train": {
+      "display": "Train",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Pat Monahan sings: Metro; Amtrak"
+    },
+    "blur": {
+      "display": "Blur",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Synonymous with Britpop: Smudge; Fuzziness"
+    },
+    "wham!": {
+      "display": "Wham!",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Formed in 1981 by schoolmates: Thud!; Smack!"
+    },
+    "evanescence": {
+      "display": "Evanescence",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Their albums include \"Fallen\": Impermanence; Ephemerality"
+    }
+  }
+}

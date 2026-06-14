@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "source": "opentdb",
+  "source_url": "https://opentdb.com",
+  "license": "CC BY-SA 4.0",
+  "difficulty": {
+    "easy": { "value": 200, "difficulty_rank": 1 },
+    "medium": { "value": 400, "difficulty_rank": 2 },
+    "hard": { "value": 800, "difficulty_rank": 4 }
+  },
+  "categories": {
+    "General Knowledge": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "tags": ["general-knowledge"]
+    },
+    "Entertainment: Books": {
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "tags": ["books"]
+    },
+    "Entertainment: Film": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "tags": ["film"]
+    },
+    "Entertainment: Music": {
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "tags": ["music"]
+    },
+    "Entertainment: Musicals & Theatres": {
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "tags": ["musicals", "theater"]
+    },
+    "Entertainment: Television": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "tags": ["television"]
+    },
+    "Entertainment: Video Games": {
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "tags": ["video-games"]
+    },
+    "Entertainment: Board Games": {
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "tags": ["board-games"]
+    },
+    "Science & Nature": {
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "tags": ["science", "nature"]
+    },
+    "Science: Computers": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "tags": ["computers", "technology"]
+    },
+    "Science: Mathematics": {
+      "category_id": "science",
+      "subcategory_name": "Units, Laws & Constants",
+      "tags": ["mathematics"]
+    },
+    "Mythology": {
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "tags": ["mythology"]
+    },
+    "Sports": {
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "tags": ["sports"]
+    },
+    "Geography": {
+      "category_id": "geography",
+      "subcategory_name": "World Regions",
+      "tags": ["geography"]
+    },
+    "History": {
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "tags": ["history"]
+    },
+    "Politics": {
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "tags": ["politics"]
+    },
+    "Art": {
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "tags": ["art"]
+    },
+    "Celebrities": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "tags": ["celebrities"]
+    },
+    "Animals": {
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "tags": ["animals"]
+    },
+    "Vehicles": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "tags": ["vehicles"]
+    },
+    "Entertainment: Comics": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "tags": ["comics"]
+    },
+    "Science: Gadgets": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "tags": ["gadgets"]
+    },
+    "Entertainment: Japanese Anime & Manga": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "tags": ["anime", "manga"]
+    },
+    "Entertainment: Cartoon & Animations": {
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "tags": ["animation"]
+    }
+  }
+}

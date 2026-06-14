@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-05-31T03:26:20.511Z",
+  "target_per_main_category": 100,
+  "dry_run": false,
+  "calls": 21,
+  "counts": {
+    "geography": 100,
+    "literature_books": 100,
+    "history": 100,
+    "science": 100,
+    "arts_visual_culture": 51,
+    "music_performing_arts": 100,
+    "religion_mythology_philosophy": 51,
+    "language_wordplay": 1,
+    "sports_games_leisure": 100,
+    "pop_culture_media_modern_life": 116
+  },
+  "exhausted_provider_ids": [
+    13,
+    25,
+    20,
+    24
+  ],
+  "call_log": [
+    {
+      "category_id": "religion_mythology_philosophy",
+      "provider": "Mythology",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "arts_visual_culture",
+      "provider": "Art",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "literature_books",
+      "provider": "Entertainment: Books",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "history",
+      "provider": "Politics",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "geography",
+      "provider": "Geography",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "music_performing_arts",
+      "provider": "Entertainment: Musicals & Theatres",
+      "requested": 50,
+      "response_code": 4,
+      "received": 0
+    },
+    {
+      "category_id": "music_performing_arts",
+      "provider": "Entertainment: Music",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "science",
+      "provider": "Animals",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "sports_games_leisure",
+      "provider": "Entertainment: Board Games",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "pop_culture_media_modern_life",
+      "provider": "General Knowledge",
+      "requested": 50,
+      "response_code": 0,
+      "received": 50
+    },
+    {
+      "category_id": "arts_visual_culture",
+      "provider": "Art",
+      "requested": 49,
+      "response_code": 4,
+      "received": 0
+    },
+    {
+      "category_id": "religion_mythology_philosophy",
+      "provider": "Mythology",
+      "requested": 49,
+      "response_code": 4,
+      "received": 0
+    },
+    {
+      "category_id": "literature_books",
+      "provider": "Entertainment: Books",
+      "requested": 47,
+      "response_code": 0,
+      "received": 47
+    },
+    {
+      "category_id": "history",
+      "provider": "Politics",
+      "requested": 47,
+      "response_code": 4,
+      "received": 0
+    },
+    {
+      "category_id": "history",
+      "provider": "History",
+      "requested": 47,
+      "response_code": 0,
+      "received": 47
+    },
+    {
+      "category_id": "geography",
+      "provider": "Geography",
+      "requested": 45,
+      "response_code": 0,
+      "received": 45
+    },
+    {
+      "category_id": "music_performing_arts",
+      "provider": "Entertainment: Music",
+      "requested": 45,
+      "response_code": 0,
+      "received": 45
+    },
+    {
+      "category_id": "science",
+      "provider": "Science: Computers",
+      "requested": 44,
+      "response_code": 0,
+      "received": 44
+    },
+    {
+      "category_id": "science",
+      "provider": "Science: Mathematics",
+      "requested": 44,
+      "response_code": 0,
+      "received": 44
+    },
+    {
+      "category_id": "sports_games_leisure",
+      "provider": "Entertainment: Video Games",
+      "requested": 37,
+      "response_code": 0,
+      "received": 37
+    },
+    {
+      "category_id": "literature_books",
+      "provider": "Entertainment: Books",
+      "requested": 1,
+      "response_code": 0,
+      "received": 1
+    }
+  ]
+}

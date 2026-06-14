@@ -1,0 +1,4476 @@
+{
+  "generated_at": "2026-06-01T17:20:34.673Z",
+  "provider": "original_strategy_pack",
+  "notes": [
+    "Original balanced 200-question pack created after J! Archive difficulty calibration.",
+    "Designed to exercise the shared intake quality, feedback, and difficulty rules."
+  ],
+  "questions": [
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-001-bd1251b670",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This author sent Alice down a rabbit hole and through a looking-glass.",
+      "answer": "Lewis Carroll",
+      "aliases": [
+        "Charles Dodgson",
+        "Carroll"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "authors"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-002-60bd76ebd1",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This novelist wrote Beloved and Song of Solomon and won the Nobel Prize in Literature.",
+      "answer": "Toni Morrison",
+      "aliases": [
+        "Morrison"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "authors"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-003-415fb0ebd2",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Chilean author wrote The House of the Spirits and is the niece of a former president.",
+      "answer": "Isabel Allende",
+      "aliases": [
+        "Allende"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "authors"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-004-e8e2a18ae8",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Nigerian novelist wrote Things Fall Apart about Okonkwo and colonial disruption.",
+      "answer": "Chinua Achebe",
+      "aliases": [
+        "Achebe"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "authors"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-005-a1be6f2218",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Austen novel follows Elizabeth Bennet and Mr. Darcy through misunderstandings and proposals.",
+      "answer": "Pride and Prejudice",
+      "aliases": [
+        "Pride & Prejudice"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "19th-century"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-006-1d54962c23",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hugo novel centers on Jean Valjean after his release from prison.",
+      "answer": "Les Miserables",
+      "aliases": [
+        "Les Misérables",
+        "Les Mis"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "19th-century"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-007-6ef1c6209f",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Shakespeare play strands Prospero and Miranda on an island with Ariel and Caliban.",
+      "answer": "The Tempest",
+      "aliases": [
+        "Tempest"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "shakespeare"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-008-30d81b4443",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Sophocles tragedy features a king who seeks a plague's cause and discovers himself.",
+      "answer": "Oedipus Rex",
+      "aliases": [
+        "Oedipus the King"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "drama"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-009-4464aac56f",
+      "category_id": "literature_books",
+      "subcategory_name": "Poetry",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This poet addressed a Grecian urn and a nightingale in famous odes.",
+      "answer": "John Keats",
+      "aliases": [
+        "Keats"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "poetry"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-010-4966c4d309",
+      "category_id": "literature_books",
+      "subcategory_name": "Poetry",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This medieval English poet framed stories as a pilgrimage to Canterbury.",
+      "answer": "Geoffrey Chaucer",
+      "aliases": [
+        "Chaucer"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "poetry"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-011-91604fa3be",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This book by E. B. White features a spider who writes words in a web for a pig.",
+      "answer": "Charlotte's Web",
+      "aliases": [
+        "Charlottes Web"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "childrens"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-012-4a04c1bba1",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Philip Pullman novel begins His Dark Materials with Lyra Belacqua and her daemon.",
+      "answer": "The Golden Compass",
+      "aliases": [
+        "Northern Lights"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "young-adult"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-013-14075f9f55",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Salinger novel follows Holden Caulfield after he leaves Pencey Prep.",
+      "answer": "The Catcher in the Rye",
+      "aliases": [
+        "Catcher in the Rye"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "american-literature"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-014-bdb4ef9b47",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Steinbeck novel follows the Joad family from Oklahoma toward California.",
+      "answer": "The Grapes of Wrath",
+      "aliases": [
+        "Grapes of Wrath"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "american-literature"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-015-0223b82e5c",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Virginia Woolf novel follows Clarissa through a London day as she prepares for a party.",
+      "answer": "Mrs. Dalloway",
+      "aliases": [
+        "Mrs Dalloway"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "british-literature"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-016-76ab6dd3e5",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Argentine author wrote Labyrinths and stories about mirrors, libraries, and infinite books.",
+      "answer": "Jorge Luis Borges",
+      "aliases": [
+        "Borges"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "world-literature"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-017-71c3f020d9",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This orphan from Kansas travels with a scarecrow, tin man, and lion.",
+      "answer": "Dorothy Gale",
+      "aliases": [
+        "Dorothy"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "characters"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-018-4bb8379956",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Cervantes sidekick rides a donkey and serves a deluded knight.",
+      "answer": "Sancho Panza",
+      "aliases": [
+        "Sancho"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "characters"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-019-72a24a3100",
+      "category_id": "literature_books",
+      "subcategory_name": "Awards, Movements & Terms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This literary movement used interior monologue and fractured chronology in writers like Joyce and Woolf.",
+      "answer": "Modernism",
+      "aliases": [
+        "literary modernism"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "literary-terms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-020-7797124415",
+      "category_id": "literature_books",
+      "subcategory_name": "Awards, Movements & Terms",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This annual British prize for fiction was first awarded in 1969 and went to P. H. Newby.",
+      "answer": "Booker Prize",
+      "aliases": [
+        "Man Booker Prize"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "awards"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-021-2bf3dd1523",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This president purchased Louisiana from France while Meriwether Lewis was his secretary.",
+      "answer": "Thomas Jefferson",
+      "aliases": [
+        "Jefferson"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "presidents"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-022-2728cb9b50",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This president took office after Lincoln's assassination and later faced impeachment.",
+      "answer": "Andrew Johnson",
+      "aliases": [
+        "Johnson"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "presidents"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-023-b82e959a99",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1876 contest ended Reconstruction through a disputed compromise after the vote.",
+      "answer": "Election of 1876",
+      "aliases": [
+        "1876 election"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "elections"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-024-9e9814e66b",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This president's administration negotiated the Gadsden Purchase from Mexico.",
+      "answer": "Franklin Pierce",
+      "aliases": [
+        "Pierce"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "presidents"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-025-9310789e7b",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1862 act granted western settlers 160 acres after residence and improvement.",
+      "answer": "Homestead Act",
+      "aliases": [
+        "the Homestead Act"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "us-history"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-026-5f84aaf3ef",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1919 constitutional change banned the manufacture and sale of alcoholic beverages.",
+      "answer": "Eighteenth Amendment",
+      "aliases": [
+        "18th Amendment"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "us-history"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-027-f3ace4c54d",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Harding-era affair involved naval oil reserves in Wyoming and California.",
+      "answer": "Teapot Dome scandal",
+      "aliases": [
+        "Teapot Dome"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "us-history"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-028-c218b653e3",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Macedonian king created an empire stretching from Greece to Egypt and India.",
+      "answer": "Alexander the Great",
+      "aliases": [
+        "Alexander III"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "ancient"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-029-d78ca3847f",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Roman emperor made Christianity legal with the Edict of Milan.",
+      "answer": "Constantine",
+      "aliases": [
+        "Constantine the Great"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "ancient"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-030-1af730604d",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This plague devastated Europe in the mid-14th century.",
+      "answer": "Black Death",
+      "aliases": [
+        "the Black Death"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "medieval"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-031-163fc8693e",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1453 event ended the Byzantine Empire after an Ottoman siege.",
+      "answer": "Fall of Constantinople",
+      "aliases": [
+        "capture of Constantinople"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "medieval"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-032-552d2fe6ba",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1648 settlement helped end the Thirty Years' War and reshaped European sovereignty.",
+      "answer": "Peace of Westphalia",
+      "aliases": [
+        "Treaty of Westphalia"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "europe"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-033-4ba320406c",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Prussian minister engineered German unification through blood and iron.",
+      "answer": "Otto von Bismarck",
+      "aliases": [
+        "Bismarck"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "europe"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-034-45aa222f10",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This U.S. naval base was attacked on December 7, 1941.",
+      "answer": "Pearl Harbor",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "world-wars"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-035-de3511082e",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German plan for a two-front war called for a rapid attack through Belgium.",
+      "answer": "Schlieffen Plan",
+      "aliases": [
+        "the Schlieffen Plan"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "world-wars"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-036-d32c276d56",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This prison's fall is celebrated as a French national holiday on July 14.",
+      "answer": "Bastille",
+      "aliases": [
+        "the Bastille"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "revolutions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-037-1b7a5de051",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Indian dynasty built the Taj Mahal and ruled from the 16th to 19th centuries.",
+      "answer": "Mughal Empire",
+      "aliases": [
+        "Mughals"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "empires"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-038-9ed31ca8e2",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Haitian revolutionary led forces against France before dying in captivity in 1803.",
+      "answer": "Toussaint Louverture",
+      "aliases": [
+        "Louverture"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "figures"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-039-5cdfbd5120",
+      "category_id": "history",
+      "subcategory_name": "Dates, Documents & Treaties",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1215 charter is often cited as a foundation for limits on royal power.",
+      "answer": "Magna Carta",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "documents"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-040-7ef82f6620",
+      "category_id": "history",
+      "subcategory_name": "Dates, Documents & Treaties",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1949 alliance was founded for collective defense across the North Atlantic.",
+      "answer": "NATO",
+      "aliases": [
+        "North Atlantic Treaty Organization"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "treaties"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-041-e64dd85812",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This capital of Greece lies near the Acropolis.",
+      "answer": "Athens",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "capitals"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-042-da4e84565d",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This capital of Egypt sits on the Nile near Giza.",
+      "answer": "Cairo",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "capitals"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-043-8f260f5d2b",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This capital of Peru was founded by Francisco Pizarro and is nicknamed the City of Kings.",
+      "answer": "Lima",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "capitals"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-044-e326d95308",
+      "category_id": "geography",
+      "subcategory_name": "World Capitals",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This capital of Ghana lies on the Gulf of Guinea.",
+      "answer": "Accra",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "capitals"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-045-dcf9f8e73b",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This republic shares an island with the U.K. territory that includes Belfast.",
+      "answer": "Ireland",
+      "aliases": [
+        "Republic of Ireland"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "borders"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-046-20c4c347be",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This country borders Germany, Austria, Slovakia, and Poland and has Prague as capital.",
+      "answer": "Czech Republic",
+      "aliases": [
+        "Czechia"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "borders"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-047-9d0c684239",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This landlocked African country is surrounded by Senegal except for a short Atlantic coast.",
+      "answer": "The Gambia",
+      "aliases": [
+        "Gambia"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "borders"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-048-575b229540",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This state capital sits on the James River and was also the Confederate capital.",
+      "answer": "Richmond",
+      "aliases": [
+        "Richmond, Virginia"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "us-cities"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-049-db968ae448",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This state contains Mount Katahdin and the easternmost point in the contiguous U.S.",
+      "answer": "Maine",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "us-states"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-050-ae86987299",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This river runs through London before reaching the North Sea.",
+      "answer": "Thames",
+      "aliases": [
+        "River Thames"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "rivers"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-051-4106e8459d",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This South American river system includes the Parana and Uruguay rivers.",
+      "answer": "Rio de la Plata",
+      "aliases": [
+        "Río de la Plata"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "rivers"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-052-870487e6a8",
+      "category_id": "geography",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Central Asian sea has shrunk dramatically after river diversions for irrigation.",
+      "answer": "Aral Sea",
+      "aliases": [
+        "the Aral Sea"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "seas"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-053-e1de5a4310",
+      "category_id": "geography",
+      "subcategory_name": "Mountains & Deserts",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This North African mountain range runs through Morocco, Algeria, and Tunisia.",
+      "answer": "Atlas Mountains",
+      "aliases": [
+        "Atlas"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "mountains"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-054-c35943ec87",
+      "category_id": "geography",
+      "subcategory_name": "Mountains & Deserts",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Chilean region is among the driest places on Earth.",
+      "answer": "Atacama Desert",
+      "aliases": [
+        "Atacama"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "deserts"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-055-df927745b9",
+      "category_id": "geography",
+      "subcategory_name": "Islands & Archipelagos",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This New York City borough is connected to Brooklyn by the Verrazzano-Narrows Bridge.",
+      "answer": "Staten Island",
+      "aliases": [
+        "Richmond County"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "islands"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-056-69cf570d3d",
+      "category_id": "geography",
+      "subcategory_name": "World Regions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This region of France is known for sparkling wine made around Reims and Epernay.",
+      "answer": "Champagne",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "regions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-057-e05ab3385b",
+      "category_id": "geography",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This white marble mausoleum in Agra was built by Shah Jahan.",
+      "answer": "Taj Mahal",
+      "aliases": [
+        "the Taj Mahal"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "landmarks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-058-c19b4b953d",
+      "category_id": "geography",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient Nabataean city in Jordan includes a rock-cut facade called Al-Khazneh.",
+      "answer": "Petra",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "landmarks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-059-91aff141a4",
+      "category_id": "geography",
+      "subcategory_name": "Demonyms & Languages",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Celtic language is spoken in Wales and uses double-L sounds in many place names.",
+      "answer": "Welsh",
+      "aliases": [
+        "Cymraeg"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "languages"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-060-b3e80e4730",
+      "category_id": "geography",
+      "subcategory_name": "Maps, Coordinates & Extremes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This imaginary line at zero degrees longitude passes through Greenwich.",
+      "answer": "Prime meridian",
+      "aliases": [
+        "Greenwich meridian"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "maps"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-061-4ff28e15c5",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This process copies DNA into RNA before translation can make a protein.",
+      "answer": "Transcription",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "biology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-062-11a3e7c119",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This organelle contains chlorophyll and performs photosynthesis in plant cells.",
+      "answer": "Chloroplast",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "biology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-063-c21a5bea41",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This enzyme unzips DNA during replication by breaking hydrogen bonds.",
+      "answer": "Helicase",
+      "aliases": [
+        "DNA helicase"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "biology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-064-4f0588aac6",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This element with symbol Na is a soft metal that reacts strongly with water.",
+      "answer": "Sodium",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "chemistry"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-065-3b83c2d384",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This gas exhaled by humans is produced by respiration and combustion.",
+      "answer": "Carbon dioxide",
+      "aliases": [
+        "CO2"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "chemistry"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-066-6bcb49ac44",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This chemical process transfers electrons between species and includes oxidation.",
+      "answer": "Redox reaction",
+      "aliases": [
+        "oxidation-reduction reaction"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "chemistry"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-067-ae2853a430",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named for James Prescott, this SI unit measures energy.",
+      "answer": "Joule",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "physics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-068-e361d84b45",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This law says pressure and volume of a gas vary inversely at constant temperature.",
+      "answer": "Boyle's law",
+      "aliases": [
+        "Boyle law"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "physics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-069-f635379e7f",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This observed shift changes wavelength when a source moves toward or away from an observer.",
+      "answer": "Doppler effect",
+      "aliases": [
+        "Doppler shift"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "physics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-070-cfdf1724a5",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This planet has the Great Red Spot and the largest mass in the Solar System.",
+      "answer": "Jupiter",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "space"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-071-6bc1060470",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This moon of Jupiter has a subsurface ocean and an icy crust.",
+      "answer": "Europa",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "space"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-072-ea8fac6003",
+      "category_id": "science",
+      "subcategory_name": "Earth Science",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This boundary marks where two tectonic plates slide past each other horizontally.",
+      "answer": "Transform fault",
+      "aliases": [
+        "transform boundary"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "earth-science"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-073-a74afed79e",
+      "category_id": "science",
+      "subcategory_name": "Earth Science",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This scale measures tornado intensity from EF0 to EF5.",
+      "answer": "Enhanced Fujita scale",
+      "aliases": [
+        "EF scale"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "earth-science"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-074-a33fbe825a",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This blood protein carries oxygen with the help of iron.",
+      "answer": "Hemoglobin",
+      "aliases": [
+        "haemoglobin"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "anatomy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-075-d61c0a9543",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This pair of bean-shaped organs filters blood and produces urine.",
+      "answer": "Kidneys",
+      "aliases": [
+        "kidney"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "anatomy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-076-81dffacea7",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This marine mammal uses echolocation and includes orcas among its largest members.",
+      "answer": "Dolphin",
+      "aliases": [
+        "dolphins"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "animals"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-077-b8baf5ca02",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This scientist's 1928 observation of mold killing bacteria led to penicillin.",
+      "answer": "Alexander Fleming",
+      "aliases": [
+        "Fleming"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "discoveries"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-078-b04e0dbf76",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This primatologist studied chimpanzees at Gombe Stream in Tanzania.",
+      "answer": "Jane Goodall",
+      "aliases": [
+        "Goodall"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "scientists"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-079-2ce61fa2cb",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This mathematician and physicist wrote A Brief History of Time while studying black holes.",
+      "answer": "Stephen Hawking",
+      "aliases": [
+        "Hawking"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "scientists"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-080-930c05c48f",
+      "category_id": "science",
+      "subcategory_name": "Units, Laws & Constants",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This quantity relates photon energy to frequency in quantum physics.",
+      "answer": "Planck's constant",
+      "aliases": [
+        "Planck constant"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "constants"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-081-921b80ad93",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Mexican artist painted many self-portraits with symbolic animals and plants.",
+      "answer": "Frida Kahlo",
+      "aliases": [
+        "Kahlo"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "painters"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-082-9edbd2711f",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French sculptor created The Thinker as part of a larger Gates of Hell project.",
+      "answer": "Auguste Rodin",
+      "aliases": [
+        "Rodin"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "sculpture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-083-72ae250ef9",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American painter used drip techniques in works like Autumn Rhythm.",
+      "answer": "Jackson Pollock",
+      "aliases": [
+        "Pollock"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "painters"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-084-0acd80e489",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This painting by Edvard Munch shows a figure under a swirling orange sky.",
+      "answer": "The Scream",
+      "aliases": [
+        "Scream"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "artworks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-085-887d22654a",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Picasso mural responded to the bombing of a Basque town during the Spanish Civil War.",
+      "answer": "Guernica",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "artworks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-086-1b1cb2ae14",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Diego Velazquez painting shows the Infanta Margarita surrounded by attendants.",
+      "answer": "Las Meninas",
+      "aliases": [
+        "The Maids of Honour"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "artworks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-087-6e67e02e2c",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This movement by Picasso and Braque broke subjects into geometric planes.",
+      "answer": "Cubism",
+      "aliases": [
+        "Cubist movement"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-088-24322e9240",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This movement associated with Marcel Duchamp embraced absurdity after World War I.",
+      "answer": "Dada",
+      "aliases": [
+        "Dadaism"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "movements"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-089-20d96be8ab",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Roman building with a giant dome includes an oculus open to the sky.",
+      "answer": "Pantheon",
+      "aliases": [
+        "the Pantheon"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "architecture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-090-59d16f8461",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This architect designed the glass pyramid outside the Louvre.",
+      "answer": "I. M. Pei",
+      "aliases": [
+        "Ieoh Ming Pei"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "architecture"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-091-bf9aab4398",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Smithsonian institution houses the Hope Diamond and many fossil displays.",
+      "answer": "National Museum of Natural History",
+      "aliases": [
+        "Smithsonian Natural History Museum"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "museums"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-092-5c5e399ff6",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Madrid museum is known for a collection including Bosch, Velazquez, and Goya.",
+      "answer": "Prado Museum",
+      "aliases": [
+        "Museo del Prado",
+        "Prado"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "museums"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-093-0071eac743",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Depression-era photograph by Dorothea Lange shows Florence Owens Thompson.",
+      "answer": "Migrant Mother",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "photography"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-094-1aca9592f4",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This photographer of Moonrise, Hernandez helped make Yosemite a black-and-white icon.",
+      "answer": "Ansel Adams",
+      "aliases": [
+        "Adams"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "photography"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-095-12eb84fd3d",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Design & Decorative Arts",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German school founded by Walter Gropius joined art, craft, and architecture.",
+      "answer": "Bauhaus",
+      "aliases": [
+        "the Bauhaus"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "design"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-096-b8314615b5",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Design & Decorative Arts",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This style used flowing plant forms and helped shape posters by Alphonse Mucha.",
+      "answer": "Art Nouveau",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "design"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-097-4a160426b9",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Public Art & Monuments",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This polished black wall in Washington lists names of U.S. service members lost in Southeast Asia.",
+      "answer": "Vietnam Veterans Memorial",
+      "aliases": [
+        "the Vietnam Veterans Memorial"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "monuments"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-098-369b55bba5",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Public Art & Monuments",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Chicago sculpture by Anish Kapoor reflects the skyline in Millennium Park.",
+      "answer": "Cloud Gate",
+      "aliases": [
+        "The Bean"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "monuments"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-099-c227ea196d",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This painting technique uses strong contrasts of light and dark for dramatic effect.",
+      "answer": "Chiaroscuro",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "technique"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-100-2ab6cc0e4f",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This critic championed abstract expressionism and the idea of flatness in modern painting.",
+      "answer": "Clement Greenberg",
+      "aliases": [
+        "Greenberg"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "criticism"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-101-2d0c08f910",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This composer wrote The Four Seasons as a set of violin concertos.",
+      "answer": "Antonio Vivaldi",
+      "aliases": [
+        "Vivaldi"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "classical"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-102-519e2e238a",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This composer of The Rite of Spring caused a famous 1913 Paris uproar.",
+      "answer": "Igor Stravinsky",
+      "aliases": [
+        "Stravinsky"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "classical"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-103-a2128060c8",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Finnish composer wrote Finlandia and seven numbered symphonies.",
+      "answer": "Jean Sibelius",
+      "aliases": [
+        "Sibelius"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "classical"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-104-efc8b689c1",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Opera",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Puccini opera features the aria Nessun dorma.",
+      "answer": "Turandot",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "opera"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-105-60f707c57f",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Opera",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Verdi opera about an Ethiopian princess includes a triumphal march.",
+      "answer": "Aida",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "opera"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-106-0f6c1295ae",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This musical about the first Treasury secretary uses hip-hop to tell early U.S. history.",
+      "answer": "Hamilton",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "broadway"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-107-37cb209613",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Sondheim show sends fairy-tale characters beyond happy endings after Act I.",
+      "answer": "Into the Woods",
+      "aliases": [
+        "Into The Woods"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "broadway"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-108-2d90680d34",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Kander and Ebb musical is set in a Berlin nightclub as Weimar Germany collapses.",
+      "answer": "Cabaret",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "broadway"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-109-627a3cbb09",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This British band released Abbey Road and Sgt. Pepper's Lonely Hearts Club Band.",
+      "answer": "The Beatles",
+      "aliases": [
+        "Beatles"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "popular-music"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-110-c022a5d52e",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This singer's album Purple Rain doubled as a film soundtrack.",
+      "answer": "Prince",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "popular-music"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-111-193699e19b",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Jazz & Blues",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This New Orleans trumpeter helped popularize jazz singing and improvisation.",
+      "answer": "Louis Armstrong",
+      "aliases": [
+        "Armstrong",
+        "Satchmo"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "jazz"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-112-d8c6f96983",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Jazz & Blues",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This saxophonist recorded A Love Supreme with his classic quartet.",
+      "answer": "John Coltrane",
+      "aliases": [
+        "Coltrane"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "jazz"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-113-1c8ed503d6",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Instruments",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This large brass instrument often wraps around the player's body and plays low notes.",
+      "answer": "Tuba",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "instruments"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-114-856e36bf8c",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Instruments",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This double-reed woodwind tunes orchestras with an A before concerts.",
+      "answer": "Oboe",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "instruments"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-115-8602f0cbf6",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Music Theory & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This term names the speed of a piece of music.",
+      "answer": "Tempo",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "theory"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-116-f81dd96742",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Music Theory & Terms",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This interval spans eight diatonic scale degrees from one note to its namesake higher note.",
+      "answer": "Octave",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "theory"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-117-06ed87b548",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Dance",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Argentine dance is known for close embrace and sharp leg movements.",
+      "answer": "Tango",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "dance"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-118-9ab08f62e3",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Japanese theater form uses masks, slow movement, and a chorus.",
+      "answer": "Noh",
+      "aliases": [
+        "Nō"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "theater"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-119-a2181f54b5",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Film Scores & Soundtracks",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This composer scored Jaws, Star Wars, E.T., and Jurassic Park.",
+      "answer": "John Williams",
+      "aliases": [
+        "Williams"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "soundtracks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-120-4aba39f020",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Film Scores & Soundtracks",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Italian composer scored The Good, the Bad and the Ugly and Cinema Paradiso.",
+      "answer": "Ennio Morricone",
+      "aliases": [
+        "Morricone"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "soundtracks"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-121-40ed2ad730",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This god ruled the underworld and carried off Persephone.",
+      "answer": "Hades",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "greek-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-122-87beb5f383",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This craftsman built wings for himself and his son to escape Crete.",
+      "answer": "Daedalus",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "greek-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-123-213ead2126",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Norse god loses a hand when the wolf Fenrir is bound.",
+      "answer": "Tyr",
+      "aliases": [
+        "Týr"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "norse"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-124-f401c95de7",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Norse hall receives warriors chosen by Odin's Valkyries.",
+      "answer": "Valhalla",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "norse"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-125-ee8d48ebfe",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Egyptian god of the sun was often represented with a falcon head.",
+      "answer": "Ra",
+      "aliases": [
+        "Re"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "egyptian-myth"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-126-98f07b61e8",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Aztec feathered serpent deity has a name meaning precious serpent.",
+      "answer": "Quetzalcoatl",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "mesoamerican"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-127-61ceeeb67f",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This man built an ark before a flood covered the earth.",
+      "answer": "Noah",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-128-7c55c880bd",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This woman from Moab says where you go, I will go, to Naomi.",
+      "answer": "Ruth",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-129-72807394b4",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This minor prophet is associated with a valley of dry bones in a vision of restoration.",
+      "answer": "Ezekiel",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "bible"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-130-aa27802c0a",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This faith's sacred river Ganges is central to pilgrimage and purification.",
+      "answer": "Hinduism",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "religion"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-131-5808836d2c",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This religion founded in Punjab uses the Guru Granth Sahib as scripture.",
+      "answer": "Sikhism",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "religion"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-132-f5435e9dba",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Sanskrit term for action and consequence is central in Indian religions.",
+      "answer": "Karma",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "religious-terms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-133-eafe750f18",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Jewish mystical tradition includes the Zohar as a central text.",
+      "answer": "Kabbalah",
+      "aliases": [
+        "Cabala",
+        "Qabalah"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "religious-terms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-134-7d5605318b",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Chinese teacher is associated with Analects and filial piety.",
+      "answer": "Confucius",
+      "aliases": [
+        "Kongzi"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-135-93364b8609",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This philosopher wrote The Second Sex and helped shape existential feminism.",
+      "answer": "Simone de Beauvoir",
+      "aliases": [
+        "Beauvoir"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-136-d840eb896e",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This school associated with Pyrrho suspends judgment because certainty is difficult.",
+      "answer": "Skepticism",
+      "aliases": [
+        "Scepticism"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-137-4bf11d1926",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This school of Indian philosophy is classically dualist and paired with Yoga.",
+      "answer": "Samkhya",
+      "aliases": [
+        "Sankhya"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "philosophy"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-138-e5d9e64d93",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Kantian command asks people to act only by principles they could will as universal law.",
+      "answer": "Categorical imperative",
+      "aliases": [
+        "the categorical imperative"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "ethics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-139-f09ddf4f8d",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Islamic month of fasting ends with Eid al-Fitr.",
+      "answer": "Ramadan",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "religion"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-140-d10edd9ade",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Jewish Day of Atonement is marked by fasting and confession.",
+      "answer": "Yom Kippur",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "religion"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-141-ae79c52468",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This adjective means able to use both hands skillfully.",
+      "answer": "Ambidextrous",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-142-bae6bdb19f",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This noun means a confused mixture or jumble, especially of ideas or words.",
+      "answer": "Hodgepodge",
+      "aliases": [
+        "hotchpotch"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-143-377c845a83",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This adjective means stubbornly refusing to change an opinion.",
+      "answer": "Obdurate",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "definitions"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-144-17e8bc7681",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a fellow traveler or dining partner comes from Latin roots meaning with bread.",
+      "answer": "Companion",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-145-7a398d38e8",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word for a farewell comes from a contraction of God be with ye.",
+      "answer": "Goodbye",
+      "aliases": [
+        "good-bye"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "etymology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-146-875dafcaaf",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of flour names the colorful part of a plant.",
+      "answer": "Flower",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-147-ea84a03c02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This homophone of waist means to spend carelessly or use up.",
+      "answer": "Waste",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "homophones"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-148-87e50564ea",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of RESCUE",
+      "clue": "Rearrange RESCUE to name a word meaning make safe or fasten.",
+      "answer": "Secure",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-149-d9083d46af",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of MASTER",
+      "clue": "Rearrange MASTER to name a small flowing body of water.",
+      "answer": "Stream",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-150-ea07d061e0",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "anagram",
+      "constraint_text": "anagram of INTEGRAL",
+      "clue": "Rearrange INTEGRAL to name a three-sided geometric figure.",
+      "answer": "Triangle",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "anagram"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-151-74a0d71459",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Wizard of Oz road + famous Beatles album.",
+      "answer": "Yellow Brick Road Abbey Road",
+      "aliases": [
+        "Yellow Brick Road Abbey Road"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-152-0b237c45c9",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Greek hero with a heel + Brad Pitt film set in ancient Troy.",
+      "answer": "Achilles Troy",
+      "aliases": [
+        "Achilles Troy"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-153-8a66ebfc52",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Fitzgerald millionaire + Batman's home city.",
+      "answer": "Great Gatsby Gotham",
+      "aliases": [
+        "The Great Gatsby Gotham"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "before-after"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-154-a51f9b8b38",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In internet addresses, this three-letter abbreviation commonly begins a web URL.",
+      "answer": "WWW",
+      "aliases": [
+        "World Wide Web"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "abbreviations"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-155-dc4342b5d2",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Latin abbreviation means and the rest.",
+      "answer": "Et cetera",
+      "aliases": [
+        "etc.",
+        "etcetera"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "abbreviations"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-156-a3666b0219",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Spanish phrase literally means until the sight and is used as goodbye.",
+      "answer": "Hasta la vista",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "foreign-phrases"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-157-670aba603f",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German word names a spirit of the age.",
+      "answer": "Zeitgeist",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "foreign-phrases"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-158-591e53c609",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Grammar & Usage",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This punctuation mark joins independent clauses more strongly than a comma.",
+      "answer": "Semicolon",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "grammar"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-159-0eaeb333c0",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhymes & Word Ladders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "In Rhyme Time, this phrase could mean a speedy baby bird.",
+      "answer": "Quick chick",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "rhyme-time"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-160-8a9dd038d8",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this idiom, revealing a secret is letting the cat out of this.",
+      "answer": "Bag",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "idioms"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-161-268199dd75",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This team plays home games at Fenway Park.",
+      "answer": "Boston Red Sox",
+      "aliases": [
+        "Red Sox"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "baseball"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-162-4db6b7a55d",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In baseball, this three-letter statistic credits a batter when a plate appearance drives home a run.",
+      "answer": "RBI",
+      "aliases": [
+        "runs batted in"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "baseball"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-163-5455c99cf2",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This pitcher threw a perfect game in the 1956 World Series.",
+      "answer": "Don Larsen",
+      "aliases": [
+        "Larsen"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "baseball"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-164-05e694d093",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This NFL team plays home games at Lambeau Field.",
+      "answer": "Green Bay Packers",
+      "aliases": [
+        "Packers"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "football"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-165-68a1ee2df6",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This position usually snaps the ball to the quarterback.",
+      "answer": "Center",
+      "aliases": [
+        "centre"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "football"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-166-87bd6c1adc",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This NBA team won six championships with Michael Jordan in the 1990s.",
+      "answer": "Chicago Bulls",
+      "aliases": [
+        "Bulls"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "basketball"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-167-2642d499e0",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This coach led UCLA men's basketball to ten NCAA championships.",
+      "answer": "John Wooden",
+      "aliases": [
+        "Wooden"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "basketball"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-168-1b4438fabf",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Soccer",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This international tournament awards a trophy every four years to a national team champion.",
+      "answer": "FIFA World Cup",
+      "aliases": [
+        "World Cup"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "soccer"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-169-94184ade6c",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Soccer",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Brazilian forward was born Edson Arantes do Nascimento.",
+      "answer": "Pele",
+      "aliases": [
+        "Pelé"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "soccer"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-170-04dfcfe6ff",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This tennis tournament is played on grass at the All England Club.",
+      "answer": "Wimbledon",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "tennis"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-171-120ac440b1",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This golfer was nicknamed the Golden Bear.",
+      "answer": "Jack Nicklaus",
+      "aliases": [
+        "Nicklaus"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "golf"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-172-14999e5451",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This city hosted the first modern Olympic Games in 1896.",
+      "answer": "Athens",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "olympics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-173-7dc98f3fc9",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This track athlete won four gold medals at the 1936 Berlin Olympics.",
+      "answer": "Jesse Owens",
+      "aliases": [
+        "Owens"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "olympics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-174-c98e015817",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This baseball award honors each league's top pitcher.",
+      "answer": "Cy Young Award",
+      "aliases": [
+        "Cy Young"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "sports-awards"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-175-c95a6573b7",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This soccer award from France Football honors the world's top player.",
+      "answer": "Ballon d'Or",
+      "aliases": [
+        "Ballon d Or"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "sports-awards"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-176-3c2a6c7a41",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In tennis scoring, this word means a tied score after both players reach forty.",
+      "answer": "Deuce",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "rules"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-177-6fffa6f221",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In chess, this move protects the king by moving it two squares toward a rook.",
+      "answer": "Castling",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "rules"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-178-add7669e3c",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This board game uses properties like Boardwalk, Park Place, and railroads.",
+      "answer": "Monopoly",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "board-games"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-179-42c4e64920",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This card game's name comes from a Spanish word for basket.",
+      "answer": "Canasta",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "card-games"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-180-7f868cbdfa",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Nintendo franchise centers on Samus Aran and alien parasites.",
+      "answer": "Metroid",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "video-games"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-181-195c0cc2eb",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1982 Spielberg film follows a stranded alien who wants to phone home.",
+      "answer": "E.T. the Extra-Terrestrial",
+      "aliases": [
+        "E.T.",
+        "ET"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "film"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-182-4e7a2f4f14",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1975 shark thriller made Steven Spielberg a blockbuster director.",
+      "answer": "Jaws",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "film"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-183-4edf73207b",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Japanese director made Seven Samurai and Rashomon.",
+      "answer": "Akira Kurosawa",
+      "aliases": [
+        "Kurosawa"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "film"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-184-8de9d61d77",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This sitcom featured Central Perk and characters named Rachel, Ross, Monica, Chandler, Joey, and Phoebe.",
+      "answer": "Friends",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "television"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-185-7adc01adff",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This HBO drama follows Tony Soprano and his New Jersey crime family.",
+      "answer": "The Sopranos",
+      "aliases": [
+        "Sopranos"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "television"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-186-66ab5c416c",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Streaming & Internet Culture",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Google-owned video platform launched in 2005.",
+      "answer": "YouTube",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "internet"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-187-182dfaa7af",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Streaming & Internet Culture",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This term names a small image or video spread rapidly online with variations.",
+      "answer": "Meme",
+      "aliases": [
+        "internet meme"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "internet"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-188-c5a5f4c7ae",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Kryptonian superhero works at the Daily Planet when not wearing a cape.",
+      "answer": "Superman",
+      "aliases": [
+        "Clark Kent"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "comics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-189-38b238d0f8",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This graphic novel by Art Spiegelman portrays the Holocaust with animal-headed characters.",
+      "answer": "Maus",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "comics"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-190-344303a552",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This host turned a daytime talk show into a media empire and book club.",
+      "answer": "Oprah Winfrey",
+      "aliases": [
+        "Oprah"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "public-figures"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-191-e31d023c8c",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This chef and travel host wrote Kitchen Confidential.",
+      "answer": "Anthony Bourdain",
+      "aliases": [
+        "Bourdain"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "public-figures"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-192-37c06de7a4",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Brands & Advertising",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This athletic brand's swoosh logo was designed by Carolyn Davidson.",
+      "answer": "Nike",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "brands"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-193-69c3ccb21c",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Brands & Advertising",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This fast-food chain uses the slogan Have It Your Way.",
+      "answer": "Burger King",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "brands"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-194-dda7027367",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Italian dessert layers coffee-soaked ladyfingers with mascarpone.",
+      "answer": "Tiramisu",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "food"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-195-b76e0ee512",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This fermented Korean cabbage dish is commonly seasoned with chili and garlic.",
+      "answer": "Kimchi",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "food"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-196-b7b50ca26d",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Fashion & Lifestyle",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French fashion house is associated with the interlocking CC logo.",
+      "answer": "Chanel",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "fashion"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-197-b8aea8c43f",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This company created the iPhone and Macintosh computer.",
+      "answer": "Apple",
+      "aliases": [],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "technology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-198-889cb2e1d1",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This database language uses SELECT, FROM, and WHERE clauses.",
+      "answer": "SQL",
+      "aliases": [
+        "Structured Query Language"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "technology"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-199-b3147b51bf",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 2020 global public health crisis was caused by the SARS-CoV-2 virus.",
+      "answer": "COVID-19 pandemic",
+      "aliases": [
+        "COVID pandemic",
+        "coronavirus pandemic"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "current-affairs"
+      ],
+      "review_status": "ready"
+    },
+    {
+      "source": "original_strategy_pack",
+      "source_url": null,
+      "source_license": "original",
+      "external_id": "strategy-pack-001-200-a1a393147d",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This British computer scientist proposed the World Wide Web while at CERN.",
+      "answer": "Tim Berners-Lee",
+      "aliases": [
+        "Berners-Lee"
+      ],
+      "distractors": [],
+      "tags": [
+        "strategy-pack",
+        "technology"
+      ],
+      "review_status": "ready"
+    }
+  ]
+}

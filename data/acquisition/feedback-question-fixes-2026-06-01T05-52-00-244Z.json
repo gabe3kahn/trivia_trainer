@@ -1,0 +1,137 @@
+{
+  "count": 5,
+  "updates": [
+    {
+      "id": "f5118f47-23d6-4a86-b9d6-685349159acf",
+      "previous": {
+        "clue": "Moore's law originally predicted the transistor count on integrated circuits would double after this many years.",
+        "answer": "Two years",
+        "aliases": [
+          "2 years",
+          "two years",
+          "24 months"
+        ],
+        "value": 600
+      },
+      "next": {
+        "clue": "Moore's law originally predicted the transistor count on integrated circuits would double after this many years.",
+        "answer": "Two years",
+        "aliases": [
+          "2 years",
+          "two years",
+          "24 months"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "8bf1d2a2-eb20-4bea-89b7-feded0e9239d",
+      "previous": {
+        "clue": "This colossal figure in New York Harbor was a gift from France.",
+        "answer": "Statue of Liberty",
+        "aliases": [
+          "the Statue of Liberty"
+        ],
+        "value": 200
+      },
+      "next": {
+        "clue": "This colossal figure in New York Harbor was a gift from France.",
+        "answer": "Statue of Liberty",
+        "aliases": [
+          "the Statue of Liberty"
+        ],
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "3fde99b0-7b86-47a2-9626-af321537e853",
+      "previous": {
+        "clue": "In this idiom, delaying action is kicking the can farther down this.",
+        "answer": "Road",
+        "aliases": [
+          "road"
+        ],
+        "value": 200
+      },
+      "next": {
+        "clue": "In this idiom, delaying action is kicking the can farther down this.",
+        "answer": "Road",
+        "aliases": [
+          "road"
+        ],
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "low-anchor-density"
+        ]
+      }
+    },
+    {
+      "id": "feb290c0-bee0-4013-baf7-7835232f0b80",
+      "previous": {
+        "clue": "Albrecht Durer was born and died in this German city.",
+        "answer": "Nurnberg",
+        "aliases": [
+          "Nuremberg",
+          "Nürnberg",
+          "Nurnberg"
+        ],
+        "value": 800
+      },
+      "next": {
+        "clue": "Albrecht Durer was born and died in this German city.",
+        "answer": "Nurnberg",
+        "aliases": [
+          "Nuremberg",
+          "Nürnberg",
+          "Nurnberg"
+        ],
+        "value": 800,
+        "difficulty_rank": 4,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "d979a282-598e-42be-b894-ff30edb43cdd",
+      "previous": {
+        "clue": "Megadeth released the album \"Peace Sells but Who's Buying?\" in this year.",
+        "answer": "1986",
+        "aliases": [
+          "1986"
+        ],
+        "value": 400
+      },
+      "next": {
+        "clue": "Megadeth released the album \"Peace Sells but Who's Buying?\" in this year.",
+        "answer": "1986",
+        "aliases": [
+          "1986"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    }
+  ]
+}

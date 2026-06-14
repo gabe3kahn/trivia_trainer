@@ -1,0 +1,4687 @@
+{
+  "generated_at": "2026-06-13T23:10:02.954Z",
+  "total_candidates": 589,
+  "fetched": 554,
+  "skipped_existing": 28,
+  "missed": 7,
+  "note": "National parks are a curated globally-prominent set, not a strict visitation ranking.",
+  "candidates": [
+    {
+      "entity": "Canada",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "canada",
+      "status": "fetched",
+      "title": "Canada"
+    },
+    {
+      "entity": "Ottawa",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ottawa",
+      "status": "fetched",
+      "title": "Ottawa"
+    },
+    {
+      "entity": "Japan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "japan",
+      "status": "fetched",
+      "title": "Japan"
+    },
+    {
+      "entity": "Tokyo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tokyo",
+      "status": "fetched",
+      "title": "Tokyo"
+    },
+    {
+      "entity": "Norway",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "norway",
+      "status": "fetched",
+      "title": "Norway"
+    },
+    {
+      "entity": "Oslo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "oslo",
+      "status": "fetched",
+      "title": "Oslo"
+    },
+    {
+      "entity": "Ireland",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "ireland",
+      "status": "fetched",
+      "title": "Ireland"
+    },
+    {
+      "entity": "Dublin",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "dublin",
+      "status": "fetched",
+      "title": "Dublin"
+    },
+    {
+      "entity": "Hungary",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "hungary",
+      "status": "fetched",
+      "title": "Hungary"
+    },
+    {
+      "entity": "Budapest",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "budapest",
+      "status": "fetched",
+      "title": "Budapest"
+    },
+    {
+      "entity": "Spain",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "spain",
+      "status": "fetched",
+      "title": "Spain"
+    },
+    {
+      "entity": "Madrid",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "madrid",
+      "status": "fetched",
+      "title": "Madrid"
+    },
+    {
+      "entity": "United States",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "united-states",
+      "status": "fetched",
+      "title": "United States"
+    },
+    {
+      "entity": "Washington, D.C.",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "washington-d-c",
+      "status": "fetched",
+      "title": "Washington, D.C."
+    },
+    {
+      "entity": "Belgium",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "belgium",
+      "status": "fetched",
+      "title": "Belgium"
+    },
+    {
+      "entity": "Brussels",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "brussels",
+      "status": "fetched",
+      "title": "Brussels"
+    },
+    {
+      "entity": "Luxembourg",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "luxembourg",
+      "status": "fetched",
+      "title": "Luxembourg"
+    },
+    {
+      "entity": "Finland",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "finland",
+      "status": "fetched",
+      "title": "Finland"
+    },
+    {
+      "entity": "Helsinki",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "helsinki",
+      "status": "fetched",
+      "title": "Helsinki"
+    },
+    {
+      "entity": "Sweden",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "sweden",
+      "status": "fetched",
+      "title": "Sweden"
+    },
+    {
+      "entity": "Stockholm",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "stockholm",
+      "status": "fetched",
+      "title": "Stockholm"
+    },
+    {
+      "entity": "Poland",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "poland",
+      "status": "fetched",
+      "title": "Poland"
+    },
+    {
+      "entity": "Warsaw",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "warsaw",
+      "status": "fetched",
+      "title": "Warsaw"
+    },
+    {
+      "entity": "Lithuania",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "lithuania",
+      "status": "fetched",
+      "title": "Lithuania"
+    },
+    {
+      "entity": "Vilnius",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "vilnius",
+      "status": "fetched",
+      "title": "Vilnius"
+    },
+    {
+      "entity": "Italy",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "italy",
+      "status": "fetched",
+      "title": "Italy"
+    },
+    {
+      "entity": "Rome",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "rome",
+      "status": "fetched",
+      "title": "Rome"
+    },
+    {
+      "entity": "Switzerland",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "switzerland",
+      "status": "fetched",
+      "title": "Switzerland"
+    },
+    {
+      "entity": "Bern",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bern",
+      "status": "fetched",
+      "title": "Bern"
+    },
+    {
+      "entity": "Austria",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "austria",
+      "status": "fetched",
+      "title": "Austria"
+    },
+    {
+      "entity": "Vienna",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "vienna",
+      "status": "fetched",
+      "title": "Vienna"
+    },
+    {
+      "entity": "Greece",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "greece",
+      "status": "fetched",
+      "title": "Greece"
+    },
+    {
+      "entity": "Athens",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "athens",
+      "status": "fetched",
+      "title": "Athens"
+    },
+    {
+      "entity": "Turkey",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "turkey",
+      "status": "fetched",
+      "title": "Turkey"
+    },
+    {
+      "entity": "Ankara",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ankara",
+      "status": "fetched",
+      "title": "Ankara"
+    },
+    {
+      "entity": "Portugal",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "portugal",
+      "status": "fetched",
+      "title": "Portugal"
+    },
+    {
+      "entity": "Lisbon",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "lisbon",
+      "status": "fetched",
+      "title": "Lisbon"
+    },
+    {
+      "entity": "Uruguay",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "uruguay",
+      "status": "fetched",
+      "title": "Uruguay"
+    },
+    {
+      "entity": "Montevideo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "montevideo",
+      "status": "fetched",
+      "title": "Montevideo"
+    },
+    {
+      "entity": "Egypt",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "egypt",
+      "status": "fetched",
+      "title": "Egypt"
+    },
+    {
+      "entity": "Cairo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "cairo",
+      "status": "exists"
+    },
+    {
+      "entity": "Mexico",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "mexico",
+      "status": "fetched",
+      "title": "Mexico"
+    },
+    {
+      "entity": "Mexico City",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "mexico-city",
+      "status": "fetched",
+      "title": "Mexico City"
+    },
+    {
+      "entity": "Kenya",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kenya",
+      "status": "exists"
+    },
+    {
+      "entity": "Nairobi",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "nairobi",
+      "status": "fetched",
+      "title": "Nairobi"
+    },
+    {
+      "entity": "Ethiopia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "ethiopia",
+      "status": "fetched",
+      "title": "Ethiopia"
+    },
+    {
+      "entity": "Addis Ababa",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "addis-ababa",
+      "status": "fetched",
+      "title": "Addis Ababa"
+    },
+    {
+      "entity": "Ghana",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "ghana",
+      "status": "fetched",
+      "title": "Ghana"
+    },
+    {
+      "entity": "Accra",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "accra",
+      "status": "fetched",
+      "title": "Accra"
+    },
+    {
+      "entity": "France",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "france",
+      "status": "fetched",
+      "title": "France"
+    },
+    {
+      "entity": "Paris",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "paris",
+      "status": "fetched",
+      "title": "Paris"
+    },
+    {
+      "entity": "United Kingdom",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "united-kingdom",
+      "status": "fetched",
+      "title": "United Kingdom"
+    },
+    {
+      "entity": "London",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "london",
+      "status": "fetched",
+      "title": "London"
+    },
+    {
+      "entity": "People's Republic of China",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "people-s-republic-of-china",
+      "status": "fetched",
+      "title": "China"
+    },
+    {
+      "entity": "Beijing",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "beijing",
+      "status": "fetched",
+      "title": "Beijing"
+    },
+    {
+      "entity": "Brazil",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "brazil",
+      "status": "fetched",
+      "title": "Brazil"
+    },
+    {
+      "entity": "Brasília",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "brasilia",
+      "status": "exists"
+    },
+    {
+      "entity": "Russia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "russia",
+      "status": "fetched",
+      "title": "Russia"
+    },
+    {
+      "entity": "Moscow",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "moscow",
+      "status": "fetched",
+      "title": "Moscow"
+    },
+    {
+      "entity": "Germany",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "germany",
+      "status": "fetched",
+      "title": "Germany"
+    },
+    {
+      "entity": "Berlin",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "berlin",
+      "status": "fetched",
+      "title": "Berlin"
+    },
+    {
+      "entity": "Belarus",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "belarus",
+      "status": "fetched",
+      "title": "Belarus"
+    },
+    {
+      "entity": "Minsk",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "minsk",
+      "status": "fetched",
+      "title": "Minsk"
+    },
+    {
+      "entity": "Iceland",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "iceland",
+      "status": "fetched",
+      "title": "Iceland"
+    },
+    {
+      "entity": "Reykjavík",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "reykjavik",
+      "status": "fetched",
+      "title": "Reykjavík"
+    },
+    {
+      "entity": "Estonia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "estonia",
+      "status": "fetched",
+      "title": "Estonia"
+    },
+    {
+      "entity": "Tallinn",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tallinn",
+      "status": "fetched",
+      "title": "Tallinn"
+    },
+    {
+      "entity": "Latvia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "latvia",
+      "status": "fetched",
+      "title": "Latvia"
+    },
+    {
+      "entity": "Riga",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "riga",
+      "status": "fetched",
+      "title": "Riga"
+    },
+    {
+      "entity": "Ukraine",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "ukraine",
+      "status": "fetched",
+      "title": "Ukraine"
+    },
+    {
+      "entity": "Kyiv",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kyiv",
+      "status": "fetched",
+      "title": "Kyiv"
+    },
+    {
+      "entity": "Czech Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "czech-republic",
+      "status": "fetched",
+      "title": "Czech Republic"
+    },
+    {
+      "entity": "Prague",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "prague",
+      "status": "fetched",
+      "title": "Prague"
+    },
+    {
+      "entity": "Slovakia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "slovakia",
+      "status": "fetched",
+      "title": "Slovakia"
+    },
+    {
+      "entity": "Bratislava",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bratislava",
+      "status": "fetched",
+      "title": "Bratislava"
+    },
+    {
+      "entity": "Slovenia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "slovenia",
+      "status": "fetched",
+      "title": "Slovenia"
+    },
+    {
+      "entity": "Ljubljana",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ljubljana",
+      "status": "fetched",
+      "title": "Ljubljana"
+    },
+    {
+      "entity": "Moldova",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "moldova",
+      "status": "fetched",
+      "title": "Moldova"
+    },
+    {
+      "entity": "Chișinău",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "chisinau",
+      "status": "fetched",
+      "title": "Chișinău"
+    },
+    {
+      "entity": "Romania",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "romania",
+      "status": "fetched",
+      "title": "Romania"
+    },
+    {
+      "entity": "Bucharest",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bucharest",
+      "status": "fetched",
+      "title": "Bucharest"
+    },
+    {
+      "entity": "Bulgaria",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "bulgaria",
+      "status": "fetched",
+      "title": "Bulgaria"
+    },
+    {
+      "entity": "Sofia",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "sofia",
+      "status": "fetched",
+      "title": "Sofia"
+    },
+    {
+      "entity": "North Macedonia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "north-macedonia",
+      "status": "fetched",
+      "title": "North Macedonia"
+    },
+    {
+      "entity": "Skopje",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "skopje",
+      "status": "fetched",
+      "title": "Skopje"
+    },
+    {
+      "entity": "Albania",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "albania",
+      "status": "fetched",
+      "title": "Albania"
+    },
+    {
+      "entity": "Tirana",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tirana",
+      "status": "fetched",
+      "title": "Tirana"
+    },
+    {
+      "entity": "Croatia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "croatia",
+      "status": "fetched",
+      "title": "Croatia"
+    },
+    {
+      "entity": "Zagreb",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "zagreb",
+      "status": "fetched",
+      "title": "Zagreb"
+    },
+    {
+      "entity": "Bosnia and Herzegovina",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "bosnia-and-herzegovina",
+      "status": "fetched",
+      "title": "Bosnia and Herzegovina"
+    },
+    {
+      "entity": "Sarajevo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "sarajevo",
+      "status": "fetched",
+      "title": "Sarajevo"
+    },
+    {
+      "entity": "Azerbaijan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "azerbaijan",
+      "status": "fetched",
+      "title": "Azerbaijan"
+    },
+    {
+      "entity": "Baku",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "baku",
+      "status": "fetched",
+      "title": "Baku"
+    },
+    {
+      "entity": "Andorra",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "andorra",
+      "status": "fetched",
+      "title": "Andorra"
+    },
+    {
+      "entity": "Andorra la Vella",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "andorra-la-vella",
+      "status": "fetched",
+      "title": "Andorra la Vella"
+    },
+    {
+      "entity": "Cyprus",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "cyprus",
+      "status": "fetched",
+      "title": "Cyprus"
+    },
+    {
+      "entity": "Nicosia",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "nicosia",
+      "status": "fetched",
+      "title": "Nicosia"
+    },
+    {
+      "entity": "Georgia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "georgia",
+      "status": "fetched",
+      "title": "Georgia"
+    },
+    {
+      "entity": "Tbilisi",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tbilisi",
+      "status": "fetched",
+      "title": "Tbilisi"
+    },
+    {
+      "entity": "Kazakhstan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kazakhstan",
+      "status": "fetched",
+      "title": "Kazakhstan"
+    },
+    {
+      "entity": "Astana",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "astana",
+      "status": "fetched",
+      "title": "Astana"
+    },
+    {
+      "entity": "Malta",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "malta",
+      "status": "fetched",
+      "title": "Malta"
+    },
+    {
+      "entity": "Valletta",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "valletta",
+      "status": "fetched",
+      "title": "Valletta"
+    },
+    {
+      "entity": "Monaco",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "monaco",
+      "status": "fetched",
+      "title": "Monaco"
+    },
+    {
+      "entity": "Monaco City",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "monaco-city",
+      "status": "fetched",
+      "title": "Monaco-Ville"
+    },
+    {
+      "entity": "Montenegro",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "montenegro",
+      "status": "fetched",
+      "title": "Montenegro"
+    },
+    {
+      "entity": "Podgorica",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "podgorica",
+      "status": "fetched",
+      "title": "Podgorica"
+    },
+    {
+      "entity": "San Marino",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "san-marino",
+      "status": "fetched",
+      "title": "San Marino"
+    },
+    {
+      "entity": "Cuba",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "cuba",
+      "status": "fetched",
+      "title": "Cuba"
+    },
+    {
+      "entity": "Havana",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "havana",
+      "status": "fetched",
+      "title": "Havana"
+    },
+    {
+      "entity": "Belize",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "belize",
+      "status": "fetched",
+      "title": "Belize"
+    },
+    {
+      "entity": "Belmopan",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "belmopan",
+      "status": "fetched",
+      "title": "Belmopan"
+    },
+    {
+      "entity": "Barbados",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "barbados",
+      "status": "fetched",
+      "title": "Barbados"
+    },
+    {
+      "entity": "Bridgetown",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bridgetown",
+      "status": "fetched",
+      "title": "Bridgetown"
+    },
+    {
+      "entity": "Indonesia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "indonesia",
+      "status": "fetched",
+      "title": "Indonesia"
+    },
+    {
+      "entity": "Jakarta",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "jakarta",
+      "status": "fetched",
+      "title": "Jakarta"
+    },
+    {
+      "entity": "South Africa",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "south-africa",
+      "status": "fetched",
+      "title": "South Africa"
+    },
+    {
+      "entity": "Pretoria",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "pretoria",
+      "status": "fetched",
+      "title": "Pretoria"
+    },
+    {
+      "entity": "Cape Town",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "cape-town",
+      "status": "fetched",
+      "title": "Cape Town"
+    },
+    {
+      "entity": "Bloemfontein",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bloemfontein",
+      "status": "fetched",
+      "title": "Bloemfontein"
+    },
+    {
+      "entity": "Algeria",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "algeria",
+      "status": "fetched",
+      "title": "Algeria"
+    },
+    {
+      "entity": "Algiers",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "algiers",
+      "status": "fetched",
+      "title": "Algiers"
+    },
+    {
+      "entity": "Uzbekistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "uzbekistan",
+      "status": "fetched",
+      "title": "Uzbekistan"
+    },
+    {
+      "entity": "Tashkent",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tashkent",
+      "status": "fetched",
+      "title": "Tashkent"
+    },
+    {
+      "entity": "Chile",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "chile",
+      "status": "fetched",
+      "title": "Chile"
+    },
+    {
+      "entity": "Santiago",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "santiago",
+      "status": "fetched",
+      "title": "Santiago"
+    },
+    {
+      "entity": "Singapore",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "singapore",
+      "status": "fetched",
+      "title": "Singapore"
+    },
+    {
+      "entity": "Liechtenstein",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "liechtenstein",
+      "status": "fetched",
+      "title": "Liechtenstein"
+    },
+    {
+      "entity": "Vaduz",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "vaduz",
+      "status": "fetched",
+      "title": "Vaduz"
+    },
+    {
+      "entity": "Bahrain",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "bahrain",
+      "status": "fetched",
+      "title": "Bahrain"
+    },
+    {
+      "entity": "Manama",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "manama",
+      "status": "fetched",
+      "title": "Manama"
+    },
+    {
+      "entity": "Armenia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "armenia",
+      "status": "fetched",
+      "title": "Armenia"
+    },
+    {
+      "entity": "Yerevan",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "yerevan",
+      "status": "fetched",
+      "title": "Yerevan"
+    },
+    {
+      "entity": "Serbia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "serbia",
+      "status": "fetched",
+      "title": "Serbia"
+    },
+    {
+      "entity": "Belgrade",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "belgrade",
+      "status": "fetched",
+      "title": "Belgrade"
+    },
+    {
+      "entity": "Australia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "australia",
+      "status": "fetched",
+      "title": "Australia"
+    },
+    {
+      "entity": "Canberra",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "canberra",
+      "status": "fetched",
+      "title": "Canberra"
+    },
+    {
+      "entity": "Argentina",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "argentina",
+      "status": "exists"
+    },
+    {
+      "entity": "Buenos Aires",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "buenos-aires",
+      "status": "fetched",
+      "title": "Buenos Aires"
+    },
+    {
+      "entity": "Peru",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "peru",
+      "status": "fetched",
+      "title": "Peru"
+    },
+    {
+      "entity": "Lima",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "lima",
+      "status": "fetched",
+      "title": "Lima"
+    },
+    {
+      "entity": "North Korea",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "north-korea",
+      "status": "fetched",
+      "title": "North Korea"
+    },
+    {
+      "entity": "Pyongyang",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "pyongyang",
+      "status": "fetched",
+      "title": "Pyongyang"
+    },
+    {
+      "entity": "Cambodia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "cambodia",
+      "status": "fetched",
+      "title": "Cambodia"
+    },
+    {
+      "entity": "Phnom Penh",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "phnom-penh",
+      "status": "fetched",
+      "title": "Phnom Penh"
+    },
+    {
+      "entity": "Timor-Leste",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "timor-leste",
+      "status": "fetched",
+      "title": "Timor-Leste"
+    },
+    {
+      "entity": "Dili",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "dili",
+      "status": "fetched",
+      "title": "Dili"
+    },
+    {
+      "entity": "Chad",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "chad",
+      "status": "fetched",
+      "title": "Chad"
+    },
+    {
+      "entity": "N'Djamena",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "n-djamena",
+      "status": "fetched",
+      "title": "N'Djamena"
+    },
+    {
+      "entity": "New Zealand",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "new-zealand",
+      "status": "fetched",
+      "title": "New Zealand"
+    },
+    {
+      "entity": "Wellington",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "wellington",
+      "status": "fetched",
+      "title": "Wellington"
+    },
+    {
+      "entity": "India",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "india",
+      "status": "exists"
+    },
+    {
+      "entity": "New Delhi",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "new-delhi",
+      "status": "fetched",
+      "title": "New Delhi"
+    },
+    {
+      "entity": "Tuvalu",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "tuvalu",
+      "status": "fetched",
+      "title": "Tuvalu"
+    },
+    {
+      "entity": "Funafuti",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "funafuti",
+      "status": "fetched",
+      "title": "Funafuti"
+    },
+    {
+      "entity": "Tonga",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "tonga",
+      "status": "fetched",
+      "title": "Tonga"
+    },
+    {
+      "entity": "Nukuʻalofa",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "nuku-alofa",
+      "status": "fetched",
+      "title": "Nukuʻalofa"
+    },
+    {
+      "entity": "Samoa",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "samoa",
+      "status": "fetched",
+      "title": "Samoa"
+    },
+    {
+      "entity": "Apia",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "apia",
+      "status": "fetched",
+      "title": "Apia"
+    },
+    {
+      "entity": "Solomon Islands",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "solomon-islands",
+      "status": "fetched",
+      "title": "Solomon Islands"
+    },
+    {
+      "entity": "Honiara",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "honiara",
+      "status": "fetched",
+      "title": "Honiara"
+    },
+    {
+      "entity": "Vanuatu",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "vanuatu",
+      "status": "fetched",
+      "title": "Vanuatu"
+    },
+    {
+      "entity": "Port Vila",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "port-vila",
+      "status": "fetched",
+      "title": "Port Vila"
+    },
+    {
+      "entity": "Papua New Guinea",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "papua-new-guinea",
+      "status": "fetched",
+      "title": "Papua New Guinea"
+    },
+    {
+      "entity": "Port Moresby",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "port-moresby",
+      "status": "fetched",
+      "title": "Port Moresby"
+    },
+    {
+      "entity": "Palau",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "palau",
+      "status": "fetched",
+      "title": "Palau"
+    },
+    {
+      "entity": "Ngerulmud",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ngerulmud",
+      "status": "fetched",
+      "title": "Ngerulmud"
+    },
+    {
+      "entity": "Nauru",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "nauru",
+      "status": "fetched",
+      "title": "Nauru"
+    },
+    {
+      "entity": "Yaren District",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "yaren-district",
+      "status": "fetched",
+      "title": "Yaren"
+    },
+    {
+      "entity": "Federated States of Micronesia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "federated-states-of-micronesia",
+      "status": "fetched",
+      "title": "Federated States of Micronesia"
+    },
+    {
+      "entity": "Palikir",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "palikir",
+      "status": "fetched",
+      "title": "Palikir"
+    },
+    {
+      "entity": "Marshall Islands",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "marshall-islands",
+      "status": "fetched",
+      "title": "Marshall Islands"
+    },
+    {
+      "entity": "Majuro",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "majuro",
+      "status": "fetched",
+      "title": "Majuro"
+    },
+    {
+      "entity": "Kiribati",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kiribati",
+      "status": "fetched",
+      "title": "Kiribati"
+    },
+    {
+      "entity": "South Tarawa",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "south-tarawa",
+      "status": "fetched",
+      "title": "South Tarawa"
+    },
+    {
+      "entity": "Mongolia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "mongolia",
+      "status": "fetched",
+      "title": "Mongolia"
+    },
+    {
+      "entity": "Ulaanbaatar",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ulaanbaatar",
+      "status": "fetched",
+      "title": "Ulaanbaatar"
+    },
+    {
+      "entity": "Fiji",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "fiji",
+      "status": "fetched",
+      "title": "Fiji"
+    },
+    {
+      "entity": "Suva",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "suva",
+      "status": "fetched",
+      "title": "Suva"
+    },
+    {
+      "entity": "Venezuela",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "venezuela",
+      "status": "fetched",
+      "title": "Venezuela"
+    },
+    {
+      "entity": "Caracas",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "caracas",
+      "status": "fetched",
+      "title": "Caracas"
+    },
+    {
+      "entity": "Suriname",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "suriname",
+      "status": "fetched",
+      "title": "Suriname"
+    },
+    {
+      "entity": "Paramaribo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "paramaribo",
+      "status": "fetched",
+      "title": "Paramaribo"
+    },
+    {
+      "entity": "Paraguay",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "paraguay",
+      "status": "fetched",
+      "title": "Paraguay"
+    },
+    {
+      "entity": "Asunción",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "asuncion",
+      "status": "fetched",
+      "title": "Asunción"
+    },
+    {
+      "entity": "Guyana",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "guyana",
+      "status": "fetched",
+      "title": "Guyana"
+    },
+    {
+      "entity": "Georgetown",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "georgetown",
+      "status": "no-source"
+    },
+    {
+      "entity": "Ecuador",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "ecuador",
+      "status": "fetched",
+      "title": "Ecuador"
+    },
+    {
+      "entity": "Quito",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "quito",
+      "status": "fetched",
+      "title": "Quito"
+    },
+    {
+      "entity": "Colombia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "colombia",
+      "status": "fetched",
+      "title": "Colombia"
+    },
+    {
+      "entity": "Bogotá",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bogota",
+      "status": "exists"
+    },
+    {
+      "entity": "Bolivia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "bolivia",
+      "status": "exists"
+    },
+    {
+      "entity": "La Paz",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "la-paz",
+      "status": "fetched",
+      "title": "La Paz"
+    },
+    {
+      "entity": "Sucre",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "sucre",
+      "status": "fetched",
+      "title": "Sucre"
+    },
+    {
+      "entity": "Saint Kitts and Nevis",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "saint-kitts-and-nevis",
+      "status": "fetched",
+      "title": "Saint Kitts and Nevis"
+    },
+    {
+      "entity": "Basseterre",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "basseterre",
+      "status": "fetched",
+      "title": "Basseterre"
+    },
+    {
+      "entity": "Jamaica",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "jamaica",
+      "status": "fetched",
+      "title": "Jamaica"
+    },
+    {
+      "entity": "Kingston",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kingston",
+      "status": "no-source"
+    },
+    {
+      "entity": "Grenada",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "grenada",
+      "status": "fetched",
+      "title": "Grenada"
+    },
+    {
+      "entity": "St. George's",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "st-george-s",
+      "status": "fetched",
+      "title": "Saint George (disambiguation)"
+    },
+    {
+      "entity": "Guatemala",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "guatemala",
+      "status": "fetched",
+      "title": "Guatemala"
+    },
+    {
+      "entity": "Guatemala City",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "guatemala-city",
+      "status": "fetched",
+      "title": "Guatemala City"
+    },
+    {
+      "entity": "The Bahamas",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "the-bahamas",
+      "status": "fetched",
+      "title": "The Bahamas"
+    },
+    {
+      "entity": "Nassau",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "nassau",
+      "status": "no-source"
+    },
+    {
+      "entity": "Antigua and Barbuda",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "antigua-and-barbuda",
+      "status": "fetched",
+      "title": "Antigua and Barbuda"
+    },
+    {
+      "entity": "St. John's",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "st-john-s",
+      "status": "no-source"
+    },
+    {
+      "entity": "Honduras",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "honduras",
+      "status": "fetched",
+      "title": "Honduras"
+    },
+    {
+      "entity": "Tegucigalpa",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tegucigalpa",
+      "status": "fetched",
+      "title": "Tegucigalpa"
+    },
+    {
+      "entity": "Dominica",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "dominica",
+      "status": "fetched",
+      "title": "Dominica"
+    },
+    {
+      "entity": "Roseau",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "roseau",
+      "status": "fetched",
+      "title": "Roseau"
+    },
+    {
+      "entity": "Dominican Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "dominican-republic",
+      "status": "fetched",
+      "title": "Dominican Republic"
+    },
+    {
+      "entity": "Santo Domingo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "santo-domingo",
+      "status": "fetched",
+      "title": "Santo Domingo"
+    },
+    {
+      "entity": "Haiti",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "haiti",
+      "status": "fetched",
+      "title": "Haiti"
+    },
+    {
+      "entity": "Port-au-Prince",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "port-au-prince",
+      "status": "fetched",
+      "title": "Port-au-Prince"
+    },
+    {
+      "entity": "El Salvador",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "el-salvador",
+      "status": "fetched",
+      "title": "El Salvador"
+    },
+    {
+      "entity": "San Salvador",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "san-salvador",
+      "status": "fetched",
+      "title": "San Salvador"
+    },
+    {
+      "entity": "Iran",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "iran",
+      "status": "fetched",
+      "title": "Iran"
+    },
+    {
+      "entity": "Tehran",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tehran",
+      "status": "fetched",
+      "title": "Tehran"
+    },
+    {
+      "entity": "Iraq",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "iraq",
+      "status": "fetched",
+      "title": "Iraq"
+    },
+    {
+      "entity": "Baghdad",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "baghdad",
+      "status": "fetched",
+      "title": "Baghdad"
+    },
+    {
+      "entity": "Costa Rica",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "costa-rica",
+      "status": "fetched",
+      "title": "Costa Rica"
+    },
+    {
+      "entity": "San José",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "san-jose",
+      "status": "fetched",
+      "title": "San José"
+    },
+    {
+      "entity": "Israel",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "israel",
+      "status": "fetched",
+      "title": "Israel"
+    },
+    {
+      "entity": "Jerusalem",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "jerusalem",
+      "status": "fetched",
+      "title": "Jerusalem"
+    },
+    {
+      "entity": "Panama",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "panama",
+      "status": "fetched",
+      "title": "Panama"
+    },
+    {
+      "entity": "Panama City",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "panama-city",
+      "status": "fetched",
+      "title": "Panama City"
+    },
+    {
+      "entity": "Yemen",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "yemen",
+      "status": "fetched",
+      "title": "Yemen"
+    },
+    {
+      "entity": "Sanaa",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "sanaa",
+      "status": "fetched",
+      "title": "Sanaa"
+    },
+    {
+      "entity": "Aden",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "aden",
+      "status": "fetched",
+      "title": "Aden"
+    },
+    {
+      "entity": "Jordan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "jordan",
+      "status": "fetched",
+      "title": "Jordan"
+    },
+    {
+      "entity": "Amman",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "amman",
+      "status": "fetched",
+      "title": "Amman"
+    },
+    {
+      "entity": "Nicaragua",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "nicaragua",
+      "status": "fetched",
+      "title": "Nicaragua"
+    },
+    {
+      "entity": "Managua",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "managua",
+      "status": "fetched",
+      "title": "Managua"
+    },
+    {
+      "entity": "Kyrgyzstan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kyrgyzstan",
+      "status": "fetched",
+      "title": "Kyrgyzstan"
+    },
+    {
+      "entity": "Bishkek",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bishkek",
+      "status": "fetched",
+      "title": "Bishkek"
+    },
+    {
+      "entity": "Kuwait",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kuwait",
+      "status": "fetched",
+      "title": "Kuwait"
+    },
+    {
+      "entity": "Kuwait City",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kuwait-city",
+      "status": "fetched",
+      "title": "Kuwait City"
+    },
+    {
+      "entity": "Laos",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "laos",
+      "status": "fetched",
+      "title": "Laos"
+    },
+    {
+      "entity": "Vientiane",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "vientiane",
+      "status": "fetched",
+      "title": "Vientiane"
+    },
+    {
+      "entity": "Lebanon",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "lebanon",
+      "status": "fetched",
+      "title": "Lebanon"
+    },
+    {
+      "entity": "Beirut",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "beirut",
+      "status": "fetched",
+      "title": "Beirut"
+    },
+    {
+      "entity": "Maldives",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "maldives",
+      "status": "fetched",
+      "title": "Maldives"
+    },
+    {
+      "entity": "Malé",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "male",
+      "status": "fetched",
+      "title": "Malé"
+    },
+    {
+      "entity": "Malaysia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "malaysia",
+      "status": "exists"
+    },
+    {
+      "entity": "Kuala Lumpur",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kuala-lumpur",
+      "status": "fetched",
+      "title": "Kuala Lumpur"
+    },
+    {
+      "entity": "Myanmar",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "myanmar",
+      "status": "exists"
+    },
+    {
+      "entity": "Naypyidaw",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "naypyidaw",
+      "status": "fetched",
+      "title": "Naypyidaw"
+    },
+    {
+      "entity": "Nepal",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "nepal",
+      "status": "fetched",
+      "title": "Nepal"
+    },
+    {
+      "entity": "Kathmandu",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kathmandu",
+      "status": "fetched",
+      "title": "Kathmandu"
+    },
+    {
+      "entity": "Oman",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "oman",
+      "status": "exists"
+    },
+    {
+      "entity": "Muscat",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "muscat",
+      "status": "fetched",
+      "title": "Muscat"
+    },
+    {
+      "entity": "Pakistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "pakistan",
+      "status": "fetched",
+      "title": "Pakistan"
+    },
+    {
+      "entity": "Islamabad",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "islamabad",
+      "status": "fetched",
+      "title": "Islamabad"
+    },
+    {
+      "entity": "Qatar",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "qatar",
+      "status": "fetched",
+      "title": "Qatar"
+    },
+    {
+      "entity": "Doha",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "doha",
+      "status": "fetched",
+      "title": "Doha"
+    },
+    {
+      "entity": "Saudi Arabia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "saudi-arabia",
+      "status": "fetched",
+      "title": "Saudi Arabia"
+    },
+    {
+      "entity": "Riyadh",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "riyadh",
+      "status": "exists"
+    },
+    {
+      "entity": "Sri Lanka",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "sri-lanka",
+      "status": "fetched",
+      "title": "Sri Lanka"
+    },
+    {
+      "entity": "Colombo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "colombo",
+      "status": "fetched",
+      "title": "Colombo"
+    },
+    {
+      "entity": "Sri Jayawardenepura Kotte",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "sri-jayawardenepura-kotte",
+      "status": "fetched",
+      "title": "Sri Jayawardenepura Kotte"
+    },
+    {
+      "entity": "Syria",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "syria",
+      "status": "fetched",
+      "title": "Syria"
+    },
+    {
+      "entity": "Damascus",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "damascus",
+      "status": "fetched",
+      "title": "Damascus"
+    },
+    {
+      "entity": "Tajikistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "tajikistan",
+      "status": "fetched",
+      "title": "Tajikistan"
+    },
+    {
+      "entity": "Dushanbe",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "dushanbe",
+      "status": "fetched",
+      "title": "Dushanbe"
+    },
+    {
+      "entity": "Taiwan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "taiwan",
+      "status": "fetched",
+      "title": "Taiwan"
+    },
+    {
+      "entity": "Taipei",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "taipei",
+      "status": "fetched",
+      "title": "Taipei"
+    },
+    {
+      "entity": "Thailand",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "thailand",
+      "status": "fetched",
+      "title": "Thailand"
+    },
+    {
+      "entity": "Bangkok",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bangkok",
+      "status": "fetched",
+      "title": "Bangkok"
+    },
+    {
+      "entity": "Turkmenistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "turkmenistan",
+      "status": "fetched",
+      "title": "Turkmenistan"
+    },
+    {
+      "entity": "Ashgabat",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ashgabat",
+      "status": "fetched",
+      "title": "Ashgabat"
+    },
+    {
+      "entity": "United Arab Emirates",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "united-arab-emirates",
+      "status": "fetched",
+      "title": "United Arab Emirates"
+    },
+    {
+      "entity": "Abu Dhabi",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "abu-dhabi",
+      "status": "fetched",
+      "title": "Abu Dhabi"
+    },
+    {
+      "entity": "Vietnam",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "vietnam",
+      "status": "fetched",
+      "title": "Vietnam"
+    },
+    {
+      "entity": "Hanoi",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "hanoi",
+      "status": "fetched",
+      "title": "Hanoi"
+    },
+    {
+      "entity": "South Korea",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "south-korea",
+      "status": "exists"
+    },
+    {
+      "entity": "Seoul",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "seoul",
+      "status": "fetched",
+      "title": "Seoul"
+    },
+    {
+      "entity": "Afghanistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "afghanistan",
+      "status": "fetched",
+      "title": "Afghanistan"
+    },
+    {
+      "entity": "Kabul",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kabul",
+      "status": "fetched",
+      "title": "Kabul"
+    },
+    {
+      "entity": "Bangladesh",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "bangladesh",
+      "status": "fetched",
+      "title": "Bangladesh"
+    },
+    {
+      "entity": "Dhaka",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "dhaka",
+      "status": "fetched",
+      "title": "Dhaka"
+    },
+    {
+      "entity": "Mali",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "mali",
+      "status": "fetched",
+      "title": "Mali"
+    },
+    {
+      "entity": "Bamako",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bamako",
+      "status": "fetched",
+      "title": "Bamako"
+    },
+    {
+      "entity": "Angola",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "angola",
+      "status": "fetched",
+      "title": "Angola"
+    },
+    {
+      "entity": "Luanda",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "luanda",
+      "status": "fetched",
+      "title": "Luanda"
+    },
+    {
+      "entity": "Bhutan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "bhutan",
+      "status": "fetched",
+      "title": "Bhutan"
+    },
+    {
+      "entity": "Thimphu",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "thimphu",
+      "status": "fetched",
+      "title": "Thimphu"
+    },
+    {
+      "entity": "Brunei",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "brunei",
+      "status": "fetched",
+      "title": "Brunei"
+    },
+    {
+      "entity": "Bandar Seri Begawan",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bandar-seri-begawan",
+      "status": "fetched",
+      "title": "Bandar Seri Begawan"
+    },
+    {
+      "entity": "Tanzania",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "tanzania",
+      "status": "fetched",
+      "title": "Tanzania"
+    },
+    {
+      "entity": "Dodoma",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "dodoma",
+      "status": "fetched",
+      "title": "Dodoma"
+    },
+    {
+      "entity": "Philippines",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "philippines",
+      "status": "fetched",
+      "title": "Philippines"
+    },
+    {
+      "entity": "Manila",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "manila",
+      "status": "fetched",
+      "title": "Manila"
+    },
+    {
+      "entity": "Central African Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "central-african-republic",
+      "status": "fetched",
+      "title": "Central African Republic"
+    },
+    {
+      "entity": "Bangui",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bangui",
+      "status": "fetched",
+      "title": "Bangui"
+    },
+    {
+      "entity": "Togo",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "togo",
+      "status": "fetched",
+      "title": "Togo"
+    },
+    {
+      "entity": "Lomé",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "lome",
+      "status": "fetched",
+      "title": "Lomé"
+    },
+    {
+      "entity": "Tunisia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "tunisia",
+      "status": "fetched",
+      "title": "Tunisia"
+    },
+    {
+      "entity": "Tunis",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tunis",
+      "status": "fetched",
+      "title": "Tunis"
+    },
+    {
+      "entity": "Zambia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "zambia",
+      "status": "fetched",
+      "title": "Zambia"
+    },
+    {
+      "entity": "Lusaka",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "lusaka",
+      "status": "fetched",
+      "title": "Lusaka"
+    },
+    {
+      "entity": "Zimbabwe",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "zimbabwe",
+      "status": "fetched",
+      "title": "Zimbabwe"
+    },
+    {
+      "entity": "Harare",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "harare",
+      "status": "fetched",
+      "title": "Harare"
+    },
+    {
+      "entity": "South Sudan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "south-sudan",
+      "status": "fetched",
+      "title": "South Sudan"
+    },
+    {
+      "entity": "Juba",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "juba",
+      "status": "fetched",
+      "title": "Juba"
+    },
+    {
+      "entity": "Benin",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "benin",
+      "status": "fetched",
+      "title": "Benin"
+    },
+    {
+      "entity": "Porto-Novo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "porto-novo",
+      "status": "fetched",
+      "title": "Porto-Novo"
+    },
+    {
+      "entity": "Botswana",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "botswana",
+      "status": "fetched",
+      "title": "Botswana"
+    },
+    {
+      "entity": "Gaborone",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "gaborone",
+      "status": "fetched",
+      "title": "Gaborone"
+    },
+    {
+      "entity": "Burkina Faso",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "burkina-faso",
+      "status": "fetched",
+      "title": "Burkina Faso"
+    },
+    {
+      "entity": "Ouagadougou",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ouagadougou",
+      "status": "fetched",
+      "title": "Ouagadougou"
+    },
+    {
+      "entity": "Burundi",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "burundi",
+      "status": "fetched",
+      "title": "Burundi"
+    },
+    {
+      "entity": "Gitega",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "gitega",
+      "status": "fetched",
+      "title": "Gitega"
+    },
+    {
+      "entity": "Comoros",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "comoros",
+      "status": "fetched",
+      "title": "Comoros"
+    },
+    {
+      "entity": "Moroni",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "moroni",
+      "status": "fetched",
+      "title": "Moroni"
+    },
+    {
+      "entity": "Republic of the Congo",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "republic-of-the-congo",
+      "status": "fetched",
+      "title": "Republic of the Congo"
+    },
+    {
+      "entity": "Brazzaville",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "brazzaville",
+      "status": "fetched",
+      "title": "Brazzaville"
+    },
+    {
+      "entity": "Democratic Republic of the Congo",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "democratic-republic-of-the-congo",
+      "status": "fetched",
+      "title": "Democratic Republic of the Congo"
+    },
+    {
+      "entity": "Kinshasa",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kinshasa",
+      "status": "fetched",
+      "title": "Kinshasa"
+    },
+    {
+      "entity": "Djibouti",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "djibouti",
+      "status": "fetched",
+      "title": "Djibouti"
+    },
+    {
+      "entity": "Equatorial Guinea",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "equatorial-guinea",
+      "status": "fetched",
+      "title": "Equatorial Guinea"
+    },
+    {
+      "entity": "Ciudad de la Paz",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ciudad-de-la-paz",
+      "status": "fetched",
+      "title": "Ciudad de la Paz"
+    },
+    {
+      "entity": "Eritrea",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "eritrea",
+      "status": "fetched",
+      "title": "Eritrea"
+    },
+    {
+      "entity": "Asmara",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "asmara",
+      "status": "fetched",
+      "title": "Asmara"
+    },
+    {
+      "entity": "Gabon",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "gabon",
+      "status": "fetched",
+      "title": "Gabon"
+    },
+    {
+      "entity": "Libreville",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "libreville",
+      "status": "fetched",
+      "title": "Libreville"
+    },
+    {
+      "entity": "The Gambia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "the-gambia",
+      "status": "fetched",
+      "title": "The Gambia"
+    },
+    {
+      "entity": "Banjul",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "banjul",
+      "status": "fetched",
+      "title": "Banjul"
+    },
+    {
+      "entity": "Guinea",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "guinea",
+      "status": "fetched",
+      "title": "Guinea"
+    },
+    {
+      "entity": "Conakry",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "conakry",
+      "status": "fetched",
+      "title": "Conakry"
+    },
+    {
+      "entity": "Guinea-Bissau",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "guinea-bissau",
+      "status": "fetched",
+      "title": "Guinea-Bissau"
+    },
+    {
+      "entity": "Bissau",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bissau",
+      "status": "fetched",
+      "title": "Bissau"
+    },
+    {
+      "entity": "Ivory Coast",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "ivory-coast",
+      "status": "fetched",
+      "title": "Ivory Coast"
+    },
+    {
+      "entity": "Yamoussoukro",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "yamoussoukro",
+      "status": "fetched",
+      "title": "Yamoussoukro"
+    },
+    {
+      "entity": "Cameroon",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "cameroon",
+      "status": "fetched",
+      "title": "Cameroon"
+    },
+    {
+      "entity": "Yaoundé",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "yaounde",
+      "status": "fetched",
+      "title": "Yaoundé"
+    },
+    {
+      "entity": "Cape Verde",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "cape-verde",
+      "status": "fetched",
+      "title": "Cape Verde"
+    },
+    {
+      "entity": "Praia",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "praia",
+      "status": "fetched",
+      "title": "Praia"
+    },
+    {
+      "entity": "Lesotho",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "lesotho",
+      "status": "fetched",
+      "title": "Lesotho"
+    },
+    {
+      "entity": "Maseru",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "maseru",
+      "status": "fetched",
+      "title": "Maseru"
+    },
+    {
+      "entity": "Liberia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "liberia",
+      "status": "fetched",
+      "title": "Liberia"
+    },
+    {
+      "entity": "Monrovia",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "monrovia",
+      "status": "fetched",
+      "title": "Monrovia"
+    },
+    {
+      "entity": "Libya",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "libya",
+      "status": "fetched",
+      "title": "Libya"
+    },
+    {
+      "entity": "Tripoli",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "tripoli",
+      "status": "no-source"
+    },
+    {
+      "entity": "Madagascar",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "madagascar",
+      "status": "fetched",
+      "title": "Madagascar"
+    },
+    {
+      "entity": "Antananarivo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "antananarivo",
+      "status": "fetched",
+      "title": "Antananarivo"
+    },
+    {
+      "entity": "Malawi",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "malawi",
+      "status": "fetched",
+      "title": "Malawi"
+    },
+    {
+      "entity": "Lilongwe",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "lilongwe",
+      "status": "fetched",
+      "title": "Lilongwe"
+    },
+    {
+      "entity": "Mauritania",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "mauritania",
+      "status": "fetched",
+      "title": "Mauritania"
+    },
+    {
+      "entity": "Nouakchott",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "nouakchott",
+      "status": "fetched",
+      "title": "Nouakchott"
+    },
+    {
+      "entity": "Mauritius",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "mauritius",
+      "status": "fetched",
+      "title": "Mauritius"
+    },
+    {
+      "entity": "Port Louis",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "port-louis",
+      "status": "fetched",
+      "title": "Port Louis"
+    },
+    {
+      "entity": "Morocco",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "morocco",
+      "status": "fetched",
+      "title": "Morocco"
+    },
+    {
+      "entity": "Rabat",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "rabat",
+      "status": "fetched",
+      "title": "Rabat"
+    },
+    {
+      "entity": "Mozambique",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "mozambique",
+      "status": "fetched",
+      "title": "Mozambique"
+    },
+    {
+      "entity": "Maputo",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "maputo",
+      "status": "fetched",
+      "title": "Maputo"
+    },
+    {
+      "entity": "Namibia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "namibia",
+      "status": "fetched",
+      "title": "Namibia"
+    },
+    {
+      "entity": "Windhoek",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "windhoek",
+      "status": "fetched",
+      "title": "Windhoek"
+    },
+    {
+      "entity": "Niger",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "niger",
+      "status": "fetched",
+      "title": "Niger"
+    },
+    {
+      "entity": "Niamey",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "niamey",
+      "status": "fetched",
+      "title": "Niamey"
+    },
+    {
+      "entity": "Nigeria",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "nigeria",
+      "status": "fetched",
+      "title": "Nigeria"
+    },
+    {
+      "entity": "Abuja",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "abuja",
+      "status": "fetched",
+      "title": "Abuja"
+    },
+    {
+      "entity": "Uganda",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "uganda",
+      "status": "fetched",
+      "title": "Uganda"
+    },
+    {
+      "entity": "Kampala",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kampala",
+      "status": "fetched",
+      "title": "Kampala"
+    },
+    {
+      "entity": "Rwanda",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "rwanda",
+      "status": "exists"
+    },
+    {
+      "entity": "Kigali",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kigali",
+      "status": "fetched",
+      "title": "Kigali"
+    },
+    {
+      "entity": "São Tomé and Príncipe",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "sao-tome-and-principe",
+      "status": "fetched",
+      "title": "São Tomé and Príncipe"
+    },
+    {
+      "entity": "São Tomé",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "sao-tome",
+      "status": "fetched",
+      "title": "São Tomé"
+    },
+    {
+      "entity": "Senegal",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "senegal",
+      "status": "fetched",
+      "title": "Senegal"
+    },
+    {
+      "entity": "Dakar",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "dakar",
+      "status": "fetched",
+      "title": "Dakar"
+    },
+    {
+      "entity": "Seychelles",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "seychelles",
+      "status": "fetched",
+      "title": "Seychelles"
+    },
+    {
+      "entity": "Victoria",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "victoria",
+      "status": "fetched",
+      "title": "Victoria"
+    },
+    {
+      "entity": "Sierra Leone",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "sierra-leone",
+      "status": "fetched",
+      "title": "Sierra Leone"
+    },
+    {
+      "entity": "Freetown",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "freetown",
+      "status": "fetched",
+      "title": "Freetown"
+    },
+    {
+      "entity": "Somalia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "somalia",
+      "status": "fetched",
+      "title": "Somalia"
+    },
+    {
+      "entity": "Mogadishu",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "mogadishu",
+      "status": "fetched",
+      "title": "Mogadishu"
+    },
+    {
+      "entity": "Sudan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "sudan",
+      "status": "exists"
+    },
+    {
+      "entity": "Khartoum",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "khartoum",
+      "status": "fetched",
+      "title": "Khartoum"
+    },
+    {
+      "entity": "Eswatini",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "eswatini",
+      "status": "fetched",
+      "title": "Eswatini"
+    },
+    {
+      "entity": "Mbabane",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "mbabane",
+      "status": "fetched",
+      "title": "Mbabane"
+    },
+    {
+      "entity": "Lobamba",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "lobamba",
+      "status": "fetched",
+      "title": "Lobamba"
+    },
+    {
+      "entity": "Byelorussian Soviet Socialist Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "byelorussian-soviet-socialist-republic",
+      "status": "fetched",
+      "title": "Byelorussian Soviet Socialist Republic"
+    },
+    {
+      "entity": "Soviet Union",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "soviet-union",
+      "status": "fetched",
+      "title": "Soviet Union"
+    },
+    {
+      "entity": "German Democratic Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "german-democratic-republic",
+      "status": "fetched",
+      "title": "East Germany"
+    },
+    {
+      "entity": "East Berlin",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "east-berlin",
+      "status": "fetched",
+      "title": "East Berlin"
+    },
+    {
+      "entity": "Kingdom of the Netherlands",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kingdom-of-the-netherlands",
+      "status": "fetched",
+      "title": "Kingdom of the Netherlands"
+    },
+    {
+      "entity": "Amsterdam",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "amsterdam",
+      "status": "fetched",
+      "title": "Amsterdam"
+    },
+    {
+      "entity": "Czechoslovakia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "czechoslovakia",
+      "status": "fetched",
+      "title": "Czechoslovakia"
+    },
+    {
+      "entity": "Trinidad and Tobago",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "trinidad-and-tobago",
+      "status": "fetched",
+      "title": "Trinidad and Tobago"
+    },
+    {
+      "entity": "Port of Spain",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "port-of-spain",
+      "status": "fetched",
+      "title": "Port of Spain"
+    },
+    {
+      "entity": "Saint Vincent and the Grenadines",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "saint-vincent-and-the-grenadines",
+      "status": "fetched",
+      "title": "Saint Vincent and the Grenadines"
+    },
+    {
+      "entity": "Kingstown",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kingstown",
+      "status": "fetched",
+      "title": "Kingstown"
+    },
+    {
+      "entity": "Saint Lucia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "saint-lucia",
+      "status": "fetched",
+      "title": "Saint Lucia"
+    },
+    {
+      "entity": "Castries",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "castries",
+      "status": "fetched",
+      "title": "Castries"
+    },
+    {
+      "entity": "Yugoslavia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "yugoslavia",
+      "status": "fetched",
+      "title": "Yugoslavia"
+    },
+    {
+      "entity": "Commonwealth of the Philippines",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "commonwealth-of-the-philippines",
+      "status": "fetched",
+      "title": "Commonwealth of the Philippines"
+    },
+    {
+      "entity": "United Arab Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "united-arab-republic",
+      "status": "fetched",
+      "title": "United Arab Republic"
+    },
+    {
+      "entity": "Union of South Africa",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "union-of-south-africa",
+      "status": "fetched",
+      "title": "Union of South Africa"
+    },
+    {
+      "entity": "South Yemen",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "south-yemen",
+      "status": "fetched",
+      "title": "South Yemen"
+    },
+    {
+      "entity": "Tanganyika",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "tanganyika",
+      "status": "no-source"
+    },
+    {
+      "entity": "Dar es Salaam",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "dar-es-salaam",
+      "status": "fetched",
+      "title": "Dar es Salaam"
+    },
+    {
+      "entity": "Democratic Republic of Afghanistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "democratic-republic-of-afghanistan",
+      "status": "fetched",
+      "title": "Democratic Republic of Afghanistan"
+    },
+    {
+      "entity": "People's Republic of Mozambique",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "people-s-republic-of-mozambique",
+      "status": "fetched",
+      "title": "People's Republic of Mozambique"
+    },
+    {
+      "entity": "Republic of the Congo (Léopoldville)",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "republic-of-the-congo-leopoldville",
+      "status": "fetched",
+      "title": "First Congolese Republic"
+    },
+    {
+      "entity": "West Germany",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "west-germany",
+      "status": "fetched",
+      "title": "West Germany"
+    },
+    {
+      "entity": "Bonn",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bonn",
+      "status": "fetched",
+      "title": "Bonn"
+    },
+    {
+      "entity": "Kingdom of Denmark",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kingdom-of-denmark",
+      "status": "fetched",
+      "title": "Danish Realm"
+    },
+    {
+      "entity": "Copenhagen",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "copenhagen",
+      "status": "fetched",
+      "title": "Copenhagen"
+    },
+    {
+      "entity": "Estado Novo",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "estado-novo",
+      "status": "fetched",
+      "title": "Estado Novo"
+    },
+    {
+      "entity": "People's Republic of Benin",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "people-s-republic-of-benin",
+      "status": "fetched",
+      "title": "People's Republic of Benin"
+    },
+    {
+      "entity": "Kingdom of Laos",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kingdom-of-laos",
+      "status": "fetched",
+      "title": "Kingdom of Laos"
+    },
+    {
+      "entity": "Luang Prabang",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "luang-prabang",
+      "status": "fetched",
+      "title": "Luang Prabang"
+    },
+    {
+      "entity": "Khmer Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "khmer-republic",
+      "status": "fetched",
+      "title": "Khmer Republic"
+    },
+    {
+      "entity": "Kingdom of Nepal",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kingdom-of-nepal",
+      "status": "fetched",
+      "title": "Kingdom of Nepal"
+    },
+    {
+      "entity": "Kingdom of Afghanistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kingdom-of-afghanistan",
+      "status": "fetched",
+      "title": "Kingdom of Afghanistan"
+    },
+    {
+      "entity": "Kingdom of Burundi",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "kingdom-of-burundi",
+      "status": "fetched",
+      "title": "Kingdom of Burundi"
+    },
+    {
+      "entity": "Bujumbura",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "bujumbura",
+      "status": "fetched",
+      "title": "Bujumbura"
+    },
+    {
+      "entity": "Republic of Afghanistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "republic-of-afghanistan",
+      "status": "fetched",
+      "title": "Republic of Afghanistan"
+    },
+    {
+      "entity": "Islamic State of Afghanistan",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "islamic-state-of-afghanistan",
+      "status": "fetched",
+      "title": "Islamic State of Afghanistan"
+    },
+    {
+      "entity": "Somali Democratic Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "somali-democratic-republic",
+      "status": "fetched",
+      "title": "Somali Democratic Republic"
+    },
+    {
+      "entity": "Federation of Malaya",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "federation-of-malaya",
+      "status": "fetched",
+      "title": "Federation of Malaya"
+    },
+    {
+      "entity": "Libyan Arab Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "libyan-arab-republic",
+      "status": "fetched",
+      "title": "History of Libya under Muammar Gaddafi"
+    },
+    {
+      "entity": "Great Socialist People's Libyan Arab Jamahiriya",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "great-socialist-people-s-libyan-arab-jamahiriya",
+      "status": "fetched",
+      "title": "History of Libya under Muammar Gaddafi"
+    },
+    {
+      "entity": "Commonwealth realm of Guyana",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "commonwealth-realm-of-guyana",
+      "status": "fetched",
+      "title": "Guyana (1966–1970)"
+    },
+    {
+      "entity": "Third Republic of the Philippines",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "third-republic-of-the-philippines",
+      "status": "fetched",
+      "title": "History of the Philippines (1946–1965)"
+    },
+    {
+      "entity": "Commonwealth realm of the Gambia",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "commonwealth-realm-of-the-gambia",
+      "status": "fetched",
+      "title": "The Gambia (1965–1970)"
+    },
+    {
+      "entity": "Republic of China",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "republic-of-china",
+      "status": "fetched",
+      "title": "Taiwan"
+    },
+    {
+      "entity": "Jingzhao",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "jingzhao",
+      "status": "no-source"
+    },
+    {
+      "entity": "Shuntian Fu",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "shuntian-fu",
+      "status": "fetched",
+      "title": "Shuntian Prefecture"
+    },
+    {
+      "entity": "Nan-ching",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "nan-ching",
+      "status": "fetched",
+      "title": "Nanjing"
+    },
+    {
+      "entity": "Nanjing Fu",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "nanjing-fu",
+      "status": "fetched",
+      "title": "Presidential Palace (Nanjing)"
+    },
+    {
+      "entity": "Ch'ung-ch'ing",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "ch-ung-ch-ing",
+      "status": "fetched",
+      "title": "Chongqing"
+    },
+    {
+      "entity": "Kuang-chou",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "kuang-chou",
+      "status": "fetched",
+      "title": "Guangzhou"
+    },
+    {
+      "entity": "Francoist Spain",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "francoist-spain",
+      "status": "fetched",
+      "title": "Francoist Spain"
+    },
+    {
+      "entity": "Salamanca",
+      "subcategory_name": "World Capitals",
+      "theme": "capital",
+      "slug": "salamanca",
+      "status": "fetched",
+      "title": "Salamanca"
+    },
+    {
+      "entity": "Republic of Cuba",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "republic-of-cuba",
+      "status": "fetched",
+      "title": "Cuba"
+    },
+    {
+      "entity": "Federal Islamic Republic of the Comoros",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "federal-islamic-republic-of-the-comoros",
+      "status": "fetched",
+      "title": "History of the Comoros (1978–2001)"
+    },
+    {
+      "entity": "Third Hellenic Republic",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "third-hellenic-republic",
+      "status": "fetched",
+      "title": "Third Hellenic Republic"
+    },
+    {
+      "entity": "realm of the United Kingdom",
+      "subcategory_name": "Countries & Borders",
+      "theme": "country",
+      "slug": "realm-of-the-united-kingdom",
+      "status": "fetched",
+      "title": "Danish Realm"
+    },
+    {
+      "entity": "Alabama",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "alabama",
+      "status": "exists"
+    },
+    {
+      "entity": "Alaska",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "alaska",
+      "status": "exists"
+    },
+    {
+      "entity": "Arizona",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "arizona",
+      "status": "exists"
+    },
+    {
+      "entity": "Arkansas",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "arkansas",
+      "status": "exists"
+    },
+    {
+      "entity": "California",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "california",
+      "status": "exists"
+    },
+    {
+      "entity": "Colorado",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "colorado",
+      "status": "exists"
+    },
+    {
+      "entity": "Connecticut",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "connecticut",
+      "status": "exists"
+    },
+    {
+      "entity": "Delaware",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "delaware",
+      "status": "exists"
+    },
+    {
+      "entity": "Florida",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "florida",
+      "status": "exists"
+    },
+    {
+      "entity": "Georgia (U.S. state)",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "georgia-u-s-state",
+      "status": "exists"
+    },
+    {
+      "entity": "Hawaii",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "hawaii",
+      "status": "fetched",
+      "title": "Hawaii"
+    },
+    {
+      "entity": "Idaho",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "idaho",
+      "status": "fetched",
+      "title": "Idaho"
+    },
+    {
+      "entity": "Illinois",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "illinois",
+      "status": "fetched",
+      "title": "Illinois"
+    },
+    {
+      "entity": "Indiana",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "indiana",
+      "status": "fetched",
+      "title": "Indiana"
+    },
+    {
+      "entity": "Iowa",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "iowa",
+      "status": "exists"
+    },
+    {
+      "entity": "Kansas",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "kansas",
+      "status": "fetched",
+      "title": "Kansas"
+    },
+    {
+      "entity": "Kentucky",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "kentucky",
+      "status": "fetched",
+      "title": "Kentucky"
+    },
+    {
+      "entity": "Louisiana",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "louisiana",
+      "status": "exists"
+    },
+    {
+      "entity": "Maine",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "maine",
+      "status": "fetched",
+      "title": "Maine"
+    },
+    {
+      "entity": "Maryland",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "maryland",
+      "status": "fetched",
+      "title": "Maryland"
+    },
+    {
+      "entity": "Massachusetts",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "massachusetts",
+      "status": "fetched",
+      "title": "Massachusetts"
+    },
+    {
+      "entity": "Michigan",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "michigan",
+      "status": "fetched",
+      "title": "Michigan"
+    },
+    {
+      "entity": "Minnesota",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "minnesota",
+      "status": "fetched",
+      "title": "Minnesota"
+    },
+    {
+      "entity": "Mississippi",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "mississippi",
+      "status": "fetched",
+      "title": "Mississippi"
+    },
+    {
+      "entity": "Missouri",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "missouri",
+      "status": "fetched",
+      "title": "Missouri"
+    },
+    {
+      "entity": "Montana",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "montana",
+      "status": "fetched",
+      "title": "Montana"
+    },
+    {
+      "entity": "Nebraska",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "nebraska",
+      "status": "fetched",
+      "title": "Nebraska"
+    },
+    {
+      "entity": "Nevada",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "nevada",
+      "status": "fetched",
+      "title": "Nevada"
+    },
+    {
+      "entity": "New Hampshire",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "new-hampshire",
+      "status": "fetched",
+      "title": "New Hampshire"
+    },
+    {
+      "entity": "New Jersey",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "new-jersey",
+      "status": "fetched",
+      "title": "New Jersey"
+    },
+    {
+      "entity": "New Mexico",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "new-mexico",
+      "status": "fetched",
+      "title": "New Mexico"
+    },
+    {
+      "entity": "New York (state)",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "new-york-state",
+      "status": "fetched",
+      "title": "New York (state)"
+    },
+    {
+      "entity": "North Carolina",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "north-carolina",
+      "status": "fetched",
+      "title": "North Carolina"
+    },
+    {
+      "entity": "North Dakota",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "north-dakota",
+      "status": "fetched",
+      "title": "North Dakota"
+    },
+    {
+      "entity": "Ohio",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "ohio",
+      "status": "fetched",
+      "title": "Ohio"
+    },
+    {
+      "entity": "Oklahoma",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "oklahoma",
+      "status": "exists"
+    },
+    {
+      "entity": "Oregon",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "oregon",
+      "status": "fetched",
+      "title": "Oregon"
+    },
+    {
+      "entity": "Pennsylvania",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "pennsylvania",
+      "status": "fetched",
+      "title": "Pennsylvania"
+    },
+    {
+      "entity": "Rhode Island",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "rhode-island",
+      "status": "fetched",
+      "title": "Rhode Island"
+    },
+    {
+      "entity": "South Carolina",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "south-carolina",
+      "status": "fetched",
+      "title": "South Carolina"
+    },
+    {
+      "entity": "South Dakota",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "south-dakota",
+      "status": "fetched",
+      "title": "South Dakota"
+    },
+    {
+      "entity": "Tennessee",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "tennessee",
+      "status": "fetched",
+      "title": "Tennessee"
+    },
+    {
+      "entity": "Texas",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "texas",
+      "status": "fetched",
+      "title": "Texas"
+    },
+    {
+      "entity": "Utah",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "utah",
+      "status": "fetched",
+      "title": "Utah"
+    },
+    {
+      "entity": "Vermont",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "vermont",
+      "status": "fetched",
+      "title": "Vermont"
+    },
+    {
+      "entity": "Virginia",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "virginia",
+      "status": "fetched",
+      "title": "Virginia"
+    },
+    {
+      "entity": "Washington (state)",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "washington-state",
+      "status": "fetched",
+      "title": "Washington (state)"
+    },
+    {
+      "entity": "West Virginia",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "west-virginia",
+      "status": "fetched",
+      "title": "West Virginia"
+    },
+    {
+      "entity": "Wisconsin",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "wisconsin",
+      "status": "fetched",
+      "title": "Wisconsin"
+    },
+    {
+      "entity": "Wyoming",
+      "subcategory_name": "U.S. States & Cities",
+      "theme": "us-state",
+      "slug": "wyoming",
+      "status": "exists"
+    },
+    {
+      "entity": "Nile",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "nile",
+      "status": "fetched",
+      "title": "Nile"
+    },
+    {
+      "entity": "Amazon River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "amazon-river",
+      "status": "fetched",
+      "title": "Amazon River"
+    },
+    {
+      "entity": "Yangtze",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "yangtze",
+      "status": "fetched",
+      "title": "Yangtze"
+    },
+    {
+      "entity": "Mississippi River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "mississippi-river",
+      "status": "fetched",
+      "title": "Mississippi River"
+    },
+    {
+      "entity": "Yenisei",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "yenisei",
+      "status": "fetched",
+      "title": "Yenisei"
+    },
+    {
+      "entity": "Yellow River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "yellow-river",
+      "status": "fetched",
+      "title": "Yellow River"
+    },
+    {
+      "entity": "Ob River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "ob-river",
+      "status": "fetched",
+      "title": "Ob"
+    },
+    {
+      "entity": "Paraná River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "parana-river",
+      "status": "fetched",
+      "title": "Paraná River"
+    },
+    {
+      "entity": "Congo River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "congo-river",
+      "status": "fetched",
+      "title": "Congo River"
+    },
+    {
+      "entity": "Amur River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "amur-river",
+      "status": "fetched",
+      "title": "Amur"
+    },
+    {
+      "entity": "Lena River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "lena-river",
+      "status": "fetched",
+      "title": "Lena River"
+    },
+    {
+      "entity": "Mekong",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "mekong",
+      "status": "fetched",
+      "title": "Mekong"
+    },
+    {
+      "entity": "Mackenzie River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "mackenzie-river",
+      "status": "fetched",
+      "title": "Mackenzie River"
+    },
+    {
+      "entity": "Niger River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "niger-river",
+      "status": "fetched",
+      "title": "Niger River"
+    },
+    {
+      "entity": "Brahmaputra River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "brahmaputra-river",
+      "status": "fetched",
+      "title": "Brahmaputra River"
+    },
+    {
+      "entity": "Murray River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "murray-river",
+      "status": "fetched",
+      "title": "Murray River"
+    },
+    {
+      "entity": "Volga",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "volga",
+      "status": "fetched",
+      "title": "Volga"
+    },
+    {
+      "entity": "Indus River",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "indus-river",
+      "status": "fetched",
+      "title": "Indus River"
+    },
+    {
+      "entity": "Danube",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "danube",
+      "status": "fetched",
+      "title": "Danube"
+    },
+    {
+      "entity": "Tigris",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "river",
+      "slug": "tigris",
+      "status": "fetched",
+      "title": "Tigris"
+    },
+    {
+      "entity": "Pacific Ocean",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "ocean",
+      "slug": "pacific-ocean",
+      "status": "fetched",
+      "title": "Pacific Ocean"
+    },
+    {
+      "entity": "Atlantic Ocean",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "ocean",
+      "slug": "atlantic-ocean",
+      "status": "fetched",
+      "title": "Atlantic Ocean"
+    },
+    {
+      "entity": "Indian Ocean",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "ocean",
+      "slug": "indian-ocean",
+      "status": "fetched",
+      "title": "Indian Ocean"
+    },
+    {
+      "entity": "Southern Ocean",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "ocean",
+      "slug": "southern-ocean",
+      "status": "fetched",
+      "title": "Southern Ocean"
+    },
+    {
+      "entity": "Arctic Ocean",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "ocean",
+      "slug": "arctic-ocean",
+      "status": "fetched",
+      "title": "Arctic Ocean"
+    },
+    {
+      "entity": "Mediterranean Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "mediterranean-sea",
+      "status": "fetched",
+      "title": "Mediterranean Sea"
+    },
+    {
+      "entity": "Caribbean Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "caribbean-sea",
+      "status": "fetched",
+      "title": "Caribbean Sea"
+    },
+    {
+      "entity": "South China Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "south-china-sea",
+      "status": "fetched",
+      "title": "South China Sea"
+    },
+    {
+      "entity": "Red Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "red-sea",
+      "status": "fetched",
+      "title": "Red Sea"
+    },
+    {
+      "entity": "Black Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "black-sea",
+      "status": "fetched",
+      "title": "Black Sea"
+    },
+    {
+      "entity": "Baltic Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "baltic-sea",
+      "status": "fetched",
+      "title": "Baltic Sea"
+    },
+    {
+      "entity": "North Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "north-sea",
+      "status": "fetched",
+      "title": "North Sea"
+    },
+    {
+      "entity": "Arabian Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "arabian-sea",
+      "status": "fetched",
+      "title": "Arabian Sea"
+    },
+    {
+      "entity": "Bering Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "bering-sea",
+      "status": "fetched",
+      "title": "Bering Sea"
+    },
+    {
+      "entity": "Sea of Japan",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "sea-of-japan",
+      "status": "fetched",
+      "title": "Sea of Japan"
+    },
+    {
+      "entity": "Coral Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "coral-sea",
+      "status": "fetched",
+      "title": "Coral Sea"
+    },
+    {
+      "entity": "Tasman Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "tasman-sea",
+      "status": "fetched",
+      "title": "Tasman Sea"
+    },
+    {
+      "entity": "Andaman Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "andaman-sea",
+      "status": "fetched",
+      "title": "Andaman Sea"
+    },
+    {
+      "entity": "Sea of Okhotsk",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "sea-of-okhotsk",
+      "status": "fetched",
+      "title": "Sea of Okhotsk"
+    },
+    {
+      "entity": "Adriatic Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "adriatic-sea",
+      "status": "fetched",
+      "title": "Adriatic Sea"
+    },
+    {
+      "entity": "Aegean Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "sea",
+      "slug": "aegean-sea",
+      "status": "fetched",
+      "title": "Aegean Sea"
+    },
+    {
+      "entity": "Caspian Sea",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "caspian-sea",
+      "status": "fetched",
+      "title": "Caspian Sea"
+    },
+    {
+      "entity": "Lake Superior",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-superior",
+      "status": "fetched",
+      "title": "Lake Superior"
+    },
+    {
+      "entity": "Lake Victoria",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-victoria",
+      "status": "fetched",
+      "title": "Lake Victoria"
+    },
+    {
+      "entity": "Lake Huron",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-huron",
+      "status": "fetched",
+      "title": "Lake Huron"
+    },
+    {
+      "entity": "Lake Michigan",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-michigan",
+      "status": "fetched",
+      "title": "Lake Michigan"
+    },
+    {
+      "entity": "Lake Tanganyika",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-tanganyika",
+      "status": "fetched",
+      "title": "Lake Tanganyika"
+    },
+    {
+      "entity": "Lake Baikal",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-baikal",
+      "status": "fetched",
+      "title": "Lake Baikal"
+    },
+    {
+      "entity": "Great Bear Lake",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "great-bear-lake",
+      "status": "fetched",
+      "title": "Great Bear Lake"
+    },
+    {
+      "entity": "Lake Malawi",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-malawi",
+      "status": "fetched",
+      "title": "Lake Malawi"
+    },
+    {
+      "entity": "Great Slave Lake",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "great-slave-lake",
+      "status": "fetched",
+      "title": "Great Slave Lake"
+    },
+    {
+      "entity": "Lake Erie",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-erie",
+      "status": "fetched",
+      "title": "Lake Erie"
+    },
+    {
+      "entity": "Lake Winnipeg",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-winnipeg",
+      "status": "fetched",
+      "title": "Lake Winnipeg"
+    },
+    {
+      "entity": "Lake Ontario",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-ontario",
+      "status": "fetched",
+      "title": "Lake Ontario"
+    },
+    {
+      "entity": "Lake Ladoga",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-ladoga",
+      "status": "fetched",
+      "title": "Lake Ladoga"
+    },
+    {
+      "entity": "Lake Balkhash",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-balkhash",
+      "status": "fetched",
+      "title": "Lake Balkhash"
+    },
+    {
+      "entity": "Lake Vostok",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-vostok",
+      "status": "fetched",
+      "title": "Lake Vostok"
+    },
+    {
+      "entity": "Lake Onega",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-onega",
+      "status": "fetched",
+      "title": "Lake Onega"
+    },
+    {
+      "entity": "Lake Titicaca",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-titicaca",
+      "status": "fetched",
+      "title": "Lake Titicaca"
+    },
+    {
+      "entity": "Lake Nicaragua",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-nicaragua",
+      "status": "fetched",
+      "title": "Lake Nicaragua"
+    },
+    {
+      "entity": "Lake Athabasca",
+      "subcategory_name": "Rivers, Lakes & Seas",
+      "theme": "lake",
+      "slug": "lake-athabasca",
+      "status": "fetched",
+      "title": "Lake Athabasca"
+    },
+    {
+      "entity": "Andes",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "andes",
+      "status": "fetched",
+      "title": "Andes"
+    },
+    {
+      "entity": "Himalayas",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "himalayas",
+      "status": "fetched",
+      "title": "Himalayas"
+    },
+    {
+      "entity": "Rocky Mountains",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "rocky-mountains",
+      "status": "fetched",
+      "title": "Rocky Mountains"
+    },
+    {
+      "entity": "Alps",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "alps",
+      "status": "fetched",
+      "title": "Alps"
+    },
+    {
+      "entity": "Ural Mountains",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "ural-mountains",
+      "status": "fetched",
+      "title": "Ural Mountains"
+    },
+    {
+      "entity": "Atlas Mountains",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "atlas-mountains",
+      "status": "fetched",
+      "title": "Atlas Mountains"
+    },
+    {
+      "entity": "Appalachian Mountains",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "appalachian-mountains",
+      "status": "fetched",
+      "title": "Appalachian Mountains"
+    },
+    {
+      "entity": "Great Dividing Range",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "great-dividing-range",
+      "status": "fetched",
+      "title": "Great Dividing Range"
+    },
+    {
+      "entity": "Transantarctic Mountains",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "transantarctic-mountains",
+      "status": "fetched",
+      "title": "Transantarctic Mountains"
+    },
+    {
+      "entity": "Hindu Kush",
+      "subcategory_name": "Mountains & Deserts",
+      "theme": "mountain-range",
+      "slug": "hindu-kush",
+      "status": "fetched",
+      "title": "Hindu Kush"
+    },
+    {
+      "entity": "Yellowstone National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "yellowstone-national-park",
+      "status": "fetched",
+      "title": "Yellowstone National Park"
+    },
+    {
+      "entity": "Yosemite National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "yosemite-national-park",
+      "status": "fetched",
+      "title": "Yosemite National Park"
+    },
+    {
+      "entity": "Grand Canyon National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "grand-canyon-national-park",
+      "status": "fetched",
+      "title": "Grand Canyon National Park"
+    },
+    {
+      "entity": "Great Smoky Mountains National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "great-smoky-mountains-national-park",
+      "status": "fetched",
+      "title": "Great Smoky Mountains National Park"
+    },
+    {
+      "entity": "Zion National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "zion-national-park",
+      "status": "fetched",
+      "title": "Zion National Park"
+    },
+    {
+      "entity": "Rocky Mountain National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "rocky-mountain-national-park",
+      "status": "fetched",
+      "title": "Rocky Mountain National Park"
+    },
+    {
+      "entity": "Acadia National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "acadia-national-park",
+      "status": "fetched",
+      "title": "Acadia National Park"
+    },
+    {
+      "entity": "Grand Teton National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "grand-teton-national-park",
+      "status": "fetched",
+      "title": "Grand Teton National Park"
+    },
+    {
+      "entity": "Glacier National Park (U.S.)",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "glacier-national-park-u-s",
+      "status": "fetched",
+      "title": "Glacier National Park (U.S.)"
+    },
+    {
+      "entity": "Olympic National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "olympic-national-park",
+      "status": "fetched",
+      "title": "Olympic National Park"
+    },
+    {
+      "entity": "Denali National Park and Preserve",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "denali-national-park-and-preserve",
+      "status": "fetched",
+      "title": "Denali National Park and Preserve"
+    },
+    {
+      "entity": "Everglades National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "everglades-national-park",
+      "status": "fetched",
+      "title": "Everglades National Park"
+    },
+    {
+      "entity": "Banff National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "banff-national-park",
+      "status": "fetched",
+      "title": "Banff National Park"
+    },
+    {
+      "entity": "Jasper National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "jasper-national-park",
+      "status": "fetched",
+      "title": "Jasper National Park"
+    },
+    {
+      "entity": "Kruger National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "kruger-national-park",
+      "status": "fetched",
+      "title": "Kruger National Park"
+    },
+    {
+      "entity": "Serengeti National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "serengeti-national-park",
+      "status": "fetched",
+      "title": "Serengeti National Park"
+    },
+    {
+      "entity": "Galápagos National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "galapagos-national-park",
+      "status": "fetched",
+      "title": "Galápagos National Park"
+    },
+    {
+      "entity": "Plitvice Lakes National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "plitvice-lakes-national-park",
+      "status": "fetched",
+      "title": "Plitvice Lakes National Park"
+    },
+    {
+      "entity": "Torres del Paine National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "torres-del-paine-national-park",
+      "status": "fetched",
+      "title": "Torres del Paine National Park"
+    },
+    {
+      "entity": "Fiordland National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "fiordland-national-park",
+      "status": "fetched",
+      "title": "Fiordland National Park"
+    },
+    {
+      "entity": "Tongariro National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "tongariro-national-park",
+      "status": "fetched",
+      "title": "Tongariro National Park"
+    },
+    {
+      "entity": "Iguazú National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "iguazu-national-park",
+      "status": "fetched",
+      "title": "Iguazú National Park"
+    },
+    {
+      "entity": "Komodo National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "komodo-national-park",
+      "status": "fetched",
+      "title": "Komodo National Park"
+    },
+    {
+      "entity": "Sagarmatha National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "sagarmatha-national-park",
+      "status": "fetched",
+      "title": "Sagarmatha National Park"
+    },
+    {
+      "entity": "Kakadu National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "kakadu-national-park",
+      "status": "fetched",
+      "title": "Kakadu National Park"
+    },
+    {
+      "entity": "Etosha National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "etosha-national-park",
+      "status": "fetched",
+      "title": "Etosha National Park"
+    },
+    {
+      "entity": "Chitwan National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "chitwan-national-park",
+      "status": "fetched",
+      "title": "Chitwan National Park"
+    },
+    {
+      "entity": "Jim Corbett National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "jim-corbett-national-park",
+      "status": "fetched",
+      "title": "Jim Corbett National Park"
+    },
+    {
+      "entity": "Lake District National Park",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "lake-district-national-park",
+      "status": "fetched",
+      "title": "Lake District"
+    },
+    {
+      "entity": "Snowdonia",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "theme": "national-park",
+      "slug": "snowdonia",
+      "status": "fetched",
+      "title": "Snowdonia"
+    }
+  ]
+}

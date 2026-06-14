@@ -1,0 +1,79 @@
+{
+  "count": 3,
+  "updates": [
+    {
+      "id": "f5118f47-23d6-4a86-b9d6-685349159acf",
+      "previous": {
+        "clue": "Moore's law originally stated that the number of transistors on a microprocessor chip would double every...",
+        "answer": "Year",
+        "aliases": [],
+        "value": 600
+      },
+      "next": {
+        "clue": "Moore's law originally predicted the transistor count on integrated circuits would double after this many years.",
+        "answer": "Two years",
+        "aliases": [
+          "2 years",
+          "two years",
+          "24 months"
+        ],
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "rewrite",
+        "quality_score": 73,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "8bf1d2a2-eb20-4bea-89b7-feded0e9239d",
+      "previous": {
+        "clue": "This New York harbor statue was a gift from France.",
+        "answer": "Statue of Liberty",
+        "aliases": [
+          "the Statue of Liberty"
+        ],
+        "value": 200
+      },
+      "next": {
+        "clue": "This colossal figure in New York Harbor was a gift from France.",
+        "answer": "Statue of Liberty",
+        "aliases": [
+          "the Statue of Liberty"
+        ],
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "3fde99b0-7b86-47a2-9626-af321537e853",
+      "previous": {
+        "clue": "This idiom means to delay dealing with something: kick the can down the what.",
+        "answer": "Road",
+        "aliases": [
+          "road"
+        ],
+        "value": 600
+      },
+      "next": {
+        "clue": "In this idiom, delaying action is kicking the can farther down this.",
+        "answer": "Road",
+        "aliases": [
+          "road"
+        ],
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "low-anchor-density"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-06-03T05:51:08.349Z",
+  "source_note": "Calibration only. J! Archive clues are not imported or persisted; only aggregates and source references are stored.",
+  "paragon_note": "J! Archive clues are well-written by definition. keep/rewrite = our rules accept; replace/deactivate on a real clue = a false positive (too-harsh rule).",
+  "games": [
+    {
+      "gameId": "9202",
+      "url": "https://j-archive.com/showgame.php?game_id=9202",
+      "title": "Show #9337 - Tuesday, May 20, 2025",
+      "aired": "Tuesday, May 20, 2025",
+      "clue_count": 60
+    },
+    {
+      "gameId": "9171",
+      "url": "https://j-archive.com/showgame.php?game_id=9171",
+      "title": "Show #9314 - Thursday, April 17, 2025",
+      "aired": "Thursday, April 17, 2025",
+      "clue_count": 60
+    },
+    {
+      "gameId": "9121",
+      "url": "https://j-archive.com/showgame.php?game_id=9121",
+      "title": "Show #9269 - Thursday, February 13, 2025",
+      "aired": "Thursday, February 13, 2025",
+      "clue_count": 60
+    },
+    {
+      "gameId": "9095",
+      "url": "https://j-archive.com/showgame.php?game_id=9095",
+      "title": "Show #9248 - Wednesday, January 15, 2025",
+      "aired": "Wednesday, January 15, 2025",
+      "clue_count": 60
+    },
+    {
+      "gameId": "9086",
+      "url": "https://j-archive.com/showgame.php?game_id=9086",
+      "title": "Show #9241 - Monday, January 6, 2025",
+      "aired": "Monday, January 6, 2025",
+      "clue_count": 60
+    }
+  ],
+  "total_clues": 300,
+  "accept_rate": 100,
+  "gating_false_positive_rate": 0,
+  "mean_quality_score": 95.2,
+  "decision_counts": {
+    "keep": 283,
+    "rewrite": 17
+  },
+  "issue_counts": {
+    "missing-multiword-aliases": 157,
+    "feedback:answer-content-word-in-clue": 12,
+    "possibly-time-sensitive-pop-culture": 11,
+    "overlong-clue": 1,
+    "thin-clue": 1
+  },
+  "warning_counts": {
+    "unclear-answer-class": 29,
+    "low-anchor-density": 14
+  },
+  "false_positive_issue_counts": {},
+  "flagged_samples": []
+}

@@ -1,0 +1,459 @@
+{
+  "generated_at": "2026-06-02T04:54:14.400Z",
+  "total_active": 1200,
+  "flagged_total": 14,
+  "auto_fixable": 0,
+  "issue_counts": {
+    "common-short-answer-form-available": 10,
+    "low-value-long-specialist-answer": 4
+  },
+  "by_category": {
+    "history": {
+      "count": 1,
+      "auto_fixable": 0
+    },
+    "literature_books": {
+      "count": 1,
+      "auto_fixable": 0
+    },
+    "music_performing_arts": {
+      "count": 6,
+      "auto_fixable": 0
+    },
+    "pop_culture_media_modern_life": {
+      "count": 3,
+      "auto_fixable": 0
+    },
+    "science": {
+      "count": 3,
+      "auto_fixable": 0
+    }
+  },
+  "flagged": [
+    {
+      "id": "83c88aec-86fe-494a-a98c-cd2bd73defa9",
+      "source": "opentdb",
+      "external_id": "opentdb-1afe171fb5326f2d",
+      "category_id": "music_performing_arts",
+      "category_name": "Music & Performing Arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 6,
+      "issues": [
+        {
+          "code": "low-value-long-specialist-answer",
+          "severity": 6,
+          "note": "Long specialist answer form is likely harder than its current value.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "The Red Hot Chili Peppers song \"Give It Away\" is from what album.",
+      "answer": "Blood Sugar Sex Magik",
+      "aliases": [
+        "Blood Sugar Sex Magik"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "easy",
+        "free-response",
+        "quality-rewritten"
+      ]
+    },
+    {
+      "id": "14bea2e3-4c32-40ff-97a5-543027c8bc7b",
+      "source": "opentdb",
+      "external_id": "opentdb-fe86904c8c1186d2",
+      "category_id": "music_performing_arts",
+      "category_name": "Music & Performing Arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 6,
+      "issues": [
+        {
+          "code": "low-value-long-specialist-answer",
+          "severity": 6,
+          "note": "Long specialist answer form is likely harder than its current value.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "Bon Iver released this symbol-heavy album in 2016.",
+      "answer": "22, A Million",
+      "aliases": [
+        "22, A Million"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "easy",
+        "free-response",
+        "quality-rewritten"
+      ]
+    },
+    {
+      "id": "aff8200f-89c7-40ca-97ae-ee18e769508a",
+      "source": "opentdb",
+      "external_id": "opentdb-e4e8d7c0c26c902c",
+      "category_id": "music_performing_arts",
+      "category_name": "Music & Performing Arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 6,
+      "issues": [
+        {
+          "code": "low-value-long-specialist-answer",
+          "severity": 6,
+          "note": "Long specialist answer form is likely harder than its current value.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This punk rock band released hit songs such as \"Californication\", \"Can't Stop\" and \"Under the Bridge\".",
+      "answer": "Red Hot Chili Peppers",
+      "aliases": [
+        "Red Hot Chilli Peppers"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "easy",
+        "free-response",
+        "quality-rewritten"
+      ]
+    },
+    {
+      "id": "a2d25396-6726-40df-b722-7146c0720544",
+      "source": "opentdb",
+      "external_id": "opentdb-00376de72655ce91",
+      "category_id": "music_performing_arts",
+      "category_name": "Music & Performing Arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 6,
+      "issues": [
+        {
+          "code": "low-value-long-specialist-answer",
+          "severity": 6,
+          "note": "Long specialist answer form is likely harder than its current value.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This album by American rapper Kanye West contained songs such as \"Love Lockdown\", \"Paranoid\" and \"Heartless\".",
+      "answer": "808s & Heartbreak",
+      "aliases": [
+        "808s & Heartbreak",
+        "808s and Heartbreak"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "medium",
+        "free-response",
+        "quality-rewritten"
+      ]
+    },
+    {
+      "id": "fc4acc44-ba69-4edb-8e3c-4d0068be3393",
+      "source": "original_topoff_pack",
+      "external_id": "topoff-51bf3df872ffd77d",
+      "category_id": "history",
+      "category_name": "History",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"FDR\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This president served four elected terms and led the U.S. during most of World War II.",
+      "answer": "Franklin D. Roosevelt",
+      "aliases": [
+        "FDR",
+        "Franklin Roosevelt"
+      ],
+      "tags": [
+        "topoff-pack",
+        "presidents"
+      ]
+    },
+    {
+      "id": "8bedc90b-0411-42dc-bca7-8c558b786205",
+      "source": "original_topoff_pack",
+      "external_id": "topoff-401d503b92ac9e8b",
+      "category_id": "literature_books",
+      "category_name": "Literature & Books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"1984\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This George Orwell novel features Big Brother and the slogan War is Peace.",
+      "answer": "Nineteen Eighty-Four",
+      "aliases": [
+        "1984",
+        "Nineteen Eighty Four"
+      ],
+      "tags": [
+        "topoff-pack",
+        "british-literature"
+      ]
+    },
+    {
+      "id": "11f03fe7-e733-4c78-abc3-34e626810a9e",
+      "source": "opentdb",
+      "external_id": "opentdb-c91ccfdc340a0f14",
+      "category_id": "music_performing_arts",
+      "category_name": "Music & Performing Arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"Shine On\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "Pink Floyd made this song for their previous lead singer Syd Barrett.",
+      "answer": "Shine On You Crazy Diamond",
+      "aliases": [
+        "Shine On"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "medium",
+        "free-response",
+        "quality-rewritten"
+      ]
+    },
+    {
+      "id": "e04832d7-7a6e-49d5-8f32-6a486c8584ca",
+      "source": "original_topoff_pack",
+      "external_id": "topoff-78c63d92581afb96",
+      "category_id": "music_performing_arts",
+      "category_name": "Music & Performing Arts",
+      "subcategory_name": "Classical Composers",
+      "value": 200,
+      "difficulty_rank": 1,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"Mozart\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This Austrian child prodigy composed The Magic Flute and Don Giovanni.",
+      "answer": "Wolfgang Amadeus Mozart",
+      "aliases": [
+        "Mozart"
+      ],
+      "tags": [
+        "topoff-pack",
+        "classical"
+      ]
+    },
+    {
+      "id": "17808066-866f-4b3b-8764-7a696da39785",
+      "source": "original_topoff_pack",
+      "external_id": "topoff-354e6a60c4a5ea46",
+      "category_id": "pop_culture_media_modern_life",
+      "category_name": "Pop Culture, Media & Modern Life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"WHO\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This global health agency uses the abbreviation WHO.",
+      "answer": "World Health Organization",
+      "aliases": [
+        "WHO"
+      ],
+      "tags": [
+        "topoff-pack",
+        "current-affairs"
+      ]
+    },
+    {
+      "id": "0b1679cf-c619-4a41-8ba6-920887d4aad5",
+      "source": "original_topoff_pack",
+      "external_id": "topoff-793646a000a5bacb",
+      "category_id": "pop_culture_media_modern_life",
+      "category_name": "Pop Culture, Media & Modern Life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"JWST\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This space telescope released its first full-color images in 2022.",
+      "answer": "James Webb Space Telescope",
+      "aliases": [
+        "JWST"
+      ],
+      "tags": [
+        "topoff-pack",
+        "current-affairs"
+      ]
+    },
+    {
+      "id": "92aee2fd-9839-46d5-8e2c-e04b01a6d355",
+      "source": "original_strategy_pack",
+      "external_id": "strategy-pack-001-181-195c0cc2eb",
+      "category_id": "pop_culture_media_modern_life",
+      "category_name": "Pop Culture, Media & Modern Life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"E.T.\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This 1982 Spielberg film follows a stranded alien who wants to phone home.",
+      "answer": "E.T. the Extra-Terrestrial",
+      "aliases": [
+        "E.T.",
+        "ET"
+      ],
+      "tags": [
+        "strategy-pack",
+        "film"
+      ]
+    },
+    {
+      "id": "f248d459-ff72-4309-8f61-52b4ee213ded",
+      "source": "original_topoff_pack",
+      "external_id": "topoff-04b2061e851e5b51",
+      "category_id": "science",
+      "category_name": "Science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"Bell\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This Scottish inventor is often credited with improving the practical telephone.",
+      "answer": "Alexander Graham Bell",
+      "aliases": [
+        "Bell"
+      ],
+      "tags": [
+        "topoff-pack",
+        "inventions"
+      ]
+    },
+    {
+      "id": "d66f7ea1-5aff-4dd2-b46f-ba87f3f5853a",
+      "source": "original_topoff_pack",
+      "external_id": "topoff-9072eeb150857183",
+      "category_id": "science",
+      "category_name": "Science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 400,
+      "difficulty_rank": 2,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"Hubble\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This 1990 space telescope has produced famous deep-field images.",
+      "answer": "Hubble Space Telescope",
+      "aliases": [
+        "Hubble"
+      ],
+      "tags": [
+        "topoff-pack",
+        "space"
+      ]
+    },
+    {
+      "id": "20058b28-b019-46c1-aac1-1f8a5d441901",
+      "source": "original_strategy_pack",
+      "external_id": "strategy-pack-001-073-a74afed79e",
+      "category_id": "science",
+      "category_name": "Science",
+      "subcategory_name": "Earth Science",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "severity": 5,
+      "issues": [
+        {
+          "code": "common-short-answer-form-available",
+          "severity": 5,
+          "note": "Short alias \"EF scale\" may be the player-facing answer form.",
+          "auto_fix": false
+        }
+      ],
+      "fixes": null,
+      "clue": "This scale measures tornado intensity from EF0 to EF5.",
+      "answer": "Enhanced Fujita scale",
+      "aliases": [
+        "EF scale"
+      ],
+      "tags": [
+        "strategy-pack",
+        "earth-science"
+      ]
+    }
+  ]
+}

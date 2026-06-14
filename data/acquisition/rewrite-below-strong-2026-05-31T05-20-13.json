@@ -1,0 +1,569 @@
+{
+  "generated_at": "2026-05-31T05:20:13.467Z",
+  "dry_run": false,
+  "candidates": 56,
+  "changed": 39,
+  "unchanged": 17,
+  "changes": [
+    {
+      "id": "2ea98591-4aa5-45d0-9da5-a3fdb931527a",
+      "source": "manual_seed",
+      "category_id": "geography",
+      "previous_score": 77,
+      "previous_clue": "Capital of Chile.",
+      "next_clue": "This city is the capital of Chile.",
+      "previous_aliases": [
+        "Santiago"
+      ],
+      "next_aliases": [
+        "Santiago"
+      ]
+    },
+    {
+      "id": "a20a1947-b597-4269-8023-47656b45c014",
+      "source": "manual_seed",
+      "category_id": "language_wordplay",
+      "previous_score": 77,
+      "previous_clue": "Large body of salt water.",
+      "next_clue": "This is a large body of salt water.",
+      "previous_aliases": [
+        "Sea"
+      ],
+      "next_aliases": [
+        "Sea"
+      ]
+    },
+    {
+      "id": "8dbc4c97-9174-451b-91be-e2fcd5a76dda",
+      "source": "opentdb",
+      "category_id": "religion_mythology_philosophy",
+      "previous_score": 69,
+      "previous_clue": "Neptune's greek name was...",
+      "next_clue": "Neptune's Greek name was this.",
+      "previous_aliases": [
+        "Poseidon"
+      ],
+      "next_aliases": [
+        "Poseidon"
+      ]
+    },
+    {
+      "id": "e46f86dd-b0c0-44f3-8a16-9801c8874cb9",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 67,
+      "previous_clue": "Where does Stephen King's \"IT\" take place.",
+      "next_clue": "Stephen King's \"IT\" takes place here.",
+      "previous_aliases": [
+        "Derry, Maine"
+      ],
+      "next_aliases": [
+        "Derry, Maine"
+      ]
+    },
+    {
+      "id": "57752063-b108-42a2-9735-b7e389648d47",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 67,
+      "previous_clue": "Where does the book \"The Silence of the Lambs\" get its title from.",
+      "next_clue": "The book \"The Silence of the Lambs\" gets its title from this.",
+      "previous_aliases": [
+        "The main character's trauma in childhood",
+        "main character's trauma in childhood"
+      ],
+      "next_aliases": [
+        "The main character's trauma in childhood",
+        "main character's trauma in childhood"
+      ]
+    },
+    {
+      "id": "d17a6740-1b36-4e01-8ce6-b85a8e661973",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 67,
+      "previous_clue": "What was Sir Handel's original name in \"The Railway Series\" and it's animated counterpart \"Thomas and Friends?\"",
+      "next_clue": "This was Sir Handel's original name in \"The Railway Series\" and it's animated counterpart \"Thomas and Friends?\".",
+      "previous_aliases": [
+        "Falcon"
+      ],
+      "next_aliases": [
+        "Falcon"
+      ]
+    },
+    {
+      "id": "d4e6088d-f5c5-4999-9a90-60e8a0ea506d",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 77,
+      "previous_clue": "Former United States President Bill Clinton famously played which instrument.",
+      "next_clue": "Former United States President Bill Clinton famously played this instrument.",
+      "previous_aliases": [
+        "Saxophone"
+      ],
+      "next_aliases": [
+        "Saxophone"
+      ]
+    },
+    {
+      "id": "ab2d7d0b-0803-43ff-89d6-29315be9728c",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 77,
+      "previous_clue": "Whose 2016 presidential campaign slogan was \"Make America Great Again\".",
+      "next_clue": "This person's 2016 presidential campaign slogan was \"Make America Great Again\".",
+      "previous_aliases": [
+        "Donald Trump"
+      ],
+      "next_aliases": [
+        "Donald Trump"
+      ]
+    },
+    {
+      "id": "5182b475-b096-4fcb-ad7b-1d1a2fa75258",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 77,
+      "previous_clue": "Between 1973 to 1990, what country was ruled by dictator Augusto Pinochet.",
+      "next_clue": "Between 1973 to 1990, this country was ruled by dictator Augusto Pinochet.",
+      "previous_aliases": [
+        "Chile"
+      ],
+      "next_aliases": [
+        "Chile"
+      ]
+    },
+    {
+      "id": "298793a9-07ce-4b19-ac9f-ba8741ec8032",
+      "source": "opentdb",
+      "category_id": "history",
+      "previous_score": 67,
+      "previous_clue": "What country saw a world record 315 million voters turn out for elections on May 20, 1991.",
+      "next_clue": "This country saw a world record 315 million voters turn out for elections on May 20, 1991.",
+      "previous_aliases": [
+        "India"
+      ],
+      "next_aliases": [
+        "India"
+      ]
+    },
+    {
+      "id": "ea9b603b-17a0-41aa-8bd6-b8117c1afed6",
+      "source": "opentdb",
+      "category_id": "geography",
+      "previous_score": 67,
+      "previous_clue": "What city is known as the Rose Capital of the World.",
+      "next_clue": "This city is known as the Rose Capital of the World.",
+      "previous_aliases": [
+        "Tyler, Texas"
+      ],
+      "next_aliases": [
+        "Tyler, Texas"
+      ]
+    },
+    {
+      "id": "95aa828f-9e84-4eff-8119-c5ca58e78939",
+      "source": "opentdb",
+      "category_id": "geography",
+      "previous_score": 67,
+      "previous_clue": "When does Finland celebrate their independence day.",
+      "next_clue": "Finland celebrates their independence day on this date.",
+      "previous_aliases": [
+        "December 6th"
+      ],
+      "next_aliases": [
+        "December 6th"
+      ]
+    },
+    {
+      "id": "a884c2c3-c1e0-40eb-8700-851aebec8ffd",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 67,
+      "previous_clue": "Where does the Mac part of the name Fleetwood Mac come from.",
+      "next_clue": "The Mac part of the name Fleetwood Mac comes from this.",
+      "previous_aliases": [
+        "John McVie"
+      ],
+      "next_aliases": [
+        "John McVie"
+      ]
+    },
+    {
+      "id": "2ea6a321-e9b2-41e8-9920-45430955d4b1",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 67,
+      "previous_clue": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+      "next_clue": "This dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+      "previous_aliases": [
+        "Pugs"
+      ],
+      "next_aliases": [
+        "Pugs"
+      ]
+    },
+    {
+      "id": "0c253def-3336-49a9-b3fa-79da8a4fe81b",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 77,
+      "previous_clue": "Hippocampus is the Latin name for which marine creature.",
+      "next_clue": "Hippocampus is the Latin name for this marine creature.",
+      "previous_aliases": [
+        "Seahorse"
+      ],
+      "next_aliases": [
+        "Seahorse"
+      ]
+    },
+    {
+      "id": "34787211-e0bb-40e3-b702-2308d2953006",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 67,
+      "previous_clue": "What special item did the creators of Cards Against Humanity ship for their Black Friday pack.",
+      "next_clue": "The creators of Cards Against Humanity shipped this special item for their Black Friday pack.",
+      "previous_aliases": [
+        "Bull Feces"
+      ],
+      "next_aliases": [
+        "Bull Feces"
+      ]
+    },
+    {
+      "id": "f4711941-3420-487f-acb3-054eaf9c6cae",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 67,
+      "previous_clue": "What do you declare in Rīchi Mahjong when you've drawn your winning tile.",
+      "next_clue": "In Rīchi Mahjong, you declare this when you've drawn your winning tile.",
+      "previous_aliases": [
+        "Tsumo"
+      ],
+      "next_aliases": [
+        "Tsumo"
+      ]
+    },
+    {
+      "id": "2dec1198-2d2c-4cc1-8162-b8bbd70a13a4",
+      "source": "opentdb",
+      "category_id": "sports_games_leisure",
+      "previous_score": 67,
+      "previous_clue": "What happens when you roll 3 doubles in a row in Monopoly.",
+      "next_clue": "This happens when you roll 3 doubles in a row in Monopoly.",
+      "previous_aliases": [
+        "Go to jail"
+      ],
+      "next_aliases": [
+        "Go to jail"
+      ]
+    },
+    {
+      "id": "c0d1962e-6424-48b4-ac0e-d5d69664b299",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 77,
+      "previous_clue": "Antibiotics are generally taken to combat what.",
+      "next_clue": "Antibiotics are generally taken to combat this.",
+      "previous_aliases": [
+        "Bacterial infections"
+      ],
+      "next_aliases": [
+        "Bacterial infections"
+      ]
+    },
+    {
+      "id": "c0571439-b676-48ae-8480-15a83c91031e",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 69,
+      "previous_clue": "Trypophobia is the fear of",
+      "next_clue": "Trypophobia is the fear of this.",
+      "previous_aliases": [
+        "groups of holes"
+      ],
+      "next_aliases": [
+        "groups of holes"
+      ]
+    },
+    {
+      "id": "2fd48213-3d4d-4024-8ccf-bc5a66069cc7",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 67,
+      "previous_clue": "Who is the protagonist of the book: \"The Catcher in the Rye\" by J.D. Salinger",
+      "next_clue": "This character is the protagonist of the book: \"The Catcher in the Rye\" by J.D. Salinger.",
+      "previous_aliases": [
+        "Holden Caulfield"
+      ],
+      "next_aliases": [
+        "Holden Caulfield"
+      ]
+    },
+    {
+      "id": "b4afe290-8f2b-4cfd-812b-4caed4fcc384",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 67,
+      "previous_clue": "What position does Harry Potter play in Quidditch.",
+      "next_clue": "Harry Potter plays this position in Quidditch.",
+      "previous_aliases": [
+        "Seeker"
+      ],
+      "next_aliases": [
+        "Seeker"
+      ]
+    },
+    {
+      "id": "17ede08b-3769-457d-ae20-ff712d245cb3",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 77,
+      "previous_clue": "The book \"The Little Prince\" was written by...",
+      "next_clue": "The book \"The Little Prince\" was written by this author.",
+      "previous_aliases": [
+        "Antoine de Saint-Exupéry"
+      ],
+      "next_aliases": [
+        "Antoine de Saint-Exupéry"
+      ]
+    },
+    {
+      "id": "21b9b7ed-4130-454f-8b81-81a10f60ba0b",
+      "source": "opentdb",
+      "category_id": "geography",
+      "previous_score": 67,
+      "previous_clue": "What island in the Canary Islands was the scene of one of the worst air disasters in history with the collision of two jumbo jets.",
+      "next_clue": "This island in the Canary Islands was the scene of one of the worst air disasters in history with the collision of two jumbo jets.",
+      "previous_aliases": [
+        "Tenerife"
+      ],
+      "next_aliases": [
+        "Tenerife"
+      ]
+    },
+    {
+      "id": "f2fc110a-3aeb-45a4-be1a-5be5c89c3dde",
+      "source": "opentdb",
+      "category_id": "geography",
+      "previous_score": 67,
+      "previous_clue": "How tall is One World Trade Center in New York City.",
+      "next_clue": "One World Trade Center in New York City is this tall.",
+      "previous_aliases": [
+        "1,776 ft"
+      ],
+      "next_aliases": [
+        "1,776 ft"
+      ]
+    },
+    {
+      "id": "54d30652-c99d-4094-aad1-741fd76cff7c",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 67,
+      "previous_clue": "What musician made the song \"F**kin` Perfect\" in 2010.",
+      "next_clue": "This musician made the song \"F**kin` Perfect\" in 2010.",
+      "previous_aliases": [
+        "P!nk"
+      ],
+      "next_aliases": [
+        "P!nk"
+      ]
+    },
+    {
+      "id": "33809663-c88a-4574-995b-6374a679e1de",
+      "source": "opentdb",
+      "category_id": "music_performing_arts",
+      "previous_score": 67,
+      "previous_clue": "Where does \"Gasolina\" rapper Daddy Yankee originate from.",
+      "next_clue": "\"Gasolina\" rapper Daddy Yankee originates from here.",
+      "previous_aliases": [
+        "Puerto Rico"
+      ],
+      "next_aliases": [
+        "Puerto Rico"
+      ]
+    },
+    {
+      "id": "b50afe9d-d73e-4a3c-88ef-56538f7bd29b",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 77,
+      "previous_clue": "CMOS is tech used for constructing integrated circuits. What does CMOS stand for.",
+      "next_clue": "CMOS is tech used for constructing integrated circuits. CMOS stands for these words.",
+      "previous_aliases": [
+        "Complementary metal–oxide–semiconductor"
+      ],
+      "next_aliases": [
+        "Complementary metal–oxide–semiconductor"
+      ]
+    },
+    {
+      "id": "57c6ef1f-83a8-421a-993d-1d507e6d39d8",
+      "source": "opentdb",
+      "category_id": "pop_culture_media_modern_life",
+      "previous_score": 67,
+      "previous_clue": "What internet protocol was documented in RFC 1459.",
+      "next_clue": "This internet protocol was documented in RFC 1459.",
+      "previous_aliases": [
+        "IRC"
+      ],
+      "next_aliases": [
+        "IRC"
+      ]
+    },
+    {
+      "id": "f11d0a26-815a-46c6-a6c7-58a4d4a55273",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 67,
+      "previous_clue": "What prime number comes next after 19.",
+      "next_clue": "This prime number comes next after 19.",
+      "previous_aliases": [
+        "23"
+      ],
+      "next_aliases": [
+        "23"
+      ]
+    },
+    {
+      "id": "f1310271-7e44-4c32-ad17-5943f222f4e1",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 67,
+      "previous_clue": "What comes after a Million, a Billion, and a Trillion.",
+      "next_clue": "This comes after a Million, a Billion, and a Trillion.",
+      "previous_aliases": [
+        "Quadrillion"
+      ],
+      "next_aliases": [
+        "Quadrillion"
+      ]
+    },
+    {
+      "id": "00815935-abf4-43d0-8dfa-c3db9d406448",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 52,
+      "previous_clue": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+      "next_clue": "This many millibars equal 1 inch of mercury.",
+      "previous_aliases": [
+        "33.9"
+      ],
+      "next_aliases": [
+        "33.9"
+      ]
+    },
+    {
+      "id": "d3fd3801-bbd3-4b48-a8f7-9f4fbe3cea9c",
+      "source": "opentdb",
+      "category_id": "science",
+      "previous_score": 67,
+      "previous_clue": "What numbers are in the 5th row of Pascal's Triangle.",
+      "next_clue": "These numbers are in the 5th row of Pascal's Triangle.",
+      "previous_aliases": [
+        "1 4 6 4 1"
+      ],
+      "next_aliases": [
+        "1 4 6 4 1"
+      ]
+    },
+    {
+      "id": "c2d4497a-0749-4730-926c-e432ba988b54",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "previous_score": 77,
+      "previous_clue": "Opposite of left.",
+      "next_clue": "This is the opposite of left.",
+      "previous_aliases": [
+        "right",
+        "Right"
+      ],
+      "next_aliases": [
+        "right",
+        "Right"
+      ]
+    },
+    {
+      "id": "57d1f2c5-d025-42a2-90e2-91756e08cfd6",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "previous_score": 77,
+      "previous_clue": "Letter-shaped valley carved by glaciers.",
+      "next_clue": "This letter-shaped valley is carved by glaciers.",
+      "previous_aliases": [
+        "u-shaped valley",
+        "U-shaped valley"
+      ],
+      "next_aliases": [
+        "u-shaped valley",
+        "U-shaped valley"
+      ]
+    },
+    {
+      "id": "62975923-42b3-4819-9cb9-fde0c00e3ffb",
+      "source": "opentdb",
+      "category_id": "literature_books",
+      "previous_score": 67,
+      "previous_clue": "What book series published by Jim Butcher follows a wizard in modern day Chicago.",
+      "next_clue": "This book series published by Jim Butcher follows a wizard in modern day Chicago.",
+      "previous_aliases": [
+        "The Dresden Files",
+        "Dresden Files"
+      ],
+      "next_aliases": [
+        "The Dresden Files",
+        "Dresden Files"
+      ]
+    },
+    {
+      "id": "49cdad4d-5bc8-4095-9565-9defb89ae34e",
+      "source": "opentdb",
+      "category_id": "geography",
+      "previous_score": 52,
+      "previous_clue": "How many countries share a land border with Russia? (Not including disputed territories)",
+      "next_clue": "This many countries share a land border with Russia? (Not including disputed territories).",
+      "previous_aliases": [
+        "14"
+      ],
+      "next_aliases": [
+        "14"
+      ]
+    },
+    {
+      "id": "11307c41-4684-4153-97fa-a823893e7113",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "previous_score": 77,
+      "previous_clue": "Opposite of north.",
+      "next_clue": "This is the opposite of north.",
+      "previous_aliases": [
+        "south",
+        "South"
+      ],
+      "next_aliases": [
+        "south",
+        "South"
+      ]
+    },
+    {
+      "id": "11c87d7a-6f24-44d1-9ba1-967166342771",
+      "source": "original_gap_pack",
+      "category_id": "language_wordplay",
+      "previous_score": 77,
+      "previous_clue": "Suffix meaning “one who.”",
+      "next_clue": "This suffix means “one who.”.",
+      "previous_aliases": [
+        "-or",
+        "or",
+        "Or"
+      ],
+      "next_aliases": [
+        "-or",
+        "or",
+        "Or"
+      ]
+    }
+  ]
+}

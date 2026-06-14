@@ -1,0 +1,553 @@
+{
+  "generated_at": "2026-06-13T21:16:05.522Z",
+  "pack": "data/acquisition/normalized/strategy-pack-001.json",
+  "total": 30,
+  "counts": {
+    "verified": 19,
+    "weak": 10,
+    "unverified": 1,
+    "skipped": 0
+  },
+  "results": [
+    {
+      "category_id": "literature_books",
+      "value": 200,
+      "clue": "This author sent Alice down a rabbit hole and through a looking-glass.",
+      "answer": "Lewis Carroll",
+      "status": "verified",
+      "confidence": 0.56,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lewis Carroll",
+          "url": "https://en.wikipedia.org/wiki/Lewis_Carroll",
+          "snippet": "Charles Lutwidge Dodgson, better known by his pen name Lewis Carroll, was an English author, poet, mathematician, photographer and reluctant Anglican deacon. His most notable works are Alice's Adventures in Wonderland (1865) and its sequel "
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 400,
+      "clue": "This novelist wrote Beloved and Song of Solomon and won the Nobel Prize in Literature.",
+      "answer": "Toni Morrison",
+      "status": "verified",
+      "confidence": 0.88,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Toni Morrison",
+          "url": "https://en.wikipedia.org/wiki/Toni_Morrison",
+          "snippet": "Chloe Anthony Wofford \"Toni\" Morrison was an American novelist and editor. She was awarded the Nobel Prize in Literature in 1993. Her first novel, The Bluest Eye, was published in 1970. The critically acclaimed Song of Solomon (1977) brough"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 600,
+      "clue": "This Chilean author wrote The House of the Spirits and is the niece of a former president.",
+      "answer": "Isabel Allende",
+      "status": "verified",
+      "confidence": 0.63,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Isabel Allende",
+          "url": "https://en.wikipedia.org/wiki/Isabel_Allende",
+          "snippet": "Isabel Angélica Allende Llona is a Chilean-American writer. Allende, whose works sometimes contain aspects of the magical realism genre, is known for novels such as The House of the Spirits and City of the Beasts, which have been commercial"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 800,
+      "clue": "This Nigerian novelist wrote Things Fall Apart about Okonkwo and colonial disruption.",
+      "answer": "Chinua Achebe",
+      "status": "verified",
+      "confidence": 0.56,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chinua Achebe",
+          "url": "https://en.wikipedia.org/wiki/Chinua_Achebe",
+          "snippet": "Chinua Achebe was a Nigerian novelist, poet, and critic who is regarded as a central figure of modern African literature. His first novel and magnum opus, Things Fall Apart (1958), occupies a pivotal place in African literature and remains "
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 200,
+      "clue": "This Austen novel follows Elizabeth Bennet and Mr. Darcy through misunderstandings and proposals.",
+      "answer": "Pride and Prejudice",
+      "status": "verified",
+      "confidence": 0.56,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pride and Prejudice",
+          "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+          "snippet": "Pride and Prejudice is a novel by English author Jane Austen. Written when she was aged 20–21, it was her third novel scribed and became the second to see print when it was published in 1813. A novel of manners, it follows the character dev"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 400,
+      "clue": "This Hugo novel centers on Jean Valjean after his release from prison.",
+      "answer": "Les Miserables",
+      "status": "weak",
+      "confidence": 0.29,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Les Misérables",
+          "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+          "snippet": "Les Misérables is a French epic historical novel by Victor Hugo, first published on 31 March 1862, that is considered one of the greatest novels of the 19th century. Les Misérables has been popularized through numerous adaptations for film,"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 600,
+      "clue": "This Shakespeare play strands Prospero and Miranda on an island with Ariel and Caliban.",
+      "answer": "The Tempest",
+      "status": "verified",
+      "confidence": 0.88,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Tempest",
+          "url": "https://en.wikipedia.org/wiki/The_Tempest",
+          "snippet": "The Tempest is a play by William Shakespeare, probably written in 1610–1611, and thought to be one of the last plays he wrote alone. After the first scene, which takes place on a ship at sea during a storm, the rest of the play is set on a "
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 800,
+      "clue": "This Sophocles tragedy features a king who seeks a plague's cause and discovers himself.",
+      "answer": "Oedipus Rex",
+      "status": "verified",
+      "confidence": 0.38,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Oedipus Rex",
+          "url": "https://en.wikipedia.org/wiki/Oedipus_Rex",
+          "snippet": "Oedipus Rex, also known by its Greek title, Oedipus Tyrannus, or Oedipus the King, is an Athenian tragedy written by Sophocles. The play is thought to have been first performed c. 429 BC, although this is highly uncertain. Although the play"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 400,
+      "clue": "This poet addressed a Grecian urn and a nightingale in famous odes.",
+      "answer": "John Keats",
+      "status": "verified",
+      "confidence": 0.4,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "John Keats",
+          "url": "https://en.wikipedia.org/wiki/John_Keats",
+          "snippet": "John Keats was an English poet of the second generation of Romantic poets, along with Lord Byron and Percy Bysshe Shelley. His poems had been in publication for less than four years when he died of tuberculosis at the age of 25. They were i"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 1000,
+      "clue": "This medieval English poet framed stories as a pilgrimage to Canterbury.",
+      "answer": "Geoffrey Chaucer",
+      "status": "verified",
+      "confidence": 0.43,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Geoffrey Chaucer",
+          "url": "https://en.wikipedia.org/wiki/Geoffrey_Chaucer",
+          "snippet": "Geoffrey Chaucer was an English poet, writer and civil servant best known for The Canterbury Tales. He has been called the 'father of English literature', or alternatively, the 'father of English poetry'. He was the first writer to be burie"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 200,
+      "clue": "This book by E. B. White features a spider who writes words in a web for a pig.",
+      "answer": "Charlotte's Web",
+      "status": "verified",
+      "confidence": 0.8,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Charlotte's Web",
+          "url": "https://en.wikipedia.org/wiki/Charlotte's_Web",
+          "snippet": "Charlotte's Web is a book of children's literature by American author E. B. White and illustrated by Garth Williams. It was published on October 15, 1952, by Harper & Brothers. It tells the story of a livestock pig named Wilbur and his frie"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 600,
+      "clue": "This Philip Pullman novel begins His Dark Materials with Lyra Belacqua and her daemon.",
+      "answer": "The Golden Compass",
+      "status": "verified",
+      "confidence": 0.56,
+      "source": "wikipedia",
+      "note": "answer-not-explicit-in-summary",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Northern Lights (Pullman novel)",
+          "url": "https://en.wikipedia.org/wiki/Northern_Lights_(Pullman_novel)",
+          "snippet": "Northern Lights is a young-adult fantasy novel by Philip Pullman, published in 1995 by Scholastic UK. Set in a parallel universe, it follows the journey of Lyra Belacqua to the Arctic in search of her missing friend, Roger Parslow, and Lord"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 400,
+      "clue": "This Salinger novel follows Holden Caulfield after he leaves Pencey Prep.",
+      "answer": "The Catcher in the Rye",
+      "status": "weak",
+      "confidence": 0.25,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Catcher in the Rye",
+          "url": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+          "snippet": "The Catcher in the Rye is a 1951 American coming-of-age novel by American author J. D. Salinger. It was partially published in serial form in 1945–46 before being novelized in 1951."
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 800,
+      "clue": "This Steinbeck novel follows the Joad family from Oklahoma toward California.",
+      "answer": "The Grapes of Wrath",
+      "status": "weak",
+      "confidence": 0.25,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Grapes of Wrath",
+          "url": "https://en.wikipedia.org/wiki/The_Grapes_of_Wrath",
+          "snippet": "The Grapes of Wrath is an American realist novel written by John Steinbeck and published in 1939. The book won the National Book Award\nand Pulitzer Prize for fiction, and it was cited prominently when Steinbeck was awarded the Nobel Prize i"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 600,
+      "clue": "This Virginia Woolf novel follows Clarissa through a London day as she prepares for a party.",
+      "answer": "Mrs. Dalloway",
+      "status": "verified",
+      "confidence": 0.44,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mrs Dalloway",
+          "url": "https://en.wikipedia.org/wiki/Mrs_Dalloway",
+          "snippet": "Mrs Dalloway is a novel by Virginia Woolf published on 14 May 1925. It details a day in the life of Clarissa Dalloway, a fictional upper-class woman in post-First World War England."
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 1000,
+      "clue": "This Argentine author wrote Labyrinths and stories about mirrors, libraries, and infinite books.",
+      "answer": "Jorge Luis Borges",
+      "status": "verified",
+      "confidence": 0.44,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jorge Luis Borges",
+          "url": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges",
+          "snippet": "Jorge Francisco Isidoro Luis Borges was an Argentine short-story writer, essayist, poet and translator regarded as a key figure in Spanish-language and international literature. His best-known works, Ficciones (transl. Fictions) and El Alep"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 200,
+      "clue": "This orphan from Kansas travels with a scarecrow, tin man, and lion.",
+      "answer": "Dorothy Gale",
+      "status": "weak",
+      "confidence": 0,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dorothy Gale",
+          "url": "https://en.wikipedia.org/wiki/Dorothy_Gale",
+          "snippet": "Dorothy Gale is a character created by the American author L. Frank Baum as the protagonist in many of his Oz novels. She first appears in Baum's classic 1900 children's novel The Wonderful Wizard of Oz and reappears in most of its sequels."
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 600,
+      "clue": "This Cervantes sidekick rides a donkey and serves a deluded knight.",
+      "answer": "Sancho Panza",
+      "status": "weak",
+      "confidence": 0.14,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sancho Panza",
+          "url": "https://en.wikipedia.org/wiki/Sancho_Panza",
+          "snippet": "Sancho Panza is a fictional character in the novel Don Quixote written by Spanish author Miguel de Cervantes Saavedra in 1605. Sancho acts as squire to Don Quixote and provides comments throughout the novel, known as sanchismos, that are a "
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 800,
+      "clue": "This literary movement used interior monologue and fractured chronology in writers like Joyce and Woolf.",
+      "answer": "Modernism",
+      "status": "weak",
+      "confidence": 0.1,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Modernism",
+          "url": "https://en.wikipedia.org/wiki/Modernism",
+          "snippet": "Modernism was an early 20th-century movement in literature, visual arts, performing arts, and music that emphasized experimentation, abstraction, and subjective experience. Philosophy, politics, architecture, and social issues were all aspe"
+        }
+      ]
+    },
+    {
+      "category_id": "literature_books",
+      "value": 1000,
+      "clue": "This annual British prize for fiction was first awarded in 1969 and went to P. H. Newby.",
+      "answer": "Booker Prize",
+      "status": "verified",
+      "confidence": 0.38,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Booker Prize",
+          "url": "https://en.wikipedia.org/wiki/Booker_Prize",
+          "snippet": "The Booker Prize, formerly the Booker Prize for Fiction (1969–2001) and the Man Booker Prize (2002–2019), is a literary award conferred each year for the best single work of sustained fiction written in the English language, which was publi"
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 200,
+      "clue": "This president purchased Louisiana from France while Meriwether Lewis was his secretary.",
+      "answer": "Thomas Jefferson",
+      "status": "weak",
+      "confidence": 0.13,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Thomas Jefferson",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+          "snippet": "Thomas Jefferson was a Founding Father and the third president of the United States from 1801 to 1809. He was the second vice president under John Adams. Jefferson was the primary author of the Declaration of Independence, and a leading pro"
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 400,
+      "clue": "This president took office after Lincoln's assassination and later faced impeachment.",
+      "answer": "Andrew Johnson",
+      "status": "verified",
+      "confidence": 0.63,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Andrew Johnson",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Johnson",
+          "snippet": "Andrew Johnson was the 17th president of the United States, serving from 1865 to 1869. The 16th vice president, he assumed the presidency following the assassination of Abraham Lincoln. Johnson was a War Democrat who ran with Lincoln on the"
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 600,
+      "clue": "This 1876 contest ended Reconstruction through a disputed compromise after the vote.",
+      "answer": "Election of 1876",
+      "status": "unverified",
+      "confidence": 0.13,
+      "source": "wikipedia",
+      "note": "answer-not-explicit-in-summary",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "List of elections in 1876",
+          "url": "https://en.wikipedia.org/wiki/List_of_elections_in_1876",
+          "snippet": "\nThe following elections occurred in the year 1876."
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 1000,
+      "clue": "This president's administration negotiated the Gadsden Purchase from Mexico.",
+      "answer": "Franklin Pierce",
+      "status": "weak",
+      "confidence": 0.17,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Franklin Pierce",
+          "url": "https://en.wikipedia.org/wiki/Franklin_Pierce",
+          "snippet": "Franklin Pierce was the 14th president of the United States, serving from 1853 to 1857. A northern Democrat who believed that the abolitionist movement was a fundamental threat to national unity, he alienated anti-slavery groups by signing "
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 200,
+      "clue": "This 1862 act granted western settlers 160 acres after residence and improvement.",
+      "answer": "Homestead Act",
+      "status": "weak",
+      "confidence": 0.14,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Homestead Acts",
+          "url": "https://en.wikipedia.org/wiki/Homestead_Acts",
+          "snippet": "The Homestead Acts were several laws in the United States by which an applicant could acquire ownership of government land or the public domain, typically called a homestead. In all, more than 160 million acres of public land, or nearly 10 "
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 400,
+      "clue": "This 1919 constitutional change banned the manufacture and sale of alcoholic beverages.",
+      "answer": "Eighteenth Amendment",
+      "status": "weak",
+      "confidence": 0.25,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Eighteenth Amendment to the United States Constitution",
+          "url": "https://en.wikipedia.org/wiki/Eighteenth_Amendment_to_the_United_States_Constitution",
+          "snippet": "The Eighteenth Amendment to the United States Constitution established the prohibition of alcohol in the United States. The amendment was proposed by Congress on December 18, 1917, and ratified by the requisite number of states on January 1"
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 800,
+      "clue": "This Harding-era affair involved naval oil reserves in Wyoming and California.",
+      "answer": "Teapot Dome scandal",
+      "status": "verified",
+      "confidence": 0.71,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Teapot Dome scandal",
+          "url": "https://en.wikipedia.org/wiki/Teapot_Dome_scandal",
+          "snippet": "The Teapot Dome scandal was a political corruption scandal in the United States involving the administration of President Warren G. Harding. It centered on Albert B. Fall, the interior secretary, who accepted bribes from private oil compani"
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 200,
+      "clue": "This Macedonian king created an empire stretching from Greece to Egypt and India.",
+      "answer": "Alexander the Great",
+      "status": "verified",
+      "confidence": 0.75,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Alexander the Great",
+          "url": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+          "snippet": "Alexander III of Macedon, most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon. He succeeded his father Philip II to the throne in 336 BC at the age of 20, and spent most of his reign conducting a len"
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 600,
+      "clue": "This Roman emperor made Christianity legal with the Edict of Milan.",
+      "answer": "Constantine",
+      "status": "verified",
+      "confidence": 0.86,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Constantine the Great",
+          "url": "https://en.wikipedia.org/wiki/Constantine_the_Great",
+          "snippet": "Constantine I, also known as Constantine the Great, was Roman emperor from AD 306 to 337 and the first Roman emperor to convert to Christianity. He played a pivotal role in elevating the status of Christianity in the Roman Empire, the Edict"
+        }
+      ]
+    },
+    {
+      "category_id": "history",
+      "value": 400,
+      "clue": "This plague devastated Europe in the mid-14th century.",
+      "answer": "Black Death",
+      "status": "verified",
+      "confidence": 0.8,
+      "source": "wikipedia",
+      "note": "answer-matches-source",
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Black Death",
+          "url": "https://en.wikipedia.org/wiki/Black_Death",
+          "snippet": "The Black Death was a plague pandemic that occurred in Europe from 1346 to 1353. It was one of the most fatal pandemics in human history; as many as 50 million people died, perhaps 50% of Europe's 14th-century population. The disease is cau"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1508 @@
+{
+  "generated_at": "2026-05-31T03:14:24.040Z",
+  "provider": "opentdb",
+  "source_url": "https://opentdb.com",
+  "license": "CC BY-SA 4.0",
+  "notes": [
+    "Imported provider text; not rewritten into Jeopardy style.",
+    "Keep attribution fields if this content is stored or redistributed."
+  ],
+  "questions": [
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-1a8712cb53690ed3",
+      "provider_category": "General Knowledge",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In a 1994 CBS interview, Microsoft co-founder Bill Gates performed what unusual trick on camera?",
+      "answer": "Jumping over an office chair",
+      "aliases": [],
+      "distractors": [
+        "Jumping backwards over a desk",
+        "Standing on his head",
+        "Typing on a keyboard during a handstand"
+      ],
+      "tags": [
+        "opentdb",
+        "general-knowledge",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-c376c7257fad66db",
+      "provider_category": "General Knowledge",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What do sailors call the front of a boat?",
+      "answer": "Bow",
+      "aliases": [],
+      "distractors": [
+        "Stern",
+        "Port",
+        "Starboard"
+      ],
+      "tags": [
+        "opentdb",
+        "general-knowledge",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-21321bcf46f90b48",
+      "provider_category": "Entertainment: Japanese Anime & Manga",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which one of these Manga titles was not created by Urasawa Naoki?",
+      "answer": "My Father's Journal",
+      "aliases": [],
+      "distractors": [
+        "Billy Bat",
+        "20th Century Boys",
+        "Monster"
+      ],
+      "tags": [
+        "opentdb",
+        "anime",
+        "manga",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-ded1f8897ad0e401",
+      "provider_category": "Science: Computers",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+      "answer": "Motherboard",
+      "aliases": [],
+      "distractors": [
+        "Central Processing Unit",
+        "Hard Disk Drive",
+        "Random Access Memory"
+      ],
+      "tags": [
+        "opentdb",
+        "computers",
+        "technology",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-34470450138e7203",
+      "provider_category": "Art",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who sculpted the statue of David?",
+      "answer": "Michelangelo",
+      "aliases": [],
+      "distractors": [
+        "Gian Lorenzo Bernini",
+        "Auguste Rodin",
+        "Donatello"
+      ],
+      "tags": [
+        "opentdb",
+        "art",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-1f20de9d859c0d96",
+      "provider_category": "Entertainment: Japanese Anime & Manga",
+      "provider_difficulty": "hard",
+      "provider_type": "boolean",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the \"Kagerou Daze\" series, Shintaro Kisaragi is prominently shown with the color red.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "anime",
+        "manga",
+        "hard",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-1a366a4d9add0bbc",
+      "provider_category": "Entertainment: Music",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What's the most common time signature for rock songs?",
+      "answer": "4/4",
+      "aliases": [],
+      "distractors": [
+        "1/2",
+        "8/12",
+        "2/4"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-f6fbad7a529f71e3",
+      "provider_category": "Entertainment: Music",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who was the lead singer and frontman of rock band R.E.M?",
+      "answer": "Michael Stipe",
+      "aliases": [],
+      "distractors": [
+        "Chris Martin",
+        "Thom Yorke",
+        "George Michael"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-a43fd97f07acc88a",
+      "provider_category": "History",
+      "provider_difficulty": "hard",
+      "provider_type": "boolean",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Japan was part of the Allied Powers during World War I.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "history",
+        "hard",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-75df7145ef3c212c",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Who is the main antagonist of Ori and the Blind Forest?",
+      "answer": "Kuro",
+      "aliases": [],
+      "distractors": [
+        "Nibel",
+        "Gumo",
+        "King Rammer XII"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-e9ccbd286cb16544",
+      "provider_category": "Science: Computers",
+      "provider_difficulty": "medium",
+      "provider_type": "boolean",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Android versions are named in alphabetical order.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "computers",
+        "technology",
+        "medium",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-cd4e4bc0d6b3f9d6",
+      "provider_category": "Animals",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the average lifespan of a domestic rabbit?",
+      "answer": "8-12 years",
+      "aliases": [],
+      "distractors": [
+        "1-2 years",
+        "4-7 years",
+        "14-20 years"
+      ],
+      "tags": [
+        "opentdb",
+        "animals",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-b6dc7679bb7b9f37",
+      "provider_category": "Geography",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "geography",
+      "subcategory_name": "World Regions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the capital of Peru?",
+      "answer": "Lima",
+      "aliases": [],
+      "distractors": [
+        "Santiago",
+        "Montevideo",
+        "Buenos Aires"
+      ],
+      "tags": [
+        "opentdb",
+        "geography",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-444b8b304fa08eaf",
+      "provider_category": "General Knowledge",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the romanized Arabic word for \"moon\"?",
+      "answer": "Qamar",
+      "aliases": [],
+      "distractors": [
+        "Najma",
+        "Kawkab",
+        "Shams"
+      ],
+      "tags": [
+        "opentdb",
+        "general-knowledge",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-0e851077547e9ad5",
+      "provider_category": "General Knowledge",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the Swedish word for \"window\"?",
+      "answer": "Fönster",
+      "aliases": [],
+      "distractors": [
+        "Hål",
+        "Skärm",
+        "Ruta"
+      ],
+      "tags": [
+        "opentdb",
+        "general-knowledge",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-93257c9c174c5a00",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "easy",
+      "provider_type": "boolean",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In \"Tony Hawk's Underground\", the main character's friend turned rival is named \"Jeff Sampson\"",
+      "answer": "False",
+      "aliases": [],
+      "distractors": [
+        "True"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "easy",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-cd2c77b1a49b9be5",
+      "provider_category": "Entertainment: Film",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which animated film did Steven Lisberger direct in 1980 before going on to direct Tron?",
+      "answer": "Animalympics",
+      "aliases": [],
+      "distractors": [
+        "The Fox and the Hound",
+        "The Black Cauldron",
+        "The Great Mouse Detecive"
+      ],
+      "tags": [
+        "opentdb",
+        "film",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-ced8d522862ab9de",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What American city was featured in the 1999 PC game Midtown Madness?",
+      "answer": "Chicago",
+      "aliases": [],
+      "distractors": [
+        "Washington D.C.",
+        "San Francisco",
+        "New York City"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-2c8aaad2dbe3ec41",
+      "provider_category": "General Knowledge",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The website \"Shut Up & Sit Down\" reviews which form of media?",
+      "answer": "Board Games",
+      "aliases": [],
+      "distractors": [
+        "Television Shows",
+        "Video Games",
+        "Films"
+      ],
+      "tags": [
+        "opentdb",
+        "general-knowledge",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-53db163de9aca84b",
+      "provider_category": "General Knowledge",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Fields Medal, one of the most sought after awards in mathematics, is awarded every how many years?",
+      "answer": "4",
+      "aliases": [],
+      "distractors": [
+        "3",
+        "5",
+        "6"
+      ],
+      "tags": [
+        "opentdb",
+        "general-knowledge",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-d517a0df1a75cc8f",
+      "provider_category": "Politics",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which Native American tribe/nation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
+      "answer": "Yomba Shoshone Tribe",
+      "aliases": [],
+      "distractors": [
+        "Standing Rock Sioux Tribe",
+        "Kiowa Tribe of Oklahoma",
+        "Pawnee Nation of Oklahoma"
+      ],
+      "tags": [
+        "opentdb",
+        "politics",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-0d3121355eb44f3d",
+      "provider_category": "Entertainment: Japanese Anime & Manga",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?",
+      "answer": "Tohru",
+      "aliases": [],
+      "distractors": [
+        "Lucoa",
+        "Kanna",
+        "Elma"
+      ],
+      "tags": [
+        "opentdb",
+        "anime",
+        "manga",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-1456f55e07403b26",
+      "provider_category": "Entertainment: Television",
+      "provider_difficulty": "medium",
+      "provider_type": "boolean",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The author behind the acclaimed novel \"Leaving Las Vegas\" also wrote an episode of Rugrats.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "television",
+        "medium",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-aa42a399bce61e93",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "How many playable characters are there in Yakuza 5?",
+      "answer": "5",
+      "aliases": [],
+      "distractors": [
+        "2",
+        "3",
+        "1"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-00376de72655ce91",
+      "provider_category": "Entertainment: Music",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which album by American rapper Kanye West contained songs such as \"Love Lockdown\", \"Paranoid\" and \"Heartless\"?",
+      "answer": "808s & Heartbreak",
+      "aliases": [],
+      "distractors": [
+        "Late Registration",
+        "The Life of Pablo",
+        "Graduation"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-f7d541556ff01149",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "How many playable characters were there in Street Fighter II: Champion Edition?",
+      "answer": "12",
+      "aliases": [],
+      "distractors": [
+        "16",
+        "8",
+        "17"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-994cb3fa2b4e7e52",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "medium",
+      "provider_type": "boolean",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Minecraft wasn’t the original name to Minecraft.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "medium",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-20a59dce51bf68f7",
+      "provider_category": "Sports",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which English football team is nicknamed 'The Tigers'?",
+      "answer": "Hull City",
+      "aliases": [],
+      "distractors": [
+        "Cardiff City",
+        "Bristol City",
+        "Manchester City"
+      ],
+      "tags": [
+        "opentdb",
+        "sports",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-900b94981aec2dc0",
+      "provider_category": "Science: Gadgets",
+      "provider_difficulty": "hard",
+      "provider_type": "boolean",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "During the  early parts of the Vietnam War the M16 had a record for having bad reliability",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "gadgets",
+        "hard",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-f8792d5c078b430f",
+      "provider_category": "Science: Computers",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?",
+      "answer": "44.1 kHz",
+      "aliases": [],
+      "distractors": [
+        "32.0 kHz",
+        "1.5 MHz",
+        "20.5 kHz"
+      ],
+      "tags": [
+        "opentdb",
+        "computers",
+        "technology",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-b601f3d03b8e0858",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the original DOOM (1993) which of the following is NOT a cheat code?",
+      "answer": "IDCLIP",
+      "aliases": [],
+      "distractors": [
+        "IDFA",
+        "IDDQD",
+        "IDSPISPOPD"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-73043c8a389fd3fb",
+      "provider_category": "General Knowledge",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the name of the alcoholic beverage made from potatoes or grains that originates from Poland and Russia?",
+      "answer": "Vodka",
+      "aliases": [],
+      "distractors": [
+        "Absinthe",
+        "Rum",
+        "Sake"
+      ],
+      "tags": [
+        "opentdb",
+        "general-knowledge",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-30aa14c764245c93",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "easy",
+      "provider_type": "boolean",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Several characters in \"Super Mario 64\" blink their eyes, including Mario himself.",
+      "answer": "True",
+      "aliases": [],
+      "distractors": [
+        "False"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "easy",
+        "boolean"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-1dacf4cc2a7f5f50",
+      "provider_category": "Geography",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "geography",
+      "subcategory_name": "World Regions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Alps are a mountain range on which continent?",
+      "answer": "Europe",
+      "aliases": [],
+      "distractors": [
+        "North America",
+        "Asia",
+        "Africa"
+      ],
+      "tags": [
+        "opentdb",
+        "geography",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-9c87b3fcc2cf37ab",
+      "provider_category": "Entertainment: Books",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which author co-wrote \"The Communist Manifesto\" alongside Karl Marx?",
+      "answer": "Friedrich Engels",
+      "aliases": [],
+      "distractors": [
+        "Robert Owen",
+        "Alexander Kerensky",
+        "Paul Lafargue"
+      ],
+      "tags": [
+        "opentdb",
+        "books",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-4dd92a6df508b1f6",
+      "provider_category": "Entertainment: Film",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The 2016 Disney animated film 'Moana' is based on which culture?",
+      "answer": "Polynesian",
+      "aliases": [],
+      "distractors": [
+        "Native American",
+        "Japanese",
+        "Nordic"
+      ],
+      "tags": [
+        "opentdb",
+        "film",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-3b257fdc85eaa58e",
+      "provider_category": "Science & Nature",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is radiation measured in?",
+      "answer": "Gray",
+      "aliases": [],
+      "distractors": [
+        "Watt",
+        "Decibel",
+        "Kelvin"
+      ],
+      "tags": [
+        "opentdb",
+        "science",
+        "nature",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-250368ab60e39b84",
+      "provider_category": "Entertainment: Japanese Anime & Manga",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In \"To Love-Ru: Darkness\", which of the girls attempt making a harem for Rito Yuuki?",
+      "answer": "Momo Deviluke",
+      "aliases": [],
+      "distractors": [
+        "Yami (Golden Darkness)",
+        "Haruna Sairenji",
+        "Mea Kurosaki"
+      ],
+      "tags": [
+        "opentdb",
+        "anime",
+        "manga",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-edb95a1aa777eedf",
+      "provider_category": "Entertainment: Japanese Anime & Manga",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which song was the callsign for Stefan Verdemann's KWFM radio station in Urasawa Naoki's \"Monster\"?",
+      "answer": "Over the Rainbow",
+      "aliases": [],
+      "distractors": [
+        "What a Wonderful World",
+        "When You Wish Upon A Star",
+        "Singing In The Rain"
+      ],
+      "tags": [
+        "opentdb",
+        "anime",
+        "manga",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-eec88419c4644eed",
+      "provider_category": "Science & Nature",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What does the yellow diamond on the NFPA 704 fire diamond represent?",
+      "answer": "Reactivity",
+      "aliases": [],
+      "distractors": [
+        "Health",
+        "Flammability",
+        "Radioactivity"
+      ],
+      "tags": [
+        "opentdb",
+        "science",
+        "nature",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-608bb251cd14345f",
+      "provider_category": "Entertainment: Music",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which rapper had an album that went double platinum with no features?",
+      "answer": "J. Cole",
+      "aliases": [],
+      "distractors": [
+        "Kendrick Lamar",
+        "Drake",
+        "Big Sean"
+      ],
+      "tags": [
+        "opentdb",
+        "music",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-9ca5dd1769dfb1b8",
+      "provider_category": "Art",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which one of these paintings is not by Caspar David Friedrich?",
+      "answer": "The Black Sea",
+      "aliases": [],
+      "distractors": [
+        "The Sea of Ice",
+        "Wanderer above the Sea of Fog",
+        "The Monk by the Sea"
+      ],
+      "tags": [
+        "opentdb",
+        "art",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-32c2999f84900b47",
+      "provider_category": "Entertainment: Television",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Which of the following Autobot names in Michael Bay's movies was NOT a name for a Transformer in the original 1980's cartoon?",
+      "answer": "Mudflap",
+      "aliases": [],
+      "distractors": [
+        "Skids",
+        "Sideswipe",
+        "Ratchet"
+      ],
+      "tags": [
+        "opentdb",
+        "television",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-03e032d8a06ea330",
+      "provider_category": "Animals",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What colour is the female blackbird?",
+      "answer": "Brown",
+      "aliases": [],
+      "distractors": [
+        "Black",
+        "White",
+        "Yellow"
+      ],
+      "tags": [
+        "opentdb",
+        "animals",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-d3c6cf426640c52b",
+      "provider_category": "Science & Nature",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What is the chemical symbol for Helium?",
+      "answer": "He",
+      "aliases": [],
+      "distractors": [
+        "H",
+        "Hg",
+        "Hs"
+      ],
+      "tags": [
+        "opentdb",
+        "science",
+        "nature",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-2ae24e21b5e1934a",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When was \"Garry's Mod\" released?",
+      "answer": "December 24, 2004",
+      "aliases": [],
+      "distractors": [
+        "November 13, 2004",
+        "December 13, 2004",
+        "November 12, 2004"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-38a6f874ad5bf4ca",
+      "provider_category": "Entertainment: Books",
+      "provider_difficulty": "easy",
+      "provider_type": "multiple",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "What was Sir Handel's original name in \"The Railway Series\" and it's animated counterpart \"Thomas and Friends?\"",
+      "answer": "Falcon",
+      "aliases": [],
+      "distractors": [
+        "Eagle",
+        "Kyte",
+        "Swallow"
+      ],
+      "tags": [
+        "opentdb",
+        "books",
+        "easy",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-787502e6c997b25e",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "hard",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the game Danganronpa: Happy Trigger Havoc, the character Aoi Asahina's ultimate ability is what?",
+      "answer": "Ultimate Swimmer",
+      "aliases": [],
+      "distractors": [
+        "Ultimate Detective",
+        "Ultimate Gambler",
+        "Ultimate Dancer"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "hard",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-e028c3f6b7579e1b",
+      "provider_category": "Entertainment: Video Games",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Left 4 Dead, what is the name of the Special Infected that is unplayable in Versus mode?",
+      "answer": "The Witch",
+      "aliases": [],
+      "distractors": [
+        "The Tank",
+        "The Smoker",
+        "The Spitter"
+      ],
+      "tags": [
+        "opentdb",
+        "video-games",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "source": "opentdb",
+      "source_url": "https://opentdb.com",
+      "source_license": "CC BY-SA 4.0",
+      "external_id": "opentdb-eaf35ed6c656d428",
+      "provider_category": "Entertainment: Japanese Anime & Manga",
+      "provider_difficulty": "medium",
+      "provider_type": "multiple",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the anime series \"Full Metal Alchemist\", what do Alchemists consider the greatest taboo?",
+      "answer": "Human Transmutation",
+      "aliases": [],
+      "distractors": [
+        "Transmuting Lead Into Gold",
+        "Using Alchemy For Crime",
+        "Preforming Without A Permit"
+      ],
+      "tags": [
+        "opentdb",
+        "anime",
+        "manga",
+        "medium",
+        "multiple"
+      ],
+      "review_status": "needs_review"
+    }
+  ]
+}

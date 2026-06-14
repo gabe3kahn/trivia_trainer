@@ -1,0 +1,159 @@
+{
+  "count": 7,
+  "updates": [
+    {
+      "id": "0fe23131-8404-468c-a957-fdaee47a1edb",
+      "previous": {
+        "clue": "Domestic rabbits typically live this many years on average.",
+        "answer": "8 to 12 years",
+        "value": 400
+      },
+      "next": {
+        "clue": "Domestic rabbits typically live this many years on average.",
+        "answer": "8 to 12 years",
+        "aliases": [
+          "8-12 years",
+          "8 to 12 years",
+          "eight to twelve years"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 91,
+        "quality_issues": [
+          "answer-content-word-in-clue",
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "8f3d1dfc-769e-42c0-a15f-6a57b4afec46",
+      "previous": {
+        "clue": "This abbreviation for a written draft appears in publishing and library catalogs.",
+        "answer": "MS",
+        "value": 600
+      },
+      "next": {
+        "clue": "This abbreviation for a written draft appears in publishing and library catalogs.",
+        "answer": "MS",
+        "aliases": [
+          "MS",
+          "manuscript"
+        ],
+        "value": 600,
+        "difficulty_rank": 3,
+        "quality_status": "keep",
+        "quality_score": 92,
+        "quality_issues": [
+          "very-short-answer-needs-strong-clue"
+        ]
+      }
+    },
+    {
+      "id": "b3148ea2-5f81-47a9-add3-19221e2478b3",
+      "previous": {
+        "clue": "This New York museum is commonly abbreviated MoMA.",
+        "answer": "Museum of Modern Art",
+        "value": 400
+      },
+      "next": {
+        "clue": "This Manhattan museum's name is shortened to MoMA.",
+        "answer": "Museum of Modern Art",
+        "aliases": [
+          "Museum of Modern Art",
+          "the Museum of Modern Art"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "b5dc9798-22f1-4197-bc85-66c8971f2b15",
+      "previous": {
+        "clue": "This Hokusai woodblock print shows a towering wave near Mount Fuji.",
+        "answer": "The Great Wave off Kanagawa",
+        "value": 600
+      },
+      "next": {
+        "clue": "This Hokusai woodblock print shows stormy water near Mount Fuji.",
+        "answer": "The Great Wave off Kanagawa",
+        "aliases": [
+          "Great Wave off Kanagawa"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "7525d899-6856-4385-a181-b49926b4eac2",
+      "previous": {
+        "clue": "This translucent ceramic, prized in Europe after imports from China, is used for fine tableware.",
+        "answer": "Porcelain",
+        "value": 400
+      },
+      "next": {
+        "clue": "This translucent ceramic is used for fine tableware and electrical insulators.",
+        "answer": "Porcelain",
+        "aliases": [
+          "porcelain"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 100,
+        "quality_issues": []
+      }
+    },
+    {
+      "id": "bdda0449-670e-4abc-aa9a-1f1785ad2df3",
+      "previous": {
+        "clue": "The Watergate scandal began with a 1972 break-in and unfolded in this year.",
+        "answer": "1972",
+        "value": 400
+      },
+      "next": {
+        "clue": "The Watergate scandal began with a break-in during this presidential election year.",
+        "answer": "1972",
+        "aliases": [
+          "1972"
+        ],
+        "value": 400,
+        "difficulty_rank": 2,
+        "quality_status": "keep",
+        "quality_score": 95,
+        "quality_issues": [
+          "provider-row-needs-editorial-review"
+        ]
+      }
+    },
+    {
+      "id": "99ae1d0a-3f20-46a0-a776-e7bc9712a2a7",
+      "previous": {
+        "clue": "This idiom means to stop working for the day: call it a what.",
+        "answer": "Day",
+        "value": 400
+      },
+      "next": {
+        "clue": "In this idiom, stopping work means calling it this.",
+        "answer": "Day",
+        "aliases": [
+          "day",
+          "a day"
+        ],
+        "value": 200,
+        "difficulty_rank": 1,
+        "quality_status": "keep",
+        "quality_score": 88,
+        "quality_issues": [
+          "low-anchor-density"
+        ]
+      }
+    }
+  ]
+}

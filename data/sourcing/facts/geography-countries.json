@@ -1,0 +1,4786 @@
+{
+  "generated_at": "2026-06-13T22:30:40.038Z",
+  "source": "wikidata",
+  "note": "UN member states (P463/Q1065). landlocked = instance of Q123480. borders = P47. Each country cites its Wikidata entity.",
+  "count": 196,
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "wikidata": "Q889",
+      "capital": "Kabul",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 652230,
+      "population": 41454761,
+      "landlocked": true,
+      "borders": [
+        "People's Republic of China",
+        "Uzbekistan",
+        "Iran",
+        "Pakistan",
+        "Tajikistan",
+        "Turkmenistan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Afghanistan",
+        "url": "https://www.wikidata.org/wiki/Q889"
+      },
+      "area_rank": 41,
+      "population_rank": 34
+    },
+    {
+      "name": "Albania",
+      "wikidata": "Q222",
+      "capital": "Tirana",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 28748,
+      "population": 2811655,
+      "landlocked": false,
+      "borders": [
+        "Greece",
+        "North Macedonia",
+        "Montenegro",
+        "Serbia",
+        "European Union",
+        "Kosovo"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Albania",
+        "url": "https://www.wikidata.org/wiki/Q222"
+      },
+      "area_rank": 140,
+      "population_rank": 136
+    },
+    {
+      "name": "Algeria",
+      "wikidata": "Q262",
+      "capital": "Algiers",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 2381741,
+      "population": 46164219,
+      "landlocked": false,
+      "borders": [
+        "Spain",
+        "Italy",
+        "Mali",
+        "Tunisia",
+        "Libya",
+        "Mauritania",
+        "Morocco",
+        "Niger",
+        "Western Sahara"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Algeria",
+        "url": "https://www.wikidata.org/wiki/Q262"
+      },
+      "area_rank": 10,
+      "population_rank": 33
+    },
+    {
+      "name": "Andorra",
+      "wikidata": "Q228",
+      "capital": "Andorra la Vella",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 468,
+      "population": 87486,
+      "landlocked": false,
+      "borders": [
+        "Spain",
+        "France",
+        "European Union"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Andorra",
+        "url": "https://www.wikidata.org/wiki/Q228"
+      },
+      "area_rank": 179,
+      "population_rank": 184
+    },
+    {
+      "name": "Angola",
+      "wikidata": "Q916",
+      "capital": "Luanda",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1246700,
+      "population": 36749906,
+      "landlocked": false,
+      "borders": [
+        "Zambia",
+        "Republic of the Congo",
+        "Democratic Republic of the Congo",
+        "Gabon",
+        "Namibia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Angola",
+        "url": "https://www.wikidata.org/wiki/Q916"
+      },
+      "area_rank": 23,
+      "population_rank": 41
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "wikidata": "Q781",
+      "capital": "St. John's",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 440,
+      "population": 101489,
+      "landlocked": false,
+      "borders": [
+        "United Kingdom",
+        "realm of the United Kingdom"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Antigua and Barbuda",
+        "url": "https://www.wikidata.org/wiki/Q781"
+      },
+      "area_rank": 182,
+      "population_rank": 183
+    },
+    {
+      "name": "Argentina",
+      "wikidata": "Q414",
+      "capital": "Buenos Aires",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 2780400,
+      "population": 47327407,
+      "landlocked": false,
+      "borders": [
+        "United Kingdom",
+        "Uruguay",
+        "Brazil",
+        "Chile",
+        "Paraguay",
+        "Bolivia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Argentina",
+        "url": "https://www.wikidata.org/wiki/Q414"
+      },
+      "area_rank": 8,
+      "population_rank": 31
+    },
+    {
+      "name": "Armenia",
+      "wikidata": "Q399",
+      "capital": "Yerevan",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 29743,
+      "population": 2930450,
+      "landlocked": false,
+      "borders": [
+        "Turkey",
+        "Azerbaijan",
+        "Georgia",
+        "Iran"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Armenia",
+        "url": "https://www.wikidata.org/wiki/Q399"
+      },
+      "area_rank": 139,
+      "population_rank": 134
+    },
+    {
+      "name": "Australia",
+      "wikidata": "Q408",
+      "capital": "Canberra",
+      "continents": [
+        "Oceania"
+      ],
+      "area_km2": 7692024,
+      "population": 27614411,
+      "landlocked": false,
+      "borders": [
+        "Indonesia",
+        "Timor-Leste",
+        "Solomon Islands",
+        "New Zealand",
+        "Vanuatu",
+        "Papua New Guinea",
+        "New Caledonia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Australia",
+        "url": "https://www.wikidata.org/wiki/Q408"
+      },
+      "area_rank": 6,
+      "population_rank": 54
+    },
+    {
+      "name": "Austria",
+      "wikidata": "Q40",
+      "capital": "Vienna",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 83879,
+      "population": 8979894,
+      "landlocked": true,
+      "borders": [
+        "Hungary",
+        "Italy",
+        "Switzerland",
+        "Germany",
+        "Czech Republic",
+        "Slovakia",
+        "Slovenia",
+        "Liechtenstein"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Austria",
+        "url": "https://www.wikidata.org/wiki/Q40"
+      },
+      "area_rank": 114,
+      "population_rank": 98
+    },
+    {
+      "name": "Azerbaijan",
+      "wikidata": "Q227",
+      "capital": "Baku",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 86600,
+      "population": 10180770,
+      "landlocked": false,
+      "borders": [
+        "Turkey",
+        "Russia",
+        "Georgia",
+        "Armenia",
+        "Iran"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Azerbaijan",
+        "url": "https://www.wikidata.org/wiki/Q227"
+      },
+      "area_rank": 113,
+      "population_rank": 91
+    },
+    {
+      "name": "Bahrain",
+      "wikidata": "Q398",
+      "capital": "Manama",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 787,
+      "population": 1569666,
+      "landlocked": false,
+      "borders": [
+        "Iran",
+        "Saudi Arabia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Bahrain",
+        "url": "https://www.wikidata.org/wiki/Q398"
+      },
+      "area_rank": 173,
+      "population_rank": 150
+    },
+    {
+      "name": "Bangladesh",
+      "wikidata": "Q902",
+      "capital": "Dhaka",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 147570,
+      "population": 171466990,
+      "landlocked": false,
+      "borders": [
+        "India",
+        "Myanmar"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Bangladesh",
+        "url": "https://www.wikidata.org/wiki/Q902"
+      },
+      "area_rank": 93,
+      "population_rank": 8
+    },
+    {
+      "name": "Barbados",
+      "wikidata": "Q244",
+      "capital": "Bridgetown",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 439,
+      "population": 303431,
+      "landlocked": false,
+      "borders": [],
+      "citation": {
+        "source": "wikidata",
+        "title": "Barbados",
+        "url": "https://www.wikidata.org/wiki/Q244"
+      },
+      "area_rank": 183,
+      "population_rank": 173
+    },
+    {
+      "name": "Belarus",
+      "wikidata": "Q184",
+      "capital": "Minsk",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 207597,
+      "population": 9056080,
+      "landlocked": true,
+      "borders": [
+        "Poland",
+        "Lithuania",
+        "Russia",
+        "Latvia",
+        "Ukraine",
+        "European Union"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Belarus",
+        "url": "https://www.wikidata.org/wiki/Q184"
+      },
+      "area_rank": 85,
+      "population_rank": 97
+    },
+    {
+      "name": "Belgium",
+      "wikidata": "Q31",
+      "capital": "Brussels",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 30688,
+      "population": 11825551,
+      "landlocked": false,
+      "borders": [
+        "Luxembourg",
+        "Netherlands",
+        "France",
+        "Germany"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Belgium",
+        "url": "https://www.wikidata.org/wiki/Q31"
+      },
+      "area_rank": 137,
+      "population_rank": 80
+    },
+    {
+      "name": "Belize",
+      "wikidata": "Q242",
+      "capital": "Belmopan",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 22966,
+      "population": 411106,
+      "landlocked": false,
+      "borders": [
+        "Mexico",
+        "Guatemala",
+        "Melchor de Mencos"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Belize",
+        "url": "https://www.wikidata.org/wiki/Q242"
+      },
+      "area_rank": 148,
+      "population_rank": 170
+    },
+    {
+      "name": "Benin",
+      "wikidata": "Q962",
+      "capital": "Porto-Novo",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 114763,
+      "population": 14111034,
+      "landlocked": false,
+      "borders": [
+        "Togo",
+        "Burkina Faso",
+        "Niger",
+        "Nigeria"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Benin",
+        "url": "https://www.wikidata.org/wiki/Q962"
+      },
+      "area_rank": 101,
+      "population_rank": 75
+    },
+    {
+      "name": "Bhutan",
+      "wikidata": "Q917",
+      "capital": "Thimphu",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 38394,
+      "population": 787424,
+      "landlocked": true,
+      "borders": [
+        "People's Republic of China",
+        "India"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Bhutan",
+        "url": "https://www.wikidata.org/wiki/Q917"
+      },
+      "area_rank": 133,
+      "population_rank": 161
+    },
+    {
+      "name": "Bolivia",
+      "wikidata": "Q750",
+      "capital": "La Paz",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 1098581,
+      "population": 12244159,
+      "landlocked": true,
+      "borders": [
+        "Brazil",
+        "Chile",
+        "Argentina",
+        "Peru",
+        "Paraguay"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Bolivia",
+        "url": "https://www.wikidata.org/wiki/Q750"
+      },
+      "area_rank": 28,
+      "population_rank": 79
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "wikidata": "Q225",
+      "capital": "Sarajevo",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 51197,
+      "population": 3816459,
+      "landlocked": false,
+      "borders": [
+        "Croatia",
+        "Montenegro",
+        "Serbia",
+        "European Union"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Bosnia and Herzegovina",
+        "url": "https://www.wikidata.org/wiki/Q225"
+      },
+      "area_rank": 126,
+      "population_rank": 129
+    },
+    {
+      "name": "Botswana",
+      "wikidata": "Q963",
+      "capital": "Gaborone",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 581737,
+      "population": 2480244,
+      "landlocked": true,
+      "borders": [
+        "South Africa",
+        "Zambia",
+        "Zimbabwe",
+        "Namibia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Botswana",
+        "url": "https://www.wikidata.org/wiki/Q963"
+      },
+      "area_rank": 48,
+      "population_rank": 141
+    },
+    {
+      "name": "Brazil",
+      "wikidata": "Q155",
+      "capital": "Brasília",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 8515767,
+      "population": 213421037,
+      "landlocked": false,
+      "borders": [
+        "Uruguay",
+        "France",
+        "Argentina",
+        "Peru",
+        "Suriname",
+        "Venezuela",
+        "Guyana",
+        "Paraguay",
+        "Colombia",
+        "Bolivia",
+        "French Guiana"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Brazil",
+        "url": "https://www.wikidata.org/wiki/Q155"
+      },
+      "area_rank": 5,
+      "population_rank": 6
+    },
+    {
+      "name": "Brunei",
+      "wikidata": "Q921",
+      "capital": "Bandar Seri Begawan",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 5765,
+      "population": 458949,
+      "landlocked": false,
+      "borders": [
+        "Malaysia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Brunei",
+        "url": "https://www.wikidata.org/wiki/Q921"
+      },
+      "area_rank": 164,
+      "population_rank": 168
+    },
+    {
+      "name": "Bulgaria",
+      "wikidata": "Q219",
+      "capital": "Sofia",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 110994,
+      "population": 6423207,
+      "landlocked": false,
+      "borders": [
+        "Greece",
+        "Turkey",
+        "Black Sea",
+        "Romania",
+        "North Macedonia",
+        "Serbia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Bulgaria",
+        "url": "https://www.wikidata.org/wiki/Q219"
+      },
+      "area_rank": 104,
+      "population_rank": 108
+    },
+    {
+      "name": "Burkina Faso",
+      "wikidata": "Q965",
+      "capital": "Ouagadougou",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 274200,
+      "population": 23025776,
+      "landlocked": true,
+      "borders": [
+        "Ghana",
+        "Mali",
+        "Togo",
+        "Benin",
+        "Ivory Coast",
+        "Niger"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Burkina Faso",
+        "url": "https://www.wikidata.org/wiki/Q965"
+      },
+      "area_rank": 74,
+      "population_rank": 58
+    },
+    {
+      "name": "Burundi",
+      "wikidata": "Q967",
+      "capital": "Gitega",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 27834,
+      "population": 13689450,
+      "landlocked": true,
+      "borders": [
+        "Tanzania",
+        "Democratic Republic of the Congo",
+        "Rwanda"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Burundi",
+        "url": "https://www.wikidata.org/wiki/Q967"
+      },
+      "area_rank": 143,
+      "population_rank": 76
+    },
+    {
+      "name": "Cambodia",
+      "wikidata": "Q424",
+      "capital": "Phnom Penh",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 181035,
+      "population": 17423880,
+      "landlocked": false,
+      "borders": [
+        "Laos",
+        "Thailand",
+        "Vietnam",
+        "Mekong Delta"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Cambodia",
+        "url": "https://www.wikidata.org/wiki/Q424"
+      },
+      "area_rank": 89,
+      "population_rank": 68
+    },
+    {
+      "name": "Cameroon",
+      "wikidata": "Q1009",
+      "capital": "Yaoundé",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 475442,
+      "population": 28372687,
+      "landlocked": false,
+      "borders": [
+        "Chad",
+        "Central African Republic",
+        "Equatorial Guinea",
+        "Republic of the Congo",
+        "Gabon",
+        "Nigeria"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Cameroon",
+        "url": "https://www.wikidata.org/wiki/Q1009"
+      },
+      "area_rank": 53,
+      "population_rank": 52
+    },
+    {
+      "name": "Canada",
+      "wikidata": "Q16",
+      "capital": "Ottawa",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 9984670,
+      "population": 36991981,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "Kingdom of Denmark"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Canada",
+        "url": "https://www.wikidata.org/wiki/Q16"
+      },
+      "area_rank": 2,
+      "population_rank": 39
+    },
+    {
+      "name": "Cape Verde",
+      "wikidata": "Q1011",
+      "capital": "Praia",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 4033,
+      "population": 555988,
+      "landlocked": false,
+      "borders": [],
+      "citation": {
+        "source": "wikidata",
+        "title": "Cape Verde",
+        "url": "https://www.wikidata.org/wiki/Q1011"
+      },
+      "area_rank": 166,
+      "population_rank": 166
+    },
+    {
+      "name": "Central African Republic",
+      "wikidata": "Q929",
+      "capital": "Bangui",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 622984,
+      "population": 5152421,
+      "landlocked": true,
+      "borders": [
+        "Chad",
+        "South Sudan",
+        "Republic of the Congo",
+        "Democratic Republic of the Congo",
+        "Cameroon",
+        "Sudan",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Central African Republic",
+        "url": "https://www.wikidata.org/wiki/Q929"
+      },
+      "area_rank": 45,
+      "population_rank": 121
+    },
+    {
+      "name": "Chad",
+      "wikidata": "Q657",
+      "capital": "N'Djamena",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1284000,
+      "population": 19319064,
+      "landlocked": true,
+      "borders": [
+        "Central African Republic",
+        "Libya",
+        "Cameroon",
+        "Niger",
+        "Nigeria",
+        "Sudan",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Chad",
+        "url": "https://www.wikidata.org/wiki/Q657"
+      },
+      "area_rank": 21,
+      "population_rank": 65
+    },
+    {
+      "name": "Chile",
+      "wikidata": "Q298",
+      "capital": "Santiago",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 756102,
+      "population": 19458000,
+      "landlocked": false,
+      "borders": [
+        "Argentina",
+        "Peru",
+        "Bolivia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Chile",
+        "url": "https://www.wikidata.org/wiki/Q298"
+      },
+      "area_rank": 38,
+      "population_rank": 64
+    },
+    {
+      "name": "Colombia",
+      "wikidata": "Q739",
+      "capital": "Bogotá",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 1141748,
+      "population": 52321152,
+      "landlocked": false,
+      "borders": [
+        "Brazil",
+        "Peru",
+        "Venezuela",
+        "Ecuador",
+        "Nicaragua",
+        "Panama"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Colombia",
+        "url": "https://www.wikidata.org/wiki/Q739"
+      },
+      "area_rank": 26,
+      "population_rank": 27
+    },
+    {
+      "name": "Comoros",
+      "wikidata": "Q970",
+      "capital": "Moroni",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 2034,
+      "population": 902348,
+      "landlocked": false,
+      "borders": [
+        "France",
+        "Tanzania",
+        "Madagascar",
+        "Mozambique",
+        "Seychelles"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Comoros",
+        "url": "https://www.wikidata.org/wiki/Q970"
+      },
+      "area_rank": 170,
+      "population_rank": 159
+    },
+    {
+      "name": "Costa Rica",
+      "wikidata": "Q800",
+      "capital": "San José",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 51180,
+      "population": 5265575,
+      "landlocked": false,
+      "borders": [
+        "Panama",
+        "Nicaragua"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Costa Rica",
+        "url": "https://www.wikidata.org/wiki/Q800"
+      },
+      "area_rank": 127,
+      "population_rank": 119
+    },
+    {
+      "name": "Croatia",
+      "wikidata": "Q224",
+      "capital": "Zagreb",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 56594,
+      "population": 3871833,
+      "landlocked": false,
+      "borders": [
+        "Hungary",
+        "Slovenia",
+        "Bosnia and Herzegovina",
+        "Montenegro",
+        "Serbia",
+        "Liberland"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Croatia",
+        "url": "https://www.wikidata.org/wiki/Q224"
+      },
+      "area_rank": 125,
+      "population_rank": 128
+    },
+    {
+      "name": "Cuba",
+      "wikidata": "Q241",
+      "capital": "Havana",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 109884,
+      "population": 10985974,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "United Kingdom"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Cuba",
+        "url": "https://www.wikidata.org/wiki/Q241"
+      },
+      "area_rank": 105,
+      "population_rank": 83
+    },
+    {
+      "name": "Cyprus",
+      "wikidata": "Q229",
+      "capital": "Nicosia",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 9242,
+      "population": 1344976,
+      "landlocked": false,
+      "borders": [
+        "Turkey",
+        "United Kingdom",
+        "Israel",
+        "Northern Cyprus",
+        "Akrotiri and Dhekelia",
+        "realm of the United Kingdom"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Cyprus",
+        "url": "https://www.wikidata.org/wiki/Q229"
+      },
+      "area_rank": 163,
+      "population_rank": 153
+    },
+    {
+      "name": "Czech Republic",
+      "wikidata": "Q213",
+      "capital": "Prague",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 78871,
+      "population": 10909500,
+      "landlocked": true,
+      "borders": [
+        "Poland",
+        "Austria",
+        "Germany",
+        "Slovakia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Czech Republic",
+        "url": "https://www.wikidata.org/wiki/Q213"
+      },
+      "area_rank": 116,
+      "population_rank": 85
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "wikidata": "Q974",
+      "capital": "Kinshasa",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 2344858,
+      "population": 105789731,
+      "landlocked": false,
+      "borders": [
+        "Angola",
+        "Tanzania",
+        "Central African Republic",
+        "Zambia",
+        "South Sudan",
+        "Burundi",
+        "Republic of the Congo",
+        "Cameroon",
+        "Uganda",
+        "Rwanda",
+        "Sudan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Democratic Republic of the Congo",
+        "url": "https://www.wikidata.org/wiki/Q974"
+      },
+      "area_rank": 11,
+      "population_rank": 15
+    },
+    {
+      "name": "Djibouti",
+      "wikidata": "Q977",
+      "capital": "Djibouti",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 23200,
+      "population": 1152944,
+      "landlocked": false,
+      "borders": [
+        "Ethiopia",
+        "Eritrea",
+        "Somalia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Djibouti",
+        "url": "https://www.wikidata.org/wiki/Q977"
+      },
+      "area_rank": 147,
+      "population_rank": 157
+    },
+    {
+      "name": "Dominica",
+      "wikidata": "Q784",
+      "capital": "Roseau",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 751,
+      "population": 74656,
+      "landlocked": false,
+      "borders": [
+        "Venezuela"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Dominica",
+        "url": "https://www.wikidata.org/wiki/Q784"
+      },
+      "area_rank": 174,
+      "population_rank": 186
+    },
+    {
+      "name": "Dominican Republic",
+      "wikidata": "Q786",
+      "capital": "Santo Domingo",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 48671,
+      "population": 10760028,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "Venezuela",
+        "Haiti",
+        "Turks and Caicos Islands"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Dominican Republic",
+        "url": "https://www.wikidata.org/wiki/Q786"
+      },
+      "area_rank": 129,
+      "population_rank": 86
+    },
+    {
+      "name": "Ecuador",
+      "wikidata": "Q736",
+      "capital": "Quito",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 257204,
+      "population": 16938986,
+      "landlocked": false,
+      "borders": [
+        "Peru",
+        "Colombia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Ecuador",
+        "url": "https://www.wikidata.org/wiki/Q736"
+      },
+      "area_rank": 77,
+      "population_rank": 71
+    },
+    {
+      "name": "Egypt",
+      "wikidata": "Q79",
+      "capital": "Cairo",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1010408,
+      "population": 114535772,
+      "landlocked": false,
+      "borders": [
+        "Israel",
+        "Libya",
+        "Sudan",
+        "Bir Tawil",
+        "Palestine",
+        "Levant"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Egypt",
+        "url": "https://www.wikidata.org/wiki/Q79"
+      },
+      "area_rank": 30,
+      "population_rank": 13
+    },
+    {
+      "name": "El Salvador",
+      "wikidata": "Q792",
+      "capital": "San Salvador",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 21041,
+      "population": 6029976,
+      "landlocked": false,
+      "borders": [
+        "Guatemala",
+        "Honduras"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "El Salvador",
+        "url": "https://www.wikidata.org/wiki/Q792"
+      },
+      "area_rank": 149,
+      "population_rank": 112
+    },
+    {
+      "name": "Equatorial Guinea",
+      "wikidata": "Q983",
+      "capital": "Ciudad de la Paz",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 28051,
+      "population": 1847549,
+      "landlocked": false,
+      "borders": [
+        "Gabon",
+        "Cameroon",
+        "São Tomé and Príncipe"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Equatorial Guinea",
+        "url": "https://www.wikidata.org/wiki/Q983"
+      },
+      "area_rank": 142,
+      "population_rank": 148
+    },
+    {
+      "name": "Eritrea",
+      "wikidata": "Q986",
+      "capital": "Asmara",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 117600,
+      "population": 3497000,
+      "landlocked": false,
+      "borders": [
+        "Ethiopia",
+        "Djibouti",
+        "Sudan",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Eritrea",
+        "url": "https://www.wikidata.org/wiki/Q986"
+      },
+      "area_rank": 100,
+      "population_rank": 131
+    },
+    {
+      "name": "Estonia",
+      "wikidata": "Q191",
+      "capital": "Tallinn",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 45335,
+      "population": 1369995,
+      "landlocked": false,
+      "borders": [
+        "Russia",
+        "Latvia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Estonia",
+        "url": "https://www.wikidata.org/wiki/Q191"
+      },
+      "area_rank": 130,
+      "population_rank": 151
+    },
+    {
+      "name": "Eswatini",
+      "wikidata": "Q1050",
+      "capital": "Lobamba",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 17364,
+      "population": 1230506,
+      "landlocked": true,
+      "borders": [
+        "South Africa",
+        "Mozambique"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Eswatini",
+        "url": "https://www.wikidata.org/wiki/Q1050"
+      },
+      "area_rank": 154,
+      "population_rank": 156
+    },
+    {
+      "name": "Ethiopia",
+      "wikidata": "Q115",
+      "capital": "Addis Ababa",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1104300,
+      "population": 128691692,
+      "landlocked": true,
+      "borders": [
+        "Kenya",
+        "South Sudan",
+        "Djibouti",
+        "Eritrea",
+        "Somalia",
+        "Sudan",
+        "Somaliland",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Ethiopia",
+        "url": "https://www.wikidata.org/wiki/Q115"
+      },
+      "area_rank": 27,
+      "population_rank": 11
+    },
+    {
+      "name": "Federated States of Micronesia",
+      "wikidata": "Q702",
+      "capital": "Palikir",
+      "continents": [
+        "Oceania"
+      ],
+      "area_km2": 702,
+      "population": 75817,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "Papua New Guinea",
+        "Palau"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Federated States of Micronesia",
+        "url": "https://www.wikidata.org/wiki/Q702"
+      },
+      "area_rank": 177,
+      "population_rank": 185
+    },
+    {
+      "name": "Fiji",
+      "wikidata": "Q712",
+      "capital": "Suva",
+      "continents": [
+        "Insular Oceania"
+      ],
+      "area_km2": 18274,
+      "population": 926276,
+      "landlocked": false,
+      "borders": [
+        "Solomon Islands"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Fiji",
+        "url": "https://www.wikidata.org/wiki/Q712"
+      },
+      "area_rank": 152,
+      "population_rank": 158
+    },
+    {
+      "name": "Finland",
+      "wikidata": "Q33",
+      "capital": "Helsinki",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 338478,
+      "population": 5652881,
+      "landlocked": false,
+      "borders": [
+        "Norway",
+        "Sweden",
+        "Russia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Finland",
+        "url": "https://www.wikidata.org/wiki/Q33"
+      },
+      "area_rank": 67,
+      "population_rank": 115
+    },
+    {
+      "name": "France",
+      "wikidata": "Q142",
+      "capital": "Paris",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 643801,
+      "population": 68605616,
+      "landlocked": false,
+      "borders": [
+        "Spain",
+        "Belgium",
+        "Luxembourg",
+        "Switzerland",
+        "Italy",
+        "Brazil",
+        "Germany",
+        "Andorra",
+        "Monaco",
+        "Suriname",
+        "Kingdom of the Netherlands"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "France",
+        "url": "https://www.wikidata.org/wiki/Q142"
+      },
+      "area_rank": 43,
+      "population_rank": 20
+    },
+    {
+      "name": "Gabon",
+      "wikidata": "Q1000",
+      "capital": "Libreville",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 267667,
+      "population": 2025137,
+      "landlocked": false,
+      "borders": [
+        "Angola",
+        "Equatorial Guinea",
+        "Republic of the Congo",
+        "Cameroon",
+        "São Tomé and Príncipe"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Gabon",
+        "url": "https://www.wikidata.org/wiki/Q1000"
+      },
+      "area_rank": 76,
+      "population_rank": 144
+    },
+    {
+      "name": "Georgia",
+      "wikidata": "Q230",
+      "capital": "Tbilisi",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 69700,
+      "population": 3694600,
+      "landlocked": false,
+      "borders": [
+        "Turkey",
+        "Russia",
+        "Azerbaijan",
+        "Armenia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Georgia",
+        "url": "https://www.wikidata.org/wiki/Q230"
+      },
+      "area_rank": 120,
+      "population_rank": 130
+    },
+    {
+      "name": "Germany",
+      "wikidata": "Q183",
+      "capital": "Berlin",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 357588,
+      "population": 83577140,
+      "landlocked": false,
+      "borders": [
+        "Belgium",
+        "Luxembourg",
+        "Poland",
+        "Denmark",
+        "Switzerland",
+        "Austria",
+        "Netherlands",
+        "France",
+        "Czech Republic"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Germany",
+        "url": "https://www.wikidata.org/wiki/Q183"
+      },
+      "area_rank": 64,
+      "population_rank": 19
+    },
+    {
+      "name": "Ghana",
+      "wikidata": "Q117",
+      "capital": "Accra",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 238535,
+      "population": 32833031,
+      "landlocked": false,
+      "borders": [
+        "Togo",
+        "Burkina Faso",
+        "Ivory Coast"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Ghana",
+        "url": "https://www.wikidata.org/wiki/Q117"
+      },
+      "area_rank": 81,
+      "population_rank": 45
+    },
+    {
+      "name": "Greece",
+      "wikidata": "Q41",
+      "capital": "Athens",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 131957,
+      "population": 10482487,
+      "landlocked": false,
+      "borders": [
+        "Turkey",
+        "Bulgaria",
+        "North Macedonia",
+        "Albania"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Greece",
+        "url": "https://www.wikidata.org/wiki/Q41"
+      },
+      "area_rank": 96,
+      "population_rank": 88
+    },
+    {
+      "name": "Grenada",
+      "wikidata": "Q769",
+      "capital": "St. George's",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 349,
+      "population": 114299,
+      "landlocked": false,
+      "borders": [
+        "Venezuela"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Grenada",
+        "url": "https://www.wikidata.org/wiki/Q769"
+      },
+      "area_rank": 185,
+      "population_rank": 180
+    },
+    {
+      "name": "Guatemala",
+      "wikidata": "Q774",
+      "capital": "Guatemala City",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 108889,
+      "population": 17263239,
+      "landlocked": false,
+      "borders": [
+        "Mexico",
+        "Belize",
+        "Honduras",
+        "El Salvador"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Guatemala",
+        "url": "https://www.wikidata.org/wiki/Q774"
+      },
+      "area_rank": 106,
+      "population_rank": 69
+    },
+    {
+      "name": "Guinea",
+      "wikidata": "Q1006",
+      "capital": "Conakry",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 245857,
+      "population": 12717176,
+      "landlocked": false,
+      "borders": [
+        "Mali",
+        "Guinea-Bissau",
+        "Ivory Coast",
+        "Liberia",
+        "Senegal",
+        "Sierra Leone"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Guinea",
+        "url": "https://www.wikidata.org/wiki/Q1006"
+      },
+      "area_rank": 78,
+      "population_rank": 77
+    },
+    {
+      "name": "Guinea-Bissau",
+      "wikidata": "Q1007",
+      "capital": "Bissau",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 36125,
+      "population": 1861283,
+      "landlocked": false,
+      "borders": [
+        "Guinea",
+        "Senegal"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Guinea-Bissau",
+        "url": "https://www.wikidata.org/wiki/Q1007"
+      },
+      "area_rank": 135,
+      "population_rank": 146
+    },
+    {
+      "name": "Guyana",
+      "wikidata": "Q734",
+      "capital": "Georgetown",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 214970,
+      "population": 878674,
+      "landlocked": false,
+      "borders": [
+        "Brazil",
+        "Venezuela",
+        "Suriname"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Guyana",
+        "url": "https://www.wikidata.org/wiki/Q734"
+      },
+      "area_rank": 84,
+      "population_rank": 160
+    },
+    {
+      "name": "Haiti",
+      "wikidata": "Q790",
+      "capital": "Port-au-Prince",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 27750,
+      "population": 10981229,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "Dominican Republic",
+        "Turks and Caicos Islands"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Haiti",
+        "url": "https://www.wikidata.org/wiki/Q790"
+      },
+      "area_rank": 144,
+      "population_rank": 84
+    },
+    {
+      "name": "Honduras",
+      "wikidata": "Q783",
+      "capital": "Tegucigalpa",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 112492,
+      "population": 8303771,
+      "landlocked": false,
+      "borders": [
+        "Guatemala",
+        "El Salvador",
+        "Nicaragua"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Honduras",
+        "url": "https://www.wikidata.org/wiki/Q783"
+      },
+      "area_rank": 102,
+      "population_rank": 100
+    },
+    {
+      "name": "Hungary",
+      "wikidata": "Q28",
+      "capital": "Budapest",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 93011,
+      "population": 9603634,
+      "landlocked": true,
+      "borders": [
+        "Austria",
+        "Ukraine",
+        "Slovakia",
+        "Slovenia",
+        "Romania",
+        "Croatia",
+        "Serbia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Hungary",
+        "url": "https://www.wikidata.org/wiki/Q28"
+      },
+      "area_rank": 109,
+      "population_rank": 94
+    },
+    {
+      "name": "Iceland",
+      "wikidata": "Q189",
+      "capital": "Reykjavík",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 103004,
+      "population": 364260,
+      "landlocked": false,
+      "borders": [
+        "Greenland",
+        "Faroe Islands",
+        "Svalbard"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Iceland",
+        "url": "https://www.wikidata.org/wiki/Q189"
+      },
+      "area_rank": 107,
+      "population_rank": 172
+    },
+    {
+      "name": "India",
+      "wikidata": "Q668",
+      "capital": "New Delhi",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 3287263,
+      "population": 1326093247,
+      "landlocked": false,
+      "borders": [
+        "People's Republic of China",
+        "Indonesia",
+        "Myanmar",
+        "Nepal",
+        "Sri Lanka",
+        "Pakistan",
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "India",
+        "url": "https://www.wikidata.org/wiki/Q668"
+      },
+      "area_rank": 7,
+      "population_rank": 2
+    },
+    {
+      "name": "Indonesia",
+      "wikidata": "Q252",
+      "capital": "Jakarta",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 1904570,
+      "population": 275439000,
+      "landlocked": false,
+      "borders": [
+        "Singapore",
+        "Australia",
+        "Timor-Leste",
+        "India",
+        "Papua New Guinea",
+        "Palau",
+        "Malaysia",
+        "Thailand",
+        "Vietnam",
+        "Philippines"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Indonesia",
+        "url": "https://www.wikidata.org/wiki/Q252"
+      },
+      "area_rank": 15,
+      "population_rank": 4
+    },
+    {
+      "name": "Iran",
+      "wikidata": "Q794",
+      "capital": "Tehran",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 1648195,
+      "population": 92417700,
+      "landlocked": false,
+      "borders": [
+        "Turkey",
+        "Azerbaijan",
+        "Bahrain",
+        "Armenia",
+        "Iraq",
+        "Kuwait",
+        "Oman",
+        "Pakistan",
+        "Qatar",
+        "Turkmenistan",
+        "Saudi Arabia",
+        "Afghanistan",
+        "United Arab Emirates",
+        "Nakhchivan Autonomous Republic"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Iran",
+        "url": "https://www.wikidata.org/wiki/Q794"
+      },
+      "area_rank": 18,
+      "population_rank": 17
+    },
+    {
+      "name": "Iraq",
+      "wikidata": "Q796",
+      "capital": "Baghdad",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 437072,
+      "population": 38274618,
+      "landlocked": false,
+      "borders": [
+        "Turkey",
+        "Iran",
+        "Jordan",
+        "Kuwait",
+        "Saudi Arabia",
+        "Syria"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Iraq",
+        "url": "https://www.wikidata.org/wiki/Q796"
+      },
+      "area_rank": 59,
+      "population_rank": 37
+    },
+    {
+      "name": "Ireland",
+      "wikidata": "Q27",
+      "capital": "Dublin",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 69797,
+      "population": 5149139,
+      "landlocked": false,
+      "borders": [
+        "Northern Ireland",
+        "United Kingdom"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Ireland",
+        "url": "https://www.wikidata.org/wiki/Q27"
+      },
+      "area_rank": 119,
+      "population_rank": 122
+    },
+    {
+      "name": "Israel",
+      "wikidata": "Q801",
+      "capital": "Jerusalem",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 20770,
+      "population": 9840000,
+      "landlocked": false,
+      "borders": [
+        "Egypt",
+        "Jordan",
+        "Lebanon",
+        "Syria"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Israel",
+        "url": "https://www.wikidata.org/wiki/Q801"
+      },
+      "area_rank": 150,
+      "population_rank": 93
+    },
+    {
+      "name": "Italy",
+      "wikidata": "Q38",
+      "capital": "Rome",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 302068,
+      "population": 58850717,
+      "landlocked": false,
+      "borders": [
+        "Austria",
+        "Switzerland",
+        "France",
+        "Slovenia",
+        "Vatican City",
+        "Malta",
+        "San Marino"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Italy",
+        "url": "https://www.wikidata.org/wiki/Q38"
+      },
+      "area_rank": 73,
+      "population_rank": 24
+    },
+    {
+      "name": "Ivory Coast",
+      "wikidata": "Q1008",
+      "capital": "Yamoussoukro",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 322463,
+      "population": 31165654,
+      "landlocked": false,
+      "borders": [
+        "Ghana",
+        "Mali",
+        "Burkina Faso",
+        "Guinea",
+        "Liberia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Ivory Coast",
+        "url": "https://www.wikidata.org/wiki/Q1008"
+      },
+      "area_rank": 70,
+      "population_rank": 49
+    },
+    {
+      "name": "Jamaica",
+      "wikidata": "Q766",
+      "capital": "Kingston",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 10992,
+      "population": 2697983,
+      "landlocked": false,
+      "borders": [
+        "United Kingdom"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Jamaica",
+        "url": "https://www.wikidata.org/wiki/Q766"
+      },
+      "area_rank": 161,
+      "population_rank": 137
+    },
+    {
+      "name": "Japan",
+      "wikidata": "Q17",
+      "capital": "Tokyo",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 377972,
+      "population": 123802000,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "People's Republic of China",
+        "Russia",
+        "Taiwan",
+        "South Korea",
+        "Philippines"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Japan",
+        "url": "https://www.wikidata.org/wiki/Q17"
+      },
+      "area_rank": 63,
+      "population_rank": 12
+    },
+    {
+      "name": "Jordan",
+      "wikidata": "Q810",
+      "capital": "Amman",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 89341,
+      "population": 10428241,
+      "landlocked": false,
+      "borders": [
+        "Iraq",
+        "Israel",
+        "Saudi Arabia",
+        "Syria",
+        "West Bank",
+        "Palestine"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Jordan",
+        "url": "https://www.wikidata.org/wiki/Q810"
+      },
+      "area_rank": 111,
+      "population_rank": 89
+    },
+    {
+      "name": "Kazakhstan",
+      "wikidata": "Q232",
+      "capital": "Astana",
+      "continents": [
+        "Asia",
+        "Europe"
+      ],
+      "area_km2": 2724900,
+      "population": 20139914,
+      "landlocked": true,
+      "borders": [
+        "People's Republic of China",
+        "Russia",
+        "Uzbekistan",
+        "Kyrgyzstan",
+        "Turkmenistan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Kazakhstan",
+        "url": "https://www.wikidata.org/wiki/Q232"
+      },
+      "area_rank": 9,
+      "population_rank": 62
+    },
+    {
+      "name": "Kenya",
+      "wikidata": "Q114",
+      "capital": "Nairobi",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 581309,
+      "population": 48468138,
+      "landlocked": false,
+      "borders": [
+        "Ethiopia",
+        "Tanzania",
+        "South Sudan",
+        "Uganda",
+        "Somalia",
+        "Sudan",
+        "Lake Victoria",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Kenya",
+        "url": "https://www.wikidata.org/wiki/Q114"
+      },
+      "area_rank": 49,
+      "population_rank": 30
+    },
+    {
+      "name": "Kingdom of Denmark",
+      "wikidata": "Q756617",
+      "capital": "Copenhagen",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 2220930,
+      "population": 5930987,
+      "landlocked": false,
+      "borders": [
+        "Canada",
+        "Norway",
+        "Sweden",
+        "Poland",
+        "United Kingdom",
+        "Germany",
+        "Iceland",
+        "European Union",
+        "West Germany"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Kingdom of Denmark",
+        "url": "https://www.wikidata.org/wiki/Q756617"
+      },
+      "area_rank": 13,
+      "population_rank": 113
+    },
+    {
+      "name": "Kingdom of the Netherlands",
+      "wikidata": "Q29999",
+      "capital": "Amsterdam",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 42201,
+      "population": 17100715,
+      "landlocked": false,
+      "borders": [
+        "Belgium",
+        "France",
+        "Germany",
+        "Venezuela",
+        "Neutral Moresnet"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Kingdom of the Netherlands",
+        "url": "https://www.wikidata.org/wiki/Q29999"
+      },
+      "area_rank": 131,
+      "population_rank": 70
+    },
+    {
+      "name": "Kiribati",
+      "wikidata": "Q710",
+      "capital": "South Tarawa",
+      "continents": [
+        "Oceania",
+        "Insular Oceania"
+      ],
+      "area_km2": 811,
+      "population": 134518,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "France"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Kiribati",
+        "url": "https://www.wikidata.org/wiki/Q710"
+      },
+      "area_rank": 172,
+      "population_rank": 178
+    },
+    {
+      "name": "Kuwait",
+      "wikidata": "Q817",
+      "capital": "Kuwait City",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 17818,
+      "population": 4464000,
+      "landlocked": false,
+      "borders": [
+        "Iran",
+        "Iraq",
+        "Saudi Arabia",
+        "Saudi–Kuwaiti Neutral Zone"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Kuwait",
+        "url": "https://www.wikidata.org/wiki/Q817"
+      },
+      "area_rank": 153,
+      "population_rank": 127
+    },
+    {
+      "name": "Kyrgyzstan",
+      "wikidata": "Q813",
+      "capital": "Bishkek",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 199951,
+      "population": 7281800,
+      "landlocked": true,
+      "borders": [
+        "People's Republic of China",
+        "Kazakhstan",
+        "Uzbekistan",
+        "Tajikistan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Kyrgyzstan",
+        "url": "https://www.wikidata.org/wiki/Q813"
+      },
+      "area_rank": 86,
+      "population_rank": 104
+    },
+    {
+      "name": "Laos",
+      "wikidata": "Q819",
+      "capital": "Vientiane",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 236800,
+      "population": 6858160,
+      "landlocked": true,
+      "borders": [
+        "People's Republic of China",
+        "Cambodia",
+        "Myanmar",
+        "Thailand",
+        "Vietnam"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Laos",
+        "url": "https://www.wikidata.org/wiki/Q819"
+      },
+      "area_rank": 83,
+      "population_rank": 105
+    },
+    {
+      "name": "Latvia",
+      "wikidata": "Q211",
+      "capital": "Riga",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 64594,
+      "population": 1856932,
+      "landlocked": false,
+      "borders": [
+        "Sweden",
+        "Lithuania",
+        "Russia",
+        "Belarus",
+        "Estonia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Latvia",
+        "url": "https://www.wikidata.org/wiki/Q211"
+      },
+      "area_rank": 123,
+      "population_rank": 147
+    },
+    {
+      "name": "Lebanon",
+      "wikidata": "Q822",
+      "capital": "Beirut",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 10452,
+      "population": 6100075,
+      "landlocked": false,
+      "borders": [
+        "Israel",
+        "Syria"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Lebanon",
+        "url": "https://www.wikidata.org/wiki/Q822"
+      },
+      "area_rank": 162,
+      "population_rank": 111
+    },
+    {
+      "name": "Lesotho",
+      "wikidata": "Q1013",
+      "capital": "Maseru",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 30355,
+      "population": 2007201,
+      "landlocked": true,
+      "borders": [
+        "South Africa"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Lesotho",
+        "url": "https://www.wikidata.org/wiki/Q1013"
+      },
+      "area_rank": 138,
+      "population_rank": 145
+    },
+    {
+      "name": "Liberia",
+      "wikidata": "Q1014",
+      "capital": "Monrovia",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 111369,
+      "population": 5214030,
+      "landlocked": false,
+      "borders": [
+        "Guinea",
+        "Ivory Coast",
+        "Sierra Leone"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Liberia",
+        "url": "https://www.wikidata.org/wiki/Q1014"
+      },
+      "area_rank": 103,
+      "population_rank": 120
+    },
+    {
+      "name": "Libya",
+      "wikidata": "Q1016",
+      "capital": "Tripoli",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1759541,
+      "population": 7381023,
+      "landlocked": false,
+      "borders": [
+        "Egypt",
+        "Algeria",
+        "Chad",
+        "Tunisia",
+        "Niger",
+        "Sudan",
+        "Middle East"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Libya",
+        "url": "https://www.wikidata.org/wiki/Q1016"
+      },
+      "area_rank": 17,
+      "population_rank": 103
+    },
+    {
+      "name": "Liechtenstein",
+      "wikidata": "Q347",
+      "capital": "Vaduz",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 160,
+      "population": 37922,
+      "landlocked": false,
+      "borders": [
+        "Switzerland",
+        "Austria",
+        "European Union"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Liechtenstein",
+        "url": "https://www.wikidata.org/wiki/Q347"
+      },
+      "area_rank": 190,
+      "population_rank": 190
+    },
+    {
+      "name": "Lithuania",
+      "wikidata": "Q37",
+      "capital": "Vilnius",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 65300,
+      "population": 2860002,
+      "landlocked": false,
+      "borders": [
+        "Sweden",
+        "Poland",
+        "Russia",
+        "Belarus",
+        "Latvia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Lithuania",
+        "url": "https://www.wikidata.org/wiki/Q37"
+      },
+      "area_rank": 122,
+      "population_rank": 135
+    },
+    {
+      "name": "Luxembourg",
+      "wikidata": "Q32",
+      "capital": "Luxembourg",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 2586,
+      "population": 681973,
+      "landlocked": true,
+      "borders": [
+        "Belgium",
+        "France",
+        "Germany"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Luxembourg",
+        "url": "https://www.wikidata.org/wiki/Q32"
+      },
+      "area_rank": 168,
+      "population_rank": 162
+    },
+    {
+      "name": "Madagascar",
+      "wikidata": "Q1019",
+      "capital": "Antananarivo",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 587295,
+      "population": 31964956,
+      "landlocked": false,
+      "borders": [
+        "France",
+        "Comoros",
+        "Mozambique",
+        "Seychelles"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Madagascar",
+        "url": "https://www.wikidata.org/wiki/Q1019"
+      },
+      "area_rank": 47,
+      "population_rank": 47
+    },
+    {
+      "name": "Malawi",
+      "wikidata": "Q1020",
+      "capital": "Lilongwe",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 118484,
+      "population": 17563749,
+      "landlocked": true,
+      "borders": [
+        "Tanzania",
+        "Zambia",
+        "Mozambique"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Malawi",
+        "url": "https://www.wikidata.org/wiki/Q1020"
+      },
+      "area_rank": 99,
+      "population_rank": 67
+    },
+    {
+      "name": "Malaysia",
+      "wikidata": "Q833",
+      "capital": "Kuala Lumpur",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 330803,
+      "population": 32447385,
+      "landlocked": false,
+      "borders": [
+        "Indonesia",
+        "Singapore",
+        "Thailand",
+        "Brunei",
+        "Philippines"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Malaysia",
+        "url": "https://www.wikidata.org/wiki/Q833"
+      },
+      "area_rank": 69,
+      "population_rank": 46
+    },
+    {
+      "name": "Maldives",
+      "wikidata": "Q826",
+      "capital": "Malé",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 298,
+      "population": 436330,
+      "landlocked": false,
+      "borders": [
+        "United Kingdom"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Maldives",
+        "url": "https://www.wikidata.org/wiki/Q826"
+      },
+      "area_rank": 187,
+      "population_rank": 169
+    },
+    {
+      "name": "Mali",
+      "wikidata": "Q912",
+      "capital": "Bamako",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1240192,
+      "population": 22395489,
+      "landlocked": true,
+      "borders": [
+        "Algeria",
+        "Burkina Faso",
+        "Guinea",
+        "Ivory Coast",
+        "Mauritania",
+        "Niger",
+        "Senegal"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Mali",
+        "url": "https://www.wikidata.org/wiki/Q912"
+      },
+      "area_rank": 24,
+      "population_rank": 59
+    },
+    {
+      "name": "Malta",
+      "wikidata": "Q233",
+      "capital": "Valletta",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 316,
+      "population": 553214,
+      "landlocked": false,
+      "borders": [
+        "Italy"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Malta",
+        "url": "https://www.wikidata.org/wiki/Q233"
+      },
+      "area_rank": 186,
+      "population_rank": 167
+    },
+    {
+      "name": "Marshall Islands",
+      "wikidata": "Q709",
+      "capital": "Majuro",
+      "continents": [
+        "Oceania"
+      ],
+      "area_km2": 181,
+      "population": 53127,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "Nauru",
+        "Kiribati",
+        "Federated States of Micronesia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Marshall Islands",
+        "url": "https://www.wikidata.org/wiki/Q709"
+      },
+      "area_rank": 189,
+      "population_rank": 187
+    },
+    {
+      "name": "Mauritania",
+      "wikidata": "Q1025",
+      "capital": "Nouakchott",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1030700,
+      "population": 4736139,
+      "landlocked": false,
+      "borders": [
+        "Algeria",
+        "Mali",
+        "Senegal",
+        "Western Sahara"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Mauritania",
+        "url": "https://www.wikidata.org/wiki/Q1025"
+      },
+      "area_rank": 29,
+      "population_rank": 125
+    },
+    {
+      "name": "Mauritius",
+      "wikidata": "Q1027",
+      "capital": "Port Louis",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 2040,
+      "population": 1264613,
+      "landlocked": false,
+      "borders": [
+        "France",
+        "Maldives",
+        "Seychelles"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Mauritius",
+        "url": "https://www.wikidata.org/wiki/Q1027"
+      },
+      "area_rank": 169,
+      "population_rank": 154
+    },
+    {
+      "name": "Mexico",
+      "wikidata": "Q96",
+      "capital": "Mexico City",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 1972550,
+      "population": 132274416,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "Belize",
+        "Guatemala"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Mexico",
+        "url": "https://www.wikidata.org/wiki/Q96"
+      },
+      "area_rank": 14,
+      "population_rank": 10
+    },
+    {
+      "name": "Moldova",
+      "wikidata": "Q217",
+      "capital": "Chișinău",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 33844,
+      "population": 2409207,
+      "landlocked": true,
+      "borders": [
+        "Ukraine",
+        "Romania"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Moldova",
+        "url": "https://www.wikidata.org/wiki/Q217"
+      },
+      "area_rank": 136,
+      "population_rank": 142
+    },
+    {
+      "name": "Monaco",
+      "wikidata": "Q235",
+      "capital": "Monaco City",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 2,
+      "population": 38857,
+      "landlocked": false,
+      "borders": [
+        "France"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Monaco",
+        "url": "https://www.wikidata.org/wiki/Q235"
+      },
+      "area_rank": 194,
+      "population_rank": 189
+    },
+    {
+      "name": "Mongolia",
+      "wikidata": "Q711",
+      "capital": "Ulaanbaatar",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 1564116,
+      "population": 3409939,
+      "landlocked": true,
+      "borders": [
+        "People's Republic of China",
+        "Russia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Mongolia",
+        "url": "https://www.wikidata.org/wiki/Q711"
+      },
+      "area_rank": 19,
+      "population_rank": 133
+    },
+    {
+      "name": "Montenegro",
+      "wikidata": "Q236",
+      "capital": "Podgorica",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 13883,
+      "population": 617213,
+      "landlocked": false,
+      "borders": [
+        "Albania",
+        "Croatia",
+        "Bosnia and Herzegovina",
+        "Serbia",
+        "European Union",
+        "Kosovo"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Montenegro",
+        "url": "https://www.wikidata.org/wiki/Q236"
+      },
+      "area_rank": 156,
+      "population_rank": 163
+    },
+    {
+      "name": "Morocco",
+      "wikidata": "Q1028",
+      "capital": "Rabat",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 446550,
+      "population": 36828330,
+      "landlocked": false,
+      "borders": [
+        "Spain",
+        "Algeria",
+        "European Union",
+        "Western Sahara"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Morocco",
+        "url": "https://www.wikidata.org/wiki/Q1028"
+      },
+      "area_rank": 58,
+      "population_rank": 40
+    },
+    {
+      "name": "Mozambique",
+      "wikidata": "Q1029",
+      "capital": "Maputo",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 801590,
+      "population": 29668834,
+      "landlocked": false,
+      "borders": [
+        "South Africa",
+        "Tanzania",
+        "Zambia",
+        "Zimbabwe",
+        "Comoros",
+        "Malawi",
+        "Eswatini"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Mozambique",
+        "url": "https://www.wikidata.org/wiki/Q1029"
+      },
+      "area_rank": 36,
+      "population_rank": 50
+    },
+    {
+      "name": "Myanmar",
+      "wikidata": "Q836",
+      "capital": "Naypyidaw",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 676577,
+      "population": 53370609,
+      "landlocked": false,
+      "borders": [
+        "People's Republic of China",
+        "India",
+        "Laos",
+        "Thailand",
+        "Bangladesh"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Myanmar",
+        "url": "https://www.wikidata.org/wiki/Q836"
+      },
+      "area_rank": 40,
+      "population_rank": 26
+    },
+    {
+      "name": "Namibia",
+      "wikidata": "Q1030",
+      "capital": "Windhoek",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 825615,
+      "population": 2533794,
+      "landlocked": false,
+      "borders": [
+        "South Africa",
+        "Angola",
+        "Zambia",
+        "Botswana"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Namibia",
+        "url": "https://www.wikidata.org/wiki/Q1030"
+      },
+      "area_rank": 35,
+      "population_rank": 140
+    },
+    {
+      "name": "Nauru",
+      "wikidata": "Q697",
+      "capital": "Yaren District",
+      "continents": [
+        "Oceania"
+      ],
+      "area_km2": 21,
+      "population": 13650,
+      "landlocked": false,
+      "borders": [],
+      "citation": {
+        "source": "wikidata",
+        "title": "Nauru",
+        "url": "https://www.wikidata.org/wiki/Q697"
+      },
+      "area_rank": 193,
+      "population_rank": 193
+    },
+    {
+      "name": "Nepal",
+      "wikidata": "Q837",
+      "capital": "Kathmandu",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 147181,
+      "population": 29164578,
+      "landlocked": true,
+      "borders": [
+        "People's Republic of China",
+        "India"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Nepal",
+        "url": "https://www.wikidata.org/wiki/Q837"
+      },
+      "area_rank": 94,
+      "population_rank": 51
+    },
+    {
+      "name": "New Zealand",
+      "wikidata": "Q664",
+      "capital": "Wellington",
+      "continents": [
+        "Oceania"
+      ],
+      "area_km2": 268021,
+      "population": 5307800,
+      "landlocked": false,
+      "borders": [
+        "Australia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "New Zealand",
+        "url": "https://www.wikidata.org/wiki/Q664"
+      },
+      "area_rank": 75,
+      "population_rank": 118
+    },
+    {
+      "name": "Nicaragua",
+      "wikidata": "Q811",
+      "capital": "Managua",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 120340,
+      "population": 5142098,
+      "landlocked": false,
+      "borders": [
+        "Colombia",
+        "Honduras",
+        "Costa Rica"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Nicaragua",
+        "url": "https://www.wikidata.org/wiki/Q811"
+      },
+      "area_rank": 98,
+      "population_rank": 123
+    },
+    {
+      "name": "Niger",
+      "wikidata": "Q1032",
+      "capital": "Niamey",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1267000,
+      "population": 21477348,
+      "landlocked": true,
+      "borders": [
+        "Algeria",
+        "Chad",
+        "Mali",
+        "Benin",
+        "Burkina Faso",
+        "Libya",
+        "Nigeria",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Niger",
+        "url": "https://www.wikidata.org/wiki/Q1032"
+      },
+      "area_rank": 22,
+      "population_rank": 60
+    },
+    {
+      "name": "Nigeria",
+      "wikidata": "Q1033",
+      "capital": "Abuja",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 923768,
+      "population": 211400708,
+      "landlocked": false,
+      "borders": [
+        "Chad",
+        "Benin",
+        "Cameroon",
+        "Niger",
+        "São Tomé and Príncipe"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Nigeria",
+        "url": "https://www.wikidata.org/wiki/Q1033"
+      },
+      "area_rank": 32,
+      "population_rank": 7
+    },
+    {
+      "name": "North Korea",
+      "wikidata": "Q423",
+      "capital": "Pyongyang",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 120540,
+      "population": 26418204,
+      "landlocked": false,
+      "borders": [
+        "People's Republic of China",
+        "Russia",
+        "South Korea"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "North Korea",
+        "url": "https://www.wikidata.org/wiki/Q423"
+      },
+      "area_rank": 97,
+      "population_rank": 55
+    },
+    {
+      "name": "North Macedonia",
+      "wikidata": "Q221",
+      "capital": "Skopje",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 25713,
+      "population": 1836713,
+      "landlocked": true,
+      "borders": [
+        "Greece",
+        "Bulgaria",
+        "Albania",
+        "Serbia",
+        "European Union",
+        "Kosovo"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "North Macedonia",
+        "url": "https://www.wikidata.org/wiki/Q221"
+      },
+      "area_rank": 146,
+      "population_rank": 149
+    },
+    {
+      "name": "Norway",
+      "wikidata": "Q20",
+      "capital": "Oslo",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 385207,
+      "population": 5627400,
+      "landlocked": false,
+      "borders": [
+        "Finland",
+        "Sweden",
+        "Russia",
+        "European Union"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Norway",
+        "url": "https://www.wikidata.org/wiki/Q20"
+      },
+      "area_rank": 62,
+      "population_rank": 116
+    },
+    {
+      "name": "Oman",
+      "wikidata": "Q842",
+      "capital": "Muscat",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 309500,
+      "population": 4829480,
+      "landlocked": false,
+      "borders": [
+        "Iran",
+        "Yemen",
+        "Saudi Arabia",
+        "United Arab Emirates"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Oman",
+        "url": "https://www.wikidata.org/wiki/Q842"
+      },
+      "area_rank": 72,
+      "population_rank": 124
+    },
+    {
+      "name": "Pakistan",
+      "wikidata": "Q843",
+      "capital": "Islamabad",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 881913,
+      "population": 223773700,
+      "landlocked": false,
+      "borders": [
+        "People's Republic of China",
+        "India",
+        "Iran",
+        "Afghanistan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Pakistan",
+        "url": "https://www.wikidata.org/wiki/Q843"
+      },
+      "area_rank": 34,
+      "population_rank": 5
+    },
+    {
+      "name": "Palau",
+      "wikidata": "Q695",
+      "capital": "Ngerulmud",
+      "continents": [
+        "Oceania",
+        "Insular Oceania"
+      ],
+      "area_km2": 466,
+      "population": 21729,
+      "landlocked": false,
+      "borders": [
+        "Indonesia",
+        "Federated States of Micronesia",
+        "Philippines"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Palau",
+        "url": "https://www.wikidata.org/wiki/Q695"
+      },
+      "area_rank": 180,
+      "population_rank": 192
+    },
+    {
+      "name": "Panama",
+      "wikidata": "Q804",
+      "capital": "Panama City",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 74177,
+      "population": 4570133,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "Colombia",
+        "Costa Rica"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Panama",
+        "url": "https://www.wikidata.org/wiki/Q804"
+      },
+      "area_rank": 117,
+      "population_rank": 126
+    },
+    {
+      "name": "Papua New Guinea",
+      "wikidata": "Q691",
+      "capital": "Port Moresby",
+      "continents": [
+        "Oceania"
+      ],
+      "area_km2": 462840,
+      "population": 8935000,
+      "landlocked": false,
+      "borders": [
+        "Indonesia",
+        "Australia",
+        "Solomon Islands",
+        "Federated States of Micronesia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Papua New Guinea",
+        "url": "https://www.wikidata.org/wiki/Q691"
+      },
+      "area_rank": 54,
+      "population_rank": 99
+    },
+    {
+      "name": "Paraguay",
+      "wikidata": "Q733",
+      "capital": "Asunción",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 406756,
+      "population": 6811297,
+      "landlocked": false,
+      "borders": [
+        "Brazil",
+        "Argentina",
+        "Bolivia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Paraguay",
+        "url": "https://www.wikidata.org/wiki/Q733"
+      },
+      "area_rank": 60,
+      "population_rank": 106
+    },
+    {
+      "name": "People's Republic of China",
+      "wikidata": "Q148",
+      "capital": "Beijing",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 9596961,
+      "population": 1404890000,
+      "landlocked": false,
+      "borders": [
+        "Japan",
+        "Russia",
+        "Kazakhstan",
+        "North Korea",
+        "India",
+        "Mongolia",
+        "Laos",
+        "Kyrgyzstan",
+        "Myanmar",
+        "Nepal",
+        "Pakistan",
+        "Tajikistan",
+        "Vietnam",
+        "South Korea",
+        "Afghanistan",
+        "Bhutan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "People's Republic of China",
+        "url": "https://www.wikidata.org/wiki/Q148"
+      },
+      "area_rank": 4,
+      "population_rank": 1
+    },
+    {
+      "name": "Peru",
+      "wikidata": "Q419",
+      "capital": "Lima",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 1285216,
+      "population": 33726000,
+      "landlocked": false,
+      "borders": [
+        "Brazil",
+        "Chile",
+        "Bolivia",
+        "Ecuador",
+        "Colombia",
+        "Gran Colombia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Peru",
+        "url": "https://www.wikidata.org/wiki/Q419"
+      },
+      "area_rank": 20,
+      "population_rank": 43
+    },
+    {
+      "name": "Philippines",
+      "wikidata": "Q928",
+      "capital": "Manila",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 343448,
+      "population": 112729484,
+      "landlocked": false,
+      "borders": [
+        "Japan",
+        "People's Republic of China",
+        "Indonesia",
+        "Palau",
+        "Malaysia",
+        "Taiwan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Philippines",
+        "url": "https://www.wikidata.org/wiki/Q928"
+      },
+      "area_rank": 65,
+      "population_rank": 14
+    },
+    {
+      "name": "Poland",
+      "wikidata": "Q36",
+      "capital": "Warsaw",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 312683,
+      "population": 37563071,
+      "landlocked": false,
+      "borders": [
+        "Lithuania",
+        "Russia",
+        "Germany",
+        "Belarus",
+        "Ukraine",
+        "Czech Republic",
+        "Slovakia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Poland",
+        "url": "https://www.wikidata.org/wiki/Q36"
+      },
+      "area_rank": 71,
+      "population_rank": 38
+    },
+    {
+      "name": "Portugal",
+      "wikidata": "Q45",
+      "capital": "Lisbon",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 92225,
+      "population": 10347892,
+      "landlocked": false,
+      "borders": [
+        "Spain"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Portugal",
+        "url": "https://www.wikidata.org/wiki/Q45"
+      },
+      "area_rank": 110,
+      "population_rank": 90
+    },
+    {
+      "name": "Qatar",
+      "wikidata": "Q846",
+      "capital": "Doha",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 11437,
+      "population": 2639211,
+      "landlocked": false,
+      "borders": [
+        "Iran",
+        "Saudi Arabia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Qatar",
+        "url": "https://www.wikidata.org/wiki/Q846"
+      },
+      "area_rank": 159,
+      "population_rank": 139
+    },
+    {
+      "name": "realm of the United Kingdom",
+      "wikidata": "Q124653007",
+      "capital": "London",
+      "continents": [],
+      "area_km2": null,
+      "population": null,
+      "landlocked": false,
+      "borders": [
+        "Ireland"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "realm of the United Kingdom",
+        "url": "https://www.wikidata.org/wiki/Q124653007"
+      }
+    },
+    {
+      "name": "Republic of the Congo",
+      "wikidata": "Q971",
+      "capital": "Brazzaville",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 342000,
+      "population": 6142180,
+      "landlocked": false,
+      "borders": [
+        "Angola",
+        "Central African Republic",
+        "Democratic Republic of the Congo",
+        "Gabon",
+        "Cameroon"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Republic of the Congo",
+        "url": "https://www.wikidata.org/wiki/Q971"
+      },
+      "area_rank": 66,
+      "population_rank": 109
+    },
+    {
+      "name": "Romania",
+      "wikidata": "Q218",
+      "capital": "Bucharest",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 238397,
+      "population": 19053815,
+      "landlocked": false,
+      "borders": [
+        "Hungary",
+        "Ukraine",
+        "Moldova",
+        "Bulgaria",
+        "Serbia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Romania",
+        "url": "https://www.wikidata.org/wiki/Q218"
+      },
+      "area_rank": 82,
+      "population_rank": 66
+    },
+    {
+      "name": "Russia",
+      "wikidata": "Q159",
+      "capital": "Moscow",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 17075400,
+      "population": 146119928,
+      "landlocked": false,
+      "borders": [
+        "Japan",
+        "Norway",
+        "United States",
+        "Finland",
+        "Sweden",
+        "Poland",
+        "Lithuania",
+        "People's Republic of China",
+        "Belarus",
+        "Latvia",
+        "Estonia",
+        "Ukraine",
+        "Azerbaijan",
+        "Georgia",
+        "Kazakhstan",
+        "North Korea",
+        "European Union",
+        "Mongolia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Russia",
+        "url": "https://www.wikidata.org/wiki/Q159"
+      },
+      "area_rank": 1,
+      "population_rank": 9
+    },
+    {
+      "name": "Rwanda",
+      "wikidata": "Q1037",
+      "capital": "Kigali",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 26338,
+      "population": 14569341,
+      "landlocked": false,
+      "borders": [
+        "Tanzania",
+        "Burundi",
+        "Democratic Republic of the Congo",
+        "Uganda"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Rwanda",
+        "url": "https://www.wikidata.org/wiki/Q1037"
+      },
+      "area_rank": 145,
+      "population_rank": 74
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "wikidata": "Q763",
+      "capital": "Basseterre",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 269,
+      "population": 46922,
+      "landlocked": false,
+      "borders": [
+        "United Kingdom",
+        "Venezuela"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Saint Kitts and Nevis",
+        "url": "https://www.wikidata.org/wiki/Q763"
+      },
+      "area_rank": 188,
+      "population_rank": 188
+    },
+    {
+      "name": "Saint Lucia",
+      "wikidata": "Q760",
+      "capital": "Castries",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 617,
+      "population": 167591,
+      "landlocked": false,
+      "borders": [
+        "Venezuela"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Saint Lucia",
+        "url": "https://www.wikidata.org/wiki/Q760"
+      },
+      "area_rank": 178,
+      "population_rank": 177
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "wikidata": "Q757",
+      "capital": "Kingstown",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 389,
+      "population": 109897,
+      "landlocked": false,
+      "borders": [
+        "Venezuela"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Saint Vincent and the Grenadines",
+        "url": "https://www.wikidata.org/wiki/Q757"
+      },
+      "area_rank": 184,
+      "population_rank": 181
+    },
+    {
+      "name": "Samoa",
+      "wikidata": "Q683",
+      "capital": "Apia",
+      "continents": [
+        "Oceania"
+      ],
+      "area_km2": 2842,
+      "population": 200010,
+      "landlocked": false,
+      "borders": [
+        "United States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Samoa",
+        "url": "https://www.wikidata.org/wiki/Q683"
+      },
+      "area_rank": 167,
+      "population_rank": 176
+    },
+    {
+      "name": "San Marino",
+      "wikidata": "Q238",
+      "capital": "San Marino",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 61,
+      "population": 33600,
+      "landlocked": true,
+      "borders": [
+        "Italy",
+        "European Union"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "San Marino",
+        "url": "https://www.wikidata.org/wiki/Q238"
+      },
+      "area_rank": 191,
+      "population_rank": 191
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "wikidata": "Q1039",
+      "capital": "São Tomé",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1001,
+      "population": 204327,
+      "landlocked": false,
+      "borders": [
+        "Equatorial Guinea",
+        "Gabon",
+        "Nigeria"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "São Tomé and Príncipe",
+        "url": "https://www.wikidata.org/wiki/Q1039"
+      },
+      "area_rank": 171,
+      "population_rank": 175
+    },
+    {
+      "name": "Saudi Arabia",
+      "wikidata": "Q851",
+      "capital": "Riyadh",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 2250000,
+      "population": 33000000,
+      "landlocked": false,
+      "borders": [
+        "Egypt",
+        "Bahrain",
+        "Iran",
+        "Iraq",
+        "Yemen",
+        "Jordan",
+        "Kuwait",
+        "Oman",
+        "Qatar",
+        "United Arab Emirates"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Saudi Arabia",
+        "url": "https://www.wikidata.org/wiki/Q851"
+      },
+      "area_rank": 12,
+      "population_rank": 44
+    },
+    {
+      "name": "Senegal",
+      "wikidata": "Q1041",
+      "capital": "Dakar",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 196722,
+      "population": 16876720,
+      "landlocked": false,
+      "borders": [
+        "Mali",
+        "The Gambia",
+        "Guinea",
+        "Guinea-Bissau",
+        "Mauritania",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Senegal",
+        "url": "https://www.wikidata.org/wiki/Q1041"
+      },
+      "area_rank": 87,
+      "population_rank": 72
+    },
+    {
+      "name": "Serbia",
+      "wikidata": "Q403",
+      "capital": "Belgrade",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 88499,
+      "population": 6605168,
+      "landlocked": true,
+      "borders": [
+        "Hungary",
+        "Romania",
+        "Albania",
+        "North Macedonia",
+        "Bulgaria",
+        "Bosnia and Herzegovina",
+        "Croatia",
+        "Montenegro",
+        "European Union",
+        "Kosovo"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Serbia",
+        "url": "https://www.wikidata.org/wiki/Q403"
+      },
+      "area_rank": 112,
+      "population_rank": 107
+    },
+    {
+      "name": "Seychelles",
+      "wikidata": "Q1042",
+      "capital": "Victoria",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 459,
+      "population": 119773,
+      "landlocked": false,
+      "borders": [
+        "France",
+        "Tanzania",
+        "Comoros",
+        "Madagascar",
+        "Mauritius"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Seychelles",
+        "url": "https://www.wikidata.org/wiki/Q1042"
+      },
+      "area_rank": 181,
+      "population_rank": 179
+    },
+    {
+      "name": "Sierra Leone",
+      "wikidata": "Q1044",
+      "capital": "Freetown",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 71740,
+      "population": 7557212,
+      "landlocked": false,
+      "borders": [
+        "Guinea",
+        "Liberia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Sierra Leone",
+        "url": "https://www.wikidata.org/wiki/Q1044"
+      },
+      "area_rank": 118,
+      "population_rank": 102
+    },
+    {
+      "name": "Singapore",
+      "wikidata": "Q334",
+      "capital": "Singapore",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 719,
+      "population": 5866139,
+      "landlocked": false,
+      "borders": [
+        "Indonesia",
+        "Malaysia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Singapore",
+        "url": "https://www.wikidata.org/wiki/Q334"
+      },
+      "area_rank": 176,
+      "population_rank": 114
+    },
+    {
+      "name": "Slovakia",
+      "wikidata": "Q214",
+      "capital": "Bratislava",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 49034,
+      "population": 5409407,
+      "landlocked": true,
+      "borders": [
+        "Hungary",
+        "Poland",
+        "Austria",
+        "Ukraine",
+        "Czech Republic"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Slovakia",
+        "url": "https://www.wikidata.org/wiki/Q214"
+      },
+      "area_rank": 128,
+      "population_rank": 117
+    },
+    {
+      "name": "Slovenia",
+      "wikidata": "Q215",
+      "capital": "Ljubljana",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 20271,
+      "population": 2066880,
+      "landlocked": false,
+      "borders": [
+        "Hungary",
+        "Italy",
+        "Austria",
+        "Croatia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Slovenia",
+        "url": "https://www.wikidata.org/wiki/Q215"
+      },
+      "area_rank": 151,
+      "population_rank": 143
+    },
+    {
+      "name": "Solomon Islands",
+      "wikidata": "Q685",
+      "capital": "Honiara",
+      "continents": [
+        "Oceania",
+        "Insular Oceania"
+      ],
+      "area_km2": 28400,
+      "population": 611343,
+      "landlocked": false,
+      "borders": [
+        "France",
+        "Australia",
+        "Vanuatu",
+        "Papua New Guinea",
+        "Fiji"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Solomon Islands",
+        "url": "https://www.wikidata.org/wiki/Q685"
+      },
+      "area_rank": 141,
+      "population_rank": 164
+    },
+    {
+      "name": "Somalia",
+      "wikidata": "Q1045",
+      "capital": "Mogadishu",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 637657,
+      "population": 11031386,
+      "landlocked": false,
+      "borders": [
+        "Kenya",
+        "Ethiopia",
+        "Djibouti"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Somalia",
+        "url": "https://www.wikidata.org/wiki/Q1045"
+      },
+      "area_rank": 44,
+      "population_rank": 82
+    },
+    {
+      "name": "South Africa",
+      "wikidata": "Q258",
+      "capital": "Cape Town",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1221037,
+      "population": 62027503,
+      "landlocked": false,
+      "borders": [
+        "Zimbabwe",
+        "Botswana",
+        "Lesotho",
+        "Mozambique",
+        "Namibia",
+        "Eswatini"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "South Africa",
+        "url": "https://www.wikidata.org/wiki/Q258"
+      },
+      "area_rank": 25,
+      "population_rank": 23
+    },
+    {
+      "name": "South Korea",
+      "wikidata": "Q884",
+      "capital": "Seoul",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 100295,
+      "population": 51466201,
+      "landlocked": false,
+      "borders": [
+        "Japan",
+        "People's Republic of China",
+        "North Korea"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "South Korea",
+        "url": "https://www.wikidata.org/wiki/Q884"
+      },
+      "area_rank": 108,
+      "population_rank": 28
+    },
+    {
+      "name": "South Sudan",
+      "wikidata": "Q958",
+      "capital": "Juba",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 644329,
+      "population": 12575714,
+      "landlocked": true,
+      "borders": [
+        "Kenya",
+        "Ethiopia",
+        "Central African Republic",
+        "Democratic Republic of the Congo",
+        "Uganda",
+        "Sudan",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "South Sudan",
+        "url": "https://www.wikidata.org/wiki/Q958"
+      },
+      "area_rank": 42,
+      "population_rank": 78
+    },
+    {
+      "name": "Spain",
+      "wikidata": "Q29",
+      "capital": "Madrid",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 505990,
+      "population": 48592909,
+      "landlocked": false,
+      "borders": [
+        "Portugal",
+        "France",
+        "Andorra",
+        "Morocco",
+        "Gibraltar"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Spain",
+        "url": "https://www.wikidata.org/wiki/Q29"
+      },
+      "area_rank": 51,
+      "population_rank": 29
+    },
+    {
+      "name": "Sri Lanka",
+      "wikidata": "Q854",
+      "capital": "Colombo",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 65610,
+      "population": 21444000,
+      "landlocked": false,
+      "borders": [
+        "India"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Sri Lanka",
+        "url": "https://www.wikidata.org/wiki/Q854"
+      },
+      "area_rank": 121,
+      "population_rank": 61
+    },
+    {
+      "name": "Sudan",
+      "wikidata": "Q1049",
+      "capital": "Khartoum",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 1886068,
+      "population": 40533330,
+      "landlocked": false,
+      "borders": [
+        "Egypt",
+        "Kenya",
+        "Ethiopia",
+        "Chad",
+        "Central African Republic",
+        "South Sudan",
+        "Democratic Republic of the Congo",
+        "Eritrea",
+        "Libya",
+        "Uganda",
+        "Middle East",
+        "Bir Tawil"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Sudan",
+        "url": "https://www.wikidata.org/wiki/Q1049"
+      },
+      "area_rank": 16,
+      "population_rank": 36
+    },
+    {
+      "name": "Suriname",
+      "wikidata": "Q730",
+      "capital": "Paramaribo",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 163270,
+      "population": 563402,
+      "landlocked": false,
+      "borders": [
+        "France",
+        "Brazil",
+        "Guyana"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Suriname",
+        "url": "https://www.wikidata.org/wiki/Q730"
+      },
+      "area_rank": 92,
+      "population_rank": 165
+    },
+    {
+      "name": "Sweden",
+      "wikidata": "Q34",
+      "capital": "Stockholm",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 447425,
+      "population": 10609460,
+      "landlocked": false,
+      "borders": [
+        "Norway",
+        "Finland",
+        "Denmark"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Sweden",
+        "url": "https://www.wikidata.org/wiki/Q34"
+      },
+      "area_rank": 57,
+      "population_rank": 87
+    },
+    {
+      "name": "Switzerland",
+      "wikidata": "Q39",
+      "capital": "Bern",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 41291,
+      "population": 9104063,
+      "landlocked": true,
+      "borders": [
+        "Italy",
+        "Austria",
+        "France",
+        "Germany",
+        "Liechtenstein",
+        "European Union"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Switzerland",
+        "url": "https://www.wikidata.org/wiki/Q39"
+      },
+      "area_rank": 132,
+      "population_rank": 96
+    },
+    {
+      "name": "Syria",
+      "wikidata": "Q858",
+      "capital": "Damascus",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 185180,
+      "population": 23865423,
+      "landlocked": false,
+      "borders": [
+        "Turkey",
+        "Iraq",
+        "Israel",
+        "Jordan",
+        "Lebanon"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Syria",
+        "url": "https://www.wikidata.org/wiki/Q858"
+      },
+      "area_rank": 88,
+      "population_rank": 56
+    },
+    {
+      "name": "Taiwan",
+      "wikidata": "Q865",
+      "capital": "Taipei",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 36193,
+      "population": 23317031,
+      "landlocked": false,
+      "borders": [
+        "Japan",
+        "People's Republic of China",
+        "Philippines"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Taiwan",
+        "url": "https://www.wikidata.org/wiki/Q865"
+      },
+      "area_rank": 134,
+      "population_rank": 57
+    },
+    {
+      "name": "Tajikistan",
+      "wikidata": "Q863",
+      "capital": "Dushanbe",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 143100,
+      "population": 9504000,
+      "landlocked": true,
+      "borders": [
+        "People's Republic of China",
+        "Uzbekistan",
+        "Kyrgyzstan",
+        "Afghanistan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Tajikistan",
+        "url": "https://www.wikidata.org/wiki/Q863"
+      },
+      "area_rank": 95,
+      "population_rank": 95
+    },
+    {
+      "name": "Tanzania",
+      "wikidata": "Q924",
+      "capital": "Dodoma",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 947303,
+      "population": 57310019,
+      "landlocked": false,
+      "borders": [
+        "Kenya",
+        "Zambia",
+        "Burundi",
+        "Democratic Republic of the Congo",
+        "Malawi",
+        "Mozambique",
+        "Uganda",
+        "Rwanda",
+        "Seychelles",
+        "Lake Victoria"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Tanzania",
+        "url": "https://www.wikidata.org/wiki/Q924"
+      },
+      "area_rank": 31,
+      "population_rank": 25
+    },
+    {
+      "name": "Thailand",
+      "wikidata": "Q869",
+      "capital": "Bangkok",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 513120,
+      "population": 66188503,
+      "landlocked": false,
+      "borders": [
+        "Cambodia",
+        "Laos",
+        "Malaysia",
+        "Myanmar"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Thailand",
+        "url": "https://www.wikidata.org/wiki/Q869"
+      },
+      "area_rank": 50,
+      "population_rank": 22
+    },
+    {
+      "name": "The Bahamas",
+      "wikidata": "Q778",
+      "capital": "Nassau",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 13878,
+      "population": 399440,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "United Kingdom",
+        "Turks and Caicos Islands"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "The Bahamas",
+        "url": "https://www.wikidata.org/wiki/Q778"
+      },
+      "area_rank": 157,
+      "population_rank": 171
+    },
+    {
+      "name": "The Gambia",
+      "wikidata": "Q1005",
+      "capital": "Banjul",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 11300,
+      "population": 2639916,
+      "landlocked": false,
+      "borders": [
+        "Senegal"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "The Gambia",
+        "url": "https://www.wikidata.org/wiki/Q1005"
+      },
+      "area_rank": 160,
+      "population_rank": 138
+    },
+    {
+      "name": "Third Hellenic Republic",
+      "wikidata": "Q17765809",
+      "capital": "Athens",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": null,
+      "population": null,
+      "landlocked": false,
+      "borders": [],
+      "citation": {
+        "source": "wikidata",
+        "title": "Third Hellenic Republic",
+        "url": "https://www.wikidata.org/wiki/Q17765809"
+      }
+    },
+    {
+      "name": "Timor-Leste",
+      "wikidata": "Q574",
+      "capital": "Dili",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 14919,
+      "population": 1243235,
+      "landlocked": false,
+      "borders": [
+        "Indonesia",
+        "Australia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Timor-Leste",
+        "url": "https://www.wikidata.org/wiki/Q574"
+      },
+      "area_rank": 155,
+      "population_rank": 155
+    },
+    {
+      "name": "Togo",
+      "wikidata": "Q945",
+      "capital": "Lomé",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 56785,
+      "population": 7797694,
+      "landlocked": false,
+      "borders": [
+        "Ghana",
+        "Benin",
+        "Burkina Faso",
+        "Hohoe"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Togo",
+        "url": "https://www.wikidata.org/wiki/Q945"
+      },
+      "area_rank": 124,
+      "population_rank": 101
+    },
+    {
+      "name": "Tonga",
+      "wikidata": "Q678",
+      "capital": "Nukuʻalofa",
+      "continents": [
+        "Oceania"
+      ],
+      "area_km2": 749,
+      "population": 108020,
+      "landlocked": false,
+      "borders": [
+        "United States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Tonga",
+        "url": "https://www.wikidata.org/wiki/Q678"
+      },
+      "area_rank": 175,
+      "population_rank": 182
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "wikidata": "Q754",
+      "capital": "Port of Spain",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 5128,
+      "population": 1369125,
+      "landlocked": false,
+      "borders": [
+        "Venezuela"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Trinidad and Tobago",
+        "url": "https://www.wikidata.org/wiki/Q754"
+      },
+      "area_rank": 165,
+      "population_rank": 152
+    },
+    {
+      "name": "Tunisia",
+      "wikidata": "Q948",
+      "capital": "Tunis",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 163610,
+      "population": 11565204,
+      "landlocked": false,
+      "borders": [
+        "Algeria",
+        "Libya"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Tunisia",
+        "url": "https://www.wikidata.org/wiki/Q948"
+      },
+      "area_rank": 91,
+      "population_rank": 81
+    },
+    {
+      "name": "Turkey",
+      "wikidata": "Q43",
+      "capital": "Ankara",
+      "continents": [
+        "Asia",
+        "Europe"
+      ],
+      "area_km2": 783562,
+      "population": 85372377,
+      "landlocked": false,
+      "borders": [
+        "Greece",
+        "Bulgaria",
+        "Azerbaijan",
+        "Georgia",
+        "Armenia",
+        "European Union",
+        "Iraq",
+        "Syria",
+        "Iran",
+        "League of Arab States"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Turkey",
+        "url": "https://www.wikidata.org/wiki/Q43"
+      },
+      "area_rank": 37,
+      "population_rank": 18
+    },
+    {
+      "name": "Turkmenistan",
+      "wikidata": "Q874",
+      "capital": "Ashgabat",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 491210,
+      "population": 6117933,
+      "landlocked": true,
+      "borders": [
+        "Kazakhstan",
+        "Uzbekistan",
+        "Iran",
+        "Afghanistan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Turkmenistan",
+        "url": "https://www.wikidata.org/wiki/Q874"
+      },
+      "area_rank": 52,
+      "population_rank": 110
+    },
+    {
+      "name": "Tuvalu",
+      "wikidata": "Q672",
+      "capital": "Funafuti",
+      "continents": [
+        "Oceania",
+        "Insular Oceania"
+      ],
+      "area_km2": 25,
+      "population": 10643,
+      "landlocked": false,
+      "borders": [],
+      "citation": {
+        "source": "wikidata",
+        "title": "Tuvalu",
+        "url": "https://www.wikidata.org/wiki/Q672"
+      },
+      "area_rank": 192,
+      "population_rank": 194
+    },
+    {
+      "name": "Uganda",
+      "wikidata": "Q1036",
+      "capital": "Kampala",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 241038,
+      "population": 47123531,
+      "landlocked": true,
+      "borders": [
+        "Kenya",
+        "Tanzania",
+        "South Sudan",
+        "Democratic Republic of the Congo",
+        "Rwanda",
+        "Sudan",
+        "Lake Victoria"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Uganda",
+        "url": "https://www.wikidata.org/wiki/Q1036"
+      },
+      "area_rank": 80,
+      "population_rank": 32
+    },
+    {
+      "name": "Ukraine",
+      "wikidata": "Q212",
+      "capital": "Kyiv",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 603550,
+      "population": 41167335,
+      "landlocked": false,
+      "borders": [
+        "Hungary",
+        "Poland",
+        "Russia",
+        "Belarus",
+        "Slovakia",
+        "Moldova",
+        "Romania",
+        "European Union"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Ukraine",
+        "url": "https://www.wikidata.org/wiki/Q212"
+      },
+      "area_rank": 46,
+      "population_rank": 35
+    },
+    {
+      "name": "United Arab Emirates",
+      "wikidata": "Q878",
+      "capital": "Abu Dhabi",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 83600,
+      "population": 9890400,
+      "landlocked": false,
+      "borders": [
+        "Iran",
+        "Oman",
+        "Saudi Arabia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "United Arab Emirates",
+        "url": "https://www.wikidata.org/wiki/Q878"
+      },
+      "area_rank": 115,
+      "population_rank": 92
+    },
+    {
+      "name": "United Kingdom",
+      "wikidata": "Q145",
+      "capital": "London",
+      "continents": [
+        "Europe"
+      ],
+      "area_km2": 242495,
+      "population": 67326569,
+      "landlocked": false,
+      "borders": [
+        "Ireland"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "United Kingdom",
+        "url": "https://www.wikidata.org/wiki/Q145"
+      },
+      "area_rank": 79,
+      "population_rank": 21
+    },
+    {
+      "name": "United States",
+      "wikidata": "Q30",
+      "capital": "Washington, D.C.",
+      "continents": [
+        "North America"
+      ],
+      "area_km2": 9826675,
+      "population": 340110988,
+      "landlocked": false,
+      "borders": [
+        "Canada",
+        "Mexico"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "United States",
+        "url": "https://www.wikidata.org/wiki/Q30"
+      },
+      "area_rank": 3,
+      "population_rank": 3
+    },
+    {
+      "name": "Uruguay",
+      "wikidata": "Q77",
+      "capital": "Montevideo",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 176215,
+      "population": 3444263,
+      "landlocked": false,
+      "borders": [
+        "Brazil",
+        "Argentina"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Uruguay",
+        "url": "https://www.wikidata.org/wiki/Q77"
+      },
+      "area_rank": 90,
+      "population_rank": 132
+    },
+    {
+      "name": "Uzbekistan",
+      "wikidata": "Q265",
+      "capital": "Tashkent",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 448978,
+      "population": 34915100,
+      "landlocked": true,
+      "borders": [
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Tajikistan",
+        "Turkmenistan",
+        "Afghanistan"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Uzbekistan",
+        "url": "https://www.wikidata.org/wiki/Q265"
+      },
+      "area_rank": 56,
+      "population_rank": 42
+    },
+    {
+      "name": "Vanuatu",
+      "wikidata": "Q686",
+      "capital": "Port Vila",
+      "continents": [
+        "Insular Oceania"
+      ],
+      "area_km2": 12190,
+      "population": 300019,
+      "landlocked": false,
+      "borders": [
+        "Australia",
+        "Solomon Islands"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Vanuatu",
+        "url": "https://www.wikidata.org/wiki/Q686"
+      },
+      "area_rank": 158,
+      "population_rank": 174
+    },
+    {
+      "name": "Venezuela",
+      "wikidata": "Q717",
+      "capital": "Caracas",
+      "continents": [
+        "South America"
+      ],
+      "area_km2": 912050,
+      "population": 31250306,
+      "landlocked": false,
+      "borders": [
+        "United States",
+        "France",
+        "United Kingdom",
+        "Brazil",
+        "Guyana",
+        "Colombia",
+        "Trinidad and Tobago",
+        "Saint Vincent and the Grenadines",
+        "Saint Lucia",
+        "Saint Kitts and Nevis",
+        "Grenada",
+        "Dominica",
+        "Dominican Republic",
+        "Kingdom of the Netherlands",
+        "Puerto Carreño",
+        "realm of the United Kingdom"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Venezuela",
+        "url": "https://www.wikidata.org/wiki/Q717"
+      },
+      "area_rank": 33,
+      "population_rank": 48
+    },
+    {
+      "name": "Vietnam",
+      "wikidata": "Q881",
+      "capital": "Hanoi",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 331690,
+      "population": 96208984,
+      "landlocked": false,
+      "borders": [
+        "People's Republic of China",
+        "Cambodia",
+        "Laos"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Vietnam",
+        "url": "https://www.wikidata.org/wiki/Q881"
+      },
+      "area_rank": 68,
+      "population_rank": 16
+    },
+    {
+      "name": "Yemen",
+      "wikidata": "Q805",
+      "capital": "Sanaa",
+      "continents": [
+        "Asia"
+      ],
+      "area_km2": 455503,
+      "population": 28250420,
+      "landlocked": false,
+      "borders": [
+        "Oman",
+        "Saudi Arabia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Yemen",
+        "url": "https://www.wikidata.org/wiki/Q805"
+      },
+      "area_rank": 55,
+      "population_rank": 53
+    },
+    {
+      "name": "Zambia",
+      "wikidata": "Q953",
+      "capital": "Lusaka",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 752618,
+      "population": 19610769,
+      "landlocked": true,
+      "borders": [
+        "Angola",
+        "Tanzania",
+        "Zimbabwe",
+        "Botswana",
+        "Democratic Republic of the Congo",
+        "Malawi",
+        "Mozambique",
+        "Namibia"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Zambia",
+        "url": "https://www.wikidata.org/wiki/Q953"
+      },
+      "area_rank": 39,
+      "population_rank": 63
+    },
+    {
+      "name": "Zimbabwe",
+      "wikidata": "Q954",
+      "capital": "Harare",
+      "continents": [
+        "Africa"
+      ],
+      "area_km2": 390757,
+      "population": 15178979,
+      "landlocked": true,
+      "borders": [
+        "South Africa",
+        "Zambia",
+        "Botswana",
+        "Mozambique"
+      ],
+      "citation": {
+        "source": "wikidata",
+        "title": "Zimbabwe",
+        "url": "https://www.wikidata.org/wiki/Q954"
+      },
+      "area_rank": 61,
+      "population_rank": 73
+    }
+  ]
+}

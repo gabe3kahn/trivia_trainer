@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-06-13",
+  "note": "Valid subcategory names per category — static reference for offline pack validation (e.g. the draft-clues routine).",
+  "subcategories": {
+    "arts_visual_culture": [
+      "Architecture",
+      "Art Movements",
+      "Art Terms & Techniques",
+      "Design & Decorative Arts",
+      "Famous Artworks",
+      "Museums & Collections",
+      "Painters & Sculptors",
+      "Patrons, Critics & Schools",
+      "Photography",
+      "Public Art & Monuments"
+    ],
+    "geography": [
+      "Countries & Borders",
+      "Demonyms & Languages",
+      "Islands & Archipelagos",
+      "Landmarks & UNESCO Sites",
+      "Maps, Coordinates & Extremes",
+      "Mountains & Deserts",
+      "Rivers, Lakes & Seas",
+      "U.S. States & Cities",
+      "World Capitals",
+      "World Regions"
+    ],
+    "history": [
+      "Ancient History",
+      "Dates, Documents & Treaties",
+      "Empires & Dynasties",
+      "European History",
+      "Historical Figures",
+      "Medieval & Renaissance History",
+      "Revolutions & Independence Movements",
+      "U.S. History",
+      "U.S. Presidents & Elections",
+      "World Wars"
+    ],
+    "language_wordplay": [
+      "Anagrams",
+      "Before & After",
+      "Definitions",
+      "Etymology",
+      "Foreign Words & Phrases",
+      "Grammar & Usage",
+      "Homophones & Soundalikes",
+      "Initials & Abbreviations",
+      "Puns, Quotes & Idioms",
+      "Rhymes & Word Ladders"
+    ],
+    "literature_books": [
+      "19th-Century Novels",
+      "American Literature",
+      "Authors & Works",
+      "Awards, Movements & Terms",
+      "British & Irish Literature",
+      "Children's & Young Adult Literature",
+      "Literary Characters",
+      "Poetry",
+      "Shakespeare & Drama",
+      "World Literature"
+    ],
+    "music_performing_arts": [
+      "Broadway & Musicals",
+      "Classical Composers",
+      "Dance",
+      "Film Scores & Soundtracks",
+      "Instruments",
+      "Jazz & Blues",
+      "Music Theory & Terms",
+      "Opera",
+      "Popular Music",
+      "Theater"
+    ],
+    "pop_culture_media_modern_life": [
+      "Brands & Advertising",
+      "Celebrities & Public Figures",
+      "Comics & Graphic Novels",
+      "Fashion & Lifestyle",
+      "Film",
+      "Food & Drink",
+      "Recent Events & Current Affairs",
+      "Streaming & Internet Culture",
+      "Technology & Companies",
+      "Television"
+    ],
+    "religion_mythology_philosophy": [
+      "Bible",
+      "Ethics & Political Thought",
+      "Greek Mythology",
+      "Philosophers",
+      "Philosophical Schools",
+      "Religious Texts & Terms",
+      "Roman & Norse Mythology",
+      "Symbols, Rituals & Holidays",
+      "World Mythology",
+      "World Religions"
+    ],
+    "science": [
+      "Animals & Plants",
+      "Astronomy & Space",
+      "Biology",
+      "Chemistry",
+      "Earth Science",
+      "Inventions & Discoveries",
+      "Medicine & Anatomy",
+      "Physics",
+      "Scientists",
+      "Units, Laws & Constants"
+    ],
+    "sports_games_leisure": [
+      "Baseball",
+      "Basketball",
+      "Board Games & Card Games",
+      "Football",
+      "Olympics",
+      "Rules & Terminology",
+      "Soccer",
+      "Sports Records & Awards",
+      "Tennis & Golf",
+      "Video Games & Esports"
+    ]
+  }
+}
