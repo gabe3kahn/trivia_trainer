@@ -20,6 +20,14 @@ development; before launch, reconsider whether merge should write to prod automa
 Option on the table: flip the workflow to `--dry-run` + comment results, with a manual
 button (`workflow_dispatch`) for the real import.
 
+## Unordered multi-answer grading (list answers)
+Some clues are better asked as "name the N things" (e.g. "Name the four U.S. states
+officially styled a 'Commonwealth'" → Kentucky, Massachusetts, Pennsylvania, Virginia).
+The grader currently accepts a single answer only, so these can't be graded — the
+"four commonwealths" clue is therefore phrased with the answer **Commonwealth** instead.
+To support flipped/list clues, add a set-answer mode: accept the N expected answers in
+any order (decide all-or-nothing vs. partial credit), with per-item alias matching.
+
 ## Known gaps from the roadmap (see README "Roadmap / Next Steps")
 - Confidence capture: `confidence` is plumbed through `submit_practice_attempt` but always
   `null` — the capture UI isn't built.
