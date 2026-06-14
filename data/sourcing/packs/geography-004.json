@@ -106,7 +106,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "It is generally regarded as the world's southernmost country.",
+      "clue": "It is the world's southernmost country.",
       "answer": "Chile",
       "aliases": [
         "Republic of Chile"
@@ -317,7 +317,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Bordering China, Laos, and Cambodia, this Socialist Republic of over 100 million stretches along the South China Sea.",
+      "clue": "Officially a Socialist Republic, this country of over 100 million stretches along the western South China Sea.",
       "answer": "Vietnam",
       "aliases": [
         "Socialist Republic of Vietnam",
@@ -378,7 +378,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Southeast Asian archipelago of more than 7,000 islands is named for a 16th-century Spanish king.",
+      "clue": "This Southeast Asian archipelago is named for a 16th-century Spanish king.",
       "answer": "Philippines",
       "aliases": [
         "Republic of the Philippines"
@@ -523,8 +523,8 @@
       "external_id": "geo-rebuild-004-018",
       "category_id": "geography",
       "subcategory_name": "Countries & Borders",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "The world's only Jewish-majority state, it was established in 1948 on the eastern shore of the Mediterranean.",
