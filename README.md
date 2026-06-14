@@ -214,3 +214,7 @@ Tracked here so the next session can pick up cleanly. Grouped by area, roughly i
 - Build the **LLM agent panel** described in `planning/difficulty-standard.md`. Factual-correctness checking is the biggest gap the deterministic rules cannot cover — they can't tell that an answer is simply wrong.
 - Run `benchmark-jarchive-quality.mjs` after any change to the quality or feedback rules, as a regression guard (it currently reports 100% accept on the paragon).
 - Long-term: let real user attempt data supersede the cold-start difficulty estimate — IRT-style item difficulty derived from how real users actually perform.
+
+### Sourcing / automation follow-ups
+- **Verify clues against their source doc, not the answer's page.** `verify-clue-sources.mjs` corroborates a clue by checking its content words against the *answer's* Wikipedia page. For deliberately oblique, leak-avoiding clues (which avoid the answer's words and are often sourced from a *different* page), this scores them "weak" even when the fact is solid and cited. The verifier should check the clue against the `citations` source doc it was actually written from.
+- **Filter junk from the J! Archive topic stores.** Harvested topic stores (`data/sourcing/topics/<category>.json`) include non-topical or miscategorized answers (e.g. a TV series like "Masters of the Air" under history, bare names like "Vlad"). `build-topic-docs.mjs` already skips bare numbers and a few generics, but a stronger topical filter (and/or category sanity-check) would raise doc-corpus quality for the draft-clues task.
