@@ -38,7 +38,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:30.737Z",
+      "verified_at": "2026-06-14T15:14:00.839Z",
       "reviewer_note": "Source fact: 'Founded in 331 BC by Alexander the Great, Alexandria is one of the largest and most important cities of antiquity and a leading hub for science, culture, and scholarship.' (alexandria.json extract)"
     },
     {
@@ -71,7 +71,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:31.108Z",
+      "verified_at": "2026-06-14T15:14:01.216Z",
       "reviewer_note": "Source fact: 'The French Revolution of 1789 overthrew the Ancien Régime and produced the Declaration of the Rights of Man, which expresses the nation's ideals to this day.' (france.json extract)"
     },
     {
@@ -80,11 +80,11 @@
       "external_id": "hist-draft-001-003",
       "category_id": "history",
       "subcategory_name": "U.S. Presidents & Elections",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "When the U.S. capital relocated to its permanent home on the Potomac in 1800, this second president became the first to occupy the newly completed executive mansion.",
+      "clue": "When the U.S. capital settled on the Potomac in 1800, this president became the first to occupy the newly completed executive mansion.",
       "answer": "John Adams",
       "aliases": [
         "Adams"
@@ -104,8 +104,38 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:31.528Z",
+      "verified_at": "2026-06-14T15:14:01.606Z",
       "reviewer_note": "Source facts: 'In 1800, when the capital was moved from Philadelphia, the 6th Congress started meeting in the then-unfinished Capitol Building, and the second president, John Adams, moved into the newly finished White House.' (washington-d-c.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+      "external_id": "hist-draft-001-016",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "From 1790 until the federal government relocated to the Potomac in 1800, this city served as the temporary capital of the United States.",
+      "answer": "Philadelphia",
+      "aliases": [],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Philadelphia",
+          "url": "https://en.wikipedia.org/wiki/Philadelphia",
+          "snippet": "Philadelphia, colloquially referred to as Philly, is the most populous city in the U.S. state of Pennsylvania and the sixth-most populous city in the United States. Its population was 1.60 million at the 2020 census and estimated at 1.57 mi"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source fact: 'In 1800, when the capital was moved from Philadelphia, ... John Adams, moved into the newly finished White House.' (washington-d-c.json extract)",
+      "verified_at": "2026-06-14T15:14:01.980Z"
     },
     {
       "source": "original_sourced",
@@ -139,7 +169,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:31.890Z",
+      "verified_at": "2026-06-14T15:14:02.349Z",
       "reviewer_note": "Source fact: 'France reached its political and military zenith in the early 19th century under Napoleon Bonaparte, subjugating much of continental Europe and establishing the First French Empire.' (france.json extract)"
     },
     {
@@ -155,6 +185,7 @@
       "clue": "Unifying Japan in 1600 and imposing a policy of strict national isolation, this feudal military government fell when American warships forced the country to open trade in 1853.",
       "answer": "Tokugawa Shogunate",
       "aliases": [
+        "Shogunate",
         "Tokugawa shogunate",
         "Edo shogunate",
         "Tokugawa Bakufu"
@@ -174,7 +205,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:32.282Z",
+      "verified_at": "2026-06-14T15:14:02.724Z",
       "reviewer_note": "Source facts: 'Japan was unified in 1600 by the Tokugawa shogunate, which implemented an isolationist foreign policy. In 1853, an American fleet forced Japan to open trade to the West, which led to the end of the shogunate.' (japan.json extract)"
     },
     {
@@ -207,7 +238,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-14T03:33:32.659Z",
+      "verified_at": "2026-06-14T15:14:03.107Z",
       "reviewer_note": "Source fact: 'Spanish colonization began in 1521 with an alliance that defeated the Aztec Empire, establishing the colony of New Spain with its capital at Tenochtitlan, now Mexico City.' (mexico.json extract)"
     },
     {
@@ -216,8 +247,8 @@
       "external_id": "hist-draft-001-007",
       "category_id": "history",
       "subcategory_name": "European History",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Cold War structure divided a German city between its eastern and western halves; its demise preceded formal national reunification in 1990.",
@@ -240,7 +271,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:33.029Z",
+      "verified_at": "2026-06-14T15:14:03.491Z",
       "reviewer_note": "Source facts: 'the city was split into West Berlin and East Berlin, divided by the Berlin Wall... Following German reunification in 1990, Berlin once again became the capital of all of Germany.' (berlin.json extract)"
     },
     {
@@ -274,7 +305,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-14T03:33:33.401Z",
+      "verified_at": "2026-06-14T15:14:03.882Z",
       "reviewer_note": "Source fact: 'in the 8th century, it became the capital of the Papal States, which lasted until 1870.' (rome.json extract)"
     },
     {
@@ -308,7 +339,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:33.773Z",
+      "verified_at": "2026-06-14T15:14:04.258Z",
       "reviewer_note": "Source fact: 'from the mid-14th to the mid-15th centuries, France was plunged into a dynastic conflict with England known as the Hundred Years' War.' (france.json extract)"
     },
     {
@@ -321,7 +352,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This 1944 insurrection against Nazi occupation in the capital of Poland was followed by the systematic destruction of the city.",
+      "clue": "This 1944 insurrection against Nazi occupation was crushed within months, after which the city that staged it was systematically razed.",
       "answer": "Warsaw Uprising",
       "aliases": [
         "the Warsaw Uprising",
@@ -341,8 +372,8 @@
           "snippet": "The Warsaw Uprising, sometimes referred to as the August Uprising, or the Battle of Warsaw, was a major World War II operation by the Polish underground resistance to liberate Warsaw from German occupation. It occurred in the summer of 1944"
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-14T03:33:34.151Z",
+      "verification_status": "weak",
+      "verified_at": "2026-06-14T15:14:04.635Z",
       "reviewer_note": "Source fact: 'the general Warsaw Uprising in 1944, and systematic razing' of the city. Also: 'Warsaw was bombed and besieged at the start of World War II in 1939. Much of the historic city was destroyed.' (warsaw.json extract)"
     },
     {
@@ -376,7 +407,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:34.532Z",
+      "verified_at": "2026-06-14T15:14:05.025Z",
       "reviewer_note": "Source fact: 'Portugal was established as a county of the Kingdom of León in 868, and formally as a kingdom in 1179 as a result of the Reconquista against the Muslims, who had occupied the Iberian Peninsula since 711.' (portugal.json extract)"
     },
     {
@@ -389,7 +420,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This 1980 trade union and civil resistance movement in a communist country is credited with triggering the fall of the Iron Curtain and pioneering the first peaceful transition from communist rule to liberal democracy.",
+      "clue": "This 1980 Polish trade union and civil-resistance movement is credited with triggering the fall of the Iron Curtain and pioneering the first peaceful transition from communist rule to liberal democracy.",
       "answer": "Solidarity",
       "aliases": [
         "the Solidarity movement",
@@ -411,7 +442,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:34.897Z",
+      "verified_at": "2026-06-14T15:15:02.391Z",
       "reviewer_note": "Source fact: 'Through the 1980 emergence and contributions of the Solidarity movement, which initiated the fall of the Iron Curtain, the communist government was dissolved and Poland as the first of the communist countries re-established itself as a liberal democracy.' (poland.json extract)"
     },
     {
@@ -420,8 +451,8 @@
       "external_id": "hist-draft-001-013",
       "category_id": "history",
       "subcategory_name": "Revolutions & Independence Movements",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Though Peru formally proclaimed independence from Iberian rule in 1821, it was this decisive 1824 engagement that finally and completely secured it.",
@@ -445,7 +476,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:35.258Z",
+      "verified_at": "2026-06-14T15:15:02.762Z",
       "reviewer_note": "Source fact: 'Peru formally proclaimed independence from Spain in 1821, and following the military campaigns of Bernardo O'Higgins, José de San Martín, and Simón Bolívar, as well as the decisive battle of Ayacucho, it completed its independence in 1824.' (peru.json extract)"
     },
     {
@@ -458,11 +489,12 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This ruling house became the first to unify China in 221 BCE, opening two millennia of imperial governance across alternating periods of unity and division.",
-      "answer": "Qin dynasty",
+      "clue": "This dynasty became the first to unify China in 221 BCE, opening two millennia of imperial governance across alternating periods of unity and division.",
+      "answer": "Qin",
       "aliases": [
+        "Qin dynasty",
         "the Qin dynasty",
-        "Qin",
+        "Ch'in",
         "Ch'in dynasty"
       ],
       "tags": [
@@ -480,7 +512,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:35.636Z",
+      "verified_at": "2026-06-14T15:15:03.490Z",
       "reviewer_note": "Source fact: 'In 221 BCE, China was unified under the Qin and the succeeding Han dynasty, ushering in two millennia of imperial rule across periods of unity and division.' (people-s-republic-of-china.json extract)"
     },
     {
@@ -513,7 +545,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-14T03:33:36.007Z",
+      "verified_at": "2026-06-14T15:15:03.866Z",
       "reviewer_note": "Source facts: 'which adopted Europe's first modern constitution in 1791. With the passing of the prosperous Polish Golden Age, the country was partitioned by neighbouring states at the end of the 18th century.' (poland.json extract)"
     }
   ]
