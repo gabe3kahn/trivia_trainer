@@ -16,7 +16,9 @@ Steps:
 
 6. Verify: run `node tools/acquisition/verify-clue-sources.mjs --pack <that pack> --write-back`. Then run `node tools/acquisition/import-to-supabase.mjs <that pack> --dry-run` to get the quality + difficulty gate result. Do NOT run a live import.
 
-7. Open a PR: create branch draft-clues/<category>-<YYYY-MM-DD>, commit the new draft pack AND the new source docs built in step 3 (so the docs are stored in the repo for reuse), push, and run `gh pr create` with a body summarizing the draft. Do NOT merge.
+7. Open a PR. First start from a clean, current main so the daily harvest's local changes don't ride along: `git checkout main && git pull --ff-only origin main`, then `git checkout -b draft-clues/<category>-<YYYY-MM-DD>`. Commit **only your own new files, by explicit path** — the draft pack and the docs you built for THIS category:
+   `git add data/sourcing/packs/drafts/<your-pack>.json data/sourcing/docs/<category>/`
+   then commit. **NEVER run `git add -A` or `git add .`** — derived/runtime files (topic stores, harvest state/logs, regenerated reports) must never be committed, or unreviewed daily PRs will collide on them. Push and run `gh pr create` with a body summarizing the draft. Do NOT merge.
 
 8. Print a concise final summary: the category chosen and why (with the active-count that made it under-covered), how many new docs step 3 fetched, clue count, the verify result (verified/weak/unverified), the dry-run quality/difficulty gate result, any leak or quality concerns you caught and how you handled them, and the PR URL.
 
