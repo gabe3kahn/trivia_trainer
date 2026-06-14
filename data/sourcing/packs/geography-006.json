@@ -2,33 +2,779 @@
   "generated_at": "2026-06-13T00:00:00Z",
   "provider": "original_sourced",
   "category_id": "geography",
-  "notes": ["Geography batch 006 — variety pass: U.S. states led by distinctive features (not borders) + country area-superlatives (verified unique). Deliberately avoiding more border-pair clues."],
+  "notes": [
+    "Geography batch 006 — variety pass: U.S. states led by distinctive features (not borders) + country area-superlatives (verified unique). Deliberately avoiding more border-pair clues."
+  ],
   "questions": [
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Hawaii", "external_id": "geo-rebuild-006-001", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "This island state lies about 2,000 miles from the U.S. mainland in the Pacific Ocean.", "answer": "Hawaii", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Hawaii", "url": "https://en.wikipedia.org/wiki/Hawaii" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Rhode_Island", "external_id": "geo-rebuild-006-002", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "It is the smallest U.S. state by area.", "answer": "Rhode Island", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Rhode Island", "url": "https://en.wikipedia.org/wiki/Rhode_Island" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Texas", "external_id": "geo-rebuild-006-003", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 200, "difficulty_rank": 1, "mechanic": "standard", "constraint_text": null, "clue": "It is the most populous state in the American South.", "answer": "Texas", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Texas", "url": "https://en.wikipedia.org/wiki/Texas" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Michigan", "external_id": "geo-rebuild-006-004", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Made up of two peninsulas, this Great Lakes state touches four of the five Great Lakes.", "answer": "Michigan", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Michigan", "url": "https://en.wikipedia.org/wiki/Michigan" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Nebraska", "external_id": "geo-rebuild-006-005", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "It is the only U.S. state described as 'triple-landlocked.'", "answer": "Nebraska", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Nebraska", "url": "https://en.wikipedia.org/wiki/Nebraska" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Maine", "external_id": "geo-rebuild-006-006", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "It is the northeasternmost state in the contiguous United States.", "answer": "Maine", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Maine", "url": "https://en.wikipedia.org/wiki/Maine" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/North_Dakota", "external_id": "geo-rebuild-006-007", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "It is the upper of the two U.S. states named for a group of Sioux peoples.", "answer": "North Dakota", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "North Dakota", "url": "https://en.wikipedia.org/wiki/North_Dakota" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Massachusetts", "external_id": "geo-rebuild-006-008", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "It is the only New England state officially styled a 'Commonwealth.'", "answer": "Massachusetts", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Massachusetts", "url": "https://en.wikipedia.org/wiki/Massachusetts" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/New_Jersey", "external_id": "geo-rebuild-006-009", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "It is the most densely populated U.S. state, in the Mid-Atlantic region.", "answer": "New Jersey", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "New Jersey", "url": "https://en.wikipedia.org/wiki/New_Jersey" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Washington_(state)", "external_id": "geo-rebuild-006-010", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "This Pacific Northwest state was named for the first U.S. president.", "answer": "Washington", "aliases": ["Washington state"], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Washington (state)", "url": "https://en.wikipedia.org/wiki/Washington_(state)" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Illinois", "external_id": "geo-rebuild-006-011", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "This Midwestern state touches Lake Michigan in the northeast and the Mississippi River to the west.", "answer": "Illinois", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Illinois", "url": "https://en.wikipedia.org/wiki/Illinois" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Oregon", "external_id": "geo-rebuild-006-012", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "In the Pacific Northwest, the Columbia River forms much of this state's northern border.", "answer": "Oregon", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Oregon", "url": "https://en.wikipedia.org/wiki/Oregon" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Ohio", "external_id": "geo-rebuild-006-013", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "Across Lake Erie, this Midwestern state borders the Canadian province of Ontario.", "answer": "Ohio", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Ohio", "url": "https://en.wikipedia.org/wiki/Ohio" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Kentucky", "external_id": "geo-rebuild-006-014", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "Officially a Commonwealth, this landlocked Southeastern state lies just south of the Ohio River.", "answer": "Kentucky", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Kentucky", "url": "https://en.wikipedia.org/wiki/Kentucky" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Maryland", "external_id": "geo-rebuild-006-015", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "This Mid-Atlantic state wraps around much of Washington, D.C., and borders Virginia and West Virginia.", "answer": "Maryland", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Maryland", "url": "https://en.wikipedia.org/wiki/Maryland" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Wisconsin", "external_id": "geo-rebuild-006-016", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "In the Upper Midwest, this Great Lakes state borders Minnesota, Iowa, Illinois, and Michigan.", "answer": "Wisconsin", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Wisconsin", "url": "https://en.wikipedia.org/wiki/Wisconsin" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Mississippi", "external_id": "geo-rebuild-006-017", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "This Deep South state shares its name with the major river that forms its western border.", "answer": "Mississippi", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Mississippi", "url": "https://en.wikipedia.org/wiki/Mississippi" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Virginia", "external_id": "geo-rebuild-006-018", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "The only Commonwealth bordering Washington, D.C., it lies between the Atlantic coast and the Appalachians.", "answer": "Virginia", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Virginia", "url": "https://en.wikipedia.org/wiki/Virginia" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Pennsylvania", "external_id": "geo-rebuild-006-019", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "This Commonwealth touches both Lake Erie and the Mid-Atlantic, spanning the Appalachians.", "answer": "Pennsylvania", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Pennsylvania", "url": "https://en.wikipedia.org/wiki/Pennsylvania" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Indiana", "external_id": "geo-rebuild-006-020", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 400, "difficulty_rank": 2, "mechanic": "standard", "constraint_text": null, "clue": "A Midwestern state, it borders Lake Michigan to the northwest and Ohio to the east.", "answer": "Indiana", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Indiana", "url": "https://en.wikipedia.org/wiki/Indiana" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Montana", "external_id": "geo-rebuild-006-021", "category_id": "geography", "subcategory_name": "U.S. States & Cities", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "This large, landlocked Mountain West state shares a long northern border with Canada.", "answer": "Montana", "aliases": [], "tags": ["geography-rebuild", "sourced", "us-states"], "citations": [{ "source": "wikipedia", "title": "Montana", "url": "https://en.wikipedia.org/wiki/Montana" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Suriname", "external_id": "geo-rebuild-006-022", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "It is the smallest sovereign country in South America by area.", "answer": "Suriname", "aliases": ["Republic of Suriname"], "tags": ["geography-rebuild", "sourced", "countries", "superlative"], "citations": [{ "source": "wikipedia", "title": "Suriname", "url": "https://en.wikipedia.org/wiki/Suriname" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Seychelles", "external_id": "geo-rebuild-006-023", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 800, "difficulty_rank": 4, "mechanic": "standard", "constraint_text": null, "clue": "This Indian Ocean archipelago is Africa's smallest country by area.", "answer": "Seychelles", "aliases": [], "tags": ["geography-rebuild", "sourced", "countries", "superlative"], "citations": [{ "source": "wikipedia", "title": "Seychelles", "url": "https://en.wikipedia.org/wiki/Seychelles" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Maldives", "external_id": "geo-rebuild-006-024", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "An Indian Ocean nation of low-lying coral atolls, it is the smallest country in Asia.", "answer": "Maldives", "aliases": [], "tags": ["geography-rebuild", "sourced", "countries", "superlative"], "citations": [{ "source": "wikipedia", "title": "Maldives", "url": "https://en.wikipedia.org/wiki/Maldives" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Nauru", "external_id": "geo-rebuild-006-025", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 1000, "difficulty_rank": 5, "mechanic": "standard", "constraint_text": null, "clue": "This tiny Pacific island is the world's smallest republic.", "answer": "Nauru", "aliases": ["Republic of Nauru"], "tags": ["geography-rebuild", "sourced", "countries", "superlative"], "citations": [{ "source": "wikipedia", "title": "Nauru", "url": "https://en.wikipedia.org/wiki/Nauru" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" },
-    { "source": "original_sourced", "source_url": "https://en.wikipedia.org/wiki/Laos", "external_id": "geo-rebuild-006-026", "category_id": "geography", "subcategory_name": "Countries & Borders", "value": 600, "difficulty_rank": 3, "mechanic": "standard", "constraint_text": null, "clue": "It is the only landlocked country in Southeast Asia.", "answer": "Laos", "aliases": ["Lao People's Democratic Republic"], "tags": ["geography-rebuild", "sourced", "countries", "superlative"], "citations": [{ "source": "wikipedia", "title": "Laos", "url": "https://en.wikipedia.org/wiki/Laos" }], "verification_status": "verified", "verified_at": "2026-06-13T00:00:00Z" }
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hawaii",
+      "external_id": "geo-rebuild-006-001",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This island state lies about 2,000 miles from the U.S. mainland in the Pacific Ocean.",
+      "answer": "Hawaii",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hawaii",
+          "url": "https://en.wikipedia.org/wiki/Hawaii"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Rhode_Island",
+      "external_id": "geo-rebuild-006-002",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the smallest U.S. state by area.",
+      "answer": "Rhode Island",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rhode Island",
+          "url": "https://en.wikipedia.org/wiki/Rhode_Island"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Texas",
+      "external_id": "geo-rebuild-006-003",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the most populous state in the American South.",
+      "answer": "Texas",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Texas",
+          "url": "https://en.wikipedia.org/wiki/Texas"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Michigan",
+      "external_id": "geo-rebuild-006-004",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Made up of two peninsulas, this Great Lakes state touches four of the five Great Lakes.",
+      "answer": "Michigan",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Michigan",
+          "url": "https://en.wikipedia.org/wiki/Michigan"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nebraska",
+      "external_id": "geo-rebuild-006-005",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the only U.S. state described as 'triple-landlocked.'",
+      "answer": "Nebraska",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nebraska",
+          "url": "https://en.wikipedia.org/wiki/Nebraska"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Maine",
+      "external_id": "geo-rebuild-006-006",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the northeasternmost state in the contiguous United States.",
+      "answer": "Maine",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Maine",
+          "url": "https://en.wikipedia.org/wiki/Maine"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/North_Dakota",
+      "external_id": "geo-rebuild-006-007",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the upper of the two U.S. states named for a group of Sioux peoples.",
+      "answer": "North Dakota",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "North Dakota",
+          "url": "https://en.wikipedia.org/wiki/North_Dakota"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Massachusetts",
+      "external_id": "geo-rebuild-006-008",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the only New England state officially styled a 'Commonwealth.'",
+      "answer": "Massachusetts",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Massachusetts",
+          "url": "https://en.wikipedia.org/wiki/Massachusetts"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/New_Jersey",
+      "external_id": "geo-rebuild-006-009",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the most densely populated U.S. state, in the Mid-Atlantic region.",
+      "answer": "New Jersey",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "New Jersey",
+          "url": "https://en.wikipedia.org/wiki/New_Jersey"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Washington_(state)",
+      "external_id": "geo-rebuild-006-010",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Pacific Northwest state was named for the first U.S. president.",
+      "answer": "Washington",
+      "aliases": [
+        "Washington state"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Washington (state)",
+          "url": "https://en.wikipedia.org/wiki/Washington_(state)"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Illinois",
+      "external_id": "geo-rebuild-006-011",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Midwestern state touches Lake Michigan in the northeast and the Mississippi River to the west.",
+      "answer": "Illinois",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Illinois",
+          "url": "https://en.wikipedia.org/wiki/Illinois"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Oregon",
+      "external_id": "geo-rebuild-006-012",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the Pacific Northwest, the Columbia River forms much of this state's northern border.",
+      "answer": "Oregon",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Oregon",
+          "url": "https://en.wikipedia.org/wiki/Oregon"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ohio",
+      "external_id": "geo-rebuild-006-013",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Across Lake Erie, this Midwestern state borders the Canadian province of Ontario.",
+      "answer": "Ohio",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ohio",
+          "url": "https://en.wikipedia.org/wiki/Ohio"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Kentucky",
+      "external_id": "geo-rebuild-006-014",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Officially a Commonwealth, this landlocked Southeastern state lies just south of the Ohio River.",
+      "answer": "Kentucky",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Kentucky",
+          "url": "https://en.wikipedia.org/wiki/Kentucky"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Maryland",
+      "external_id": "geo-rebuild-006-015",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Mid-Atlantic state wraps around much of Washington, D.C., and borders Virginia and West Virginia.",
+      "answer": "Maryland",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Maryland",
+          "url": "https://en.wikipedia.org/wiki/Maryland"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wisconsin",
+      "external_id": "geo-rebuild-006-016",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the Upper Midwest, this Great Lakes state borders Minnesota, Iowa, Illinois, and Michigan.",
+      "answer": "Wisconsin",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wisconsin",
+          "url": "https://en.wikipedia.org/wiki/Wisconsin"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mississippi",
+      "external_id": "geo-rebuild-006-017",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Deep South state shares its name with the major river that forms its western border.",
+      "answer": "Mississippi",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mississippi",
+          "url": "https://en.wikipedia.org/wiki/Mississippi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Virginia",
+      "external_id": "geo-rebuild-006-018",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The only Commonwealth bordering Washington, D.C., it lies between the Atlantic coast and the Appalachians.",
+      "answer": "Virginia",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Virginia",
+          "url": "https://en.wikipedia.org/wiki/Virginia"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pennsylvania",
+      "external_id": "geo-rebuild-006-019",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Commonwealth touches both Lake Erie and the Mid-Atlantic, spanning the Appalachians.",
+      "answer": "Pennsylvania",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pennsylvania",
+          "url": "https://en.wikipedia.org/wiki/Pennsylvania"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Indiana",
+      "external_id": "geo-rebuild-006-020",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A Midwestern state, it borders Lake Michigan to the northwest and Ohio to the east.",
+      "answer": "Indiana",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Indiana",
+          "url": "https://en.wikipedia.org/wiki/Indiana"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Montana",
+      "external_id": "geo-rebuild-006-021",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This large, landlocked Mountain West state shares a long northern border with Canada.",
+      "answer": "Montana",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Montana",
+          "url": "https://en.wikipedia.org/wiki/Montana"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Suriname",
+      "external_id": "geo-rebuild-006-022",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the smallest sovereign country in South America by area.",
+      "answer": "Suriname",
+      "aliases": [
+        "Republic of Suriname"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries",
+        "superlative"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Suriname",
+          "url": "https://en.wikipedia.org/wiki/Suriname"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Seychelles",
+      "external_id": "geo-rebuild-006-023",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Indian Ocean archipelago is Africa's smallest country by area.",
+      "answer": "Seychelles",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries",
+        "superlative"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Seychelles",
+          "url": "https://en.wikipedia.org/wiki/Seychelles"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Maldives",
+      "external_id": "geo-rebuild-006-024",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "An Indian Ocean nation of low-lying coral atolls, it is the smallest country in Asia.",
+      "answer": "Maldives",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries",
+        "superlative"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Maldives",
+          "url": "https://en.wikipedia.org/wiki/Maldives"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nauru",
+      "external_id": "geo-rebuild-006-025",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This tiny Pacific island is the world's smallest republic.",
+      "answer": "Nauru",
+      "aliases": [
+        "Republic of Nauru"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries",
+        "superlative"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nauru",
+          "url": "https://en.wikipedia.org/wiki/Nauru"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Laos",
+      "external_id": "geo-rebuild-006-026",
+      "category_id": "geography",
+      "subcategory_name": "Countries & Borders",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It is the only landlocked country in Southeast Asia.",
+      "answer": "Laos",
+      "aliases": [
+        "Lao People's Democratic Republic"
+      ],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "countries",
+        "superlative"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Laos",
+          "url": "https://en.wikipedia.org/wiki/Laos"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Commonwealth_(U.S._state)",
+      "external_id": "geo-rebuild-006-021",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Kentucky, Massachusetts, Pennsylvania, and Virginia are the four U.S. states officially designated by this term.",
+      "answer": "Commonwealth",
+      "aliases": [],
+      "tags": [
+        "geography-rebuild",
+        "sourced",
+        "us-states"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Commonwealth (U.S. state)",
+          "url": "https://en.wikipedia.org/wiki/Commonwealth_(U.S._state)"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-13T00:00:00Z",
+      "reviewer_note": "Four U.S. states are officially styled a 'Commonwealth': Kentucky, Massachusetts, Pennsylvania, Virginia."
+    }
   ]
 }
