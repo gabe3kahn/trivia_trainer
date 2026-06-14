@@ -258,7 +258,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Each monsoon its surge reverses the flow of Cambodia's Tonlé Sap; its delta is the 'rice bowl' of Vietnam.",
+      "clue": "This river's monsoon surge reverses the flow of Cambodia's Tonlé Sap, and its delta is the 'rice bowl' of Vietnam.",
       "answer": "Mekong",
       "aliases": [
         "Mekong River"
@@ -526,8 +526,8 @@
       "external_id": "geo-rebuild-008-018",
       "category_id": "geography",
       "subcategory_name": "Rivers, Lakes & Seas",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Home to the colossal Itaipu hydroelectric dam, it is South America's second-longest river, after the Amazon.",
@@ -711,7 +711,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The world's longest freshwater lake, it is shared by Tanzania, the DR Congo, Burundi, and Zambia.",
+      "clue": "The world's longest freshwater lake, it trails only Baikal in depth and volume and teems with hundreds of endemic cichlid species.",
       "answer": "Lake Tanganyika",
       "aliases": [
         "Tanganyika"
@@ -973,7 +973,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Fresh in its western half and saline in its eastern half, this is one of Asia's largest lakes, in Kazakhstan.",
+      "clue": "Fresh in its western half and saline in its eastern half, this Kazakh lake is one of Asia's largest.",
       "answer": "Lake Balkhash",
       "aliases": [
         "Balkhash"
@@ -1027,8 +1027,8 @@
       "external_id": "geo-rebuild-008-035",
       "category_id": "geography",
       "subcategory_name": "U.S. States & Cities",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Famous for its potatoes, this Mountain West state's narrow panhandle reaches north to touch Canada.",
