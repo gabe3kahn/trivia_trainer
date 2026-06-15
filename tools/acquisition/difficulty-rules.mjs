@@ -105,6 +105,10 @@ export function evaluateDifficulty(row) {
 
 export function chooseCalibratedValue(row, difficulty) {
   const current = Number(row.value);
+  // Human override: `lock_value: true` opts a clue out of auto-calibration and
+  // keeps its assigned value. Use when a reviewer deliberately set the difficulty
+  // and the engine's heuristic disagrees.
+  if (row.lock_value === true) return current;
   const suggested = Number(difficulty.suggested_value);
   const confidence = Number(difficulty.confidence);
   const reasons = new Set(difficulty.reasons ?? []);

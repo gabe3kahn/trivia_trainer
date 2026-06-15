@@ -183,7 +183,11 @@ function escapeRegex(value) {
 
 const STOP_WORDS = new Set('a an the of in on at to for from with by and or as this that these those is are was were be been being it its his her their into over after before under during about who what when where why how which one ones man woman men women people person thing things first last new old great greater little big small'.split(' '));
 const IMPORTANT_SHORT_WORDS = new Set(['rome', 'mars', 'zeus', 'hera', 'odin', 'thor', 'java', 'ruby', 'perl', 'ford', 'nile', 'yale', 'duke', 'jazz']);
-const ALLOWED_CLASS_WORDS = new Set('answer award battle book capital category city country empire film game lake line museum novel number opera person place play poem prize river scale song state team telescope term treaty unit war word work'.split(' '));
+// Generic "head noun" of an answer that, on its own, doesn't reveal the
+// distinctive part (e.g. "amendment" in "Eighth Amendment", "corporation" in
+// "B Corporation", "principle" in "principle of double effect"). Allowed to
+// appear in the clue without counting as an answer leak.
+const ALLOWED_CLASS_WORDS = new Set('act accord amendment answer award battle book capital category city corporation country doctrine dynasty effect empire film game law lake line movement museum novel number opera person place play poem principle prize river scale song state system team telescope term theory treaty unit war word work'.split(' '));
 const UNITS = new Set('year month day hour minute second mile kilometer kilometre meter metre foot feet inch pound ounce gram ton percent degree point run game book volume'.split(' '));
 // Generic geographic/political nouns — allowed to share a stem with the answer
 // (e.g. "Ocean" in "Southern Ocean") without being flagged as a stem leak.
