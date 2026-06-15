@@ -18,5 +18,12 @@ $prompt = Get-Content -Raw (Join-Path $repo 'planning\draft-clues-prompt.md')
 # Claude Code guardrail stays intact. All output (stdout+stderr) is appended to the log.
 $allowed = 'Bash,Read,Write,Edit,Glob,Grep,TodoWrite'
 $prompt | & $claude -p --model claude-sonnet-4-6 --allowedTools $allowed --max-turns 120 *>> $log
+$code = $LASTEXITCODE
 
-"===== exit $LASTEXITCODE at $(Get-Date -Format o) =====" | Out-File -Append -Encoding utf8 $log
+"===== exit $code at $(Get-Date -Format o) =====" | Out-File -Append -Encoding utf8 $log
+
+# Propagate Claude's exit code so the scheduled task's restart-on-failure
+# (RestartCount / RestartInterval) actually fires when a run fails — e.g. the
+# network wasn't ready yet. Without this the wrapper always reports success and
+# the retries never engage.
+exit $code
