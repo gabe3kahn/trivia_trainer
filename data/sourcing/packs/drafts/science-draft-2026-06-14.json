@@ -1,0 +1,505 @@
+{
+  "generated_at": "2026-06-14T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "science",
+  "notes": [
+    "Science pilot of the source-grounded pipeline. Clues are written only from facts in Wikipedia lead extracts stored under data/sourcing/docs/science/. Each citation points to the exact Wikipedia article from which the stated fact was drawn.",
+    "verification_status = unverified — run verify-clue-sources.mjs --pack <this file> --write-back in a network-enabled environment before import."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Algae",
+      "external_id": "sci-draft-001-001",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This diverse group of photosynthetic, primarily aquatic organisms ranges from microscopic single-celled forms to multicellular seaweeds reaching 50 meters in length.",
+      "answer": "Algae",
+      "aliases": [
+        "alga"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology",
+        "plants"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Algae",
+          "url": "https://en.wikipedia.org/wiki/Algae",
+          "snippet": "Algae are any of a large and diverse group of photosynthetic organisms. It excludes the land plants (embryophytes). Such organisms range from microscopic unicellular microalgae to seaweeds, multicellular macroalgae which may grow up to 50 m"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: 'Such organisms range from microscopic unicellular microalgae...to seaweeds, multicellular macroalgae which may grow up to 50 metres (160 ft) in length.' (algae.json extract)",
+      "verified_at": "2026-06-14T16:24:49.229Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ozone",
+      "external_id": "sci-draft-001-002",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This pale-blue inorganic gas with the chemical formula O3 forms the stratospheric layer that absorbs most of the Sun's ultraviolet radiation.",
+      "answer": "Ozone",
+      "aliases": [
+        "trioxygen"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry",
+        "atmosphere"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ozone",
+          "url": "https://en.wikipedia.org/wiki/Ozone",
+          "snippet": "Ozone, also called trioxygen, is an inorganic molecule with the chemical formula O3. It is a pale-blue gas with a distinctively pungent odour. It is an allotrope of oxygen that is much less stable than the diatomic allotrope O2, breaking do"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'Ozone, also called trioxygen, is an inorganic molecule with the chemical formula O3' + 'its highest concentration high in the ozone layer of the stratosphere, which absorbs most of the Sun's ultraviolet (UV) radiation.' (ozone.json extract)",
+      "verified_at": "2026-06-14T16:24:49.619Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pluto",
+      "external_id": "sci-draft-001-003",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Discovered in 1930 by Clyde Tombaugh and initially hailed as the ninth planet, this Kuiper belt body was reclassified as a dwarf planet by the IAU in 2006.",
+      "answer": "Pluto",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy",
+        "solar-system"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pluto",
+          "url": "https://en.wikipedia.org/wiki/Pluto",
+          "snippet": "Pluto is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume by a s"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'Pluto was discovered in 1930 by Clyde W. Tombaugh' + 'In 2006, the International Astronomical Union (IAU) formally redefined the term planet to exclude dwarf planets such as Pluto.' (pluto.json extract)",
+      "verified_at": "2026-06-14T16:24:49.983Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Circadian_rhythm",
+      "external_id": "sci-draft-001-004",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This approximately 24-hour biological oscillation takes its name from the Latin words for 'around' and 'day'; humans with an abnormal version are diagnosed with a sleep disorder.",
+      "answer": "Circadian rhythm",
+      "aliases": [
+        "circadian rhythms",
+        "circadian cycle"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology",
+        "medicine"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Circadian rhythm",
+          "url": "https://en.wikipedia.org/wiki/Circadian_rhythm",
+          "snippet": "A circadian rhythm, or circadian cycle, is a natural oscillation that repeats roughly every 24 hours. Circadian rhythms can refer to any process that originates within an organism and responds to the environment. Circadian rhythms are regul"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source facts: 'The term circadian comes from the Latin circa, meaning \"around\", and dies, meaning \"day\"' + 'In clinical settings, an abnormal circadian rhythm in humans is known as a circadian rhythm sleep disorder.' (circadian.json extract)",
+      "verified_at": "2026-06-14T16:24:50.357Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Comet",
+      "external_id": "sci-draft-001-005",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When this icy Solar System body approaches the Sun, outgassing creates a glowing cloud around its nucleus and a stretching tail; long-period versions originate in the distant Oort cloud.",
+      "answer": "Comet",
+      "aliases": [
+        "a comet",
+        "comets"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy",
+        "solar-system"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Comet",
+          "url": "https://en.wikipedia.org/wiki/Comet",
+          "snippet": "A comet is an icy, small Solar System body or interstellar object that warms and begins to release gases when passing close to the Sun, a process called outgassing. This produces an extended, gravitationally unbound atmosphere or coma surro"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'A comet is an icy...body that warms and begins to release gases when passing close to the Sun, a process called outgassing. This produces an extended atmosphere or coma surrounding the nucleus, and sometimes a tail' + 'Long-period comets are thought to originate in the Oort cloud.' (a-comet.json extract). NOTE: clue uses 'glowing cloud' not 'coma' to avoid stem leak ('coma' shares Greek root 'kome' with 'comet').",
+      "verified_at": "2026-06-14T16:24:50.724Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Enzyme",
+      "external_id": "sci-draft-001-006",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "These biological catalysts, usually proteins, accelerate chemical reactions inside cells without being consumed in the process; proteolytic versions are used in commercial meat tenderizers.",
+      "answer": "Enzymes",
+      "aliases": [
+        "enzyme"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology",
+        "biochemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Enzyme",
+          "url": "https://en.wikipedia.org/wiki/Enzyme",
+          "snippet": "An enzyme is a biological macromolecule, usually a protein, that acts as a biological catalyst, accelerating chemical reactions without being consumed in the process. The molecules on which enzymes act are called substrates, which are conve"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'An enzyme is a biological macromolecule, usually a protein, that acts as a biological catalyst, accelerating chemical reactions without being consumed in the process' + 'Papain and other proteolytic enzymes are used in meat tenderizers to hydrolyze proteins.' (enzymes.json extract)",
+      "verified_at": "2026-06-14T16:24:51.112Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Phylum",
+      "external_id": "sci-draft-001-007",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In biological classification, this taxonomic rank sits directly below kingdom and above class; the animal kingdom alone is divided into about 32 of them.",
+      "answer": "Phylum",
+      "aliases": [
+        "phyla"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology",
+        "taxonomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Phylum",
+          "url": "https://en.wikipedia.org/wiki/Phylum",
+          "snippet": "In biology, a phylum is a level of classification, or taxonomic rank, that is below kingdom and above class. Traditionally, in botany the term division has been used instead of phylum, although the International Code of Nomenclature for alg"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'In biology, a phylum is a level of classification, or taxonomic rank, that is below kingdom and above class' + 'the animal kingdom Animalia contains about 32 phyla.' (phylum.json extract)",
+      "verified_at": "2026-06-14T16:24:51.486Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Muscle",
+      "external_id": "sci-draft-001-008",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Vertebrates have three varieties of this soft tissue — skeletal, cardiac, and smooth — and only the first of these operates under voluntary control.",
+      "answer": "Muscle",
+      "aliases": [
+        "muscles"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "anatomy",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Muscle",
+          "url": "https://en.wikipedia.org/wiki/Muscle",
+          "snippet": "Muscle is a specialised soft tissue, one of the four basic types of animal tissues. There are three types of muscle tissues in vertebrates: skeletal muscle tissue, cardiac muscle tissue, and smooth muscle tissue. Muscle tissue gives skeleta"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'There are three types of muscle tissues in vertebrates: skeletal muscle tissue, cardiac muscle tissue, and smooth muscle tissue' + 'Skeletal muscle only contracts voluntarily.' (muscle.json extract)",
+      "verified_at": "2026-06-14T16:24:51.855Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Asteroid_belt",
+      "external_id": "sci-draft-001-009",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ring-shaped region of the Solar System, lying between the orbits of Mars and Jupiter, contains millions of rocky bodies yet has a combined mass of only about 3% of the Moon's.",
+      "answer": "Asteroid Belt",
+      "aliases": [
+        "the Asteroid Belt",
+        "main asteroid belt",
+        "main belt"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy",
+        "solar-system"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Asteroid belt",
+          "url": "https://en.wikipedia.org/wiki/Asteroid_belt",
+          "snippet": "The asteroid belt is a torus-shaped region in the Solar System, centered on the Sun and roughly spanning the space between the orbits of the planets Jupiter and Mars. It contains a great many solid, irregularly shaped bodies called asteroid"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'The asteroid belt is a torus-shaped region in the Solar System...spanning the space between the orbits of the planets Jupiter and Mars' + 'Its total mass is estimated to be 3% that of the Moon.' (the-asteroid-belt.json extract). Clue uses 'rocky bodies' not 'asteroids' to avoid stem leak.",
+      "verified_at": "2026-06-14T16:24:52.243Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Coriolis_force",
+      "external_id": "sci-draft-001-010",
+      "category_id": "science",
+      "subcategory_name": "Earth Science",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Formalized in an 1835 paper by a French engineer, this phenomenon explains why cyclones spin counterclockwise in the Northern Hemisphere and clockwise in the Southern.",
+      "answer": "Coriolis effect",
+      "aliases": [
+        "Coriolis force",
+        "the Coriolis effect"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "earth-science",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Coriolis force",
+          "url": "https://en.wikipedia.org/wiki/Coriolis_force",
+          "snippet": "In physics, the Coriolis force is a pseudo-force that acts on objects in motion within a frame of reference that rotates with respect to an inertial frame. In a reference frame with clockwise rotation, the force acts to the left of the moti"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'the mathematical expression for the Coriolis force appeared in an 1835 paper by French scientist Gaspard-Gustave de Coriolis' + 'This effect is responsible for the rotation and thus formation of cyclones' + 'deflection, to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.' (the-coriolis-effect.json extract). Clue uses 'phenomenon' not 'effect' to avoid partial answer leak.",
+      "verified_at": "2026-06-14T16:24:52.626Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+      "external_id": "sci-draft-001-011",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Launched on Christmas Day 2021, the largest infrared observatory ever placed in orbit now holds position at the L2 Lagrange point, 1.5 million kilometers from Earth.",
+      "answer": "James Webb Space Telescope",
+      "aliases": [
+        "JWST",
+        "Webb telescope",
+        "James Webb"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy",
+        "space-exploration"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "James Webb Space Telescope",
+          "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+          "snippet": "The James Webb Space Telescope (JWST) is a space telescope designed to conduct infrared astronomy. It is the largest telescope in space, and is equipped with high-resolution and high-sensitivity instruments, allowing it to view objects too "
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source facts: 'The Webb was launched on 25 December 2021' + 'it arrived at its destination, a solar orbit near the Sun–Earth L2 Lagrange point, about 1.5 million kilometers from Earth' + 'It is the largest telescope in space.' (the-james-webb-space-telescope.json extract). Clue uses 'observatory' not 'telescope' to avoid partial answer leak.",
+      "verified_at": "2026-06-14T16:24:52.994Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cartilage",
+      "external_id": "sci-draft-001-012",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Unlike bone, this tough connective tissue contains no blood vessels or nerves; in sharks and rays, it composes most of the skeleton rather than bone.",
+      "answer": "Cartilage",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "anatomy",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cartilage",
+          "url": "https://en.wikipedia.org/wiki/Cartilage",
+          "snippet": "Cartilage is a resilient and smooth type of connective tissue. Semi-transparent and non-porous, it is usually covered by a tough and fibrous membrane called perichondrium. In tetrapods, it covers and protects the ends of long bones at the j"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'As cartilage does not contain blood vessels or nerves, it is insensitive' + 'In other taxa, such as chondrichthyans and cyclostomes, it constitutes a much greater proportion of the skeleton.' (cartilage.json extract). Clue uses 'sharks and rays' not 'chondrichthyans' to avoid the chondro- prefix (Greek for cartilage).",
+      "verified_at": "2026-06-14T16:24:53.364Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Synesthesia",
+      "external_id": "sci-draft-001-013",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "John Locke's 1690 account of a blind man who saw scarlet upon hearing a trumpet is the first recorded case of this crossing-of-the-senses phenomenon.",
+      "answer": "Synesthesia",
+      "aliases": [
+        "synaesthesia"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine",
+        "neuroscience"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Synesthesia",
+          "url": "https://en.wikipedia.org/wiki/Synesthesia",
+          "snippet": "Synesthesia or synaesthesia is a perceptual phenomenon in which stimulation of one sensory or cognitive pathway leads to involuntary experiences in other sensory or cognitive pathways. Synesthesia can manifest as a bridge between the five t"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source fact: 'The earliest recorded case of synesthesia is attributed to...John Locke, who, in 1690, made a report about a blind man who said he experienced the color scarlet when he heard the sound of a trumpet.' (synesthesia.json extract)",
+      "verified_at": "2026-06-14T16:24:53.733Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lead",
+      "external_id": "sci-draft-001-014",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Of all naturally stable elements on the periodic table, this one carries the highest atomic number — 82.",
+      "answer": "Lead",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry",
+        "periodic-table"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lead",
+          "url": "https://en.wikipedia.org/wiki/Lead",
+          "snippet": "Lead is a chemical element with the symbol Pb and atomic number 82. It is a heavy metal, denser than most common materials. Lead is soft, malleable, and has a relatively low melting point. When freshly cut or melted, it appears shiny silver"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: 'Lead has the highest atomic number of any stable element.' (lead-gold.json extract)",
+      "verified_at": "2026-06-14T16:24:54.101Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pluto",
+      "external_id": "sci-draft-001-015",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The largest moon of Pluto, it is so large relative to its planet that the two orbit a balance point in the empty space between them.",
+      "answer": "Charon",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy",
+        "solar-system"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Charon",
+          "url": "https://en.wikipedia.org/wiki/Charon",
+          "snippet": "In Greek mythology, Charon or Kharon is the ferryman of the Greek underworld. He transports the souls of those who have been given funeral rites across the river that borders the underworld. Archaeology confirms that, in some burials, low-v"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source facts (from Pluto article): 'Charon, the largest, whose diameter is just over half that of Pluto' + 'Pluto and Charon are sometimes considered a binary system because the barycenter of their orbits does not lie within either body, and they are tidally locked.' (pluto.json extract)",
+      "verified_at": "2026-06-14T16:24:54.475Z"
+    }
+  ]
+}
