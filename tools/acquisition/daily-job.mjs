@@ -23,10 +23,14 @@ function run(script, args) {
   console.log(`\n› node ${script} ${args.join(' ')}`);
   const r = spawnSync(node, [path.join(acq, script), ...args], { stdio: 'inherit' });
   if (r.status !== 0) console.log(`  (${script} exited ${r.status})`);
+  return r.status ?? 1;
 }
 
-// 1. Harvest the day's games.
-run('jarchive-daily-harvest.mjs', []);
+// 1. Harvest the day's games. This is the network-critical phase; track its
+// result so we can exit non-zero on failure and let the scheduled task's
+// restart-on-failure (RestartCount/RestartInterval) retry when the network
+// wasn't ready yet.
+const harvestStatus = run('jarchive-daily-harvest.mjs', []);
 
 // 2. Top up the cited doc corpus for every category that has a topic store.
 const topicsDir = path.join('data', 'sourcing', 'topics');
@@ -40,3 +44,8 @@ for (const category of categories) {
 }
 
 console.log('\nDaily job complete.');
+
+// Propagate harvest failure so the scheduled task retries (e.g. network not
+// ready at wake). Doc-fetch misses are per-category and non-critical, so they
+// don't fail the whole run.
+process.exit(harvestStatus === 0 ? 0 : 1);
