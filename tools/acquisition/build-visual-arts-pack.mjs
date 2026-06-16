@@ -68,9 +68,10 @@ for (const w of WORKS) {
     tags: ['visual', 'sourced', 'famous-artworks'],
     citations: [{ source: 'wikipedia', title: w.title, url: page }],
     image_url: img,
-    // No artist in the on-screen credit — it would leak the answer on "Name the
-    // artist" clues, and public-domain works need no attribution anyway.
-    image_attribution: 'Wikimedia Commons (public domain)',
+    // No on-screen credit: public-domain works need no attribution and the app
+    // doesn't display one. image_license records why the image is safe to show;
+    // the artist still appears in answer_detail as the post-submission reveal.
+    image_attribution: null,
     image_license: 'public-domain',
     answer_detail: `${w.answer} — ${w.artist}`,
     verification_status: 'verified',

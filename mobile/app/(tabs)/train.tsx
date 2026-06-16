@@ -186,18 +186,13 @@ export default function TrainScreen() {
             </Text>
           </View>
           {activeQuestion.image_url ? (
-            <View>
-              <Image
-                source={{ uri: activeQuestion.image_url }}
-                style={styles.clueImage}
-                resizeMode="contain"
-                accessible
-                accessibilityLabel="Clue image"
-              />
-              {activeQuestion.image_attribution ? (
-                <Text style={styles.imageAttribution}>{displayCredit(activeQuestion.image_attribution)}</Text>
-              ) : null}
-            </View>
+            <Image
+              source={{ uri: activeQuestion.image_url }}
+              style={styles.clueImage}
+              resizeMode="contain"
+              accessible
+              accessibilityLabel="Clue image"
+            />
           ) : null}
           <Text style={styles.clueText}>{displayClue(activeQuestion)}</Text>
           {activeQuestion.constraint_text ? <Text style={styles.constraintText}>{activeQuestion.constraint_text}</Text> : null}
@@ -358,16 +353,6 @@ export default function TrainScreen() {
   );
 }
 
-// Public-domain works carry no attribution requirement, and naming the artist
-// in the on-screen credit would leak the answer on "Name the artist" clues. Show
-// only the source/license portion after the separator (e.g. "Wikimedia Commons
-// (public domain)"), dropping any leading artist name. The full "Title — Artist"
-// reveal still appears on submission via answer_detail.
-function displayCredit(attribution: string) {
-  const parts = attribution.split('·');
-  return (parts.length > 1 ? parts[parts.length - 1] : attribution).trim();
-}
-
 function formatMechanic(mechanic: string) {
   return mechanic
     .split('_')
@@ -506,12 +491,6 @@ const styles = StyleSheet.create({
     height: 220,
     borderRadius: radius.md,
     backgroundColor: colors.surfaceAlt,
-  },
-  imageAttribution: {
-    ...type.caption,
-    color: colors.boardMeta,
-    textAlign: 'center',
-    marginTop: 4,
   },
   clueText: {
     fontSize: 21,
