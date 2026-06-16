@@ -146,9 +146,20 @@ declined → opponent rejected the challenge
   "opponent is answering…"), a **matchmaking queue** table, and **timeout/disconnect**
   handling. Ship async first; add this once there's real usage.
 
-## Open questions (still to decide)
-1. **Opponents**: friends-only first (recommended), or also random matchmaking?
-2. **Competition shape**: 1v1 duels, a shared **daily challenge + leaderboard**
-   (lowest-effort, highest-stickiness: everyone plays one set, ranked among friends),
-   or both? Recommend shipping the daily challenge alongside 1v1.
-3. **Push notifications** in the first cut, or in-app "your turn" only to start?
+## Decisions (resolved 2026-06-15)
+1. **Opponents**: friends **and** random matchmaking. Build friends + 1v1 first
+   (it exercises the whole pipeline); add an async random-matchmaking queue once the
+   core loop is solid.
+2. **Competition shape**: **all three** — 1v1 duels, a shared daily challenge, and
+   leaderboards. Recommended build order so each milestone ships something testable:
+   M1 friends + 1v1 async duel → M2 daily challenge + leaderboards → M3 random
+   matchmaking → M4 push. (Daily challenge is the stickiest single feature, but 1v1
+   builds the schema/RPC/RLS plumbing the others reuse, so it goes first.)
+3. **Push notifications**: yes — included (M4). Cost is moderate, not "very difficult":
+   token storage + an Expo push call from an Edge Function. The one real prerequisite
+   is APNs/EAS push credentials, which a TestFlight build needs anyway.
+
+**Next step (not yet built):** turn the above into a concrete Phase-1 build plan —
+migration `014_multiplayer.sql` (games scores/winner + `daily_challenges`,
+`daily_challenge_attempts`, `matchmaking_queue`, `profiles.expo_push_token`), the RPC
+set, RLS policies, and the Social-tab FE spec — sequenced as M1→M4 above.
