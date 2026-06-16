@@ -37,7 +37,9 @@ export function auditQuestion(row) {
   addIf(/\b(released in 20[0-9]{2}|in 201[0-9]|in 202[0-9])\b/i.test(clue) && row.category_id === 'pop_culture_media_modern_life', 'possibly-time-sensitive-pop-culture', 8);
 
   const wordCount = clue.split(/\s+/).filter(Boolean).length;
-  addIf(wordCount < 8, 'thin-clue', 15);
+  // Visual clues (the image is the prompt, e.g. "Name this painting.") are short
+  // by design — don't penalize them for being thin.
+  addIf(String(row.mechanic) !== 'visual' && wordCount < 8, 'thin-clue', 15);
   addIf(wordCount > 34, 'overlong-clue', 10);
   // Soft signals: surfaced as warnings, NOT scored. They are coarse regex
   // heuristics with a high false-positive rate (they flag plenty of fine

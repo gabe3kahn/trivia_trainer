@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-06-15",
+  "provider": "original_sourced",
+  "category_id": "arts_visual_culture",
+  "notes": [
+    "Single visual clue for live look-testing (Mona Lisa). Same external_id as visual-arts-001 so re-importing the full pack upserts, no duplicate."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mona_Lisa",
+      "external_id": "visual-arts-001-001",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "Mona Lisa",
+      "aliases": [
+        "La Gioconda",
+        "La Joconde"
+      ],
+      "tags": [
+        "visual",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mona Lisa",
+          "url": "https://en.wikipedia.org/wiki/Mona_Lisa"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "image_attribution": "Leonardo da Vinci · Wikimedia Commons (public domain)",
+      "image_license": "public-domain",
+      "verification_status": "verified"
+    }
+  ]
+}

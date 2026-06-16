@@ -109,6 +109,10 @@ export function chooseCalibratedValue(row, difficulty) {
   // keeps its assigned value. Use when a reviewer deliberately set the difficulty
   // and the engine's heuristic disagrees.
   if (row.lock_value === true) return current;
+  // Visual clues ("name this painting") carry almost no text, so the text-based
+  // difficulty heuristic doesn't apply — difficulty is how recognizable the image
+  // is, which the author sets. Keep the assigned value.
+  if (String(row.mechanic) === 'visual') return current;
   const suggested = Number(difficulty.suggested_value);
   const confidence = Number(difficulty.confidence);
   const reasons = new Set(difficulty.reasons ?? []);
