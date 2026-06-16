@@ -18,7 +18,7 @@ Steps:
 
 7. Open a PR. First start from a clean, current main so the daily harvest's local changes don't ride along: `git checkout main && git pull --ff-only origin main`, then `git checkout -b draft-clues/<category>-<YYYY-MM-DD>`. Commit **only your own new files, by explicit path** — the draft pack and the docs you built for THIS category:
    `git add data/sourcing/packs/drafts/<your-pack>.json data/sourcing/docs/<category>/`
-   then commit. **NEVER run `git add -A` or `git add .`** — derived/runtime files (topic stores, harvest state/logs, regenerated reports) must never be committed, or unreviewed daily PRs will collide on them. Push and run `gh pr create` with a body summarizing the draft. Do NOT merge.
+   then commit. **NEVER run `git add -A` or `git add .`** — derived/runtime files (topic stores, harvest state/logs, regenerated reports) must never be committed, or unreviewed daily PRs will collide on them. Push and run `gh pr create` with a body summarizing the draft. Do NOT merge. After the PR is open, run `git checkout main` so the repo is left on a clean `main` (not your draft branch) for the next run and any other work.
 
 8. Print a concise final summary: the category chosen and why (with the active-count that made it under-covered), how many new docs step 3 fetched, clue count, the verify result (verified/weak/unverified), the dry-run quality/difficulty gate result, any leak or quality concerns you caught and how you handled them, and the PR URL.
 
