@@ -1,0 +1,125 @@
+{
+  "note": "Authoring guidance for the daily draft agent: per category, the subcategories and seed topics worth covering. Use this to (1) spread clues across subcategories rather than clustering, (2) favor subcategories with little existing coverage, and (3) know which canonical topics to build docs for. Seed topics are examples, not an exhaustive or required list. Valid subcategory NAMES for import live in subcategories.json — this file mirrors them with topic hints.",
+  "categories": {
+    "geography": {
+      "Countries & Borders": ["landlocked countries", "enclaves/exclaves (Lesotho, Kaliningrad)", "most-bordered countries", "microstates"],
+      "World Capitals": ["purpose-built capitals (Brasília, Canberra, Naypyidaw)", "highest/lowest capitals", "capitals not the largest city"],
+      "Rivers, Lakes & Seas": ["longest rivers by continent", "deepest/largest lakes", "marginal & inland seas", "endorheic basins"],
+      "Mountains & Deserts": ["highest peaks per continent", "major ranges", "largest deserts", "volcanoes"],
+      "Islands & Archipelagos": ["largest islands", "island nations", "notable archipelagos"],
+      "U.S. States & Cities": ["state superlatives", "capitals vs largest cities", "geographic extremes"],
+      "World Regions": ["named regions (Patagonia, Sahel, Balkans)", "straits & isthmuses", "peninsulas"],
+      "Landmarks & UNESCO Sites": ["natural wonders", "World Heritage sites"],
+      "Maps, Coordinates & Extremes": ["equator/tropics/poles", "time zones", "extreme points"],
+      "Demonyms & Languages": ["official languages", "demonyms", "multilingual countries"]
+    },
+    "history": {
+      "Ancient History": ["Egypt/Greece/Rome", "Mesopotamia", "Alexander, Caesar", "ancient wonders"],
+      "U.S. Presidents & Elections": ["firsts/onlys", "assassinations", "notable elections", "VP successions"],
+      "World Wars": ["WWI & WWII turning points", "treaties", "leaders & campaigns"],
+      "Revolutions & Independence Movements": ["French/American/Russian/Haitian revolutions", "decolonization"],
+      "Empires & Dynasties": ["Roman, Ottoman, British, Mongol, Qing, Mughal"],
+      "European History": ["Reformation", "Cold War", "unifications of Italy/Germany"],
+      "Historical Figures": ["monarchs, generals, reformers, explorers"],
+      "Medieval & Renaissance History": ["feudalism, Crusades, Black Death, Medici"],
+      "Dates, Documents & Treaties": ["Magna Carta", "constitutions", "Versailles, Westphalia"],
+      "U.S. History": ["colonial era", "Civil War", "civil rights", "westward expansion"]
+    },
+    "literature_books": {
+      "Shakespeare & Drama": ["the tragedies & comedies", "famous soliloquies", "Greek tragedians", "modern playwrights (Ibsen, Miller, Beckett)"],
+      "Poetry": ["epics (Homer, Dante, Milton)", "Romantic poets (Wordsworth, Keats, Byron)", "Dickinson, Whitman, Frost", "poetic forms (sonnet, haiku, villanelle)"],
+      "19th-Century Novels": ["Austen, Dickens, the Brontës", "Tolstoy, Dostoevsky", "Melville, Hawthorne"],
+      "American Literature": ["Twain, Hemingway, Fitzgerald, Faulkner", "Morrison, Steinbeck"],
+      "British & Irish Literature": ["Joyce, Woolf, Orwell", "Chaucer", "Yeats, Wilde"],
+      "World Literature": ["García Márquez, Borges", "Murakami", "Achebe", "Cervantes"],
+      "Literary Characters": ["protagonists & villains", "detectives (Holmes, Poirot)", "character origins"],
+      "Authors & Works": ["author-to-work matching", "pen names", "debut/most-famous works"],
+      "Children's & Young Adult Literature": ["Carroll, Dahl, Seuss", "Rowling, Tolkien", "Newbery winners"],
+      "Awards, Movements & Terms": ["Nobel/Pulitzer/Booker", "literary movements (Modernism, Beat)", "terms (allegory, bildungsroman)"]
+    },
+    "science": {
+      "Astronomy & Space": ["planets & moons", "missions & telescopes", "stellar objects", "cosmology"],
+      "Biology": ["cells, genetics, evolution", "taxonomy", "ecosystems"],
+      "Chemistry": ["periodic table & elements", "compounds & reactions", "states of matter"],
+      "Physics": ["forces & motion", "energy, light, sound", "particles & quantum", "relativity"],
+      "Medicine & Anatomy": ["body systems & organs", "diseases & discoveries", "tissues"],
+      "Earth Science": ["plate tectonics", "weather & climate", "rocks & minerals", "oceans"],
+      "Scientists": ["Newton, Einstein, Darwin, Curie", "Nobel laureates", "discovery attributions"],
+      "Inventions & Discoveries": ["landmark inventions", "who-invented-what", "patents"],
+      "Animals & Plants": ["classification", "record-holders", "adaptations"],
+      "Units, Laws & Constants": ["SI units", "named laws (Ohm, Boyle)", "constants (c, g)"]
+    },
+    "arts_visual_culture": {
+      "Painters & Sculptors": ["da Vinci, Michelangelo, Rembrandt", "Van Gogh, Monet, Picasso", "Kahlo, O'Keeffe"],
+      "Famous Artworks": ["Mona Lisa, The Scream, Starry Night", "Guernica, The Birth of Venus", "sculptures (David, The Thinker)"],
+      "Art Movements": ["Renaissance, Baroque, Impressionism", "Cubism, Surrealism, Abstract Expressionism"],
+      "Architecture": ["styles (Gothic, Bauhaus)", "famous buildings & architects", "ancient structures"],
+      "Museums & Collections": ["Louvre, MoMA, Uffizi, Prado", "what hangs where"],
+      "Art Terms & Techniques": ["fresco, chiaroscuro, impasto", "media & methods"],
+      "Photography": ["pioneers", "iconic photographs", "techniques"],
+      "Public Art & Monuments": ["statues & memorials", "murals", "land art"],
+      "Patrons, Critics & Schools": ["the Medici", "art schools (Bauhaus)", "patronage"],
+      "Design & Decorative Arts": ["Art Nouveau/Deco", "furniture & ceramics", "industrial design"]
+    },
+    "music_performing_arts": {
+      "Classical Composers": ["Bach, Mozart, Beethoven", "Romantic & 20th-c composers", "famous works"],
+      "Opera": ["Verdi, Puccini, Wagner", "famous arias & operas"],
+      "Popular Music": ["genres & eras", "landmark albums & acts", "one-hit and legends"],
+      "Broadway & Musicals": ["Sondheim, Rodgers & Hammerstein", "long-running shows", "Tony winners"],
+      "Instruments": ["families (string, brass, woodwind)", "unusual instruments"],
+      "Jazz & Blues": ["Armstrong, Ellington, Davis, Coltrane", "subgenres"],
+      "Music Theory & Terms": ["scales, intervals, tempo terms", "notation"],
+      "Dance": ["ballet & terms", "famous choreographers", "dance styles"],
+      "Film Scores & Soundtracks": ["composers (Williams, Morricone)", "iconic themes"],
+      "Theater": ["playwrights & forms", "famous productions", "theater terms"]
+    },
+    "religion_mythology_philosophy": {
+      "Greek Mythology": ["Olympian gods", "heroes & monsters", "myths (labors of Heracles)"],
+      "Roman & Norse Mythology": ["Roman equivalents", "Norse gods (Odin, Thor, Loki)", "Ragnarök"],
+      "World Religions": ["the major faiths", "founders & key figures", "practices"],
+      "Philosophers": ["Socrates, Plato, Aristotle", "Kant, Nietzsche, Descartes"],
+      "Bible": ["Old & New Testament figures & events", "parables"],
+      "Religious Texts & Terms": ["scriptures (Torah, Quran, Vedas)", "key terms"],
+      "Philosophical Schools": ["Stoicism, Existentialism, Empiricism", "isms"],
+      "Ethics & Political Thought": ["utilitarianism, social contract", "thinkers (Locke, Rawls)"],
+      "World Mythology": ["Egyptian, Hindu, Mesopotamian myths", "creation myths"],
+      "Symbols, Rituals & Holidays": ["religious holidays", "symbols & rites"]
+    },
+    "sports_games_leisure": {
+      "Olympics": ["summer & winter events", "records & legends", "host cities"],
+      "Soccer": ["World Cup", "famous players & clubs", "rules"],
+      "Basketball": ["NBA legends & records", "rules & terms"],
+      "Baseball": ["MLB records & Hall of Famers", "rules", "World Series"],
+      "Football": ["NFL records", "Super Bowl", "rules & positions"],
+      "Tennis & Golf": ["Grand Slams & majors", "legends", "terminology"],
+      "Sports Records & Awards": ["all-time records", "MVPs & trophies"],
+      "Board Games & Card Games": ["chess, Monopoly, poker", "rules & terms"],
+      "Video Games & Esports": ["landmark games & franchises", "consoles", "esports"],
+      "Rules & Terminology": ["cross-sport rules & officiating terms"]
+    },
+    "language_wordplay": {
+      "Etymology": ["word origins", "loanwords", "eponyms"],
+      "Foreign Words & Phrases": ["Latin/French phrases in English", "loan phrases"],
+      "Definitions": ["unusual words", "precise definitions"],
+      "Homophones & Soundalikes": ["common homophone sets"],
+      "Anagrams": ["anagram pairs"],
+      "Before & After": ["overlapping-phrase constructions"],
+      "Puns, Quotes & Idioms": ["idiom origins", "famous quotations"],
+      "Grammar & Usage": ["parts of speech", "usage rules & terms"],
+      "Initials & Abbreviations": ["acronyms & initialisms", "what letters stand for"],
+      "Rhymes & Word Ladders": ["rhyme sets", "word-ladder chains"]
+    },
+    "pop_culture_media_modern_life": {
+      "Film": ["Best Picture winners", "directors & franchises", "iconic lines"],
+      "Television": ["landmark series", "long-running shows", "Emmy winners"],
+      "Celebrities & Public Figures": ["actors, hosts, icons"],
+      "Technology & Companies": ["tech founders & products", "company origins"],
+      "Brands & Advertising": ["slogans & mascots", "logos", "brand origins"],
+      "Food & Drink": ["cuisines & dishes", "origins", "cocktails"],
+      "Streaming & Internet Culture": ["platforms", "memes & viral moments"],
+      "Comics & Graphic Novels": ["superheroes & creators", "publishers"],
+      "Fashion & Lifestyle": ["designers & houses", "iconic styles"],
+      "Recent Events & Current Affairs": ["recent notable events (verify dates carefully)"]
+    }
+  }
+}
