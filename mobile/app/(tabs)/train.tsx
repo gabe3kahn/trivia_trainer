@@ -1,7 +1,7 @@
+import { useHeaderHeight } from '@react-navigation/elements';
 import { useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Image, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Card, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
 import { displayClue } from '@/src/clues/jeopardyStyle';
@@ -24,6 +24,7 @@ type StartOptions = { mechanics?: string[]; categories?: string[] };
 
 export default function TrainScreen() {
   const params = useLocalSearchParams<{ start?: string; category?: string; categoryName?: string }>();
+  const headerHeight = useHeaderHeight();
   const [questions, setQuestions] = useState<RecommendedQuestion[]>([]);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -155,8 +156,12 @@ export default function TrainScreen() {
   /* ---------------------------- In session ---------------------------- */
   if (activeQuestion) {
     return (
-      <SafeAreaView style={styles.activeContainer} edges={['top']}>
-        <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+      <View style={styles.activeContainer}>
+        <KeyboardAvoidingView
+          style={styles.flex}
+          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+          keyboardVerticalOffset={headerHeight}
+        >
           <ScrollView
             contentContainerStyle={styles.activeContent}
             keyboardShouldPersistTaps="handled"
@@ -190,7 +195,7 @@ export default function TrainScreen() {
                 accessibilityLabel="Clue image"
               />
               {activeQuestion.image_attribution ? (
-                <Text style={styles.imageAttribution}>{activeQuestion.image_attribution}</Text>
+                <Text style={styles.imageAttribution}>{displayCredit(activeQuestion.image_attribution)}</Text>
               ) : null}
             </View>
           ) : null}
@@ -270,7 +275,7 @@ export default function TrainScreen() {
         ) : null}
           </ScrollView>
         </KeyboardAvoidingView>
-      </SafeAreaView>
+      </View>
     );
   }
 
@@ -351,6 +356,16 @@ export default function TrainScreen() {
       <Text style={styles.hint}>Tip: tap any category on Home to drill it directly.</Text>
     </Screen>
   );
+}
+
+// Public-domain works carry no attribution requirement, and naming the artist
+// in the on-screen credit would leak the answer on "Name the artist" clues. Show
+// only the source/license portion after the separator (e.g. "Wikimedia Commons
+// (public domain)"), dropping any leading artist name. The full "Title — Artist"
+// reveal still appears on submission via answer_detail.
+function displayCredit(attribution: string) {
+  const parts = attribution.split('·');
+  return (parts.length > 1 ? parts[parts.length - 1] : attribution).trim();
 }
 
 function formatMechanic(mechanic: string) {

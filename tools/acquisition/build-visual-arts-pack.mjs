@@ -68,7 +68,9 @@ for (const w of WORKS) {
     tags: ['visual', 'sourced', 'famous-artworks'],
     citations: [{ source: 'wikipedia', title: w.title, url: page }],
     image_url: img,
-    image_attribution: `${w.artist} · Wikimedia Commons (public domain)`,
+    // No artist in the on-screen credit — it would leak the answer on "Name the
+    // artist" clues, and public-domain works need no attribution anyway.
+    image_attribution: 'Wikimedia Commons (public domain)',
     image_license: 'public-domain',
     answer_detail: `${w.answer} — ${w.artist}`,
     verification_status: 'verified',

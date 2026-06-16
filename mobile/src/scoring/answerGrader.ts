@@ -51,11 +51,38 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
     };
   }
 
+  // Last-name-only answers. For a multi-word person ("Jackson Pollock"), accept
+  // the surname alone ("Pollock") — and tolerate one misspelling on longer
+  // surnames ("Pollack"→"Pollock"), where a single edit rarely lands on a
+  // different real surname. Short surnames are excluded (too collision-prone).
+  if (acceptedAnswers.some((answer) => matchesSurname(submitted, answer))) {
+    return {
+      grade: 'correct',
+      label: 'Correct',
+      detail: reveal,
+    };
+  }
+
   return {
     grade: 'missed',
     label: 'Missed',
     detail: `Correct response: ${question.answer}`,
   };
+}
+
+function matchesSurname(submitted: string, answer: string) {
+  const answerTokens = answer.split(' ').filter(Boolean);
+  if (answerTokens.length < 2) return false;
+  const surname = answerTokens[answerTokens.length - 1];
+  if (surname.length < 5) return false;
+
+  const submittedTokens = submitted.split(' ').filter(Boolean);
+  const lastSubmitted = submittedTokens[submittedTokens.length - 1] ?? submitted;
+  if (!lastSubmitted) return false;
+  if (lastSubmitted === surname) return true;
+  // A different initial almost always means a different name, not a typo.
+  if (lastSubmitted[0] !== surname[0]) return false;
+  return surname.length >= 6 && levenshtein(lastSubmitted, surname) <= 1;
 }
 
 export function normalizeAnswer(value: string) {
