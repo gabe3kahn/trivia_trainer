@@ -1,7 +1,7 @@
+import { useHeaderHeight } from '@react-navigation/elements';
 import { useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Image, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Card, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
 import { displayClue } from '@/src/clues/jeopardyStyle';
@@ -24,6 +24,7 @@ type StartOptions = { mechanics?: string[]; categories?: string[] };
 
 export default function TrainScreen() {
   const params = useLocalSearchParams<{ start?: string; category?: string; categoryName?: string }>();
+  const headerHeight = useHeaderHeight();
   const [questions, setQuestions] = useState<RecommendedQuestion[]>([]);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -155,8 +156,12 @@ export default function TrainScreen() {
   /* ---------------------------- In session ---------------------------- */
   if (activeQuestion) {
     return (
-      <SafeAreaView style={styles.activeContainer} edges={['top']}>
-        <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+      <View style={styles.activeContainer}>
+        <KeyboardAvoidingView
+          style={styles.flex}
+          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+          keyboardVerticalOffset={headerHeight}
+        >
           <ScrollView
             contentContainerStyle={styles.activeContent}
             keyboardShouldPersistTaps="handled"
@@ -181,18 +186,13 @@ export default function TrainScreen() {
             </Text>
           </View>
           {activeQuestion.image_url ? (
-            <View>
-              <Image
-                source={{ uri: activeQuestion.image_url }}
-                style={styles.clueImage}
-                resizeMode="contain"
-                accessible
-                accessibilityLabel="Clue image"
-              />
-              {activeQuestion.image_attribution ? (
-                <Text style={styles.imageAttribution}>{activeQuestion.image_attribution}</Text>
-              ) : null}
-            </View>
+            <Image
+              source={{ uri: activeQuestion.image_url }}
+              style={styles.clueImage}
+              resizeMode="contain"
+              accessible
+              accessibilityLabel="Clue image"
+            />
           ) : null}
           <Text style={styles.clueText}>{displayClue(activeQuestion)}</Text>
           {activeQuestion.constraint_text ? <Text style={styles.constraintText}>{activeQuestion.constraint_text}</Text> : null}
@@ -270,7 +270,7 @@ export default function TrainScreen() {
         ) : null}
           </ScrollView>
         </KeyboardAvoidingView>
-      </SafeAreaView>
+      </View>
     );
   }
 
@@ -491,12 +491,6 @@ const styles = StyleSheet.create({
     height: 220,
     borderRadius: radius.md,
     backgroundColor: colors.surfaceAlt,
-  },
-  imageAttribution: {
-    ...type.caption,
-    color: colors.boardMeta,
-    textAlign: 'center',
-    marginTop: 4,
   },
   clueText: {
     fontSize: 21,
