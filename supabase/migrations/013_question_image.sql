@@ -6,7 +6,10 @@
 alter table questions
   add column if not exists image_url text,
   add column if not exists image_attribution text,
-  add column if not exists image_license text;
+  add column if not exists image_license text,
+  -- Optional richer reveal shown on submission (e.g. "Mona Lisa — Leonardo da
+  -- Vinci") regardless of which part the clue asked for. Falls back to `answer`.
+  add column if not exists answer_detail text;
 
 -- Recreate the recommender so the app receives image_url + image_attribution.
 -- (Body is identical to migration 007 plus the two new SELECT columns.)
@@ -36,7 +39,8 @@ returns table (
   aliases text[],
   tags text[],
   image_url text,
-  image_attribution text
+  image_attribution text,
+  answer_detail text
 )
 language sql
 stable
@@ -73,7 +77,8 @@ as $$
     q.aliases,
     q.tags,
     q.image_url,
-    q.image_attribution
+    q.image_attribution,
+    q.answer_detail
   from questions q
   join categories c on c.id = q.category_id
   left join subcategories s on s.id = q.subcategory_id

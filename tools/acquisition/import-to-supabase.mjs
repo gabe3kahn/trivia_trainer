@@ -65,6 +65,7 @@ for (const question of questions) {
     image_url: question.image_url ?? null,
     image_attribution: question.image_attribution ?? null,
     image_license: question.image_license ?? null,
+    answer_detail: question.answer_detail ?? null,
     quality_status: quality.decision,
     quality_score: quality.score,
     quality_issues: quality.issues,

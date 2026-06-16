@@ -21,6 +21,15 @@ const WORKS = [
 
 function rank(v) { return { 200: 1, 400: 2, 600: 3, 800: 4, 1000: 5 }[v] || 2; }
 
+// Surname for the artist alias, keeping a leading particle (van Gogh, da Vinci).
+function surnameOf(name) {
+  const parts = String(name).split(/\s+/);
+  const particles = new Set(['van', 'von', 'de', 'da', 'del', 'della', 'di', 'du', 'le', 'la', 'der', 'ten', "d'"]);
+  let i = parts.length - 1;
+  if (i - 1 >= 0 && particles.has(parts[i - 1].toLowerCase())) i -= 1;
+  return parts.slice(i).join(' ');
+}
+
 async function leadImage(title) {
   const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}`;
   const r = await fetch(url, { headers: { 'User-Agent': 'TriviaTrainerVisualPack/0.1 (personal study app)', Accept: 'application/json' } });
@@ -39,7 +48,7 @@ for (const w of WORKS) {
   if (!img) { console.log(`  MISS  ${w.answer} (no lead image)`); continue; }
   // Alternate the prompt: odd index -> name the painting, even -> name the artist.
   const askArtist = i % 2 === 0;
-  const surname = w.artist.split(' ').pop();
+  const surname = surnameOf(w.artist);
   const clue = askArtist ? 'Name the artist.' : 'Name this painting.';
   const answer = askArtist ? w.artist : w.answer;
   const aliases = askArtist ? (surname && surname !== w.artist ? [surname] : []) : w.aliases;
@@ -61,6 +70,7 @@ for (const w of WORKS) {
     image_url: img,
     image_attribution: `${w.artist} · Wikimedia Commons (public domain)`,
     image_license: 'public-domain',
+    answer_detail: `${w.answer} — ${w.artist}`,
     verification_status: 'verified',
   });
   console.log(`  OK    ${w.answer}  ->  ${img}`);
