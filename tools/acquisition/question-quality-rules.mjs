@@ -80,8 +80,9 @@ export function prepareQuestionForIntake(row) {
   const overrideId = applyManualClueOverrides(next, row);
   if (!overrideId) {
     const wordCount = next.clue.split(/\s+/).filter(Boolean).length;
-    if (wordCount < 8) {
-      // Frame thin clues with a category lead-in. We intentionally PRESERVE the
+    if (wordCount < 8 && String(next.mechanic) !== 'visual') {
+      // Frame thin clues with a category lead-in (skip visual clues — the image is
+      // the prompt, so "Name this painting." should stay as written). We intentionally PRESERVE the
       // clue's original casing instead of lowercasing the first letter, so that
       // acronyms and proper nouns (DNA, USA, Einstein) are never corrupted.
       next.clue = `${categoryFrame(row.category_id)}, ${next.clue}`;
