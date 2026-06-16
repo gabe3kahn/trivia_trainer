@@ -1,0 +1,504 @@
+{
+  "generated_at": "2026-06-15T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "arts_visual_culture",
+  "notes": [
+    "Arts & Visual Culture draft batch — 16 clues grounded in Wikipedia lead extracts for arts_visual_culture. Spans Famous Artworks (5), Painters & Sculptors (5), Art Movements (3), Museums & Collections (1), Architecture (2). Difficulty spread: $200×4, $400×6, $600×4, $800×3."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mona_Lisa",
+      "external_id": "arts-vc-draft-2026-06-15-001",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This half-length Italian Renaissance portrait has been described as the most visited, most written about, and most parodied work of art in the world.",
+      "answer": "Mona Lisa",
+      "aliases": [
+        "La Gioconda",
+        "La Joconde"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mona Lisa",
+          "url": "https://en.wikipedia.org/wiki/Mona_Lisa",
+          "snippet": "The Mona Lisa is a half-length portrait painting by the Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as \"the best known, the most visited, the most written about, t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:40.935Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+      "external_id": "arts-vc-draft-2026-06-15-002",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Italian polymath of the High Renaissance (1452–1519) was active as a painter, draughtsman, engineer, scientist, and architect.",
+      "answer": "Leonardo da Vinci",
+      "aliases": [
+        "Da Vinci",
+        "Leonardo"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Leonardo da Vinci",
+          "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+          "snippet": "Leonardo di ser Piero da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. While his fame initially rested on his achievements as a painte"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:41.343Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Impressionism",
+      "external_id": "arts-vc-draft-2026-06-15-003",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 19th-century art movement, characterized by visible brush strokes and the depiction of light's changing qualities, emerged among Paris-based painters who exhibited independently in the 1870s and 1880s.",
+      "answer": "Impressionism",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-movements"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Impressionism",
+          "url": "https://en.wikipedia.org/wiki/Impressionism",
+          "snippet": "Impressionism was a 19th-century art movement characterised by visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities, ordinary subject matter, unusual visual angles, and inclusion of move"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:41.761Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Louvre",
+      "external_id": "arts-vc-draft-2026-06-15-004",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This former royal palace in Paris houses the Mona Lisa and received 9 million visitors in 2025, making it the world's most visited art museum.",
+      "answer": "Louvre",
+      "aliases": [
+        "Louvre Museum",
+        "Musée du Louvre"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "museums"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Louvre",
+          "url": "https://en.wikipedia.org/wiki/Louvre",
+          "snippet": "The Louvre is a national art museum in Paris, France. The Louvre, a former royal palace, is known for its collection of celebrated paintings collected by the French kings, including the Mona Lisa of Leonardo Da Vinci. The museum received 9 "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:42.173Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Starry_Night",
+      "external_id": "arts-vc-draft-2026-06-15-005",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Van Gogh painted this swirling canvas in June 1889 from his asylum room at Saint-Rémy-de-Provence; it has been in MoMA's permanent collection since 1941.",
+      "answer": "The Starry Night",
+      "aliases": [
+        "Starry Night"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Starry Night",
+          "url": "https://en.wikipedia.org/wiki/The_Starry_Night",
+          "snippet": "The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise,"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:42.591Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+      "external_id": "arts-vc-draft-2026-06-15-006",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often called 'the Mona Lisa of the North,' this circa 1665 Vermeer painting shows a young woman in a blue-and-gold turban glancing over her shoulder against a dark background.",
+      "answer": "Girl with a Pearl Earring",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Girl with a Pearl Earring",
+          "url": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+          "snippet": "Girl with a Pearl Earring is an oil painting by Dutch Golden Age painter Johannes Vermeer, dated c. 1665. Going by various names over the centuries, it acquired its present title towards the end of the 20th century. The work has been in the"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:43.023Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
+      "external_id": "arts-vc-draft-2026-06-15-007",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Botticelli's mid-1480s canvas depicts a goddess arriving at the shore after emerging from the sea fully grown; it now hangs in Florence's Uffizi Gallery.",
+      "answer": "The Birth of Venus",
+      "aliases": [
+        "Birth of Venus",
+        "Nascita di Venere"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Birth of Venus",
+          "url": "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
+          "snippet": "The Birth of Venus is a painting by the Italian artist Sandro Botticelli, probably executed in the mid-1480s. It depicts the goddess Venus arriving at the shore after her birth, when she had emerged from the sea fully grown. The painting is"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:43.433Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Michelangelo",
+      "external_id": "arts-vc-draft-2026-06-15-008",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "He sculpted the marble 'David' and the 'Pietà,' and painted the Sistine Chapel ceiling.",
+      "answer": "Michelangelo",
+      "aliases": [
+        "Michelangelo Buonarroti"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Michelangelo",
+          "url": "https://en.wikipedia.org/wiki/Michelangelo",
+          "snippet": "Michelangelo di Lodovico Buonarroti Simoni, known mononymously as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance. He was born in the Republic of Florence but was mostly active in Rome from his 30"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:43.847Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Auguste_Rodin",
+      "external_id": "arts-vc-draft-2026-06-15-009",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French sculptor, generally considered the founder of modern sculpture, created works including The Thinker, The Burghers of Calais, and The Gates of Hell.",
+      "answer": "Auguste Rodin",
+      "aliases": [
+        "Rodin"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Auguste Rodin",
+          "url": "https://en.wikipedia.org/wiki/Auguste_Rodin",
+          "snippet": "François Auguste René Rodin was a French sculptor generally considered the founder of modern sculpture. He was schooled traditionally and took a craftsman-like approach to his work. Rodin possessed a unique ability to model a complex, turbu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:44.250Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Colosseum",
+      "external_id": "arts-vc-draft-2026-06-15-010",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The largest ancient amphitheatre ever built, this elliptical Roman structure was begun by Emperor Vespasian in AD 72 and completed by his successor Titus in AD 80.",
+      "answer": "Colosseum",
+      "aliases": [
+        "Coliseum",
+        "Flavian Amphitheatre"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Colosseum",
+          "url": "https://en.wikipedia.org/wiki/Colosseum",
+          "snippet": "The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is the largest standing amphitheatre in the world. Construction began"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:44.662Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+      "external_id": "arts-vc-draft-2026-06-15-011",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1931 Dalí canvas, informally known as 'The Melting Clocks,' was first sold at New York's Julien Levy Gallery for $250 before being donated to MoMA in 1934.",
+      "answer": "The Persistence of Memory",
+      "aliases": [
+        "Persistence of Memory"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Persistence of Memory",
+          "url": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+          "snippet": "The Persistence of Memory is a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism. First exhibited at the Julien Levy Gallery in 1932 and sold for $250, The Persistence of Memory was donated to the Mu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:45.081Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sistine_Chapel",
+      "external_id": "arts-vc-draft-2026-06-15-012",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Vatican City building, constructed in the 1470s and used today for papal conclaves, is celebrated for the ceiling Michelangelo painted between 1508 and 1512 under the patronage of Pope Julius II.",
+      "answer": "Sistine Chapel",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sistine Chapel",
+          "url": "https://en.wikipedia.org/wiki/Sistine_Chapel",
+          "snippet": "The Sistine Chapel is a chapel in the Apostolic Palace, the pope's official residence in Vatican City. Originally known as the Cappella Magna, it takes its name from Pope Sixtus IV, who had it built between 1473 and 1481. Since that time, i"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:45.495Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+      "external_id": "arts-vc-draft-2026-06-15-013",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Mexican painter employed a naïve folk art style to explore questions of identity, postcolonialism, and gender through self-portraits with strong autobiographical elements that mix realism with fantasy.",
+      "answer": "Frida Kahlo",
+      "aliases": [
+        "Frida"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Frida Kahlo",
+          "url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+          "snippet": "Magdalena Carmen Frida Kahlo y Calderón was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico. Inspired by the country's popular culture, she employed a naïve folk art s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:45.919Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Night_Watch",
+      "external_id": "arts-vc-draft-2026-06-15-014",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Its formal title is 'Militia Company of District II under the Command of Captain Frans Banninck Cocq'; Rijksmuseum visitors know this 1642 Rembrandt by a much shorter name.",
+      "answer": "The Night Watch",
+      "aliases": [
+        "Night Watch",
+        "De Nachtwacht"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Night Watch",
+          "url": "https://en.wikipedia.org/wiki/The_Night_Watch",
+          "snippet": "Militia Company of District II under the Command of Captain Frans Banninck Cocq, also known as The Shooting Company of Frans Banning Cocq and Willem van Ruytenburch, but commonly referred to as The Night Watch, is a 1642 painting by Rembran"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:46.356Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jackson_Pollock",
+      "external_id": "arts-vc-draft-2026-06-15-015",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This abstract expressionist poured or splashed liquid household paint onto horizontal canvases, viewing them from all angles — a technique critics called 'action painting'.",
+      "answer": "Jackson Pollock",
+      "aliases": [
+        "Pollock"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jackson Pollock",
+          "url": "https://en.wikipedia.org/wiki/Jackson_Pollock",
+          "snippet": "Paul Jackson Pollock was an American painter. A major figure in the abstract expressionist movement, he was widely noticed for his \"drip technique\" of pouring or splashing liquid household paint onto a horizontal surface, enabling him to vi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:46.776Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Surrealism",
+      "external_id": "arts-vc-draft-2026-06-15-016",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Led by André Breton, whose 1924 Manifesto launched it, this European art movement aimed to let the unconscious mind express itself through dreamlike and illogical imagery; it grew from the earlier Dada movement.",
+      "answer": "Surrealism",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-movements"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Surrealism",
+          "url": "https://en.wikipedia.org/wiki/Surrealism",
+          "snippet": "Surrealism is an art and cultural movement that developed in Europe in the aftermath of World War I in which artists aimed to allow the unconscious mind to express itself, often resulting in the depiction of illogical or dreamlike scenes an"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-15T15:47:47.179Z"
+    }
+  ]
+}
