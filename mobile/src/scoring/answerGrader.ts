@@ -9,6 +9,10 @@ export type GradeResult = {
 export function gradeResponse(question: RecommendedQuestion, response: string): GradeResult {
   const submitted = normalizeAnswer(response);
   const acceptedAnswers = [question.answer, ...question.aliases].map(normalizeAnswer).filter(Boolean);
+  // The reveal text shown after submitting. When `answer_detail` is set (e.g.
+  // "Mona Lisa — Leonardo da Vinci" on a visual clue), show that regardless of
+  // which part the clue asked for. Grading still uses `answer` + aliases only.
+  const reveal = question.answer_detail || question.answer;
   const answerNumberKeys = new Set(acceptedAnswers.flatMap(extractNumberKeys));
   const submittedNumberKeys = new Set(extractNumberKeys(submitted));
 
@@ -16,7 +20,7 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
     return {
       grade: 'unknown',
       label: 'No answer',
-      detail: `Correct response: ${question.answer}`,
+      detail: `Correct response: ${reveal}`,
     };
   }
 
@@ -24,7 +28,7 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
     return {
       grade: 'correct',
       label: 'Correct',
-      detail: question.answer,
+      detail: reveal,
     };
   }
 
@@ -32,7 +36,7 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
     return {
       grade: 'missed',
       label: 'Missed',
-      detail: `Correct response: ${question.answer}`,
+      detail: `Correct response: ${reveal}`,
     };
   }
 
@@ -43,7 +47,7 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
     return {
       grade: 'correct',
       label: 'Correct',
-      detail: question.answer,
+      detail: reveal,
     };
   }
 

@@ -1,6 +1,6 @@
 import { useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Alert, Image, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Card, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
@@ -180,6 +180,20 @@ export default function TrainScreen() {
               {activeQuestion.subcategory_name ?? formatMechanic(activeQuestion.mechanic)}
             </Text>
           </View>
+          {activeQuestion.image_url ? (
+            <View>
+              <Image
+                source={{ uri: activeQuestion.image_url }}
+                style={styles.clueImage}
+                resizeMode="contain"
+                accessible
+                accessibilityLabel="Clue image"
+              />
+              {activeQuestion.image_attribution ? (
+                <Text style={styles.imageAttribution}>{activeQuestion.image_attribution}</Text>
+              ) : null}
+            </View>
+          ) : null}
           <Text style={styles.clueText}>{displayClue(activeQuestion)}</Text>
           {activeQuestion.constraint_text ? <Text style={styles.constraintText}>{activeQuestion.constraint_text}</Text> : null}
         </Card>
@@ -471,6 +485,18 @@ const styles = StyleSheet.create({
     ...type.caption,
     color: colors.boardMeta,
     textAlign: 'center',
+  },
+  clueImage: {
+    width: '100%',
+    height: 220,
+    borderRadius: radius.md,
+    backgroundColor: colors.surfaceAlt,
+  },
+  imageAttribution: {
+    ...type.caption,
+    color: colors.boardMeta,
+    textAlign: 'center',
+    marginTop: 4,
   },
   clueText: {
     fontSize: 21,

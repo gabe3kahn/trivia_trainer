@@ -220,4 +220,7 @@ export type RecommendedQuestion = {
   answer: string;
   aliases: string[];
   tags: string[];
+  image_url: string | null;
+  image_attribution: string | null;
+  answer_detail: string | null;
 };
