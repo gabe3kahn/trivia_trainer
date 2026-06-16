@@ -37,6 +37,12 @@ for (const w of WORKS) {
   i += 1;
   const { img, page } = await leadImage(w.title);
   if (!img) { console.log(`  MISS  ${w.answer} (no lead image)`); continue; }
+  // Alternate the prompt: odd index -> name the painting, even -> name the artist.
+  const askArtist = i % 2 === 0;
+  const surname = w.artist.split(' ').pop();
+  const clue = askArtist ? 'Name the artist.' : 'Name this painting.';
+  const answer = askArtist ? w.artist : w.answer;
+  const aliases = askArtist ? (surname && surname !== w.artist ? [surname] : []) : w.aliases;
   questions.push({
     source: 'original_sourced',
     source_url: page,
@@ -47,9 +53,9 @@ for (const w of WORKS) {
     difficulty_rank: rank(w.value),
     mechanic: 'visual',
     constraint_text: null,
-    clue: 'Name this painting.',
-    answer: w.answer,
-    aliases: w.aliases,
+    clue,
+    answer,
+    aliases,
     tags: ['visual', 'sourced', 'famous-artworks'],
     citations: [{ source: 'wikipedia', title: w.title, url: page }],
     image_url: img,

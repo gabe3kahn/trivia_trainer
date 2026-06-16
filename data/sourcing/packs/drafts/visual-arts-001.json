@@ -49,10 +49,10 @@
       "difficulty_rank": 1,
       "mechanic": "visual",
       "constraint_text": null,
-      "clue": "Name this painting.",
-      "answer": "The Starry Night",
+      "clue": "Name the artist.",
+      "answer": "Vincent van Gogh",
       "aliases": [
-        "Starry Night"
+        "Gogh"
       ],
       "tags": [
         "visual",
@@ -111,10 +111,10 @@
       "difficulty_rank": 2,
       "mechanic": "visual",
       "constraint_text": null,
-      "clue": "Name this painting.",
-      "answer": "The Birth of Venus",
+      "clue": "Name the artist.",
+      "answer": "Sandro Botticelli",
       "aliases": [
-        "Birth of Venus"
+        "Botticelli"
       ],
       "tags": [
         "visual",
@@ -173,12 +173,9 @@
       "difficulty_rank": 2,
       "mechanic": "visual",
       "constraint_text": null,
-      "clue": "Name this painting.",
-      "answer": "The Great Wave off Kanagawa",
-      "aliases": [
-        "The Great Wave",
-        "Great Wave off Kanagawa"
-      ],
+      "clue": "Name the artist.",
+      "answer": "Hokusai",
+      "aliases": [],
       "tags": [
         "visual",
         "sourced",
@@ -239,10 +236,10 @@
       "difficulty_rank": 2,
       "mechanic": "visual",
       "constraint_text": null,
-      "clue": "Name this painting.",
-      "answer": "Whistler's Mother",
+      "clue": "Name the artist.",
+      "answer": "James McNeill Whistler",
       "aliases": [
-        "Arrangement in Grey and Black No. 1"
+        "Whistler"
       ],
       "tags": [
         "visual",

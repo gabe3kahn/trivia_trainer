@@ -10,6 +10,10 @@ alter table questions
 
 -- Recreate the recommender so the app receives image_url + image_attribution.
 -- (Body is identical to migration 007 plus the two new SELECT columns.)
+-- Must DROP first: CREATE OR REPLACE cannot change a function's return-type
+-- shape, and we're adding columns to the RETURNS TABLE.
+drop function if exists public.get_recommended_questions(text, int, text[], int[], text[]);
+
 create or replace function public.get_recommended_questions(
   p_mode text default 'weakness',
   p_limit int default 12,
