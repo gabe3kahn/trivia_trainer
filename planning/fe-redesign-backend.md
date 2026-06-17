@@ -54,20 +54,20 @@ So **Home (mastery + quick practice), Train, the whole in-session clue experienc
 1. `daily_challenges` — `challenge_date date pk, question_ids uuid[], created_at`.
 2. `daily_challenge_attempts` — `id, challenge_date, user_id, question_id, typed_response, grade, points, time_ms, created_at`, `unique(challenge_date,user_id,question_id)`.
 3. `games` columns — `winner_id uuid, creator_score int, opponent_score int` (lifecycle/`completed_at` already there).
-4. `profiles` columns — `expo_push_token text`, `avatar_url text` (optional), and either `streak_count int + streak_day date` or compute streak on read.
+4. `profiles` columns — `expo_push_token text`, `avatar_url text` (optional), `phone_hash text` (for contacts matching, indexed). Streak is computed on read — **no** counter column.
 5. `matchmaking_queue` — `user_id pk, filters jsonb, enqueued_at` (only for random matchmaking, M3).
-6. (optional) `categories.color text` if we don't keep the color map in the FE.
+6. `categories.color` — **not added**; the category→color map lives as a FE constant (10 static categories).
 7. RLS policies for every new table (own rows; friends-read for leaderboards; participants-only for games).
 
 ### B. RPCs
 - **Home:** `get_home_summary()` — overall mastery + tier + weekly delta, streak, today's Daily Challenge status, the compete-strip state, last-session blurb. (One aggregate call keeps Home a single round-trip.)
 - **Daily Challenge:** `get_or_create_daily_challenge(date)`, `submit_daily_attempt(...)`, `get_daily_leaderboard(date, scope='friends')`.
 - **Duels:** `create_game(opponent, n, filters)`, `get_game(id)`, `submit_game_attempt(...)`, `finalize_game(id)`, `list_games(status)`.
-- **Friends:** `search_users(q)`, `send_friend_request(addressee)`, `respond_friend_request(id, accept)`, `list_friends()`, `get_friends_leaderboard(window)`.
+- **Friends:** `search_users(q)`, `send_friend_request(addressee)`, `respond_friend_request(id, accept)`, `list_friends()`, `get_friends_leaderboard(window)`. **Invite:** `create_invite()` → share-link token + `redeem_invite(token)` (auto-friends on signup). **Contacts (fast-follow):** `match_contacts(hashed[])` against `profiles.phone_hash`.
 - **Matchmaking (M3):** `enqueue_random_game(filters)` + pairing.
 
 ### C. Jobs / scheduled
-- **Daily Challenge generation** — one `daily_challenges` row per day (pick N questions, balanced). Extend the existing daily job, or a `pg_cron` / Supabase scheduled Edge Function. Must run before users wake up.
+- **Daily Challenge generation** — one `daily_challenges` row per day (pick N questions, balanced). **Server-side** via Supabase `pg_cron` (or a scheduled Edge Function) — **not** the local laptop task, so it can't be missed when a machine is asleep. Runs early each day before users wake up.
 
 ### D. Edge Functions (phased)
 - **`send-push`** (Expo Push API) — your-turn, daily-available, friend-request. Needs `expo_push_token` + EAS/APNs credentials (a TestFlight build needs these anyway).
@@ -77,13 +77,13 @@ So **Home (mastery + quick practice), Train, the whole in-session clue experienc
 - A post-attempt / post-game hook (trigger or RPC step) that evaluates `badges.criteria` and inserts `user_badges`. Today badges exist but are never granted — the Profile "earned vs locked" wall needs this.
 
 ### F. Streak
-- Define: **consecutive days the Daily Challenge was played.** Simplest = compute on read from `daily_challenge_attempts` dates (no extra writes); or maintain `profiles.streak_count` when a daily challenge completes. Coupled to Daily Challenge existing.
+- **Consecutive days the Daily Challenge was played, computed on read** from `daily_challenge_attempts` dates — no stored counter, no update logic, no drift. Surfaced by `get_home_summary`. Coupled to the Daily Challenge existing (Compete M2).
 
 ---
 
 ## Phasing (maps to build order)
 
-**Phase R — Redesign on existing backend (no multiplayer).** Ship the new look + 4-tab IA using only what exists: Home (mastery hero, quick practice, last session), Train, the custom clue card + pips, Profile (mastery + categories + badges-as-locked). Compete tab present but in its empty/invite state. *BE cost: ~zero* (optional `categories.color`; badge-awarding if we want earned badges now).
+**Phase R — Redesign on existing backend.** Ship the new look + 4-tab IA using what exists: Home (mastery hero, quick practice, last session), Train, the custom clue card + pips (category color = FE constant), Profile (mastery + categories + **earned badges**). Compete tab present in its empty/invite state. *BE cost: one small add* — **badge awarding** (the post-attempt hook in §E) is in scope for Phase R so Profile shows real badges, not an all-locked wall. Everything else is FE.
 
 **Phase 1 — Compete core (the multiplayer doc).**
 - M1: friends graph + 1v1 async duels (`games` scores/winner, friend RPCs, duel RPCs, RLS). Unlocks Home compete strip (active/challenge variants), Profile win-rate.
@@ -97,9 +97,9 @@ Note the dependency: **streak, the Daily Challenge card, and "N friends played" 
 
 ---
 
-## Open questions
-- **Streak source:** Daily Challenge only (locked), but compute-on-read vs stored counter?
-- **Daily Challenge generation:** reuse the local daily job, or move to `pg_cron`/Edge Function so it doesn't depend on a laptop being awake? (Leaning server-side, since real users depend on it.)
-- **Invite mechanics:** share link vs username/handle vs contacts — drives the friend-graph entry point.
-- **Badge awarding now or with Compete:** worth turning on for Phase R so Profile isn't all-locked?
-- **`categories.color` in DB vs FE constant** (10 static categories → FE constant is fine).
+## Decisions (resolved 2026-06-17)
+- **Streak:** consecutive days the Daily Challenge was played, **computed on read** from `daily_challenge_attempts` — no stored counter. (Needs Compete M2.)
+- **Daily Challenge generation:** **server-side** (`pg_cron` / scheduled Edge Function), not the local task — can't be missed by a sleeping laptop.
+- **Invite mechanics:** **share link + username search first; phone contacts as a fast-follow** (adds `profiles.phone_hash` + `match_contacts` + a privacy prompt); QR deferred.
+- **Badge awarding:** **on for Phase R** — implement the §E award hook now so Profile shows earned badges from day one.
+- **`categories.color`:** **FE constant**, not a DB column.
