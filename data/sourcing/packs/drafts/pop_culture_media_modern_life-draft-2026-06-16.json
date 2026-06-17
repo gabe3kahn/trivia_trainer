@@ -1,0 +1,524 @@
+{
+  "generated_at": "2026-06-16T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "pop_culture_media_modern_life",
+  "notes": [
+    "Pop-culture pilot of the source-grounded pipeline. Clues written only from facts in Wikipedia lead extracts stored under data/sourcing/docs/pop_culture_media_modern_life/. Each citation points to the exact Wikipedia article from which the stated fact was drawn.",
+    "verification_status = unverified — run verify-clue-sources.mjs --pack <this file> --write-back in a network-enabled environment before import."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Saturday_Night_Fever",
+      "external_id": "pop-draft-001-001",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1977 John Travolta film, set in Brooklyn's disco scene, stars him as Tony Manero and is based on a mostly fictional 1976 New York magazine article; its Bee Gees soundtrack is one of the best-selling soundtrack albums in history.",
+      "answer": "Saturday Night Fever",
+      "aliases": [
+        "Saturday Night Fever"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "film",
+        "disco"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Saturday Night Fever",
+          "url": "https://en.wikipedia.org/wiki/Saturday_Night_Fever",
+          "snippet": "Saturday Night Fever is a 1977 American dance drama film directed by John Badham and produced by Robert Stigwood. It stars John Travolta as Tony Manero, a young Italian-American man who spends his weekends dancing and drinking at a local di"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 1977 film starring John Travolta as Tony Manero; based on a mostly fictional 1976 magazine article; Bee Gees soundtrack is one of the best-selling soundtrack albums worldwide. (saturday-night-fever.json extract)",
+      "verified_at": "2026-06-17T04:37:55.928Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Blazing_Saddles",
+      "external_id": "pop-draft-001-002",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1974 Mel Brooks satirical Western comedy, co-written by Richard Pryor, is ranked sixth on the American Film Institute's 100 Years...100 Laughs list and was selected for preservation in the National Film Registry.",
+      "answer": "Blazing Saddles",
+      "aliases": [
+        "Blazing Saddles"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "film",
+        "comedy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Blazing Saddles",
+          "url": "https://en.wikipedia.org/wiki/Blazing_Saddles",
+          "snippet": "Blazing Saddles is a 1974 American satirical Western comedy film directed by Mel Brooks, who co-wrote the screenplay with Andrew Bergman, Richard Pryor, Norman Steinberg and Alan Uger, based on a story treatment by Bergman. The film stars C"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 1974 Mel Brooks film co-written by Richard Pryor; ranked 6th on AFI's 100 Years...100 Laughs; preserved in National Film Registry. (blazing-saddles.json extract)",
+      "verified_at": "2026-06-17T04:37:56.307Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon",
+      "external_id": "pop-draft-001-003",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Each of the three films in this DreamWorks animated franchise, which follows a young Viking named Hiccup and his Night Fury companion Toothless, was nominated for the Academy Award for Best Animated Feature.",
+      "answer": "How to Train Your Dragon",
+      "aliases": [
+        "How to Train Your Dragon",
+        "HTTYD"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "film",
+        "animation"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "How to Train Your Dragon",
+          "url": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon",
+          "snippet": "How to Train Your Dragon is an American fantasy adventure media franchise from DreamWorks Animation and based on the book series of the same name by British author Cressida Cowell. It consists of three feature films: How to Train Your Drago"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: DreamWorks franchise following Hiccup and his Night Fury Toothless; all three films nominated for Best Animated Feature. (how-to-train-your-dragon.json extract)",
+      "verified_at": "2026-06-17T04:37:56.737Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Greatest_Showman",
+      "external_id": "pop-draft-001-004",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 2017 Hugh Jackman musical film, a heavily fictionalized depiction of P. T. Barnum's life, features nine original songs by Benj Pasek and Justin Paul and won the Golden Globe for Best Original Song for 'This Is Me.'",
+      "answer": "The Greatest Showman",
+      "aliases": [
+        "The Greatest Showman",
+        "Greatest Showman"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "film",
+        "musical"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Greatest Showman",
+          "url": "https://en.wikipedia.org/wiki/The_Greatest_Showman",
+          "snippet": "The Greatest Showman is a 2017 American musical period drama film directed by Michael Gracey from a screenplay by Jenny Bicks and Bill Condon, based on an original story by Bicks. The film stars Hugh Jackman, Zac Efron, Michelle Williams, R"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 2017 Hugh Jackman musical; fictionalized depiction of P.T. Barnum; nine songs by Pasek and Paul; won Golden Globe for Best Original Song 'This Is Me.' (the-greatest-showman.json extract)",
+      "verified_at": "2026-06-17T04:37:57.115Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Boyz_n_the_Hood",
+      "external_id": "pop-draft-001-005",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "At the 64th Academy Awards, John Singleton — the writer-director of this South Central Los Angeles coming-of-age film — became both the youngest person and the first African American nominated for Best Director.",
+      "answer": "Boyz n the Hood",
+      "aliases": [
+        "Boyz n the Hood",
+        "Boys n the Hood",
+        "Boyz in the Hood"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "film",
+        "john-singleton"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Boyz n the Hood",
+          "url": "https://en.wikipedia.org/wiki/Boyz_n_the_Hood",
+          "snippet": "Boyz n the Hood is a 1991 American coming-of-age hood crime drama film, written and directed by John Singleton in his feature directorial debut. It stars Cuba Gooding Jr. and Laurence Fishburne, with Nia Long, Tyra Ferrell and Angela Basset"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: John Singleton's debut film; at the 64th Academy Awards he became youngest person and first Black filmmaker nominated for Best Director; set in South Central Los Angeles. (boyz-n-the-hood.json extract)",
+      "verified_at": "2026-06-17T04:37:57.498Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Meredith_Grey",
+      "external_id": "pop-draft-001-006",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This fictional surgeon, created by Shonda Rhimes and portrayed by Ellen Pompeo, is the title character of an ABC medical drama that premiered in 2005 and became one of the longest-running scripted primetime series in American television.",
+      "answer": "Meredith Grey",
+      "aliases": [
+        "Meredith Grey",
+        "Dr. Meredith Grey",
+        "Dr Grey",
+        "Grey"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "television",
+        "greys-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Meredith Grey",
+          "url": "https://en.wikipedia.org/wiki/Meredith_Grey",
+          "snippet": "Meredith Grey MD, FACS, is the fictional titular character from the medical drama television series Grey's Anatomy, which airs on the American Broadcasting Company (ABC) in the United States. The character was created by series producer Sho"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: fictional surgeon; created by Shonda Rhimes; portrayed by Ellen Pompeo; titular character of ABC medical drama that premiered March 27, 2005. (dr-meredith-grey.json extract)",
+      "verified_at": "2026-06-17T04:37:57.898Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wednesday_Addams",
+      "external_id": "pop-draft-001-007",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This pale-skinned fictional character with black pigtails, the macabre-loving daughter in a darkly comic family that originated as a 1930s New Yorker cartoon, was played by Christina Ricci in 1991 and Jenna Ortega in a 2022 streaming series.",
+      "answer": "Wednesday Addams",
+      "aliases": [
+        "Wednesday Addams",
+        "Wednesday"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "television",
+        "addams-family"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wednesday Addams",
+          "url": "https://en.wikipedia.org/wiki/Wednesday_Addams",
+          "snippet": "Wednesday Friday Addams is a character from the Addams Family multimedia franchise created by American cartoonist Charles Addams. She is typically portrayed as a morbid and emotionally reserved child that is fascinated by the macabre, ident"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source facts: character created by Charles Addams; morbid, pale-skinned, black pigtails; Christina Ricci in 1991 films; Jenna Ortega in 2022 streaming series. (wednesday-addams.json extract)",
+      "verified_at": "2026-06-17T04:37:58.289Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jack_Donaghy",
+      "external_id": "pop-draft-001-008",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This character portrayed by Alec Baldwin on NBC's 30 Rock holds the title of Vice President of East Coast Television and Microwave Oven Programming at General Electric.",
+      "answer": "Jack Donaghy",
+      "aliases": [
+        "Jack Donaghy",
+        "Donaghy"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "television",
+        "30-rock"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jack Donaghy",
+          "url": "https://en.wikipedia.org/wiki/Jack_Donaghy",
+          "snippet": "John Francis \"Jack\" Donaghy is a fictional character on the NBC sitcom 30 Rock, airing from 2006 to 2013. The character was created by series creator Tina Fey, and is portrayed by Alec Baldwin. He was introduced as the Vice President of Eas"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: character portrayed by Alec Baldwin on 30 Rock; introduced as Vice President of East Coast Television and Microwave Oven Programming at GE. (jack-donaghy.json extract)",
+      "verified_at": "2026-06-17T04:37:58.677Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Don_Draper",
+      "external_id": "pop-draft-001-009",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This charismatic but enigmatic protagonist, portrayed by Jon Hamm, is a Manhattan advertising executive who assumed a dead soldier's name and identity; he was born Richard Whitman.",
+      "answer": "Don Draper",
+      "aliases": [
+        "Don Draper",
+        "Draper"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "television",
+        "mad-men"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Don Draper",
+          "url": "https://en.wikipedia.org/wiki/Don_Draper",
+          "snippet": "Donald Francis \"Don\" Draper, born Richard \"Dick\" Whitman, is a fictional character and the protagonist of the AMC television series Mad Men (2007–2015), portrayed by Jon Hamm. At the beginning of the series, Draper is the charismatic yet en"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: AMC Mad Men protagonist portrayed by Jon Hamm; born Richard 'Dick' Whitman; creative director at Sterling Cooper; assumed another man's identity. (don-draper.json extract)",
+      "verified_at": "2026-06-17T04:37:59.056Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mr._Potato_Head",
+      "external_id": "pop-draft-001-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hasbro toy, first distributed in 1952, was the first toy ever advertised on television; in its original form it required a real vegetable as the base, with plastic parts attached by pushpins.",
+      "answer": "Mr. Potato Head",
+      "aliases": [
+        "Mr. Potato Head",
+        "Potato Head",
+        "Mr Potato Head"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "brands-advertising",
+        "toys"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mr. Potato Head",
+          "url": "https://en.wikipedia.org/wiki/Mr._Potato_Head",
+          "snippet": "Mr. Potato Head is a toy produced by Hasbro since 1952. It consists of a plastic model of a potato \"head\" to which a variety of plastic parts can attach; typically ears, eyes, shoes, hat, nose, mustache, pipe (1952–1987), pants, glasses, an"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source facts: Hasbro toy distributed since 1952; first toy advertised on television; original form used pushpins on a real vegetable. (mr-potato-head.json extract)",
+      "verified_at": "2026-06-17T04:37:59.428Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Easy-Bake_Oven",
+      "external_id": "pop-draft-001-011",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Kenner toy introduced in 1963 originally used a pair of ordinary incandescent light bulbs as its heat source; Kenner sold 500,000 units in the first year of production.",
+      "answer": "Easy-Bake Oven",
+      "aliases": [
+        "Easy-Bake Oven",
+        "Easy Bake Oven",
+        "EasyBake Oven"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "brands-advertising",
+        "toys"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Easy-Bake Oven",
+          "url": "https://en.wikipedia.org/wiki/Easy-Bake_Oven",
+          "snippet": "The Easy-Bake Oven is a working toy oven introduced in 1963 and manufactured by Kenner and later by Hasbro. The original toy used a pair of ordinary incandescent light bulbs as a heat source; current versions use a true heating element. Ken"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: Kenner toy introduced in 1963; original version used incandescent light bulbs as heat; 500,000 sold in first year. (an-easy-bake-oven.json extract)",
+      "verified_at": "2026-06-17T04:37:59.811Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Shaggy_(musician)",
+      "external_id": "pop-draft-001-012",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Jamaican-American reggae musician, born Orville Richard Burrell, is known for hits including 'Boombastic' and 'It Wasn't Me' and has won two Grammy Awards for Best Reggae Album.",
+      "answer": "Shaggy",
+      "aliases": [
+        "Shaggy"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "popular-music",
+        "reggae"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Shaggy (musician)",
+          "url": "https://en.wikipedia.org/wiki/Shaggy_(musician)",
+          "snippet": "Orville Richard Burrell, known professionally as Shaggy, is a Jamaican-American reggae musician who scored hits with the songs \"It Wasn't Me\", \"Boombastic\", \"In the Summertime\", \"Oh Carolina\", and \"Angel\". He has been nominated for eight Gr"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: born Orville Richard Burrell; Jamaican-American reggae musician; hits 'Boombastic' and 'It Wasn't Me'; won two Grammys for Best Reggae Album (1996 and 2019). (shaggy.json extract)",
+      "verified_at": "2026-06-17T04:38:00.412Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Labubu",
+      "external_id": "pop-draft-001-014",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This line of collectible plush toys, created by Hong Kong illustrator Kasing Lung and sold exclusively by Pop Mart in sealed 'blind box' packaging that hides which figure is inside, became a global phenomenon in 2024.",
+      "answer": "Labubu",
+      "aliases": [
+        "Labubu"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "internet-culture",
+        "collectibles"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Labubu",
+          "url": "https://en.wikipedia.org/wiki/Labubu",
+          "snippet": "Labubu is a line of collectible plush toys created by Hong Kong illustrator Kasing Lung. The series features zoomorphic elves with exaggerated facial expressions, of which the central figure is Labubu, a monster with sharp teeth, large ears"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: collectible plush toys by Kasing Lung; sold exclusively by Pop Mart in blind box packaging; became global phenomenon in 2024. (labubu.json extract)",
+      "verified_at": "2026-06-17T04:38:00.792Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/New_Orleans",
+      "external_id": "pop-draft-001-015",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded by French colonists in 1718, this city along the Mississippi River is renowned for its Creole cuisine, jazz music, and annual Mardi Gras festival, and has been described as the most interesting city in the United States.",
+      "answer": "New Orleans",
+      "aliases": [
+        "New Orleans",
+        "NOLA",
+        "The Big Easy"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "food-drink",
+        "city-culture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "New Orleans",
+          "url": "https://en.wikipedia.org/wiki/New_Orleans",
+          "snippet": "New Orleans is a consolidated city-parish located along the Mississippi River in the U.S. state of Louisiana. With a population of 383,997 at the 2020 census, New Orleans is the most populous city in Louisiana, the second-most populous in t"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source facts: founded by French colonists in 1718; renowned for Creole cuisine, jazz, and Mardi Gras; described as 'most interesting' city in the US. (the-city-of-new-orleans.json extract)",
+      "verified_at": "2026-06-17T04:38:01.175Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/E-ZPass",
+      "external_id": "pop-draft-001-013",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This electronic toll collection consortium, created in 1987, allows drivers to use a single transponder across participating toll roads, bridges, and tunnels throughout the eastern United States.",
+      "answer": "E-ZPass",
+      "aliases": [
+        "E-ZPass",
+        "EZPass",
+        "EZ Pass",
+        "E-Z Pass"
+      ],
+      "tags": [
+        "sourced",
+        "technology",
+        "transportation",
+        "invention"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "E-ZPass",
+          "url": "https://en.wikipedia.org/wiki/E-ZPass",
+          "snippet": "E-ZPass Interagency Group is an electronic toll collection system used on toll roads, toll bridges, and toll tunnels in the eastern half of the United States. The group itself is composed of several states' member agencies, which share the "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T04:38:01.596Z"
+    }
+  ]
+}
