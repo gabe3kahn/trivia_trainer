@@ -38,7 +38,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 1977 film starring John Travolta as Tony Manero; based on a mostly fictional 1976 magazine article; Bee Gees soundtrack is one of the best-selling soundtrack albums worldwide. (saturday-night-fever.json extract)",
-      "verified_at": "2026-06-16T16:01:31.368Z"
+      "verified_at": "2026-06-17T04:33:59.823Z"
     },
     {
       "source": "original_sourced",
@@ -71,7 +71,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 1974 Mel Brooks film co-written by Richard Pryor; ranked 6th on AFI's 100 Years...100 Laughs; preserved in National Film Registry. (blazing-saddles.json extract)",
-      "verified_at": "2026-06-16T16:01:31.909Z"
+      "verified_at": "2026-06-17T04:34:00.198Z"
     },
     {
       "source": "original_sourced",
@@ -79,8 +79,8 @@
       "external_id": "pop-draft-001-003",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Film",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Each of the three films in this DreamWorks animated franchise, which follows a young Viking named Hiccup and his Night Fury companion Toothless, was nominated for the Academy Award for Best Animated Feature.",
@@ -105,7 +105,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: DreamWorks franchise following Hiccup and his Night Fury Toothless; all three films nominated for Best Animated Feature. (how-to-train-your-dragon.json extract)",
-      "verified_at": "2026-06-16T16:01:32.401Z"
+      "verified_at": "2026-06-17T04:34:00.587Z"
     },
     {
       "source": "original_sourced",
@@ -113,8 +113,8 @@
       "external_id": "pop-draft-001-004",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Film",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This 2017 Hugh Jackman musical film, a heavily fictionalized depiction of P. T. Barnum's life, features nine original songs by Benj Pasek and Justin Paul and won the Golden Globe for Best Original Song for 'This Is Me.'",
@@ -139,7 +139,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 2017 Hugh Jackman musical; fictionalized depiction of P.T. Barnum; nine songs by Pasek and Paul; won Golden Globe for Best Original Song 'This Is Me.' (the-greatest-showman.json extract)",
-      "verified_at": "2026-06-16T16:01:32.814Z"
+      "verified_at": "2026-06-17T04:34:00.966Z"
     },
     {
       "source": "original_sourced",
@@ -151,7 +151,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "At the 64th Academy Awards, this South Central Los Angeles coming-of-age film's writer-director became both the youngest person and the first African American nominated for Best Director.",
+      "clue": "At the 64th Academy Awards, John Singleton — the writer-director of this South Central Los Angeles coming-of-age film — became both the youngest person and the first African American nominated for Best Director.",
       "answer": "Boyz n the Hood",
       "aliases": [
         "Boyz n the Hood",
@@ -174,7 +174,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: John Singleton's debut film; at the 64th Academy Awards he became youngest person and first Black filmmaker nominated for Best Director; set in South Central Los Angeles. (boyz-n-the-hood.json extract)",
-      "verified_at": "2026-06-16T16:01:33.227Z"
+      "verified_at": "2026-06-17T04:34:01.403Z"
     },
     {
       "source": "original_sourced",
@@ -186,7 +186,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This fictional surgeon, created by Shonda Rhimes and portrayed by Ellen Pompeo, is the titular protagonist of ABC's long-running medical drama series that premiered on March 27, 2005.",
+      "clue": "This fictional surgeon, created by Shonda Rhimes and portrayed by Ellen Pompeo, is the title character of an ABC medical drama that premiered in 2005 and became one of the longest-running scripted primetime series in American television.",
       "answer": "Meredith Grey",
       "aliases": [
         "Meredith Grey",
@@ -210,7 +210,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: fictional surgeon; created by Shonda Rhimes; portrayed by Ellen Pompeo; titular character of ABC medical drama that premiered March 27, 2005. (dr-meredith-grey.json extract)",
-      "verified_at": "2026-06-16T16:01:33.677Z"
+      "verified_at": "2026-06-17T04:34:01.837Z"
     },
     {
       "source": "original_sourced",
@@ -222,7 +222,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This pale-skinned fictional character with black pigtails, created by cartoonist Charles Addams, is portrayed as morbid and fascinated by the macabre; Christina Ricci played her in 1991 and Jenna Ortega in a 2022 streaming series.",
+      "clue": "This pale-skinned fictional character with black pigtails, the macabre-loving daughter in a darkly comic family that originated as a 1930s New Yorker cartoon, was played by Christina Ricci in 1991 and Jenna Ortega in a 2022 streaming series.",
       "answer": "Wednesday Addams",
       "aliases": [
         "Wednesday Addams",
@@ -242,9 +242,9 @@
           "snippet": "Wednesday Friday Addams is a character from the Addams Family multimedia franchise created by American cartoonist Charles Addams. She is typically portrayed as a morbid and emotionally reserved child that is fascinated by the macabre, ident"
         }
       ],
-      "verification_status": "verified",
+      "verification_status": "weak",
       "reviewer_note": "Source facts: character created by Charles Addams; morbid, pale-skinned, black pigtails; Christina Ricci in 1991 films; Jenna Ortega in 2022 streaming series. (wednesday-addams.json extract)",
-      "verified_at": "2026-06-16T16:01:34.149Z"
+      "verified_at": "2026-06-17T04:34:02.211Z"
     },
     {
       "source": "original_sourced",
@@ -278,7 +278,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source fact: character portrayed by Alec Baldwin on 30 Rock; introduced as Vice President of East Coast Television and Microwave Oven Programming at GE. (jack-donaghy.json extract)",
-      "verified_at": "2026-06-16T16:01:34.555Z"
+      "verified_at": "2026-06-17T04:34:02.596Z"
     },
     {
       "source": "original_sourced",
@@ -290,7 +290,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This charismatic but enigmatic protagonist of AMC's Mad Men, portrayed by Jon Hamm, is a Manhattan advertising executive who assumed a dead soldier's name and identity; he was born Richard Whitman.",
+      "clue": "This charismatic but enigmatic protagonist, portrayed by Jon Hamm, is a Manhattan advertising executive who assumed a dead soldier's name and identity; he was born Richard Whitman.",
       "answer": "Don Draper",
       "aliases": [
         "Don Draper",
@@ -312,14 +312,14 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: AMC Mad Men protagonist portrayed by Jon Hamm; born Richard 'Dick' Whitman; creative director at Sterling Cooper; assumed another man's identity. (don-draper.json extract)",
-      "verified_at": "2026-06-16T16:01:34.961Z"
+      "verified_at": "2026-06-17T04:34:02.978Z"
     },
     {
       "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Mr._Potato_Head",
       "external_id": "pop-draft-001-010",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Brands & Advertising",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
       "value": 200,
       "difficulty_rank": 1,
       "mechanic": "standard",
@@ -347,14 +347,14 @@
       ],
       "verification_status": "weak",
       "reviewer_note": "Source facts: Hasbro toy distributed since 1952; first toy advertised on television; original form used pushpins on a real vegetable. (mr-potato-head.json extract)",
-      "verified_at": "2026-06-16T16:01:35.399Z"
+      "verified_at": "2026-06-17T04:34:03.365Z"
     },
     {
       "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Easy-Bake_Oven",
       "external_id": "pop-draft-001-011",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Brands & Advertising",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
       "value": 400,
       "difficulty_rank": 2,
       "mechanic": "standard",
@@ -382,16 +382,16 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: Kenner toy introduced in 1963; original version used incandescent light bulbs as heat; 500,000 sold in first year. (an-easy-bake-oven.json extract)",
-      "verified_at": "2026-06-16T16:01:35.881Z"
+      "verified_at": "2026-06-17T04:34:03.749Z"
     },
     {
       "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Shaggy_(musician)",
       "external_id": "pop-draft-001-012",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Celebrities & Public Figures",
-      "value": 400,
-      "difficulty_rank": 2,
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Jamaican-American reggae musician, born Orville Richard Burrell, is known for hits including 'Boombastic' and 'It Wasn't Me' and has won two Grammy Awards for Best Reggae Album.",
@@ -415,50 +415,14 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: born Orville Richard Burrell; Jamaican-American reggae musician; hits 'Boombastic' and 'It Wasn't Me'; won two Grammys for Best Reggae Album (1996 and 2019). (shaggy.json extract)",
-      "verified_at": "2026-06-16T16:01:36.528Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/E-ZPass",
-      "external_id": "pop-draft-001-013",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Technology & Companies",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This electronic toll collection consortium, created in 1987, allows drivers to use a single transponder across participating toll roads, bridges, and tunnels throughout the eastern United States.",
-      "answer": "E-ZPass",
-      "aliases": [
-        "E-ZPass",
-        "EZPass",
-        "EZ Pass",
-        "E-Z Pass"
-      ],
-      "tags": [
-        "pop-culture-draft",
-        "sourced",
-        "technology",
-        "transportation"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "E-ZPass",
-          "url": "https://en.wikipedia.org/wiki/E-ZPass",
-          "snippet": "E-ZPass Interagency Group is an electronic toll collection system used on toll roads, toll bridges, and toll tunnels in the eastern half of the United States. The group itself is composed of several states' member agencies, which share the "
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": "Source facts: electronic toll collection system created in 1987; single transponder works across member agencies in eastern US. (e-zpass.json extract)",
-      "verified_at": "2026-06-16T16:01:36.978Z"
+      "verified_at": "2026-06-17T04:34:04.389Z"
     },
     {
       "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Labubu",
       "external_id": "pop-draft-001-014",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Streaming & Internet Culture",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
       "value": 800,
       "difficulty_rank": 4,
       "mechanic": "standard",
@@ -484,7 +448,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: collectible plush toys by Kasing Lung; sold exclusively by Pop Mart in blind box packaging; became global phenomenon in 2024. (labubu.json extract)",
-      "verified_at": "2026-06-16T16:01:37.437Z"
+      "verified_at": "2026-06-17T04:34:04.837Z"
     },
     {
       "source": "original_sourced",
@@ -492,8 +456,8 @@
       "external_id": "pop-draft-001-015",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Food & Drink",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Founded by French colonists in 1718, this city along the Mississippi River is renowned for its Creole cuisine, jazz music, and annual Mardi Gras festival, and has been described as the most interesting city in the United States.",
@@ -519,7 +483,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": "Source facts: founded by French colonists in 1718; renowned for Creole cuisine, jazz, and Mardi Gras; described as 'most interesting' city in the US. (the-city-of-new-orleans.json extract)",
-      "verified_at": "2026-06-16T16:01:37.899Z"
+      "verified_at": "2026-06-17T04:34:05.223Z"
     }
   ]
 }
