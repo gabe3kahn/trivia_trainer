@@ -1,12 +1,12 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import type { ComponentProps, PropsWithChildren, ReactNode } from 'react';
-import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Circle } from 'react-native-svg';
 
 import type { CategoryScore, DailyActivity } from '@/src/data/mockData';
 import { tapLight, tapMedium } from '@/src/lib/haptics';
-import { colors, radius, scoreColor, shadow, spacing, type } from '@/src/theme';
+import { accentFor, colors, difficultyTier, radius, scoreColor, serifFont, shadow, spacing, type } from '@/src/theme';
 
 type Tone = 'default' | 'gold' | 'teal' | 'green' | 'red' | 'purple';
 type IconName = ComponentProps<typeof FontAwesome>['name'];
@@ -159,6 +159,66 @@ export function ScoreRing({
         <Text style={styles.scoreRingText}>{display}</Text>
       </View>
       {label ? <Text style={styles.scoreRingLabel}>{label}</Text> : null}
+    </View>
+  );
+}
+
+/* ------------------------------------------------------------------ *
+ * DifficultyPips — 1–5 pip meter + tier word. Replaces the Jeopardy $
+ * value as the difficulty signal (rank already lives on every question).
+ * ------------------------------------------------------------------ */
+export function DifficultyPips({ rank, tone = colors.gold }: { rank: number; tone?: string }) {
+  return (
+    <View style={styles.pipsWrap}>
+      <View style={styles.pips}>
+        {[1, 2, 3, 4, 5].map((i) => (
+          <View key={i} style={[styles.pip, i <= rank ? { backgroundColor: tone } : null]} />
+        ))}
+      </View>
+      <Text style={styles.pipLabel}>{difficultyTier(rank)}</Text>
+    </View>
+  );
+}
+
+/* ------------------------------------------------------------------ *
+ * ClueCard — the redesigned clue surface (replaces the blue Jeopardy
+ * board). Dark card, a per-category accent rail + label, the clue set
+ * in a serif, and the 1–5 difficulty pips. Optional image for visual
+ * clues. Grading UI stays in the screen; this is presentation only.
+ * ------------------------------------------------------------------ */
+export function ClueCard({
+  categoryId,
+  categoryName,
+  subcategoryName,
+  rank,
+  clue,
+  imageUrl,
+}: {
+  categoryId?: string | null;
+  categoryName: string;
+  subcategoryName?: string | null;
+  rank: number;
+  clue: string;
+  imageUrl?: string | null;
+}) {
+  const accent = accentFor(categoryId);
+  return (
+    <View style={styles.clueCard}>
+      <View style={[styles.clueRail, { backgroundColor: accent }]} />
+      <View style={styles.clueHead}>
+        <View style={styles.flex}>
+          <View style={styles.clueCatRow}>
+            <View style={[styles.clueDot, { backgroundColor: accent }]} />
+            <Text style={[styles.clueCat, { color: accent }]} numberOfLines={1}>
+              {categoryName}
+            </Text>
+          </View>
+          {subcategoryName ? <Text style={styles.clueSub}>{subcategoryName}</Text> : null}
+        </View>
+        <DifficultyPips rank={rank} tone={accent} />
+      </View>
+      {imageUrl ? <Image source={{ uri: imageUrl }} style={styles.clueImage} resizeMode="contain" /> : null}
+      <Text style={styles.clueText}>{clue}</Text>
     </View>
   );
 }
@@ -527,6 +587,82 @@ const styles = StyleSheet.create({
   scoreRingLabel: {
     ...type.overline,
     color: colors.muted,
+  },
+
+  pipsWrap: {
+    alignItems: 'flex-end',
+    gap: 5,
+  },
+  pips: {
+    flexDirection: 'row',
+    gap: 4,
+  },
+  pip: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: colors.surfaceAlt,
+  },
+  pipLabel: {
+    ...type.overline,
+    color: colors.muted,
+  },
+
+  clueCard: {
+    position: 'relative',
+    borderWidth: 1,
+    borderColor: colors.line,
+    borderRadius: radius.lg,
+    backgroundColor: colors.surface,
+    padding: spacing.md + 2,
+    overflow: 'hidden',
+    ...shadow.card,
+  },
+  clueRail: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: 3,
+  },
+  clueHead: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    gap: spacing.sm,
+  },
+  clueCatRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.xs,
+  },
+  clueDot: {
+    width: 9,
+    height: 9,
+    borderRadius: 5,
+  },
+  clueCat: {
+    ...type.overline,
+  },
+  clueSub: {
+    ...type.caption,
+    color: colors.muted,
+    marginTop: 3,
+  },
+  clueImage: {
+    width: '100%',
+    height: 196,
+    borderRadius: radius.md,
+    backgroundColor: colors.surfaceAlt,
+    marginTop: spacing.md,
+  },
+  clueText: {
+    fontFamily: serifFont,
+    fontSize: 22,
+    lineHeight: 31,
+    fontWeight: '500',
+    color: colors.ink,
+    marginTop: spacing.md,
   },
 
   progressTrack: {
