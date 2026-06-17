@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Trivia Trainer — Proposed FE (v3)</title>
+<style>
+  :root{
+    --bg:#090b11; --panel:#0f131d; --surface:#151b28; --surface2:#1b2233;
+    --line:#262e40; --line2:#313b52;
+    --ink:#f4f7fb; --muted:#98a2b6; --dim:#5d6679;
+    --gold:#f1b53e; --gold-2:#d9962a; --gold-soft:#2a2212;
+    --teal:#33d6c2; --green:#48c98c; --red:#f06b6f; --purple:#8e7bf2; --amber:#e0973a;
+    --r-sm:10px; --r:16px; --r-lg:22px; --r-xl:30px;
+    --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --serif:"Charter","Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box;-webkit-font-smoothing:antialiased}
+  body{margin:0;background:radial-gradient(1200px 700px at 20% -10%,#161c2b 0%,var(--bg) 55%);
+       color:var(--ink);font-family:var(--font);padding:38px 26px 80px}
+  h1{font-size:26px;margin:0 0 6px;letter-spacing:-.5px}
+  .sub{color:var(--muted);max-width:780px;line-height:1.55;margin:0 0 22px;font-size:14.5px}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 26px}
+  .chip{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:12.5px;color:var(--muted)}
+  .chip b{color:var(--ink);font-weight:600}
+  .row{display:flex;gap:30px;flex-wrap:wrap;align-items:flex-start}
+  .case{display:flex;flex-direction:column;gap:10px;width:390px}
+  .case .label{font-size:13px;color:var(--muted)}
+  .case .label b{color:var(--gold);font-weight:700}
+
+  .phone{width:390px;height:830px;border-radius:46px;background:#05070c;
+         border:1px solid #2a3346;box-shadow:0 30px 70px rgba(0,0,0,.55),inset 0 0 0 7px #0c0f17;
+         padding:13px;position:relative;overflow:hidden}
+  .notch{position:absolute;top:13px;left:50%;transform:translateX(-50%);width:128px;height:30px;background:#05070c;border-radius:0 0 18px 18px;z-index:30}
+  .scrn{position:absolute;inset:13px;border-radius:36px;background:var(--bg);overflow:hidden;display:flex;flex-direction:column}
+  .stat{height:44px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 5px;font-size:13px;font-weight:600;color:var(--ink)}
+  .stat .r{font-size:12px;letter-spacing:.5px;opacity:.85}
+  .body{flex:1;overflow:auto;padding:6px 18px 14px}
+  .body::-webkit-scrollbar{display:none}
+
+  .nav{height:74px;display:flex;background:#0c1019;border-top:1px solid var(--line);padding-top:9px}
+  .nav a{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;color:var(--dim);font-size:10.5px;font-weight:600;text-decoration:none}
+  .nav a.on{color:var(--gold)}
+  .nav svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:1.9}
+
+  .ph-h{display:flex;align-items:center;justify-content:space-between;margin:8px 2px 14px}
+  .ph-h .t{font-size:25px;font-weight:800;letter-spacing:-.5px}
+  .greet{font-size:14px;color:var(--muted);font-weight:600}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px}
+  .card+.card{margin-top:12px}
+  .over{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .muted{color:var(--muted)} .dim{color:var(--dim)}
+  .pill{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px}
+  .pill.gold{background:var(--gold-soft);color:var(--gold)}
+  .pill.teal{background:rgba(51,214,194,.12);color:var(--teal)}
+  .pill.flame{background:rgba(240,107,111,.12);color:#ff9a6b}
+  .btn{display:flex;align-items:center;justify-content:center;gap:8px;height:54px;border-radius:var(--r);font-weight:800;font-size:16px;border:none;width:100%}
+  .btn.gold{background:linear-gradient(180deg,var(--gold),var(--gold-2));color:#231a05;box-shadow:0 8px 20px rgba(241,181,62,.22)}
+  .btn.teal{background:var(--teal);color:#06231f}
+  .btn.ghost{background:var(--surface2);color:var(--ink);border:1px solid var(--line2);height:50px;font-size:15px}
+  .sec{margin:22px 2px 11px;display:flex;align-items:center;justify-content:space-between}
+  .sec a{color:var(--gold);font-size:13px;font-weight:700;text-decoration:none}
+
+  .ringwrap{display:flex;align-items:center;gap:18px}
+  .ring{position:relative;flex:none}
+  .ring .n{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .ring .n b{font-weight:800;line-height:1}
+  .ring .n span{font-size:9px;letter-spacing:1.3px;text-transform:uppercase;color:var(--muted);margin-top:2px}
+
+  /* OUR clue card — dark, per-category glow + serif clue + 1-5 difficulty pips */
+  .board{position:relative;border-radius:var(--r-lg);padding:20px;background:var(--surface);border:1px solid var(--line);overflow:hidden}
+  .board .btop{position:absolute;top:0;left:0;right:0;height:3px}
+  .board .glow{position:absolute;top:-40px;left:-20px;right:-20px;height:150px;filter:blur(8px);opacity:.55}
+  .bhead{position:relative;display:flex;align-items:flex-start;justify-content:space-between}
+  .bover2{display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:1.3px;text-transform:uppercase;font-weight:800}
+  .bdot{width:9px;height:9px;border-radius:50%}
+  .bsub2{font-size:11.5px;color:var(--muted);font-weight:600;margin-top:3px}
+  .diff{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+  .pips{display:flex;gap:4px}
+  .pips i{width:8px;height:8px;border-radius:50%;background:var(--surface2)}
+  .pips i.on{background:var(--gold)}
+  .diff span{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .clue2{position:relative;font-family:var(--serif);font-size:23px;line-height:1.42;font-weight:500;margin-top:16px;color:#f2f5fb;letter-spacing:.1px}
+  .paint{position:relative;height:196px;border-radius:12px;margin-top:14px;background:
+        linear-gradient(135deg,#6b5536,#3a2c1c 60%,#241a12),radial-gradient(circle at 62% 42%,#cdbfae 0 16%,transparent 40%);box-shadow:inset 0 0 0 6px rgba(0,0,0,.3)}
+  .input{height:54px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line2);display:flex;align-items:center;padding:0 16px;color:var(--dim);font-size:16px;font-weight:600;margin-top:14px}
+  .prog{height:5px;border-radius:99px;background:var(--surface2);margin:12px 2px 0;overflow:hidden}
+  .prog i{display:block;height:100%;background:var(--gold);border-radius:99px}
+  .resA{border-radius:var(--r);padding:14px 16px;margin-top:14px;border:1px solid}
+  .resA.no{background:rgba(240,107,111,.1);border-color:var(--red)}
+  .resA .rt{font-weight:800;font-size:16px} .resA .rd{margin-top:3px;font-size:14px}
+  .chips{display:flex;gap:9px;margin-top:12px}
+  .gc{flex:1;height:46px;border-radius:13px;border:1px solid var(--line2);background:var(--surface);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:var(--muted)}
+  .gc.sel.no{border-color:var(--red);color:var(--red);background:rgba(240,107,111,.1)}
+
+  .modecard{display:flex;gap:13px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px}
+  .modecard+.modecard{margin-top:10px}
+  .ic{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex:none;background:var(--surface2)}
+  .ic svg{width:22px;height:22px;stroke:var(--gold);fill:none;stroke-width:1.9}
+  .ic.p svg{stroke:var(--purple)} .ic.t svg{stroke:var(--teal)} .ic.g svg{stroke:var(--green)}
+  .mtitle{font-weight:700;font-size:15.5px} .mdesc{color:var(--muted);font-size:12.5px;margin-top:2px;line-height:1.4}
+
+  .bar{height:7px;background:var(--surface2);border-radius:99px;overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold-2),var(--gold))}
+
+  .lb{display:flex;align-items:center;gap:12px;padding:11px 4px;border-bottom:1px solid var(--line)}
+  .lb:last-child{border-bottom:none}
+  .av{width:38px;height:38px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:#0a0c12}
+  .rk{width:18px;text-align:center;font-weight:800;color:var(--muted);font-size:14px}
+  .lbn{font-weight:700;font-size:14px} .lbm{font-size:11.5px;color:var(--muted)}
+  .lbpts{margin-left:auto;font-weight:800;color:var(--gold)}
+  .seg{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:4px;margin:4px 2px 12px}
+  .seg div{flex:1;text-align:center;padding:8px;border-radius:10px;font-size:13px;font-weight:700;color:var(--muted)}
+  .seg div.on{background:var(--surface2);color:var(--ink)}
+  .duel{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:13px}
+  .duel+.duel{margin-top:10px}
+  .badge{margin-left:auto;font-size:11px;font-weight:800;padding:5px 9px;border-radius:999px}
+  .badge.turn{background:var(--gold);color:#231a05} .badge.wait{background:var(--surface2);color:var(--muted)} .badge.won{background:rgba(72,201,140,.16);color:var(--green)}
+
+  .statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:14px}
+  .st{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 6px;text-align:center}
+  .st b{font-size:19px;font-weight:800} .st span{display:block;font-size:9.5px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);margin-top:3px}
+  .badges{display:flex;gap:10px;margin-top:6px}
+  .bg{width:50px;height:50px;border-radius:14px;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:22px;border:1px solid var(--line)}
+  .bg.off{opacity:.3}
+
+  .callout{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px;padding:14px 16px;max-width:840px;margin:8px 0 28px;font-size:13.5px;line-height:1.6;color:var(--muted)}
+  .callout b{color:var(--ink)} .callout code{background:#1b2233;padding:1px 6px;border-radius:6px;color:var(--teal);font-size:12px}
+  .qs{max-width:840px;margin-top:8px} .qs li{color:var(--muted);line-height:1.7;font-size:13.5px} .qs li b{color:var(--ink)}
+  .divider{margin:46px 0 8px;font-size:20px;font-weight:800;letter-spacing:-.3px}
+  .dsub{color:var(--muted);max-width:760px;margin:0 0 20px;font-size:14px;line-height:1.55}
+  .invite{border:1px dashed var(--line2)!important;background:transparent!important}
+  .emptyhint{color:var(--muted);font-size:13px;text-align:center;line-height:1.6;padding:18px 8px}
+  .emptyhint .big{display:block;color:var(--ink);font-weight:700;font-size:15px;margin-bottom:5px}
+  .logo{width:78px;height:78px;border-radius:24px;margin:0 auto;display:flex;align-items:center;justify-content:center;
+        background:linear-gradient(160deg,#26210f,#15192a);border:1px solid #3a3014}
+  .logo svg{width:40px;height:40px;stroke:var(--gold);fill:none;stroke-width:2}
+  .ringlbl span{font-size:9px;letter-spacing:1.3px;text-transform:uppercase;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<h1>Trivia Trainer — proposed FE <span style="color:var(--dim);font-size:15px;font-weight:400">· v3</span></h1>
+<p class="sub">Mastery ring back atop Home (streak is now just a state, not a progress bar), difficulty shown as a <b>1–5 pip scale</b>, Profile trimmed back to mastery + categories + badges, and the <b>Train</b> tab added in the new style.</p>
+
+<div class="legend">
+  <span class="chip"><b>Home:</b> overall mastery (top) · streak · Daily Challenge · compete nudge</span>
+  <span class="chip"><b>Difficulty:</b> ●●●○○ 1–5 pips <span style="color:var(--dim)">(no $, no points number)</span></span>
+  <span class="chip"><b>Profile:</b> mastery · categories · badges <span style="color:var(--dim)">(growth/calendar removed)</span></span>
+  <span class="chip"><b>Tabs:</b> Home · Train · Compete · Profile</span>
+</div>
+
+<div class="callout">
+  <b>This pass:</b> overall mastery is the Home hero again; the streak is a simple "🔥 12 days" state and the Daily Challenge is what extends it (no mid-day progress meter). Clue difficulty is a <b>1–5 pip meter</b> (Lvl 3 = ●●●○○). Profile drops the growth chart and activity calendar — back to mastery ring + category breakdown + badges. New <b>Train</b> screen shows the mode picker in the refreshed style.
+</div>
+
+<div class="row">
+
+  <!-- HOME -->
+  <div class="case">
+    <div class="label"><b>1 · Home</b> — mastery on top, daily actions below</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div class="ph-h">
+          <div><div class="greet">Good evening,</div><div style="font-size:22px;font-weight:800">Gabe</div></div>
+          <span class="pill flame">🔥 12 days</span>
+        </div>
+
+        <div class="card">
+          <div class="ringwrap">
+            <div class="ring" style="width:104px;height:104px">
+              <svg width="104" height="104" viewBox="0 0 104 104">
+                <circle cx="52" cy="52" r="45" stroke="#1b2233" stroke-width="9" fill="none"/>
+                <circle cx="52" cy="52" r="45" stroke="#f1b53e" stroke-width="9" fill="none" stroke-linecap="round" stroke-dasharray="283" stroke-dashoffset="90" transform="rotate(-90 52 52)"/>
+              </svg>
+              <div class="n"><b style="font-size:32px">68</b><span>Sharp</span></div>
+            </div>
+            <div>
+              <div class="over">Overall mastery</div>
+              <div style="font-size:14px;font-weight:700;color:var(--green);margin-top:7px">▲ 3 this week</div>
+              <div class="muted" style="font-size:12.5px;margin-top:3px;line-height:1.45">Above par in 6 of 10 categories.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="background:linear-gradient(150deg,#26210f,#15192a);border-color:#3a3014">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <span class="over" style="color:var(--gold)">Daily Challenge</span><span class="pill gold">4 friends played</span>
+          </div>
+          <div style="font-size:17px;font-weight:800;margin:9px 0 3px">7 clues · same set for everyone</div>
+          <div class="muted" style="font-size:13px;margin-bottom:14px">Play to extend your 12-day streak.</div>
+          <button class="btn gold">Play today's challenge</button>
+        </div>
+
+        <div class="duel" style="margin-top:12px;border-color:#2c2f55;background:linear-gradient(150deg,#1a1c33,#151b28)">
+          <span class="av" style="background:#8e7bf2">D</span>
+          <div><div class="lbn">Dad challenged you</div><div class="lbm">Science duel · your move</div></div>
+          <span class="badge turn">Play →</span>
+        </div>
+
+        <button class="btn ghost" style="margin-top:12px">⚡ Quick practice — target weak spots</button>
+        <div class="dim" style="text-align:center;font-size:11px;margin-top:14px">Last session: 9 / 12 in History · 2h ago</div>
+      </div>
+      <div class="nav">
+        <a class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- TRAIN -->
+  <div class="case">
+    <div class="label"><b>2 · Train</b> — mode picker (new style)</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div class="ph-h"><div class="t">Train</div><span class="pill teal">12 clues</span></div>
+
+        <div class="card" style="position:relative;overflow:hidden;background:linear-gradient(150deg,#26210f,#15192a);border-color:#3a3014">
+          <div class="over" style="color:var(--gold)">Recommended</div>
+          <div style="font-size:18px;font-weight:800;margin:8px 0 3px">Challenge my weaknesses</div>
+          <div class="muted" style="font-size:13px;margin-bottom:14px">Difficulty-weighted gaps, skewed just above your comfort zone.</div>
+          <button class="btn gold">Start session</button>
+        </div>
+
+        <div class="sec"><span class="over">Other modes</span></div>
+        <div class="modecard"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h10"/></svg></div>
+          <div><div class="mtitle">Randomize</div><div class="mdesc">Mixed categories, difficulty &amp; mechanics.</div></div></div>
+        <div class="modecard"><div class="ic t"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 109-9M3 5v4h4"/></svg></div>
+          <div><div class="mtitle">Review misses</div><div class="mdesc">Spaced queue from missed &amp; skipped clues.</div></div></div>
+        <div class="modecard"><div class="ic p"><svg viewBox="0 0 24 24"><path d="M7 7h10v10H7z"/><path d="M10 4v3M14 4v3M10 17v3M14 17v3"/></svg></div>
+          <div><div class="mtitle">Wordplay</div><div class="mdesc">Before &amp; After, anagrams, crosswords.</div></div></div>
+        <div class="modecard"><div class="ic g"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="M4 10h16"/></svg></div>
+          <div><div class="mtitle">Pick categories</div><div class="mdesc">Drill exactly what you choose.</div></div></div>
+      </div>
+      <div class="nav">
+        <a><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a class="on"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- IN SESSION: TEXT -->
+  <div class="case">
+    <div class="label"><b>3 · In session</b> — clue card · Lvl 3 (●●●○○)</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin:8px 2px 0">
+          <span style="font-weight:800;font-size:17px">Clue 3 of 12</span><span class="muted" style="font-size:13px;font-weight:700">History</span>
+        </div>
+        <div class="prog"><i style="width:25%"></i></div>
+
+        <div class="board" style="margin-top:16px">
+          <div class="btop" style="background:var(--amber)"></div>
+          <div class="glow" style="background:radial-gradient(60% 100% at 50% 0,rgba(224,151,58,.28),transparent 70%)"></div>
+          <div class="bhead">
+            <div><div class="bover2" style="color:var(--amber)"><span class="bdot" style="background:var(--amber)"></span>History</div><div class="bsub2">U.S. Presidents &amp; Elections</div></div>
+            <div class="diff"><div class="pips"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div><span>Level 3</span></div>
+          </div>
+          <div class="clue2">He is the only person elected president four times, prompting the two-term limit amendment ratified after his death.</div>
+        </div>
+
+        <div class="input">Type your answer…</div>
+        <button class="btn gold" style="margin-top:12px">Submit</button>
+      </div>
+      <div class="nav">
+        <a><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a class="on"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- IN SESSION: VISUAL + grade -->
+  <div class="case">
+    <div class="label"><b>4 · Visual clue + grade</b> — Lvl 2 (●●○○○)</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin:8px 2px 0">
+          <span style="font-weight:800;font-size:17px">Clue 5 of 12</span><span class="muted" style="font-size:13px;font-weight:700">Arts</span>
+        </div>
+        <div class="prog"><i style="width:42%"></i></div>
+
+        <div class="board" style="margin-top:16px">
+          <div class="btop" style="background:var(--purple)"></div>
+          <div class="glow" style="background:radial-gradient(60% 100% at 50% 0,rgba(142,123,242,.3),transparent 70%)"></div>
+          <div class="bhead">
+            <div><div class="bover2" style="color:var(--purple)"><span class="bdot" style="background:var(--purple)"></span>Arts &amp; Visual Culture</div><div class="bsub2">Famous Artworks</div></div>
+            <div class="diff"><div class="pips"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div><span>Level 2</span></div>
+          </div>
+          <div class="paint"></div>
+          <div class="clue2" style="margin-top:14px">Name the artist.</div>
+        </div>
+
+        <div class="resA no">
+          <div class="rt" style="color:var(--red)">Missed</div>
+          <div class="rd">Whistler's Mother — <b>James McNeill Whistler</b></div>
+        </div>
+        <div style="text-align:center;color:var(--dim);font-size:12px;margin-top:10px">Auto-graded — tap to adjust</div>
+        <div class="chips"><div class="gc">Correct</div><div class="gc sel no">Missed</div></div>
+        <button class="btn teal" style="margin-top:12px">Next clue</button>
+      </div>
+      <div class="nav">
+        <a><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a class="on"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- COMPETE -->
+  <div class="case">
+    <div class="label"><b>5 · Compete</b> — Daily has a clear Play entry</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div class="ph-h"><div class="t">Compete</div><span class="pill teal">5 friends</span></div>
+        <div class="seg"><div class="on">Daily</div><div>Duels</div><div>Friends</div></div>
+
+        <div class="card" style="background:linear-gradient(150deg,#26210f,#15192a);border-color:#3a3014">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+            <div><div class="over" style="color:var(--gold)">Today's Challenge</div><div class="muted" style="font-size:12px;margin-top:3px">7 clues · ends in 4h 12m</div></div>
+            <span class="pill gold">Not played</span>
+          </div>
+          <button class="btn gold">Play today's set →</button>
+        </div>
+
+        <div class="sec"><span class="over">Leaderboard · today</span></div>
+        <div class="card" style="padding:6px 16px">
+          <div class="lb"><span class="rk">1</span><span class="av" style="background:#f1b53e">M</span><div><div class="lbn">Maya</div><div class="lbm">6 correct · 1:48</div></div><span class="lbpts">3,800</span></div>
+          <div class="lb"><span class="rk">2</span><span class="av" style="background:#8e7bf2">D</span><div><div class="lbn">Dad</div><div class="lbm">5 correct · 2:31</div></div><span class="lbpts">2,900</span></div>
+          <div class="lb"><span class="rk">3</span><span class="av" style="background:#33d6c2">G</span><div><div class="lbn">You</div><div class="lbm">not played yet</div></div><span class="lbpts" style="color:var(--dim)">—</span></div>
+        </div>
+      </div>
+      <div class="nav">
+        <a><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a class="on"><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- PROFILE (trimmed: mastery + categories + badges) -->
+  <div class="case">
+    <div class="label"><b>6 · Profile</b> — mastery · categories · badges</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div class="ph-h"><div class="t">Profile</div><span class="pill gold">⚙︎</span></div>
+
+        <div class="card" style="text-align:center">
+          <div class="ring" style="width:104px;height:104px;margin:2px auto 0">
+            <svg width="104" height="104" viewBox="0 0 104 104">
+              <circle cx="52" cy="52" r="45" stroke="#1b2233" stroke-width="9" fill="none"/>
+              <circle cx="52" cy="52" r="45" stroke="#f1b53e" stroke-width="9" fill="none" stroke-linecap="round" stroke-dasharray="283" stroke-dashoffset="90" transform="rotate(-90 52 52)"/>
+            </svg>
+            <div class="n"><b style="font-size:32px">68</b><span>Sharp</span></div>
+          </div>
+          <div style="font-weight:800;font-size:18px;margin-top:8px">Gabe</div>
+          <div class="muted" style="font-size:13px">High confidence · 1,240 reps</div>
+          <div class="statgrid">
+            <div class="st"><b>1,240</b><span>Reps</span></div>
+            <div class="st"><b>12</b><span>Streak</span></div>
+            <div class="st"><b>71%</b><span>Win rate</span></div>
+            <div class="st"><b>9</b><span>Badges</span></div>
+          </div>
+        </div>
+
+        <div class="sec"><span class="over">By category</span><a href="#">All 10</a></div>
+        <div class="card" style="padding:8px 16px">
+          <div style="padding:11px 0;border-bottom:1px solid var(--line)"><div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700">Geography<span class="muted">81</span></div><div class="bar" style="margin-top:8px"><i style="width:81%"></i></div></div>
+          <div style="padding:11px 0;border-bottom:1px solid var(--line)"><div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700">History<span class="muted">74</span></div><div class="bar" style="margin-top:8px"><i style="width:74%"></i></div></div>
+          <div style="padding:11px 0;border-bottom:1px solid var(--line)"><div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700">Science<span class="muted">58</span></div><div class="bar" style="margin-top:8px"><i style="width:58%"></i></div></div>
+          <div style="padding:11px 0"><div style="display:flex;justify-content:space-between;font-size:13px;font-weight:700">Opera<span class="muted">32</span></div><div class="bar" style="margin-top:8px"><i style="width:32%;background:linear-gradient(90deg,#b34b4f,#f06b6f)"></i></div></div>
+        </div>
+
+        <div class="sec"><span class="over">Badges</span><a href="#">All</a></div>
+        <div class="badges"><div class="bg">🎯</div><div class="bg">🔥</div><div class="bg">🌍</div><div class="bg">🏛️</div><div class="bg off">⚔️</div></div>
+      </div>
+      <div class="nav">
+        <a><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a class="on"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+</div>
+
+<div class="divider">Empty / new-user states</div>
+<p class="dsub">Day one: 0 reps, no streak, no friends. The job of these screens is to make the first action obvious and never show a sad empty box — every empty surface points at "play your first set" or "invite a friend." The compete strip on Home becomes the <b>invite-a-friend</b> variant here.</p>
+
+<div class="row">
+
+  <!-- WELCOME -->
+  <div class="case">
+    <div class="label"><b>0 · Welcome</b> — first launch</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body" style="display:flex;flex-direction:column;justify-content:center;padding:24px 26px">
+        <div class="logo"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg></div>
+        <div style="text-align:center;font-size:27px;font-weight:800;margin-top:20px;letter-spacing:-.5px">Trivia Trainer</div>
+        <div style="text-align:center;color:var(--muted);font-size:15px;margin-top:8px;line-height:1.5">Sharpen your recall — a little<br>every day, then put it on the line.</div>
+        <div style="margin-top:32px"><button class="btn gold">Get started</button></div>
+        <button class="btn ghost" style="margin-top:12px">I already have an account</button>
+        <div class="dim" style="text-align:center;font-size:11px;margin-top:18px">Free · no ads · sync across devices</div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- HOME (new user) -->
+  <div class="case">
+    <div class="label"><b>Home</b> — new user (no score, no streak)</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div class="ph-h">
+          <div><div class="greet">Welcome,</div><div style="font-size:22px;font-weight:800">Gabe</div></div>
+          <span class="pill" style="background:var(--surface2);color:var(--muted)">🔥 Start a streak</span>
+        </div>
+
+        <div class="card">
+          <div class="ringwrap">
+            <div class="ring" style="width:104px;height:104px">
+              <svg width="104" height="104" viewBox="0 0 104 104">
+                <circle cx="52" cy="52" r="45" stroke="#1b2233" stroke-width="9" fill="none"/>
+              </svg>
+              <div class="n"><b style="font-size:30px;color:var(--dim)">—</b><span>New</span></div>
+            </div>
+            <div>
+              <div class="over">Overall mastery</div>
+              <div style="font-size:14px;font-weight:700;margin-top:7px">Not measured yet</div>
+              <div class="muted" style="font-size:12.5px;margin-top:3px;line-height:1.45">Answer ~10 clues and we'll map your strengths.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="background:linear-gradient(150deg,#26210f,#15192a);border-color:#3a3014">
+          <div class="over" style="color:var(--gold)">Start here</div>
+          <div style="font-size:18px;font-weight:800;margin:8px 0 3px">Take a warm-up</div>
+          <div class="muted" style="font-size:13px;margin-bottom:14px">10 quick clues to calibrate your level.</div>
+          <button class="btn gold">Begin warm-up</button>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <span class="over">Daily Challenge</span><span class="pill teal">Day 1</span>
+          </div>
+          <div style="font-size:15px;font-weight:700;margin:8px 0 12px">Play today's 7 to start your streak →</div>
+          <button class="btn ghost" style="height:46px">Play Daily Challenge</button>
+        </div>
+
+        <!-- compete strip: invite variant -->
+        <div class="duel invite" style="margin-top:12px">
+          <div class="ic" style="background:var(--surface2)"><svg viewBox="0 0 24 24" style="width:20px;height:20px;stroke:var(--gold);fill:none;stroke-width:1.9"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3 3-5 6-5M17 11v6M14 14h6"/></svg></div>
+          <div><div class="lbn">Compete with friends</div><div class="lbm">Invite someone to duel &amp; compare</div></div>
+          <span class="badge turn">Invite</span>
+        </div>
+      </div>
+      <div class="nav">
+        <a class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- COMPETE (no friends) -->
+  <div class="case">
+    <div class="label"><b>Compete</b> — no friends yet</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div class="ph-h"><div class="t">Compete</div><span class="pill" style="background:var(--surface2);color:var(--muted)">0 friends</span></div>
+        <div class="seg"><div class="on">Daily</div><div>Duels</div><div>Friends</div></div>
+
+        <div class="card" style="background:linear-gradient(150deg,#26210f,#15192a);border-color:#3a3014">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+            <div><div class="over" style="color:var(--gold)">Today's Challenge</div><div class="muted" style="font-size:12px;margin-top:3px">7 clues · play solo today</div></div>
+            <span class="pill gold">Not played</span>
+          </div>
+          <button class="btn gold">Play today's set →</button>
+        </div>
+
+        <div class="sec"><span class="over">Leaderboard</span></div>
+        <div class="card invite">
+          <div class="emptyhint">
+            <span class="big">Your leaderboard is empty</span>
+            Invite friends or family and you'll see who tops each day's challenge.
+          </div>
+          <button class="btn gold" style="height:48px">Invite friends</button>
+          <button class="btn ghost" style="height:44px;margin-top:10px">Add by username</button>
+        </div>
+      </div>
+      <div class="nav">
+        <a><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a class="on"><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- PROFILE (new user) -->
+  <div class="case">
+    <div class="label"><b>Profile</b> — new user (calibrating)</div>
+    <div class="phone"><div class="notch"></div><div class="scrn">
+      <div class="stat">9:41<span class="r">5G&nbsp;&nbsp;100%</span></div>
+      <div class="body">
+        <div class="ph-h"><div class="t">Profile</div><span class="pill gold">⚙︎</span></div>
+
+        <div class="card" style="text-align:center">
+          <div class="ring" style="width:104px;height:104px;margin:2px auto 0">
+            <svg width="104" height="104" viewBox="0 0 104 104"><circle cx="52" cy="52" r="45" stroke="#1b2233" stroke-width="9" fill="none"/></svg>
+            <div class="n"><b style="font-size:30px;color:var(--dim)">—</b><span>New</span></div>
+          </div>
+          <div style="font-weight:800;font-size:18px;margin-top:8px">Gabe</div>
+          <div class="muted" style="font-size:13px">Calibrating · 0 reps</div>
+          <div class="statgrid">
+            <div class="st"><b style="color:var(--dim)">0</b><span>Reps</span></div>
+            <div class="st"><b style="color:var(--dim)">0</b><span>Streak</span></div>
+            <div class="st"><b style="color:var(--dim)">—</b><span>Win rate</span></div>
+            <div class="st"><b style="color:var(--dim)">0</b><span>Badges</span></div>
+          </div>
+        </div>
+
+        <div class="sec"><span class="over">By category</span></div>
+        <div class="card invite">
+          <div class="emptyhint">
+            <span class="big">No data yet</span>
+            Play a session and your strengths and weak spots start showing up here.
+          </div>
+          <button class="btn gold" style="height:48px">Start a session</button>
+        </div>
+
+        <div class="sec"><span class="over">Badges</span><span class="muted" style="font-size:12px">0 of 24</span></div>
+        <div class="badges"><div class="bg off">🎯</div><div class="bg off">🔥</div><div class="bg off">🌍</div><div class="bg off">🏛️</div><div class="bg off">⚔️</div></div>
+      </div>
+      <div class="nav">
+        <a><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+        <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>Train</a>
+        <a><svg viewBox="0 0 24 24"><path d="M5 3v18l7-5 7 5V3z"/></svg>Compete</a>
+        <a class="on"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+      </div>
+    </div></div>
+  </div>
+
+</div>
+
+<div class="sec" style="max-width:840px"><span class="over" style="font-size:13px">Locked ✓ &nbsp;·&nbsp; still open</span></div>
+<ul class="qs">
+  <li><b>✓ Locked:</b> 4 tabs · custom serif clue card with per-category glow · 1–5 difficulty pips (shown in play <i>and</i> stats) · mastery ring as Home hero · streak = play the Daily Challenge · Home always shows a compete strip (active game → challenge → invite) · Profile = mastery + categories + badges (no growth/calendar).</li>
+  <li><b>Warm-up flow</b> — new users get a 10-clue calibration before a real mastery score shows. Worth a dedicated first-run sequence, or just label the first session?</li>
+  <li><b>Invite mechanics</b> — share link, username/handle, or contacts? (Drives the friend-graph piece of the multiplayer build.)</li>
+  <li><b>Next:</b> with the IA + look locked, the natural step is the Phase-1 multiplayer build plan (schema + RPCs + the Compete tab) mapped onto these screens.</li>
+</ul>
+
+</body>
+</html>
