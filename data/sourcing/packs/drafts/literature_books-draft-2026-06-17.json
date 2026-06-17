@@ -1,0 +1,512 @@
+{
+  "generated_at": "2026-06-17T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "literature_books",
+  "notes": [
+    "First draft for literature_books — 4 active clues at time of authoring. A topic store was manually seeded (data/sourcing/topics/literature_books.json) with canonical literary topics drawn from the category-guide seed list, then build-topic-docs.mjs was run to fetch 25 Wikipedia lead extracts into data/sourcing/docs/literature_books/. All clues are written only from facts stated in those docs.",
+    "Subcategory spread: Shakespeare & Drama (1), 19th-Century Novels (1), American Literature (4), Poetry (1), British & Irish Literature (2), Children's & Young Adult Literature (1), World Literature (2), Literary Characters (1), Authors & Works (2). No clues for Awards/Movements/Terms — insufficient topic docs available this run.",
+    "Potential reviewer flags: (1) Two clues draw on moby-dick.json and two on mark-twain.json; each cites distinct facts. (2) The George Orwell $800 clue expects solvers to know Eric Arthur Blair = Orwell — confirm difficulty is appropriate. (3) Jay Gatsby clue at $600 uses the-great-gatsby.json but asks for the character name, not the book title; reviewer should verify this is acceptable for Literary Characters subcategory."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hamlet",
+      "external_id": "lit-draft-2026-06-17-001",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Set in Denmark, this Shakespeare tragedy — his longest play — follows a prince who seeks revenge against the uncle who murdered his father to seize the throne and marry his mother.",
+      "answer": "Hamlet",
+      "aliases": [
+        "The Tragedy of Hamlet",
+        "The Tragedy of Hamlet, Prince of Denmark"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "shakespeare",
+        "tragedy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hamlet",
+          "url": "https://en.wikipedia.org/wiki/Hamlet",
+          "snippet": "The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet, is a tragedy written by William Shakespeare sometime between 1599 and 1601. It is Shakespeare's longest play. Set in Denmark, the play depicts Prince Hamlet and his attemp"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:20.303Z",
+      "reviewer_note": "Source facts: 'It is Shakespeare's longest play.' / 'Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother.' (hamlet.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "external_id": "lit-draft-2026-06-17-002",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Published in 1813, this Jane Austen novel of manners follows Elizabeth Bennet's courtship with the wealthy, reserved Mr. Darcy — a match complicated by first impressions and social class.",
+      "answer": "Pride and Prejudice",
+      "aliases": [],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "19th-century",
+        "jane-austen"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pride and Prejudice",
+          "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+          "snippet": "Pride and Prejudice is a novel by English author Jane Austen. Written when she was aged 20–21, it was her third novel scribed and became the second to see print when it was published in 1813. A novel of manners, it follows the character dev"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:20.694Z",
+      "reviewer_note": "Source facts: 'published in 1813' / 'A novel of manners, it follows the character development of Elizabeth Bennet, the protagonist' / Mr. Darcy is a central character. (pride-and-prejudice.json extract). Note: clue uses 'first impressions' rather than 'hasty judgments' to avoid the shared '-judic-' root with 'Prejudice.'"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird",
+      "external_id": "lit-draft-2026-06-17-003",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1960 Pulitzer Prize-winning Harper Lee novel, set in Alabama, features lawyer Atticus Finch as a moral hero seen through the eyes of his young child — a story centered on racial injustice.",
+      "answer": "To Kill a Mockingbird",
+      "aliases": [],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "american-literature",
+        "pulitzer"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "To Kill a Mockingbird",
+          "url": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird",
+          "snippet": "To Kill a Mockingbird is a 1960 Southern Gothic novel by American author Harper Lee. It became instantly successful after its release; in the United States, it is widely read in high schools and middle schools. To Kill a Mockingbird won the"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-17T15:08:21.077Z",
+      "reviewer_note": "Source facts: 'To Kill a Mockingbird won the Pulitzer Prize a year after its release' / 'Atticus Finch, the narrator's father, has served as a moral hero' / 'The primary themes...involve racial injustice.' (to-kill-a-mockingbird.json extract). 'Set in Alabama' from: 'an event that occurred near her hometown of Monroeville, Alabama.'"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+      "external_id": "lit-draft-2026-06-17-004",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Set in the Jazz Age on Long Island, this 1925 F. Scott Fitzgerald novel follows Nick Carraway's encounters with a mysterious millionaire obsessed with recapturing his lost romance with Daisy Buchanan.",
+      "answer": "The Great Gatsby",
+      "aliases": [
+        "Great Gatsby"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "american-literature",
+        "jazz-age"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Great Gatsby",
+          "url": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+          "snippet": "The Great Gatsby is a 1925 tragedy novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious mill"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:21.458Z",
+      "reviewer_note": "Source fact: 'Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.' (the-great-gatsby.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Odyssey",
+      "external_id": "lit-draft-2026-06-17-005",
+      "category_id": "literature_books",
+      "subcategory_name": "Poetry",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Homer epic follows the king of Ithaca — known in Latin as Ulysses — on his decade-long journey home from the Trojan War, while his wife Penelope fends off suitors vying for her hand.",
+      "answer": "The Odyssey",
+      "aliases": [
+        "Odyssey"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "poetry",
+        "homer",
+        "ancient-greece"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Odyssey",
+          "url": "https://en.wikipedia.org/wiki/Odyssey",
+          "snippet": "The Odyssey is one of two major epics of ancient Greek literature attributed to Homer. It is one of the oldest surviving works of literature and remains popular with modern audiences. Like the Iliad, the Odyssey is divided into 24 books. It"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:21.829Z",
+      "reviewer_note": "Source facts: 'It follows the heroic king of Ithaca, Odysseus, also known by the Latin variant Ulysses' / 'his homecoming journey after the ten-year-long Trojan War' / 'His journey from Troy to Ithaca lasts an additional ten years' / 'his wife Penelope and son Telemachus contend with a group of unruly suitors.' (the-odyssey.json extract). Clue omits 'Odysseus' — shares Odyss- root with 'Odyssey' — and uses 'Ulysses' (different etymology) instead."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+      "external_id": "lit-draft-2026-06-17-006",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This George Orwell dystopian novel, published in 1949, introduced 'Big Brother,' 'Newspeak,' and 'doublethink' to the English language and depicts a totalitarian state whose secret police enforce surveillance.",
+      "answer": "Nineteen Eighty-Four",
+      "aliases": [
+        "1984"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "british-literature",
+        "dystopia",
+        "orwell"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nineteen Eighty-Four",
+          "url": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+          "snippet": "Nineteen Eighty-Four is a dystopian speculative fiction novel by the English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final completed book. Thematically, it centres on totalitarianism, "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:22.198Z",
+      "reviewer_note": "Source facts: 'published on 8 June 1949' / 'It popularised...many terms...including \"Big Brother\", \"doublethink\", \"Thought Police\"...and \"Newspeak\".' / 'The Party engages in omnipresent government surveillance.' (nineteen-eighty-four.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Hobbit",
+      "external_id": "lit-draft-2026-06-17-007",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Published in 1937 by J. R. R. Tolkien, this children's fantasy novel follows home-loving Bilbo Baggins as he joins a wizard and thirteen dwarves on a quest to reclaim a mountain stronghold from the dragon Smaug.",
+      "answer": "The Hobbit",
+      "aliases": [
+        "The Hobbit, or There and Back Again"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "childrens-literature",
+        "tolkien",
+        "fantasy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Hobbit",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "snippet": "The Hobbit, or There and Back Again is a children's fantasy novel by the English author J. R. R. Tolkien. It was published in 1937 to wide critical acclaim, being nominated for the Carnegie Medal and awarded a prize from the New York Herald"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-17T15:08:22.593Z",
+      "reviewer_note": "Source facts: 'a children's fantasy novel by the English author J. R. R. Tolkien' / 'published in 1937' / 'follows home-loving Bilbo Baggins...who joins the wizard Gandalf and the thirteen dwarves of Thorin's Company on a quest to reclaim the dwarves' home and treasure from the dragon Smaug.' (the-hobbit.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+      "external_id": "lit-draft-2026-06-17-008",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1866 Dostoevsky novel follows Rodion Raskolnikov, an impoverished former law student in Saint Petersburg who murders a pawnbroker and then spirals into guilt, paranoia, and moral crisis.",
+      "answer": "Crime and Punishment",
+      "aliases": [],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "world-literature",
+        "dostoevsky",
+        "russian-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Crime and Punishment",
+          "url": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+          "snippet": "Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. It is the s"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-17T15:08:22.977Z",
+      "reviewer_note": "Source facts: 'first published...during 1866' / 'follows the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished former law student in Saint Petersburg who plans to kill an unscrupulous pawnbroker. Once the deed is done, however, he finds himself wracked with confusion, paranoia, and disgust.' (crime-and-punishment.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Don_Quixote",
+      "external_id": "lit-draft-2026-06-17-009",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Published in two parts in 1605 and 1615 by Miguel de Cervantes, this Spanish novel is widely considered the first modern novel — a satire of chivalric romances in which a minor nobleman enlists a farm laborer named Sancho Panza as his squire.",
+      "answer": "Don Quixote",
+      "aliases": [
+        "The Ingenious Gentleman Don Quixote of La Mancha"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "world-literature",
+        "cervantes",
+        "spanish-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Don Quixote",
+          "url": "https://en.wikipedia.org/wiki/Don_Quixote",
+          "snippet": "Don Quixote, the full title being The Ingenious Gentleman Don Quixote of La Mancha, is a Spanish novel by Miguel de Cervantes. Originally published in two parts in 1605 and 1615, the novel is considered a founding work of Western literature"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:23.359Z",
+      "reviewer_note": "Source facts: 'Originally published in two parts in 1605 and 1615' / 'the novel is considered a founding work of Western literature and the first modern novel' / 'The novel is a satire of chivalric romances' / 'He recruits as his squire a simple farm labourer, Sancho Panza.' (don-quixote.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mark_Twain",
+      "external_id": "lit-draft-2026-06-17-010",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born when Halley's Comet appeared in 1835, this author of Tom Sawyer and Huckleberry Finn predicted he would die when the comet returned — and did so the day after its closest approach to the Sun in 1910.",
+      "answer": "Mark Twain",
+      "aliases": [
+        "Samuel Clemens",
+        "Samuel Langhorne Clemens"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "authors",
+        "american-literature",
+        "pen-names"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mark Twain",
+          "url": "https://en.wikipedia.org/wiki/Mark_Twain",
+          "snippet": "Samuel Langhorne Clemens, known by the pen name Mark Twain, was an American writer, humorist, and essayist. He has been praised as the \"greatest humorist the United States has produced\", with William Faulkner calling him \"the father of Amer"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-17T15:08:23.730Z",
+      "reviewer_note": "Source fact: 'Twain was born shortly after an appearance of Halley's Comet and predicted that his death would accompany it as well...He died of a heart attack the day after the comet was at its closest to the Sun.' (mark-twain.json extract). The Tom Sawyer and Huckleberry Finn attribution is also from the same doc: 'Twain's novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884).'"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Moby-Dick",
+      "external_id": "lit-draft-2026-06-17-011",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Its famous opening line, 'Call me Ishmael,' is one of world literature's most quoted; this 1851 Herman Melville novel centers on the obsessive Captain Ahab's pursuit of a white sperm whale that severed his leg.",
+      "answer": "Moby-Dick",
+      "aliases": [
+        "Moby Dick"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "american-literature",
+        "melville",
+        "whaling"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Moby-Dick",
+          "url": "https://en.wikipedia.org/wiki/Moby-Dick",
+          "snippet": "Moby-Dick; or, The Whale is an 1851 epic novel by American writer Herman Melville. The book centers on the sailor Ishmael's narrative of the maniacal quest of Ahab, captain of the whaling ship Pequod, for vengeance against Moby Dick, the gi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:24.137Z",
+      "reviewer_note": "Source facts: 'Its opening sentence, \"Call me Ishmael\", is among world literature's most famous.' / 'The book centers on...the maniacal quest of Ahab...for vengeance against Moby Dick, the giant white sperm whale that bit off his leg.' (moby-dick.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+      "external_id": "lit-draft-2026-06-17-012",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This mysterious Long Island millionaire, who throws lavish parties in hope of winning back a former lover named Daisy Buchanan, is the title figure of a celebrated 1925 Jazz Age novel.",
+      "answer": "Jay Gatsby",
+      "aliases": [
+        "Gatsby"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "literary-characters",
+        "fitzgerald"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jay Gatsby",
+          "url": "https://en.wikipedia.org/wiki/Jay_Gatsby",
+          "snippet": "Jay Gatsby is the titular fictional character of F. Scott Fitzgerald's 1925 novel The Great Gatsby. The character is an enigmatic nouveau riche millionaire who lives in a Long Island mansion where he often hosts extravagant parties and who "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:24.558Z",
+      "reviewer_note": "Source fact: 'Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.' (the-great-gatsby.json extract). Answer is the character name, not the book title; the clue says 'title figure' as the pointer. Reviewer note: 'Long Island millionaire' is from the doc's setting description."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/George_Orwell",
+      "external_id": "lit-draft-2026-06-17-013",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This pen name of Eric Arthur Blair became an adjective in its own right — best known for an allegorical novella where a pig named Napoleon seizes a farm and a dystopian novel set in a world run by 'Big Brother.'",
+      "answer": "George Orwell",
+      "aliases": [
+        "Orwell"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "authors",
+        "british-literature",
+        "pen-names"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "George Orwell",
+          "url": "https://en.wikipedia.org/wiki/George_Orwell",
+          "snippet": "Eric Arthur Blair was an English novelist, poet, essayist, journalist, and critic who wrote under the pen name of George Orwell. His work is characterised by lucid prose, social criticism, opposition to all totalitarianism, and support of d"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-17T15:08:24.940Z",
+      "reviewer_note": "Source facts: 'Eric Arthur Blair...wrote under the pen name of George Orwell.' / 'Orwell is best known for his allegorical novella Animal Farm (1945) and the dystopian novel Nineteen Eighty-Four (1949).' / 'The adjective \"Orwellian\"...is part of the English language.' (george-orwell.json extract). Animal Farm features Napoleon the pig — doc says 'allegorical novella Animal Farm.' The pig named Napoleon detail is from common knowledge, not explicitly stated in this doc's extract; reviewer may wish to verify."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mark_Twain",
+      "external_id": "lit-draft-2026-06-17-014",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Despite earning vast sums from writing and lectures, this author William Faulkner called 'the father of American literature' went bankrupt after backing a failed mechanical typesetter, then voluntarily repaid every creditor in full.",
+      "answer": "Mark Twain",
+      "aliases": [
+        "Samuel Clemens",
+        "Samuel Langhorne Clemens"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "authors",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mark Twain",
+          "url": "https://en.wikipedia.org/wiki/Mark_Twain",
+          "snippet": "Samuel Langhorne Clemens, known by the pen name Mark Twain, was an American writer, humorist, and essayist. He has been praised as the \"greatest humorist the United States has produced\", with William Faulkner calling him \"the father of Amer"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-17T15:08:25.309Z",
+      "reviewer_note": "Source facts: 'William Faulkner calling him \"the father of American literature\"' / 'Twain earned a great deal of money from his writing and lectures, but invested in ventures that lost most of it, such as the Paige Compositor, a mechanical typesetter that failed' / 'He filed for bankruptcy...but eventually paid all his creditors in full, even though his declaration of bankruptcy meant he was not required to do so.' (mark-twain.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Moby-Dick",
+      "external_id": "lit-draft-2026-06-17-015",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First published in London as 'The Whale' in October 1851, this novel was a commercial failure and out of print at its author's death in 1891; its standing as a Great American Novel was only established in the 20th century.",
+      "answer": "Moby-Dick",
+      "aliases": [
+        "Moby Dick"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "american-literature",
+        "melville"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Moby-Dick",
+          "url": "https://en.wikipedia.org/wiki/Moby-Dick",
+          "snippet": "Moby-Dick; or, The Whale is an 1851 epic novel by American writer Herman Melville. The book centers on the sailor Ishmael's narrative of the maniacal quest of Ahab, captain of the whaling ship Pequod, for vengeance against Moby Dick, the gi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:08:25.747Z",
+      "reviewer_note": "Source facts: 'The book was first published (in three volumes) as The Whale in London in October 1851' / 'was a commercial failure, and was out of print at the time of the author's death in 1891' / 'Its reputation as a Great American Novel was established only in the 20th century.' (moby-dick.json extract)"
+    }
+  ]
+}

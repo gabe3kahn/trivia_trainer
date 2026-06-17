@@ -1,0 +1,501 @@
+{
+  "generated_at": "2026-06-17T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "language_wordplay",
+  "notes": [
+    "Pilot draft for language_wordplay — the most under-covered non-geography category (1 active clue at time of authoring). Clues are written only from facts in Wikipedia lead extracts stored under data/sourcing/docs/language_wordplay/. Subcategories span Definitions, Etymology, Foreign Words & Phrases, and Puns, Quotes & Idioms. Two clues draw on the same doc (umami.json, contraindication.json, taiga.json) but each cites a distinct fact from that doc.",
+    "Potential reviewer flags: (1) The 'Gary' clue relies on knowing Elbert Henry Gary's surname — verify that 'Elbert Henry' is sufficient context. (2) The 'derrick' clue does not name Thomas Derrick; reviewers may wish to decide if that is too oblique for $800. (3) 'semiquincentennial' may need aliases added if importers see scoring issues."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nacre",
+      "external_id": "lw-draft-2026-06-17-001",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Also called mother-of-pearl, this iridescent material produced by certain molluscs lines their inner shells and forms the substance of every natural pearl.",
+      "answer": "nacre",
+      "aliases": [
+        "mother-of-pearl"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "vocabulary"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "nacre",
+          "url": "https://en.wiktionary.org/wiki/nacre",
+          "snippet": "   A  shellfish  which contains  mother-of-pearl .  .mw-parser-output .defdate{font-size:smaller}  A  pearly  substance made mainly of stacked layers of  aragonite  and organic matter which lines the interior of many shells;  mother-of-pear"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-17T15:07:43.337Z",
+      "reviewer_note": "Source fact: 'Nacre, also known as mother-of-pearl, is an organic–inorganic composite material produced by some molluscs as an inner shell layer. It is also the material of which pearls are composed.' (nacre.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Umami",
+      "external_id": "lw-draft-2026-06-17-002",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often described as savory or brothy, this is the fifth basic taste recognized by scientists, joining sweet, sour, salty, and bitter as one of five fundamental flavors.",
+      "answer": "umami",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "loanwords"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "umami",
+          "url": "https://en.wiktionary.org/wiki/umami",
+          "snippet": "One of the five basic  tastes , the  savory  taste of foods such as  seaweed , cured fish, aged cheeses and meats."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-17T15:07:44.176Z",
+      "reviewer_note": "Source fact: 'Umami, or savoriness, is one of the five basic tastes.' (umami.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dramatization",
+      "external_id": "lw-draft-2026-06-17-003",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This word names the creative process of adapting factual or fictional events into a staged or filmed performance.",
+      "answer": "dramatization",
+      "aliases": [
+        "dramatisation"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "vocabulary"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "dramatization",
+          "url": "https://en.wiktionary.org/wiki/dramatization",
+          "snippet": "The act of  dramatizing . A  version  that has been  dramatized ."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:44.837Z",
+      "reviewer_note": "Source fact: 'A dramatization is the creation of a dramatic performance of material depicting real or fictional events.' (a-dramatization.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Taiga",
+      "external_id": "lw-draft-2026-06-17-004",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Also called the boreal forest, this biome of conifers — pines, spruces, and larches — stretching across Siberia and Canada is the world's largest land biome.",
+      "answer": "taiga",
+      "aliases": [
+        "boreal forest",
+        "tayga"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "loanwords"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "taiga",
+          "url": "https://en.wiktionary.org/wiki/taiga",
+          "snippet": "A  subarctic   zone  of  evergreen   coniferous   forests  situated south of the  tundras  and north of the  steppes  in the  Northern Hemisphere ."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:47.746Z",
+      "reviewer_note": "Source fact: 'Taiga or tayga, also known as boreal forest or snow forest, is a biome characterized by coniferous forests consisting mostly of pines, spruces, and larches. The taiga, or boreal forest, is the world's largest land biome.' (taiga.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tarot",
+      "external_id": "lw-draft-2026-06-17-005",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First called trionfi — 'triumphs' — in 15th-century Italian card games, these 78-card decks spread across Europe before French occultists in the 18th century recast them as instruments of divination.",
+      "answer": "tarot",
+      "aliases": [
+        "tarot cards"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "etymology",
+        "foreign-words"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "tarot",
+          "url": "https://en.wiktionary.org/wiki/tarot",
+          "snippet": "   A  card game   played  in  various   different   variations .  Any  of the  set  of 78  playing cards  ( divided  into  five   suits , including one of  permanent   trumps ),  often   used  for  mystical   divination ."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:48.358Z",
+      "reviewer_note": "Source fact: 'Tarot, first known as trionfi and later as tarocchi...From at least the mid-15th century, the tarot was used to play trick-taking card games...The emergence of custom decks for use in divination...began after French occultists made elaborate, but unsubstantiated, claims about their history.' (tarot-cards.json extract). Note: clue omits 'tarocchi' (stem-adjacent to 'tarot') and uses only 'trionfi' as the Italian antecedent."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Brandy",
+      "external_id": "lw-draft-2026-06-17-006",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Cognac and Armagnac from southwestern France are the most celebrated varieties of this distilled spirit, known in French as eau de vie — literally 'water of life.'",
+      "answer": "brandy",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "foreign-words",
+        "french-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "brandy",
+          "url": "https://en.wiktionary.org/wiki/brandy",
+          "snippet": "    An  alcoholic   liquor   distilled  from  wine  or  fermented   fruit juice .    Any  variety  of such liquor.    A  serving  of such liquor.    To  preserve ,  flavour , or  mix  with brandy."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:49.159Z",
+      "reviewer_note": "Source facts: 'Brandy is a liquor produced by distilling wine.' / 'Among the most renowned are Cognac and Armagnac from southwestern France.' / 'also called eau de vie (literally \"water of life\" in French).' (brandy.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Timbuktu",
+      "external_id": "lw-draft-2026-06-17-007",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Though this ancient Malian city actually sits just 20 kilometers north of the Niger River, its name entered English as a byword for an impossibly remote or inaccessible location.",
+      "answer": "Timbuktu",
+      "aliases": [
+        "Tombouctou"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "idioms",
+        "toponyms"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "Timbuktu",
+          "url": "https://en.wiktionary.org/wiki/Timbuktu",
+          "snippet": " A   city   in central    Mali    .    Any proverbially distant or remote place."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:49.876Z",
+      "reviewer_note": "Source fact: 'Timbuktu is an ancient city in Mali, situated 20 kilometres (12 miles) north of the Niger River.' (timbuktu.json extract). The idiomatic use of 'Timbuktu' is widely attested in English; the source grounds the city's actual location, providing the clue's contrast."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Contraindication",
+      "external_id": "lw-draft-2026-06-17-008",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In clinical medicine, this term names any condition that renders a proposed treatment harmful rather than beneficial — coming in absolute and relative varieties depending on the severity of the risk.",
+      "answer": "contraindication",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "medical-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "contraindication",
+          "url": "https://en.wiktionary.org/wiki/contraindication",
+          "snippet": "   A  factor  or  symptom  which makes a  certain  treatment  inadvisable , generally or individually."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:50.541Z",
+      "reviewer_note": "Source facts: 'a contraindication is a condition...that serves as a reason not to take a certain medical treatment due to the harm that it would cause the patient.' / 'Absolute contraindications...no reasonable circumstances for undertaking a course of action.' / 'Relative contraindications...patient is at higher risk of complications.' (contraindication.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Helsinki",
+      "external_id": "lw-draft-2026-06-17-009",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Until about 1930, English speakers knew this Nordic capital by its Swedish form; today the Finnish version is standard worldwide, reflecting its status as a municipality where both languages hold official standing.",
+      "answer": "Helsinki",
+      "aliases": [
+        "Helsingfors"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "foreign-words",
+        "place-names",
+        "bilingualism"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "Helsinki",
+          "url": "https://en.wiktionary.org/wiki/Helsinki",
+          "snippet": " The  capital city  of   Finland  ; a  municipality , the  capital  of the region of   Uusimaa  ,   Finland             .    The  Finnish  government."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:51.508Z",
+      "reviewer_note": "Source facts: 'Helsinki, until about 1930 known in English by its Swedish name of Helsingfors' / 'Helsinki is a bilingual municipality with Finnish and Swedish as its official languages.' (helsinki.json extract). Clue deliberately omits 'Helsingfors' to avoid the shared Helsing- root stem."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Taiga",
+      "external_id": "lw-draft-2026-06-17-010",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Borrowed from Russian into English, this loanword names the vast subarctic conifer belt encircling Earth from Siberia through Scandinavia and across the interior of Canada and Alaska.",
+      "answer": "taiga",
+      "aliases": [
+        "boreal forest",
+        "tayga"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "etymology",
+        "loanwords",
+        "russian"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "taiga",
+          "url": "https://en.wiktionary.org/wiki/taiga",
+          "snippet": "A  subarctic   zone  of  evergreen   coniferous   forests  situated south of the  tundras  and north of the  steppes  in the  Northern Hemisphere ."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:51.890Z",
+      "reviewer_note": "Source fact: 'Taiga or tayga (, TY-gə; Russian: тайга́...)' — the Russian origin (тайга) is given in the article's opening, establishing this as a loanword from Russian. (taiga.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Elbert_Henry_Gary",
+      "external_id": "lw-draft-2026-06-17-011",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded in 1906 as a hub for U.S. Steel, this Indiana city was named for co-founder Elbert Henry — a surname that is today far more commonly encountered as an American given name.",
+      "answer": "Gary",
+      "aliases": [
+        "Gary, Indiana"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "etymology",
+        "eponyms",
+        "place-names"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "Gary",
+          "url": "https://en.wiktionary.org/wiki/Gary",
+          "snippet": " A male  given name  from the Germanic languages, popular from the 1940s to the 1970s; variant form   Garry      .  A  surname  from Middle English [in turn originating as a patronymic]; variant form   Garry      .  Numerous places in the  "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T15:07:52.856Z",
+      "reviewer_note": "Source fact: 'The city of Gary, Indiana, a steel town, was named for him when it was founded in 1906.' (nonconfrontational.json / Elbert Henry Gary article). Clue gives first and middle names only ('Elbert Henry') — solver must supply the surname 'Gary' which is also the city name. Reviewer should confirm this structure is acceptable as an eponym clue."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Umami",
+      "external_id": "lw-draft-2026-06-17-012",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 1909, Kikunae Ikeda and Saburōsuke Suzuki co-founded Ajinomoto to market the world's first commercial seasoning made from monosodium glutamate — the amino acid compound responsible for this fifth basic taste.",
+      "answer": "umami",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "etymology",
+        "loanwords",
+        "japanese"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "umami",
+          "url": "https://en.wiktionary.org/wiki/umami",
+          "snippet": "One of the five basic  tastes , the  savory  taste of foods such as  seaweed , cured fish, aged cheeses and meats."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:07:53.238Z",
+      "reviewer_note": "Source fact: 'in 1909, Ikeda and Saburōsuke Suzuki founded Ajinomoto Co., Inc. which introduced the world's first umami seasoning: monosodium glutamate.' (umami.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/United_States_Semiquincentennial",
+      "external_id": "lw-draft-2026-06-17-013",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Also called a sestercentennial or quarter millennium, this rarely encountered word denotes a 250th anniversary — the milestone the United States will mark on July 4, 2026.",
+      "answer": "semiquincentennial",
+      "aliases": [
+        "sestercentennial"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "vocabulary",
+        "rare-words"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "semiquincentennial",
+          "url": "https://en.wiktionary.org/wiki/semiquincentennial",
+          "snippet": "Of or  related  to a 250th  anniversary . A 250th  anniversary ."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:08:01.018Z",
+      "reviewer_note": "Source fact: 'The United States Semiquincentennial, also called the Sestercentennial (two and a half centuries), or the Quarter Millennium, will be the 250th anniversary of the United States Declaration of Independence.' (a-semiquincentennial.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Derrick",
+      "external_id": "lw-draft-2026-06-17-014",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named for a prolific Elizabethan-era London executioner whose gallows became an unexpected eponym, this lifting frame also designates the framework supporting a drill string on an oil rig.",
+      "answer": "derrick",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "etymology",
+        "eponyms"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "derrick",
+          "url": "https://en.wiktionary.org/wiki/derrick",
+          "snippet": "A device that is used for lifting and moving large objects. A  framework  that is constructed over a mine or oil well for the purpose of  boring  or lowering pipes.    An  executioner  responsible for hanging convicts; a  hangman .    To  h"
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:08:01.685Z",
+      "reviewer_note": "Source fact: 'The derrick derives its name from a type of gallows named after Thomas Derrick, an Elizabethan-era English executioner.' (a-derrick.json extract). Clue avoids naming 'Thomas Derrick' directly to prevent the surname leaking the answer."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Contraindication",
+      "external_id": "lw-draft-2026-06-17-015",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Children with a viral illness given aspirin exemplify the absolute form of this clinical term: the finding that aspirin could trigger Reye syndrome in such patients made it a permanent medical restriction.",
+      "answer": "contraindication",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "medical-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "contraindication",
+          "url": "https://en.wiktionary.org/wiki/contraindication",
+          "snippet": "   A  factor  or  symptom  which makes a  certain  treatment  inadvisable , generally or individually."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": "2026-06-17T15:08:02.066Z",
+      "reviewer_note": "Source fact: 'Children and teenagers with viral infections should not be given aspirin because of the risk of Reye syndrome.' — given as an example of an absolute contraindication. (contraindication.json extract)"
+    }
+  ]
+}
