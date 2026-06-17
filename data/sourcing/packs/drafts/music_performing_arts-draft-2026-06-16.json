@@ -37,7 +37,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:51.522Z"
+      "verified_at": "2026-06-17T04:56:45.676Z"
     },
     {
       "source": "original_sourced",
@@ -71,7 +71,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:51.918Z"
+      "verified_at": "2026-06-17T04:56:46.066Z"
     },
     {
       "source": "original_sourced",
@@ -105,7 +105,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:52.311Z"
+      "verified_at": "2026-06-17T04:56:46.451Z"
     },
     {
       "source": "original_sourced",
@@ -139,7 +139,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:52.702Z"
+      "verified_at": "2026-06-17T04:56:46.838Z"
     },
     {
       "source": "original_sourced",
@@ -172,7 +172,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:53.076Z"
+      "verified_at": "2026-06-17T04:56:47.233Z"
     },
     {
       "source": "original_sourced",
@@ -205,7 +205,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:53.516Z"
+      "verified_at": "2026-06-17T04:56:47.622Z"
     },
     {
       "source": "original_sourced",
@@ -238,7 +238,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:53.894Z"
+      "verified_at": "2026-06-17T04:56:48.019Z"
     },
     {
       "source": "original_sourced",
@@ -272,7 +272,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:54.327Z"
+      "verified_at": "2026-06-17T04:56:48.401Z"
     },
     {
       "source": "original_sourced",
@@ -306,7 +306,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:55.033Z"
+      "verified_at": "2026-06-17T04:56:49.077Z"
     },
     {
       "source": "original_sourced",
@@ -340,7 +340,36 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-17T04:50:55.467Z"
+      "verified_at": "2026-06-17T04:56:49.452Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Annie_Get_Your_Gun_(musical)",
+      "external_id": "music-draft-001-016",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "With songs by Irving Berlin and a book by Dorothy and Herbert Fields, this 1946 Broadway musical tells a fictionalized story of a famous female sharpshooter and her romance with fellow marksman Frank Butler.",
+      "answer": "Annie Get Your Gun",
+      "aliases": [],
+      "tags": [
+        "sourced",
+        "broadway",
+        "musical"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Annie Get Your Gun (musical)",
+          "url": "https://en.wikipedia.org/wiki/Annie_Get_Your_Gun_(musical)",
+          "snippet": "Annie Get Your Gun is a 1946 musical with lyrics and music by Irving Berlin and a book by Dorothy Fields and her brother Herbert Fields. The story is a fictionalized version of the life of Annie Oakley (1860–1926), a sharpshooter who starre"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-17T04:56:50.169Z"
     }
   ]
 }
