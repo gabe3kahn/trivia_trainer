@@ -125,6 +125,7 @@ export const categoryColor: Record<string, string> = {
   literature_books: '#FB7185',
   music_performing_arts: '#F472B6',
   language_wordplay: '#60A5FA',
+  words_language: '#7DD3FC',
   pop_culture_media_modern_life: '#FB923C',
   religion_mythology_philosophy: '#818CF8',
   sports_games_leisure: '#A3E635',
