@@ -12,6 +12,8 @@ craft, leaks — plus wordplay style at the end.
 - **Naming the answer's famous works/achievements, or a household fact, = $200–$400 recall, not $600+.** Reviewers lowered: Colosseum, Sistine Chapel, Berlin Wall → $200; The Odyssey, 1984, The Hobbit → $200; Don Quixote, Moby-Dick → $400; Mark Twain (when it named *Tom Sawyer / Huckleberry Finn*) → $200. If a casual fan instantly knows it, it's cheap.
 - **Earn $600–$1000 by withholding the obvious** — a single oblique/specialist hook, not a pile of famous facts. Reviewers raised: Mahler, Bayreuth, Boléro (specialist classical) → $600–$800; Battle of Ayacucho → $1000; Mark Twain *rewritten* to the Halley's-Comet hook with no book titles → $800; taiga, Enzymes → $600.
 - Rule of thumb: **$200** = household name stated plainly · **$400** = one solid fact · **$600** = needs triangulation · **$800–$1000** = one oblique/counterintuitive hook, obvious anchors hidden.
+- **To make a clue harder, REMOVE an identifying detail — don't add more.** Reviewers repeatedly asked exactly this: *John Adams* — "make it more challenging by removing 'second president' or even '1800'"; *Mark Twain* — drop the book titles. When a clue is comfortably gettable, cut a date/ordinal/name rather than pile on facts.
+- **At higher values, a geographic or contextual tell that half-names the answer is too revealing.** *Warsaw Uprising* — "for 600, 'capital of Poland' is too revealing"; *Solidarity* — "just say 'Poland'." Scan $600+ clues for a phrase that points straight at the answer and cut it.
 
 ## 2. Categorize by SUBJECT, not by surface angle (8 re-homes)
 A clue's category is its **answer's subject/type**, never an incidental framing:
@@ -31,6 +33,7 @@ A clue's category is its **answer's subject/type**, never an incidental framing:
 - **Never put a synonym of the answer in the clue.** "Also called mother-of-pearl" → *nacre* and "Also called the boreal forest" → *taiga* both got reworded out. Scan every clue for a word that *is* the answer by another name.
 - **Person answers: add the surname as an alias** (van Gogh, Botticelli, Whistler). For visual "Name the artist," the alias is the surname; for "Name the painting," title aliases.
 - **Don't alias the synonym you used as a hint** (boreal forest was removed as a taiga alias).
+- **Match the clue's specificity to the exact answer, and sanity-check the grader.** Reviewers flagged: a clue that points to "Shogunate" shouldn't have answer "Tokugawa Shogunate" (clue and answer must agree on specificity); and "would the grader accept (or wrongly accept) a shorter form?" — e.g. *New Spain* vs bare "Spain." Pick the answer the clue actually pins down, and add aliases for legitimate equivalents without opening an ambiguous short answer.
 
 ## 5. One clue per answer/work (8 drops)
 - The dedupe gate now blocks identical answers, but also avoid **"effectively a repeat"**: don't clue both a work and its central character/creator (Jay Gatsby was dropped in favor of The Great Gatsby). Pick the better single clue.
