@@ -24,6 +24,32 @@ if (!Array.isArray(questions)) {
   throw new Error('Question bank must be an array or an object with a questions array.');
 }
 
+// Hard gate: no two clues in a pack may share an answer. The drafter prompt asks
+// for distinct answers, but the model has shipped duplicates anyway (taiga ×2,
+// Mark Twain ×2, …), so enforce it here — this fails the dry-run gate too, so a
+// duplicate-laden pack can't reach a PR or an import.
+const normAnswer = (a) =>
+  String(a ?? '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+const answerCounts = new Map();
+for (const question of questions) {
+  const key = normAnswer(question.answer);
+  if (!key) continue;
+  answerCounts.set(key, (answerCounts.get(key) ?? 0) + 1);
+}
+const duplicateAnswers = [...answerCounts.entries()].filter(([, n]) => n > 1);
+if (duplicateAnswers.length) {
+  throw new Error(
+    `Duplicate answers in pack — each clue must have a unique answer. Repeated: ${duplicateAnswers
+      .map(([a, n]) => `"${a}" ×${n}`)
+      .join(', ')}`,
+  );
+}
+
 const subcategories = await request('/rest/v1/subcategories?select=id,category_id,name');
 const subcategoryByName = new Map(
   subcategories.map((subcategory) => [`${subcategory.category_id}|${subcategory.name}`, subcategory.id]),
