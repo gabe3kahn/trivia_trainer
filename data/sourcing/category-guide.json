@@ -98,9 +98,6 @@
       "Rules & Terminology": ["cross-sport rules & officiating terms"]
     },
     "language_wordplay": {
-      "Etymology": ["word origins", "loanwords", "eponyms"],
-      "Foreign Words & Phrases": ["Latin/French phrases in English", "loan phrases"],
-      "Definitions": ["unusual words", "precise definitions"],
       "Homophones & Soundalikes": ["common homophone sets"],
       "Anagrams": ["anagram pairs"],
       "Before & After": ["overlapping-phrase constructions"],
@@ -120,6 +117,11 @@
       "Comics & Graphic Novels": ["superheroes & creators", "publishers"],
       "Fashion & Lifestyle": ["designers & houses", "iconic styles"],
       "Recent Events & Current Affairs": ["recent notable events (verify dates carefully)"]
+    },
+    "words_language": {
+      "Definitions": ["distinctive/unusual words", "rhetorical & literary terms (oxymoron, euphemism, hyperbole)", "precise definitions"],
+      "Etymology": ["word origins (salary, quarantine, sandwich)", "eponyms (boycott, nicotine, silhouette)", "loanwords"],
+      "Foreign Words & Phrases": ["Latin phrases in English (carpe diem, status quo)", "French phrases (faux pas, déjà vu)", "German loanwords (schadenfreude, zeitgeist)"]
     }
   }
 }
