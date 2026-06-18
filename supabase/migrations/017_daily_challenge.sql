@@ -46,11 +46,13 @@ create policy "dca_own_all" on daily_challenge_attempts
 create index if not exists idx_dca_date on daily_challenge_attempts(challenge_date);
 
 -- ---------------------------------------------------------------------------
--- 2. Generation — one shared set per day. Run server-side (pg_cron) early each
---    day; get_daily_challenge also lazily generates if the cron hasn't yet.
---    Schedule (after enabling pg_cron), e.g. 12:10 UTC:
---      select cron.schedule('daily-challenge', '10 12 * * *',
---        $$ select public.generate_daily_challenge(); $$);
+-- 2. Generation — one shared set per day. get_daily_challenge also lazily
+--    generates if the cron hasn't run yet, so a missed run never breaks play.
+--    Pre-generate TOMORROW's set at mid-day PT (pg_cron is fixed-UTC; mid-day is
+--    far from the date boundary, so this is DST-proof and the set is ready well
+--    before midnight PT). Schedule once, after enabling pg_cron:
+--      select cron.schedule('daily-challenge', '0 20 * * *',  -- 20:00 UTC ≈ noon PT
+--        $$ select public.generate_daily_challenge(public.app_today() + 1); $$);
 -- ---------------------------------------------------------------------------
 create or replace function public.generate_daily_challenge(p_date date default app_today(), p_count int default 7)
 returns void language plpgsql security definer set search_path = public as $$
