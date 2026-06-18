@@ -1,0 +1,468 @@
+{
+  "generated_at": "2026-06-18T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "religion_mythology_philosophy",
+  "notes": [
+    "Clues written from Wikipedia lead extracts in data/sourcing/docs/religion_mythology_philosophy/. Coverage spans Greek Mythology, Norse/Roman Mythology, Egyptian Mythology, Philosophers, Philosophical Schools, World Religions, and Bible subcategories."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Prometheus",
+      "external_id": "rmp-draft-001-001",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Titan was chained to a rock and condemned to have his liver consumed by an eagle each day as punishment for bestowing fire upon humanity.",
+      "answer": "Prometheus",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Prometheus",
+          "url": "https://en.wikipedia.org/wiki/Prometheus",
+          "snippet": "In Greek mythology, Prometheus is a Titan responsible for creating or aiding humanity in its earliest days. He defied the Olympian gods by taking fire from them and giving it to humanity in the form of technology, knowledge and, more genera"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source: prometheus.json — 'Zeus condemned him to eternal punishment chained to a rock with an eagle eating his liver.'",
+      "verified_at": "2026-06-18T14:53:52.904Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Apollo",
+      "external_id": "rmp-draft-001-002",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Olympian twin of Artemis served as patron deity of Delphi and was the god through whom the most famous oracle of the ancient world spoke.",
+      "answer": "Apollo",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Apollo",
+          "url": "https://en.wikipedia.org/wiki/Apollo",
+          "snippet": "Apollo is one of the Olympian deities in ancient Greek religion and mythology. He is the god of the Sun and light, prophecy, philosophy, truth, logic, inspiration, music, poetry, the arts, purification, medicine, healing, plague, archery, a"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: apollo.json — twin of Artemis and patron of Delphi's oracle.",
+      "verified_at": "2026-06-18T14:53:53.289Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hades",
+      "external_id": "rmp-draft-001-003",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When the three sons of Cronus divided the cosmos by lot after defeating the Titans, this eldest brother drew the underworld as his domain.",
+      "answer": "Hades",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hades",
+          "url": "https://en.wikipedia.org/wiki/Hades",
+          "snippet": "Hades, in the ancient Greek religion and mythology, is the god of the dead and riches and the King of the underworld, with which his name became synonymous. Hades was the eldest son of Cronus and Rhea, although this also made him the last s"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: hades.json — eldest son of Cronus who drew the underworld in the division of the cosmos.",
+      "verified_at": "2026-06-18T14:53:53.680Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Poseidon",
+      "external_id": "rmp-draft-001-004",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This god of the sea and earthquakes carried a trident and was believed to have created horses with a strike of it; his Roman counterpart is Neptune.",
+      "answer": "Poseidon",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Poseidon",
+          "url": "https://en.wikipedia.org/wiki/Poseidon",
+          "snippet": "Poseidon is one of the twelve Olympians in ancient Greek religion and mythology, presiding over the sea, storms, earthquakes and horses. He was the protector of seafarers and the guardian of many Hellenic cities and colonies. In pre-Olympia"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: poseidon.json — sea god with trident who created horses; Roman equivalent Neptune.",
+      "verified_at": "2026-06-18T14:53:54.065Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Thor",
+      "external_id": "rmp-draft-001-005",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Norse deity wielded the hammer Mjölnir and was venerated during the Viking Age as a protector of mankind and farmers against giants and chaos.",
+      "answer": "Thor",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "norse-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Thor",
+          "url": "https://en.wikipedia.org/wiki/Thor",
+          "snippet": "Thor is a prominent god in Germanic paganism. In Norse mythology, he is a hammer-wielding god associated with thunder, storms, strength, protection, fertility, and farmers. Besides Old Norse Þórr, the deity occurs in Old English as Thunor, "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: thor.json — hammer-wielding Norse god of storms, protector during Viking Age.",
+      "verified_at": "2026-06-18T14:53:54.455Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Loki",
+      "external_id": "rmp-draft-001-006",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Norse shape-shifter once took the form of a mare, was impregnated by a stallion, and gave birth to the eight-legged horse Sleipnir.",
+      "answer": "Loki",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "norse-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Loki",
+          "url": "https://en.wikipedia.org/wiki/Loki",
+          "snippet": "Loki is a god in Norse mythology. He is the son of Fárbauti and Laufey, and the brother of Helblindi and Býleistr. Loki is married to the goddess Sigyn and they have two sons, Narfi or Nari and Váli. By the jötunn Angrboða, Loki is the fath"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: loki.json — shape-shifter who bore Sleipnir while in mare form.",
+      "verified_at": "2026-06-18T14:53:54.835Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Odin",
+      "external_id": "rmp-draft-001-007",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This chief of the Norse Æsir pantheon was accompanied by two ravens named Huginn and Muninn and two wolves, Geri and Freki, and fathered both Baldr and Thor.",
+      "answer": "Odin",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "norse-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Odin",
+          "url": "https://en.wikipedia.org/wiki/Odin",
+          "snippet": "Odin is a widely revered god in Norse mythology and Germanic paganism. Most surviving information on Odin comes from Norse mythology, but he figures prominently in the recorded history of Northern Europe. This includes the Roman Empire's pa"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source: odin.json — head of the Æsir with ravens Huginn and Muninn, wolves Geri and Freki.",
+      "verified_at": "2026-06-18T14:53:55.211Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Isis",
+      "external_id": "rmp-draft-001-008",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This major Egyptian goddess resurrected her slain husband and was considered the divine mother of the pharaoh, whose power was likened to her son Horus.",
+      "answer": "Isis",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "egyptian-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Isis",
+          "url": "https://en.wikipedia.org/wiki/Isis",
+          "snippet": "Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. Isis was first mentioned in the Old Kingdom as one of the main characters of the Osiris myth, in which she resurrects her slain bro"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: isis.json — resurrected Osiris and was the divine mother figure behind the pharaoh.",
+      "verified_at": "2026-06-18T14:53:55.584Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Anubis",
+      "external_id": "rmp-draft-001-009",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This jackal-headed deity of ancient Egypt presided over the 'Weighing of the Heart' ceremony, in which a deceased soul's virtue was judged against a feather.",
+      "answer": "Anubis",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "egyptian-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Anubis",
+          "url": "https://en.wikipedia.org/wiki/Anubis",
+          "snippet": "Anubis, also known as Inpu, Inpw, Jnpw, or Anpu in Ancient Egyptian, is the god of funerary rites, protector of graves, and guide to the underworld in ancient Egyptian religion, usually depicted as a canine or a man with a canine head."
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source: anubis.json — jackal-headed deity who presided over the Weighing of the Heart.",
+      "verified_at": "2026-06-18T14:53:55.963Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Osiris",
+      "external_id": "rmp-draft-001-010",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Egyptian god was murdered and dismembered by his own brother Set, then reassembled by his devoted wife to be resurrected and reign over the dead.",
+      "answer": "Osiris",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "egyptian-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Osiris",
+          "url": "https://en.wikipedia.org/wiki/Osiris",
+          "snippet": "Osiris was the god of fertility, agriculture, the afterlife, the dead, resurrection, life, and vegetation in ancient Egyptian religion. He was classically depicted with a pharaoh's beard, partially mummy-wrapped at the legs, wearing a disti"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: osiris.json — dismembered by Set, reassembled by Isis, resurrected as ruler of the dead.",
+      "verified_at": "2026-06-18T14:53:56.341Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Socrates",
+      "external_id": "rmp-draft-001-011",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Athenian philosopher wrote nothing himself, yet his method of rigorous questioning gave rise to a whole literary genre of philosophical dialogues recorded by his student Plato.",
+      "answer": "Socrates",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Socrates",
+          "url": "https://en.wikipedia.org/wiki/Socrates",
+          "snippet": "Socrates was an ancient Greek philosopher from Classical Athens, perhaps the first Western moral philosopher, and a major inspiration on his student Plato, who largely founded the tradition of Western philosophy. An enigmatic figure, Socrat"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: socrates.json — authored no texts; Socratic dialogues recorded by Plato.",
+      "verified_at": "2026-06-18T14:53:56.712Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+      "external_id": "rmp-draft-001-012",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Enlightenment thinker from Königsberg argued in his *Critique of Pure Reason* that space and time are forms of intuition imposed by the human mind, not features of reality itself.",
+      "answer": "Immanuel Kant",
+      "aliases": [
+        "Kant"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Immanuel Kant",
+          "url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+          "snippet": "Immanuel Kant was a German philosopher. Born in Königsberg in the Kingdom of Prussia, he is considered one of the central thinkers of the Enlightenment. His comprehensive and systematic works in epistemology, metaphysics, logic, ethics, aes"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source: immanuel-kant.json — Königsberg philosopher; space and time as forms of intuition in Critique of Pure Reason.",
+      "verified_at": "2026-06-18T14:53:57.095Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+      "external_id": "rmp-draft-001-013",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Appointed a full professor at age 24, this German thinker spent his later years declaring religion's decline before suffering a complete mental collapse at 44 from which he never recovered.",
+      "answer": "Friedrich Nietzsche",
+      "aliases": [
+        "Nietzsche"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Friedrich Nietzsche",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+          "snippet": "Friedrich Wilhelm Nietzsche was a German philosopher and writer who started his career as a classical philologist and turned to philosophy early in his academic career. In 1869, at age 24, he was appointed Professor of Classical Philology a"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: friedrich-nietzsche.json — professor at 24; 'God is dead' philosopher; mental collapse at 44.",
+      "verified_at": "2026-06-18T14:53:57.472Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Stoicism",
+      "external_id": "rmp-draft-001-014",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient philosophical tradition, founded in the Hellenistic period, held that virtue alone is sufficient for happiness and that the universe operates according to reason, called logos.",
+      "answer": "Stoicism",
+      "aliases": [
+        "Stoic philosophy"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophical-schools"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Stoicism",
+          "url": "https://en.wikipedia.org/wiki/Stoicism",
+          "snippet": "Stoicism is a philosophical movement and practical guide to living, emphasizing daily self-discipline and moral improvement, which originated in the Hellenistic period of ancient Greece and proliferated well into the Roman Imperial period. "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: stoicism.json — Hellenistic school; virtue = happiness; logos governs the universe.",
+      "verified_at": "2026-06-18T14:53:57.862Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Buddhism",
+      "external_id": "rmp-draft-001-015",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Indian religion, the world's fourth-largest, teaches that liberation from suffering comes through a Middle Way between extreme asceticism and sensory indulgence.",
+      "answer": "Buddhism",
+      "aliases": [
+        "Buddhist religion"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Buddhism",
+          "url": "https://en.wikipedia.org/wiki/Buddhism",
+          "snippet": "Buddhism, also known as Buddhadharma and Dharmavinaya, is an Indian religion and philosophy based on teachings attributed to the Buddha, a śramaṇa and religious teacher who lived in the 6th or 5th century BCE. It is the world's fourth-large"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: buddhism.json — fourth-largest religion; Middle Way between asceticism and indulgence.",
+      "verified_at": "2026-06-18T14:53:58.240Z"
+    }
+  ]
+}

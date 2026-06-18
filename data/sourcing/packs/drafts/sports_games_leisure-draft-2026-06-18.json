@@ -1,0 +1,404 @@
+{
+  "generated_at": "2026-06-18T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "sports_games_leisure",
+  "notes": [
+    "Clues written from Wikipedia lead extracts in data/sourcing/docs/sports_games_leisure/. Avoids answers already in the 2026-06-17 sports draft (Monopoly, Chess, Scrabble, Poker, Backgammon, Babe Ruth, NBA Finals, Super Bowl, Brazil, Summer Olympic Games, Serena Williams, Wimbledon Championships, Muhammad Ali, Tetris)."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Michael_Jordan",
+      "external_id": "sgl-draft-002-001",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This six-time NBA champion with the Chicago Bulls is widely considered the greatest basketball player of all time and is also the wealthiest former athlete in the world.",
+      "answer": "Michael Jordan",
+      "aliases": [
+        "Jordan",
+        "MJ"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "basketball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Michael Jordan",
+          "url": "https://en.wikipedia.org/wiki/Michael_Jordan",
+          "snippet": "Michael Jeffrey Jordan, also known by his initials MJ, is an American businessman and retired professional basketball player who is a minority owner of the Charlotte Hornets of the National Basketball Association (NBA). He played 15 seasons"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: michael-jordan.json — 6 NBA titles with Bulls; widely considered GOAT; wealthiest former athlete.",
+      "verified_at": "2026-06-18T15:24:50.218Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Decathlon",
+      "external_id": "sgl-draft-002-002",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Contested over two consecutive days, this combined event in athletics has 10 track and field events with winners determined by a points system rather than by position.",
+      "answer": "Decathlon",
+      "aliases": [
+        "decathlon"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "olympics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Decathlon",
+          "url": "https://en.wikipedia.org/wiki/Decathlon",
+          "snippet": "The decathlon is a combined event in athletics consisting of 10 track and field events. The word was formed in analogy to the word \"pentathlon\", from Greek δέκα and ἆθλον. Events are held over two consecutive days and the winners are determ"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: decathlon.json — 10-event competition; 'World's Greatest Athlete' title; King Gustav V/Jim Thorpe origin.",
+      "verified_at": "2026-06-18T15:24:50.646Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/World_Series",
+      "external_id": "sgl-draft-002-003",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This annual baseball championship, contested since 1903 between the American and National League champions, awards the winning team the Commissioner's Trophy.",
+      "answer": "World Series",
+      "aliases": [
+        "the World Series"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "World Series",
+          "url": "https://en.wikipedia.org/wiki/World_Series",
+          "snippet": "The World Series is the annual championship series of Major League Baseball (MLB), a professional baseball league in North America, and has been contested since 1903 between the champion teams of the American League (AL) and the National Le"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: world-series.json — annual MLB championship since 1903; Commissioner's Trophy awarded.",
+      "verified_at": "2026-06-18T15:24:51.068Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+      "external_id": "sgl-draft-002-004",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In tennis, this feat describes winning all four major championships in a single calendar year; claiming the same four titles consecutively but across two years is called a 'non-calendar-year' version of it.",
+      "answer": "Grand Slam",
+      "aliases": [
+        "Grand Slam in tennis",
+        "Tennis Grand Slam"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Grand Slam (tennis)",
+          "url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+          "snippet": "The Grand Slam in tennis is the achievement of winning all four major championships in one discipline in a calendar year. In doubles, a Grand Slam may be achieved as a team or as an individual with different partners. Winning all four major"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: grand-slam-tennis.json — all four majors in one calendar year; non-calendar-year Grand Slam distinction.",
+      "verified_at": "2026-06-18T15:24:51.823Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Masters_Tournament",
+      "external_id": "sgl-draft-002-005",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Unlike the other three major golf championships, which rotate among different courses, this annual April tournament is always held at Augusta National Golf Club in Georgia.",
+      "answer": "The Masters Tournament",
+      "aliases": [
+        "The Masters",
+        "Masters Tournament",
+        "Masters"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "golf"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Masters Tournament",
+          "url": "https://en.wikipedia.org/wiki/Masters_Tournament",
+          "snippet": "The Masters Tournament is one of the four men's major championships in professional golf. Scheduled for the first full week in April, the Masters is the first major golf tournament of the year. Unlike the other major tournaments which chang"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: the-masters-tournament.json — only major always held at same venue (Augusta National); April.",
+      "verified_at": "2026-06-18T15:24:52.265Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Kentucky_Derby",
+      "external_id": "sgl-draft-002-006",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American Grade I stakes race run at Churchill Downs in Louisville is contested by three-year-old Thoroughbreds at a distance of 1+1⁄4 miles; colts and geldings carry 126 pounds while fillies carry 121.",
+      "answer": "Kentucky Derby",
+      "aliases": [
+        "the Kentucky Derby"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "horse-racing"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Kentucky Derby",
+          "url": "https://en.wikipedia.org/wiki/Kentucky_Derby",
+          "snippet": "The Kentucky Derby is an American Grade I stakes race run at Churchill Downs in Louisville, Kentucky. The race is run by three-year-old Thoroughbreds at a distance of 1+1⁄4 miles. Colts and geldings carry 126 pounds and fillies 121 pounds."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: kentucky-derby.json — 'Run for the Roses'; Churchill Downs; first leg of Triple Crown.",
+      "verified_at": "2026-06-18T15:24:52.692Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Boston_Marathon",
+      "external_id": "sgl-draft-002-007",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First held in 1897 and inspired by the inaugural Olympic road race of 1896, this annual event through greater Massachusetts is the world's oldest annual road race of its distance.",
+      "answer": "Boston Marathon",
+      "aliases": [
+        "the Boston Marathon"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "running"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Boston Marathon",
+          "url": "https://en.wikipedia.org/wiki/Boston_Marathon",
+          "snippet": "The Boston Marathon is an annual marathon race hosted by eight cities and towns in greater Boston in eastern Massachusetts, United States. It is traditionally held on Patriots' Day, the third Monday of April. First held in 1897, the event w"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: boston-marathon.json — world's oldest annual marathon; first held 1897; inspired by 1896 Olympics.",
+      "verified_at": "2026-06-18T15:24:53.128Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Marathon",
+      "external_id": "sgl-draft-002-008",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A long-distance foot race usually run as a road race, this event spans 42.195 kilometres but can also be covered on trail routes; more than 800 are held worldwide each year.",
+      "answer": "Marathon",
+      "aliases": [
+        "marathon race",
+        "marathon"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "olympics",
+        "running"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Marathon",
+          "url": "https://en.wikipedia.org/wiki/Marathon",
+          "snippet": "The marathon is a long-distance foot race with a distance of 42.195 kilometres, usually run as a road race, but the distance can be covered on trail routes. The marathon can be completed by running or with a run/walk strategy. There are als"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: marathon.json — devised by Michel Bréal; 1896 Athens Olympics original event; standardized 1921.",
+      "verified_at": "2026-06-18T15:24:53.554Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+      "external_id": "sgl-draft-002-009",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Soccer",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This international football tournament, held every four years since 1930 (with gaps for World War II), was most recently won by Argentina at its 2022 edition in Qatar.",
+      "answer": "FIFA World Cup",
+      "aliases": [
+        "World Cup",
+        "FIFA World Cup",
+        "the World Cup"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "soccer"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "FIFA World Cup",
+          "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+          "snippet": "The FIFA World Cup is an international association football competition among the senior men's national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport's global governing body. The tournament "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: fifa-world-cup.json — held every four years since 1930; Argentina won 2022 edition.",
+      "verified_at": "2026-06-18T15:24:53.971Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Go_(game)",
+      "external_id": "sgl-draft-002-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This two-player strategy game of Chinese origin, in which players place stones to fence off territory on a grid, is believed to be the oldest board game continuously played to the present day.",
+      "answer": "Go",
+      "aliases": [
+        "Go (board game)",
+        "Weiqi",
+        "Baduk"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Go (game)",
+          "url": "https://en.wikipedia.org/wiki/Go_(game)",
+          "snippet": "Go, Weiqi, or Baduk is an abstract strategy board game for two players in which the aim is to fence off more territory than the opponent. The game was invented in China more than 2,500 years ago and is believed to be the oldest board game c"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: go-game.json — Chinese origin 2,500+ years ago; oldest board game in continuous play; territory-claiming with stones.",
+      "verified_at": "2026-06-18T15:24:54.808Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Boxing",
+      "external_id": "sgl-draft-002-011",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Olympic combat sport, conducted in a ring with padded gloves, pits two opponents against each other for a predetermined number of rounds, with the winner decided by points or a stoppage.",
+      "answer": "Boxing",
+      "aliases": [
+        "boxing"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "combat-sport"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Boxing",
+          "url": "https://en.wikipedia.org/wiki/Boxing",
+          "snippet": "Boxing is a combat sport and martial art. Taking place in a boxing ring, it involves two opponents throwing punches at each other for a predetermined amount of time. It is usually done wearing protective equipment, such as protective gloves"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: boxing.json — combat sport in a ring with padded gloves.",
+      "verified_at": "2026-06-18T15:24:55.253Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tour_de_France",
+      "external_id": "sgl-draft-002-012",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First organized in 1903 to boost newspaper sales, this annual multi-stage cycling race is the oldest and most prestigious of road cycling's three Grand Tours.",
+      "answer": "Tour de France",
+      "aliases": [
+        "the Tour de France"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "cycling"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tour de France",
+          "url": "https://en.wikipedia.org/wiki/Tour_de_France",
+          "snippet": "The Tour de France is an annual men's multiple-stage road cycling race held primarily in France. It is the oldest and most prestigious of the three Grand Tours, which include the Giro d'Italia and the Vuelta a España."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: tour-de-france.json — oldest/most prestigious Grand Tour; started 1903 to boost L'Auto newspaper.",
+      "verified_at": "2026-06-18T15:24:55.666Z"
+    }
+  ]
+}
