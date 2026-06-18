@@ -143,7 +143,8 @@ begin
   );
 end; $$;
 
--- Record one answer. points = value if correct; time clamped to the 30s cap.
+-- Record one answer. points = difficulty rank (1-5) if correct, else 0 — the score
+-- is difficulty-based, NOT the Jeopardy dollar value; time clamped to the 30s cap.
 create or replace function public.submit_daily_attempt(
   p_date date, p_question uuid, p_response text, p_grade attempt_grade, p_time_ms int default null
 )
@@ -152,7 +153,7 @@ declare g daily_challenges%rowtype; v_pts int; me uuid := auth.uid();
 begin
   select * into g from daily_challenges where challenge_date = p_date;
   if not found or not (p_question = any(g.question_ids)) then raise exception 'question not in this day''s challenge'; end if;
-  select case when p_grade = 'correct' then q.value else 0 end into v_pts from questions q where q.id = p_question;
+  select case when p_grade = 'correct' then q.difficulty_rank else 0 end into v_pts from questions q where q.id = p_question;
   insert into daily_challenge_attempts (challenge_date, user_id, question_id, typed_response, grade, points, time_ms)
   values (p_date, me, p_question, p_response, p_grade, coalesce(v_pts, 0), least(coalesce(p_time_ms, 30000), 30000))
   on conflict (challenge_date, user_id, question_id) do nothing;
