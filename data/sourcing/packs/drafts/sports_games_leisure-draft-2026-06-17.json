@@ -1,0 +1,484 @@
+{
+  "generated_at": "2026-06-17T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "sports_games_leisure",
+  "notes": [
+    "First Wikipedia-sourced draft for sports_games_leisure — 8 active clues at time of authoring (Mr. Potato Head, Easy-Bake Oven, Labubu, tarot, Waluigi, John Elway, Rickey Henderson, Michael Jordan). Michael Jordan already active, so no Jordan clue drafted. 25 new docs added via build-topic-docs.mjs into data/sourcing/docs/sports_games_leisure/.",
+    "Subcategory spread: Board Games & Card Games (5), Baseball (1), Basketball (1), Football (1), Soccer (1), Olympics (1), Tennis & Golf (3), Sports Records & Awards (1), Video Games & Esports (1).",
+    "All clues grounded only in the cited Wikipedia lead-extract docs."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+      "external_id": "sgl-draft-2026-06-17-001",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this board game, players buy and trade properties named after locations in and around Atlantic City, New Jersey, developing them with houses and hotels while collecting rent and aiming to drive opponents into bankruptcy.",
+      "answer": "Monopoly",
+      "aliases": [
+        "Monopoly board game",
+        "Monopoly game"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Monopoly",
+          "url": "https://en.wikipedia.org/wiki/Monopoly",
+          "snippet": "A monopoly is a market in which one person or company is the only supplier of a particular good or service. A monopoly is characterized by a lack of economic competition to produce a particular thing, a lack of viable substitute goods, and "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T03:55:39.810Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chess",
+      "external_id": "sgl-draft-2026-06-17-002",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This strategy board game traces its recorded history to 7th-century India, where it was known as chaturanga; the first universally recognized world champion, Wilhelm Steinitz, claimed his title in 1886.",
+      "answer": "Chess",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chess",
+          "url": "https://en.wikipedia.org/wiki/Chess",
+          "snippet": "Chess is a board game for two players, played on a square board consisting of 64 squares arranged in an 8×8 grid. The players, referred to as \"White\" and \"Black\", each control sixteen pieces: one king, one queen, two rooks, two bishops, two"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T03:55:40.192Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Scrabble",
+      "external_id": "sgl-draft-2026-06-17-003",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Invented by American architect Alfred Mosher Butts in 1931, this word game challenges two to four players to score points by placing letter tiles onto a 15-by-15 grid, forming words in crossword fashion.",
+      "answer": "Scrabble",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game",
+        "word-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Scrabble",
+          "url": "https://en.wikipedia.org/wiki/Scrabble",
+          "snippet": "Scrabble is a word game in which two to four players score points by placing tiles, each bearing a single letter, onto a game board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to rig"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:40.572Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Poker",
+      "external_id": "sgl-draft-2026-06-17-004",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this family of card games, players wager on which hand is best and may win the pot by causing all opponents to fold — without ever revealing their own cards.",
+      "answer": "Poker",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "card-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Poker",
+          "url": "https://en.wikipedia.org/wiki/Poker",
+          "snippet": "Poker is a family of comparing card games in which players wager over which hand is best according to that specific game's rules. It is played worldwide, with varying rules in different places. While the earliest known form of the game was "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:40.956Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Backgammon",
+      "external_id": "sgl-draft-2026-06-17-005",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this two-player board game played with dice and 15 counters per side, the game's very name comes from the rare triple-victory achieved when a player removes all pieces before an opponent has yet started bearing off.",
+      "answer": "Backgammon",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Backgammon",
+          "url": "https://en.wikipedia.org/wiki/Backgammon",
+          "snippet": "Backgammon is a two-player board game played with counters and dice on tables boards. It is the most widespread Western member of the large family of tables games, whose ancestors date back at least 1,600 years. The earliest record of backg"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:41.344Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "external_id": "sgl-draft-2026-06-17-006",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hall of Famer, one of the inaugural five inductees in 1936, began his career as a dominant pitcher for the Boston Red Sox; as part of the Yankees' 'Murderers' Row' in 1927, he hit 60 home runs — a single-season record he extended by one.",
+      "answer": "Babe Ruth",
+      "aliases": [
+        "Ruth",
+        "George Herman Ruth"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball",
+        "hall-of-fame"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Babe Ruth",
+          "url": "https://en.wikipedia.org/wiki/Babe_Ruth",
+          "snippet": "George Herman \"Babe\" Ruth was an American professional baseball player whose career in Major League Baseball (MLB) spanned 22 seasons, from 1914 through 1935. Nicknamed \"the Bambino\" and \"the Sultan of Swat\", he began his MLB career as a st"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:41.735Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/NBA_Finals",
+      "external_id": "sgl-draft-2026-06-17-007",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The winning team at this annual best-of-seven basketball championship series receives the Larry O'Brien Trophy; the series was originally known as the BAA Finals, before the Basketball Association of America merged with the National Basketball League in 1949.",
+      "answer": "NBA Finals",
+      "aliases": [
+        "NBA Championship"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "basketball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "NBA Finals",
+          "url": "https://en.wikipedia.org/wiki/NBA_Finals",
+          "snippet": "The NBA Finals is the annual championship series of the National Basketball Association (NBA). The Eastern and Western Conference champions play a best-of-seven series to determine the league champion. The team that wins the series is award"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:42.118Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Super_Bowl",
+      "external_id": "sgl-draft-2026-06-17-008",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Winning teams at this annual NFL championship game receive the Vince Lombardi Trophy, named after the coach who won its first two editions; the Pittsburgh Steelers and New England Patriots share the record for most victories with six each.",
+      "answer": "Super Bowl",
+      "aliases": [
+        "the Super Bowl"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "football",
+        "nfl"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Super Bowl",
+          "url": "https://en.wikipedia.org/wiki/Super_Bowl",
+          "snippet": "The Super Bowl is the annual league championship game of the National Football League (NFL) of the United States. It has served as the final game of every NFL season since 1966 replacing the NFL Championship Game and also served as the fina"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:42.515Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+      "external_id": "sgl-draft-2026-06-17-009",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Soccer",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Held every four years since its inaugural 1930 tournament — skipping only 1942 and 1946 due to World War II — this competition has been won by eight different nations, with Brazil being the only team to have played in every edition.",
+      "answer": "FIFA World Cup",
+      "aliases": [
+        "World Cup",
+        "the World Cup"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "soccer",
+        "football"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "FIFA World Cup",
+          "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+          "snippet": "The FIFA World Cup is an international association football competition among the senior men's national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport's global governing body. The tournament "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:42.915Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Summer_Olympic_Games",
+      "external_id": "sgl-draft-2026-06-17-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Of all nations that have participated in every edition of this international multi-sport event since 1896, only Great Britain has won at least one gold medal in each edition — a feat neither Australia nor France has matched.",
+      "answer": "Summer Olympic Games",
+      "aliases": [
+        "Summer Olympics",
+        "Olympic Games"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "olympics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Summer Olympic Games",
+          "url": "https://en.wikipedia.org/wiki/Summer_Olympic_Games",
+          "snippet": "The Summer Olympic Games, also known as the Summer Olympics or the Games of the Olympiad, are a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, then part of the Ki"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:43.303Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Serena_Williams",
+      "external_id": "sgl-draft-2026-06-17-011",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "She is the only player in tennis history to have completed a career Golden Slam in both singles and doubles, winning all four major titles plus an Olympic gold in each discipline.",
+      "answer": "Serena Williams",
+      "aliases": [
+        "Williams",
+        "Serena"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Serena Williams",
+          "url": "https://en.wikipedia.org/wiki/Serena_Williams",
+          "snippet": "Serena Jameka Williams is an American professional tennis player. She was ranked as the world No. 1 in women's singles by the Women's Tennis Association (WTA) for 319 weeks, and finished as the year-end No. 1 five times. Williams won 73 WTA"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:43.699Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+      "external_id": "sgl-draft-2026-06-17-012",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Held since 1877 and the only Grand Slam still played on outdoor grass, this tournament requires competitors to wear all white and has maintained an unbroken ball-supply relationship with Slazenger since 1902 — the world's longest-running sporting sponsorship.",
+      "answer": "Wimbledon Championships",
+      "aliases": [
+        "Wimbledon"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis",
+        "grand-slam"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wimbledon Championships",
+          "url": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+          "snippet": "The Wimbledon Championships, commonly called Wimbledon, is a tennis tournament organised by the All England Lawn Tennis and Croquet Club in collaboration with the Lawn Tennis Association annually in Wimbledon, London. It is chronologically "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T03:55:44.084Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+      "external_id": "sgl-draft-2026-06-17-013",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In tennis, this term names the rare feat of winning all four major championships — in Melbourne, Paris, London, and New York — within a single calendar year.",
+      "answer": "Grand Slam",
+      "aliases": [
+        "Grand Slam (tennis)",
+        "Calendar Grand Slam",
+        "Golden Slam"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis",
+        "grand-slam"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Grand Slam (tennis)",
+          "url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+          "snippet": "The Grand Slam in tennis is the achievement of winning all four major championships in one discipline in a calendar year. In doubles, a Grand Slam may be achieved as a team or as an individual with different partners. Winning all four major"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:44.804Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+      "external_id": "sgl-draft-2026-06-17-014",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "He fought George Foreman in the 'Rumble in the Jungle' and Joe Frazier in the 'Thrilla in Manila,' and was named Sportsman of the Century by Sports Illustrated in 1999.",
+      "answer": "Muhammad Ali",
+      "aliases": [
+        "Ali",
+        "Cassius Clay",
+        "Cassius Marcellus Clay"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "boxing",
+        "sports-records"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Muhammad Ali",
+          "url": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+          "snippet": "Muhammad Ali was an American professional boxer and activist. A global cultural icon, widely known by the nickname \"the Greatest\", he is often regarded as the greatest heavyweight boxer of all time. He held the Ring magazine heavyweight tit"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:45.202Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tetris",
+      "external_id": "sgl-draft-2026-06-17-015",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Created by Soviet software engineer Alexey Pajitnov in the mid-1980s, this puzzle game challenges players to sort falling four-block shapes into complete horizontal lines, which then disappear from the playfield.",
+      "answer": "Tetris",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "video-game",
+        "puzzle"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tetris",
+          "url": "https://en.wikipedia.org/wiki/Tetris",
+          "snippet": "Tetris is a puzzle video game created by Alexey Pajitnov, a Soviet software engineer, in the mid-1980s. In Tetris, falling pieces consisting of four connected blocks, known as tetrominoes, must be sorted into a pile. Once a horizontal line "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T03:55:45.599Z"
+    }
+  ]
+}
