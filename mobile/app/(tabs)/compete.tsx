@@ -1,4 +1,4 @@
-import { useFocusEffect } from 'expo-router';
+import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { ActivityIndicator, Alert, Pressable, Share, StyleSheet, Text, TextInput, View } from 'react-native';
 
@@ -139,11 +139,11 @@ export default function CompeteScreen() {
       ) : null}
 
       {/* Duels */}
-      <Section title="Duels" right={<Pressable onPress={() => Alert.alert('New duel', 'Pick a friend below to challenge (wire create_game next).')}><Text style={styles.link}>New</Text></Pressable>}>
+      <Section title="Duels" right={<Pressable onPress={() => router.push('/duel/new' as any)}><Text style={styles.link}>New</Text></Pressable>}>
         {games.length === 0 ? (
           <Text style={styles.empty}>No duels yet. Challenge a friend to a 6-clue head-to-head.</Text>
         ) : games.map((g) => (
-          <View key={g.id} style={styles.duelRow}>
+          <Pressable key={g.id} onPress={() => router.push(`/duel/${g.id}` as any)} style={({ pressed }) => [styles.duelRow, pressed && styles.duelPressed]}>
             <View style={styles.flex}>
               <Text style={styles.duelName} numberOfLines={1}>{g.opponent_name ?? g.opponent_username ?? 'Opponent'}</Text>
               <Text style={styles.duelMeta}>
@@ -155,7 +155,7 @@ export default function CompeteScreen() {
             <Pill tone={g.status === 'completed' ? 'teal' : g.your_turn ? 'gold' : 'default'}>
               {g.status === 'completed' ? `${g.creator_score}–${g.opponent_score}` : g.your_turn ? 'Play' : 'Sent'}
             </Pill>
-          </View>
+          </Pressable>
         ))}
       </Section>
 
@@ -224,6 +224,7 @@ const styles = StyleSheet.create({
   lbMeta: { ...type.caption, color: colors.muted, width: 44, textAlign: 'right' },
   lbScore: { ...type.bodyStrong, color: colors.gold, width: 56, textAlign: 'right' },
   duelRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 10 },
+  duelPressed: { opacity: 0.6 },
   duelName: { ...type.bodyStrong, color: colors.ink },
   duelMeta: { ...type.caption, color: colors.muted },
   search: { minHeight: 46, borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, backgroundColor: colors.surface, color: colors.ink, paddingHorizontal: spacing.md, ...type.body },
