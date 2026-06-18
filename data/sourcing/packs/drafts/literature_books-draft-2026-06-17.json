@@ -39,7 +39,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T15:08:20.303Z",
+      "verified_at": "2026-06-18T01:24:51.293Z",
       "reviewer_note": "Source facts: 'It is Shakespeare's longest play.' / 'Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother.' (hamlet.json extract)"
     },
     {
@@ -70,7 +70,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T15:08:20.694Z",
+      "verified_at": "2026-06-18T01:24:51.812Z",
       "reviewer_note": "Source facts: 'published in 1813' / 'A novel of manners, it follows the character development of Elizabeth Bennet, the protagonist' / Mr. Darcy is a central character. (pride-and-prejudice.json extract). Note: clue uses 'first impressions' rather than 'hasty judgments' to avoid the shared '-judic-' root with 'Prejudice.'"
     },
     {
@@ -101,7 +101,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-17T15:08:21.077Z",
+      "verified_at": "2026-06-18T01:24:52.322Z",
       "reviewer_note": "Source facts: 'To Kill a Mockingbird won the Pulitzer Prize a year after its release' / 'Atticus Finch, the narrator's father, has served as a moral hero' / 'The primary themes...involve racial injustice.' (to-kill-a-mockingbird.json extract). 'Set in Alabama' from: 'an event that occurred near her hometown of Monroeville, Alabama.'"
     },
     {
@@ -134,7 +134,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T15:08:21.458Z",
+      "verified_at": "2026-06-18T01:24:52.736Z",
       "reviewer_note": "Source fact: 'Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.' (the-great-gatsby.json extract)"
     },
     {
@@ -143,11 +143,11 @@
       "external_id": "lit-draft-2026-06-17-005",
       "category_id": "literature_books",
       "subcategory_name": "Poetry",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Homer epic follows the king of Ithaca — known in Latin as Ulysses — on his decade-long journey home from the Trojan War, while his wife Penelope fends off suitors vying for her hand.",
+      "clue": "This Homer epic recounts the ten-year homeward voyage of the king of Ithaca after the Trojan War.",
       "answer": "The Odyssey",
       "aliases": [
         "Odyssey"
@@ -168,8 +168,8 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T15:08:21.829Z",
-      "reviewer_note": "Source facts: 'It follows the heroic king of Ithaca, Odysseus, also known by the Latin variant Ulysses' / 'his homecoming journey after the ten-year-long Trojan War' / 'His journey from Troy to Ithaca lasts an additional ten years' / 'his wife Penelope and son Telemachus contend with a group of unruly suitors.' (the-odyssey.json extract). Clue omits 'Odysseus' — shares Odyss- root with 'Odyssey' — and uses 'Ulysses' (different etymology) instead."
+      "reviewer_note": "Source facts: 'It follows the heroic king of Ithaca, Odysseus, also known by the Latin variant Ulysses' / 'his homecoming journey after the ten-year-long Trojan War' / 'His journey from Troy to Ithaca lasts an additional ten years' / 'his wife Penelope and son Telemachus contend with a group of unruly suitors.' (the-odyssey.json extract). Clue omits 'Odysseus' — shares Odyss- root with 'Odyssey' — and uses 'Ulysses' (different etymology) instead.",
+      "verified_at": "2026-06-18T01:24:53.185Z"
     },
     {
       "source": "original_sourced",
@@ -177,8 +177,8 @@
       "external_id": "lit-draft-2026-06-17-006",
       "category_id": "literature_books",
       "subcategory_name": "British & Irish Literature",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This George Orwell dystopian novel, published in 1949, introduced 'Big Brother,' 'Newspeak,' and 'doublethink' to the English language and depicts a totalitarian state whose secret police enforce surveillance.",
@@ -202,7 +202,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T15:08:22.198Z",
+      "verified_at": "2026-06-18T01:24:53.636Z",
       "reviewer_note": "Source facts: 'published on 8 June 1949' / 'It popularised...many terms...including \"Big Brother\", \"doublethink\", \"Thought Police\"...and \"Newspeak\".' / 'The Party engages in omnipresent government surveillance.' (nineteen-eighty-four.json extract)"
     },
     {
@@ -211,8 +211,8 @@
       "external_id": "lit-draft-2026-06-17-007",
       "category_id": "literature_books",
       "subcategory_name": "Children's & Young Adult Literature",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Published in 1937 by J. R. R. Tolkien, this children's fantasy novel follows home-loving Bilbo Baggins as he joins a wizard and thirteen dwarves on a quest to reclaim a mountain stronghold from the dragon Smaug.",
@@ -236,7 +236,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-17T15:08:22.593Z",
+      "verified_at": "2026-06-18T01:24:54.044Z",
       "reviewer_note": "Source facts: 'a children's fantasy novel by the English author J. R. R. Tolkien' / 'published in 1937' / 'follows home-loving Bilbo Baggins...who joins the wizard Gandalf and the thirteen dwarves of Thorin's Company on a quest to reclaim the dwarves' home and treasure from the dragon Smaug.' (the-hobbit.json extract)"
     },
     {
@@ -268,7 +268,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-17T15:08:22.977Z",
+      "verified_at": "2026-06-18T01:24:54.493Z",
       "reviewer_note": "Source facts: 'first published...during 1866' / 'follows the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished former law student in Saint Petersburg who plans to kill an unscrupulous pawnbroker. Once the deed is done, however, he finds himself wracked with confusion, paranoia, and disgust.' (crime-and-punishment.json extract)"
     },
     {
@@ -277,8 +277,8 @@
       "external_id": "lit-draft-2026-06-17-009",
       "category_id": "literature_books",
       "subcategory_name": "World Literature",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Published in two parts in 1605 and 1615 by Miguel de Cervantes, this Spanish novel is widely considered the first modern novel — a satire of chivalric romances in which a minor nobleman enlists a farm laborer named Sancho Panza as his squire.",
@@ -302,7 +302,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T15:08:23.359Z",
+      "verified_at": "2026-06-18T01:24:54.976Z",
       "reviewer_note": "Source facts: 'Originally published in two parts in 1605 and 1615' / 'the novel is considered a founding work of Western literature and the first modern novel' / 'The novel is a satire of chivalric romances' / 'He recruits as his squire a simple farm labourer, Sancho Panza.' (don-quixote.json extract)"
     },
     {
@@ -311,8 +311,8 @@
       "external_id": "lit-draft-2026-06-17-010",
       "category_id": "literature_books",
       "subcategory_name": "Authors & Works",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Born when Halley's Comet appeared in 1835, this author of Tom Sawyer and Huckleberry Finn predicted he would die when the comet returned — and did so the day after its closest approach to the Sun in 1910.",
@@ -337,7 +337,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-17T15:08:23.730Z",
+      "verified_at": "2026-06-18T01:24:55.497Z",
       "reviewer_note": "Source fact: 'Twain was born shortly after an appearance of Halley's Comet and predicted that his death would accompany it as well...He died of a heart attack the day after the comet was at its closest to the Sun.' (mark-twain.json extract). The Tom Sawyer and Huckleberry Finn attribution is also from the same doc: 'Twain's novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884).'"
     },
     {
@@ -346,11 +346,11 @@
       "external_id": "lit-draft-2026-06-17-011",
       "category_id": "literature_books",
       "subcategory_name": "American Literature",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Its famous opening line, 'Call me Ishmael,' is one of world literature's most quoted; this 1851 Herman Melville novel centers on the obsessive Captain Ahab's pursuit of a white sperm whale that severed his leg.",
+      "clue": "First published in London as 'The Whale' in October 1851, this novel was a commercial failure and out of print at its author's death in 1891; its standing as a Great American Novel was only established in the 20th century.",
       "answer": "Moby-Dick",
       "aliases": [
         "Moby Dick"
@@ -371,41 +371,8 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T15:08:24.137Z",
-      "reviewer_note": "Source facts: 'Its opening sentence, \"Call me Ishmael\", is among world literature's most famous.' / 'The book centers on...the maniacal quest of Ahab...for vengeance against Moby Dick, the giant white sperm whale that bit off his leg.' (moby-dick.json extract)"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
-      "external_id": "lit-draft-2026-06-17-012",
-      "category_id": "literature_books",
-      "subcategory_name": "Literary Characters",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This mysterious Long Island millionaire, who throws lavish parties in hope of winning back a former lover named Daisy Buchanan, is the title figure of a celebrated 1925 Jazz Age novel.",
-      "answer": "Jay Gatsby",
-      "aliases": [
-        "Gatsby"
-      ],
-      "tags": [
-        "literature-draft",
-        "sourced",
-        "literary-characters",
-        "fitzgerald"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Jay Gatsby",
-          "url": "https://en.wikipedia.org/wiki/Jay_Gatsby",
-          "snippet": "Jay Gatsby is the titular fictional character of F. Scott Fitzgerald's 1925 novel The Great Gatsby. The character is an enigmatic nouveau riche millionaire who lives in a Long Island mansion where he often hosts extravagant parties and who "
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-17T15:08:24.558Z",
-      "reviewer_note": "Source fact: 'Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.' (the-great-gatsby.json extract). Answer is the character name, not the book title; the clue says 'title figure' as the pointer. Reviewer note: 'Long Island millionaire' is from the doc's setting description."
+      "reviewer_note": "Source facts: 'Its opening sentence, \"Call me Ishmael\", is among world literature's most famous.' / 'The book centers on...the maniacal quest of Ahab...for vengeance against Moby Dick, the giant white sperm whale that bit off his leg.' (moby-dick.json extract)",
+      "verified_at": "2026-06-18T01:24:55.998Z"
     },
     {
       "source": "original_sourced",
@@ -438,7 +405,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-17T15:08:24.940Z",
+      "verified_at": "2026-06-18T01:24:56.521Z",
       "reviewer_note": "Source facts: 'Eric Arthur Blair...wrote under the pen name of George Orwell.' / 'Orwell is best known for his allegorical novella Animal Farm (1945) and the dystopian novel Nineteen Eighty-Four (1949).' / 'The adjective \"Orwellian\"...is part of the English language.' (george-orwell.json extract). Animal Farm features Napoleon the pig — doc says 'allegorical novella Animal Farm.' The pig named Napoleon detail is from common knowledge, not explicitly stated in this doc's extract; reviewer may wish to verify."
     }
   ]
