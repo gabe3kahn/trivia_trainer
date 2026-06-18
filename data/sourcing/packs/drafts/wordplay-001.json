@@ -1,0 +1,283 @@
+{
+  "generated_at": "2026-06-18",
+  "provider": "constructed",
+  "category_id": "language_wordplay",
+  "notes": [
+    "Constructed wordplay (anagrams + Before & After). Not source-grounded; validated structurally by build-wordplay-pack.mjs."
+  ],
+  "questions": [
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Rearrange the letters of \"SILENT\" to get what you do with your ears.",
+      "answer": "listen",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Rearrange the letters of \"THING\" to get the dark half of the day.",
+      "answer": "night",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Rearrange the letters of \"STATE\" to get the sense centered on the tongue.",
+      "answer": "taste",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Rearrange the letters of \"EARTH\" to get the organ that pumps blood.",
+      "answer": "heart",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Rearrange the letters of \"DUSTY\" to get what you do the night before an exam.",
+      "answer": "study",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-06",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Rearrange the letters of \"STRESSED\" to get the sweet courses that end a meal.",
+      "answer": "desserts",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-07",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Rearrange the letters of \"A ROPE\" to get a drama set entirely to music.",
+      "answer": "opera",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-08",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Rearrange the letters of \"THE EYES\" to get a two-word phrase about what eyes do (and a famous anagram of \"the eyes\").",
+      "answer": "they see",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Before & After: The boxer who floated like a butterfly runs into the hero who knew \"open sesame.\"",
+      "answer": "Muhammad Ali Baba",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Before & After: The Top Gun star meets the setting that holds your car at a steady speed.",
+      "answer": "Tom Cruise control",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Before & After: The School of Rock comedian meets the Avengers’ red-headed Russian spy.",
+      "answer": "Jack Black Widow",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Before & After: The actor who played Indiana Jones meets the classic American muscle car.",
+      "answer": "Harrison Ford Mustang",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "Before & After: The horror novelist behind \"It\" meets the giant ape of Skull Island.",
+      "answer": "Stephen King Kong",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
