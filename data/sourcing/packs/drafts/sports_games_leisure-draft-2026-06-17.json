@@ -38,7 +38,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T03:55:39.810Z"
+      "verified_at": "2026-06-18T04:42:07.427Z"
     },
     {
       "source": "original_sourced",
@@ -67,7 +67,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T03:55:40.192Z"
+      "verified_at": "2026-06-18T04:42:07.815Z"
     },
     {
       "source": "original_sourced",
@@ -97,7 +97,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:40.572Z"
+      "verified_at": "2026-06-18T04:42:08.199Z"
     },
     {
       "source": "original_sourced",
@@ -126,7 +126,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:40.956Z"
+      "verified_at": "2026-06-18T04:42:08.591Z"
     },
     {
       "source": "original_sourced",
@@ -138,7 +138,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In this two-player board game played with dice and 15 counters per side, the game's very name comes from the rare triple-victory achieved when a player removes all pieces before an opponent has yet started bearing off.",
+      "clue": "The name of this ancient two-player board game refers to the rare triple-victory scored when one player removes all of their pieces before the opponent has borne off a single one.",
       "answer": "Backgammon",
       "aliases": [],
       "tags": [
@@ -154,8 +154,8 @@
           "snippet": "Backgammon is a two-player board game played with counters and dice on tables boards. It is the most widespread Western member of the large family of tables games, whose ancestors date back at least 1,600 years. The earliest record of backg"
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:41.344Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:42:08.972Z"
     },
     {
       "source": "original_sourced",
@@ -163,8 +163,8 @@
       "external_id": "sgl-draft-2026-06-17-006",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Baseball",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Hall of Famer, one of the inaugural five inductees in 1936, began his career as a dominant pitcher for the Boston Red Sox; as part of the Yankees' 'Murderers' Row' in 1927, he hit 60 home runs — a single-season record he extended by one.",
@@ -188,7 +188,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:41.735Z"
+      "verified_at": "2026-06-18T04:42:09.352Z"
     },
     {
       "source": "original_sourced",
@@ -200,7 +200,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The winning team at this annual best-of-seven basketball championship series receives the Larry O'Brien Trophy; the series was originally known as the BAA Finals, before the Basketball Association of America merged with the National Basketball League in 1949.",
+      "clue": "The winning team at this annual best-of-seven basketball championship series receives the Larry O'Brien Trophy.",
       "answer": "NBA Finals",
       "aliases": [
         "NBA Championship"
@@ -219,7 +219,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:42.118Z"
+      "verified_at": "2026-06-18T04:42:09.721Z"
     },
     {
       "source": "original_sourced",
@@ -227,8 +227,8 @@
       "external_id": "sgl-draft-2026-06-17-008",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Football",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Winning teams at this annual NFL championship game receive the Vince Lombardi Trophy, named after the coach who won its first two editions; the Pittsburgh Steelers and New England Patriots share the record for most victories with six each.",
@@ -251,7 +251,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:42.515Z"
+      "verified_at": "2026-06-18T04:42:10.098Z"
     },
     {
       "source": "original_sourced",
@@ -259,16 +259,13 @@
       "external_id": "sgl-draft-2026-06-17-009",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Soccer",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Held every four years since its inaugural 1930 tournament — skipping only 1942 and 1946 due to World War II — this competition has been won by eight different nations, with Brazil being the only team to have played in every edition.",
-      "answer": "FIFA World Cup",
-      "aliases": [
-        "World Cup",
-        "the World Cup"
-      ],
+      "clue": "This nation is the only one to have played in every edition of the FIFA World Cup, the quadrennial tournament first held in 1930.",
+      "answer": "Brazil",
+      "aliases": [],
       "tags": [
         "sgl-draft",
         "sourced",
@@ -278,13 +275,13 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "FIFA World Cup",
-          "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
-          "snippet": "The FIFA World Cup is an international association football competition among the senior men's national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport's global governing body. The tournament "
+          "title": "Brazil",
+          "url": "https://en.wikipedia.org/wiki/Brazil",
+          "snippet": "Brazil, officially the Federative Republic of Brazil, is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 213 million people. Brazil is a federation "
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:42.915Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:42:10.487Z"
     },
     {
       "source": "original_sourced",
@@ -296,7 +293,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Of all nations that have participated in every edition of this international multi-sport event since 1896, only Great Britain has won at least one gold medal in each edition — a feat neither Australia nor France has matched.",
+      "clue": "Of all nations that have participated in every edition of this international multi-sport event since 1896, only Great Britain has won at least one gold medal in each edition.",
       "answer": "Summer Olympic Games",
       "aliases": [
         "Summer Olympics",
@@ -316,7 +313,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:43.303Z"
+      "verified_at": "2026-06-18T04:42:10.880Z"
     },
     {
       "source": "original_sourced",
@@ -348,7 +345,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:43.699Z"
+      "verified_at": "2026-06-18T04:42:11.261Z"
     },
     {
       "source": "original_sourced",
@@ -356,8 +353,8 @@
       "external_id": "sgl-draft-2026-06-17-012",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Tennis & Golf",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Held since 1877 and the only Grand Slam still played on outdoor grass, this tournament requires competitors to wear all white and has maintained an unbroken ball-supply relationship with Slazenger since 1902 — the world's longest-running sporting sponsorship.",
@@ -380,41 +377,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T03:55:44.084Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
-      "external_id": "sgl-draft-2026-06-17-013",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Tennis & Golf",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "In tennis, this term names the rare feat of winning all four major championships — in Melbourne, Paris, London, and New York — within a single calendar year.",
-      "answer": "Grand Slam",
-      "aliases": [
-        "Grand Slam (tennis)",
-        "Calendar Grand Slam",
-        "Golden Slam"
-      ],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "tennis",
-        "grand-slam"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Grand Slam (tennis)",
-          "url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
-          "snippet": "The Grand Slam in tennis is the achievement of winning all four major championships in one discipline in a calendar year. In doubles, a Grand Slam may be achieved as a team or as an individual with different partners. Winning all four major"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:44.804Z"
+      "verified_at": "2026-06-18T04:42:11.640Z"
     },
     {
       "source": "original_sourced",
@@ -422,8 +385,8 @@
       "external_id": "sgl-draft-2026-06-17-014",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Sports Records & Awards",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "He fought George Foreman in the 'Rumble in the Jungle' and Joe Frazier in the 'Thrilla in Manila,' and was named Sportsman of the Century by Sports Illustrated in 1999.",
@@ -448,7 +411,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:45.202Z"
+      "verified_at": "2026-06-18T04:42:12.014Z"
     },
     {
       "source": "original_sourced",
@@ -478,7 +441,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:55:45.599Z"
+      "verified_at": "2026-06-18T04:42:12.396Z"
     }
   ]
 }

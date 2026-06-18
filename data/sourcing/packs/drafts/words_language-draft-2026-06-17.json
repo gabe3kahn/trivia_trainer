@@ -18,7 +18,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Latin aphorism, translated as 'seize the day,' appears in book 1 of the Roman poet Horace's Odes, composed around 23 BC.",
+      "clue": "This Latin aphorism, translated as 'seize the day,' first appears in book 1 of the Roman poet Horace's Odes, composed around 23 BC.",
       "answer": "Carpe diem",
       "aliases": [
         "carpe diem"
@@ -38,7 +38,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:53.277Z"
+      "verified_at": "2026-06-18T04:42:12.726Z"
     },
     {
       "source": "original_sourced",
@@ -46,11 +46,11 @@
       "external_id": "wl-draft-2026-06-17-002",
       "category_id": "words_language",
       "subcategory_name": "Etymology",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This English word for a food of filling placed between two slices of bread takes its name from John Montagu, an 18th-century British nobleman so devoted to gaming that he reputedly ate his meal without leaving the card table.",
+      "clue": "This English word for a filling served between two slices of bread takes its name from John Montagu, an 18th-century British nobleman so devoted to gaming that he reputedly ate his meals without leaving the card table.",
       "answer": "Sandwich",
       "aliases": [
         "sandwich"
@@ -70,7 +70,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T03:54:53.650Z"
+      "verified_at": "2026-06-18T04:42:13.108Z"
     },
     {
       "source": "original_sourced",
@@ -103,7 +103,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:54.031Z"
+      "verified_at": "2026-06-18T04:42:13.496Z"
     },
     {
       "source": "original_sourced",
@@ -115,7 +115,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The substitution of an inoffensive or mild expression for one that might be considered unpleasant — often used when discussing death, disability, sex, or violence — defines this common rhetorical device.",
+      "clue": "This common rhetorical device swaps a blunt or unpleasant term for a gentler one, as when death, disability, or violence is referred to only indirectly.",
       "answer": "Euphemism",
       "aliases": [
         "euphemism",
@@ -135,8 +135,8 @@
           "snippet": "A euphemism is the substitution of a potentially offensive or unpleasant word or expression with one that is more pleasant or inoffensive. Some euphemisms are humorous, while others use mild or neutral language to downplay certain concepts."
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:54.402Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:42:13.872Z"
     },
     {
       "source": "original_sourced",
@@ -144,8 +144,8 @@
       "external_id": "wl-draft-2026-06-17-005",
       "category_id": "words_language",
       "subcategory_name": "Foreign Words & Phrases",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This German loanword, literally translating as 'harm-joy,' names the pleasure derived from learning of another's troubles, failures, or humiliation.",
@@ -168,7 +168,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:54.777Z"
+      "verified_at": "2026-06-18T04:42:14.249Z"
     },
     {
       "source": "original_sourced",
@@ -180,7 +180,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In folklore and fiction, this German-origin loanword names a supernatural twin of a living person, perceived as a harbinger of bad luck.",
+      "clue": "From a German word meaning 'double-goer,' this term names a ghostly twin of a living person — to meet one's own, folklore warns, foretells bad luck.",
       "answer": "Doppelgänger",
       "aliases": [
         "doppelganger",
@@ -202,7 +202,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:55.160Z"
+      "verified_at": "2026-06-18T04:42:14.634Z"
     },
     {
       "source": "original_sourced",
@@ -214,7 +214,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "French for 'already seen,' this phrase names the eerie phenomenon of feeling that a present moment has been experienced before — an illusion of memory with no verifiable prior context.",
+      "clue": "The uncanny conviction that you have lived this exact moment before — an illusion of memory rather than true recollection — goes by this French phrase for 'already seen.'",
       "answer": "Déjà vu",
       "aliases": [
         "deja vu",
@@ -234,8 +234,8 @@
           "snippet": "Déjà vu is the phenomenon of feeling like one has lived through the present situation in the past. It is an illusion of memory whereby—despite a strong sense of recollection—the time, place, and context of the \"previous\" experience are unce"
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:55.544Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:42:15.016Z"
     },
     {
       "source": "original_sourced",
@@ -243,8 +243,8 @@
       "external_id": "wl-draft-2026-06-17-008",
       "category_id": "words_language",
       "subcategory_name": "Foreign Words & Phrases",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Latin legal maxim translates as 'let the buyer beware' and holds that the purchaser — having less information than the seller — should examine goods before buying.",
@@ -267,7 +267,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:55.917Z"
+      "verified_at": "2026-06-18T04:42:15.404Z"
     },
     {
       "source": "original_sourced",
@@ -279,7 +279,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This English word for organized non-participation entered the language in 1880, named after a County Mayo land agent in Ireland who was subjected to the tactic at the suggestion of nationalist leader Charles Stewart Parnell.",
+      "clue": "Coined in 1880, this word for organized abstention honors a County Mayo land agent in Ireland who was shunned by the community at the urging of nationalist leader Charles Stewart Parnell.",
       "answer": "Boycott",
       "aliases": [
         "boycott"
@@ -299,7 +299,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T03:54:56.300Z"
+      "verified_at": "2026-06-18T04:42:15.801Z"
     },
     {
       "source": "original_sourced",
@@ -333,7 +333,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:56.688Z"
+      "verified_at": "2026-06-18T04:42:16.180Z"
     },
     {
       "source": "original_sourced",
@@ -345,11 +345,13 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Words like 'oink,' 'meow,' 'roar,' and 'chirp' — as well as 'beep,' 'simmer,' and 'hiccup' — are all examples of this rhetorical term for a word that phonetically imitates the sound it represents.",
+      "clue": "Words like 'oink,' 'meow,' and 'chirp' are examples of this rhetorical term for a word that phonetically imitates the sound it represents.",
       "answer": "Onomatopoeia",
       "aliases": [
         "onomatopoeia",
-        "onomatopoeias"
+        "onomatopoeias",
+        "onomatopeia",
+        "onomatopia"
       ],
       "tags": [
         "wl-draft",
@@ -366,7 +368,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:57.066Z"
+      "verified_at": "2026-06-18T04:42:16.563Z"
     },
     {
       "source": "original_sourced",
@@ -374,8 +376,8 @@
       "external_id": "wl-draft-2026-06-17-012",
       "category_id": "words_language",
       "subcategory_name": "Definitions",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "When Yogi Berra reportedly called a switch-hitter 'amphibious' instead of 'ambidextrous,' he illustrated this term for the unintentional substitution of one word for another with a similar sound.",
@@ -400,7 +402,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:57.452Z"
+      "verified_at": "2026-06-18T04:42:17.010Z"
     },
     {
       "source": "original_sourced",
@@ -412,7 +414,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Originally the name of a Romance-based pidgin used by traders across the Mediterranean Basin from the 11th to the 19th centuries, this Italian-origin phrase now refers to any language used as a common medium between groups with different native tongues.",
+      "clue": "Originally the name of a Romance-based trade language used by merchants across the Mediterranean Basin from the 11th to the 19th centuries, this Italian-origin phrase now denotes any tongue adopted as a common medium between groups with different native languages.",
       "answer": "Lingua franca",
       "aliases": [
         "lingua franca"
@@ -433,7 +435,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T03:54:57.836Z"
+      "verified_at": "2026-06-18T04:42:17.388Z"
     },
     {
       "source": "original_sourced",
@@ -465,7 +467,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:58.212Z"
+      "verified_at": "2026-06-18T04:42:17.772Z"
     },
     {
       "source": "original_sourced",
@@ -477,7 +479,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Lewis Carroll coined this linguistic term in Through the Looking-Glass (1871) to describe a word blended from two others — as in 'smog' from 'smoke' and 'fog,' or 'motel' from 'motor' and 'hotel.'",
+      "clue": "Lewis Carroll coined this linguistic term in Through the Looking-Glass (1871) to describe a word blended from the sounds and meanings of two others.",
       "answer": "Portmanteau",
       "aliases": [
         "portmanteau",
@@ -499,7 +501,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T03:54:58.594Z"
+      "verified_at": "2026-06-18T04:42:18.148Z"
     }
   ]
 }
