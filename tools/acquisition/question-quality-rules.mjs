@@ -37,9 +37,10 @@ export function auditQuestion(row) {
   addIf(/\b(released in 20[0-9]{2}|in 201[0-9]|in 202[0-9])\b/i.test(clue) && row.category_id === 'pop_culture_media_modern_life', 'possibly-time-sensitive-pop-culture', 8);
 
   const wordCount = clue.split(/\s+/).filter(Boolean).length;
-  // Visual clues (the image is the prompt, e.g. "Name this painting.") are short
-  // by design — don't penalize them for being thin.
-  addIf(String(row.mechanic) !== 'visual' && wordCount < 8, 'thin-clue', 15);
+  // Non-standard mechanics are short by design — visual clues (the image is the
+  // prompt) and constructed wordplay (anagrams, Before & After) — so don't
+  // penalize them for being thin.
+  addIf(String(row.mechanic ?? 'standard') === 'standard' && wordCount < 8, 'thin-clue', 15);
   addIf(wordCount > 34, 'overlong-clue', 10);
   // Soft signals: surfaced as warnings, NOT scored. They are coarse regex
   // heuristics with a high false-positive rate (they flag plenty of fine
@@ -80,9 +81,10 @@ export function prepareQuestionForIntake(row) {
   const overrideId = applyManualClueOverrides(next, row);
   if (!overrideId) {
     const wordCount = next.clue.split(/\s+/).filter(Boolean).length;
-    if (wordCount < 8 && String(next.mechanic) !== 'visual') {
-      // Frame thin clues with a category lead-in (skip visual clues — the image is
-      // the prompt, so "Name this painting." should stay as written). We intentionally PRESERVE the
+    if (wordCount < 8 && String(next.mechanic ?? 'standard') === 'standard') {
+      // Frame thin clues with a category lead-in (skip non-standard mechanics —
+      // visual "Name this painting." and constructed wordplay like "Rearrange
+      // these letters…" should stay as written). We intentionally PRESERVE the
       // clue's original casing instead of lowercasing the first letter, so that
       // acronyms and proper nouns (DNA, USA, Einstein) are never corrupted.
       next.clue = `${categoryFrame(row.category_id)}, ${next.clue}`;
