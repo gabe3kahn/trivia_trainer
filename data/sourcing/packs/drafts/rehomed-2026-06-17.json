@@ -33,7 +33,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-17T16:33:05.969Z",
+      "verified_at": "2026-06-18T01:13:13.042Z",
       "reviewer_note": "Source fact: 'Umami, or savoriness, is one of the five basic tastes.' (umami.json extract)"
     },
     {
@@ -64,7 +64,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T16:33:06.445Z",
+      "verified_at": "2026-06-18T01:13:13.547Z",
       "reviewer_note": "Source facts: 'Brandy is a liquor produced by distilling wine.' / 'Among the most renowned are Cognac and Armagnac from southwestern France.' / 'also called eau de vie (literally \"water of life\" in French).' (brandy.json extract)"
     },
     {
@@ -97,7 +97,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-17T16:33:06.914Z",
+      "verified_at": "2026-06-18T01:13:14.039Z",
       "reviewer_note": "Source fact: 'Tarot, first known as trionfi and later as tarocchi...From at least the mid-15th century, the tarot was used to play trick-taking card games...The emergence of custom decks for use in divination...began after French occultists made elaborate, but unsubstantiated, claims about their history.' (tarot-cards.json extract). Note: clue omits 'tarocchi' (stem-adjacent to 'tarot') and uses only 'trionfi' as the Italian antecedent."
     },
     {
@@ -106,8 +106,8 @@
       "external_id": "lw-draft-2026-06-17-008",
       "category_id": "science",
       "subcategory_name": "Medicine & Anatomy",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "In clinical medicine, this term names any condition that renders a proposed treatment harmful rather than beneficial — coming in absolute and relative varieties depending on the severity of the risk.",
@@ -128,7 +128,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-17T16:33:07.379Z",
+      "verified_at": "2026-06-18T01:13:14.515Z",
       "reviewer_note": "Source facts: 'a contraindication is a condition...that serves as a reason not to take a certain medical treatment due to the harm that it would cause the patient.' / 'Absolute contraindications...no reasonable circumstances for undertaking a course of action.' / 'Relative contraindications...patient is at higher risk of complications.' (contraindication.json extract)"
     },
     {
@@ -137,8 +137,8 @@
       "external_id": "lw-draft-2026-06-17-004",
       "category_id": "science",
       "subcategory_name": "Earth Science",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This biome of conifers — pines, spruces, and larches — is the world’s largest land biome, ringing the subarctic across Canada, Scandinavia, and Russia.",
@@ -160,7 +160,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": "Source fact: 'Taiga or tayga, also known as boreal forest or snow forest, is a biome characterized by coniferous forests consisting mostly of pines, spruces, and larches. The taiga, or boreal forest, is the world's largest land biome.' (taiga.json extract)",
-      "verified_at": "2026-06-17T16:33:07.849Z"
+      "verified_at": "2026-06-18T01:13:15.080Z"
     },
     {
       "source": "original_sourced",
@@ -193,7 +193,73 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source fact: 'Nacre, also known as mother-of-pearl, is an organic–inorganic composite material produced by some molluscs as an inner shell layer. It is also the material of which pearls are composed.' (nacre.json extract)",
-      "verified_at": "2026-06-17T16:33:08.302Z"
+      "verified_at": "2026-06-18T01:13:15.558Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Timbuktu",
+      "external_id": "lw-draft-2026-06-17-007",
+      "category_id": "geography",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Though this ancient Malian city actually sits just 20 kilometers north of the Niger River, its name entered English as a byword for an impossibly remote or inaccessible location.",
+      "answer": "Timbuktu",
+      "aliases": [
+        "Tombouctou"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "idioms",
+        "toponyms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Timbuktu",
+          "url": "https://en.wikipedia.org/wiki/Timbuktu",
+          "snippet": "Timbuktu is an ancient city in Mali, situated 20 kilometres north of the Niger River. It is the capital of the Tombouctou Region, one of the 19 administrative regions of Mali, having a population of around one million people in the 2022 cen"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T01:13:16.023Z",
+      "reviewer_note": "Source fact: 'Timbuktu is an ancient city in Mali, situated 20 kilometres (12 miles) north of the Niger River.' (timbuktu.json extract). The idiomatic use of 'Timbuktu' is widely attested in English; the source grounds the city's actual location, providing the clue's contrast."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Elbert_Henry_Gary",
+      "external_id": "lw-draft-2026-06-17-011",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded in 1906 as a company town for U.S. Steel, this Indiana city on Lake Michigan took its name from the corporation’s founding chairman.",
+      "answer": "Gary",
+      "aliases": [
+        "Gary, Indiana"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "etymology",
+        "eponyms",
+        "place-names"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gary, Indiana",
+          "url": "https://en.wikipedia.org/wiki/Gary%2C_Indiana",
+          "snippet": "Gary is a city in Lake County, Indiana, United States. The population was 69,093 at the 2020 census, making it Indiana's eleventh-most populous city. The city has been historically dominated by major industrial activity and is home to U.S. "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T01:13:17.026Z"
     }
   ]
 }
