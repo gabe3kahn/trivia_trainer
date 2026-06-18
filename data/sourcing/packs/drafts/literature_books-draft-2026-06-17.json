@@ -39,7 +39,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T01:24:51.293Z",
+      "verified_at": "2026-06-18T01:29:05.668Z",
       "reviewer_note": "Source facts: 'It is Shakespeare's longest play.' / 'Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother.' (hamlet.json extract)"
     },
     {
@@ -70,7 +70,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T01:24:51.812Z",
+      "verified_at": "2026-06-18T01:29:06.084Z",
       "reviewer_note": "Source facts: 'published in 1813' / 'A novel of manners, it follows the character development of Elizabeth Bennet, the protagonist' / Mr. Darcy is a central character. (pride-and-prejudice.json extract). Note: clue uses 'first impressions' rather than 'hasty judgments' to avoid the shared '-judic-' root with 'Prejudice.'"
     },
     {
@@ -101,7 +101,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T01:24:52.322Z",
+      "verified_at": "2026-06-18T01:29:06.487Z",
       "reviewer_note": "Source facts: 'To Kill a Mockingbird won the Pulitzer Prize a year after its release' / 'Atticus Finch, the narrator's father, has served as a moral hero' / 'The primary themes...involve racial injustice.' (to-kill-a-mockingbird.json extract). 'Set in Alabama' from: 'an event that occurred near her hometown of Monroeville, Alabama.'"
     },
     {
@@ -134,7 +134,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T01:24:52.736Z",
+      "verified_at": "2026-06-18T01:29:06.890Z",
       "reviewer_note": "Source fact: 'Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.' (the-great-gatsby.json extract)"
     },
     {
@@ -169,7 +169,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'It follows the heroic king of Ithaca, Odysseus, also known by the Latin variant Ulysses' / 'his homecoming journey after the ten-year-long Trojan War' / 'His journey from Troy to Ithaca lasts an additional ten years' / 'his wife Penelope and son Telemachus contend with a group of unruly suitors.' (the-odyssey.json extract). Clue omits 'Odysseus' — shares Odyss- root with 'Odyssey' — and uses 'Ulysses' (different etymology) instead.",
-      "verified_at": "2026-06-18T01:24:53.185Z"
+      "verified_at": "2026-06-18T01:29:07.404Z"
     },
     {
       "source": "original_sourced",
@@ -202,7 +202,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T01:24:53.636Z",
+      "verified_at": "2026-06-18T01:29:07.836Z",
       "reviewer_note": "Source facts: 'published on 8 June 1949' / 'It popularised...many terms...including \"Big Brother\", \"doublethink\", \"Thought Police\"...and \"Newspeak\".' / 'The Party engages in omnipresent government surveillance.' (nineteen-eighty-four.json extract)"
     },
     {
@@ -236,7 +236,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T01:24:54.044Z",
+      "verified_at": "2026-06-18T01:29:08.235Z",
       "reviewer_note": "Source facts: 'a children's fantasy novel by the English author J. R. R. Tolkien' / 'published in 1937' / 'follows home-loving Bilbo Baggins...who joins the wizard Gandalf and the thirteen dwarves of Thorin's Company on a quest to reclaim the dwarves' home and treasure from the dragon Smaug.' (the-hobbit.json extract)"
     },
     {
@@ -268,7 +268,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T01:24:54.493Z",
+      "verified_at": "2026-06-18T01:29:08.628Z",
       "reviewer_note": "Source facts: 'first published...during 1866' / 'follows the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished former law student in Saint Petersburg who plans to kill an unscrupulous pawnbroker. Once the deed is done, however, he finds himself wracked with confusion, paranoia, and disgust.' (crime-and-punishment.json extract)"
     },
     {
@@ -302,7 +302,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T01:24:54.976Z",
+      "verified_at": "2026-06-18T01:29:09.029Z",
       "reviewer_note": "Source facts: 'Originally published in two parts in 1605 and 1615' / 'the novel is considered a founding work of Western literature and the first modern novel' / 'The novel is a satire of chivalric romances' / 'He recruits as his squire a simple farm labourer, Sancho Panza.' (don-quixote.json extract)"
     },
     {
@@ -311,11 +311,11 @@
       "external_id": "lit-draft-2026-06-17-010",
       "category_id": "literature_books",
       "subcategory_name": "Authors & Works",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Born when Halley's Comet appeared in 1835, this author of Tom Sawyer and Huckleberry Finn predicted he would die when the comet returned — and did so the day after its closest approach to the Sun in 1910.",
+      "clue": "This American author and humorist was born in 1835 as Halley’s Comet appeared and died the day after it returned in 1910 — a coincidence he had predicted.",
       "answer": "Mark Twain",
       "aliases": [
         "Samuel Clemens",
@@ -337,8 +337,8 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T01:24:55.497Z",
-      "reviewer_note": "Source fact: 'Twain was born shortly after an appearance of Halley's Comet and predicted that his death would accompany it as well...He died of a heart attack the day after the comet was at its closest to the Sun.' (mark-twain.json extract). The Tom Sawyer and Huckleberry Finn attribution is also from the same doc: 'Twain's novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884).'"
+      "reviewer_note": "Source fact: 'Twain was born shortly after an appearance of Halley's Comet and predicted that his death would accompany it as well...He died of a heart attack the day after the comet was at its closest to the Sun.' (mark-twain.json extract). The Tom Sawyer and Huckleberry Finn attribution is also from the same doc: 'Twain's novels include The Adventures of Tom Sawyer (1876) and its sequel, Adventures of Huckleberry Finn (1884).'",
+      "verified_at": "2026-06-18T01:29:09.453Z"
     },
     {
       "source": "original_sourced",
@@ -372,7 +372,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'Its opening sentence, \"Call me Ishmael\", is among world literature's most famous.' / 'The book centers on...the maniacal quest of Ahab...for vengeance against Moby Dick, the giant white sperm whale that bit off his leg.' (moby-dick.json extract)",
-      "verified_at": "2026-06-18T01:24:55.998Z"
+      "verified_at": "2026-06-18T01:29:09.854Z"
     },
     {
       "source": "original_sourced",
@@ -405,7 +405,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T01:24:56.521Z",
+      "verified_at": "2026-06-18T01:29:10.284Z",
       "reviewer_note": "Source facts: 'Eric Arthur Blair...wrote under the pen name of George Orwell.' / 'Orwell is best known for his allegorical novella Animal Farm (1945) and the dystopian novel Nineteen Eighty-Four (1949).' / 'The adjective \"Orwellian\"...is part of the English language.' (george-orwell.json extract). Animal Farm features Napoleon the pig — doc says 'allegorical novella Animal Farm.' The pig named Napoleon detail is from common knowledge, not explicitly stated in this doc's extract; reviewer may wish to verify."
     }
   ]
