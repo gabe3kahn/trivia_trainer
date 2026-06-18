@@ -39,6 +39,6 @@ A clue's category is its **answer's subject/type**, never an incidental framing:
 - The dedupe gate now blocks identical answers, but also avoid **"effectively a repeat"**: don't clue both a work and its central character/creator (Jay Gatsby was dropped in favor of The Great Gatsby). Pick the better single clue.
 
 ## 6. Wordplay style (constructed clues)
-- **Anagrams:** weave the scramble word into a witty, natural sentence **in normal case** (not CAPS — capitalizing gives it away on a non-timed clue), with the answer fitting the sentence's meaning. *"The meek will inherit the earth, not the faint of this"* → **heart**. The solver must spot which word to rearrange.
+- **Anagrams: never call out the scramble word in ANY way** — no bold, CAPS, italics, underline, or quotes. Any visual emphasis gives it away; the whole challenge is that the solver must spot which ordinary word to rearrange. Weave it into a witty, natural sentence in plain text, with the answer fitting the sentence's meaning. *"The meek will inherit the earth, not the faint of this"* → heart. The `constraint_text` should say "Rearrange the letters of one word in this clue to find the answer" — it must not point at the word.
 - **Before & After:** one narrative that clues both halves **without naming either**. *"The boxer who floated like a butterfly says 'open sesame' before stinging like a bee"* → **Muhammad Ali Baba**.
 - Keep the answer's own words out of the clue (the leak guard enforces it).

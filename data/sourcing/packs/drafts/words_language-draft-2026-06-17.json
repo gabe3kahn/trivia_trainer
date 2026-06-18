@@ -1,0 +1,507 @@
+{
+  "generated_at": "2026-06-17T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "words_language",
+  "notes": [
+    "First major draft for words_language — 1 active clue at time of authoring (Esperanto). 24 Wikipedia lead-extract docs built via build-topic-docs.mjs into data/sourcing/docs/words_language/.",
+    "Subcategory spread: Foreign Words & Phrases (7), Etymology (3), Definitions (5).",
+    "All clues are grounded only in facts from the cited source docs. Difficulty: $200 = direct translation/definition; $400 = requires knowing the concept or context; $600 = oblique/specialist hook."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Carpe_diem",
+      "external_id": "wl-draft-2026-06-17-001",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Latin aphorism, translated as 'seize the day,' first appears in book 1 of the Roman poet Horace's Odes, composed around 23 BC.",
+      "answer": "Carpe diem",
+      "aliases": [
+        "carpe diem"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "latin",
+        "foreign-phrase"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Carpe diem",
+          "url": "https://en.wikipedia.org/wiki/Carpe_diem",
+          "snippet": "Carpe diem is a Latin aphorism, usually translated 'seize the day', taken from book 1 of the Roman poet Horace's work Odes."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:21.975Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sandwich",
+      "external_id": "wl-draft-2026-06-17-002",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This English word for a filling served between two slices of bread takes its name from John Montagu, an 18th-century British nobleman so devoted to gaming that he reputedly ate his meals without leaving the card table.",
+      "answer": "Sandwich",
+      "aliases": [
+        "sandwich"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology",
+        "eponym"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sandwich",
+          "url": "https://en.wikipedia.org/wiki/Sandwich",
+          "snippet": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling between slices of bread, or placed atop a slice of bread ; or, more generally, any dish in which bread serves as a container or wr"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:58:22.356Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Palindrome",
+      "external_id": "wl-draft-2026-06-17-003",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The words 'madam' and 'racecar,' and the sentence 'A man, a plan, a canal — Panama,' are classic examples of this term for a sequence that reads identically forwards and backwards.",
+      "answer": "Palindrome",
+      "aliases": [
+        "palindrome",
+        "palindromes"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definition",
+        "rhetoric"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Palindrome",
+          "url": "https://en.wikipedia.org/wiki/Palindrome",
+          "snippet": "A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards, such as madam or racecar, the date \"22/02/2022\", or the sentence \"A man, a plan, a canal – Panama\". The 19-letter Finnish word s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:22.741Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Euphemism",
+      "external_id": "wl-draft-2026-06-17-004",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This common rhetorical device swaps a blunt or unpleasant term for a gentler one, as when death, disability, or violence is referred to only indirectly.",
+      "answer": "Euphemism",
+      "aliases": [
+        "euphemism",
+        "euphemisms"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definition",
+        "rhetoric"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Euphemism",
+          "url": "https://en.wikipedia.org/wiki/Euphemism",
+          "snippet": "A euphemism is the substitution of a potentially offensive or unpleasant word or expression with one that is more pleasant or inoffensive. Some euphemisms are humorous, while others use mild or neutral language to downplay certain concepts."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:58:23.115Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Schadenfreude",
+      "external_id": "wl-draft-2026-06-17-005",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Literally translating as 'harm-joy,' this German loanword names the pleasure derived from learning of another's troubles, failures, or humiliation.",
+      "answer": "Schadenfreude",
+      "aliases": [
+        "schadenfreude"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "german",
+        "loanword"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Schadenfreude",
+          "url": "https://en.wikipedia.org/wiki/Schadenfreude",
+          "snippet": "Schadenfreude is the experience of pleasure, joy, or self-satisfaction that comes from learning of the troubles, failures, pain, suffering, or humiliation of another. Schadenfreude is a loanword from German. The closest word in English woul"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:23.486Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Doppelg%C3%A4nger",
+      "external_id": "wl-draft-2026-06-17-006",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German-derived term names a ghostly twin of a living person — to meet one's own, folklore warns, foretells bad luck.",
+      "answer": "Doppelgänger",
+      "aliases": [
+        "doppelganger",
+        "Doppelganger"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "german",
+        "loanword",
+        "folklore"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Doppelgänger",
+          "url": "https://en.wikipedia.org/wiki/Doppelg%C3%A4nger",
+          "snippet": "A doppelgänger is a supernatural double of a living person, especially one who haunts the doubled person. In fiction and mythology and in common parlance, the doppelgänger either is a ghost or a paranormal phenomenon, usually perceived as t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:23.867Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu",
+      "external_id": "wl-draft-2026-06-17-007",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The uncanny conviction that you have lived this exact moment before — an illusion of memory rather than true recollection — goes by this French phrase for 'already seen.'",
+      "answer": "Déjà vu",
+      "aliases": [
+        "deja vu",
+        "Deja vu"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "french",
+        "foreign-phrase"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Déjà vu",
+          "url": "https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu",
+          "snippet": "Déjà vu is the phenomenon of feeling like one has lived through the present situation in the past. It is an illusion of memory whereby—despite a strong sense of recollection—the time, place, and context of the \"previous\" experience are unce"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:58:24.251Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Caveat_emptor",
+      "external_id": "wl-draft-2026-06-17-008",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Latin legal maxim translates as 'let the buyer beware' and holds that the purchaser — having less information than the seller — should examine goods before buying.",
+      "answer": "Caveat emptor",
+      "aliases": [
+        "caveat emptor"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "latin",
+        "legal"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Caveat emptor",
+          "url": "https://en.wikipedia.org/wiki/Caveat_emptor",
+          "snippet": "Caveat emptor is Latin for \"Let the buyer beware\". It has become a proverb in English. Generally, caveat emptor is the contract law principle that controls the sale of real property after the date of closing, but may also apply to sales of "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:24.637Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Boycott",
+      "external_id": "wl-draft-2026-06-17-009",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Coined in 1880, this word for organized abstention honors a County Mayo land agent in Ireland who was shunned by the community at the urging of nationalist leader Charles Stewart Parnell.",
+      "answer": "Boycott",
+      "aliases": [
+        "boycott"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology",
+        "eponym"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Boycott",
+          "url": "https://en.wikipedia.org/wiki/Boycott",
+          "snippet": "A boycott is an act of nonviolent, voluntary abstention from a product, person, organization, or country as an expression of protest. It is usually for moral, social, political, or environmental reasons. The purpose of a boycott is to infli"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:58:25.011Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Oxymoron",
+      "external_id": "wl-draft-2026-06-17-010",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Derived from the Greek words for 'sharp' and 'dull,' this rhetorical term for a self-contradictory phrase — such as 'bittersweet' or 'cruel kindness' — is itself an example of what it names.",
+      "answer": "Oxymoron",
+      "aliases": [
+        "oxymoron",
+        "oxymorons",
+        "oxymora"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definition",
+        "rhetoric"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Oxymoron",
+          "url": "https://en.wikipedia.org/wiki/Oxymoron",
+          "snippet": "An oxymoron is a figure of speech that juxtaposes concepts with opposite meanings within a word or in a phrase that is a self-contradiction. Examples would be \"bittersweet\" or \"cruel kindness\". As a rhetorical device, an oxymoron illustrate"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:25.395Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Onomatopoeia",
+      "external_id": "wl-draft-2026-06-17-011",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Words like 'oink,' 'meow,' and 'chirp' are examples of this rhetorical term for a word that phonetically imitates the sound it represents.",
+      "answer": "Onomatopoeia",
+      "aliases": [
+        "onomatopoeia",
+        "onomatopoeias",
+        "onomatopeia",
+        "onomatopia"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definition",
+        "rhetoric"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Onomatopoeia",
+          "url": "https://en.wikipedia.org/wiki/Onomatopoeia",
+          "snippet": "Onomatopoeia is a type of word, or the process of creating a word, that phonetically imitates, resembles, or suggests a sound that it refers to. Common onomatopoeias in English include animal noises such as oink, meow, roar, and chirp, amon"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:25.765Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Malapropism",
+      "external_id": "wl-draft-2026-06-17-012",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When Yogi Berra reportedly called a switch-hitter 'amphibious' instead of 'ambidextrous,' he illustrated this term for the unintentional substitution of one word for another with a similar sound.",
+      "answer": "Malapropism",
+      "aliases": [
+        "malapropism",
+        "malapropisms",
+        "malaprop"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definition",
+        "rhetoric"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Malapropism",
+          "url": "https://en.wikipedia.org/wiki/Malapropism",
+          "snippet": "A malapropism is the incorrect use of a word in place of a word with a similar sound, either unintentionally or for comedic effect, resulting in a nonsensical, often humorous utterance. An example is the statement attributed to baseball pla"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:26.154Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lingua_franca",
+      "external_id": "wl-draft-2026-06-17-013",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally the name of a Romance-based trade language used by merchants across the Mediterranean Basin from the 11th to the 19th centuries, this Italian-origin phrase now denotes any tongue adopted as a common medium between groups with different native languages.",
+      "answer": "Lingua franca",
+      "aliases": [
+        "lingua franca"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "latin",
+        "italian",
+        "foreign-phrase"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lingua franca",
+          "url": "https://en.wikipedia.org/wiki/Lingua_franca",
+          "snippet": "A lingua franca, also known as a bridge language, common language, trade language, auxiliary language, link language, or language of wider communication (LWC), is a language systematically used to make communication possible between groups "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T04:58:26.532Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Zeitgeist",
+      "external_id": "wl-draft-2026-06-17-014",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German philosophical term, literally meaning 'spirit of the age,' describes the dominant intellectual and cultural climate of a given historical epoch and is especially associated with the philosophy of Hegel.",
+      "answer": "Zeitgeist",
+      "aliases": [
+        "zeitgeist"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "german",
+        "philosophy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Zeitgeist",
+          "url": "https://en.wikipedia.org/wiki/Zeitgeist",
+          "snippet": "In 18th- and 19th-century German philosophy, a Zeitgeist is a way of referring to the intellectual, cultural, ethical and political climate of a given epoch in world history. It is often described as an invisible agent, force, or daemon tha"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:26.923Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Portmanteau",
+      "external_id": "wl-draft-2026-06-17-015",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Lewis Carroll coined this linguistic term in Through the Looking-Glass (1871) to describe a word blended from the sounds and meanings of two others.",
+      "answer": "Portmanteau",
+      "aliases": [
+        "portmanteau",
+        "portmanteaus",
+        "portmanteaux"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology",
+        "lewis-carroll"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Portmanteau",
+          "url": "https://en.wikipedia.org/wiki/Portmanteau",
+          "snippet": "In literature, a portmanteau, also known in linguistics and lexicography as a blend word, lexical blend, or simply a blend, is a word formed by combining the meanings and parts of the sounds of two or more words. English examples include sm"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T04:58:27.301Z"
+    }
+  ]
+}

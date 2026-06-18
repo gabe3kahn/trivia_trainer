@@ -1,0 +1,250 @@
+{
+  "generated_at": "2026-06-17T00:00:00Z",
+  "provider": "original_wordplay",
+  "category_id": "language_wordplay",
+  "notes": [
+    "Second wordplay pack (wordplay-001.json was the first). Anagram pairs already used in wordplay-001: silent→listen, thing→night, state→taste, earth→heart, dusty→study, stressed→desserts, a rope→opera, the eyes→they see. B&A already used: Muhammad Ali Baba, Tom Cruise control, Jack Black Widow, Harrison Ford Mustang, Stephen King Kong.",
+    "Five new anagram pairs: stare↔tears, charm↔march, nails↔snail, thorn↔north, lemon↔melon.",
+    "Five new B&A: ROCK STAR WARS (Star), ICE CREAM CHEESE (Cream), SMALL TALK SHOW (Talk), BREADWINNER TAKES ALL (Winner), FIREWORKS OF ART (Works).",
+    "All answers verified distinct from wordplay-001.json."
+  ],
+  "questions": [
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-001",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "Even those who stare straight ahead may hide these behind sunglasses.",
+      "answer": "Tears",
+      "aliases": [],
+      "wp": {
+        "scramble": "stare"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-002",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "February is the month for Valentine's charm, but beware the ides of this month.",
+      "answer": "March",
+      "aliases": [],
+      "wp": {
+        "scramble": "charm"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-003",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "When the carpenter pounds nails into the fence post, this shelled creature in the wet grass moves quietly aside.",
+      "answer": "Snail",
+      "aliases": [],
+      "wp": {
+        "scramble": "nails"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-004",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "Beyond the thorn in a weary traveler's side lies the direction that they travel.",
+      "answer": "North",
+      "aliases": [],
+      "wp": {
+        "scramble": "thorn"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-005",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "When life gives you lemons, perhaps bite into these larger summer fruits instead.",
+      "answer": "Melons",
+      "aliases": [
+        "Melon"
+      ],
+      "wp": {
+        "scramble": "lemons"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-006",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "A stadium-filling musician confronts the galaxy-spanning conflict between Jedi and Sith.",
+      "answer": "Rock Star Wars",
+      "aliases": [],
+      "wp": {
+        "first": "Rock Star",
+        "second": "Star Wars"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-007",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "A summer scoop of frozen dairy dessert finds itself spread upon a New York sesame specialty.",
+      "answer": "Ice Cream Cheese",
+      "aliases": [],
+      "wp": {
+        "first": "Ice Cream",
+        "second": "Cream Cheese"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-008",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "Idle party chatter surrounding daytime TV tea sessions.",
+      "answer": "Small Talk Show",
+      "aliases": [],
+      "wp": {
+        "first": "Small Talk",
+        "second": "Talk Show"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-009",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "A pirate's symptom sends him to the emergency room after finding the object of his heart's desire.",
+      "answer": "Treasure Chest Pain",
+      "aliases": [],
+      "wp": {
+        "first": "Treasure Chest",
+        "second": "Chest Pain"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wp-draft-2026-06-17-010",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "A bratty imp is faced with an ethical dilemma aboard a small train.",
+      "answer": "Trolley Problem Child",
+      "aliases": [],
+      "wp": {
+        "first": "Trolley Problem",
+        "second": "Problem Child"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "unverified"
+    }
+  ]
+}
