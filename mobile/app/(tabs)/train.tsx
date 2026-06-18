@@ -1,9 +1,9 @@
 import { useHeaderHeight } from '@react-navigation/elements';
 import { useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, Image, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 
-import { Card, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
+import { Card, ClueCard, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
 import { displayClue } from '@/src/clues/jeopardyStyle';
 import { tapLight, tapMedium, notifyError, notifySuccess, notifyWarning } from '@/src/lib/haptics';
 import { gradeResponse, type GradeResult } from '@/src/scoring/answerGrader';
@@ -172,31 +172,20 @@ export default function TrainScreen() {
           <Text style={styles.progressText}>
             Clue {activeIndex + 1} of {questions.length}
           </Text>
-          <Pill tone="gold">{`$${activeQuestion.value}`}</Pill>
         </View>
         <View style={styles.progressTrack}>
           <View style={[styles.progressFill, { width: `${progress}%` }]} />
         </View>
 
-        <Card style={styles.board}>
-          <View style={styles.boardMetaRow}>
-            <Text style={styles.boardCategory}>{activeQuestion.category_name}</Text>
-            <Text style={styles.boardSub}>
-              {activeQuestion.subcategory_name ?? formatMechanic(activeQuestion.mechanic)}
-            </Text>
-          </View>
-          {activeQuestion.image_url ? (
-            <Image
-              source={{ uri: activeQuestion.image_url }}
-              style={styles.clueImage}
-              resizeMode="contain"
-              accessible
-              accessibilityLabel="Clue image"
-            />
-          ) : null}
-          <Text style={styles.clueText}>{displayClue(activeQuestion)}</Text>
-          {activeQuestion.constraint_text ? <Text style={styles.constraintText}>{activeQuestion.constraint_text}</Text> : null}
-        </Card>
+        <ClueCard
+          categoryId={activeQuestion.category_id}
+          categoryName={activeQuestion.category_name}
+          subcategoryName={activeQuestion.subcategory_name ?? formatMechanic(activeQuestion.mechanic)}
+          rank={activeQuestion.difficulty_rank}
+          clue={displayClue(activeQuestion)}
+          imageUrl={activeQuestion.image_url}
+        />
+        {activeQuestion.constraint_text ? <Text style={styles.constraintText}>{activeQuestion.constraint_text}</Text> : null}
 
         <View style={styles.answerBlock}>
           <TextInput
@@ -464,41 +453,6 @@ const styles = StyleSheet.create({
     backgroundColor: colors.gold,
   },
 
-  board: {
-    minHeight: 150,
-    gap: spacing.md,
-    justifyContent: 'center',
-    borderColor: colors.boardEdge,
-    backgroundColor: colors.board,
-    paddingVertical: spacing.lg,
-  },
-  boardMetaRow: {
-    alignItems: 'center',
-    gap: 4,
-  },
-  boardCategory: {
-    ...type.overline,
-    color: colors.boardInk,
-    textAlign: 'center',
-  },
-  boardSub: {
-    ...type.caption,
-    color: colors.boardMeta,
-    textAlign: 'center',
-  },
-  clueImage: {
-    width: '100%',
-    height: 220,
-    borderRadius: radius.md,
-    backgroundColor: colors.surfaceAlt,
-  },
-  clueText: {
-    fontSize: 21,
-    lineHeight: 29,
-    fontWeight: '700',
-    color: colors.boardInk,
-    textAlign: 'center',
-  },
   constraintText: {
     ...type.label,
     color: colors.gold,
