@@ -27,6 +27,7 @@ data/sourcing/harvest-log.jsonl
 data/acquisition/feedback-issue-audit.*
 data/acquisition/source-verification-*
 data/acquisition/grader-override-mining.*
+data/acquisition/clue-edits.*
 
 # os
 .DS_Store
