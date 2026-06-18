@@ -96,4 +96,34 @@ begin
   );
 end; $$;
 
-grant execute on function public.finalize_game(uuid), public.get_game(uuid) to authenticated;
+-- 3. Duel scoring is difficulty-based too: points = difficulty rank (1-5) on a
+--    correct answer, NOT the Jeopardy dollar value. (finalize_game sums points,
+--    so match totals follow automatically.) Same body as 014 otherwise.
+create or replace function public.submit_game_attempt(
+  p_game uuid, p_question uuid, p_response text, p_grade attempt_grade, p_time_ms int default null
+)
+returns void language plpgsql security definer set search_path = public as $$
+declare g games%rowtype; me uuid := auth.uid(); v_pts int; v_size int;
+begin
+  select * into g from games where id = p_game;
+  if not found or me not in (g.creator_id, g.opponent_id) then raise exception 'not your game'; end if;
+  if g.status <> 'active' then raise exception 'game is not active'; end if;
+  if not (p_question = any(g.question_ids)) then raise exception 'question not in this game'; end if;
+
+  select case when p_grade = 'correct' then q.difficulty_rank else 0 end into v_pts
+  from questions q where q.id = p_question;
+
+  insert into game_attempts (game_id, user_id, question_id, typed_response, grade, points, time_ms)
+  values (p_game, me, p_question, p_response, p_grade, coalesce(v_pts, 0), p_time_ms)
+  on conflict (game_id, user_id, question_id) do nothing;
+
+  v_size := coalesce(array_length(g.question_ids, 1), 0);
+  if g.opponent_id is not null
+     and (select count(*) from game_attempts where game_id = p_game and user_id = g.creator_id)  >= v_size
+     and (select count(*) from game_attempts where game_id = p_game and user_id = g.opponent_id) >= v_size
+  then
+    perform public.finalize_game(p_game);
+  end if;
+end; $$;
+
+grant execute on function public.finalize_game(uuid), public.get_game(uuid), public.submit_game_attempt(uuid, uuid, text, attempt_grade, int) to authenticated;

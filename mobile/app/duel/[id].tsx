@@ -3,11 +3,11 @@ import { useCallback, useState } from 'react';
 import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { ChallengePlayer } from '@/src/components/ChallengePlayer';
-import { Card, Header, Pill, PrimaryAction, Screen } from '@/src/components/ui';
+import { Card, DifficultyPips, Header, Pill, PrimaryAction, Screen } from '@/src/components/ui';
 import { tapMedium } from '@/src/lib/haptics';
 import { createGame, getGame, submitGameAttempt } from '@/src/services/triviaApi';
 import { supabase } from '@/src/services/supabase';
-import { colors, radius, spacing, type } from '@/src/theme';
+import { accentFor, colors, radius, spacing, type } from '@/src/theme';
 import type { AttemptGrade, DailyAttempt, GamePayload } from '@/src/types/supabase';
 
 type Verdict = 'win' | 'loss' | 'draw' | 'waiting';
@@ -115,12 +115,14 @@ export default function DuelScreen() {
       {game.questions.map((q) => {
         const mine = game.my_attempts.find((a) => a.question_id === q.id);
         const theirs = game.opponent_attempts.find((a) => a.question_id === q.id);
+        const accent = accentFor(q.category_id);
         return (
           <View key={q.id} style={styles.clue}>
-            <Text style={styles.val}>{q.value ? `$${q.value}` : ''}</Text>
+            <View style={[styles.rail, { backgroundColor: accent }]} />
+            <View style={styles.diff}><DifficultyPips rank={q.difficulty_rank} tone={accent} /></View>
             <View style={styles.ci}>
               <Text style={styles.ans} numberOfLines={1}>{q.answer}</Text>
-              <Text style={styles.cat} numberOfLines={1}>{q.category_name}{q.subcategory_name ? ` · ${q.subcategory_name}` : ''}</Text>
+              <Text style={[styles.cat, { color: accent }]} numberOfLines={1}>{q.category_name}{q.subcategory_name ? ` · ${q.subcategory_name}` : ''}</Text>
             </View>
             <View style={styles.marks}>
               <Mark grade={mine?.grade} />
@@ -198,11 +200,12 @@ const styles = StyleSheet.create({
   note: { ...type.caption, color: colors.muted, backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, padding: spacing.sm },
 
   sec: { ...type.overline, color: colors.muted, marginTop: spacing.sm, marginLeft: 4 },
-  clue: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, padding: 11, borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, backgroundColor: colors.surface },
-  val: { minWidth: 42, ...type.label, color: colors.gold, fontWeight: '800' },
+  clue: { position: 'relative', flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 11, paddingRight: 12, paddingLeft: 16, borderWidth: 1, borderColor: colors.line, borderRadius: radius.md, backgroundColor: colors.surface, overflow: 'hidden' },
+  rail: { position: 'absolute', left: 0, top: 0, bottom: 0, width: 4 },
+  diff: { width: 62, flex: 0 },
   ci: { flex: 1, minWidth: 0 },
   ans: { ...type.bodyStrong, color: colors.ink },
-  cat: { ...type.caption, color: colors.dim, marginTop: 1 },
+  cat: { ...type.caption, marginTop: 2, fontWeight: '600' },
   marks: { flexDirection: 'row', gap: 7 },
   mk: { width: 26, height: 26, borderRadius: 8, alignItems: 'center', justifyContent: 'center' },
   mkOk: { backgroundColor: colors.greenSoft },
