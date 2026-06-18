@@ -38,8 +38,8 @@
       "external_id": "wp-draft-2026-06-17-002",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
       "clue": "February is the month for Valentine's charm, but beware the ides of this month.",
@@ -111,14 +111,13 @@
       "difficulty_rank": 2,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "When life gives you lemons, perhaps bite into this larger summer fruit instead.",
-      "answer": "Melon",
+      "clue": "When life gives you lemons, perhaps bite into these larger summer fruits instead.",
+      "answer": "Melons",
       "aliases": [
-        "Watermelon",
-        "Cantaloupe"
+        "Melon"
       ],
       "wp": {
-        "scramble": "lemon"
+        "scramble": "lemons"
       },
       "tags": [
         "wp-draft",
