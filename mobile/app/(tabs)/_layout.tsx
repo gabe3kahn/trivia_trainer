@@ -60,17 +60,10 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="daily"
+        name="compete"
         options={{
-          title: 'Daily',
-          tabBarIcon: ({ color }) => <TabIcon name="calendar" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="social"
-        options={{
-          title: 'Social',
-          tabBarIcon: ({ color }) => <TabIcon name="users" color={color} />,
+          title: 'Compete',
+          tabBarIcon: ({ color }) => <TabIcon name="trophy" color={color} />,
         }}
       />
       <Tabs.Screen

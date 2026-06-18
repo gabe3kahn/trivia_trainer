@@ -224,3 +224,83 @@ export type RecommendedQuestion = {
   image_attribution: string | null;
   answer_detail: string | null;
 };
+
+/* ---- Compete (014 multiplayer + 017 daily challenge) ---------------------- */
+
+// Clue payload returned by get_daily_challenge / get_game. Same fields as a clue in
+// the Train flow MINUS `value` (points are computed server-side on submit).
+export type ChallengeQuestion = {
+  id: string;
+  category_id: string;
+  category_name: string;
+  subcategory_name: string | null;
+  difficulty_rank: number;
+  mechanic: string;
+  constraint_text: string | null;
+  clue: string;
+  answer: string;
+  aliases: string[];
+  image_url: string | null;
+  answer_detail: string | null;
+};
+
+export type DailyAttempt = { question_id: string; grade: AttemptGrade; points: number };
+
+export type DailyChallenge = {
+  challenge_date: string;
+  set_size: number;
+  seconds_per_question: number;
+  questions: ChallengeQuestion[];
+  my_attempts: DailyAttempt[];
+  completed: boolean;
+};
+
+export type LeaderboardRow = {
+  user_id: string;
+  display_name: string | null;
+  username: string | null;
+  avatar_url: string | null;
+  score: number;
+  correct: number;
+  total_time_ms: number;
+  completed: boolean;
+  is_me: boolean;
+};
+
+export type FriendRow = { id: string; username: string | null; display_name: string | null; avatar_url: string | null };
+export type UserSearchRow = FriendRow & { status: 'none' | 'pending' | 'accepted' | 'blocked' };
+
+export type GameSummary = {
+  id: string;
+  status: 'pending' | 'active' | 'completed' | 'expired';
+  mode: string;
+  set_size: number;
+  opponent_id: string | null;
+  opponent_name: string | null;
+  opponent_username: string | null;
+  opponent_avatar: string | null;
+  is_creator: boolean;
+  your_turn: boolean;
+  my_answered: number;
+  their_answered: number;
+  creator_score: number;
+  opponent_score: number;
+  winner_id: string | null;
+  created_at: string;
+  expires_at: string | null;
+};
+
+export type GamePayload = {
+  id: string;
+  status: string;
+  creator_id: string;
+  opponent_id: string | null;
+  winner_id: string | null;
+  creator_score: number;
+  opponent_score: number;
+  expires_at: string | null;
+  set_size: number;
+  questions: ChallengeQuestion[];
+  my_attempts: DailyAttempt[];
+  opponent_answered: number;
+};

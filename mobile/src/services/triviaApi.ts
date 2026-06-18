@@ -1,5 +1,8 @@
 import { supabase } from '@/src/services/supabase';
-import type { AttemptGrade, RecommendedQuestion, SessionMode } from '@/src/types/supabase';
+import type {
+  AttemptGrade, RecommendedQuestion, SessionMode,
+  DailyChallenge, LeaderboardRow, FriendRow, UserSearchRow, GameSummary, GamePayload,
+} from '@/src/types/supabase';
 
 export async function fetchHomeCompetencies() {
   const { data, error } = await supabase
@@ -155,6 +158,92 @@ export async function submitPracticeAttempt({
 
   if (error) throwSupabaseError(error);
   return data;
+}
+
+/* ---- Daily Challenge (017) ------------------------------------------------ */
+export async function getDailyChallenge(date?: string): Promise<DailyChallenge> {
+  const { data, error } = await (supabase.rpc as any)('get_daily_challenge', date ? { p_date: date } : {});
+  if (error) throwSupabaseError(error);
+  return data as DailyChallenge;
+}
+
+export async function submitDailyAttempt(args: {
+  date: string; questionId: string; response: string | null; grade: AttemptGrade; timeMs: number | null;
+}) {
+  const { error } = await (supabase.rpc as any)('submit_daily_attempt', {
+    p_date: args.date, p_question: args.questionId, p_response: args.response,
+    p_grade: args.grade, p_time_ms: args.timeMs,
+  });
+  if (error) throwSupabaseError(error);
+}
+
+export async function getDailyLeaderboard(date?: string): Promise<LeaderboardRow[]> {
+  const { data, error } = await (supabase.rpc as any)('get_daily_leaderboard', date ? { p_date: date } : {});
+  if (error) throwSupabaseError(error);
+  return (data ?? []) as LeaderboardRow[];
+}
+
+export async function getDailyStreak(): Promise<number> {
+  const { data, error } = await (supabase.rpc as any)('daily_streak', {});
+  if (error) throwSupabaseError(error);
+  return (data ?? 0) as number;
+}
+
+/* ---- Friends (014) -------------------------------------------------------- */
+export async function searchUsers(q: string): Promise<UserSearchRow[]> {
+  const { data, error } = await (supabase.rpc as any)('search_users', { p_q: q });
+  if (error) throwSupabaseError(error);
+  return (data ?? []) as UserSearchRow[];
+}
+export async function listFriends(): Promise<FriendRow[]> {
+  const { data, error } = await (supabase.rpc as any)('list_friends', {});
+  if (error) throwSupabaseError(error);
+  return (data ?? []) as FriendRow[];
+}
+export async function sendFriendRequest(addresseeId: string): Promise<string> {
+  const { data, error } = await (supabase.rpc as any)('send_friend_request', { p_addressee: addresseeId });
+  if (error) throwSupabaseError(error);
+  return data as string;
+}
+export async function respondFriendRequest(id: string, accept: boolean) {
+  const { error } = await (supabase.rpc as any)('respond_friend_request', { p_id: id, p_accept: accept });
+  if (error) throwSupabaseError(error);
+}
+export async function createInvite(): Promise<string> {
+  const { data, error } = await (supabase.rpc as any)('create_invite', {});
+  if (error) throwSupabaseError(error);
+  return data as string;
+}
+
+/* ---- Duels (014) ---------------------------------------------------------- */
+export async function listGames(status?: string): Promise<GameSummary[]> {
+  const { data, error } = await (supabase.rpc as any)('list_games', status ? { p_status: status } : {});
+  if (error) throwSupabaseError(error);
+  return (data ?? []) as GameSummary[];
+}
+export async function createGame(args: {
+  opponentId: string; count?: number; categories?: string[] | null; mechanics?: string[] | null;
+}): Promise<string> {
+  const { data, error } = await (supabase.rpc as any)('create_game', {
+    p_opponent: args.opponentId, p_count: args.count ?? 6,
+    p_categories: args.categories ?? null, p_mechanics: args.mechanics ?? null,
+  });
+  if (error) throwSupabaseError(error);
+  return data as string;
+}
+export async function getGame(gameId: string): Promise<GamePayload> {
+  const { data, error } = await (supabase.rpc as any)('get_game', { p_game: gameId });
+  if (error) throwSupabaseError(error);
+  return data as GamePayload;
+}
+export async function submitGameAttempt(args: {
+  gameId: string; questionId: string; response: string | null; grade: AttemptGrade; timeMs: number | null;
+}) {
+  const { error } = await (supabase.rpc as any)('submit_game_attempt', {
+    p_game: args.gameId, p_question: args.questionId, p_response: args.response,
+    p_grade: args.grade, p_time_ms: args.timeMs,
+  });
+  if (error) throwSupabaseError(error);
 }
 
 function throwSupabaseError(error: { message?: string; code?: string; details?: string; hint?: string }): never {
