@@ -25,7 +25,10 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "silent"
+      }
     },
     {
       "source": "constructed",
@@ -46,7 +49,10 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "thing"
+      }
     },
     {
       "source": "constructed",
@@ -67,7 +73,10 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "state"
+      }
     },
     {
       "source": "constructed",
@@ -88,7 +97,10 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "earth"
+      }
     },
     {
       "source": "constructed",
@@ -109,7 +121,10 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "dusty"
+      }
     },
     {
       "source": "constructed",
@@ -130,7 +145,10 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "stressed"
+      }
     },
     {
       "source": "constructed",
@@ -151,7 +169,10 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "a rope"
+      }
     },
     {
       "source": "constructed",
@@ -172,7 +193,10 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "the eyes"
+      }
     },
     {
       "source": "constructed",
@@ -193,7 +217,11 @@
         "before-after"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Muhammad Ali",
+        "second": "Ali Baba"
+      }
     },
     {
       "source": "constructed",
@@ -214,7 +242,11 @@
         "before-after"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Tom Cruise",
+        "second": "cruise control"
+      }
     },
     {
       "source": "constructed",
@@ -235,7 +267,11 @@
         "before-after"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Jack Black",
+        "second": "Black Widow"
+      }
     },
     {
       "source": "constructed",
@@ -256,7 +292,11 @@
         "before-after"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Harrison Ford",
+        "second": "Ford Mustang"
+      }
     },
     {
       "source": "constructed",
@@ -277,7 +317,11 @@
         "before-after"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Stephen King",
+        "second": "King Kong"
+      }
     }
   ]
 }

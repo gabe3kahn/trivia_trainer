@@ -81,6 +81,7 @@ function buildAnagram(item, i) {
     answer: item.answer,
     value: item.value,
     tags: ['wordplay', 'constructed', 'anagram'],
+    wp: { scramble: item.scramble },
   });
 }
 
@@ -100,6 +101,7 @@ function buildBeforeAfter(item, i) {
     answer,
     value: item.value,
     tags: ['wordplay', 'constructed', 'before-after'],
+    wp: { first: item.first, second: item.second },
   });
 }
 
@@ -128,6 +130,7 @@ function finalize(q) {
     tags: q.tags,
     citations: [],
     verification_status: 'skipped', // constructed — nothing to source-verify
+    wp: q.wp, // validation provenance (scramble / first+second) for validate-wordplay.mjs
   };
 }
 
