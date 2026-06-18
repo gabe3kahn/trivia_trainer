@@ -41,9 +41,6 @@
     "language_wordplay": [
       "Anagrams",
       "Before & After",
-      "Definitions",
-      "Etymology",
-      "Foreign Words & Phrases",
       "Grammar & Usage",
       "Homophones & Soundalikes",
       "Initials & Abbreviations",
@@ -122,6 +119,11 @@
       "Tennis & Golf",
       "Toys & Games",
       "Video Games & Esports"
+    ],
+    "words_language": [
+      "Definitions",
+      "Etymology",
+      "Foreign Words & Phrases"
     ]
   }
 }

@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-06-18",
+  "provider": "constructed",
+  "category_id": "language_wordplay",
+  "notes": [
+    "Constructed wordplay (anagrams + Before & After). Not source-grounded; validated structurally by build-wordplay-pack.mjs."
+  ],
+  "questions": [
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Something you might be doing with your ears while you are silent",
+      "answer": "listen",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "silent"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "The thing that falls over the dark half of the day",
+      "answer": "night",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "thing"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "State the sense centered on the tongue",
+      "answer": "taste",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "state"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "The meek will inherit the earth, not the faint of this",
+      "answer": "heart",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "earth"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "A dusty desk is a bad place to do this before an exam",
+      "answer": "study",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "dusty"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-06",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Careful not to eat too much of this when you are stressed",
+      "answer": "desserts",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "stressed"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-07",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "You won’t need a rope to get tied up in the drama of this all-sung art form",
+      "answer": "opera",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "a rope"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-ana-08",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": null,
+      "clue": "Use the eyes to do what they do",
+      "answer": "they see",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "the eyes"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "The boxer who floated like a butterfly says \"open sesame\" before stinging like a bee",
+      "answer": "Muhammad Ali Baba",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Muhammad Ali",
+        "second": "Ali Baba"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "The Top Gun star needs to hold his jet at a steady speed",
+      "answer": "Tom Cruise control",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Tom Cruise",
+        "second": "cruise control"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "The School of Rock teacher inducts a red-headed Avenger as his star pupil",
+      "answer": "Jack Black Widow",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Jack Black",
+        "second": "Black Widow"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "The archaeologist actor digs up the frame of a classic muscle car",
+      "answer": "Harrison Ford Mustang",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Harrison Ford",
+        "second": "Ford Mustang"
+      }
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-001-baf-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": null,
+      "clue": "The horror novelist adds a giant ape to the top of his Dark Tower",
+      "answer": "Stephen King Kong",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "constructed",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "first": "Stephen King",
+        "second": "King Kong"
+      }
+    }
+  ]
+}

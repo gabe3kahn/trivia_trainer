@@ -1,4 +1,4 @@
-import type { TextStyle } from 'react-native';
+import { Platform, type TextStyle } from 'react-native';
 
 /**
  * Design tokens for Trivia Trainer.
@@ -105,4 +105,37 @@ export function scoreColor(score: number) {
   if (score >= 60) return colors.teal;
   if (score >= 40) return colors.gold;
   return colors.red;
+}
+
+/**
+ * Serif face for clue text — gives clues an editorial/quiz feel (distinct from
+ * the game-show look) without bundling a font file. Georgia ships on iOS.
+ */
+export const serifFont = Platform.select({ ios: 'Georgia', android: 'serif', default: 'serif' });
+
+/**
+ * Per-category accent. Drives the clue card's color identity (rail + label +
+ * difficulty pips) and category chips. Falls back to gold for anything unmapped.
+ */
+export const categoryColor: Record<string, string> = {
+  history: '#E0973A',
+  geography: '#34D399',
+  science: '#2DD4BF',
+  arts_visual_culture: '#A78BFA',
+  literature_books: '#FB7185',
+  music_performing_arts: '#F472B6',
+  language_wordplay: '#60A5FA',
+  words_language: '#7DD3FC',
+  pop_culture_media_modern_life: '#FB923C',
+  religion_mythology_philosophy: '#818CF8',
+  sports_games_leisure: '#A3E635',
+};
+
+export function accentFor(categoryId?: string | null) {
+  return (categoryId && categoryColor[categoryId]) || colors.gold;
+}
+
+/** Difficulty rank (1–5) → short tier word, shown next to the pips. */
+export function difficultyTier(rank: number) {
+  return ['—', 'Easy', 'Medium', 'Hard', 'Expert', 'Master'][Math.max(0, Math.min(5, Math.round(rank)))];
 }

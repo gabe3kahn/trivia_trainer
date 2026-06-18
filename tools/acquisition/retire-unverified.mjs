@@ -12,7 +12,9 @@
 
 import { createSupabaseRequest, fetchAllSupabaseRows, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
 
-const KEEP = ['original_sourced', 'deck_import'];
+// 'constructed' = wordplay (anagrams / Before & After) built and validated by
+// build-wordplay-pack.mjs — not source-grounded but legitimately ours; keep it.
+const KEEP = ['original_sourced', 'deck_import', 'constructed'];
 const apply = process.argv.includes('--apply');
 
 await loadDefaultEnv(process.cwd());
