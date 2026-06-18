@@ -90,7 +90,7 @@
   <p class="sub">Shown after a head-to-head duel finalizes (both players answered all 6, or it expired). Verdict banner →
   the two scorelines → clue-by-clue who-got-what (you vs. them) → rematch. Decisions baked in: <b>winner = higher score, then
   more-correct, then a genuine draw</b> (no time tiebreak); the per-clue timer is the same 30s as the daily challenge; grade
-  self-correction is disabled in duels. Three states below: win, draw, and the in-progress "waiting on them" interstitial.</p>
+  self-correction is disabled in duels. Four states below: win, loss, draw, and the in-progress "waiting on them" interstitial.</p>
 
   <div class="row">
 
@@ -130,7 +130,43 @@
       </div></div>
     </div>
 
-    <!-- ============ STATE 2: DRAW ============ -->
+    <!-- ============ STATE 2: LOSS ============ -->
+    <div class="case">
+      <div class="label"><b>Loss</b> — they outscored you</div>
+      <div class="phone"><div class="notch"></div><div class="scrn">
+        <div class="stat"><span>9:41</span><span class="r">5G ▰▰▰</span></div>
+        <div class="body">
+          <div class="nav-h"><a class="x" href="#">✕</a><span class="t">Duel · final</span><span style="width:18px"></span></div>
+
+          <div class="banner loss">
+            <div class="crown">🙃</div>
+            <div class="verdict">Defeat</div>
+            <div class="vs">
+              <div class="pl me"><div class="ava you">G</div><div class="nm">You</div><div class="sc">1,000</div></div>
+              <div class="dash">–</div>
+              <div class="pl"><div class="ava opp">S</div><div class="nm">Sofia</div><div class="sc">1,400</div></div>
+            </div>
+            <div class="meta">You answered 3 of 6 · Sofia 4 of 6</div>
+          </div>
+
+          <div class="legend2">you&nbsp;<b>◧</b>&nbsp;&nbsp;them&nbsp;<b>◨</b></div>
+          <div class="sec">Clue by clue</div>
+
+          <div class="clue"><div class="val">$200</div><div class="ci"><div class="ans">Poker</div><div class="cat">Sports &amp; Games · Card Games</div></div><div class="marks"><div class="mk ok">✓</div><div class="mk ok">✓</div></div></div>
+          <div class="clue"><div class="val">$200</div><div class="ci"><div class="ans">Palindrome</div><div class="cat">Words &amp; Language · Definitions</div></div><div class="marks"><div class="mk ok">✓</div><div class="mk ok">✓</div></div></div>
+          <div class="clue"><div class="val">$400</div><div class="ci"><div class="ans">Déjà vu</div><div class="cat">Words &amp; Language · Foreign Phrases</div></div><div class="marks"><div class="mk no">✕</div><div class="mk ok">✓</div></div></div>
+          <div class="clue"><div class="val">$600</div><div class="ci"><div class="ans">Caveat emptor</div><div class="cat">Words &amp; Language · Foreign Phrases</div></div><div class="marks"><div class="mk ok">✓</div><div class="mk ok">✓</div></div></div>
+          <div class="clue"><div class="val">$800</div><div class="ci"><div class="ans">Malapropism</div><div class="cat">Words &amp; Language · Definitions</div></div><div class="marks"><div class="mk no">✕</div><div class="mk no">✕</div></div></div>
+          <div class="clue"><div class="val">$800</div><div class="ci"><div class="ans">Lingua franca</div><div class="cat">Words &amp; Language · Foreign Phrases</div></div><div class="marks"><div class="mk no">✕</div><div class="mk no">✕</div></div></div>
+        </div>
+        <div class="foot">
+          <button class="btn gold">Rematch Sofia</button>
+          <button class="btn ghost">Back to Compete</button>
+        </div>
+      </div></div>
+    </div>
+
+    <!-- ============ STATE 3: DRAW ============ -->
     <div class="case">
       <div class="label"><b>Draw</b> — equal score &amp; equal correct (no time tiebreak)</div>
       <div class="phone"><div class="notch"></div><div class="scrn">
@@ -166,7 +202,7 @@
       </div></div>
     </div>
 
-    <!-- ============ STATE 3: WAITING (you finished, they haven't) ============ -->
+    <!-- ============ STATE 4: WAITING (you finished, they haven't) ============ -->
     <div class="case">
       <div class="label"><b>Waiting</b> — you finished, opponent hasn't (no result yet)</div>
       <div class="phone"><div class="notch"></div><div class="scrn">
