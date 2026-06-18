@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-06-17",
+  "provider": "original_sourced",
+  "notes": [
+    "Re-homed from the dropped language_wordplay draft: clues that are really subject clues (food/science/games), moved to their correct categories; answer-leaking definitions reworded."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Umami",
+      "external_id": "lw-draft-2026-06-17-002",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often described as savory or brothy, this is the fifth basic taste recognized by scientists, joining sweet, sour, salty, and bitter as one of five fundamental flavors.",
+      "answer": "umami",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "loanwords"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Umami",
+          "url": "https://en.wikipedia.org/wiki/Umami",
+          "snippet": "Umami, or savoriness, is one of the five basic tastes. It is characteristic of broths and cooked meats."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T01:13:13.042Z",
+      "reviewer_note": "Source fact: 'Umami, or savoriness, is one of the five basic tastes.' (umami.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Brandy",
+      "external_id": "lw-draft-2026-06-17-006",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Cognac and Armagnac from southwestern France are the most celebrated varieties of this distilled spirit, known in French as eau de vie — literally 'water of life.'",
+      "answer": "brandy",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "foreign-words",
+        "french-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Brandy",
+          "url": "https://en.wikipedia.org/wiki/Brandy",
+          "snippet": "Brandy is a liquor produced by distilling wine. Brandy generally contains 35–60% alcohol by volume and is typically consumed as an after-dinner digestif. Some brandies are aged in wooden casks. Others are coloured with caramel colouring to "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T01:13:13.547Z",
+      "reviewer_note": "Source facts: 'Brandy is a liquor produced by distilling wine.' / 'Among the most renowned are Cognac and Armagnac from southwestern France.' / 'also called eau de vie (literally \"water of life\" in French).' (brandy.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tarot",
+      "external_id": "lw-draft-2026-06-17-005",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First called trionfi — 'triumphs' — in 15th-century Italian card games, these 78-card decks spread across Europe before French occultists in the 18th century recast them as instruments of divination.",
+      "answer": "tarot",
+      "aliases": [
+        "tarot cards"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "etymology",
+        "foreign-words"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tarot",
+          "url": "https://en.wikipedia.org/wiki/Tarot",
+          "snippet": "Tarot is a set of playing cards used in tarot games and in fortune-telling or divination. From at least the mid-15th century, the tarot was used to play trick-taking card games such as Tarocchini. From their Italian roots, tarot games sprea"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T01:13:14.039Z",
+      "reviewer_note": "Source fact: 'Tarot, first known as trionfi and later as tarocchi...From at least the mid-15th century, the tarot was used to play trick-taking card games...The emergence of custom decks for use in divination...began after French occultists made elaborate, but unsubstantiated, claims about their history.' (tarot-cards.json extract). Note: clue omits 'tarocchi' (stem-adjacent to 'tarot') and uses only 'trionfi' as the Italian antecedent."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Contraindication",
+      "external_id": "lw-draft-2026-06-17-008",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In clinical medicine, this term names any condition that renders a proposed treatment harmful rather than beneficial — coming in absolute and relative varieties depending on the severity of the risk.",
+      "answer": "contraindication",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "medical-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Contraindication",
+          "url": "https://en.wikipedia.org/wiki/Contraindication",
+          "snippet": "In medicine, a contraindication is a condition that serves as a reason not to take a certain medical treatment due to the harm that it would cause the patient. Contraindication is the opposite of indication, which is a reason to use a certa"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T01:13:14.515Z",
+      "reviewer_note": "Source facts: 'a contraindication is a condition...that serves as a reason not to take a certain medical treatment due to the harm that it would cause the patient.' / 'Absolute contraindications...no reasonable circumstances for undertaking a course of action.' / 'Relative contraindications...patient is at higher risk of complications.' (contraindication.json extract)"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Taiga",
+      "external_id": "lw-draft-2026-06-17-004",
+      "category_id": "science",
+      "subcategory_name": "Earth Science",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This biome of conifers — pines, spruces, and larches — is the world’s largest land biome, ringing the subarctic across Canada, Scandinavia, and Russia.",
+      "answer": "taiga",
+      "aliases": [],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "loanwords"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Taiga",
+          "url": "https://en.wikipedia.org/wiki/Taiga",
+          "snippet": "Taiga or tayga, also known as boreal forest or snow forest, is a biome characterized by coniferous forests consisting mostly of pines, spruces, and larches."
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source fact: 'Taiga or tayga, also known as boreal forest or snow forest, is a biome characterized by coniferous forests consisting mostly of pines, spruces, and larches. The taiga, or boreal forest, is the world's largest land biome.' (taiga.json extract)",
+      "verified_at": "2026-06-18T01:13:15.080Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nacre",
+      "external_id": "lw-draft-2026-06-17-001",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Produced by certain molluscs to line the inside of their shells, this iridescent material is the same substance that forms a pearl.",
+      "answer": "nacre",
+      "aliases": [
+        "mother of pearl"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "definitions",
+        "vocabulary"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nacre",
+          "url": "https://en.wikipedia.org/wiki/Nacre",
+          "snippet": "Nacre, also known as mother-of-pearl, is an organic–inorganic composite material produced by some molluscs as an inner shell layer. It is also the material of which pearls are composed. It is strong, resilient, and iridescent."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: 'Nacre, also known as mother-of-pearl, is an organic–inorganic composite material produced by some molluscs as an inner shell layer. It is also the material of which pearls are composed.' (nacre.json extract)",
+      "verified_at": "2026-06-18T01:13:15.558Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Timbuktu",
+      "external_id": "lw-draft-2026-06-17-007",
+      "category_id": "geography",
+      "subcategory_name": "Landmarks & UNESCO Sites",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Though this ancient Malian city actually sits just 20 kilometers north of the Niger River, its name entered English as a byword for an impossibly remote or inaccessible location.",
+      "answer": "Timbuktu",
+      "aliases": [
+        "Tombouctou"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "idioms",
+        "toponyms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Timbuktu",
+          "url": "https://en.wikipedia.org/wiki/Timbuktu",
+          "snippet": "Timbuktu is an ancient city in Mali, situated 20 kilometres north of the Niger River. It is the capital of the Tombouctou Region, one of the 19 administrative regions of Mali, having a population of around one million people in the 2022 cen"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-18T01:13:16.023Z",
+      "reviewer_note": "Source fact: 'Timbuktu is an ancient city in Mali, situated 20 kilometres (12 miles) north of the Niger River.' (timbuktu.json extract). The idiomatic use of 'Timbuktu' is widely attested in English; the source grounds the city's actual location, providing the clue's contrast."
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Elbert_Henry_Gary",
+      "external_id": "lw-draft-2026-06-17-011",
+      "category_id": "geography",
+      "subcategory_name": "U.S. States & Cities",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded in 1906 as a company town for U.S. Steel, this Indiana city on Lake Michigan took its name from the corporation’s founding chairman.",
+      "answer": "Gary",
+      "aliases": [
+        "Gary, Indiana"
+      ],
+      "tags": [
+        "language-wordplay-draft",
+        "sourced",
+        "etymology",
+        "eponyms",
+        "place-names"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gary, Indiana",
+          "url": "https://en.wikipedia.org/wiki/Gary%2C_Indiana",
+          "snippet": "Gary is a city in Lake County, Indiana, United States. The population was 69,093 at the 2020 census, making it Indiana's eleventh-most populous city. The city has been historically dominated by major industrial activity and is home to U.S. "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-18T01:13:17.026Z"
+    }
+  ]
+}
