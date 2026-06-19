@@ -33,7 +33,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:44:37.708Z"
+      "verified_at": "2026-06-19T03:53:04.607Z"
     },
     {
       "source": "original_sourced",
@@ -62,7 +62,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:44:38.098Z"
+      "verified_at": "2026-06-19T03:53:04.982Z"
     },
     {
       "source": "original_sourced",
@@ -91,7 +91,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:38.486Z"
+      "verified_at": "2026-06-19T03:53:05.359Z"
     },
     {
       "source": "original_sourced",
@@ -120,7 +120,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:38.876Z"
+      "verified_at": "2026-06-19T03:53:05.741Z"
     },
     {
       "source": "original_sourced",
@@ -149,7 +149,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:44:39.250Z"
+      "verified_at": "2026-06-19T03:53:06.122Z"
     },
     {
       "source": "original_sourced",
@@ -178,7 +178,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:39.636Z"
+      "verified_at": "2026-06-19T03:53:06.503Z"
     },
     {
       "source": "original_sourced",
@@ -207,7 +207,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:44:40.023Z"
+      "verified_at": "2026-06-19T03:53:06.901Z"
     },
     {
       "source": "original_sourced",
@@ -236,7 +236,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:44:40.404Z"
+      "verified_at": "2026-06-19T03:53:07.284Z"
     },
     {
       "source": "original_sourced",
@@ -265,7 +265,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:40.789Z"
+      "verified_at": "2026-06-19T03:53:07.664Z"
     },
     {
       "source": "original_sourced",
@@ -294,7 +294,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:44:41.183Z"
+      "verified_at": "2026-06-19T03:53:08.052Z"
     },
     {
       "source": "original_sourced",
@@ -323,7 +323,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:44:41.559Z"
+      "verified_at": "2026-06-19T03:53:08.427Z"
     },
     {
       "source": "original_sourced",
@@ -354,7 +354,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:44:41.941Z"
+      "verified_at": "2026-06-19T03:53:08.797Z"
     },
     {
       "source": "original_sourced",
@@ -385,7 +385,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:42.320Z"
+      "verified_at": "2026-06-19T03:53:09.186Z"
     },
     {
       "source": "original_sourced",
@@ -416,7 +416,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:42.704Z"
+      "verified_at": "2026-06-19T03:53:09.556Z"
     },
     {
       "source": "original_sourced",
@@ -447,7 +447,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:43.090Z"
+      "verified_at": "2026-06-19T03:53:09.948Z"
     },
     {
       "source": "original_sourced",
@@ -476,7 +476,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:43.467Z"
+      "verified_at": "2026-06-19T03:53:10.330Z"
     },
     {
       "source": "original_sourced",
@@ -507,7 +507,36 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:44:43.859Z"
+      "verified_at": "2026-06-19T03:53:10.718Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mnemosyne",
+      "external_id": "rmp-draft-001-018",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Titaness — her name the Greek root of our very word for memory — lay with Zeus across nine straight nights and so became the mother of the nine Muses.",
+      "answer": "Mnemosyne",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mnemosyne",
+          "url": "https://en.wikipedia.org/wiki/Mnemosyne",
+          "snippet": "In Greek mythology, Mnemosyne was one of the Titans, who are the children of Uranus (Sky) and Gaia (Earth). She was the goddess of memory and the mother of the nine Muses by Zeus. The name Mnemosyne is derived from the Greek word mnēmē."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T03:53:11.091Z"
     }
   ]
 }
