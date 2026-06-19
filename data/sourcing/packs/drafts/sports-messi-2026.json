@@ -3,13 +3,13 @@
   "provider": "original_sourced",
   "category_id": "sports_games_leisure",
   "notes": [
-    "Single add (on-device request). Grounded in 'List of international goals scored by Lionel Messi', which states explicitly: 'His goal against Serbia and Montenegro, on 16 June 2006, at the age of 18 years and 358 days, made him the youngest-ever scorer for Argentina at a FIFA World Cup.' The same source lists his 2026 World Cup goal vs Algeria on 16 June 2026 — exactly 20 years to the day later.",
-    "Note on wording: the requested 'youngest AND oldest' framing isn't stated anywhere on Wikipedia (checked the Messi page, this goals list, 'Argentina at the FIFA World Cup', and 'FIFA World Cup records and statistics'); only the 'youngest' record is documented. So the clue uses the cited youngest record + the exactly-20-years-later 2026 goal, which carries the same youngest→oldest arc while staying fully source-grounded."
+    "Single add (on-device request). The 'youngest AND oldest player to score a World Cup goal for his country' record is documented by ESPN: 'Messi is now both the youngest and the oldest Argentinean player to score at a World Cup' (2026 World Cup overreactions/takeaways). The record is per-country — Messi is NOT the youngest/oldest World Cup scorer overall — so the clue keeps 'for his country' but deliberately omits 'Argentina' to make it harder.",
+    "Secondary Wikipedia support (youngest leg + the 2026 goal): 'List of international goals scored by Lionel Messi' states he was, at 18y358d on 16 June 2006, 'the youngest-ever scorer for Argentina at a FIFA World Cup,' and lists his 2026 goal vs Algeria on 16 June 2026."
   ],
   "questions": [
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/List_of_international_goals_scored_by_Lionel_Messi",
+      "source_url": "https://www.espn.com/soccer/story/_/id/49098972/world-cup-overreactions-takeaways-now-all-48-teams-played-first-games",
       "external_id": "sgl-messi-2026-001",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Soccer",
@@ -17,7 +17,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "His goal against Serbia and Montenegro on 16 June 2006 made him Argentina's youngest-ever World Cup scorer, at 18; exactly twenty years later he scored for Argentina again, at the 2026 World Cup.",
+      "clue": "After scoring at the 2026 World Cup, this soccer star became both the youngest and the oldest player ever to score a World Cup goal for his country.",
       "answer": "Lionel Messi",
       "aliases": [
         "Messi",
@@ -30,6 +30,12 @@
         "soccer"
       ],
       "citations": [
+        {
+          "source": "espn",
+          "title": "World Cup 2026 overreactions and takeaways",
+          "url": "https://www.espn.com/soccer/story/_/id/49098972/world-cup-overreactions-takeaways-now-all-48-teams-played-first-games",
+          "snippet": "Messi is now both the youngest and the oldest Argentinean player to score at a World Cup."
+        },
         {
           "source": "wikipedia",
           "title": "List of international goals scored by Lionel Messi",
