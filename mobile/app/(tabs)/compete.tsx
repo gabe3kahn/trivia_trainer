@@ -1,5 +1,5 @@
 import { router, useFocusEffect } from 'expo-router';
-import { useCallback, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Pressable, Share, StyleSheet, Text, TextInput, View } from 'react-native';
 
 import { ChallengePlayer } from '@/src/components/ChallengePlayer';
@@ -53,7 +53,15 @@ export default function CompeteScreen() {
     setPending(rows.map((r: any) => ({ id: r.id, name: nameOf.get(r.requester_id) ?? 'Someone' })));
   }
 
-  useFocusEffect(useCallback(() => { void load(); }, [load]));
+  // Re-focus refetch, but skip if we loaded very recently — switching tabs back
+  // and forth shouldn't fire 6 network calls each time. Friend/daily actions
+  // call load() explicitly, so this only debounces the passive focus refetch.
+  const lastLoad = useRef(0);
+  useFocusEffect(useCallback(() => {
+    if (Date.now() - lastLoad.current < 20000) return;
+    lastLoad.current = Date.now();
+    void load();
+  }, [load]));
 
   const answered = daily?.my_attempts.length ?? 0;
   const setSize = daily?.set_size ?? 0;

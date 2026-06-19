@@ -1,10 +1,11 @@
-import { useFocusEffect } from 'expo-router';
+import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 
-import { Avatar, BadgeCard, Card, Header, ManagementRow, MetricCard, Pill, ScoreRing, Screen, Section } from '@/src/components/ui';
+import { Avatar, BadgeCard, Card, CategoryScoreRow, Header, ManagementRow, MetricCard, Pill, ScoreRing, Screen, Section } from '@/src/components/ui';
+import type { CategoryScore } from '@/src/data/mockData';
 import { useAuth } from '@/src/contexts/AuthContext';
-import { fetchBadges, fetchEarnedBadges, fetchHomeCompetencies, fetchProfile } from '@/src/services/triviaApi';
+import { fetchBadges, fetchCategories, fetchEarnedBadges, fetchHomeCompetencies, fetchProfile } from '@/src/services/triviaApi';
 import { colors, scoreColor, spacing, type } from '@/src/theme';
 import type { Database } from '@/src/types/supabase';
 
@@ -12,12 +13,16 @@ type Profile = Database['public']['Tables']['profiles']['Row'];
 type Badge = Database['public']['Tables']['badges']['Row'];
 type EarnedBadge = Database['public']['Tables']['user_badges']['Row'];
 type Competency = Database['public']['Tables']['category_competencies']['Row'];
+type Category = Database['public']['Tables']['categories']['Row'];
 
 export default function ProfileScreen() {
   const { signOut, user } = useAuth();
+  const router = useRouter();
   const [profile, setProfile] = useState<Profile | null>(null);
   const [badges, setBadges] = useState<Badge[]>([]);
   const [earnedBadges, setEarnedBadges] = useState<EarnedBadge[]>([]);
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [competencies, setCompetencies] = useState<Competency[]>([]);
   const [attempts, setAttempts] = useState(0);
   const [overallScore, setOverallScore] = useState(0);
   const [overallTier, setOverallTier] = useState('unmapped');
@@ -26,24 +31,27 @@ export default function ProfileScreen() {
 
   const loadProfile = useCallback(async () => {
     try {
-      const [profileRow, badgeRows, earnedRows, competencies] = await Promise.all([
+      const [profileRow, badgeRows, earnedRows, competencyData, categoryRows] = await Promise.all([
         fetchProfile(),
         fetchBadges(),
         fetchEarnedBadges(),
         fetchHomeCompetencies(),
+        fetchCategories(),
       ]);
 
-      const competencyRows = (competencies ?? []) as Competency[];
+      const competencyRows = (competencyData ?? []) as Competency[];
       const overall = competencyRows.find((item) => item.dimension_type === 'overall');
-      const categories = competencyRows.filter((item) => item.dimension_type === 'category');
+      const categoryComps = competencyRows.filter((item) => item.dimension_type === 'category');
 
       setProfile(profileRow);
       setBadges(badgeRows ?? []);
       setEarnedBadges(earnedRows ?? []);
+      setCategories(categoryRows ?? []);
+      setCompetencies(competencyRows);
       setAttempts(overall?.attempts ?? 0);
       setOverallScore(overall?.score ?? 0);
       setOverallTier(overall?.tier ?? 'unmapped');
-      setStrongCount(categories.filter((item) => item.score >= 75).length);
+      setStrongCount(categoryComps.filter((item) => item.score >= 75).length);
     } finally {
       setLoading(false);
     }
@@ -70,6 +78,35 @@ export default function ProfileScreen() {
         ? { label: 'Building confidence', tone: 'gold' as const }
         : { label: 'Low confidence', tone: 'default' as const };
 
+  // Per-category competency rows (moved here from Home so Home stays a launchpad).
+  const categoryRows = useMemo(() => {
+    const byKey = new Map(
+      competencies.filter((item) => item.dimension_type === 'category').map((item) => [item.dimension_key, item]),
+    );
+    return categories.map<CategoryScore>((category) => {
+      const score = byKey.get(category.id);
+      return {
+        id: category.id,
+        name: category.name,
+        score: score?.score ?? 0,
+        tier: formatTier(score?.tier ?? 'unmapped'),
+        sevenDayDelta: score?.seven_day_delta ?? 0,
+        attempts: score?.attempts ?? 0,
+        correctRate: Math.round(Number(score?.correct_rate ?? 0)),
+        avgCorrectValue: score?.avg_correct_value ?? 0,
+        dueReview: score?.due_review_count ?? 0,
+        backendMetric: 'category_competencies',
+      };
+    });
+  }, [categories, competencies]);
+
+  function trainCategory(category: CategoryScore) {
+    router.push({
+      pathname: '/train',
+      params: { start: 'selected', category: category.id, categoryName: category.name },
+    });
+  }
+
   return (
     <Screen>
       <Header kicker="Profile" title={displayName} right={<Avatar label={displayName.charAt(0).toUpperCase()} />} />
@@ -90,6 +127,13 @@ export default function ProfileScreen() {
         <MetricCard label="Strong+" value={String(strongCount)} detail="categories" />
         <MetricCard label="Badges" value={String(earnedBadges.length)} />
       </View>
+
+      <Section title="Categories">
+        {loading && categoryRows.length === 0 ? <ActivityIndicator color={colors.gold} /> : null}
+        {categoryRows.map((category) => (
+          <CategoryScoreRow key={category.id} category={category} onPress={() => trainCategory(category)} />
+        ))}
+      </Section>
 
       <Section title="Badges" right={<Text style={styles.countText}>{earnedBadges.length} earned</Text>}>
         {loading ? <ActivityIndicator color={colors.gold} /> : null}

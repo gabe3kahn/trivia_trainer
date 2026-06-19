@@ -1,7 +1,7 @@
-import { useHeaderHeight } from '@react-navigation/elements';
 import { useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Card, ClueCard, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
 import { displayClue } from '@/src/clues/jeopardyStyle';
@@ -24,7 +24,6 @@ type StartOptions = { mechanics?: string[]; categories?: string[] };
 
 export default function TrainScreen() {
   const params = useLocalSearchParams<{ start?: string; category?: string; categoryName?: string }>();
-  const headerHeight = useHeaderHeight();
   const [questions, setQuestions] = useState<RecommendedQuestion[]>([]);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -150,28 +149,52 @@ export default function TrainScreen() {
     }
   }
 
+  // Bail out of an in-progress session. Clues already answered are saved on
+  // advance; this just clears local state back to the mode picker.
+  function endSession() {
+    Alert.alert('Quit this session?', 'Clues you’ve already answered are saved. You can start a new set anytime.', [
+      { text: 'Keep playing', style: 'cancel' },
+      {
+        text: 'Quit',
+        style: 'destructive',
+        onPress: () => {
+          tapLight();
+          setQuestions([]);
+          setSessionId(null);
+          setActiveIndex(0);
+          setTypedResponse('');
+          setGradeResult(null);
+          setOverrideGrade(null);
+          setElapsedMs(null);
+          setAttemptSummaries([]);
+          setStartedAt(null);
+          handledParamRef.current = null;
+        },
+      },
+    ]);
+  }
+
   const sessionSummary = summarizeAttempts(attemptSummaries);
   const progress = questions.length ? (activeIndex / questions.length) * 100 : 0;
 
   /* ---------------------------- In session ---------------------------- */
   if (activeQuestion) {
     return (
-      <View style={styles.activeContainer}>
-        <KeyboardAvoidingView
-          style={styles.flex}
-          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-          keyboardVerticalOffset={headerHeight}
+      <SafeAreaView style={styles.activeContainer} edges={['top']}>
+        <ScrollView
+          contentContainerStyle={styles.activeContent}
+          automaticallyAdjustKeyboardInsets
+          keyboardShouldPersistTaps="handled"
+          keyboardDismissMode="interactive"
+          showsVerticalScrollIndicator={false}
         >
-          <ScrollView
-            contentContainerStyle={styles.activeContent}
-            keyboardShouldPersistTaps="handled"
-            keyboardDismissMode="interactive"
-            showsVerticalScrollIndicator={false}
-          >
         <View style={styles.progressRow}>
           <Text style={styles.progressText}>
             Clue {activeIndex + 1} of {questions.length}
           </Text>
+          <Pressable onPress={endSession} hitSlop={12}>
+            <Text style={styles.quitText}>Quit</Text>
+          </Pressable>
         </View>
         <View style={styles.progressTrack}>
           <View style={[styles.progressFill, { width: `${progress}%` }]} />
@@ -257,9 +280,8 @@ export default function TrainScreen() {
             </Pressable>
           </View>
         ) : null}
-          </ScrollView>
-        </KeyboardAvoidingView>
-      </View>
+        </ScrollView>
+      </SafeAreaView>
     );
   }
 
@@ -440,6 +462,10 @@ const styles = StyleSheet.create({
   progressText: {
     ...type.heading,
     color: colors.ink,
+  },
+  quitText: {
+    ...type.label,
+    color: colors.dim,
   },
   progressTrack: {
     height: 6,
