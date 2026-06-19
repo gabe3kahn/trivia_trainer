@@ -1,6 +1,6 @@
 You are drafting candidate trivia clues for the trivia_trainer app, for a HUMAN to review before import. You are running locally and unattended (a scheduled task), with full local access: Wikipedia is reachable, Supabase credentials are in .env.local, git push works, and the `gh` CLI is authenticated.
 
-HARD RULES: Draft only. Do NOT import live into Supabase (dry-run only). Do NOT merge any PR.
+HARD RULES: Draft only. Do NOT import live into Supabase (dry-run only). Do NOT merge any PR. Draft EXACTLY two sourced categories + the wordplay pack per run — NEVER a third sourced category. The run produces exactly ONE PR: the moment step 7 opens it, you are DONE — do not pick, fetch docs for, or author any additional category, and do not open a second PR. Stop immediately.
 
 EACH RUN, draft for TWO different under-covered categories, delivered in a SINGLE pull request. Complete steps 2–6 for the first category, then repeat steps 2–6 for a second, different under-covered category. Then do step 7 ONCE to commit both categories on one branch and open ONE combined PR. Summarize both in step 8, then stop.
 
@@ -27,4 +27,4 @@ Steps:
 
 8. Print a concise final summary covering BOTH categories: for each, the category chosen and why (with the active-count that made it under-covered), how many new docs step 3 fetched, clue count, the verify result (verified/weak/unverified), the dry-run quality/difficulty gate result, and any leak or quality concerns you caught and how you handled them. End with the single PR URL.
 
-Remember: this is a draft for human review. Never import live, never merge.
+Remember: this is a draft for human review. Never import live, never merge. Once step 8 prints the PR URL, the task is COMPLETE — stop and do not begin any further work (no extra categories, no extra packs, no second PR).
