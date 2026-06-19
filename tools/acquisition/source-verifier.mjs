@@ -91,7 +91,12 @@ async function verifyWikipedia(question, deps) {
     }
     if (!summary || !summary.extract || summary.type === 'disambiguation') continue;
 
-    const corr = corroboration(question.clue, `${summary.title} ${summary.extract}`);
+    // Corroborate against the FULLER lead intro too, not just the short REST summary.
+    // Etymologies and origin legends often live in later lead paragraphs — e.g. the
+    // Marathon page's first paragraph is only the distance; Michel Bréal and the Ancient
+    // Greek story are in the second. Falls back to the summary alone if the intro fetch fails.
+    const intro = await wikiIntro(summary.title, deps).catch(() => '');
+    const corr = corroboration(question.clue, `${summary.title} ${summary.extract} ${intro}`);
     // Did we actually find the ANSWER as a citable entity? (page title matches
     // the answer, or the answer appears in the article summary)
     const answerMatch =
@@ -173,6 +178,17 @@ async function wikiSummary(title, deps) {
     type: data.type ?? 'standard',
     url: data.content_urls?.desktop?.page ?? `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`,
   };
+}
+
+// Full lead intro (all opening paragraphs) — richer than the one-paragraph REST summary,
+// so facts below the fold (etymology, origin legends) can corroborate a clue.
+async function wikiIntro(title, deps) {
+  const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&redirects=1&titles=${encodeURIComponent(String(title).replace(/ /g, '_'))}`;
+  const data = await deps.fetchJson(url);
+  const pages = data?.query?.pages;
+  if (!pages) return '';
+  const first = Object.values(pages)[0];
+  return String(first?.extract ?? '');
 }
 
 async function wiktDefinitions(word, deps) {
