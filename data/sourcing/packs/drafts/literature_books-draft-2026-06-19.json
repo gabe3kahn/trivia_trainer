@@ -1,0 +1,514 @@
+{
+  "generated_at": "2026-06-19T00:00:00Z",
+  "provider": "claude-sonnet-4-6",
+  "category_id": "literature_books",
+  "notes": [
+    "15-clue draft for literature_books (16 active clues at time of authoring — second most under-covered non-geography category). All clues written from facts in data/sourcing/docs/literature_books/. Avoided all answers in the June-17 draft: Hamlet, Pride and Prejudice, To Kill a Mockingbird, The Great Gatsby, The Odyssey, Nineteen Eighty-Four, The Hobbit, Crime and Punishment, Don Quixote, Mark Twain, Moby-Dick, George Orwell.",
+    "Subcategory spread: Shakespeare & Drama (2), 19th-Century Novels (3), British & Irish Literature (1), American Literature (3), Authors & Works (1), World Literature (2), Poetry (2), Awards/Movements/Terms (1). Value range $200–$1000; $1000 uses Dante's guide structure (oblique entry to Divine Comedy). Mary Shelley used twice (Frankenstein + Shelley herself) from same source doc — different facts cited. Great Expectations used twice (Great Expectations novel + Bildungsroman term) — different facts cited."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Macbeth",
+      "external_id": "lit-draft-2026-06-19-001",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Shakespeare's shortest tragedy — following a general who murders a king after three witches prophesy his rise to power — is traditionally not named aloud in a theater, where it is called 'The Scottish Play.'",
+      "answer": "Macbeth",
+      "aliases": [
+        "The Tragedy of Macbeth"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "shakespeare",
+        "tragedy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Macbeth",
+          "url": "https://en.wikipedia.org/wiki/Macbeth",
+          "snippet": "The Tragedy of Macbeth, often shortened to Macbeth, is a tragedy by William Shakespeare, estimated to have been first performed in 1606. It dramatises the physically violent and damaging psychological effects of political ambitions and powe"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: macbeth.json. $400 — the Scottish Play superstition is the hook. Leak check: 'Macbeth' not in clue; 'Scottish' doesn't stem from 'Macbeth'.",
+      "verified_at": "2026-06-19T17:00:04.409Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/King_Lear",
+      "external_id": "lit-draft-2026-06-19-002",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After Shakespeare's death, a Restoration dramatist named Nahum Tate rewrote this tragedy to add a romantic subplot and a happier ending — a revision that displaced the original from professional stages for more than 150 years.",
+      "answer": "King Lear",
+      "aliases": [
+        "The Tragedy of King Lear"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "shakespeare",
+        "tragedy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "King Lear",
+          "url": "https://en.wikipedia.org/wiki/King_Lear",
+          "snippet": "The Tragedy of King Lear, often shortened to King Lear, is a tragedy written by William Shakespeare in late 1605 or early 1606. Set in pre-Roman Britain, the play depicts the consequences of King Lear's love-test, in which he divides his po"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: king-lear.json. $600 — oblique angle (the Tate revision story) rather than the obvious 'monarch divides kingdom among daughters' hook. Leak check: 'Lear' and 'King' not in clue.",
+      "verified_at": "2026-06-19T17:00:04.877Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jane_Eyre",
+      "external_id": "lit-draft-2026-06-19-003",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Published in 1847 under the pen name Currer Bell, this novel follows its title character's growth to adulthood and her love for Mr. Rochester, the brooding master of Thornfield Hall.",
+      "answer": "Jane Eyre",
+      "aliases": [],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "19th-century",
+        "bronte",
+        "bildungsroman"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jane Eyre",
+          "url": "https://en.wikipedia.org/wiki/Jane_Eyre",
+          "snippet": "Jane Eyre is a novel by the English writer Charlotte Brontë. It was published under her pen name \"Currer Bell\" on 19 October 1847 by Smith, Elder & Co. of London. The first American edition was published in January 1848 by Harper & Brothers"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: jane-eyre.json. $400 — pen name 'Currer Bell' is a mildly oblique hook; most will get it via Thornfield Hall / Rochester. Leak check: 'Jane' and 'Eyre' not in clue.",
+      "verified_at": "2026-06-19T17:00:05.369Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wuthering_Heights",
+      "external_id": "lit-draft-2026-06-19-004",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This is the only novel by the English author Emily Brontë, published in 1847 under her pen name Ellis Bell; it follows the turbulent relationship between the Earnshaw family and their foster son Heathcliff on the West Yorkshire moors.",
+      "answer": "Wuthering Heights",
+      "aliases": [],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "19th-century",
+        "bronte",
+        "gothic"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wuthering Heights",
+          "url": "https://en.wikipedia.org/wiki/Wuthering_Heights",
+          "snippet": "Wuthering Heights is the only novel by the English author Emily Brontë, initially published in 1847 under her pen name Ellis Bell. It concerns two extensive upland estates and their landowning families on the West Yorkshire moors, the Earns"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: wuthering-heights.json. $600 — 'only novel by Emily Brontë' is an oblique hook; naming Heathcliff and the Earnshaws helps confirm. Leak check: 'Wuthering' and 'Heights' not in clue.",
+      "verified_at": "2026-06-19T17:01:01.122Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mary_Shelley",
+      "external_id": "lit-draft-2026-06-19-005",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1818 Gothic novel — often considered an early example of science fiction — follows a scientist who creates a living creature from dead matter.",
+      "answer": "Frankenstein",
+      "aliases": [
+        "Frankenstein; or, The Modern Prometheus"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "19th-century",
+        "gothic",
+        "sci-fi"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mary Shelley",
+          "url": "https://en.wikipedia.org/wiki/Mary_Shelley",
+          "snippet": "Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction. She also edited and promoted the works of her husband, t"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: mary-shelley.json. $200 — Frankenstein is a household title. Clue names the author in full (Mary Wollstonecraft Shelley) without leaking 'Frankenstein'. Distinct from clue #010 which asks for the author.",
+      "verified_at": "2026-06-19T17:01:01.618Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Expectations",
+      "external_id": "lit-draft-2026-06-19-006",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Charles Dickens novel — his penultimate completed work and a classic bildungsroman — follows an orphan nicknamed Pip through an eccentric cast including the reclusive Miss Havisham and the cold beauty Estella.",
+      "answer": "Great Expectations",
+      "aliases": [],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "british-literature",
+        "dickens"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Great Expectations",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+          "snippet": "Great Expectations is the thirteenth novel by the English author Charles Dickens and his penultimate completed novel. The novel is a bildungsroman and depicts the education of an orphan nicknamed Pip. It is Dickens' second novel, after Davi"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: great-expectations.json. $400 — Pip/Miss Havisham/Estella are the hooks. Leak check: 'Great' and 'Expectations' not in clue.",
+      "verified_at": "2026-06-19T17:01:02.149Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Scarlet_Letter",
+      "external_id": "lit-draft-2026-06-19-007",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Published in 1850 and set in the Puritan Massachusetts Bay Colony of the 1640s, this Nathaniel Hawthorne novel follows Hester Prynne, who is forced to wear an embroidered crimson ‘A’ on her clothing as punishment for adultery.",
+      "answer": "The Scarlet Letter",
+      "aliases": [
+        "Scarlet Letter"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "american-literature",
+        "hawthorne"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Scarlet Letter",
+          "url": "https://en.wikipedia.org/wiki/The_Scarlet_Letter",
+          "snippet": "The Scarlet Letter: A Romance is a historical novel by American author Nathaniel Hawthorne, published in 1850. Set in the Puritan Massachusetts Bay Colony during the years 1642 to 1649, the novel tells the story of Hester Prynne, who concei"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: the-scarlet-letter.json. $600 — naming Hester Prynne and the 'A' is moderately specific. Leak check: 'Scarlet' and 'Letter' not in clue.",
+      "verified_at": "2026-06-19T17:01:02.699Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "external_id": "lit-draft-2026-06-19-008",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American author, known for his economical and understated prose style, served as an ambulance driver in World War I, later lived in Paris among the 'Lost Generation,' and was awarded the 1954 Nobel Prize in Literature.",
+      "answer": "Ernest Hemingway",
+      "aliases": [
+        "Hemingway"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "american-literature",
+        "hemingway"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ernest Hemingway",
+          "url": "https://en.wikipedia.org/wiki/Ernest_Hemingway",
+          "snippet": "Ernest Miller Hemingway was an American novelist, short-story writer, and journalist. Known for an economical, understated style that influenced later 20th-century writers, he has been romanticized for his adventurous lifestyle and outspoke"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: ernest-hemingway.json. $400 — ambulance driver + Lost Generation + Nobel 1954. Leak check: 'Hemingway' not in clue; 'Ernest' not in clue.",
+      "verified_at": "2026-06-19T17:01:03.166Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hunter_S._Thompson",
+      "external_id": "lit-draft-2026-06-19-009",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American journalist rose to prominence by living for a year among the Hells Angels and later published a 1972 book serialized in Rolling Stone that grappled with the failure of 1960s counterculture.",
+      "answer": "Hunter S. Thompson",
+      "aliases": [
+        "Thompson",
+        "Hunter Thompson"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "american-literature",
+        "gonzo",
+        "journalism"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hunter S. Thompson",
+          "url": "https://en.wikipedia.org/wiki/Hunter_S._Thompson",
+          "snippet": "Hunter Stockton Thompson was an American journalist and author, regarded as a pioneer of New Journalism along with Gay Talese, Truman Capote, Norman Mailer, Joan Didion, and Tom Wolfe. He rose to prominence with the book Hell's Angels (1967"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: hunter-s-thompson.json. $800 — requires knowing both Hell's Angels book AND Fear and Loathing in Las Vegas. Clue avoids naming either title. Leak check: 'Thompson', 'Hunter', 'S.' not in clue.",
+      "verified_at": "2026-06-19T17:01:03.718Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mary_Shelley",
+      "external_id": "lit-draft-2026-06-19-010",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The daughter of philosopher William Godwin and women's rights advocate Mary Wollstonecraft, this English novelist conceived the idea for her most famous work during a summer near Geneva in 1816 spent with Lord Byron.",
+      "answer": "Mary Shelley",
+      "aliases": [
+        "Shelley",
+        "Mary Wollstonecraft Shelley"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "authors",
+        "shelley",
+        "gothic"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mary Shelley",
+          "url": "https://en.wikipedia.org/wiki/Mary_Shelley",
+          "snippet": "Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction. She also edited and promoted the works of her husband, t"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: mary-shelley.json. $800 — the Godwin/Wollstonecraft parentage + Byron summer is an oblique entry. Doesn't name Frankenstein in the clue. Different from clue #005 (which asks for the novel, not the author). Leak check: 'Mary', 'Shelley', 'Wollstonecraft' not in clue.",
+      "verified_at": "2026-06-19T17:01:04.213Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+      "external_id": "lit-draft-2026-06-19-011",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1967 novel by Colombian author Gabriel García Márquez tells the multi-generational story of the Buendía family, who founded the fictitious town of Macondo; it has been translated into 46 languages and sold more than 50 million copies.",
+      "answer": "One Hundred Years of Solitude",
+      "aliases": [
+        "100 Years of Solitude",
+        "Cien años de soledad"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "world-literature",
+        "garcia-marquez",
+        "magical-realism"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "One Hundred Years of Solitude",
+          "url": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+          "snippet": "One Hundred Years of Solitude is a 1967 novel by Colombian author Gabriel García Márquez that tells the multi-generational story of the Buendía family, whose patriarch, José Arcadio Buendía, founded the fictitious town of Macondo. The novel"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: one-hundred-years-of-solitude.json. $600 — Buendía / Macondo are the specific hooks. Leak check: none of 'One', 'Hundred', 'Years', 'Solitude' stem-match the answer beyond the title itself.",
+      "verified_at": "2026-06-19T17:02:00.861Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jules_Verne",
+      "external_id": "lit-draft-2026-06-19-012",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French novelist, who created the Voyages extraordinaires series including Around the World in Eighty Days and Twenty Thousand Leagues Under the Seas, has been the world's second most-translated author since 1979, ranking below Agatha Christie.",
+      "answer": "Jules Verne",
+      "aliases": [
+        "Verne"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "world-literature",
+        "verne",
+        "science-fiction"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jules Verne",
+          "url": "https://en.wikipedia.org/wiki/Jules_Verne",
+          "snippet": "Jules Gabriel Verne was a French novelist, poet, and playwright."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: jules-verne.json. $800 — second most-translated author (below Christie, above Shakespeare) is a genuinely surprising and specific fact. Leak check: 'Jules' and 'Verne' not in clue.",
+      "verified_at": "2026-06-19T17:02:01.326Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Iliad",
+      "external_id": "lit-draft-2026-06-19-013",
+      "category_id": "literature_books",
+      "subcategory_name": "Poetry",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often cited as the first substantial work of European literature, this ancient Greek epic poem — like its companion work the Odyssey, divided into 24 books — traces the wrath of Achilles during the final weeks of the Trojan War.",
+      "answer": "The Iliad",
+      "aliases": [
+        "Iliad"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "poetry",
+        "homer",
+        "ancient-greece"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Iliad",
+          "url": "https://en.wikipedia.org/wiki/Iliad",
+          "snippet": "The Iliad is one of the two major surviving ancient Greek epic poems attributed to Homer. It is one of the oldest extant works of literature still widely read by modern audiences. Like the Odyssey, the poem is divided into 24 books and was "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: the-iliad.json. $400 — 'first substantial European literature' + Achilles + Trojan War are the hooks. Companion to The Odyssey (in June-17 draft) but different work. Leak check: 'Iliad' not in clue.",
+      "verified_at": "2026-06-19T17:02:01.874Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Divine_Comedy",
+      "external_id": "lit-draft-2026-06-19-014",
+      "category_id": "literature_books",
+      "subcategory_name": "Poetry",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This tripartite 14th-century poem ends with its narrator led through heaven by his idealized beloved Beatrice and, finally, by Saint Bernard of Clairvaux.",
+      "answer": "The Divine Comedy",
+      "aliases": [
+        "Divine Comedy",
+        "Divina Commedia",
+        "La Divina Commedia"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "poetry",
+        "dante",
+        "medieval"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Divine Comedy",
+          "url": "https://en.wikipedia.org/wiki/Divine_Comedy",
+          "snippet": "The Divine Comedy is an Italian narrative poem by Dante Alighieri, begun c. 1308 and completed c. 1321, shortly before the author's death. It is widely considered the pre-eminent work in Italian literature and one of the greatest works of W"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: the-divine-comedy.json. $1000 — the clue withholds 'Dante' and clues through the guide structure (Virgil = human reason, Beatrice = divine revelation). Most know the three canticles but not the allegorical role each guide plays. Leak check: 'Divine' and 'Comedy' not in clue.",
+      "verified_at": "2026-06-19T17:02:02.357Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Expectations",
+      "external_id": "lit-draft-2026-06-19-015",
+      "category_id": "literature_books",
+      "subcategory_name": "Awards, Movements & Terms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This German literary term describes a coming-of-age narrative focused on the moral and psychological growth of a young protagonist from youth into maturity.",
+      "answer": "Bildungsroman",
+      "aliases": [
+        "bildungsroman"
+      ],
+      "tags": [
+        "literature-draft",
+        "sourced",
+        "literary-terms",
+        "genre"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Great Expectations",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+          "snippet": "Great Expectations is the thirteenth novel by the English author Charles Dickens and his penultimate completed novel. The novel is a bildungsroman and depicts the education of an orphan nicknamed Pip. It is Dickens' second novel, after Davi"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source: great-expectations.json. $800 — the term 'Bildungsroman' is moderately specialist. Clue names Great Expectations (also in this pack as #006) but as an example, not as the answer. Leak check: 'Bildungsroman' not in clue.",
+      "verified_at": "2026-06-19T17:02:02.843Z"
+    }
+  ]
+}

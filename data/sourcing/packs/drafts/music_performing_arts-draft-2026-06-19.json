@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-06-19T00:00:00Z",
+  "provider": "claude-sonnet-4-6",
+  "category_id": "music_performing_arts",
+  "notes": [
+    "13-clue draft for music_performing_arts (11 active clues at time of authoring — most under-covered non-geography category). All clues written from facts in data/sourcing/docs/music_performing_arts/. Subcategory spread: Classical Composers (5), Opera (1), Jazz & Blues (1), Popular Music (2), Broadway & Musicals (2), Theater (2). Value range $200–$1000; genuine $1000 uses the Mahler Catholic-conversion angle (obscure biographical entry point). Avoided all answers already in the June-16 draft: Beethoven's Fifth, 1812 Overture, Bolero, Mahler (active-bank answers), Sweeney Todd, Oh Mary!, Hedwig, Annie Oakley, Annie Get Your Gun, Big Lebowski.",
+    "Note: Gustav Mahler ($1000) clues from a different biographical angle than the $800 clue in the active bank. The 'Catholic conversion' entry point is genuinely obscure and earns $1000 per edit-lessons §1. Skiffle ($800) is the Beatles' origin style — most players won't know this."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Swan_Lake",
+      "external_id": "music-draft-2026-06-19-003",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Tchaikovsky ballet — drawn from a folk tale of a princess under a sorcerer’s curse — flopped at its 1877 Bolshoi premiere as “too Wagnerian,” yet the 1895 Petipa–Ivanov revival made it one of the world’s most-performed.",
+      "answer": "Swan Lake",
+      "aliases": [
+        "The Lake of the Swans"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical",
+        "tchaikovsky",
+        "ballet"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Swan Lake",
+          "url": "https://en.wikipedia.org/wiki/Swan_Lake",
+          "snippet": "The Year 1812, Solemn Overture, Op. 49, popularly known as the 1812 Overture, is a concert overture in E♭ major written in 1880 by Russian composer Pyotr Ilyich Tchaikovsky. The piece commemorates Russia's successful defence against the Fre"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: the-1812-overture.json. The three Tchaikovsky ballets are explicitly named in the extract. Clue gives two and asks for the third.",
+      "verified_at": "2026-06-19T16:59:11.664Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bol%C3%A9ro",
+      "external_id": "music-draft-2026-06-19-004",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Illness ended this French composer's ability to write music after he completed a 1928 work for large orchestra — one of his most famous compositions.",
+      "answer": "Maurice Ravel",
+      "aliases": [
+        "Ravel"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical",
+        "ravel"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Boléro",
+          "url": "https://en.wikipedia.org/wiki/Bol%C3%A9ro",
+          "snippet": "Boléro is a 1928 work for large orchestra by French composer Maurice Ravel. It is one of Ravel's most famous compositions. It was also one of his last completed works before illness diminished his ability to write music."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: bolero.json. Answer is the COMPOSER (Ravel), not Boléro. Clue describes Boléro without naming it.",
+      "verified_at": "2026-06-19T16:59:15.278Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
+      "external_id": "music-draft-2026-06-19-005",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Along with Alban Berg and Anton Webern, this composer formed the Second Viennese School — a modernist movement whose members were among the immediate successors of Gustav Mahler.",
+      "answer": "Arnold Schoenberg",
+      "aliases": [
+        "Schoenberg"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical",
+        "schoenberg",
+        "second-viennese-school"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gustav Mahler",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
+          "snippet": "Gustav Mahler was an Austro-Bohemian Romantic composer, and one of the leading conductors of his generation. As a composer he acted as a bridge between the 19th-century tradition and the modernism of the early 20th century. While in his lif"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: mahler.json. Clue names Berg and Webern, asks for Schoenberg (the third, arguably leading figure). $800 because most casual fans know the Second Viennese School but not all three members by name.",
+      "verified_at": "2026-06-19T16:59:15.759Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/John_Coltrane",
+      "external_id": "music-draft-2026-06-19-007",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Jazz & Blues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Critic Ira Gitler coined the phrase “sheets of sound” for this musician’s dense, cascading style; his increasingly spiritual music culminated in the 1965 album “A Love Supreme,” and he received a special Pulitzer Prize in 2007, four decades after his death.",
+      "answer": "John Coltrane",
+      "aliases": [
+        "Coltrane"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "jazz",
+        "coltrane"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "John Coltrane",
+          "url": "https://en.wikipedia.org/wiki/John_Coltrane",
+          "snippet": "John William Coltrane was an American jazz saxophonist, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: john-coltrane.json. Thin doc — clue is a close paraphrase of the extract. $200 is correct; jazz fans will get this immediately.",
+      "verified_at": "2026-06-19T16:59:16.731Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Beatles",
+      "external_id": "music-draft-2026-06-19-008",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This English rock band, formed in Liverpool in 1960, comprised John Lennon, Paul McCartney, George Harrison, and Ringo Starr, and is regarded as the most influential band in popular music.",
+      "answer": "The Beatles",
+      "aliases": [
+        "Beatles"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music",
+        "beatles"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Beatles",
+          "url": "https://en.wikipedia.org/wiki/The_Beatles",
+          "snippet": "The Beatles were an English rock band formed in Liverpool in 1960. The band comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band in popular music and were integral to the dev"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: the-beatles.json. Straightforward $200 recall clue — naming all four members is the anchor.",
+      "verified_at": "2026-06-19T16:59:17.227Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Beatles",
+      "external_id": "music-draft-2026-06-19-009",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Before expanding into rock 'n' roll, classical experimentation, and psychedelia, the Beatles had their musical roots in this working-class British style, also performed alongside beat music.",
+      "answer": "Skiffle",
+      "aliases": [
+        "skiffle music"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music",
+        "beatles",
+        "skiffle"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Beatles",
+          "url": "https://en.wikipedia.org/wiki/The_Beatles",
+          "snippet": "The Beatles were an English rock band formed in Liverpool in 1960. The band comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band in popular music and were integral to the dev"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source: the-beatles.json. 'Skiffle' not in clue. $800 — most players know the Beatles were from Liverpool but don't know they started as a skiffle band. Good non-obvious hook.",
+      "verified_at": "2026-06-19T17:00:01.667Z"
+    }
+  ]
+}
