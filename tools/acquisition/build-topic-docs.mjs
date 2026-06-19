@@ -45,9 +45,10 @@ if (!pool) {
   process.exit(1);
 }
 
-const matchesKeywords = (t) =>
-  keywords.length === 0 ||
-  (t.keywords ?? []).some((k) => keywords.some((q) => k === q || k.includes(q) || q.includes(k)));
+// Exact tag match (tolerating a trailing plural 's'), NOT substring — else short
+// tags like "art" would hit "quartet"/"earth"/"Mozart".
+const want = new Set(keywords.flatMap((q) => [q, q.endsWith('s') ? q.slice(0, -1) : `${q}s`]));
+const matchesKeywords = (t) => keywords.length === 0 || (t.keywords ?? []).some((k) => want.has(k));
 
 // Rank topics by real-clue frequency; filter to the requested keywords and skip
 // non-topical answers (numbers, very short/generic tokens) that don't source well.
