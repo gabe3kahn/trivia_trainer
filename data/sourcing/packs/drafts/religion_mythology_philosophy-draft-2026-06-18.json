@@ -3,7 +3,7 @@
   "provider": "original_sourced",
   "category_id": "religion_mythology_philosophy",
   "notes": [
-    "Clues written from Wikipedia lead extracts in data/sourcing/docs/religion_mythology_philosophy/. Coverage spans Greek Mythology, Norse/Roman Mythology, Egyptian Mythology, Philosophers, Philosophical Schools, World Religions, and Bible subcategories."
+    "Hand-rewritten for difficulty/craft (manual exemplar set for the drafter to learn from). Same answers and same cited sources as the drafted version; each clue withholds the obvious anchor and leads with an oblique hook. Grounded only in the cited Wikipedia docs."
   ],
   "questions": [
     {
@@ -12,11 +12,11 @@
       "external_id": "rmp-draft-001-001",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Titan was chained to a rock and condemned to have his liver consumed by an eagle each day as punishment for bestowing fire upon humanity.",
+      "clue": "For slipping mortals a gift stolen from the gods of Olympus, this defiant Titan was bound to a crag where an eagle returned each day to feast on his ever-regrowing liver.",
       "answer": "Prometheus",
       "aliases": [],
       "tags": [
@@ -33,8 +33,7 @@
         }
       ],
       "verification_status": "weak",
-      "reviewer_note": "Source: prometheus.json — 'Zeus condemned him to eternal punishment chained to a rock with an eagle eating his liver.'",
-      "verified_at": "2026-06-19T03:05:17.605Z"
+      "verified_at": "2026-06-19T03:30:24.436Z"
     },
     {
       "source": "original_sourced",
@@ -42,11 +41,11 @@
       "external_id": "rmp-draft-001-002",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Olympian twin of Artemis served as patron deity of Delphi and was the god through whom the most famous oracle of the ancient world spoke.",
+      "clue": "God of healing yet also of plague, of music and of the far-shooting bow, this deity was held up by the Greeks as the very ideal of youthful male beauty — the kouros made divine.",
       "answer": "Apollo",
       "aliases": [],
       "tags": [
@@ -62,9 +61,8 @@
           "snippet": "Apollo is one of the Olympian deities in ancient Greek religion and mythology. His numerous functions include healing, prophecy, music, poetry, and archery. He is the son of Zeus and Leto, and the twin brother of Artemis, goddess of the hun"
         }
       ],
-      "verification_status": "verified",
-      "reviewer_note": "Source: apollo.json — twin of Artemis and patron of Delphi's oracle.",
-      "verified_at": "2026-06-19T03:05:17.989Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T03:30:24.809Z"
     },
     {
       "source": "original_sourced",
@@ -72,11 +70,11 @@
       "external_id": "rmp-draft-001-003",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In Greek myth, when the three sons of Cronus divided the cosmos by lot after defeating the Titans, this eldest brother drew the underworld as his domain.",
+      "clue": "By the logic of his father Cronus's cannibalism, this eldest child was the last to be disgorged; when the three brothers carved up the cosmos, he was dealt dominion over the dead.",
       "answer": "Hades",
       "aliases": [],
       "tags": [
@@ -93,8 +91,7 @@
         }
       ],
       "verification_status": "verified",
-      "reviewer_note": "Source: hades.json — eldest son of Cronus who drew the underworld in the division of the cosmos.",
-      "verified_at": "2026-06-19T03:05:18.368Z"
+      "verified_at": "2026-06-19T03:30:25.194Z"
     },
     {
       "source": "original_sourced",
@@ -102,11 +99,11 @@
       "external_id": "rmp-draft-001-004",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This god of the sea and earthquakes carried a trident and was believed to have created horses with a strike of it; his Roman counterpart is Neptune.",
+      "clue": "Bronze Age tablets at Pylos rank this 'Earth-Shaker' among the chief gods, and in the hills of Arcadia he was once worshipped in the very shape of a horse.",
       "answer": "Poseidon",
       "aliases": [],
       "tags": [
@@ -123,8 +120,7 @@
         }
       ],
       "verification_status": "verified",
-      "reviewer_note": "Source: poseidon.json — sea god with trident who created horses; Roman equivalent Neptune.",
-      "verified_at": "2026-06-19T03:05:18.797Z"
+      "verified_at": "2026-06-19T03:30:25.567Z"
     },
     {
       "source": "original_sourced",
@@ -132,11 +128,11 @@
       "external_id": "rmp-draft-001-005",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Roman & Norse Mythology",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Norse deity wielded the hammer Mjölnir and was venerated during the Viking Age as a protector of mankind and farmers against giants and chaos.",
+      "clue": "Beloved more by Viking farmers than by warriors, this protector against giants bore a name that — from Old English Thunor to Old High German Donar — simply meant 'thunder.'",
       "answer": "Thor",
       "aliases": [],
       "tags": [
@@ -153,8 +149,7 @@
         }
       ],
       "verification_status": "verified",
-      "reviewer_note": "Source: thor.json — hammer-wielding Norse god of storms, protector during Viking Age.",
-      "verified_at": "2026-06-19T03:05:19.186Z"
+      "verified_at": "2026-06-19T03:30:25.946Z"
     },
     {
       "source": "original_sourced",
@@ -162,11 +157,11 @@
       "external_id": "rmp-draft-001-006",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Roman & Norse Mythology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Norse shape-shifter once took the form of a mare, was impregnated by a stallion, and gave birth to the eight-legged horse Sleipnir.",
+      "clue": "By a giantess this trickster sired three bringers of doom — the wolf Fenrir, the world-serpent, and the death-queen Hel — and, having turned himself into a mare, he bore the eight-legged steed Sleipnir.",
       "answer": "Loki",
       "aliases": [],
       "tags": [
@@ -183,8 +178,7 @@
         }
       ],
       "verification_status": "verified",
-      "reviewer_note": "Source: loki.json — shape-shifter who bore Sleipnir while in mare form.",
-      "verified_at": "2026-06-19T03:05:19.576Z"
+      "verified_at": "2026-06-19T03:30:26.319Z"
     },
     {
       "source": "original_sourced",
@@ -192,11 +186,11 @@
       "external_id": "rmp-draft-001-007",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Roman & Norse Mythology",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Each dawn this one-eyed god dispatched two ravens — Huginn ('thought') and Muninn ('memory') — to roam the nine worlds and whisper back at dusk everything they had seen.",
+      "clue": "His name itself means 'lord of frenzy.' Each dawn he loosed two ravens — Thought and Memory — to range across the nine worlds and murmur back at dusk all they had witnessed.",
       "answer": "Odin",
       "aliases": [],
       "tags": [
@@ -213,8 +207,7 @@
         }
       ],
       "verification_status": "weak",
-      "reviewer_note": "Source: odin.json — head of the Æsir with ravens Huginn and Muninn, wolves Geri and Freki.",
-      "verified_at": "2026-06-19T03:05:19.956Z"
+      "verified_at": "2026-06-19T03:30:26.708Z"
     },
     {
       "source": "original_sourced",
@@ -222,11 +215,11 @@
       "external_id": "rmp-draft-001-008",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "World Mythology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This major Egyptian goddess resurrected her slain husband and was considered the divine mother of the pharaoh, whose power was likened to her son Horus.",
+      "clue": "Egyptians held that this goddess's magic ushered souls safely into the afterlife, and that every reigning pharaoh was the living Horus she had borne and shielded.",
       "answer": "Isis",
       "aliases": [],
       "tags": [
@@ -242,9 +235,8 @@
           "snippet": "Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. Isis was first mentioned in the Old Kingdom as one of the main characters of the Osiris myth, in which she resurrects her slain bro"
         }
       ],
-      "verification_status": "verified",
-      "reviewer_note": "Source: isis.json — resurrected Osiris and was the divine mother figure behind the pharaoh.",
-      "verified_at": "2026-06-19T03:05:20.352Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T03:30:27.094Z"
     },
     {
       "source": "original_sourced",
@@ -252,11 +244,11 @@
       "external_id": "rmp-draft-001-009",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "World Mythology",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This jackal-headed deity of ancient Egypt presided over the 'Weighing of the Heart' ceremony, in which a deceased soul's virtue was judged against a feather.",
+      "clue": "Protector of graves and lord of embalming, this canine-headed Egyptian god led the newly dead along the road to the underworld and its judgment.",
       "answer": "Anubis",
       "aliases": [],
       "tags": [
@@ -272,9 +264,8 @@
           "snippet": "Anubis, also known as Inpu, Inpw, Jnpw, or Anpu in Ancient Egyptian, is the god of funerary rites, protector of graves, and guide to the underworld in ancient Egyptian religion, usually depicted as a canine or a man with a canine head."
         }
       ],
-      "verification_status": "weak",
-      "reviewer_note": "Source: anubis.json — jackal-headed deity who presided over the Weighing of the Heart.",
-      "verified_at": "2026-06-19T03:05:20.739Z"
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T03:30:27.467Z"
     },
     {
       "source": "original_sourced",
@@ -286,7 +277,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Egyptian god was murdered and dismembered by his own brother Set, then reassembled by his devoted wife to be resurrected and reign over the dead.",
+      "clue": "Shown as a mummy in a tall plumed crown, gripping a crook and flail, this lord of grain and the dead let Egyptians read the harvest's yearly withering and regrowth as his own.",
       "answer": "Osiris",
       "aliases": [],
       "tags": [
@@ -302,9 +293,8 @@
           "snippet": "Osiris was the god of fertility, agriculture, the afterlife, the dead, resurrection, life, and vegetation in ancient Egyptian religion. He was classically depicted with a pharaoh's beard, partially mummy-wrapped at the legs, wearing a disti"
         }
       ],
-      "verification_status": "verified",
-      "reviewer_note": "Source: osiris.json — dismembered by Set, reassembled by Isis, resurrected as ruler of the dead.",
-      "verified_at": "2026-06-19T03:05:21.119Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T03:30:27.842Z"
     },
     {
       "source": "original_sourced",
@@ -312,11 +302,11 @@
       "external_id": "rmp-draft-001-011",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Philosophers",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Athenian philosopher wrote nothing himself, yet his method of rigorous questioning gave rise to a whole literary genre of philosophical dialogues recorded by his student Plato.",
+      "clue": "Professing that he knew only that he knew nothing, this Athenian set down not a single word of his own — yet his needling question-and-answer cross-examination survives through the pens of his students.",
       "answer": "Socrates",
       "aliases": [],
       "tags": [
@@ -332,9 +322,8 @@
           "snippet": "Socrates was an ancient Greek philosopher from Classical Athens, perhaps the first Western moral philosopher, and a major inspiration on his student Plato, who largely founded the tradition of Western philosophy. An enigmatic figure, Socrat"
         }
       ],
-      "verification_status": "verified",
-      "reviewer_note": "Source: socrates.json — authored no texts; Socratic dialogues recorded by Plato.",
-      "verified_at": "2026-06-19T03:05:21.554Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T03:30:28.216Z"
     },
     {
       "source": "original_sourced",
@@ -342,11 +331,11 @@
       "external_id": "rmp-draft-001-012",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Philosophers",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Enlightenment thinker from Königsberg argued in his *Critique of Pure Reason* that space and time are forms of intuition imposed by the human mind, not features of reality itself.",
+      "clue": "This Enlightenment philosopher staged a 'Copernican' turn in thought: space, time, and cause are not features of the world but forms the mind imposes — so the thing-in-itself stays forever beyond knowing.",
       "answer": "Immanuel Kant",
       "aliases": [
         "Kant"
@@ -365,8 +354,7 @@
         }
       ],
       "verification_status": "weak",
-      "reviewer_note": "Source: immanuel-kant.json — Königsberg philosopher; space and time as forms of intuition in Critique of Pure Reason.",
-      "verified_at": "2026-06-19T03:05:21.940Z"
+      "verified_at": "2026-06-19T03:30:28.585Z"
     },
     {
       "source": "original_sourced",
@@ -374,11 +362,11 @@
       "external_id": "rmp-draft-001-013",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Philosophers",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Appointed a full professor at age 24, this German thinker spent his later years declaring religion's decline before suffering a complete mental collapse at 44 from which he never recovered.",
+      "clue": "A classical-philology prodigy made a Basel professor at just 24, this German later proclaimed that 'God is dead' and conjured the Übermensch and eternal recurrence before madness took him at 44.",
       "answer": "Friedrich Nietzsche",
       "aliases": [
         "Nietzsche"
@@ -397,8 +385,7 @@
         }
       ],
       "verification_status": "verified",
-      "reviewer_note": "Source: friedrich-nietzsche.json — professor at 24; 'God is dead' philosopher; mental collapse at 44.",
-      "verified_at": "2026-06-19T03:05:22.325Z"
+      "verified_at": "2026-06-19T03:30:28.968Z"
     },
     {
       "source": "original_sourced",
@@ -410,7 +397,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This ancient philosophical tradition, founded in the Hellenistic period, held that virtue alone is sufficient for happiness and that the universe operates according to reason, called logos.",
+      "clue": "Born in the Hellenistic age, this school taught that a rational logos orders the cosmos, that virtue alone is good, and that all else — riches, health, even death — is an 'indifferent' to be met calmly.",
       "answer": "Stoicism",
       "aliases": [
         "Stoic philosophy"
@@ -428,9 +415,8 @@
           "snippet": "Stoicism is a philosophical movement and practical guide to living, emphasizing daily self-discipline and moral improvement, which originated in the Hellenistic period of ancient Greece and proliferated well into the Roman Imperial period. "
         }
       ],
-      "verification_status": "verified",
-      "reviewer_note": "Source: stoicism.json — Hellenistic school; virtue = happiness; logos governs the universe.",
-      "verified_at": "2026-06-19T03:05:22.699Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T03:30:29.345Z"
     },
     {
       "source": "original_sourced",
@@ -438,11 +424,11 @@
       "external_id": "rmp-draft-001-015",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "World Religions",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Indian religion, the world's fourth-largest, teaches that liberation from suffering comes through a Middle Way between extreme asceticism and sensory indulgence.",
+      "clue": "Arising some 2,500 years ago as a śramaṇa movement on the eastern Gangetic plain, this faith draws its name and its path from a teacher remembered as 'the Awakened One.'",
       "answer": "Buddhism",
       "aliases": [
         "Buddhist religion"
@@ -461,8 +447,7 @@
         }
       ],
       "verification_status": "verified",
-      "reviewer_note": "Source: buddhism.json — fourth-largest religion; Middle Way between asceticism and indulgence.",
-      "verified_at": "2026-06-19T03:05:23.212Z"
+      "verified_at": "2026-06-19T03:30:29.715Z"
     }
   ]
 }
