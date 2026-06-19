@@ -1,0 +1,415 @@
+{
+  "generated_at": "2026-06-19T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "history",
+  "notes": [
+    "History draft from the 2026-06-19 daily run. Covers thin subcategories: Medieval & Renaissance History (3 clues), Historical Figures (3 clues), European History (2 clues), U.S. Presidents (1), U.S. History (1), Ancient History (1), Dates/Documents (1). Includes 2 genuine $1000 clues (Kamehameha I, Rollo). Sources are Wikipedia lead extracts stored under data/sourcing/docs/history/. Run verify-clue-sources.mjs before import."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Anne_Boleyn",
+      "external_id": "hist-2026-06-19-001",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Henry VIII's second wife, she was executed for treason in 1536, with the circumstances of her marriage regarded as a key catalyst for the English Reformation.",
+      "answer": "Anne Boleyn",
+      "aliases": [
+        "Anne Boleyn"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "medieval-renaissance",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Anne Boleyn",
+          "url": "https://en.wikipedia.org/wiki/Anne_Boleyn",
+          "snippet": "Anne Boleyn was Queen of England from 1533 to 1536, as the second wife of King Henry VIII. The circumstances of her marriage and execution, by beheading for treason, made her a key figure in the political and religious upheaval that marked "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: 'Anne Boleyn was Queen of England from 1533 to 1536, as the second wife of King Henry VIII. The circumstances of her marriage and execution, by beheading for treason, made her a key figure in the political and religious upheaval that marked the start of the English Reformation.' (anne-boleyn.json)",
+      "verified_at": "2026-06-19T22:23:23.891Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nero",
+      "external_id": "hist-2026-06-19-002",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The final emperor of the Julio-Claudian dynasty, this ruler reigned from 54 to 68 AD before dying by suicide; his mother, the influential Agrippina the Younger, was murdered on his orders.",
+      "answer": "Nero",
+      "aliases": [
+        "Nero Claudius Caesar",
+        "Lucius Domitius Ahenobarbus"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "ancient-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nero",
+          "url": "https://en.wikipedia.org/wiki/Nero",
+          "snippet": "Nero was Roman emperor from 54 AD until his suicide in 68 AD, as the final emperor of the Julio-Claudian dynasty."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'Roman emperor from 54 AD until his suicide in 68 AD, as the final emperor of the Julio-Claudian dynasty' and 'Agrippina the Younger (great-granddaughter of the emperor Augustus)' and 'he orchestrated her murder.' (nero.json)",
+      "verified_at": "2026-06-19T22:23:24.396Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Guillotine",
+      "external_id": "hist-2026-06-19-003",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "France's revolutionary government celebrated this beheading apparatus as 'the people's avenger,' while opponents called it the preeminent symbol of the Reign of Terror's violence.",
+      "answer": "Guillotine",
+      "aliases": [
+        "the guillotine"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "european-history",
+        "french-revolution"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Guillotine",
+          "url": "https://en.wikipedia.org/wiki/Guillotine",
+          "snippet": "A guillotine is an apparatus designed for effectively carrying out executions by beheading. The device consists of a tall, upright frame with a weighted and angled blade suspended at the top. The condemned person is secured with a pillory a"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: 'the revolution's supporters celebrated it as the people's avenger and the revolution's opponents vilified it as the pre-eminent symbol of the violence of the Reign of Terror.' (guillotine.json)",
+      "verified_at": "2026-06-19T22:23:24.922Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Thomas_More",
+      "external_id": "hist-2026-06-19-004",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Renaissance humanist served Henry VIII as Lord Chancellor and authored the 1516 political work 'Utopia,' but was executed after refusing to take the Oath of Supremacy acknowledging the king as head of the Church of England.",
+      "answer": "Thomas More",
+      "aliases": [
+        "Sir Thomas More",
+        "St. Thomas More",
+        "Saint Thomas More"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "medieval-renaissance",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Thomas More",
+          "url": "https://en.wikipedia.org/wiki/Thomas_More",
+          "snippet": "Sir Thomas More, venerated in the Catholic Church as a martyr and saint, was an English lawyer, judge, social philosopher, author, statesman, theologian and Renaissance humanist. He also served Henry VIII as Lord Chancellor from October 152"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'served Henry VIII as Lord Chancellor... wrote Utopia, published in 1516... refusing to acknowledge Henry as supreme head of the Church of England.' (sir-thomas-more.json)",
+      "verified_at": "2026-06-19T22:23:25.476Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Grigori_Rasputin",
+      "external_id": "hist-2026-06-19-005",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Siberian-born mystic captivated the imperial court of Nicholas II by acting as a faith healer for the tsar's hemophiliac son, gaining unusual influence during the final years of the Russian Empire.",
+      "answer": "Rasputin",
+      "aliases": [
+        "Grigori Rasputin",
+        "Grigory Rasputin",
+        "Grigori Yefimovich Rasputin"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Grigori Rasputin",
+          "url": "https://en.wikipedia.org/wiki/Grigori_Rasputin",
+          "snippet": "Grigori Yefimovich Rasputin was a Russian mystic and faith healer. He is best known for having befriended the imperial family of Nicholas II, the last Emperor of Russia, through whom he gained considerable influence in the final years of th"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'born to a family of peasants in the Siberian village of Pokrovskoye' and 'befriended the imperial family of Nicholas II' and 'acting as a faith healer for Nicholas' and Alexandra's only son, Alexei Nikolaevich, who suffered from haemophilia.' (rasputin.json)",
+      "verified_at": "2026-06-19T22:23:26.015Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Queen_Victoria",
+      "external_id": "hist-2026-06-19-006",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Her reign of 63 years and 216 days — longer than that of any of her predecessors — defined an era of industrial and imperial expansion; in 1876, parliament granted her the additional title of Empress of India.",
+      "answer": "Queen Victoria",
+      "aliases": [
+        "Victoria",
+        "Queen Victoria",
+        "Alexandrina Victoria"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "european-history",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Queen Victoria",
+          "url": "https://en.wikipedia.org/wiki/Queen_Victoria",
+          "snippet": "Victoria was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901. Her reign of 63 years and 216 days, which was longer than those of any of her predecessors, constituted the Victorian era, a pe"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'Her reign of 63 years and 216 days, which was longer than those of any of her predecessors' and 'In 1876, the British parliament voted to grant her the additional title of Empress of India.' (we-are-not-amused.json)",
+      "verified_at": "2026-06-19T22:23:26.532Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Stephen_A._Douglas",
+      "external_id": "hist-2026-06-19-007",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Illinois Democrat won the 1858 Senate race against Abraham Lincoln — a campaign famous for its pivotal debates — yet lost the presidency to the same opponent just two years later.",
+      "answer": "Stephen A. Douglas",
+      "aliases": [
+        "Stephen Douglas",
+        "Stephen Arnold Douglas",
+        "the Little Giant"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Stephen A. Douglas",
+          "url": "https://en.wikipedia.org/wiki/Stephen_A._Douglas",
+          "snippet": "Stephen Arnold Douglas was an American politician and lawyer from Illinois. A Democrat, he served in the United States Senate for fourteen years and defeated Abraham Lincoln to win reelection in 1858, a campaign known for the pivotal Lincol"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'defeated Abraham Lincoln to win reelection in 1858, a campaign known for the pivotal Lincoln-Douglas debates' and 'defeated by Lincoln' in 1860. (stephen-douglas.json)",
+      "verified_at": "2026-06-19T22:24:01.203Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Stephen_A._Douglas",
+      "external_id": "hist-2026-06-19-008",
+      "category_id": "history",
+      "subcategory_name": "Dates, Documents & Treaties",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1850 legislative deal sought to defuse sectional tensions over the expansion of slavery into newly acquired U.S. territories.",
+      "answer": "Compromise of 1850",
+      "aliases": [
+        "1850 Compromise",
+        "the Compromise of 1850"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "dates-documents-treaties",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Stephen A. Douglas",
+          "url": "https://en.wikipedia.org/wiki/Stephen_A._Douglas",
+          "snippet": "Stephen Arnold Douglas was an American politician and lawyer from Illinois. A Democrat, he served in the United States Senate for fourteen years and defeated Abraham Lincoln to win reelection in 1858, a campaign known for the pivotal Lincol"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: 'Douglas was one of the brokers of the Compromise of 1850, which sought to avert a sectional crisis over the issue of slavery.' (stephen-douglas.json)",
+      "verified_at": "2026-06-19T22:24:01.688Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Normans",
+      "external_id": "hist-2026-06-19-009",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A medieval people formed when Viking settlers intermarried with West Frankish locals after swearing fealty to the French king in 911, they went on to conquer England in 1066 and reshape its language and institutions.",
+      "answer": "Normans",
+      "aliases": [
+        "the Normans",
+        "Norman people"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "medieval-renaissance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Normans",
+          "url": "https://en.wikipedia.org/wiki/Normans",
+          "snippet": "The Normans were a population arising in the medieval Duchy of Normandy from the intermingling between Norse Viking settlers and locals of West Francia. The Norse settlements in West Francia followed a series of raids on the French northern"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'a population arising... from the intermingling between Norse Viking settlers and locals of West Francia' and 'settlements were finally legitimized when Rollo... agreed to swear fealty to King Charles III of West Francia following the siege of Chartres in 911.' (the-normans.json)",
+      "verified_at": "2026-06-19T22:24:02.168Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
+      "external_id": "hist-2026-06-19-010",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "He took the oath of office at age 42 in 1901, becoming the youngest person ever to serve as president — not by winning an election but by succeeding the assassinated William McKinley.",
+      "answer": "Theodore Roosevelt",
+      "aliases": [
+        "Teddy Roosevelt",
+        "TR",
+        "Theodore Roosevelt Jr."
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Theodore Roosevelt",
+          "url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
+          "snippet": "Theodore Roosevelt Jr. was the 26th president of the United States, serving from 1901 to 1909. Previously serving six months as vice president under William McKinley, Roosevelt became president after McKinley's assassination in 1901. He was"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'became president after McKinley's assassination in 1901' and 'He was 42 years old upon his first inauguration, making him the youngest person to hold the office.' (theodore-roosevelt.json)",
+      "verified_at": "2026-06-19T22:24:02.641Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Kamehameha_I",
+      "external_id": "hist-2026-06-19-011",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "One of the two statues Hawaii placed in the U.S. Capitol's National Statuary Hall honors this conqueror — the first ruler to unite all the Hawaiian Islands under a single kingdom.",
+      "answer": "Kamehameha I",
+      "aliases": [
+        "Kamehameha the Great",
+        "Kamehameha"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Kamehameha I",
+          "url": "https://en.wikipedia.org/wiki/Kamehameha_I",
+          "snippet": "Kamehameha I, also known as Kamehameha the Great, was the conqueror and first ruler of the Kingdom of Hawaii. The state of Hawaii gave a statue of him to the National Statuary Hall Collection in Washington, D.C., as one of two statues it is"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'the conqueror and first ruler of the Kingdom of Hawaii' and 'The state of Hawaii gave a statue of him to the National Statuary Hall Collection in Washington, D.C., as one of two statues it is entitled to install there.' (kamehameha.json)",
+      "verified_at": "2026-06-19T22:24:03.186Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Normans",
+      "external_id": "hist-2026-06-19-012",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "By swearing fealty to the West Frankish king following the siege of Chartres in 911, this Scandinavian Viking leader legitimized the coastal settlements that grew into the Duchy of Normandy.",
+      "answer": "Rollo",
+      "aliases": [
+        "Rollo of Normandy",
+        "Hrólfr"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "historical-figures",
+        "medieval-renaissance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Normans",
+          "url": "https://en.wikipedia.org/wiki/Normans",
+          "snippet": "The Normans were a population arising in the medieval Duchy of Normandy from the intermingling between Norse Viking settlers and locals of West Francia. The Norse settlements in West Francia followed a series of raids on the French northern"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: 'Rollo, a Scandinavian Viking leader, agreed to swear fealty to King Charles III of West Francia following the siege of Chartres in 911, leading to the formation of the County of Rouen.' (the-normans.json)",
+      "verified_at": "2026-06-19T22:24:03.669Z"
+    }
+  ]
+}

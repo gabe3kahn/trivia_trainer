@@ -1,0 +1,396 @@
+{
+  "generated_at": "2026-06-19T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "pop_culture_media_modern_life",
+  "notes": [
+    "Pop culture draft from the 2026-06-19 daily run. Focuses on thin subcategories: Food & Drink (6 clues, only 2 active before this run), Brands & Advertising (2 clues, none active), Comics & Graphic Novels (1 clue, none active), Technology & Companies (1 clue), Television (1 clue). No $1000 clue — history pack (same run) supplies 2x$1000. Note: no Celebrities clue added since musicians/athletes belong to their primary category per edit-lessons. Sources are Wikipedia lead extracts under data/sourcing/docs/pop_culture_media_modern_life/."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cinnamon",
+      "external_id": "pop-2026-06-19-001",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Obtained from the inner bark of several tree species, this highly aromatic spice is one of the world's most widely used flavorings and appears in both sweet and savory dishes across cultures worldwide.",
+      "answer": "Cinnamon",
+      "aliases": [],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "food-drink"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cinnamon",
+          "url": "https://en.wikipedia.org/wiki/Cinnamon",
+          "snippet": "Cinnamon is a spice obtained from the inner bark of several tree species from the genus Cinnamomum. Cinnamon is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, in particular sweet and savoury dish"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source fact: 'a spice obtained from the inner bark of several tree species from the genus Cinnamomum... used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines.' (cinnamon.json)",
+      "verified_at": "2026-06-19T22:33:37.860Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Oktoberfest",
+      "external_id": "pop-2026-06-19-002",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The world's largest folk celebration, held annually in Munich on the Theresienwiese for about two weeks from mid-September, it draws around seven million visitors and centers on beer.",
+      "answer": "Oktoberfest",
+      "aliases": [
+        "Octoberfest"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "food-drink"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Oktoberfest",
+          "url": "https://en.wikipedia.org/wiki/Oktoberfest",
+          "snippet": "Oktoberfest is the world's largest Volksfest. It combines a beer festival with a fun fair and is held annually in Munich on the Theresienwiese from mid-September to the first Sunday in October."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'the world's largest Volksfest' and 'held annually in Munich on the Theresienwiese from mid-September to the first Sunday in October' and 'draws around seven million visitors each year.' (oktoberfest.json)",
+      "verified_at": "2026-06-19T22:33:38.351Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pico_de_gallo",
+      "external_id": "pop-2026-06-19-003",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Literally 'rooster's beak' in Spanish, this fresh Mexican salsa made from chopped tomato, onion, and serrano peppers — with salt, lime, and cilantro — is also called salsa fresca.",
+      "answer": "Pico de gallo",
+      "aliases": [
+        "Pico de Gallo",
+        "salsa fresca",
+        "salsa cruda"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "food-drink"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pico de gallo",
+          "url": "https://en.wikipedia.org/wiki/Pico_de_gallo",
+          "snippet": "Pico de gallo, also called salsa fresca, salsa bandera, and salsa cruda, is a type of salsa commonly used in Mexican cuisine. It is traditionally made from chopped tomato, onion, and serrano peppers, with salt, lime juice, and cilantro."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'lit. rooster's beak' and 'also called salsa fresca' and 'traditionally made from chopped tomato, onion, and serrano peppers, with salt, lime juice, and cilantro.' (pico-de-gallo.json)",
+      "verified_at": "2026-06-19T22:33:38.834Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/L%C5%AB%CA%BBau",
+      "external_id": "pop-2026-06-19-004",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This traditional Hawaiian feast typically features poi, kālua pig, and poke, and is often accompanied by hula performances and traditional music.",
+      "answer": "Luau",
+      "aliases": [
+        "Lūʻau",
+        "lūʻau"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "food-drink"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lūʻau",
+          "url": "https://en.wikipedia.org/wiki/L%C5%AB%CA%BBau",
+          "snippet": "A lūʻau is a traditional Hawaiian party or feast that is usually accompanied by entertainment. It often features Native Hawaiian cuisine with foods such as poi, kālua puaʻa, poke, lomi salmon, lomi oio, ʻopihi, and haupia, and is often acco"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'a traditional Hawaiian party or feast' with 'poi, kālua pig, poke' and 'traditional Hawaiian music and hula.' (a-luau.json)",
+      "verified_at": "2026-06-19T22:33:39.335Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tater_tots",
+      "external_id": "pop-2026-06-19-005",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "These grated-potato cylinders, deep-fried until crispy, take their name from a registered trademark of the frozen food company Ore-Ida — though the name is now widely used as a generic term.",
+      "answer": "Tater Tots",
+      "aliases": [
+        "tater tots",
+        "Tater tots"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "food-drink"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tater tots",
+          "url": "https://en.wikipedia.org/wiki/Tater_tots",
+          "snippet": "Tater tots are grated potato formed into small cylinders and deep-fried, often served as a side dish. \"Tater\" is a dialect form of the word potato. The name \"tater tot\" is a registered trademark of the American frozen food company Ore-Ida, "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'grated potato formed into small cylinders and deep-fried' and 'registered trademark of the American frozen food company Ore-Ida, but is often used as a generic term.' (tater-tots.json)",
+      "verified_at": "2026-06-19T22:33:39.846Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Clams_casino",
+      "external_id": "pop-2026-06-19-006",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originating in Rhode Island, this New England appetizer is served on the halfshell topped with breadcrumbs and bacon, and is named for the type of establishment associated with its invention.",
+      "answer": "Clams casino",
+      "aliases": [
+        "Clams Casino"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "food-drink"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Clams casino",
+          "url": "https://en.wikipedia.org/wiki/Clams_casino",
+          "snippet": "Clams casino is a clam \"on the halfshell\" dish with breadcrumbs and bacon. Green peppers are also a common ingredient."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'clam on the halfshell dish with breadcrumbs and bacon' and 'originated in Rhode Island' and 'often served as an appetizer in New England.' (clams-casino.json)",
+      "verified_at": "2026-06-19T22:33:40.316Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Soft-shell_crab",
+      "external_id": "pop-2026-06-19-007",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This culinary term refers to crabs that have recently molted their old exoskeleton; they are harvested from the water immediately after molting, before their new exoskeleton has time to harden.",
+      "answer": "Soft-shell crab",
+      "aliases": [
+        "soft shell crab",
+        "soft-shell crabs"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "food-drink"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Soft-shell crab",
+          "url": "https://en.wikipedia.org/wiki/Soft-shell_crab",
+          "snippet": "Soft-shell crab is a culinary term for crabs that have recently molted their old exoskeleton and are still soft. Soft-shells are removed from the water as soon as they molt or, preferably, just before to prevent any hardening of their shell"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'culinary term for crabs that have recently molted their old exoskeleton and are still soft' and 'removed from the water as soon as they molt... to prevent any hardening of their shell.' (soft-shell-crabs.json)",
+      "verified_at": "2026-06-19T22:33:40.800Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/DiGiorno",
+      "external_id": "pop-2026-06-19-008",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Brands & Advertising",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Nestlé-owned frozen pizza brand, previously sold in Canada under the name Delissio before that product line was discontinued in 2023, is one of the best-selling frozen pizzas in the U.S.",
+      "answer": "DiGiorno",
+      "aliases": [
+        "Di Giorno",
+        "DiGiorno pizza"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "brands-advertising"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "DiGiorno",
+          "url": "https://en.wikipedia.org/wiki/DiGiorno",
+          "snippet": "DiGiorno is a brand of frozen pizzas sold in the United States, and is a subsidiary of Nestlé. In 2023, Nestlé discontinued sales of Delissio pizzas in Canada."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'previously sold in Canada as Delissio' and 'subsidiary of Nestlé' and 'In 2023, Nestlé discontinued sales of Delissio pizzas in Canada.' (digiorno.json)",
+      "verified_at": "2026-06-19T22:33:41.286Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hot_Pockets",
+      "external_id": "pop-2026-06-19-009",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Brands & Advertising",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally launched by Chef America Inc., these microwaveable turnovers — typically stuffed with cheese, meat, or vegetables — have been produced by Nestlé since April 2002.",
+      "answer": "Hot Pockets",
+      "aliases": [
+        "Hot Pocket"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "brands-advertising"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hot Pockets",
+          "url": "https://en.wikipedia.org/wiki/Hot_Pockets",
+          "snippet": "Hot Pockets is an American brand of microwaveable turnovers generally containing one or more types of cheese, meat, or vegetables. Hot Pockets was founded by Chef America Inc. Since April 20, 2002, they have been produced by Nestlé."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'brand of microwaveable turnovers generally containing one or more types of cheese, meat, or vegetables' and 'founded by Chef America Inc.' and 'produced by Nestlé' since April 2002. (hot-pockets.json)",
+      "verified_at": "2026-06-19T22:33:41.780Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Garfield",
+      "external_id": "pop-2026-06-19-010",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Jim Davis's comic strip about a lazy, sarcastic cat was originally published locally in 1976 under the name 'Jon,' reached nationwide syndication under a new title in 1978, and now holds a Guinness World Record as the world's most widely syndicated comic strip.",
+      "answer": "Garfield",
+      "aliases": [],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "comics-graphic-novels"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Garfield",
+          "url": "https://en.wikipedia.org/wiki/Garfield",
+          "snippet": "Garfield is an American comic strip and media franchise created by Jim Davis. Originally published locally as Jon in 1976, then in nationwide syndication from 1978, it chronicles the life of the title character Garfield, a lazy, gluttonous,"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'Originally published locally as Jon in 1976... then in nationwide syndication from 1978' and 'held the Guinness World Record for being the world's most widely syndicated comic strip.' (garfield.json)",
+      "verified_at": "2026-06-19T22:33:42.264Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Spotify",
+      "external_id": "pop-2026-06-19-011",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded in April 2006 by Daniel Ek and Martin Lorentzon, this Swedish music streaming service has grown into one of the world's largest audio platforms and is listed on the New York Stock Exchange.",
+      "answer": "Spotify",
+      "aliases": [],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "technology-companies"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Spotify",
+          "url": "https://en.wikipedia.org/wiki/Spotify",
+          "snippet": "Spotify is a Swedish music streaming service provider founded in April 2006 by Daniel Ek and Martin Lorentzon. As of March 2026, it was one of the largest providers of music streaming services, with over 761 million monthly active users com"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'founded in April 2006 by Daniel Ek and Martin Lorentzon' and '761 million monthly active users' and 'listed on the New York Stock Exchange.' (spotify.json)",
+      "verified_at": "2026-06-19T22:34:00.890Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nordic_noir",
+      "external_id": "pop-2026-06-19-012",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Scandinavian crime fiction genre, typically narrated from a police perspective, employs plain language and bleak northern settings to expose dark social undercurrents beneath an apparently placid surface.",
+      "answer": "Nordic noir",
+      "aliases": [
+        "Scandinavian noir",
+        "Nordic Noir"
+      ],
+      "tags": [
+        "pop-culture-draft",
+        "sourced",
+        "television",
+        "streaming"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nordic noir",
+          "url": "https://en.wikipedia.org/wiki/Nordic_noir",
+          "snippet": "Nordic noir, also known as Scandinavian noir, is a genre of crime fiction usually written from a police point of view and set in Scandinavia or the Nordic countries. Nordic noir often employs plain language, avoiding metaphor, and is typica"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Source facts: 'also known as Scandinavian noir' and 'written from a police point of view and set in Scandinavia or the Nordic countries' and 'bleak landscapes... tension... between the apparently still and bland social surface and the patterns of murder... lying underneath.' (nordic-noir.json)",
+      "verified_at": "2026-06-19T22:34:01.388Z"
+    }
+  ]
+}
