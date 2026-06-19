@@ -17,6 +17,9 @@ name: Draft clues (scheduled)
 # already exists and, if so, skips. Net effect: up to 4 attempts, but it drafts exactly
 # once per day. (Scheduled workflows also auto-disable after 60 days of zero repo
 # activity — not a risk here since merged draft PRs keep the repo active.)
+# FORCED runs (workflow_dispatch with force=true) bypass the guard AND get a unique
+# branch suffix (-r<run_id>, see "Compute the draft branch name"), so a manual re-run
+# never collides with an existing same-date PR; only scheduled runs use the bare date.
 #
 # Required repository secret (Settings → Secrets and variables → Actions):
 #   CLAUDE_CODE_OAUTH_TOKEN  – generate locally with `claude setup-token`. Uses your
@@ -108,6 +111,24 @@ jobs:
           git config user.name  "trivia-drafter[bot]"
           git config user.email "trivia-drafter@users.noreply.github.com"
 
+      - name: Compute the draft branch name
+        run: |
+          # The branch name is the run's identity. SCHEDULED runs use the plain UTC
+          # date so the `guard` job collapses the 4 redundant cron slots into exactly
+          # ONE draft/day. FORCED (manual, force=true) runs get a unique -r<run_id>
+          # suffix so a re-run never collides with an existing same-date PR. Exported
+          # to $GITHUB_ENV so the Draft step (the agent reads it) and the Attach step
+          # share ONE name. Empty $DRAFT_BRANCH (e.g. a local run) → agent falls back
+          # to the dated name itself.
+          date="$(date -u +%F)"
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            branch="draft-clues/daily-${date}-r${{ github.run_id }}"
+          else
+            branch="draft-clues/daily-${date}"
+          fi
+          echo "DRAFT_BRANCH=$branch" >> "$GITHUB_ENV"
+          echo "Draft branch for this run: $branch"
+
       - name: Preflight — required secrets present
         run: |
           if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
@@ -131,30 +152,42 @@ jobs:
       # DIAGNOSTIC: the draft step has been running ~50+ min on hosted runners vs
       # ~20-30 min locally. Prime suspect is Wikipedia rate-limiting the shared Actions
       # egress IP — build-topic-docs fetches ~25 docs/category and the 429-backoff turns
-      # throttling into long waits. This step times raw Wikipedia REST calls in isolation:
-      # if avg latency is small and 0x429, the network is NOT the bottleneck (look at the
-      # LLM turns in the --verbose draft log instead); if it's seconds-per-call or shows
-      # 429s, throttling is confirmed and we can add a longer delay / mirror / caching.
+      # throttling into long waits. This step times the TWO Wikipedia endpoints
+      # build-topic-docs actually hits per doc, in isolation: the light rest_v1 summary
+      # AND the heavier w/api.php lead-extract (the likely throttle point). For each:
+      # if avg latency is small and 0x429, that endpoint is NOT the bottleneck (look at
+      # the LLM turns in the --verbose draft log instead); if it's seconds-per-call or
+      # shows 429s, throttling is confirmed and we add a longer delay / mirror / caching.
       - name: Probe — Wikipedia fetch latency from this runner
         run: |
           node -e '
-            const titles = ["Albert Einstein","Mount Everest","Jazz","Pablo Picasso","World War II","Photosynthesis","The Great Gatsby","Wolfgang Amadeus Mozart","Roman Empire","Pacific Ocean"];
-            const urls = titles.map(t => "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(t.replace(/ /g, "_")));
+            const titles = ["Albert Einstein","Mount Everest","Jazz","Pablo Picasso","World War II","Photosynthesis","The Great Gatsby","Wolfgang Amadeus Mozart","Roman Empire","Pacific Ocean","Leonardo da Vinci","Mitochondrion","Ludwig van Beethoven","French Revolution","Amazon River","Quantum mechanics","Hamlet","Great Wall of China","Periodic table","Vincent van Gogh"];
+            const endpoints = [
+              { label: "rest_v1 summary", url: (t) => "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(t.replace(/ /g, "_")) },
+              { label: "w/api.php lead-extract", url: (t) => "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&redirects=1&titles=" + encodeURIComponent(t) },
+            ];
+            const wait = (ms) => new Promise((r) => setTimeout(r, ms));
             (async () => {
-              let total = 0, n429 = 0, ok = 0;
-              for (const u of urls) {
-                const t0 = Date.now();
-                let status = "ERR";
-                try {
-                  const r = await fetch(u, { headers: { "User-Agent": "TriviaTrainerProbe/0.1 (personal study app)", Accept: "application/json" } });
-                  status = r.status;
-                  if (r.status === 429) n429++; else if (r.ok) ok++;
-                } catch (e) { status = e.message; }
-                const ms = Date.now() - t0;
-                total += ms;
-                console.log("  " + status + "  " + ms + "ms  " + decodeURIComponent(u.split("/").pop()));
+              // Pace at 600ms — the same delay build-topic-docs uses — so a dirty result
+              // here means real throttling at realistic pacing, not just a burst artifact.
+              for (const ep of endpoints) {
+                let total = 0, n429 = 0, ok = 0, max = 0;
+                console.log("\n[" + ep.label + "]  (600ms between calls, like build-topic-docs)");
+                for (const t of titles) {
+                  const t0 = Date.now();
+                  let status = "ERR";
+                  try {
+                    const r = await fetch(ep.url(t), { headers: { "User-Agent": "TriviaTrainerProbe/0.1 (personal study app)", Accept: "application/json" } });
+                    status = r.status;
+                    if (r.status === 429) n429++; else if (r.ok) ok++;
+                  } catch (e) { status = e.message; }
+                  const ms = Date.now() - t0;
+                  total += ms; if (ms > max) max = ms;
+                  console.log("  " + status + "  " + ms + "ms  " + t);
+                  await wait(600);
+                }
+                console.log("  => " + titles.length + " reqs, " + ok + " ok, " + n429 + " x 429, avg " + Math.round(total / titles.length) + "ms, max " + max + "ms");
               }
-              console.log("\nWikipedia probe: " + urls.length + " reqs, " + ok + " ok, " + n429 + " x 429, avg " + Math.round(total / urls.length) + "ms/req.");
             })();
           '
 
@@ -172,7 +205,7 @@ jobs:
       - name: Attach the refreshed pool to today's draft PR
         if: always()
         run: |
-          branch="draft-clues/daily-$(date -u +%F)"
+          branch="$DRAFT_BRANCH" # same name the compute step set and the agent branched with
           if git rev-parse --verify --quiet "$branch" >/dev/null && git stash list | grep -q .; then
             git checkout "$branch"
             git stash pop
