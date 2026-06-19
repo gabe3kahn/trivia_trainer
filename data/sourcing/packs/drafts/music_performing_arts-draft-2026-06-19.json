@@ -9,17 +9,19 @@
   "questions": [
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/1812_Overture",
+      "source_url": "https://en.wikipedia.org/wiki/Swan_Lake",
       "external_id": "music-draft-2026-06-19-003",
       "category_id": "music_performing_arts",
       "subcategory_name": "Classical Composers",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Along with The Nutcracker and The Sleeping Beauty, this completes the trio of Tchaikovsky's most celebrated ballet scores.",
+      "clue": "This Tchaikovsky ballet — drawn from a folk tale of a princess under a sorcerer’s curse — flopped at its 1877 Bolshoi premiere as “too Wagnerian,” yet the 1895 Petipa–Ivanov revival made it one of the world’s most-performed.",
       "answer": "Swan Lake",
-      "aliases": [],
+      "aliases": [
+        "The Lake of the Swans"
+      ],
       "tags": [
         "music-draft",
         "sourced",
@@ -30,8 +32,8 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "1812 Overture",
-          "url": "https://en.wikipedia.org/wiki/1812_Overture",
+          "title": "Swan Lake",
+          "url": "https://en.wikipedia.org/wiki/Swan_Lake",
           "snippet": "The Year 1812, Solemn Overture, Op. 49, popularly known as the 1812 Overture, is a concert overture in E♭ major written in 1880 by Russian composer Pyotr Ilyich Tchaikovsky. The piece commemorates Russia's successful defence against the Fre"
         }
       ],
@@ -116,7 +118,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This American jazz saxophonist, bandleader, and composer is regarded as among the most influential and acclaimed figures in the history of jazz and 20th-century music.",
+      "clue": "Critic Ira Gitler coined the phrase “sheets of sound” for this musician’s dense, cascading style; his increasingly spiritual music culminated in the 1965 album “A Love Supreme,” and he received a special Pulitzer Prize in 2007, four decades after his death.",
       "answer": "John Coltrane",
       "aliases": [
         "Coltrane"
