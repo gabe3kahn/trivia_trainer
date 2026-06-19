@@ -21,9 +21,16 @@
       "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
       "clue": "This armored horseman is sworn to his lord's service by day and night alike, and can also be found moving in an L-shape across a chessboard.",
       "answer": "Knight",
-      "aliases": ["knight"],
-      "wp": { "homophone": "night" },
-      "tags": ["wp-draft", "homophone"],
+      "aliases": [
+        "knight"
+      ],
+      "wp": {
+        "homophone": "night"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -36,11 +43,18 @@
       "difficulty_rank": 1,
       "mechanic": "homophone",
       "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
-      "clue": "At the orchard stand, every pair of customers shared the same favorite: this sweet, teardrop-shaped autumn fruit.",
+      "clue": "At the orchard stand, every pair of customers shared the same favorite fruit.",
       "answer": "Pear",
-      "aliases": ["pear"],
-      "wp": { "homophone": "pair" },
-      "tags": ["wp-draft", "homophone"],
+      "aliases": [
+        "pear"
+      ],
+      "wp": {
+        "homophone": "pair"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -53,11 +67,18 @@
       "difficulty_rank": 2,
       "mechanic": "homophone",
       "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
-      "clue": "Wet weather from rain clouds may last a season, but this term for a sovereign's period of rule can span entire decades.",
+      "clue": "Wet weather from rain clouds may last a season, but a sovereign’s period of rule can span entire decades.",
       "answer": "Reign",
-      "aliases": ["reign"],
-      "wp": { "homophone": "rain" },
-      "tags": ["wp-draft", "homophone"],
+      "aliases": [
+        "reign"
+      ],
+      "wp": {
+        "homophone": "rain"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -70,11 +91,18 @@
       "difficulty_rank": 2,
       "mechanic": "homophone",
       "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
-      "clue": "A soul may yearn for spiritual nourishment, but this thin layer on the underside of a shoe is what the cobbler replaces.",
+      "clue": "A soul may yearn for spiritual nourishment, but Atlantic fish can only provide material nourishment.",
       "answer": "Sole",
-      "aliases": ["sole"],
-      "wp": { "homophone": "soul" },
-      "tags": ["wp-draft", "homophone"],
+      "aliases": [
+        "sole"
+      ],
+      "wp": {
+        "homophone": "soul"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -87,11 +115,18 @@
       "difficulty_rank": 3,
       "mechanic": "homophone",
       "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
-      "clue": "A flower in full bloom adds beauty to the garden, but this milled powder made from wheat or grain is what a baker sifts into the mixing bowl.",
+      "clue": "A flower in full bloom can garnish a cake, but would be less tasty inside.",
       "answer": "Flour",
-      "aliases": ["flour"],
-      "wp": { "homophone": "flower" },
-      "tags": ["wp-draft", "homophone"],
+      "aliases": [
+        "flour"
+      ],
+      "wp": {
+        "homophone": "flower"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -104,11 +139,18 @@
       "difficulty_rank": 2,
       "mechanic": "hidden_word",
       "constraint_text": "The answer is hidden as consecutive letters inside a phrase in this clue.",
-      "clue": "The professor heard each question from the back row and pointed to the anatomy it concerned — the organ that processes sound.",
+      "clue": "The professor heard each question from the back row.",
       "answer": "Ear",
-      "aliases": ["ear"],
-      "wp": { "hidden_in": "professor heard each" },
-      "tags": ["wp-draft", "hidden-word"],
+      "aliases": [
+        "ear"
+      ],
+      "wp": {
+        "hidden_in": "professor heard each"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -123,9 +165,16 @@
       "constraint_text": "The answer is hidden as consecutive letters inside a phrase in this clue.",
       "clue": "The honored guest departed early from the gallery opening, yet her canvas on the wall defined the entire exhibition.",
       "answer": "Art",
-      "aliases": ["art"],
-      "wp": { "hidden_in": "guest departed early" },
-      "tags": ["wp-draft", "hidden-word"],
+      "aliases": [
+        "art"
+      ],
+      "wp": {
+        "hidden_in": "guest departed early"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -140,9 +189,16 @@
       "constraint_text": "The answer is hidden as consecutive letters inside a phrase in this clue.",
       "clue": "The village elder presided over the annual ceremony marking the passing of generations and the weight of accumulated years.",
       "answer": "Age",
-      "aliases": ["age"],
-      "wp": { "hidden_in": "village elder presided" },
-      "tags": ["wp-draft", "hidden-word"],
+      "aliases": [
+        "age"
+      ],
+      "wp": {
+        "hidden_in": "village elder presided"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -155,11 +211,18 @@
       "difficulty_rank": 2,
       "mechanic": "hidden_word",
       "constraint_text": "The answer is hidden as consecutive letters inside a phrase in this clue.",
-      "clue": "Near the spinning wheel by the hearth, weary travelers paid in coin for a night's board at this roadside lodging.",
+      "clue": "Near the spinning wheel by the hearth, weary travelers paid in coin for a night’s board.",
       "answer": "Inn",
-      "aliases": ["inn"],
-      "wp": { "hidden_in": "the spinning wheel" },
-      "tags": ["wp-draft", "hidden-word"],
+      "aliases": [
+        "inn"
+      ],
+      "wp": {
+        "hidden_in": "the spinning wheel"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -172,11 +235,18 @@
       "difficulty_rank": 3,
       "mechanic": "hidden_word",
       "constraint_text": "The answer is hidden as consecutive letters inside a phrase in this clue.",
-      "clue": "A replacement pitcher entered the ninth inning and dealt the single card that outranks all others in the deck.",
+      "clue": "The poker player held onto four cards hoping a replacement fifth could complete his winning hand.",
       "answer": "Ace",
-      "aliases": ["ace"],
-      "wp": { "hidden_in": "A replacement pitcher" },
-      "tags": ["wp-draft", "hidden-word"],
+      "aliases": [
+        "ace"
+      ],
+      "wp": {
+        "hidden_in": "a replacement fifth"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     }
