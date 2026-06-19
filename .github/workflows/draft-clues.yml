@@ -30,14 +30,15 @@ name: Draft clues (scheduled)
 
 on:
   schedule:
-    # Four UTC slots ~2h apart, ≈7:43 AM–1:43 PM PT (PDT). Redundancy against dropped
+    # Four UTC slots ~2h apart, ≈6:43 AM–12:43 PM PT (PDT). Redundancy against dropped
     # scheduled runs; the guard job makes the extra firings no-ops. All kept well before
     # 00:00 UTC so every slot shares one UTC date (the branch-name key). Fixed UTC, so
-    # this drifts ~1h across US daylight-saving changes (fine for a drafter).
-    - cron: '43 14 * * *'
-    - cron: '43 16 * * *'
-    - cron: '43 18 * * *'
-    - cron: '43 20 * * *'
+    # this drifts ~1h across US daylight-saving changes (fine for a drafter). First slot
+    # pulled an hour earlier (was 14:43) to give the long draft step more daytime runway.
+    - cron: '43 13 * * *'
+    - cron: '43 15 * * *'
+    - cron: '43 17 * * *'
+    - cron: '43 19 * * *'
   workflow_dispatch:
     inputs:
       force:
@@ -82,7 +83,7 @@ jobs:
     needs: guard
     if: needs.guard.outputs.already != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     env:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       # ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # alternative to the OAuth token (metered)
@@ -127,9 +128,43 @@ jobs:
           # in the reviewed PR rather than a blocked direct push to protected main).
           git stash push -- data/sourcing/topics/pool.json data/sourcing/harvest-state.json || true
 
+      # DIAGNOSTIC: the draft step has been running ~50+ min on hosted runners vs
+      # ~20-30 min locally. Prime suspect is Wikipedia rate-limiting the shared Actions
+      # egress IP — build-topic-docs fetches ~25 docs/category and the 429-backoff turns
+      # throttling into long waits. This step times raw Wikipedia REST calls in isolation:
+      # if avg latency is small and 0x429, the network is NOT the bottleneck (look at the
+      # LLM turns in the --verbose draft log instead); if it's seconds-per-call or shows
+      # 429s, throttling is confirmed and we can add a longer delay / mirror / caching.
+      - name: Probe — Wikipedia fetch latency from this runner
+        run: |
+          node -e '
+            const titles = ["Albert Einstein","Mount Everest","Jazz","Pablo Picasso","World War II","Photosynthesis","The Great Gatsby","Wolfgang Amadeus Mozart","Roman Empire","Pacific Ocean"];
+            const urls = titles.map(t => "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(t.replace(/ /g, "_")));
+            (async () => {
+              let total = 0, n429 = 0, ok = 0;
+              for (const u of urls) {
+                const t0 = Date.now();
+                let status = "ERR";
+                try {
+                  const r = await fetch(u, { headers: { "User-Agent": "TriviaTrainerProbe/0.1 (personal study app)", Accept: "application/json" } });
+                  status = r.status;
+                  if (r.status === 429) n429++; else if (r.ok) ok++;
+                } catch (e) { status = e.message; }
+                const ms = Date.now() - t0;
+                total += ms;
+                console.log("  " + status + "  " + ms + "ms  " + decodeURIComponent(u.split("/").pop()));
+              }
+              console.log("\nWikipedia probe: " + urls.length + " reqs, " + ok + " ok, " + n429 + " x 429, avg " + Math.round(total / urls.length) + "ms/req.");
+            })();
+          '
+
       - name: Draft clues and open a PR (headless Claude Code)
         run: |
-          cat planning/draft-clues-prompt.md | claude -p \
+          # --verbose streams every assistant turn + tool result to the log so we can
+          # see WHICH internal step (build-topic-docs fetches, verify-clue-sources, the
+          # import dry-run, or LLM thinking) eats the wall-clock — Actions timestamps
+          # each log line, so elapsed-between-tools is readable in the raw log.
+          cat planning/draft-clues-prompt.md | claude -p --verbose \
             --model claude-sonnet-4-6 \
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep,TodoWrite" \
             --max-turns 120
