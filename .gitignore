@@ -18,11 +18,12 @@ web-build/
 data/sourcing/_*.log
 data/acquisition/raw/*.json
 
-# derived / runtime data + regenerated reports — local-only, never commit.
-# These change on every daily harvest/audit run; committing them makes every
-# unreviewed daily PR collide on the same files. Tools read them from local disk.
-data/sourcing/topics/
-data/sourcing/harvest-state.json
+# derived / runtime data + regenerated reports.
+# The flat topic pool + harvest cursor ARE committed — they're the cloud harvester's
+# persistent, accumulating state (the drafter reads pool.json). The vestigial
+# per-category stores and the append-only run log stay local-only.
+data/sourcing/topics/*
+!data/sourcing/topics/pool.json
 data/sourcing/harvest-log.jsonl
 data/acquisition/feedback-issue-audit.*
 data/acquisition/source-verification-*

@@ -2,16 +2,16 @@
  * Daily J! Archive harvester — incremental, respectful, resumable.
  *
  * Each run reads only a few games (default 5), parses their clues, and folds the
- * answers + category titles into a persistent per-category topic store. State is
- * tracked so runs never re-process a game and the harvester walks the archive
- * newest-season-first, a little each day. Designed to run every morning for a
- * few minutes (e.g. Windows Task Scheduler), so the topic/source corpus
- * compounds over time without ever hammering j-archive.com.
+ * answers into a single flat TOPIC POOL keyed by answer. The (often punny, always
+ * misleading) Jeopardy category titles are NOT used to bucket — relevance comes
+ * later from LLM subject keywords (keyword-topics.mjs). State is tracked so runs
+ * never re-process a game and the harvester walks the archive newest-season-first,
+ * a little each day, so the pool compounds over time without hammering j-archive.com.
  *
  * Outputs (all under data/sourcing/):
- *   harvest-state.json          — processed game ids, season cursor, pending queue
- *   topics/<category_id>.json   — accumulating answer + category-title frequency
- *   harvest-log.jsonl           — one line per run (audit trail)
+ *   harvest-state.json   — processed game ids, season cursor, pending queue
+ *   topics/pool.json      — accumulating {answer → count, values, example_clue, keywords}
+ *   harvest-log.jsonl    — one line per run (audit trail)
  *
  * Usage:
  *   node tools/acquisition/jarchive-daily-harvest.mjs
@@ -20,7 +20,7 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { fetchText, normalizeCategoryId, parseArgs, parseGame, wait } from './jarchive-source.mjs';
+import { fetchText, parseArgs, parseGame, wait } from './jarchive-source.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const perRun = Number(args.perRun ?? 5);
@@ -31,6 +31,7 @@ const sourcingDir = path.join(root, 'data', 'sourcing');
 const topicsDir = path.join(sourcingDir, 'topics');
 const statePath = path.join(sourcingDir, 'harvest-state.json');
 const logPath = path.join(sourcingDir, 'harvest-log.jsonl');
+const poolPath = path.join(topicsDir, 'pool.json');
 
 await fs.mkdir(topicsDir, { recursive: true });
 
@@ -80,15 +81,17 @@ if (!state.pending_game_ids.length) {
 
 // 3. Harvest a small batch.
 const batch = state.pending_game_ids.slice(0, perRun);
-const runStats = { games: 0, clues: 0, categories_touched: new Set() };
-const touchedTopics = new Map(); // category_id -> store (lazy-loaded)
+const runStats = { games: 0, clues: 0, new_topics: 0 };
+// Single flat pool — load the existing one so we preserve its topics + keywords
+// and accumulate; new answers come in un-keyworded (keyword-topics.mjs tags them).
+const pool = await loadJson(poolPath, { updated_at: null, topic_count: 0, topics: {} });
 
 console.log(`\nHarvesting ${batch.length} game(s)…`);
 for (const gid of batch) {
   try {
     const url = `https://j-archive.com/showgame.php?game_id=${encodeURIComponent(gid)}`;
     const game = parseGame(await fetchText(url), { gameId: gid, url });
-    for (const clue of game.clues) await foldClue(clue, touchedTopics, runStats);
+    for (const clue of game.clues) foldClue(clue, pool, runStats);
     runStats.games += 1;
     console.log(`  game ${gid}: ${game.clues.length} clues (${game.aired ?? 'date n/a'})`);
   } catch (error) {
@@ -100,11 +103,10 @@ for (const gid of batch) {
   await wait(delayMs);
 }
 
-// 4. Persist accumulated topic stores + state + log.
-for (const [categoryId, store] of touchedTopics) {
-  store.updated_at = new Date().toISOString();
-  await saveJson(path.join(topicsDir, `${categoryId}.json`), store);
-}
+// 4. Persist the pool + state + log.
+pool.updated_at = new Date().toISOString();
+pool.topic_count = Object.keys(pool.topics).length;
+await saveJson(poolPath, pool);
 
 state.pending_game_ids = state.pending_game_ids.filter((gid) => !processedSet.has(gid));
 state.processed_count = state.processed_game_ids.length;
@@ -115,53 +117,36 @@ const logEntry = {
   run_at: state.last_run,
   games: runStats.games,
   clues: runStats.clues,
-  categories_touched: [...runStats.categories_touched],
+  new_topics: runStats.new_topics,
+  topic_total: pool.topic_count,
   processed_total: state.processed_count,
   pending_remaining: state.pending_game_ids.length,
   seasons_expanded: state.season_index,
 };
 await fs.appendFile(logPath, `${JSON.stringify(logEntry)}\n`);
 
-console.log(
-  `\nHarvested ${runStats.clues} clues from ${runStats.games} game(s) across ${logEntry.categories_touched.length} categories.`,
-);
+console.log(`\nHarvested ${runStats.clues} clues from ${runStats.games} game(s); ${runStats.new_topics} new topics.`);
 console.log(`Lifetime: ${state.processed_count} games processed, ${state.pending_game_ids.length} queued.`);
-console.log(`Topic stores updated in data/sourcing/topics/.`);
+console.log(`Topic pool: ${pool.topic_count} topics → data/sourcing/topics/pool.json (run keyword-topics.mjs to tag new ones).`);
 
 /* ------------------------------------------------------------------ */
 
-async function foldClue(clue, touched, stats) {
+function foldClue(clue, pool, stats) {
   const answer = String(clue.answer ?? '').trim();
   if (!answer) return;
-  const categoryId = normalizeCategoryId(clue.category);
-  const store = await getTopicStore(categoryId, touched);
-
-  store.total_clues_seen += 1;
   stats.clues += 1;
-  stats.categories_touched.add(categoryId);
-
-  const title = String(clue.category ?? '').trim();
-  if (title) store.category_titles[title] = (store.category_titles[title] ?? 0) + 1;
 
   const key = answer.toLowerCase();
-  const entry = (store.answers[key] ??= { display: answer, count: 0, values: [], example_clue: clue.clue ?? '' });
+  let entry = pool.topics[key];
+  if (!entry) {
+    entry = pool.topics[key] = { display: answer, count: 0, values: [], example_clue: clue.clue ?? '', keywords: [] };
+    stats.new_topics += 1;
+  }
   entry.count += 1;
+  if (!entry.example_clue && clue.clue) entry.example_clue = clue.clue;
   if (clue.normalized_value != null && !entry.values.includes(clue.normalized_value)) {
     entry.values.push(clue.normalized_value);
   }
-}
-
-async function getTopicStore(categoryId, touched) {
-  if (touched.has(categoryId)) return touched.get(categoryId);
-  const store = await loadJson(path.join(topicsDir, `${categoryId}.json`), {
-    category_id: categoryId,
-    updated_at: null,
-    total_clues_seen: 0,
-    category_titles: {},
-    answers: {},
-  });
-  touched.set(categoryId, store);
-  return store;
 }
 
 async function fetchSeasons() {
