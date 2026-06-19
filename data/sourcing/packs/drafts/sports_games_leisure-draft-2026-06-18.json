@@ -244,8 +244,8 @@
       "external_id": "sgl-draft-002-010",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Board Games & Card Games",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Played with black and white stones on a 19-by-19 grid, this ancient Chinese game has more legal board positions than there are atoms in the observable universe.",
@@ -269,7 +269,7 @@
         }
       ],
       "verification_status": "weak",
-      "reviewer_note": "Source: go-game.json — reclued to the 2.1e170 legal-positions vs atoms-in-universe hook to earn the $800 (oblique, deep answer).",
+      "reviewer_note": "Source: go-game.json — atoms-in-universe legal-positions hook; set to $400 per review (better clue but answer too gettable for the hard tier).",
       "verified_at": "2026-06-19T04:47:00.093Z"
     },
     {
