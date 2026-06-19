@@ -151,10 +151,10 @@
       "difficulty_rank": 3,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "A chart-topping music icon discovers that their fiercest battle is set in a galaxy far, far away.",
-      "answer": "Pop Star Wars",
+      "clue": "The plunger pot that brews a strong cup of coffee runs right into the formal media briefing where officials field reporters' questions.",
+      "answer": "French Press Conference",
       "aliases": [],
-      "wp": { "first": "Pop Star", "second": "Star Wars" },
+      "wp": { "first": "French Press", "second": "Press Conference" },
       "tags": ["wp-draft", "before-after"],
       "citations": [],
       "verification_status": "skipped"
