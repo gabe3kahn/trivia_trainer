@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-06-18T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "words_language",
+  "notes": [
+    "Manual addition: the 'museum ← Muse' etymology, placed in words_language (an etymology hook belongs here, not in mythology — and it avoids colliding with the Mnemosyne/Muses clue in the mythology pack). Grounded in the Museum article's etymology."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Museum",
+      "external_id": "wl-draft-002-001",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This everyday English word for a building of exhibits and collections descends, by way of the Greek mouseion, from a shrine to the nine goddesses of poetry, music, and the arts.",
+      "answer": "Museum",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Museum",
+          "url": "https://en.wikipedia.org/wiki/Museum",
+          "snippet": "A museum is an institution dedicated to displaying and preserving culturally or scientifically significant objects. Many museums have exhibitions of these objects on public display, and some have non-exhibited collections that are used by r"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T04:07:33.275Z"
+    }
+  ]
+}
