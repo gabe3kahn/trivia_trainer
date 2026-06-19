@@ -1,11 +1,14 @@
 name: Draft clues (scheduled)
 
-# Cloud version of the local "TriviaTrainer-DraftClues" Windows task — so drafting
-# no longer depends on a laptop being awake. On a daily cron it runs Claude Code
-# headless to draft ~15 source-grounded clues for two under-covered categories,
-# verify + dry-run-gate them, and open ONE PR for review. It NEVER imports live and
-# NEVER merges (the prompt's hard rules enforce that); going live still happens only
-# when a human merges the PR, via the existing import-on-merge.yml workflow.
+# Cloud version of the local "TriviaTrainer-DraftClues" Windows task — so both
+# harvesting AND drafting run in the cloud, not on a laptop. On a daily cron it:
+#   1. harvests a few fresh J! Archive games into the flat topic pool + keywords them,
+#   2. drafts ~15 source-grounded clues for two under-covered categories (pulling docs
+#      from the keyword pool) and opens ONE PR,
+#   3. attaches the refreshed pool.json + harvest-state to that same PR — so the pool
+#      accumulates via the REVIEWED merge (the bot can't push to protected main directly).
+# It NEVER imports live and NEVER merges; going live happens only when a human merges the
+# PR (which also lands the pool update), via the existing import-on-merge.yml workflow.
 #
 # RELIABILITY: GitHub scheduled runs are best-effort — under load they can be delayed
 # or dropped outright, even off the top of the hour. For a once-daily job that risks a
@@ -115,9 +118,33 @@ jobs:
             exit 1
           fi
 
+      - name: Harvest fresh Jeopardy topics + keyword them
+        run: |
+          node tools/acquisition/jarchive-daily-harvest.mjs --perRun 8
+          node tools/acquisition/keyword-topics.mjs
+          # Set the pool/cursor aside so the drafter's own git ops run on a clean tree;
+          # the next step re-applies + commits them onto the draft branch (so they ride
+          # in the reviewed PR rather than a blocked direct push to protected main).
+          git stash push -- data/sourcing/topics/pool.json data/sourcing/harvest-state.json || true
+
       - name: Draft clues and open a PR (headless Claude Code)
         run: |
           cat planning/draft-clues-prompt.md | claude -p \
             --model claude-sonnet-4-6 \
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep,TodoWrite" \
             --max-turns 120
+
+      - name: Attach the refreshed pool to today's draft PR
+        if: always()
+        run: |
+          branch="draft-clues/daily-$(date -u +%F)"
+          if git rev-parse --verify --quiet "$branch" >/dev/null && git stash list | grep -q .; then
+            git checkout "$branch"
+            git stash pop
+            git add data/sourcing/topics/pool.json data/sourcing/harvest-state.json
+            git commit -m "chore(harvest): refresh topic pool + cursor for $(date -u +%F)"
+            git push origin "$branch"
+            echo "Pool + cursor attached to $branch (rides in the draft PR)."
+          else
+            echo "No draft branch or nothing stashed — harvest increment not kept this run (cursor on main is unchanged, so it re-harvests next time)."
+          fi
