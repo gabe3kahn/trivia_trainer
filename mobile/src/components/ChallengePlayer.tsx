@@ -20,11 +20,14 @@ export type ChallengePlayerProps = {
   questions: ChallengeQuestion[];
   startIndex?: number;
   secondsPerQuestion?: number;
+  // Daily/practice let the player correct the auto-grade. Duels set this false: the
+  // auto-grade is final and the override chips are hidden (no marking yourself right).
+  allowGradeOverride?: boolean;
   onSubmit: (a: { question: ChallengeQuestion; response: string | null; grade: AttemptGrade; timeMs: number }) => Promise<void>;
   onComplete: (summary: { correct: number; total: number }) => void;
 };
 
-export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion = 30, onSubmit, onComplete }: ChallengePlayerProps) {
+export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion = 30, allowGradeOverride = true, onSubmit, onComplete }: ChallengePlayerProps) {
   const headerHeight = useHeaderHeight();
   const [index, setIndex] = useState(startIndex);
   const [typed, setTyped] = useState('');
@@ -124,17 +127,23 @@ export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion 
                 <Text style={[styles.resultTitle, ink(finalGrade)]}>{label(finalGrade)}</Text>
                 <Text style={styles.resultDetail}>{result.detail}</Text>
               </View>
-              <Text style={styles.hint}>Auto-graded — tap to adjust</Text>
-              <View style={styles.chips}>
-                {(['correct', 'missed'] as const).map((g) => {
-                  const active = finalGrade === g;
-                  return (
-                    <Pressable key={g} onPress={() => { tapLight(); setOverride(g); }} style={({ pressed }) => [styles.chip, active && tone(g), pressed && styles.pressed]}>
-                      <Text style={[styles.chipText, active && ink(g)]}>{label(g)}</Text>
-                    </Pressable>
-                  );
-                })}
-              </View>
+              {allowGradeOverride ? (
+                <>
+                  <Text style={styles.hint}>Auto-graded — tap to adjust</Text>
+                  <View style={styles.chips}>
+                    {(['correct', 'missed'] as const).map((g) => {
+                      const active = finalGrade === g;
+                      return (
+                        <Pressable key={g} onPress={() => { tapLight(); setOverride(g); }} style={({ pressed }) => [styles.chip, active && tone(g), pressed && styles.pressed]}>
+                          <Text style={[styles.chipText, active && ink(g)]}>{label(g)}</Text>
+                        </Pressable>
+                      );
+                    })}
+                  </View>
+                </>
+              ) : (
+                <Text style={styles.hint}>Auto-graded · final in duels</Text>
+              )}
               <Pressable style={({ pressed }) => [styles.next, saving && styles.disabled, pressed && styles.pressed]} onPress={saveAndAdvance} disabled={saving}>
                 {saving ? <ActivityIndicator color={colors.background} /> : <Text style={styles.nextText}>{index + 1 >= questions.length ? 'Finish' : 'Next clue'}</Text>}
               </Pressable>

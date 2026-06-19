@@ -242,6 +242,7 @@ export type ChallengeQuestion = {
   aliases: string[];
   image_url: string | null;
   answer_detail: string | null;
+  value?: number; // present in duel payloads (get_game); omitted by the daily challenge
 };
 
 export type DailyAttempt = { question_id: string; grade: AttemptGrade; points: number };
@@ -292,7 +293,7 @@ export type GameSummary = {
 
 export type GamePayload = {
   id: string;
-  status: string;
+  status: 'pending' | 'active' | 'completed' | 'expired';
   creator_id: string;
   opponent_id: string | null;
   winner_id: string | null;
@@ -300,7 +301,10 @@ export type GamePayload = {
   opponent_score: number;
   expires_at: string | null;
   set_size: number;
+  seconds_per_question: number;
   questions: ChallengeQuestion[];
   my_attempts: DailyAttempt[];
+  opponent: { id: string; display_name: string | null; username: string | null; avatar_url: string | null } | null;
   opponent_answered: number;
+  opponent_attempts: DailyAttempt[]; // populated only once the duel is completed/expired
 };

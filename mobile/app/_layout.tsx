@@ -57,6 +57,8 @@ function RootLayoutNav() {
           <Stack.Screen name="auth" options={{ headerShown: false }} />
           <Stack.Screen name="auth-callback" options={{ headerShown: false }} />
           <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+          <Stack.Screen name="duel/[id]" options={{ title: 'Duel' }} />
+          <Stack.Screen name="duel/new" options={{ presentation: 'modal', title: 'New duel' }} />
         </Stack>
       </AuthProvider>
     </ThemeProvider>
