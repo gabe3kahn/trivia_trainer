@@ -17,6 +17,9 @@ name: Draft clues (scheduled)
 # already exists and, if so, skips. Net effect: up to 4 attempts, but it drafts exactly
 # once per day. (Scheduled workflows also auto-disable after 60 days of zero repo
 # activity — not a risk here since merged draft PRs keep the repo active.)
+# FORCED runs (workflow_dispatch with force=true) bypass the guard AND get a unique
+# branch suffix (-r<run_id>, see "Compute the draft branch name"), so a manual re-run
+# never collides with an existing same-date PR; only scheduled runs use the bare date.
 #
 # Required repository secret (Settings → Secrets and variables → Actions):
 #   CLAUDE_CODE_OAUTH_TOKEN  – generate locally with `claude setup-token`. Uses your
@@ -108,6 +111,24 @@ jobs:
           git config user.name  "trivia-drafter[bot]"
           git config user.email "trivia-drafter@users.noreply.github.com"
 
+      - name: Compute the draft branch name
+        run: |
+          # The branch name is the run's identity. SCHEDULED runs use the plain UTC
+          # date so the `guard` job collapses the 4 redundant cron slots into exactly
+          # ONE draft/day. FORCED (manual, force=true) runs get a unique -r<run_id>
+          # suffix so a re-run never collides with an existing same-date PR. Exported
+          # to $GITHUB_ENV so the Draft step (the agent reads it) and the Attach step
+          # share ONE name. Empty $DRAFT_BRANCH (e.g. a local run) → agent falls back
+          # to the dated name itself.
+          date="$(date -u +%F)"
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            branch="draft-clues/daily-${date}-r${{ github.run_id }}"
+          else
+            branch="draft-clues/daily-${date}"
+          fi
+          echo "DRAFT_BRANCH=$branch" >> "$GITHUB_ENV"
+          echo "Draft branch for this run: $branch"
+
       - name: Preflight — required secrets present
         run: |
           if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
@@ -184,7 +205,7 @@ jobs:
       - name: Attach the refreshed pool to today's draft PR
         if: always()
         run: |
-          branch="draft-clues/daily-$(date -u +%F)"
+          branch="$DRAFT_BRANCH" # same name the compute step set and the agent branched with
           if git rev-parse --verify --quiet "$branch" >/dev/null && git stash list | grep -q .; then
             git checkout "$branch"
             git stash pop
