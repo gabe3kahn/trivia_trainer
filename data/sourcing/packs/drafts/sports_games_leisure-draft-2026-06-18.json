@@ -3,7 +3,10 @@
   "provider": "original_sourced",
   "category_id": "sports_games_leisure",
   "notes": [
-    "Clues written from Wikipedia lead extracts in data/sourcing/docs/sports_games_leisure/. Avoids answers already in the 2026-06-17 sports draft (Monopoly, Chess, Scrabble, Poker, Backgammon, Babe Ruth, NBA Finals, Super Bowl, Brazil, Summer Olympic Games, Serena Williams, Wimbledon Championships, Muhammad Ali, Tetris)."
+    "Consolidated single sports pack for PR #36 (the separate 2026-06-17 sports draft was merged into this file and removed). Clues grounded only in the cited Wikipedia lead extracts in data/sourcing/docs/sports_games_leisure/.",
+    "Reviewed easy/mid clues kept at their approved values. Hard tail added to set the exemplar bar (difficulty from obliqueness/withholding, not fact-stacking): Go reclued to the 2e170-legal-positions hook ($800), Tour de France reclued via L'Auto + the climber/sprinter jerseys with the yellow jersey withheld ($800), and a genuine $1000 — Jim Thorpe via King Gustav V's 'world's greatest athlete' quote (obscure entry to a deep answer).",
+    "Folded in from the retired 2026-06-17 pack (improved craft, no overlap with the clues above): Monopoly, Chess, Scrabble, Poker, Backgammon, Babe Ruth, Super Bowl, Brazil, Serena Williams. Straight duplicates (World Series, Masters, Kentucky Derby) kept only in their approved form here.",
+    "Subcategory routing uses only the 10 valid sports_games_leisure subcategories; horse racing and cycling have no dedicated subcategory so they route to 'Sports Records & Awards'."
   ],
   "questions": [
     {
@@ -37,7 +40,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: michael-jordan.json — 6 NBA titles with Bulls; widely considered GOAT; wealthiest former athlete.",
-      "verified_at": "2026-06-19T03:16:25.750Z"
+      "verified_at": "2026-06-19T04:46:57.099Z"
     },
     {
       "source": "original_sourced",
@@ -69,7 +72,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: decathlon.json — 10-event competition; 'World's Greatest Athlete' title; King Gustav V/Jim Thorpe origin.",
-      "verified_at": "2026-06-19T03:16:26.123Z"
+      "verified_at": "2026-06-19T04:46:57.476Z"
     },
     {
       "source": "original_sourced",
@@ -101,7 +104,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: world-series.json — annual MLB championship since 1903; Commissioner's Trophy awarded.",
-      "verified_at": "2026-06-19T03:16:26.509Z"
+      "verified_at": "2026-06-19T04:46:57.858Z"
     },
     {
       "source": "original_sourced",
@@ -135,7 +138,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: the-masters-tournament.json — only major always held at same venue (Augusta National); April.",
-      "verified_at": "2026-06-19T03:16:26.883Z"
+      "verified_at": "2026-06-19T04:46:58.237Z"
     },
     {
       "source": "original_sourced",
@@ -167,7 +170,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: kentucky-derby.json — 'Run for the Roses'; Churchill Downs; first leg of Triple Crown.",
-      "verified_at": "2026-06-19T03:16:27.270Z"
+      "verified_at": "2026-06-19T04:46:58.616Z"
     },
     {
       "source": "original_sourced",
@@ -199,7 +202,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: boston-marathon.json — world's oldest annual marathon; first held 1897; inspired by 1896 Olympics.",
-      "verified_at": "2026-06-19T03:16:27.647Z"
+      "verified_at": "2026-06-19T04:46:59.050Z"
     },
     {
       "source": "original_sourced",
@@ -233,7 +236,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": "Source: marathon.json — devised by Michel Bréal; 1896 Athens Olympics original event; standardized 1921.",
-      "verified_at": "2026-06-19T03:16:28.025Z"
+      "verified_at": "2026-06-19T04:46:59.422Z"
     },
     {
       "source": "original_sourced",
@@ -241,11 +244,11 @@
       "external_id": "sgl-draft-002-010",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Board Games & Card Games",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This two-player strategy game of Chinese origin, in which players place stones to fence off territory on a grid, is believed to be the oldest board game continuously played to the present day.",
+      "clue": "Played with black and white stones on a 19-by-19 grid, this ancient Chinese game has more legal board positions than there are atoms in the observable universe.",
       "answer": "Go",
       "aliases": [
         "Go (board game)",
@@ -265,9 +268,9 @@
           "snippet": "Go, Weiqi, or Baduk is an abstract strategy board game for two players in which the aim is to fence off more territory than the opponent. The game was invented in China more than 2,500 years ago and is believed to be the oldest board game c"
         }
       ],
-      "verification_status": "verified",
-      "reviewer_note": "Source: go-game.json — Chinese origin 2,500+ years ago; oldest board game in continuous play; territory-claiming with stones.",
-      "verified_at": "2026-06-19T03:16:28.706Z"
+      "verification_status": "weak",
+      "reviewer_note": "Source: go-game.json — reclued to the 2.1e170 legal-positions vs atoms-in-universe hook to earn the $800 (oblique, deep answer).",
+      "verified_at": "2026-06-19T04:47:00.093Z"
     },
     {
       "source": "original_sourced",
@@ -299,7 +302,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: boxing.json — combat sport in a ring with padded gloves.",
-      "verified_at": "2026-06-19T03:16:29.084Z"
+      "verified_at": "2026-06-19T04:47:00.536Z"
     },
     {
       "source": "original_sourced",
@@ -307,14 +310,15 @@
       "external_id": "sgl-draft-002-012",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Sports Records & Awards",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "First organized in 1903 to boost newspaper sales, this annual multi-stage cycling race is the oldest and most prestigious of road cycling's three Grand Tours.",
+      "clue": "First organized in 1903 to boost sales of the newspaper L'Auto, this roughly three-week race awards a polka-dot jersey to its best climber and a green jersey to its top sprinter.",
       "answer": "Tour de France",
       "aliases": [
-        "the Tour de France"
+        "the Tour de France",
+        "the Tour"
       ],
       "tags": [
         "sgl-draft",
@@ -329,9 +333,328 @@
           "snippet": "The Tour de France is an annual men's multiple-stage road cycling race held primarily in France. It is the oldest and most prestigious of the three Grand Tours, which include the Giro d'Italia and the Vuelta a España."
         }
       ],
+      "verification_status": "weak",
+      "reviewer_note": "Source: tour-de-france.json — reclued via L'Auto origin + the climber (polka-dot) and sprinter (green) jerseys, withholding the giveaway yellow jersey, to earn the $800.",
+      "verified_at": "2026-06-19T04:47:00.923Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Decathlon",
+      "external_id": "sgl-draft-002-013",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After this man won the grueling two-day, ten-event decathlon at the 1912 Stockholm Olympics, Sweden's King Gustav V reputedly told him, 'Sir, you are the world's greatest athlete.'",
+      "answer": "Jim Thorpe",
+      "aliases": [
+        "Thorpe",
+        "James Francis Thorpe"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "olympics",
+        "track-and-field"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jim Thorpe",
+          "url": "https://en.wikipedia.org/wiki/Jim_Thorpe",
+          "snippet": "James Francis Thorpe was an American athlete who won Olympic gold medals and played professional football, baseball, and basketball. A citizen of the Sac and Fox Nation, he was the first Native American to win a gold medal for the United St"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Source: decathlon.json — the $1000: obscure entry (King Gustav's quote) to a deep answer. Distinct from the 'Decathlon' event clue above.",
+      "verified_at": "2026-06-19T04:47:01.311Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+      "external_id": "sgl-draft-002-014",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Players circle the board in this Depression-era game buying and trading properties named for the streets of Atlantic City, developing them with houses and hotels to drive their rivals into bankruptcy.",
+      "answer": "Monopoly",
+      "aliases": [
+        "Monopoly (game)",
+        "Monopoly board game",
+        "Monopoly game"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Monopoly (game)",
+          "url": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+          "snippet": "Monopoly is a multiplayer economics-themed board game. In the game, players roll two standard dice to move their token clockwise around the game board, buying and trading properties and railroads and developing them with houses and hotels. Players collect rent from their opponents and aim to drive them into bankruptcy. ... The properties on the original game board were named after locations in and around Atlantic City, New Jersey."
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Folded from the retired 2026-06-17 pack.",
+      "verified_at": "2026-06-19T04:47:01.688Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chess",
+      "external_id": "sgl-draft-002-015",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This two-player game of kings and queens descends from the 7th-century Indian game chaturanga; Wilhelm Steinitz became its first universally recognized world champion in 1886.",
+      "answer": "Chess",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chess",
+          "url": "https://en.wikipedia.org/wiki/Chess",
+          "snippet": "Chess is a board game for two players, played on a square board consisting of 64 squares arranged in an 8×8 grid. The players, referred to as \"White\" and \"Black\", each control sixteen pieces: one king, one queen, two rooks, two bishops, two"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Folded from the retired 2026-06-17 pack.",
+      "verified_at": "2026-06-19T04:47:02.062Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Scrabble",
+      "external_id": "sgl-draft-002-016",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Devised by out-of-work American architect Alfred Mosher Butts in 1931, this game scores points for words built crossword-style from lettered tiles on a 15-by-15 grid.",
+      "answer": "Scrabble",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game",
+        "word-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Scrabble",
+          "url": "https://en.wikipedia.org/wiki/Scrabble",
+          "snippet": "Scrabble is a word game in which two to four players score points by placing tiles, each bearing a single letter, onto a game board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to rig"
+        }
+      ],
       "verification_status": "verified",
-      "reviewer_note": "Source: tour-de-france.json — oldest/most prestigious Grand Tour; started 1903 to boost L'Auto newspaper.",
-      "verified_at": "2026-06-19T03:16:29.455Z"
+      "reviewer_note": "Folded from the retired 2026-06-17 pack.",
+      "verified_at": "2026-06-19T04:47:02.446Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Poker",
+      "external_id": "sgl-draft-002-017",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this family of betting card games, a player can take the entire pot without ever revealing a card — simply by wagering until every opponent folds.",
+      "answer": "Poker",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "card-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Poker",
+          "url": "https://en.wikipedia.org/wiki/Poker",
+          "snippet": "Poker is a family of comparing card games in which players wager over which hand is best according to that specific game's rules. It is played worldwide, with varying rules in different places. While the earliest known form of the game was "
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Folded from the retired 2026-06-17 pack.",
+      "verified_at": "2026-06-19T04:47:02.821Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Backgammon",
+      "external_id": "sgl-draft-002-018",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient two-player game of dice and counters takes its name from its rarest outcome — a triple-stakes win earned by bearing off all fifteen of your pieces before the opponent removes even one.",
+      "answer": "Backgammon",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Backgammon",
+          "url": "https://en.wikipedia.org/wiki/Backgammon",
+          "snippet": "Backgammon is a two-player board game played with counters and dice on tables boards. It is the most widespread Western member of the large family of tables games, whose ancestors date back at least 1,600 years. The earliest record of backg"
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Folded from the retired 2026-06-17 pack. Name-giving triple win clued without using the answer word.",
+      "verified_at": "2026-06-19T04:47:03.209Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Babe_Ruth",
+      "external_id": "sgl-draft-002-019",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed 'the Sultan of Swat,' this slugger broke into the majors as a dominant left-handed pitcher for the Boston Red Sox before clubbing a then-record 60 home runs for the 1927 Yankees' 'Murderers' Row.'",
+      "answer": "Babe Ruth",
+      "aliases": [
+        "Ruth",
+        "George Herman Ruth",
+        "the Bambino"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Babe Ruth",
+          "url": "https://en.wikipedia.org/wiki/Babe_Ruth",
+          "snippet": "George Herman \"Babe\" Ruth was an American professional baseball player whose career in Major League Baseball (MLB) spanned 22 seasons, from 1914 through 1935. Nicknamed \"the Bambino\" and \"the Sultan of Swat\", he began his MLB career as a st"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Folded from the retired 2026-06-17 pack.",
+      "verified_at": "2026-06-19T04:47:03.585Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Super_Bowl",
+      "external_id": "sgl-draft-002-020",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The champion of this annual NFL title game hoists the Vince Lombardi Trophy, named for the coach who won its first two editions.",
+      "answer": "Super Bowl",
+      "aliases": [
+        "the Super Bowl"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "football",
+        "nfl"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Super Bowl",
+          "url": "https://en.wikipedia.org/wiki/Super_Bowl",
+          "snippet": "The Super Bowl is the annual league championship game of the National Football League (NFL) of the United States. It has served as the final game of every NFL season since 1966 replacing the NFL Championship Game and also served as the fina"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Folded from the retired 2026-06-17 pack.",
+      "verified_at": "2026-06-19T04:47:03.955Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+      "external_id": "sgl-draft-002-021",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Soccer",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "With five titles, this is the only national team to have appeared at every FIFA World Cup since the tournament began in 1930.",
+      "answer": "Brazil",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "soccer",
+        "football"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Brazil",
+          "url": "https://en.wikipedia.org/wiki/Brazil",
+          "snippet": "Brazil, officially the Federative Republic of Brazil, is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 213 million people. Brazil is a federation "
+        }
+      ],
+      "verification_status": "weak",
+      "reviewer_note": "Folded from the retired 2026-06-17 pack (this is the merged World Cup / Brazil clue the 2026-06-18 FIFA clue had deferred to).",
+      "verified_at": "2026-06-19T04:47:04.334Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Serena_Williams",
+      "external_id": "sgl-draft-002-022",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "She stands alone in tennis as the only player to complete a career Golden Slam in both singles and doubles — winning all four majors plus an Olympic gold in each discipline.",
+      "answer": "Serena Williams",
+      "aliases": [
+        "Serena"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Serena Williams",
+          "url": "https://en.wikipedia.org/wiki/Serena_Williams",
+          "snippet": "Serena Jameka Williams is an American professional tennis player. She was ranked as the world No. 1 in women's singles by the Women's Tennis Association (WTA) for 319 weeks, and finished as the year-end No. 1 five times. Williams won 73 WTA"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": "Folded from the retired 2026-06-17 pack.",
+      "verified_at": "2026-06-19T04:47:04.724Z"
     }
   ]
 }
