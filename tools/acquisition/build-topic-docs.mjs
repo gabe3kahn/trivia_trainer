@@ -1,19 +1,20 @@
 /**
  * Stage 3 — build the source-document corpus for a category.
  *
- * Reads a harvested topic store (data/sourcing/topics/<category>.json), ranks
- * its answers by how often they actually appear in real Jeopardy clues, and for
- * the top topics fetches authoritative reference text + a citation from
- * Wikipedia (Wiktionary stands in for the OED on word topics). These docs are
- * the verified source material clues will be written FROM.
+ * Reads the flat topic pool (data/sourcing/topics/pool.json), selects topics whose
+ * SUBJECT keywords match --keywords, ranks them by how often they appear in real
+ * Jeopardy clues, and for the top topics fetches authoritative reference text + a
+ * citation from Wikipedia. These docs are the verified source material clues are
+ * written FROM. --category only sets the output folder + the doc's category_id; the
+ * topics themselves come from the keyword-filtered pool (a topic can serve several
+ * categories), so drafting music pulls music-tagged topics regardless of where the
+ * Jeopardy game filed them.
  *
- * Idempotent + incremental: skips topics that already have a doc, and is bounded
- * per run (--limit), so it can run daily alongside the harvester to bank a few
- * new source docs each morning.
+ * Idempotent + incremental: skips topics that already have a doc, bounded per run (--limit).
  *
  * Usage:
- *   node tools/acquisition/build-topic-docs.mjs --category geography --limit 40
- *   node tools/acquisition/build-topic-docs.mjs --category geography --minCount 2
+ *   node tools/acquisition/build-topic-docs.mjs --category music_performing_arts \
+ *     --keywords "music,composer,opera,song,band,jazz,broadway" --limit 25
  */
 
 import fs from 'node:fs/promises';
@@ -24,22 +25,34 @@ const category = args.category ?? 'geography';
 const limit = Number(args.limit ?? 40);
 const minCount = Number(args.minCount ?? 1);
 const delayMs = Number(args.delayMs ?? 600);
+// Topics are selected from the flat pool by SUBJECT keywords (see keyword-topics.mjs),
+// not from a per-category store. Pass the keywords relevant to what you're drafting;
+// a topic matches if any of its tags hits one of these.
+const keywords = String(args.keywords ?? '')
+  .toLowerCase()
+  .split(',')
+  .map((s) => s.trim())
+  .filter(Boolean);
 
 const root = process.cwd();
-const topicsPath = path.join(root, 'data', 'sourcing', 'topics', `${category}.json`);
+const poolPath = path.join(root, 'data', 'sourcing', 'topics', 'pool.json');
 const docsDir = path.join(root, 'data', 'sourcing', 'docs', category);
 await fs.mkdir(docsDir, { recursive: true });
 
-const store = await readJson(topicsPath);
-if (!store) {
-  console.error(`No topic store at ${topicsPath}. Run the harvester first.`);
+const pool = await readJson(poolPath);
+if (!pool) {
+  console.error(`No topic pool at ${poolPath}. Run build-topic-pool.mjs (after the harvester).`);
   process.exit(1);
 }
 
-// Rank answers by real-clue frequency; skip non-topical answers (numbers, very
-// short/generic tokens) that don't make good source documents.
-const ranked = Object.values(store.answers ?? {})
-  .filter((a) => a.count >= minCount && isTopical(a.display))
+const matchesKeywords = (t) =>
+  keywords.length === 0 ||
+  (t.keywords ?? []).some((k) => keywords.some((q) => k === q || k.includes(q) || q.includes(k)));
+
+// Rank topics by real-clue frequency; filter to the requested keywords and skip
+// non-topical answers (numbers, very short/generic tokens) that don't source well.
+const ranked = Object.values(pool.topics ?? {})
+  .filter((t) => t.count >= minCount && isTopical(t.display) && matchesKeywords(t))
   .sort((a, b) => b.count - a.count);
 
 const fetchJson = makeFetchJson();
