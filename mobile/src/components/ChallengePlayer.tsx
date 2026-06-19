@@ -1,6 +1,6 @@
-import { useHeaderHeight } from '@react-navigation/elements';
 import { useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { ClueCard } from '@/src/components/ui';
 import { QuestionTimer } from '@/src/components/QuestionTimer';
@@ -28,7 +28,6 @@ export type ChallengePlayerProps = {
 };
 
 export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion = 30, allowGradeOverride = true, onSubmit, onComplete }: ChallengePlayerProps) {
-  const headerHeight = useHeaderHeight();
   const [index, setIndex] = useState(startIndex);
   const [typed, setTyped] = useState('');
   const [result, setResult] = useState<GradeResult | null>(null);
@@ -79,9 +78,8 @@ export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion 
   if (!q) return null;
 
   return (
-    <View style={styles.container}>
-      <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined} keyboardVerticalOffset={headerHeight}>
-        <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" showsVerticalScrollIndicator={false}>
+    <SafeAreaView style={styles.container} edges={['top']}>
+      <ScrollView contentContainerStyle={styles.content} automaticallyAdjustKeyboardInsets keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" showsVerticalScrollIndicator={false}>
           <View style={styles.progressRow}>
             <Text style={styles.progressText}>Clue {index + 1} of {questions.length}</Text>
           </View>
@@ -149,9 +147,8 @@ export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion 
               </Pressable>
             </View>
           ) : null}
-        </ScrollView>
-      </KeyboardAvoidingView>
-    </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 

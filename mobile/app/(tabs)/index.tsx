@@ -1,8 +1,8 @@
 import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
-import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
-import { Avatar, Card, CategoryScoreRow, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
+import { Avatar, Card, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
 import type { CategoryScore } from '@/src/data/mockData';
 import { fetchCategories, fetchHomeCompetencies } from '@/src/services/triviaApi';
 import { colors, scoreColor, spacing, type } from '@/src/theme';
@@ -15,7 +15,6 @@ export default function HomeScreen() {
   const router = useRouter();
   const [categories, setCategories] = useState<Category[]>([]);
   const [competencies, setCompetencies] = useState<Competency[]>([]);
-  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   const loadHome = useCallback(async () => {
@@ -26,8 +25,6 @@ export default function HomeScreen() {
       setCompetencies(competencyRows ?? []);
     } catch (nextError) {
       setError(nextError instanceof Error ? nextError.message : 'Could not load home data.');
-    } finally {
-      setLoading(false);
     }
   }, []);
 
@@ -96,13 +93,6 @@ export default function HomeScreen() {
     router.push({ pathname: '/train', params: { start: 'weakness' } });
   }
 
-  function trainCategory(category: CategoryScore) {
-    router.push({
-      pathname: '/train',
-      params: { start: 'selected', category: category.id, categoryName: category.name },
-    });
-  }
-
   return (
     <Screen>
       <Header kicker="Trivia Trainer" title="Home" right={<Avatar />} />
@@ -127,19 +117,13 @@ export default function HomeScreen() {
         expectations, especially on harder clues.
       </Text>
 
+      {error ? <Text style={styles.errorText}>{error}</Text> : null}
+
       <PrimaryAction
         title="Train your weak spots"
         subtitle={weakestNames || 'Build a difficulty-weighted set'}
         onPress={startWeakness}
       />
-
-      <Section title="Categories">
-        {loading ? <ActivityIndicator color={colors.gold} /> : null}
-        {error ? <Text style={styles.errorText}>{error}</Text> : null}
-        {categoryRows.map((category) => (
-          <CategoryScoreRow key={category.id} category={category} onPress={() => trainCategory(category)} />
-        ))}
-      </Section>
 
       {hasMovement ? (
         <Section title="This week">

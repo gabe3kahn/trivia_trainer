@@ -4,7 +4,6 @@ import type { ComponentProps } from 'react';
 import { ActivityIndicator, StyleSheet, View } from 'react-native';
 
 import { colors } from '@/src/theme';
-import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 import { useAuth } from '@/src/contexts/AuthContext';
 
 type IconName = ComponentProps<typeof FontAwesome>['name'];
@@ -43,7 +42,9 @@ export default function TabLayout() {
           fontWeight: '600',
           fontSize: 11,
         },
-        headerShown: useClientOnlyValue(false, true),
+        // Each screen renders its own in-content title (kicker + display). A
+        // native header bar duplicated it and left an awkward gap up top.
+        headerShown: false,
       }}>
       <Tabs.Screen
         name="index"

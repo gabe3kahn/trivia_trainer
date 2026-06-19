@@ -12,20 +12,21 @@ import { Platform, type TextStyle } from 'react-native';
  */
 
 export const colors = {
-  // Base surfaces — a calmer, slightly warm navy rather than pure black.
+  // Base surfaces — a calmer navy. Panels sit a clear step above the page so
+  // cards read as distinct surfaces, not flat black (lifted after device review).
   background: '#0B0B14',
-  surface: '#14141F',
-  surfaceAlt: '#1C1C2B',
-  elevated: '#191926',
+  surface: '#1A1B2B',
+  surfaceAlt: '#24263A',
+  elevated: '#222338',
 
   // Text ramp.
   ink: '#F4F6FB',
   muted: '#9AA0B4',
   dim: '#5A6076',
 
-  // Hairlines.
-  line: '#262638',
-  lineSoft: '#1E1E2C',
+  // Hairlines — more visible so panel edges and the accent rail register.
+  line: '#34374F',
+  lineSoft: '#24263A',
 
   // Brand accent.
   gold: '#F2B84B',
