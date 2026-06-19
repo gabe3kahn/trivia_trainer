@@ -28,6 +28,7 @@ A clue's category is its **answer's subject/type**, never an incidental framing:
 - **Cut tangential biography/context.** *Michelangelo:* "born in the Republic of Florence but spent most of his career in Rome" → "He sculpted the marble 'David' and the 'Pietà,' and painted the Sistine Chapel ceiling." Vivid, identifying detail beats encyclopedic setup.
 - **Tighten.** *John Adams:* drop "permanent home / newly completed" filler. *The Odyssey:* drop the Penelope subplot — one clean sentence.
 - **Don't telegraph with redundant geography.** *Warsaw Uprising:* "in the capital of Poland" was cut (it half-named the answer); *Solidarity:* "in a communist country" → "Polish."
+- **For famous/iconic subjects, clue an oblique or surprising detail — not the textbook attribute.** Reviewers flagged mythology clues as too easy and uncreative: don't clue *Odin* as "the one-eyed Norse king of the gods" — clue his ravens Huginn and Muninn, or that he hung nine nights on Yggdrasil to win the runes. Leading with the obvious makes a would-be $600 answer play like $200. Pick the angle a casual fan *wouldn't* immediately expect. (And when a figure spans traditions, name which — "Greek" vs "Roman" — so Zeus/Jupiter isn't ambiguous.)
 
 ## 4. Leaks & alias hygiene (recurring)
 - **Never put a synonym of the answer in the clue.** "Also called mother-of-pearl" → *nacre* and "Also called the boreal forest" → *taiga* both got reworded out. Scan every clue for a word that *is* the answer by another name.
@@ -39,6 +40,12 @@ A clue's category is its **answer's subject/type**, never an incidental framing:
 - The dedupe gate now blocks identical answers, but also avoid **"effectively a repeat"**: don't clue both a work and its central character/creator (Jay Gatsby was dropped in favor of The Great Gatsby). Pick the better single clue.
 
 ## 6. Wordplay style (constructed clues)
-- **Anagrams: never call out the scramble word in ANY way** — no bold, CAPS, italics, underline, or quotes. Any visual emphasis gives it away; the whole challenge is that the solver must spot which ordinary word to rearrange. Weave it into a witty, natural sentence in plain text, with the answer fitting the sentence's meaning. *"The meek will inherit the earth, not the faint of this"* → heart. The `constraint_text` should say "Rearrange the letters of one word in this clue to find the answer" — it must not point at the word.
-- **Before & After:** one narrative that clues both halves **without naming either**. *"The boxer who floated like a butterfly says 'open sesame' before stinging like a bee"* → **Muhammad Ali Baba**.
+Each daily wordplay pack uses **exactly two** of the four mechanics (5 clues each); **rotate which two across runs** so anagrams + Before & After aren't the only thing that ever ships. `validate-wordplay.mjs` is the correctness gate.
+- **Anagrams — the format reviewers keep fixing:**
+  - **NO fill-in-the-blank.** A clue like *"…knows when to stay completely ___"* telegraphs the answer (and the scramble word sits right beside the blank). Write a **natural sentence whose meaning the answer completes**, with the scramble word woven in elsewhere — the solver must spot which ordinary word to rearrange. Good: *"Don't leave your arm dangling below the table — just bend the hinge joint to wave hello"* → elbow (scramble "below").
+  - **Never call the word out** — no bold, CAPS, italics, underline, or quotes. `constraint_text`: "Rearrange the letters of one word in this clue to find the answer" — it must not point at the word.
+  - **Fresh, non-trivial pairs.** Don't reuse a pair already in any `wordplay-*.json` (silent/listen, night/thing were reused — check first). Avoid **near-synonym** pairs (angered/enraged, alerting/triangle that just sound clever) — they're too easy; the answer should be a genuine surprise, not a restatement.
+- **Before & After:** one narrative cluing both halves **without naming either**. *"San Francisco's iconic suspension bridge leads to an uninvited party guest"* → Golden Gate Crasher.
+- **Homophones:** the answer sounds like a differently-spelled word the clue plays on (knight ↔ night). Confirm they truly sound alike — the validator can't.
+- **Hidden words:** the answer hides as consecutive letters inside a longer phrase in the clue ("cat" in "location") — never visually marked.
 - Keep the answer's own words out of the clue (the leak guard enforces it).
