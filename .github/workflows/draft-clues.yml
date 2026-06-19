@@ -131,30 +131,42 @@ jobs:
       # DIAGNOSTIC: the draft step has been running ~50+ min on hosted runners vs
       # ~20-30 min locally. Prime suspect is Wikipedia rate-limiting the shared Actions
       # egress IP — build-topic-docs fetches ~25 docs/category and the 429-backoff turns
-      # throttling into long waits. This step times raw Wikipedia REST calls in isolation:
-      # if avg latency is small and 0x429, the network is NOT the bottleneck (look at the
-      # LLM turns in the --verbose draft log instead); if it's seconds-per-call or shows
-      # 429s, throttling is confirmed and we can add a longer delay / mirror / caching.
+      # throttling into long waits. This step times the TWO Wikipedia endpoints
+      # build-topic-docs actually hits per doc, in isolation: the light rest_v1 summary
+      # AND the heavier w/api.php lead-extract (the likely throttle point). For each:
+      # if avg latency is small and 0x429, that endpoint is NOT the bottleneck (look at
+      # the LLM turns in the --verbose draft log instead); if it's seconds-per-call or
+      # shows 429s, throttling is confirmed and we add a longer delay / mirror / caching.
       - name: Probe — Wikipedia fetch latency from this runner
         run: |
           node -e '
-            const titles = ["Albert Einstein","Mount Everest","Jazz","Pablo Picasso","World War II","Photosynthesis","The Great Gatsby","Wolfgang Amadeus Mozart","Roman Empire","Pacific Ocean"];
-            const urls = titles.map(t => "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(t.replace(/ /g, "_")));
+            const titles = ["Albert Einstein","Mount Everest","Jazz","Pablo Picasso","World War II","Photosynthesis","The Great Gatsby","Wolfgang Amadeus Mozart","Roman Empire","Pacific Ocean","Leonardo da Vinci","Mitochondrion","Ludwig van Beethoven","French Revolution","Amazon River","Quantum mechanics","Hamlet","Great Wall of China","Periodic table","Vincent van Gogh"];
+            const endpoints = [
+              { label: "rest_v1 summary", url: (t) => "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(t.replace(/ /g, "_")) },
+              { label: "w/api.php lead-extract", url: (t) => "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&redirects=1&titles=" + encodeURIComponent(t) },
+            ];
+            const wait = (ms) => new Promise((r) => setTimeout(r, ms));
             (async () => {
-              let total = 0, n429 = 0, ok = 0;
-              for (const u of urls) {
-                const t0 = Date.now();
-                let status = "ERR";
-                try {
-                  const r = await fetch(u, { headers: { "User-Agent": "TriviaTrainerProbe/0.1 (personal study app)", Accept: "application/json" } });
-                  status = r.status;
-                  if (r.status === 429) n429++; else if (r.ok) ok++;
-                } catch (e) { status = e.message; }
-                const ms = Date.now() - t0;
-                total += ms;
-                console.log("  " + status + "  " + ms + "ms  " + decodeURIComponent(u.split("/").pop()));
+              // Pace at 600ms — the same delay build-topic-docs uses — so a dirty result
+              // here means real throttling at realistic pacing, not just a burst artifact.
+              for (const ep of endpoints) {
+                let total = 0, n429 = 0, ok = 0, max = 0;
+                console.log("\n[" + ep.label + "]  (600ms between calls, like build-topic-docs)");
+                for (const t of titles) {
+                  const t0 = Date.now();
+                  let status = "ERR";
+                  try {
+                    const r = await fetch(ep.url(t), { headers: { "User-Agent": "TriviaTrainerProbe/0.1 (personal study app)", Accept: "application/json" } });
+                    status = r.status;
+                    if (r.status === 429) n429++; else if (r.ok) ok++;
+                  } catch (e) { status = e.message; }
+                  const ms = Date.now() - t0;
+                  total += ms; if (ms > max) max = ms;
+                  console.log("  " + status + "  " + ms + "ms  " + t);
+                  await wait(600);
+                }
+                console.log("  => " + titles.length + " reqs, " + ok + " ok, " + n429 + " x 429, avg " + Math.round(total / titles.length) + "ms, max " + max + "ms");
               }
-              console.log("\nWikipedia probe: " + urls.length + " reqs, " + ok + " ok, " + n429 + " x 429, avg " + Math.round(total / urls.length) + "ms/req.");
             })();
           '
 
