@@ -34,7 +34,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": "Source: prometheus.json — 'Zeus condemned him to eternal punishment chained to a rock with an eagle eating his liver.'",
-      "verified_at": "2026-06-18T14:53:52.904Z"
+      "verified_at": "2026-06-19T03:05:17.605Z"
     },
     {
       "source": "original_sourced",
@@ -42,8 +42,8 @@
       "external_id": "rmp-draft-001-002",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Olympian twin of Artemis served as patron deity of Delphi and was the god through whom the most famous oracle of the ancient world spoke.",
@@ -59,12 +59,12 @@
           "source": "wikipedia",
           "title": "Apollo",
           "url": "https://en.wikipedia.org/wiki/Apollo",
-          "snippet": "Apollo is one of the Olympian deities in ancient Greek religion and mythology. He is the god of the Sun and light, prophecy, philosophy, truth, logic, inspiration, music, poetry, the arts, purification, medicine, healing, plague, archery, a"
+          "snippet": "Apollo is one of the Olympian deities in ancient Greek religion and mythology. His numerous functions include healing, prophecy, music, poetry, and archery. He is the son of Zeus and Leto, and the twin brother of Artemis, goddess of the hun"
         }
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: apollo.json — twin of Artemis and patron of Delphi's oracle.",
-      "verified_at": "2026-06-18T14:53:53.289Z"
+      "verified_at": "2026-06-19T03:05:17.989Z"
     },
     {
       "source": "original_sourced",
@@ -72,11 +72,11 @@
       "external_id": "rmp-draft-001-003",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "When the three sons of Cronus divided the cosmos by lot after defeating the Titans, this eldest brother drew the underworld as his domain.",
+      "clue": "In Greek myth, when the three sons of Cronus divided the cosmos by lot after defeating the Titans, this eldest brother drew the underworld as his domain.",
       "answer": "Hades",
       "aliases": [],
       "tags": [
@@ -94,7 +94,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: hades.json — eldest son of Cronus who drew the underworld in the division of the cosmos.",
-      "verified_at": "2026-06-18T14:53:53.680Z"
+      "verified_at": "2026-06-19T03:05:18.368Z"
     },
     {
       "source": "original_sourced",
@@ -102,8 +102,8 @@
       "external_id": "rmp-draft-001-004",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This god of the sea and earthquakes carried a trident and was believed to have created horses with a strike of it; his Roman counterpart is Neptune.",
@@ -124,7 +124,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: poseidon.json — sea god with trident who created horses; Roman equivalent Neptune.",
-      "verified_at": "2026-06-18T14:53:54.065Z"
+      "verified_at": "2026-06-19T03:05:18.797Z"
     },
     {
       "source": "original_sourced",
@@ -132,8 +132,8 @@
       "external_id": "rmp-draft-001-005",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Roman & Norse Mythology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Norse deity wielded the hammer Mjölnir and was venerated during the Viking Age as a protector of mankind and farmers against giants and chaos.",
@@ -154,7 +154,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: thor.json — hammer-wielding Norse god of storms, protector during Viking Age.",
-      "verified_at": "2026-06-18T14:53:54.455Z"
+      "verified_at": "2026-06-19T03:05:19.186Z"
     },
     {
       "source": "original_sourced",
@@ -162,8 +162,8 @@
       "external_id": "rmp-draft-001-006",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Roman & Norse Mythology",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Norse shape-shifter once took the form of a mare, was impregnated by a stallion, and gave birth to the eight-legged horse Sleipnir.",
@@ -184,7 +184,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: loki.json — shape-shifter who bore Sleipnir while in mare form.",
-      "verified_at": "2026-06-18T14:53:54.835Z"
+      "verified_at": "2026-06-19T03:05:19.576Z"
     },
     {
       "source": "original_sourced",
@@ -196,7 +196,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This chief of the Norse Æsir pantheon was accompanied by two ravens named Huginn and Muninn and two wolves, Geri and Freki, and fathered both Baldr and Thor.",
+      "clue": "Each dawn this one-eyed god dispatched two ravens — Huginn ('thought') and Muninn ('memory') — to roam the nine worlds and whisper back at dusk everything they had seen.",
       "answer": "Odin",
       "aliases": [],
       "tags": [
@@ -214,7 +214,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": "Source: odin.json — head of the Æsir with ravens Huginn and Muninn, wolves Geri and Freki.",
-      "verified_at": "2026-06-18T14:53:55.211Z"
+      "verified_at": "2026-06-19T03:05:19.956Z"
     },
     {
       "source": "original_sourced",
@@ -244,7 +244,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: isis.json — resurrected Osiris and was the divine mother figure behind the pharaoh.",
-      "verified_at": "2026-06-18T14:53:55.584Z"
+      "verified_at": "2026-06-19T03:05:20.352Z"
     },
     {
       "source": "original_sourced",
@@ -274,7 +274,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": "Source: anubis.json — jackal-headed deity who presided over the Weighing of the Heart.",
-      "verified_at": "2026-06-18T14:53:55.963Z"
+      "verified_at": "2026-06-19T03:05:20.739Z"
     },
     {
       "source": "original_sourced",
@@ -282,8 +282,8 @@
       "external_id": "rmp-draft-001-010",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "World Mythology",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Egyptian god was murdered and dismembered by his own brother Set, then reassembled by his devoted wife to be resurrected and reign over the dead.",
@@ -304,7 +304,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: osiris.json — dismembered by Set, reassembled by Isis, resurrected as ruler of the dead.",
-      "verified_at": "2026-06-18T14:53:56.341Z"
+      "verified_at": "2026-06-19T03:05:21.119Z"
     },
     {
       "source": "original_sourced",
@@ -334,7 +334,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: socrates.json — authored no texts; Socratic dialogues recorded by Plato.",
-      "verified_at": "2026-06-18T14:53:56.712Z"
+      "verified_at": "2026-06-19T03:05:21.554Z"
     },
     {
       "source": "original_sourced",
@@ -366,7 +366,7 @@
       ],
       "verification_status": "weak",
       "reviewer_note": "Source: immanuel-kant.json — Königsberg philosopher; space and time as forms of intuition in Critique of Pure Reason.",
-      "verified_at": "2026-06-18T14:53:57.095Z"
+      "verified_at": "2026-06-19T03:05:21.940Z"
     },
     {
       "source": "original_sourced",
@@ -374,8 +374,8 @@
       "external_id": "rmp-draft-001-013",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Philosophers",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Appointed a full professor at age 24, this German thinker spent his later years declaring religion's decline before suffering a complete mental collapse at 44 from which he never recovered.",
@@ -398,7 +398,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: friedrich-nietzsche.json — professor at 24; 'God is dead' philosopher; mental collapse at 44.",
-      "verified_at": "2026-06-18T14:53:57.472Z"
+      "verified_at": "2026-06-19T03:05:22.325Z"
     },
     {
       "source": "original_sourced",
@@ -430,7 +430,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: stoicism.json — Hellenistic school; virtue = happiness; logos governs the universe.",
-      "verified_at": "2026-06-18T14:53:57.862Z"
+      "verified_at": "2026-06-19T03:05:22.699Z"
     },
     {
       "source": "original_sourced",
@@ -462,7 +462,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: buddhism.json — fourth-largest religion; Middle Way between asceticism and indulgence.",
-      "verified_at": "2026-06-18T14:53:58.240Z"
+      "verified_at": "2026-06-19T03:05:23.212Z"
     }
   ]
 }

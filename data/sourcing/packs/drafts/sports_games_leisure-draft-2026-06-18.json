@@ -32,12 +32,12 @@
           "source": "wikipedia",
           "title": "Michael Jordan",
           "url": "https://en.wikipedia.org/wiki/Michael_Jordan",
-          "snippet": "Michael Jeffrey Jordan, also known by his initials MJ, is an American businessman and retired professional basketball player who is a minority owner of the Charlotte Hornets of the National Basketball Association (NBA). He played 15 seasons"
+          "snippet": "Michael Jeffrey Jordan, also known by his initials MJ, is an American businessman and former professional basketball player who is a minority owner of the Charlotte Hornets of the National Basketball Association (NBA). He played 15 seasons "
         }
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: michael-jordan.json — 6 NBA titles with Bulls; widely considered GOAT; wealthiest former athlete.",
-      "verified_at": "2026-06-18T15:24:50.218Z"
+      "verified_at": "2026-06-19T03:16:25.750Z"
     },
     {
       "source": "original_sourced",
@@ -45,8 +45,8 @@
       "external_id": "sgl-draft-002-002",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Olympics",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Contested over two consecutive days, this combined event in athletics has 10 track and field events with winners determined by a points system rather than by position.",
@@ -69,7 +69,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: decathlon.json — 10-event competition; 'World's Greatest Athlete' title; King Gustav V/Jim Thorpe origin.",
-      "verified_at": "2026-06-18T15:24:50.646Z"
+      "verified_at": "2026-06-19T03:16:26.123Z"
     },
     {
       "source": "original_sourced",
@@ -101,40 +101,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: world-series.json — annual MLB championship since 1903; Commissioner's Trophy awarded.",
-      "verified_at": "2026-06-18T15:24:51.068Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
-      "external_id": "sgl-draft-002-004",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Tennis & Golf",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "In tennis, this feat describes winning all four major championships in a single calendar year; claiming the same four titles consecutively but across two years is called a 'non-calendar-year' version of it.",
-      "answer": "Grand Slam",
-      "aliases": [
-        "Grand Slam in tennis",
-        "Tennis Grand Slam"
-      ],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "tennis"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Grand Slam (tennis)",
-          "url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
-          "snippet": "The Grand Slam in tennis is the achievement of winning all four major championships in one discipline in a calendar year. In doubles, a Grand Slam may be achieved as a team or as an individual with different partners. Winning all four major"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": "Source: grand-slam-tennis.json — all four majors in one calendar year; non-calendar-year Grand Slam distinction.",
-      "verified_at": "2026-06-18T15:24:51.823Z"
+      "verified_at": "2026-06-19T03:16:26.509Z"
     },
     {
       "source": "original_sourced",
@@ -142,11 +109,11 @@
       "external_id": "sgl-draft-002-005",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Tennis & Golf",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Unlike the other three major golf championships, which rotate among different courses, this annual April tournament is always held at Augusta National Golf Club in Georgia.",
+      "clue": "Unlike the other three major golf championships, which rotate among different courses, this one is played every April at the same venue: Augusta National Golf Club in Georgia.",
       "answer": "The Masters Tournament",
       "aliases": [
         "The Masters",
@@ -168,7 +135,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: the-masters-tournament.json — only major always held at same venue (Augusta National); April.",
-      "verified_at": "2026-06-18T15:24:52.265Z"
+      "verified_at": "2026-06-19T03:16:26.883Z"
     },
     {
       "source": "original_sourced",
@@ -176,11 +143,11 @@
       "external_id": "sgl-draft-002-006",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Sports Records & Awards",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This American Grade I stakes race run at Churchill Downs in Louisville is contested by three-year-old Thoroughbreds at a distance of 1+1⁄4 miles; colts and geldings carry 126 pounds while fillies carry 121.",
+      "clue": "This American Grade I stakes race run at Churchill Downs in Louisville is contested by three-year-old Thoroughbreds at a distance of 1+1⁄4 miles.",
       "answer": "Kentucky Derby",
       "aliases": [
         "the Kentucky Derby"
@@ -200,7 +167,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: kentucky-derby.json — 'Run for the Roses'; Churchill Downs; first leg of Triple Crown.",
-      "verified_at": "2026-06-18T15:24:52.692Z"
+      "verified_at": "2026-06-19T03:16:27.270Z"
     },
     {
       "source": "original_sourced",
@@ -212,7 +179,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "First held in 1897 and inspired by the inaugural Olympic road race of 1896, this annual event through greater Massachusetts is the world's oldest annual road race of its distance.",
+      "clue": "Inspired by the inaugural Olympic road race of 1896 and first held the very next year, this is the world's oldest annual race of its distance, traditionally run each Patriots' Day.",
       "answer": "Boston Marathon",
       "aliases": [
         "the Boston Marathon"
@@ -232,7 +199,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: boston-marathon.json — world's oldest annual marathon; first held 1897; inspired by 1896 Olympics.",
-      "verified_at": "2026-06-18T15:24:53.128Z"
+      "verified_at": "2026-06-19T03:16:27.647Z"
     },
     {
       "source": "original_sourced",
@@ -244,7 +211,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A long-distance foot race usually run as a road race, this event spans 42.195 kilometres but can also be covered on trail routes; more than 800 are held worldwide each year.",
+      "clue": "Coined by the French philologist Michel Bréal for the inaugural modern Olympics of 1896 in Athens, this race drew its name from an Ancient Greek story of a runner rushing to deliver news of battle.",
       "answer": "Marathon",
       "aliases": [
         "marathon race",
@@ -264,43 +231,9 @@
           "snippet": "The marathon is a long-distance foot race with a distance of 42.195 kilometres, usually run as a road race, but the distance can be covered on trail routes. The marathon can be completed by running or with a run/walk strategy. There are als"
         }
       ],
-      "verification_status": "verified",
+      "verification_status": "weak",
       "reviewer_note": "Source: marathon.json — devised by Michel Bréal; 1896 Athens Olympics original event; standardized 1921.",
-      "verified_at": "2026-06-18T15:24:53.554Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
-      "external_id": "sgl-draft-002-009",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Soccer",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This international football tournament, held every four years since 1930 (with gaps for World War II), was most recently won by Argentina at its 2022 edition in Qatar.",
-      "answer": "FIFA World Cup",
-      "aliases": [
-        "World Cup",
-        "FIFA World Cup",
-        "the World Cup"
-      ],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "soccer"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "FIFA World Cup",
-          "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
-          "snippet": "The FIFA World Cup is an international association football competition among the senior men's national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport's global governing body. The tournament "
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": "Source: fifa-world-cup.json — held every four years since 1930; Argentina won 2022 edition.",
-      "verified_at": "2026-06-18T15:24:53.971Z"
+      "verified_at": "2026-06-19T03:16:28.025Z"
     },
     {
       "source": "original_sourced",
@@ -308,8 +241,8 @@
       "external_id": "sgl-draft-002-010",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Board Games & Card Games",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This two-player strategy game of Chinese origin, in which players place stones to fence off territory on a grid, is believed to be the oldest board game continuously played to the present day.",
@@ -334,7 +267,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: go-game.json — Chinese origin 2,500+ years ago; oldest board game in continuous play; territory-claiming with stones.",
-      "verified_at": "2026-06-18T15:24:54.808Z"
+      "verified_at": "2026-06-19T03:16:28.706Z"
     },
     {
       "source": "original_sourced",
@@ -346,7 +279,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Olympic combat sport, conducted in a ring with padded gloves, pits two opponents against each other for a predetermined number of rounds, with the winner decided by points or a stoppage.",
+      "clue": "This combat sport, conducted in a ring with padded gloves, pits two opponents against each other for a predetermined number of rounds, with the winner decided by points or a stoppage.",
       "answer": "Boxing",
       "aliases": [
         "boxing"
@@ -366,7 +299,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: boxing.json — combat sport in a ring with padded gloves.",
-      "verified_at": "2026-06-18T15:24:55.253Z"
+      "verified_at": "2026-06-19T03:16:29.084Z"
     },
     {
       "source": "original_sourced",
@@ -398,7 +331,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source: tour-de-france.json — oldest/most prestigious Grand Tour; started 1903 to boost L'Auto newspaper.",
-      "verified_at": "2026-06-18T15:24:55.666Z"
+      "verified_at": "2026-06-19T03:16:29.455Z"
     }
   ]
 }
