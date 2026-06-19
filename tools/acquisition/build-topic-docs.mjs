@@ -10,6 +10,12 @@
  * categories), so drafting music pulls music-tagged topics regardless of where the
  * Jeopardy game filed them.
  *
+ * Two-phase fetch: (1) resolve each topic's canonical title via the per-title
+ * rest_v1 summary (unthrottled), then (2) pull the rich lead extracts for ALL
+ * resolved titles in BATCHES of 20 (Action API `extracts`, exlimit=max). The
+ * per-title extract call is the one Wikipedia rate-limits hard; batching cuts it
+ * ~20x and avoids the 429-backoff stalls that made cloud runs crawl.
+ *
  * Idempotent + incremental: skips topics that already have a doc, bounded per run (--limit).
  *
  * Usage:
@@ -63,24 +69,24 @@ let failed = 0;
 
 console.log(`Building docs for "${category}" — ${ranked.length} candidate topics, fetching up to ${limit} new.\n`);
 
+// Phase 1 — resolve each topic's canonical title via the per-title summary
+// (rest_v1; unthrottled). Collect up to `limit` NEW docs to build.
+const pending = [];
 for (const topic of ranked) {
-  if (fetched >= limit) break;
+  if (pending.length >= limit) break;
   const slug = slugify(topic.display);
   const docPath = path.join(docsDir, `${slug}.json`);
   if (await exists(docPath)) {
     skippedExisting += 1;
     continue;
   }
-
   try {
-    const doc = await buildDoc(topic, category);
-    if (!doc) {
+    const resolved = await resolveTopic(topic);
+    if (!resolved) {
       failed += 1;
       console.log(`  MISS  ${topic.display} (no source found)`);
     } else {
-      await writeJson(docPath, doc);
-      fetched += 1;
-      console.log(`  OK    ${topic.display}  ←  ${doc.title} (${doc.extract.length} chars)`);
+      pending.push({ topic, docPath, ...resolved });
     }
   } catch (error) {
     failed += 1;
@@ -89,12 +95,39 @@ for (const topic of ranked) {
   await wait(delayMs);
 }
 
+// Phase 2 — batch-fetch the rich lead extracts for all resolved titles at once
+// (20/request, exlimit=max). This is the call Wikipedia rate-limits when made
+// one title at a time; batching cuts it ~20x and dodges the 429-backoff stalls.
+const extractMap = await wikiBatchExtracts(pending.map((p) => p.title));
+
+// Phase 3 — assemble + write docs (extract falls back to the summary if a batch
+// entry is missing).
+for (const p of pending) {
+  const extract = extractMap.get(normTitle(p.title)) || p.summaryExtract;
+  const doc = {
+    topic: p.topic.display,
+    category_id: category,
+    clue_frequency: p.topic.count,
+    seen_at_values: p.topic.values ?? [],
+    source: 'wikipedia',
+    title: p.title,
+    url: p.url,
+    retrieved_at: new Date().toISOString(),
+    summary: p.summaryExtract,
+    extract,
+    citation: { source: 'wikipedia', title: p.title, url: p.url },
+  };
+  await writeJson(p.docPath, doc);
+  fetched += 1;
+  console.log(`  OK    ${p.topic.display}  ←  ${p.title} (${extract.length} chars)`);
+}
+
 console.log(`\nFetched ${fetched} new doc(s), skipped ${skippedExisting} existing, ${failed} without a clean source.`);
 console.log(`Corpus: data/sourcing/docs/${category}/`);
 
 /* ------------------------------------------------------------------ */
 
-async function buildDoc(topic, categoryId) {
+async function resolveTopic(topic) {
   const answer = topic.display;
   // Resolve the canonical Wikipedia page (direct REST first, search fallback).
   let summary = await wikiSummary(answer);
@@ -103,23 +136,7 @@ async function buildDoc(topic, categoryId) {
     summary = title ? await wikiSummary(title) : null;
   }
   if (!summary || !summary.extract) return null;
-
-  // Richer lead-section extract for authoring grounding.
-  const extract = (await wikiLeadExtract(summary.title)) || summary.extract;
-
-  return {
-    topic: answer,
-    category_id: categoryId,
-    clue_frequency: topic.count,
-    seen_at_values: topic.values ?? [],
-    source: 'wikipedia',
-    title: summary.title,
-    url: summary.url,
-    retrieved_at: new Date().toISOString(),
-    summary: summary.extract,
-    extract,
-    citation: { source: 'wikipedia', title: summary.title, url: summary.url },
-  };
+  return { title: summary.title, url: summary.url, summaryExtract: summary.extract };
 }
 
 async function wikiSummary(title) {
@@ -140,13 +157,35 @@ async function wikiSearchTopTitle(query) {
   return data?.query?.search?.[0]?.title ?? null;
 }
 
-async function wikiLeadExtract(title) {
-  const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&redirects=1&titles=${encodeURIComponent(title)}`;
-  const data = await fetchJson(url);
-  const pages = data?.query?.pages;
-  if (!pages) return null;
-  const page = Object.values(pages)[0];
-  return page?.extract ? String(page.extract).trim() : null;
+// Fetch lead-section extracts for many titles at once. The Action API caps
+// `extracts` at 20 titles per request even with exlimit=max, so chunk by 20.
+// Returns Map(normTitle -> extract), resolving the API's normalized/redirect
+// title chains so a requested title still finds its page.
+async function wikiBatchExtracts(titles) {
+  const out = new Map();
+  for (let i = 0; i < titles.length; i += 20) {
+    const chunk = titles.slice(i, i + 20);
+    const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&exlimit=max&redirects=1&titles=${encodeURIComponent(chunk.join('|'))}`;
+    const data = await fetchJson(url);
+    const query = data?.query;
+    if (query) {
+      const alias = new Map(); // normalized/redirect: requested -> resolved
+      for (const n of query.normalized ?? []) alias.set(normTitle(n.from), n.to);
+      for (const r of query.redirects ?? []) alias.set(normTitle(r.from), r.to);
+      const byTitle = new Map();
+      for (const page of Object.values(query.pages ?? {})) {
+        if (page.extract) byTitle.set(normTitle(page.title), String(page.extract).trim());
+      }
+      for (const requested of chunk) {
+        let current = requested;
+        for (let hops = 0; alias.has(normTitle(current)) && hops < 5; hops += 1) current = alias.get(normTitle(current));
+        const extract = byTitle.get(normTitle(current)) || byTitle.get(normTitle(requested));
+        if (extract) out.set(normTitle(requested), extract);
+      }
+    }
+    if (i + 20 < titles.length) await wait(delayMs);
+  }
+  return out;
 }
 
 function isTopical(answer) {
@@ -155,6 +194,11 @@ function isTopical(answer) {
   if (/^\d+([.,]\d+)?$/.test(a)) return false; // bare numbers
   if (/^(yes|no|true|false|gray|grey|red|blue|green|two|three|ten)$/i.test(a)) return false;
   return true;
+}
+
+// Normalize a Wikipedia title for matching: underscores→spaces, collapse, lowercase.
+function normTitle(value) {
+  return String(value ?? '').replace(/_/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
 }
 
 function slugify(value) {
