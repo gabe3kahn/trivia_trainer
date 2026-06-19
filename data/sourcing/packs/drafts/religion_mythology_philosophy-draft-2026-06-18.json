@@ -3,7 +3,7 @@
   "provider": "original_sourced",
   "category_id": "religion_mythology_philosophy",
   "notes": [
-    "Hand-rewritten for difficulty/craft (manual exemplar set for the drafter to learn from). Same answers and same cited sources as the drafted version; each clue withholds the obvious anchor and leads with an oblique hook. Grounded only in the cited Wikipedia docs."
+    "Hand-rewritten exemplar set (manual; for the drafter to learn from). Same cited sources as the draft. Per-review calibration applied. For the $800 tier, 'go a level deeper': clue a lesser-known entity or a specialist sub-fact (Epicurus's ataraxia, Medusa as the only mortal Gorgon) rather than an oblique angle on a household name — oblique-on-marquee tops out ~$600. Grounded only in the cited Wikipedia docs."
   ],
   "questions": [
     {
@@ -12,8 +12,8 @@
       "external_id": "rmp-draft-001-001",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "For slipping mortals a gift stolen from the gods of Olympus, this defiant Titan was bound to a crag where an eagle returned each day to feast on his ever-regrowing liver.",
@@ -33,7 +33,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:30:24.436Z"
+      "verified_at": "2026-06-19T03:44:37.708Z"
     },
     {
       "source": "original_sourced",
@@ -62,7 +62,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:30:24.809Z"
+      "verified_at": "2026-06-19T03:44:38.098Z"
     },
     {
       "source": "original_sourced",
@@ -74,7 +74,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "By the logic of his father Cronus's cannibalism, this eldest child was the last to be disgorged; when the three brothers carved up the cosmos, he was dealt dominion over the dead.",
+      "clue": "After the three brothers who toppled the Titans split the cosmos by lot, this eldest of them drew neither the sky nor the sea, but the realm of the dead.",
       "answer": "Hades",
       "aliases": [],
       "tags": [
@@ -91,7 +91,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:30:25.194Z"
+      "verified_at": "2026-06-19T03:44:38.486Z"
     },
     {
       "source": "original_sourced",
@@ -103,7 +103,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Bronze Age tablets at Pylos rank this 'Earth-Shaker' among the chief gods, and in the hills of Arcadia he was once worshipped in the very shape of a horse.",
+      "clue": "Bronze Age clay tablets at Pylos rank this 'Earth-Shaker' among the very chief gods — venerated there centuries before the classical age recast him mainly as lord of the sea.",
       "answer": "Poseidon",
       "aliases": [],
       "tags": [
@@ -120,7 +120,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:30:25.567Z"
+      "verified_at": "2026-06-19T03:44:38.876Z"
     },
     {
       "source": "original_sourced",
@@ -128,11 +128,11 @@
       "external_id": "rmp-draft-001-005",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Roman & Norse Mythology",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Beloved more by Viking farmers than by warriors, this protector against giants bore a name that — from Old English Thunor to Old High German Donar — simply meant 'thunder.'",
+      "clue": "Swinging the hammer Mjölnir against the giants of chaos, this red-bearded god was the steadfast protector of mankind and of the Viking farmer.",
       "answer": "Thor",
       "aliases": [],
       "tags": [
@@ -148,8 +148,8 @@
           "snippet": "Thor is a prominent god in Germanic paganism. In Norse mythology, he is a hammer-wielding god associated with thunder, storms, strength, protection, fertility, and farmers. Besides Old Norse Þórr, the deity occurs in Old English as Thunor, "
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-19T03:30:25.946Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T03:44:39.250Z"
     },
     {
       "source": "original_sourced",
@@ -161,7 +161,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "By a giantess this trickster sired three bringers of doom — the wolf Fenrir, the world-serpent, and the death-queen Hel — and, having turned himself into a mare, he bore the eight-legged steed Sleipnir.",
+      "clue": "By a giantess this trickster sired three bringers of doom — the wolf Fenrir, the world-serpent, and the death-queen Hel.",
       "answer": "Loki",
       "aliases": [],
       "tags": [
@@ -178,7 +178,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:30:26.319Z"
+      "verified_at": "2026-06-19T03:44:39.636Z"
     },
     {
       "source": "original_sourced",
@@ -186,11 +186,11 @@
       "external_id": "rmp-draft-001-007",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Roman & Norse Mythology",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "His name itself means 'lord of frenzy.' Each dawn he loosed two ravens — Thought and Memory — to range across the nine worlds and murmur back at dusk all they had witnessed.",
+      "clue": "Each dawn he loosed two ravens — Thought and Memory — to range across the nine worlds and murmur back at dusk all they had witnessed.",
       "answer": "Odin",
       "aliases": [],
       "tags": [
@@ -207,7 +207,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:30:26.708Z"
+      "verified_at": "2026-06-19T03:44:40.023Z"
     },
     {
       "source": "original_sourced",
@@ -236,7 +236,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:30:27.094Z"
+      "verified_at": "2026-06-19T03:44:40.404Z"
     },
     {
       "source": "original_sourced",
@@ -265,7 +265,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:30:27.467Z"
+      "verified_at": "2026-06-19T03:44:40.789Z"
     },
     {
       "source": "original_sourced",
@@ -294,7 +294,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:30:27.842Z"
+      "verified_at": "2026-06-19T03:44:41.183Z"
     },
     {
       "source": "original_sourced",
@@ -302,8 +302,8 @@
       "external_id": "rmp-draft-001-011",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Philosophers",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Professing that he knew only that he knew nothing, this Athenian set down not a single word of his own — yet his needling question-and-answer cross-examination survives through the pens of his students.",
@@ -323,7 +323,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:30:28.216Z"
+      "verified_at": "2026-06-19T03:44:41.559Z"
     },
     {
       "source": "original_sourced",
@@ -354,7 +354,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:30:28.585Z"
+      "verified_at": "2026-06-19T03:44:41.941Z"
     },
     {
       "source": "original_sourced",
@@ -385,7 +385,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:30:28.968Z"
+      "verified_at": "2026-06-19T03:44:42.320Z"
     },
     {
       "source": "original_sourced",
@@ -397,7 +397,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Born in the Hellenistic age, this school taught that a rational logos orders the cosmos, that virtue alone is good, and that all else — riches, health, even death — is an 'indifferent' to be met calmly.",
+      "clue": "This ancient philosophical tradition, founded in the Hellenistic period, held that virtue alone is sufficient for happiness and that the universe operates according to reason, called logos.",
       "answer": "Stoicism",
       "aliases": [
         "Stoic philosophy"
@@ -415,8 +415,8 @@
           "snippet": "Stoicism is a philosophical movement and practical guide to living, emphasizing daily self-discipline and moral improvement, which originated in the Hellenistic period of ancient Greece and proliferated well into the Roman Imperial period. "
         }
       ],
-      "verification_status": "weak",
-      "verified_at": "2026-06-19T03:30:29.345Z"
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T03:44:42.704Z"
     },
     {
       "source": "original_sourced",
@@ -424,8 +424,8 @@
       "external_id": "rmp-draft-001-015",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "World Religions",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Arising some 2,500 years ago as a śramaṇa movement on the eastern Gangetic plain, this faith draws its name and its path from a teacher remembered as 'the Awakened One.'",
@@ -447,7 +447,67 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:30:29.715Z"
+      "verified_at": "2026-06-19T03:44:43.090Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Epicurus",
+      "external_id": "rmp-draft-001-016",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hellenistic thinker taught that the highest good is a calm freedom from bodily pain and mental disturbance — won not by indulgence but by mastering one's desires, dispelling needless fears, and prizing friendship.",
+      "answer": "Epicurus",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Epicurus",
+          "url": "https://en.wikipedia.org/wiki/Epicurus",
+          "snippet": "Epicurus was an ancient Greek philosopher who founded the philosophical school of Epicureanism, which taught that management of one's desires, removal of unnecessary fears, friendship, and virtuous living led to a pleasant life and constant"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T03:44:43.467Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Medusa",
+      "external_id": "rmp-draft-001-017",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Alone among her three monstrous sisters in being mortal, this daughter of the primordial sea-deities Phorcys and Ceto turned to stone anyone who met her gaze.",
+      "answer": "Medusa",
+      "aliases": [
+        "Gorgon"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Medusa",
+          "url": "https://en.wikipedia.org/wiki/Medusa",
+          "snippet": "In Greek mythology, Medusa, also called Gorgo or the Gorgon, was one of the three Gorgons. Medusa is generally described as a woman with living snakes in place of hair; her appearance was so hideous that anyone who looked upon her was turne"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T03:44:43.859Z"
     }
   ]
 }
