@@ -77,8 +77,32 @@ export async function verifyAnswer(question, deps) {
   return verifyWikipedia(question, deps);
 }
 
+// A Wikipedia /wiki/<Title> URL → decoded page title (spaces, not underscores),
+// or null if it isn't a Wikipedia article URL. Lets us check the EXACT page the
+// author cited, rather than re-resolving the bare answer (e.g. "Monopoly" resolves
+// to the economics article, not the cited "Monopoly (game)").
+export function wikiTitleFromUrl(url) {
+  if (!url || !/wikipedia\.org\/wiki\//i.test(url)) return null;
+  const seg = url.split('/wiki/')[1];
+  if (!seg) return null;
+  try {
+    return decodeURIComponent(seg.split('#')[0]).replace(/_/g, ' ').trim() || null;
+  } catch {
+    return null;
+  }
+}
+
 async function verifyWikipedia(question, deps) {
-  const candidates = [question.answer, ...(question.aliases ?? [])].filter(Boolean);
+  // Prefer the page the author actually cited (source_url or an existing wikipedia
+  // citation) so we corroborate against THAT article, not whatever the bare answer
+  // name happens to resolve to. Falls back to answer + aliases as before.
+  const citedUrl =
+    question.source_url ||
+    (question.citations ?? []).find((c) => /wikipedia/i.test(`${c.source ?? ''} ${c.url ?? ''}`))?.url;
+  const pinnedTitle = wikiTitleFromUrl(citedUrl);
+  const candidates = [...(pinnedTitle ? [pinnedTitle] : []), question.answer, ...(question.aliases ?? [])]
+    .filter(Boolean)
+    .filter((c, i, arr) => arr.findIndex((x) => norm(x) === norm(c)) === i);
 
   for (const candidate of candidates) {
     // Try the REST summary directly first — the answer is usually the exact page
