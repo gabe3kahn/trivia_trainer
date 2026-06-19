@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-06-17T00:00:00Z",
+  "generated_at": "2026-06-18T00:00:00Z",
   "provider": "original_sourced",
   "category_id": "sports_games_leisure",
   "notes": [
-    "First Wikipedia-sourced draft for sports_games_leisure — 8 active clues at time of authoring (Mr. Potato Head, Easy-Bake Oven, Labubu, tarot, Waluigi, John Elway, Rickey Henderson, Michael Jordan). Michael Jordan already active, so no Jordan clue drafted. 25 new docs added via build-topic-docs.mjs into data/sourcing/docs/sports_games_leisure/.",
-    "Subcategory spread: Board Games & Card Games (5), Baseball (1), Basketball (1), Football (1), Soccer (1), Olympics (1), Tennis & Golf (3), Sports Records & Awards (1), Video Games & Esports (1).",
-    "All clues grounded only in the cited Wikipedia lead-extract docs."
+    "Manual exemplar rewrite (2026-06-18) to set the quality bar the drafter learns from — same approach as the mythology/wordplay rewrites. Grounded only in the cited Wikipedia lead-extract docs in data/sourcing/docs/sports_games_leisure/.",
+    "Calibration: difficulty comes from obliqueness/withholding the obvious, not fact-stacking. Value mix 200→1000 with a genuine hard tail: two deep-cut $800s (Go's 2e170 legal positions; Tour de France clued by L'Auto + the climber/sprinter jerseys with the yellow jersey withheld) and one $1000 (Jim Thorpe via King Gustav V's 'world's greatest athlete' quote — obscure entry to a deep answer).",
+    "Subcategory routing uses only the 10 valid sports_games_leisure subcategories; horse racing (Kentucky Derby) and cycling (Tour de France) have no dedicated subcategory so they route to 'Sports Records & Awards'.",
+    "Leak hygiene: Backgammon clued by its name-giving triple win without ever using the word; Masters withholds 'green jacket' and 'Augusta'; Tour de France withholds 'yellow jersey'."
   ],
   "questions": [
     {
@@ -18,9 +19,10 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In this board game, players buy and trade properties named after locations in and around Atlantic City, New Jersey, developing them with houses and hotels while collecting rent and aiming to drive opponents into bankruptcy.",
+      "clue": "Players circle the board in this Depression-era game buying and trading properties named for the streets of Atlantic City, developing them with houses and hotels to drive their rivals into bankruptcy.",
       "answer": "Monopoly",
       "aliases": [
+        "Monopoly (game)",
         "Monopoly board game",
         "Monopoly game"
       ],
@@ -32,152 +34,35 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Monopoly",
-          "url": "https://en.wikipedia.org/wiki/Monopoly",
-          "snippet": "A monopoly is a market in which one person or company is the only supplier of a particular good or service. A monopoly is characterized by a lack of economic competition to produce a particular thing, a lack of viable substitute goods, and "
+          "title": "Monopoly (game)",
+          "url": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+          "snippet": "Monopoly is a multiplayer economics-themed board game. In the game, players roll two standard dice to move their token clockwise around the game board, buying and trading properties and railroads and developing them with houses and hotels. Players collect rent from their opponents and aim to drive them into bankruptcy. ... The properties on the original game board were named after locations in and around Atlantic City, New Jersey. ... Parker Brothers first published Monopoly in 1935."
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T04:58:16.902Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Chess",
-      "external_id": "sgl-draft-2026-06-17-002",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Board Games & Card Games",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This strategy board game traces its recorded history to 7th-century India, where it was known as chaturanga; the first universally recognized world champion, Wilhelm Steinitz, claimed his title in 1886.",
-      "answer": "Chess",
-      "aliases": [],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "board-game"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Chess",
-          "url": "https://en.wikipedia.org/wiki/Chess",
-          "snippet": "Chess is a board game for two players, played on a square board consisting of 64 squares arranged in an 8×8 grid. The players, referred to as \"White\" and \"Black\", each control sixteen pieces: one king, one queen, two rooks, two bishops, two"
-        }
-      ],
-      "verification_status": "weak",
-      "verified_at": "2026-06-18T04:58:17.278Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Scrabble",
-      "external_id": "sgl-draft-2026-06-17-003",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Board Games & Card Games",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Invented by American architect Alfred Mosher Butts in 1931, this word game challenges two to four players to score points by placing letter tiles onto a 15-by-15 grid, forming words in crossword fashion.",
-      "answer": "Scrabble",
-      "aliases": [],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "board-game",
-        "word-game"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Scrabble",
-          "url": "https://en.wikipedia.org/wiki/Scrabble",
-          "snippet": "Scrabble is a word game in which two to four players score points by placing tiles, each bearing a single letter, onto a game board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to rig"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:17.660Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Poker",
-      "external_id": "sgl-draft-2026-06-17-004",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Board Games & Card Games",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "In this family of card games, players wager on which hand is best and may win the pot by causing all opponents to fold — without ever revealing their own cards.",
-      "answer": "Poker",
-      "aliases": [],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "card-game"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Poker",
-          "url": "https://en.wikipedia.org/wiki/Poker",
-          "snippet": "Poker is a family of comparing card games in which players wager over which hand is best according to that specific game's rules. It is played worldwide, with varying rules in different places. While the earliest known form of the game was "
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:18.044Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Backgammon",
-      "external_id": "sgl-draft-2026-06-17-005",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Board Games & Card Games",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "The name of this ancient two-player board game refers to the rare triple-victory scored when one player removes all of their pieces before the opponent has borne off a single one.",
-      "answer": "Backgammon",
-      "aliases": [],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "board-game"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Backgammon",
-          "url": "https://en.wikipedia.org/wiki/Backgammon",
-          "snippet": "Backgammon is a two-player board game played with counters and dice on tables boards. It is the most widespread Western member of the large family of tables games, whose ancestors date back at least 1,600 years. The earliest record of backg"
-        }
-      ],
-      "verification_status": "weak",
-      "verified_at": "2026-06-18T04:58:18.413Z"
+      "verified_at": "2026-06-19T04:37:12.879Z"
     },
     {
       "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Babe_Ruth",
-      "external_id": "sgl-draft-2026-06-17-006",
+      "external_id": "sgl-draft-2026-06-17-002",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Baseball",
       "value": 200,
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Hall of Famer, one of the inaugural five inductees in 1936, began his career as a dominant pitcher for the Boston Red Sox; as part of the Yankees' 'Murderers' Row' in 1927, he hit a then-record 60 home runs in a single season.",
+      "clue": "Nicknamed 'the Sultan of Swat,' this slugger broke into the majors as a dominant left-handed pitcher for the Boston Red Sox before clubbing a then-record 60 home runs for the 1927 Yankees' 'Murderers' Row.'",
       "answer": "Babe Ruth",
       "aliases": [
         "Ruth",
-        "George Herman Ruth"
+        "George Herman Ruth",
+        "the Bambino"
       ],
       "tags": [
         "sgl-draft",
         "sourced",
-        "baseball",
-        "hall-of-fame"
+        "baseball"
       ],
       "citations": [
         {
@@ -188,50 +73,19 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:18.795Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/NBA_Finals",
-      "external_id": "sgl-draft-2026-06-17-007",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Basketball",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "The winning team at this annual best-of-seven basketball championship series receives the Larry O'Brien Trophy.",
-      "answer": "NBA Finals",
-      "aliases": [
-        "NBA Championship"
-      ],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "basketball"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "NBA Finals",
-          "url": "https://en.wikipedia.org/wiki/NBA_Finals",
-          "snippet": "The NBA Finals is the annual championship series of the National Basketball Association (NBA). The Eastern and Western Conference champions play a best-of-seven series to determine the league champion. The team that wins the series is award"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:19.174Z"
+      "verified_at": "2026-06-19T04:37:13.297Z"
     },
     {
       "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Super_Bowl",
-      "external_id": "sgl-draft-2026-06-17-008",
+      "external_id": "sgl-draft-2026-06-17-003",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Football",
       "value": 200,
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Winning teams at this annual NFL championship game receive the Vince Lombardi Trophy, named after the coach who won its first two editions; the Pittsburgh Steelers and New England Patriots share the record for most victories with six each.",
+      "clue": "The champion of this annual NFL title game hoists the Vince Lombardi Trophy, named for the coach who won its first two editions.",
       "answer": "Super Bowl",
       "aliases": [
         "the Super Bowl"
@@ -251,19 +105,230 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:19.549Z"
+      "verified_at": "2026-06-19T04:37:13.725Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chess",
+      "external_id": "sgl-draft-2026-06-17-004",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This two-player game of kings and queens descends from the 7th-century Indian game chaturanga; Wilhelm Steinitz became its first universally recognized world champion in 1886.",
+      "answer": "Chess",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chess",
+          "url": "https://en.wikipedia.org/wiki/Chess",
+          "snippet": "Chess is a board game for two players, played on a square board consisting of 64 squares arranged in an 8×8 grid. The players, referred to as \"White\" and \"Black\", each control sixteen pieces: one king, one queen, two rooks, two bishops, two"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T04:37:14.110Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Scrabble",
+      "external_id": "sgl-draft-2026-06-17-005",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Devised by out-of-work American architect Alfred Mosher Butts in 1931, this game scores points for words built crossword-style from lettered tiles on a 15-by-15 grid.",
+      "answer": "Scrabble",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game",
+        "word-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Scrabble",
+          "url": "https://en.wikipedia.org/wiki/Scrabble",
+          "snippet": "Scrabble is a word game in which two to four players score points by placing tiles, each bearing a single letter, onto a game board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to rig"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T04:37:14.533Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Poker",
+      "external_id": "sgl-draft-2026-06-17-006",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this family of betting card games, a player can take the entire pot without ever revealing a card — simply by wagering until every opponent folds.",
+      "answer": "Poker",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "card-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Poker",
+          "url": "https://en.wikipedia.org/wiki/Poker",
+          "snippet": "Poker is a family of comparing card games in which players wager over which hand is best according to that specific game's rules. It is played worldwide, with varying rules in different places. While the earliest known form of the game was "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T04:37:14.912Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/World_Series",
+      "external_id": "sgl-draft-2026-06-17-007",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed the 'Fall Classic,' this best-of-seven championship has pitted the American League's pennant winner against the National League's nearly every October since 1903.",
+      "answer": "World Series",
+      "aliases": [
+        "the World Series"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "World Series",
+          "url": "https://en.wikipedia.org/wiki/World_Series",
+          "snippet": "The World Series is the annual championship series of Major League Baseball (MLB), a professional baseball league in North America, and has been contested since 1903 between the champion teams of the American League (AL) and the National Le"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T04:37:15.293Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Serena_Williams",
+      "external_id": "sgl-draft-2026-06-17-008",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "She stands alone in tennis as the only player to complete a career Golden Slam in both singles and doubles — winning all four majors plus an Olympic gold in each discipline.",
+      "answer": "Serena Williams",
+      "aliases": [
+        "Serena"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Serena Williams",
+          "url": "https://en.wikipedia.org/wiki/Serena_Williams",
+          "snippet": "Serena Jameka Williams is an American professional tennis player. She was ranked as the world No. 1 in women's singles by the Women's Tennis Association (WTA) for 319 weeks, and finished as the year-end No. 1 five times. Williams won 73 WTA"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T04:37:15.672Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Backgammon",
+      "external_id": "sgl-draft-2026-06-17-009",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient two-player game of dice and counters takes its name from its rarest outcome — a triple-stakes win earned by bearing off all fifteen of your pieces before the opponent removes even one.",
+      "answer": "Backgammon",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Backgammon",
+          "url": "https://en.wikipedia.org/wiki/Backgammon",
+          "snippet": "Backgammon is a two-player board game played with counters and dice on tables boards. It is the most widespread Western member of the large family of tables games, whose ancestors date back at least 1,600 years. The earliest record of backg"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T04:37:16.111Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Kentucky_Derby",
+      "external_id": "sgl-draft-2026-06-17-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Its winner is draped in a blanket of roses after a run lasting barely two minutes; held every year since 1875, this race for three-year-old Thoroughbreds opens horse racing's Triple Crown.",
+      "answer": "Kentucky Derby",
+      "aliases": [
+        "the Derby",
+        "Run for the Roses"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "horse-racing"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Kentucky Derby",
+          "url": "https://en.wikipedia.org/wiki/Kentucky_Derby",
+          "snippet": "The Kentucky Derby is an American Grade I stakes race run at Churchill Downs in Louisville, Kentucky. The race is run by three-year-old Thoroughbreds at a distance of 1+1⁄4 miles. Colts and geldings carry 126 pounds and fillies 121 pounds."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T04:37:16.501Z"
     },
     {
       "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
-      "external_id": "sgl-draft-2026-06-17-009",
+      "external_id": "sgl-draft-2026-06-17-011",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Soccer",
       "value": 600,
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This nation is the only one to have played in every edition of the FIFA World Cup, the quadrennial tournament first held in 1930.",
+      "clue": "With five titles, this is the only national team to have appeared at every FIFA World Cup since the tournament began in 1930.",
       "answer": "Brazil",
       "aliases": [],
       "tags": [
@@ -281,167 +346,135 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T04:58:19.927Z"
+      "verified_at": "2026-06-19T04:37:16.893Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Summer_Olympic_Games",
-      "external_id": "sgl-draft-2026-06-17-010",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Olympics",
-      "value": 200,
-      "difficulty_rank": 1,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Of all nations that have participated in every edition of this international multi-sport event since 1896, only Great Britain has won at least one gold medal in each edition.",
-      "answer": "Summer Olympic Games",
-      "aliases": [
-        "Summer Olympics",
-        "Olympic Games"
-      ],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "olympics"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Summer Olympic Games",
-          "url": "https://en.wikipedia.org/wiki/Summer_Olympic_Games",
-          "snippet": "The Summer Olympic Games, also known as the Summer Olympics or the Games of the Olympiad, are a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, then part of the Ki"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:20.308Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Serena_Williams",
-      "external_id": "sgl-draft-2026-06-17-011",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Tennis & Golf",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "She is the only player in tennis history to have completed a career Golden Slam in both singles and doubles, winning all four major titles plus an Olympic gold in each discipline.",
-      "answer": "Serena Williams",
-      "aliases": [
-        "Williams",
-        "Serena"
-      ],
-      "tags": [
-        "sgl-draft",
-        "sourced",
-        "tennis"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Serena Williams",
-          "url": "https://en.wikipedia.org/wiki/Serena_Williams",
-          "snippet": "Serena Jameka Williams is an American professional tennis player. She was ranked as the world No. 1 in women's singles by the Women's Tennis Association (WTA) for 319 weeks, and finished as the year-end No. 1 five times. Williams won 73 WTA"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:20.678Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+      "source_url": "https://en.wikipedia.org/wiki/Masters_Tournament",
       "external_id": "sgl-draft-2026-06-17-012",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Tennis & Golf",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Held since 1877 and the only Grand Slam still played on outdoor grass, this tournament requires competitors to wear all white and has maintained an unbroken ball-supply relationship with Slazenger since 1902 — the world's longest-running sporting sponsorship.",
-      "answer": "Wimbledon Championships",
+      "clue": "Co-founded by amateur great Bobby Jones and first staged in 1934, this is the only one of golf's four men's majors played on the same course every year.",
+      "answer": "The Masters Tournament",
       "aliases": [
-        "Wimbledon"
+        "The Masters",
+        "Masters"
       ],
       "tags": [
         "sgl-draft",
         "sourced",
-        "tennis",
-        "grand-slam"
+        "golf"
       ],
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Wimbledon Championships",
-          "url": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
-          "snippet": "The Wimbledon Championships, commonly called Wimbledon, is a tennis tournament organised by the All England Lawn Tennis and Croquet Club in collaboration with the Lawn Tennis Association annually in Wimbledon, London. It is chronologically "
+          "title": "Masters Tournament",
+          "url": "https://en.wikipedia.org/wiki/Masters_Tournament",
+          "snippet": "The Masters Tournament is one of the four men's major championships in professional golf. Scheduled for the first full week in April, the Masters is the first major golf tournament of the year. Unlike the other major tournaments which chang"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-19T04:37:17.281Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Go_(game)",
+      "external_id": "sgl-draft-2026-06-17-013",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Played with black and white stones on a 19-by-19 grid, this ancient Chinese game has more legal board positions than there are atoms in the observable universe.",
+      "answer": "Go",
+      "aliases": [
+        "Weiqi",
+        "Baduk"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-game"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Go (game)",
+          "url": "https://en.wikipedia.org/wiki/Go_(game)",
+          "snippet": "Go, Weiqi, or Baduk is an abstract strategy board game for two players in which the aim is to fence off more territory than the opponent. The game was invented in China more than 2,500 years ago and is believed to be the oldest board game c"
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-18T04:58:21.059Z"
+      "verified_at": "2026-06-19T04:37:18.028Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+      "source_url": "https://en.wikipedia.org/wiki/Tour_de_France",
       "external_id": "sgl-draft-2026-06-17-014",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Sports Records & Awards",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "He fought George Foreman in the 'Rumble in the Jungle' and Joe Frazier in the 'Thrilla in Manila,' and was named Sportsman of the Century by Sports Illustrated in 1999.",
-      "answer": "Muhammad Ali",
+      "clue": "First organized in 1903 to boost sales of the newspaper L'Auto, this roughly three-week race awards a polka-dot jersey to its best climber and a green jersey to its top sprinter.",
+      "answer": "Tour de France",
       "aliases": [
-        "Ali",
-        "Cassius Clay",
-        "Cassius Marcellus Clay"
+        "the Tour"
       ],
       "tags": [
         "sgl-draft",
         "sourced",
-        "boxing",
-        "sports-records"
+        "cycling"
       ],
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Muhammad Ali",
-          "url": "https://en.wikipedia.org/wiki/Muhammad_Ali",
-          "snippet": "Muhammad Ali was an American professional boxer and activist. A global cultural icon, widely known by the nickname \"the Greatest\", he is often regarded as the greatest heavyweight boxer of all time. He held the Ring magazine heavyweight tit"
+          "title": "Tour de France",
+          "url": "https://en.wikipedia.org/wiki/Tour_de_France",
+          "snippet": "The Tour de France is an annual men's multiple-stage road cycling race held primarily in France. It is the oldest and most prestigious of the three Grand Tours, which include the Giro d'Italia and the Vuelta a España."
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:21.429Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T04:37:18.418Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Tetris",
+      "source_url": "https://en.wikipedia.org/wiki/Decathlon",
       "external_id": "sgl-draft-2026-06-17-015",
       "category_id": "sports_games_leisure",
-      "subcategory_name": "Video Games & Esports",
-      "value": 400,
-      "difficulty_rank": 2,
+      "subcategory_name": "Olympics",
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Created by Soviet software engineer Alexey Pajitnov in the mid-1980s, this puzzle game challenges players to sort falling four-block shapes into complete horizontal lines, which then disappear from the playfield.",
-      "answer": "Tetris",
-      "aliases": [],
+      "clue": "After this man won the grueling two-day, ten-event decathlon at the 1912 Stockholm Olympics, Sweden's King Gustav V reputedly told him, 'Sir, you are the world's greatest athlete.'",
+      "answer": "Jim Thorpe",
+      "aliases": [
+        "Thorpe",
+        "James Francis Thorpe"
+      ],
       "tags": [
         "sgl-draft",
         "sourced",
-        "video-game",
-        "puzzle"
+        "olympics",
+        "track-and-field"
       ],
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Tetris",
-          "url": "https://en.wikipedia.org/wiki/Tetris",
-          "snippet": "Tetris is a puzzle video game created by Alexey Pajitnov, a Soviet software engineer, in the mid-1980s. In Tetris, falling pieces consisting of four connected blocks, known as tetrominoes, must be sorted into a pile. Once a horizontal line "
+          "title": "Jim Thorpe",
+          "url": "https://en.wikipedia.org/wiki/Jim_Thorpe",
+          "snippet": "James Francis Thorpe was an American athlete who won Olympic gold medals and played professional football, baseball, and basketball. A citizen of the Sac and Fox Nation, he was the first Native American to win a gold medal for the United St"
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-18T04:58:21.812Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T04:37:18.838Z"
     }
   ]
 }
