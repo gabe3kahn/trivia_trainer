@@ -33,7 +33,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:53:04.607Z"
+      "verified_at": "2026-06-19T04:02:21.181Z"
     },
     {
       "source": "original_sourced",
@@ -62,7 +62,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:53:04.982Z"
+      "verified_at": "2026-06-19T04:02:21.563Z"
     },
     {
       "source": "original_sourced",
@@ -91,7 +91,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:05.359Z"
+      "verified_at": "2026-06-19T04:02:21.942Z"
     },
     {
       "source": "original_sourced",
@@ -120,7 +120,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:05.741Z"
+      "verified_at": "2026-06-19T04:02:22.326Z"
     },
     {
       "source": "original_sourced",
@@ -149,7 +149,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:53:06.122Z"
+      "verified_at": "2026-06-19T04:02:22.729Z"
     },
     {
       "source": "original_sourced",
@@ -178,7 +178,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:06.503Z"
+      "verified_at": "2026-06-19T04:02:23.112Z"
     },
     {
       "source": "original_sourced",
@@ -207,7 +207,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:53:06.901Z"
+      "verified_at": "2026-06-19T04:02:23.496Z"
     },
     {
       "source": "original_sourced",
@@ -236,7 +236,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:53:07.284Z"
+      "verified_at": "2026-06-19T04:02:23.875Z"
     },
     {
       "source": "original_sourced",
@@ -265,7 +265,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:07.664Z"
+      "verified_at": "2026-06-19T04:02:24.257Z"
     },
     {
       "source": "original_sourced",
@@ -294,7 +294,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:53:08.052Z"
+      "verified_at": "2026-06-19T04:02:24.638Z"
     },
     {
       "source": "original_sourced",
@@ -323,7 +323,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:53:08.427Z"
+      "verified_at": "2026-06-19T04:02:25.037Z"
     },
     {
       "source": "original_sourced",
@@ -354,7 +354,7 @@
         }
       ],
       "verification_status": "weak",
-      "verified_at": "2026-06-19T03:53:08.797Z"
+      "verified_at": "2026-06-19T04:02:25.414Z"
     },
     {
       "source": "original_sourced",
@@ -385,7 +385,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:09.186Z"
+      "verified_at": "2026-06-19T04:02:25.798Z"
     },
     {
       "source": "original_sourced",
@@ -416,7 +416,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:09.556Z"
+      "verified_at": "2026-06-19T04:02:26.179Z"
     },
     {
       "source": "original_sourced",
@@ -447,7 +447,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:09.948Z"
+      "verified_at": "2026-06-19T04:02:26.557Z"
     },
     {
       "source": "original_sourced",
@@ -476,7 +476,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:10.330Z"
+      "verified_at": "2026-06-19T04:02:26.928Z"
     },
     {
       "source": "original_sourced",
@@ -507,7 +507,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:10.718Z"
+      "verified_at": "2026-06-19T04:02:27.306Z"
     },
     {
       "source": "original_sourced",
@@ -536,7 +536,39 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-19T03:53:11.091Z"
+      "verified_at": "2026-06-19T04:02:27.694Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Helen_of_Troy",
+      "external_id": "rmp-draft-001-019",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When Zeus took the form of a swan to couple with Leda of Sparta, the daughter born of that union grew into the woman whose elopement with a foreign prince launched a decade-long war.",
+      "answer": "Helen of Troy",
+      "aliases": [
+        "Helen",
+        "Helen of Sparta"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Helen of Troy",
+          "url": "https://en.wikipedia.org/wiki/Helen_of_Troy",
+          "snippet": "Helen, also known as Helen of Troy, or Helen of Sparta, and in Latin as Helena, was a figure in Greek mythology said to have been the most beautiful woman in the world. She was believed to have been the daughter of Zeus by Leda or Nemesis, "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-19T04:02:28.082Z"
     }
   ]
 }
