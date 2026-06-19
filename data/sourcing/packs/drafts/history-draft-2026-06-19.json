@@ -37,7 +37,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source fact: 'Anne Boleyn was Queen of England from 1533 to 1536, as the second wife of King Henry VIII. The circumstances of her marriage and execution, by beheading for treason, made her a key figure in the political and religious upheaval that marked the start of the English Reformation.' (anne-boleyn.json)",
-      "verified_at": "2026-06-19T21:05:59.290Z"
+      "verified_at": "2026-06-19T22:23:23.891Z"
     },
     {
       "source": "original_sourced",
@@ -45,8 +45,8 @@
       "external_id": "hist-2026-06-19-002",
       "category_id": "history",
       "subcategory_name": "Ancient History",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "The final emperor of the Julio-Claudian dynasty, this ruler reigned from 54 to 68 AD before dying by suicide; his mother, the influential Agrippina the Younger, was murdered on his orders.",
@@ -70,7 +70,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'Roman emperor from 54 AD until his suicide in 68 AD, as the final emperor of the Julio-Claudian dynasty' and 'Agrippina the Younger (great-granddaughter of the emperor Augustus)' and 'he orchestrated her murder.' (nero.json)",
-      "verified_at": "2026-06-19T21:05:59.722Z"
+      "verified_at": "2026-06-19T22:23:24.396Z"
     },
     {
       "source": "original_sourced",
@@ -78,8 +78,8 @@
       "external_id": "hist-2026-06-19-003",
       "category_id": "history",
       "subcategory_name": "European History",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "France's revolutionary government celebrated this beheading apparatus as 'the people's avenger,' while opponents called it the preeminent symbol of the Reign of Terror's violence.",
@@ -103,7 +103,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source fact: 'the revolution's supporters celebrated it as the people's avenger and the revolution's opponents vilified it as the pre-eminent symbol of the violence of the Reign of Terror.' (guillotine.json)",
-      "verified_at": "2026-06-19T21:06:00.141Z"
+      "verified_at": "2026-06-19T22:23:24.922Z"
     },
     {
       "source": "original_sourced",
@@ -138,7 +138,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'served Henry VIII as Lord Chancellor... wrote Utopia, published in 1516... refusing to acknowledge Henry as supreme head of the Church of England.' (sir-thomas-more.json)",
-      "verified_at": "2026-06-19T21:06:00.591Z"
+      "verified_at": "2026-06-19T22:23:25.476Z"
     },
     {
       "source": "original_sourced",
@@ -172,7 +172,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'born to a family of peasants in the Siberian village of Pokrovskoye' and 'befriended the imperial family of Nicholas II' and 'acting as a faith healer for Nicholas' and Alexandra's only son, Alexei Nikolaevich, who suffered from haemophilia.' (rasputin.json)",
-      "verified_at": "2026-06-19T21:06:01.026Z"
+      "verified_at": "2026-06-19T22:23:26.015Z"
     },
     {
       "source": "original_sourced",
@@ -180,8 +180,8 @@
       "external_id": "hist-2026-06-19-006",
       "category_id": "history",
       "subcategory_name": "European History",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Her reign of 63 years and 216 days — longer than that of any of her predecessors — defined an era of industrial and imperial expansion; in 1876, parliament granted her the additional title of Empress of India.",
@@ -207,7 +207,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'Her reign of 63 years and 216 days, which was longer than those of any of her predecessors' and 'In 1876, the British parliament voted to grant her the additional title of Empress of India.' (we-are-not-amused.json)",
-      "verified_at": "2026-06-19T21:06:01.557Z"
+      "verified_at": "2026-06-19T22:23:26.532Z"
     },
     {
       "source": "original_sourced",
@@ -241,7 +241,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'defeated Abraham Lincoln to win reelection in 1858, a campaign known for the pivotal Lincoln-Douglas debates' and 'defeated by Lincoln' in 1860. (stephen-douglas.json)",
-      "verified_at": "2026-06-19T21:06:01.992Z"
+      "verified_at": "2026-06-19T22:24:01.203Z"
     },
     {
       "source": "original_sourced",
@@ -253,7 +253,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Brokered in part by an Illinois senator later famous for debating Lincoln, this 1850 legislative deal sought to defuse sectional tensions over the expansion of slavery into newly acquired U.S. territories.",
+      "clue": "This 1850 legislative deal sought to defuse sectional tensions over the expansion of slavery into newly acquired U.S. territories.",
       "answer": "Compromise of 1850",
       "aliases": [
         "1850 Compromise",
@@ -275,7 +275,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source fact: 'Douglas was one of the brokers of the Compromise of 1850, which sought to avert a sectional crisis over the issue of slavery.' (stephen-douglas.json)",
-      "verified_at": "2026-06-19T21:06:02.400Z"
+      "verified_at": "2026-06-19T22:24:01.688Z"
     },
     {
       "source": "original_sourced",
@@ -308,7 +308,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'a population arising... from the intermingling between Norse Viking settlers and locals of West Francia' and 'settlements were finally legitimized when Rollo... agreed to swear fealty to King Charles III of West Francia following the siege of Chartres in 911.' (the-normans.json)",
-      "verified_at": "2026-06-19T21:06:02.803Z"
+      "verified_at": "2026-06-19T22:24:02.168Z"
     },
     {
       "source": "original_sourced",
@@ -316,8 +316,8 @@
       "external_id": "hist-2026-06-19-010",
       "category_id": "history",
       "subcategory_name": "U.S. Presidents & Elections",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "He took the oath of office at age 42 in 1901, becoming the youngest person ever to serve as president — not by winning an election but by succeeding the assassinated William McKinley.",
@@ -342,7 +342,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'became president after McKinley's assassination in 1901' and 'He was 42 years old upon his first inauguration, making him the youngest person to hold the office.' (theodore-roosevelt.json)",
-      "verified_at": "2026-06-19T21:07:00.294Z"
+      "verified_at": "2026-06-19T22:24:02.641Z"
     },
     {
       "source": "original_sourced",
@@ -375,7 +375,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'the conqueror and first ruler of the Kingdom of Hawaii' and 'The state of Hawaii gave a statue of him to the National Statuary Hall Collection in Washington, D.C., as one of two statues it is entitled to install there.' (kamehameha.json)",
-      "verified_at": "2026-06-19T21:07:00.712Z"
+      "verified_at": "2026-06-19T22:24:03.186Z"
     },
     {
       "source": "original_sourced",
@@ -409,7 +409,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source fact: 'Rollo, a Scandinavian Viking leader, agreed to swear fealty to King Charles III of West Francia following the siege of Chartres in 911, leading to the formation of the County of Rouen.' (the-normans.json)",
-      "verified_at": "2026-06-19T21:07:01.135Z"
+      "verified_at": "2026-06-19T22:24:03.669Z"
     }
   ]
 }

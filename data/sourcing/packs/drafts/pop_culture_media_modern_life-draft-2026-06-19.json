@@ -12,8 +12,8 @@
       "external_id": "pop-2026-06-19-001",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Food & Drink",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Obtained from the inner bark of several tree species, this highly aromatic spice is one of the world's most widely used flavorings and appears in both sweet and savory dishes across cultures worldwide.",
@@ -34,7 +34,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source fact: 'a spice obtained from the inner bark of several tree species from the genus Cinnamomum... used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines.' (cinnamon.json)",
-      "verified_at": "2026-06-19T21:16:12.062Z"
+      "verified_at": "2026-06-19T22:24:13.770Z"
     },
     {
       "source": "original_sourced",
@@ -46,7 +46,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The world's largest Volksfest, held annually in Munich on the Theresienwiese from mid-September to the first Sunday in October, draws around seven million visitors and centers on beer.",
+      "clue": "The world's largest folk celebration, held annually in Munich on the Theresienwiese from mid-September to the first Sunday in October, it draws around seven million visitors and centers on beer.",
       "answer": "Oktoberfest",
       "aliases": [
         "Octoberfest"
@@ -66,7 +66,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'the world's largest Volksfest' and 'held annually in Munich on the Theresienwiese from mid-September to the first Sunday in October' and 'draws around seven million visitors each year.' (oktoberfest.json)",
-      "verified_at": "2026-06-19T21:16:12.494Z"
+      "verified_at": "2026-06-19T22:25:01.472Z"
     },
     {
       "source": "original_sourced",
@@ -100,7 +100,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'lit. rooster's beak' and 'also called salsa fresca' and 'traditionally made from chopped tomato, onion, and serrano peppers, with salt, lime juice, and cilantro.' (pico-de-gallo.json)",
-      "verified_at": "2026-06-19T21:16:12.919Z"
+      "verified_at": "2026-06-19T22:25:01.949Z"
     },
     {
       "source": "original_sourced",
@@ -108,8 +108,8 @@
       "external_id": "pop-2026-06-19-004",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Food & Drink",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This traditional Hawaiian feast typically features poi, kālua pig, and poke, and is often accompanied by hula performances and traditional music.",
@@ -133,7 +133,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'a traditional Hawaiian party or feast' with 'poi, kālua pig, poke' and 'traditional Hawaiian music and hula.' (a-luau.json)",
-      "verified_at": "2026-06-19T21:16:13.324Z"
+      "verified_at": "2026-06-19T22:25:02.497Z"
     },
     {
       "source": "original_sourced",
@@ -166,7 +166,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'grated potato formed into small cylinders and deep-fried' and 'registered trademark of the American frozen food company Ore-Ida, but is often used as a generic term.' (tater-tots.json)",
-      "verified_at": "2026-06-19T21:16:13.729Z"
+      "verified_at": "2026-06-19T22:25:03.028Z"
     },
     {
       "source": "original_sourced",
@@ -178,7 +178,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Originating in Rhode Island, this New England appetizer is served on the halfshell topped with breadcrumbs and bacon, and is named for the type of gambling establishment associated with its invention.",
+      "clue": "Originating in Rhode Island, this New England appetizer is served on the halfshell topped with breadcrumbs and bacon.",
       "answer": "Clams casino",
       "aliases": [
         "Clams Casino"
@@ -198,7 +198,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'clam on the halfshell dish with breadcrumbs and bacon' and 'originated in Rhode Island' and 'often served as an appetizer in New England.' (clams-casino.json)",
-      "verified_at": "2026-06-19T21:16:14.130Z"
+      "verified_at": "2026-06-19T22:25:03.562Z"
     },
     {
       "source": "original_sourced",
@@ -231,7 +231,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'culinary term for crabs that have recently molted their old exoskeleton and are still soft' and 'removed from the water as soon as they molt... to prevent any hardening of their shell.' (soft-shell-crabs.json)",
-      "verified_at": "2026-06-19T21:16:14.539Z"
+      "verified_at": "2026-06-19T22:25:04.184Z"
     },
     {
       "source": "original_sourced",
@@ -264,7 +264,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'previously sold in Canada as Delissio' and 'subsidiary of Nestlé' and 'In 2023, Nestlé discontinued sales of Delissio pizzas in Canada.' (digiorno.json)",
-      "verified_at": "2026-06-19T21:16:14.974Z"
+      "verified_at": "2026-06-19T22:26:00.881Z"
     },
     {
       "source": "original_sourced",
@@ -296,7 +296,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'brand of microwaveable turnovers generally containing one or more types of cheese, meat, or vegetables' and 'founded by Chef America Inc.' and 'produced by Nestlé' since April 2002. (hot-pockets.json)",
-      "verified_at": "2026-06-19T21:16:15.402Z"
+      "verified_at": "2026-06-19T22:26:01.421Z"
     },
     {
       "source": "original_sourced",
@@ -304,8 +304,8 @@
       "external_id": "pop-2026-06-19-010",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Comics & Graphic Novels",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Jim Davis's comic strip about a lazy, sarcastic cat was originally published locally in 1976 under the name 'Jon,' reached nationwide syndication under a new title in 1978, and now holds a Guinness World Record as the world's most widely syndicated comic strip.",
@@ -326,7 +326,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'Originally published locally as Jon in 1976... then in nationwide syndication from 1978' and 'held the Guinness World Record for being the world's most widely syndicated comic strip.' (garfield.json)",
-      "verified_at": "2026-06-19T21:16:15.843Z"
+      "verified_at": "2026-06-19T22:26:02.034Z"
     },
     {
       "source": "original_sourced",
@@ -334,8 +334,8 @@
       "external_id": "pop-2026-06-19-011",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Technology & Companies",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Founded in April 2006 by Daniel Ek and Martin Lorentzon, this Swedish music streaming service has grown into one of the world's largest audio platforms and is listed on the New York Stock Exchange.",
@@ -356,7 +356,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'founded in April 2006 by Daniel Ek and Martin Lorentzon' and '761 million monthly active users' and 'listed on the New York Stock Exchange.' (spotify.json)",
-      "verified_at": "2026-06-19T21:17:00.345Z"
+      "verified_at": "2026-06-19T22:26:02.578Z"
     },
     {
       "source": "original_sourced",
@@ -390,7 +390,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": "Source facts: 'also known as Scandinavian noir' and 'written from a police point of view and set in Scandinavia or the Nordic countries' and 'bleak landscapes... tension... between the apparently still and bland social surface and the patterns of murder... lying underneath.' (nordic-noir.json)",
-      "verified_at": "2026-06-19T21:17:00.785Z"
+      "verified_at": "2026-06-19T22:26:03.131Z"
     }
   ]
 }
