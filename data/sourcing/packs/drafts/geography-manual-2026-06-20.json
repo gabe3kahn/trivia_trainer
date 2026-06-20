@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-06-20T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "geography",
+  "notes": [
+    "Manual addition (Gabe-requested) 2026-06-20: a $1000 'extremes' clue — Everest is highest above sea level, but because Earth bulges at the equator, Chimborazo's summit is the farthest point from Earth's center. Grounded in the Chimborazo Wikipedia lead."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chimborazo",
+      "external_id": "geo-manual-2026-06-20-001",
+      "category_id": "geography",
+      "subcategory_name": "Maps, Coordinates & Extremes",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rising above the planet's equatorial bulge in the Ecuadorian Andes, the summit of this stratovolcano — though well short of Everest in elevation above sea level — is the point on Earth's surface farthest from the planet's center.",
+      "answer": "Chimborazo",
+      "aliases": [
+        "Mount Chimborazo"
+      ],
+      "tags": [
+        "manual",
+        "sourced",
+        "extremes"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chimborazo",
+          "url": "https://en.wikipedia.org/wiki/Chimborazo",
+          "snippet": "Chimborazo is a stratovolcano in Ecuador and the Cordillera Occidental range of the Andes. Measured from the Earth's center, its summit is the highest point on earth. Its last known eruption is believed to have occurred around AD 550. Altho"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T02:09:22.763Z"
+    }
+  ]
+}
