@@ -1,0 +1,473 @@
+{
+  "generated_at": "2026-06-20T00:00:00Z",
+  "provider": "claude-sonnet-4-6",
+  "category_id": "music_performing_arts",
+  "notes": [
+    "15-clue draft for music_performing_arts (17 active clues at time of authoring — tied for thinnest non-geography category). All clues sourced from data/sourcing/docs/music_performing_arts/. Subcategory spread: Popular Music (6), Film Scores & Soundtracks (4), Music Theory & Terms (2), Broadway & Musicals (1), Classical Composers (1), Instruments (1). Previously missing subcategories now covered: Film Scores & Soundtracks, Instruments, Music Theory & Terms. Hard tail: Diana Ross $800 (first African American actress nominated for Academy Award for debut film performance), Shake Your Booty $800 (B-side connection), Stop Making Sense $1000 (Demme / independently financed / Pantages / digital audio). Avoided all active + pending answers: Beethoven's Fifth, 1812 Overture, Boléro, Swan Lake, Maurice Ravel, Gustav Mahler, Arnold Schoenberg, John Coltrane, Bayreuth, The Beatles, Shaggy, Tommy Tutone, Skiffle, Sweeney Todd, Annie Oakley, Oh Mary!, Hedwig, Annie Get Your Gun, Big Lebowski."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Danny_Boy",
+      "external_id": "music-draft-2026-06-20-001",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Set in 1913 to the traditional Irish melody of the Londonderry Air, this beloved folk ballad's lyrics were written three years earlier by English lawyer Frederic Weatherly.",
+      "answer": "Danny Boy",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music",
+        "folk"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Danny Boy",
+          "url": "https://en.wikipedia.org/wiki/Danny_Boy",
+          "snippet": "\"Danny Boy\" is a folk song with lyrics written by English lawyer Frederic Weatherly in 1910, and set to the traditional Irish melody of \"Londonderry Air\" in 1913."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:49.625Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Saturday_Night_Fever",
+      "external_id": "music-draft-2026-06-20-002",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Film Scores & Soundtracks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The Bee Gees composed the landmark soundtrack for this 1977 dance drama starring John Travolta, which helped popularize disco worldwide and was selected for preservation by the Library of Congress in 2010.",
+      "answer": "Saturday Night Fever",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "film-score",
+        "disco"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Saturday Night Fever",
+          "url": "https://en.wikipedia.org/wiki/Saturday_Night_Fever",
+          "snippet": "Saturday Night Fever is a 1977 American dance drama film directed by John Badham and produced by Robert Stigwood. It stars John Travolta as Tony Manero, a young Italian-American man who spends his weekends dancing and drinking at a local di"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:49.981Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Disc_jockey",
+      "external_id": "music-draft-2026-06-20-003",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Music Theory & Terms",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This professional, commonly abbreviated to two letters, originally took their title from the shellac records they spun; today the term encompasses radio hosts, club performers, and anyone who mixes recorded music for audiences.",
+      "answer": "Disc Jockey",
+      "aliases": [
+        "DJ"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Disc jockey",
+          "url": "https://en.wikipedia.org/wiki/Disc_jockey",
+          "snippet": "A disc jockey, more commonly abbreviated as DJ, is a person who plays recorded music for an audience. Types of DJs include radio DJs, club DJs, mobile DJs, and turntablists. Originally, the \"disc\" in \"disc jockey\" referred to shellac and la"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:50.337Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Moulin_Rouge!",
+      "external_id": "music-draft-2026-06-20-004",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Film Scores & Soundtracks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The final film in a trilogy by director Baz Luhrmann, this 2001 jukebox musical set in Paris's Montmartre Quarter starred Nicole Kidman and Ewan McGregor and received eight Academy Award nominations.",
+      "answer": "Moulin Rouge!",
+      "aliases": [
+        "Moulin Rouge"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "film-score",
+        "musical"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Moulin Rouge!",
+          "url": "https://en.wikipedia.org/wiki/Moulin_Rouge!",
+          "snippet": "Moulin Rouge! is a 2001 jukebox musical romantic drama film directed, produced, and co-written by Baz Luhrmann. It follows an English poet, Christian, who falls in love with the star of the Moulin Rouge, cabaret actress and courtesan Satine"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:50.694Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gene_Simmons",
+      "external_id": "music-draft-2026-06-20-005",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born Chaim Witz in Israel in 1949, this musician co-founded a hard rock band celebrated for its elaborate stage makeup and personas in 1973, serving as its bassist and co-lead singer until the group's dissolution five decades later.",
+      "answer": "Gene Simmons",
+      "aliases": [
+        "Simmons"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music",
+        "rock"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gene Simmons",
+          "url": "https://en.wikipedia.org/wiki/Gene_Simmons",
+          "snippet": "Gene Simmons, also known by his stage persona \"the Demon\", is an Israeli and American musician. He was the bassist and co-lead singer of the hard rock band Kiss, which he co-founded with Paul Stanley, Ace Frehley, and Peter Criss in 1973. S"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:51.050Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Greatest_Showman",
+      "external_id": "music-draft-2026-06-20-006",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Film Scores & Soundtracks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Starring Hugh Jackman as P. T. Barnum, this 2017 musical film won the Golden Globe for Best Original Song for \"This Is Me\" and the Grammy Award for Best Compilation Soundtrack for Visual Media.",
+      "answer": "The Greatest Showman",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "film-score",
+        "musical"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Greatest Showman",
+          "url": "https://en.wikipedia.org/wiki/The_Greatest_Showman",
+          "snippet": "The Greatest Showman is a 2017 American musical period drama film directed by Michael Gracey from a screenplay by Jenny Bicks and Bill Condon, based on an original story by Bicks. The film stars Hugh Jackman, Zac Efron, Michelle Williams, R"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:51.406Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/We_Are_Family_(song)",
+      "external_id": "music-draft-2026-06-20-007",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Composed by Nile Rodgers and Bernard Edwards and initially rejected by Atlantic Records, this 1979 disco anthem became the signature song of the sibling vocal group Sister Sledge and was preserved in the National Recording Registry in 2017.",
+      "answer": "We Are Family",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music",
+        "disco"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "We Are Family (song)",
+          "url": "https://en.wikipedia.org/wiki/We_Are_Family_(song)",
+          "snippet": "\"We Are Family\" is a song recorded by American sibling vocal group Sister Sledge. Composed by Bernard Edwards and Nile Rodgers, they both offered the song to Atlantic Records; although the record label initially declined, the track was rele"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:51.763Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Septet",
+      "external_id": "music-draft-2026-06-20-008",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Music Theory & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In music, this term names a formation of exactly seven performers — one larger than a sextet and one smaller than an octet — and can also apply to a seven-line stanza of poetry.",
+      "answer": "Septet",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "terminology",
+        "theory"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Septet",
+          "url": "https://en.wikipedia.org/wiki/Septet",
+          "snippet": "A septet is a formation containing exactly seven members. It is commonly associated with musical groups but can be applied to any situation where seven similar or related objects are considered a single unit, such as a seven-line stanza of "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:52.119Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Brass",
+      "external_id": "music-draft-2026-06-20-009",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Instruments",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Composed of roughly two-thirds copper and one-third zinc, this alloy has been used since prehistoric times and lends its name to the orchestral family that includes the trumpet, French horn, trombone, and tuba.",
+      "answer": "Brass",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "instruments"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Brass",
+          "url": "https://en.wikipedia.org/wiki/Brass",
+          "snippet": "Brass is an alloy of copper and zinc, in proportions which can be varied to achieve different colours and mechanical, electrical, acoustic, and chemical properties, but copper typically has the larger proportion, generally 2⁄3 copper and 1⁄"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:52.529Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Into_the_Woods",
+      "external_id": "music-draft-2026-06-20-010",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Stephen Sondheim musical, which intertwines Brothers Grimm fairy tales around a childless baker and his wife, debuted on Broadway in November 1987 and won Tony Awards for Best Score and Best Book in a season dominated by Andrew Lloyd Webber's longest-running production.",
+      "answer": "Into the Woods",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "broadway",
+        "sondheim"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Into the Woods",
+          "url": "https://en.wikipedia.org/wiki/Into_the_Woods",
+          "snippet": "Into the Woods is a 1986 musical with music and lyrics by Stephen Sondheim and book by James Lapine."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:52.885Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ode_to_Joy",
+      "external_id": "music-draft-2026-06-20-011",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Written by Friedrich Schiller in the summer of 1785 and published in the German magazine Thalia the following year, this poem's melody was adopted without its original text as the Anthem of Europe by the Council of Europe in 1972.",
+      "answer": "Ode to Joy",
+      "aliases": [
+        "An die Freude"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical",
+        "beethoven",
+        "schiller"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ode to Joy",
+          "url": "https://en.wikipedia.org/wiki/Ode_to_Joy",
+          "snippet": "\"Ode to Joy\" is an ode written in the summer of 1785 by the German poet, playwright, and historian Friedrich Schiller. It was published the following year in the German magazine Thalia. In 1808, a slightly revised version changed two lines "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:53.290Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Village_People",
+      "external_id": "music-draft-2026-06-20-012",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Conceived by French producers Jacques Morali and Henri Belolo and named for a Manhattan neighborhood known as a gayborhood, this disco group's biggest hit was described by the Library of Congress in 2020 as 'an American phenomenon' and added to the National Recording Registry.",
+      "answer": "The Village People",
+      "aliases": [
+        "Village People"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music",
+        "disco"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Village People",
+          "url": "https://en.wikipedia.org/wiki/Village_People",
+          "snippet": "Village People is an American disco group known for its on-stage costumes and suggestive lyrics in their music. The group was originally formed by French producers Jacques Morali and Henri Belolo and lead singer Victor Willis following the "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:53.697Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Diana_Ross",
+      "external_id": "music-draft-2026-06-20-013",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The first African American actress nominated for an Academy Award for a debut film performance, this Motown star's 1972 portrayal of a jazz legend yielded the only solo album of her career to reach number one on the U.S. Billboard 200.",
+      "answer": "Diana Ross",
+      "aliases": [
+        "Ross"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music",
+        "motown"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Diana Ross",
+          "url": "https://en.wikipedia.org/wiki/Diana_Ross",
+          "snippet": "Diana Ross is an American singer and actress. She was the lead singer of the vocal group the Supremes, who became Motown's most successful act during the 1960s and one of the world's best-selling girl groups of all time. They remain the bes"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:54.053Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/(Shake%2C_Shake%2C_Shake)_Shake_Your_Booty",
+      "external_id": "music-draft-2026-06-20-014",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The B-side of this 1976 KC and the Sunshine Band chart-topper — their third number-one on both the Billboard Hot 100 and Hot Soul Singles — was \"Boogie Shoes,\" which only became a hit after appearing on a disco film soundtrack the following year.",
+      "answer": "(Shake, Shake, Shake) Shake Your Booty",
+      "aliases": [
+        "Shake Your Booty"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music",
+        "disco"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "(Shake, Shake, Shake) Shake Your Booty",
+          "url": "https://en.wikipedia.org/wiki/(Shake%2C_Shake%2C_Shake)_Shake_Your_Booty",
+          "snippet": "\"(Shake, Shake, Shake) Shake Your Booty\" is a song recorded and released in 1976 by KC and the Sunshine Band for the album Part 3. The song became their third number-one hit on the Billboard Hot 100, as well as their third number-one on the"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:54.409Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Stop_Making_Sense",
+      "external_id": "music-draft-2026-06-20-015",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Film Scores & Soundtracks",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Directed by Jonathan Demme and independently financed for $1.2 million by the four-member band it documents, this 1984 concert film was shot over four nights at Hollywood's Pantages Theatre and is considered a pioneering example of early digital audio techniques in film.",
+      "answer": "Stop Making Sense",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "film-score",
+        "concert-film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Stop Making Sense",
+          "url": "https://en.wikipedia.org/wiki/Stop_Making_Sense",
+          "snippet": "Stop Making Sense is a 1984 American concert film featuring a live performance by the American rock band Talking Heads. The film was directed by Jonathan Demme and executive produced by Gary Kurfirst, the band’s longtime manager. The film w"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T16:37:54.764Z"
+    }
+  ]
+}
