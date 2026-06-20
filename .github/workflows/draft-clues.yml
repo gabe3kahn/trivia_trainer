@@ -193,14 +193,18 @@ jobs:
 
       - name: Draft clues and open a PR (headless Claude Code)
         run: |
-          # --verbose streams every assistant turn + tool result to the log so we can
-          # see WHICH internal step (build-topic-docs fetches, verify-clue-sources, the
-          # import dry-run, or LLM thinking) eats the wall-clock — Actions timestamps
-          # each log line, so elapsed-between-tools is readable in the raw log.
-          cat planning/draft-clues-prompt.md | claude -p --verbose \
+          # Stream the run as NDJSON (--output-format stream-json) through
+          # format-stream.mjs, which prints one timestamped line per tool call / LLM
+          # turn AS IT HAPPENS. Plain --verbose buffers everything into one dump at the
+          # end (we get no live timeline), so stream-json is what makes the wall-clock
+          # readable — which step (build-topic-docs, verify-clue-sources, import, or LLM
+          # thinking) is slow. pipefail so a claude failure still fails the step despite
+          # the pipe into node.
+          set -o pipefail
+          cat planning/draft-clues-prompt.md | claude -p --verbose --output-format stream-json \
             --model claude-sonnet-4-6 \
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep,TodoWrite" \
-            --max-turns 120
+            --max-turns 120 | node tools/acquisition/format-stream.mjs
 
       - name: Attach the refreshed pool to today's draft PR
         if: always()

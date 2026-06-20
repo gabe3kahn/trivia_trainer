@@ -15,7 +15,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createSupabaseRequest, fetchAllSupabaseRows, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
-import { verifyAnswer } from './source-verifier.mjs';
+import { verifyAnswer, wikiTitleFromUrl, wikiTitleKey } from './source-verifier.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const fromDb = Boolean(args['from-db'] ?? args.fromDb);
@@ -62,11 +62,18 @@ const bySource = {}; // source -> {verified,weak,unverified,skipped,total}
 
 console.log(`Verifying ${questions.length} clue(s) from ${sourceLabel} against reputable sources…\n`);
 
+// Pre-fetch every clue's lead intro in BATCHES (20 titles/request, exlimit=max),
+// so the per-clue verifier reads them from this cache instead of making one
+// rate-limited prop=extracts call each. That endpoint 429s hard on shared IPs
+// (e.g. CI), and the per-clue 429-backoff burned ~15s per clue; batching makes
+// it ~ceil(N/20) clean calls. Cache misses still fall back to a live fetch.
+const introCache = await buildIntroCache(questions, fetchJson);
+
 for (let i = 0; i < questions.length; i += 1) {
   const q = questions[i];
   let verdict;
   try {
-    verdict = await verifyAnswer(q, { fetchJson });
+    verdict = await verifyAnswer(q, { fetchJson, introCache });
   } catch (error) {
     verdict = { status: 'unverified', confidence: 0, citations: [], note: `error:${error.message}` };
   }
@@ -167,6 +174,40 @@ function cell(v) {
 
 function pct(n, d) {
   return d ? Math.round((n / d) * 100) : 0;
+}
+
+// Batch-fetch lead intros for every clue's cited page (+ bare answer), 20 titles
+// per request (exlimit=max). Returns Map(wikiTitleKey -> intro). Keyed by the
+// canonical page title the API returns, which is what the per-clue summary.title
+// resolves to — so wikiIntro hits the cache. Skips constructed clues (no lookup).
+async function buildIntroCache(qs, fetchJson) {
+  const titles = new Set();
+  for (const q of qs) {
+    if ((q.mechanic ?? 'standard') !== 'standard') continue;
+    const citedUrl =
+      q.source_url || (q.citations ?? []).find((c) => /wikipedia/i.test(`${c.source ?? ''} ${c.url ?? ''}`))?.url;
+    const pinned = wikiTitleFromUrl(citedUrl);
+    if (pinned) titles.add(pinned);
+    if (q.answer) titles.add(String(q.answer));
+  }
+  const list = [...titles];
+  const cache = new Map();
+  for (let i = 0; i < list.length; i += 20) {
+    const chunk = list.slice(i, i + 20);
+    const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&exlimit=max&redirects=1&titles=${encodeURIComponent(chunk.join('|'))}`;
+    let data = null;
+    try {
+      data = await fetchJson(url);
+    } catch {
+      data = null; // a failed batch just means those clues fall back to live fetches
+    }
+    for (const page of Object.values(data?.query?.pages ?? {})) {
+      if (page.extract) cache.set(wikiTitleKey(page.title), String(page.extract));
+    }
+    if (i + 20 < list.length && delayMs > 0) await wait(delayMs);
+  }
+  console.log(`Pre-fetched ${cache.size} lead intro(s) for ${list.length} candidate title(s) in ${Math.ceil(list.length / 20)} batch call(s).\n`);
+  return cache;
 }
 
 function makeFetchJson() {

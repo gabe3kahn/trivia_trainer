@@ -49,6 +49,12 @@ function norm(value) {
   return tokenize(value).join(' ');
 }
 
+// Stable key for matching a Wikipedia title across calls (handles diacritics,
+// case, underscores). Used to look up pre-batched lead intros in deps.introCache.
+export function wikiTitleKey(value) {
+  return tokenize(value).join(' ');
+}
+
 const CONSTRUCTED_MECHANICS = new Set(['anagram', 'before_after', 'rhyme_time', 'word_ladder', 'starts_with', 'ends_with', 'contains', 'crossword_clue']);
 
 /**
@@ -207,6 +213,10 @@ async function wikiSummary(title, deps) {
 // Full lead intro (all opening paragraphs) — richer than the one-paragraph REST summary,
 // so facts below the fold (etymology, origin legends) can corroborate a clue.
 async function wikiIntro(title, deps) {
+  // Prefer the pre-batched intro (verify-clue-sources fetches them 20/request to
+  // avoid the per-clue rate limit). Only fall back to a live call on a cache miss.
+  const cached = deps.introCache?.get(wikiTitleKey(title));
+  if (cached != null) return cached;
   const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&redirects=1&titles=${encodeURIComponent(String(title).replace(/ /g, '_'))}`;
   const data = await deps.fetchJson(url);
   const pages = data?.query?.pages;
