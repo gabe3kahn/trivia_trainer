@@ -1,0 +1,490 @@
+{
+  "pack_id": "arts-vc-draft-2026-06-20",
+  "category_id": "arts_visual_culture",
+  "created_at": "2026-06-20",
+  "notes": "Run 2026-06-20. Gaps filled: Architecture (Sagrada Família, Parthenon), Art Movements (Baroque), Art Terms & Techniques (Silhouette), Public Art & Monuments (Winged Victory), Museums (Uffizi, Hermitage), Painters (Cézanne, O'Keeffe, Rivera, Gainsborough). Three visual clues. Added first $1000 to this category.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/American_Gothic",
+      "external_id": "arts-vc-draft-2026-06-20-001",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Depicting a Midwestern farmer and his daughter before their Carpenter Gothic–style home in Eldon, Iowa, this 1930 Grant Wood oil painting has become one of the most widely parodied images in American art.",
+      "answer": "American Gothic",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "American Gothic",
+          "url": "https://en.wikipedia.org/wiki/American_Gothic",
+          "snippet": "American Gothic is a 1930 oil painting on beaverboard by the American Regionalist artist Grant Wood, depicting a Midwestern farmer and his daughter standing in front of their Carpenter Gothic style home. It is one of the most famous America"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:56.413Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Baroque",
+      "external_id": "arts-vc-draft-2026-06-20-002",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Flourishing from the early 1600s until the 1750s, this Western artistic style was actively promoted by the Catholic Church as a dramatic counter to the perceived austerity of Protestant art and architecture.",
+      "answer": "Baroque",
+      "aliases": [
+        "Baroque art",
+        "Baroque period"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-movements"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Baroque",
+          "url": "https://en.wikipedia.org/wiki/Baroque",
+          "snippet": "The Baroque is a Western style of architecture, music, dance, painting, sculpture, poetry, and other arts that flourished from the early 1600s until the 1750s. It followed Renaissance art and Mannerism and preceded the Rococo and Neoclassic"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:56.853Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "external_id": "arts-vc-draft-2026-06-20-003",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Antoni Gaudí's unfinished Catholic basilica in Barcelona's Eixample district, begun in 1882 and still under construction, is the tallest church in the world and a UNESCO World Heritage Site.",
+      "answer": "Sagrada Família",
+      "aliases": [
+        "Sagrada Familia",
+        "La Sagrada Família"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sagrada Família",
+          "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+          "snippet": "Basílica i Temple Expiatori de la Sagrada Família, or simply Sagrada Família, is a Catholic church under construction in the Eixample district of Barcelona, Catalonia, Spain. Designed by Catalan architect Antoni Gaudí, it is the tallest chu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:57.292Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Silhouette",
+      "external_id": "arts-vc-draft-2026-06-20-004",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This art form — representing a subject as a solid, featureless black profile against a contrasting background — became popular in the mid-18th century as an affordable alternative to the portrait miniature, with skilled practitioners able to cut a finished example purely by eye in minutes.",
+      "answer": "Silhouette",
+      "aliases": [
+        "silhouette portrait"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Silhouette",
+          "url": "https://en.wikipedia.org/wiki/Silhouette",
+          "snippet": "A silhouette is the image of a person, animal, object or scene represented as a solid shape of a single colour, usually black, with its edges matching the outline of the subject. The interior of a silhouette is featureless, and the silhouet"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:57.745Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Uffizi",
+      "external_id": "arts-vc-draft-2026-06-20-005",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Adjacent to Florence's Piazza della Signoria, this museum holds one of Italy's most important Renaissance collections; when the Medici dynasty died out, the last heiress bequeathed their entire art collection to the city of Florence under a 'family pact.'",
+      "answer": "Uffizi Gallery",
+      "aliases": [
+        "Uffizi",
+        "Galleria degli Uffizi"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "museums"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Uffizi",
+          "url": "https://en.wikipedia.org/wiki/Uffizi",
+          "snippet": "The Uffizi Gallery is a prominent art museum adjacent to the Piazza della Signoria in the Historic Centre of Florence in the region of Tuscany, Italy. One of the most important Italian museums and the most visited, it is also one of the lar"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:58.240Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Georgia_O%27Keeffe",
+      "external_id": "arts-vc-draft-2026-06-20-006",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Called the 'Mother of American modernism,' this painter is best known for large-scale close-up images of flowers and for the desert landscapes she painted around Abiquiú, New Mexico, where she eventually settled permanently.",
+      "answer": "Georgia O'Keeffe",
+      "aliases": [
+        "O'Keeffe",
+        "Georgia O'Keeffe"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Georgia O'Keeffe",
+          "url": "https://en.wikipedia.org/wiki/Georgia_O'Keeffe",
+          "snippet": "Georgia Totto O'Keeffe was an American modernist painter and draftswoman whose career spanned seven decades and whose work remained largely independent of major art movements. Called the \"Mother of American modernism\", O'Keeffe gained inter"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:58.674Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Scream",
+      "external_id": "arts-vc-draft-2026-06-20-007",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Norwegian artist Edvard Munch created four versions of this 1893 composition, each depicting a figure with an agonized face against a turbulent orange sky; Munch's diary records his feeling of 'an infinite scream passing through nature.'",
+      "answer": "The Scream",
+      "aliases": [
+        "Skrik"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Scream",
+          "url": "https://en.wikipedia.org/wiki/The_Scream",
+          "snippet": "The Scream is an art composition created by Norwegian artist Edvard Munch in 1893. The Norwegian name of the piece is Skrik ('Scream'), and the German title under which it was first exhibited is Der Schrei der Natur. The agonized face in th"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:59.113Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+      "external_id": "arts-vc-draft-2026-06-20-008",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Public Art & Monuments",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This circa 190 BC Hellenistic marble statue of the goddess Nike, mounted on a base shaped like a ship's prow, has stood at the top of a grand Parisian staircase since 1884; its head and arms are missing.",
+      "answer": "Winged Victory of Samothrace",
+      "aliases": [
+        "Nike of Samothrace",
+        "Winged Victory"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "public-art"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Winged Victory of Samothrace",
+          "url": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+          "snippet": "The Winged Victory of Samothrace, or the Nike of Samothrace, is a votive monument originally discovered on the island of Samothrace in the northeastern Aegean Sea. It is a masterpiece of Greek sculpture from the Hellenistic era, dating from"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:59.554Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hermitage_Museum",
+      "external_id": "arts-vc-draft-2026-06-20-009",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded in 1764 when Empress Catherine the Great purchased a Berlin merchant's collection of Dutch and Flemish paintings, this Saint Petersburg institution holds the largest collection of paintings in the world.",
+      "answer": "Hermitage Museum",
+      "aliases": [
+        "State Hermitage Museum",
+        "Hermitage"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "museums"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hermitage Museum",
+          "url": "https://en.wikipedia.org/wiki/Hermitage_Museum",
+          "snippet": "The State Hermitage Museum is a museum of art and culture in Saint Petersburg, Russia, and holds the largest collection of paintings in the world. It was founded in 1764 when Empress Catherine the Great acquired a collection of paintings fr"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:08:59.993Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne",
+      "external_id": "arts-vc-draft-2026-06-20-010",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Both Henri Matisse and Pablo Picasso are said to have called this French Post-Impressionist painter 'the father of us all'; his geometric studies of Mont Sainte-Victoire near his hometown of Aix-en-Provence bridged 19th-century Impressionism and 20th-century Cubism.",
+      "answer": "Paul Cézanne",
+      "aliases": [
+        "Cézanne",
+        "Cezanne",
+        "Paul Cezanne"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Paul Cézanne",
+          "url": "https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne",
+          "snippet": "Paul Cézanne was a French Post-Impressionist painter whose work introduced new modes of representation, influenced avant-garde artistic movements of the early 20th century and formed the bridge between late 19th-century Impressionism and ea"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:09:00.437Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Diego_Rivera",
+      "external_id": "arts-vc-draft-2026-06-20-011",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Between 1922 and 1953, this Mexican painter covered walls in Mexico City, San Francisco, Detroit, and New York with large frescoes, helping establish the mural movement in Mexican and international art; his third wife was fellow Mexican artist Frida Kahlo.",
+      "answer": "Diego Rivera",
+      "aliases": [
+        "Rivera"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Diego Rivera",
+          "url": "https://en.wikipedia.org/wiki/Diego_Rivera",
+          "snippet": "Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez was a Mexican painter. His large frescoes helped establish the mural movement in Mexican and international art."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:09:00.883Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Parthenon",
+      "external_id": "arts-vc-draft-2026-06-20-012",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "During the 1687 siege of the Acropolis, Venetian artillery struck the building the Ottomans had converted into a gunpowder magazine, triggering an explosion that split the central colonnade and severely damaged a structure that had stood for over 2,000 years.",
+      "answer": "Parthenon",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Parthenon",
+          "url": "https://en.wikipedia.org/wiki/Parthenon",
+          "snippet": "The Parthenon is a former temple on the Athenian Acropolis, Greece, that was dedicated to the goddess Athena. Its decorative sculptures are considered some of the high points of classical Greek art, and the Parthenon is considered an enduri"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:09:01.329Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Impression%2C_Sunrise",
+      "external_id": "arts-vc-draft-2026-06-20-013",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "Impression, Sunrise",
+      "aliases": [
+        "Impression: Sunrise",
+        "Impression au soleil levant"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Impression, Sunrise",
+          "url": "https://en.wikipedia.org/wiki/Impression%2C_Sunrise",
+          "snippet": "Impression, Sunrise is an 1872 painting by Claude Monet first shown at what would become known as the \"Exhibition of the Impressionists\" in Paris in April, 1874. The painting is credited with inspiring the name of the Impressionist movement"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/3840px-Monet_-_Impression%2C_Sunrise.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "Impression, Sunrise — Claude Monet",
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:09:01.770Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Las_Meninas",
+      "external_id": "arts-vc-draft-2026-06-20-014",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "Las Meninas",
+      "aliases": [
+        "Las Meninas (Velázquez)"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Las Meninas",
+          "url": "https://en.wikipedia.org/wiki/Las_Meninas",
+          "snippet": "Las Meninas is a 1656 painting in the Museo del Prado in Madrid, by Diego Velázquez, the leading artist in the court of King Philip IV of Spain and Portugal, and of the Spanish Golden Age. It has become one of the most widely analyzed works"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/3840px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "Las Meninas — Diego Velázquez",
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:09:02.214Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Blue_Boy",
+      "external_id": "arts-vc-draft-2026-06-20-015",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name the artist.",
+      "answer": "Thomas Gainsborough",
+      "aliases": [
+        "Gainsborough"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Blue Boy",
+          "url": "https://en.wikipedia.org/wiki/The_Blue_Boy",
+          "snippet": "The Blue Boy is a full-length oil on canvas portrait in oil by English artist Thomas Gainsborough, from c. 1770. It is owned by The Huntington, in San Marino, California. Although both it and its creator are well known, the subject's identi"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/The_Blue_Boy.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Blue Boy — Thomas Gainsborough",
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:09:02.654Z"
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "pack_id": "science-draft-2026-06-20",
+  "category_id": "science",
+  "created_at": "2026-06-20",
+  "notes": "Run 2026-06-20. Gaps filled: Physics (Standing wave — first entry), Scientists (Marie Curie — first entry), Units/Laws/Constants (Volt), Earth Science, Astronomy, Biology, Chemistry. Own $800 (Deuterium) and $1000 (Francium).",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jupiter",
+      "external_id": "sci-draft-2026-06-20-001",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The fifth planet from the Sun, this gas giant has a mass nearly 2.5 times that of all the other planets in the Solar System combined, making it by far the largest.",
+      "answer": "Jupiter",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jupiter",
+          "url": "https://en.wikipedia.org/wiki/Jupiter",
+          "snippet": "Jupiter is the fifth planet from the Sun, and the largest in the Solar System. It is a gas giant with a mass nearly 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the S"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:09:03.145Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sodium",
+      "external_id": "sci-draft-2026-06-20-002",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Its chemical symbol Na derives from the Neo-Latin word 'natrium,' though this silvery-white, highly reactive alkali metal — the sixth most abundant element in Earth's crust — is more commonly known as one of the two components of table salt.",
+      "answer": "Sodium",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sodium",
+          "url": "https://en.wikipedia.org/wiki/Sodium",
+          "snippet": "Sodium is a chemical element; it has symbol Na and atomic number 11. It is a soft, silvery-white, highly reactive metal. Sodium is an alkali metal, being in group 1 of the periodic table. Its only stable isotope is 23Na. The free metal does"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:09:03.641Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Volt",
+      "external_id": "sci-draft-2026-06-20-003",
+      "category_id": "science",
+      "subcategory_name": "Units, Laws & Constants",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named after the Italian physicist who invented the electric battery, this SI unit is the standard measure of electric potential — the number you read on the side of a household battery.",
+      "answer": "Volt",
+      "aliases": [
+        "Volts"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "units"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Volt",
+          "url": "https://en.wikipedia.org/wiki/Volt",
+          "snippet": "The volt, named after Alessandro Volta, is the unit of measurement of electric potential, electric potential difference (voltage), and electromotive force in the International System of Units (SI)."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-20T00:10:00.261Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Seismic_wave",
+      "external_id": "sci-draft-2026-06-20-004",
+      "category_id": "science",
+      "subcategory_name": "Earth Science",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Earthquakes, volcanic eruptions, and large underground explosions all generate this type of mechanical disturbance that propagates through the Earth, allowing geologists to map the planet's interior layers.",
+      "answer": "Seismic wave",
+      "aliases": [
+        "Seismic waves"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "earth-science"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Seismic wave",
+          "url": "https://en.wikipedia.org/wiki/Seismic_wave",
+          "snippet": "A seismic wave is a mechanical wave of acoustic energy that travels through the Earth or another planetary body. It can result from an earthquake, volcanic eruption, magma movement, a large landslide, and a large man-made explosion that pro"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:10:00.789Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "external_id": "sci-draft-2026-06-20-005",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Sexually dimorphic with females considerably larger than males, this large crow-sized raptor with a blue-grey back and distinctive black head was historically known as the 'duck hawk' in North America.",
+      "answer": "Peregrine falcon",
+      "aliases": [
+        "Peregrine"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "animals-plants"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Peregrine falcon",
+          "url": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+          "snippet": "The peregrine falcon, also referred to simply as the peregrine, is a bird of prey (raptor) in the family Falconidae known for its speed. A large, crow-sized falcon, it has a blue-grey back, barred white underparts and a black head. As is ty"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:10:01.246Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Liver",
+      "external_id": "sci-draft-2026-06-20-006",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Located in the right upper quadrant of the human abdomen below the diaphragm, this major metabolic organ — found only in vertebrates — is responsible for detoxification and the synthesis of proteins and digestive biochemicals.",
+      "answer": "Liver",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Liver",
+          "url": "https://en.wikipedia.org/wiki/Liver",
+          "snippet": "The liver is a major metabolic organ exclusively found in vertebrates, which performs many essential biological functions such as detoxification of the organism, and the synthesis of various proteins and various other biochemicals necessary"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:10:01.681Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jet_lag",
+      "external_id": "sci-draft-2026-06-20-007",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This temporary physiological condition arises when a traveler crosses several time zones rapidly, leaving the body's internal clock out of sync with local time — as when a New York–to–London passenger finds it feels five hours earlier than it actually is.",
+      "answer": "Jet lag",
+      "aliases": [
+        "Jet-lag",
+        "Jetlag"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jet lag",
+          "url": "https://en.wikipedia.org/wiki/Jet_lag",
+          "snippet": "Jet lag is a temporary physiological condition that occurs when a person's circadian rhythm is out of sync with the time zone they are in, and is a typical result from travelling rapidly across multiple time zones. For example, someone trav"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:10:02.195Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
+      "external_id": "sci-draft-2026-06-20-008",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Straddling the equator roughly 900 km west of Ecuador's coast, this volcanic Pacific archipelago harbors species found nowhere else on Earth; a young English naturalist who visited in the 1830s would use his observations here to help build a foundational theory of biology.",
+      "answer": "Galápagos Islands",
+      "aliases": [
+        "Galapagos Islands",
+        "Galápagos",
+        "Galapagos"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "animals-plants"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Galápagos Islands",
+          "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
+          "snippet": "The Galápagos Islands are an archipelago of volcanic islands in the Eastern Pacific, located around the equator, 485 nautical miles west of the mainland of South America. They form the Galápagos Province of the Republic of Ecuador, with a p"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:10:02.638Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Marie_Curie",
+      "external_id": "sci-draft-2026-06-20-009",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The first person to win Nobel Prizes in two different scientific fields, this Polish-French physicist and chemist received the 1903 Physics prize for work on radioactivity and the 1911 Chemistry prize for discovering radium and polonium.",
+      "answer": "Marie Curie",
+      "aliases": [
+        "Curie",
+        "Maria Skłodowska-Curie"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "scientists"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Marie Curie",
+          "url": "https://en.wikipedia.org/wiki/Marie_Curie",
+          "snippet": "Maria Salomea Skłodowska Curie, better known as Marie Curie, was a Polish and naturalised-French physicist and chemist. She shared the 1903 Nobel Prize in Physics with her husband, Pierre Curie, \"for their joint researches on the radioactiv"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:10:03.085Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Serotonin",
+      "external_id": "sci-draft-2026-06-20-010",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Although best known for regulating mood and sleep in the brain, roughly 90 percent of this monoamine neurotransmitter is actually synthesized in the gastrointestinal tract by enterochromaffin cells.",
+      "answer": "Serotonin",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Serotonin",
+          "url": "https://en.wikipedia.org/wiki/Serotonin",
+          "snippet": "Serotonin, also known as 5-hydroxytryptamine (5-HT), is a monoamine neurotransmitter with a wide range of functions in both the central nervous system (CNS) and also peripheral tissues. It is involved in mood, cognition, reward, learning, m"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:11:00.650Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Stem_cell",
+      "external_id": "sci-draft-2026-06-20-011",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Unlike progenitor cells, which cannot divide indefinitely, these undifferentiated cells found in both embryonic and adult organisms can proliferate without limit and differentiate into multiple specialized cell types.",
+      "answer": "Stem cells",
+      "aliases": [
+        "Stem cell"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Stem cell",
+          "url": "https://en.wikipedia.org/wiki/Stem_cell",
+          "snippet": "In multicellular organisms, stem cells are undifferentiated or partially differentiated cells that can change into various types of cells and proliferate indefinitely to produce more of the same stem cell. They are the earliest type of cell"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:11:01.189Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "external_id": "sci-draft-2026-06-20-012",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Standing about 21 kilometers above its surroundings — roughly 2.5 times the height of Everest — this shield volcano on the fourth planet from the Sun is the tallest mountain yet confirmed anywhere in the Solar System.",
+      "answer": "Olympus Mons",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Olympus Mons",
+          "url": "https://en.wikipedia.org/wiki/Olympus_Mons",
+          "snippet": "Olympus Mons is a large shield volcano on Mars. As measured by the Mars Orbiter Laser Altimeter (MOLA), it is 21.287 kilometres (69,840 ft) high, about 2.5 times the elevation of Mount Everest above sea level. It is Mars's tallest volcano, "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:11:01.639Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wave",
+      "external_id": "sci-draft-2026-06-20-013",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When two identical periodic waves traveling in opposite directions are superimposed, they produce this stationary interference pattern, which exhibits fixed positions of zero amplitude called nodes.",
+      "answer": "Standing wave",
+      "aliases": [
+        "Standing waves"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wave",
+          "url": "https://en.wikipedia.org/wiki/Wave",
+          "snippet": "In mathematics and physical science, a wave is a propagating dynamic disturbance of one or more quantities. Periodic waves oscillate repeatedly about an equilibrium (resting) value at some frequency. When the entire waveform moves in one di"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:11:02.154Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Deuterium",
+      "external_id": "sci-draft-2026-06-20-014",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "American chemist Harold Urey won the 1934 Nobel Prize for isolating this stable isotope of hydrogen, whose nucleus contains one proton and one neutron rather than the single proton found in ordinary hydrogen.",
+      "answer": "Deuterium",
+      "aliases": [
+        "hydrogen-2",
+        "heavy hydrogen"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Deuterium",
+          "url": "https://en.wikipedia.org/wiki/Deuterium",
+          "snippet": "Deuterium is one of two stable isotopes of hydrogen; the other is protium, or hydrogen-1, 1H. The deuterium nucleus (deuteron) contains one proton and one neutron, whereas the far more common 1H has no neutrons."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:11:02.683Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Francium",
+      "external_id": "sci-draft-2026-06-20-015",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The second-rarest naturally occurring element on Earth, this extremely radioactive alkali metal has atomic number 87 and a most stable isotope whose half-life is just 22 minutes before it decays into astatine, radium, or radon.",
+      "answer": "Francium",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Francium",
+          "url": "https://en.wikipedia.org/wiki/Francium",
+          "snippet": "Francium is a chemical element; it has symbol Fr and atomic number 87. It is extremely radioactive; its most stable isotope, francium-223, has a half-life of only 22 minutes. It is the second-most electropositive element, behind only caesiu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T00:11:03.172Z"
+    }
+  ]
+}
