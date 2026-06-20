@@ -1,7 +1,7 @@
 import { Platform, type TextStyle } from 'react-native';
 
 /**
- * Design tokens for Trivia Trainer.
+ * Design tokens for TriviO.
  *
  * Principles after the redesign:
  * - One brand accent (gold). Teal/green/red/blue/purple are reserved for

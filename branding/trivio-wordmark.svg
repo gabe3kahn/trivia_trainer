@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" role="img" aria-label="TriviO">
+  <style>.wm{font-family:Poppins,Montserrat,"Segoe UI",system-ui,sans-serif;font-weight:800;}</style>
+  <!-- "Trivi" wordmark in ink white (for DARK backgrounds) -->
+  <text x="24" y="138" class="wm" font-size="150" fill="#F4F6FB" letter-spacing="-5">Trivi</text>
+  <!-- final "O" rendered as the gold target mark -->
+  <circle cx="430" cy="90" r="60" fill="none" stroke="#F2B84B" stroke-width="20"/>
+  <circle cx="430" cy="90" r="14" fill="#F2B84B"/>
+</svg>
