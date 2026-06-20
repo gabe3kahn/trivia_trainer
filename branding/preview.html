@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TriviO — logo mockup</title>
+<style>
+  :root{ --navy:#0B0B14; --surface:#1A1B2B; --gold:#F2B84B; --ink:#F4F6FB; --muted:#9AA0B4; --board:#0E1B6B; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--navy);color:var(--ink);font-family:Poppins,Montserrat,"Segoe UI",system-ui,sans-serif;padding:40px;line-height:1.5}
+  h1{font-weight:800;letter-spacing:-1px;margin:0 0 4px}
+  .sub{color:var(--muted);margin:0 0 32px}
+  .grid{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+  .card{background:var(--surface);border:1px solid #34374F;border-radius:20px;padding:28px;min-width:300px}
+  .card.light{background:#F4F6FB}
+  .label{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px}
+  .card.light .label{color:#5A6076}
+  /* App icon previews (CSS rounds corners for display; the PNG itself stays square) */
+  .icons{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+  .icon{border-radius:22%;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+  .i180{width:180px;height:180px}
+  .i120{width:120px;height:120px}
+  .i80{width:80px;height:80px}
+  .i48{width:48px;height:48px}
+  .wm{width:360px;max-width:100%}
+  .wm.small{width:200px}
+  /* a faux home-screen tile */
+  .home{display:inline-flex;flex-direction:column;align-items:center;gap:8px;width:120px}
+  .home .name{font-size:15px;font-weight:600}
+</style>
+</head>
+<body>
+  <h1>TriviO</h1>
+  <p class="sub">Logo concept — gold "target" O on dark navy. Matches the in-app palette (navy #0B0B14 · gold accent #F2B84B).</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="label">App icon</div>
+      <div class="icons">
+        <img class="icon i180" src="trivio-icon.svg" alt="icon 180"/>
+        <img class="icon i120" src="trivio-icon.svg" alt="icon 120"/>
+        <img class="icon i80" src="trivio-icon.svg" alt="icon 80"/>
+        <img class="icon i48" src="trivio-icon.svg" alt="icon 48"/>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="label">Home-screen tile</div>
+      <div class="home">
+        <img class="icon i120" src="trivio-icon.svg" alt="tile"/>
+        <span class="name">TriviO</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid" style="margin-top:32px">
+    <div class="card">
+      <div class="label">Wordmark on dark</div>
+      <img class="wm" src="trivio-wordmark.svg" alt="TriviO wordmark dark"/>
+    </div>
+    <div class="card light">
+      <div class="label">Wordmark on light</div>
+      <img class="wm" src="trivio-wordmark-light.svg" alt="TriviO wordmark light"/>
+    </div>
+  </div>
+
+  <p class="sub" style="margin-top:36px;max-width:640px">
+    Notes: the O reads as a bullseye/answer-mark — "get it right." The same gold ring is the standalone app icon.
+    If you like it, next step is rendering production PNGs (icon 1024², splash, adaptive Android foreground) and dropping them into <code>mobile/assets/images/</code>.
+  </p>
+</body>
+</html>

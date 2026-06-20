@@ -5,6 +5,7 @@ import { ActivityIndicator, Alert, KeyboardAvoidingView, Platform, Pressable, St
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { useAuth } from '@/src/contexts/AuthContext';
+import { APP_NAME } from '@/src/constants/app';
 import { supabase } from '@/src/services/supabase';
 import { colors } from '@/src/theme';
 
@@ -52,7 +53,7 @@ export default function AuthScreen() {
     <SafeAreaView style={styles.safeArea}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.kicker}>Trivia Trainer</Text>
+          <Text style={styles.kicker}>{APP_NAME}</Text>
           <Text style={styles.title}>{mode === 'sign-in' ? 'Welcome back' : 'Create account'}</Text>
           <Text style={styles.subtitle}>Sign in to save attempts, competency scores, review queue, and badges.</Text>
         </View>

@@ -3,6 +3,7 @@ import { useCallback, useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { Avatar, Card, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
+import { APP_NAME } from '@/src/constants/app';
 import type { CategoryScore } from '@/src/data/mockData';
 import { fetchCategories, fetchHomeCompetencies } from '@/src/services/triviaApi';
 import { colors, scoreColor, spacing, type } from '@/src/theme';
@@ -95,7 +96,7 @@ export default function HomeScreen() {
 
   return (
     <Screen>
-      <Header kicker="Trivia Trainer" title="Home" right={<Avatar />} />
+      <Header kicker={APP_NAME} title="Home" right={<Avatar />} />
 
       <Card style={styles.hero}>
         <ScoreRing display={overall} progress={overall / 100} tone={scoreColor(overall)} label="overall" />
