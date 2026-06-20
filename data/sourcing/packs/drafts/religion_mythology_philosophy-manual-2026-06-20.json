@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-06-20T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "religion_mythology_philosophy",
+  "notes": [
+    "Manual addition (Gabe-requested) 2026-06-20: a $1000 Roman-mythology deep cut — the Roman counterpart of Nike. The Greek name is globally famous (sportswear), but the Roman name (Victoria) is far more familiar as a personal name than as a deity. Grounded in the Victoria (mythology) Wikipedia lead."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Victoria_(mythology)",
+      "external_id": "myth-manual-2026-06-20-001",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First appearing during the First Punic War as a Roman renaming of the Greek goddess Nike, this deified personification of triumph had — unlike her Greek counterpart — virtually no mythology of her own; her name is now far better known as a given name, a long-reigning British queen, and a Canadian provincial capital.",
+      "answer": "Victoria",
+      "aliases": [
+        "Victoria (mythology)",
+        "Victoria the goddess"
+      ],
+      "tags": [
+        "manual",
+        "sourced",
+        "roman-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Victoria (mythology)",
+          "url": "https://en.wikipedia.org/wiki/Victoria_(mythology)",
+          "snippet": "In ancient Roman religion Victoria was the deified personification of victory. She first appeared during the first Punic War, seemingly as a Romanised re-naming of Nike, the goddess of victory associated with Rome's Greek allies in the Gree"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-20T02:09:21.047Z"
+    }
+  ]
+}
