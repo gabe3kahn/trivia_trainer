@@ -1,0 +1,203 @@
+{
+  "pack_id": "wordplay-2026-06-20",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-20",
+  "notes": "Run 2026-06-20. Mechanics: Before & After (5) + Homophones & Soundalikes (5). Before & After not used since June 18; Homophones rotate fresh pairs. All pairs new — none overlap prior packs.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-ba-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The bedside comfort that keeps small children from bumping into walls in the dark contains the revolutionary invention that ended the age of gas lamps.",
+      "answer": "Night Light Bulb",
+      "aliases": [],
+      "wp": {
+        "first": "Night Light",
+        "second": "Light Bulb"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-ba-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The tangy dairy condiment beloved in Central European cooking fills a delicate, hollow French pastry whose name promises something rich inside.",
+      "answer": "Sour Cream Puff",
+      "aliases": [],
+      "wp": {
+        "first": "Sour Cream",
+        "second": "Cream Puff"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-ba-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The electricity-generating facility anchoring an industrial district produces the fertilizer that makes your vegetable patch thrive.",
+      "answer": "Power Plant Food",
+      "aliases": [],
+      "wp": {
+        "first": "Power Plant",
+        "second": "Plant Food"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-ba-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The card shark's studied expressionless stare is improved by a cosmetic procedure that tightens sagging skin around the jawline.",
+      "answer": "Poker Face Lift",
+      "aliases": [],
+      "wp": {
+        "first": "Poker Face",
+        "second": "Face Lift"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-ba-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The crushed core of a collapsed star sucks in a golfer's greatest tee shot.",
+      "answer": "Black Hole in One",
+      "aliases": [],
+      "wp": {
+        "first": "Black Hole",
+        "second": "Hole in One"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-hom-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
+      "clue": "A vampire hunter drives a wooden stake through the heart of a monster and enjoys a prime cut for dinner.",
+      "answer": "Steak",
+      "aliases": [],
+      "wp": {
+        "homophone": "stake"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-hom-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "homophone",
+      "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
+      "clue": "The barber washes and trims the hair of an overconfident racer while his slow and steady competitor trods on by.",
+      "answer": "Hare",
+      "aliases": [],
+      "wp": {
+        "homophone": "hair"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-hom-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
+      "clue": "After spending a week bedridden with the flu, the recovering patient could barely lift his arm.",
+      "answer": "Weak",
+      "aliases": [],
+      "wp": {
+        "homophone": "week"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-hom-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "homophone",
+      "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
+      "clue": "The bristly wild boar rooting through the oak-forest undergrowth stuck its tusk in the trunk of a large tree.",
+      "answer": "Bore",
+      "aliases": [],
+      "wp": {
+        "homophone": "boar"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-20-hom-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "homophone",
+      "constraint_text": "The answer sounds like a word in this clue but is spelled differently.",
+      "clue": "A pirate pockets the loot from a captured merchant vessel before serenading the crew with his prized instrument.",
+      "answer": "Lute",
+      "aliases": [],
+      "wp": {
+        "homophone": "loot"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
