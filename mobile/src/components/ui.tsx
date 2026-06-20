@@ -69,11 +69,15 @@ export function Screen({ children, contentStyle }: PropsWithChildren<{ contentSt
   );
 }
 
-export function Header({ kicker, title, right }: { kicker: string; title: string; right?: ReactNode }) {
+export function Header({ kicker, title, right, logo }: { kicker?: string; title: string; right?: ReactNode; logo?: boolean }) {
   return (
     <View style={styles.header}>
       <View style={styles.headerText}>
-        <Text style={styles.kicker}>{kicker}</Text>
+        {logo ? (
+          <Image source={require('../../assets/images/wordmark.png')} style={styles.headerLogo} resizeMode="contain" />
+        ) : kicker ? (
+          <Text style={styles.kicker}>{kicker}</Text>
+        ) : null}
         <Text style={styles.title}>{title}</Text>
       </View>
       {right}
@@ -520,6 +524,11 @@ const styles = StyleSheet.create({
   kicker: {
     ...type.overline,
     color: colors.gold,
+  },
+  headerLogo: {
+    height: 34,
+    aspectRatio: 2.5,
+    marginBottom: 2,
   },
   title: {
     ...type.display,
