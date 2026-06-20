@@ -526,8 +526,8 @@ const styles = StyleSheet.create({
     color: colors.gold,
   },
   headerLogo: {
-    height: 34,
-    aspectRatio: 2.5,
+    height: 28,
+    aspectRatio: 3.17,
     marginBottom: 2,
   },
   title: {

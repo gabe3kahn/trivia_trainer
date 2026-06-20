@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import * as Linking from 'expo-linking';
 import { Redirect } from 'expo-router';
-import { ActivityIndicator, Alert, KeyboardAvoidingView, Platform, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Alert, Image, KeyboardAvoidingView, Platform, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { useAuth } from '@/src/contexts/AuthContext';
-import { APP_NAME } from '@/src/constants/app';
 import { supabase } from '@/src/services/supabase';
 import { colors } from '@/src/theme';
 
@@ -70,7 +69,7 @@ export default function AuthScreen() {
     <SafeAreaView style={styles.safeArea}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.kicker}>{APP_NAME}</Text>
+          <Image source={require('../assets/images/wordmark.png')} style={styles.logo} resizeMode="contain" />
           <Text style={styles.title}>{mode === 'sign-in' ? 'Welcome back' : 'Create account'}</Text>
           <Text style={styles.subtitle}>Sign in to save attempts, competency scores, review queue, and badges.</Text>
         </View>
@@ -128,12 +127,11 @@ const styles = StyleSheet.create({
   header: {
     gap: 8,
   },
-  kicker: {
-    color: colors.gold,
-    fontSize: 12,
-    fontWeight: '900',
-    letterSpacing: 1.4,
-    textTransform: 'uppercase',
+  logo: {
+    height: 40,
+    aspectRatio: 3.17,
+    alignSelf: 'flex-start',
+    marginBottom: 4,
   },
   title: {
     color: colors.ink,
