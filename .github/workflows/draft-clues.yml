@@ -116,10 +116,9 @@ jobs:
           # The branch name is the run's identity. SCHEDULED runs use the plain UTC
           # date so the `guard` job collapses the 4 redundant cron slots into exactly
           # ONE draft/day. FORCED (manual, force=true) runs get a unique -r<run_id>
-          # suffix so a re-run never collides with an existing same-date PR. Exported
-          # to $GITHUB_ENV so the Draft step (the agent reads it) and the Attach step
-          # share ONE name. Empty $DRAFT_BRANCH (e.g. a local run) → agent falls back
-          # to the dated name itself.
+          # suffix so a re-run never collides with an existing same-date PR. The next
+          # step creates this branch (workflow-owned), so the name can't drift no matter
+          # what the agent does — keeping the guard dedup + PR contents deterministic.
           date="$(date -u +%F)"
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
             branch="draft-clues/daily-${date}-r${{ github.run_id }}"
@@ -140,14 +139,23 @@ jobs:
             exit 1
           fi
 
+      - name: Create the draft branch (workflow-owned)
+        run: |
+          # The WORKFLOW owns the branch so the name can't drift: branch off main here,
+          # commit the harvest onto it next, and the agent just commits its packs to THIS
+          # branch (no checkout/branch in the prompt). Deterministic name = working guard
+          # dedup + the harvested pool always rides in the PR.
+          git checkout -b "$DRAFT_BRANCH"
+
       - name: Harvest fresh Jeopardy topics + keyword them
         run: |
           node tools/acquisition/jarchive-daily-harvest.mjs --perRun 8
           node tools/acquisition/keyword-topics.mjs
-          # Set the pool/cursor aside so the drafter's own git ops run on a clean tree;
-          # the next step re-applies + commits them onto the draft branch (so they ride
-          # in the reviewed PR rather than a blocked direct push to protected main).
-          git stash push -- data/sourcing/topics/pool.json data/sourcing/harvest-state.json || true
+          # Commit the refreshed pool + cursor straight onto the draft branch so they ride
+          # in the reviewed PR (the bot can't push to protected main directly). No-op if
+          # the harvest found nothing new.
+          git add data/sourcing/topics/pool.json data/sourcing/harvest-state.json
+          git commit -m "chore(harvest): refresh topic pool + cursor for $(date -u +%F)" || echo "No harvest changes to commit this run."
 
       # DIAGNOSTIC: the draft step has been running ~50+ min on hosted runners vs
       # ~20-30 min locally. Prime suspect is Wikipedia rate-limiting the shared Actions
@@ -205,18 +213,3 @@ jobs:
             --model claude-sonnet-4-6 \
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep,TodoWrite" \
             --max-turns 120 | node tools/acquisition/format-stream.mjs
-
-      - name: Attach the refreshed pool to today's draft PR
-        if: always()
-        run: |
-          branch="$DRAFT_BRANCH" # same name the compute step set and the agent branched with
-          if git rev-parse --verify --quiet "$branch" >/dev/null && git stash list | grep -q .; then
-            git checkout "$branch"
-            git stash pop
-            git add data/sourcing/topics/pool.json data/sourcing/harvest-state.json
-            git commit -m "chore(harvest): refresh topic pool + cursor for $(date -u +%F)"
-            git push origin "$branch"
-            echo "Pool + cursor attached to $branch (rides in the draft PR)."
-          else
-            echo "No draft branch or nothing stashed — harvest increment not kept this run (cursor on main is unchanged, so it re-harvests next time)."
-          fi
