@@ -48,6 +48,23 @@ export default function AuthScreen() {
     }
   }
 
+  async function forgotPassword() {
+    if (!email.trim()) {
+      Alert.alert('Enter your email', 'Type your account email above first, then tap “Forgot password?”.');
+      return;
+    }
+    setLoading(true);
+    const { error } = await supabase.auth.resetPasswordForEmail(email.trim(), {
+      redirectTo: Linking.createURL('reset-password'),
+    });
+    setLoading(false);
+    if (error) {
+      Alert.alert('Could not send reset email', error.message);
+      return;
+    }
+    Alert.alert('Check your email', 'We sent a link to reset your password. Open it on this device.');
+  }
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={styles.container}>
@@ -79,6 +96,11 @@ export default function AuthScreen() {
           <Pressable style={styles.primaryButton} onPress={submit} disabled={loading}>
             {loading ? <ActivityIndicator color={colors.background} /> : <Text style={styles.primaryText}>{mode === 'sign-in' ? 'Sign In' : 'Sign Up'}</Text>}
           </Pressable>
+          {mode === 'sign-in' ? (
+            <Pressable onPress={forgotPassword} disabled={loading} style={styles.forgotButton}>
+              <Text style={styles.forgotText}>Forgot password?</Text>
+            </Pressable>
+          ) : null}
         </View>
 
         <Pressable onPress={() => setMode(mode === 'sign-in' ? 'sign-up' : 'sign-in')} style={styles.switchButton}>
@@ -148,6 +170,15 @@ const styles = StyleSheet.create({
     color: colors.background,
     fontSize: 15,
     fontWeight: '900',
+  },
+  forgotButton: {
+    alignItems: 'center',
+    paddingVertical: 4,
+  },
+  forgotText: {
+    color: colors.muted,
+    fontSize: 13,
+    fontWeight: '800',
   },
   switchButton: {
     alignItems: 'center',
