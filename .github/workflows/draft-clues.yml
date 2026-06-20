@@ -1,25 +1,20 @@
-name: Draft clues (scheduled)
+name: Draft clues (daily)
 
 # Cloud version of the local "TriviaTrainer-DraftClues" Windows task — so both
-# harvesting AND drafting run in the cloud, not on a laptop. On a daily cron it:
-#   1. harvests a few fresh J! Archive games into the flat topic pool + keywords them,
+# harvesting AND drafting run in the cloud, not on a laptop. Each run:
+#   1. harvests a few fresh J! Archive games into the flat topic pool + keywords them
+#      (committed straight onto the run's branch),
 #   2. drafts ~15 source-grounded clues for two under-covered categories (pulling docs
-#      from the keyword pool) and opens ONE PR,
-#   3. attaches the refreshed pool.json + harvest-state to that same PR — so the pool
-#      accumulates via the REVIEWED merge (the bot can't push to protected main directly).
+#      from the keyword pool) and opens ONE PR — pool + clues ride in that PR.
 # It NEVER imports live and NEVER merges; going live happens only when a human merges the
 # PR (which also lands the pool update), via the existing import-on-merge.yml workflow.
 #
-# RELIABILITY: GitHub scheduled runs are best-effort — under load they can be delayed
-# or dropped outright, even off the top of the hour. For a once-daily job that risks a
-# missed day, so we fire FOUR times across the morning and make the job idempotent: a
-# cheap `guard` job checks whether today's draft branch (draft-clues/daily-<UTC date>)
-# already exists and, if so, skips. Net effect: up to 4 attempts, but it drafts exactly
-# once per day. (Scheduled workflows also auto-disable after 60 days of zero repo
-# activity — not a risk here since merged draft PRs keep the repo active.)
-# FORCED runs (workflow_dispatch with force=true) bypass the guard AND get a unique
-# branch suffix (-r<run_id>, see "Compute the draft branch name"), so a manual re-run
-# never collides with an existing same-date PR; only scheduled runs use the bare date.
+# TRIGGER: fired daily by an EXTERNAL scheduler (cron-job.org) hitting this workflow's
+# workflow_dispatch endpoint. GitHub's own `schedule:` cron proved too unreliable —
+# it silently dropped runs — so it was removed. The `guard` job still dedups: it skips
+# if today's branch (draft-clues/daily-<UTC date>) already exists, so an accidental
+# double dispatch can't double-draft. FORCED dispatches (force=true) bypass the guard
+# AND get a unique -r<run_id> branch suffix, so a manual re-run never collides.
 #
 # Required repository secret (Settings → Secrets and variables → Actions):
 #   CLAUDE_CODE_OAUTH_TOKEN  – generate locally with `claude setup-token`. Uses your
@@ -32,16 +27,8 @@ name: Draft clues (scheduled)
 #   tick "Allow GitHub Actions to create and approve pull requests".
 
 on:
-  schedule:
-    # Four UTC slots ~2h apart, ≈6:43 AM–12:43 PM PT (PDT). Redundancy against dropped
-    # scheduled runs; the guard job makes the extra firings no-ops. All kept well before
-    # 00:00 UTC so every slot shares one UTC date (the branch-name key). Fixed UTC, so
-    # this drifts ~1h across US daylight-saving changes (fine for a drafter). First slot
-    # pulled an hour earlier (was 14:43) to give the long draft step more daytime runway.
-    - cron: '43 13 * * *'
-    - cron: '43 15 * * *'
-    - cron: '43 17 * * *'
-    - cron: '43 19 * * *'
+  # Triggered daily by an external scheduler (cron-job.org) via the workflow_dispatch
+  # REST endpoint. GitHub's `schedule:` cron was removed — it dropped runs unreliably.
   workflow_dispatch:
     inputs:
       force:
@@ -116,10 +103,9 @@ jobs:
           # The branch name is the run's identity. SCHEDULED runs use the plain UTC
           # date so the `guard` job collapses the 4 redundant cron slots into exactly
           # ONE draft/day. FORCED (manual, force=true) runs get a unique -r<run_id>
-          # suffix so a re-run never collides with an existing same-date PR. Exported
-          # to $GITHUB_ENV so the Draft step (the agent reads it) and the Attach step
-          # share ONE name. Empty $DRAFT_BRANCH (e.g. a local run) → agent falls back
-          # to the dated name itself.
+          # suffix so a re-run never collides with an existing same-date PR. The next
+          # step creates this branch (workflow-owned), so the name can't drift no matter
+          # what the agent does — keeping the guard dedup + PR contents deterministic.
           date="$(date -u +%F)"
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
             branch="draft-clues/daily-${date}-r${{ github.run_id }}"
@@ -140,14 +126,23 @@ jobs:
             exit 1
           fi
 
+      - name: Create the draft branch (workflow-owned)
+        run: |
+          # The WORKFLOW owns the branch so the name can't drift: branch off main here,
+          # commit the harvest onto it next, and the agent just commits its packs to THIS
+          # branch (no checkout/branch in the prompt). Deterministic name = working guard
+          # dedup + the harvested pool always rides in the PR.
+          git checkout -b "$DRAFT_BRANCH"
+
       - name: Harvest fresh Jeopardy topics + keyword them
         run: |
           node tools/acquisition/jarchive-daily-harvest.mjs --perRun 8
           node tools/acquisition/keyword-topics.mjs
-          # Set the pool/cursor aside so the drafter's own git ops run on a clean tree;
-          # the next step re-applies + commits them onto the draft branch (so they ride
-          # in the reviewed PR rather than a blocked direct push to protected main).
-          git stash push -- data/sourcing/topics/pool.json data/sourcing/harvest-state.json || true
+          # Commit the refreshed pool + cursor straight onto the draft branch so they ride
+          # in the reviewed PR (the bot can't push to protected main directly). No-op if
+          # the harvest found nothing new.
+          git add data/sourcing/topics/pool.json data/sourcing/harvest-state.json
+          git commit -m "chore(harvest): refresh topic pool + cursor for $(date -u +%F)" || echo "No harvest changes to commit this run."
 
       # DIAGNOSTIC: the draft step has been running ~50+ min on hosted runners vs
       # ~20-30 min locally. Prime suspect is Wikipedia rate-limiting the shared Actions
@@ -205,18 +200,3 @@ jobs:
             --model claude-sonnet-4-6 \
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep,TodoWrite" \
             --max-turns 120 | node tools/acquisition/format-stream.mjs
-
-      - name: Attach the refreshed pool to today's draft PR
-        if: always()
-        run: |
-          branch="$DRAFT_BRANCH" # same name the compute step set and the agent branched with
-          if git rev-parse --verify --quiet "$branch" >/dev/null && git stash list | grep -q .; then
-            git checkout "$branch"
-            git stash pop
-            git add data/sourcing/topics/pool.json data/sourcing/harvest-state.json
-            git commit -m "chore(harvest): refresh topic pool + cursor for $(date -u +%F)"
-            git push origin "$branch"
-            echo "Pool + cursor attached to $branch (rides in the draft PR)."
-          else
-            echo "No draft branch or nothing stashed — harvest increment not kept this run (cursor on main is unchanged, so it re-harvests next time)."
-          fi
