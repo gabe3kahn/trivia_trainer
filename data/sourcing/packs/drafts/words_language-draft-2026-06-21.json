@@ -13,7 +13,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This linguistic term names a word taken from a person's name — such as 'sandwich,' 'cardigan,' or the unit 'watt.'",
+      "clue": "This linguistic term describes a word taken from a person's name — such as 'sandwich,' 'cardigan,' or the unit 'watt.'",
       "answer": "Eponym",
       "aliases": [],
       "tags": [
@@ -42,7 +42,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This term names a sentence that contains every letter of the alphabet at least once — the classic example being 'The quick brown fox jumps over the lazy dog.'",
+      "clue": "This type of sentence contains every letter of the alphabet at least once — most famously 'The quick brown fox jumps over the lazy dog.'",
       "answer": "Pangram",
       "aliases": [
         "holoalphabetic sentence"
@@ -69,8 +69,8 @@
       "external_id": "wl-2026-06-21-003",
       "category_id": "words_language",
       "subcategory_name": "Foreign Words & Phrases",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Borrowed directly from French, this word names a listless weariness and dissatisfaction that arises from boredom or a lack of excitement.",
@@ -102,7 +102,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Meaning to hold someone so spellbound that they seem entranced, this verb derives from the surname of an 18th-century German physician who claimed to heal patients through 'animal magnetism.'",
+      "clue": "The surname of an 18th-century German physician who claimed to heal patients through 'animal magnetism' is the origin of this word, meaning 'to hold someone so spellbound that they seem entranced.'",
       "answer": "Mesmerize",
       "aliases": [
         "mesmerise"
@@ -193,7 +193,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Also known as a Janus word, this is a term for a word that functions as its own opposite — 'cleave' can mean both to split apart and to cling together, and 'sanction' can mean both to permit and to penalize.",
+      "clue": "Also known as a Janus word, this is a term for a word that functions as its own opposite — 'cleave,' for example, can mean both to split apart and to cling together.",
       "answer": "Contronym",
       "aliases": [
         "contranym",
@@ -252,8 +252,8 @@
       "external_id": "wl-2026-06-21-009",
       "category_id": "words_language",
       "subcategory_name": "Definitions",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Coined by the writer Sylvia Wright in 1954, this term for a misheard word or phrase — most often a misinterpreted song lyric — arose when she reinterpreted a ballad's line 'laid him on the green' as the name of a slain noblewoman.",
