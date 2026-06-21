@@ -1,0 +1,245 @@
+{
+  "generated_at": "2026-06-20T00:00:00Z",
+  "provider": "original_wordplay",
+  "category_id": "language_wordplay",
+  "notes": [
+    "5 Anagrams + 5 Before & After. Rotating away from Homophones (used in wordplay-2026-06-20.json) and Homophones+B&A (used in wordplay-2026-06-19.json). Anagram clues follow edit-lessons §6: natural sentence whose MEANING the answer completes; scramble word sits naturally in sentence; NO fill-in-blank; NEVER call out the word. B&A clues describe both halves without naming either and without announcing the mechanic. All 10 answers are fresh — none appear in wordplay-001.json, wordplay-2026-06-17.json, wordplay-2026-06-18.json, wordplay-2026-06-19b.json, or wordplay-2026-06-20.json. Letter checks: brush=SHRUB ✓, snore=NORSE ✓, lures=RULES ✓, plums=SLUMP ✓, trail=TRIAL ✓."
+  ],
+  "questions": [
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "After breakfast, she reached for a paint brush and headed outside, where the morning light made the little flowering plant beside the mailbox look almost golden.",
+      "answer": "Shrub",
+      "aliases": [],
+      "wp": {
+        "scramble": "brush"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The scholar's snore echoed through the library all night, but come morning he had filled three notebooks with translations of the Viking-era manuscripts.",
+      "answer": "Norse",
+      "aliases": [],
+      "wp": {
+        "scramble": "snore"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The fishing lures arranged in his tackle box were more like trophies than tools, and the strict regulations governing catch limits only added to the sport's appeal.",
+      "answer": "Rules",
+      "aliases": [],
+      "wp": {
+        "scramble": "lures"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The kitchen was filled with plums, but despite the abundance of sweet fruit, the baker was in a creative rut she couldn't shake all week.",
+      "answer": "Slump",
+      "aliases": [],
+      "wp": {
+        "scramble": "plums"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The hiking trail wound up the mountain, and at the summit twelve good citizens sat in quiet judgment of all they had witnessed below.",
+      "answer": "Trial",
+      "aliases": [],
+      "wp": {
+        "scramble": "trail"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-baa-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The senators had a vigorous debate concerning the clean-energy devices mounted on rooftops worldwide.",
+      "answer": "Solar Panel Discussion",
+      "aliases": [],
+      "wp": {
+        "first": "Solar Panel",
+        "second": "Panel Discussion"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-baa-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The photographer endures a splitting headache from eating his ice cream too quickly just as his shutter locks a fleeting scene into a still image.",
+      "answer": "Brain Freeze Frame",
+      "aliases": [],
+      "wp": {
+        "first": "Brain Freeze",
+        "second": "Freeze Frame"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-baa-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "A chef undertakes a playground challenge with two ropes swinging simultaneously while waiting for her dish to finish cooking in her signature cookpot.",
+      "answer": "Double Dutch Oven",
+      "aliases": [],
+      "wp": {
+        "first": "Double Dutch",
+        "second": "Dutch Oven"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-baa-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "Kids at a sleepover challenge each other to a slumber party brawl and swear never to speak of it.",
+      "answer": "Pillow Fight Club",
+      "aliases": [],
+      "wp": {
+        "first": "Pillow Fight",
+        "second": "Fight Club"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "original_wordplay",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-20b-baa-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The quarterback's teammates ostracize him after he threw a key interception, forcing him to take his equipment off by himself.",
+      "answer": "Cold Shoulder Pad",
+      "aliases": [],
+      "wp": {
+        "first": "Cold Shoulder",
+        "second": "Shoulder Pad"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}

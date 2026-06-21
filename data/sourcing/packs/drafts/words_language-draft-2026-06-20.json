@@ -1,0 +1,289 @@
+{
+  "generated_at": "2026-06-20T00:00:00Z",
+  "provider": "claude-sonnet-4-6",
+  "category_id": "words_language",
+  "notes": [
+    "9-clue draft for words_language (17 active clues at time of authoring — tied for thinnest non-geography category). All clues sourced from data/sourcing/docs/words_language/ except Guy (added in review per Gabe — etymology of an ordinary word from Guy Fawkes). Subcategory spread: Definitions (2: Neologism, Somnambulism), Etymology (4: Quarantine, Spoonerism, Nimrod, Guy), Foreign Words & Phrases (3: Status quo, Bona fide, Billabong). [Silhouette removed as a cross-category dup of arts.] CRITICAL: Umami was removed from consideration per edit-lessons §2 — 'a umami clue is Food & Drink (pop_culture_media_modern_life), NOT words_language.' Guillotine removed — primarily a historical artifact, not a linguistic term. First $1000 in words_language bank: Nimrod (son of Cush, great-grandson of Noah, biblical king of Shinar identified with Tower of Babel — specialist biblical genealogy as entry point). First $800: Somnambulism (parasomnia / slow-wave N3 sleep classification). Avoided all active + pending answers: Palindrome, Euphemism, Oxymoron, Onomatopoeia, Malapropism, Sandwich, Boycott, Museum, Portmanteau, Carpe diem, Déjà vu, Schadenfreude, Doppelgänger, Caveat emptor, Zeitgeist, Esperanto, Lingua franca."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Neologism",
+      "external_id": "wl-draft-2026-06-20-001",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This linguistic term describes any newly coined word, phrase, or expression that has entered popular or institutional use — technology and cultural change constantly produce them.",
+      "answer": "Neologism",
+      "aliases": [
+        "coinage"
+      ],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "definitions",
+        "linguistics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Neologism",
+          "url": "https://en.wikipedia.org/wiki/Neologism",
+          "snippet": "In linguistics, a neologism is any newly formed word, term, or phrase that has gained popular or institutional recognition and is becoming accepted into mainstream language."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T17:19:42.071Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Quarantine",
+      "external_id": "wl-draft-2026-06-20-002",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named from the Italian for the time arriving ships were held offshore in Venetian and Ragusan ports during the 14th-century Black Death, this measure isolates people or animals possibly exposed to a contagious disease.",
+      "answer": "Quarantine",
+      "aliases": [],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Quarantine",
+          "url": "https://en.wikipedia.org/wiki/Quarantine",
+          "snippet": "A quarantine is a restriction on the movement of people, animals, and goods which is intended to prevent the spread of disease or pests. It is often used in connection to disease and illness, preventing the movement of those who may have be"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T17:19:42.290Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Spoonerism",
+      "external_id": "wl-draft-2026-06-20-003",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named for a Warden of New College, Oxford who was prone to the slip, this is the accidental swap of the initial sounds of two words — for example turning 'bunny rabbit' into 'runny babbit.'",
+      "answer": "Spoonerism",
+      "aliases": [],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "etymology",
+        "wordplay"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Spoonerism",
+          "url": "https://en.wikipedia.org/wiki/Spoonerism",
+          "snippet": "A spoonerism is an occurrence of speech in which corresponding consonants, vowels, or morphemes are switched between two words of a phrase. These are named after the Oxford don and priest William Archibald Spooner, who reportedly commonly s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T17:19:42.471Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Status_quo",
+      "external_id": "wl-draft-2026-06-20-004",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Latin phrase for the existing state of affairs often surfaces in policy debates when present conditions are weighed against proposed change.",
+      "answer": "Status quo",
+      "aliases": [
+        "status quo ante"
+      ],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "foreign-phrases",
+        "latin"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Status quo",
+          "url": "https://en.wikipedia.org/wiki/Status_quo",
+          "snippet": "Status quo is a Latin phrase meaning the existing state of affairs, particularly with regard to social, economic, legal, environmental, political, religious, scientific or military issues. In the sociological sense, the status quo refers to"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T17:19:42.650Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bona_fides",
+      "external_id": "wl-draft-2026-06-20-006",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In law and everyday usage alike, this Latin phrase denotes sincere, honest intention — acting in good faith, with no attempt to deceive.",
+      "answer": "Bona fide",
+      "aliases": [
+        "bona fides",
+        "bonafide"
+      ],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "foreign-phrases",
+        "latin",
+        "legal"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Good faith",
+          "url": "https://en.wikipedia.org/wiki/Good_faith",
+          "snippet": "In human interactions, good faith is a sincere intention to be fair, open, and honest, regardless of the outcome of the interaction. It is an important concept within law and business. The opposed concepts are bad faith, mala fides (duplici"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T17:19:42.877Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Billabong",
+      "external_id": "wl-draft-2026-06-20-007",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Borrowed into Australian English from Wiradjuri, an Aboriginal language of New South Wales, this term names a small isolated body of water, such as an oxbow lake or river backwater, formed when a watercourse changes its course.",
+      "answer": "Billabong",
+      "aliases": [],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "foreign-phrases",
+        "aboriginal",
+        "australian"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Billabong",
+          "url": "https://en.wikipedia.org/wiki/Billabong",
+          "snippet": "In Australian English, a billabong is a small body of water, usually a permanent one created by a change in course or the flooding of a river. It is variously used to refer to oxbow lakes, dry creek beds that fill after heavy rainfall and c"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T17:19:43.046Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Somnambulism",
+      "external_id": "wl-draft-2026-06-20-008",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Classified as a parasomnia of state dissociation, this condition occurs when features of deep slumber and wakefulness surface at the same time and a person carries out complex actions with no memory of them.",
+      "answer": "Somnambulism",
+      "aliases": [
+        "sleepwalking",
+        "noctambulism"
+      ],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "definitions",
+        "medical"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sleepwalking",
+          "url": "https://en.wikipedia.org/wiki/Sleepwalking",
+          "snippet": "Sleepwalking, also known as somnambulism or noctambulism, is a phenomenon of combined sleep and wakefulness. It is classified as a sleep disorder belonging to the parasomnia family. It can also be understood as a disorder of state dissociat"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T17:19:43.265Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nimrod",
+      "external_id": "wl-draft-2026-06-20-009",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally the name of a hunter of renown in Genesis, this term morphed into slang for an inept or foolish person after 1940s cartoons in which Bugs Bunny sarcastically used it to call Elmer Fudd a great hunter.",
+      "answer": "Nimrod",
+      "aliases": [],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "etymology",
+        "biblical"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nimrod",
+          "url": "https://en.wikipedia.org/wiki/Nimrod",
+          "snippet": "Nimrod is a biblical figure mentioned in the Book of Genesis and the Books of Chronicles. The son of Cush and thus the great-grandson of Noah, Nimrod was described as a king in the land of Shinar. The Bible states that he was \"a mighty hunt"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T17:19:43.492Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Guy_Fawkes",
+      "external_id": "wl-draft-2026-06-20-010",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This now-common term for a male derives from the name of a 17th-century English revolutionary.",
+      "answer": "Guy",
+      "aliases": [],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Guy Fawkes",
+          "url": "https://en.wikipedia.org/wiki/Guy_Fawkes",
+          "snippet": "Guy Fawkes (1570-1606), a member of the Gunpowder Plot to blow up the House of Lords in 1605, gave his name to the effigies burned on Bonfire Night; 'guy' came to mean a grotesquely dressed figure and, in American English, a generic term for a man."
+        }
+      ],
+      "verification_status": "pending"
+    }
+  ]
+}
