@@ -1,0 +1,228 @@
+{
+  "pack_id": "wordplay-2026-06-21",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-21",
+  "notes": "Run 2026-06-21. Mechanics: Anagrams (5) + Hidden Words (5). Hidden Words have not appeared in any prior pack — freshest rotation available. All answer/carrier pairs are new; none overlap prior packs.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The Greek warriors dragged their gift up the rocky shore and left it beneath the walls for their Trojan enemies to find.",
+      "answer": "Horse",
+      "aliases": [],
+      "wp": {
+        "scramble": "shore"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The chess master sat at a table in the park beside the trickling water, waiting for an opponent worthy of his time.",
+      "answer": "Stream",
+      "aliases": [],
+      "wp": {
+        "scramble": "master"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "Each college student's smile was a barely masked shudder of discomfort as they held the slice of fruit to their lips to chase down a tequila shot.",
+      "answer": "Limes",
+      "aliases": [],
+      "wp": {
+        "scramble": "smile"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The sight of the newborn lambs wobbling through the pasture on their spindly legs soothed the abrasions on the old farmer's soul.",
+      "answer": "Balms",
+      "aliases": [],
+      "wp": {
+        "scramble": "lambs"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "Her lungs exhaled a long groan when the departure board updated and showed another four-hour delay.",
+      "answer": "Organ",
+      "aliases": [],
+      "wp": {
+        "scramble": "groan"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-hw-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The soldiers began their long march by crossing under the wall's gates well before sunrise.",
+      "answer": "Arch",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "march"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-hw-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The fish had a slimy feel that surprised anyone who touched them.",
+      "answer": "Eel",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "feel"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-hw-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "A well-known food critic gave the new restaurant a lukewarm review, calling the décor forgettable.",
+      "answer": "Rant",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "restaurant"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-hw-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The soaked Vikings aboard their longship paddled faster to reach the shore.",
+      "answer": "Oar",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "aboard"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-21-hw-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Puns, Quotes & Idioms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The elite chef tightened the strings of her apron before beginning to cook her signature dish.",
+      "answer": "Pro",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "apron"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}

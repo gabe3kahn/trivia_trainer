@@ -1,0 +1,308 @@
+{
+  "pack_id": "wl-draft-2026-06-21",
+  "category_id": "words_language",
+  "created_at": "2026-06-21",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Eponym",
+      "external_id": "wl-2026-06-21-001",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This linguistic term describes a word taken from a person's name — such as 'sandwich,' 'cardigan,' or the unit 'watt.'",
+      "answer": "Eponym",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Eponym",
+          "url": "https://en.wikipedia.org/wiki/Eponym",
+          "snippet": "An eponym is a noun after which or for which someone or something is named. Adjectives derived from the word eponym include eponymous and eponymic."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:55.855Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pangram",
+      "external_id": "wl-2026-06-21-002",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This type of sentence contains every letter of the alphabet at least once — most famously 'The quick brown fox jumps over the lazy dog.'",
+      "answer": "Pangram",
+      "aliases": [
+        "holoalphabetic sentence"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pangram",
+          "url": "https://en.wikipedia.org/wiki/Pangram",
+          "snippet": "A pangram, or holoalphabetic sentence, phrase, or word, uses every letter of a given alphabet at least once. Pangrams can be utilised to display typefaces, test equipment, or develop skills in handwriting, calligraphy, and typing, amongst o"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T20:53:56.238Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ennui",
+      "external_id": "wl-2026-06-21-003",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Borrowed directly from French, this word names a listless weariness and dissatisfaction that arises from boredom or a lack of excitement.",
+      "answer": "Ennui",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Boredom",
+          "url": "https://en.wikipedia.org/wiki/Boredom",
+          "snippet": "In conventional usage, boredom, ennui, or tedium is an emotion characterized by uninterest in one's surrounding, often caused by a lack of distractions or occupations. However, boredom is not well defined. It is distinct from depression and"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:56.623Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Franz_Mesmer",
+      "external_id": "wl-2026-06-21-004",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The surname of an 18th-century German physician who claimed to heal patients through 'animal magnetism' is the origin of this word, meaning 'to hold someone so spellbound that they seem entranced.'",
+      "answer": "Mesmerize",
+      "aliases": [
+        "mesmerise"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Franz Mesmer",
+          "url": "https://en.wikipedia.org/wiki/Franz_Mesmer",
+          "snippet": "Franz Anton Mesmer was a German physician with an interest in astronomy. He theorized the existence of a process of natural energy transference occurring between all animate and inanimate objects; this he called \"animal magnetism\", later re"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:56.996Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Leotard",
+      "external_id": "wl-2026-06-21-005",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This close-fitting one-piece garment worn by dancers and gymnasts takes its name from the 19th-century French acrobat who popularized the flying trapeze.",
+      "answer": "Leotard",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Leotard",
+          "url": "https://en.wikipedia.org/wiki/Leotard",
+          "snippet": "A leotard is a unisex one-piece skin-tight garment that covers the torso from the crotch to the shoulder. The garment was made famous by the French acrobatic performer Jules Léotard (1838–1870). There are sleeveless, short-sleeved, and long"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T20:53:57.388Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sideburns",
+      "external_id": "wl-2026-06-21-006",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "These patches of facial hair grown down the cheeks owe their name — with its two parts swapped — to a prominently whiskered Union general of the American Civil War.",
+      "answer": "Sideburns",
+      "aliases": [
+        "sideburn"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sideburns",
+          "url": "https://en.wikipedia.org/wiki/Sideburns",
+          "snippet": "Sideburns, sideboards, or side whiskers are facial hair grown on the sides of the face, extending from the hairline to run parallel to or beyond the ears. The term sideburns is a 19th-century corruption of the original burnsides, named afte"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T20:53:57.776Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Auto-antonym",
+      "external_id": "wl-2026-06-21-007",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Also known as a Janus word, this is a term for a word that functions as its own opposite — 'cleave,' for example, can mean both to split apart and to cling together.",
+      "answer": "Contronym",
+      "aliases": [
+        "contranym",
+        "auto-antonym",
+        "autoantonym",
+        "Janus word"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Contronym",
+          "url": "https://en.wikipedia.org/wiki/Contronym",
+          "snippet": "A contronym is a word with two opposite meanings. For example, the word clip can mean \"attach,\" as in paperclip, or \"cut off,\" as in \"clip the hedges.\" Since a contronym has at least two meanings, it is by definition polysemic."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:58.163Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Weltschmerz",
+      "external_id": "wl-2026-06-21-008",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Literally 'world-pain' in German, this term names a weary melancholy felt at the gap between the world as it is and the world as one wishes it could be.",
+      "answer": "Weltschmerz",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Weltschmerz",
+          "url": "https://en.wikipedia.org/wiki/Weltschmerz",
+          "snippet": "Weltschmerz is a literary concept describing the feeling experienced by an individual who believes that reality can never satisfy the expectations of the mind, resulting in \"a mood of weariness or sadness about life arising from the acute a"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T20:53:58.602Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mondegreen",
+      "external_id": "wl-2026-06-21-009",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Coined by the writer Sylvia Wright in 1954, this term for a misheard word or phrase — most often a misinterpreted song lyric — arose when she reinterpreted a ballad's line 'laid him on the green' as the name of a slain noblewoman.",
+      "answer": "Mondegreen",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mondegreen",
+          "url": "https://en.wikipedia.org/wiki/Mondegreen",
+          "snippet": "A mondegreen is a mishearing or misinterpretation of a phrase in a way that gives it a new meaning. Mondegreens are most often created by a person listening to a poem or a song; the listener, being unable to hear a lyric clearly, substitute"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T20:53:58.983Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tmesis",
+      "external_id": "wl-2026-06-21-010",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This rhetorical term names the insertion of a word into the middle of another word or phrase, as in 'abso-bloody-lutely' or 'a whole nother.'",
+      "answer": "Tmesis",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tmesis",
+          "url": "https://en.wikipedia.org/wiki/Tmesis",
+          "snippet": "Tmesis is either the dividing of a word into two parts, with another word inserted between those parts, thus forming a compound word, or, in a broader sense, a set phrase, such as a phrasal verb, with one or more words interpolated within, "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:59.369Z"
+    }
+  ]
+}

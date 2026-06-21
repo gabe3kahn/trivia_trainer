@@ -1,0 +1,258 @@
+{
+  "pack_id": "music-draft-2026-06-21",
+  "category_id": "music_performing_arts",
+  "created_at": "2026-06-21",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tuba",
+      "external_id": "music-2026-06-21-002",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Instruments",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Its name is the Latin word for 'trumpet,' though this large brass instrument plays in the bass-to-contrabass range and descended from earlier instruments called the ophicleide and the serpent.",
+      "answer": "Tuba",
+      "aliases": [
+        "tuba"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "instruments"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tuba",
+          "url": "https://en.wikipedia.org/wiki/Tuba",
+          "snippet": "The tuba is a large brass instrument in the bass-to-contrabass range. It is a member of the valved bugles, a large and diverse family of instruments characterized by their wide conical bore and use of valves to alter pitch. The tuba usually"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T14:34:35.464Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Edward_Elgar",
+      "external_id": "music-2026-06-21-003",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Appointed Master of the King's Musick in 1924, this English composer wrote the Enigma Variations and a set of marches whose first trio became the melody most American graduation ceremonies use.",
+      "answer": "Edward Elgar",
+      "aliases": [
+        "Elgar"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Edward Elgar",
+          "url": "https://en.wikipedia.org/wiki/Edward_Elgar",
+          "snippet": "Sir Edward William Elgar, 1st Baronet was an English composer, many of whose works have entered the British and international classical concert repertoire. Among his best-known compositions are orchestral works including the Enigma Variatio"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T14:34:35.889Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Antonín_Dvořák",
+      "external_id": "music-2026-06-21-007",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "While serving as director of the National Conservatory of Music in New York City in the 1890s, this Czech composer wrote his most celebrated orchestral work, the Symphony 'From the New World.'",
+      "answer": "Antonín Dvořák",
+      "aliases": [
+        "Dvořák",
+        "Dvorak"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Antonín Dvořák",
+          "url": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k",
+          "snippet": "Antonín Leopold Dvořák was a Czech composer. He frequently employed rhythms and other aspects of the folk music of Moravia and his native Bohemia, following the Romantic era nationalist example of his predecessor Bedřich Smetana. Dvořák's s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T14:34:37.415Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pizzicato",
+      "external_id": "music-2026-06-21-008",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Music Theory & Terms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Italian term, meaning 'pinched,' describes the technique of playing bowed string instruments by plucking the strings with the fingers rather than drawing a bow across them.",
+      "answer": "Pizzicato",
+      "aliases": [
+        "pizzicato"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "instruments",
+        "technique"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pizzicato",
+          "url": "https://en.wikipedia.org/wiki/Pizzicato",
+          "snippet": "Pizzicato is a playing technique that involves plucking the strings of a string instrument. The exact technique varies somewhat depending on the type of instrument:On bowed string instruments it is a method of playing by plucking the string"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T14:34:37.833Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bob_Fosse",
+      "external_id": "music-2026-06-21-012",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Dance",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This director and choreographer won the 1972 Academy Award for Best Director for the musical drama 'Cabaret' and the 1979 Palme d'Or at Cannes for 'All That Jazz.'",
+      "answer": "Bob Fosse",
+      "aliases": [
+        "Fosse"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "dance",
+        "choreographer"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bob Fosse",
+          "url": "https://en.wikipedia.org/wiki/Bob_Fosse",
+          "snippet": "Robert Louis Fosse was an American choreographer, dancer, actor, filmmaker, and stage director. He is known for his work on stage and screen, and was arguably the most influential figure in the field of jazz dance in the twentieth century. "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T14:34:39.310Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Franz_Liszt",
+      "external_id": "music-2026-06-21-013",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hungarian Romantic composer coined the concept of the symphonic poem, invented the modern piano masterclass as a teaching format, and generated such hysterical devotion during his 1840s European tours that a new word was coined from his name.",
+      "answer": "Franz Liszt",
+      "aliases": [
+        "Liszt"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical",
+        "piano"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Franz Liszt",
+          "url": "https://en.wikipedia.org/wiki/Franz_Liszt",
+          "snippet": "Franz Liszt was a Hungarian composer, virtuoso pianist, conductor and teacher of the Romantic period. With a diverse body of work spanning more than six decades, he is considered to be one of the most prolific and influential composers of h"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T14:34:39.727Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Spring_Awakening_(musical)",
+      "external_id": "music-2026-06-21-014",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Frank Wedekind's 1891 German play about adolescent sexuality, long considered too scandalous for the stage, was adapted into a 2006 Broadway rock musical that won eight Tony Awards including Best Musical.",
+      "answer": "Spring Awakening",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "broadway"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Spring Awakening (musical)",
+          "url": "https://en.wikipedia.org/wiki/Spring_Awakening_(musical)",
+          "snippet": "Spring Awakening is a coming-of-age rock musical with music by Duncan Sheik and a book and lyrics by Steven Sater. It is based on the 1891 German play Spring Awakening by Frank Wedekind. Set in late 19th-century Germany, the musical tells t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T14:34:40.096Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+      "external_id": "music-2026-06-21-015",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Revered as Finland's national composer, this man produced almost no major works in the last three decades of his life — a prolonged, self-imposed silence that has puzzled music historians ever since.",
+      "answer": "Jean Sibelius",
+      "aliases": [
+        "Sibelius"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical",
+        "finnish"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jean Sibelius",
+          "url": "https://en.wikipedia.org/wiki/Jean_Sibelius",
+          "snippet": "Jean Sibelius was a Finnish composer of the late Romantic and early modern periods. He is widely regarded as his country's greatest composer, and his music is often credited with having helped Finland develop a stronger national identity wh"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T14:34:40.512Z"
+    }
+  ]
+}
