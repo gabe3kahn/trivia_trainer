@@ -5,37 +5,6 @@
   "questions": [
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Septet",
-      "external_id": "music-2026-06-21-001",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Music Theory & Terms",
-      "value": 200,
-      "difficulty_rank": 1,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "In music, this term describes an ensemble of exactly seven performers — whether vocalists, instrumentalists, or a combination of both.",
-      "answer": "Septet",
-      "aliases": [
-        "septet"
-      ],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "music-theory"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Septet",
-          "url": "https://en.wikipedia.org/wiki/Septet",
-          "snippet": "A septet is a formation containing exactly seven members. It is commonly associated with musical groups but can be applied to any situation where seven similar or related objects are considered a single unit, such as a seven-line stanza of "
-        }
-      ],
-      "verification_status": "weak",
-      "verified_at": "2026-06-21T14:34:35.094Z"
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Tuba",
       "external_id": "music-2026-06-21-002",
       "category_id": "music_performing_arts",
@@ -98,100 +67,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Diana_Ross",
-      "external_id": "music-2026-06-21-004",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Popular Music",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "As lead singer of the Supremes, she fronted Motown's most successful act of the 1960s and the best-charting female group in recording history, scoring 12 number-one pop singles on the Billboard Hot 100.",
-      "answer": "Diana Ross",
-      "aliases": [
-        "Ross"
-      ],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "popular-music",
-        "motown"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Diana Ross",
-          "url": "https://en.wikipedia.org/wiki/Diana_Ross",
-          "snippet": "Diana Ross is an American singer and actress. She was the lead singer of the vocal group the Supremes, who became Motown's most successful act during the 1960s and one of the world's best-selling girl groups of all time. They remain the bes"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:34:36.259Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Village_People",
-      "external_id": "music-2026-06-21-005",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Popular Music",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Named for a Manhattan neighborhood known as a gayborhood, this American disco group was conceived by French producers Jacques Morali and Henri Belolo to celebrate gay culture through costumes representing masculine archetypes.",
-      "answer": "Village People",
-      "aliases": [
-        "the Village People"
-      ],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "popular-music",
-        "disco"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Village People",
-          "url": "https://en.wikipedia.org/wiki/Village_People",
-          "snippet": "Village People is an American disco group known for its on-stage costumes and suggestive lyrics in their music. The group was originally formed by French producers Jacques Morali and Henri Belolo and lead singer Victor Willis following the "
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:34:36.676Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Saturday_Night_Fever",
-      "external_id": "music-2026-06-21-006",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Film Scores & Soundtracks",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This 1977 film starring John Travolta as a Brooklyn disco dancer helped popularize disco music worldwide; its soundtrack featuring songs by the Bee Gees is one of the best-selling album soundtracks in history.",
-      "answer": "Saturday Night Fever",
-      "aliases": [],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "film-scores",
-        "disco"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Saturday Night Fever",
-          "url": "https://en.wikipedia.org/wiki/Saturday_Night_Fever",
-          "snippet": "Saturday Night Fever is a 1977 American dance drama film directed by John Badham and produced by Robert Stigwood. It stars John Travolta as Tony Manero, a young Italian-American man who spends his weekends dancing and drinking at a local di"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:34:37.045Z"
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Antonín_Dvořák",
       "external_id": "music-2026-06-21-007",
       "category_id": "music_performing_arts",
@@ -227,7 +102,7 @@
       "source_url": "https://en.wikipedia.org/wiki/Pizzicato",
       "external_id": "music-2026-06-21-008",
       "category_id": "music_performing_arts",
-      "subcategory_name": "Instruments",
+      "subcategory_name": "Music Theory & Terms",
       "value": 600,
       "difficulty_rank": 3,
       "mechanic": "standard",
@@ -256,97 +131,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Into_the_Woods",
-      "external_id": "music-2026-06-21-009",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Broadway & Musicals",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Stephen Sondheim and James Lapine's 1987 Tony winner for Best Score weaves together the fates of characters from Cinderella, Rapunzel, and Jack and the Beanstalk to explore the darker consequences of each character's wish.",
-      "answer": "Into the Woods",
-      "aliases": [],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "broadway"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Into the Woods",
-          "url": "https://en.wikipedia.org/wiki/Into_the_Woods",
-          "snippet": "Into the Woods is a 1986 musical with music and lyrics by Stephen Sondheim and book by James Lapine."
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:34:38.202Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Stop_Making_Sense",
-      "external_id": "music-2026-06-21-010",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Popular Music",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Jonathan Demme directed this 1984 concert film, shot over four nights at the Pantages Theatre in Hollywood as the Talking Heads promoted their fifth studio album, 'Speaking in Tongues.'",
-      "answer": "Stop Making Sense",
-      "aliases": [],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "popular-music",
-        "concert-film"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Stop Making Sense",
-          "url": "https://en.wikipedia.org/wiki/Stop_Making_Sense",
-          "snippet": "Stop Making Sense is a 1984 American concert film featuring a live performance by the American rock band Talking Heads. The film was directed by Jonathan Demme and executive produced by Gary Kurfirst, the band’s longtime manager. The film w"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:34:38.571Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Gene_Simmons",
-      "external_id": "music-2026-06-21-011",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Popular Music",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Born Chaim Witz in Israel, this rock musician co-founded Kiss in 1973 alongside Paul Stanley and became famous for his 'Demon' stage persona and his remarkably long tongue.",
-      "answer": "Gene Simmons",
-      "aliases": [
-        "Simmons"
-      ],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "popular-music",
-        "rock"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Gene Simmons",
-          "url": "https://en.wikipedia.org/wiki/Gene_Simmons",
-          "snippet": "Gene Simmons, also known by his stage persona \"the Demon\", is an Israeli and American musician. He was the bassist and co-lead singer of the hard rock band Kiss, which he co-founded with Paul Stanley, Ace Frehley, and Peter Criss in 1973. S"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:34:38.941Z"
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Bob_Fosse",
       "external_id": "music-2026-06-21-012",
       "category_id": "music_performing_arts",
@@ -355,7 +139,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "He won the Academy Award for Best Director for the musical drama Cabaret in 1972 and the Palme d'Or at Cannes for All That Jazz in 1979, making him arguably the most decorated figure in jazz dance of the 20th century.",
+      "clue": "This director and choreographer won the 1972 Academy Award for Best Director for the musical drama 'Cabaret' and the 1979 Palme d'Or at Cannes for 'All That Jazz.'",
       "answer": "Bob Fosse",
       "aliases": [
         "Fosse"
@@ -387,7 +171,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Hungarian Romantic composer coined the concept of the symphonic poem, invented the modern piano masterclass as a teaching format, and generated such hysterical devotion during his 1830s European tours that a new word was coined from his name.",
+      "clue": "This Hungarian Romantic composer coined the concept of the symphonic poem, invented the modern piano masterclass as a teaching format, and generated such hysterical devotion during his 1840s European tours that a new word was coined from his name.",
       "answer": "Franz Liszt",
       "aliases": [
         "Liszt"

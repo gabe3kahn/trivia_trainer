@@ -5,7 +5,7 @@
   "questions": [
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Neologism",
+      "source_url": "https://en.wikipedia.org/wiki/Eponym",
       "external_id": "wl-2026-06-21-001",
       "category_id": "words_language",
       "subcategory_name": "Definitions",
@@ -13,11 +13,9 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In linguistics, this term describes any newly formed word, term, or phrase that has gained sufficient popular or institutional recognition to be entering mainstream language — 'selfie' was once one.",
-      "answer": "Neologism",
-      "aliases": [
-        "neologism"
-      ],
+      "clue": "This linguistic term names a word taken from a person's name — such as 'sandwich,' 'cardigan,' or the unit 'watt.'",
+      "answer": "Eponym",
+      "aliases": [],
       "tags": [
         "wl-draft",
         "sourced",
@@ -26,155 +24,88 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Neologism",
-          "url": "https://en.wikipedia.org/wiki/Neologism",
-          "snippet": "In linguistics, a neologism is any newly formed word, term, or phrase that has gained popular or institutional recognition and is becoming accepted into mainstream language."
+          "title": "Eponym",
+          "url": "https://en.wikipedia.org/wiki/Eponym",
+          "snippet": "An eponym is a noun after which or for which someone or something is named. Adjectives derived from the word eponym include eponymous and eponymic."
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:52.657Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:55.855Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Spoonerism",
+      "source_url": "https://en.wikipedia.org/wiki/Pangram",
       "external_id": "wl-2026-06-21-002",
       "category_id": "words_language",
       "subcategory_name": "Definitions",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Named after an Oxford don who reportedly told students they had 'hissed all his mystery lectures' and produced examples like 'blushing crow' for 'crushing blow,' this term describes the accidental transposition of initial consonants between words.",
-      "answer": "Spoonerism",
-      "aliases": [
-        "spoonerism"
-      ],
-      "tags": [
-        "wl-draft",
-        "sourced",
-        "definitions"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Spoonerism",
-          "url": "https://en.wikipedia.org/wiki/Spoonerism",
-          "snippet": "A spoonerism is an occurrence of speech in which corresponding consonants, vowels, or morphemes are switched between two words of a phrase. These are named after the Oxford don and priest William Archibald Spooner, who reportedly commonly s"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:53.027Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Sleepwalking",
-      "external_id": "wl-2026-06-21-003",
-      "category_id": "words_language",
-      "subcategory_name": "Definitions",
-      "value": 800,
-      "difficulty_rank": 4,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This clinical term for a parasomnia describes a state of dissociation in which features of wakefulness and deep non-REM sleep occur simultaneously in different brain regions, causing a person to perform normal activities while technically asleep.",
-      "answer": "Somnambulism",
-      "aliases": [
-        "somnambulism"
-      ],
-      "tags": [
-        "wl-draft",
-        "sourced",
-        "definitions",
-        "medicine"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Sleepwalking",
-          "url": "https://en.wikipedia.org/wiki/Sleepwalking",
-          "snippet": "Sleepwalking, also known as somnambulism or noctambulism, is a phenomenon of combined sleep and wakefulness. It is classified as a sleep disorder belonging to the parasomnia family. It can also be understood as a disorder of state dissociat"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:53.396Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Quarantine",
-      "external_id": "wl-2026-06-21-004",
-      "category_id": "words_language",
-      "subcategory_name": "Definitions",
-      "value": 800,
-      "difficulty_rank": 4,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "The English village of Eyam famously imposed this public health measure on itself in 1665, voluntarily sealing its borders so the bubonic plague it was suffering from could not spread to neighboring communities.",
-      "answer": "Quarantine",
-      "aliases": [
-        "quarantine"
-      ],
-      "tags": [
-        "wl-draft",
-        "sourced",
-        "definitions",
-        "medicine"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Quarantine",
-          "url": "https://en.wikipedia.org/wiki/Quarantine",
-          "snippet": "A quarantine is a restriction on the movement of people, animals, and goods which is intended to prevent the spread of disease or pests. It is often used in connection to disease and illness, preventing the movement of those who may have be"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:53.766Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Guillotine",
-      "external_id": "wl-2026-06-21-005",
-      "category_id": "words_language",
-      "subcategory_name": "Etymology",
-      "value": 1000,
-      "difficulty_rank": 5,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This execution apparatus was designed during the Enlightenment to make capital punishment more reliable and humane; its very name dates from the French Revolution, though similar devices had existed in Europe for centuries before then, and France last used it on September 10, 1977.",
-      "answer": "Guillotine",
-      "aliases": [
-        "guillotine"
-      ],
-      "tags": [
-        "wl-draft",
-        "sourced",
-        "etymology",
-        "eponym"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Guillotine",
-          "url": "https://en.wikipedia.org/wiki/Guillotine",
-          "snippet": "A guillotine is an apparatus designed for effectively carrying out executions by beheading. The device consists of a tall, upright frame with a weighted and angled blade suspended at the top. The condemned person is secured with a pillory a"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:54.135Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Silhouette",
-      "external_id": "wl-2026-06-21-006",
-      "category_id": "words_language",
-      "subcategory_name": "Etymology",
       "value": 400,
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Cutting portrait profiles from black card became popular in the mid-18th century, and this term for such images — now also applied to any dark shape seen against a lighter background — entered common English use in the early 19th century.",
-      "answer": "Silhouette",
+      "clue": "This term names a sentence that contains every letter of the alphabet at least once — the classic example being 'The quick brown fox jumps over the lazy dog.'",
+      "answer": "Pangram",
       "aliases": [
-        "silhouette"
+        "holoalphabetic sentence"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pangram",
+          "url": "https://en.wikipedia.org/wiki/Pangram",
+          "snippet": "A pangram, or holoalphabetic sentence, phrase, or word, uses every letter of a given alphabet at least once. Pangrams can be utilised to display typefaces, test equipment, or develop skills in handwriting, calligraphy, and typing, amongst o"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T20:53:56.238Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ennui",
+      "external_id": "wl-2026-06-21-003",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Borrowed directly from French, this word names a listless weariness and dissatisfaction that arises from boredom or a lack of excitement.",
+      "answer": "Ennui",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Boredom",
+          "url": "https://en.wikipedia.org/wiki/Boredom",
+          "snippet": "In conventional usage, boredom, ennui, or tedium is an emotion characterized by uninterest in one's surrounding, often caused by a lack of distractions or occupations. However, boredom is not well defined. It is distinct from depression and"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:56.623Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Franz_Mesmer",
+      "external_id": "wl-2026-06-21-004",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Meaning to hold someone so spellbound that they seem entranced, this verb derives from the surname of an 18th-century German physician who claimed to heal patients through 'animal magnetism.'",
+      "answer": "Mesmerize",
+      "aliases": [
+        "mesmerise"
       ],
       "tags": [
         "wl-draft",
@@ -184,144 +115,194 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Silhouette",
-          "url": "https://en.wikipedia.org/wiki/Silhouette",
-          "snippet": "A silhouette is the image of a person, animal, object or scene represented as a solid shape of a single colour, usually black, with its edges matching the outline of the subject. The interior of a silhouette is featureless, and the silhouet"
+          "title": "Franz Mesmer",
+          "url": "https://en.wikipedia.org/wiki/Franz_Mesmer",
+          "snippet": "Franz Anton Mesmer was a German physician with an interest in astronomy. He theorized the existence of a process of natural energy transference occurring between all animate and inanimate objects; this he called \"animal magnetism\", later re"
         }
       ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:54.504Z"
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:56.996Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Billabong",
-      "external_id": "wl-2026-06-21-007",
+      "source_url": "https://en.wikipedia.org/wiki/Leotard",
+      "external_id": "wl-2026-06-21-005",
       "category_id": "words_language",
       "subcategory_name": "Etymology",
       "value": 600,
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In Australian English, this term for a small body of still water — such as an oxbow lake or a river channel that leads to a dead end — is likely borrowed from Wiradjuri, an Aboriginal Australian language of New South Wales.",
-      "answer": "Billabong",
-      "aliases": [
-        "billabong"
-      ],
+      "clue": "This close-fitting one-piece garment worn by dancers and gymnasts takes its name from the 19th-century French acrobat who popularized the flying trapeze.",
+      "answer": "Leotard",
+      "aliases": [],
       "tags": [
         "wl-draft",
         "sourced",
-        "etymology",
-        "australian"
+        "etymology"
       ],
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Billabong",
-          "url": "https://en.wikipedia.org/wiki/Billabong",
-          "snippet": "In Australian English, a billabong is a small body of water, usually a permanent one created by a change in course or the flooding of a river. It is variously used to refer to oxbow lakes, dry creek beds that fill after heavy rainfall and c"
+          "title": "Leotard",
+          "url": "https://en.wikipedia.org/wiki/Leotard",
+          "snippet": "A leotard is a unisex one-piece skin-tight garment that covers the torso from the crotch to the shoulder. The garment was made famous by the French acrobatic performer Jules Léotard (1838–1870). There are sleeveless, short-sleeved, and long"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:54.874Z"
+      "verified_at": "2026-06-21T20:53:57.388Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Good_faith",
-      "external_id": "wl-2026-06-21-008",
+      "source_url": "https://en.wikipedia.org/wiki/Sideburns",
+      "external_id": "wl-2026-06-21-006",
       "category_id": "words_language",
-      "subcategory_name": "Foreign Words & Phrases",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This Latin phrase, literally meaning 'in good faith,' describes a sincere intention to be fair and honest regardless of outcome, and is an important concept in both contract law and business negotiations.",
-      "answer": "Bona fide",
-      "aliases": [
-        "bona fide",
-        "bona fides"
-      ],
-      "tags": [
-        "wl-draft",
-        "sourced",
-        "foreign-words",
-        "latin"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Good faith",
-          "url": "https://en.wikipedia.org/wiki/Good_faith",
-          "snippet": "In human interactions, good faith is a sincere intention to be fair, open, and honest, regardless of the outcome of the interaction. It is an important concept within law and business. The opposed concepts are bad faith, mala fides (duplici"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:55.244Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Status_quo",
-      "external_id": "wl-2026-06-21-009",
-      "category_id": "words_language",
-      "subcategory_name": "Foreign Words & Phrases",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This Latin phrase for the existing state of affairs is commonly used in policy debate to contrast current conditions with a proposed change, as in 'maintaining the nuclear arsenals at current levels.'",
-      "answer": "Status quo",
-      "aliases": [
-        "status quo"
-      ],
-      "tags": [
-        "wl-draft",
-        "sourced",
-        "foreign-words",
-        "latin"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Status quo",
-          "url": "https://en.wikipedia.org/wiki/Status_quo",
-          "snippet": "Status quo is a Latin phrase meaning the existing state of affairs, particularly with regard to social, economic, legal, environmental, political, religious, scientific or military issues. In the sociological sense, the status quo refers to"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:55.614Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu",
-      "external_id": "wl-2026-06-21-010",
-      "category_id": "words_language",
-      "subcategory_name": "Foreign Words & Phrases",
+      "subcategory_name": "Etymology",
       "value": 600,
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This French phrase — literally 'already seen' — names the uncanny psychological sensation of experiencing a seemingly new situation as deeply familiar, as if one has lived through it before.",
-      "answer": "Déjà vu",
+      "clue": "These patches of facial hair grown down the cheeks owe their name — with its two parts swapped — to a prominently whiskered Union general of the American Civil War.",
+      "answer": "Sideburns",
       "aliases": [
-        "deja vu",
-        "déjà vu"
+        "sideburn"
       ],
       "tags": [
         "wl-draft",
         "sourced",
-        "foreign-words",
-        "french",
-        "psychology"
+        "etymology"
       ],
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Déjà vu",
-          "url": "https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu",
-          "snippet": "Déjà vu is the phenomenon of feeling like one has lived through the present situation in the past. It is an illusion of memory whereby—despite a strong sense of recollection—the time, place, and context of the \"previous\" experience are unce"
+          "title": "Sideburns",
+          "url": "https://en.wikipedia.org/wiki/Sideburns",
+          "snippet": "Sideburns, sideboards, or side whiskers are facial hair grown on the sides of the face, extending from the hairline to run parallel to or beyond the ears. The term sideburns is a 19th-century corruption of the original burnsides, named afte"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-21T14:35:55.982Z"
+      "verified_at": "2026-06-21T20:53:57.776Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Auto-antonym",
+      "external_id": "wl-2026-06-21-007",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Also known as a Janus word, this is a term for a word that functions as its own opposite — 'cleave' can mean both to split apart and to cling together, and 'sanction' can mean both to permit and to penalize.",
+      "answer": "Contronym",
+      "aliases": [
+        "contranym",
+        "auto-antonym",
+        "autoantonym",
+        "Janus word"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Contronym",
+          "url": "https://en.wikipedia.org/wiki/Contronym",
+          "snippet": "A contronym is a word with two opposite meanings. For example, the word clip can mean \"attach,\" as in paperclip, or \"cut off,\" as in \"clip the hedges.\" Since a contronym has at least two meanings, it is by definition polysemic."
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:58.163Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Weltschmerz",
+      "external_id": "wl-2026-06-21-008",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Literally 'world-pain' in German, this term names a weary melancholy felt at the gap between the world as it is and the world as one wishes it could be.",
+      "answer": "Weltschmerz",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Weltschmerz",
+          "url": "https://en.wikipedia.org/wiki/Weltschmerz",
+          "snippet": "Weltschmerz is a literary concept describing the feeling experienced by an individual who believes that reality can never satisfy the expectations of the mind, resulting in \"a mood of weariness or sadness about life arising from the acute a"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T20:53:58.602Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mondegreen",
+      "external_id": "wl-2026-06-21-009",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Coined by the writer Sylvia Wright in 1954, this term for a misheard word or phrase — most often a misinterpreted song lyric — arose when she reinterpreted a ballad's line 'laid him on the green' as the name of a slain noblewoman.",
+      "answer": "Mondegreen",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mondegreen",
+          "url": "https://en.wikipedia.org/wiki/Mondegreen",
+          "snippet": "A mondegreen is a mishearing or misinterpretation of a phrase in a way that gives it a new meaning. Mondegreens are most often created by a person listening to a poem or a song; the listener, being unable to hear a lyric clearly, substitute"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-21T20:53:58.983Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tmesis",
+      "external_id": "wl-2026-06-21-010",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This rhetorical term names the insertion of a word into the middle of another word or phrase, as in 'abso-bloody-lutely' or 'a whole nother.'",
+      "answer": "Tmesis",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tmesis",
+          "url": "https://en.wikipedia.org/wiki/Tmesis",
+          "snippet": "Tmesis is either the dividing of a word into two parts, with another word inserted between those parts, thus forming a compound word, or, in a broader sense, a set phrase, such as a phrasal verb, with one or more words interpolated within, "
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-06-21T20:53:59.369Z"
     }
   ]
 }
