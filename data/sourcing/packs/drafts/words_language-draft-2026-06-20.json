@@ -3,7 +3,7 @@
   "provider": "claude-sonnet-4-6",
   "category_id": "words_language",
   "notes": [
-    "9-clue draft for words_language (17 active clues at time of authoring — tied for thinnest non-geography category). All clues sourced from data/sourcing/docs/words_language/. Subcategory spread: Definitions (4: Neologism, Quarantine, Silhouette, Somnambulism), Etymology (2: Spoonerism, Nimrod), Foreign Words & Phrases (3: Status quo, Bona fide, Billabong). CRITICAL: Umami was removed from consideration per edit-lessons §2 — 'a umami clue is Food & Drink (pop_culture_media_modern_life), NOT words_language.' Guillotine removed — primarily a historical artifact, not a linguistic term. First $1000 in words_language bank: Nimrod (son of Cush, great-grandson of Noah, biblical king of Shinar identified with Tower of Babel — specialist biblical genealogy as entry point). First $800: Somnambulism (parasomnia / slow-wave N3 sleep classification). Avoided all active + pending answers: Palindrome, Euphemism, Oxymoron, Onomatopoeia, Malapropism, Sandwich, Boycott, Museum, Portmanteau, Carpe diem, Déjà vu, Schadenfreude, Doppelgänger, Caveat emptor, Zeitgeist, Esperanto, Lingua franca."
+    "9-clue draft for words_language (17 active clues at time of authoring — tied for thinnest non-geography category). All clues sourced from data/sourcing/docs/words_language/ except Guy (added in review per Gabe — etymology of an ordinary word from Guy Fawkes). Subcategory spread: Definitions (2: Neologism, Somnambulism), Etymology (4: Quarantine, Spoonerism, Nimrod, Guy), Foreign Words & Phrases (3: Status quo, Bona fide, Billabong). [Silhouette removed as a cross-category dup of arts.] CRITICAL: Umami was removed from consideration per edit-lessons §2 — 'a umami clue is Food & Drink (pop_culture_media_modern_life), NOT words_language.' Guillotine removed — primarily a historical artifact, not a linguistic term. First $1000 in words_language bank: Nimrod (son of Cush, great-grandson of Noah, biblical king of Shinar identified with Tower of Babel — specialist biblical genealogy as entry point). First $800: Somnambulism (parasomnia / slow-wave N3 sleep classification). Avoided all active + pending answers: Palindrome, Euphemism, Oxymoron, Onomatopoeia, Malapropism, Sandwich, Boycott, Museum, Portmanteau, Carpe diem, Déjà vu, Schadenfreude, Doppelgänger, Caveat emptor, Zeitgeist, Esperanto, Lingua franca."
   ],
   "questions": [
     {
@@ -48,7 +48,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Named from the Italian for 'forty days' — the time arriving ships were held offshore in Venetian and Ragusan ports during the 14th-century Black Death — this measure isolates people or animals possibly exposed to a contagious disease.",
+      "clue": "Named from the Italian for the time arriving ships were held offshore in Venetian and Ragusan ports during the 14th-century Black Death, this measure isolates people or animals possibly exposed to a contagious disease.",
       "answer": "Quarantine",
       "aliases": [],
       "tags": [
@@ -77,7 +77,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Named for a Warden of New College, Oxford who was prone to the slip, this is the accidental swap of the initial sounds of two words — turning \"bunny rabbit\" into \"runny babbit.\"",
+      "clue": "Named for a Warden of New College, Oxford who was prone to the slip, this is the accidental swap of the initial sounds of two words — for example turning 'bunny rabbit' into 'runny babbit.'",
       "answer": "Spoonerism",
       "aliases": [],
       "tags": [
@@ -204,7 +204,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This parasomnia — a state in which features of deep sleep and full wakefulness occur at once — has the sleeper rise and carry out activities such as walking while still asleep.",
+      "clue": "Classified as a parasomnia of state dissociation, this condition occurs during the slow-wave N3 stage of non-REM sleep, when features of deep slumber and wakefulness surface at the same time and the sleeper carries out complex actions with no memory of them.",
       "answer": "Somnambulism",
       "aliases": [
         "sleepwalking",
@@ -256,6 +256,34 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-06-21T17:19:43.492Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Guy_Fawkes",
+      "external_id": "wl-draft-2026-06-20-010",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This now-common term for a male derives from the name of a 17th-century English revolutionary.",
+      "answer": "Guy",
+      "aliases": [],
+      "tags": [
+        "words-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Guy Fawkes",
+          "url": "https://en.wikipedia.org/wiki/Guy_Fawkes",
+          "snippet": "Guy Fawkes (1570-1606), a member of the Gunpowder Plot to blow up the House of Lords in 1605, gave his name to the effigies burned on Bonfire Night; 'guy' came to mean a grotesquely dressed figure and, in American English, a generic term for a man."
+        }
+      ],
+      "verification_status": "pending"
     }
   ]
 }
