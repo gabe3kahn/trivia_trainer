@@ -126,7 +126,7 @@ async function verifyWikipedia(question, deps) {
     // Marathon page's first paragraph is only the distance; Michel Bréal and the Ancient
     // Greek story are in the second. Falls back to the summary alone if the intro fetch fails.
     const intro = await wikiIntro(summary.title, deps).catch(() => '');
-    const corr = corroboration(question.clue, `${summary.title} ${summary.extract} ${intro}`);
+    let corr = corroboration(question.clue, `${summary.title} ${summary.extract} ${intro}`);
     // Did we actually find the ANSWER as a citable entity? (page title matches
     // the answer, or the answer appears in the article summary)
     const answerMatch =
@@ -134,15 +134,37 @@ async function verifyWikipedia(question, deps) {
       norm(question.answer).includes(norm(summary.title)) ||
       ` ${norm(summary.extract)} `.includes(` ${norm(question.answer)} `);
 
+    const verifiedBar = answerMatch ? 0.3 : 0.5;
+
+    // Lead intro alone often misses the supporting fact — etymology, history, and
+    // origin facts live in body sections the intro omits (Mesmer→"mesmerize", the
+    // Burnside→"sideburns" reversal, etc.). When lead-level overlap is below the
+    // verified bar, escalate to the FULL article plaintext and keep the better score.
+    // Only the minority of clues that don't already clear the bar pay this extra fetch.
+    let usedFullText = false;
+    if (corr.ratio < verifiedBar && deps.allowFullText !== false) {
+      const full = await wikiFullText(summary.title, deps).catch(() => '');
+      if (full) {
+        const fullCorr = corroboration(question.clue, full);
+        if (fullCorr.ratio > corr.ratio) {
+          corr = fullCorr;
+          usedFullText = true;
+        }
+      }
+    }
+
     // answerMatch => the answer is real and citable, so never "unverified" just
     // because an oblique clue reuses few literal words. clue-term overlap then
     // separates "verified" (clue clearly fits) from "weak" (check clue wording).
-    let status;
-    if (answerMatch) {
-      status = corr.ratio >= 0.3 ? 'verified' : 'weak';
-    } else {
-      status = corr.ratio >= 0.5 ? 'verified' : corr.ratio >= 0.25 ? 'weak' : 'unverified';
-    }
+    const status = answerMatch
+      ? corr.ratio >= 0.3
+        ? 'verified'
+        : 'weak'
+      : corr.ratio >= 0.5
+        ? 'verified'
+        : corr.ratio >= 0.25
+          ? 'weak'
+          : 'unverified';
 
     return {
       status,
@@ -157,7 +179,7 @@ async function verifyWikipedia(question, deps) {
           snippet: summary.extract.slice(0, 240),
         },
       ],
-      note: answerMatch ? 'answer-matches-source' : 'answer-not-explicit-in-summary',
+      note: `${answerMatch ? 'answer-matches-source' : 'answer-not-explicit-in-summary'}${usedFullText ? '+fulltext' : ''}`,
     };
   }
 
@@ -218,6 +240,21 @@ async function wikiIntro(title, deps) {
   const cached = deps.introCache?.get(wikiTitleKey(title));
   if (cached != null) return cached;
   const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&redirects=1&titles=${encodeURIComponent(String(title).replace(/ /g, '_'))}`;
+  const data = await deps.fetchJson(url);
+  const pages = data?.query?.pages;
+  if (!pages) return '';
+  const first = Object.values(pages)[0];
+  return String(first?.extract ?? '');
+}
+
+// FULL article plaintext (no exintro) — used to corroborate facts that sit in
+// body sections (Etymology, History, …) the lead omits, and to feed the LLM
+// entailment grader. Reads deps.bodyCache first if the caller pre-batched, else
+// one live call. Returned uncapped; callers truncate as needed.
+export async function wikiFullText(title, deps) {
+  const cached = deps.bodyCache?.get(wikiTitleKey(title));
+  if (cached != null) return cached;
+  const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&explaintext=1&redirects=1&titles=${encodeURIComponent(String(title).replace(/ /g, '_'))}`;
   const data = await deps.fetchJson(url);
   const pages = data?.query?.pages;
   if (!pages) return '';

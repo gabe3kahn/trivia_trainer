@@ -15,7 +15,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createSupabaseRequest, fetchAllSupabaseRows, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
-import { verifyAnswer, wikiTitleFromUrl, wikiTitleKey } from './source-verifier.mjs';
+import { verifyAnswer, wikiFullText, wikiTitleFromUrl, wikiTitleKey } from './source-verifier.mjs';
+import { gradeEntailment } from './llm-grader.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const fromDb = Boolean(args['from-db'] ?? args.fromDb);
@@ -23,6 +24,10 @@ const writeBack = Boolean(args['write-back'] ?? args.writeBack);
 const packPath = args.pack ?? 'data/acquisition/normalized/strategy-pack-001.json';
 const limit = args.limit ? Number(args.limit) : Infinity;
 const delayMs = Number(args.delayMs ?? 350);
+// LLM entailment escalation for low-overlap clues (Wikipedia-sourced only). On by
+// default; --no-llm disables (e.g. offline or to skip the model cost).
+const useLlm = !(args['no-llm'] ?? args.noLlm);
+const llmModel = typeof args.model === 'string' ? args.model : 'claude-haiku-4-5-20251001';
 
 let questions;
 let sourceLabel;
@@ -108,6 +113,57 @@ for (let i = 0; i < questions.length; i += 1) {
   if (delayMs > 0 && i < questions.length - 1) await wait(delayMs);
 }
 
+// LLM entailment escalation: token overlap penalizes good oblique clues (they
+// avoid the encyclopedia's wording on purpose), so re-judge every low-overlap
+// Wikipedia clue on FACT support rather than word match. One batched `claude`
+// call; clues it confirms move weak/unverified -> verified. Degrades to a no-op
+// if the CLI is unavailable, so overlap status stands.
+const escalate = results
+  .map((r, i) => ({ r, i }))
+  .filter(({ r }) => (r.status === 'weak' || r.status === 'unverified') && r.verified_via === 'wikipedia' && r.citations?.[0]);
+
+if (useLlm && escalate.length) {
+  console.log(`\nEscalating ${escalate.length} low-overlap clue(s) to the LLM entailment grader…`);
+  const items = [];
+  for (const { r, i } of escalate) {
+    const title = wikiTitleFromUrl(r.citations[0].url) ?? r.answer;
+    const source = await wikiFullText(title, { fetchJson }).catch(() => '');
+    if (source) items.push({ id: String(i), clue: r.clue, answer: r.answer, source });
+    if (delayMs > 0) await wait(delayMs);
+  }
+  const verdicts = await gradeEntailment(items, { model: llmModel });
+  let upgraded = 0;
+  for (const { r, i } of escalate) {
+    const v = verdicts.get(String(i));
+    if (!v?.supported) continue;
+    r.status = 'verified';
+    r.verified_by = 'llm-entailment';
+    r.llm_confidence = v.confidence;
+    r.note = `${r.note ?? ''}+llm-entailment`;
+    if (v.sentence) r.citations[0].snippet = v.sentence.slice(0, 240);
+    if (writeBack && !fromDb && questions[i]) {
+      questions[i].verification_status = 'verified';
+      questions[i].verified_by = 'llm-entailment';
+      questions[i].citations = r.citations;
+    }
+    upgraded += 1;
+    console.log(`  ↑ VERIFIED (LLM) ${r.answer}${v.confidence != null ? ` [${v.confidence}]` : ''}`);
+  }
+  if (verdicts.size === 0) console.log('  (grader returned nothing — CLI unavailable or errored; overlap status kept)');
+  console.log(`  Upgraded ${upgraded}/${escalate.length} via entailment.`);
+
+  // Recompute tallies after upgrades.
+  for (const k of Object.keys(counts)) counts[k] = 0;
+  for (const k of Object.keys(bySource)) bySource[k] = { verified: 0, weak: 0, unverified: 0, skipped: 0, total: 0 };
+  for (const r of results) {
+    counts[r.status] = (counts[r.status] ?? 0) + 1;
+    const prov = r.question_source ?? 'unknown';
+    bySource[prov] ??= { verified: 0, weak: 0, unverified: 0, skipped: 0, total: 0 };
+    bySource[prov][r.status] += 1;
+    bySource[prov].total += 1;
+  }
+}
+
 const summary = {
   generated_at: new Date().toISOString(),
   source: sourceLabel,
@@ -137,9 +193,9 @@ function renderMarkdown(s) {
     '# Source Verification',
     '',
     `Generated: ${s.generated_at}`,
-    `Pack: \`${s.pack}\``,
+    `Source: \`${s.source}\``,
     '',
-    `Each answer was looked up in a reputable source (Wikipedia; Wiktionary for definitions) and the clue's content words were checked against that source. \`verified\` = corroborated with a citation; \`weak\`/\`unverified\` = needs a human eye; \`skipped\` = constructed wordplay (not a factual lookup).`,
+    `Each answer is looked up in a reputable source (Wikipedia — full article text, not just the lead; Wiktionary for definitions). A clue first passes a fast token-overlap check; clues that score low (often just because an oblique clue avoids the source's wording) are escalated to an LLM entailment check that judges FACT support rather than word match. \`verified\` = corroborated (overlap or entailment — see \`verified_by\`); \`weak\`/\`unverified\` = needs a human eye; \`skipped\` = constructed wordplay (not a factual lookup).`,
     '',
     '## Summary',
     '',
