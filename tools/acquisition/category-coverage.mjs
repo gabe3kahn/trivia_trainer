@@ -47,6 +47,28 @@ const valueMix = (list) => {
   );
 };
 
+const CANON_TIERS = [200, 400, 600, 800, 1000];
+
+// Per-category difficulty balance + which tiers to fill next. Flags any tier below
+// 60% of the category's OWN mean-per-tier, so it's bidirectional: it surfaces a thin
+// $1000 in a mid-heavy category (e.g. pop culture) AND a thin $200 in a top-heavy one
+// (e.g. religion/mythology). The drafter weights its new pack toward the flagged tiers
+// — a gentle corrective, not a quota; difficulty still has to be earned per clue.
+const tierBalance = (list) => {
+  const m = {};
+  for (const r of list) m[r.value] = (m[r.value] || 0) + 1;
+  const mean = list.length / CANON_TIERS.length;
+  const hist = CANON_TIERS.map((v) => `$${v}×${m[v] ?? 0}`).join('  ');
+  const under = CANON_TIERS.filter((v) => (m[v] ?? 0) < 0.6 * mean);
+  const flag =
+    list.length === 0
+      ? '↳ no active clues yet — draft a full spread $200–$1000.'
+      : under.length
+        ? `↳ UNDER-WEIGHT (lean new clues here): ${under.map((v) => `$${v}`).join(', ')}`
+        : '↳ tiers reasonably balanced — keep a full spread.';
+  return `tier balance: ${hist}   (avg ${mean.toFixed(1)}/tier)\n${flag}`;
+};
+
 if (!only) {
   const byCat = new Map();
   for (const r of rows) (byCat.get(r.category_id) ?? byCat.set(r.category_id, []).get(r.category_id)).push(r);
@@ -75,7 +97,7 @@ if (!only) {
   );
 } else {
   console.log(`Category: ${only} (${catName.get(only) ?? '?'}) — ${rows.length} active questions`);
-  console.log(`values: ${valueMix(rows)}\n`);
+  console.log(`${tierBalance(rows)}\n`);
   const bySub = {};
   for (const r of rows) (bySub[subName.get(r.subcategory_id) ?? '(unmapped)'] ??= []).push(r);
   console.log('EXISTING ACTIVE ANSWERS — do NOT draft any of these again:');
