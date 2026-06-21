@@ -12,15 +12,20 @@
       "external_id": "wordplay-2026-06-20b-ana-01",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "After breakfast, she reached for the brush and headed outside, where morning light made the little flowering plant beside the mailbox look almost golden.",
+      "clue": "After breakfast, she reached for a paint brush and headed outside, where the morning light made the little flowering plant beside the mailbox look almost golden.",
       "answer": "Shrub",
       "aliases": [],
-      "wp": { "scramble": "brush" },
-      "tags": ["wordplay-draft", "anagram"],
+      "wp": {
+        "scramble": "brush"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -37,8 +42,13 @@
       "clue": "The scholar's snore echoed through the library all night, but come morning he had filled three notebooks with translations of the Viking-era manuscripts.",
       "answer": "Norse",
       "aliases": [],
-      "wp": { "scramble": "snore" },
-      "tags": ["wordplay-draft", "anagram"],
+      "wp": {
+        "scramble": "snore"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -55,8 +65,13 @@
       "clue": "The fishing lures arranged in his tackle box were more like trophies than tools, and the strict regulations governing catch limits only added to the sport's appeal.",
       "answer": "Rules",
       "aliases": [],
-      "wp": { "scramble": "lures" },
-      "tags": ["wordplay-draft", "anagram"],
+      "wp": {
+        "scramble": "lures"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -73,8 +88,13 @@
       "clue": "The kitchen was filled with plums, but despite the abundance of sweet fruit, the baker was in a creative rut she couldn't shake all week.",
       "answer": "Slump",
       "aliases": [],
-      "wp": { "scramble": "plums" },
-      "tags": ["wordplay-draft", "anagram"],
+      "wp": {
+        "scramble": "plums"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -84,15 +104,20 @@
       "external_id": "wordplay-2026-06-20b-ana-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
       "clue": "The hiking trail wound up the mountain, and at the summit twelve good citizens sat in quiet judgment of all they had witnessed below.",
       "answer": "Trial",
       "aliases": [],
-      "wp": { "scramble": "trail" },
-      "tags": ["wordplay-draft", "anagram"],
+      "wp": {
+        "scramble": "trail"
+      },
+      "tags": [
+        "wordplay-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -106,11 +131,17 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The clean-energy device mounted on rooftops worldwide lends its final word to the organized forum where rival experts take turns airing their views.",
+      "clue": "The senators had a vigorous debate concerning the clean-energy devices mounted on rooftops worldwide.",
       "answer": "Solar Panel Discussion",
       "aliases": [],
-      "wp": { "first": "Solar Panel", "second": "Panel Discussion" },
-      "tags": ["wordplay-draft", "before-after"],
+      "wp": {
+        "first": "Solar Panel",
+        "second": "Panel Discussion"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -124,11 +155,17 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The splitting headache triggered by eating frozen treats too quickly seizes the temples just as a photographer's shutter locks a fleeting scene into a still image.",
+      "clue": "The photographer endures a splitting headache from eating his ice cream too quickly just as his shutter locks a fleeting scene into a still image.",
       "answer": "Brain Freeze Frame",
       "aliases": [],
-      "wp": { "first": "Brain Freeze", "second": "Freeze Frame" },
-      "tags": ["wordplay-draft", "before-after"],
+      "wp": {
+        "first": "Brain Freeze",
+        "second": "Freeze Frame"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -142,11 +179,17 @@
       "difficulty_rank": 3,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The playground challenge that sends two ropes swinging simultaneously finds its culinary cousin in the heavy iron vessel with a tight-fitting lid, perfect for braising a Sunday roast.",
+      "clue": "A chef undertakes a playground challenge with two ropes swinging simultaneously while waiting for her dish to finish cooking in her signature cookpot.",
       "answer": "Double Dutch Oven",
       "aliases": [],
-      "wp": { "first": "Double Dutch", "second": "Dutch Oven" },
-      "tags": ["wordplay-draft", "before-after"],
+      "wp": {
+        "first": "Double Dutch",
+        "second": "Dutch Oven"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -160,11 +203,17 @@
       "difficulty_rank": 3,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The slumber party brawl fought with feather-stuffed cushions borrows its guiding principle from the underground bare-knuckle society whose first rule is never to speak of it.",
+      "clue": "Kids at a sleepover challenge each other to a slumber party brawl and swear never to speak of it.",
       "answer": "Pillow Fight Club",
       "aliases": [],
-      "wp": { "first": "Pillow Fight", "second": "Fight Club" },
-      "tags": ["wordplay-draft", "before-after"],
+      "wp": {
+        "first": "Pillow Fight",
+        "second": "Fight Club"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -178,11 +227,17 @@
       "difficulty_rank": 4,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The icy social rebuff that leaves a veteran unwelcome in a room lands precisely on the foam-cushioned equipment protecting a quarterback's throwing arm.",
+      "clue": "The quarterback's teammates ostracize him after he threw a key interception, forcing him to take his equipment off by himself.",
       "answer": "Cold Shoulder Pad",
       "aliases": [],
-      "wp": { "first": "Cold Shoulder", "second": "Shoulder Pad" },
-      "tags": ["wordplay-draft", "before-after"],
+      "wp": {
+        "first": "Cold Shoulder",
+        "second": "Shoulder Pad"
+      },
+      "tags": [
+        "wordplay-draft",
+        "before-after"
+      ],
       "citations": [],
       "verification_status": "skipped"
     }

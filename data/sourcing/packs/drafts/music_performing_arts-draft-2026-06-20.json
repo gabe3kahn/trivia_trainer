@@ -12,8 +12,8 @@
       "external_id": "music-draft-2026-06-20-001",
       "category_id": "music_performing_arts",
       "subcategory_name": "Popular Music",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Set in 1913 to the traditional Irish melody of the Londonderry Air, this beloved folk ballad's lyrics were written three years earlier by English lawyer Frederic Weatherly.",
@@ -34,37 +34,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:49.625Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Saturday_Night_Fever",
-      "external_id": "music-draft-2026-06-20-002",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Film Scores & Soundtracks",
-      "value": 200,
-      "difficulty_rank": 1,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "The Bee Gees composed the landmark soundtrack for this 1977 dance drama starring John Travolta, which helped popularize disco worldwide and was selected for preservation by the Library of Congress in 2010.",
-      "answer": "Saturday Night Fever",
-      "aliases": [],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "film-score",
-        "disco"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Saturday Night Fever",
-          "url": "https://en.wikipedia.org/wiki/Saturday_Night_Fever",
-          "snippet": "Saturday Night Fever is a 1977 American dance drama film directed by John Badham and produced by Robert Stigwood. It stars John Travolta as Tony Manero, a young Italian-American man who spends his weekends dancing and drinking at a local di"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:49.981Z"
+      "verified_at": "2026-06-21T17:19:39.546Z"
     },
     {
       "source": "original_sourced",
@@ -95,7 +65,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:50.337Z"
+      "verified_at": "2026-06-21T17:19:39.717Z"
     },
     {
       "source": "original_sourced",
@@ -127,7 +97,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:50.694Z"
+      "verified_at": "2026-06-21T17:19:39.906Z"
     },
     {
       "source": "original_sourced",
@@ -159,37 +129,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:51.050Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/The_Greatest_Showman",
-      "external_id": "music-draft-2026-06-20-006",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Film Scores & Soundtracks",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Starring Hugh Jackman as P. T. Barnum, this 2017 musical film won the Golden Globe for Best Original Song for \"This Is Me\" and the Grammy Award for Best Compilation Soundtrack for Visual Media.",
-      "answer": "The Greatest Showman",
-      "aliases": [],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "film-score",
-        "musical"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "The Greatest Showman",
-          "url": "https://en.wikipedia.org/wiki/The_Greatest_Showman",
-          "snippet": "The Greatest Showman is a 2017 American musical period drama film directed by Michael Gracey from a screenplay by Jenny Bicks and Bill Condon, based on an original story by Bicks. The film stars Hugh Jackman, Zac Efron, Michelle Williams, R"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:51.406Z"
+      "verified_at": "2026-06-21T17:19:40.089Z"
     },
     {
       "source": "original_sourced",
@@ -219,7 +159,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:51.763Z"
+      "verified_at": "2026-06-21T17:19:40.315Z"
     },
     {
       "source": "original_sourced",
@@ -231,7 +171,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In music, this term names a formation of exactly seven performers — one larger than a sextet and one smaller than an octet — and can also apply to a seven-line stanza of poetry.",
+      "clue": "In music, this term names a formation of exactly seven performers, and can also apply to a seven-line stanza of poetry.",
       "answer": "Septet",
       "aliases": [],
       "tags": [
@@ -249,7 +189,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:52.119Z"
+      "verified_at": "2026-06-21T17:19:40.503Z"
     },
     {
       "source": "original_sourced",
@@ -278,7 +218,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:52.529Z"
+      "verified_at": "2026-06-21T17:19:40.725Z"
     },
     {
       "source": "original_sourced",
@@ -308,7 +248,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:52.885Z"
+      "verified_at": "2026-06-21T17:19:40.901Z"
     },
     {
       "source": "original_sourced",
@@ -341,7 +281,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:53.290Z"
+      "verified_at": "2026-06-21T17:19:41.078Z"
     },
     {
       "source": "original_sourced",
@@ -373,7 +313,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:53.697Z"
+      "verified_at": "2026-06-21T17:19:41.245Z"
     },
     {
       "source": "original_sourced",
@@ -405,7 +345,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:54.053Z"
+      "verified_at": "2026-06-21T17:19:41.414Z"
     },
     {
       "source": "original_sourced",
@@ -417,7 +357,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The B-side of this 1976 KC and the Sunshine Band chart-topper — their third number-one on both the Billboard Hot 100 and Hot Soul Singles — was \"Boogie Shoes,\" which only became a hit after appearing on a disco film soundtrack the following year.",
+      "clue": "The B-side of this 1976 KC and the Sunshine Band chart-topper was \"Boogie Shoes,\" which only became a hit after appearing on a disco film soundtrack the following year.",
       "answer": "(Shake, Shake, Shake) Shake Your Booty",
       "aliases": [
         "Shake Your Booty"
@@ -437,7 +377,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:54.409Z"
+      "verified_at": "2026-06-21T17:19:41.580Z"
     },
     {
       "source": "original_sourced",
@@ -467,7 +407,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-20T16:37:54.764Z"
+      "verified_at": "2026-06-21T17:19:41.765Z"
     }
   ]
 }
