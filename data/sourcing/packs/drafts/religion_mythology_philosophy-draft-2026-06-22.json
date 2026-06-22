@@ -1,0 +1,469 @@
+{
+  "pack_id": "religion_mythology_philosophy-draft-2026-06-22",
+  "category_id": "religion_mythology_philosophy",
+  "created_at": "2026-06-22",
+  "notes": "Run 2026-06-22 (category 1 of 2). Active count was 29 — thinnest non-geography category. Focused on filling the heavily under-weight $200 tier (only 1 active) and missing subcategories: Bible (0 active), Religious Texts & Terms, Symbols/Rituals, World Religions (1 active). Includes 2 x $1000 hard-tail clues from the Bible. Fetched docs via build-topic-docs with religion/mythology keywords.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Quran",
+      "external_id": "rmp-2026-06-22-001",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Believed by Muslims to be a direct revelation from God, this Arabic scripture is organized into 114 chapters called sūrahs and is widely regarded as the finest work in Arabic literature.",
+      "answer": "Quran",
+      "aliases": [
+        "Koran",
+        "Qur'an",
+        "The Quran"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "religious-texts"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Quran",
+          "url": "https://en.wikipedia.org/wiki/Quran",
+          "snippet": "The Quran, also romanized Qur'an or Koran, is the central religious text of Islam, believed by Muslims to be a revelation directly from God (Allāh). It is organized in 114 chapters which consist of individual verses. Besides its religious s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:19.878Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ramadan",
+      "external_id": "rmp-2026-06-22-002",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "One of the Five Pillars of Islam, this ninth month of the Islamic calendar is observed worldwide as a month of fasting and communal prayer.",
+      "answer": "Ramadan",
+      "aliases": [
+        "Ramazan"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "symbols-rituals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ramadan",
+          "url": "https://en.wikipedia.org/wiki/Ramadan",
+          "snippet": "Ramadan is the ninth month of the Islamic calendar. It is observed by Muslims worldwide as a month of fasting (sawm), communal prayer (salah), reflection, study of the Quran, charity, and strengthening community ties. It is also the month i"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:20.260Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Islam",
+      "external_id": "rmp-2026-06-22-003",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Based on the Quran and the teachings of the Prophet Muhammad, this Abrahamic monotheistic faith has roughly two billion followers, making it the world's second-largest religion.",
+      "answer": "Islam",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Islam",
+          "url": "https://en.wikipedia.org/wiki/Islam",
+          "snippet": "Islam is an Abrahamic monotheistic religion based on the Quran and the teachings of Muhammad. The religion has an estimated 2 billion worldwide adherents, called Muslims. Islam is the world's second-largest religious population after Christ"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:20.650Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Torah",
+      "external_id": "rmp-2026-06-22-004",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Comprising the first five books of the Hebrew Bible — from Genesis through Deuteronomy — this scripture's name means 'instruction' or 'teaching' in Hebrew and is also known as the Pentateuch.",
+      "answer": "Torah",
+      "aliases": [
+        "Pentateuch",
+        "Five Books of Moses"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "religious-texts"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Torah",
+          "url": "https://en.wikipedia.org/wiki/Torah",
+          "snippet": "The Torah is the compilation of the first five books of the Hebrew Bible, namely the books of Genesis, Exodus, Leviticus, Numbers and Deuteronomy. The Torah is also known as the Pentateuch or the Five Books of Moses. In Rabbinical Jewish tr"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:21.033Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Karma",
+      "external_id": "rmp-2026-06-22-005",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient Sanskrit concept, central to Hinduism, Buddhism, and Jainism, holds that a person's intentions and actions determine their future — good deeds contributing to happier rebirths, bad deeds to suffering.",
+      "answer": "Karma",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Karma",
+          "url": "https://en.wikipedia.org/wiki/Karma",
+          "snippet": "Karma is an ancient Indian concept that refers to an action, work, or deed, and its effect or consequences. In Indian religions, the term more specifically refers to a principle of cause and effect, often descriptively called the principle "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:21.413Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/David",
+      "external_id": "rmp-2026-06-22-006",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The second king of the unified Kingdom of Israel according to the Hebrew Bible, this former shepherd slew the Philistine giant Goliath and made Jerusalem his royal capital.",
+      "answer": "King David",
+      "aliases": [
+        "David"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "David",
+          "url": "https://en.wikipedia.org/wiki/David",
+          "snippet": "David was, originally, leader of the Tribe of Judah who became the second king of the united Kingdom of Israel, according to the Hebrew Bible and Old Testament."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:21.803Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hinduism",
+      "external_id": "rmp-2026-06-22-007",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often called Sanātana Dharma, this tradition is unified by adherence to dharma rather than any single founder or creed, and is frequently described as the world's oldest surviving religion.",
+      "answer": "Hinduism",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hinduism",
+          "url": "https://en.wikipedia.org/wiki/Hinduism",
+          "snippet": "\nHinduism is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that are unified by adherence to the concept of dharma, a cosmic order maintained by its followers through rituals and righteous living, as"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:22.192Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nirvana",
+      "external_id": "rmp-2026-06-22-008",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Indian religious traditions including Buddhism and Hinduism, this concept represents ultimate liberation — the extinguishing of personal desire and release from the cycle of rebirth known as saṃsāra.",
+      "answer": "Nirvana",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nirvana",
+          "url": "https://en.wikipedia.org/wiki/Nirvana",
+          "snippet": "Nirvana, in the Indian religions, is the concept of an individual's passions being extinguished as the ultimate state of salvation, release, or liberation from suffering (duḥkha) and from the cycle of birth and rebirth (saṃsāra)."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:22.574Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Minotaur",
+      "external_id": "rmp-2026-06-22-009",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Also called Asterion, this creature of Greek myth — part man, part ox — dwelt at the center of the Labyrinth built by Daedalus on Crete and was ultimately killed by the hero Theseus.",
+      "answer": "Minotaur",
+      "aliases": [
+        "the Minotaur",
+        "Asterius"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Minotaur",
+          "url": "https://en.wikipedia.org/wiki/Minotaur",
+          "snippet": "In Greek mythology, the Minotaur, also known as Asterion or Asterius, is a mythical creature portrayed during classical antiquity with the head and tail of a bull and the body of a man or, as described by Roman poet Ovid, a being \"part man "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:22.957Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Utilitarianism",
+      "external_id": "rmp-2026-06-22-010",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Associated with Jeremy Bentham and John Stuart Mill, this ethical theory holds that the morally right action is whatever produces the greatest happiness for the greatest number of people affected.",
+      "answer": "Utilitarianism",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophical-schools"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Utilitarianism",
+          "url": "https://en.wikipedia.org/wiki/Utilitarianism",
+          "snippet": "Utilitarianism is a family of theories in normative ethics that prescribe actions that maximize happiness and well-being for the affected individuals. In other words, utilitarian ideas encourage actions that lead to the greatest good for th"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:23.338Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Athena",
+      "external_id": "rmp-2026-06-22-011",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Hesiod's Theogony, Zeus swallowed his pregnant consort Metis, and this goddess of wisdom sprang fully armored from his forehead; she was later identified with the Roman Minerva.",
+      "answer": "Athena",
+      "aliases": [
+        "Athene",
+        "Pallas Athena",
+        "Pallas"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Athena",
+          "url": "https://en.wikipedia.org/wiki/Athena",
+          "snippet": "Athena or Athene, often given the epithet Pallas, is an ancient Greek goddess associated with wisdom, warfare, and handicraft who was later syncretised with the Roman goddess Minerva. Athena was regarded as the patron and protectress of var"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:23.720Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Aphrodite",
+      "external_id": "rmp-2026-06-22-012",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The cult of this Greek goddess associated with love and beauty may have derived from the Phoenician goddess Astarte, herself a cognate of the East Semitic Ishtar and the older Sumerian Inanna.",
+      "answer": "Aphrodite",
+      "aliases": [
+        "Venus"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Aphrodite",
+          "url": "https://en.wikipedia.org/wiki/Aphrodite",
+          "snippet": "Aphrodite is an ancient Greek goddess associated with love, lust, beauty, pleasure, passion, procreation, and as her syncretised Roman counterpart Venus, desire, sex, fertility, prosperity, and victory. Aphrodite's major symbols include sea"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:24.100Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Counter-Reformation",
+      "external_id": "rmp-2026-06-22-013",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Catholic resurgence — also called the Catholic Revival — arose in response to the Protestant challenge and was formally shaped by the Council of Trent's decrees issued between 1545 and 1563.",
+      "answer": "Counter-Reformation",
+      "aliases": [
+        "Catholic Reformation",
+        "Catholic Revival"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Counter-Reformation",
+          "url": "https://en.wikipedia.org/wiki/Counter-Reformation",
+          "snippet": "The Counter-Reformation, also sometimes called the Catholic Revival or the Catholic Reformation, was the period of Catholic resurgence that was initiated in response to and as an alternative to, or from similar insights as, the Protestant R"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:24.482Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Leah",
+      "external_id": "rmp-2026-06-22-014",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When her younger sister Rachel traded a night with their shared husband for mandrake plants, this Hebrew Bible matriarch agreed and bore two more sons — Issachar and Zebulun — to bring her count to six.",
+      "answer": "Leah",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Leah",
+          "url": "https://en.wikipedia.org/wiki/Leah",
+          "snippet": "Leah appears in the Hebrew Bible as one of the two wives of the Biblical patriarch Jacob. Leah was Jacob's first wife, and the older sister of his second wife Rachel. She is the mother of Jacob's first son Reuben. She has three more sons, n"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:24.871Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Book_of_Lamentations",
+      "external_id": "rmp-2026-06-22-015",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Hebrew Bible book's opening word — 'Eikhah,' meaning 'How' — serves as its Hebrew title; its five acrostic poems grieve the Babylonian sack of Jerusalem in 586 BCE.",
+      "answer": "Lamentations",
+      "aliases": [
+        "Book of Lamentations",
+        "Eikhah"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Book of Lamentations",
+          "url": "https://en.wikipedia.org/wiki/Book_of_Lamentations",
+          "snippet": "The Book of Lamentations is a collection of poetic laments for the destruction of Jerusalem in 586 BCE. In the Hebrew Bible, it appears in the Ketuvim (\"Writings\") as one of the Five Megillot alongside the Song of Songs, Book of Ruth, Eccle"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:25.261Z"
+    }
+  ]
+}
