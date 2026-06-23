@@ -76,13 +76,17 @@ function matchesSurname(submitted: string, answer: string) {
   const surname = answerTokens[answerTokens.length - 1];
   if (surname.length < 5) return false;
 
+  // Only a BARE surname qualifies for this shortcut ("Pollock" for "Jackson Pollock").
+  // A multi-word submission that merely ENDS in the surname is NOT a surname-only answer
+  // and must be judged as a full phrase — otherwise "winged horse of victory" is scored
+  // correct against the alias "Winged Victory" just because both end in "victory".
   const submittedTokens = submitted.split(' ').filter(Boolean);
-  const lastSubmitted = submittedTokens[submittedTokens.length - 1] ?? submitted;
-  if (!lastSubmitted) return false;
-  if (lastSubmitted === surname) return true;
+  if (submittedTokens.length !== 1) return false;
+  const only = submittedTokens[0];
+  if (only === surname) return true;
   // A different initial almost always means a different name, not a typo.
-  if (lastSubmitted[0] !== surname[0]) return false;
-  return surname.length >= 6 && levenshtein(lastSubmitted, surname) <= 1;
+  if (only[0] !== surname[0]) return false;
+  return surname.length >= 6 && levenshtein(only, surname) <= 1;
 }
 
 export function normalizeAnswer(value: string) {
