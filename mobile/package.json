@@ -31,9 +31,12 @@
   "devDependencies": {
     "@types/react": "~19.1.0",
     "react-test-renderer": "19.1.0",
-    "typescript": "~5.9.2"
+    "typescript": "~5.9.2",
+    "vitest": "^2.1.9"
   },
   "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
