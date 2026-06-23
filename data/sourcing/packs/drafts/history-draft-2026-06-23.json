@@ -1,0 +1,461 @@
+{
+  "generated_at": "2026-06-23T00:00:00.000Z",
+  "provider": "automated-drafter",
+  "category_id": "history",
+  "notes": "Daily draft 2026-06-23. 14 sourced clues. Tier focus: $800 (×2) and $1000 (×1) to reduce the under-weight gap at the top. Covers European History, Historical Figures, Revolutions, U.S. History, Empires & Dynasties, Medieval & Renaissance, and U.S. Presidents.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Brexit",
+      "external_id": "hist-2026-06-23-001",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Formed from the country's informal nickname and the English word for departure, this portmanteau became shorthand for the United Kingdom's January 2020 withdrawal from the European Union, marking the first time a member state had done so.",
+      "answer": "Brexit",
+      "aliases": [],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Brexit",
+          "url": "https://en.wikipedia.org/wiki/Brexit",
+          "snippet": "Brexit was the withdrawal of the United Kingdom (UK) from the European Union (EU)."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:34.458Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Eva_Per%C3%B3n",
+      "external_id": "hist-2026-06-23-002",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Shortly before dying of cancer at 33, this Argentine first lady was granted the title 'Spiritual Leader of the Nation' by the national legislature; she had also championed women's suffrage and organized the country's first large-scale women's political movement.",
+      "answer": "Eva Perón",
+      "aliases": [
+        "Evita",
+        "Evita Perón"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Eva Perón",
+          "url": "https://en.wikipedia.org/wiki/Eva_Per%C3%B3n",
+          "snippet": "María Eva Duarte de Perón, better known as Eva \"Evita\" Perón, was an Argentine politician, activist, and actress who served as First Lady of Argentina from June 1946 until her death in July 1952, as the wife of Argentine President Juan Peró"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:34.837Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+      "external_id": "hist-2026-06-23-003",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When Lieutenant Colonel Alexander Hamilton led an assault column to storm a key British outer fortification in October 1781, the surrounded British commander had no alternative but to surrender, closing the major land fighting of the American Revolution.",
+      "answer": "Battle of Yorktown",
+      "aliases": [
+        "Siege of Yorktown",
+        "Yorktown"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "revolutions-independence"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Siege of Yorktown",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+          "snippet": "The Siege of Yorktown, also known as the Battle of Yorktown and the surrender at Yorktown, took place in 1781 and was the final major land engagement of the American Revolutionary War. It was won decisively by the Continental Army, led by G"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:35.216Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_Day",
+      "external_id": "hist-2026-06-23-004",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First observed on April 22, 1970, at the proposal of a Wisconsin senator, this annual global environmental observance — now recognized in more than 193 countries — took its catchy name from an advertising writer who coined the phrase for the occasion.",
+      "answer": "Earth Day",
+      "aliases": [],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Earth Day",
+          "url": "https://en.wikipedia.org/wiki/Earth_Day",
+          "snippet": "Earth Day is an annual event on April 22 to demonstrate support for environmental protection. First held on April 22, 1970, it now includes a wide range of events coordinated globally through earthday.org including 1 billion people in more "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:35.595Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Whig_Party_(United_States)",
+      "external_id": "hist-2026-06-23-005",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This short-lived antebellum political movement produced four U.S. presidents — including William Henry Harrison and Millard Fillmore — before collapsing in 1854 when the Kansas-Nebraska Act drove most of its Northern members toward a new anti-slavery coalition.",
+      "answer": "Whig Party",
+      "aliases": [
+        "Whigs",
+        "the Whig Party",
+        "the Whigs"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Whig Party (United States)",
+          "url": "https://en.wikipedia.org/wiki/Whig_Party_(United_States)",
+          "snippet": "The Whig Party was a political party in the United States that existed from 1833 to 1854. Alongside the Democratic Party, it was one of two major parties from the late 1830s until the early 1850s and part of the Second Party System. As well"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:35.975Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Timbuktu",
+      "external_id": "hist-2026-06-23-006",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After a visit by a fabulously wealthy Mali emperor around 1325, this West African city at the junction of Saharan trade routes for salt, gold, and ivory rose to prominence as an Islamic center of learning anchored by its famous theological school.",
+      "answer": "Timbuktu",
+      "aliases": [
+        "Tombouctou"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "empires-dynasties"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Timbuktu",
+          "url": "https://en.wikipedia.org/wiki/Timbuktu",
+          "snippet": "Timbuktu is an ancient city in Mali, situated 20 kilometres north of the Niger River. It is the capital of the Tombouctou Region, one of the 19 administrative regions of Mali, having a population of around one million people in the 2022 cen"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:36.353Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tennessee",
+      "external_id": "hist-2026-06-23-007",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Deeply divided between a Unionist east and a secessionist west, this state holds the distinction of being both the last to secede and join the Confederacy and the first former Confederate state readmitted to the Union after the Civil War.",
+      "answer": "Tennessee",
+      "aliases": [
+        "State of Tennessee"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tennessee",
+          "url": "https://en.wikipedia.org/wiki/Tennessee",
+          "snippet": "Tennessee, officially the State of Tennessee, is a landlocked state in the Southeastern region of the United States. It borders Kentucky to the north, Virginia to the northeast, North Carolina to the east, Georgia, Alabama, and Mississippi "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:36.733Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Siege_of_Vicksburg",
+      "external_id": "hist-2026-06-23-008",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Abraham Lincoln called this Confederate stronghold 'the key to the war'; when it surrendered to Ulysses Grant on July 4, 1863, the Union gained full control of the Mississippi River and effectively split the Confederacy into two separate zones.",
+      "answer": "Siege of Vicksburg",
+      "aliases": [
+        "Vicksburg",
+        "Battle of Vicksburg",
+        "fall of Vicksburg"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Siege of Vicksburg",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Vicksburg",
+          "snippet": "The siege of Vicksburg was the final major military action in the Vicksburg campaign of the American Civil War. In a series of maneuvers, Union Major General Ulysses S. Grant and his Army of the Tennessee crossed the Mississippi River and d"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:37.112Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Romania",
+      "external_id": "hist-2026-06-23-009",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Formed in 1859 by the union of Moldavia and Wallachia under Alexandru Ioan Cuza, this Eastern European country declared independence from the Ottoman Empire in 1877 and was proclaimed a kingdom four years later under Carol I.",
+      "answer": "Romania",
+      "aliases": [
+        "Kingdom of Romania"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "empires-dynasties"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Romania",
+          "url": "https://en.wikipedia.org/wiki/Romania",
+          "snippet": "Romania is a country in Southeast and Central Europe. It lies on the lower course of the Danube, north of the Balkan Peninsula, and on the northwestern shore of the Black Sea. It borders Ukraine to the north and east, Hungary to the west, S"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:37.491Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Herbert_Hoover",
+      "external_id": "hist-2026-06-23-010",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Among Stanford University's first cohort of graduates, this American statesman organized wartime food relief for occupied Belgium during World War I, then directed the federal response to the catastrophic Mississippi River flooding of 1927, before his presidency was consumed by economic collapse.",
+      "answer": "Herbert Hoover",
+      "aliases": [
+        "Hoover"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Herbert Hoover",
+          "url": "https://en.wikipedia.org/wiki/Herbert_Hoover",
+          "snippet": "Herbert Clark Hoover was the 31st president of the United States, serving from 1929 to 1933. As a member of the Republican Party, he served as the third United States secretary of commerce from 1921 to 1928 before being elected president in"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:37.870Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/India",
+      "external_id": "hist-2026-06-23-011",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1947 event divided a vast South Asian subcontinent into two independent dominions — one with a Hindu majority and one with a Muslim majority — accompanied by one of the largest forced population transfers in recorded history.",
+      "answer": "Partition of India",
+      "aliases": [
+        "Indian Partition",
+        "India-Pakistan Partition"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "revolutions-independence"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "India",
+          "url": "https://en.wikipedia.org/wiki/India",
+          "snippet": "India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the most populous country in the world and, since its independence in 1947, the world's most populous democracy. Bounded by the "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:38.249Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Giuseppe_Garibaldi",
+      "external_id": "hist-2026-06-23-012",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A.J.P. Taylor hailed him as 'the only wholly admirable figure in modern history'; this general spent fourteen years in exile fighting with rebel forces in South America before returning to lead red-shirted volunteers in the campaign that forged a unified kingdom in southern Europe.",
+      "answer": "Giuseppe Garibaldi",
+      "aliases": [
+        "Garibaldi"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Giuseppe Garibaldi",
+          "url": "https://en.wikipedia.org/wiki/Giuseppe_Garibaldi",
+          "snippet": "Giuseppe Maria Garibaldi was an Italian general, revolutionary and republican. He contributed to the Unification of Italy (Risorgimento) and the creation of the Kingdom of Italy. He is considered to be one of Italy's \"fathers of the fatherl"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:38.627Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Prince_Henry_the_Navigator",
+      "external_id": "hist-2026-06-23-013",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Third son of Portugal's King John I, this 15th-century prince directed from his Algarve court the systematic charting of West Africa's coastline, establishing the caravel as the vessel of choice for a new age of oceanic exploration.",
+      "answer": "Henry the Navigator",
+      "aliases": [
+        "Prince Henry the Navigator",
+        "Prince Henry",
+        "Infante Henrique"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "medieval-renaissance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Prince Henry the Navigator",
+          "url": "https://en.wikipedia.org/wiki/Prince_Henry_the_Navigator",
+          "snippet": "Prince Henry the Navigator, was a Portuguese prince, a central figure in the early days of the Portuguese Empire and often credited as one of the main initiators of the Age of Discovery. Henry was the third child of King John I of Portugal,"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:39.007Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/George_V",
+      "external_id": "hist-2026-06-23-014",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 1917, watching the thrones of both of his first cousins fall — one the German Kaiser and the other the Russian Tsar — this British monarch quietly changed his dynasty's name away from its German-sounding ancestral designation.",
+      "answer": "George V",
+      "aliases": [
+        "King George V"
+      ],
+      "tags": [
+        "history-draft",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "George V",
+          "url": "https://en.wikipedia.org/wiki/George_V",
+          "snippet": "George V was King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-23T16:37:39.435Z"
+    }
+  ]
+}
