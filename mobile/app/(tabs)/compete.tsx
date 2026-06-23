@@ -40,17 +40,12 @@ export default function CompeteScreen() {
     }
   }, []);
 
-  // Pending incoming requests (no dedicated RPC; read friendships where I'm the addressee).
+  // Pending incoming requests. Use the SECURITY DEFINER RPC rather than reading profiles
+  // directly — RLS hides the requester's profile until you're friends, which made every
+  // request render as "Someone".
   async function loadPending() {
-    const me = (await supabase.auth.getUser()).data.user?.id;
-    if (!me) return;
-    const { data } = await supabase
-      .from('friendships').select('id, requester_id, status').eq('addressee_id', me).eq('status', 'pending');
-    const rows = data ?? [];
-    if (!rows.length) { setPending([]); return; }
-    const { data: profs } = await supabase.from('profiles').select('id, display_name, username').in('id', rows.map((r: any) => r.requester_id));
-    const nameOf = new Map((profs ?? []).map((p: any) => [p.id, p.display_name ?? p.username ?? 'Someone']));
-    setPending(rows.map((r: any) => ({ id: r.id, name: nameOf.get(r.requester_id) ?? 'Someone' })));
+    const { data } = await (supabase.rpc as any)('list_friend_requests');
+    setPending((data ?? []).map((r: any) => ({ id: r.id, name: r.display_name ?? r.username ?? 'Someone' })));
   }
 
   // Re-focus refetch, but skip if we loaded very recently — switching tabs back
