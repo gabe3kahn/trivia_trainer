@@ -18,7 +18,7 @@
 create or replace function public.respond_friend_request(p_id uuid, p_accept boolean)
 returns void language plpgsql security definer set search_path = public as $$
 begin
-  update friendships
+  update public.friendships
      set status      = (case when p_accept then 'accepted' else 'blocked' end)::friendship_status,
          accepted_at = case when p_accept then now() else accepted_at end
    where id = p_id and addressee_id = auth.uid() and status = 'pending';
@@ -28,8 +28,8 @@ create or replace function public.list_friend_requests()
 returns table (id uuid, requester_id uuid, username text, display_name text, avatar_url text)
 language sql stable security definer set search_path = public as $$
   select f.id, f.requester_id, p.username, p.display_name, p.avatar_url
-  from friendships f
-  join profiles p on p.id = f.requester_id
+  from public.friendships f
+  join public.profiles p on p.id = f.requester_id
   where f.addressee_id = auth.uid() and f.status = 'pending'
   order by f.created_at desc;
 $$;
