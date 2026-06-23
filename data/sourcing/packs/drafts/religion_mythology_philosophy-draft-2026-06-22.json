@@ -70,35 +70,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Islam",
-      "external_id": "rmp-2026-06-22-003",
-      "category_id": "religion_mythology_philosophy",
-      "subcategory_name": "World Religions",
-      "value": 200,
-      "difficulty_rank": 1,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Based on the Quran and the teachings of the Prophet Muhammad, this Abrahamic monotheistic faith has roughly two billion followers, making it the world's second-largest religion.",
-      "answer": "Islam",
-      "aliases": [],
-      "tags": [
-        "rmp-draft",
-        "sourced",
-        "world-religions"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Islam",
-          "url": "https://en.wikipedia.org/wiki/Islam",
-          "snippet": "Islam is an Abrahamic monotheistic religion based on the Quran and the teachings of Muhammad. The religion has an estimated 2 billion worldwide adherents, called Muslims. Islam is the world's second-largest religious population after Christ"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-22T14:25:20.650Z"
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Torah",
       "external_id": "rmp-2026-06-22-004",
       "category_id": "religion_mythology_philosophy",
@@ -228,7 +199,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In Indian religious traditions including Buddhism and Hinduism, this concept represents ultimate liberation — the extinguishing of personal desire and release from the cycle of rebirth known as saṃsāra.",
+      "clue": "In some eastern religious traditions, this concept represents ultimate liberation — the extinguishing of personal desire and release from the cycle of rebirth known as saṃsāra.",
       "answer": "Nirvana",
       "aliases": [],
       "tags": [
@@ -253,8 +224,8 @@
       "external_id": "rmp-2026-06-22-009",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Also called Asterion, this creature of Greek myth — part man, part ox — dwelt at the center of the Labyrinth built by Daedalus on Crete and was ultimately killed by the hero Theseus.",
@@ -314,11 +285,11 @@
       "external_id": "rmp-2026-06-22-011",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In Hesiod's Theogony, Zeus swallowed his pregnant consort Metis, and this goddess of wisdom sprang fully armored from his forehead; she was later identified with the Roman Minerva.",
+      "clue": "In Hesiod's Theogony, Zeus swallowed his pregnant consort Metis, and this goddess of wisdom sprang fully armored from his forehead.",
       "answer": "Athena",
       "aliases": [
         "Athene",
@@ -351,7 +322,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The cult of this Greek goddess associated with love and beauty may have derived from the Phoenician goddess Astarte, herself a cognate of the East Semitic Ishtar and the older Sumerian Inanna.",
+      "clue": "The cult of this Greek goddess may have derived from the Phoenician goddess Astarte, herself a cognate of the East Semitic Ishtar and the older Sumerian Inanna.",
       "answer": "Aphrodite",
       "aliases": [
         "Venus"
@@ -382,7 +353,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Catholic resurgence — also called the Catholic Revival — arose in response to the Protestant challenge and was formally shaped by the Council of Trent's decrees issued between 1545 and 1563.",
+      "clue": "Galvanized by the Council of Trent (1545–1563) and the new Jesuit order founded by Ignatius of Loyola, this movement was the Catholic Church's organized response to the Protestant challenge.",
       "answer": "Counter-Reformation",
       "aliases": [
         "Catholic Reformation",
@@ -443,7 +414,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Hebrew Bible book's opening word — 'Eikhah,' meaning 'How' — serves as its Hebrew title; its five acrostic poems grieve the Babylonian sack of Jerusalem in 586 BCE.",
+      "clue": "This Old Testament book's opening word — 'Eikhah,' meaning 'How' — serves as its Hebrew title; its five acrostic poems grieve the Babylonian sack of Jerusalem in 586 BCE.",
       "answer": "Lamentations",
       "aliases": [
         "Book of Lamentations",
