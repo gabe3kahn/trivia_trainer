@@ -76,8 +76,8 @@ export default function DuelScreen() {
   const iAmCreator = me === game.creator_id;
   const myScore = finished ? (iAmCreator ? game.creator_score : game.opponent_score) : sumPoints(game.my_attempts);
   const theirScore = finished ? (iAmCreator ? game.opponent_score : game.creator_score) : null;
-  const myCorrect = countCorrect(game.my_attempts);
-  const theirCorrect = countCorrect(game.opponent_attempts);
+  const myCorrect = countCorrect(game.my_attempts ?? []);
+  const theirCorrect = countCorrect(game.opponent_attempts ?? []);
   const verdict: Verdict = finished ? (game.winner_id == null ? 'draw' : game.winner_id === me ? 'win' : 'loss') : 'waiting';
 
   return (
@@ -113,8 +113,8 @@ export default function DuelScreen() {
 
       <Text style={styles.sec}>Clue by clue</Text>
       {game.questions.map((q) => {
-        const mine = game.my_attempts.find((a) => a.question_id === q.id);
-        const theirs = game.opponent_attempts.find((a) => a.question_id === q.id);
+        const mine = (game.my_attempts ?? []).find((a) => a.question_id === q.id);
+        const theirs = (game.opponent_attempts ?? []).find((a) => a.question_id === q.id);
         const accent = accentFor(q.category_id);
         return (
           <View key={q.id} style={styles.clue}>
