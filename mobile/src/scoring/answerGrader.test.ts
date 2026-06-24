@@ -5,12 +5,12 @@ import type { RecommendedQuestion } from '@/src/types/supabase';
 
 // The grader only reads answer / aliases / answer_detail; everything else on
 // RecommendedQuestion is irrelevant to scoring, so build a minimal stub.
-function q(answer: string, aliases: string[] = [], answer_detail?: string): RecommendedQuestion {
-  return { answer, aliases, answer_detail } as unknown as RecommendedQuestion;
+function q(answer: string, aliases: string[] = [], answer_type?: 'name' | 'other', answer_detail?: string): RecommendedQuestion {
+  return { answer, aliases, answer_type, answer_detail } as unknown as RecommendedQuestion;
 }
 
 type Grade = 'correct' | 'missed' | 'unknown';
-type Case = { name: string; answer: string; aliases?: string[]; submitted: string; want: Grade };
+type Case = { name: string; answer: string; aliases?: string[]; submitted: string; want: Grade; answerType?: 'name' | 'other' };
 
 // Every reported mis-grade should land here as a permanent row. Grading is pure +
 // deterministic, so this table is the contract. When a bug is reported, add the row
@@ -38,8 +38,10 @@ const cases: Case[] = [
 
   // ---- typos / fuzzy on longer answers ----
   { name: 'typo within tolerance (Massachusets)', answer: 'Massachusetts', submitted: 'Massachusets', want: 'correct' },
-  { name: 'token containment, submitted is longer', answer: 'Huckleberry Finn', submitted: 'Adventures of Huckleberry Finn', want: 'correct' },
-  { name: 'token containment, submitted is shorter', answer: 'New York', submitted: 'New York City', want: 'correct' },
+  // Short forms are accepted only as explicit ALIASES now (sub-phrase containment removed).
+  { name: 'short form via alias (Huckleberry Finn)', answer: 'Adventures of Huckleberry Finn', aliases: ['Huckleberry Finn'], submitted: 'Huckleberry Finn', want: 'correct' },
+  { name: 'short form via alias (New York)', answer: 'New York City', aliases: ['New York'], submitted: 'New York', want: 'correct' },
+  { name: 'short form WITHOUT an alias is rejected (just York)', answer: 'New York City', submitted: 'York', want: 'missed' },
 
   // ---- short-answer guards: a tiny edit lands on a DIFFERENT real word ----
   { name: 'equal-length substitution rejected (Rhine≠Rhône)', answer: 'Rhône', submitted: 'Rhine', want: 'missed' },
@@ -52,26 +54,31 @@ const cases: Case[] = [
   { name: 'word=digit numeric equivalence (7=Seven)', answer: 'Seven', submitted: '7', want: 'correct' },
   { name: 'different year rejected (1985≠1984)', answer: '1984', submitted: '1985', want: 'missed' },
 
-  // ---- surname shortcut (people) ----
-  { name: 'bare surname accepted (Pollock)', answer: 'Jackson Pollock', submitted: 'Pollock', want: 'correct' },
-  { name: 'misspelled surname within 1 edit (Pollack)', answer: 'Jackson Pollock', submitted: 'Pollack', want: 'correct' },
-  { name: 'wrong surname rejected (Smith)', answer: 'Jackson Pollock', submitted: 'Smith', want: 'missed' },
-  { name: 'short surname not accepted alone (Lee)', answer: 'Stan Lee', submitted: 'Lee', want: 'missed' },
+  // ---- surname shortcut — ONLY for answer_type:'name' (people) ----
+  { name: 'bare surname accepted (Pollock, name)', answer: 'Jackson Pollock', answerType: 'name', submitted: 'Pollock', want: 'correct' },
+  { name: 'misspelled surname within 1 edit (Pollack, name)', answer: 'Jackson Pollock', answerType: 'name', submitted: 'Pollack', want: 'correct' },
+  { name: 'wrong surname rejected (Smith)', answer: 'Jackson Pollock', answerType: 'name', submitted: 'Smith', want: 'missed' },
+  { name: 'short surname not accepted alone (Lee)', answer: 'Stan Lee', answerType: 'name', submitted: 'Lee', want: 'missed' },
+  // The gate: the SAME bare surname is rejected when the answer isn't typed 'name'.
+  { name: "bare surname rejected when answer_type isn't 'name' (default)", answer: 'Jackson Pollock', submitted: 'Pollock', want: 'missed' },
 
   // ---- REGRESSION: surname shortcut must not fire for a multi-word phrase that merely
   //      ENDS in the surname. "Winged Victory" alias previously accepted anything ending
   //      in "victory" -> "winged horse of victory" was scored correct. (Reported 2026-06-22.)
   { name: 'phrase ending in surname-word rejected (winged horse of victory)', answer: 'Winged Victory of Samothrace', aliases: ['Nike of Samothrace', 'Winged Victory'], submitted: 'winged horse of victory', want: 'missed' },
   { name: 'unrelated phrase ending in shared word rejected', answer: 'Jackson Pollock', submitted: 'someone named Pollock the painter', want: 'missed' },
+  // A distinct sub-phrase of a non-person compound is no longer credited (no containment,
+  // no surname shortcut for 'other'). "Reformation" had been scored correct. (Reported 2026-06-23.)
+  { name: 'distinct sub-phrase of a compound rejected (Reformation≠Counter-Reformation)', answer: 'Counter-Reformation', submitted: 'Reformation', want: 'missed' },
 ];
 
 describe('gradeResponse', () => {
-  it.each(cases)('$name', ({ answer, aliases, submitted, want }) => {
-    expect(gradeResponse(q(answer, aliases ?? []), submitted).grade).toBe(want);
+  it.each(cases)('$name', ({ answer, aliases, submitted, want, answerType }) => {
+    expect(gradeResponse(q(answer, aliases ?? [], answerType), submitted).grade).toBe(want);
   });
 
   it('returns the reveal (answer_detail) on a correct visual clue', () => {
-    const r = gradeResponse(q('Mona Lisa', [], 'Mona Lisa — Leonardo da Vinci'), 'mona lisa');
+    const r = gradeResponse(q('Mona Lisa', [], undefined, 'Mona Lisa — Leonardo da Vinci'), 'mona lisa');
     expect(r.grade).toBe('correct');
     expect(r.detail).toBe('Mona Lisa — Leonardo da Vinci');
   });
