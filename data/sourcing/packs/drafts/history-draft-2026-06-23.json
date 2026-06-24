@@ -73,8 +73,8 @@
       "external_id": "hist-2026-06-23-003",
       "category_id": "history",
       "subcategory_name": "Revolutions & Independence Movements",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "When Lieutenant Colonel Alexander Hamilton led an assault column to storm a key British outer fortification in October 1781, the surrounded British commander had no alternative but to surrender, closing the major land fighting of the American Revolution.",
@@ -175,12 +175,8 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Abraham Lincoln called this Confederate stronghold 'the key to the war'; when it surrendered to Ulysses Grant on July 4, 1863, the Union gained full control of the Mississippi River and effectively split the Confederacy into two separate zones.",
-      "answer": "Siege of Vicksburg",
-      "aliases": [
-        "Battle of Vicksburg",
-        "Vicksburg",
-        "fall of Vicksburg"
-      ],
+      "answer": "Vicksburg",
+      "aliases": [],
       "tags": [
         "history-draft",
         "sourced",
@@ -203,7 +199,7 @@
       "source_url": "https://en.wikipedia.org/wiki/Romania",
       "external_id": "hist-2026-06-23-009",
       "category_id": "history",
-      "subcategory_name": "Empires & Dynasties",
+      "subcategory_name": "European History",
       "value": 600,
       "difficulty_rank": 3,
       "mechanic": "standard",
@@ -240,7 +236,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Among Stanford University's first cohort of graduates, this American statesman organized wartime food relief for occupied Belgium during World War I, then directed the federal response to the catastrophic Mississippi River flooding of 1927, before his presidency was consumed by economic collapse.",
+      "clue": "Among Stanford University's first cohort of graduates, this American statesman organized wartime food relief for occupied Belgium during World War I, then directed the federal response to the catastrophic Mississippi River flooding of 1927.",
       "answer": "Herbert Hoover",
       "aliases": [
         "Hoover"
@@ -301,11 +297,11 @@
       "external_id": "hist-2026-06-23-012",
       "category_id": "history",
       "subcategory_name": "Historical Figures",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A.J.P. Taylor hailed him as 'the only wholly admirable figure in modern history'; this general spent fourteen years in exile fighting with rebel forces in South America before returning to lead red-shirted volunteers in the campaign that forged a unified kingdom in southern Europe.",
+      "clue": "The historian A.J.P. Taylor hailed him as 'the only wholly admirable figure in modern history'; this general spent fourteen years in exile fighting with rebel forces in South America before returning to lead red-shirted volunteers in the campaign that forged a unified kingdom in southern Europe.",
       "answer": "Giuseppe Garibaldi",
       "aliases": [
         "Garibaldi"
@@ -371,7 +367,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In 1917, watching the thrones of both of his first cousins fall — one the German Kaiser and the other the Russian Tsar — this British monarch quietly changed his dynasty's name away from its German-sounding ancestral designation.",
+      "clue": "In 1917, watching the thrones of both of his first cousins fall — one the German Kaiser and the other the Russian Tsar — this British monarch quietly changed his dynasty's name from its German-sounding ancestral designation to its current name, Windsor.",
       "answer": "George V",
       "aliases": [
         "King George V"

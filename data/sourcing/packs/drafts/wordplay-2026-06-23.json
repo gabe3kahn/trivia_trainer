@@ -19,7 +19,10 @@
       "wp": {
         "scramble": "save"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -38,7 +41,10 @@
       "wp": {
         "scramble": "capes"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -51,13 +57,16 @@
       "difficulty_rank": 3,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The surgeon's tool traced careful arcs through the tissue, and even the most precise incision leaves this permanent mark of a healed wound.",
+      "clue": "The surgeon's scalpel traced careful arcs through the tissue, and even the most precise incision left a permanent mark behind.",
       "answer": "Scar",
       "aliases": [],
       "wp": {
         "scramble": "arcs"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -76,7 +85,10 @@
       "wp": {
         "scramble": "sale"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -89,13 +101,16 @@
       "difficulty_rank": 4,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The campfire rolls may go stale, but the veteran ranger's supply of these — old narratives of adventures in the backcountry — never seems to run out.",
+      "clue": "The camping rations were dry and tasteless, but the veteran ranger's supply of old stories of adventures never seemed to grow stale.",
       "answer": "Tales",
       "aliases": [],
       "wp": {
         "scramble": "stale"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -114,7 +129,10 @@
       "wp": {
         "hidden_in": "helm"
       },
-      "tags": ["wp-draft", "hidden-word"],
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -133,7 +151,10 @@
       "wp": {
         "hidden_in": "campfire"
       },
-      "tags": ["wp-draft", "hidden-word"],
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -152,7 +173,10 @@
       "wp": {
         "hidden_in": "drape"
       },
-      "tags": ["wp-draft", "hidden-word"],
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -171,7 +195,10 @@
       "wp": {
         "hidden_in": "farm"
       },
-      "tags": ["wp-draft", "hidden-word"],
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -190,7 +217,10 @@
       "wp": {
         "hidden_in": "claps"
       },
-      "tags": ["wp-draft", "hidden-word"],
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "verification_status": "skipped"
     }
