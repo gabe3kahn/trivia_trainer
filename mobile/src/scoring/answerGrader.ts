@@ -16,6 +16,12 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
   // 'name' answers (people) accept the bare surname; everything else ('other'/unset) is
   // strict — answer + aliases only. Authored on the question, not guessed by the grader.
   const answerType = question.answer_type ?? 'other';
+  // Crossword and anagram answers ARE the exact letters the puzzle pins down — the
+  // displayed length + revealed letter for crossword, the scramble for anagram. A
+  // near-miss there is a DIFFERENT word (a wrong plural/tense like "lime" for "limes",
+  // or a different anagram), not a typo, so fuzzy tolerance must be OFF: require an
+  // exact / alias / numeric match. Other mechanics keep the typo tolerance.
+  const exactOnly = question.mechanic === 'crossword' || question.mechanic === 'anagram';
   const answerNumberKeys = new Set(acceptedAnswers.flatMap(extractNumberKeys));
   const submittedNumberKeys = new Set(extractNumberKeys(submitted));
 
@@ -46,7 +52,7 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
   // A near-string match means they effectively knew it — a typo, abbreviation,
   // or missing article (e.g. "JFK" for "John F. Kennedy"). That's fully correct,
   // not partial. (We don't attempt semantic "close" like Nixon-for-JFK.)
-  if (acceptedAnswers.some((answer) => isClose(submitted, answer))) {
+  if (!exactOnly && acceptedAnswers.some((answer) => isClose(submitted, answer))) {
     return {
       grade: 'correct',
       label: 'Correct',

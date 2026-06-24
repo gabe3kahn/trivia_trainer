@@ -5,12 +5,12 @@ import type { RecommendedQuestion } from '@/src/types/supabase';
 
 // The grader only reads answer / aliases / answer_detail; everything else on
 // RecommendedQuestion is irrelevant to scoring, so build a minimal stub.
-function q(answer: string, aliases: string[] = [], answer_type?: 'name' | 'other', answer_detail?: string): RecommendedQuestion {
-  return { answer, aliases, answer_type, answer_detail } as unknown as RecommendedQuestion;
+function q(answer: string, aliases: string[] = [], answer_type?: 'name' | 'other', answer_detail?: string, mechanic?: string): RecommendedQuestion {
+  return { answer, aliases, answer_type, answer_detail, mechanic } as unknown as RecommendedQuestion;
 }
 
 type Grade = 'correct' | 'missed' | 'unknown';
-type Case = { name: string; answer: string; aliases?: string[]; submitted: string; want: Grade; answerType?: 'name' | 'other' };
+type Case = { name: string; answer: string; aliases?: string[]; submitted: string; want: Grade; answerType?: 'name' | 'other'; mechanic?: string };
 
 // Every reported mis-grade should land here as a permanent row. Grading is pure +
 // deterministic, so this table is the contract. When a bug is reported, add the row
@@ -83,11 +83,22 @@ const cases: Case[] = [
   // A distinct sub-phrase of a non-person compound is no longer credited (no containment,
   // no surname shortcut for 'other'). "Reformation" had been scored correct. (Reported 2026-06-23.)
   { name: 'distinct sub-phrase of a compound rejected (Reformation≠Counter-Reformation)', answer: 'Counter-Reformation', submitted: 'Reformation', want: 'missed' },
+
+  // ---- exact-match-only mechanics (crossword + anagram): the displayed length /
+  //      the scramble pin the EXACT word, so fuzzy tolerance is OFF — a near-miss is a
+  //      different inflection or a different anagram, not a typo. (Reported 2026-06-24.)
+  { name: 'crossword: wrong plural rejected (lime≠limes)', answer: 'limes', mechanic: 'crossword', submitted: 'lime', want: 'missed' },
+  { name: 'crossword: wrong tense rejected (bake≠baked)', answer: 'baked', mechanic: 'crossword', submitted: 'bake', want: 'missed' },
+  { name: 'crossword: exact still correct (whiskey)', answer: 'whiskey', mechanic: 'crossword', submitted: 'Whiskey', want: 'correct' },
+  { name: 'crossword: explicit alias still correct (whisky)', answer: 'whiskey', aliases: ['whisky'], mechanic: 'crossword', submitted: 'whisky', want: 'correct' },
+  { name: 'anagram: 1-edit typo no longer tolerated (elbo≠elbow)', answer: 'elbow', mechanic: 'anagram', submitted: 'elbo', want: 'missed' },
+  // Control: the same kind of 1-edit truncation IS still tolerated on a standard clue.
+  { name: 'standard clue keeps typo tolerance (Massachusets)', answer: 'Massachusetts', mechanic: 'standard', submitted: 'Massachusets', want: 'correct' },
 ];
 
 describe('gradeResponse', () => {
-  it.each(cases)('$name', ({ answer, aliases, submitted, want, answerType }) => {
-    expect(gradeResponse(q(answer, aliases ?? [], answerType), submitted).grade).toBe(want);
+  it.each(cases)('$name', ({ answer, aliases, submitted, want, answerType, mechanic }) => {
+    expect(gradeResponse(q(answer, aliases ?? [], answerType, undefined, mechanic), submitted).grade).toBe(want);
   });
 
   it('returns the reveal (answer_detail) on a correct visual clue', () => {
