@@ -13,6 +13,9 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
   // "Mona Lisa — Leonardo da Vinci" on a visual clue), show that regardless of
   // which part the clue asked for. Grading still uses `answer` + aliases only.
   const reveal = question.answer_detail || question.answer;
+  // 'name' answers (people) accept the bare surname; everything else ('other'/unset) is
+  // strict — answer + aliases only. Authored on the question, not guessed by the grader.
+  const answerType = question.answer_type ?? 'other';
   const answerNumberKeys = new Set(acceptedAnswers.flatMap(extractNumberKeys));
   const submittedNumberKeys = new Set(extractNumberKeys(submitted));
 
@@ -51,11 +54,12 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
     };
   }
 
-  // Last-name-only answers. For a multi-word person ("Jackson Pollock"), accept
-  // the surname alone ("Pollock") — and tolerate one misspelling on longer
-  // surnames ("Pollack"→"Pollock"), where a single edit rarely lands on a
-  // different real surname. Short surnames are excluded (too collision-prone).
-  if (acceptedAnswers.some((answer) => matchesSurname(submitted, answer))) {
+  // Last-name-only answers — ONLY for person answers (answer_type='name'). For a
+  // multi-word person ("Jackson Pollock") accept the surname alone ("Pollock"), and
+  // tolerate one misspelling on longer surnames ("Pollack"→"Pollock"). Gating on the
+  // authored type is what stops the grader from guessing that a non-person's last word
+  // (e.g. "Reformation" of "Counter-Reformation") is a "surname".
+  if (answerType === 'name' && acceptedAnswers.some((answer) => matchesSurname(submitted, answer) || matchesNameWithSuffix(submitted, answer))) {
     return {
       grade: 'correct',
       label: 'Correct',
@@ -74,7 +78,11 @@ function matchesSurname(submitted: string, answer: string) {
   const answerTokens = answer.split(' ').filter(Boolean);
   if (answerTokens.length < 2) return false;
   const surname = answerTokens[answerTokens.length - 1];
-  if (surname.length < 5) return false;
+  // Block only 1-2 char last tokens (too collision-prone, and catches suffixes like "Jr").
+  // 3+ chars are real surnames worth the shortcut ("Ford", "King", "Poe"). Names whose last
+  // token is a suffix/particle or that flip order (Deng Xiaoping, Aung San Suu Kyi) won't be
+  // handled well here by design — those rely on authored aliases instead.
+  if (surname.length < 3) return false;
 
   // Only a BARE surname qualifies for this shortcut ("Pollock" for "Jackson Pollock").
   // A multi-word submission that merely ENDS in the surname is NOT a surname-only answer
@@ -87,6 +95,25 @@ function matchesSurname(submitted: string, answer: string) {
   // A different initial almost always means a different name, not a typo.
   if (only[0] !== surname[0]) return false;
   return surname.length >= 6 && levenshtein(only, surname) <= 1;
+}
+
+// Generational/regnal suffixes. When the answer ends in one, the bare-surname shortcut
+// is off (the last token is the suffix), so accept the "<name-word> <suffix>" form
+// automatically — "King Jr." for Martin Luther King Jr., "Henry VIII" for itself. We do
+// NOT auto-accept the suffix-less word ("King", "Henry", "Elizabeth"): whether that counts
+// is a per-name call the drafter makes via an alias (fine for King, never for a monarch
+// where the numeral is essential — "Elizabeth" must not pass for "Elizabeth II").
+const NAME_SUFFIXES = new Set(['jr', 'sr', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii']);
+
+function matchesNameWithSuffix(submitted: string, answer: string) {
+  const at = answer.split(' ').filter(Boolean);
+  if (at.length < 2) return false;
+  const suffix = at[at.length - 1];
+  if (!NAME_SUFFIXES.has(suffix)) return false;
+  const nameWord = at[at.length - 2];
+  if (!nameWord || nameWord.length < 3) return false;
+  const st = submitted.split(' ').filter(Boolean);
+  return st.length === 2 && st[0] === nameWord && st[1] === suffix;
 }
 
 export function normalizeAnswer(value: string) {
@@ -107,15 +134,10 @@ function isClose(submitted: string, answer: string) {
   if (extractNumberKeys(answer).length > 0 && !setsIntersect(new Set(extractNumberKeys(submitted)), new Set(extractNumberKeys(answer)))) {
     return false;
   }
-  // Token-level containment, not raw substring. Raw substring over-credited
-  // "china" as close to "indochina" or "paris" to "comparison"; requiring a
-  // whole-token match avoids matching inside a longer word.
-  const submittedTokens = submitted.split(' ').filter(Boolean);
-  const answerTokens = answer.split(' ').filter(Boolean);
-  if (containsTokenSequence(submittedTokens, answerTokens) || containsTokenSequence(answerTokens, submittedTokens)) {
-    return true;
-  }
-
+  // NOTE: sub-phrase containment ("New York" ⊂ "New York City") was removed — it
+  // guessed that a shorter phrase counts as a partial, which mis-fired on distinct
+  // terms ("Reformation" ⊂ "Counter-Reformation"). Legitimate short forms must now be
+  // explicit aliases instead. What remains here is pure typo tolerance.
   const distance = levenshtein(submitted, answer);
   const maxLength = Math.max(submitted.length, answer.length);
   // Short answers are where fuzzy matching is most dangerous, because a tiny edit
@@ -133,14 +155,6 @@ function isClose(submitted: string, answer: string) {
   }
   const tolerance = maxLength >= 10 ? 2 : 1;
   return distance <= tolerance;
-}
-
-function containsTokenSequence(haystack: string[], needle: string[]) {
-  if (needle.length === 0 || needle.length > haystack.length) return false;
-  for (let start = 0; start <= haystack.length - needle.length; start += 1) {
-    if (needle.every((token, offset) => haystack[start + offset] === token)) return true;
-  }
-  return false;
 }
 
 function numericEquivalent(submitted: string, answer: string) {

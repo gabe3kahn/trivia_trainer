@@ -223,6 +223,7 @@ export type RecommendedQuestion = {
   image_url: string | null;
   image_attribution: string | null;
   answer_detail: string | null;
+  answer_type?: 'name' | 'other'; // 'name' => bare surname counts; else strict (default)
 };
 
 /* ---- Compete (014 multiplayer + 017 daily challenge) ---------------------- */
@@ -242,6 +243,7 @@ export type ChallengeQuestion = {
   aliases: string[];
   image_url: string | null;
   answer_detail: string | null;
+  answer_type?: 'name' | 'other'; // 'name' => bare surname counts; else strict (default)
   value?: number; // present in duel payloads (get_game); omitted by the daily challenge
 };
 
