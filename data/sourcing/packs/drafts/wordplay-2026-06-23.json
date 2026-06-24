@@ -1,0 +1,206 @@
+{
+  "pack_id": "wordplay-2026-06-23",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-23T00:00:00.000Z",
+  "notes": "Run 2026-06-23. Mechanics: Anagrams (5) + Hidden Words (4). All 9 answers are fresh across every prior wordplay pack. Anagram pairs: save→Vase, capes→Space, arcs→Scar, sale→Ales, stale→Tales. Hidden-word carriers: helm (Elm), campfire (Ire), drape (Ape), farm (Arm). Each sentence evokes the answer's meaning — not just the hidden letters.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "No effort could save the cut roses — arranged in a tall glass vessel by the window, their petals were already beginning to fall.",
+      "answer": "Vase",
+      "aliases": [],
+      "wp": {
+        "scramble": "save"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The heroes who donned capes in every major city found their greatest challenge in the cold, silent void beyond the atmosphere.",
+      "answer": "Space",
+      "aliases": [],
+      "wp": {
+        "scramble": "capes"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The surgeon's scalpel traced careful arcs through the tissue, and even the most precise incision left a permanent mark behind.",
+      "answer": "Scar",
+      "aliases": [],
+      "wp": {
+        "scramble": "arcs"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The brewery held a late-summer sale that moved cases of its most beloved malty, hoppy beverages faster than the staff could restock the shelves.",
+      "answer": "Ales",
+      "aliases": [],
+      "wp": {
+        "scramble": "sale"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The camping rations were dry and tasteless, but the veteran ranger's supply of old stories of adventures never seemed to grow stale.",
+      "answer": "Tales",
+      "aliases": [],
+      "wp": {
+        "scramble": "stale"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-hw-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "Gripping his helm as the river narrowed, the captain recognized the tall, graceful tree on the bank by its diamond-patterned bark and arching silhouette.",
+      "answer": "Elm",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "helm"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-hw-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The chieftain's fury rivaled the campfire's warmth — his wrath at the broken treaty was a hot, long-burning emotion that the council had no way to cool.",
+      "answer": "Ire",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "campfire"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-hw-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The decorator pulled the heavy velvet drape across the stage, unaware that the clever mimic hiding behind it had already memorized every movement she made.",
+      "answer": "Ape",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "drape"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-23-hw-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "Life on the farm left its mark — by harvest season, the particular upper limb that had baled hay all summer ached from wrist to shoulder.",
+      "answer": "Arm",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "farm"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
