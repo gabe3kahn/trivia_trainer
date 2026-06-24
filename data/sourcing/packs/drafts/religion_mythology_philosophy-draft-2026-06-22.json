@@ -435,6 +435,38 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-06-22T14:25:25.261Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ignatius_of_Loyola",
+      "external_id": "rmp-2026-06-22-016",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A Basque nobleman whose leg was shattered by a cannonball at the 1521 defense of Pamplona, this soldier-turned-mystic wrote the 'Spiritual Exercises' during his recovery and went on to found the Society of Jesus.",
+      "answer": "Ignatius of Loyola",
+      "aliases": [
+        "Ignatius Loyola",
+        "St. Ignatius of Loyola",
+        "Saint Ignatius of Loyola"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ignatius of Loyola",
+          "url": "https://en.wikipedia.org/wiki/Ignatius_of_Loyola",
+          "snippet": "Ignatius of Loyola was a Spanish Basque Catholic priest and theologian who, with six companions, founded the religious order of the Society of Jesus (Jesuits). Wounded by a cannonball at the Battle of Pamplona in 1521, he experienced a religious conversion during his recovery and later wrote the Spiritual Exercises."
+        }
+      ],
+      "verification_status": "pending"
     }
   ]
 }
