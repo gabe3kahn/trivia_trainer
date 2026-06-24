@@ -1,0 +1,442 @@
+{
+  "pack_id": "literature_books-draft-2026-06-22",
+  "category_id": "literature_books",
+  "created_at": "2026-06-22",
+  "notes": "Run 2026-06-22 (category 2 of 2). Active count was 31 — second-thinnest eligible category. Focused heavily on the under-weight $1000 tier (only 1 active). Fills missing Literary Characters subcategory (0 active), thin Children's & YA (1 active), thin Awards/Movements/Terms (1 active). Draws from Dickens, Poirot, Carroll, Shakespeare, Hardy, Fitzgerald, Twain, Tolstoy, Eliot, Defoe, Dumas docs.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+      "external_id": "lit-2026-06-22-001",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The greatest novelist of the Victorian era by many accounts, this English author left school at 12 when his father was imprisoned for debt, forcing him to work in a boot-blacking factory.",
+      "answer": "Charles Dickens",
+      "aliases": [
+        "Dickens"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "authors-works"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Charles Dickens",
+          "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "snippet": "Charles John Huffam Dickens was an English writer and journalist. He created some of literature's best-known fictional characters, and is regarded by many as the greatest novelist of the Victorian era. His works enjoyed unprecedented popula"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:25.814Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hercule_Poirot",
+      "external_id": "lit-2026-06-22-002",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Agatha Christie's most famous and longest-running fictional creation, this fastidious Belgian detective relies on his 'little grey cells' and appears in 33 novels and 51 short stories.",
+      "answer": "Hercule Poirot",
+      "aliases": [
+        "Poirot"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "literary-characters"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hercule Poirot",
+          "url": "https://en.wikipedia.org/wiki/Hercule_Poirot",
+          "snippet": "Hercule Poirot is a recurring fictional Belgian detective created by the English writer Agatha Christie. Poirot is Christie's most famous and longest-running character, appearing in 33 novels, two plays and 51 short stories published betwee"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:26.186Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Alice's_Adventures_in_Wonderland",
+      "external_id": "lit-2026-06-22-003",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "An example of the literary nonsense genre, this 1865 Lewis Carroll children's novel follows a young girl who tumbles down a rabbit hole into a fantasy world of anthropomorphic creatures.",
+      "answer": "Alice's Adventures in Wonderland",
+      "aliases": [
+        "Alice in Wonderland"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "childrens-ya"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Alice's Adventures in Wonderland",
+          "url": "https://en.wikipedia.org/wiki/Alice's_Adventures_in_Wonderland",
+          "snippet": "Alice's Adventures in Wonderland is an 1865 English children's novel by Lewis Carroll. It tells the story of a little girl named Alice who falls through a rabbit hole into a fantasy world of anthropomorphic creatures. It is seen as an examp"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:26.564Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Othello",
+      "external_id": "lit-2026-06-22-004",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Written around 1603, this Shakespeare tragedy is set in Venice and Cyprus and depicts a Moorish military commander manipulated by his ensign into suspecting his wife of infidelity.",
+      "answer": "Othello",
+      "aliases": [
+        "The Tragedy of Othello",
+        "The Tragedy of Othello, the Moor of Venice"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "shakespeare-drama"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Othello",
+          "url": "https://en.wikipedia.org/wiki/Othello",
+          "snippet": "The Tragedy of Othello, the Moor of Venice, often shortened to Othello, is a tragedy written by William Shakespeare around 1603. Set in Venice and Cyprus, the play depicts the Moorish military commander Othello as he is manipulated by his e"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:26.972Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Thomas_Hardy",
+      "external_id": "lit-2026-06-22-006",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Though he saw himself primarily as a poet, this English Victorian author achieved fame through his novels set in the fictional county of Wessex, including 'Tess of the d'Urbervilles.'",
+      "answer": "Thomas Hardy",
+      "aliases": [
+        "Hardy"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "british-irish-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Thomas Hardy",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Hardy",
+          "snippet": "Thomas Hardy was an English novelist and poet. A Victorian realist in the tradition of George Eliot, he was influenced both in his novels and in his poetry by Romanticism, including the poetry of William Wordsworth. He was highly critical o"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:27.712Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/F._Scott_Fitzgerald",
+      "external_id": "lit-2026-06-22-007",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The American novelist who coined the term 'Jazz Age' in a 1922 short story collection achieved transient success in the 1920s but received critical acclaim only after his death.",
+      "answer": "F. Scott Fitzgerald",
+      "aliases": [
+        "Fitzgerald",
+        "Scott Fitzgerald"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "american-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "F. Scott Fitzgerald",
+          "url": "https://en.wikipedia.org/wiki/F._Scott_Fitzgerald",
+          "snippet": "Francis Scott Key Fitzgerald, widely known as F. Scott Fitzgerald or simply Scott Fitzgerald, was an American novelist, essayist, and short story writer. He is best known for his novels depicting the flamboyance and excess of the Jazz Age, "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:28.082Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "external_id": "lit-2026-06-22-008",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This direct sequel to 'Tom Sawyer' was among the first major American novels written entirely in vernacular English; it is also a satire on antebellum attitudes, particularly racism.",
+      "answer": "Adventures of Huckleberry Finn",
+      "aliases": [
+        "Huckleberry Finn",
+        "Huck Finn",
+        "The Adventures of Huckleberry Finn"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "american-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Adventures of Huckleberry Finn",
+          "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+          "snippet": "Adventures of Huckleberry Finn is a picaresque novel by American author Mark Twain that was first published in the United Kingdom in December 1884 and in the United States in February 1885. It is commonly named among the Great American Nove"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:28.453Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/War_and_Peace",
+      "external_id": "lit-2026-06-22-009",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Leo Tolstoy himself declared this 1869 epic 'not a novel, even less is it a poem, and still less a historical chronicle'; it follows Russian aristocratic families through Napoleon's invasion.",
+      "answer": "War and Peace",
+      "aliases": [
+        "Voyna i mir"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "world-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "War and Peace",
+          "url": "https://en.wikipedia.org/wiki/War_and_Peace",
+          "snippet": "War and Peace is an epic novel by the Russian author Leo Tolstoy. Set during the Napoleonic Wars, the work comprises both a fictional narrative and chapters in which Tolstoy discusses history and philosophy. An early version was published s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:28.833Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Middlemarch",
+      "external_id": "lit-2026-06-22-010",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Published in eight paper-bound installments from 1871 to 1872, this Victorian novel was written by Mary Ann Evans — the woman who adopted the male pen name George Eliot to be taken seriously.",
+      "answer": "Middlemarch",
+      "aliases": [
+        "A Study of Provincial Life"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "british-irish-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Middlemarch",
+          "url": "https://en.wikipedia.org/wiki/Middlemarch",
+          "snippet": "Middlemarch, A Study of Provincial Life is a novel by English author George Eliot, the pen name of Mary Ann Evans. It appeared in eight paper-bound instalments from December 1871 to December 1872, with a book version in four volumes publish"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:29.204Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+      "external_id": "lit-2026-06-22-011",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Daniel Defoe's 1719 novel — often credited as the first English work of realistic fiction — follows a man stranded on a tropical island near Venezuela for 28 years.",
+      "answer": "Robinson Crusoe",
+      "aliases": [],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "british-irish-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Robinson Crusoe",
+          "url": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+          "snippet": "Robinson Crusoe is an English adventure novel by Daniel Defoe, first published on 25 April 1719. It is often credited as marking the beginning of realistic fiction as a literary genre, and has been described as the first novel, or at least "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:25:29.574Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/A_Midsummer_Night's_Dream",
+      "external_id": "lit-2026-06-22-012",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this Shakespeare comedy, the fairy queen Titania and king Oberon are quarreling over an Indian changeling boy, while four young Athenian lovers stumble through the fairies' forest.",
+      "answer": "A Midsummer Night's Dream",
+      "aliases": [
+        "Midsummer Night's Dream"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "shakespeare-drama"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "A Midsummer Night's Dream",
+          "url": "https://en.wikipedia.org/wiki/A_Midsummer_Night's_Dream",
+          "snippet": "A Midsummer Night's Dream is a comedy play written by William Shakespeare between the years 1594 to 1596. The play is set in Athens, and consists of several subplots that revolve around the marriage of Theseus and Hippolyta. One subplot inv"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:26:01.055Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
+      "external_id": "lit-2026-06-22-013",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Loosely inspired by a 1700 pseudo-memoir of a real Gascon soldier in Louis XIII's guard, this 1844 French serial novel pits its heroes against Cardinal Richelieu and the cunning Milady de Winter.",
+      "answer": "The Three Musketeers",
+      "aliases": [
+        "Les Trois Mousquetaires"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "world-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Three Musketeers",
+          "url": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
+          "snippet": "The Three Musketeers is a French historical adventure novel written and published in 1844 by French author Alexandre Dumas. It is the first of the author's three d'Artagnan Romances. As with some of his other works, he wrote it in collabora"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:26:01.436Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+      "external_id": "lit-2026-06-22-014",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Shakespeare adapted this tragedy from William Painter's 1567 prose retelling 'Palace of Pleasure,' which itself drew on a 1562 English verse translation of a novella by Italian writer Matteo Bandello.",
+      "answer": "Romeo and Juliet",
+      "aliases": [
+        "The Tragedy of Romeo and Juliet"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "shakespeare-drama"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Romeo and Juliet",
+          "url": "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+          "snippet": "The Tragedy of Romeo and Juliet, often shortened to Romeo and Juliet, is a tragedy written by William Shakespeare about the romance between two young Italians from feuding families. It was among Shakespeare's most popular plays during his l"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:26:01.826Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Othello",
+      "external_id": "lit-2026-06-22-015",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Shakespeare villain is such a central part of the play that he has more lines than the story's main character and is one of the most verbose characters in all of Shakespeare's works.",
+      "answer": "Iago",
+      "aliases": [],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "literary-characters"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Othello",
+          "url": "https://en.wikipedia.org/wiki/Othello",
+          "snippet": "The Tragedy of Othello, the Moor of Venice, often shortened to Othello, is a tragedy written by William Shakespeare around 1603. Set in Venice and Cyprus, the play depicts the Moorish military commander Othello as he is manipulated by his e"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-22T14:26:02.322Z"
+    }
+  ]
+}
