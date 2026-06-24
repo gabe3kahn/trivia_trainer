@@ -19,6 +19,10 @@ alter table questions
 
 -- ---------------------------------------------------------------------------
 -- get_recommended_questions (training) — add answer_type to the row shape.
+-- Adding an OUT column changes the function's return-row type, which
+-- CREATE OR REPLACE cannot do ("cannot change return type of existing
+-- function") — so drop the old signature first, then recreate.
+drop function if exists public.get_recommended_questions(text, int, text[], int[], text[]);
 create or replace function public.get_recommended_questions(
   p_mode text default 'weakness',
   p_limit int default 12,
