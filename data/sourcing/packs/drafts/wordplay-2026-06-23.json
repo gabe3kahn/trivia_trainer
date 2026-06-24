@@ -2,7 +2,7 @@
   "pack_id": "wordplay-2026-06-23",
   "category_id": "language_wordplay",
   "created_at": "2026-06-23T00:00:00.000Z",
-  "notes": "Run 2026-06-23. Mechanics: Anagrams (5) + Hidden Words (5). All 10 answers are fresh across every prior wordplay pack. Anagram pairs: save→Vase, capes→Space, arcs→Scar, sale→Ales, stale→Tales. Hidden-word carriers: helm (Elm), campfire (Ire), drape (Ape), farm (Arm), claps (Lap). Each sentence evokes the answer's meaning — not just the hidden letters.",
+  "notes": "Run 2026-06-23. Mechanics: Anagrams (5) + Hidden Words (4). All 9 answers are fresh across every prior wordplay pack. Anagram pairs: save→Vase, capes→Space, arcs→Scar, sale→Ales, stale→Tales. Hidden-word carriers: helm (Elm), campfire (Ire), drape (Ape), farm (Arm). Each sentence evokes the answer's meaning — not just the hidden letters.",
   "questions": [
     {
       "source": "constructed",
@@ -123,7 +123,7 @@
       "difficulty_rank": 1,
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "Gripping the helm as the river narrowed, the captain recognized the tall, graceful tree on the bank by its diamond-patterned bark and arching silhouette.",
+      "clue": "Gripping his helm as the river narrowed, the captain recognized the tall, graceful tree on the bank by its diamond-patterned bark and arching silhouette.",
       "answer": "Elm",
       "aliases": [],
       "wp": {
@@ -194,28 +194,6 @@
       "aliases": [],
       "wp": {
         "hidden_in": "farm"
-      },
-      "tags": [
-        "wp-draft",
-        "hidden-word"
-      ],
-      "citations": [],
-      "verification_status": "skipped"
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-06-23-hw-05",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Hidden Words",
-      "value": 800,
-      "difficulty_rank": 4,
-      "mechanic": "hidden_word",
-      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The standing ovation's claps had barely faded when the exhausted toddler climbed into the warm, welcoming hollow formed above a seated parent's knees.",
-      "answer": "Lap",
-      "aliases": [],
-      "wp": {
-        "hidden_in": "claps"
       },
       "tags": [
         "wp-draft",
