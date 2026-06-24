@@ -12,8 +12,8 @@
  *                   answer as consecutive letters, e.g. "cat" in "lo[cat]ion"
  *   initials     -> wp.initials : a normal clue + the answer's initials as the hint;
  *                   the initials must equal the first letter of each answer word
- *   crossword    -> wp.length + wp.pattern : answer must be that length and match every
- *                   revealed letter, e.g. "___S___" for WHISKEY
+ *   crossword    -> wp.length + wp.pattern : answer >=4 letters, must be that length, and
+ *                   the pattern reveals EXACTLY ONE letter, e.g. "___S___" for WHISKEY
  *   rhyme_time   -> wp.rhyme_pair : answer is a rhyming pair (rhyme human-reviewed)
  * Plus, for every clue: no answer word may appear in the clue as a standalone token
  * (leak), and answers must be distinct across the pack. Exits non-zero if anything fails.
@@ -101,6 +101,11 @@ for (const q of qs) {
     if (!wp.pattern) { fail('crossword missing wp.pattern'); continue; }
     const ans = flat(q.answer);
     const pat = String(wp.pattern).toLowerCase().replace(/[^a-z0-9_]/g, '');
+    // The length + revealed letter do a lot of the work, so keep the hint minimal:
+    // exactly ONE revealed letter, and a word long enough to be a real puzzle (>=4).
+    const revealed = pat.replace(/_/g, '').length;
+    if (ans.length < 4) fail(`crossword answer "${q.answer}" must be at least 4 letters`);
+    if (revealed !== 1) fail(`crossword pattern must reveal exactly ONE letter (got ${revealed} in "${wp.pattern}")`);
     if (wp.length != null && Number(wp.length) !== ans.length) fail(`crossword wp.length ${wp.length} != answer length ${ans.length}`);
     if (pat.length !== ans.length) fail(`crossword pattern length ${pat.length} != answer length ${ans.length}`);
     else for (let i = 0; i < pat.length; i += 1) {

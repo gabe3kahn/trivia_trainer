@@ -92,6 +92,7 @@ for (const question of questions) {
     image_attribution: question.image_attribution ?? null,
     image_license: question.image_license ?? null,
     answer_detail: question.answer_detail ?? null,
+    answer_type: question.answer_type === 'name' ? 'name' : 'other', // default safe; only people are 'name'
     quality_status: quality.decision,
     quality_score: quality.score,
     quality_issues: quality.issues,
