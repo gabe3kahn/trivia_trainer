@@ -73,7 +73,10 @@ jobs:
     needs: guard
     if: needs.guard.outputs.already != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    # Headroom for the 529-retry loop (up to 4 attempts of a ~25-50 min draft + 5/10/20 min
+    # backoffs). At 90 min a sustained-overload retry would be killed mid-wait, defeating the
+    # "don't drop the job" intent; 240 fits the full retry budget.
+    timeout-minutes: 240
     env:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       # ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # alternative to the OAuth token (metered)
