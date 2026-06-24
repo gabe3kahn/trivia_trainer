@@ -1,0 +1,198 @@
+{
+  "pack_id": "wordplay-2026-06-24",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-24T00:00:00.000Z",
+  "notes": "Run 2026-06-24. Mechanics: Homophones & Soundalikes (5) + Hidden Words (5). Last pack (2026-06-23) used Anagrams + Hidden Words; choosing Homophones + Hidden Words to rotate. All homophone answers are fresh (Hour, Mown, Great, Prophet, Muscle) — none appear in the active bank or prior drafts. Hidden-word carriers: boards (Oar), newer (Ewe), mode (Ode), dragon (Ago), paradox (Ox) — all fresh. Each sentence evokes the answer's meaning, not just the hidden letters or soundalike.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hp-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The whole community agreed the riverside park was our shared green space, and volunteers spent sixty minutes planting new saplings along the bank before the evening bell.",
+      "answer": "Hour",
+      "aliases": [],
+      "wp": {
+        "homophone": "our"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hp-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The gardener let out a low moan when the old machine sputtered to a stop, leaving the freshly cut back lawn abandoned mid-job with the front yard still knee-high.",
+      "answer": "Mown",
+      "aliases": [],
+      "wp": {
+        "homophone": "moan"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hp-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "She drew the aged wedge across the metal grate, producing a flurry of shavings that fell like snow over the steaming pot — a simple finishing touch that the diners declared truly magnificent.",
+      "answer": "Great",
+      "aliases": [],
+      "wp": {
+        "homophone": "grate"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hp-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The ancient seer's uncanny foresight had made him legendary throughout the city, and merchants who heeded his visions consistently found they generated considerable profit, so they began bringing him offerings each morning.",
+      "answer": "Prophet",
+      "aliases": [],
+      "wp": {
+        "homophone": "profit"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hp-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The diver opened the mussel with her hands — no knife needed — the sheer grip strength in her forearms having been built over years of hauling heavy pots in open water.",
+      "answer": "Muscle",
+      "aliases": [],
+      "wp": {
+        "homophone": "mussel"
+      },
+      "tags": ["wp-draft", "homophone"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hw-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The shipwright measured each plank and stacked the boards in neat rows beside the half-built hull, confident the craft would glide under human power once it was launched.",
+      "answer": "Oar",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "boards"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hw-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The shepherd brought a newer flock down from the highlands, the freshest lambs trotting close behind their woolly mothers across the dewy autumn pasture.",
+      "answer": "Ewe",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "newer"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hw-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The composer shifted to a slower, more solemn mode when setting the commemorative verse to music, searching for an emotional register worthy of the general his patron wanted to honor.",
+      "answer": "Ode",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "mode"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hw-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The village elder warned the young knight that the fire-breathing dragon of legend returned every generation, and that the last warrior who faced it had set out for the northern mountains many seasons in the past.",
+      "answer": "Ago",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "dragon"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-24-hw-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The philosopher posed a baffling paradox: a massive, slow-moving draft animal standing at the fork between two equally tempting bales of hay, utterly unable to choose between them.",
+      "answer": "Ox",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "paradox"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}

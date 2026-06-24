@@ -1,0 +1,465 @@
+{
+  "pack_id": "music-draft-2026-06-24",
+  "category_id": "music_performing_arts",
+  "created_at": "2026-06-24T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/What_a_Wonderful_World",
+      "external_id": "music-2026-06-24-001",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Jazz & Blues",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Although Louis Armstrong's recording topped the pop chart in the United Kingdom in April 1968, it performed poorly in the United States because the ABC Records president disliked it and refused to promote it.",
+      "answer": "What a Wonderful World",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "jazz-blues"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "What a Wonderful World",
+          "url": "https://en.wikipedia.org/wiki/What_a_Wonderful_World",
+          "snippet": "\"What a Wonderful World\" is a song written by Bob Thiele and George David Weiss. It was first recorded by Louis Armstrong on August 16, 1967. In April 1968, it topped the pop chart in the United Kingdom, but performed poorly in the United S"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:33.693Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tom_Waits",
+      "external_id": "music-2026-06-24-015",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This California-born singer collaborated with Francis Ford Coppola on a 1982 film score and was inducted into the Rock and Roll Hall of Fame in 2011, with Neil Young introducing him as 'a performer, singer, actor, magician, spirit guide, changeling.'",
+      "answer": "Tom Waits",
+      "answer_type": "name",
+      "aliases": [
+        "Waits"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tom Waits",
+          "url": "https://en.wikipedia.org/wiki/Tom_Waits",
+          "snippet": "Thomas Alan Waits is an American singer, songwriter, composer and actor. His lyrics often focus on society's underbelly and are delivered in his trademark deep, gravelly voice. He began in the folk scene during the 1970s, but his music sinc"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:34.061Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bill_Withers",
+      "external_id": "music-2026-06-24-002",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in Slab Fork, West Virginia, this soul singer worked at a defense plant before his 1971 debut launched a career that produced 'Ain't No Sunshine,' 'Lean on Me,' and 'Lovely Day.'",
+      "answer": "Bill Withers",
+      "answer_type": "name",
+      "aliases": [
+        "Withers"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bill Withers",
+          "url": "https://en.wikipedia.org/wiki/Bill_Withers",
+          "snippet": "William Harrison Withers Jr. was an American soul and R&B singer and songwriter. Born in Slab Fork, West Virginia, and raised in Beckley, West Virginia, he is known for having several hits over a career spanning 18 years, including \"Ain't N"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:34.430Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Martha_Graham",
+      "external_id": "music-2026-06-24-003",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Dance",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Time magazine named this American choreographer its 'Dancer of the Century,' citing the technique she developed, which remains the most widely taught method of contemporary dance in the world.",
+      "answer": "Martha Graham",
+      "answer_type": "name",
+      "aliases": [
+        "Graham"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "dance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Martha Graham",
+          "url": "https://en.wikipedia.org/wiki/Martha_Graham",
+          "snippet": "Martha Graham was an American modern dancer, teacher and choreographer responsible for creating the Graham technique."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:34.798Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Sound_of_Music",
+      "external_id": "music-2026-06-24-004",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Based on Maria von Trapp's 1949 memoir, this Rodgers and Hammerstein Broadway production is set in Austria on the eve of the 1938 Anschluss, following a governess who falls for a widowed naval officer and his seven children.",
+      "answer": "The Sound of Music",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "theater"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Sound of Music",
+          "url": "https://en.wikipedia.org/wiki/The_Sound_of_Music",
+          "snippet": "The Sound of Music is a musical with music by Richard Rodgers, lyrics by Oscar Hammerstein II, and a book by Howard Lindsay and Russel Crouse. It is based on the 1949 book The Story of the Trapp Family Singers by Maria von Trapp. Set in Aus"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:35.167Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Absolute_pitch",
+      "external_id": "music-2026-06-24-005",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Music Theory & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This rare auditory ability allows its possessor to identify or reproduce any note by ear alone — without needing any external reference tone or instrument.",
+      "answer": "Absolute pitch",
+      "aliases": [
+        "perfect pitch"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "music-theory-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Absolute pitch",
+          "url": "https://en.wikipedia.org/wiki/Absolute_pitch",
+          "snippet": "\nAbsolute pitch (AP), often called perfect pitch, is the ability to identify or re-create a given pitch without the benefit of a reference tone. AP may be demonstrated using linguistic labelling, associating mental imagery with the note, or"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:35.535Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/American_Pie_(song)",
+      "external_id": "music-2026-06-24-006",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Don McLean song entered the Billboard Hot 100 at number 69 in late 1971, then climbed to the top spot for four weeks starting January 15, 1972, becoming one of the era's defining cultural touchstones.",
+      "answer": "American Pie",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "American Pie (song)",
+          "url": "https://en.wikipedia.org/wiki/American_Pie_(song)",
+          "snippet": "\"American Pie\" is a song by the American singer and songwriter Don McLean. It was a commercial success and cultural touchstone, notable for its extensive and ambiguous lyrics about America's changing society in the 1950s and 1960s."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:35.903Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bob_Fosse",
+      "external_id": "music-2026-06-24-007",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Dance",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 1972 alone, this choreographer-director won the Tony Award (for 'Pippin'), the Academy Award for Best Director (for 'Cabaret'), and an Emmy (for 'Liza with a Z') — a remarkable sweep of major dramatic honors in a single year.",
+      "answer": "Bob Fosse",
+      "answer_type": "name",
+      "aliases": [
+        "Fosse"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "dance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bob Fosse",
+          "url": "https://en.wikipedia.org/wiki/Bob_Fosse",
+          "snippet": "Robert Louis Fosse was an American choreographer, dancer, actor, filmmaker, and stage director. He is known for his work on stage and screen, and was arguably the most influential figure in the field of jazz dance in the twentieth century. "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:36.271Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Carmen_(opera)",
+      "external_id": "music-2026-06-24-008",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Opera",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Based on a Prosper Mérimée novella and first staged in Paris in March 1875, this opera shocked its opening-night audience with its unconventional realism; its French composer died after just 33 performances, never knowing the work would achieve international acclaim.",
+      "answer": "Carmen",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "opera"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Carmen",
+          "url": "https://en.wikipedia.org/wiki/Carmen",
+          "snippet": "Carmen is an opera in four acts by the French composer Georges Bizet. The libretto was written by Henri Meilhac and Ludovic Halévy, based on the novella of the same title by Prosper Mérimée. The opera was first performed by the Opéra-Comiqu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:36.640Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Old_Town_Road",
+      "external_id": "music-2026-06-24-009",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First released independently in December 2018, this rap single was re-signed to Columbia Records and remixed with country singer Billy Ray Cyrus, sparking widespread debate about its genre classification.",
+      "answer": "Old Town Road",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Old Town Road",
+          "url": "https://en.wikipedia.org/wiki/Old_Town_Road",
+          "snippet": "\"Old Town Road\" is the debut mainstream single by the American rapper and singer Lil Nas X, first released independently in December 2018. After gaining popularity, the single was re-released by Columbia Records in March 2019. He also recor"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:37.007Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Cranberries",
+      "external_id": "music-2026-06-24-010",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded in Limerick in 1989, this Irish alternative rock band adopted its enduring name only after lead vocalist Dolores O'Riordan joined; her 'Zombie' (1994) became the first music video by an Irish act to reach one billion YouTube views.",
+      "answer": "The Cranberries",
+      "aliases": [
+        "Cranberries"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Cranberries",
+          "url": "https://en.wikipedia.org/wiki/The_Cranberries",
+          "snippet": "The Cranberries were an Irish rock band formed in Limerick in 1989. The band was composed of lead vocalist/guitarist Dolores O'Riordan, guitarist Noel Hogan, bassist Mike Hogan and drummer Fergal Lawler; O'Riordan replaced founding member N"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:37.375Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Diana_Ross",
+      "external_id": "music-2026-06-24-011",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "As lead singer of Motown's most successful act of the 1960s — a trio holding the record for most number-one pop singles by a female group — this performer later became the first African-American actress nominated for an Oscar in a debut film role.",
+      "answer": "Diana Ross",
+      "answer_type": "name",
+      "aliases": [
+        "Ross"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Diana Ross",
+          "url": "https://en.wikipedia.org/wiki/Diana_Ross",
+          "snippet": "Diana Ross is an American singer and actress. She was the lead singer of the vocal group the Supremes, who became Motown's most successful act during the 1960s and one of the world's best-selling girl groups of all time. They remain the bes"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:37.743Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Young_Americans",
+      "external_id": "music-2026-06-24-012",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Recorded at Sigma Sound Studios in Philadelphia in 1974, this Bowie LP — its creator called its style 'plastic soul' — featured then-unknown backing vocalist Luther Vandross and yielded Bowie's first U.S. number-one single.",
+      "answer": "Young Americans",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Young Americans",
+          "url": "https://en.wikipedia.org/wiki/Young_Americans",
+          "snippet": "Young Americans is the ninth studio album by the English musician David Bowie, released on 7 March 1975 through RCA Records. A departure from the glam rock style of previous albums, the record showcased Bowie's interest in soul and R&B. Mus"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:38.112Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sgt._Pepper's_Lonely_Hearts_Club_Band",
+      "external_id": "music-2026-06-24-013",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Although its sessions produced 'Strawberry Fields Forever' and 'Penny Lane,' EMI pulled both tracks for release as a double A-side single, leaving this landmark 1967 Beatles LP without two of the band's most celebrated recordings.",
+      "answer": "Sgt. Pepper's Lonely Hearts Club Band",
+      "aliases": [
+        "Sgt. Pepper's",
+        "Sgt. Pepper"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sgt. Pepper's Lonely Hearts Club Band",
+          "url": "https://en.wikipedia.org/wiki/Sgt._Pepper's_Lonely_Hearts_Club_Band",
+          "snippet": "Sgt. Pepper's Lonely Hearts Club Band is the eighth studio album by the English rock band the Beatles. Released in the UK on 26 May 1967, Sgt. Pepper is regarded by musicologists as an early concept album that advanced the roles of sound co"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:38.479Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Enya",
+      "external_id": "music-2026-06-24-014",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in the Irish-speaking district of Gweedore and baptized with the Gaelic name 'Eithne,' this artist began her career with her family's folk band before the 1988 solo album 'Watermark' brought her worldwide fame.",
+      "answer": "Enya",
+      "answer_type": "name",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Enya",
+          "url": "https://en.wikipedia.org/wiki/Enya",
+          "snippet": "Eithne Pádraigín Ní Bhraonáin, known mononymously as Enya, is an Irish singer and composer. With an estimated equivalent of more than 80 million albums sold, Enya is one of the world's best-selling music artists; she is the best-selling Iri"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:42:38.848Z"
+    }
+  ]
+}
