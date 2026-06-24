@@ -10,6 +10,11 @@
  *                   woven into the clue (phonetic match is human-reviewed)
  *   hidden_word  -> wp.hidden_in : a longer phrase (in the clue) that conceals the
  *                   answer as consecutive letters, e.g. "cat" in "lo[cat]ion"
+ *   initials     -> wp.initials : a normal clue + the answer's initials as the hint;
+ *                   the initials must equal the first letter of each answer word
+ *   crossword    -> wp.length + wp.pattern : answer must be that length and match every
+ *                   revealed letter, e.g. "___S___" for WHISKEY
+ *   rhyme_time   -> wp.rhyme_pair : answer is a rhyming pair (rhyme human-reviewed)
  * Plus, for every clue: no answer word may appear in the clue as a standalone token
  * (leak), and answers must be distinct across the pack. Exits non-zero if anything fails.
  *
@@ -80,6 +85,35 @@ for (const q of qs) {
     else if (!hay.includes(needle)) fail(`answer "${q.answer}" is not hidden inside "${wp.hidden_in}"`);
     else if (hay === needle) fail(`"${wp.hidden_in}" must be longer than the answer (genuinely hidden)`);
     if (!q.clue.toLowerCase().includes(String(wp.hidden_in).toLowerCase())) fail(`hidden_word clue must contain the carrier "${wp.hidden_in}"`);
+  } else if (q.mechanic === 'initials') {
+    // A normal trivia clue; the answer's INITIALS are shown as the hint. Verify the given
+    // initials equal the first letter of each answer word. The leak guard above already
+    // ensures the clue doesn't contain the answer's words.
+    if (!wp.initials) { fail('initials missing wp.initials'); continue; }
+    const aWords = words(q.answer);
+    if (aWords.length < 2) fail(`initials answer "${q.answer}" should be multi-word (initials need >=2 words)`);
+    const derived = aWords.map((w) => w[0]).join('');
+    const given = String(wp.initials).toLowerCase().replace(/[^a-z]/g, '');
+    if (given !== derived) fail(`initials "${wp.initials}" don't match the answer's word-initials ("${derived.toUpperCase()}")`);
+  } else if (q.mechanic === 'crossword') {
+    // Clue + length + a revealed-letter pattern (e.g. "___S___"). Verify the answer fits
+    // the length and every revealed letter. (Leak guard above blocks naming the answer.)
+    if (!wp.pattern) { fail('crossword missing wp.pattern'); continue; }
+    const ans = flat(q.answer);
+    const pat = String(wp.pattern).toLowerCase().replace(/[^a-z0-9_]/g, '');
+    if (wp.length != null && Number(wp.length) !== ans.length) fail(`crossword wp.length ${wp.length} != answer length ${ans.length}`);
+    if (pat.length !== ans.length) fail(`crossword pattern length ${pat.length} != answer length ${ans.length}`);
+    else for (let i = 0; i < pat.length; i += 1) {
+      if (pat[i] !== '_' && pat[i] !== ans[i]) fail(`crossword pattern mismatch at position ${i + 1}: pattern "${pat[i]}" vs answer "${ans[i]}"`);
+    }
+  } else if (q.mechanic === 'rhyme_time') {
+    // Answer is a rhyming pair (e.g. "fat cat") clued by description. The rhyme itself is
+    // human-reviewed (no pronunciation dictionary); enforce structure: two distinct words
+    // whose join equals the answer.
+    const pair = wp.rhyme_pair;
+    if (!Array.isArray(pair) || pair.length < 2) { fail('rhyme_time missing wp.rhyme_pair (>=2 words)'); continue; }
+    if (flat(pair.join('')) !== flat(q.answer)) fail(`rhyme_time answer "${q.answer}" != the pair "${pair.join(' ')}"`);
+    if (pair.length === 2 && flat(pair[0]) === flat(pair[1])) fail('rhyme_time pair must be two different words');
   } else {
     fail(`unsupported wordplay mechanic "${q.mechanic}"`);
   }
