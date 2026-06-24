@@ -63,6 +63,14 @@ const cases: Case[] = [
   //      in "victory" -> "winged horse of victory" was scored correct. (Reported 2026-06-22.)
   { name: 'phrase ending in surname-word rejected (winged horse of victory)', answer: 'Winged Victory of Samothrace', aliases: ['Nike of Samothrace', 'Winged Victory'], submitted: 'winged horse of victory', want: 'missed' },
   { name: 'unrelated phrase ending in shared word rejected', answer: 'Jackson Pollock', submitted: 'someone named Pollock the painter', want: 'missed' },
+
+  // REGRESSION: a sub-phrase that is its own distinct term must not be credited as a
+  // partial of a longer answer. "Reformation" was scored correct for "Counter-Reformation"
+  // (both isClose token-containment AND the surname shortcut accepted it). (Reported 2026-06-23.)
+  { name: 'sub-phrase of a hyphenated compound rejected (Reformation)', answer: 'Counter-Reformation', submitted: 'Reformation', want: 'missed' },
+  { name: 'single-token sub-phrase of a longer name rejected (York)', answer: 'New York City', submitted: 'York', want: 'missed' },
+  // …but a genuinely distinctive bare last word of a (non-hyphenated) title still counts.
+  { name: 'distinctive last word still accepted (Gatsby)', answer: 'The Great Gatsby', submitted: 'Gatsby', want: 'correct' },
 ];
 
 describe('gradeResponse', () => {

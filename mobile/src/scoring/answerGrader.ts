@@ -55,7 +55,7 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
   // the surname alone ("Pollock") — and tolerate one misspelling on longer
   // surnames ("Pollack"→"Pollock"), where a single edit rarely lands on a
   // different real surname. Short surnames are excluded (too collision-prone).
-  if (acceptedAnswers.some((answer) => matchesSurname(submitted, answer))) {
+  if ([question.answer, ...(question.aliases ?? [])].some((raw) => matchesSurname(submitted, raw))) {
     return {
       grade: 'correct',
       label: 'Correct',
@@ -70,7 +70,11 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
   };
 }
 
-function matchesSurname(submitted: string, answer: string) {
+function matchesSurname(submitted: string, rawAnswer: string) {
+  // A hyphenated compound ("Counter-Reformation") isn't a First-Last person name — its
+  // last word isn't a surname, so a bare last word ("Reformation") must not match it.
+  if (/[a-z]-[a-z]/i.test(rawAnswer)) return false;
+  const answer = normalizeAnswer(rawAnswer);
   const answerTokens = answer.split(' ').filter(Boolean);
   if (answerTokens.length < 2) return false;
   const surname = answerTokens[answerTokens.length - 1];
@@ -112,7 +116,12 @@ function isClose(submitted: string, answer: string) {
   // whole-token match avoids matching inside a longer word.
   const submittedTokens = submitted.split(' ').filter(Boolean);
   const answerTokens = answer.split(' ').filter(Boolean);
-  if (containsTokenSequence(submittedTokens, answerTokens) || containsTokenSequence(answerTokens, submittedTokens)) {
+  // The contained run must be at least TWO tokens, so a shorter phrase that is its own
+  // distinct entity isn't credited as a sub-phrase of a longer one ("Reformation" for
+  // "Counter-Reformation", "York" for "New York City"). Genuine partials are multi-word
+  // ("New York" ⊂ "New York City", "Huckleberry Finn" ⊂ "Adventures of Huckleberry Finn").
+  if ((answerTokens.length >= 2 && containsTokenSequence(submittedTokens, answerTokens)) ||
+      (submittedTokens.length >= 2 && containsTokenSequence(answerTokens, submittedTokens))) {
     return true;
   }
 
