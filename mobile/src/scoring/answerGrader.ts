@@ -59,7 +59,7 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
   // tolerate one misspelling on longer surnames ("Pollack"→"Pollock"). Gating on the
   // authored type is what stops the grader from guessing that a non-person's last word
   // (e.g. "Reformation" of "Counter-Reformation") is a "surname".
-  if (answerType === 'name' && acceptedAnswers.some((answer) => matchesSurname(submitted, answer))) {
+  if (answerType === 'name' && acceptedAnswers.some((answer) => matchesSurname(submitted, answer) || matchesNameWithSuffix(submitted, answer))) {
     return {
       grade: 'correct',
       label: 'Correct',
@@ -95,6 +95,25 @@ function matchesSurname(submitted: string, answer: string) {
   // A different initial almost always means a different name, not a typo.
   if (only[0] !== surname[0]) return false;
   return surname.length >= 6 && levenshtein(only, surname) <= 1;
+}
+
+// Generational/regnal suffixes. When the answer ends in one, the bare-surname shortcut
+// is off (the last token is the suffix), so accept the "<name-word> <suffix>" form
+// automatically — "King Jr." for Martin Luther King Jr., "Henry VIII" for itself. We do
+// NOT auto-accept the suffix-less word ("King", "Henry", "Elizabeth"): whether that counts
+// is a per-name call the drafter makes via an alias (fine for King, never for a monarch
+// where the numeral is essential — "Elizabeth" must not pass for "Elizabeth II").
+const NAME_SUFFIXES = new Set(['jr', 'sr', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii']);
+
+function matchesNameWithSuffix(submitted: string, answer: string) {
+  const at = answer.split(' ').filter(Boolean);
+  if (at.length < 2) return false;
+  const suffix = at[at.length - 1];
+  if (!NAME_SUFFIXES.has(suffix)) return false;
+  const nameWord = at[at.length - 2];
+  if (!nameWord || nameWord.length < 3) return false;
+  const st = submitted.split(' ').filter(Boolean);
+  return st.length === 2 && st[0] === nameWord && st[1] === suffix;
 }
 
 export function normalizeAnswer(value: string) {
