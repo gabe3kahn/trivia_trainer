@@ -58,9 +58,18 @@ const cases: Case[] = [
   { name: 'bare surname accepted (Pollock, name)', answer: 'Jackson Pollock', answerType: 'name', submitted: 'Pollock', want: 'correct' },
   { name: 'misspelled surname within 1 edit (Pollack, name)', answer: 'Jackson Pollock', answerType: 'name', submitted: 'Pollack', want: 'correct' },
   { name: 'wrong surname rejected (Smith)', answer: 'Jackson Pollock', answerType: 'name', submitted: 'Smith', want: 'missed' },
-  { name: 'short surname not accepted alone (Lee)', answer: 'Stan Lee', answerType: 'name', submitted: 'Lee', want: 'missed' },
+  { name: '3-char surname accepted (Ford)', answer: 'Gerald Ford', answerType: 'name', submitted: 'Ford', want: 'correct' },
+  { name: '3-char surname accepted (Lee)', answer: 'Stan Lee', answerType: 'name', submitted: 'Lee', want: 'correct' },
+  { name: '2-char last token still too short (Li)', answer: 'Jet Li', answerType: 'name', submitted: 'Li', want: 'missed' },
   // The gate: the SAME bare surname is rejected when the answer isn't typed 'name'.
   { name: "bare surname rejected when answer_type isn't 'name' (default)", answer: 'Jackson Pollock', submitted: 'Pollock', want: 'missed' },
+  // Suffixed names: the last token is the suffix, so the bare-surname shortcut switches off —
+  // every accepted form ("King", "King Jr.", "MLK") comes from authored aliases, never "Jr." alone.
+  { name: 'suffix "Jr." alone never counts', answer: 'Martin Luther King Jr.', answerType: 'name', submitted: 'Jr.', want: 'missed' },
+  { name: 'suffixed surname not auto-accepted without an alias', answer: 'Martin Luther King Jr.', answerType: 'name', submitted: 'King', want: 'missed' },
+  { name: 'suffixed short form via alias (King Jr.)', answer: 'Martin Luther King Jr.', answerType: 'name', aliases: ['MLK', 'King Jr.', 'King'], submitted: 'King Jr.', want: 'correct' },
+  { name: 'initialism via alias (MLK)', answer: 'Martin Luther King Jr.', answerType: 'name', aliases: ['MLK', 'King Jr.', 'King'], submitted: 'mlk', want: 'correct' },
+  { name: 'bare surname via alias when authored (King)', answer: 'Martin Luther King Jr.', answerType: 'name', aliases: ['MLK', 'King Jr.', 'King'], submitted: 'King', want: 'correct' },
 
   // ---- REGRESSION: surname shortcut must not fire for a multi-word phrase that merely
   //      ENDS in the surname. "Winged Victory" alias previously accepted anything ending

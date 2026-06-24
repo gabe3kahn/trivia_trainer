@@ -78,7 +78,11 @@ function matchesSurname(submitted: string, answer: string) {
   const answerTokens = answer.split(' ').filter(Boolean);
   if (answerTokens.length < 2) return false;
   const surname = answerTokens[answerTokens.length - 1];
-  if (surname.length < 5) return false;
+  // Block only 1-2 char last tokens (too collision-prone, and catches suffixes like "Jr").
+  // 3+ chars are real surnames worth the shortcut ("Ford", "King", "Poe"). Names whose last
+  // token is a suffix/particle or that flip order (Deng Xiaoping, Aung San Suu Kyi) won't be
+  // handled well here by design — those rely on authored aliases instead.
+  if (surname.length < 3) return false;
 
   // Only a BARE surname qualifies for this shortcut ("Pollock" for "Jackson Pollock").
   // A multi-word submission that merely ENDS in the surname is NOT a surname-only answer
