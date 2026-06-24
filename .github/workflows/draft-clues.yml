@@ -73,7 +73,10 @@ jobs:
     needs: guard
     if: needs.guard.outputs.already != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    # Headroom for the 529-retry loop (up to 4 attempts of a ~25-50 min draft + 5/10/20 min
+    # backoffs). At 90 min a sustained-overload retry would be killed mid-wait, defeating the
+    # "don't drop the job" intent; 240 fits the full retry budget.
+    timeout-minutes: 240
     env:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       # ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # alternative to the OAuth token (metered)
@@ -193,10 +196,45 @@ jobs:
           # turn AS IT HAPPENS. Plain --verbose buffers everything into one dump at the
           # end (we get no live timeline), so stream-json is what makes the wall-clock
           # readable — which step (build-topic-docs, verify-clue-sources, import, or LLM
-          # thinking) is slow. pipefail so a claude failure still fails the step despite
-          # the pipe into node.
-          set -o pipefail
-          cat planning/draft-clues-prompt.md | claude -p --verbose --output-format stream-json \
-            --model claude-sonnet-4-6 \
-            --allowedTools "Bash,Read,Write,Edit,Glob,Grep,TodoWrite" \
-            --max-turns 120 | node tools/acquisition/format-stream.mjs
+          # thinking) is slow.
+          #
+          # RETRY on transient server-side errors only. A single Anthropic 529 (Overloaded)
+          # mid-run otherwise throws away the whole ~25-50 min draft (happened 2026-06-23,
+          # 24 min in, right before writing the packs). We retry the run on 529 / 5xx /
+          # overloaded with backoff, but NOT on a genuine failure (a real bug should fail
+          # fast). `set +e` because the default GitHub shell is `bash -eo pipefail`, which
+          # would abort the step on the first failed pipeline before the loop can react.
+          # tee captures the stream so we can classify the failure; PIPESTATUS[1] is
+          # claude's own exit (cat=0, claude=1, tee=2, node=3) — the real success signal.
+          set +e
+          max_attempts=4
+          log="$(mktemp)"
+          attempt=1
+          while :; do
+            echo "::group::Draft attempt ${attempt}/${max_attempts}"
+            cat planning/draft-clues-prompt.md | claude -p --verbose --output-format stream-json \
+              --model claude-sonnet-4-6 \
+              --allowedTools "Bash,Read,Write,Edit,Glob,Grep,TodoWrite" \
+              --max-turns 120 | tee "$log" | node tools/acquisition/format-stream.mjs
+            status=${PIPESTATUS[1]}
+            echo "::endgroup::"
+
+            if [ "$status" -eq 0 ]; then
+              echo "Draft succeeded on attempt ${attempt}."
+              exit 0
+            fi
+
+            if [ "$attempt" -lt "$max_attempts" ] && \
+               grep -qiE '529|overloaded|api error: 5[0-9][0-9]|internal server error|service unavailable|temporarily unavailable' "$log"; then
+              # Long, escalating waits: 5 / 10 / 20 min. A 529 overload can persist for a
+              # while, and dropping a ~25-50 min job is the expensive outcome — so wait it out.
+              backoff=$(( 300 * (1 << (attempt - 1)) ))
+              echo "::warning::Draft attempt ${attempt} hit a transient API error (claude exit ${status}). Retrying in ${backoff}s…"
+              sleep "${backoff}"
+              attempt=$(( attempt + 1 ))
+              continue
+            fi
+
+            echo "::error::Draft failed on attempt ${attempt} (claude exit ${status}) — not a retryable transient error, or retries exhausted."
+            exit 1
+          done

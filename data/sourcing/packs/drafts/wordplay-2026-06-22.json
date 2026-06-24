@@ -1,0 +1,210 @@
+{
+  "pack_id": "wordplay-2026-06-22",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-22",
+  "notes": "Run 2026-06-22. Mechanics: Homophones & Soundalikes (5) + Before & After (5). Last pack (2026-06-21) used Anagrams + Hidden Words; choosing Homophones + Before & After to rotate. All homophone pairs are new — none overlap prior packs (active homophones: Knight, Pear, Reign, Sole, Steak, Weak, Flour, Lute, Hare, Bore). All B&A answers are new.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-hp-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The young royal stepped onto the palace balcony each dawn to breathe the fresh morning air, which — by birthright — was already his.",
+      "answer": "Heir",
+      "aliases": [],
+      "wp": {
+        "homophone": "air"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-hp-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "After the campers fled from the grizzly bear, it wandered through the deserted site and stripped the tent clean, leaving everything exposed to the elements.",
+      "answer": "Bare",
+      "aliases": [],
+      "wp": {
+        "homophone": "bear"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-hp-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The master goldsmith pressed a wafer-thin layer of precious metal onto the ornate frame, and each visitor who paused to admire the result left with a nagging twinge of guilt at coveting such luxury.",
+      "answer": "Gilt",
+      "aliases": [],
+      "wp": {
+        "homophone": "guilt"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-hp-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The medieval rogue slipped past the altar boys and found cover among the worshippers gathered in the cathedral's nave.",
+      "answer": "Knave",
+      "aliases": [],
+      "wp": {
+        "homophone": "nave"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-hp-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The prowling wild cat padded silently across the links of the seaside Scottish golf course.",
+      "answer": "Lynx",
+      "aliases": [],
+      "wp": {
+        "homophone": "links"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-ba-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The counterculture activist borrowed her neighbor's electric boring tool to mount the peace signs above her front door in preparation for the big march.",
+      "answer": "Flower Power Drill",
+      "aliases": [],
+      "wp": {
+        "first": "Flower Power",
+        "second": "Power Drill"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-ba-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The college students who drove to the Florida resort for their annual holiday found the beach venue hosting a competition where the winner spun on his head and froze mid-move.",
+      "answer": "Spring Break Dance",
+      "aliases": [],
+      "wp": {
+        "first": "Spring Break",
+        "second": "Break Dance"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-ba-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The students serving Saturday detention at their suburban high school finally sat down in the cafeteria for their one meal of the day — a triple-decker on toasted bread.",
+      "answer": "Breakfast Club Sandwich",
+      "aliases": [],
+      "wp": {
+        "first": "Breakfast Club",
+        "second": "Club Sandwich"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-22-ba-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The meteorologist tracking the approaching mass of Arctic air had her discovery splashed as the lead story in the next morning's edition.",
+      "answer": "Cold Front Page",
+      "aliases": [],
+      "wp": {
+        "first": "Cold Front",
+        "second": "Front Page"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
