@@ -166,70 +166,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Timbuktu",
-      "external_id": "hist-2026-06-23-006",
-      "category_id": "history",
-      "subcategory_name": "Empires & Dynasties",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "After a visit by a fabulously wealthy Mali emperor around 1325, this West African city at the junction of Saharan trade routes for salt, gold, and ivory rose to prominence as an Islamic center of learning anchored by its famous theological school.",
-      "answer": "Timbuktu",
-      "aliases": [
-        "Tombouctou"
-      ],
-      "tags": [
-        "history-draft",
-        "sourced",
-        "empires-dynasties"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Timbuktu",
-          "url": "https://en.wikipedia.org/wiki/Timbuktu",
-          "snippet": "Timbuktu is an ancient city in Mali, situated 20 kilometres north of the Niger River. It is the capital of the Tombouctou Region, one of the 19 administrative regions of Mali, having a population of around one million people in the 2022 cen"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-06-23T16:37:36.353Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Tennessee",
-      "external_id": "hist-2026-06-23-007",
-      "category_id": "history",
-      "subcategory_name": "U.S. History",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Deeply divided between a Unionist east and a secessionist west, this state holds the distinction of being both the last to secede and join the Confederacy and the first former Confederate state readmitted to the Union after the Civil War.",
-      "answer": "Tennessee",
-      "aliases": [
-        "State of Tennessee"
-      ],
-      "tags": [
-        "history-draft",
-        "sourced",
-        "us-history"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Tennessee",
-          "url": "https://en.wikipedia.org/wiki/Tennessee",
-          "snippet": "Tennessee, officially the State of Tennessee, is a landlocked state in the Southeastern region of the United States. It borders Kentucky to the north, Virginia to the northeast, North Carolina to the east, Georgia, Alabama, and Mississippi "
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-06-23T16:37:36.733Z"
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Siege_of_Vicksburg",
       "external_id": "hist-2026-06-23-008",
       "category_id": "history",
@@ -241,8 +177,8 @@
       "clue": "Abraham Lincoln called this Confederate stronghold 'the key to the war'; when it surrendered to Ulysses Grant on July 4, 1863, the Union gained full control of the Mississippi River and effectively split the Confederacy into two separate zones.",
       "answer": "Siege of Vicksburg",
       "aliases": [
-        "Vicksburg",
         "Battle of Vicksburg",
+        "Vicksburg",
         "fall of Vicksburg"
       ],
       "tags": [
