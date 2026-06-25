@@ -1,0 +1,499 @@
+{
+  "pack_id": "science-draft-2026-06-25",
+  "category_id": "science",
+  "created_at": "2026-06-25",
+  "notes": [
+    "Under-covered tier: $1000. Pack weighted toward $800–$1000.",
+    "Thin subcategories covered: Scientists (Nightingale, Salk, Sacks, Röntgen, Freud), Physics thin (Wave doc not used — used Astronomy/Biology/Medicine instead).",
+    "Hard tail: Wilhelm Röntgen ($800), Venus/Venera ($800), Eohippus ($1000).",
+    "Two Animals & Plants clues from the same horse doc (horses + Eohippus) — two distinct answers."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Horse",
+      "external_id": "science-2026-06-25-001",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First domesticated in Central Asia around 4,000 BCE, these mammals — bred into more than 300 distinct varieties — can sleep both standing up and lying down; females carry their young for approximately eleven months.",
+      "answer": "Horses",
+      "answer_type": "other",
+      "aliases": [
+        "horse"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "animals-plants"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Horse",
+          "url": "https://en.wikipedia.org/wiki/Horse",
+          "snippet": "The horse is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:02.716Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+      "external_id": "science-2026-06-25-002",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Better known for reducing death rates by improving hygiene in Crimean War hospitals, this Victorian reformer was also an innovator in statistics who popularized the polar area diagram — a circular histogram still used in data visualization today — and founded the first secular nursing school in the world.",
+      "answer": "Florence Nightingale",
+      "answer_type": "name",
+      "aliases": [
+        "Nightingale"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "scientists"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Florence Nightingale",
+          "url": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+          "snippet": "Florence Nightingale was an English social reformer, statistician and the founder of modern nursing. Nightingale came to prominence while serving as a manager and trainer of nurses during the Crimean War, in which she organised care for wou"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:03.089Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Heimlich_maneuver",
+      "external_id": "science-2026-06-25-003",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named for the American doctor credited with its development, this first-aid procedure treats upper-airway choking by having a rescuer stand behind the victim and apply upward pressure below the diaphragm, compressing the lungs to dislodge the obstruction.",
+      "answer": "Heimlich maneuver",
+      "answer_type": "other",
+      "aliases": [
+        "Heimlich",
+        "abdominal thrust",
+        "Heimlich manoeuvre"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Heimlich maneuver",
+          "url": "https://en.wikipedia.org/wiki/Heimlich_maneuver",
+          "snippet": "The Heimlich maneuver, also known as an abdominal thrust, is a first-aid procedure used to treat upper-airway obstructions by foreign objects. American doctor Henry Heimlich is often credited for its development. To perform a Heimlich maneu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:03.469Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jonas_Salk",
+      "external_id": "science-2026-06-25-004",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American virologist declined to patent the polio vaccine he developed in 1955, choosing to maximize its global distribution; within four years of its release, the vaccine had reached approximately 90 countries.",
+      "answer": "Jonas Salk",
+      "answer_type": "name",
+      "aliases": [
+        "Salk"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "scientists"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jonas Salk",
+          "url": "https://en.wikipedia.org/wiki/Jonas_Salk",
+          "snippet": "Jonas Edward Salk was an American virologist and medical researcher who developed one of the first successful polio vaccines. He was born in New York City and attended the City College of New York and New York University School of Medicine."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:03.842Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Oliver_Sacks",
+      "external_id": "science-2026-06-25-005",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This British neurologist's case study of patients who had been immobilized for decades by the 1920s encephalitis lethargica epidemic inspired both a 1973 memoir and a 1990 film starring Robin Williams and Robert De Niro; The New York Times called him a 'poet laureate of contemporary medicine.'",
+      "answer": "Oliver Sacks",
+      "answer_type": "name",
+      "aliases": [
+        "Sacks"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "scientists"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Oliver Sacks",
+          "url": "https://en.wikipedia.org/wiki/Oliver_Sacks",
+          "snippet": "Oliver Wolf Sacks was a British neurologist, naturalist, historian of science, and writer."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:04.214Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Stem_cell",
+      "external_id": "science-2026-06-25-006",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "These undifferentiated cells, capable of differentiating into a variety of specialized types, gained new therapeutic significance in 2006 when a Japanese team led by Shinya Yamanaka discovered how to convert mature body cells back into them.",
+      "answer": "Stem cells",
+      "answer_type": "other",
+      "aliases": [
+        "stem cell"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Stem cell",
+          "url": "https://en.wikipedia.org/wiki/Stem_cell",
+          "snippet": "In multicellular organisms, stem cells are undifferentiated or partially differentiated cells that can change into various types of cells and proliferate indefinitely to produce more of the same stem cell. They are the earliest type of cell"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:04.586Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Flagellum",
+      "external_id": "science-2026-06-25-007",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Derived from the Latin for 'whip,' these hair-like appendages provide motility to a wide range of microorganisms; Helicobacter pylori uses them to propel itself through the stomach toward the mucous lining, where it can cause gastritis and ulcers.",
+      "answer": "Flagella",
+      "answer_type": "other",
+      "aliases": [
+        "flagellum"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Flagellum",
+          "url": "https://en.wikipedia.org/wiki/Flagellum",
+          "snippet": "A flagellum is a hair-like appendage that protrudes from certain plant and animal sperm cells, from fungal spores (zoospores), and from a wide range of microorganisms to provide motility. Many protists with flagella are known as flagellates"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:04.958Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sigmund_Freud",
+      "external_id": "science-2026-06-25-008",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Austrian neurologist introduced free association, dream interpretation as wish fulfillment, and a tripartite model of the psyche comprising id, ego, and superego; W. H. Auden's 1940 poem called him 'a whole climate of opinion.'",
+      "answer": "Sigmund Freud",
+      "answer_type": "name",
+      "aliases": [
+        "Freud"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "scientists"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sigmund Freud",
+          "url": "https://en.wikipedia.org/wiki/Sigmund_Freud",
+          "snippet": "Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies arising from conflicts in the psyche through dialogue between patient and psychoanalyst, and the distinct"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:05.330Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ebola",
+      "external_id": "science-2026-06-25-009",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This viral hemorrhagic fever, first reported in sub-Saharan Africa in 1976, spreads through direct contact with body fluids; outbreaks have had mortality rates ranging from 25 to 90 percent, averaging around 50 percent, with fruit bats believed to be the natural host.",
+      "answer": "Ebola",
+      "answer_type": "other",
+      "aliases": [
+        "Ebola virus disease",
+        "EVD",
+        "Ebola hemorrhagic fever"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ebola",
+          "url": "https://en.wikipedia.org/wiki/Ebola",
+          "snippet": "Ebola, also known as Ebola virus disease (EVD) and Ebola hemorrhagic fever (EHF), is a zoonotic viral hemorrhagic fever in humans and other primates, caused by four of the six known ebolaviruses. Symptoms typically start anywhere between tw"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:05.704Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Blood_pressure",
+      "external_id": "science-2026-06-25-010",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Expressed as a systolic reading over a diastolic reading and measured in millimeters of mercury, this vital sign reflects the force of circulating blood against vessel walls; when consistently above 120/80 mmHg in adults, the condition is classified as hypertension.",
+      "answer": "Blood pressure",
+      "answer_type": "other",
+      "aliases": [
+        "BP"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Blood pressure",
+          "url": "https://en.wikipedia.org/wiki/Blood_pressure",
+          "snippet": "Blood pressure (BP) is the pressure of circulating blood against the walls of blood vessels. Most of this pressure results from the heart pumping blood through the circulatory system. When used without qualification, the term \"blood pressur"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:06.076Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sleep_apnea",
+      "external_id": "science-2026-06-25-011",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Affecting roughly 1 in 10 adults globally between ages 30 and 69, this breathing disorder causes repetitive overnight pauses; its most common form results from collapse of the upper airway and is often treated with a device that maintains continuous positive airway pressure.",
+      "answer": "Sleep apnea",
+      "answer_type": "other",
+      "aliases": [
+        "sleep apnoea",
+        "obstructive sleep apnea",
+        "OSA"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sleep apnea",
+          "url": "https://en.wikipedia.org/wiki/Sleep_apnea",
+          "snippet": "Sleep apnea is a sleep-related breathing disorder in which repetitive pauses in breathing, periods of shallow breathing, or collapse of the upper airway during sleep result in poor ventilation and sleep disruption. Each pause in breathing c"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:06.448Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+      "external_id": "science-2026-06-25-012",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 1901, this German physicist became the inaugural Nobel laureate in Physics for discovering electromagnetic radiation in a wavelength range whose nature was initially unknown; atomic number 111 on the periodic table was later named in his honor.",
+      "answer": "Wilhelm Röntgen",
+      "answer_type": "name",
+      "aliases": [
+        "Röntgen",
+        "Roentgen",
+        "Wilhelm Conrad Röntgen"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "scientists"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wilhelm Röntgen",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+          "snippet": "Wilhelm Conrad Röntgen was a German experimental physicist who produced and detected electromagnetic radiation in a wavelength range known as X-rays. In 1901, Röntgen became the first recipient of the Nobel Prize in Physics \"in recognition "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:06.827Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Venus",
+      "external_id": "science-2026-06-25-013",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The first probe to achieve interplanetary spaceflight flew past this planet in 1961; the first spacecraft to land on its surface arrived in 1970; a 1974 mission captured the first photographs of it during a gravity assist en route to another planet.",
+      "answer": "Venus",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy-space"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Venus",
+          "url": "https://en.wikipedia.org/wiki/Venus",
+          "snippet": "Venus is the second planet from the Sun. Similar in size and mass to Earth, Venus has no liquid water, and its atmosphere is far thicker and denser than that of any other rocky body in the Solar System. The atmosphere is composed mostly of "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:07.200Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mayo_Clinic",
+      "external_id": "science-2026-06-25-014",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded when a physician settled in Rochester, Minnesota in 1864 and evolved under his sons and their partners into a private academic medical center, this institution has been ranked number one in U.S. News & World Report's Best Hospitals Honor Roll for seven consecutive years.",
+      "answer": "Mayo Clinic",
+      "answer_type": "other",
+      "aliases": [
+        "the Mayo Clinic"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mayo Clinic",
+          "url": "https://en.wikipedia.org/wiki/Mayo_Clinic",
+          "snippet": "Mayo Clinic is a private American academic medical center focused on integrated healthcare, education, and research. It maintains three major campuses in Rochester, Minnesota; Jacksonville, Florida; and Phoenix/Scottsdale, Arizona."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:07.572Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Horse",
+      "external_id": "science-2026-06-25-015",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This small, multi-toed North American mammal of roughly 45 to 55 million years ago was the evolutionary predecessor of today's large, single-hoofed grazers; the domesticated descendant it eventually became was first tamed in Central Asia around 4,000 BCE.",
+      "answer": "Eohippus",
+      "answer_type": "other",
+      "aliases": [
+        "dawn horse"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "animals-plants"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Horse",
+          "url": "https://en.wikipedia.org/wiki/Horse",
+          "snippet": "The horse is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:07.946Z"
+    }
+  ]
+}
