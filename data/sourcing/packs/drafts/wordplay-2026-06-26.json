@@ -1,0 +1,203 @@
+{
+  "pack_id": "wordplay-2026-06-26",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-26T00:00:00.000Z",
+  "notes": "Run 2026-06-26. Mechanics: Initials (5) + Before & After (5). Initials is a first-ever use — no prior wordplay pack has used this mechanic. Before & After last used in 2026-06-22. All 10 answers are fresh across every prior wordplay pack. Initials answers: Periodic Table (P.T.), Black Market (B.M.), Turing Test (T.T.), Manifest Destiny (M.D.), Habeas Corpus (H.C.). B&A answers: Cat Nap Time, Solar Power Plant, Water Polo Shirt, Milk Chocolate Box, Rock Bottom Line.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ini-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
+      "clue": "Dmitri Mendeleev's 1869 scientific chart arranges all known chemical elements by atomic number and groups those sharing similar properties into the same columns.",
+      "answer": "Periodic Table",
+      "aliases": [],
+      "wp": {
+        "initials": "P.T."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ini-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
+      "clue": "This informal system of illicit commerce allows buyers and sellers to exchange controlled or prohibited goods outside of government oversight, typically at inflated prices and beyond the reach of tax authorities.",
+      "answer": "Black Market",
+      "aliases": [],
+      "wp": {
+        "initials": "B.M."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ini-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
+      "clue": "Proposed by a British mathematician in 1950, this thought experiment asks whether a machine can exhibit conversational intelligence indistinguishable from a human's.",
+      "answer": "Turing Test",
+      "aliases": [],
+      "wp": {
+        "initials": "T.T."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ini-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
+      "clue": "This 19th-century American doctrine held that the United States was divinely ordained to extend its sovereignty across the North American continent from the Atlantic seaboard to the Pacific coast.",
+      "answer": "Manifest Destiny",
+      "aliases": [],
+      "wp": {
+        "initials": "M.D."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ini-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
+      "clue": "This foundational legal writ requires a detaining authority to bring a prisoner before a court to determine whether the detention is lawful; its Latin name translates roughly as 'you shall have the body.'",
+      "answer": "Habeas Corpus",
+      "aliases": [],
+      "wp": {
+        "initials": "H.C."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ba-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "A house pet's favorite brief drowse doubles as the designated mid-afternoon rest slot written into a preschooler's daily schedule.",
+      "answer": "Cat Nap Time",
+      "aliases": [],
+      "wp": {
+        "first": "Cat Nap",
+        "second": "Nap Time"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ba-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "A sprawling array of photovoltaic panels in the Mojave Desert converts the sun's rays into enough electrical current to keep thousands of homes running — all without burning a single ounce of fuel.",
+      "answer": "Solar Power Plant",
+      "aliases": [],
+      "wp": {
+        "first": "Solar Power",
+        "second": "Power Plant"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ba-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "This team sport contested in a swimming pool shares its name with the collared, short-sleeved garment that became a casual menswear staple after being popularized by René Lacoste.",
+      "answer": "Water Polo Shirt",
+      "aliases": [],
+      "wp": {
+        "first": "Water Polo",
+        "second": "Polo Shirt"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ba-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "A creamy, dairy-sweetened confection fills every cushioned well in the layered holiday assortment that Forrest Gump's mother famously compared to life's unpredictability.",
+      "answer": "Milk Chocolate Box",
+      "aliases": [],
+      "wp": {
+        "first": "Milk Chocolate",
+        "second": "Chocolate Box"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-26-ba-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "After hitting his lowest point emotionally, the recovering addict found clarity in his quarterly financial report — specifically, the final profit-or-loss figure that told him whether his struggling business had survived.",
+      "answer": "Rock Bottom Line",
+      "aliases": [],
+      "wp": {
+        "first": "Rock Bottom",
+        "second": "Bottom Line"
+      },
+      "tags": ["wp-draft", "before-after"],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
