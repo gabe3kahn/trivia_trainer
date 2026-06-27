@@ -1,0 +1,487 @@
+{
+  "pack_id": "history-draft-2026-06-27",
+  "category_id": "history",
+  "created_at": "2026-06-27",
+  "notes": "Run 2026-06-27 (category 2 of 2). Active count was 47 — second-thinnest eligible category. Under-weight at $800 (only 5 active). Targets thin subcategories: U.S. Presidents (3 active), World Wars (3 active), Dates/Documents/Treaties (2 active). Hard tail: Timbuktu, Wake Island ($800); William Howard Taft ($1000, Arlington burial angle). Sources: Washington, Ford, McKinley, Taft, Mayflower, Louisiana, Hawaii, Waterloo, Cultural Revolution, Counter-Reformation, Yorktown, Timbuktu, Wake Island, Mayflower Compact, Charles Atlas.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/George_Washington",
+      "external_id": "hist-2026-06-27-001",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Described as the 'Father of His Country,' this Virginian Founding Father commanded the Continental Army to victory in the Revolutionary War before being sworn in as the nation's first president in 1789.",
+      "answer": "George Washington",
+      "answer_type": "name",
+      "aliases": [
+        "Washington"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "George Washington",
+          "url": "https://en.wikipedia.org/wiki/George_Washington",
+          "snippet": "George Washington was a Founding Father and the first president of the United States, serving from 1789 to 1797. As commander of the Continental Army, Washington led Patriot forces to victory in the American Revolutionary War against the Br"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:24.650Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gerald_Ford",
+      "external_id": "hist-2026-06-27-002",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Appointed to the vice presidency under the 25th Amendment after Spiro Agnew's 1973 resignation, this Michigan Republican then assumed the presidency when Richard Nixon became the only president to resign from office — making him the sole person ever to hold both offices without winning a national election.",
+      "answer": "Gerald Ford",
+      "answer_type": "name",
+      "aliases": [
+        "Ford"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gerald Ford",
+          "url": "https://en.wikipedia.org/wiki/Gerald_Ford",
+          "snippet": "Gerald Rudolph Ford Jr. was the 38th president of the United States, serving from 1974 to 1977. He assumed the presidency after the resignation of Richard Nixon, under whom he served as the 40th vice president from 1973 to 1974, after the r"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:25.029Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/William_McKinley",
+      "external_id": "hist-2026-06-27-003",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The 25th U.S. president, he led the country through the Spanish-American War and oversaw a period of national expansion, but was shot by the anarchist Leon Czolgosz at the 1901 Pan-American Exposition in Buffalo, New York, and died eight days later.",
+      "answer": "William McKinley",
+      "answer_type": "name",
+      "aliases": [
+        "McKinley"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "William McKinley",
+          "url": "https://en.wikipedia.org/wiki/William_McKinley",
+          "snippet": "William McKinley was the 25th president of the United States, serving from 1897 until his assassination in 1901. A member of the Republican Party, he led a realignment that made Republicans largely dominant in the industrial states and nati"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:25.409Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/William_Howard_Taft",
+      "external_id": "hist-2026-06-27-004",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Interred at Arlington National Cemetery as the first former president — and simultaneously the first former chief justice — to be buried there, this Ohio Republican is the only person in American history to have held both of those offices.",
+      "answer": "William Howard Taft",
+      "answer_type": "name",
+      "aliases": [
+        "Taft"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "William Howard Taft",
+          "url": "https://en.wikipedia.org/wiki/William_Howard_Taft",
+          "snippet": "William Howard Taft was the 27th president of the United States from 1909 to 1913 and the tenth chief justice of the United States from 1921 to 1930. He is the only person to have held both offices."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:25.837Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mayflower",
+      "external_id": "hist-2026-06-27-005",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 110-foot English merchant vessel transported 102 passengers — later called the Pilgrims — across the Atlantic, dropping anchor near the tip of Cape Cod, Massachusetts, in November 1620 after ten weeks at sea.",
+      "answer": "The Mayflower",
+      "answer_type": "other",
+      "aliases": [
+        "Mayflower"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mayflower",
+          "url": "https://en.wikipedia.org/wiki/Mayflower",
+          "snippet": "Mayflower was an English square-rigged merchant sailing ship, active from before 1609 until 1622. Her tonnage was 180+, and she was 110 feet long and 25 feet in the beam, with several decks. She was notable in that she transported a group o"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:26.263Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Louisiana",
+      "external_id": "hist-2026-06-27-006",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The only U.S. state whose territory is divided into parishes rather than counties, this Deep South state's French and Spanish colonial heritage is also reflected in its distinctive civil-law traditions and cuisine.",
+      "answer": "Louisiana",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Louisiana",
+          "url": "https://en.wikipedia.org/wiki/Louisiana",
+          "snippet": "Louisiana is a state in the Deep South and South Central regions of the United States. It is bordered by Texas to the west, Arkansas to the north, and Mississippi to the east. Of the 50 U.S. states, it ranks 31st in area and 25th in populat"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:26.643Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hawaii",
+      "external_id": "hist-2026-06-27-007",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This island state — the only U.S. state that is an archipelago, the only one located south of the Tropic of Cancer, and one of only two states that were internationally recognized sovereign nations before joining the union — was admitted in 1959.",
+      "answer": "Hawaii",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hawaii",
+          "url": "https://en.wikipedia.org/wiki/Hawaii",
+          "snippet": "Hawaii is an island state of the United States, in the Pacific Ocean about 2,000 miles (3,200 km) southwest of the U.S. mainland. One of the two non-contiguous U.S. states, it is the only state not on the North American mainland, the only s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:27.022Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+      "external_id": "hist-2026-06-27-008",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Fought on June 18, 1815, in what is now Belgium, this final engagement of the Napoleonic era saw the French Imperial Army crushed by a British-led coalition and Prussian forces, ending its commander's last bid for European dominance.",
+      "answer": "Battle of Waterloo",
+      "answer_type": "other",
+      "aliases": [
+        "Waterloo"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Battle of Waterloo",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+          "snippet": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo, being the last engagement with Napoleon I. The French Imperial Army under the command of Napoleon I was defeated by two armies of the Seventh Coalition. One was a Brit"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:27.401Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+      "external_id": "hist-2026-06-27-009",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Chairman Mao Zedong launched this decade-long sociopolitical upheaval in China in May 1966 with the stated goal of preserving communism by purging remnants of capitalist and traditional elements from Chinese society; it lasted until his death.",
+      "answer": "The Cultural Revolution",
+      "answer_type": "other",
+      "aliases": [
+        "Cultural Revolution",
+        "Great Proletarian Cultural Revolution"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "revolutions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cultural Revolution",
+          "url": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+          "snippet": "The Cultural Revolution, formally known as the Great Proletarian Cultural Revolution, was a sociopolitical movement in the People's Republic of China (PRC). It was launched by CCP chairman Mao Zedong in 1966 and lasted until his death in 19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:27.830Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Counter-Reformation",
+      "external_id": "hist-2026-06-27-010",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Arising from the decrees of the Council of Trent, which convened in three sessions between 1545 and 1563, this period of Catholic revival was a comprehensive institutional response to the Protestant challenge that had split the Western church in the early 16th century.",
+      "answer": "The Counter-Reformation",
+      "answer_type": "other",
+      "aliases": [
+        "Counter-Reformation",
+        "Catholic Reformation"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "medieval-renaissance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Counter-Reformation",
+          "url": "https://en.wikipedia.org/wiki/Counter-Reformation",
+          "snippet": "The Counter-Reformation, also sometimes called the Catholic Revival or the Catholic Reformation, was the period of Catholic resurgence that was initiated in response to and as an alternative to, or from similar insights as, the Protestant R"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:28.257Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+      "external_id": "hist-2026-06-27-011",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 1781, the combined forces of George Washington, the Marquis de Lafayette, and the French Comte de Rochambeau hemmed in British General Cornwallis at a Virginia harbor town, forcing a surrender that effectively ended the American Revolutionary War.",
+      "answer": "Siege of Yorktown",
+      "answer_type": "other",
+      "aliases": [
+        "Battle of Yorktown",
+        "Yorktown"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "revolutions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Siege of Yorktown",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+          "snippet": "The Siege of Yorktown, also known as the Battle of Yorktown and the surrender at Yorktown, took place in 1781 and was the final major land engagement of the American Revolutionary War. It was won decisively by the Continental Army, led by G"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:28.636Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Timbuktu",
+      "external_id": "hist-2026-06-27-012",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After the Mali Empire potentate Mansa Musa passed through around 1325, this ancient city north of the Niger River in West Africa rose from a seasonal trading post to a preeminent center of Islamic scholarship, with its Sankoré Madrasah drawing scholars from across the continent.",
+      "answer": "Timbuktu",
+      "answer_type": "other",
+      "aliases": [
+        "Tombouctou"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "empires-dynasties"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Timbuktu",
+          "url": "https://en.wikipedia.org/wiki/Timbuktu",
+          "snippet": "Timbuktu is an ancient city in Mali, situated 20 kilometres north of the Niger River. It is the capital of the Tombouctou Region, one of the 19 administrative regions of Mali, having a population of around one million people in the 2022 cen"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:29.062Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wake_Island",
+      "external_id": "hist-2026-06-27-013",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Seized by Japanese forces in December 1941 — days after the attack on Pearl Harbor — this coral atoll in the Micronesian Pacific, composed of three islets, remained under occupation until Japan's 1945 surrender; the small flightless bird endemic to its shores went extinct during that occupation.",
+      "answer": "Wake Island",
+      "answer_type": "other",
+      "aliases": [
+        "Wake Atoll"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wake Island",
+          "url": "https://en.wikipedia.org/wiki/Wake_Island",
+          "snippet": "Wake Island, also known as Wake Atoll, is a coral atoll in the Micronesia subregion of the Pacific Ocean. The atoll is composed of three islets – Wake, Wilkes, and Peale Islands – surrounding a lagoon encircled by a coral reef. The nearest "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:29.440Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mayflower",
+      "external_id": "hist-2026-06-27-014",
+      "category_id": "history",
+      "subcategory_name": "Dates, Documents & Treaties",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Before disembarking in November 1620, the Pilgrim settlers drafted and signed this document aboard their vessel, establishing a rudimentary self-governing framework in which each member pledged to contribute to the safety and welfare of the Plymouth Colony.",
+      "answer": "The Mayflower Compact",
+      "answer_type": "other",
+      "aliases": [
+        "Mayflower Compact"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "dates-documents-treaties"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mayflower",
+          "url": "https://en.wikipedia.org/wiki/Mayflower",
+          "snippet": "Mayflower was an English square-rigged merchant sailing ship, active from before 1609 until 1622. Her tonnage was 180+, and she was 110 feet long and 25 feet in the beam, with several decks. She was notable in that she transported a group o"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:29.818Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Charles_Atlas",
+      "external_id": "hist-2026-06-27-015",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born Angelo Siciliano in Italy, this bodybuilder adopted his stage name after a friend remarked that he resembled a statue atop a Coney Island hotel; he legally changed his name in 1922 and built one of the most memorable fitness and exercise marketing campaigns in advertising history.",
+      "answer": "Charles Atlas",
+      "answer_type": "name",
+      "aliases": [
+        "Atlas"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Charles Atlas",
+          "url": "https://en.wikipedia.org/wiki/Charles_Atlas",
+          "snippet": "Charles Atlas was an Italian-born American bodybuilder best remembered as the developer of a bodybuilding method and its associated exercise program which spawned a landmark advertising campaign featuring his name and likeness; it has been "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-27T14:20:30.247Z"
+    }
+  ]
+}
