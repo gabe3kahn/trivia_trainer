@@ -47,7 +47,7 @@ export default function HomeScreen() {
         id: category.id,
         name: category.name,
         score: score?.score ?? 0,
-        tier: formatTier(score?.tier ?? 'unmapped'),
+        tier: formatTier(score?.tier ?? 'novice'),
         sevenDayDelta: score?.seven_day_delta ?? 0,
         attempts: score?.attempts ?? 0,
         correctRate: Math.round(Number(score?.correct_rate ?? 0)),
@@ -62,6 +62,13 @@ export default function HomeScreen() {
   const overallDelta = overallRow?.seven_day_delta ?? 0;
   const attempts = overallRow?.attempts ?? categoryRows.reduce((sum, c) => sum + c.attempts, 0);
   const dueReview = overallRow?.due_review_count ?? categoryRows.reduce((sum, c) => sum + c.dueReview, 0);
+
+  // Below this many overall reps the score is mostly evidence-shrink, not skill — so we
+  // show a "Getting started" placement (progress to a real read) instead of a low number.
+  // Matches the overall K in recalculate_user_competencies (migration 011).
+  const OVERALL_MAPPED_AT = 15;
+  const placed = attempts >= OVERALL_MAPPED_AT;
+  const repsToMap = Math.max(0, OVERALL_MAPPED_AT - attempts);
 
   const weakest = [...categoryRows]
     .filter((c) => c.attempts > 0 || c.score > 0)
@@ -98,17 +105,38 @@ export default function HomeScreen() {
       <Header logo title="Home" right={<Avatar />} />
 
       <Card style={styles.hero}>
-        <ScoreRing display={overall} progress={overall / 100} tone={scoreColor(overall)} label="overall" />
+        {placed ? (
+          <ScoreRing display={overall} progress={overall / 100} tone={scoreColor(overall)} label="overall" />
+        ) : (
+          <ScoreRing
+            display={attempts}
+            progress={attempts / OVERALL_MAPPED_AT}
+            tone={colors.gold}
+            label={`of ${OVERALL_MAPPED_AT} reps`}
+          />
+        )}
         <View style={styles.heroText}>
-          <Text style={styles.heroTier}>{formatTier(overallRow?.tier ?? 'unmapped')}</Text>
-          <Text style={[styles.heroTrend, overallDelta > 0 && styles.up, overallDelta < 0 && styles.down]}>
-            {trendText}
-          </Text>
-          <View style={styles.heroStatRow}>
-            <Text style={styles.heroStat}>{attempts} reps</Text>
-            <View style={styles.dotSep} />
-            <Text style={styles.heroStat}>{dueReview} to review</Text>
-          </View>
+          {placed ? (
+            <>
+              <Text style={styles.heroTier}>{formatTier(overallRow?.tier ?? 'novice')}</Text>
+              <Text style={[styles.heroTrend, overallDelta > 0 && styles.up, overallDelta < 0 && styles.down]}>
+                {trendText}
+              </Text>
+              <View style={styles.heroStatRow}>
+                <Text style={styles.heroStat}>{attempts} reps</Text>
+                <View style={styles.dotSep} />
+                <Text style={styles.heroStat}>{dueReview} to review</Text>
+              </View>
+            </>
+          ) : (
+            <>
+              <Text style={styles.heroTier}>Getting started</Text>
+              <Text style={[styles.heroTrend, { color: colors.gold }]}>
+                {repsToMap === 0 ? 'Mapping your level…' : `${repsToMap} more to find your level`}
+              </Text>
+              <Text style={styles.heroStat}>Your score unlocks once we've got a read</Text>
+            </>
+          )}
         </View>
       </Card>
 

@@ -25,7 +25,7 @@ export default function ProfileScreen() {
   const [competencies, setCompetencies] = useState<Competency[]>([]);
   const [attempts, setAttempts] = useState(0);
   const [overallScore, setOverallScore] = useState(0);
-  const [overallTier, setOverallTier] = useState('unmapped');
+  const [overallTier, setOverallTier] = useState('novice');
   const [strongCount, setStrongCount] = useState(0);
   const [loading, setLoading] = useState(true);
 
@@ -50,7 +50,7 @@ export default function ProfileScreen() {
       setCompetencies(competencyRows);
       setAttempts(overall?.attempts ?? 0);
       setOverallScore(overall?.score ?? 0);
-      setOverallTier(overall?.tier ?? 'unmapped');
+      setOverallTier(overall?.tier ?? 'novice');
       setStrongCount(categoryComps.filter((item) => item.score >= 75).length);
     } finally {
       setLoading(false);
@@ -78,6 +78,12 @@ export default function ProfileScreen() {
         ? { label: 'Building confidence', tone: 'gold' as const }
         : { label: 'Low confidence', tone: 'default' as const };
 
+  // Below the overall confidence threshold, show a "Getting started" placement instead
+  // of a score that's mostly evidence-shrink (matches Home + migration 011's overall K).
+  const OVERALL_MAPPED_AT = 15;
+  const placed = attempts >= OVERALL_MAPPED_AT;
+  const repsToMap = Math.max(0, OVERALL_MAPPED_AT - attempts);
+
   // Per-category competency rows (moved here from Home so Home stays a launchpad).
   const categoryRows = useMemo(() => {
     const byKey = new Map(
@@ -89,7 +95,7 @@ export default function ProfileScreen() {
         id: category.id,
         name: category.name,
         score: score?.score ?? 0,
-        tier: formatTier(score?.tier ?? 'unmapped'),
+        tier: formatTier(score?.tier ?? 'novice'),
         sevenDayDelta: score?.seven_day_delta ?? 0,
         attempts: score?.attempts ?? 0,
         correctRate: Math.round(Number(score?.correct_rate ?? 0)),
@@ -112,10 +118,20 @@ export default function ProfileScreen() {
       <Header kicker="Profile" title={displayName} right={<Avatar label={displayName.charAt(0).toUpperCase()} />} />
 
       <Card style={styles.identityCard}>
-        <ScoreRing display={overallScore} progress={overallScore / 100} tone={scoreColor(overallScore)} label="overall" />
+        {placed ? (
+          <ScoreRing display={overallScore} progress={overallScore / 100} tone={scoreColor(overallScore)} label="overall" />
+        ) : (
+          <ScoreRing display={attempts} progress={attempts / OVERALL_MAPPED_AT} tone={colors.gold} label={`of ${OVERALL_MAPPED_AT} reps`} />
+        )}
         <View style={styles.identityText}>
-          <Text style={styles.tier}>{formatTier(overallTier)}</Text>
-          <Text style={styles.identityDetail}>Competency across {strongCount > 0 ? `${strongCount} strong ` : ''}categories</Text>
+          <Text style={styles.tier}>{placed ? formatTier(overallTier) : 'Getting started'}</Text>
+          <Text style={styles.identityDetail}>
+            {placed
+              ? `Competency across ${strongCount > 0 ? `${strongCount} strong ` : ''}categories`
+              : repsToMap === 0
+                ? 'Mapping your level…'
+                : `${repsToMap} more reps to find your level`}
+          </Text>
           <View style={styles.pillRow}>
             <Pill tone={confidence.tone}>{confidence.label}</Pill>
           </View>
