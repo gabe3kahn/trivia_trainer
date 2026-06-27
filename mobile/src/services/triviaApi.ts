@@ -48,6 +48,22 @@ export async function fetchDailyActivity(startDate: string, endDate: string) {
   return data;
 }
 
+export type ActivityDay = {
+  date: string;
+  total: number;
+  correct: number;
+  missed: number;
+  by_category: Record<string, number>;
+};
+export type ActivityCategory = { category_id: string; reps: number; correct: number; accuracy: number };
+export type ActivitySummary = { daily: ActivityDay[]; by_category: ActivityCategory[] };
+
+export async function getActivitySummary(days = 30): Promise<ActivitySummary> {
+  const { data, error } = await (supabase.rpc as any)('get_activity_summary', { p_days: days });
+  if (error) throw error;
+  return (data as ActivitySummary) ?? { daily: [], by_category: [] };
+}
+
 export async function fetchBadges() {
   const { data, error } = await supabase
     .from('badges')

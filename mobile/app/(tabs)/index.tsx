@@ -1,10 +1,17 @@
 import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 
+import { ActivityChart, StreakStrip } from '@/src/components/activity';
 import { Avatar, Card, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
 import type { CategoryScore } from '@/src/data/mockData';
-import { fetchCategories, fetchHomeCompetencies } from '@/src/services/triviaApi';
+import {
+  fetchCategories,
+  fetchHomeCompetencies,
+  getActivitySummary,
+  getDailyStreak,
+  type ActivityDay,
+} from '@/src/services/triviaApi';
 import { colors, scoreColor, spacing, type } from '@/src/theme';
 import type { Database } from '@/src/types/supabase';
 
@@ -15,14 +22,23 @@ export default function HomeScreen() {
   const router = useRouter();
   const [categories, setCategories] = useState<Category[]>([]);
   const [competencies, setCompetencies] = useState<Competency[]>([]);
+  const [activityDaily, setActivityDaily] = useState<ActivityDay[]>([]);
+  const [streak, setStreak] = useState(0);
   const [error, setError] = useState<string | null>(null);
 
   const loadHome = useCallback(async () => {
     try {
       setError(null);
-      const [categoryRows, competencyRows] = await Promise.all([fetchCategories(), fetchHomeCompetencies()]);
+      const [categoryRows, competencyRows, summary, streakCount] = await Promise.all([
+        fetchCategories(),
+        fetchHomeCompetencies(),
+        getActivitySummary(30),
+        getDailyStreak(),
+      ]);
       setCategories(categoryRows ?? []);
       setCompetencies(competencyRows ?? []);
+      setActivityDaily(summary.daily ?? []);
+      setStreak(streakCount ?? 0);
     } catch (nextError) {
       setError(nextError instanceof Error ? nextError.message : 'Could not load home data.');
     }
@@ -104,6 +120,8 @@ export default function HomeScreen() {
     <Screen>
       <Header logo title="Home" right={<Avatar />} />
 
+      <StreakStrip daily={activityDaily} streak={streak} />
+
       <Card style={styles.hero}>
         {placed ? (
           <ScoreRing display={overall} progress={overall / 100} tone={scoreColor(overall)} label="overall" />
@@ -146,6 +164,13 @@ export default function HomeScreen() {
       </Text>
 
       {error ? <Text style={styles.errorText}>{error}</Text> : null}
+
+      <View>
+        <ActivityChart daily={activityDaily} />
+        <Pressable onPress={() => router.push('/activity' as never)} style={styles.detailLink}>
+          <Text style={styles.detailLinkText}>View full activity ›</Text>
+        </Pressable>
+      </View>
 
       <PrimaryAction
         title="Train your weak spots"
@@ -254,5 +279,13 @@ const styles = StyleSheet.create({
   errorText: {
     ...type.caption,
     color: colors.red,
+  },
+  detailLink: {
+    alignItems: 'center',
+    paddingTop: spacing.sm,
+  },
+  detailLinkText: {
+    ...type.label,
+    color: colors.gold,
   },
 });
