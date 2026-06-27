@@ -1,0 +1,228 @@
+{
+  "pack_id": "wordplay-2026-06-25",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-25",
+  "notes": [
+    "Mechanics rotation: Crossword Clues + Rhyme Time (new mechanics added by PR #80).",
+    "Prior runs: Anagrams (06-23), Hidden Words (06-23), Homophones (PR #81), Hidden Words (PR #81).",
+    "All crossword answers ≥4 letters; exactly one revealed letter per pattern.",
+    "All rhyme-time pairs verified to share the same end-sound."
+  ],
+  "questions": [
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-001",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "crossword",
+      "wp": {
+        "length": 5,
+        "pattern": "____E"
+      },
+      "constraint_text": null,
+      "clue": "A brief moral tale, often featuring animals as characters, in the tradition of Aesop",
+      "answer": "Fable",
+      "answer_type": "other",
+      "aliases": ["FABLE"],
+      "tags": ["wordplay-draft", "constructed", "crossword"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-002",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword",
+      "wp": {
+        "length": 5,
+        "pattern": "A____"
+      },
+      "constraint_text": null,
+      "clue": "A Titan of Greek myth condemned to bear the heavens on his shoulders",
+      "answer": "Atlas",
+      "answer_type": "other",
+      "aliases": ["ATLAS"],
+      "tags": ["wordplay-draft", "constructed", "crossword"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-003",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword",
+      "wp": {
+        "length": 5,
+        "pattern": "_R___"
+      },
+      "constraint_text": null,
+      "clue": "A transparent geometric solid that refracts white light, separating it into the colors of the spectrum",
+      "answer": "Prism",
+      "answer_type": "other",
+      "aliases": ["PRISM"],
+      "tags": ["wordplay-draft", "constructed", "crossword"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-004",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "crossword",
+      "wp": {
+        "length": 5,
+        "pattern": "O____"
+      },
+      "constraint_text": null,
+      "clue": "The binary compound that forms on the surface of a metal as it rusts or tarnishes",
+      "answer": "Oxide",
+      "answer_type": "other",
+      "aliases": ["OXIDE"],
+      "tags": ["wordplay-draft", "constructed", "crossword"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-005",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "crossword",
+      "wp": {
+        "length": 5,
+        "pattern": "__N__"
+      },
+      "constraint_text": null,
+      "clue": "A musical form in which the main theme recurs after each of its contrasting episodes",
+      "answer": "Rondo",
+      "answer_type": "other",
+      "aliases": ["RONDO"],
+      "tags": ["wordplay-draft", "constructed", "crossword"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-006",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "wp": {
+        "rhyme_pair": ["regal", "eagle"]
+      },
+      "constraint_text": null,
+      "clue": "An imperial bird of prey",
+      "answer": "Regal Eagle",
+      "answer_type": "other",
+      "aliases": ["regal eagle", "eagle regal"],
+      "tags": ["wordplay-draft", "constructed", "rhyme-time"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-007",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "wp": {
+        "rhyme_pair": ["fake", "lake"]
+      },
+      "constraint_text": null,
+      "clue": "An artificial body of freshwater",
+      "answer": "Fake Lake",
+      "answer_type": "other",
+      "aliases": ["fake lake", "lake fake"],
+      "tags": ["wordplay-draft", "constructed", "rhyme-time"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-008",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "wp": {
+        "rhyme_pair": ["bright", "knight"]
+      },
+      "constraint_text": null,
+      "clue": "A gleaming medieval warrior",
+      "answer": "Bright Knight",
+      "answer_type": "other",
+      "aliases": ["bright knight", "knight bright"],
+      "tags": ["wordplay-draft", "constructed", "rhyme-time"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-009",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "wp": {
+        "rhyme_pair": ["solar", "polar"]
+      },
+      "constraint_text": null,
+      "clue": "An arctic mammal standing in the sun",
+      "answer": "Solar Polar",
+      "answer_type": "other",
+      "aliases": ["solar polar", "polar solar"],
+      "tags": ["wordplay-draft", "constructed", "rhyme-time"],
+      "citations": [],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "original_constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-06-25-010",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "rhyme_time",
+      "wp": {
+        "rhyme_pair": ["slow", "crow"]
+      },
+      "constraint_text": null,
+      "clue": "An unhurried bird perched on a telephone wire",
+      "answer": "Slow Crow",
+      "answer_type": "other",
+      "aliases": ["slow crow", "crow slow"],
+      "tags": ["wordplay-draft", "constructed", "rhyme-time"],
+      "citations": [],
+      "verification_status": "unverified"
+    }
+  ]
+}

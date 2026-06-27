@@ -1,0 +1,511 @@
+{
+  "pack_id": "arts_visual_culture-draft-2026-06-25",
+  "category_id": "arts_visual_culture",
+  "created_at": "2026-06-25",
+  "notes": [
+    "Under-covered tier: $800 and $1000. Pack weighted toward those tiers.",
+    "3 visual clues (public-domain works): Great Wave off Kanagawa, Arnolfini Portrait, The Milkmaid.",
+    "New subcategories covered: Art Movements (Fauvism), Architecture (Fallingwater), Museums (Guggenheim).",
+    "Hard tail: Portrait of Adele Bloch-Bauer I ($800), Hans Holbein the Younger ($1000)."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "external_id": "arts-vc-2026-06-25-001",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "The Great Wave off Kanagawa",
+      "answer_type": "other",
+      "aliases": [
+        "The Great Wave",
+        "Great Wave off Kanagawa"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Great Wave off Kanagawa",
+          "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+          "snippet": "The Great Wave off Kanagawa  is a woodblock print by the Japanese ukiyo-e artist Hokusai (1760–1849), created in late 1831 during the Edo period of Japanese history. The print depicts three boats moving through a storm-tossed sea, with a la"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/3840px-Tsunami_by_hokusai_19th_century.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Great Wave off Kanagawa — Katsushika Hokusai",
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:24.562Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
+      "external_id": "arts-vc-2026-06-25-002",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "The Arnolfini Portrait",
+      "answer_type": "other",
+      "aliases": [
+        "Arnolfini Portrait",
+        "Arnolfini Wedding"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Arnolfini Portrait",
+          "url": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
+          "snippet": "The Arnolfini Portrait is an oil painting on oak panel by the Early Netherlandish painter Jan van Eyck, dated 1434 and now in the National Gallery, London. It is a full-length double portrait, believed to depict the Italian merchant Giovann"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/3840px-The_Arnolfini_portrait_%281434%29.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Arnolfini Portrait — Jan van Eyck",
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:25.007Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)",
+      "external_id": "arts-vc-2026-06-25-003",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name the artist.",
+      "answer": "Johannes Vermeer",
+      "answer_type": "name",
+      "aliases": [
+        "Vermeer"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Milkmaid (Vermeer)",
+          "url": "https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)",
+          "snippet": "The Milkmaid, sometimes called The Kitchen Maid, is an oil-on-canvas painting of a \"milkmaid\", in fact, a domestic kitchen maid, by the Dutch artist Johannes Vermeer. It is in the Rijksmuseum in Amsterdam, the Netherlands, which regards it "
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png/3840px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Milkmaid — Johannes Vermeer",
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:25.464Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Andy_Warhol",
+      "external_id": "arts-vc-2026-06-25-004",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A leading figure in the Pop art movement, this American artist explored consumerism and celebrity through silkscreen paintings including Campbell's Soup Cans (1962) and the Marilyn Diptych; he is also credited with popularizing the expression 'fifteen minutes of fame.'",
+      "answer": "Andy Warhol",
+      "answer_type": "name",
+      "aliases": [
+        "Warhol"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Andy Warhol",
+          "url": "https://en.wikipedia.org/wiki/Andy_Warhol",
+          "snippet": "Andy Warhol was an American artist and filmmaker. Widely regarded as the most important artist of the second half of the 20th century, Warhol's practice spanned various media, including painting, filmmaking, photography, publishing, and per"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:25.846Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+      "external_id": "arts-vc-2026-06-25-005",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient Greek marble sculpture — missing both arms since its discovery on the island of Milos in 1820 — has been on display at the Louvre since 1821; once considered a Classical masterpiece, scholars have since reclassified it as Hellenistic in date.",
+      "answer": "Venus de Milo",
+      "answer_type": "other",
+      "aliases": [
+        "Aphrodite of Melos"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Venus de Milo",
+          "url": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+          "snippet": "The Venus de Milo or Aphrodite of Melos is an ancient Greek marble sculpture that was created during the Hellenistic period. Its exact dating is uncertain, but the modern consensus places it in the 2nd century BC, perhaps between 160 and 11"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:26.220Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Guernica",
+      "external_id": "arts-vc-2026-06-25-006",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Pablo Picasso created this painting in response to the April 1937 aerial bombing of a Basque town by Nazi Germany's Condor Legion and Fascist Italy's Aviazione Legionaria, depicting his outrage at the destruction.",
+      "answer": "Guernica",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Guernica",
+          "url": "https://en.wikipedia.org/wiki/Guernica",
+          "snippet": "Guernica, officially Gernika in Basque, is a town in the province of Biscay, in the Autonomous Community of the Basque Country, Spain. The town of Guernica is one part of the municipality of Gernika-Lumo, whose population was 17,033 as of 2"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:26.600Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Edward_Hopper",
+      "external_id": "arts-vc-2026-06-25-007",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American Realist painter — who spent his summers on Cape Cod and made New York City his base — is best known for his 1942 canvas of solitary figures in a late-night urban diner, a work that has become an icon of American urban isolation.",
+      "answer": "Edward Hopper",
+      "answer_type": "name",
+      "aliases": [
+        "Hopper"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Edward Hopper",
+          "url": "https://en.wikipedia.org/wiki/Edward_Hopper",
+          "snippet": "Edward Hopper was an American realist painter and printmaker. He is one of America's most renowned artists and known for his skill in depicting modern American life and landscapes."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:26.973Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+      "external_id": "arts-vc-2026-06-25-008",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Completed in 1959 on Manhattan's Fifth Avenue after fifteen years of design and construction, Frank Lloyd Wright's bowl-shaped building — first devoted to a collection of Non-Objective Painting — was initially controversial for its helical interior ramp.",
+      "answer": "Guggenheim Museum",
+      "answer_type": "other",
+      "aliases": [
+        "Solomon R. Guggenheim Museum",
+        "The Guggenheim",
+        "Guggenheim"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "museums-collections"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Solomon R. Guggenheim Museum",
+          "url": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+          "snippet": "The Solomon R. Guggenheim Museum, often referred to as The Guggenheim, is an art museum at 1071 Fifth Avenue between 88th and 89th Streets on the Upper East Side of Manhattan in New York City. It hosts a permanent collection of Impressionis"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:27.355Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Thinker",
+      "external_id": "arts-vc-2026-06-25-009",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Conceived as a depiction of the Italian poet Dante for Auguste Rodin's 1880 Gates of Hell commission, this bronze figure was first cast at monumental scale in 1904; the primary version is at the Musée Rodin in Paris, with 27 other full-sized copies in existence.",
+      "answer": "The Thinker",
+      "answer_type": "other",
+      "aliases": [
+        "Le Penseur"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Thinker",
+          "url": "https://en.wikipedia.org/wiki/The_Thinker",
+          "snippet": "The Thinker, by Auguste Rodin, is a bronze sculpture depicting a nude male figure of heroic size, seated on a large rock, leaning forward, his right elbow placed upon his left thigh, with the back of his right hand supporting his chin in a "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:27.737Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Henri_Matisse",
+      "external_id": "arts-vc-2026-06-25-010",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In his final years, when illness kept him from the easel, this French artist created some of his most celebrated works in cut-paper collage; decades earlier he had risen to fame among the Paris avant-garde for his radical, expressive use of color.",
+      "answer": "Henri Matisse",
+      "answer_type": "name",
+      "aliases": [
+        "Matisse"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Henri Matisse",
+          "url": "https://en.wikipedia.org/wiki/Henri_Matisse",
+          "snippet": "Henri Émile Benoît Matisse was a French visual artist, known for both his use of colour and his fluid and original draughtsmanship. He was a draughtsman, printmaker, and sculptor, but is known primarily as a painter."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:28.111Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Fallingwater",
+      "external_id": "arts-vc-2026-06-25-011",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Designed by Frank Lloyd Wright as a weekend retreat for a Pittsburgh department store owner, this 1937 Pennsylvania house in the Laurel Highlands features cantilevered concrete terraces extending above a rocky stream and is now a UNESCO World Heritage Site.",
+      "answer": "Fallingwater",
+      "answer_type": "other",
+      "aliases": [
+        "Falling Water"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Fallingwater",
+          "url": "https://en.wikipedia.org/wiki/Fallingwater",
+          "snippet": "Fallingwater is a house museum in Stewart Township in the Laurel Highlands of southwestern Pennsylvania, United States. Designed by the architect Frank Lloyd Wright, it is built partly over a waterfall on the Bear Run stream. The three-stor"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:26:28.490Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Henri_Matisse",
+      "external_id": "arts-vc-2026-06-25-012",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This early 20th-century art movement — whose French name translates as 'wild beasts' — was characterized by unnaturalistic, intensely vivid color; Henri Matisse's works between 1900 and 1905 established him as one of its leading practitioners.",
+      "answer": "Fauvism",
+      "answer_type": "other",
+      "aliases": [
+        "Fauves"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-movements"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Henri Matisse",
+          "url": "https://en.wikipedia.org/wiki/Henri_Matisse",
+          "snippet": "Henri Émile Benoît Matisse was a French visual artist, known for both his use of colour and his fluid and original draughtsmanship. He was a draughtsman, printmaker, and sculptor, but is known primarily as a painter."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:01.041Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Rembrandt",
+      "external_id": "arts-vc-2026-06-25-013",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Dutch Golden Age painter created approximately one hundred self-portraits — more than forty of them oil paintings — forming what scholars describe as an intimate autobiography; his later years were marked by personal tragedy and financial hardship despite his enduring reputation.",
+      "answer": "Rembrandt",
+      "answer_type": "name",
+      "aliases": [
+        "Rembrandt van Rijn"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rembrandt",
+          "url": "https://en.wikipedia.org/wiki/Rembrandt",
+          "snippet": "Rembrandt Harmenszoon van Rijn, known mononymously as Rembrandt, was a Dutch Golden Age painter, printmaker, and draughtsman. He is generally considered one of the greatest visual artists in the history of Western art. It is estimated that "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:01.413Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I",
+      "external_id": "arts-vc-2026-06-25-014",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Stolen by the Nazi regime in 1941 after its owner fled Vienna, this Gustav Klimt portrait was returned to the owner's heirs in 2006 after a legal case that reached the United States Supreme Court; the heir who received it promptly sold it for $135 million.",
+      "answer": "Portrait of Adele Bloch-Bauer I",
+      "answer_type": "other",
+      "aliases": [
+        "Woman in Gold",
+        "The Woman in Gold",
+        "Lady in Gold",
+        "The Lady in Gold"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Portrait of Adele Bloch-Bauer I",
+          "url": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I",
+          "snippet": "Portrait of Adele Bloch-Bauer I is an oil painting on canvas, with gold leaf, by Gustav Klimt, completed between 1903 and 1907. The portrait was commissioned by the sitter's husband, Ferdinand Bloch-Bauer, a Viennese and Jewish banker and s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:01.784Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hans_Holbein_the_Younger",
+      "external_id": "arts-vc-2026-06-25-015",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Praised by a French poet as 'the Apelles of our time' and celebrated for likenesses of Erasmus and Thomas More so iconic that we still picture those Tudor-era figures largely as he painted them, this German-born Northern Renaissance painter is considered a great 'one-off' who founded no school.",
+      "answer": "Hans Holbein the Younger",
+      "answer_type": "other",
+      "aliases": [
+        "Holbein",
+        "Holbein the Younger"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hans Holbein the Younger",
+          "url": "https://en.wikipedia.org/wiki/Hans_Holbein_the_Younger",
+          "snippet": "Hans Holbein the Younger was a German painter and printmaker of Swiss descent who worked in a Northern Renaissance style, and is considered one of the greatest portraitists of the 16th century. He also produced religious art, satire, and Re"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-25T14:27:02.158Z"
+    }
+  ]
+}
