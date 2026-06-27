@@ -1,4 +1,4 @@
-import { useLocalSearchParams } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -20,10 +20,18 @@ type SessionAttemptSummary = {
   grade: GradeResult['grade'];
 };
 
-type StartOptions = { mechanics?: string[]; categories?: string[] };
+type StartOptions = { mechanics?: string[]; categories?: string[]; values?: number[]; limit?: number };
 
 export default function TrainScreen() {
-  const params = useLocalSearchParams<{ start?: string; category?: string; categoryName?: string }>();
+  const router = useRouter();
+  const params = useLocalSearchParams<{
+    start?: string;
+    category?: string;
+    categoryName?: string;
+    categories?: string;
+    values?: string;
+    limit?: string;
+  }>();
   const [questions, setQuestions] = useState<RecommendedQuestion[]>([]);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -46,7 +54,7 @@ export default function TrainScreen() {
   // Auto-start a session when launched from Home (weakness CTA or a category tap).
   useEffect(() => {
     if (!params.start) return;
-    const token = `${params.start}:${params.category ?? ''}`;
+    const token = `${params.start}:${params.category ?? ''}:${params.categories ?? ''}:${params.values ?? ''}:${params.limit ?? ''}`;
     if (handledParamRef.current === token) return;
     handledParamRef.current = token;
 
@@ -54,9 +62,16 @@ export default function TrainScreen() {
       void startSession('weakness');
     } else if (params.start === 'selected' && params.category) {
       void startSession('selected', { categories: [params.category] });
+    } else if (params.start === 'custom') {
+      const categories = params.categories ? params.categories.split(',').filter(Boolean) : undefined;
+      const values = params.values
+        ? params.values.split(',').map(Number).filter((n) => !Number.isNaN(n))
+        : undefined;
+      const limit = params.limit ? Number(params.limit) : undefined;
+      void startSession('selected', { categories, values, limit });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [params.start, params.category]);
+  }, [params.start, params.category, params.categories, params.values, params.limit]);
 
   async function startSession(mode: SessionMode, options?: StartOptions) {
     try {
@@ -64,8 +79,9 @@ export default function TrainScreen() {
       tapMedium();
       const nextQuestions = await getRecommendedQuestions({
         mode,
-        limit: sessionLength,
+        limit: options?.limit ?? sessionLength,
         categories: options?.categories ?? null,
+        values: options?.values ?? null,
         mechanics: options?.mechanics ?? null,
       });
 
@@ -78,6 +94,7 @@ export default function TrainScreen() {
         mode,
         questionIds: nextQuestions.map((question) => question.id),
         selectedCategories: options?.categories ?? [],
+        selectedValues: options?.values ?? [],
         selectedMechanics: options?.mechanics ?? [],
       });
 
@@ -355,6 +372,15 @@ export default function TrainScreen() {
           label={loadingMode === 'wordplay' ? 'Loading' : 'Skill'}
           tone="purple"
           onPress={() => startSession('wordplay', { mechanics: ['crossword_clue', 'before_after', 'anagram', 'starts_with'] })}
+          disabled={Boolean(loadingMode)}
+        />
+        <ModeCard
+          icon="sliders"
+          title="Custom run"
+          subtitle="Choose your categories & difficulty."
+          label="New"
+          tone="gold"
+          onPress={() => router.push('/custom-run' as never)}
           disabled={Boolean(loadingMode)}
         />
       </Section>
