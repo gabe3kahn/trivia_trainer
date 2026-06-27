@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { createSupabaseRequest, formatDifficultyCounts, formatQualityCounts, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
+import { createSupabaseRequest, fetchAllSupabaseRows, formatDifficultyCounts, formatQualityCounts, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
 import { assessQuestionForIntake } from './intake-assessment.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -47,6 +47,35 @@ if (duplicateAnswers.length) {
     `Duplicate answers in pack — each clue must have a unique answer. Repeated: ${duplicateAnswers
       .map(([a, n]) => `"${a}" ×${n}`)
       .join(', ')}`,
+  );
+}
+
+// Hard gate #2: no pack answer may duplicate one already ACTIVE in the bank under a
+// DIFFERENT clue (the cross-run/cross-category collisions — e.g. re-drafting "Bob Fosse").
+// The drafter is told to check category-coverage, but that's advisory; enforce it here so a
+// re-drafted live answer fails the dry-run instead of slipping into a PR on review alone.
+// Re-importing the SAME pack stays safe: a live row carrying one of this pack's own
+// external_ids is excluded (that's an update of this clue, not a collision).
+const packExternalIds = new Set(questions.map((q) => q.external_id).filter(Boolean));
+const activeRows = await fetchAllSupabaseRows(
+  request,
+  '/rest/v1/questions?select=answer,external_id&is_active=eq.true',
+);
+const activeByAnswer = new Map();
+for (const row of activeRows) {
+  const key = normAnswer(row.answer);
+  if (!key) continue;
+  (activeByAnswer.get(key) ?? activeByAnswer.set(key, []).get(key)).push(row.external_id);
+}
+const bankCollisions = [];
+for (const question of questions) {
+  const hits = (activeByAnswer.get(normAnswer(question.answer)) ?? []).filter((eid) => !packExternalIds.has(eid));
+  if (hits.length) bankCollisions.push(`"${question.answer}" (already active as ${hits[0]})`);
+}
+if (bankCollisions.length) {
+  throw new Error(
+    `Answers already active in the bank — re-drafting a live answer is a wasted clue (run ` +
+      `category-coverage and swap them). Collisions: ${bankCollisions.join(', ')}`,
   );
 }
 
