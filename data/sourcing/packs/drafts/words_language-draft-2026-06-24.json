@@ -94,7 +94,7 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Burglary",
+      "source_url": "https://en.wiktionary.org/wiki/burglar",
       "external_id": "wl-2026-06-24-004",
       "category_id": "words_language",
       "subcategory_name": "Etymology",
@@ -102,11 +102,9 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The word for the person who breaks into buildings to steal came first; this verb for the crime itself was coined later by lopping the ending off that older noun — a classic 'back-formation.'",
-      "answer": "Burgle",
-      "aliases": [
-        "to burgle"
-      ],
+      "clue": "This 16th-century word for someone who breaks into buildings to steal traces back to Medieval Latin; curiously, its otherwise-unexplained 'l' may have been inserted under the influence of the Latin 'latro,' meaning thief.",
+      "answer": "Burglar",
+      "aliases": [],
       "tags": [
         "wl-draft",
         "sourced",
@@ -114,10 +112,10 @@
       ],
       "citations": [
         {
-          "source": "wikipedia",
-          "title": "Burglary",
-          "url": "https://en.wikipedia.org/wiki/Burglary",
-          "snippet": "Burglary, also called breaking and entering (B&E) or housebreaking, is a property crime involving the illegal entry into a building or other area without permission, typically with the intention of committing a further criminal offence. Usu"
+          "source": "wiktionary",
+          "title": "burglar",
+          "url": "https://en.wiktionary.org/wiki/burglar",
+          "snippet": "16th century, from Medieval Latin burglātor, British byform of burgātor (burglar), derived from Latin burgō (to commit burglary), from Latin burgus (fortified town). The -l- in burglātor may have been inserted under influence from Latin latro (thief)."
         }
       ],
       "verification_status": "verified",
