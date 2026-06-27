@@ -1,0 +1,417 @@
+{
+  "pack_id": "wl-draft-2026-06-24",
+  "category_id": "words_language",
+  "created_at": "2026-06-24T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Adolphe_Sax",
+      "external_id": "wl-2026-06-24-001",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The name for this instrument was coined from the surname of the Belgian instrument-maker who patented his invention in Paris in 1846 — a rare case of a major orchestral and jazz instrument named for the single person who built it.",
+      "answer": "Saxophone",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Adolphe Sax",
+          "url": "https://en.wikipedia.org/wiki/Adolphe_Sax",
+          "snippet": "Antoine-Joseph \"Adolphe\" Sax was a Belgian inventor and musician who invented the saxophone in the early 1840s, patenting it in 1846. He also invented the saxotromba, saxhorn and saxtuba, and redesigned the bass clarinet in a fashion still "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:10.006Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Diatribe",
+      "external_id": "wl-2026-06-24-002",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "From the Greek for 'discourse' or 'wasting of time,' this lengthy critical oration — also known informally as a rant — typically employs humor, sarcasm, and emotional appeals against a person or idea.",
+      "answer": "Diatribe",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Diatribe",
+          "url": "https://en.wikipedia.org/wiki/Diatribe",
+          "snippet": "A diatribe, also known less formally as rant, is a lengthy oration, though often reduced to writing, made in criticism of someone or something, often employing humor, sarcasm, and appeals to emotion."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:10.382Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Elbridge_Gerry",
+      "external_id": "wl-2026-06-24-003",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named after a Massachusetts governor who later became the fifth U.S. Vice President, this term describes the manipulation of electoral district boundaries to favor a particular political party.",
+      "answer": "Gerrymandering",
+      "aliases": [
+        "gerrymander"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Elbridge Gerry",
+          "url": "https://en.wikipedia.org/wiki/Elbridge_Gerry",
+          "snippet": "Elbridge Thomas Gerry was an American Founding Father, merchant, politician, and diplomat, who as a member of the Second Continental Congress, signed the Declaration of Independence and Articles of Confederation. From 1813 until his death i"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:10.752Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wiktionary.org/wiki/burglar",
+      "external_id": "wl-2026-06-24-004",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 16th-century word for someone who breaks into buildings to steal traces back through Medieval Latin to the Latin word for a fortified town or fortress; curiously, its otherwise-unexplained 'l' may have been inserted under the influence of the Latin 'latro,' meaning thief.",
+      "answer": "Burglar",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wiktionary",
+          "title": "burglar",
+          "url": "https://en.wiktionary.org/wiki/burglar",
+          "snippet": "16th century, from Medieval Latin burglātor, British byform of burgātor (burglar), derived from Latin burgō (to commit burglary), from Latin burgus (fortified town). The -l- in burglātor may have been inserted under influence from Latin latro (thief)."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:11.298Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Alliteration",
+      "external_id": "wl-2026-06-24-005",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often found in poetry and advertising slogans, this device repeats the same initial consonant sound in a series of nearby words, as in 'Peter Piper picked a peck of pickled peppers.'",
+      "answer": "Alliteration",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Alliteration",
+          "url": "https://en.wikipedia.org/wiki/Alliteration",
+          "snippet": "\n\nAlliteration is the repetition of syllable-initial consonant sounds between nearby words, or of syllable-initial vowels if the syllables in question do not start with a consonant. It is often used as a literary device. A common example is"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:11.669Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hyperbole",
+      "external_id": "wl-2026-06-24-006",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Sometimes known in rhetoric as 'auxesis,' this figure of speech relies on deliberate exaggeration to emphasize a point, as in the everyday claim 'I've told you a million times.'",
+      "answer": "Hyperbole",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hyperbole",
+          "url": "https://en.wikipedia.org/wiki/Hyperbole",
+          "snippet": "Hyperbole is the use of exaggeration as a rhetorical device or figure of speech. In rhetoric, it is also sometimes known as auxesis. In poetry and oratory, it emphasizes, evokes strong feelings, and creates strong impressions. As a figure o"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:12.038Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Synecdoche",
+      "external_id": "wl-2026-06-24-007",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This figure of speech uses a part to stand for the whole, or the whole for a part — as when 'suits' means executives or 'wheels' means a car.",
+      "answer": "Synecdoche",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Synecdoche",
+          "url": "https://en.wikipedia.org/wiki/Synecdoche",
+          "snippet": "Synecdoche is a type of metonymy; it is a figure of speech that uses a term for a part of something to refer to the whole, or vice versa. The term is derived from Ancient Greek  συνεκδοχή (sunekdokhḗ) 'simultaneous understanding'. Common En"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:12.407Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chiasmus",
+      "external_id": "wl-2026-06-24-008",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Kennedy's famous inaugural line 'Ask not what your country can do for you; ask what you can do for your country' exemplifies this rhetorical device in which successive clauses reverse each other's grammatical structure.",
+      "answer": "Chiasmus",
+      "aliases": [
+        "chiasm"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chiasmus",
+          "url": "https://en.wikipedia.org/wiki/Chiasmus",
+          "snippet": "In rhetoric, chiasmus or, less commonly, chiasm, is the reversal of grammatical structures in successive phrases or clauses without repetition of words."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:12.863Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Zeugma_and_syllepsis",
+      "external_id": "wl-2026-06-24-009",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Derived from the Ancient Greek for 'a joining together,' this figure of speech uses a single word to modify or govern two or more other words in the same sentence — as in 'rolling lightning and thunder,' where one verb applies to both nouns.",
+      "answer": "Zeugma",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Zeugma and syllepsis",
+          "url": "https://en.wikipedia.org/wiki/Zeugma_and_syllepsis",
+          "snippet": "\nZeugma is the use of a word to modify or govern two or more words or phrases. The term comes from the Ancient Greek ζεῦγμα, zeûgma, lit. \"a yoking together\". An example may be \"rolling lightning and thunder\", where \"rolling\" is applied to "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:13.231Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Joie_de_vivre",
+      "external_id": "wl-2026-06-24-010",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French phrase, widely used in English, expresses a buoyant cheerfulness and exultation of spirit — a delight in being alive that goes beyond mere contentment.",
+      "answer": "Joie de vivre",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Joie de vivre",
+          "url": "https://en.wikipedia.org/wiki/Joie_de_vivre",
+          "snippet": "Joie de vivre is a French phrase often used in English to express a cheerful enjoyment of life, an exultation of spirit, and general happiness."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:13.599Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tincture_(heraldry)",
+      "external_id": "wl-2026-06-24-011",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In the vocabulary of heraldry, this Old French and Latin term names the paler of the two precious metals permitted on a coat of arms.",
+      "answer": "Argent",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tincture (heraldry)",
+          "url": "https://en.wikipedia.org/wiki/Tincture_(heraldry)",
+          "snippet": "Tinctures are the colours, metals, and furs used in heraldry. There are nine tinctures in common use: two metals, five colours, and two furs. The metals are or and argent ; the colours gules (red), azure (blue), vert (green), sable (black),"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:14.108Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/In_medias_res",
+      "external_id": "wl-2026-06-24-012",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rendered from Latin as 'into the thick of things,' this storytelling phrase describes opening a narrative at a critical moment rather than its chronological start, with prior events filled in through dialogue or flashback.",
+      "answer": "In medias res",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "In medias res",
+          "url": "https://en.wikipedia.org/wiki/In_medias_res",
+          "snippet": "A narrative work beginning in medias res opens in the chronological middle of the plot, rather than at the beginning. Often, exposition is initially bypassed, instead filled in gradually through dialogue, flashbacks, or description of past "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:14.475Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hygge",
+      "external_id": "wl-2026-06-24-013",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Danish and Norwegian word for a warm, cozy atmosphere of comfort and conviviality became an international cultural phenomenon in the late twentieth century, spreading well beyond Scandinavia.",
+      "answer": "Hygge",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hygge",
+          "url": "https://en.wikipedia.org/wiki/Hygge",
+          "snippet": "Hygge is a word in Danish and Norwegian that describes a cozy, contented mood evoked by comfort and conviviality. As a cultural category with its sets of associated practices, hygge has more or less the same meaning in both places and in bo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:14.844Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Saudade",
+      "external_id": "wl-2026-06-24-014",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often described as untranslatable, this Portuguese and Galician word names a melancholic, nostalgic longing for an absent person or place — tinged with the awareness that the object of longing may never return.",
+      "answer": "Saudade",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-phrases"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Saudade",
+          "url": "https://en.wikipedia.org/wiki/Saudade",
+          "snippet": "Saudade in Portuguese and Galician is an emotional state of melancholic or profoundly nostalgic longing for a beloved yet absent someone or something. It derives from the Latin word for solitude. It is often associated with a repressed unde"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-24T14:39:15.213Z"
+    }
+  ]
+}
