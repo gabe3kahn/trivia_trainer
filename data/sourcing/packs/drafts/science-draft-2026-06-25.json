@@ -6,7 +6,7 @@
     "Under-covered tier: $1000. Pack weighted toward $800–$1000.",
     "Thin subcategories covered: Scientists (Nightingale, Salk, Sacks, Röntgen, Freud), Physics thin (Wave doc not used — used Astronomy/Biology/Medicine instead).",
     "Hard tail: Wilhelm Röntgen ($800), Venus/Venera ($800), Eohippus ($1000).",
-    "Two Animals & Plants clues from the same horse doc (horses + Eohippus) — two distinct answers."
+    "Eohippus reclued from its own page (no longer shares the Horses domestication fact)."
   ],
   "questions": [
     {
@@ -19,7 +19,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "First domesticated in Central Asia around 4,000 BCE, these mammals — bred into more than 300 distinct varieties — can sleep both standing up and lying down; females carry their young for approximately eleven months.",
+      "clue": "First domesticated in Central Asia around 4,000 BCE, these mammals — bred into more than 300 distinct varieties — can sleep both standing up and lying down.",
       "answer": "Horses",
       "answer_type": "other",
       "aliases": [
@@ -35,7 +35,7 @@
           "source": "wikipedia",
           "title": "Horse",
           "url": "https://en.wikipedia.org/wiki/Horse",
-          "snippet": "The horse is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature"
+          "snippet": "The horse is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature"
         }
       ],
       "verification_status": "verified",
@@ -149,7 +149,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This British neurologist's case study of patients who had been immobilized for decades by the 1920s encephalitis lethargica epidemic inspired both a 1973 memoir and a 1990 film starring Robin Williams and Robert De Niro; The New York Times called him a 'poet laureate of contemporary medicine.'",
+      "clue": "This British neurologist's case study of patients who had been immobilized for decades by the 1920s encephalitis lethargica epidemic inspired both a 1973 memoir and a 1990 film starring Robin Williams and Robert De Niro.",
       "answer": "Oliver Sacks",
       "answer_type": "name",
       "aliases": [
@@ -213,7 +213,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Derived from the Latin for 'whip,' these hair-like appendages provide motility to a wide range of microorganisms; Helicobacter pylori uses them to propel itself through the stomach toward the mucous lining, where it can cause gastritis and ulcers.",
+      "clue": "Derived from the Latin for 'whip,' these hair-like appendages provide motility to a wide range of microorganisms; some bacteria use them to propel themselves through the stomach toward the mucous lining, where they can cause gastritis and ulcers.",
       "answer": "Flagella",
       "answer_type": "other",
       "aliases": [
@@ -241,8 +241,8 @@
       "external_id": "science-2026-06-25-008",
       "category_id": "science",
       "subcategory_name": "Scientists",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Austrian neurologist introduced free association, dream interpretation as wish fulfillment, and a tripartite model of the psyche comprising id, ego, and superego; W. H. Auden's 1940 poem called him 'a whole climate of opinion.'",
@@ -277,7 +277,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This viral hemorrhagic fever, first reported in sub-Saharan Africa in 1976, spreads through direct contact with body fluids; outbreaks have had mortality rates ranging from 25 to 90 percent, averaging around 50 percent, with fruit bats believed to be the natural host.",
+      "clue": "This viral hemorrhagic fever, first reported in sub-Saharan Africa in 1976, spreads through direct contact with body fluids; outbreaks have had mortality rates ranging from 25 to 90 percent, with fruit bats believed to be the natural host.",
       "answer": "Ebola",
       "answer_type": "other",
       "aliases": [
@@ -307,8 +307,8 @@
       "external_id": "science-2026-06-25-010",
       "category_id": "science",
       "subcategory_name": "Medicine & Anatomy",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Expressed as a systolic reading over a diastolic reading and measured in millimeters of mercury, this vital sign reflects the force of circulating blood against vessel walls; when consistently above 120/80 mmHg in adults, the condition is classified as hypertension.",
@@ -343,7 +343,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Affecting roughly 1 in 10 adults globally between ages 30 and 69, this breathing disorder causes repetitive overnight pauses; its most common form results from collapse of the upper airway and is often treated with a device that maintains continuous positive airway pressure.",
+      "clue": "Affecting roughly 1 in 10 adults globally between ages 30 and 69, this disorder causes repeated pauses in breathing during sleep; its most common form results from collapse of the upper airway and is often treated with a device that maintains continuous positive airway pressure.",
       "answer": "Sleep apnea",
       "answer_type": "other",
       "aliases": [
@@ -377,7 +377,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In 1901, this German physicist became the inaugural Nobel laureate in Physics for discovering electromagnetic radiation in a wavelength range whose nature was initially unknown; atomic number 111 on the periodic table was later named in his honor.",
+      "clue": "In 1901, this German physicist became the inaugural Nobel laureate in Physics for discovering a new, penetrating form of electromagnetic radiation whose nature was at first a mystery; atomic number 111 on the periodic table was later named in his honor.",
       "answer": "Wilhelm Röntgen",
       "answer_type": "name",
       "aliases": [
@@ -411,7 +411,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The first probe to achieve interplanetary spaceflight flew past this planet in 1961; the first spacecraft to land on its surface arrived in 1970; a 1974 mission captured the first photographs of it during a gravity assist en route to another planet.",
+      "clue": "The first probe to achieve interplanetary spaceflight flew past this planet in 1961; the first spacecraft to land on its surface arrived in 1970.",
       "answer": "Venus",
       "answer_type": "other",
       "aliases": [],
@@ -465,7 +465,7 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Horse",
+      "source_url": "https://en.wikipedia.org/wiki/Eohippus",
       "external_id": "science-2026-06-25-015",
       "category_id": "science",
       "subcategory_name": "Animals & Plants",
@@ -473,7 +473,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This small, multi-toed North American mammal of roughly 45 to 55 million years ago was the evolutionary predecessor of today's large, single-hoofed grazers; the domesticated descendant it eventually became was first tamed in Central Asia around 4,000 BCE.",
+      "clue": "Long classified under the genus Hyracotherium, this extinct genus of small, multi-toed equids from the Early Eocene — known only from fossils unearthed in North America — is the earliest well-known ancestor of the modern horse.",
       "answer": "Eohippus",
       "answer_type": "other",
       "aliases": [
@@ -487,9 +487,9 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Horse",
-          "url": "https://en.wikipedia.org/wiki/Horse",
-          "snippet": "The horse is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature"
+          "title": "Eohippus",
+          "url": "https://en.wikipedia.org/wiki/Eohippus",
+          "snippet": "Eohippus is an extinct genus of small equid ungulates. The only species is E. angustidens, which was long considered a species of Hyracotherium. Its remains have been identified in North America and date to the Early Eocene."
         }
       ],
       "verification_status": "verified",

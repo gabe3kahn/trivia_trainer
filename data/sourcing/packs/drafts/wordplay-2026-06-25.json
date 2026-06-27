@@ -45,7 +45,7 @@
         "pattern": "A____"
       },
       "constraint_text": null,
-      "clue": "A Titan of Greek myth condemned to bear the heavens on his shoulders, or a bound volume of geographic charts",
+      "clue": "A Titan of Greek myth condemned to bear the heavens on his shoulders",
       "answer": "Atlas",
       "answer_type": "other",
       "aliases": ["ATLAS"],
@@ -89,7 +89,7 @@
         "pattern": "O____"
       },
       "constraint_text": null,
-      "clue": "A binary compound formed when any element chemically combines with oxygen",
+      "clue": "The binary compound that forms on the surface of a metal as it rusts or tarnishes",
       "answer": "Oxide",
       "answer_type": "other",
       "aliases": ["OXIDE"],
@@ -132,10 +132,10 @@
         "rhyme_pair": ["regal", "eagle"]
       },
       "constraint_text": null,
-      "clue": "A two-word rhyming phrase describing a proud, imperial bird of prey",
+      "clue": "An imperial bird of prey",
       "answer": "Regal Eagle",
       "answer_type": "other",
-      "aliases": ["regal eagle"],
+      "aliases": ["regal eagle", "eagle regal"],
       "tags": ["wordplay-draft", "constructed", "rhyme-time"],
       "citations": [],
       "verification_status": "unverified"
@@ -153,10 +153,10 @@
         "rhyme_pair": ["fake", "lake"]
       },
       "constraint_text": null,
-      "clue": "Rhyming duo for an artificial or man-made body of freshwater",
+      "clue": "An artificial body of freshwater",
       "answer": "Fake Lake",
       "answer_type": "other",
-      "aliases": ["fake lake"],
+      "aliases": ["fake lake", "lake fake"],
       "tags": ["wordplay-draft", "constructed", "rhyme-time"],
       "citations": [],
       "verification_status": "unverified"
@@ -174,10 +174,10 @@
         "rhyme_pair": ["bright", "knight"]
       },
       "constraint_text": null,
-      "clue": "Rhyming pair for a gleaming, shining medieval warrior clad in armor",
+      "clue": "A gleaming medieval warrior",
       "answer": "Bright Knight",
       "answer_type": "other",
-      "aliases": ["bright knight"],
+      "aliases": ["bright knight", "knight bright"],
       "tags": ["wordplay-draft", "constructed", "rhyme-time"],
       "citations": [],
       "verification_status": "unverified"
@@ -192,13 +192,13 @@
       "difficulty_rank": 3,
       "mechanic": "rhyme_time",
       "wp": {
-        "rhyme_pair": ["spare", "bear"]
+        "rhyme_pair": ["solar", "polar"]
       },
       "constraint_text": null,
-      "clue": "Rhyming phrase for an extra hibernating mammal held in reserve",
-      "answer": "Spare Bear",
+      "clue": "An arctic mammal standing in the sun",
+      "answer": "Solar Polar",
       "answer_type": "other",
-      "aliases": ["spare bear"],
+      "aliases": ["solar polar", "polar solar"],
       "tags": ["wordplay-draft", "constructed", "rhyme-time"],
       "citations": [],
       "verification_status": "unverified"
@@ -216,10 +216,10 @@
         "rhyme_pair": ["slow", "crow"]
       },
       "constraint_text": null,
-      "clue": "Rhyming term for a plodding, unhurried member of the corvid family",
+      "clue": "An unhurried bird perched on a telephone wire",
       "answer": "Slow Crow",
       "answer_type": "other",
-      "aliases": ["slow crow"],
+      "aliases": ["slow crow", "crow slow"],
       "tags": ["wordplay-draft", "constructed", "rhyme-time"],
       "citations": [],
       "verification_status": "unverified"
