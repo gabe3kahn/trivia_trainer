@@ -13,7 +13,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Although Louis Armstrong's recording topped the pop chart in the United Kingdom in April 1968, it performed poorly in the United States because the ABC Records president disliked it and refused to promote it.",
+      "clue": "Although this Louis Armstrong recording topped the pop chart in the United Kingdom in April 1968, it performed poorly in the United States because the ABC Records president disliked it and refused to promote it.",
       "answer": "What a Wonderful World",
       "aliases": [],
       "tags": [
@@ -42,7 +42,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This California-born singer collaborated with Francis Ford Coppola on a 1982 film score and was inducted into the Rock and Roll Hall of Fame in 2011, with Neil Young introducing him as 'a performer, singer, actor, magician, spirit guide, changeling.'",
+      "clue": "This California-born singer wrote the score for Francis Ford Coppola's 1982 film 'One from the Heart' and was inducted into the Rock and Roll Hall of Fame in 2011, with Neil Young introducing him as 'a performer, singer, actor, magician, spirit guide, changeling.'",
       "answer": "Tom Waits",
       "answer_type": "name",
       "aliases": [
@@ -134,8 +134,8 @@
       "external_id": "music-2026-06-24-004",
       "category_id": "music_performing_arts",
       "subcategory_name": "Theater",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Based on Maria von Trapp's 1949 memoir, this Rodgers and Hammerstein Broadway production is set in Austria on the eve of the 1938 Anschluss, following a governess who falls for a widowed naval officer and his seven children.",
@@ -168,9 +168,9 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This rare auditory ability allows its possessor to identify or reproduce any note by ear alone — without needing any external reference tone or instrument.",
-      "answer": "Absolute pitch",
+      "answer": "Perfect pitch",
       "aliases": [
-        "perfect pitch"
+        "Absolute pitch"
       ],
       "tags": [
         "music-draft",
@@ -194,8 +194,8 @@
       "external_id": "music-2026-06-24-006",
       "category_id": "music_performing_arts",
       "subcategory_name": "Popular Music",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This Don McLean song entered the Billboard Hot 100 at number 69 in late 1971, then climbed to the top spot for four weeks starting January 15, 1972, becoming one of the era's defining cultural touchstones.",
@@ -219,7 +219,7 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Bob_Fosse",
+      "source_url": "https://en.wikipedia.org/wiki/Alvin_Ailey",
       "external_id": "music-2026-06-24-007",
       "category_id": "music_performing_arts",
       "subcategory_name": "Dance",
@@ -227,11 +227,11 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In 1972 alone, this choreographer-director won the Tony Award (for 'Pippin'), the Academy Award for Best Director (for 'Cabaret'), and an Emmy (for 'Liza with a Z') — a remarkable sweep of major dramatic honors in a single year.",
-      "answer": "Bob Fosse",
+      "clue": "In 1958 this dancer founded a landmark American company to express the universality of the African-American experience; his choreographic masterwork 'Revelations' is recognized as one of the most popular and most performed ballets in the world.",
+      "answer": "Alvin Ailey",
       "answer_type": "name",
       "aliases": [
-        "Fosse"
+        "Ailey"
       ],
       "tags": [
         "music-draft",
@@ -241,9 +241,9 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Bob Fosse",
-          "url": "https://en.wikipedia.org/wiki/Bob_Fosse",
-          "snippet": "Robert Louis Fosse was an American choreographer, dancer, actor, filmmaker, and stage director. He is known for his work on stage and screen, and was arguably the most influential figure in the field of jazz dance in the twentieth century. "
+          "title": "Alvin Ailey",
+          "url": "https://en.wikipedia.org/wiki/Alvin_Ailey",
+          "snippet": "Alvin Ailey Jr. was an American dancer, director, choreographer, and activist who founded the Alvin Ailey American Dance Theater (AAADT) in 1958. His choreographic masterpiece Revelations is recognized as one of the most popular and most performed ballets in the world."
         }
       ],
       "verification_status": "verified",
@@ -259,7 +259,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Based on a Prosper Mérimée novella and first staged in Paris in March 1875, this opera shocked its opening-night audience with its unconventional realism; its French composer died after just 33 performances, never knowing the work would achieve international acclaim.",
+      "clue": "Based on a Prosper Mérimée novella and first staged in Paris in March 1875, this opera shocked its opening-night audience by putting a defiant, free-spirited heroine and an on-stage killing before the public; its French composer died after just 33 performances, never knowing the work would achieve international acclaim.",
       "answer": "Carmen",
       "aliases": [],
       "tags": [
@@ -288,7 +288,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "First released independently in December 2018, this rap single was re-signed to Columbia Records and remixed with country singer Billy Ray Cyrus, sparking widespread debate about its genre classification.",
+      "clue": "First released independently in late 2018 and later re-signed to Columbia Records, this genre-blurring debut single sparked widespread debate over whether it counted as country — a controversy only stoked when a remix added an established country-music star.",
       "answer": "Old Town Road",
       "aliases": [],
       "tags": [
@@ -340,38 +340,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Diana_Ross",
-      "external_id": "music-2026-06-24-011",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Popular Music",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "As lead singer of Motown's most successful act of the 1960s — a trio holding the record for most number-one pop singles by a female group — this performer later became the first African-American actress nominated for an Oscar in a debut film role.",
-      "answer": "Diana Ross",
-      "answer_type": "name",
-      "aliases": [
-        "Ross"
-      ],
-      "tags": [
-        "music-draft",
-        "sourced",
-        "popular-music"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Diana Ross",
-          "url": "https://en.wikipedia.org/wiki/Diana_Ross",
-          "snippet": "Diana Ross is an American singer and actress. She was the lead singer of the vocal group the Supremes, who became Motown's most successful act during the 1960s and one of the world's best-selling girl groups of all time. They remain the bes"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-24T14:42:37.743Z"
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Young_Americans",
       "external_id": "music-2026-06-24-012",
       "category_id": "music_performing_arts",
@@ -380,7 +348,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Recorded at Sigma Sound Studios in Philadelphia in 1974, this Bowie LP — its creator called its style 'plastic soul' — featured then-unknown backing vocalist Luther Vandross and yielded Bowie's first U.S. number-one single.",
+      "clue": "Recorded at Sigma Sound Studios in Philadelphia in 1974, this David Bowie LP — he called its style 'plastic soul' — featured then-unknown backing vocalist Luther Vandross and yielded Bowie's first U.S. number-one single.",
       "answer": "Young Americans",
       "aliases": [],
       "tags": [
@@ -393,7 +361,7 @@
           "source": "wikipedia",
           "title": "Young Americans",
           "url": "https://en.wikipedia.org/wiki/Young_Americans",
-          "snippet": "Young Americans is the ninth studio album by the English musician David Bowie, released on 7 March 1975 through RCA Records. A departure from the glam rock style of previous albums, the record showcased Bowie's interest in soul and R&B. Mus"
+          "snippet": "Young Americans is the ninth studio album by the English musician David Bowie, released on 7 March 1975 through RCA Records. A departure from the glam rock style of previous albums, the record showcased Bowie's interest in soul and R&B. Mus"
         }
       ],
       "verification_status": "verified",
@@ -413,7 +381,10 @@
       "answer": "Sgt. Pepper's Lonely Hearts Club Band",
       "aliases": [
         "Sgt. Pepper's",
-        "Sgt. Pepper"
+        "Sgt. Pepper",
+        "Sergeant Pepper's",
+        "Sergeant Pepper",
+        "Pepper's"
       ],
       "tags": [
         "music-draft",
@@ -425,7 +396,7 @@
           "source": "wikipedia",
           "title": "Sgt. Pepper's Lonely Hearts Club Band",
           "url": "https://en.wikipedia.org/wiki/Sgt._Pepper's_Lonely_Hearts_Club_Band",
-          "snippet": "Sgt. Pepper's Lonely Hearts Club Band is the eighth studio album by the English rock band the Beatles. Released in the UK on 26 May 1967, Sgt. Pepper is regarded by musicologists as an early concept album that advanced the roles of sound co"
+          "snippet": "Sgt. Pepper's Lonely Hearts Club Band is the eighth studio album by the English rock band the Beatles. Released in the UK on 26 May 1967, Sgt. Pepper is regarded by musicologists as an early concept album that advanced the roles of sound co"
         }
       ],
       "verification_status": "verified",
