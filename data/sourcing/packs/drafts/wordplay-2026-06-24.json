@@ -2,7 +2,7 @@
   "pack_id": "wordplay-2026-06-24",
   "category_id": "language_wordplay",
   "created_at": "2026-06-24T00:00:00.000Z",
-  "notes": "Run 2026-06-24. Mechanics: Homophones & Soundalikes (5) + Hidden Words (5). Last pack (2026-06-23) used Anagrams + Hidden Words; choosing Homophones + Hidden Words to rotate. Homophone answers (Hour, Mown, Great, Prophet, Muscle) and hidden-word carriers prowl (Owl), newer (Ewe), mode (Ode), dragon (Ago), paradox (Ox) are all fresh — none appear in the active bank or prior drafts. Each sentence evokes the answer's meaning, not just the hidden letters or soundalike.",
+  "notes": "Run 2026-06-24. Mechanics: Homophones & Soundalikes (5) + Hidden Words (5). Last pack (2026-06-23) used Anagrams + Hidden Words; choosing Homophones + Hidden Words to rotate. Homophone answers (Hour, Mown, Great, Prophet, Muscle) and hidden-word carriers prowl (Owl), newer (Ewe), mode (Ode), return (Urn), paradox (Ox) are all fresh — none appear in the active bank or prior drafts. Each sentence evokes the answer's meaning, not just the hidden letters or soundalike.",
   "questions": [
     {
       "source": "constructed",
@@ -13,7 +13,7 @@
       "difficulty_rank": 2,
       "mechanic": "homophone",
       "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
-      "clue": "The whole community agreed the riverside park was our shared green space and volunteers spent sixty minutes planting new saplings along the bank before the evening bell.",
+      "clue": "We all agreed the riverside park was our shared green space and spent sixty minutes planting new saplings along the bank before the evening bell.",
       "answer": "Hour",
       "aliases": [],
       "wp": {
@@ -70,7 +70,7 @@
       "difficulty_rank": 4,
       "mechanic": "homophone",
       "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
-      "clue": "The ancient seer's uncanny foresight made him legendary throughout the city; merchants who heeded his visions reliably found themselves generating considerable profit, and soon began bringing him offerings each morning.",
+      "clue": "The ancient seer's uncanny foresight made him legendary throughout the city; merchants who heeded his visions reliably found themselves generating considerable profit and soon began bringing him offerings each morning.",
       "answer": "Prophet",
       "aliases": [],
       "wp": {
@@ -165,11 +165,11 @@
       "difficulty_rank": 4,
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The village elder warned the young knight that the fire-breathing dragon of legend stirs only once an age, and that the last warrior who rode north to face it had vanished into the mountains long before anyone now living was born.",
-      "answer": "Ago",
+      "clue": "After the cremation, the grieving family arranged to return the ashes of their matriarch to the old house, where the tall ceramic vessel would sit on the mantel beside her photograph.",
+      "answer": "Urn",
       "aliases": [],
       "wp": {
-        "hidden_in": "dragon"
+        "hidden_in": "return"
       },
       "tags": ["wp-draft", "hidden-word"],
       "citations": [],
