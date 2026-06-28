@@ -159,7 +159,7 @@ export function ActivityChart({
             </>
           ) : (
             <View style={styles.miniNote}>
-              <Text style={styles.miniNoteText}>Practice questions to start your competency line — 50 is par.</Text>
+              <Text style={styles.miniNoteText}>Answer questions to start your competency line — 50 is par.</Text>
             </View>
           )
         ) : hasActivity ? (
