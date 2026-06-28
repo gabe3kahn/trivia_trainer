@@ -2,7 +2,7 @@ import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import { CompetencyChart, StreakStrip } from '@/src/components/activity';
+import { ActivityChart, StreakStrip } from '@/src/components/activity';
 import { Avatar, Card, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
 import type { CategoryScore } from '@/src/data/mockData';
 import {
@@ -160,7 +160,11 @@ export default function HomeScreen() {
 
       {error ? <Text style={styles.errorText}>{error}</Text> : null}
 
-      <CompetencyChart data={competencySeries} onPressDetail={() => router.push('/activity' as never)} />
+      <ActivityChart
+        competency={competencySeries}
+        daily={activityDaily}
+        onPressDetail={() => router.push('/activity' as never)}
+      />
 
       <PrimaryAction
         title={attempts === 0 ? 'Answer your first questions' : 'Train your weak spots'}
