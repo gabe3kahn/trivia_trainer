@@ -314,6 +314,137 @@
     </div>
   </div>
 
+  <div class="topsec" style="margin-top:36px">New-user state — zero history (first launch)</div>
+  <p class="sub" style="margin-bottom:18px">
+    <b style="color:var(--ink)">As built today</b>, all three components already render safely with no data — but bare: the streak reads <b style="color:var(--ink)">"🔥 0-day streak,"</b> the 30-day chart is 30 empty slivers, and the summary shows <b style="color:var(--ink)">0 · 0% · 0/30</b>. The hero ring already handles emptiness well (the <b style="color:var(--gold)">"Getting started"</b> 0/15 placement). <b style="color:var(--gold)">Proposed below:</b> give the streak and chart real empty-state copy so a first-launch user sees an invitation, not zeros.
+  </p>
+  <div class="row">
+    <div class="case">
+      <div class="cap"><b>As built</b> — renders, but the streak says "0-day" and the chart is flat slivers with a 0/0%/0 summary. No crash, just no guidance.</div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="scrn">
+          <div class="stat"><span>9:41</span><span class="r">📶 ▮▮▮ 🔋</span></div>
+          <div class="scrollbody">
+            <div class="ph-h">
+              <div><div class="brand">Trivi<span class="o"></span></div><div class="t">Home</div></div>
+              <div class="av">G</div>
+            </div>
+            <div class="card streak">
+              <div>
+                <div class="flame">🔥 0-day streak</div>
+                <div class="goal">1 session a day · play to keep it alive</div>
+              </div>
+              <div class="dots">
+                <div class="d">M</div><div class="d">T</div><div class="d">W</div>
+                <div class="d">T</div><div class="d today">F</div><div class="d">S</div><div class="d">S</div>
+              </div>
+            </div>
+            <div class="card hero">
+              <div class="ring">
+                <svg width="104" height="104" viewBox="0 0 104 104">
+                  <circle cx="52" cy="52" r="46" stroke="#24263A" stroke-width="9" fill="none"/>
+                </svg>
+                <div class="n"><b style="font-size:25px">0<span style="font-size:14px;color:var(--muted)">/15</span></b><span>reps</span></div>
+              </div>
+              <div>
+                <div class="tier" style="font-size:21px">Getting started</div>
+                <div class="up" style="color:var(--gold)">15 more to find your level</div>
+                <div class="hstat">Your score unlocks once we've got a read</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="chead">
+                <div class="over">Last 30 days</div>
+                <div class="toggle"><button class="on">Correct · Missed</button><button>By category</button></div>
+              </div>
+              <div class="chart" style="align-items:flex-end">
+                <!-- 30 empty slivers -->
+                <div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--gold)"></div>
+              </div>
+              <div class="xaxis"><span>4 wks ago</span><span>today</span></div>
+              <div class="csum">
+                <div><div class="k">This month</div><div class="v">0</div></div>
+                <div><div class="k">Correct</div><div class="v">0%</div></div>
+                <div><div class="k">Active days</div><div class="v">0<span style="font-size:12px;color:var(--muted)">/30</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <a class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>Train</a>
+            <a><svg viewBox="0 0 24 24"><path d="M6 9h12l-1 8H7zM9 9V6a3 3 0 016 0v3"/></svg>Compete</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="case">
+      <div class="cap"><b>Proposed</b> — same components, empty-state copy. Streak <b>invites the first session</b>; the chart swaps slivers for a one-line <b>placeholder</b>; the CTA points a brand-new user at their first questions.</div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="scrn">
+          <div class="stat"><span>9:41</span><span class="r">📶 ▮▮▮ 🔋</span></div>
+          <div class="scrollbody">
+            <div class="ph-h">
+              <div><div class="brand">Trivi<span class="o"></span></div><div class="t">Home</div></div>
+              <div class="av">G</div>
+            </div>
+            <div class="card streak">
+              <div>
+                <div class="flame">🔥 Start your streak</div>
+                <div class="goal">Answer one question today to light your first flame</div>
+              </div>
+              <div class="dots">
+                <div class="d">M</div><div class="d">T</div><div class="d">W</div>
+                <div class="d">T</div><div class="d today">F</div><div class="d">S</div><div class="d">S</div>
+              </div>
+            </div>
+            <div class="card hero">
+              <div class="ring">
+                <svg width="104" height="104" viewBox="0 0 104 104">
+                  <circle cx="52" cy="52" r="46" stroke="#24263A" stroke-width="9" fill="none"/>
+                </svg>
+                <div class="n"><b style="font-size:25px">0<span style="font-size:14px;color:var(--muted)">/15</span></b><span>reps</span></div>
+              </div>
+              <div>
+                <div class="tier" style="font-size:21px">Getting started</div>
+                <div class="up" style="color:var(--gold)">15 more to find your level</div>
+                <div class="hstat">Your score unlocks once we've got a read</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="chead">
+                <div class="over">Last 30 days</div>
+                <div class="toggle"><button class="on">Correct · Missed</button><button>By category</button></div>
+              </div>
+              <div style="height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:7px;border:1.5px dashed var(--line);border-radius:12px;margin:14px 0 4px;padding:0 22px">
+                <div style="font-size:26px;opacity:.85">📊</div>
+                <div style="font-weight:800;font-size:14px">No activity yet</div>
+                <div style="font-size:11.5px;color:var(--muted);line-height:1.45">Your 30-day chart fills in as you answer — correct vs. missed, color-coded by category.</div>
+              </div>
+            </div>
+            <div class="cta">
+              <div class="ic">▶</div>
+              <div>
+                <div class="tt">Answer your first questions</div>
+                <div class="ss">Pick any category to begin</div>
+              </div>
+              <div class="chev">›</div>
+            </div>
+          </div>
+          <div class="nav">
+            <a class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>Train</a>
+            <a><svg viewBox="0 0 24 24"><path d="M6 9h12l-1 8H7zM9 9V6a3 3 0 016 0v3"/></svg>Compete</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <script>
   const CATS = [
     ['History','--history','#E0973A'], ['Geography','--geography','#34D399'],
