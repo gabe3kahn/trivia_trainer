@@ -62,6 +62,7 @@ export function Screen({ children, contentStyle }: PropsWithChildren<{ contentSt
         keyboardDismissMode="interactive"
         keyboardShouldPersistTaps="handled"
         showsVerticalScrollIndicator={false}
+        bounces={false}
         alwaysBounceVertical={false}
         overScrollMode="never"
       >

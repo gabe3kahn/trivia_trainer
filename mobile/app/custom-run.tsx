@@ -32,7 +32,10 @@ export default function CustomRunScreen() {
 
   const loadCategories = useCallback(async () => {
     const rows = await fetchCategories();
-    const list = (rows ?? []) as Category[];
+    // words_language is merged into language_wordplay (migration 016); the backend
+    // category filter maps it too, so "Language & Wordplay" already covers both — hide
+    // the dup so it isn't a second selectable option.
+    const list = ((rows ?? []) as Category[]).filter((c) => c.id !== 'words_language');
     setCategories(list);
     // Default: everything selected — narrowing is the point, so start from "all".
     setSelectedCats(new Set(list.map((c) => c.id)));
