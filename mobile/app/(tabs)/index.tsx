@@ -2,15 +2,17 @@ import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import { ActivityChart, StreakStrip } from '@/src/components/activity';
+import { CompetencyChart, StreakStrip } from '@/src/components/activity';
 import { Avatar, Card, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
 import type { CategoryScore } from '@/src/data/mockData';
 import {
   fetchCategories,
   fetchHomeCompetencies,
   getActivitySummary,
+  getCompetencyTimeseries,
   getDailyStreak,
   type ActivityDay,
+  type CompetencyPoint,
 } from '@/src/services/triviaApi';
 import { colors, scoreColor, spacing, type } from '@/src/theme';
 import type { Database } from '@/src/types/supabase';
@@ -23,22 +25,25 @@ export default function HomeScreen() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [competencies, setCompetencies] = useState<Competency[]>([]);
   const [activityDaily, setActivityDaily] = useState<ActivityDay[]>([]);
+  const [competencySeries, setCompetencySeries] = useState<CompetencyPoint[]>([]);
   const [streak, setStreak] = useState(0);
   const [error, setError] = useState<string | null>(null);
 
   const loadHome = useCallback(async () => {
     try {
       setError(null);
-      const [categoryRows, competencyRows, summary, streakCount] = await Promise.all([
+      const [categoryRows, competencyRows, summary, streakCount, series] = await Promise.all([
         fetchCategories(),
         fetchHomeCompetencies(),
         getActivitySummary(30),
         getDailyStreak(),
+        getCompetencyTimeseries(30),
       ]);
       setCategories(categoryRows ?? []);
       setCompetencies(competencyRows ?? []);
       setActivityDaily(summary.daily ?? []);
       setStreak(streakCount ?? 0);
+      setCompetencySeries(series ?? []);
     } catch (nextError) {
       setError(nextError instanceof Error ? nextError.message : 'Could not load home data.');
     }
@@ -155,7 +160,7 @@ export default function HomeScreen() {
 
       {error ? <Text style={styles.errorText}>{error}</Text> : null}
 
-      <ActivityChart daily={activityDaily} onPressDetail={() => router.push('/activity' as never)} />
+      <CompetencyChart data={competencySeries} onPressDetail={() => router.push('/activity' as never)} />
 
       <PrimaryAction
         title={attempts === 0 ? 'Answer your first questions' : 'Train your weak spots'}

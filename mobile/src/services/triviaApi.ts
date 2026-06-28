@@ -64,6 +64,14 @@ export async function getActivitySummary(days = 30): Promise<ActivitySummary> {
   return (data as ActivitySummary) ?? { daily: [], by_category: [] };
 }
 
+export type CompetencyPoint = { date: string; score: number; attempts: number };
+
+export async function getCompetencyTimeseries(days = 30): Promise<CompetencyPoint[]> {
+  const { data, error } = await (supabase.rpc as any)('get_competency_timeseries', { p_days: days });
+  if (error) throw error;
+  return (data as CompetencyPoint[]) ?? [];
+}
+
 export async function fetchBadges() {
   const { data, error } = await supabase
     .from('badges')

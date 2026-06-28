@@ -1,10 +1,11 @@
 import { useMemo, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { LayoutChangeEvent, Pressable, StyleSheet, Text, View } from 'react-native';
+import Svg, { Circle, Defs, LinearGradient, Line as SvgLine, Polygon, Polyline, Stop, Text as SvgText } from 'react-native-svg';
 
-import type { ActivityDay } from '@/src/services/triviaApi';
-import { accentFor, colors, radius, spacing, type } from '@/src/theme';
+import type { ActivityDay, CompetencyPoint } from '@/src/services/triviaApi';
+import { colors, radius, scoreColor, spacing, type } from '@/src/theme';
 
-/* PT calendar-day key (matches get_activity_summary's bucketing) regardless of device tz. */
+/* PT calendar-day key (matches the RPC bucketing) regardless of device tz. */
 const ptKey = (d: Date) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(d);
 const ptWeekday = (d: Date) =>
   new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', weekday: 'narrow' }).format(d);
@@ -52,106 +53,113 @@ export function StreakStrip({ daily, streak }: { daily: ActivityDay[]; streak: n
 }
 
 /* ------------------------------------------------------------------ *
- * ActivityChart — 30-day stacked bars, toggle Correct·Missed / Category.
+ * CompetencyChart — overall competency (0..100, 50 = par) over the last
+ * `days` days, as a line. Final point equals the hero ring's current score.
  * ------------------------------------------------------------------ */
-const BAR_AREA = 132;
+const CHART_H = 140;
 
-export function ActivityChart({
-  daily,
+export function CompetencyChart({
+  data,
   days = 30,
   onPressDetail,
 }: {
-  daily: ActivityDay[];
+  data: CompetencyPoint[];
   days?: number;
   onPressDetail?: () => void;
 }) {
-  const [mode, setMode] = useState<'cm' | 'cat'>('cm');
-  const window = useMemo(() => buildWindow(daily, days), [daily, days]);
-  const maxTotal = Math.max(1, ...window.map((d) => d.total));
+  const [width, setWidth] = useState(0);
 
-  const totals = useMemo(() => {
-    const total = window.reduce((s, d) => s + d.total, 0);
-    const correct = window.reduce((s, d) => s + d.correct, 0);
-    const active = window.filter((d) => d.total > 0).length;
-    return { total, correct, active, pct: total ? Math.round((correct / total) * 100) : 0 };
-  }, [window]);
+  // Plot from the first day with any attempts — a flat-zero pre-history lead-in is noise.
+  const series = useMemo(() => {
+    const firstActive = data.findIndex((p) => p.attempts > 0);
+    return firstActive === -1 ? [] : data.slice(firstActive);
+  }, [data]);
 
-  const isEmpty = totals.total === 0;
+  const isEmpty = series.length === 0;
+  const now = isEmpty ? 0 : series[series.length - 1].score;
+  const first = isEmpty ? 0 : series[0].score;
+  const peak = series.reduce((m, p) => Math.max(m, p.score), 0);
+  const delta = now - first;
 
   return (
     <View style={styles.card}>
       <View style={styles.chartHead}>
-        <Text style={styles.overline}>Last {days} days</Text>
-        {isEmpty ? null : (
-          <View style={styles.toggle}>
-            {(['cm', 'cat'] as const).map((m) => (
-              <Pressable key={m} onPress={() => setMode(m)} style={[styles.tBtn, mode === m && styles.tBtnOn]}>
-                <Text style={[styles.tText, mode === m && styles.tTextOn]}>{m === 'cm' ? 'Correct · Missed' : 'By category'}</Text>
-              </Pressable>
-            ))}
-          </View>
-        )}
+        <Text style={styles.overline}>Competency · last {days} days</Text>
       </View>
 
       {isEmpty ? (
         <View style={styles.emptyState}>
-          <Text style={styles.emptyIcon}>📊</Text>
-          <Text style={styles.emptyTitle}>No activity yet</Text>
+          <Text style={styles.emptyIcon}>📈</Text>
+          <Text style={styles.emptyTitle}>No competency yet</Text>
           <Text style={styles.emptyBody}>
-            Your {days}-day chart fills in as you answer — correct vs. missed, color-coded by category.
+            Answer questions and your overall competency starts charting here — 50 is par.
           </Text>
         </View>
       ) : (
-      <Pressable
-        onPress={onPressDetail}
-        disabled={!onPressDetail}
-        style={({ pressed }) => (pressed && onPressDetail ? styles.bodyPressed : undefined)}
-      >
-        <View style={styles.chart}>
-          {window.map((d, i) => {
-            const barH = (d.total / maxTotal) * BAR_AREA;
-            const today = i === window.length - 1;
-            return (
-              <View key={d.date} style={[styles.barCol, today && styles.barToday]}>
-                {d.total === 0 ? (
-                  <View style={styles.barEmpty} />
-                ) : mode === 'cm' ? (
-                  <>
-                    <View style={{ height: (d.missed / d.total) * barH, backgroundColor: colors.red, opacity: 0.85 }} />
-                    <View style={{ height: (d.correct / d.total) * barH, backgroundColor: colors.green }} />
-                  </>
-                ) : (
-                  Object.entries(d.by_category).map(([cat, n]) => (
-                    <View key={cat} style={{ height: (n / d.total) * barH, backgroundColor: accentFor(cat) }} />
-                  ))
-                )}
-              </View>
-            );
-          })}
-        </View>
-
-        <View style={styles.xaxis}>
-          {(days === 30 ? ['4 wks ago', '3 wks', '2 wks', '1 wk', 'today'] : [`${days}d ago`, 'today']).map((label) => (
-            <Text key={label} style={styles.xLabel}>
-              {label}
-            </Text>
-          ))}
-        </View>
-
-        <View style={styles.summary}>
-          <Stat label="This month" value={String(totals.total)} />
-          <Stat label="Correct" value={`${totals.pct}%`} tone={colors.green} />
-          <Stat label="Active days" value={`${totals.active}/${days}`} />
-        </View>
-
-        {onPressDetail ? (
-          <View style={styles.detailFooter}>
-            <Text style={styles.detailFooterText}>View full activity ›</Text>
+        <Pressable
+          onPress={onPressDetail}
+          disabled={!onPressDetail}
+          style={({ pressed }) => (pressed && onPressDetail ? styles.bodyPressed : undefined)}
+        >
+          <View style={styles.lineWrap} onLayout={(e: LayoutChangeEvent) => setWidth(e.nativeEvent.layout.width)}>
+            {width > 0 ? <CompetencyLine width={width} height={CHART_H} series={series} /> : null}
           </View>
-        ) : null}
-      </Pressable>
+
+          <View style={styles.xaxis}>
+            {(days === 30 ? ['4 wks ago', '3 wks', '2 wks', '1 wk', 'today'] : [`${days}d ago`, 'today']).map((label) => (
+              <Text key={label} style={styles.xLabel}>
+                {label}
+              </Text>
+            ))}
+          </View>
+
+          <View style={styles.summary}>
+            <Stat label="Now" value={String(now)} tone={scoreColor(now)} />
+            <Stat
+              label="This month"
+              value={delta >= 0 ? `▲ +${delta}` : `▼ ${delta}`}
+              tone={delta >= 0 ? colors.green : colors.red}
+            />
+            <Stat label="Peak" value={String(peak)} />
+          </View>
+
+          {onPressDetail ? (
+            <View style={styles.detailFooter}>
+              <Text style={styles.detailFooterText}>View full activity ›</Text>
+            </View>
+          ) : null}
+        </Pressable>
       )}
     </View>
+  );
+}
+
+function CompetencyLine({ width, height, series }: { width: number; height: number; series: CompetencyPoint[] }) {
+  const n = series.length;
+  const pad = 3;
+  const x = (i: number) => (n <= 1 ? width / 2 : pad + (i / (n - 1)) * (width - pad * 2));
+  const y = (v: number) => height - (v / 100) * height;
+  const stroke = scoreColor(series[n - 1].score);
+  const pts = series.map((p, i) => `${x(i).toFixed(1)},${y(p.score).toFixed(1)}`).join(' ');
+  const area = `${x(0).toFixed(1)},${height} ${pts} ${x(n - 1).toFixed(1)},${height}`;
+
+  return (
+    <Svg width={width} height={height}>
+      <Defs>
+        <LinearGradient id="compFill" x1="0" y1="0" x2="0" y2="1">
+          <Stop offset="0" stopColor={stroke} stopOpacity={0.22} />
+          <Stop offset="1" stopColor={stroke} stopOpacity={0} />
+        </LinearGradient>
+      </Defs>
+      {/* par line at 50 */}
+      <SvgLine x1={0} y1={y(50)} x2={width} y2={y(50)} stroke={colors.line} strokeWidth={1} strokeDasharray="3 4" />
+      <SvgText x={2} y={y(50) - 4} fill={colors.dim} fontSize={9} fontWeight="700">
+        par 50
+      </SvgText>
+      <Polygon points={area} fill="url(#compFill)" />
+      <Polyline points={pts} fill="none" stroke={stroke} strokeWidth={2.5} strokeLinejoin="round" strokeLinecap="round" />
+      <Circle cx={x(n - 1)} cy={y(series[n - 1].score)} r={4} fill={stroke} stroke={colors.background} strokeWidth={2} />
+    </Svg>
   );
 }
 
@@ -203,16 +211,8 @@ const styles = StyleSheet.create({
   },
   chartHead: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   overline: { ...type.overline, color: colors.muted },
-  toggle: { flexDirection: 'row', backgroundColor: colors.surfaceAlt, borderWidth: 1, borderColor: colors.line, borderRadius: radius.pill, padding: 3 },
-  tBtn: { paddingVertical: 5, paddingHorizontal: 9, borderRadius: radius.pill },
-  tBtnOn: { backgroundColor: colors.gold },
-  tText: { fontSize: 10.5, fontWeight: '700', color: colors.muted },
-  tTextOn: { color: colors.background },
 
-  chart: { flexDirection: 'row', alignItems: 'flex-end', gap: 2, height: BAR_AREA, marginTop: spacing.md },
-  barCol: { flex: 1, flexDirection: 'column', borderRadius: 2, overflow: 'hidden', minHeight: 2, justifyContent: 'flex-end' },
-  barToday: { borderRadius: 3, borderWidth: 1.5, borderColor: colors.gold },
-  barEmpty: { height: 2, backgroundColor: colors.lineSoft },
+  lineWrap: { height: CHART_H, marginTop: spacing.md },
   xaxis: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 6 },
   xLabel: { fontSize: 10, color: colors.dim, fontWeight: '600' },
 
