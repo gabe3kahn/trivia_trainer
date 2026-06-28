@@ -1,0 +1,450 @@
+{
+  "pack_id": "literature_books-draft-2026-06-27",
+  "category_id": "literature_books",
+  "created_at": "2026-06-27",
+  "notes": "Run 2026-06-27 (category 1 of 2). Reviewer-applied edits 2026-06-27: Nancy Drew reworded for a clearer collective-pseudonym explanation; Aestheticism trailing slogan trimmed; Bridget Jones answer_type->name (no title alias, since \"Diary\" appears in the clue); Tinker Tailor alias \"Tinker, Tailor, Soldier, Spy\" added; Paul Revere's Ride reworded to remove the leaked word \"ride\"; Gore Vidal alias \"Eugene Luther Gore Vidal\" added; Removed: Oxymoron (answer already active in words_language). Pied Piper kept (only the stray em-dash was removed from its clue per review). Remaining sources: Nancy Drew, Hop on Pop, Aestheticism, Steinbeck, Bridget Jones, Bell Jar, Tinker Tailor Soldier Spy, Paul Revere's Ride, Thomas Paine, Tender Is the Night, Ken Kesey, Gore Vidal, Karen Blixen.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nancy_Drew",
+      "external_id": "lit-2026-06-27-001",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Conceived by book packager Edward Stratemeyer and written by a rotating team of ghostwriters all credited to the invented author 'Carolyn Keene,' this teenage amateur sleuth has starred in mystery books, films, and TV since 1930.",
+      "answer": "Nancy Drew",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "literary-characters"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nancy Drew",
+          "url": "https://en.wikipedia.org/wiki/Nancy_Drew",
+          "snippet": "Nancy Drew is a fictional character appearing in several mystery book series, movies, video games, and TV shows as a teenage amateur sleuth. The books are ghostwritten by a number of authors and published under the collective pseudonym Caro"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:02.887Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hop_on_Pop",
+      "external_id": "lit-2026-06-27-002",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Subtitled 'The Simplest Seuss for Youngest Use,' this 1963 picture book published in the Random House Beginner Books series introduced basic phonics concepts to young readers.",
+      "answer": "Hop on Pop",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "childrens-ya"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hop on Pop",
+          "url": "https://en.wikipedia.org/wiki/Hop_on_Pop",
+          "snippet": "Hop on Pop is a 1963 children's picture book by Dr. Seuss, published as part of the Random House Beginner Books series. The book is subtitled \"The Simplest Seuss for Youngest Use\", and is designed to introduce basic phonics concepts to chil"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:03.258Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Aestheticism",
+      "external_id": "lit-2026-06-27-003",
+      "category_id": "literature_books",
+      "subcategory_name": "Awards, Movements & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Oscar Wilde and Walter Pater were leading figures of this late 19th-century art movement, which held that literature and the arts should be judged by their beauty alone, not by any moral or didactic purpose.",
+      "answer": "Aestheticism",
+      "answer_type": "other",
+      "aliases": [
+        "Aesthetic movement"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "awards-movements-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Aestheticism",
+          "url": "https://en.wikipedia.org/wiki/Aestheticism",
+          "snippet": "Aestheticism was an art movement in the late 19th century that valued the appearance of literature, music, fonts, and the arts over their functions. According to Aestheticism, art should be produced to be beautiful, rather than to teach a l"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:03.626Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/John_Steinbeck",
+      "external_id": "lit-2026-06-27-005",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Awarded the 1962 Nobel Prize in Literature 'for his realistic and imaginative writings, combining as they do sympathetic humor and keen social perception,' this American writer has been called 'a giant of American letters' and authored 33 books.",
+      "answer": "John Steinbeck",
+      "answer_type": "name",
+      "aliases": [
+        "Steinbeck"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "authors-works"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "John Steinbeck",
+          "url": "https://en.wikipedia.org/wiki/John_Steinbeck",
+          "snippet": "John Ernst Steinbeck was an American writer and novelist. He won the 1962 Nobel Prize in Literature \"for his realistic and imaginative writings, combining as they do sympathetic humor and keen social perception\". He has been called \"a giant"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:04.006Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bridget_Jones",
+      "external_id": "lit-2026-06-27-006",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First appearing in a 1995 newspaper column in The Independent — without a byline, so readers initially believed it to be a real personal diary — this Helen Fielding creation chronicles a thirtysomething single woman's romantic life in London.",
+      "answer": "Bridget Jones",
+      "answer_type": "name",
+      "aliases": [],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "literary-characters"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bridget Jones",
+          "url": "https://en.wikipedia.org/wiki/Bridget_Jones",
+          "snippet": "Bridget Rose Jones is a fictional character created by British writer Helen Fielding. Jones first appeared in Fielding's Bridget Jones's Diary column in The Independent in 1995, which did not carry any byline. Thus, it seemed to be an actua"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:04.388Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Bell_Jar",
+      "external_id": "lit-2026-06-27-007",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally published in Britain in 1963 under the pseudonym 'Victoria Lucas' to spare its American author embarrassment, this semi-autobiographical work — her only novel — depicts a young woman's descent into mental illness and institutional treatment.",
+      "answer": "The Bell Jar",
+      "answer_type": "other",
+      "aliases": [
+        "Bell Jar"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "american-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Bell Jar",
+          "url": "https://en.wikipedia.org/wiki/The_Bell_Jar",
+          "snippet": "The Bell Jar is the only novel written by the American writer and poet Sylvia Plath. Originally published under the pseudonym \"Victoria Lucas\" in 1963, the novel is supposedly semi-autobiographical, with the names of places and people chang"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:04.762Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tinker_Tailor_Soldier_Spy",
+      "external_id": "lit-2026-06-27-008",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Written by a former British intelligence officer and published in 1974, this critically acclaimed spy novel follows the aging, taciturn spymaster George Smiley as he hunts a Soviet mole embedded deep within the British Secret Intelligence Service.",
+      "answer": "Tinker Tailor Soldier Spy",
+      "answer_type": "other",
+      "aliases": [
+        "Tinker, Tailor, Soldier, Spy"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "british-irish-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tinker Tailor Soldier Spy",
+          "url": "https://en.wikipedia.org/wiki/Tinker_Tailor_Soldier_Spy",
+          "snippet": "Tinker Tailor Soldier Spy is a 1974 spy novel by the author and former secret intelligence officer John le Carré. It follows the endeavours of the taciturn, ageing spymaster George Smiley to uncover a Soviet mole in the British Secret Intel"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:05.130Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Paul_Revere's_Ride",
+      "external_id": "lit-2026-06-27-009",
+      "category_id": "literature_books",
+      "subcategory_name": "Poetry",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First published in the January 1861 issue of The Atlantic Monthly and later retitled 'The Landlord's Tale' in an 1863 collection, this Henry Wadsworth Longfellow narrative poem commemorates — with significant historical inaccuracies — a patriot's midnight gallop of April 1775 to rouse the colonial militia.",
+      "answer": "Paul Revere's Ride",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "poetry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Paul Revere's Ride",
+          "url": "https://en.wikipedia.org/wiki/Paul_Revere's_Ride",
+          "snippet": "\"Paul Revere's Ride\" is an 1860 poem by American poet Henry Wadsworth Longfellow that commemorates the actions of American patriot Paul Revere on April 18, 1775, although with significant inaccuracies. It was first published in the January "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:05.506Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Thomas_Paine",
+      "external_id": "lit-2026-06-27-010",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Though born in Norfolk, England, this political pamphleteer framed the Patriot argument for American independence with his 1776 work 'Common Sense' and the series 'The American Crisis,' which opened with the line 'These are the times that try men's souls.'",
+      "answer": "Thomas Paine",
+      "answer_type": "name",
+      "aliases": [
+        "Paine"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "american-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Thomas Paine",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Paine",
+          "snippet": "Thomas Paine was an English-born American Founding Father, inventor, political philosopher, and statesman. His pamphlets Common Sense (1776) and The American Crisis (1776–1783) framed the Patriot argument for independence from Great Britain"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:05.874Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tender_Is_the_Night",
+      "external_id": "lit-2026-06-27-011",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Set on the French Riviera during the twilight of the Jazz Age, this 1934 novel — the fourth and final completed by its American author — chronicles the decline of psychiatrist Dick Diver and mirrors real events in its author's turbulent marriage.",
+      "answer": "Tender Is the Night",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "american-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tender Is the Night",
+          "url": "https://en.wikipedia.org/wiki/Tender_Is_the_Night",
+          "snippet": "Tender Is the Night is the fourth and final novel completed by American writer F. Scott Fitzgerald. Set in the French Riviera during the twilight of the Jazz Age, the 1934 novel chronicles the rise and fall of Dick Diver, a promising young "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:06.255Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ken_Kesey",
+      "external_id": "lit-2026-06-27-012",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American novelist considered himself a bridge between the Beat Generation of the 1950s and the hippies of the 1960s; he began writing his debut novel while working as a ward attendant at a psychiatric facility during a graduate student fellowship in Oregon.",
+      "answer": "Ken Kesey",
+      "answer_type": "name",
+      "aliases": [
+        "Kesey"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "authors-works"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ken Kesey",
+          "url": "https://en.wikipedia.org/wiki/Ken_Kesey",
+          "snippet": "Kenneth Elton Kesey was an American novelist, essayist, and countercultural figure. He considered himself a link between the Beat Generation of the 1950s and the hippies of the 1960s."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:06.625Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gore_Vidal",
+      "external_id": "lit-2026-06-27-013",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Known for his cynical epigrammatic wit, this American writer and public intellectual twice sought Democratic Party political office unsuccessfully while spending decades in his novels and essays criticizing the social and sexual norms he saw as driving American life.",
+      "answer": "Gore Vidal",
+      "answer_type": "name",
+      "aliases": [
+        "Vidal",
+        "Eugene Luther Gore Vidal"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "authors-works"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gore Vidal",
+          "url": "https://en.wikipedia.org/wiki/Gore_Vidal",
+          "snippet": "Eugene Luther Gore Vidal was an American writer and public intellectual known for his cynical epigrammatic wit. His novels and essays criticized the social and sexual norms he perceived as driving American life. Vidal was heavily involved i"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:07.002Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Karen_Blixen",
+      "external_id": "lit-2026-06-27-014",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Danish author wrote under at least four pen names across different language markets — including a masculine French pseudonym, Pierre Andrézel — and is internationally known by a masculine Scandinavian pen name; her first English-language collection, 'Seven Gothic Tales,' appeared in 1934.",
+      "answer": "Karen Blixen",
+      "answer_type": "name",
+      "aliases": [
+        "Isak Dinesen",
+        "Tania Blixen",
+        "Blixen"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "world-lit"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Karen Blixen",
+          "url": "https://en.wikipedia.org/wiki/Karen_Blixen",
+          "snippet": "Baroness Karen Christentze von Blixen-Finecke was a Danish author who wrote in Danish and English. She is also known under her pen names Isak Dinesen, used in English-speaking countries; Tania Blixen, used in German-speaking countries; Osce"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:07.374Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
+      "external_id": "lit-2026-06-27-015",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A medieval German legend tells of a curiously dressed rat catcher who lured a town's vermin away with his flute and then, when the town refused to pay him, led its children away by the same means.",
+      "answer": "The Pied Piper of Hamelin",
+      "answer_type": "other",
+      "aliases": [
+        "Pied Piper",
+        "The Pied Piper"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "childrens-ya"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pied Piper of Hamelin",
+          "url": "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
+          "snippet": "The Pied Piper of Hamelin, also known as the Pan Piper or the Rat-Catcher of Hamelin, is the title character of a legend from the town of Hamelin (Hameln), Lower Saxony, Germany."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:07.755Z"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "pack_id": "history-draft-2026-06-27",
+  "category_id": "history",
+  "created_at": "2026-06-27",
+  "notes": "Run 2026-06-27 (category 2 of 2). Reviewer-applied edits 2026-06-27: Washington 'Founding Father'->'General'; Ford reclued to Michigan-football angle ($600); Hawaii reclued onto its history (kingdom->overthrow->annexation->statehood); Waterloo names Napoleon directly; Cultural Revolution + Wake Island trailing facts trimmed; Yorktown reclued to losing general Charles Cornwallis ($600); Timbuktu (already active in geography) reclued to Mansa Musa ($800). Removed: Counter-Reformation (duplicates active 'Council of Trent') and Mayflower Compact (in-pack overlap with The Mayflower). Re-homed to pop culture: Charles Atlas. Hawaii dropped (answer already active in geography); reclued the slot to Queen Liliuokalani (last Hawaiian monarch) instead. Louisiana dropped (already active in geography). Remaining sources: Washington, Ford, McKinley, Taft, Mayflower, Waterloo, Cultural Revolution, Cornwallis, Mansa Musa, Wake Island.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/George_Washington",
+      "external_id": "hist-2026-06-27-001",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Described as the 'Father of His Country,' this General commanded the Continental Army to victory in the Revolutionary War before being sworn in as the nation's first president in 1789.",
+      "answer": "George Washington",
+      "answer_type": "name",
+      "aliases": [
+        "Washington"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "George Washington",
+          "url": "https://en.wikipedia.org/wiki/George_Washington",
+          "snippet": "George Washington was a Founding Father and the first president of the United States, serving from 1789 to 1797. As commander of the Continental Army, Washington led Patriot forces to victory in the American Revolutionary War against the Br"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:30.267Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gerald_Ford",
+      "external_id": "hist-2026-06-27-002",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Prior to becoming president, this Republican was a center on the University of Michigan's national-championship football teams and was named the squad's most valuable player.",
+      "answer": "Gerald Ford",
+      "answer_type": "name",
+      "aliases": [
+        "Ford"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gerald Ford",
+          "url": "https://en.wikipedia.org/wiki/Gerald_Ford",
+          "snippet": "Gerald Rudolph Ford Jr. was the 38th president of the United States, serving from 1974 to 1977. He assumed the presidency after the resignation of Richard Nixon, under whom he served as the 40th vice president from 1973 to 1974, after the r"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:30.639Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/William_McKinley",
+      "external_id": "hist-2026-06-27-003",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The 25th U.S. president, he led the country through the Spanish-American War and oversaw a period of national expansion, but was shot by the anarchist Leon Czolgosz at the 1901 Pan-American Exposition in Buffalo, New York, and died eight days later.",
+      "answer": "William McKinley",
+      "answer_type": "name",
+      "aliases": [
+        "McKinley"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "William McKinley",
+          "url": "https://en.wikipedia.org/wiki/William_McKinley",
+          "snippet": "William McKinley was the 25th president of the United States, serving from 1897 until his assassination in 1901. A member of the Republican Party, he led a realignment that made Republicans largely dominant in the industrial states and nati"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:31.022Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/William_Howard_Taft",
+      "external_id": "hist-2026-06-27-004",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Interred at Arlington National Cemetery as the first former president — and simultaneously the first former chief justice — to be buried there, this Ohio Republican is the only person in American history to have held both of those offices.",
+      "answer": "William Howard Taft",
+      "answer_type": "name",
+      "aliases": [
+        "Taft"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "William Howard Taft",
+          "url": "https://en.wikipedia.org/wiki/William_Howard_Taft",
+          "snippet": "William Howard Taft was the 27th president of the United States from 1909 to 1913 and the tenth chief justice of the United States from 1921 to 1930. He is the only person to have held both offices."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:31.403Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mayflower",
+      "external_id": "hist-2026-06-27-005",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 110-foot English merchant vessel transported 102 passengers — later called the Pilgrims — across the Atlantic, dropping anchor near the tip of Cape Cod, Massachusetts, in November 1620 after ten weeks at sea.",
+      "answer": "The Mayflower",
+      "answer_type": "other",
+      "aliases": [
+        "Mayflower"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mayflower",
+          "url": "https://en.wikipedia.org/wiki/Mayflower",
+          "snippet": "Mayflower was an English square-rigged merchant sailing ship, active from before 1609 until 1622. Her tonnage was 180+, and she was 110 feet long and 25 feet in the beam, with several decks. She was notable in that she transported a group o"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:31.782Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Liliuokalani",
+      "external_id": "hist-2026-06-27-007",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The last sovereign monarch of the Hawaiian Kingdom, this queen was deposed in an 1893 overthrow backed by American business interests; an accomplished musician, she composed the beloved farewell song 'Aloha ʻOe.'",
+      "answer": "Liliuokalani",
+      "answer_type": "other",
+      "aliases": [
+        "Queen Liliuokalani",
+        "Liliʻuokalani"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Liliʻuokalani",
+          "url": "https://en.wikipedia.org/wiki/Lili%CA%BBuokalani",
+          "snippet": "Liliʻuokalani was the only queen regnant and the last sovereign monarch of the Hawaiian Kingdom, ruling from January 29, 1891, until the overthrow of the Hawaiian Kingdom on January 17, 1893, in a coup that was led by the Committee of Safet"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:32.203Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+      "external_id": "hist-2026-06-27-008",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Fought on June 18, 1815, in what is now Belgium, this final engagement of the Napoleonic era saw the French Imperial Army crushed by a British-led coalition and Prussian forces, ending Napoleon's last bid for power.",
+      "answer": "Battle of Waterloo",
+      "answer_type": "other",
+      "aliases": [
+        "Waterloo"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Battle of Waterloo",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+          "snippet": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo, being the last engagement with Napoleon I. The French Imperial Army under the command of Napoleon I was defeated by two armies of the Seventh Coalition. One was a Brit"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:32.584Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+      "external_id": "hist-2026-06-27-009",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Chairman Mao Zedong launched this decade-long sociopolitical upheaval in China in May 1966 with the stated goal of preserving communism by purging remnants of capitalist and traditional elements from Chinese society.",
+      "answer": "The Cultural Revolution",
+      "answer_type": "other",
+      "aliases": [
+        "Cultural Revolution",
+        "Great Proletarian Cultural Revolution"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "revolutions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cultural Revolution",
+          "url": "https://en.wikipedia.org/wiki/Cultural_Revolution",
+          "snippet": "The Cultural Revolution, formally known as the Great Proletarian Cultural Revolution, was a sociopolitical movement in the People's Republic of China (PRC). It was launched by CCP chairman Mao Zedong in 1966 and lasted until his death in 19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:32.972Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Charles_Cornwallis,_1st_Marquess_Cornwallis",
+      "external_id": "hist-2026-06-27-011",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This British general's surrender of roughly 8,000 troops at a Virginia harbor town in 1781 effectively ended the American Revolutionary War; he went on to serve as Governor-General of India and Lord Lieutenant of Ireland.",
+      "answer": "Charles Cornwallis",
+      "answer_type": "name",
+      "aliases": [
+        "Cornwallis",
+        "Lord Cornwallis"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "revolutions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Charles Cornwallis, 1st Marquess Cornwallis",
+          "url": "https://en.wikipedia.org/wiki/Charles_Cornwallis%2C_1st_Marquess_Cornwallis",
+          "snippet": "General Charles Cornwallis, 1st Marquess Cornwallis was a British Army officer, Whig politician and colonial administrator. In the United States and United Kingdom, he is best known as one of the leading British general officers in the Amer"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:33.352Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mansa_Musa",
+      "external_id": "hist-2026-06-27-012",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 14th-century ruler of the Mali Empire, often cited as the wealthiest individual in recorded history, distributed so much gold during his pilgrimage to Mecca around 1324 that he reportedly depressed the metal's value across the regions he passed through.",
+      "answer": "Mansa Musa",
+      "answer_type": "name",
+      "aliases": [
+        "Musa I of Mali",
+        "Mansa Musa I"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "empires-dynasties"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mansa Musa",
+          "url": "https://en.wikipedia.org/wiki/Mansa_Musa",
+          "snippet": "Mansa Musa was the ninth Mansa of the Mali Empire, which reached its territorial peak during his reign. Musa's reign is often regarded as the zenith of Mali's power and prestige, although he features less in Mandinka oral traditions than hi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:33.730Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wake_Island",
+      "external_id": "hist-2026-06-27-013",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Seized by Japanese forces in December 1941, days after the attack on Pearl Harbor, this three-islet coral atoll in the Micronesian Pacific remained under occupation until Japan's 1945 surrender.",
+      "answer": "Wake Island",
+      "answer_type": "other",
+      "aliases": [
+        "Wake Atoll"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wake Island",
+          "url": "https://en.wikipedia.org/wiki/Wake_Island",
+          "snippet": "Wake Island, also known as Wake Atoll, is a coral atoll in the Micronesia subregion of the Pacific Ocean. The atoll is composed of three islets – Wake, Wilkes, and Peale Islands – surrounding a lagoon encircled by a coral reef. The nearest "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:34.098Z"
+    }
+  ]
+}
