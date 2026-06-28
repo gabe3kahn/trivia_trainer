@@ -1,6 +1,6 @@
 import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 import { ActivityChart, StreakStrip } from '@/src/components/activity';
 import { Avatar, Card, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
@@ -77,7 +77,6 @@ export default function HomeScreen() {
   const overall = overallRow?.score ?? 0;
   const overallDelta = overallRow?.seven_day_delta ?? 0;
   const attempts = overallRow?.attempts ?? categoryRows.reduce((sum, c) => sum + c.attempts, 0);
-  const dueReview = overallRow?.due_review_count ?? categoryRows.reduce((sum, c) => sum + c.dueReview, 0);
 
   // Below this many overall reps the score is mostly evidence-shrink, not skill — so we
   // show a "Getting started" placement (progress to a real read) instead of a low number.
@@ -140,11 +139,7 @@ export default function HomeScreen() {
               <Text style={[styles.heroTrend, overallDelta > 0 && styles.up, overallDelta < 0 && styles.down]}>
                 {trendText}
               </Text>
-              <View style={styles.heroStatRow}>
-                <Text style={styles.heroStat}>{attempts} reps</Text>
-                <View style={styles.dotSep} />
-                <Text style={styles.heroStat}>{dueReview} to review</Text>
-              </View>
+              <Text style={styles.heroStat}>{attempts} reps</Text>
             </>
           ) : (
             <>
@@ -158,19 +153,9 @@ export default function HomeScreen() {
         </View>
       </Card>
 
-      <Text style={styles.explainer}>
-        Your score is how you do versus what's expected at each difficulty — 50 is on par. It climbs as you beat
-        expectations, especially on harder clues.
-      </Text>
-
       {error ? <Text style={styles.errorText}>{error}</Text> : null}
 
-      <View>
-        <ActivityChart daily={activityDaily} />
-        <Pressable onPress={() => router.push('/activity' as never)} style={styles.detailLink}>
-          <Text style={styles.detailLinkText}>View full activity ›</Text>
-        </Pressable>
-      </View>
+      <ActivityChart daily={activityDaily} onPressDetail={() => router.push('/activity' as never)} />
 
       <PrimaryAction
         title="Train your weak spots"
@@ -235,26 +220,9 @@ const styles = StyleSheet.create({
   down: {
     color: colors.red,
   },
-  heroStatRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.sm,
-    marginTop: 2,
-  },
   heroStat: {
     ...type.caption,
     color: colors.muted,
-  },
-  explainer: {
-    ...type.caption,
-    color: colors.dim,
-    marginTop: -spacing.xs,
-  },
-  dotSep: {
-    width: 3,
-    height: 3,
-    borderRadius: 2,
-    backgroundColor: colors.dim,
   },
   moverRow: {
     flexDirection: 'row',
@@ -279,13 +247,5 @@ const styles = StyleSheet.create({
   errorText: {
     ...type.caption,
     color: colors.red,
-  },
-  detailLink: {
-    alignItems: 'center',
-    paddingTop: spacing.sm,
-  },
-  detailLinkText: {
-    ...type.label,
-    color: colors.gold,
   },
 });

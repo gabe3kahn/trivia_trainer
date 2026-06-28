@@ -56,7 +56,15 @@ export function StreakStrip({ daily, streak }: { daily: ActivityDay[]; streak: n
  * ------------------------------------------------------------------ */
 const BAR_AREA = 132;
 
-export function ActivityChart({ daily, days = 30 }: { daily: ActivityDay[]; days?: number }) {
+export function ActivityChart({
+  daily,
+  days = 30,
+  onPressDetail,
+}: {
+  daily: ActivityDay[];
+  days?: number;
+  onPressDetail?: () => void;
+}) {
   const [mode, setMode] = useState<'cm' | 'cat'>('cm');
   const window = useMemo(() => buildWindow(daily, days), [daily, days]);
   const maxTotal = Math.max(1, ...window.map((d) => d.total));
@@ -81,39 +89,54 @@ export function ActivityChart({ daily, days = 30 }: { daily: ActivityDay[]; days
         </View>
       </View>
 
-      <View style={styles.chart}>
-        {window.map((d, i) => {
-          const barH = (d.total / maxTotal) * BAR_AREA;
-          const today = i === window.length - 1;
-          return (
-            <View key={d.date} style={[styles.barCol, today && styles.barToday]}>
-              {d.total === 0 ? (
-                <View style={styles.barEmpty} />
-              ) : mode === 'cm' ? (
-                <>
-                  <View style={{ height: (d.missed / d.total) * barH, backgroundColor: colors.red, opacity: 0.85 }} />
-                  <View style={{ height: (d.correct / d.total) * barH, backgroundColor: colors.green }} />
-                </>
-              ) : (
-                Object.entries(d.by_category).map(([cat, n]) => (
-                  <View key={cat} style={{ height: (n / d.total) * barH, backgroundColor: accentFor(cat) }} />
-                ))
-              )}
-            </View>
-          );
-        })}
-      </View>
+      <Pressable
+        onPress={onPressDetail}
+        disabled={!onPressDetail}
+        style={({ pressed }) => (pressed && onPressDetail ? styles.bodyPressed : undefined)}
+      >
+        <View style={styles.chart}>
+          {window.map((d, i) => {
+            const barH = (d.total / maxTotal) * BAR_AREA;
+            const today = i === window.length - 1;
+            return (
+              <View key={d.date} style={[styles.barCol, today && styles.barToday]}>
+                {d.total === 0 ? (
+                  <View style={styles.barEmpty} />
+                ) : mode === 'cm' ? (
+                  <>
+                    <View style={{ height: (d.missed / d.total) * barH, backgroundColor: colors.red, opacity: 0.85 }} />
+                    <View style={{ height: (d.correct / d.total) * barH, backgroundColor: colors.green }} />
+                  </>
+                ) : (
+                  Object.entries(d.by_category).map(([cat, n]) => (
+                    <View key={cat} style={{ height: (n / d.total) * barH, backgroundColor: accentFor(cat) }} />
+                  ))
+                )}
+              </View>
+            );
+          })}
+        </View>
 
-      <View style={styles.xaxis}>
-        <Text style={styles.xLabel}>{days === 30 ? '4 wks ago' : `${days}d ago`}</Text>
-        <Text style={styles.xLabel}>today</Text>
-      </View>
+        <View style={styles.xaxis}>
+          {(days === 30 ? ['4 wks ago', '3 wks', '2 wks', '1 wk', 'today'] : [`${days}d ago`, 'today']).map((label) => (
+            <Text key={label} style={styles.xLabel}>
+              {label}
+            </Text>
+          ))}
+        </View>
 
-      <View style={styles.summary}>
-        <Stat label="This month" value={String(totals.total)} />
-        <Stat label="Correct" value={`${totals.pct}%`} tone={colors.green} />
-        <Stat label="Active days" value={`${totals.active}/${days}`} />
-      </View>
+        <View style={styles.summary}>
+          <Stat label="This month" value={String(totals.total)} />
+          <Stat label="Correct" value={`${totals.pct}%`} tone={colors.green} />
+          <Stat label="Active days" value={`${totals.active}/${days}`} />
+        </View>
+
+        {onPressDetail ? (
+          <View style={styles.detailFooter}>
+            <Text style={styles.detailFooterText}>View full activity ›</Text>
+          </View>
+        ) : null}
+      </Pressable>
     </View>
   );
 }
@@ -182,4 +205,7 @@ const styles = StyleSheet.create({
   summary: { flexDirection: 'row', gap: spacing.lg, marginTop: spacing.md, paddingTop: spacing.md, borderTopWidth: 1, borderTopColor: colors.lineSoft },
   statLabel: { ...type.caption, color: colors.muted },
   statValue: { ...type.heading, color: colors.ink, marginTop: 2 },
+  bodyPressed: { opacity: 0.6 },
+  detailFooter: { alignItems: 'center', marginTop: spacing.md, paddingTop: spacing.sm, borderTopWidth: 1, borderTopColor: colors.lineSoft },
+  detailFooterText: { ...type.label, color: colors.gold },
 });

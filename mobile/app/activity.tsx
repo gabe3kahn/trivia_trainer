@@ -138,7 +138,7 @@ export default function ActivityScreen() {
               <View style={styles.headRow}>
                 <Text style={[styles.hName]}>Category</Text>
                 <Text style={styles.hCol}>Qs</Text>
-                <Text style={styles.hCol}>Acc</Text>
+                <Text style={styles.hColAcc}>Acc</Text>
                 <Text style={styles.hColWide}>7d Δ</Text>
               </View>
               {rows.map((r, i) => (
@@ -148,7 +148,9 @@ export default function ActivityScreen() {
                     {r.name}
                   </Text>
                   <Text style={styles.cCol}>{r.reps}</Text>
-                  <Text style={[styles.cCol, styles.muted]}>{r.reps > 0 ? `${r.accuracy}%` : '—'}</Text>
+                  <Text style={[styles.cColAcc, styles.muted]} numberOfLines={1}>
+                    {r.reps > 0 ? `${r.accuracy}%` : '—'}
+                  </Text>
                   <Text style={[styles.cColWide, delta(r.delta)]}>
                     {r.delta > 0 ? `▲${r.delta}` : r.delta < 0 ? `▼${Math.abs(r.delta)}` : '—'}
                   </Text>
@@ -157,7 +159,6 @@ export default function ActivityScreen() {
             </>
           )}
         </View>
-        <Text style={styles.footnote}>Questions answered · accuracy · competency change over the last 7 days.</Text>
       </ScrollView>
     </SafeAreaView>
   );
@@ -185,15 +186,16 @@ const styles = StyleSheet.create({
 
   headRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingBottom: spacing.sm, borderBottomWidth: 1, borderBottomColor: colors.lineSoft },
   hName: { ...type.caption, color: colors.dim, flex: 1 },
-  hCol: { ...type.caption, color: colors.dim, width: 36, textAlign: 'right' },
+  hCol: { ...type.caption, color: colors.dim, width: 34, textAlign: 'right' },
+  hColAcc: { ...type.caption, color: colors.dim, width: 50, textAlign: 'right' },
   hColWide: { ...type.caption, color: colors.dim, width: 46, textAlign: 'right' },
   row: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 11, borderBottomWidth: 1, borderBottomColor: colors.lineSoft },
   rowLast: { borderBottomWidth: 0 },
   dot: { width: 10, height: 10, borderRadius: 3 },
   cName: { ...type.body, fontWeight: '600', color: colors.ink, flex: 1 },
-  cCol: { ...type.bodyStrong, color: colors.ink, width: 36, textAlign: 'right' },
+  cCol: { ...type.bodyStrong, color: colors.ink, width: 34, textAlign: 'right' },
+  cColAcc: { ...type.bodyStrong, color: colors.ink, width: 50, textAlign: 'right' },
   cColWide: { width: 46, textAlign: 'right', fontSize: 13 },
   muted: { color: colors.muted, fontWeight: '600' },
   empty: { ...type.body, color: colors.muted, textAlign: 'center', paddingVertical: spacing.lg },
-  footnote: { ...type.caption, color: colors.dim, marginTop: spacing.sm, paddingHorizontal: 4 },
 });
