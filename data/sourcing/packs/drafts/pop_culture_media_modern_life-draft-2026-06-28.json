@@ -33,37 +33,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:01.648Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Crew_cut",
-      "external_id": "pc-2026-06-28-002",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Fashion & Lifestyle",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Graduated in length from a short pompadour at the front hairline to nearly bare at the back of the crown, this men's style is one of the most popular military-inspired looks.",
-      "answer": "Crew cut",
-      "answer_type": "other",
-      "aliases": [],
-      "tags": [
-        "pc-draft",
-        "sourced",
-        "fashion-lifestyle"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Crew cut",
-          "url": "https://en.wikipedia.org/wiki/Crew_cut",
-          "snippet": "A crew cut is a type of haircut in which the upright hair on the top of the head is cut relatively short, graduated in length from the longest hair that forms a short pomp (pompadour) at the front hairline to the shortest at the back of the"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:02.020Z"
+      "verified_at": "2026-06-28T23:17:31.948Z"
     },
     {
       "source": "original_sourced",
@@ -75,7 +45,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In this 2004 romantic drama directed by Nick Cassavetes, an elderly man reads aloud a handwritten love story to a fellow nursing-home resident — a framing device whose emotional weight is fully revealed only in the film's final moments.",
+      "clue": "In this 2004 romantic drama directed by Nick Cassavetes, an elderly man reads aloud a handwritten love story to a fellow nursing-home resident.",
       "answer": "The Notebook",
       "answer_type": "other",
       "aliases": [],
@@ -93,7 +63,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:02.392Z"
+      "verified_at": "2026-06-28T23:17:32.380Z"
     },
     {
       "source": "original_sourced",
@@ -105,7 +75,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This ABC reality dating series, which premiered on September 28, 2023 as a spin-off featuring senior contestants rather than the usual twenty-somethings, returned for a second season in September 2025.",
+      "clue": "Premiering in 2023, this senior-citizen spin-off of a long-running ABC dating franchise put a retiree at the center of the rose ceremonies; it returned for a second season in 2025.",
       "answer": "The Golden Bachelor",
       "answer_type": "other",
       "aliases": [],
@@ -123,7 +93,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:02.764Z"
+      "verified_at": "2026-06-28T23:17:32.802Z"
     },
     {
       "source": "original_sourced",
@@ -153,7 +123,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:03.136Z"
+      "verified_at": "2026-06-28T23:17:33.218Z"
     },
     {
       "source": "original_sourced",
@@ -165,12 +135,11 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A short clip capturing a cast or crew member's on-set mistake, this term also covers on-air errors during live broadcasts — and has become the staple of viral compilation videos online.",
+      "clue": "A single outtake clip capturing a flubbed line or on-set mistake — the kind later strung together into the viral compilation videos that pad a film's end credits.",
       "answer": "Blooper",
       "answer_type": "other",
       "aliases": [
-        "Bloopers",
-        "Gag reel"
+        "Bloopers"
       ],
       "tags": [
         "pc-draft",
@@ -186,7 +155,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:03.507Z"
+      "verified_at": "2026-06-28T23:17:35.097Z"
     },
     {
       "source": "original_sourced",
@@ -194,8 +163,8 @@
       "external_id": "pc-2026-06-28-007",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Fashion & Lifestyle",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Scholars have linked the decisive feminization of this color to the 1959 debut of a specific toy doll — yet prior to the second half of the 20th century it frequently reflected masculinity.",
@@ -216,7 +185,8 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:03.878Z"
+      "verified_at": "2026-06-28T23:17:35.522Z",
+      "lock_value": true
     },
     {
       "source": "original_sourced",
@@ -224,8 +194,8 @@
       "external_id": "pc-2026-06-28-008",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Celebrities & Public Figures",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "After performing improv at the Upright Citizens Brigade Theatre and graduating from New York University's Tisch School of the Arts, this actress gained recognition for her deadpan portrayal of April Ludgate on Parks and Recreation.",
@@ -248,7 +218,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:04.249Z"
+      "verified_at": "2026-06-28T23:17:35.903Z"
     },
     {
       "source": "original_sourced",
@@ -280,7 +250,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:04.621Z"
+      "verified_at": "2026-06-28T23:17:36.334Z"
     },
     {
       "source": "original_sourced",
@@ -310,7 +280,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:04.992Z"
+      "verified_at": "2026-06-28T23:17:36.750Z"
     },
     {
       "source": "original_sourced",
@@ -322,7 +292,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Credited by its creator — Wieden+Kennedy founder Dan Wieden — to the final words of a convicted murderer on death row, this three-word Nike slogan was coined in 1988.",
+      "clue": "Credited by its creator — Wieden+Kennedy founder Dan Wieden — to the final words of a convicted murderer on death row, this three-word slogan was coined in 1988.",
       "answer": "Just Do It",
       "answer_type": "other",
       "aliases": [],
@@ -340,7 +310,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:05.364Z"
+      "verified_at": "2026-06-28T23:18:01.311Z"
     },
     {
       "source": "original_sourced",
@@ -370,7 +340,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:05.736Z"
+      "verified_at": "2026-06-28T23:18:01.691Z"
     },
     {
       "source": "original_sourced",
@@ -402,7 +372,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:06.108Z"
+      "verified_at": "2026-06-28T23:18:02.125Z"
     },
     {
       "source": "original_sourced",
@@ -434,7 +404,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:06.479Z"
+      "verified_at": "2026-06-28T23:18:02.561Z"
     },
     {
       "source": "original_sourced",
@@ -446,7 +416,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The 1937 Hungarian stage play Parfumerie by Miklós László reached the screen for the fourth time in this 1998 romantic comedy set in the early days of internet communication.",
+      "clue": "Set in the early days of email, this 1998 romantic comedy was the fourth screen adaptation of the 1937 Hungarian stage play Parfumerie by Miklós László.",
       "answer": "You've Got Mail",
       "answer_type": "other",
       "aliases": [],
@@ -464,7 +434,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:31:06.851Z"
+      "verified_at": "2026-06-28T23:18:02.996Z"
     }
   ]
 }

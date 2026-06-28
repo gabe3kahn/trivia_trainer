@@ -29,11 +29,12 @@
           "source": "wikipedia",
           "title": "Hors d'oeuvre",
           "url": "https://en.wikipedia.org/wiki/Hors_d'oeuvre",
-          "snippet": "An hors d'oeuvre ,entrée, appetiser, appetizer or starter is a small dish served before a meal in European cuisine. Some hors d'oeuvres are served cold, others hot. Hors d'oeuvres may be served at the dinner table as a part of the meal, or "
+          "snippet": "An hors d'oeuvre, entrée, appetiser, appetizer or starter is a small dish served before a meal in European cuisine. Some hors d'oeuvres are served cold, others hot. Hors d'oeuvres may be served at the dinner table as a part of the meal, or "
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:20.608Z"
+      "verified_at": "2026-06-28T23:18:27.309Z",
+      "lock_value": true
     },
     {
       "source": "original_sourced",
@@ -41,8 +42,8 @@
       "external_id": "wl-2026-06-28-002",
       "category_id": "words_language",
       "subcategory_name": "Definitions",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This idiom, drawn from an ancient Greek fable later misattributed to Aesop, describes someone who spitefully prevents others from using something they themselves have no use for.",
@@ -63,7 +64,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:20.988Z"
+      "verified_at": "2026-06-28T23:18:27.736Z"
     },
     {
       "source": "original_sourced",
@@ -93,7 +94,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:21.491Z"
+      "verified_at": "2026-06-28T23:18:28.423Z"
     },
     {
       "source": "original_sourced",
@@ -123,7 +124,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:21.870Z"
+      "verified_at": "2026-06-28T23:19:00.961Z"
     },
     {
       "source": "original_sourced",
@@ -155,7 +156,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:22.250Z"
+      "verified_at": "2026-06-28T23:19:01.877Z"
     },
     {
       "source": "original_sourced",
@@ -163,8 +164,8 @@
       "external_id": "wl-2026-06-28-006",
       "category_id": "words_language",
       "subcategory_name": "Definitions",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "A variety of zeugma in which a single verb is applied to two nouns in different senses — as in 'she lost her phone and her temper' — this rhetorical term names the device of yoking two objects under one word that fits each in a different way.",
@@ -185,7 +186,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:22.629Z"
+      "verified_at": "2026-06-28T23:19:02.901Z"
     },
     {
       "source": "original_sourced",
@@ -193,8 +194,8 @@
       "external_id": "wl-2026-06-28-007",
       "category_id": "words_language",
       "subcategory_name": "Etymology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Derived from the surname of the novelist behind A Christmas Carol and Oliver Twist, this adjective describes conditions of grinding poverty, social squalor, or grotesquely vivid characters reminiscent of his Victorian fiction.",
@@ -215,7 +216,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:23.009Z"
+      "verified_at": "2026-06-28T23:19:03.525Z"
     },
     {
       "source": "original_sourced",
@@ -247,7 +248,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:23.390Z"
+      "verified_at": "2026-06-28T23:19:03.946Z"
     },
     {
       "source": "original_sourced",
@@ -259,12 +260,11 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "From the Latin 'frater,' meaning 'brother,' this verb describes establishing relations that violate social, professional, or military norms — often used of soldiers who associate with those on the opposing side.",
+      "clue": "This verb describes forming relationships that breach social, professional, or military norms — most often used of soldiers who get friendly with those on the opposing side.",
       "answer": "Fraternize",
       "answer_type": "other",
       "aliases": [
-        "Fraternise",
-        "Fraternize with the enemy"
+        "Fraternise"
       ],
       "tags": [
         "wl-draft",
@@ -280,7 +280,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:23.777Z"
+      "verified_at": "2026-06-28T23:19:04.363Z"
     },
     {
       "source": "original_sourced",
@@ -297,7 +297,14 @@
       "answer_type": "other",
       "aliases": [
         "These go to eleven",
-        "Goes to eleven"
+        "Goes to eleven",
+        "Take it up to eleven",
+        "Turn it up to eleven",
+        "Up to 11",
+        "Take it up to 11",
+        "Turn it up to 11",
+        "These go to 11",
+        "Goes to 11"
       ],
       "tags": [
         "wl-draft",
@@ -313,7 +320,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:24.157Z"
+      "verified_at": "2026-06-28T23:19:04.780Z"
     },
     {
       "source": "original_sourced",
@@ -325,7 +332,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A German philosopher used this adjective — borrowed from an astronomer's surname — to describe his own proposed revolution in epistemology, arguing that objects of experience conform to the mind's forms rather than the other way around.",
+      "clue": "Immanuel Kant used this adjective — borrowed from an astronomer's surname — to describe his own proposed revolution in epistemology, arguing that objects of experience conform to the mind's forms rather than the other way around.",
       "answer": "Copernican",
       "answer_type": "other",
       "aliases": [],
@@ -343,7 +350,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:24.623Z"
+      "verified_at": "2026-06-28T23:19:05.502Z"
     },
     {
       "source": "original_sourced",
@@ -375,7 +382,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:25.002Z"
+      "verified_at": "2026-06-28T23:19:05.924Z"
     },
     {
       "source": "original_sourced",
@@ -383,8 +390,8 @@
       "external_id": "wl-2026-06-28-013",
       "category_id": "words_language",
       "subcategory_name": "Etymology",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Named from the Latin diminutive for 'key' — because it rotates along its axis when the arm is raised, much as a key turns in a lock — this word names the S-shaped bone connecting the breastbone to the shoulder.",
@@ -407,7 +414,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:25.383Z"
+      "verified_at": "2026-06-28T23:20:01.457Z"
     },
     {
       "source": "original_sourced",
@@ -437,7 +444,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:25.859Z"
+      "verified_at": "2026-06-28T23:20:02.091Z"
     },
     {
       "source": "original_sourced",
@@ -449,7 +456,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Born in British political vocabulary during the Second Boer War, this phrase names a parliamentary contest deliberately scheduled at a moment of wartime patriotic fervor — the term derives from the color of the British soldier's battlefield uniform.",
+      "clue": "Born in political vocabulary during the Second Boer War, this phrase, stemming from the color of British soldiers' battlefield uniforms, names a parliamentary contest deliberately scheduled at a moment of wartime patriotic fervor.",
       "answer": "Khaki election",
       "answer_type": "other",
       "aliases": [],
@@ -467,7 +474,37 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T15:34:26.325Z"
+      "verified_at": "2026-06-28T23:20:02.706Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Crew_cut",
+      "external_id": "wl-2026-06-28-016",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This close-cropped men's hairstyle takes its name from the oarsmen of Ivy League rowing teams, who favored the practical cut in the early 20th century.",
+      "answer": "Crew cut",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Crew cut",
+          "url": "https://en.wikipedia.org/wiki/Crew_cut",
+          "snippet": "A crew cut is a type of haircut in which the upright hair on the top of the head is cut relatively short, graduated in length from the longest hair that forms a short pomp (pompadour) at the front hairline to the shortest at the back of the"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:20:03.284Z"
     }
   ]
 }
