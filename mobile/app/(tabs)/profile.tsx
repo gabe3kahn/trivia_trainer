@@ -1,4 +1,4 @@
-import { useFocusEffect, useRouter } from 'expo-router';
+import { useFocusEffect } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 
@@ -17,7 +17,6 @@ type Category = Database['public']['Tables']['categories']['Row'];
 
 export default function ProfileScreen() {
   const { signOut, user } = useAuth();
-  const router = useRouter();
   const [profile, setProfile] = useState<Profile | null>(null);
   const [badges, setBadges] = useState<Badge[]>([]);
   const [earnedBadges, setEarnedBadges] = useState<EarnedBadge[]>([]);
@@ -89,7 +88,11 @@ export default function ProfileScreen() {
     const byKey = new Map(
       competencies.filter((item) => item.dimension_type === 'category').map((item) => [item.dimension_key, item]),
     );
-    return categories.map<CategoryScore>((category) => {
+    // words_language competency is merged into language_wordplay (migration 016),
+    // so it has no row of its own — hide it rather than show a misleading 0.
+    return categories
+      .filter((category) => category.id !== 'words_language')
+      .map<CategoryScore>((category) => {
       const score = byKey.get(category.id);
       return {
         id: category.id,
@@ -105,13 +108,6 @@ export default function ProfileScreen() {
       };
     });
   }, [categories, competencies]);
-
-  function trainCategory(category: CategoryScore) {
-    router.push({
-      pathname: '/train',
-      params: { start: 'selected', category: category.id, categoryName: category.name },
-    });
-  }
 
   return (
     <Screen>
@@ -147,7 +143,7 @@ export default function ProfileScreen() {
       <Section title="Categories">
         {loading && categoryRows.length === 0 ? <ActivityIndicator color={colors.gold} /> : null}
         {categoryRows.map((category) => (
-          <CategoryScoreRow key={category.id} category={category} onPress={() => trainCategory(category)} />
+          <CategoryScoreRow key={category.id} category={category} />
         ))}
       </Section>
 
@@ -163,7 +159,6 @@ export default function ProfileScreen() {
       <Section title="Account">
         <ManagementRow title="Email" detail={profile?.email ?? user?.email ?? 'Signed in'} action="Synced" />
         <ManagementRow title="Export data" detail="Attempts, scores, badges" action="Soon" />
-        <ManagementRow title="Friends" detail="Requests and invites" action="Soon" />
         <ManagementRow title="Sign out" detail="End this session" action="Sign out" destructive onPress={signOut} />
       </Section>
     </Screen>

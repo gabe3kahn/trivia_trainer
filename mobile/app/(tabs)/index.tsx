@@ -62,7 +62,10 @@ export default function HomeScreen() {
       competencies.filter((item) => item.dimension_type === 'category').map((item) => [item.dimension_key, item]),
     );
 
-    return categories.map<CategoryScore>((category) => {
+    // words_language competency merges into language_wordplay (migration 016) — hide the dup.
+    return categories
+      .filter((category) => category.id !== 'words_language')
+      .map<CategoryScore>((category) => {
       const score = byKey.get(category.id);
       return {
         id: category.id,

@@ -62,6 +62,8 @@ export function Screen({ children, contentStyle }: PropsWithChildren<{ contentSt
         keyboardDismissMode="interactive"
         keyboardShouldPersistTaps="handled"
         showsVerticalScrollIndicator={false}
+        alwaysBounceVertical={false}
+        overScrollMode="never"
       >
         {children}
       </ScrollView>
@@ -505,6 +507,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.background,
   },
   screen: {
+    flexGrow: 1,
     padding: spacing.md,
     paddingBottom: 120,
     gap: spacing.md,

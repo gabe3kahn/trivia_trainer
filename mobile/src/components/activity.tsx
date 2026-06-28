@@ -71,11 +71,14 @@ export function ActivityChart({
   const [mode, setMode] = useState<'competency' | 'cm'>('competency');
   const [width, setWidth] = useState(0);
 
-  // Competency line: plot from the first day with any attempts (a flat-zero lead-in is noise).
-  const series = useMemo(() => {
-    const firstActive = competency.findIndex((p) => p.attempts > 0);
-    return firstActive === -1 ? [] : competency.slice(firstActive);
-  }, [competency]);
+  // Competency line: the RPC returns one point per day across the full window. We draw
+  // the line only from the first day with attempts (no flat-zero lead-in) BUT position it
+  // on the real 30-day axis so it aligns with the date labels and the Correct·Missed bars.
+  const firstActive = useMemo(() => competency.findIndex((p) => p.attempts > 0), [competency]);
+  const series = useMemo(
+    () => (firstActive === -1 ? [] : competency.slice(firstActive)),
+    [competency, firstActive],
+  );
 
   const window = useMemo(() => buildWindow(daily, days), [daily, days]);
   const maxTotal = Math.max(1, ...window.map((d) => d.total));
@@ -138,7 +141,9 @@ export function ActivityChart({
           hasCompetency ? (
             <>
               <View style={styles.lineWrap} onLayout={(e: LayoutChangeEvent) => setWidth(e.nativeEvent.layout.width)}>
-                {width > 0 ? <CompetencyLine width={width} height={CHART_H} series={series} /> : null}
+                {width > 0 ? (
+                  <CompetencyLine width={width} height={CHART_H} points={competency} firstActive={firstActive} />
+                ) : null}
               </View>
               <View style={styles.xaxis}>
                 {xLabels.map((label) => (
@@ -221,14 +226,25 @@ export function ActivityChart({
   );
 }
 
-function CompetencyLine({ width, height, series }: { width: number; height: number; series: CompetencyPoint[] }) {
-  const n = series.length;
+function CompetencyLine({
+  width,
+  height,
+  points,
+  firstActive,
+}: {
+  width: number;
+  height: number;
+  points: CompetencyPoint[];
+  firstActive: number;
+}) {
+  const n = points.length; // full window (e.g. 30) — x maps to the real date axis
   const pad = 3;
   const x = (i: number) => (n <= 1 ? width / 2 : pad + (i / (n - 1)) * (width - pad * 2));
   const y = (v: number) => height - (v / 100) * height;
-  const stroke = scoreColor(series[n - 1].score);
-  const pts = series.map((p, i) => `${x(i).toFixed(1)},${y(p.score).toFixed(1)}`).join(' ');
-  const area = `${x(0).toFixed(1)},${height} ${pts} ${x(n - 1).toFixed(1)},${height}`;
+  const active = points.slice(firstActive);
+  const stroke = scoreColor(points[n - 1].score);
+  const pts = active.map((p, k) => `${x(firstActive + k).toFixed(1)},${y(p.score).toFixed(1)}`).join(' ');
+  const area = `${x(firstActive).toFixed(1)},${height} ${pts} ${x(n - 1).toFixed(1)},${height}`;
 
   return (
     <Svg width={width} height={height}>
@@ -245,7 +261,7 @@ function CompetencyLine({ width, height, series }: { width: number; height: numb
       </SvgText>
       <Polygon points={area} fill="url(#compFill)" />
       <Polyline points={pts} fill="none" stroke={stroke} strokeWidth={2.5} strokeLinejoin="round" strokeLinecap="round" />
-      <Circle cx={x(n - 1)} cy={y(series[n - 1].score)} r={4} fill={stroke} stroke={colors.background} strokeWidth={2} />
+      <Circle cx={x(n - 1)} cy={y(points[n - 1].score)} r={4} fill={stroke} stroke={colors.background} strokeWidth={2} />
     </Svg>
   );
 }
