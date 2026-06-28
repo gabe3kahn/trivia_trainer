@@ -39,6 +39,8 @@ function Touchable({
     <Pressable
       onPress={handlePress}
       disabled={disabled || !onPress}
+      // Delay activation so a scroll flick that starts on a card doesn't register as a tap.
+      unstable_pressDelay={130}
       style={({ pressed }) => [
         style as object,
         pressed && handlePress ? styles.pressed : null,
@@ -532,7 +534,9 @@ const styles = StyleSheet.create({
   screen: {
     flexGrow: 1,
     padding: spacing.md,
-    paddingBottom: 120,
+    // Just breathing room — the tab bar is already excluded from the scroll area, so a
+    // large pad here only created scrollable blank below content that otherwise fits.
+    paddingBottom: spacing.xl,
     gap: spacing.md,
   },
 

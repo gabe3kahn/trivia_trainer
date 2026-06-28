@@ -2,7 +2,7 @@ import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 
-import { Avatar, Card, CategoryScoreRow, Header, ManagementRow, MetricCard, Pill, ScoreRing, Screen, Section } from '@/src/components/ui';
+import { Avatar, Card, CategoryScoreRow, Header, ManagementRow, MetricCard, ScoreRing, Screen, Section } from '@/src/components/ui';
 import type { CategoryScore } from '@/src/data/mockData';
 import { useAuth } from '@/src/contexts/AuthContext';
 import { fetchCategories, fetchEarnedBadges, fetchHomeCompetencies, fetchProfile } from '@/src/services/triviaApi';
@@ -61,13 +61,6 @@ export default function ProfileScreen() {
 
   const displayName = profile?.display_name || user?.email?.split('@')[0] || 'Player';
 
-  const confidence =
-    attempts >= 50
-      ? { label: 'High confidence', tone: 'green' as const }
-      : attempts >= 15
-        ? { label: 'Building confidence', tone: 'gold' as const }
-        : { label: 'Low confidence', tone: 'default' as const };
-
   // Below the overall confidence threshold, show a "Getting started" placement instead
   // of a score that's mostly evidence-shrink (matches Home + migration 011's overall K).
   const OVERALL_MAPPED_AT = 15;
@@ -119,9 +112,6 @@ export default function ProfileScreen() {
                 ? 'Mapping your level…'
                 : `${repsToMap} more reps to find your level`}
           </Text>
-          <View style={styles.pillRow}>
-            <Pill tone={confidence.tone}>{confidence.label}</Pill>
-          </View>
         </View>
       </Card>
 
@@ -172,9 +162,5 @@ const styles = StyleSheet.create({
   identityDetail: {
     ...type.caption,
     color: colors.muted,
-  },
-  pillRow: {
-    flexDirection: 'row',
-    marginTop: 4,
   },
 });
