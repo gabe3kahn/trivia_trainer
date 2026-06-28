@@ -2,7 +2,7 @@
   "pack_id": "history-draft-2026-06-27",
   "category_id": "history",
   "created_at": "2026-06-27",
-  "notes": "Run 2026-06-27 (category 2 of 2). Reviewer-applied edits 2026-06-27: Washington 'Founding Father'->'General'; Ford reclued to Michigan-football angle ($600); Hawaii reclued onto its history (kingdom->overthrow->annexation->statehood); Waterloo names Napoleon directly; Cultural Revolution + Wake Island trailing facts trimmed; Yorktown reclued to losing general Charles Cornwallis ($600); Timbuktu (already active in geography) reclued to Mansa Musa ($800). Removed: Counter-Reformation (duplicates active 'Council of Trent') and Mayflower Compact (in-pack overlap with The Mayflower). Re-homed to pop culture: Charles Atlas. Dropped (answer already active in the bank): Hawaii (active in geography) and Louisiana (already active in geography — the requested move was unnecessary). Remaining sources: Washington, Ford, McKinley, Taft, Mayflower, Waterloo, Cultural Revolution, Cornwallis, Mansa Musa, Wake Island.",
+  "notes": "Run 2026-06-27 (category 2 of 2). Reviewer-applied edits 2026-06-27: Washington 'Founding Father'->'General'; Ford reclued to Michigan-football angle ($600); Hawaii reclued onto its history (kingdom->overthrow->annexation->statehood); Waterloo names Napoleon directly; Cultural Revolution + Wake Island trailing facts trimmed; Yorktown reclued to losing general Charles Cornwallis ($600); Timbuktu (already active in geography) reclued to Mansa Musa ($800). Removed: Counter-Reformation (duplicates active 'Council of Trent') and Mayflower Compact (in-pack overlap with The Mayflower). Re-homed to pop culture: Charles Atlas. Hawaii dropped (answer already active in geography); reclued the slot to Queen Liliuokalani (last Hawaiian monarch) instead. Louisiana dropped (already active in geography). Remaining sources: Washington, Ford, McKinley, Taft, Mayflower, Waterloo, Cultural Revolution, Cornwallis, Mansa Musa, Wake Island.",
   "questions": [
     {
       "source": "original_sourced",
@@ -34,7 +34,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:02.480Z"
+      "verified_at": "2026-06-28T04:32:30.267Z"
     },
     {
       "source": "original_sourced",
@@ -66,7 +66,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:02.910Z"
+      "verified_at": "2026-06-28T04:32:30.639Z"
     },
     {
       "source": "original_sourced",
@@ -98,7 +98,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:03.295Z"
+      "verified_at": "2026-06-28T04:32:31.022Z"
     },
     {
       "source": "original_sourced",
@@ -130,7 +130,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:03.676Z"
+      "verified_at": "2026-06-28T04:32:31.403Z"
     },
     {
       "source": "original_sourced",
@@ -162,7 +162,40 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:04.097Z"
+      "verified_at": "2026-06-28T04:32:31.782Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Liliuokalani",
+      "external_id": "hist-2026-06-27-007",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The last sovereign monarch of the Hawaiian Kingdom, this queen was deposed in an 1893 overthrow backed by American business interests; an accomplished musician, she composed the beloved farewell song 'Aloha ʻOe.'",
+      "answer": "Liliuokalani",
+      "answer_type": "other",
+      "aliases": [
+        "Queen Liliuokalani",
+        "Liliʻuokalani"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Liliʻuokalani",
+          "url": "https://en.wikipedia.org/wiki/Lili%CA%BBuokalani",
+          "snippet": "Liliʻuokalani was the only queen regnant and the last sovereign monarch of the Hawaiian Kingdom, ruling from January 29, 1891, until the overthrow of the Hawaiian Kingdom on January 17, 1893, in a coup that was led by the Committee of Safet"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:32:32.203Z"
     },
     {
       "source": "original_sourced",
@@ -194,7 +227,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:04.960Z"
+      "verified_at": "2026-06-28T04:32:32.584Z"
     },
     {
       "source": "original_sourced",
@@ -227,7 +260,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:05.441Z"
+      "verified_at": "2026-06-28T04:32:32.972Z"
     },
     {
       "source": "original_sourced",
@@ -260,7 +293,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:05.905Z"
+      "verified_at": "2026-06-28T04:32:33.352Z"
     },
     {
       "source": "original_sourced",
@@ -293,7 +326,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:06.339Z"
+      "verified_at": "2026-06-28T04:32:33.730Z"
     },
     {
       "source": "original_sourced",
@@ -325,7 +358,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:55:06.808Z"
+      "verified_at": "2026-06-28T04:32:34.098Z"
     }
   ]
 }
