@@ -2,7 +2,7 @@
   "pack_id": "literature_books-draft-2026-06-27",
   "category_id": "literature_books",
   "created_at": "2026-06-27",
-  "notes": "Run 2026-06-27 (category 1 of 2). Reviewer-applied edits 2026-06-27: Nancy Drew reworded for a clearer collective-pseudonym explanation; Aestheticism trailing slogan trimmed; Bridget Jones answer_type->name (no title alias, since \"Diary\" appears in the clue); Tinker Tailor alias \"Tinker, Tailor, Soldier, Spy\" added; Paul Revere's Ride reworded to remove the leaked word \"ride\"; Gore Vidal alias \"Eugene Luther Gore Vidal\" added; Removed: Pied Piper of Hamelin; Oxymoron (answer already active in words_language). Remaining sources: Nancy Drew, Hop on Pop, Aestheticism, Steinbeck, Bridget Jones, Bell Jar, Tinker Tailor Soldier Spy, Paul Revere's Ride, Thomas Paine, Tender Is the Night, Ken Kesey, Gore Vidal, Karen Blixen.",
+  "notes": "Run 2026-06-27 (category 1 of 2). Reviewer-applied edits 2026-06-27: Nancy Drew reworded for a clearer collective-pseudonym explanation; Aestheticism trailing slogan trimmed; Bridget Jones answer_type->name (no title alias, since \"Diary\" appears in the clue); Tinker Tailor alias \"Tinker, Tailor, Soldier, Spy\" added; Paul Revere's Ride reworded to remove the leaked word \"ride\"; Gore Vidal alias \"Eugene Luther Gore Vidal\" added; Removed: Oxymoron (answer already active in words_language). Pied Piper kept (only the stray em-dash was removed from its clue per review). Remaining sources: Nancy Drew, Hop on Pop, Aestheticism, Steinbeck, Bridget Jones, Bell Jar, Tinker Tailor Soldier Spy, Paul Revere's Ride, Thomas Paine, Tender Is the Night, Ken Kesey, Gore Vidal, Karen Blixen.",
   "questions": [
     {
       "source": "original_sourced",
@@ -32,7 +32,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:10.621Z"
+      "verified_at": "2026-06-28T04:45:02.887Z"
     },
     {
       "source": "original_sourced",
@@ -62,7 +62,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:11.003Z"
+      "verified_at": "2026-06-28T04:45:03.258Z"
     },
     {
       "source": "original_sourced",
@@ -94,7 +94,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:11.454Z"
+      "verified_at": "2026-06-28T04:45:03.626Z"
     },
     {
       "source": "original_sourced",
@@ -126,7 +126,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:12.216Z"
+      "verified_at": "2026-06-28T04:45:04.006Z"
     },
     {
       "source": "original_sourced",
@@ -156,7 +156,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:12.607Z"
+      "verified_at": "2026-06-28T04:45:04.388Z"
     },
     {
       "source": "original_sourced",
@@ -188,7 +188,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:12.988Z"
+      "verified_at": "2026-06-28T04:45:04.762Z"
     },
     {
       "source": "original_sourced",
@@ -220,7 +220,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:13.417Z"
+      "verified_at": "2026-06-28T04:45:05.130Z"
     },
     {
       "source": "original_sourced",
@@ -250,7 +250,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:13.808Z"
+      "verified_at": "2026-06-28T04:45:05.506Z"
     },
     {
       "source": "original_sourced",
@@ -282,7 +282,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:14.205Z"
+      "verified_at": "2026-06-28T04:45:05.874Z"
     },
     {
       "source": "original_sourced",
@@ -312,7 +312,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:14.590Z"
+      "verified_at": "2026-06-28T04:45:06.255Z"
     },
     {
       "source": "original_sourced",
@@ -344,7 +344,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:14.983Z"
+      "verified_at": "2026-06-28T04:45:06.625Z"
     },
     {
       "source": "original_sourced",
@@ -377,7 +377,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:15.376Z"
+      "verified_at": "2026-06-28T04:45:07.002Z"
     },
     {
       "source": "original_sourced",
@@ -411,7 +411,40 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-28T03:57:15.759Z"
+      "verified_at": "2026-06-28T04:45:07.374Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
+      "external_id": "lit-2026-06-27-015",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A medieval German legend tells of a curiously dressed rat catcher who lured a town's vermin away with his flute and then, when the town refused to pay him, led its children away by the same means.",
+      "answer": "The Pied Piper of Hamelin",
+      "answer_type": "other",
+      "aliases": [
+        "Pied Piper",
+        "The Pied Piper"
+      ],
+      "tags": [
+        "lit-draft",
+        "sourced",
+        "childrens-ya"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pied Piper of Hamelin",
+          "url": "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
+          "snippet": "The Pied Piper of Hamelin, also known as the Pan Piper or the Rat-Catcher of Hamelin, is the title character of a legend from the town of Hamelin (Hameln), Lower Saxony, Germany."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T04:45:07.755Z"
     }
   ]
 }
