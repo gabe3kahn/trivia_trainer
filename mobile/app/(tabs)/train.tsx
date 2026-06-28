@@ -6,6 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Card, ClueCard, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
 import { displayClue } from '@/src/clues/jeopardyStyle';
 import { tapLight, tapMedium, notifyError, notifySuccess, notifyWarning } from '@/src/lib/haptics';
+import { useBadgeCheck } from '@/src/contexts/BadgeUnlockContext';
 import { gradeResponse, type GradeResult } from '@/src/scoring/answerGrader';
 import { createPracticeSession, getRecommendedQuestions, submitPracticeAttempt } from '@/src/services/triviaApi';
 import { colors, radius, spacing, type } from '@/src/theme';
@@ -45,8 +46,15 @@ export default function TrainScreen() {
   const [saving, setSaving] = useState(false);
   const handledParamRef = useRef<string | null>(null);
 
+  const checkBadges = useBadgeCheck();
   const activeQuestion = questions[activeIndex] ?? null;
   const completed = questions.length > 0 && activeIndex >= questions.length;
+
+  // Practice runs inside this tab (no route change), so the global navigation-based
+  // badge check never fires — re-check when a session finishes.
+  useEffect(() => {
+    if (completed) void checkBadges();
+  }, [completed, checkBadges]);
   // The grade we'll actually record: the user's override if they tapped one,
   // otherwise the auto-grader's suggestion.
   const finalGrade: AttemptGrade = overrideGrade ?? gradeResult?.grade ?? 'unknown';

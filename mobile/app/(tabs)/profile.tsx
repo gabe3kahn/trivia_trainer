@@ -1,24 +1,23 @@
-import { useFocusEffect } from 'expo-router';
+import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 
-import { Avatar, BadgeCard, Card, CategoryScoreRow, Header, ManagementRow, MetricCard, Pill, ScoreRing, Screen, Section } from '@/src/components/ui';
+import { Avatar, Card, CategoryScoreRow, Header, ManagementRow, MetricCard, Pill, ScoreRing, Screen, Section } from '@/src/components/ui';
 import type { CategoryScore } from '@/src/data/mockData';
 import { useAuth } from '@/src/contexts/AuthContext';
-import { fetchBadges, fetchCategories, fetchEarnedBadges, fetchHomeCompetencies, fetchProfile } from '@/src/services/triviaApi';
+import { fetchCategories, fetchEarnedBadges, fetchHomeCompetencies, fetchProfile } from '@/src/services/triviaApi';
 import { colors, scoreColor, spacing, type } from '@/src/theme';
 import type { Database } from '@/src/types/supabase';
 
 type Profile = Database['public']['Tables']['profiles']['Row'];
-type Badge = Database['public']['Tables']['badges']['Row'];
 type EarnedBadge = Database['public']['Tables']['user_badges']['Row'];
 type Competency = Database['public']['Tables']['category_competencies']['Row'];
 type Category = Database['public']['Tables']['categories']['Row'];
 
 export default function ProfileScreen() {
   const { signOut, user } = useAuth();
+  const router = useRouter();
   const [profile, setProfile] = useState<Profile | null>(null);
-  const [badges, setBadges] = useState<Badge[]>([]);
   const [earnedBadges, setEarnedBadges] = useState<EarnedBadge[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
   const [competencies, setCompetencies] = useState<Competency[]>([]);
@@ -30,9 +29,8 @@ export default function ProfileScreen() {
 
   const loadProfile = useCallback(async () => {
     try {
-      const [profileRow, badgeRows, earnedRows, competencyData, categoryRows] = await Promise.all([
+      const [profileRow, earnedRows, competencyData, categoryRows] = await Promise.all([
         fetchProfile(),
-        fetchBadges(),
         fetchEarnedBadges(),
         fetchHomeCompetencies(),
         fetchCategories(),
@@ -43,7 +41,6 @@ export default function ProfileScreen() {
       const categoryComps = competencyRows.filter((item) => item.dimension_type === 'category');
 
       setProfile(profileRow);
-      setBadges(badgeRows ?? []);
       setEarnedBadges(earnedRows ?? []);
       setCategories(categoryRows ?? []);
       setCompetencies(competencyRows);
@@ -62,13 +59,7 @@ export default function ProfileScreen() {
     }, [loadProfile]),
   );
 
-  const earnedKeys = useMemo(() => new Set(earnedBadges.map((badge) => badge.badge_key)), [earnedBadges]);
   const displayName = profile?.display_name || user?.email?.split('@')[0] || 'Player';
-  const visibleBadges = badges.slice(0, 6).map((badge) => ({
-    name: badge.name,
-    description: badge.description,
-    earned: earnedKeys.has(badge.key),
-  }));
 
   const confidence =
     attempts >= 50
@@ -137,7 +128,7 @@ export default function ProfileScreen() {
       <View style={styles.metricRow}>
         <MetricCard label="Reps" value={String(attempts)} />
         <MetricCard label="Strong+" value={String(strongCount)} detail="categories" />
-        <MetricCard label="Badges" value={String(earnedBadges.length)} />
+        <MetricCard label="Badges" value={String(earnedBadges.length)} detail="tap to view" onPress={() => router.push('/badges' as never)} />
       </View>
 
       <Section title="Categories">
@@ -145,15 +136,6 @@ export default function ProfileScreen() {
         {categoryRows.map((category) => (
           <CategoryScoreRow key={category.id} category={category} />
         ))}
-      </Section>
-
-      <Section title="Badges" right={<Text style={styles.countText}>{earnedBadges.length} earned</Text>}>
-        {loading ? <ActivityIndicator color={colors.gold} /> : null}
-        <View style={styles.badgeGrid}>
-          {visibleBadges.map((badge) => (
-            <BadgeCard key={badge.name} {...badge} />
-          ))}
-        </View>
       </Section>
 
       <Section title="Account">
@@ -197,14 +179,5 @@ const styles = StyleSheet.create({
   metricRow: {
     flexDirection: 'row',
     gap: spacing.sm,
-  },
-  badgeGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: spacing.sm,
-  },
-  countText: {
-    ...type.caption,
-    color: colors.muted,
   },
 });

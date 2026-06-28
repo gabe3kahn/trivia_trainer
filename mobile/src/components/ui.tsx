@@ -241,14 +241,32 @@ export function ProgressBar({ value, color = colors.gold }: { value: number; col
 /* ------------------------------------------------------------------ *
  * MetricCard — used on Daily / Profile for glanceable numbers.
  * ------------------------------------------------------------------ */
-export function MetricCard({ label, value, detail }: { label: string; value: string; detail?: string }) {
-  return (
-    <Card style={styles.metricCard}>
+export function MetricCard({
+  label,
+  value,
+  detail,
+  onPress,
+}: {
+  label: string;
+  value: string;
+  detail?: string;
+  onPress?: () => void;
+}) {
+  const body = (
+    <>
       <Text style={styles.metricLabel}>{label}</Text>
       <Text style={styles.metricValue}>{value}</Text>
       {detail ? <Text style={styles.metricDetail}>{detail}</Text> : null}
-    </Card>
+    </>
   );
+  if (onPress) {
+    return (
+      <Touchable onPress={onPress} style={[styles.card, styles.metricCard]}>
+        {body}
+      </Touchable>
+    );
+  }
+  return <Card style={styles.metricCard}>{body}</Card>;
 }
 
 /* ------------------------------------------------------------------ *

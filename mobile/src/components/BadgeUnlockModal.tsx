@@ -1,39 +1,10 @@
 import { Modal, Pressable, StyleSheet, Text, View } from 'react-native';
 
+import { badgeIcon, tierColor as tierColorFor } from '@/src/constants/badges';
 import { colors, radius, spacing, type } from '@/src/theme';
 import type { Database } from '@/src/types/supabase';
 
 type Badge = Database['public']['Tables']['badges']['Row'];
-
-const TIER_COLOR: Record<string, string> = {
-  bronze: '#CD7F32',
-  silver: '#C0C0C0',
-  gold: colors.gold,
-};
-
-// A little personality per badge (falls back to a medal).
-const BADGE_ICON: Record<string, string> = {
-  cartographer: '🗺️',
-  archivist: '📜',
-  bookworm: '📚',
-  lab_coat: '🥼',
-  gallery_guide: '🖼️',
-  maestro: '🎼',
-  oracle: '🔮',
-  wordsmith: '✍️',
-  playmaker: '🤾',
-  zeitgeist: '📺',
-  deep_cut: '💿',
-  tournament_ready: '🏆',
-  clutch: '🎯',
-  renaissance: '🌟',
-  board_runner: '🏁',
-  comeback: '🔄',
-  mechanic: '🔧',
-  generalist: '🧠',
-  specialist: '🎓',
-  regular: '🔥',
-};
 
 /**
  * Celebratory modal shown when the player earns a new badge. Driven by a queue
@@ -41,7 +12,7 @@ const BADGE_ICON: Record<string, string> = {
  */
 export function BadgeUnlockModal({ badge, onDismiss }: { badge: Badge | null; onDismiss: () => void }) {
   const tier = badge?.tier ?? 'bronze';
-  const tierColor = TIER_COLOR[tier] ?? colors.gold;
+  const tierColor = tierColorFor(tier);
 
   return (
     <Modal visible={!!badge} transparent animationType="fade" onRequestClose={onDismiss}>
@@ -53,7 +24,7 @@ export function BadgeUnlockModal({ badge, onDismiss }: { badge: Badge | null; on
             <Text style={[styles.kicker, { color: tierColor }]}>★ Badge unlocked</Text>
 
             <View style={[styles.iconWrap, { borderColor: tierColor, backgroundColor: tierColor + '22' }]}>
-              <Text style={styles.icon}>{BADGE_ICON[badge.key] ?? '🏅'}</Text>
+              <Text style={styles.icon}>{badgeIcon(badge.key)}</Text>
             </View>
 
             <Text style={styles.name}>{badge.name}</Text>
