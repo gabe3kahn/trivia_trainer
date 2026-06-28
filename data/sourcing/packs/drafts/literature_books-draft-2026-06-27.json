@@ -2,7 +2,7 @@
   "pack_id": "literature_books-draft-2026-06-27",
   "category_id": "literature_books",
   "created_at": "2026-06-27",
-  "notes": "Run 2026-06-27 (category 1 of 2). Active count was 45 — thinnest eligible category. Under-weight at $1000 (only 4 active). Targets thin subcategories: Literary Characters (2 active), Children's & YA (2 active), Awards/Movements/Terms (1 active), Poetry (3 active, all low-value). Hard tail: Tender Is the Night, Ken Kesey, Gore Vidal ($800); Karen Blixen ($1000). Sources: Nancy Drew, Hop on Pop, Aestheticism, Oxymoron, Steinbeck, Bridget Jones, Bell Jar, Tinker Tailor Soldier Spy, Paul Revere's Ride, Thomas Paine, Tender Is the Night, Ken Kesey, Gore Vidal, Karen Blixen, Pied Piper of Hamelin.",
+  "notes": "Run 2026-06-27 (category 1 of 2). Reviewer-applied edits 2026-06-27: Nancy Drew reworded for a clearer collective-pseudonym explanation; Aestheticism trailing slogan trimmed; Bridget Jones answer_type->name (no title alias, since \"Diary\" appears in the clue); Tinker Tailor alias \"Tinker, Tailor, Soldier, Spy\" added; Paul Revere's Ride reworded to remove the leaked word \"ride\"; Gore Vidal alias \"Eugene Luther Gore Vidal\" added; Removed: Pied Piper of Hamelin; Oxymoron (answer already active in words_language). Remaining sources: Nancy Drew, Hop on Pop, Aestheticism, Steinbeck, Bridget Jones, Bell Jar, Tinker Tailor Soldier Spy, Paul Revere's Ride, Thomas Paine, Tender Is the Night, Ken Kesey, Gore Vidal, Karen Blixen.",
   "questions": [
     {
       "source": "original_sourced",
@@ -14,7 +14,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Created by Edward Stratemeyer and ghostwritten under the collective pseudonym Carolyn Keene, this fictional teenage amateur sleuth has appeared in mystery book series, movies, and TV shows since 1930.",
+      "clue": "Conceived by book packager Edward Stratemeyer and written by a rotating team of ghostwriters all credited to the invented author 'Carolyn Keene,' this teenage amateur sleuth has starred in mystery books, films, and TV since 1930.",
       "answer": "Nancy Drew",
       "answer_type": "other",
       "aliases": [],
@@ -32,7 +32,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:18.551Z"
+      "verified_at": "2026-06-28T03:57:10.621Z"
     },
     {
       "source": "original_sourced",
@@ -62,7 +62,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:18.930Z"
+      "verified_at": "2026-06-28T03:57:11.003Z"
     },
     {
       "source": "original_sourced",
@@ -74,7 +74,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Oscar Wilde and Walter Pater were leading figures of this late 19th-century art movement, which held that literature and the arts should be judged by their beauty alone — not by moral or didactic purpose — a stance captured in the slogan 'art for art's sake.'",
+      "clue": "Oscar Wilde and Walter Pater were leading figures of this late 19th-century art movement, which held that literature and the arts should be judged by their beauty alone, not by any moral or didactic purpose.",
       "answer": "Aestheticism",
       "answer_type": "other",
       "aliases": [
@@ -94,37 +94,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:19.309Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Oxymoron",
-      "external_id": "lit-2026-06-27-004",
-      "category_id": "literature_books",
-      "subcategory_name": "Awards, Movements & Terms",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This figure of speech juxtaposes concepts with opposite meanings within a word or phrase, creating a self-contradiction — as in 'deafening silence' or 'bittersweet.'",
-      "answer": "Oxymoron",
-      "answer_type": "other",
-      "aliases": [],
-      "tags": [
-        "lit-draft",
-        "sourced",
-        "awards-movements-terms"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Oxymoron",
-          "url": "https://en.wikipedia.org/wiki/Oxymoron",
-          "snippet": "An oxymoron is a figure of speech that juxtaposes concepts with opposite meanings within a word or in a phrase that is a self-contradiction. Examples would be \"bittersweet\" or \"cruel kindness\". As a rhetorical device, an oxymoron illustrate"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:19.734Z"
+      "verified_at": "2026-06-28T03:57:11.454Z"
     },
     {
       "source": "original_sourced",
@@ -156,7 +126,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:20.113Z"
+      "verified_at": "2026-06-28T03:57:12.216Z"
     },
     {
       "source": "original_sourced",
@@ -170,7 +140,7 @@
       "constraint_text": null,
       "clue": "First appearing in a 1995 newspaper column in The Independent — without a byline, so readers initially believed it to be a real personal diary — this Helen Fielding creation chronicles a thirtysomething single woman's romantic life in London.",
       "answer": "Bridget Jones",
-      "answer_type": "other",
+      "answer_type": "name",
       "aliases": [],
       "tags": [
         "lit-draft",
@@ -186,7 +156,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:20.491Z"
+      "verified_at": "2026-06-28T03:57:12.607Z"
     },
     {
       "source": "original_sourced",
@@ -218,7 +188,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:20.871Z"
+      "verified_at": "2026-06-28T03:57:12.988Z"
     },
     {
       "source": "original_sourced",
@@ -233,7 +203,9 @@
       "clue": "Written by a former British intelligence officer and published in 1974, this critically acclaimed spy novel follows the aging, taciturn spymaster George Smiley as he hunts a Soviet mole embedded deep within the British Secret Intelligence Service.",
       "answer": "Tinker Tailor Soldier Spy",
       "answer_type": "other",
-      "aliases": [],
+      "aliases": [
+        "Tinker, Tailor, Soldier, Spy"
+      ],
       "tags": [
         "lit-draft",
         "sourced",
@@ -248,7 +220,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:21.252Z"
+      "verified_at": "2026-06-28T03:57:13.417Z"
     },
     {
       "source": "original_sourced",
@@ -260,12 +232,10 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "First published in the January 1861 issue of The Atlantic Monthly and later retitled 'The Landlord's Tale' in an 1863 collection, this Henry Wadsworth Longfellow narrative poem commemorates — with significant historical inaccuracies — a patriot's midnight warning ride of April 1775.",
+      "clue": "First published in the January 1861 issue of The Atlantic Monthly and later retitled 'The Landlord's Tale' in an 1863 collection, this Henry Wadsworth Longfellow narrative poem commemorates — with significant historical inaccuracies — a patriot's midnight gallop of April 1775 to rouse the colonial militia.",
       "answer": "Paul Revere's Ride",
       "answer_type": "other",
-      "aliases": [
-        "The Landlord's Tale"
-      ],
+      "aliases": [],
       "tags": [
         "lit-draft",
         "sourced",
@@ -280,7 +250,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:21.631Z"
+      "verified_at": "2026-06-28T03:57:13.808Z"
     },
     {
       "source": "original_sourced",
@@ -312,7 +282,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:22.015Z"
+      "verified_at": "2026-06-28T03:57:14.205Z"
     },
     {
       "source": "original_sourced",
@@ -342,7 +312,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:22.393Z"
+      "verified_at": "2026-06-28T03:57:14.590Z"
     },
     {
       "source": "original_sourced",
@@ -374,7 +344,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:22.818Z"
+      "verified_at": "2026-06-28T03:57:14.983Z"
     },
     {
       "source": "original_sourced",
@@ -390,7 +360,8 @@
       "answer": "Gore Vidal",
       "answer_type": "name",
       "aliases": [
-        "Vidal"
+        "Vidal",
+        "Eugene Luther Gore Vidal"
       ],
       "tags": [
         "lit-draft",
@@ -406,7 +377,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:23.197Z"
+      "verified_at": "2026-06-28T03:57:15.376Z"
     },
     {
       "source": "original_sourced",
@@ -440,40 +411,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:23.575Z"
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
-      "external_id": "lit-2026-06-27-015",
-      "category_id": "literature_books",
-      "subcategory_name": "Children's & Young Adult Literature",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "A medieval German legend tells of a curiously dressed rat catcher who lured a town's vermin away with his flute — and, when the town refused to pay him, led its children away by the same means.",
-      "answer": "The Pied Piper of Hamelin",
-      "answer_type": "other",
-      "aliases": [
-        "Pied Piper",
-        "The Pied Piper"
-      ],
-      "tags": [
-        "lit-draft",
-        "sourced",
-        "childrens-ya"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Pied Piper of Hamelin",
-          "url": "https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin",
-          "snippet": "The Pied Piper of Hamelin, also known as the Pan Piper or the Rat-Catcher of Hamelin, is the title character of a legend from the town of Hamelin (Hameln), Lower Saxony, Germany."
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-27T14:20:23.954Z"
+      "verified_at": "2026-06-28T03:57:15.759Z"
     }
   ]
 }
