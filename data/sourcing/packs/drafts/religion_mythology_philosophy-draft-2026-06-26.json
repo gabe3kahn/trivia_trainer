@@ -1,0 +1,493 @@
+{
+  "pack_id": "religion_mythology_philosophy-draft-2026-06-26",
+  "category_id": "religion_mythology_philosophy",
+  "created_at": "2026-06-26",
+  "notes": "Run 2026-06-26 (category 1 of 2). Active count was 44 — thinnest non-geography eligible category (arts/science/music/words_language all had open PRs). Under-weight tiers: $200 (3 active) and $1000 (5 active). Pack weighted accordingly: 3x $200, 3x $400, 6x $600, 1x $800, 2x $1000. Gaps filled: Greek Mythology (Heracles, Zeus, Perseus, Bellerophon), Bible (John the Baptist, Sermon on the Mount, Melchizedek), Philosophers (Descartes, Plato, Aquinas), Philosophical Schools (Existentialism), Religious Texts & Terms (Book of Mormon), Symbols/Rituals (Tree of Life), World Religions (Islam, Saint Christopher). Hard tail: Melchizedek ($1000, priest-king of Salem / Hebrews priesthood archetype) + Bellerophon ($1000, Chimera-slayer who fell from his winged mount reaching for Olympus). Reviewer-applied edits 2026-06-27: reclued Book of Mormon harder; replaced Nimrod (duplicate) with Melchizedek; replaced Pegasus with Bellerophon; mononym answer_types set to 'other' (Heracles, Saint Christopher, Perseus); Descartes dropped to $200 with cogito + 'bears his name' tell cut.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Heracles",
+      "external_id": "rmp-2026-06-26-001",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The greatest hero of ancient Greece, this son of Zeus and the mortal Alcmene was renowned for extraordinary strength and performed twelve legendary labors imposed as penance for a fit of madness sent upon him by Hera.",
+      "answer": "Heracles",
+      "answer_type": "other",
+      "aliases": [
+        "Hercules"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Heracles",
+          "url": "https://en.wikipedia.org/wiki/Heracles",
+          "snippet": "Heracles, born Alcaeus or Alcides, was a divine hero in Greek mythology, the son of Zeus and Alcmene, and the foster son of Amphitryon. He was a descendant of Perseus, another son of Zeus."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:48.786Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Zeus",
+      "external_id": "rmp-2026-06-26-002",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Supreme king of the Greek gods, this deity ruled from Mount Olympus with the thunderbolt and eagle as his symbols and was later identified by the Romans with their chief god Jupiter.",
+      "answer": "Zeus",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Zeus",
+          "url": "https://en.wikipedia.org/wiki/Zeus",
+          "snippet": "Zeus is the supreme deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:49.167Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Islam",
+      "external_id": "rmp-2026-06-26-003",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The world's second-largest religious population after Christianity, this Abrahamic faith's followers observe Five Pillars including the hajj pilgrimage to Mecca and the five daily prayers directed toward the holy city.",
+      "answer": "Islam",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Islam",
+          "url": "https://en.wikipedia.org/wiki/Islam",
+          "snippet": "Islam is an Abrahamic religion based on the Quran and the teachings of Muhammad. The monotheistic religion has an estimated 2 billion worldwide adherents, called Muslims. Islam is the world's second-largest religious population after Christ"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:49.540Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/John_the_Baptist",
+      "external_id": "rmp-2026-06-26-004",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This first-century preacher at the Jordan River foretold a messiah greater than himself before being beheaded by Herod Antipas for condemning the ruler's unlawful remarriage.",
+      "answer": "John the Baptist",
+      "answer_type": "name",
+      "aliases": [
+        "John the Baptizer",
+        "John the Forerunner"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "John the Baptist",
+          "url": "https://en.wikipedia.org/wiki/John_the_Baptist",
+          "snippet": "John the Baptist was a Jewish preacher active in the area of the Jordan River in the early first century AD. He is also known as Saint John the Forerunner in Eastern Orthodoxy, Eastern Catholicism, and Oriental Orthodoxy, Saint John the Imm"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:49.917Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sermon_on_the_Mount",
+      "external_id": "rmp-2026-06-26-005",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The first of five major discourse sections in the Gospel of Matthew, this celebrated collection of Jesus's moral teachings spans chapters 5 through 7 and has been one of the most widely quoted passages in all the Gospels.",
+      "answer": "Sermon on the Mount",
+      "answer_type": "other",
+      "aliases": [
+        "The Sermon on the Mount"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sermon on the Mount",
+          "url": "https://en.wikipedia.org/wiki/Sermon_on_the_Mount",
+          "snippet": "The Sermon on the Mount is a collection of sayings spoken by Jesus of Nazareth found in chapters 5, 6, and 7 of the Gospel of Matthew that summarizes his moral teachings. It is the first of five discourses in the Gospel and has been one of "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:50.302Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+      "external_id": "rmp-2026-06-26-006",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often called the father of modern philosophy, this 17th-century French thinker fused algebra with geometry to pioneer the field of analytic geometry.",
+      "answer": "René Descartes",
+      "answer_type": "name",
+      "aliases": [
+        "Descartes"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "René Descartes",
+          "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+          "snippet": "René Descartes was a French philosopher, scientist, logician, and mathematician, widely considered a seminal figure in the emergence of modern philosophy and science during the Renaissance era. Mathematics was paramount to his method of inq"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:50.681Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Plato",
+      "external_id": "rmp-2026-06-26-007",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Alfred North Whitehead characterized the entire European philosophical tradition as 'a series of footnotes' to this Athenian's work.",
+      "answer": "Plato",
+      "answer_type": "name",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Plato",
+          "url": "https://en.wikipedia.org/wiki/Plato",
+          "snippet": "Plato was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An innovator of the literary dialogue and dialectic forms, Plato influenced all the "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:51.052Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
+      "external_id": "rmp-2026-06-26-008",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 13th-century Italian Dominican priest synthesized Aristotle's philosophy with Catholic doctrine in his vast unfinished Summa Theologiae and earned the church honorifics 'Doctor Angelicus' and 'Doctor Communis.'",
+      "answer": "Thomas Aquinas",
+      "answer_type": "name",
+      "aliases": [
+        "Aquinas",
+        "Saint Thomas Aquinas",
+        "St. Thomas Aquinas"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Thomas Aquinas",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
+          "snippet": "Thomas Aquinas was an Italian Dominican friar and priest, theologian, and philosopher. He is considered one of the most influential thinkers in the history of Catholic theology and Western philosophy."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:51.434Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Book_of_Mormon",
+      "external_id": "rmp-2026-06-26-009",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Said to be translated from golden plates delivered by the angel Moroni and inscribed in a script its prophets called 'reformed Egyptian,' this 1830 scripture chronicles the ancient American peoples known as the Nephites and Lamanites.",
+      "answer": "Book of Mormon",
+      "answer_type": "other",
+      "aliases": [
+        "The Book of Mormon"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "religious-texts"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Book of Mormon",
+          "url": "https://en.wikipedia.org/wiki/Book_of_Mormon",
+          "snippet": "The Book of Mormon is a religious text of the Latter Day Saint movement, first published in 1830 by Joseph Smith as The Book of Mormon: An Account Written by the Hand of Mormon upon Plates Taken from the Plates of Nephi."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:51.974Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Existentialism",
+      "external_id": "rmp-2026-06-26-010",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Associated with 20th-century thinkers including Sartre, Heidegger, de Beauvoir, and Camus, this philosophical movement holds that personal freedom and authentic choice are essential to creating meaning amid the apparent absurdity of the human condition.",
+      "answer": "Existentialism",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophical-schools"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Existentialism",
+          "url": "https://en.wikipedia.org/wiki/Existentialism",
+          "snippet": "Existentialism is a family of philosophical views and inquiry that explore the human individual's struggle to lead an authentic life despite the apparent absurdity or incomprehensibility of existence. In examining meaning, purpose, and valu"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:52.349Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Saint_Christopher",
+      "external_id": "rmp-2026-06-26-011",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Eastern Byzantine iconography, this legendary martyr was depicted with a dog's head; Western hagiography reimagines him as a giant who ferried travelers across a river and found one small passenger growing unbearably heavy — a child who then revealed his divine identity on the far bank.",
+      "answer": "Saint Christopher",
+      "answer_type": "other",
+      "aliases": [
+        "Christopher"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Saint Christopher",
+          "url": "https://en.wikipedia.org/wiki/Saint_Christopher",
+          "snippet": "Saint Christopher (Greek: Ἅγιος Χριστόφορος, romanized: Hágios Christóphoros, lit. 'Christ-bearer'; Latin: Sanctus Christophorus), also called Christopher of Lycia (Lycea), is a legendary figure venerated by several Christian denominations "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:52.728Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tree_of_life",
+      "external_id": "rmp-2026-06-26-012",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "From the Norse Yggdrasil to the garden at the center of Eden, this universal cosmic archetype links the underworld, the earth, and the heavens as the axis of all creation.",
+      "answer": "Tree of Life",
+      "answer_type": "other",
+      "aliases": [
+        "The Tree of Life",
+        "World Tree"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "symbols-rituals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tree of life",
+          "url": "https://en.wikipedia.org/wiki/Tree_of_life",
+          "snippet": "The tree of life is a fundamental archetype in many of the world's mythological, religious, and philosophical traditions. It is closely related to the concept of the sacred tree. The tree of the knowledge of good and evil and the tree of li"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:53.098Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Perseus",
+      "external_id": "rmp-2026-06-26-013",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The son of Zeus and the mortal Danaë, this demigod was the greatest monster-slayer of the generation before Heracles; he rescued the princess Andromeda after vanquishing the sea monster Cetus, which had been sent to devour her coastal city.",
+      "answer": "Perseus",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Perseus",
+          "url": "https://en.wikipedia.org/wiki/Perseus",
+          "snippet": "In Greek mythology, Perseus is the legendary founder of the Perseid dynasty. He was, alongside Cadmus and Bellerophon, the greatest Greek hero and slayer of monsters before the days of Heracles. He beheaded the Gorgon Medusa for Polydectes "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:53.468Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Melchizedek",
+      "external_id": "rmp-2026-06-26-014",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This priest-king of Salem brought out bread and wine to bless Abram in Genesis and received a tithe from him; appearing with no recorded lineage or death, he is later invoked in the Letter to the Hebrews as the eternal pattern for the priesthood of Christ.",
+      "answer": "Melchizedek",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Melchizedek",
+          "url": "https://en.wikipedia.org/wiki/Melchizedek",
+          "snippet": "In the Hebrew Bible, Melchizedek was the king of Salem and priest of El Elyon. He is mentioned in Genesis 14:18–20, where he brings out bread and wine and blesses Abram (Abraham), following the Battle of the Vale of Siddim and Abram's subse"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:53.851Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bellerophon",
+      "external_id": "rmp-2026-06-26-015",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Astride a winged horse and armed with a lead-tipped spear, this Corinthian hero slew the fire-breathing Chimera; emboldened, he tried to ride up to the home of the gods, but a gadfly sent to sting his mount pitched him back to earth.",
+      "answer": "Bellerophon",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bellerophon",
+          "url": "https://en.wikipedia.org/wiki/Bellerophon",
+          "snippet": "Bellerophon or Bellerophontes or Hipponous, was a divine Corinthian hero of Greek mythology, the son of Poseidon and Eurynome, and the foster son of Glaukos. He was \"the greatest hero and slayer of monsters, alongside Cadmus and Perseus, be"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:54.225Z"
+    }
+  ]
+}
