@@ -13,12 +13,11 @@
       "difficulty_rank": 4,
       "mechanic": "initials",
       "constraint_text": "These are a person's initials — who do they belong to?",
-      "clue": "Given only these initials, name the Russian chemist whose 1869 table of the elements left deliberate gaps for substances not yet discovered — gaps he later filled with strikingly accurate predictions.",
+      "clue": "This Russian chemist's 1869 table of the elements left deliberate gaps for substances not yet discovered; gaps he later filled with strikingly accurate predictions.",
       "answer": "Dmitri Mendeleev",
       "lock_value": true,
       "aliases": [
-        "Dmitry Mendeleev",
-        "Mendeleev"
+        "Dmitry Mendeleev"
       ],
       "wp": {
         "initials": "D.M."
