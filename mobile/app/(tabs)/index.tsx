@@ -3,7 +3,9 @@ import { useCallback, useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { ActivityChart, StreakStrip } from '@/src/components/activity';
+import { BadgeUnlockModal } from '@/src/components/BadgeUnlockModal';
 import { Avatar, Card, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
+import { useBadgeUnlock } from '@/src/hooks/useBadgeUnlock';
 import type { CategoryScore } from '@/src/data/mockData';
 import {
   fetchCategories,
@@ -28,6 +30,7 @@ export default function HomeScreen() {
   const [competencySeries, setCompetencySeries] = useState<CompetencyPoint[]>([]);
   const [streak, setStreak] = useState(0);
   const [error, setError] = useState<string | null>(null);
+  const badgeUnlock = useBadgeUnlock();
 
   const loadHome = useCallback(async () => {
     try {
@@ -52,7 +55,8 @@ export default function HomeScreen() {
   useFocusEffect(
     useCallback(() => {
       void loadHome();
-    }, [loadHome]),
+      void badgeUnlock.check();
+    }, [loadHome, badgeUnlock]),
   );
 
   const overallRow = competencies.find((item) => item.dimension_type === 'overall');
@@ -197,6 +201,8 @@ export default function HomeScreen() {
           </View>
         </Section>
       ) : null}
+
+      <BadgeUnlockModal badge={badgeUnlock.current} onDismiss={badgeUnlock.dismiss} />
     </Screen>
   );
 }
