@@ -158,9 +158,9 @@ export default function HomeScreen() {
       <ActivityChart daily={activityDaily} onPressDetail={() => router.push('/activity' as never)} />
 
       <PrimaryAction
-        title="Train your weak spots"
-        subtitle={weakestNames || 'Build a difficulty-weighted set'}
-        onPress={startWeakness}
+        title={attempts === 0 ? 'Answer your first questions' : 'Train your weak spots'}
+        subtitle={attempts === 0 ? 'Pick any category to begin' : weakestNames || 'Build a difficulty-weighted set'}
+        onPress={attempts === 0 ? () => router.push({ pathname: '/train' }) : startWeakness}
       />
 
       {hasMovement ? (

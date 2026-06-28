@@ -31,7 +31,7 @@ export function StreakStrip({ daily, streak }: { daily: ActivityDay[]; streak: n
   return (
     <View style={styles.streakCard}>
       <View style={styles.streakLeft}>
-        <Text style={styles.flame}>🔥 {streak}-day streak</Text>
+        <Text style={styles.flame}>{streak > 0 ? `🔥 ${streak}-day streak` : '🔥 Start your streak'}</Text>
         <Text style={styles.goal}>
           1 session a day{playedToday ? " · you're in today ✓" : ' · play to keep it alive'}
         </Text>
@@ -76,19 +76,32 @@ export function ActivityChart({
     return { total, correct, active, pct: total ? Math.round((correct / total) * 100) : 0 };
   }, [window]);
 
+  const isEmpty = totals.total === 0;
+
   return (
     <View style={styles.card}>
       <View style={styles.chartHead}>
         <Text style={styles.overline}>Last {days} days</Text>
-        <View style={styles.toggle}>
-          {(['cm', 'cat'] as const).map((m) => (
-            <Pressable key={m} onPress={() => setMode(m)} style={[styles.tBtn, mode === m && styles.tBtnOn]}>
-              <Text style={[styles.tText, mode === m && styles.tTextOn]}>{m === 'cm' ? 'Correct · Missed' : 'By category'}</Text>
-            </Pressable>
-          ))}
-        </View>
+        {isEmpty ? null : (
+          <View style={styles.toggle}>
+            {(['cm', 'cat'] as const).map((m) => (
+              <Pressable key={m} onPress={() => setMode(m)} style={[styles.tBtn, mode === m && styles.tBtnOn]}>
+                <Text style={[styles.tText, mode === m && styles.tTextOn]}>{m === 'cm' ? 'Correct · Missed' : 'By category'}</Text>
+              </Pressable>
+            ))}
+          </View>
+        )}
       </View>
 
+      {isEmpty ? (
+        <View style={styles.emptyState}>
+          <Text style={styles.emptyIcon}>📊</Text>
+          <Text style={styles.emptyTitle}>No activity yet</Text>
+          <Text style={styles.emptyBody}>
+            Your {days}-day chart fills in as you answer — correct vs. missed, color-coded by category.
+          </Text>
+        </View>
+      ) : (
       <Pressable
         onPress={onPressDetail}
         disabled={!onPressDetail}
@@ -137,6 +150,7 @@ export function ActivityChart({
           </View>
         ) : null}
       </Pressable>
+      )}
     </View>
   );
 }
@@ -208,4 +222,8 @@ const styles = StyleSheet.create({
   bodyPressed: { opacity: 0.6 },
   detailFooter: { alignItems: 'center', marginTop: spacing.md, paddingTop: spacing.sm, borderTopWidth: 1, borderTopColor: colors.lineSoft },
   detailFooterText: { ...type.label, color: colors.gold },
+  emptyState: { alignItems: 'center', justifyContent: 'center', paddingVertical: spacing.xl, gap: 7 },
+  emptyIcon: { fontSize: 26, opacity: 0.85 },
+  emptyTitle: { ...type.bodyStrong, color: colors.ink },
+  emptyBody: { ...type.caption, color: colors.muted, textAlign: 'center', lineHeight: 17, paddingHorizontal: spacing.md },
 });
