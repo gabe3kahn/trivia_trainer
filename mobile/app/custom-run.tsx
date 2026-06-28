@@ -114,7 +114,13 @@ export default function CustomRunScreen() {
         <Text style={styles.title}>Custom run</Text>
       </View>
 
-      <ScrollView contentContainerStyle={styles.body} showsVerticalScrollIndicator={false}>
+      <ScrollView
+        contentContainerStyle={styles.body}
+        showsVerticalScrollIndicator={false}
+        bounces={false}
+        alwaysBounceVertical={false}
+        overScrollMode="never"
+      >
         <View style={styles.sectionRow}>
           <Text style={styles.overline}>Categories</Text>
           <Pressable onPress={toggleAll} hitSlop={8}>

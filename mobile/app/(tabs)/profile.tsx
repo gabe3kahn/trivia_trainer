@@ -114,7 +114,7 @@ export default function ProfileScreen() {
           <Text style={styles.tier}>{placed ? formatTier(overallTier) : 'Getting started'}</Text>
           <Text style={styles.identityDetail}>
             {placed
-              ? `Competency across ${strongCount > 0 ? `${strongCount} strong ` : ''}categories`
+              ? `${strongCount} Strong+ categor${strongCount === 1 ? 'y' : 'ies'}`
               : repsToMap === 0
                 ? 'Mapping your level…'
                 : `${repsToMap} more reps to find your level`}
@@ -125,11 +125,12 @@ export default function ProfileScreen() {
         </View>
       </Card>
 
-      <View style={styles.metricRow}>
-        <MetricCard label="Reps" value={String(attempts)} />
-        <MetricCard label="Strong+" value={String(strongCount)} detail="categories" />
-        <MetricCard label="Badges" value={String(earnedBadges.length)} detail="tap to view" onPress={() => router.push('/badges' as never)} />
-      </View>
+      <MetricCard
+        label="Badges"
+        value={`${earnedBadges.length} earned`}
+        detail="View all"
+        onPress={() => router.push('/badges' as never)}
+      />
 
       <Section title="Categories">
         {loading && categoryRows.length === 0 ? <ActivityIndicator color={colors.gold} /> : null}
@@ -175,9 +176,5 @@ const styles = StyleSheet.create({
   pillRow: {
     flexDirection: 'row',
     marginTop: 4,
-  },
-  metricRow: {
-    flexDirection: 'row',
-    gap: spacing.sm,
   },
 });

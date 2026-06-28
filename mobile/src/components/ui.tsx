@@ -57,9 +57,7 @@ export function Screen({ children, contentStyle }: PropsWithChildren<{ contentSt
   return (
     <SafeAreaView style={styles.safeArea} edges={['top']}>
       <ScrollView
-        automaticallyAdjustKeyboardInsets
         contentContainerStyle={[styles.screen, contentStyle]}
-        keyboardDismissMode="interactive"
         keyboardShouldPersistTaps="handled"
         showsVerticalScrollIndicator={false}
         bounces={false}
@@ -252,21 +250,27 @@ export function MetricCard({
   detail?: string;
   onPress?: () => void;
 }) {
-  const body = (
-    <>
-      <Text style={styles.metricLabel}>{label}</Text>
-      <Text style={styles.metricValue}>{value}</Text>
-      {detail ? <Text style={styles.metricDetail}>{detail}</Text> : null}
-    </>
-  );
   if (onPress) {
+    // Full-width, tappable: label/value on the left, gold chevron on the right —
+    // matches the other clickable rows.
     return (
-      <Touchable onPress={onPress} style={[styles.card, styles.metricCard]}>
-        {body}
+      <Touchable onPress={onPress} style={[styles.card, styles.metricCardRow]}>
+        <View style={styles.metricCardRowMain}>
+          <Text style={styles.metricLabel}>{label}</Text>
+          <Text style={styles.metricValue}>{value}</Text>
+          {detail ? <Text style={styles.metricDetail}>{detail}</Text> : null}
+        </View>
+        <FontAwesome name="angle-right" size={22} color={colors.gold} />
       </Touchable>
     );
   }
-  return <Card style={styles.metricCard}>{body}</Card>;
+  return (
+    <Card style={styles.metricCard}>
+      <Text style={styles.metricLabel}>{label}</Text>
+      <Text style={styles.metricValue}>{value}</Text>
+      {detail ? <Text style={styles.metricDetail}>{detail}</Text> : null}
+    </Card>
+  );
 }
 
 /* ------------------------------------------------------------------ *
@@ -713,6 +717,13 @@ const styles = StyleSheet.create({
     backgroundColor: colors.elevated,
     gap: 4,
   },
+  metricCardRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    backgroundColor: colors.elevated,
+  },
+  metricCardRowMain: { flex: 1, gap: 4 },
   metricLabel: {
     ...type.overline,
     color: colors.muted,

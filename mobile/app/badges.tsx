@@ -59,7 +59,13 @@ export default function BadgesScreen() {
         )}
       </View>
 
-      <ScrollView contentContainerStyle={styles.body} showsVerticalScrollIndicator={false}>
+      <ScrollView
+        contentContainerStyle={styles.body}
+        showsVerticalScrollIndicator={false}
+        bounces={false}
+        alwaysBounceVertical={false}
+        overScrollMode="never"
+      >
         {loading ? <ActivityIndicator color={colors.gold} style={{ marginTop: spacing.xl }} /> : null}
         {sorted.map((b) => {
           const got = earned.has(b.key);

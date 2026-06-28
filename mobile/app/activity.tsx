@@ -97,7 +97,13 @@ export default function ActivityScreen() {
         <Text style={styles.title}>Activity</Text>
       </View>
 
-      <ScrollView contentContainerStyle={styles.body} showsVerticalScrollIndicator={false}>
+      <ScrollView
+        contentContainerStyle={styles.body}
+        showsVerticalScrollIndicator={false}
+        bounces={false}
+        alwaysBounceVertical={false}
+        overScrollMode="never"
+      >
         {/* Overall competency summary (the time-series line is a follow-up — needs daily snapshots) */}
         <View style={styles.card}>
           <Text style={styles.overline}>Overall competency</Text>
