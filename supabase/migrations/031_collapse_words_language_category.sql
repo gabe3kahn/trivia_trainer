@@ -1,18 +1,19 @@
--- 031: treat words_language as part of language_wordplay everywhere the user sees or
--- selects a category — not just in the competency math (016).
+-- 031: every clue lives under ONE headline category. words_language collapses into
+-- language_wordplay everywhere the user sees, selects, OR is served a category — not just
+-- in the competency math (016).
 --
--- words_language and language_wordplay are two BE drafting categories but ONE user-facing
--- category ("Language & Wordplay"). Competency already merges them (016), and the FE now
--- hides the words_language row. But two surfaces still leaked it:
---   * get_recommended_questions filtered/weakness-matched on the RAW category_id, so
---     picking "Language & Wordplay" (language_wordplay) missed the 50 active words_language
---     questions, and weakness mode (keyed on the merged dimension) never served them.
---   * get_activity_summary grouped by raw category_id, so the Activity breakdown showed a
---     separate "Words & Language" row.
--- Both now route category through competency_category().
+-- Two BE drafting categories, one user-facing category ("Language & Wordplay"). This routes
+-- category through competency_category() at every remaining boundary:
+--   * get_recommended_questions — filter/weakness-match on the merged category (so picking
+--     "Language & Wordplay" reaches the 50 active words_language questions), and RETURN the
+--     merged category id/name so a served words_language clue displays as Language & Wordplay.
+--   * get_daily_challenge / get_game — same merged id/name on each served question.
+--   * get_activity_summary — group the breakdown by the merged category.
+-- The question's real category_id is unchanged in the table (drafting + competency_category
+-- still see it); only what's SERVED for display is mapped.
 
--- get_recommended_questions — map category through competency_category in the weakness
--- match and the explicit category filter. Return shape unchanged from 023 (no drop needed).
+-- ---------------------------------------------------------------------------
+-- get_recommended_questions (training)
 create or replace function public.get_recommended_questions(
   p_mode text default 'weakness',
   p_limit int default 12,
@@ -61,7 +62,7 @@ as $$
   )
   select
     q.id,
-    q.category_id,
+    competency_category(q.category_id) as category_id,
     c.name as category_name,
     q.subcategory_id,
     s.name as subcategory_name,
@@ -78,7 +79,7 @@ as $$
     q.answer_detail,
     q.answer_type
   from questions q
-  join categories c on c.id = q.category_id
+  join categories c on c.id = competency_category(q.category_id)
   left join subcategories s on s.id = q.subcategory_id
   where q.is_active
     and q.quality_status in ('keep', 'rewrite', 'unreviewed')
@@ -104,8 +105,114 @@ as $$
 $$;
 grant execute on function public.get_recommended_questions(text, int, text[], int[], text[]) to authenticated;
 
--- get_activity_summary — group by the merged category so the Activity breakdown shows one
--- "Language & Wordplay" row, not a separate words_language. Only the source select changes.
+-- ---------------------------------------------------------------------------
+-- get_daily_challenge — merged category id/name on each served question.
+create or replace function public.get_daily_challenge(p_date date default app_today())
+returns jsonb language plpgsql security definer set search_path = public as $$
+declare g daily_challenges%rowtype; me uuid := auth.uid();
+begin
+  select * into g from daily_challenges where challenge_date = p_date;
+  if not found then
+    perform public.generate_daily_challenge(p_date);
+    select * into g from daily_challenges where challenge_date = p_date;
+    if not found then
+      return jsonb_build_object('challenge_date', p_date, 'set_size', 0, 'seconds_per_question', 30, 'questions', '[]'::jsonb, 'my_attempts', '[]'::jsonb, 'completed', false);
+    end if;
+  end if;
+
+  return jsonb_build_object(
+    'challenge_date', g.challenge_date,
+    'set_size', coalesce(array_length(g.question_ids, 1), 0),
+    'seconds_per_question', 30,
+    'questions', (
+      select coalesce(jsonb_agg(jsonb_build_object(
+        'id', q.id, 'category_id', competency_category(q.category_id), 'category_name', c.name,
+        'subcategory_name', s.name, 'difficulty_rank', q.difficulty_rank,
+        'mechanic', q.mechanic, 'constraint_text', q.constraint_text,
+        'clue', q.clue, 'answer', q.answer, 'aliases', q.aliases,
+        'image_url', q.image_url, 'answer_detail', q.answer_detail, 'answer_type', q.answer_type
+      ) order by array_position(g.question_ids, q.id)), '[]'::jsonb)
+      from questions q
+      join categories c on c.id = competency_category(q.category_id)
+      left join subcategories s on s.id = q.subcategory_id
+      where q.id = any(g.question_ids)
+    ),
+    'my_attempts', (
+      select coalesce(jsonb_agg(jsonb_build_object(
+        'question_id', a.question_id, 'grade', a.grade, 'points', a.points)), '[]'::jsonb)
+      from daily_challenge_attempts a where a.challenge_date = p_date and a.user_id = me
+    ),
+    'completed', (
+      select count(*) >= coalesce(array_length(g.question_ids, 1), 0)
+      from daily_challenge_attempts a where a.challenge_date = p_date and a.user_id = me
+    )
+  );
+end; $$;
+
+-- ---------------------------------------------------------------------------
+-- get_game (duel) — merged category id/name on each served question.
+create or replace function public.get_game(p_game uuid)
+returns jsonb language plpgsql security definer set search_path = public as $$
+declare g games%rowtype; me uuid := auth.uid(); v_other uuid; v_done boolean;
+begin
+  select * into g from games where id = p_game;
+  if not found or me not in (g.creator_id, g.opponent_id) then
+    raise exception 'game not found';
+  end if;
+
+  v_other := case when me = g.creator_id then g.opponent_id else g.creator_id end;
+  v_done  := g.status in ('completed', 'expired');
+
+  return jsonb_build_object(
+    'id', g.id,
+    'status', g.status,
+    'creator_id', g.creator_id,
+    'opponent_id', g.opponent_id,
+    'winner_id', g.winner_id,
+    'creator_score', g.creator_score,
+    'opponent_score', g.opponent_score,
+    'expires_at', g.expires_at,
+    'set_size', coalesce(array_length(g.question_ids, 1), 0),
+    'seconds_per_question', 30,
+    'questions', (
+      select coalesce(jsonb_agg(jsonb_build_object(
+        'id', q.id, 'category_id', competency_category(q.category_id), 'category_name', c.name,
+        'subcategory_name', s.name, 'difficulty_rank', q.difficulty_rank,
+        'mechanic', q.mechanic, 'constraint_text', q.constraint_text,
+        'clue', q.clue, 'answer', q.answer, 'aliases', q.aliases,
+        'image_url', q.image_url, 'answer_detail', q.answer_detail, 'value', q.value, 'answer_type', q.answer_type
+      ) order by array_position(g.question_ids, q.id)), '[]'::jsonb)
+      from questions q
+      join categories c on c.id = competency_category(q.category_id)
+      left join subcategories s on s.id = q.subcategory_id
+      where q.id = any(g.question_ids)
+    ),
+    'my_attempts', (
+      select coalesce(jsonb_agg(jsonb_build_object(
+        'question_id', ga.question_id, 'grade', ga.grade, 'points', ga.points)), '[]'::jsonb)
+      from game_attempts ga where ga.game_id = p_game and ga.user_id = me
+    ),
+    'opponent', (
+      select case when v_other is null then null else jsonb_build_object(
+        'id', p.id, 'display_name', p.display_name, 'username', p.username, 'avatar_url', p.avatar_url
+      ) end
+      from profiles p where p.id = v_other
+    ),
+    'opponent_answered', (
+      select count(*) from game_attempts ga where ga.game_id = p_game and ga.user_id = v_other
+    ),
+    'opponent_attempts', (
+      case when v_done then (
+        select coalesce(jsonb_agg(jsonb_build_object(
+          'question_id', ga.question_id, 'grade', ga.grade, 'points', ga.points)), '[]'::jsonb)
+        from game_attempts ga where ga.game_id = p_game and ga.user_id = v_other
+      ) else '[]'::jsonb end
+    )
+  );
+end; $$;
+
+-- ---------------------------------------------------------------------------
+-- get_activity_summary — group the breakdown by the merged category.
 create or replace function public.get_activity_summary(p_days int default 30)
 returns jsonb
 language sql
