@@ -2,7 +2,7 @@
   "pack_id": "religion_mythology_philosophy-draft-2026-06-26",
   "category_id": "religion_mythology_philosophy",
   "created_at": "2026-06-26",
-  "notes": "Run 2026-06-26 (category 1 of 2). Active count was 44 — thinnest non-geography eligible category (arts/science/music/words_language all had open PRs). Under-weight tiers: $200 (3 active) and $1000 (5 active). Pack weighted accordingly: 3x $200, 3x $400, 6x $600, 1x $800, 2x $1000. Gaps filled: Greek Mythology (Heracles, Zeus, Perseus, Pegasus), Bible (John the Baptist, Sermon on the Mount, Nimrod), Philosophers (Descartes, Plato, Aquinas), Philosophical Schools (Existentialism), Religious Texts & Terms (Book of Mormon), Symbols/Rituals (Tree of Life), World Religions (Islam, Saint Christopher). Hard tail: Nimrod ($1000, biblical figure whose name ironically became slang for fool) + Pegasus ($1000, oblique from Hippocrene/thunderbolts angle).",
+  "notes": "Run 2026-06-26 (category 1 of 2). Active count was 44 — thinnest non-geography eligible category (arts/science/music/words_language all had open PRs). Under-weight tiers: $200 (3 active) and $1000 (5 active). Pack weighted accordingly: 3x $200, 3x $400, 6x $600, 1x $800, 2x $1000. Gaps filled: Greek Mythology (Heracles, Zeus, Perseus, Bellerophon), Bible (John the Baptist, Sermon on the Mount, Melchizedek), Philosophers (Descartes, Plato, Aquinas), Philosophical Schools (Existentialism), Religious Texts & Terms (Book of Mormon), Symbols/Rituals (Tree of Life), World Religions (Islam, Saint Christopher). Hard tail: Melchizedek ($1000, priest-king of Salem / Hebrews priesthood archetype) + Bellerophon ($1000, Chimera-slayer who fell from his winged mount reaching for Olympus). Reviewer-applied edits 2026-06-27: reclued Book of Mormon harder; replaced Nimrod (duplicate) with Melchizedek; replaced Pegasus with Bellerophon; mononym answer_types set to 'other' (Heracles, Saint Christopher, Perseus).",
   "questions": [
     {
       "source": "original_sourced",
@@ -16,7 +16,7 @@
       "constraint_text": null,
       "clue": "The greatest hero of ancient Greece, this son of Zeus and the mortal Alcmene was renowned for extraordinary strength and performed twelve legendary labors imposed as penance for a fit of madness sent upon him by Hera.",
       "answer": "Heracles",
-      "answer_type": "name",
+      "answer_type": "other",
       "aliases": [
         "Hercules"
       ],
@@ -35,7 +35,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:43.064Z"
+      "verified_at": "2026-06-28T03:23:23.420Z"
     },
     {
       "source": "original_sourced",
@@ -66,7 +66,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:43.467Z"
+      "verified_at": "2026-06-28T03:23:23.798Z"
     },
     {
       "source": "original_sourced",
@@ -92,12 +92,12 @@
           "source": "wikipedia",
           "title": "Islam",
           "url": "https://en.wikipedia.org/wiki/Islam",
-          "snippet": "Islam is an Abrahamic monotheistic religion based on the Quran and the teachings of Muhammad. The religion has an estimated 2 billion worldwide adherents, called Muslims. Islam is the world's second-largest religious population after Christ"
+          "snippet": "Islam is an Abrahamic religion based on the Quran and the teachings of Muhammad. The monotheistic religion has an estimated 2 billion worldwide adherents, called Muslims. Islam is the world's second-largest religious population after Christ"
         }
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:43.823Z"
+      "verified_at": "2026-06-28T03:23:24.224Z"
     },
     {
       "source": "original_sourced",
@@ -109,7 +109,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This first-century Jewish preacher, active near the Jordan River, announced a messianic figure greater than himself, performed a ritual immersion of Jesus, and was later beheaded at the order of Herod Antipas for denouncing the ruler's unlawful remarriage.",
+      "clue": "This first-century preacher at the Jordan River foretold a messiah greater than himself and was beheaded by Herod Antipas for condemning the ruler's unlawful remarriage.",
       "answer": "John the Baptist",
       "answer_type": "name",
       "aliases": [
@@ -131,7 +131,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:44.178Z"
+      "verified_at": "2026-06-28T03:23:24.661Z"
     },
     {
       "source": "original_sourced",
@@ -164,7 +164,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:44.583Z"
+      "verified_at": "2026-06-28T03:23:25.048Z"
     },
     {
       "source": "original_sourced",
@@ -197,7 +197,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:44.938Z"
+      "verified_at": "2026-06-28T03:23:25.478Z"
     },
     {
       "source": "original_sourced",
@@ -209,7 +209,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Alfred North Whitehead characterized the entire European philosophical tradition as 'a series of footnotes' to this Athenian's work; a student of Socrates and teacher of Aristotle, he founded the Academy and articulated the Theory of Forms.",
+      "clue": "Alfred North Whitehead characterized the entire European philosophical tradition as 'a series of footnotes' to this Athenian's work.",
       "answer": "Plato",
       "answer_type": "name",
       "aliases": [],
@@ -228,7 +228,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:45.294Z"
+      "verified_at": "2026-06-28T03:23:25.912Z"
     },
     {
       "source": "original_sourced",
@@ -244,7 +244,9 @@
       "answer": "Thomas Aquinas",
       "answer_type": "name",
       "aliases": [
-        "Aquinas"
+        "Aquinas",
+        "Saint Thomas Aquinas",
+        "St. Thomas Aquinas"
       ],
       "tags": [
         "rmp-draft",
@@ -261,7 +263,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:45.648Z"
+      "verified_at": "2026-06-28T03:23:26.349Z"
     },
     {
       "source": "original_sourced",
@@ -273,7 +275,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "First published in 1830 by Joseph Smith, this sacred scripture describes an appearance of Jesus in the Americas after his resurrection and serves as the 'keystone' of the Latter Day Saint movement.",
+      "clue": "Said to be translated from golden plates delivered by the angel Moroni and inscribed in a script its prophets called 'reformed Egyptian,' this 1830 scripture chronicles the ancient American peoples known as the Nephites and Lamanites.",
       "answer": "Book of Mormon",
       "answer_type": "other",
       "aliases": [
@@ -294,7 +296,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:46.053Z"
+      "verified_at": "2026-06-28T03:23:27.001Z"
     },
     {
       "source": "original_sourced",
@@ -325,7 +327,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:46.461Z"
+      "verified_at": "2026-06-28T03:23:27.384Z"
     },
     {
       "source": "original_sourced",
@@ -339,7 +341,7 @@
       "constraint_text": null,
       "clue": "In Eastern Byzantine iconography, this legendary martyr was depicted with a dog's head; Western hagiography reimagines him as a giant who ferried travelers across a river and found one small passenger growing unbearably heavy — a child who then revealed his divine identity on the far bank.",
       "answer": "Saint Christopher",
-      "answer_type": "name",
+      "answer_type": "other",
       "aliases": [
         "Christopher"
       ],
@@ -358,7 +360,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:46.816Z"
+      "verified_at": "2026-06-28T03:23:27.840Z"
     },
     {
       "source": "original_sourced",
@@ -370,11 +372,12 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Found across world traditions — from the sacred pillar of wood in Genesis's Garden of Eden to the Norse Yggdrasil — this universal cosmic archetype represents the connection between the underworld, the earth, and the heavens as the axis of all creation.",
+      "clue": "From the Norse Yggdrasil to the garden at the center of Eden, this universal cosmic archetype links the underworld, the earth, and the heavens as the axis of all creation.",
       "answer": "Tree of Life",
       "answer_type": "other",
       "aliases": [
-        "The Tree of Life"
+        "The Tree of Life",
+        "World Tree"
       ],
       "tags": [
         "rmp-draft",
@@ -391,7 +394,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:47.171Z"
+      "verified_at": "2026-06-28T03:23:28.224Z"
     },
     {
       "source": "original_sourced",
@@ -405,7 +408,7 @@
       "constraint_text": null,
       "clue": "The son of Zeus and the mortal Danaë, this demigod was the greatest monster-slayer of the generation before Heracles; he rescued the princess Andromeda after vanquishing the sea monster Cetus, which had been sent to devour her coastal city.",
       "answer": "Perseus",
-      "answer_type": "name",
+      "answer_type": "other",
       "aliases": [],
       "tags": [
         "rmp-draft",
@@ -422,11 +425,11 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:47.527Z"
+      "verified_at": "2026-06-28T03:23:28.614Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Nimrod",
+      "source_url": "https://en.wikipedia.org/wiki/Melchizedek",
       "external_id": "rmp-2026-06-26-014",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Bible",
@@ -434,9 +437,9 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Described in Genesis as a 'mighty hunter before the Lord,' this great-grandson of Noah founded a kingdom in Shinar and is linked by tradition to the Tower of Babel; in modern slang, his name has come to mean a bumbling fool — a complete inversion of its original sense.",
-      "answer": "Nimrod",
-      "answer_type": "name",
+      "clue": "This priest-king of Salem brought out bread and wine to bless Abram in Genesis and received a tithe from him; appearing with no recorded lineage or death, he is later invoked in the Letter to the Hebrews as the eternal pattern for the priesthood of Christ.",
+      "answer": "Melchizedek",
+      "answer_type": "other",
       "aliases": [],
       "tags": [
         "rmp-draft",
@@ -446,18 +449,18 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Nimrod",
-          "url": "https://en.wikipedia.org/wiki/Nimrod",
-          "snippet": "Nimrod is a biblical figure mentioned in the Book of Genesis and the Books of Chronicles. The son of Cush and thus the great-grandson of Noah, Nimrod was described as a king in the land of Shinar. The Bible states that he was \"a mighty hunt"
+          "title": "Melchizedek",
+          "url": "https://en.wikipedia.org/wiki/Melchizedek",
+          "snippet": "In the Hebrew Bible, Melchizedek was the king of Salem and priest of El Elyon. He is mentioned in Genesis 14:18–20, where he brings out bread and wine and blesses Abram (Abraham), following the Battle of the Vale of Siddim and Abram's subse"
         }
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:47.882Z"
+      "verified_at": "2026-06-28T03:24:01.182Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Pegasus",
+      "source_url": "https://en.wikipedia.org/wiki/Bellerophon",
       "external_id": "rmp-2026-06-26-015",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Greek Mythology",
@@ -465,8 +468,8 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Sired by the sea-god and born when a Greek hero slew the Gorgon — his blood mixing with sea-foam — this divine stallion stamped his hoof on Mount Helicon to create the Muses' sacred spring Hippocrene and later bore Zeus's thunderbolts to Olympus.",
-      "answer": "Pegasus",
+      "clue": "Astride a winged horse and armed with a lead-tipped spear, this Corinthian hero slew the fire-breathing Chimera; emboldened, he tried to ride up to the home of the gods, but a gadfly sent to sting his mount pitched him back to earth.",
+      "answer": "Bellerophon",
       "answer_type": "other",
       "aliases": [],
       "tags": [
@@ -477,14 +480,14 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Pegasus",
-          "url": "https://en.wikipedia.org/wiki/Pegasus",
-          "snippet": "Pegasus is a winged horse in Greek mythology, usually depicted as a white stallion. He was sired by Poseidon, in his role as horse-god, and foaled by the Gorgon Medusa. Pegasus was the brother of Chrysaor, both born from Medusa's blood when"
+          "title": "Bellerophon",
+          "url": "https://en.wikipedia.org/wiki/Bellerophon",
+          "snippet": "Bellerophon or Bellerophontes or Hipponous, was a divine Corinthian hero of Greek mythology, the son of Poseidon and Eurynome, and the foster son of Glaukos. He was \"the greatest hero and slayer of monsters, alongside Cadmus and Perseus, be"
         }
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:48.238Z"
+      "verified_at": "2026-06-28T03:24:01.614Z"
     }
   ]
 }

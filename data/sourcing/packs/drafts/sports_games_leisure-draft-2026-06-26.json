@@ -2,7 +2,7 @@
   "pack_id": "sports_games_leisure-draft-2026-06-26",
   "category_id": "sports_games_leisure",
   "created_at": "2026-06-26",
-  "notes": "Run 2026-06-26 (category 2 of 2). Active count was 45 — tied with literature_books for second-thinnest eligible category. Under-weight tiers: $800 (1 active!) and $1000 (3 active). Pack heavily weighted toward those tiers: 2x $200, 3x $400, 3x $600, 5x $800, 2x $1000. Fills gaps in Basketball (Bill Russell, Magic Johnson, Julius Erving), Tennis & Golf (Roger Federer, Augusta National, Tiger Woods), Soccer (Marta), Olympics (Curling, Heptathlon), Baseball (Boston Red Sox, Derek Jeter), and minor gaps in Board Games, Rules & Terminology, and Sports Records. Hard tail: Bill Russell ($1000, 11-ring dynasty from oblique franchise angle) + Marta Vieira da Silva ($1000, first footballer of any gender at 5 consecutive World Cups).",
+  "notes": "Run 2026-06-26 (category 2 of 2). Active count was 45 — tied with literature_books for second-thinnest eligible category. Under-weight tiers: $800 (1 active!) and $1000 (3 active). Pack heavily weighted toward those tiers: 2x $200, 3x $400, 3x $600, 5x $800, 2x $1000. Fills gaps in Basketball (Bill Russell, Magic Johnson, Julius Erving), Tennis & Golf (Roger Federer, Augusta National, Tiger Woods), Soccer (Marta), Olympics (Curling, Heptathlon), Baseball (Boston Red Sox, Derek Jeter), and minor gaps in Board Games, Rules & Terminology, and Sports Records. Hard tail: Bill Russell ($1000, 11-ring dynasty from oblique franchise angle) + Marta Vieira da Silva ($1000, first footballer of any gender at 5 consecutive World Cups). Reviewer-applied edits 2026-06-27: Roulette reclued to Croupier ($800, etymology angle); Field Hockey/Heptathlon reworded off meta phrasing; Red Sox Fenway tell cut; Derek Jeter → $400; NHL answer/alias flipped to full name; Magic Johnson, Tiger Woods (name-origin), Julius Erving ('the Move'), Federer (237-week No. 1), Augusta (Amen Corner) all rebuilt onto single oblique hooks for $800.",
   "questions": [
     {
       "source": "original_sourced",
@@ -33,7 +33,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:53.023Z"
+      "verified_at": "2026-06-28T03:24:08.724Z"
     },
     {
       "source": "original_sourced",
@@ -66,22 +66,24 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:53.379Z"
+      "verified_at": "2026-06-28T03:24:09.155Z"
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Roulette",
+      "source_url": "https://en.wikipedia.org/wiki/Croupier",
       "external_id": "sgl-2026-06-26-003",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Board Games & Card Games",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In this casino game, a croupier sends a ball spinning inside a bowl against a rotating numbered wheel; players bet on which pocket the ball will ultimately settle in, wagering on color, number, or grouping.",
-      "answer": "Roulette",
+      "clue": "From a French word for one who rides behind — a nod to the reserve of cash once kept at a gambler's back — this title names the casino employee who deals the cards, spins the wheel, and rakes in the losing chips at a gaming table.",
+      "answer": "Croupier",
       "answer_type": "other",
-      "aliases": [],
+      "aliases": [
+        "Dealer"
+      ],
       "tags": [
         "sgl-draft",
         "sourced",
@@ -90,14 +92,14 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Roulette",
-          "url": "https://en.wikipedia.org/wiki/Roulette",
-          "snippet": "Roulette is a casino game which was likely developed from the Italian game Biribi. In the game, a player may choose to place a bet on a single number, various groupings of numbers, the color red or black, whether the number is odd or even, "
+          "title": "Croupier",
+          "url": "https://en.wikipedia.org/wiki/Croupier",
+          "snippet": "A croupier or dealer is someone appointed at a gambling table to assist in the conduct of the game, especially in the distribution of bets and payouts. Croupiers are typically employed by casinos."
         }
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:53.735Z"
+      "verified_at": "2026-06-28T03:24:09.701Z"
     },
     {
       "source": "original_sourced",
@@ -109,7 +111,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Two teams of eleven players use curved sticks to propel a small, hard ball into the opposing goal in this fast-paced team sport, which is played on artificial turf and is simply called by its non-qualifier name across Asia, Oceania, and parts of Europe.",
+      "clue": "Two teams of eleven use curved sticks to drive a small, hard ball into the opposing goal in this fast-paced sport played on artificial turf, an Olympic staple often confused with its ice-bound cousin.",
       "answer": "Field Hockey",
       "answer_type": "other",
       "aliases": [],
@@ -128,7 +130,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:54.142Z"
+      "verified_at": "2026-06-28T03:24:10.128Z"
     },
     {
       "source": "original_sourced",
@@ -140,7 +142,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This AL East franchise, which has called Fenway Park home since 1912, endured an 86-year World Series drought — attributed to the sale of a star player to a bitter rival — before finally winning the championship in 2004.",
+      "clue": "This AL East franchise endured an 86-year World Series drought — popularly blamed on the sale of a star player to a bitter rival — before finally winning the championship in 2004.",
       "answer": "Boston Red Sox",
       "answer_type": "other",
       "aliases": [
@@ -161,7 +163,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:54.546Z"
+      "verified_at": "2026-06-28T03:24:10.517Z"
     },
     {
       "source": "original_sourced",
@@ -169,8 +171,8 @@
       "external_id": "sgl-2026-06-26-006",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Baseball",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Nicknamed 'the Captain,' this New York Yankees shortstop spent his entire 20-year career with one club, earned five World Series rings, and set the franchise record for career hits while finishing sixth all-time in MLB history.",
@@ -194,7 +196,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:54.903Z"
+      "verified_at": "2026-06-28T03:24:10.899Z"
     },
     {
       "source": "original_sourced",
@@ -206,7 +208,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Contested over two days at major track-and-field competitions, this women's combined event encompasses seven disciplines and has been a regular Olympic program entry since the 1984 Los Angeles Games.",
+      "clue": "Contested over two days, this women's combined track-and-field event — the counterpart to the men's ten-event contest — has been on the Olympic program since the 1984 Los Angeles Games.",
       "answer": "Heptathlon",
       "answer_type": "other",
       "aliases": [
@@ -227,7 +229,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:31:55.306Z"
+      "verified_at": "2026-06-28T03:24:11.352Z"
     },
     {
       "source": "original_sourced",
@@ -239,11 +241,11 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Composed of 32 teams across the United States and Canada, this professional league awards the Stanley Cup — the oldest professional sports trophy in North America — to its annual playoff champion.",
-      "answer": "NHL",
+      "clue": "Composed of 32 teams across the United States and Canada, this professional circuit awards the Stanley Cup — the oldest professional sports trophy in North America — to its annual playoff champion.",
+      "answer": "National Hockey League",
       "answer_type": "other",
       "aliases": [
-        "National Hockey League"
+        "NHL"
       ],
       "tags": [
         "sgl-draft",
@@ -260,7 +262,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:32:00.771Z"
+      "verified_at": "2026-06-28T03:24:11.738Z"
     },
     {
       "source": "original_sourced",
@@ -272,7 +274,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "After leading Michigan State to the 1979 NCAA championship, this player was selected first overall by the Los Angeles Lakers and went on to be widely regarded as the greatest point guard the NBA has ever seen.",
+      "clue": "As a rookie, this player started at center in place of an injured Kareem Abdul-Jabbar for the deciding game of the 1980 NBA Finals, posting 42 points and 15 rebounds to seize the series MVP — extraordinary for a man who normally ran the offense from the backcourt.",
       "answer": "Magic Johnson",
       "answer_type": "name",
       "aliases": [
@@ -293,7 +295,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:32:01.128Z"
+      "verified_at": "2026-06-28T03:25:00.590Z"
     },
     {
       "source": "original_sourced",
@@ -305,7 +307,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Turning professional in 1996 at age 20, this golfer won his first major the following April by a record 12 strokes and ultimately tied the all-time PGA Tour wins record while standing second only to Jack Nicklaus in career major championships.",
+      "clue": "Legally named Eldrick, this golfer is universally known by a nickname his father gave him in honor of a South Vietnamese army comrade — a soldier the elder man had himself dubbed with that same fierce moniker during the war.",
       "answer": "Tiger Woods",
       "answer_type": "name",
       "aliases": [
@@ -326,7 +328,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:32:01.483Z"
+      "verified_at": "2026-06-28T03:25:01.110Z"
     },
     {
       "source": "original_sourced",
@@ -338,7 +340,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This forward won three championships and four MVP awards in the American Basketball Association, helping legitimize the rival league as its biggest star before the ABA merged with the NBA in 1976.",
+      "clue": "In Game 4 of the 1980 NBA Finals, this high-flying forward drove the right baseline, floated behind the backboard, and reverse-scooped the ball in for a layup so improbable it is still called simply 'the Move' — four years after he had soared from the foul line to win basketball's first slam dunk contest.",
       "answer": "Julius Erving",
       "answer_type": "name",
       "aliases": [
@@ -360,7 +362,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:32:01.839Z"
+      "verified_at": "2026-06-28T03:25:01.534Z"
     },
     {
       "source": "original_sourced",
@@ -372,7 +374,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "He surpassed Pete Sampras's record of 14 men's Grand Slam titles at Wimbledon in 2009 and ultimately won a record eight championships at that tournament before retiring in September 2022.",
+      "clue": "Famed for a graceful single-handed backhand and an almost effortless style, this Swiss player held the world No. 1 ranking for a record 237 consecutive weeks.",
       "answer": "Roger Federer",
       "answer_type": "name",
       "aliases": [
@@ -393,7 +395,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:32:02.194Z"
+      "verified_at": "2026-06-28T03:25:01.924Z"
     },
     {
       "source": "original_sourced",
@@ -405,7 +407,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Designed by Scottish architect Alister MacKenzie for the retired amateur champion Bobby Jones and opened in 1932, this private course in Georgia has hosted an invitational major every April since 1934.",
+      "clue": "Designed by Scottish architect Alister MacKenzie for the retired amateur champion Bobby Jones and opened in 1932, this exclusive Georgia course is renowned for the perilous run of holes along Rae's Creek that sportswriters christened 'Amen Corner.'",
       "answer": "Augusta National Golf Club",
       "answer_type": "other",
       "aliases": [
@@ -426,7 +428,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:32:02.599Z"
+      "verified_at": "2026-06-28T03:25:02.355Z"
     },
     {
       "source": "original_sourced",
@@ -459,7 +461,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:32:02.955Z"
+      "verified_at": "2026-06-28T03:25:02.738Z"
     },
     {
       "source": "original_sourced",
@@ -492,7 +494,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-06-26T14:32:03.311Z"
+      "verified_at": "2026-06-28T03:25:03.165Z"
     }
   ]
 }

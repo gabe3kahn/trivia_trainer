@@ -2,22 +2,26 @@
   "pack_id": "wordplay-2026-06-26",
   "category_id": "language_wordplay",
   "created_at": "2026-06-26T00:00:00.000Z",
-  "notes": "Run 2026-06-26. Mechanics: Initials (5) + Before & After (5). Initials is a first-ever use — no prior wordplay pack has used this mechanic. Before & After last used in 2026-06-22. All 10 answers are fresh across every prior wordplay pack. Initials answers: Periodic Table (P.T.), Black Market (B.M.), Turing Test (T.T.), Manifest Destiny (M.D.), Habeas Corpus (H.C.). B&A answers: Cat Nap Time, Solar Power Plant, Water Polo Shirt, Milk Chocolate Box, Rock Bottom Line.",
+  "notes": "Run 2026-06-26. Mechanics: Initials (5) + Before & After (5). Initials is a first-ever use — no prior wordplay pack has used this mechanic. Before & After last used in 2026-06-22. All 10 answers are fresh across every prior wordplay pack. Initials answers: Dmitri Mendeleev (D.M.), Black Market (B.M.), Turing Test (T.T.), Manifest Destiny (M.D.), Habeas Corpus (H.C.). B&A answers: Scaredy Cat Nap, Sum Total Eclipse of the Heart, Water Polo Shirt, Second Life is a Box of Chocolates, Rock Bottom Line. Reviewer-applied edits 2026-06-27: ini-01 reclued to Dmitri Mendeleev (D.M., $800); Cat Nap Time → Scaredy Cat Nap; Solar Power Plant → Sum Total Eclipse of the Heart ($1000); Milk Chocolate Box → Second Life is a Box of Chocolates ($800); Water Polo Shirt reclued; Habeas Corpus Latin gloss cut; Rock Bottom Line tightened. lock_value set on reviewer-dictated values (Mendeleev, Black Market, Manifest Destiny, Water Polo Shirt, Second Life, Sum Total) so the importer's wordplay difficulty calibration doesn't override them.",
   "questions": [
     {
       "source": "constructed",
       "external_id": "wordplay-2026-06-26-ini-01",
       "category_id": "language_wordplay",
       "subcategory_name": "Initials & Abbreviations",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "initials",
-      "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
-      "clue": "Dmitri Mendeleev's 1869 scientific chart arranges all known chemical elements by atomic number and groups those sharing similar properties into the same columns.",
-      "answer": "Periodic Table",
-      "aliases": [],
+      "constraint_text": "These are a person's initials — who do they belong to?",
+      "clue": "Given only these initials, name the Russian chemist whose 1869 table of the elements left deliberate gaps for substances not yet discovered — gaps he later filled with strikingly accurate predictions.",
+      "answer": "Dmitri Mendeleev",
+      "lock_value": true,
+      "aliases": [
+        "Dmitry Mendeleev",
+        "Mendeleev"
+      ],
       "wp": {
-        "initials": "P.T."
+        "initials": "D.M."
       },
       "tags": ["wp-draft", "initials"],
       "citations": [],
@@ -28,12 +32,13 @@
       "external_id": "wordplay-2026-06-26-ini-02",
       "category_id": "language_wordplay",
       "subcategory_name": "Initials & Abbreviations",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "initials",
       "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
       "clue": "This informal system of illicit commerce allows buyers and sellers to exchange controlled or prohibited goods outside of government oversight, typically at inflated prices and beyond the reach of tax authorities.",
       "answer": "Black Market",
+      "lock_value": true,
       "aliases": [],
       "wp": {
         "initials": "B.M."
@@ -66,12 +71,13 @@
       "external_id": "wordplay-2026-06-26-ini-04",
       "category_id": "language_wordplay",
       "subcategory_name": "Initials & Abbreviations",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "initials",
       "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
       "clue": "This 19th-century American doctrine held that the United States was divinely ordained to extend its sovereignty across the North American continent from the Atlantic seaboard to the Pacific coast.",
       "answer": "Manifest Destiny",
+      "lock_value": true,
       "aliases": [],
       "wp": {
         "initials": "M.D."
@@ -89,7 +95,7 @@
       "difficulty_rank": 4,
       "mechanic": "initials",
       "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
-      "clue": "This foundational legal writ requires a detaining authority to bring a prisoner before a court to determine whether the detention is lawful; its Latin name translates roughly as 'you shall have the body.'",
+      "clue": "This foundational legal writ orders a detaining authority to bring a prisoner before a court so a judge can rule on whether the imprisonment is lawful.",
       "answer": "Habeas Corpus",
       "aliases": [],
       "wp": {
@@ -108,12 +114,14 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "A house pet's favorite brief drowse doubles as the designated mid-afternoon rest slot written into a preschooler's daily schedule.",
-      "answer": "Cat Nap Time",
-      "aliases": [],
+      "clue": "A cowardly person has a short lie-down to try to shake off their fears.",
+      "answer": "Scaredy Cat Nap",
+      "aliases": [
+        "Fraidy Cat Nap"
+      ],
       "wp": {
-        "first": "Cat Nap",
-        "second": "Nap Time"
+        "first": "Scaredy Cat",
+        "second": "Cat Nap"
       },
       "tags": ["wp-draft", "before-after"],
       "citations": [],
@@ -124,16 +132,17 @@
       "external_id": "wordplay-2026-06-26-ba-02",
       "category_id": "language_wordplay",
       "subcategory_name": "Before & After",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "A sprawling array of photovoltaic panels in the Mojave Desert converts the sun's rays into enough electrical current to keep thousands of homes running — all without burning a single ounce of fuel.",
-      "answer": "Solar Power Plant",
+      "clue": "The CFO adds up the columns in her spreadsheet during an '80s rock-and-roll concert.",
+      "answer": "Sum Total Eclipse of the Heart",
+      "lock_value": true,
       "aliases": [],
       "wp": {
-        "first": "Solar Power",
-        "second": "Power Plant"
+        "first": "Sum Total",
+        "second": "Total Eclipse of the Heart"
       },
       "tags": ["wp-draft", "before-after"],
       "citations": [],
@@ -144,12 +153,13 @@
       "external_id": "wordplay-2026-06-26-ba-03",
       "category_id": "language_wordplay",
       "subcategory_name": "Before & After",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "This team sport contested in a swimming pool shares its name with the collared, short-sleeved garment that became a casual menswear staple after being popularized by René Lacoste.",
+      "clue": "The sports team shows up to the pool in business-casual clothing.",
       "answer": "Water Polo Shirt",
+      "lock_value": true,
       "aliases": [],
       "wp": {
         "first": "Water Polo",
@@ -164,16 +174,17 @@
       "external_id": "wordplay-2026-06-26-ba-04",
       "category_id": "language_wordplay",
       "subcategory_name": "Before & After",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "A creamy, dairy-sweetened confection fills every cushioned well in the layered holiday assortment that Forrest Gump's mother famously compared to life's unpredictability.",
-      "answer": "Milk Chocolate Box",
+      "clue": "Forrest Gump passes on his mother's famous adage inside a virtual-world video game.",
+      "answer": "Second Life is a Box of Chocolates",
+      "lock_value": true,
       "aliases": [],
       "wp": {
-        "first": "Milk Chocolate",
-        "second": "Chocolate Box"
+        "first": "Second Life",
+        "second": "Life is a Box of Chocolates"
       },
       "tags": ["wp-draft", "before-after"],
       "citations": [],
@@ -188,7 +199,7 @@
       "difficulty_rank": 4,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "After hitting his lowest point emotionally, the recovering addict found clarity in his quarterly financial report — specifically, the final profit-or-loss figure that told him whether his struggling business had survived.",
+      "clue": "After hitting his lowest point emotionally, the recovering addict found clarity in the final profit-or-loss figure in the quarterly financial report.",
       "answer": "Rock Bottom Line",
       "aliases": [],
       "wp": {
