@@ -1,0 +1,238 @@
+{
+  "pack_id": "wordplay-2026-06-28",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-28",
+  "notes": "Run 2026-06-28. Mechanics: anagram (5) + homophone (5). Rotation: prior run used crossword + rhyme_time; run before that used initials + before_after. Anagram answers: Stop, Crate, Retina, Tinsel, Singers. Homophone answers: Knot, Ring, Veil, Mourning, Mantle.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "She pressed her palm over the spinning tops the moment they started to drift, and immediately each one went quiet and motionless.",
+      "answer": "Stop",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "tops"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The detective said she could trace the contraband shipment back to its origin, and the evidence pointed to a battered wooden container stashed behind the warehouse wall.",
+      "answer": "Crate",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "trace"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The ophthalmologist urged him to retain copies of every imaging study, explaining that the thin light-sensitive lining at the back of the eyeball held the key to monitoring his condition.",
+      "answer": "Retina",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "retain"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "During the repast, the ancient chapel grew dim as the narrow wax cylinders on the altar burned lower and lower.",
+      "answer": "Tapers",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "scramble": "repast"
+      }
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "When the conductor resigns mid-season, the vocal ensemble must carry on without their longtime leader — preparing for the finale relying only on each other's instincts and memory of the score.",
+      "answer": "Singers",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "resigns"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-hp-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "She insisted she did not want to attempt a complicated lashing, but her hands knew better — they found the familiar looping configuration before she even gave it a second thought.",
+      "answer": "Knot",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "not"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-hp-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "This answer sounds like a different word used in the clue.",
+      "clue": "Standing at the end of the pier, she shaded her eyes and strained to make out the distant shape on the horizon.",
+      "answer": "Peer",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wordplay",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "wp": {
+        "homophone": "pier"
+      }
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-hp-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "They chose to honeymoon in a green vale tucked between two rising ridges; she kept a photograph of the rolling meadows beside the length of white fabric she would wear before the ceremony began.",
+      "answer": "Veil",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "vale"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-hp-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "Every morning before the house stirred, she rose and dressed in dark colors before making her slow way up the hill to sit beside the fresh earth without speaking.",
+      "answer": "Mourning",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "morning"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-28-hp-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
+      "clue": "The old clock on the mantel struck twice as the geologist described the molten rock layer pressing against the crust from below, a mass of slow-moving silicate spanning more than two thousand kilometers in depth.",
+      "answer": "Mantle",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "mantel"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}

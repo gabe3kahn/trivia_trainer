@@ -1,0 +1,470 @@
+{
+  "pack_id": "pc-draft-2026-06-28",
+  "category_id": "pop_culture_media_modern_life",
+  "created_at": "2026-06-28T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Oyster",
+      "external_id": "pc-2026-06-28-001",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Food & Drink",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Prized as a seafood delicacy and found in marine habitats worldwide, these bivalve molluscs are also the source of cultured pearls harvested from their mantle tissue.",
+      "answer": "Oysters",
+      "answer_type": "other",
+      "aliases": [
+        "Oyster"
+      ],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "food-drink"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Oyster",
+          "url": "https://en.wikipedia.org/wiki/Oyster",
+          "snippet": "Oyster is the common name for a number of different families of salt-water bivalve molluscs that live in marine or brackish habitats. In some species, the valves are highly calcified, and many are somewhat irregular in shape. Many, but not "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:01.648Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Crew_cut",
+      "external_id": "pc-2026-06-28-002",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Fashion & Lifestyle",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Graduated in length from a short pompadour at the front hairline to nearly bare at the back of the crown, this men's style is one of the most popular military-inspired looks.",
+      "answer": "Crew cut",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "fashion-lifestyle"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Crew cut",
+          "url": "https://en.wikipedia.org/wiki/Crew_cut",
+          "snippet": "A crew cut is a type of haircut in which the upright hair on the top of the head is cut relatively short, graduated in length from the longest hair that forms a short pomp (pompadour) at the front hairline to the shortest at the back of the"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:02.020Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Notebook",
+      "external_id": "pc-2026-06-28-003",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this 2004 romantic drama directed by Nick Cassavetes, an elderly man reads aloud a handwritten love story to a fellow nursing-home resident — a framing device whose emotional weight is fully revealed only in the film's final moments.",
+      "answer": "The Notebook",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Notebook",
+          "url": "https://en.wikipedia.org/wiki/The_Notebook",
+          "snippet": "The Notebook is a 2004 American romantic drama film directed by Nick Cassavetes, from a screenplay by Jeremy Leven and Jan Sardi, and based on the 1996 novel by Nicholas Sparks. The film stars Ryan Gosling and Rachel McAdams as a young coup"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:02.392Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Golden_Bachelor",
+      "external_id": "pc-2026-06-28-004",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ABC reality dating series, which premiered on September 28, 2023 as a spin-off featuring senior contestants rather than the usual twenty-somethings, returned for a second season in September 2025.",
+      "answer": "The Golden Bachelor",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "television"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Golden Bachelor",
+          "url": "https://en.wikipedia.org/wiki/The_Golden_Bachelor",
+          "snippet": "The Golden Bachelor is an American dating reality television series that premiered September 28, 2023, on ABC. A spin-off of The Bachelor, it features seniors as contestants. The second season premiered on September 24, 2025."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:02.764Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Passenger_57",
+      "external_id": "pc-2026-06-28-005",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Starring Wesley Snipes as a security consultant who must foil a terrorist's mid-flight escape attempt, this 1992 action thriller was a box-office success despite mixed critical reviews.",
+      "answer": "Passenger 57",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Passenger 57",
+          "url": "https://en.wikipedia.org/wiki/Passenger_57",
+          "snippet": "Passenger 57 is a 1992 American action thriller film directed by Kevin Hooks. The film stars Wesley Snipes and Bruce Payne, with Snipes portraying security consultant John Cutter who finds himself forced to foil a plot to free captive terro"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:03.136Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Blooper",
+      "external_id": "pc-2026-06-28-006",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Streaming & Internet Culture",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A short clip capturing a cast or crew member's on-set mistake, this term also covers on-air errors during live broadcasts — and has become the staple of viral compilation videos online.",
+      "answer": "Blooper",
+      "answer_type": "other",
+      "aliases": [
+        "Bloopers",
+        "Gag reel"
+      ],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "streaming-internet-culture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Blooper",
+          "url": "https://en.wikipedia.org/wiki/Blooper",
+          "snippet": "A blooper, or gag reel, is a short clip from a film, television program or video production, usually a deleted scene, which includes a mistake made by a member of the cast or crew. It also refers to an error made during a live radio or TV b"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:03.507Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pink",
+      "external_id": "pc-2026-06-28-007",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Fashion & Lifestyle",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Scholars have linked the decisive feminization of this color to the 1959 debut of a specific toy doll — yet prior to the second half of the 20th century it frequently reflected masculinity.",
+      "answer": "Pink",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "fashion-lifestyle"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pink",
+          "url": "https://en.wikipedia.org/wiki/Pink",
+          "snippet": "Pink is a pale tint of red or rose, the color of the pink flower. It was first used as a color name in the late 17th century. A combination of pink and white is associated with innocence, whereas a combination of pink and black links to ero"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:03.878Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Aubrey_Plaza",
+      "external_id": "pc-2026-06-28-008",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After performing improv at the Upright Citizens Brigade Theatre and graduating from New York University's Tisch School of the Arts, this actress gained recognition for her deadpan portrayal of April Ludgate on Parks and Recreation.",
+      "answer": "Aubrey Plaza",
+      "answer_type": "name",
+      "aliases": [
+        "Plaza"
+      ],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Aubrey Plaza",
+          "url": "https://en.wikipedia.org/wiki/Aubrey_Plaza",
+          "snippet": "Aubrey Christina Plaza is an American actress, comedian, writer, and producer. She began performing improv and sketch comedy at the Upright Citizens Brigade Theatre. After graduating from New York University Tisch School of the Arts, Plaza "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:04.249Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Colin_Farrell",
+      "external_id": "pc-2026-06-28-009",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in Dublin in May 1976, this actor has won three Golden Globe Awards and a Volpi Cup from the Venice Film Festival over a career ranging from Hollywood blockbusters to art-house character studies.",
+      "answer": "Colin Farrell",
+      "answer_type": "name",
+      "aliases": [
+        "Farrell"
+      ],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Colin Farrell",
+          "url": "https://en.wikipedia.org/wiki/Colin_Farrell",
+          "snippet": "Colin James Farrell is an Irish actor. A leading man in blockbusters and independent films since the 2000s, he has received various accolades, including three Golden Globe Awards, one Screen Actors Guild Award, and one Volpi Cup in addition"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:04.621Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pong",
+      "external_id": "pc-2026-06-28-010",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Pong, the 1972 arcade sports game that launched this company to prominence, began as a training exercise co-founder Nolan Bushnell assigned to a newly hired engineer — never intended for commercial release.",
+      "answer": "Atari",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "technology-companies"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pong",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "snippet": "Pong is a 1972 sports video game developed and published by Atari, Inc. for arcades. It was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell. Bushnell and Atari co-founder Ted Dabney were so "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:04.992Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Just_Do_It",
+      "external_id": "pc-2026-06-28-011",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Brands & Advertising",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Credited by its creator — Wieden+Kennedy founder Dan Wieden — to the final words of a convicted murderer on death row, this three-word Nike slogan was coined in 1988.",
+      "answer": "Just Do It",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "brands-advertising"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Just Do It",
+          "url": "https://en.wikipedia.org/wiki/Just_Do_It",
+          "snippet": "Just Do It  is a trademark of shoe company Nike. The tagline was coined in 1988 at an advertising agency meeting. The founder of the Wieden+Kennedy agency, Dan Wieden, credits the inspiration for his \"Just Do It\" Nike slogan to a death row "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:05.364Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Zendaya",
+      "external_id": "pc-2026-06-28-012",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Before her films as a leading actress collectively grossed over $3.9 billion worldwide, this two-time Emmy winner got her start as a child model and backup dancer on a children's cable channel.",
+      "answer": "Zendaya",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Zendaya",
+          "url": "https://en.wikipedia.org/wiki/Zendaya",
+          "snippet": "Zendaya Maree Stoermer Coleman is an American actress and singer. Her accolades include two Primetime Emmy Awards and a Golden Globe Award, and in 2022 Time named her one of the 100 most influential people in the world. Her films as a leadi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:05.736Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Maria_Shriver",
+      "external_id": "pc-2026-06-28-013",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A journalist and Kennedy niece who founded The Women's Alzheimer's Movement, this former First Lady of California completed her divorce from a famous actor turned Governor in 2021 after a decade of separation.",
+      "answer": "Maria Shriver",
+      "answer_type": "name",
+      "aliases": [
+        "Shriver"
+      ],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Maria Shriver",
+          "url": "https://en.wikipedia.org/wiki/Maria_Shriver",
+          "snippet": "Maria Owings Shriver is an American writer and journalist. Shriver is a member of the Shriver family and Kennedy family, a former First Lady of California, and the founder of the non-profit organization The Women's Alzheimer's Movement. She"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:06.108Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Fall_and_Rise_of_Reggie_Dinkins",
+      "external_id": "pc-2026-06-28-014",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Recent Events & Current Affairs",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Created by Robert Carlock and Sam Means for NBC, this American sports mockumentary sitcom premiered on January 18, 2026 and was renewed for a second season within five months of its debut.",
+      "answer": "The Fall and Rise of Reggie Dinkins",
+      "answer_type": "other",
+      "aliases": [
+        "Reggie Dinkins"
+      ],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "recent-events"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Fall and Rise of Reggie Dinkins",
+          "url": "https://en.wikipedia.org/wiki/The_Fall_and_Rise_of_Reggie_Dinkins",
+          "snippet": "The Fall and Rise of Reggie Dinkins is an American sports mockumentary sitcom created by Robert Carlock and Sam Means for NBC. The series premiered as a midseason entry in the 2025–26 television season on January 18, 2026. In May 2026, the "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:06.479Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/You%27ve_Got_Mail",
+      "external_id": "pc-2026-06-28-015",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The 1937 Hungarian stage play Parfumerie by Miklós László reached the screen for the fourth time in this 1998 romantic comedy set in the early days of internet communication.",
+      "answer": "You've Got Mail",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pc-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "You've Got Mail",
+          "url": "https://en.wikipedia.org/wiki/You've_Got_Mail",
+          "snippet": "You've Got Mail is a 1998 American romantic comedy film directed by Nora Ephron, and starring Tom Hanks and Meg Ryan alongside Parker Posey, Jean Stapleton, Dave Chappelle, Steve Zahn, and Greg Kinnear. Inspired by the 1937 Hungarian play P"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T15:31:06.851Z"
+    }
+  ]
+}
