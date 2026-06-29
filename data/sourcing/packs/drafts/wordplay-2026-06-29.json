@@ -1,0 +1,202 @@
+{
+  "pack_id": "wordplay-2026-06-29",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-29T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-ini-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of a well-known two-word location — what is it?",
+      "clue": "Home to dozens of the world's largest technology companies and defined by its startup culture, this stretch of the San Francisco Bay Area took on its current character in the mid-20th century.",
+      "answer": "Silicon Valley",
+      "lock_value": true,
+      "aliases": [],
+      "wp": {
+        "initials": "S.V."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-ini-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of a well-known two-word landmark — what is it?",
+      "clue": "Carved into a South Dakota granite cliff between 1927 and 1941, this monument features the likenesses of four U.S. presidents chosen to represent the nation's founding, expansion, preservation, and development.",
+      "answer": "Mount Rushmore",
+      "lock_value": true,
+      "aliases": ["Mt. Rushmore", "Mount Rushmore National Memorial"],
+      "wp": {
+        "initials": "M.R."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-ini-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 4,
+      "mechanic": "initials",
+      "constraint_text": "These are a person's initials — who do they belong to?",
+      "clue": "This prominent diplomat and humanitarian served as the United States' first delegate to the United Nations and played a leading role in drafting the Universal Declaration of Human Rights in 1948.",
+      "answer": "Eleanor Roosevelt",
+      "lock_value": true,
+      "aliases": ["Roosevelt"],
+      "wp": {
+        "initials": "E.R."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-ini-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 800,
+      "difficulty_rank": 5,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of a common two-word phrase — what does it stand for?",
+      "clue": "This psychological phenomenon — first documented following a 1973 Swedish bank robbery — describes captives who develop loyalty, affection, or even a protective stance toward the people holding them.",
+      "answer": "Stockholm Syndrome",
+      "lock_value": true,
+      "aliases": ["stockholm syndrome"],
+      "wp": {
+        "initials": "S.S."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-ini-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 800,
+      "difficulty_rank": 5,
+      "mechanic": "initials",
+      "constraint_text": "These are a person's initials — who do they belong to?",
+      "clue": "Born in Portland, Maine in 1947, this prolific author of horror and supernatural suspense fiction suffered a near-fatal collision with a van in 1999 while walking along a rural road near his home.",
+      "answer": "Stephen King",
+      "lock_value": true,
+      "aliases": ["King"],
+      "wp": {
+        "initials": "S.K."
+      },
+      "tags": ["wp-draft", "initials"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-hw-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "In a savanna colony, each member of this six-legged insect order carries food fragments and soil back to the central mound in a single-file procession as regular as a chant.",
+      "answer": "Ant",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "chant"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-hw-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "Glaciologists keep drill core samples of this frozen substance — key evidence of ancient climate records — sealed in temperature-controlled containers in the field office.",
+      "answer": "Ice",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "office"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-hw-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "A blacksmith's masterwork and a lumberjack's most essential implement, this heavy-bladed chopping tool has a place in American frontier folklore — its handle waxed smooth from decades of daily use.",
+      "answer": "Axe",
+      "aliases": ["Ax"],
+      "wp": {
+        "hidden_in": "waxed"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-hw-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "Historians use this word — as in 'the Ice Age,' 'the Gilded Age,' or 'the Space Race' — to label one of several long, distinct chapters in human or geological time.",
+      "answer": "Era",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "several"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-29-hw-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "This feeling of reverential wonder — sparked by something vast, sublime, or overwhelming — is never produced by anything small, ordinary, or flawed.",
+      "answer": "Awe",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "flawed"
+      },
+      "tags": ["wp-draft", "hidden-word"],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
