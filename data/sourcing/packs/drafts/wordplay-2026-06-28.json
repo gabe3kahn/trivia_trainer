@@ -2,7 +2,7 @@
   "pack_id": "wordplay-2026-06-28",
   "category_id": "language_wordplay",
   "created_at": "2026-06-28",
-  "notes": "Run 2026-06-28. Mechanics: anagram (5) + homophone (5). Rotation: prior run used crossword + rhyme_time; run before that used initials + before_after. Anagram answers: Stop, Crate, Retina, Tinsel, Singers. Homophone answers: Knot, Ring, Veil, Mourning, Mantle.",
+  "notes": "Run 2026-06-28. Mechanics: anagram (5) + homophone (5). Rotation: prior run used crossword + rhyme_time; run before that used initials + before_after. Anagram answers: Stop, Crate, Retina, Tapers, Singers. Homophone answers: Knot, Peer, Veil, Mourning, Mantle.",
   "questions": [
     {
       "source": "constructed",
@@ -13,7 +13,7 @@
       "difficulty_rank": 1,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "She pressed her palm down on the spinning tops, and each one instantly fell quiet and still.",
+      "clue": "The moment she pressed her palm down on the spinning tops, each one instantly fell quiet and still.",
       "answer": "Stop",
       "answer_type": "other",
       "aliases": [],
@@ -87,7 +87,7 @@
       "answer_type": "other",
       "aliases": [],
       "tags": [
-        "wordplay",
+        "wp-draft",
         "anagram"
       ],
       "citations": [],
@@ -156,7 +156,7 @@
       "answer_type": "other",
       "aliases": [],
       "tags": [
-        "wordplay",
+        "wp-draft",
         "homophone"
       ],
       "citations": [],
@@ -220,7 +220,7 @@
       "difficulty_rank": 5,
       "mechanic": "homophone",
       "constraint_text": "This word sounds exactly like another word with a different spelling and meaning.",
-      "clue": "The old clock on the mantel struck twice as the geologist described the molten rock layer pressing against the crust from below; it is a mass of slow-moving silicate that spans more than two thousand kilometers in depth.",
+      "clue": "The old clock on the mantel struck twice as the geologist described the molten rock layer pressing against the crust from below.",
       "answer": "Mantle",
       "answer_type": "other",
       "aliases": [],
