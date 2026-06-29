@@ -11,11 +11,18 @@ import { colors, radius, spacing, type } from '@/src/theme';
 import type { AttemptGrade, ChallengeQuestion } from '@/src/types/supabase';
 
 /**
- * Shared timed answer-flow for Compete modes (Daily Challenge now, Duels next). Mirrors
- * the Train grade-then-confirm pattern, but adds a per-clue countdown (QuestionTimer) that
- * auto-reveals a no-answer at zero. The caller supplies the clue set + a submit fn and gets
- * an onComplete callback; this component owns the UI, grading, timing, and advance.
+ * Shared timed answer-flow for Compete modes (Daily Challenge + Duels). Mirrors the
+ * Train grade-then-confirm pattern, but adds a per-clue countdown (QuestionTimer) that
+ * auto-reveals a no-answer at zero. The run is buffered locally and handed to onComplete
+ * as one batch when it finishes — nothing is written mid-run, so abandoning records
+ * nothing. This component owns the UI, grading, timing, and advance.
  */
+export type ChallengePlayerAttempt = {
+  question: ChallengeQuestion;
+  response: string | null;
+  grade: AttemptGrade;
+  timeMs: number;
+};
 export type ChallengePlayerProps = {
   questions: ChallengeQuestion[];
   startIndex?: number;
@@ -23,17 +30,19 @@ export type ChallengePlayerProps = {
   // Daily/practice let the player correct the auto-grade. Duels set this false: the
   // auto-grade is final and the override chips are hidden (no marking yourself right).
   allowGradeOverride?: boolean;
-  onSubmit: (a: { question: ChallengeQuestion; response: string | null; grade: AttemptGrade; timeMs: number }) => Promise<void>;
-  onComplete: (summary: { correct: number; total: number }) => void;
+  // Called once, with every buffered attempt, when the last clue is answered. May throw
+  // to keep the player on the Finish screen for a retry.
+  onComplete: (attempts: ChallengePlayerAttempt[], summary: { correct: number; total: number }) => Promise<void> | void;
 };
 
-export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion = 30, allowGradeOverride = true, onSubmit, onComplete }: ChallengePlayerProps) {
+export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion = 30, allowGradeOverride = true, onComplete }: ChallengePlayerProps) {
   const [index, setIndex] = useState(startIndex);
   const [typed, setTyped] = useState('');
   const [result, setResult] = useState<GradeResult | null>(null);
   const [override, setOverride] = useState<AttemptGrade | null>(null);
   const [saving, setSaving] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
+  const buffer = useRef<ChallengePlayerAttempt[]>([]);
   const startedAt = useRef(Date.now());
 
   const q = questions[index] ?? null;
@@ -54,25 +63,29 @@ export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion 
 
   async function saveAndAdvance() {
     if (!q || !result || saving) return;
-    try {
-      setSaving(true);
-      await onSubmit({ question: q, response: typed.trim() || null, grade: finalGrade, timeMs: elapsedMs() });
-      const nowCorrect = correctCount + (finalGrade === 'correct' ? 1 : 0);
-      if (finalGrade === 'correct') setCorrectCount(nowCorrect);
-      tapLight();
-      const next = index + 1;
-      if (next >= questions.length) {
-        onComplete({ correct: nowCorrect, total: questions.length });
-        return;
+
+    const all = [...buffer.current, { question: q, response: typed.trim() || null, grade: finalGrade, timeMs: elapsedMs() }];
+    buffer.current = all;
+    const nowCorrect = correctCount + (finalGrade === 'correct' ? 1 : 0);
+    if (finalGrade === 'correct') setCorrectCount(nowCorrect);
+    tapLight();
+
+    const next = index + 1;
+    if (next >= questions.length) {
+      // Commit the whole run now (one batch call). If it throws, stay on Finish to retry.
+      try {
+        setSaving(true);
+        await onComplete(all, { correct: nowCorrect, total: questions.length });
+      } finally {
+        setSaving(false);
       }
-      setIndex(next);
-      setTyped('');
-      setResult(null);
-      setOverride(null);
-      startedAt.current = Date.now();
-    } finally {
-      setSaving(false);
+      return;
     }
+    setIndex(next);
+    setTyped('');
+    setResult(null);
+    setOverride(null);
+    startedAt.current = Date.now();
   }
 
   if (!q) return null;

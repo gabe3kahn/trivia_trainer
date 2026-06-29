@@ -48,6 +48,30 @@ export async function fetchDailyActivity(startDate: string, endDate: string) {
   return data;
 }
 
+export type ActivityDay = {
+  date: string;
+  total: number;
+  correct: number;
+  missed: number;
+  by_category: Record<string, number>;
+};
+export type ActivityCategory = { category_id: string; reps: number; correct: number; accuracy: number };
+export type ActivitySummary = { daily: ActivityDay[]; by_category: ActivityCategory[] };
+
+export async function getActivitySummary(days = 30): Promise<ActivitySummary> {
+  const { data, error } = await (supabase.rpc as any)('get_activity_summary', { p_days: days });
+  if (error) throw error;
+  return (data as ActivitySummary) ?? { daily: [], by_category: [] };
+}
+
+export type CompetencyPoint = { date: string; score: number; attempts: number };
+
+export async function getCompetencyTimeseries(days = 30): Promise<CompetencyPoint[]> {
+  const { data, error } = await (supabase.rpc as any)('get_competency_timeseries', { p_days: days });
+  if (error) throw error;
+  return (data as CompetencyPoint[]) ?? [];
+}
+
 export async function fetchBadges() {
   const { data, error } = await supabase
     .from('badges')
@@ -158,6 +182,64 @@ export async function submitPracticeAttempt({
 
   if (error) throwSupabaseError(error);
   return data;
+}
+
+// A buffered run is committed in one call when it finishes (033): all attempts are
+// inserted server-side and competency recalcs once. Abandoning a run writes nothing.
+export type RunAttempt = {
+  questionId: string;
+  response: string | null;
+  grade: AttemptGrade;
+  timeMs: number | null;
+};
+
+const toAttemptJson = (attempts: RunAttempt[]) =>
+  attempts.map((a) => ({ question_id: a.questionId, response: a.response, grade: a.grade, time_ms: a.timeMs }));
+
+export async function submitPracticeRun({
+  mode,
+  questionIds,
+  attempts,
+  selectedCategories = [],
+  selectedSubcategories = [],
+  selectedValues = [],
+  selectedMechanics = [],
+}: {
+  mode: SessionMode;
+  questionIds: string[];
+  attempts: RunAttempt[];
+  selectedCategories?: string[];
+  selectedSubcategories?: string[];
+  selectedValues?: number[];
+  selectedMechanics?: string[];
+}) {
+  const { data, error } = await (supabase.rpc as any)('submit_practice_run', {
+    p_mode: mode,
+    p_question_ids: questionIds,
+    p_attempts: toAttemptJson(attempts),
+    p_selected_categories: selectedCategories,
+    p_selected_subcategories: selectedSubcategories,
+    p_selected_values: selectedValues,
+    p_selected_mechanics: selectedMechanics,
+  });
+  if (error) throwSupabaseError(error);
+  return data;
+}
+
+export async function submitGameRun(gameId: string, attempts: RunAttempt[]) {
+  const { error } = await (supabase.rpc as any)('submit_game_run', {
+    p_game: gameId,
+    p_attempts: toAttemptJson(attempts),
+  });
+  if (error) throwSupabaseError(error);
+}
+
+export async function submitDailyRun(date: string, attempts: RunAttempt[]) {
+  const { error } = await (supabase.rpc as any)('submit_daily_run', {
+    p_date: date,
+    p_attempts: toAttemptJson(attempts),
+  });
+  if (error) throwSupabaseError(error);
 }
 
 /* ---- Daily Challenge (017) ------------------------------------------------ */

@@ -39,6 +39,8 @@ function Touchable({
     <Pressable
       onPress={handlePress}
       disabled={disabled || !onPress}
+      // Delay activation so a scroll flick that starts on a card doesn't register as a tap.
+      unstable_pressDelay={130}
       style={({ pressed }) => [
         style as object,
         pressed && handlePress ? styles.pressed : null,
@@ -57,11 +59,12 @@ export function Screen({ children, contentStyle }: PropsWithChildren<{ contentSt
   return (
     <SafeAreaView style={styles.safeArea} edges={['top']}>
       <ScrollView
-        automaticallyAdjustKeyboardInsets
         contentContainerStyle={[styles.screen, contentStyle]}
-        keyboardDismissMode="interactive"
         keyboardShouldPersistTaps="handled"
         showsVerticalScrollIndicator={false}
+        bounces={false}
+        alwaysBounceVertical={false}
+        overScrollMode="never"
       >
         {children}
       </ScrollView>
@@ -238,7 +241,31 @@ export function ProgressBar({ value, color = colors.gold }: { value: number; col
 /* ------------------------------------------------------------------ *
  * MetricCard — used on Daily / Profile for glanceable numbers.
  * ------------------------------------------------------------------ */
-export function MetricCard({ label, value, detail }: { label: string; value: string; detail?: string }) {
+export function MetricCard({
+  label,
+  value,
+  detail,
+  onPress,
+}: {
+  label: string;
+  value: string;
+  detail?: string;
+  onPress?: () => void;
+}) {
+  if (onPress) {
+    // Full-width, tappable: label/value on the left, gold chevron on the right —
+    // matches the other clickable rows.
+    return (
+      <Touchable onPress={onPress} style={[styles.card, styles.metricCardRow]}>
+        <View style={styles.metricCardRowMain}>
+          <Text style={styles.metricLabel}>{label}</Text>
+          <Text style={styles.metricValue}>{value}</Text>
+          {detail ? <Text style={styles.metricDetail}>{detail}</Text> : null}
+        </View>
+        <FontAwesome name="angle-right" size={22} color={colors.gold} />
+      </Touchable>
+    );
+  }
   return (
     <Card style={styles.metricCard}>
       <Text style={styles.metricLabel}>{label}</Text>
@@ -505,8 +532,11 @@ const styles = StyleSheet.create({
     backgroundColor: colors.background,
   },
   screen: {
+    flexGrow: 1,
     padding: spacing.md,
-    paddingBottom: 120,
+    // Just breathing room — the tab bar is already excluded from the scroll area, so a
+    // large pad here only created scrollable blank below content that otherwise fits.
+    paddingBottom: spacing.xl,
     gap: spacing.md,
   },
 
@@ -691,6 +721,13 @@ const styles = StyleSheet.create({
     backgroundColor: colors.elevated,
     gap: 4,
   },
+  metricCardRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    backgroundColor: colors.elevated,
+  },
+  metricCardRowMain: { flex: 1, gap: 4 },
   metricLabel: {
     ...type.overline,
     color: colors.muted,

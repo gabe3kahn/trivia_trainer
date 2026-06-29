@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TriviO — Home + Activity Tracker (proposal)</title>
+<style>
+  :root{
+    --bg:#0B0B14; --surface:#1A1B2B; --surface2:#24263A; --elevated:#222338;
+    --line:#34374F; --line2:#24263A;
+    --ink:#F4F6FB; --muted:#9AA0B4; --dim:#5A6076;
+    --gold:#F2B84B; --gold-soft:#33260F;
+    --teal:#2DD4BF; --green:#34D399; --red:#FB7185; --blue:#60A5FA; --purple:#A78BFA;
+    --r-sm:10px; --r:14px; --r-lg:20px; --r-xl:28px;
+    --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    /* category palette — mirrors mobile/src/theme.ts categoryColor */
+    --history:#E0973A; --geography:#34D399; --science:#2DD4BF; --arts:#A78BFA;
+    --literature:#FB7185; --music:#F472B6; --wordplay:#60A5FA; --words:#7DD3FC;
+    --pop:#FB923C; --religion:#818CF8; --sports:#A3E635;
+  }
+  *{box-sizing:border-box;-webkit-font-smoothing:antialiased}
+  body{margin:0;background:radial-gradient(1200px 700px at 18% -10%,#171936 0%,var(--bg) 55%);
+       color:var(--ink);font-family:var(--font);padding:40px 26px 90px}
+  h1{font-size:26px;margin:0 0 6px;letter-spacing:-.5px}
+  .sub{color:var(--muted);max-width:820px;line-height:1.55;margin:0 0 18px;font-size:14.5px}
+  .legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px;max-width:860px}
+  .chip{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 11px;font-size:12px;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+  .chip i{width:9px;height:9px;border-radius:3px;display:inline-block}
+  .row{display:flex;gap:34px;flex-wrap:wrap;align-items:flex-start}
+  .case{display:flex;flex-direction:column;gap:12px;width:392px}
+  .case .cap{font-size:13px;color:var(--muted);line-height:1.5}
+  .case .cap b{color:var(--gold);font-weight:700}
+
+  .phone{width:392px;height:836px;border-radius:46px;background:#05060c;
+         border:1px solid #2a3346;box-shadow:0 30px 70px rgba(0,0,0,.55),inset 0 0 0 7px #0a0c14;
+         padding:13px;position:relative;overflow:hidden}
+  .notch{position:absolute;top:13px;left:50%;transform:translateX(-50%);width:120px;height:30px;background:#05060c;border-radius:0 0 18px 18px;z-index:30}
+  .scrn{position:absolute;inset:13px;border-radius:36px;background:var(--bg);overflow:hidden;display:flex;flex-direction:column}
+  .stat{height:42px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 24px 5px;font-size:13px;font-weight:600}
+  .stat .r{font-size:12px;letter-spacing:.5px;opacity:.85}
+  .scrollbody{flex:1;overflow:auto;padding:4px 18px 16px}
+  .scrollbody::-webkit-scrollbar{display:none}
+  .nav{height:70px;display:flex;background:#0d0f1a;border-top:1px solid var(--line);padding-top:9px}
+  .nav a{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;color:var(--dim);font-size:10.5px;font-weight:600;text-decoration:none}
+  .nav a.on{color:var(--gold)}
+  .nav svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.9}
+
+  .ph-h{display:flex;align-items:flex-start;justify-content:space-between;margin:8px 2px 14px}
+  .ph-h .t{font-size:30px;font-weight:800;letter-spacing:-.5px;line-height:1}
+  .brand{font-size:13px;font-weight:800;color:var(--muted);letter-spacing:.3px;display:flex;align-items:center;gap:5px;margin-bottom:8px}
+  .brand .o{width:15px;height:15px;border-radius:50%;border:3px solid var(--gold);position:relative}
+  .brand .o::after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--gold)}
+  .av{width:42px;height:42px;border-radius:13px;background:var(--surface);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--gold);font-weight:800}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px}
+  .card+.card{margin-top:12px}
+  .over{font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .muted{color:var(--muted)} .dim{color:var(--dim)}
+  .sec{margin:20px 2px 10px;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);font-weight:700}
+
+  /* hero ring */
+  .hero{display:flex;align-items:center;gap:18px}
+  .ring{position:relative;flex:none;width:104px;height:104px}
+  .ring .n{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .ring .n b{font-weight:800;font-size:34px;line-height:1}
+  .ring .n span{font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-top:3px}
+  .hero .tier{font-size:23px;font-weight:800}
+  .up{color:var(--green);font-weight:700;font-size:13px}
+  .hstat{color:var(--muted);font-size:12.5px;margin-top:3px}
+  /* hero-states comparison (outside a phone) */
+  .topsec{font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);font-weight:700;margin:4px 2px 14px}
+  .herorow{display:flex;gap:18px;flex-wrap:wrap;margin:0 0 32px}
+  .hcase{width:330px}
+  .hlbl{font-size:12.5px;color:var(--muted);margin-bottom:8px;font-weight:600}
+  .hlbl b{color:var(--gold);font-weight:700}
+  .herorow .card{margin-top:0}
+
+  /* streak strip */
+  .streak{display:flex;align-items:center;justify-content:space-between}
+  .streak .dots{display:flex;gap:7px}
+  .streak .d{width:24px;height:24px;border-radius:8px;background:var(--surface2);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:10px;color:var(--dim);font-weight:700}
+  .streak .d.on{background:var(--gold-soft);border-color:rgba(242,184,75,.5);color:var(--gold)}
+  .streak .d.today{box-shadow:0 0 0 2px rgba(242,184,75,.35)}
+  .flame{font-size:15px;font-weight:800;color:var(--gold);display:flex;align-items:center;gap:5px}
+  .goal{font-size:11.5px;color:var(--muted);margin-top:2px}
+
+  /* activity chart */
+  .chead{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
+  .toggle{display:flex;background:var(--surface2);border:1px solid var(--line);border-radius:999px;padding:3px}
+  .toggle button{border:none;background:none;color:var(--muted);font-weight:700;font-size:11px;padding:5px 10px;border-radius:999px;cursor:pointer;font-family:inherit}
+  .toggle button.on{background:var(--gold);color:#231a05}
+  .chart{height:150px;display:flex;align-items:flex-end;gap:2px;margin:14px 0 4px}
+  .bar{flex:1;display:flex;flex-direction:column-reverse;justify-content:flex-start;gap:1px;border-radius:2px;overflow:hidden;min-height:2px;position:relative}
+  .bar.today{outline:1.5px solid var(--gold);outline-offset:1px;border-radius:3px}
+  .seg{width:100%}
+  .xaxis{display:flex;justify-content:space-between;font-size:10px;color:var(--dim);margin-top:6px;font-weight:600}
+  .csum{display:flex;gap:14px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+  .csum .k{font-size:11px;color:var(--muted);font-weight:600}
+  .csum .v{font-size:18px;font-weight:800;margin-top:2px}
+  .callout{position:relative;margin:10px 0 0;background:var(--elevated);border:1px solid var(--line);border-radius:12px;padding:9px 12px;font-size:12px}
+  .callout b{font-weight:800}
+  .lgnd{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .lgnd span{font-size:10.5px;color:var(--muted);display:inline-flex;align-items:center;gap:5px}
+  .lgnd i{width:8px;height:8px;border-radius:2px}
+
+  /* CTA */
+  .cta{margin-top:14px;background:linear-gradient(180deg,rgba(242,184,75,.10),rgba(242,184,75,.03));border:1px solid rgba(242,184,75,.45);border-radius:var(--r-lg);padding:15px;display:flex;align-items:center;gap:13px}
+  .cta .ic{width:46px;height:46px;border-radius:12px;background:var(--gold-soft);display:flex;align-items:center;justify-content:center;font-size:20px}
+  .cta .tt{font-size:17px;font-weight:800}
+  .cta .ss{font-size:12.5px;color:var(--gold);font-weight:700;margin-top:2px}
+  .cta .chev{margin-left:auto;color:var(--gold);font-size:20px}
+
+  /* per-category breakdown rows */
+  .brk{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid var(--line2)}
+  .brk:last-child{border-bottom:none}
+  .brk .dot{width:10px;height:10px;border-radius:3px;flex:none}
+  .brk .nm{font-size:13.5px;font-weight:600;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .brk .m{font-size:12.5px;font-weight:700;text-align:right}
+  .brk .m.reps{width:34px;color:var(--ink)}
+  .brk .m.acc{width:42px;color:var(--muted)}
+  .brk .m.delta{width:46px;color:var(--green)}
+  .brkhead{display:flex;align-items:center;gap:10px;padding:4px 0 8px;font-size:9.5px;letter-spacing:.5px;text-transform:uppercase;color:var(--dim);font-weight:700;border-bottom:1px solid var(--line2)}
+  .brkhead .nm{flex:1}.brkhead .m{text-align:right}.brkhead .reps{width:34px}.brkhead .acc{width:42px}.brkhead .delta{width:46px}
+  /* line chart */
+  .linewrap{margin:12px 0 2px}
+  .linewrap svg{width:100%;height:120px;display:block;overflow:visible}
+</style>
+</head>
+<body>
+  <h1>TriviO — Home + 30-day activity tracker</h1>
+  <p class="sub">
+    Beta feedback: <b style="color:var(--ink)">"the home screen is empty"</b> and <b style="color:var(--ink)">"let me commit to a daily session and watch a 30-day chart of how many I did (missed vs correct), color-coded by category."</b>
+    Proposal: add a <b style="color:var(--ink)">daily streak</b> strip + a <b style="color:var(--ink)">30-day activity chart</b> with a toggle between <b style="color:var(--ink)">Correct · Missed</b> (the core ask) and <b style="color:var(--ink)">By category</b> (the "maybe"). Tapping the chart opens a fuller Activity view with a per-category breakdown.
+    Also fixes the confusing <b style="color:var(--ink)">"Unmapped"</b> hero (see the three states below): a thin-evidence user sees a <b style="color:var(--ink)">"Getting started"</b> placement with progress instead of a low number, a mapped sub-20 score reads <b style="color:var(--ink)">"Novice"</b>, and "Unmapped" is retired (migration 026).
+  </p>
+  <div class="legend" id="legend"></div>
+
+  <div class="topsec">Hero states — fixing "Unmapped"</div>
+  <div class="herorow">
+    <div class="hcase">
+      <div class="hlbl"><b>Getting started</b> · thin evidence (reps &lt; 15)</div>
+      <div class="card hero">
+        <div class="ring">
+          <svg width="104" height="104" viewBox="0 0 104 104">
+            <circle cx="52" cy="52" r="46" stroke="#24263A" stroke-width="9" fill="none"/>
+            <circle cx="52" cy="52" r="46" stroke="#F2B84B" stroke-width="9" fill="none" stroke-linecap="round" stroke-dasharray="289" stroke-dashoffset="58" transform="rotate(-90 52 52)"/>
+          </svg>
+          <div class="n"><b style="font-size:25px">12<span style="font-size:14px;color:var(--muted)">/15</span></b><span>reps</span></div>
+        </div>
+        <div>
+          <div class="tier" style="font-size:21px">Getting started</div>
+          <div class="up" style="color:var(--gold)">3 more to find your level</div>
+          <div class="hstat">No score yet — placement in progress</div>
+        </div>
+      </div>
+    </div>
+    <div class="hcase">
+      <div class="hlbl"><b>Novice</b> · mapped, score &lt; 20</div>
+      <div class="card hero">
+        <div class="ring">
+          <svg width="104" height="104" viewBox="0 0 104 104">
+            <circle cx="52" cy="52" r="46" stroke="#24263A" stroke-width="9" fill="none"/>
+            <circle cx="52" cy="52" r="46" stroke="#FB7185" stroke-width="9" fill="none" stroke-linecap="round" stroke-dasharray="289" stroke-dashoffset="243" transform="rotate(-90 52 52)"/>
+          </svg>
+          <div class="n"><b>16</b><span>Overall</span></div>
+        </div>
+        <div>
+          <div class="tier">Novice</div>
+          <div class="up">▲ +4 this week</div>
+          <div class="hstat">22 reps · 3 to review</div>
+        </div>
+      </div>
+    </div>
+    <div class="hcase">
+      <div class="hlbl"><b>Solid</b> · mapped, beating par</div>
+      <div class="card hero">
+        <div class="ring">
+          <svg width="104" height="104" viewBox="0 0 104 104">
+            <circle cx="52" cy="52" r="46" stroke="#24263A" stroke-width="9" fill="none"/>
+            <circle cx="52" cy="52" r="46" stroke="#34D399" stroke-width="9" fill="none" stroke-linecap="round" stroke-dasharray="289" stroke-dashoffset="104" transform="rotate(-90 52 52)"/>
+          </svg>
+          <div class="n"><b>64</b><span>Overall</span></div>
+        </div>
+        <div>
+          <div class="tier">Solid</div>
+          <div class="up">▲ +6 this week</div>
+          <div class="hstat">140 reps · 8 to review</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="case">
+      <div class="cap"><b>Home (proposed)</b> — streak + activity chart fill the dead space below the score ring. The chart's toggle is live: click <b>Correct · Missed</b> / <b>By category</b>.</div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="scrn">
+          <div class="stat"><span>6:53</span><span class="r">📶 ▮▮▮ 🔋</span></div>
+          <div class="scrollbody">
+            <div class="ph-h">
+              <div>
+                <div class="brand">Trivi<span class="o"></span></div>
+                <div class="t">Home</div>
+              </div>
+              <div class="av">G</div>
+            </div>
+
+            <!-- streak -->
+            <div class="card streak">
+              <div>
+                <div class="flame">🔥 5-day streak</div>
+                <div class="goal">Goal: 1 session a day · you're in today ✓</div>
+              </div>
+              <div class="dots">
+                <div class="d on">M</div><div class="d on">T</div><div class="d on">W</div>
+                <div class="d on">T</div><div class="d on today">F</div><div class="d">S</div><div class="d">S</div>
+              </div>
+            </div>
+
+            <!-- hero ring — "Getting started" placement state (thin evidence: 12 of 15 reps) -->
+            <div class="card hero">
+              <div class="ring">
+                <svg width="104" height="104" viewBox="0 0 104 104">
+                  <circle cx="52" cy="52" r="46" stroke="#24263A" stroke-width="9" fill="none"/>
+                  <circle cx="52" cy="52" r="46" stroke="#F2B84B" stroke-width="9" fill="none"
+                    stroke-linecap="round" stroke-dasharray="289" stroke-dashoffset="58" transform="rotate(-90 52 52)"/>
+                </svg>
+                <div class="n"><b style="font-size:25px">12<span style="font-size:14px;color:var(--muted)">/15</span></b><span>reps</span></div>
+              </div>
+              <div>
+                <div class="tier" style="font-size:21px">Getting started</div>
+                <div class="up" style="color:var(--gold)">3 more to find your level</div>
+                <div class="hstat">Your score unlocks once we've got a read</div>
+              </div>
+            </div>
+
+            <!-- activity chart -->
+            <div class="card">
+              <div class="chead">
+                <div class="over">Last 30 days</div>
+                <div class="toggle">
+                  <button class="on" onclick="setMode('cm',this)">Correct · Missed</button>
+                  <button onclick="setMode('cat',this)">By category</button>
+                </div>
+              </div>
+              <div class="chart" id="chart"></div>
+              <div class="xaxis"><span>4 wks ago</span><span>3 wks</span><span>2 wks</span><span>last wk</span><span>today</span></div>
+              <div class="callout" id="callout">📌 <b>Yesterday</b> — 14 done · <span style="color:var(--green)">11 correct</span> / <span style="color:var(--red)">3 missed</span></div>
+              <div class="csum">
+                <div><div class="k">This month</div><div class="v">248</div></div>
+                <div><div class="k">Correct</div><div class="v" style="color:var(--green)">79%</div></div>
+                <div><div class="k">Active days</div><div class="v">22<span style="font-size:12px;color:var(--muted)">/30</span></div></div>
+              </div>
+              <div class="lgnd" id="chartLegend"></div>
+            </div>
+
+            <!-- CTA -->
+            <div class="cta">
+              <div class="ic">⚡</div>
+              <div>
+                <div class="tt">Train your weak spots</div>
+                <div class="ss">Literature & Books · History · Music</div>
+              </div>
+              <div class="chev">›</div>
+            </div>
+          </div>
+          <div class="nav">
+            <a class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>Train</a>
+            <a><svg viewBox="0 0 24 24"><path d="M6 9h12l-1 8H7zM9 9V6a3 3 0 016 0v3"/></svg>Compete</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="case">
+      <div class="cap"><b>Activity detail</b> (tap the chart) — the full history: the 30-day chart colored <b>by category</b>, a per-category breakdown (reps + accuracy), and the streak calendar. This is the "monitor my progress" deep-dive.</div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="scrn">
+          <div class="stat"><span>6:54</span><span class="r">📶 ▮▮▮ 🔋</span></div>
+          <div class="scrollbody">
+            <div class="ph-h" style="align-items:center">
+              <div style="display:flex;align-items:center;gap:10px">
+                <span style="font-size:22px;color:var(--muted)">‹</span>
+                <div class="t" style="font-size:24px">Activity</div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="over" style="margin-bottom:4px">Overall competency · 30 days</div>
+              <div id="line"></div>
+              <div class="xaxis"><span>4 wks ago</span><span>3 wks</span><span>2 wks</span><span>last wk</span><span>today</span></div>
+              <div class="csum">
+                <div><div class="k">Now</div><div class="v">16</div></div>
+                <div><div class="k">This month</div><div class="v" style="color:var(--green)">▲ +16</div></div>
+                <div><div class="k">Peak</div><div class="v">18</div></div>
+              </div>
+            </div>
+
+            <div class="sec">By category · this month</div>
+            <div class="card" id="breakdown"></div>
+            <div class="dim" style="font-size:11px;margin:8px 4px 0;line-height:1.5">Questions answered · accuracy · competency change this month.</div>
+          </div>
+          <div class="nav">
+            <a class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>Train</a>
+            <a><svg viewBox="0 0 24 24"><path d="M6 9h12l-1 8H7zM9 9V6a3 3 0 016 0v3"/></svg>Compete</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="topsec" style="margin-top:36px">New-user state — zero history (first launch)</div>
+  <p class="sub" style="margin-bottom:18px">
+    <b style="color:var(--ink)">As built today</b>, all three components already render safely with no data — but bare: the streak reads <b style="color:var(--ink)">"🔥 0-day streak,"</b> the 30-day chart is 30 empty slivers, and the summary shows <b style="color:var(--ink)">0 · 0% · 0/30</b>. The hero ring already handles emptiness well (the <b style="color:var(--gold)">"Getting started"</b> 0/15 placement). <b style="color:var(--gold)">Proposed below:</b> give the streak and chart real empty-state copy so a first-launch user sees an invitation, not zeros.
+  </p>
+  <div class="row">
+    <div class="case">
+      <div class="cap"><b>As built</b> — renders, but the streak says "0-day" and the chart is flat slivers with a 0/0%/0 summary. No crash, just no guidance.</div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="scrn">
+          <div class="stat"><span>9:41</span><span class="r">📶 ▮▮▮ 🔋</span></div>
+          <div class="scrollbody">
+            <div class="ph-h">
+              <div><div class="brand">Trivi<span class="o"></span></div><div class="t">Home</div></div>
+              <div class="av">G</div>
+            </div>
+            <div class="card streak">
+              <div>
+                <div class="flame">🔥 0-day streak</div>
+                <div class="goal">1 session a day · play to keep it alive</div>
+              </div>
+              <div class="dots">
+                <div class="d">M</div><div class="d">T</div><div class="d">W</div>
+                <div class="d">T</div><div class="d today">F</div><div class="d">S</div><div class="d">S</div>
+              </div>
+            </div>
+            <div class="card hero">
+              <div class="ring">
+                <svg width="104" height="104" viewBox="0 0 104 104">
+                  <circle cx="52" cy="52" r="46" stroke="#24263A" stroke-width="9" fill="none"/>
+                </svg>
+                <div class="n"><b style="font-size:25px">0<span style="font-size:14px;color:var(--muted)">/15</span></b><span>reps</span></div>
+              </div>
+              <div>
+                <div class="tier" style="font-size:21px">Getting started</div>
+                <div class="up" style="color:var(--gold)">15 more to find your level</div>
+                <div class="hstat">Your score unlocks once we've got a read</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="chead">
+                <div class="over">Last 30 days</div>
+                <div class="toggle"><button class="on">Correct · Missed</button><button>By category</button></div>
+              </div>
+              <div class="chart" style="align-items:flex-end">
+                <!-- 30 empty slivers -->
+                <div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--line2)"></div><div style="flex:1;height:2px;background:var(--gold)"></div>
+              </div>
+              <div class="xaxis"><span>4 wks ago</span><span>today</span></div>
+              <div class="csum">
+                <div><div class="k">This month</div><div class="v">0</div></div>
+                <div><div class="k">Correct</div><div class="v">0%</div></div>
+                <div><div class="k">Active days</div><div class="v">0<span style="font-size:12px;color:var(--muted)">/30</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <a class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>Train</a>
+            <a><svg viewBox="0 0 24 24"><path d="M6 9h12l-1 8H7zM9 9V6a3 3 0 016 0v3"/></svg>Compete</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="case">
+      <div class="cap"><b>Proposed</b> — same components, empty-state copy. Streak <b>invites the first session</b>; the chart swaps slivers for a one-line <b>placeholder</b>; the CTA points a brand-new user at their first questions.</div>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="scrn">
+          <div class="stat"><span>9:41</span><span class="r">📶 ▮▮▮ 🔋</span></div>
+          <div class="scrollbody">
+            <div class="ph-h">
+              <div><div class="brand">Trivi<span class="o"></span></div><div class="t">Home</div></div>
+              <div class="av">G</div>
+            </div>
+            <div class="card streak">
+              <div>
+                <div class="flame">🔥 Start your streak</div>
+                <div class="goal">1 session a day · play to keep it alive</div>
+              </div>
+              <div class="dots">
+                <div class="d">M</div><div class="d">T</div><div class="d">W</div>
+                <div class="d">T</div><div class="d today">F</div><div class="d">S</div><div class="d">S</div>
+              </div>
+            </div>
+            <div class="card hero">
+              <div class="ring">
+                <svg width="104" height="104" viewBox="0 0 104 104">
+                  <circle cx="52" cy="52" r="46" stroke="#24263A" stroke-width="9" fill="none"/>
+                </svg>
+                <div class="n"><b style="font-size:25px">0<span style="font-size:14px;color:var(--muted)">/15</span></b><span>reps</span></div>
+              </div>
+              <div>
+                <div class="tier" style="font-size:21px">Getting started</div>
+                <div class="up" style="color:var(--gold)">15 more to find your level</div>
+                <div class="hstat">Your score unlocks once we've got a read</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="chead">
+                <div class="over">Last 30 days</div>
+                <div class="toggle"><button class="on">Correct · Missed</button><button>By category</button></div>
+              </div>
+              <div style="height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:7px;border:1.5px dashed var(--line);border-radius:12px;margin:14px 0 4px;padding:0 22px">
+                <div style="font-size:26px;opacity:.85">📊</div>
+                <div style="font-weight:800;font-size:14px">No activity yet</div>
+                <div style="font-size:11.5px;color:var(--muted);line-height:1.45">Your 30-day chart fills in as you answer — correct vs. missed, color-coded by category.</div>
+              </div>
+            </div>
+            <div class="cta">
+              <div class="ic">▶</div>
+              <div>
+                <div class="tt">Answer your first questions</div>
+                <div class="ss">Pick any category to begin</div>
+              </div>
+              <div class="chev">›</div>
+            </div>
+          </div>
+          <div class="nav">
+            <a class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>Train</a>
+            <a><svg viewBox="0 0 24 24"><path d="M6 9h12l-1 8H7zM9 9V6a3 3 0 016 0v3"/></svg>Compete</a>
+            <a><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  const CATS = [
+    ['History','--history','#E0973A'], ['Geography','--geography','#34D399'],
+    ['Science','--science','#2DD4BF'], ['Arts & Visual Culture','--arts','#A78BFA'],
+    ['Literature & Books','--literature','#FB7185'], ['Music & Performing Arts','--music','#F472B6'],
+    ['Wordplay','--wordplay','#60A5FA'], ['Words & Language','--words','#7DD3FC'],
+    ['Pop Culture','--pop','#FB923C'], ['Religion & Myth','--religion','#818CF8'],
+    ['Sports & Games','--sports','#A3E635'],
+  ];
+  // top legend
+  document.getElementById('legend').innerHTML = CATS.map(c=>`<span class="chip"><i style="background:${c[2]}"></i>${c[0]}</span>`).join('');
+
+  // deterministic pseudo-data — 30 days, each: total reps + per-category split + correct fraction
+  function lcg(seed){ let s=seed; return ()=> (s = (s*1103515245+12345)&0x7fffffff)/0x7fffffff; }
+  const rnd = lcg(42);
+  const days = Array.from({length:30}, (_,i)=>{
+    const active = rnd() > 0.18;               // ~22 active days
+    const reps = active ? Math.round(4 + rnd()*14) : 0;
+    // pick 1-3 categories for the day
+    const k = 1 + Math.floor(rnd()*3);
+    const idx = [...Array(CATS.length).keys()].sort(()=>rnd()-0.5).slice(0,k);
+    let left = reps; const split = idx.map((ci,j)=>{ const n = j===idx.length-1 ? left : Math.max(1,Math.round(reps/k*(0.6+rnd()))); left-=n; return [ci, Math.max(0,n)]; });
+    const correct = reps ? Math.min(reps, Math.round(reps*(0.6+rnd()*0.35))) : 0;
+    return { reps, split, correct };
+  });
+  const maxReps = Math.max(...days.map(d=>d.reps));
+  const H = 150;
+
+  function render(el, mode){
+    el.innerHTML = days.map((d,i)=>{
+      const scale = d.reps/maxReps*H;
+      let inner='';
+      if(d.reps===0){ inner=''; }
+      else if(mode==='cm'){
+        const cH = d.correct/d.reps*scale, mH = scale-cH;
+        inner = `<div class="seg" style="height:${cH}px;background:#34D399"></div>`+
+                (mH>0?`<div class="seg" style="height:${mH}px;background:#FB7185;opacity:.85"></div>`:'');
+      } else {
+        inner = d.split.map(([ci,n])=>`<div class="seg" style="height:${n/d.reps*scale}px;background:${CATS[ci][2]}"></div>`).join('');
+      }
+      const today = i===29 ? ' today' : '';
+      return `<div class="bar${today}" title="${d.reps} reps">${inner}</div>`;
+    }).join('');
+  }
+  function setMode(mode, btn){
+    document.querySelectorAll('.toggle button').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on');
+    render(document.getElementById('chart'), mode);
+    document.getElementById('chartLegend').innerHTML = mode==='cm'
+      ? `<span><i style="background:#34D399"></i>Correct</span><span><i style="background:#FB7185"></i>Missed</span>`
+      : CATS.slice(0,6).map(c=>`<span><i style="background:${c[2]}"></i>${c[0]}</span>`).join('')+`<span class="dim">+ more</span>`;
+    document.getElementById('callout').style.display = mode==='cm' ? 'block':'none';
+  }
+
+  render(document.getElementById('chart'),'cm');
+  setMode('cm', document.querySelector('.toggle button'));
+
+  // detail screen — OVERALL COMPETENCY over time (line), not a repeat of the bars
+  (function renderLine(){
+    const W=320, H=120, n=30;
+    // rising series from ~2 to 16 with gentle noise (deterministic)
+    const series = Array.from({length:n}, (_,i)=>{
+      const base = 2 + (16-2)*(i/(n-1));
+      return Math.max(0, Math.min(20, base + (rnd()-0.5)*3));
+    });
+    series[n-1]=16;
+    const maxY=20;
+    const x=i=>i/(n-1)*W, y=v=>H-(v/maxY*H);
+    const pts=series.map((v,i)=>`${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+    const area=`0,${H} ${pts} ${W},${H}`;
+    const svg=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+      <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#F2B84B" stop-opacity=".28"/><stop offset="1" stop-color="#F2B84B" stop-opacity="0"/>
+      </linearGradient></defs>
+      <line x1="0" y1="${y(10).toFixed(1)}" x2="${W}" y2="${y(10).toFixed(1)}" stroke="#34374F" stroke-width="1" stroke-dasharray="3 4"/>
+      <text x="2" y="${(y(10)-4).toFixed(1)}" fill="#5A6076" font-size="9" font-weight="700">par · 50</text>
+      <polygon points="${area}" fill="url(#g)"/>
+      <polyline points="${pts}" fill="none" stroke="#F2B84B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="${x(n-1).toFixed(1)}" cy="${y(16).toFixed(1)}" r="4" fill="#F2B84B" stroke="#0B0B14" stroke-width="2"/>
+    </svg>`;
+    document.getElementById('line').outerHTML = `<div class="linewrap" id="line">${svg}</div>`;
+  })();
+
+  // breakdown rows: reps + accuracy + competency change (Δ), top 6 by reps
+  const totals = CATS.map((c,ci)=>{ let reps=0; days.forEach(d=>d.split.forEach(([k,n])=>{ if(k===ci) reps+=n; }));
+                    return {c, reps, acc: 55+Math.round(rnd()*40), delta: 2+Math.round(rnd()*12)}; })
+                     .filter(t=>t.reps>0).sort((a,b)=>b.reps-a.reps).slice(0,6);
+  document.getElementById('breakdown').innerHTML =
+    `<div class="brkhead"><span class="nm">Category</span><span class="m reps">Qs</span><span class="m acc">Acc</span><span class="m delta">Comp</span></div>`+
+    totals.map(t=>
+    `<div class="brk"><span class="dot" style="background:${t.c[2]}"></span>`+
+    `<span class="nm">${t.c[0]}</span>`+
+    `<span class="m reps">${t.reps}</span>`+
+    `<span class="m acc">${t.acc}%</span>`+
+    `<span class="m delta">▲${t.delta}</span></div>`).join('');
+</script>
+</body>
+</html>

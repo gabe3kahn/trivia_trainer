@@ -5,7 +5,7 @@ import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Text, View
 import { ChallengePlayer } from '@/src/components/ChallengePlayer';
 import { Card, DifficultyPips, Header, Pill, PrimaryAction, Screen } from '@/src/components/ui';
 import { tapMedium } from '@/src/lib/haptics';
-import { createGame, getGame, submitGameAttempt } from '@/src/services/triviaApi';
+import { createGame, getGame, submitGameRun } from '@/src/services/triviaApi';
 import { supabase } from '@/src/services/supabase';
 import { accentFor, colors, radius, spacing, type } from '@/src/theme';
 import type { AttemptGrade, DailyAttempt, GamePayload } from '@/src/types/supabase';
@@ -50,10 +50,19 @@ export default function DuelScreen() {
         questions={remaining}
         secondsPerQuestion={game.seconds_per_question}
         allowGradeOverride={false}
-        onSubmit={async ({ question, response, grade, timeMs }) => {
-          await submitGameAttempt({ gameId: game.id, questionId: question.id, response, grade, timeMs });
+        onComplete={async (attempts) => {
+          try {
+            await submitGameRun(
+              game.id,
+              attempts.map((a) => ({ questionId: a.question.id, response: a.response, grade: a.grade, timeMs: a.timeMs })),
+            );
+          } catch (e) {
+            Alert.alert('Could not save your duel', e instanceof Error ? e.message : 'Try again.');
+            throw e; // keep the player on Finish for a retry
+          }
+          setPlaying(false);
+          await load();
         }}
-        onComplete={async () => { setPlaying(false); await load(); }}
       />
     );
   }

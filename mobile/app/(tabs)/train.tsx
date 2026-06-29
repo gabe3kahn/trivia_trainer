@@ -1,14 +1,22 @@
-import { useLocalSearchParams } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Card, ClueCard, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
 import { displayClue } from '@/src/clues/jeopardyStyle';
 import { tapLight, tapMedium, notifyError, notifySuccess, notifyWarning } from '@/src/lib/haptics';
+import { badgeIcon } from '@/src/constants/badges';
+import { useBadgeCheck } from '@/src/contexts/BadgeUnlockContext';
 import { gradeResponse, type GradeResult } from '@/src/scoring/answerGrader';
-import { createPracticeSession, getRecommendedQuestions, submitPracticeAttempt } from '@/src/services/triviaApi';
-import { colors, radius, spacing, type } from '@/src/theme';
+import {
+  fetchBadges,
+  fetchEarnedBadges,
+  fetchHomeCompetencies,
+  getRecommendedQuestions,
+  submitPracticeRun,
+} from '@/src/services/triviaApi';
+import { accentFor, colors, radius, spacing, type } from '@/src/theme';
 import type { AttemptGrade, RecommendedQuestion, SessionMode } from '@/src/types/supabase';
 
 const sessionLength = 12;
@@ -17,15 +25,75 @@ type SessionAttemptSummary = {
   questionId: string;
   categoryName: string;
   value: number;
+  difficultyRank: number;
   grade: GradeResult['grade'];
 };
 
-type StartOptions = { mechanics?: string[]; categories?: string[] };
+type StartOptions = { mechanics?: string[]; categories?: string[]; values?: number[]; limit?: number };
+
+// A run is buffered locally and only committed when it reaches the end. An
+// abandoned run writes nothing, and competency/badges recalc once, at the end.
+type PendingAttempt = {
+  questionId: string;
+  typedResponse: string | null;
+  grade: AttemptGrade;
+  timeToAnswerMs: number | null;
+};
+type RunConfig = {
+  mode: SessionMode;
+  questionIds: string[];
+  selectedCategories: string[];
+  selectedValues: number[];
+  selectedMechanics: string[];
+};
+
+// Post-run "Competency this run" recap: a before→after diff over the categories answered.
+type CatDelta = {
+  id: string;
+  name: string;
+  before: number;
+  after: number;
+  delta: number;
+  tierUp: string | null;
+  tierUpIcon: string | null;
+};
+type CompetencyRecap = {
+  overallBefore: number;
+  overallAfter: number;
+  cats: CatDelta[];
+  newBadges: { key: string; name: string; description: string }[];
+};
+type RunStart = { comps: Map<string, { score: number; tier: string }>; overall: number; badgeKeys: Set<string> };
+
+const capitalize = (s: string) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+const deltaText = (d: number) => (d > 0 ? `▲ ${d}` : d < 0 ? `▼ ${Math.abs(d)}` : '—');
+const deltaStyle = (d: number) =>
+  ({ color: d > 0 ? colors.green : d < 0 ? colors.red : colors.dim, fontWeight: '800' as const });
+
+/** Reduce category_competencies rows to a score/tier map + the overall score. */
+function indexComps(rows: unknown): { map: Map<string, { score: number; tier: string }>; overall: number } {
+  const map = new Map<string, { score: number; tier: string }>();
+  let overall = 0;
+  for (const c of (rows ?? []) as { dimension_type: string; dimension_key: string; score: number; tier: string }[]) {
+    if (c.dimension_type === 'category') map.set(c.dimension_key, { score: c.score, tier: c.tier });
+    else if (c.dimension_type === 'overall') overall = c.score;
+  }
+  return { map, overall };
+}
 
 export default function TrainScreen() {
-  const params = useLocalSearchParams<{ start?: string; category?: string; categoryName?: string }>();
+  const router = useRouter();
+  const params = useLocalSearchParams<{
+    start?: string;
+    category?: string;
+    categoryName?: string;
+    categories?: string;
+    values?: string;
+    limit?: string;
+  }>();
   const [questions, setQuestions] = useState<RecommendedQuestion[]>([]);
-  const [sessionId, setSessionId] = useState<string | null>(null);
+  const [pendingAttempts, setPendingAttempts] = useState<PendingAttempt[]>([]);
+  const [runConfig, setRunConfig] = useState<RunConfig | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [typedResponse, setTypedResponse] = useState('');
   const [gradeResult, setGradeResult] = useState<GradeResult | null>(null);
@@ -34,11 +102,100 @@ export default function TrainScreen() {
   const [startedAt, setStartedAt] = useState<number | null>(null);
   const [overrideGrade, setOverrideGrade] = useState<AttemptGrade | null>(null);
   const [elapsedMs, setElapsedMs] = useState<number | null>(null);
-  const [saving, setSaving] = useState(false);
+  const [runStart, setRunStart] = useState<RunStart | null>(null);
+  const [runRecap, setRunRecap] = useState<CompetencyRecap | null>(null);
   const handledParamRef = useRef<string | null>(null);
+  const flushedRef = useRef(false); // guards the one-time end-of-run commit
 
+  const checkBadges = useBadgeCheck();
   const activeQuestion = questions[activeIndex] ?? null;
   const completed = questions.length > 0 && activeIndex >= questions.length;
+
+  // Practice runs inside this tab (no route change), so the global navigation-based
+  // badge check never fires — re-check when a session finishes.
+  useEffect(() => {
+    if (!completed || flushedRef.current) return;
+    flushedRef.current = true;
+    void (async () => {
+      // 1) Commit the whole run in one batch call. Nothing is written mid-run, so
+      //    abandoning records nothing; competency + badges recalc once, server-side.
+      try {
+        if (runConfig && pendingAttempts.length) {
+          await submitPracticeRun({
+            mode: runConfig.mode,
+            questionIds: runConfig.questionIds,
+            attempts: pendingAttempts.map((a) => ({
+              questionId: a.questionId,
+              response: a.typedResponse,
+              grade: a.grade,
+              timeMs: a.timeToAnswerMs,
+            })),
+            selectedCategories: runConfig.selectedCategories,
+            selectedValues: runConfig.selectedValues,
+            selectedMechanics: runConfig.selectedMechanics,
+          });
+        }
+      } catch (error) {
+        Alert.alert(
+          'Could not save run',
+          error instanceof Error ? error.message : 'Your answers may not have been recorded.',
+        );
+      }
+
+      // 2) Badges/competency now reflect the full run — surface them.
+      void checkBadges();
+      if (!runStart) return;
+      try {
+        const [comps, earned, allBadges] = await Promise.all([
+          fetchHomeCompetencies(),
+          fetchEarnedBadges(),
+          fetchBadges(),
+        ]);
+        const { map: afterMap, overall: overallAfter } = indexComps(comps);
+
+        // Badges earned during this run, mapped to the category they reward (for the tier-up icon).
+        const freshKeys = ((earned ?? []) as { badge_key: string }[])
+          .map((e) => e.badge_key)
+          .filter((k) => !runStart.badgeKeys.has(k));
+        const byKey = new Map(
+          ((allBadges ?? []) as { key: string; name: string; description: string; criteria: { dimension?: string } }[]).map(
+            (b) => [b.key, b],
+          ),
+        );
+        const newBadges = freshKeys.map((k) => byKey.get(k)).filter(Boolean) as {
+          key: string;
+          name: string;
+          description: string;
+          criteria: { dimension?: string };
+        }[];
+        const badgeByDim = new Map(newBadges.filter((b) => b.criteria?.dimension).map((b) => [b.criteria.dimension!, b]));
+
+        // One row per category answered this run (merged id + name from the served questions).
+        const touched = new Map<string, string>();
+        for (const q of questions) touched.set(q.category_id, q.category_name);
+        const cats: CatDelta[] = [...touched.entries()].map(([id, name]) => {
+          const before = runStart.comps.get(id)?.score ?? 0;
+          const after = afterMap.get(id)?.score ?? 0;
+          const tierBefore = runStart.comps.get(id)?.tier;
+          const tierAfter = afterMap.get(id)?.tier;
+          const tierUp = tierAfter && tierAfter !== tierBefore && after > before ? capitalize(tierAfter) : null;
+          const badge = badgeByDim.get(id);
+          return { id, name, before, after, delta: after - before, tierUp, tierUpIcon: tierUp && badge ? badgeIcon(badge.key) : null };
+        });
+        cats.sort((a, b) => b.delta - a.delta); // signed, largest gain first → biggest drop last
+
+        setRunRecap({
+          overallBefore: runStart.overall,
+          overallAfter,
+          cats,
+          newBadges: newBadges.map((b) => ({ key: b.key, name: b.name, description: b.description })),
+        });
+      } catch {
+        // best-effort — a recap failure must not disrupt the done screen
+      }
+    })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [completed]);
   // The grade we'll actually record: the user's override if they tapped one,
   // otherwise the auto-grader's suggestion.
   const finalGrade: AttemptGrade = overrideGrade ?? gradeResult?.grade ?? 'unknown';
@@ -46,7 +203,7 @@ export default function TrainScreen() {
   // Auto-start a session when launched from Home (weakness CTA or a category tap).
   useEffect(() => {
     if (!params.start) return;
-    const token = `${params.start}:${params.category ?? ''}`;
+    const token = `${params.start}:${params.category ?? ''}:${params.categories ?? ''}:${params.values ?? ''}:${params.limit ?? ''}`;
     if (handledParamRef.current === token) return;
     handledParamRef.current = token;
 
@@ -54,9 +211,16 @@ export default function TrainScreen() {
       void startSession('weakness');
     } else if (params.start === 'selected' && params.category) {
       void startSession('selected', { categories: [params.category] });
+    } else if (params.start === 'custom') {
+      const categories = params.categories ? params.categories.split(',').filter(Boolean) : undefined;
+      const values = params.values
+        ? params.values.split(',').map(Number).filter((n) => !Number.isNaN(n))
+        : undefined;
+      const limit = params.limit ? Number(params.limit) : undefined;
+      void startSession('selected', { categories, values, limit });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [params.start, params.category]);
+  }, [params.start, params.category, params.categories, params.values, params.limit]);
 
   async function startSession(mode: SessionMode, options?: StartOptions) {
     try {
@@ -64,8 +228,9 @@ export default function TrainScreen() {
       tapMedium();
       const nextQuestions = await getRecommendedQuestions({
         mode,
-        limit: sessionLength,
+        limit: options?.limit ?? sessionLength,
         categories: options?.categories ?? null,
+        values: options?.values ?? null,
         mechanics: options?.mechanics ?? null,
       });
 
@@ -74,20 +239,38 @@ export default function TrainScreen() {
         return;
       }
 
-      const nextSessionId = await createPracticeSession({
+      // Don't create the session or write anything yet — buffer the run and commit it
+      // only if it reaches the end (see the completion effect). Abandoning records nothing.
+      setRunConfig({
         mode,
         questionIds: nextQuestions.map((question) => question.id),
         selectedCategories: options?.categories ?? [],
+        selectedValues: options?.values ?? [],
         selectedMechanics: options?.mechanics ?? [],
       });
 
       setQuestions(nextQuestions);
-      setSessionId(nextSessionId);
+      setPendingAttempts([]);
+      flushedRef.current = false;
       setActiveIndex(0);
       setTypedResponse('');
       setGradeResult(null);
       setAttemptSummaries([]);
       setStartedAt(Date.now());
+      setRunRecap(null);
+
+      // Snapshot competency + earned badges BEFORE the run, so the recap can diff after.
+      try {
+        const [comps, earned] = await Promise.all([fetchHomeCompetencies(), fetchEarnedBadges()]);
+        const { map, overall } = indexComps(comps);
+        setRunStart({
+          comps: map,
+          overall,
+          badgeKeys: new Set(((earned ?? []) as { badge_key: string }[]).map((e) => e.badge_key)),
+        });
+      } catch {
+        setRunStart(null); // recap is best-effort; never block a session
+      }
     } catch (error) {
       Alert.alert('Could not start session', error instanceof Error ? error.message : 'Try again.');
     } finally {
@@ -111,48 +294,45 @@ export default function TrainScreen() {
     setGradeResult(result);
   }
 
-  // Commit the final (possibly user-corrected) grade, then advance.
-  async function saveAndAdvance() {
-    if (!activeQuestion || !gradeResult || saving) return;
+  // Buffer the final (possibly user-corrected) grade locally, then advance. Nothing is
+  // written to the server until the run completes — see the completion effect.
+  function saveAndAdvance() {
+    if (!activeQuestion || !gradeResult) return;
 
-    try {
-      setSaving(true);
-      await submitPracticeAttempt({
-        sessionId,
+    setPendingAttempts((current) => [
+      ...current,
+      {
         questionId: activeQuestion.id,
         typedResponse: typedResponse.trim() || null,
         grade: finalGrade,
         timeToAnswerMs: elapsedMs,
-      });
+      },
+    ]);
 
-      setAttemptSummaries((current) => [
-        ...current,
-        {
-          questionId: activeQuestion.id,
-          categoryName: activeQuestion.category_name,
-          value: activeQuestion.value,
-          grade: finalGrade,
-        },
-      ]);
+    setAttemptSummaries((current) => [
+      ...current,
+      {
+        questionId: activeQuestion.id,
+        categoryName: activeQuestion.category_name,
+        value: activeQuestion.value,
+        difficultyRank: activeQuestion.difficulty_rank,
+        grade: finalGrade,
+      },
+    ]);
 
-      tapLight();
-      setActiveIndex((current) => current + 1);
-      setTypedResponse('');
-      setGradeResult(null);
-      setOverrideGrade(null);
-      setElapsedMs(null);
-      setStartedAt(Date.now());
-    } catch (error) {
-      Alert.alert('Could not save attempt', error instanceof Error ? error.message : 'Try again.');
-    } finally {
-      setSaving(false);
-    }
+    tapLight();
+    setActiveIndex((current) => current + 1);
+    setTypedResponse('');
+    setGradeResult(null);
+    setOverrideGrade(null);
+    setElapsedMs(null);
+    setStartedAt(Date.now());
   }
 
-  // Bail out of an in-progress session. Clues already answered are saved on
-  // advance; this just clears local state back to the mode picker.
+  // Bail out of an in-progress session. The run is only committed when it reaches the
+  // end, so quitting partway through records nothing — no attempts, no competency change.
   function endSession() {
-    Alert.alert('Quit this session?', 'Clues you’ve already answered are saved. You can start a new set anytime.', [
+    Alert.alert('Quit this session?', 'This run won’t be recorded. You can start a new set anytime.', [
       { text: 'Keep playing', style: 'cancel' },
       {
         text: 'Quit',
@@ -160,7 +340,9 @@ export default function TrainScreen() {
         onPress: () => {
           tapLight();
           setQuestions([]);
-          setSessionId(null);
+          setPendingAttempts([]);
+          setRunConfig(null);
+          flushedRef.current = false;
           setActiveIndex(0);
           setTypedResponse('');
           setGradeResult(null);
@@ -268,15 +450,10 @@ export default function TrainScreen() {
             </View>
 
             <Pressable
-              style={({ pressed }) => [styles.nextButton, saving && styles.disabled, pressed && styles.buttonPressed]}
+              style={({ pressed }) => [styles.nextButton, pressed && styles.buttonPressed]}
               onPress={saveAndAdvance}
-              disabled={saving}
             >
-              {saving ? (
-                <ActivityIndicator color={colors.background} />
-              ) : (
-                <Text style={styles.nextText}>{activeIndex + 1 >= questions.length ? 'See results' : 'Next clue'}</Text>
-              )}
+              <Text style={styles.nextText}>{activeIndex + 1 >= questions.length ? 'See results' : 'Next clue'}</Text>
             </Pressable>
           </View>
         ) : null}
@@ -306,6 +483,53 @@ export default function TrainScreen() {
           <Text style={styles.doneTitle}>{sessionSummary.title}</Text>
           <Text style={styles.doneText}>{sessionSummary.detail}</Text>
         </Card>
+
+        {runRecap && runRecap.cats.length > 0 ? (
+          <Card>
+            <View style={styles.recapHead}>
+              <Text style={styles.recapOver}>Competency this run</Text>
+              <View style={styles.recapOverall}>
+                <Text style={styles.recapBefore}>{runRecap.overallBefore}</Text>
+                <Text style={styles.recapArrow}>→</Text>
+                <Text style={styles.recapNow}>{runRecap.overallAfter}</Text>
+                <Text style={[styles.recapDelta, deltaStyle(runRecap.overallAfter - runRecap.overallBefore)]}>
+                  {deltaText(runRecap.overallAfter - runRecap.overallBefore)}
+                </Text>
+              </View>
+            </View>
+
+            {runRecap.cats.map((c, i) => (
+              <View key={c.id} style={[styles.recapRow, i === runRecap.cats.length - 1 && styles.recapRowLast]}>
+                <View style={[styles.recapDot, { backgroundColor: accentFor(c.id) }]} />
+                <Text style={styles.recapName} numberOfLines={1}>
+                  {c.name}
+                  {c.tierUp ? (
+                    <Text style={styles.recapTierUp}>
+                      {'  '}▲ {c.tierUp}
+                      {c.tierUpIcon ? ` ${c.tierUpIcon}` : ''}
+                    </Text>
+                  ) : null}
+                </Text>
+                <Text style={styles.recapBA}>
+                  {c.before} <Text style={styles.recapArrowSm}>→</Text> <Text style={styles.recapTo}>{c.after}</Text>
+                </Text>
+                <Text style={[styles.recapRowDelta, deltaStyle(c.delta)]}>{deltaText(c.delta)}</Text>
+              </View>
+            ))}
+
+            {runRecap.newBadges.map((b) => (
+              <View key={b.key} style={styles.recapBadge}>
+                <View style={styles.recapBadgeIc}>
+                  <Text style={styles.recapBadgeEmoji}>{badgeIcon(b.key)}</Text>
+                </View>
+                <View style={styles.recapBadgeText}>
+                  <Text style={styles.recapBadgeTitle}>{b.name} unlocked</Text>
+                  <Text style={styles.recapBadgeSub}>{b.description}</Text>
+                </View>
+              </View>
+            ))}
+          </Card>
+        ) : null}
 
         <PrimaryAction
           title="Run another set"
@@ -357,6 +581,15 @@ export default function TrainScreen() {
           onPress={() => startSession('wordplay', { mechanics: ['crossword_clue', 'before_after', 'anagram', 'starts_with'] })}
           disabled={Boolean(loadingMode)}
         />
+        <ModeCard
+          icon="sliders"
+          title="Custom run"
+          subtitle="Choose your categories & difficulty."
+          label="New"
+          tone="gold"
+          onPress={() => router.push('/custom-run' as never)}
+          disabled={Boolean(loadingMode)}
+        />
       </Section>
 
       <Text style={styles.hint}>Tip: tap any category on Home to drill it directly.</Text>
@@ -393,7 +626,9 @@ function labelForGrade(grade: AttemptGrade) {
 function summarizeAttempts(attempts: SessionAttemptSummary[]) {
   const correct = attempts.filter((attempt) => attempt.grade === 'correct').length;
   const missed = attempts.filter((attempt) => attempt.grade !== 'correct').length;
-  const points = attempts.reduce((sum, attempt) => (attempt.grade === 'correct' ? sum + attempt.value : sum), 0);
+  // Score the new way: difficulty rank (1–5) per correct answer, matching daily/duel
+  // (migrations 018/019/021) — not the old Jeopardy dollar value.
+  const points = attempts.reduce((sum, attempt) => (attempt.grade === 'correct' ? sum + attempt.difficultyRank : sum), 0);
   const weakestCategory = mostMissedCategory(attempts);
 
   return {
@@ -586,6 +821,49 @@ const styles = StyleSheet.create({
     color: colors.muted,
     marginTop: 4,
   },
+
+  // "Competency this run" recap
+  recapHead: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: spacing.sm },
+  recapOver: { ...type.overline, color: colors.muted },
+  recapOverall: { flexDirection: 'row', alignItems: 'baseline', gap: 6 },
+  recapBefore: { ...type.caption, color: colors.dim, fontWeight: '700' },
+  recapArrow: { ...type.caption, color: colors.dim },
+  recapArrowSm: { color: colors.dim },
+  recapNow: { ...type.bodyStrong, color: colors.ink },
+  recapDelta: { ...type.caption, fontWeight: '800', marginLeft: 2 },
+  recapRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 11, borderBottomWidth: 1, borderBottomColor: colors.lineSoft },
+  recapRowLast: { borderBottomWidth: 0 },
+  recapDot: { width: 10, height: 10, borderRadius: 3 },
+  recapName: { ...type.body, fontWeight: '600', color: colors.ink, flex: 1 },
+  recapTierUp: { color: colors.gold, fontWeight: '800', fontSize: 12 },
+  recapBA: { ...type.caption, color: colors.muted, fontVariant: ['tabular-nums'] },
+  recapTo: { color: colors.ink, fontWeight: '700' },
+  recapRowDelta: { width: 46, textAlign: 'right', fontSize: 13, fontVariant: ['tabular-nums'] },
+  recapBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    marginTop: spacing.md,
+    backgroundColor: colors.goldSoft,
+    borderWidth: 1,
+    borderColor: 'rgba(242,184,75,0.45)',
+    borderRadius: radius.lg,
+    padding: spacing.md,
+  },
+  recapBadgeIc: {
+    width: 42,
+    height: 42,
+    borderRadius: 11,
+    backgroundColor: colors.surface,
+    borderWidth: 1,
+    borderColor: 'rgba(242,184,75,0.5)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  recapBadgeEmoji: { fontSize: 21 },
+  recapBadgeText: { flex: 1 },
+  recapBadgeTitle: { ...type.bodyStrong, color: colors.ink },
+  recapBadgeSub: { ...type.caption, color: colors.gold, fontWeight: '700', marginTop: 1 },
   summaryCard: {
     gap: spacing.md,
   },

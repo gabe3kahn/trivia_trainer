@@ -5,6 +5,7 @@ import { ActivityIndicator, StyleSheet, View } from 'react-native';
 
 import { colors } from '@/src/theme';
 import { useAuth } from '@/src/contexts/AuthContext';
+import { BadgeUnlockProvider } from '@/src/contexts/BadgeUnlockContext';
 
 type IconName = ComponentProps<typeof FontAwesome>['name'];
 
@@ -28,6 +29,7 @@ export default function TabLayout() {
   }
 
   return (
+    <BadgeUnlockProvider>
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: colors.gold,
@@ -75,6 +77,7 @@ export default function TabLayout() {
         }}
       />
     </Tabs>
+    </BadgeUnlockProvider>
   );
 }
 

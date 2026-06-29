@@ -2,9 +2,18 @@ import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import { ActivityChart, StreakStrip } from '@/src/components/activity';
 import { Avatar, Card, Header, PrimaryAction, ScoreRing, Screen, Section } from '@/src/components/ui';
 import type { CategoryScore } from '@/src/data/mockData';
-import { fetchCategories, fetchHomeCompetencies } from '@/src/services/triviaApi';
+import {
+  fetchCategories,
+  fetchHomeCompetencies,
+  getActivitySummary,
+  getCompetencyTimeseries,
+  getDailyStreak,
+  type ActivityDay,
+  type CompetencyPoint,
+} from '@/src/services/triviaApi';
 import { colors, scoreColor, spacing, type } from '@/src/theme';
 import type { Database } from '@/src/types/supabase';
 
@@ -15,14 +24,26 @@ export default function HomeScreen() {
   const router = useRouter();
   const [categories, setCategories] = useState<Category[]>([]);
   const [competencies, setCompetencies] = useState<Competency[]>([]);
+  const [activityDaily, setActivityDaily] = useState<ActivityDay[]>([]);
+  const [competencySeries, setCompetencySeries] = useState<CompetencyPoint[]>([]);
+  const [streak, setStreak] = useState(0);
   const [error, setError] = useState<string | null>(null);
 
   const loadHome = useCallback(async () => {
     try {
       setError(null);
-      const [categoryRows, competencyRows] = await Promise.all([fetchCategories(), fetchHomeCompetencies()]);
+      const [categoryRows, competencyRows, summary, streakCount, series] = await Promise.all([
+        fetchCategories(),
+        fetchHomeCompetencies(),
+        getActivitySummary(30),
+        getDailyStreak(),
+        getCompetencyTimeseries(30),
+      ]);
       setCategories(categoryRows ?? []);
       setCompetencies(competencyRows ?? []);
+      setActivityDaily(summary.daily ?? []);
+      setStreak(streakCount ?? 0);
+      setCompetencySeries(series ?? []);
     } catch (nextError) {
       setError(nextError instanceof Error ? nextError.message : 'Could not load home data.');
     }
@@ -41,13 +62,16 @@ export default function HomeScreen() {
       competencies.filter((item) => item.dimension_type === 'category').map((item) => [item.dimension_key, item]),
     );
 
-    return categories.map<CategoryScore>((category) => {
+    // words_language competency merges into language_wordplay (migration 016) — hide the dup.
+    return categories
+      .filter((category) => category.id !== 'words_language')
+      .map<CategoryScore>((category) => {
       const score = byKey.get(category.id);
       return {
         id: category.id,
         name: category.name,
         score: score?.score ?? 0,
-        tier: formatTier(score?.tier ?? 'unmapped'),
+        tier: formatTier(score?.tier ?? 'novice'),
         sevenDayDelta: score?.seven_day_delta ?? 0,
         attempts: score?.attempts ?? 0,
         correctRate: Math.round(Number(score?.correct_rate ?? 0)),
@@ -61,7 +85,13 @@ export default function HomeScreen() {
   const overall = overallRow?.score ?? 0;
   const overallDelta = overallRow?.seven_day_delta ?? 0;
   const attempts = overallRow?.attempts ?? categoryRows.reduce((sum, c) => sum + c.attempts, 0);
-  const dueReview = overallRow?.due_review_count ?? categoryRows.reduce((sum, c) => sum + c.dueReview, 0);
+
+  // Below this many overall reps the score is mostly evidence-shrink, not skill — so we
+  // show a "Getting started" placement (progress to a real read) instead of a low number.
+  // Matches the overall K in recalculate_user_competencies (migration 011).
+  const OVERALL_MAPPED_AT = 15;
+  const placed = attempts >= OVERALL_MAPPED_AT;
+  const repsToMap = Math.max(0, OVERALL_MAPPED_AT - attempts);
 
   const weakest = [...categoryRows]
     .filter((c) => c.attempts > 0 || c.score > 0)
@@ -97,32 +127,52 @@ export default function HomeScreen() {
     <Screen>
       <Header logo title="Home" right={<Avatar />} />
 
+      <StreakStrip daily={activityDaily} streak={streak} />
+
       <Card style={styles.hero}>
-        <ScoreRing display={overall} progress={overall / 100} tone={scoreColor(overall)} label="overall" />
+        {placed ? (
+          <ScoreRing display={overall} progress={overall / 100} tone={scoreColor(overall)} label="overall" />
+        ) : (
+          <ScoreRing
+            display={attempts}
+            progress={attempts / OVERALL_MAPPED_AT}
+            tone={colors.gold}
+            label={`of ${OVERALL_MAPPED_AT} reps`}
+          />
+        )}
         <View style={styles.heroText}>
-          <Text style={styles.heroTier}>{formatTier(overallRow?.tier ?? 'unmapped')}</Text>
-          <Text style={[styles.heroTrend, overallDelta > 0 && styles.up, overallDelta < 0 && styles.down]}>
-            {trendText}
-          </Text>
-          <View style={styles.heroStatRow}>
-            <Text style={styles.heroStat}>{attempts} reps</Text>
-            <View style={styles.dotSep} />
-            <Text style={styles.heroStat}>{dueReview} to review</Text>
-          </View>
+          {placed ? (
+            <>
+              <Text style={styles.heroTier}>{formatTier(overallRow?.tier ?? 'novice')}</Text>
+              <Text style={[styles.heroTrend, overallDelta > 0 && styles.up, overallDelta < 0 && styles.down]}>
+                {trendText}
+              </Text>
+              <Text style={styles.heroStat}>{attempts} reps</Text>
+            </>
+          ) : (
+            <>
+              <Text style={styles.heroTier}>Getting started</Text>
+              <Text style={[styles.heroTrend, { color: colors.gold }]}>
+                {repsToMap === 0 ? 'Mapping your level…' : `${repsToMap} more to find your level`}
+              </Text>
+              <Text style={styles.heroStat}>Your score unlocks once we've got a read</Text>
+            </>
+          )}
         </View>
       </Card>
 
-      <Text style={styles.explainer}>
-        Your score is how you do versus what's expected at each difficulty — 50 is on par. It climbs as you beat
-        expectations, especially on harder clues.
-      </Text>
-
       {error ? <Text style={styles.errorText}>{error}</Text> : null}
 
+      <ActivityChart
+        competency={competencySeries}
+        daily={activityDaily}
+        onPressDetail={() => router.push('/activity' as never)}
+      />
+
       <PrimaryAction
-        title="Train your weak spots"
-        subtitle={weakestNames || 'Build a difficulty-weighted set'}
-        onPress={startWeakness}
+        title={attempts === 0 ? 'Answer your first questions' : 'Train your weak spots'}
+        subtitle={attempts === 0 ? 'Pick any category to begin' : weakestNames || 'Build a difficulty-weighted set'}
+        onPress={attempts === 0 ? () => router.push({ pathname: '/train' }) : startWeakness}
       />
 
       {hasMovement ? (
@@ -182,26 +232,9 @@ const styles = StyleSheet.create({
   down: {
     color: colors.red,
   },
-  heroStatRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.sm,
-    marginTop: 2,
-  },
   heroStat: {
     ...type.caption,
     color: colors.muted,
-  },
-  explainer: {
-    ...type.caption,
-    color: colors.dim,
-    marginTop: -spacing.xs,
-  },
-  dotSep: {
-    width: 3,
-    height: 3,
-    borderRadius: 2,
-    backgroundColor: colors.dim,
   },
   moverRow: {
     flexDirection: 'row',
