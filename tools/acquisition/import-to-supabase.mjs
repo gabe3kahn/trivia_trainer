@@ -57,17 +57,22 @@ if (duplicateAnswers.length) {
 // Re-importing the SAME pack stays safe: a live row carrying one of this pack's own
 // external_ids is excluded (that's an update of this clue, not a collision).
 //
-// SCOPED BY WORDPLAY CLASS: a constructed-wordplay answer (category language_wordplay)
-// and a normal answer can be the same word and that's FINE — "Muscle" the homophone is a
-// different KIND of question from "Muscle" the body part. Only collisions WITHIN the same
-// class count: wordplay↔wordplay or non-wordplay↔non-wordplay (two of the same kind ARE
-// a wasted repeat). So compare answers only when both sides are wordplay, or both aren't.
+// SCOPED BY CLASS: two clues only collide when they're the same KIND of question.
+//  - Wordplay class: a constructed-wordplay answer (category language_wordplay) and a
+//    normal answer can be the same word — "Muscle" the homophone is a different KIND
+//    from "Muscle" the body part.
+//  - Image class: an image clue ("name the artist/painting/flag" off a picture) and a
+//    text clue with the same answer test different things — recognition vs recall — so
+//    they may coexist (applies to artists, paintings, flags, …). Two image clues, or
+//    two text clues, with the same answer ARE a wasted repeat.
+// A collision counts only when BOTH the wordplay-ness AND the image-ness match.
 const WORDPLAY_CATEGORY = 'language_wordplay';
 const isWordplay = (categoryId) => categoryId === WORDPLAY_CATEGORY;
+const isImage = (q) => Boolean(q.image_url);
 const packExternalIds = new Set(questions.map((q) => q.external_id).filter(Boolean));
 const activeRows = await fetchAllSupabaseRows(
   request,
-  '/rest/v1/questions?select=answer,external_id,category_id&is_active=eq.true',
+  '/rest/v1/questions?select=answer,external_id,category_id,image_url&is_active=eq.true',
 );
 const activeByAnswer = new Map();
 for (const row of activeRows) {
@@ -78,8 +83,12 @@ for (const row of activeRows) {
 const bankCollisions = [];
 for (const question of questions) {
   const packWordplay = isWordplay(question.category_id);
+  const packImage = isImage(question);
   const hits = (activeByAnswer.get(normAnswer(question.answer)) ?? []).filter(
-    (row) => !packExternalIds.has(row.external_id) && isWordplay(row.category_id) === packWordplay,
+    (row) =>
+      !packExternalIds.has(row.external_id) &&
+      isWordplay(row.category_id) === packWordplay &&
+      isImage(row) === packImage,
   );
   if (hits.length) bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
 }
