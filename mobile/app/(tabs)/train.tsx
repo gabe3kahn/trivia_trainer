@@ -1,6 +1,6 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Card, ClueCard, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
@@ -26,10 +26,27 @@ type SessionAttemptSummary = {
   questionId: string;
   categoryName: string;
   value: number;
+  difficultyRank: number;
   grade: GradeResult['grade'];
 };
 
 type StartOptions = { mechanics?: string[]; categories?: string[]; values?: number[]; limit?: number };
+
+// A run is buffered locally and only committed when it reaches the end. An
+// abandoned run writes nothing, and competency/badges recalc once, at the end.
+type PendingAttempt = {
+  questionId: string;
+  typedResponse: string | null;
+  grade: AttemptGrade;
+  timeToAnswerMs: number | null;
+};
+type RunConfig = {
+  mode: SessionMode;
+  questionIds: string[];
+  selectedCategories: string[];
+  selectedValues: number[];
+  selectedMechanics: string[];
+};
 
 // Post-run "Competency this run" recap: a before→after diff over the categories answered.
 type CatDelta = {
@@ -76,7 +93,8 @@ export default function TrainScreen() {
     limit?: string;
   }>();
   const [questions, setQuestions] = useState<RecommendedQuestion[]>([]);
-  const [sessionId, setSessionId] = useState<string | null>(null);
+  const [pendingAttempts, setPendingAttempts] = useState<PendingAttempt[]>([]);
+  const [runConfig, setRunConfig] = useState<RunConfig | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [typedResponse, setTypedResponse] = useState('');
   const [gradeResult, setGradeResult] = useState<GradeResult | null>(null);
@@ -85,10 +103,10 @@ export default function TrainScreen() {
   const [startedAt, setStartedAt] = useState<number | null>(null);
   const [overrideGrade, setOverrideGrade] = useState<AttemptGrade | null>(null);
   const [elapsedMs, setElapsedMs] = useState<number | null>(null);
-  const [saving, setSaving] = useState(false);
   const [runStart, setRunStart] = useState<RunStart | null>(null);
   const [runRecap, setRunRecap] = useState<CompetencyRecap | null>(null);
   const handledParamRef = useRef<string | null>(null);
+  const flushedRef = useRef(false); // guards the one-time end-of-run commit
 
   const checkBadges = useBadgeCheck();
   const activeQuestion = questions[activeIndex] ?? null;
@@ -97,12 +115,35 @@ export default function TrainScreen() {
   // Practice runs inside this tab (no route change), so the global navigation-based
   // badge check never fires — re-check when a session finishes.
   useEffect(() => {
-    if (!completed) return;
-    void checkBadges();
+    if (!completed || flushedRef.current) return;
+    flushedRef.current = true;
     void (async () => {
+      // 1) Commit the whole run now. Nothing is written mid-run, so abandoning a run
+      //    records nothing; competency + badges recalc here, at the end of the run.
+      try {
+        if (runConfig && pendingAttempts.length) {
+          const sid = await createPracticeSession({
+            mode: runConfig.mode,
+            questionIds: runConfig.questionIds,
+            selectedCategories: runConfig.selectedCategories,
+            selectedValues: runConfig.selectedValues,
+            selectedMechanics: runConfig.selectedMechanics,
+          });
+          for (const attempt of pendingAttempts) {
+            await submitPracticeAttempt({ sessionId: sid, ...attempt });
+          }
+        }
+      } catch (error) {
+        Alert.alert(
+          'Could not save run',
+          error instanceof Error ? error.message : 'Your answers may not have been recorded.',
+        );
+      }
+
+      // 2) Badges/competency now reflect the full run — surface them.
+      void checkBadges();
       if (!runStart) return;
       try {
-        // After-values are live: competency recalcs in-transaction on each attempt (016/029).
         const [comps, earned, allBadges] = await Promise.all([
           fetchHomeCompetencies(),
           fetchEarnedBadges(),
@@ -196,7 +237,9 @@ export default function TrainScreen() {
         return;
       }
 
-      const nextSessionId = await createPracticeSession({
+      // Don't create the session or write anything yet — buffer the run and commit it
+      // only if it reaches the end (see the completion effect). Abandoning records nothing.
+      setRunConfig({
         mode,
         questionIds: nextQuestions.map((question) => question.id),
         selectedCategories: options?.categories ?? [],
@@ -205,7 +248,8 @@ export default function TrainScreen() {
       });
 
       setQuestions(nextQuestions);
-      setSessionId(nextSessionId);
+      setPendingAttempts([]);
+      flushedRef.current = false;
       setActiveIndex(0);
       setTypedResponse('');
       setGradeResult(null);
@@ -248,48 +292,45 @@ export default function TrainScreen() {
     setGradeResult(result);
   }
 
-  // Commit the final (possibly user-corrected) grade, then advance.
-  async function saveAndAdvance() {
-    if (!activeQuestion || !gradeResult || saving) return;
+  // Buffer the final (possibly user-corrected) grade locally, then advance. Nothing is
+  // written to the server until the run completes — see the completion effect.
+  function saveAndAdvance() {
+    if (!activeQuestion || !gradeResult) return;
 
-    try {
-      setSaving(true);
-      await submitPracticeAttempt({
-        sessionId,
+    setPendingAttempts((current) => [
+      ...current,
+      {
         questionId: activeQuestion.id,
         typedResponse: typedResponse.trim() || null,
         grade: finalGrade,
         timeToAnswerMs: elapsedMs,
-      });
+      },
+    ]);
 
-      setAttemptSummaries((current) => [
-        ...current,
-        {
-          questionId: activeQuestion.id,
-          categoryName: activeQuestion.category_name,
-          value: activeQuestion.value,
-          grade: finalGrade,
-        },
-      ]);
+    setAttemptSummaries((current) => [
+      ...current,
+      {
+        questionId: activeQuestion.id,
+        categoryName: activeQuestion.category_name,
+        value: activeQuestion.value,
+        difficultyRank: activeQuestion.difficulty_rank,
+        grade: finalGrade,
+      },
+    ]);
 
-      tapLight();
-      setActiveIndex((current) => current + 1);
-      setTypedResponse('');
-      setGradeResult(null);
-      setOverrideGrade(null);
-      setElapsedMs(null);
-      setStartedAt(Date.now());
-    } catch (error) {
-      Alert.alert('Could not save attempt', error instanceof Error ? error.message : 'Try again.');
-    } finally {
-      setSaving(false);
-    }
+    tapLight();
+    setActiveIndex((current) => current + 1);
+    setTypedResponse('');
+    setGradeResult(null);
+    setOverrideGrade(null);
+    setElapsedMs(null);
+    setStartedAt(Date.now());
   }
 
-  // Bail out of an in-progress session. Clues already answered are saved on
-  // advance; this just clears local state back to the mode picker.
+  // Bail out of an in-progress session. The run is only committed when it reaches the
+  // end, so quitting partway through records nothing — no attempts, no competency change.
   function endSession() {
-    Alert.alert('Quit this session?', 'Clues you’ve already answered are saved. You can start a new set anytime.', [
+    Alert.alert('Quit this session?', 'This run won’t be recorded. You can start a new set anytime.', [
       { text: 'Keep playing', style: 'cancel' },
       {
         text: 'Quit',
@@ -297,7 +338,9 @@ export default function TrainScreen() {
         onPress: () => {
           tapLight();
           setQuestions([]);
-          setSessionId(null);
+          setPendingAttempts([]);
+          setRunConfig(null);
+          flushedRef.current = false;
           setActiveIndex(0);
           setTypedResponse('');
           setGradeResult(null);
@@ -405,15 +448,10 @@ export default function TrainScreen() {
             </View>
 
             <Pressable
-              style={({ pressed }) => [styles.nextButton, saving && styles.disabled, pressed && styles.buttonPressed]}
+              style={({ pressed }) => [styles.nextButton, pressed && styles.buttonPressed]}
               onPress={saveAndAdvance}
-              disabled={saving}
             >
-              {saving ? (
-                <ActivityIndicator color={colors.background} />
-              ) : (
-                <Text style={styles.nextText}>{activeIndex + 1 >= questions.length ? 'See results' : 'Next clue'}</Text>
-              )}
+              <Text style={styles.nextText}>{activeIndex + 1 >= questions.length ? 'See results' : 'Next clue'}</Text>
             </Pressable>
           </View>
         ) : null}
@@ -586,7 +624,9 @@ function labelForGrade(grade: AttemptGrade) {
 function summarizeAttempts(attempts: SessionAttemptSummary[]) {
   const correct = attempts.filter((attempt) => attempt.grade === 'correct').length;
   const missed = attempts.filter((attempt) => attempt.grade !== 'correct').length;
-  const points = attempts.reduce((sum, attempt) => (attempt.grade === 'correct' ? sum + attempt.value : sum), 0);
+  // Score the new way: difficulty rank (1–5) per correct answer, matching daily/duel
+  // (migrations 018/019/021) — not the old Jeopardy dollar value.
+  const points = attempts.reduce((sum, attempt) => (attempt.grade === 'correct' ? sum + attempt.difficultyRank : sum), 0);
   const weakestCategory = mostMissedCategory(attempts);
 
   return {
