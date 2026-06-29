@@ -144,7 +144,7 @@ The dry run should print both the quality gate summary and the difficulty calibr
 
 ## Competency Scoring
 
-Competency is computed in `supabase/migrations/` (function `recalculate_user_competencies`, latest definition in `011_expectation_relative_competency.sql`) and recomputed by trigger on every answer. The model is **expectation-relative** — difficulty is treated as an *expectation*, not a weight.
+Competency is computed in `supabase/migrations/` (function `recalculate_user_competencies`; the math is from `011_expectation_relative_competency.sql`, and `029` widened the source to UNION practice + duel + daily attempts). It is recomputed **once at the end of a run**, not per attempt — see "Runs commit at the end" under Frontend conventions. The model is **expectation-relative** — difficulty is treated as an *expectation*, not a weight.
 
 - **Results are binary.** Correct (including near-string matches the grader treats as correct — a typo or "JFK" for "John F. Kennedy") = 1; everything else = 0. There is no partial "close" credit.
 - **Each value has a par success rate** (`expected_success`): `$200 .85, $400 .75, $600 .60, $800 .45, $1000 .30`.
@@ -191,7 +191,43 @@ The `arts_visual_culture` category supports image clues ("Name this painting." /
 - **Daily job** (`tools/acquisition/daily-job.mjs`, run by the `TriviaTrainer-JArchiveHarvest` Windows scheduled task, ~8am local). Two deterministic phases: harvest ~5 recent J! Archive games to grow the per-category topic stores (`data/sourcing/topics/`), then top up the cited Wikipedia doc corpus for every category. It grows the "what to ask" signal and the source corpus — it does **not** author clues (authoring stays a reviewed step).
 - **Daily draft-clues task** (`tools/scheduled/draft-clues.ps1`, run by the `TriviaTrainer-DraftClues` Windows scheduled task, ~7:45am local, after the harvest). A headless Claude Code run that picks **two** under-covered categories, builds their cited Wikipedia docs, **drafts** ~15 clues per category grounded only in those docs (following `planning/clue-authoring-guide.md` and `data/sourcing/category-guide.json`), runs the source verifier, and opens **one pull request per category** for human review. For the visual-arts category it also drafts image clues. It never imports to Supabase and never merges — drafts only. (This replaced an earlier *remote* routine, which couldn't push branches or reach Wikipedia from its sandbox.)
 - **Auto-import on merge** (`.github/workflows/import-on-merge.yml`). When a pull request touching `data/sourcing/packs/**/*.json` merges to `main`, the changed packs are imported via `import-to-supabase.mjs` (idempotent upsert on a stable `external_id`). Requires the `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` repo secrets. So the loop is: daily harvest → daily draft → review PR → merge → auto-import. The merge job loops the changed packs under `set -e`, so one pack's gate failure halts the rest (partial import) — fix the collision and re-run the importer (locally with `.env.local`, or via a fresh push) to finish.
-- **Import dedup gate** (`import-to-supabase.mjs`, enforced on both `--dry-run` and live import — throws before any write). Two checks: (1) no two clues in a pack share an answer; (2) no pack answer duplicates one already ACTIVE under a *different* clue, **scoped by wordplay class** — a constructed-wordplay answer (`language_wordplay`) and a normal answer may be the same word (e.g. *Muscle* the homophone vs the body part are different kinds of question), so collisions count only within a class (wordplay↔wordplay or non-wordplay↔non-wordplay). Re-importing the same pack is safe (rows carrying the pack's own `external_id`s are excluded).
+- **Import dedup gate** (`import-to-supabase.mjs`, enforced on both `--dry-run` and live import — throws before any write). Two checks: (1) no two clues in a pack share an answer; (2) no pack answer duplicates one already ACTIVE under a *different* clue, **scoped by class** — a collision counts only when two clues are the same *kind* of question. Class = **wordplay-ness AND image-ness**: a constructed-wordplay answer (`language_wordplay`) may match a normal answer (*Muscle* the homophone vs the body part), and an **image** clue (`image_url` set — "name the artist/painting/flag") may match a **text** clue with the same answer (recognition vs recall). So a clue collides only with another that matches on *both* dimensions. Re-importing the same pack is safe (rows carrying the pack's own `external_id`s are excluded).
+  - **`allow_duplicate` override** (column added in `034`): a clue with `allow_duplicate: true` in its pack skips the bank gate. It's the reviewer's bless for genuinely different facts that share an answer — *Brazil* as France's longest land border (geography) **and** as the only ever-present World Cup nation (sports). Identical-fact dupes still fail; the rule is "different facts OK, same fact → keep one."
+  - **`tools/acquisition/find-duplicates.mjs`** reports every active same-class duplicate set (full clues; omits sets already fully blessed). It emits clickable task-list Markdown to paste into a PR for triage — tick the clues to keep, leave the rest to cut.
+
+### Importing or re-importing a deck / stale pack
+
+Old packs can fall out of sync with the live schema and stop re-importing. To make one a managed pack again (so it works like the drafter PRs), dry-run it and fix each blocker until it's clean: stale subcategory mapping (a clue's `category_id` no longer matches its `subcategory_name` — fix the category), answers that now duplicate newer clues (remove from the pack and deactivate the live row, or bless one side with `allow_duplicate`), lowercase answers, and value recalibration (set `lock_value: true` to preserve a value, or let the importer recalibrate). Resolve live duplicate *decisions* by blessing the keepers (`allow_duplicate = true`) and deactivating the cuts (`is_active = false`). A source pack that's still too stale to re-import is fine as a frozen archive — the live decisions hold in the DB — and can be fully integrated later.
+
+## Deploying (OTA vs rebuild)
+
+Ships via **EAS Update** (channel `production`, which TestFlight builds use). The runtimeVersion policy is **`fingerprint`**, so an over-the-air update only reaches a build whose fingerprint hash matches the update's.
+
+- **JS / asset-only change → OTA:** `eas update --channel production --message "…"`.
+- **Native change (new native dep, `app.json`, a config plugin) → rebuild + submit.** A rebuild also resets the fingerprint baseline.
+
+**Check before publishing** — compare the current tree's fingerprint to the installed build's:
+
+```bash
+cd mobile && npx expo-updates fingerprint:generate --platform ios   # → .hash
+npx eas-cli@latest build:list --platform ios --limit 1 --json       # → .fingerprint.hash / .runtimeVersion
+```
+
+Match → the OTA lands; mismatch → it's published but silently never delivered to that build.
+
+**Gotcha:** `@expo/fingerprint` hashes `package.json` `scripts` (a script *could* be a build hook), so adding a dev script (e.g. `test`) changes the fingerprint with **no real native change** and breaks OTA matching to an already-installed build. `mobile/fingerprint.config.js` skips the scripts source (`SourceSkips.PackageJsonScriptsAll`) so only real native changes move the fingerprint — it takes effect on the **next full build** (it does not retroactively change an existing build's hash). To push a JS fix to a build cut *before* that config, temporarily remove the offending script so the fingerprint reproduces the build's hash, publish, then restore (the JS bundle is unaffected by the scripts).
+
+**Ordering:** apply a migration before shipping app code that depends on it.
+
+## Frontend conventions
+
+The mobile app (`mobile/`, Expo SDK 54, expo-router, StyleSheet) follows a few settled patterns:
+
+- **Runs commit at the end.** A practice run, duel, or daily challenge is buffered on-device and written in one batch RPC (`submit_practice_run` / `submit_game_run` / `submit_daily_run`, migration `033`) only when it reaches the last clue. **Abandoning a run records nothing** — no attempts, no competency, no badge. Competency and badge awards recompute **once at run end** (the per-attempt recalc triggers were removed). The shared `ChallengePlayer` (daily + duels) buffers and hands every attempt to `onComplete` once; it re-throws on failure to keep the Finish screen for a retry.
+- **Scoring = difficulty rank.** A run's points are the sum of each correct answer's `difficulty_rank` (1–5), matching daily/duel scoring — not the Jeopardy dollar value.
+- **Badges** award via a trigger on the `category_competencies` overall row (`030`), surfaced by an app-wide unlock modal (`BadgeUnlockContext` / `useBadgeUnlock` / `BadgeUnlockModal`).
+- **Answer-reveal casing.** The grader sentence-cases the revealed answer for display, but store answers properly cased anyway — other surfaces show the raw value (brands keep their own casing, e.g. `23andMe`).
+- **Design tokens** live in `theme.ts` (`type` / `radius` / `spacing` / `colors` / `accentFor`); shared components in `ui.tsx` (`Screen`, `ScoreRing`, `Touchable`, `Card`, `ModeCard`, `CategoryScoreRow`, `PrimaryAction`). The shared `Screen` ScrollView disables bounce/overscroll so content doesn't scroll past the bottom on short screens, and `Touchable` adds a short press delay so scroll-drags don't fire taps.
 
 ## Multiplayer / Competitive (designed, not built)
 
@@ -205,7 +241,7 @@ Tracked here so the next session can pick up cleanly. Grouped by area, roughly i
 - Animate the `ScoreRing` fill (animate `strokeDashoffset` on score change instead of snapping; `react-native-reanimated` is already a dependency).
 - Build the **Category Detail** screen reached by tapping a Home category: subcategory score ladder, the $200–$1000 value ladder, a 7-day trend, and a "Train this" button. Requires subcategory competency data (`category_competencies` rows with `dimension_type = 'subcategory'`).
 - Apply the design-token pass to the screens not yet restyled: `app/auth.tsx`, `app/auth-callback.tsx`, `app/modal.tsx`, `app/+not-found.tsx`.
-- Add empty / zero states for a brand-new user (Home ring at 0, empty Daily calendar, an inline Train empty state rather than only an alert).
+- ~~Add empty / zero states for a brand-new user~~ — **done** (#85): new-user empty states on Home, plus the activity/badges screens.
 - Train **Select Categories** multi-pick UI (today only single-category via a Home tap; the `selected` mode + `categories[]` parameter already support multi-select on the backend).
 - Session recap / postmortem: list the missed clues with reveal, not just the counts.
 - Fix the stale `mobile/AGENTS.md` (it says Expo v56; the app is on SDK 54).
@@ -215,7 +251,7 @@ Tracked here so the next session can pick up cleanly. Grouped by area, roughly i
 - Invest in **alias coverage** — this is the highest-leverage improvement for grading accuracy. The grader can only credit equivalents that exist as aliases (e.g. "JFK" ↔ "John F. Kennedy"), so alias quality matters more than any threshold tuning. Ties directly to the `missing-multiword-aliases` quality rule.
 - Short-answer fuzzy matching is guarded in `isClose` (equal-length substitutions and first-letter changes are rejected on short answers, so "Mars" ≠ "Mark" and "Rhône" ≠ "Rhine"), and `matchesSurname` accepts **last-name-only** answers plus a one-edit surname misspelling for multi-word person names ("Pollack" → "Jackson Pollock"), with a ≥6-char guard that keeps real neighbors apart ("Manet" ≠ "Monet"). Remaining work is widening alias coverage rather than loosening the matcher.
 - Optional: capture confidence and offer "show answer" before grading (both in `planning/product-plan.md`, not yet in the loop).
-- Badge **awarding** is not implemented — the tier badges in `planning/app-structure.md` never get granted (no award step/trigger). Since gamification is competency-only, badges are the milestone layer, so this is the next gamification piece.
+- ~~Badge **awarding** is not implemented~~ — **done** (#85): `award_badges` runs via a trigger on the `category_competencies` overall row (migration `030`), surfaced by an app-wide unlock modal. Awards fire once at run end (see Frontend conventions).
 
 ### Question quality & difficulty (calibration)
 - **Difficulty re-centering.** The base-score prior currently shrinks toward 2.4, which is below the true scale midpoint of 3. The J! Archive benchmark shows the resulting structural compression: we rate $200 clues too hard (bias +0.72) and $1000 too easy (−0.40), monotonic across ranks. Re-center the prior to 3 and/or reduce the shrinkage weight in `difficulty-rules.mjs`, then re-run the benchmark and watch the per-rank bias collapse toward zero.
