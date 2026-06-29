@@ -38,6 +38,7 @@ const cases: Case[] = [
   // Reported live: short common form of a longer canonical answer (fixed via aliases).
   { name: 'short form via alias (Warner Bros)', answer: 'Warner Bros. Discovery', aliases: ['WBD', 'Warner Bros Discovery', 'Warner Brothers Discovery', 'Warner Bros', 'Warner Brothers'], submitted: 'Warner bros', want: 'correct' },
   { name: "short form via alias (Beethoven's Fifth)", answer: "Beethoven's Fifth Symphony", aliases: ["Beethoven's Fifth", 'Symphony No. 5', 'Fifth Symphony'], submitted: "Beethoven's Fifth", want: 'correct' },
+  { name: 'short form via alias (Soft Shell)', answer: 'Soft-shell crab', aliases: ['Soft shell crab', 'Soft-shell crabs', 'Soft shell', 'Soft-shell'], submitted: 'Soft Shell', want: 'correct' },
 
   // ---- typos / fuzzy on longer answers ----
   { name: 'typo within tolerance (Massachusets)', answer: 'Massachusetts', submitted: 'Massachusets', want: 'correct' },
