@@ -6,10 +6,18 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Card, ClueCard, Header, ModeCard, Pill, PrimaryAction, Screen, Section } from '@/src/components/ui';
 import { displayClue } from '@/src/clues/jeopardyStyle';
 import { tapLight, tapMedium, notifyError, notifySuccess, notifyWarning } from '@/src/lib/haptics';
+import { badgeIcon } from '@/src/constants/badges';
 import { useBadgeCheck } from '@/src/contexts/BadgeUnlockContext';
 import { gradeResponse, type GradeResult } from '@/src/scoring/answerGrader';
-import { createPracticeSession, getRecommendedQuestions, submitPracticeAttempt } from '@/src/services/triviaApi';
-import { colors, radius, spacing, type } from '@/src/theme';
+import {
+  createPracticeSession,
+  fetchBadges,
+  fetchEarnedBadges,
+  fetchHomeCompetencies,
+  getRecommendedQuestions,
+  submitPracticeAttempt,
+} from '@/src/services/triviaApi';
+import { accentFor, colors, radius, spacing, type } from '@/src/theme';
 import type { AttemptGrade, RecommendedQuestion, SessionMode } from '@/src/types/supabase';
 
 const sessionLength = 12;
@@ -22,6 +30,40 @@ type SessionAttemptSummary = {
 };
 
 type StartOptions = { mechanics?: string[]; categories?: string[]; values?: number[]; limit?: number };
+
+// Post-run "Competency this run" recap: a before→after diff over the categories answered.
+type CatDelta = {
+  id: string;
+  name: string;
+  before: number;
+  after: number;
+  delta: number;
+  tierUp: string | null;
+  tierUpIcon: string | null;
+};
+type CompetencyRecap = {
+  overallBefore: number;
+  overallAfter: number;
+  cats: CatDelta[];
+  newBadges: { key: string; name: string; description: string }[];
+};
+type RunStart = { comps: Map<string, { score: number; tier: string }>; overall: number; badgeKeys: Set<string> };
+
+const capitalize = (s: string) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+const deltaText = (d: number) => (d > 0 ? `▲ ${d}` : d < 0 ? `▼ ${Math.abs(d)}` : '—');
+const deltaStyle = (d: number) =>
+  ({ color: d > 0 ? colors.green : d < 0 ? colors.red : colors.dim, fontWeight: '800' as const });
+
+/** Reduce category_competencies rows to a score/tier map + the overall score. */
+function indexComps(rows: unknown): { map: Map<string, { score: number; tier: string }>; overall: number } {
+  const map = new Map<string, { score: number; tier: string }>();
+  let overall = 0;
+  for (const c of (rows ?? []) as { dimension_type: string; dimension_key: string; score: number; tier: string }[]) {
+    if (c.dimension_type === 'category') map.set(c.dimension_key, { score: c.score, tier: c.tier });
+    else if (c.dimension_type === 'overall') overall = c.score;
+  }
+  return { map, overall };
+}
 
 export default function TrainScreen() {
   const router = useRouter();
@@ -44,6 +86,8 @@ export default function TrainScreen() {
   const [overrideGrade, setOverrideGrade] = useState<AttemptGrade | null>(null);
   const [elapsedMs, setElapsedMs] = useState<number | null>(null);
   const [saving, setSaving] = useState(false);
+  const [runStart, setRunStart] = useState<RunStart | null>(null);
+  const [runRecap, setRunRecap] = useState<CompetencyRecap | null>(null);
   const handledParamRef = useRef<string | null>(null);
 
   const checkBadges = useBadgeCheck();
@@ -53,8 +97,62 @@ export default function TrainScreen() {
   // Practice runs inside this tab (no route change), so the global navigation-based
   // badge check never fires — re-check when a session finishes.
   useEffect(() => {
-    if (completed) void checkBadges();
-  }, [completed, checkBadges]);
+    if (!completed) return;
+    void checkBadges();
+    void (async () => {
+      if (!runStart) return;
+      try {
+        // After-values are live: competency recalcs in-transaction on each attempt (016/029).
+        const [comps, earned, allBadges] = await Promise.all([
+          fetchHomeCompetencies(),
+          fetchEarnedBadges(),
+          fetchBadges(),
+        ]);
+        const { map: afterMap, overall: overallAfter } = indexComps(comps);
+
+        // Badges earned during this run, mapped to the category they reward (for the tier-up icon).
+        const freshKeys = ((earned ?? []) as { badge_key: string }[])
+          .map((e) => e.badge_key)
+          .filter((k) => !runStart.badgeKeys.has(k));
+        const byKey = new Map(
+          ((allBadges ?? []) as { key: string; name: string; description: string; criteria: { dimension?: string } }[]).map(
+            (b) => [b.key, b],
+          ),
+        );
+        const newBadges = freshKeys.map((k) => byKey.get(k)).filter(Boolean) as {
+          key: string;
+          name: string;
+          description: string;
+          criteria: { dimension?: string };
+        }[];
+        const badgeByDim = new Map(newBadges.filter((b) => b.criteria?.dimension).map((b) => [b.criteria.dimension!, b]));
+
+        // One row per category answered this run (merged id + name from the served questions).
+        const touched = new Map<string, string>();
+        for (const q of questions) touched.set(q.category_id, q.category_name);
+        const cats: CatDelta[] = [...touched.entries()].map(([id, name]) => {
+          const before = runStart.comps.get(id)?.score ?? 0;
+          const after = afterMap.get(id)?.score ?? 0;
+          const tierBefore = runStart.comps.get(id)?.tier;
+          const tierAfter = afterMap.get(id)?.tier;
+          const tierUp = tierAfter && tierAfter !== tierBefore && after > before ? capitalize(tierAfter) : null;
+          const badge = badgeByDim.get(id);
+          return { id, name, before, after, delta: after - before, tierUp, tierUpIcon: tierUp && badge ? badgeIcon(badge.key) : null };
+        });
+        cats.sort((a, b) => b.delta - a.delta); // signed, largest gain first → biggest drop last
+
+        setRunRecap({
+          overallBefore: runStart.overall,
+          overallAfter,
+          cats,
+          newBadges: newBadges.map((b) => ({ key: b.key, name: b.name, description: b.description })),
+        });
+      } catch {
+        // best-effort — a recap failure must not disrupt the done screen
+      }
+    })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [completed]);
   // The grade we'll actually record: the user's override if they tapped one,
   // otherwise the auto-grader's suggestion.
   const finalGrade: AttemptGrade = overrideGrade ?? gradeResult?.grade ?? 'unknown';
@@ -113,6 +211,20 @@ export default function TrainScreen() {
       setGradeResult(null);
       setAttemptSummaries([]);
       setStartedAt(Date.now());
+      setRunRecap(null);
+
+      // Snapshot competency + earned badges BEFORE the run, so the recap can diff after.
+      try {
+        const [comps, earned] = await Promise.all([fetchHomeCompetencies(), fetchEarnedBadges()]);
+        const { map, overall } = indexComps(comps);
+        setRunStart({
+          comps: map,
+          overall,
+          badgeKeys: new Set(((earned ?? []) as { badge_key: string }[]).map((e) => e.badge_key)),
+        });
+      } catch {
+        setRunStart(null); // recap is best-effort; never block a session
+      }
     } catch (error) {
       Alert.alert('Could not start session', error instanceof Error ? error.message : 'Try again.');
     } finally {
@@ -331,6 +443,53 @@ export default function TrainScreen() {
           <Text style={styles.doneTitle}>{sessionSummary.title}</Text>
           <Text style={styles.doneText}>{sessionSummary.detail}</Text>
         </Card>
+
+        {runRecap && runRecap.cats.length > 0 ? (
+          <Card>
+            <View style={styles.recapHead}>
+              <Text style={styles.recapOver}>Competency this run</Text>
+              <View style={styles.recapOverall}>
+                <Text style={styles.recapBefore}>{runRecap.overallBefore}</Text>
+                <Text style={styles.recapArrow}>→</Text>
+                <Text style={styles.recapNow}>{runRecap.overallAfter}</Text>
+                <Text style={[styles.recapDelta, deltaStyle(runRecap.overallAfter - runRecap.overallBefore)]}>
+                  {deltaText(runRecap.overallAfter - runRecap.overallBefore)}
+                </Text>
+              </View>
+            </View>
+
+            {runRecap.cats.map((c, i) => (
+              <View key={c.id} style={[styles.recapRow, i === runRecap.cats.length - 1 && styles.recapRowLast]}>
+                <View style={[styles.recapDot, { backgroundColor: accentFor(c.id) }]} />
+                <Text style={styles.recapName} numberOfLines={1}>
+                  {c.name}
+                  {c.tierUp ? (
+                    <Text style={styles.recapTierUp}>
+                      {'  '}▲ {c.tierUp}
+                      {c.tierUpIcon ? ` ${c.tierUpIcon}` : ''}
+                    </Text>
+                  ) : null}
+                </Text>
+                <Text style={styles.recapBA}>
+                  {c.before} <Text style={styles.recapArrowSm}>→</Text> <Text style={styles.recapTo}>{c.after}</Text>
+                </Text>
+                <Text style={[styles.recapRowDelta, deltaStyle(c.delta)]}>{deltaText(c.delta)}</Text>
+              </View>
+            ))}
+
+            {runRecap.newBadges.map((b) => (
+              <View key={b.key} style={styles.recapBadge}>
+                <View style={styles.recapBadgeIc}>
+                  <Text style={styles.recapBadgeEmoji}>{badgeIcon(b.key)}</Text>
+                </View>
+                <View style={styles.recapBadgeText}>
+                  <Text style={styles.recapBadgeTitle}>{b.name} unlocked</Text>
+                  <Text style={styles.recapBadgeSub}>{b.description}</Text>
+                </View>
+              </View>
+            ))}
+          </Card>
+        ) : null}
 
         <PrimaryAction
           title="Run another set"
@@ -620,6 +779,49 @@ const styles = StyleSheet.create({
     color: colors.muted,
     marginTop: 4,
   },
+
+  // "Competency this run" recap
+  recapHead: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: spacing.sm },
+  recapOver: { ...type.overline, color: colors.muted },
+  recapOverall: { flexDirection: 'row', alignItems: 'baseline', gap: 6 },
+  recapBefore: { ...type.caption, color: colors.dim, fontWeight: '700' },
+  recapArrow: { ...type.caption, color: colors.dim },
+  recapArrowSm: { color: colors.dim },
+  recapNow: { ...type.bodyStrong, color: colors.ink },
+  recapDelta: { ...type.caption, fontWeight: '800', marginLeft: 2 },
+  recapRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 11, borderBottomWidth: 1, borderBottomColor: colors.lineSoft },
+  recapRowLast: { borderBottomWidth: 0 },
+  recapDot: { width: 10, height: 10, borderRadius: 3 },
+  recapName: { ...type.body, fontWeight: '600', color: colors.ink, flex: 1 },
+  recapTierUp: { color: colors.gold, fontWeight: '800', fontSize: 12 },
+  recapBA: { ...type.caption, color: colors.muted, fontVariant: ['tabular-nums'] },
+  recapTo: { color: colors.ink, fontWeight: '700' },
+  recapRowDelta: { width: 46, textAlign: 'right', fontSize: 13, fontVariant: ['tabular-nums'] },
+  recapBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    marginTop: spacing.md,
+    backgroundColor: colors.goldSoft,
+    borderWidth: 1,
+    borderColor: 'rgba(242,184,75,0.45)',
+    borderRadius: radius.lg,
+    padding: spacing.md,
+  },
+  recapBadgeIc: {
+    width: 42,
+    height: 42,
+    borderRadius: 11,
+    backgroundColor: colors.surface,
+    borderWidth: 1,
+    borderColor: 'rgba(242,184,75,0.5)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  recapBadgeEmoji: { fontSize: 21 },
+  recapBadgeText: { flex: 1 },
+  recapBadgeTitle: { ...type.bodyStrong, color: colors.ink },
+  recapBadgeSub: { ...type.caption, color: colors.gold, fontWeight: '700', marginTop: 1 },
   summaryCard: {
     gap: spacing.md,
   },
