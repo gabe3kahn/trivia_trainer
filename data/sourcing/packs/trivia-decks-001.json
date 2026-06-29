@@ -166,34 +166,6 @@
     },
     {
       "source": "deck_import",
-      "external_id": "deck-001-008",
-      "category_id": "science",
-      "subcategory_name": "Inventions & Discoveries",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "A scientist from this country sparked global outrage by announcing he had edited the genes of twin babies.",
-      "answer": "China",
-      "aliases": [
-        "People's Republic of China"
-      ],
-      "tags": [
-        "deck-import"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "China",
-          "url": "https://en.wikipedia.org/wiki/China",
-          "snippet": "China, officially the People's Republic of China (PRC), is a country in East Asia. It is the second-most populous country after India, with a population exceeding 1.4 billion, across an area of 9.6 million square kilometers (3,700,000 sq mi"
-        }
-      ],
-      "verification_status": "weak",
-      "verified_at": "2026-06-13T23:49:49.550Z"
-    },
-    {
-      "source": "deck_import",
       "external_id": "deck-001-009",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Film",
@@ -311,7 +283,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This principle distinguishes intended harm from merely foreseen harm, and is invoked to justify a life-saving abortion.",
-      "answer": "principle of double effect",
+      "answer": "Principle of double effect",
       "aliases": [
         "double effect"
       ],
@@ -368,7 +340,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Émile Durkheim coined this term for a state of normlessness when a society's shared values break down.",
-      "answer": "anomie",
+      "answer": "Anomie",
       "aliases": [],
       "tags": [
         "deck-import"
@@ -448,7 +420,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Popularized on 'The Good Place,' this thought experiment about a runaway tram is often applied to driverless-car dilemmas.",
-      "answer": "trolley problem",
+      "answer": "Trolley problem",
       "aliases": [
         "the trolley problem"
       ],
@@ -557,7 +529,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Often summarized as treating others as you would wish to be treated, this maxim shares its name with a precious metal.",
-      "answer": "the Golden Rule",
+      "answer": "The Golden Rule",
       "aliases": [
         "Golden Rule"
       ],
@@ -612,7 +584,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This ethical stance prioritizes actions that benefit the long-run future and far-future generations.",
-      "answer": "longtermism",
+      "answer": "Longtermism",
       "aliases": [],
       "tags": [
         "deck-import",
@@ -935,34 +907,6 @@
     },
     {
       "source": "deck_import",
-      "external_id": "deck-001-036",
-      "category_id": "sports_games_leisure",
-      "subcategory_name": "Basketball",
-      "value": 200,
-      "difficulty_rank": 1,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "He wore number 23 while winning six championships for the Chicago Bulls.",
-      "answer": "Michael Jordan",
-      "aliases": [
-        "Jordan"
-      ],
-      "tags": [
-        "deck-import"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Michael Jordan",
-          "url": "https://en.wikipedia.org/wiki/Michael_Jordan",
-          "snippet": "Michael Jeffrey Jordan, also known by his initials MJ, is an American businessman and retired professional basketball player who is a minority owner of the Charlotte Hornets of the National Basketball Association (NBA). He played 15 seasons"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-13T23:52:04.786Z"
-    },
-    {
-      "source": "deck_import",
       "external_id": "deck-001-037",
       "category_id": "music_performing_arts",
       "subcategory_name": "Popular Music",
@@ -1161,7 +1105,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Pulses of laser light carry data through these thin glass strands that form much of the internet's backbone.",
-      "answer": "fiber optics",
+      "answer": "Fiber optics",
       "aliases": [
         "optical fiber",
         "fibre optics"
@@ -1183,7 +1127,7 @@
     {
       "source": "deck_import",
       "external_id": "deck-001-045",
-      "category_id": "language_wordplay",
+      "category_id": "words_language",
       "subcategory_name": "Foreign Words & Phrases",
       "value": 600,
       "difficulty_rank": 3,
@@ -1216,7 +1160,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "The wings of these tiny birds can beat up to about 80 times per second.",
-      "answer": "hummingbird",
+      "answer": "Hummingbird",
       "aliases": [
         "hummingbirds"
       ],
@@ -1244,7 +1188,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Paul, a member of this eight-armed species, correctly called all eight matches he was given at the 2010 World Cup.",
-      "answer": "octopus",
+      "answer": "Octopus",
       "aliases": [],
       "tags": [
         "deck-import"
@@ -1270,7 +1214,7 @@
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Native to much of South America, it is the largest living rodent.",
-      "answer": "capybara",
+      "answer": "Capybara",
       "aliases": [],
       "tags": [
         "deck-import"
