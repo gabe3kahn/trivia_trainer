@@ -82,6 +82,10 @@ for (const row of activeRows) {
 }
 const bankCollisions = [];
 for (const question of questions) {
+  // Reviewer-blessed cross-fact dupe (e.g. "Brazil" as a geography fact AND a World Cup
+  // fact). The gate is answer-only, so it can't tell different facts apart — allow_duplicate
+  // is the manual override that says "this shared answer is intentional, not a re-draft".
+  if (question.allow_duplicate === true) continue;
   const packWordplay = isWordplay(question.category_id);
   const packImage = isImage(question);
   const hits = (activeByAnswer.get(normAnswer(question.answer)) ?? []).filter(
@@ -142,6 +146,7 @@ for (const question of questions) {
     image_license: question.image_license ?? null,
     answer_detail: question.answer_detail ?? null,
     answer_type: question.answer_type === 'name' ? 'name' : 'other', // default safe; only people are 'name'
+    allow_duplicate: question.allow_duplicate === true, // reviewer-blessed cross-fact dupe (skips the dedup gate)
     quality_status: quality.decision,
     quality_score: quality.score,
     quality_issues: quality.issues,
