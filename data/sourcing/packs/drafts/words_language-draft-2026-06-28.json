@@ -1,0 +1,510 @@
+{
+  "pack_id": "wl-draft-2026-06-28",
+  "category_id": "words_language",
+  "created_at": "2026-06-28T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hors_d'oeuvre",
+      "external_id": "wl-2026-06-28-001",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In European cuisine, this French term describes the small dishes — from stuffed mushrooms to chilled seafood — served before the main meal begins.",
+      "answer": "Hors d'oeuvres",
+      "answer_type": "other",
+      "aliases": [
+        "Hors d'oeuvre"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-words"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hors d'oeuvre",
+          "url": "https://en.wikipedia.org/wiki/Hors_d'oeuvre",
+          "snippet": "An hors d'oeuvre, entrée, appetiser, appetizer or starter is a small dish served before a meal in European cuisine. Some hors d'oeuvres are served cold, others hot. Hors d'oeuvres may be served at the dinner table as a part of the meal, or "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:18:27.309Z",
+      "lock_value": true
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Dog_in_the_Manger",
+      "external_id": "wl-2026-06-28-002",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This idiom, drawn from an ancient Greek fable later misattributed to Aesop, describes someone who spitefully prevents others from using something they themselves have no use for.",
+      "answer": "Dog in the manger",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Dog in the Manger",
+          "url": "https://en.wikipedia.org/wiki/The_Dog_in_the_Manger",
+          "snippet": "The story and metaphor of The Dog in the Manger derives from an old Greek fable which has been transmitted in several different versions. Interpreted variously over the centuries, the metaphor is now used to speak of one who spitefully prev"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:18:27.736Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/George_Orwell",
+      "external_id": "wl-2026-06-28-003",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Derived from the pen name of a British author who died in 1950, this adjective describes any system of totalitarian surveillance, propaganda, or thought control like those depicted in his dystopian fiction.",
+      "answer": "Orwellian",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "George Orwell",
+          "url": "https://en.wikipedia.org/wiki/George_Orwell",
+          "snippet": "Eric Arthur Blair was an English novelist, poet, essayist, journalist, and critic who wrote under the pen name of George Orwell. His work is characterised by lucid prose, social criticism, opposition to all totalitarianism, and support of d"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:18:28.423Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Couscous",
+      "external_id": "wl-2026-06-28-004",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A staple of Maghrebi cuisines from Algeria to Morocco to Tunisia, this word — drawn from the Tamazight 'seksu' — names a North African dish of steamed semolina granules that was added to UNESCO's Intangible Cultural Heritage list in 2020.",
+      "answer": "Couscous",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-words"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Couscous",
+          "url": "https://en.wikipedia.org/wiki/Couscous",
+          "snippet": "Couscous, is a traditional North African dish of small steamed granules of rolled semolina that is often served with a stew spooned on top. Pearl millet, sorghum, bulgur, and other cereals are often cooked in much the same way in West Afric"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:00.961Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Toque",
+      "external_id": "wl-2026-06-28-005",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Popular in Europe from the 13th to the 16th century and revived in the 1930s, this style of hat with a narrow brim or none at all is now best known as traditional professional cooks' headgear — and in Canada, as a word for a winter knit cap.",
+      "answer": "Toque",
+      "answer_type": "other",
+      "aliases": [
+        "Tuque"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Toque",
+          "url": "https://en.wikipedia.org/wiki/Toque",
+          "snippet": "A toque is a type of hat with a narrow brim or no brim at all."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:01.877Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Zeugma_and_syllepsis",
+      "external_id": "wl-2026-06-28-006",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A variety of zeugma in which a single verb is applied to two nouns in different senses — as in 'she lost her phone and her temper' — this rhetorical term names the device of yoking two objects under one word that fits each in a different way.",
+      "answer": "Syllepsis",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Zeugma and syllepsis",
+          "url": "https://en.wikipedia.org/wiki/Zeugma_and_syllepsis",
+          "snippet": "\nZeugma is the use of a word to modify or govern two or more words or phrases. The term comes from the Ancient Greek ζεῦγμα, zeûgma, lit. \"a yoking together\". An example may be \"rolling lightning and thunder\", where \"rolling\" is applied to "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:02.901Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+      "external_id": "wl-2026-06-28-007",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Derived from the surname of the novelist behind A Christmas Carol and Oliver Twist, this adjective describes conditions of grinding poverty, social squalor, or grotesquely vivid characters reminiscent of his Victorian fiction.",
+      "answer": "Dickensian",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Charles Dickens",
+          "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "snippet": "Charles John Huffam Dickens was an English writer and journalist. He created some of literature's best-known fictional characters, and is regarded by many as the greatest novelist of the Victorian era. His works enjoyed unprecedented popula"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:03.525Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Fin_de_si%C3%A8cle",
+      "external_id": "wl-2026-06-28-008",
+      "category_id": "words_language",
+      "subcategory_name": "Foreign Words & Phrases",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French phrase — meaning 'end of century' — typically refers to the 1890s, a decade widely seen as both socially decadent and pregnant with hope for a new beginning.",
+      "answer": "Fin de siècle",
+      "answer_type": "other",
+      "aliases": [
+        "Fin de siecle"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "foreign-words"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Fin de siècle",
+          "url": "https://en.wikipedia.org/wiki/Fin_de_si%C3%A8cle",
+          "snippet": "\"Fin de siècle\" is a French term meaning 'end of century', a phrase which typically encompasses both the meaning of the similar English idiom turn of the century and also makes reference to the closing of one era and onset of another. Witho"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:03.946Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Fraternization",
+      "external_id": "wl-2026-06-28-009",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This verb describes forming relationships that breach social, professional, or military norms — most often used of soldiers who get friendly with those on the opposing side.",
+      "answer": "Fraternize",
+      "answer_type": "other",
+      "aliases": [
+        "Fraternise"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Fraternization",
+          "url": "https://en.wikipedia.org/wiki/Fraternization",
+          "snippet": "Fraternization is the act of establishing intimate relations between people or groups. It is generally used to refer to establishing relations that are considered unethical, controversial, problematic, or illegal. In many institutional cont"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:04.363Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Up_to_eleven",
+      "external_id": "wl-2026-06-28-010",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Entered in the Shorter Oxford English Dictionary in 2002, this idiom originated in the 1984 mockumentary This Is Spinal Tap, whose guitarist demonstrated an amplifier whose volume knobs went one notch beyond the standard maximum.",
+      "answer": "Up to eleven",
+      "answer_type": "other",
+      "aliases": [
+        "These go to eleven",
+        "Goes to eleven",
+        "Take it up to eleven",
+        "Turn it up to eleven",
+        "Up to 11",
+        "Take it up to 11",
+        "Turn it up to 11",
+        "These go to 11",
+        "Goes to 11"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Up to eleven",
+          "url": "https://en.wikipedia.org/wiki/Up_to_eleven",
+          "snippet": "\"Up to eleven\", also phrased as \"these go to eleven\", is an idiom from popular culture describing something that is up to or beyond the maximum threshold, or to an extremely high or strong degree. The phrase originates from the 1984 film Th"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:04.780Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+      "external_id": "wl-2026-06-28-011",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Immanuel Kant used this adjective — borrowed from an astronomer's surname — to describe his own proposed revolution in epistemology, arguing that objects of experience conform to the mind's forms rather than the other way around.",
+      "answer": "Copernican",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Immanuel Kant",
+          "url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+          "snippet": "Immanuel Kant was a German philosopher. Born in Königsberg in the Kingdom of Prussia, he is considered one of the central thinkers of the Enlightenment. His comprehensive and systematic works in epistemology, metaphysics, logic, ethics, aes"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:05.502Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Logorrhea",
+      "external_id": "wl-2026-06-28-012",
+      "category_id": "words_language",
+      "subcategory_name": "Definitions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "From the Greek words for 'word' and 'to flow,' this psychological term describes excessive, repetitive wordiness more commonly classified as a symptom of mental illness or brain injury than as a disorder in itself.",
+      "answer": "Logorrhea",
+      "answer_type": "other",
+      "aliases": [
+        "Logorrhoea"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "definitions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Logorrhea",
+          "url": "https://en.wikipedia.org/wiki/Logorrhea",
+          "snippet": "In psychology, logorrhea or logorrhoea is a communication disorder that causes excessive wordiness and repetitiveness, which can cause incoherency. Logorrhea is sometimes classified as a mental illness, though it is more commonly classified"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:19:05.924Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Clavicle",
+      "external_id": "wl-2026-06-28-013",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named from the Latin diminutive for 'key' — because it rotates along its axis when the arm is raised, much as a key turns in a lock — this word names the S-shaped bone connecting the breastbone to the shoulder.",
+      "answer": "Clavicle",
+      "answer_type": "other",
+      "aliases": [
+        "Collarbone"
+      ],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Clavicle",
+          "url": "https://en.wikipedia.org/wiki/Clavicle",
+          "snippet": "The clavicle, collarbone, or keybone is a slender, S-shaped long bone approximately 15 centimetres (6 in) long that serves as a strut between the shoulder blade and the sternum (breastbone). There are two clavicles, one on each side of the "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:20:01.457Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Second_Boer_War",
+      "external_id": "wl-2026-06-28-014",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "An Afrikaans term literally meaning 'outlander' or 'foreigner,' this word was applied during the conflict of 1899–1902 to the non-Boer immigrants — predominantly British — whose presence in the Transvaal helped trigger the war.",
+      "answer": "Uitlander",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Second Boer War",
+          "url": "https://en.wikipedia.org/wiki/Second_Boer_War",
+          "snippet": "The Second Boer War was a conflict fought between the British Empire and the Boer republics over Britain's influence in Southern Africa."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:20:02.091Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Second_Boer_War",
+      "external_id": "wl-2026-06-28-015",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in political vocabulary during the Second Boer War, this phrase, stemming from the color of British soldiers' battlefield uniforms, names a parliamentary contest deliberately scheduled at a moment of wartime patriotic fervor.",
+      "answer": "Khaki election",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Second Boer War",
+          "url": "https://en.wikipedia.org/wiki/Second_Boer_War",
+          "snippet": "The Second Boer War was a conflict fought between the British Empire and the Boer republics over Britain's influence in Southern Africa."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:20:02.706Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Crew_cut",
+      "external_id": "wl-2026-06-28-016",
+      "category_id": "words_language",
+      "subcategory_name": "Etymology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This close-cropped men's hairstyle takes its name from the oarsmen of Ivy League rowing teams, who favored the practical cut in the early 20th century.",
+      "answer": "Crew cut",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "wl-draft",
+        "sourced",
+        "etymology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Crew cut",
+          "url": "https://en.wikipedia.org/wiki/Crew_cut",
+          "snippet": "A crew cut is a type of haircut in which the upright hair on the top of the head is cut relatively short, graduated in length from the longest hair that forms a short pomp (pompadour) at the front hairline to the shortest at the back of the"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-28T23:20:03.284Z"
+    }
+  ]
+}
