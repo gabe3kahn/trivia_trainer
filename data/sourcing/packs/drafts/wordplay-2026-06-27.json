@@ -1,0 +1,217 @@
+{
+  "pack_id": "wordplay-2026-06-27",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-27",
+  "notes": "Run 2026-06-27. Mechanics: crossword (5) + rhyme_time (5). Both mechanics are new — never previously drafted. Crossword answers: QUILL, COBALT, ORACLE, MARROW, ORRERY. Rhyme Time answers: fat cat, bright night, stale tale, cold gold, sage stage. Reviewer-applied edits 2026-06-27: COBALT→$600 (de-run-on); ORACLE→$400 (dropped software-company half); MARROW reclued onto the vegetable sense alone; cold gold, bright night, fat cat trimmed to terse definitions; sage stage trimmed→$600; stale tale kept as drafted (reviewer preferred original). lock_value set on reviewer-dictated values (COBALT, ORACLE, sage stage).",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-cw-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "crossword",
+      "constraint_text": "(5) _ U _ _ _",
+      "clue": "The hollow central shaft of a large bird's wing feather, when cut to a point at its tip, served as the standard writing instrument across medieval Europe and remained in common use into the 19th century.",
+      "answer": "QUILL",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "length": 5,
+        "pattern": "_U___"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-cw-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "crossword",
+      "constraint_text": "(6) _ _ _ A _ _",
+      "clue": "In German mining folklore, this hard, silvery metal took its name from a mischievous goblin; silver miners blamed the sprite for the worthless, toxic ore they kept unearthing in place of the precious metal they sought.",
+      "answer": "COBALT",
+      "answer_type": "other",
+      "lock_value": true,
+      "aliases": [],
+      "wp": {
+        "length": 6,
+        "pattern": "___A__"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-cw-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword",
+      "constraint_text": "(6) _ R _ _ _ _",
+      "clue": "In ancient Greek religion, the priestess known as the Pythia delivered the gods' cryptic prophecies at Delphi through this role.",
+      "answer": "ORACLE",
+      "answer_type": "other",
+      "lock_value": true,
+      "aliases": [],
+      "wp": {
+        "length": 6,
+        "pattern": "_R____"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-cw-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "crossword",
+      "constraint_text": "(6) _ _ _ R _ _",
+      "clue": "Left to grow long and fat on the vine, this mild-fleshed green squash — essentially an overgrown courgette — is a staple of British allotments and autumn harvest shows.",
+      "answer": "MARROW",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "length": 6,
+        "pattern": "___R__"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-cw-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "crossword",
+      "constraint_text": "(6) _ _ _ E _ _",
+      "clue": "A mechanical clockwork model displaying the relative motions of the planets around the sun, named after an Irish earl who commissioned an early example in the early 18th century.",
+      "answer": "ORRERY",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "length": 6,
+        "pattern": "___E__"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-rt-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "An overweight feline, or a wealthy, powerful person.",
+      "answer": "fat cat",
+      "answer_type": "other",
+      "lock_value": true,
+      "aliases": ["cat fat"],
+      "wp": {
+        "rhyme_pair": ["fat", "cat"]
+      },
+      "tags": ["wp-draft", "rhyme_time"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-rt-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "An evening lit up by a glowing full moon.",
+      "answer": "bright night",
+      "answer_type": "other",
+      "aliases": ["night bright"],
+      "wp": {
+        "rhyme_pair": ["bright", "night"]
+      },
+      "tags": ["wp-draft", "rhyme_time"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-rt-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "A yarn so worn by repetition at family gatherings that every listener can complete it before the speaker reaches the ending.",
+      "answer": "stale tale",
+      "answer_type": "other",
+      "aliases": ["tale stale"],
+      "wp": {
+        "rhyme_pair": ["stale", "tale"]
+      },
+      "tags": ["wp-draft", "rhyme_time"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-rt-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "The chilly top medal clutched by a Winter Olympics champion on the podium.",
+      "answer": "cold gold",
+      "answer_type": "other",
+      "aliases": ["gold cold"],
+      "wp": {
+        "rhyme_pair": ["cold", "gold"]
+      },
+      "tags": ["wp-draft", "rhyme_time"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-27-rt-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "The elevated podium occupied by a wise elder.",
+      "answer": "sage stage",
+      "answer_type": "other",
+      "lock_value": true,
+      "aliases": ["stage sage"],
+      "wp": {
+        "rhyme_pair": ["sage", "stage"]
+      },
+      "tags": ["wp-draft", "rhyme_time"],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}

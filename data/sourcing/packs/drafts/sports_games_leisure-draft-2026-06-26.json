@@ -1,0 +1,500 @@
+{
+  "pack_id": "sports_games_leisure-draft-2026-06-26",
+  "category_id": "sports_games_leisure",
+  "created_at": "2026-06-26",
+  "notes": "Run 2026-06-26 (category 2 of 2). Active count was 45 — tied with literature_books for second-thinnest eligible category. Under-weight tiers: $800 (1 active!) and $1000 (3 active). Pack heavily weighted toward those tiers: 2x $200, 3x $400, 3x $600, 5x $800, 2x $1000. Fills gaps in Basketball (Bill Russell, Magic Johnson, Julius Erving), Tennis & Golf (Roger Federer, Augusta National, Tiger Woods), Soccer (Marta), Olympics (Curling, Heptathlon), Baseball (Boston Red Sox, Derek Jeter), and minor gaps in Board Games, Rules & Terminology, and Sports Records. Hard tail: Bill Russell ($1000, 11-ring dynasty from oblique franchise angle) + Marta Vieira da Silva ($1000, first footballer of any gender at 5 consecutive World Cups). Reviewer-applied edits 2026-06-27: Roulette reclued to Croupier ($800, etymology angle); Field Hockey/Heptathlon reworded off meta phrasing; Red Sox Fenway tell cut; Derek Jeter → $400; NHL answer/alias flipped to full name; Magic Johnson, Tiger Woods (name-origin), Julius Erving ('the Move'), Federer (237-week No. 1), Augusta (Amen Corner) all rebuilt onto single oblique hooks for $800.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Curling",
+      "external_id": "sgl-2026-06-26-001",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this winter Olympic sport, teams of four players take turns sliding polished granite stones toward a circular target — called 'the house' — on a sheet of ice, while two teammates sweep with brooms to guide the stone's path.",
+      "answer": "Curling",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "olympics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Curling",
+          "url": "https://en.wikipedia.org/wiki/Curling",
+          "snippet": "Curling is a sport in which players slide stones on a sheet of ice towards a target area that is segmented into four concentric circles. It is related to bowls, boules, and shuffleboard. Two teams, each with four players, take turns sliding"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:42.572Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hungry_Hungry_Hippos",
+      "external_id": "sgl-2026-06-26-002",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Introduced in 1978 by Milton Bradley, this boisterous tabletop children's game has two to four players pressing levers to make their animal models gobble as many marbles as possible from a central pool.",
+      "answer": "Hungry Hungry Hippos",
+      "answer_type": "other",
+      "aliases": [
+        "Hungry Hippos"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "toys-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hungry Hungry Hippos",
+          "url": "https://en.wikipedia.org/wiki/Hungry_Hungry_Hippos",
+          "snippet": "Hungry Hungry Hippos is a tabletop game made for 2–4 players, produced by Hasbro, under the brand of its subsidiary, Milton Bradley. The idea for the game was published in 1967 by toy inventor Fred Kroll and it was introduced in 1978. The o"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:42.958Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Croupier",
+      "external_id": "sgl-2026-06-26-003",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Deriving from a French word for one who rides behind — a nod to the reserve of cash once kept at a gambler's back — this casino employee deals the cards, spins the wheel, and rakes in the losing chips at the gaming table.",
+      "answer": "Croupier",
+      "answer_type": "other",
+      "aliases": [
+        "Dealer"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Croupier",
+          "url": "https://en.wikipedia.org/wiki/Croupier",
+          "snippet": "A croupier or dealer is someone appointed at a gambling table to assist in the conduct of the game, especially in the distribution of bets and payouts. Croupiers are typically employed by casinos."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:43.515Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Field_hockey",
+      "external_id": "sgl-2026-06-26-004",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Two teams of eleven use curved sticks to drive a small, hard ball into the opposing goal in this fast-paced sport played on artificial turf, an Olympic staple often confused with its ice-bound cousin.",
+      "answer": "Field Hockey",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Field hockey",
+          "url": "https://en.wikipedia.org/wiki/Field_hockey",
+          "snippet": "Field hockey, or simply hockey in Asia, Oceania, Africa and parts of Europe, is a fast-paced team sport in which two teams of eleven players use curved sticks to maneuver a small, hard hockey ball towards the rival team's shooting circle an"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:43.891Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+      "external_id": "sgl-2026-06-26-005",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This AL East franchise endured an 86-year World Series drought — popularly blamed on the sale of a star player to a bitter rival — before finally winning the championship in 2004.",
+      "answer": "Boston Red Sox",
+      "answer_type": "other",
+      "aliases": [
+        "Red Sox"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Boston Red Sox",
+          "url": "https://en.wikipedia.org/wiki/Boston_Red_Sox",
+          "snippet": "The Boston Red Sox are an American professional baseball team based in Boston. The Red Sox compete in Major League Baseball (MLB) as a member club of the American League (AL) East Division. Founded in 1901 as one of the American League's ei"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:44.262Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Derek_Jeter",
+      "external_id": "sgl-2026-06-26-006",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed 'the Captain,' this New York Yankees shortstop spent his entire 20-year career with one club, earned five World Series rings, and set the franchise record for career hits while finishing sixth all-time in MLB history.",
+      "answer": "Derek Jeter",
+      "answer_type": "name",
+      "aliases": [
+        "Jeter"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Derek Jeter",
+          "url": "https://en.wikipedia.org/wiki/Derek_Jeter",
+          "snippet": "Derek Sanderson Jeter, nicknamed \"the Captain\", is an American former professional baseball player, businessman, and baseball executive. A shortstop, Jeter spent his entire 20-year Major League Baseball (MLB) career with the New York Yankee"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:44.641Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Heptathlon",
+      "external_id": "sgl-2026-06-26-007",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Contested over two days, this women's combined track-and-field event — the counterpart to the men's ten-event contest — has been on the Olympic program since the 1984 Los Angeles Games.",
+      "answer": "Heptathlon",
+      "answer_type": "other",
+      "aliases": [
+        "women's heptathlon"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "olympics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Heptathlon",
+          "url": "https://en.wikipedia.org/wiki/Heptathlon",
+          "snippet": "A heptathlon is a track and field combined events contest made up of seven events. The name derives from the Greek ἑπτά and ἄθλος. A competitor in a heptathlon is referred to as a heptathlete."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:45.010Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/National_Hockey_League",
+      "external_id": "sgl-2026-06-26-008",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Composed of 32 teams across the United States and Canada, this professional circuit awards the Stanley Cup — the oldest professional sports trophy in North America — to its annual playoff champion.",
+      "answer": "National Hockey League",
+      "answer_type": "other",
+      "aliases": [
+        "NHL"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "sports-records"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "National Hockey League",
+          "url": "https://en.wikipedia.org/wiki/National_Hockey_League",
+          "snippet": "The National Hockey League is a professional ice hockey league in North America composed of 32 teams, 25 in the United States and 7 in Canada. The NHL is one of the major professional sports leagues in the United States and Canada and is co"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:45.382Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Magic_Johnson",
+      "external_id": "sgl-2026-06-26-009",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "As a rookie, this player started at center in place of an injured Kareem Abdul-Jabbar for the deciding game of the 1980 NBA Finals, posting 42 points and 15 rebounds to seize the series MVP.",
+      "answer": "Magic Johnson",
+      "answer_type": "name",
+      "aliases": [
+        "Johnson"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "basketball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Magic Johnson",
+          "url": "https://en.wikipedia.org/wiki/Magic_Johnson",
+          "snippet": "Earvin \"Magic\" Johnson Jr. is an American businessman and former professional basketball player. He is widely regarded as the greatest point guard of all time and one of the greatest basketball players in history. Johnson spent his entire c"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:45.961Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tiger_Woods",
+      "external_id": "sgl-2026-06-26-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Legally named Eldrick, this golfer is universally known by a nickname his father gave him in honor of a South Vietnamese army comrade.",
+      "answer": "Tiger Woods",
+      "answer_type": "name",
+      "aliases": [
+        "Woods"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis-golf"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tiger Woods",
+          "url": "https://en.wikipedia.org/wiki/Tiger_Woods",
+          "snippet": "Eldrick Tont \"Tiger\" Woods is an American professional golfer. He is widely regarded as one of the greatest golfers of all time and as one of the most famous athletes in modern history. Woods is tied for first in PGA Tour wins, ranks second"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:46.534Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Julius_Erving",
+      "external_id": "sgl-2026-06-26-011",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Game 4 of the 1980 NBA Finals, this high-flying forward drove the right baseline, floated behind the backboard, and reverse-scooped the ball in for a layup so improbable it is still called simply 'the Move' — four years after he had soared from the foul line to win basketball's first slam dunk contest.",
+      "answer": "Julius Erving",
+      "answer_type": "name",
+      "aliases": [
+        "Dr. J",
+        "Erving"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "basketball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Julius Erving",
+          "url": "https://en.wikipedia.org/wiki/Julius_Erving",
+          "snippet": "Julius Winfield Erving II, commonly known by the nickname \"Dr. J\", is an American former professional basketball player. He helped legitimize the American Basketball Association (ABA), and was the best-known player in the league when it mer"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:46.907Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Roger_Federer",
+      "external_id": "sgl-2026-06-26-012",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "It took this player roughly five years on tour to capture his first major title, but he went on to hold the world No. 1 ranking for a record 237 consecutive weeks.",
+      "answer": "Roger Federer",
+      "answer_type": "name",
+      "aliases": [
+        "Federer"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis-golf"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Roger Federer",
+          "url": "https://en.wikipedia.org/wiki/Roger_Federer",
+          "snippet": "Roger Federer is a Swiss former professional tennis player. He was ranked as the world No. 1 in men's singles by the Association of Tennis Professionals (ATP) for 310 weeks, including a record 237 consecutive weeks, and finished as the year"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:47.290Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Augusta_National_Golf_Club",
+      "external_id": "sgl-2026-06-26-013",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Designed by Scottish architect Alister MacKenzie for the retired amateur champion Bobby Jones and opened in 1932, this exclusive course is renowned for the perilous run of holes along Rae's Creek that sportswriters christened 'Amen Corner.'",
+      "answer": "Augusta National Golf Club",
+      "answer_type": "other",
+      "aliases": [
+        "Augusta National"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis-golf"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Augusta National Golf Club",
+          "url": "https://en.wikipedia.org/wiki/Augusta_National_Golf_Club",
+          "snippet": "Augusta National Golf Club is a golf club in Augusta, Georgia, United States. It is known for hosting the annual Masters Tournament."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:47.680Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Marta_(footballer)",
+      "external_id": "sgl-2026-06-26-014",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Soccer",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The first footballer of any gender to score at five consecutive FIFA World Cups, this Brazilian forward holds the all-time Women's World Cup goals record with 17 and has been named FIFA Women's Player of the Year six times.",
+      "answer": "Marta Vieira da Silva",
+      "answer_type": "name",
+      "aliases": [
+        "Marta"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "soccer"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Marta (footballer)",
+          "url": "https://en.wikipedia.org/wiki/Marta_(footballer)",
+          "snippet": "Marta Vieira da Silva, known mononymously as Marta, is a Brazilian professional footballer who plays as a forward for National Women's Soccer League club Orlando Pride and captains the Brazil women's national team. Regarded by many as the g"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:48.054Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bill_Russell",
+      "external_id": "sgl-2026-06-26-015",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "During his 13 seasons with one NBA franchise, this center accumulated eleven championship rings — more than any player in league history — and was the centerpiece of the most decorated dynasty the sport has known.",
+      "answer": "Bill Russell",
+      "answer_type": "name",
+      "aliases": [
+        "Russell"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "basketball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bill Russell",
+          "url": "https://en.wikipedia.org/wiki/Bill_Russell",
+          "snippet": "William Felton Russell was an American professional basketball player who played center for the Boston Celtics of the National Basketball Association (NBA) from 1956 to 1969. He was the centerpiece of the Celtics dynasty that played for 12 "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-06-28T04:05:48.437Z"
+    }
+  ]
+}

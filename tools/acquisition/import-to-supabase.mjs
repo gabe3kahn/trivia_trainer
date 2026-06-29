@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { createSupabaseRequest, formatDifficultyCounts, formatQualityCounts, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
+import { createSupabaseRequest, fetchAllSupabaseRows, formatDifficultyCounts, formatQualityCounts, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
 import { assessQuestionForIntake } from './intake-assessment.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -47,6 +47,46 @@ if (duplicateAnswers.length) {
     `Duplicate answers in pack — each clue must have a unique answer. Repeated: ${duplicateAnswers
       .map(([a, n]) => `"${a}" ×${n}`)
       .join(', ')}`,
+  );
+}
+
+// Hard gate #2: no pack answer may duplicate one already ACTIVE in the bank under a
+// DIFFERENT clue (the cross-run/cross-category collisions — e.g. re-drafting "Bob Fosse").
+// The drafter is told to check category-coverage, but that's advisory; enforce it here so a
+// re-drafted live answer fails the dry-run instead of slipping into a PR on review alone.
+// Re-importing the SAME pack stays safe: a live row carrying one of this pack's own
+// external_ids is excluded (that's an update of this clue, not a collision).
+//
+// SCOPED BY WORDPLAY CLASS: a constructed-wordplay answer (category language_wordplay)
+// and a normal answer can be the same word and that's FINE — "Muscle" the homophone is a
+// different KIND of question from "Muscle" the body part. Only collisions WITHIN the same
+// class count: wordplay↔wordplay or non-wordplay↔non-wordplay (two of the same kind ARE
+// a wasted repeat). So compare answers only when both sides are wordplay, or both aren't.
+const WORDPLAY_CATEGORY = 'language_wordplay';
+const isWordplay = (categoryId) => categoryId === WORDPLAY_CATEGORY;
+const packExternalIds = new Set(questions.map((q) => q.external_id).filter(Boolean));
+const activeRows = await fetchAllSupabaseRows(
+  request,
+  '/rest/v1/questions?select=answer,external_id,category_id&is_active=eq.true',
+);
+const activeByAnswer = new Map();
+for (const row of activeRows) {
+  const key = normAnswer(row.answer);
+  if (!key) continue;
+  (activeByAnswer.get(key) ?? activeByAnswer.set(key, []).get(key)).push(row);
+}
+const bankCollisions = [];
+for (const question of questions) {
+  const packWordplay = isWordplay(question.category_id);
+  const hits = (activeByAnswer.get(normAnswer(question.answer)) ?? []).filter(
+    (row) => !packExternalIds.has(row.external_id) && isWordplay(row.category_id) === packWordplay,
+  );
+  if (hits.length) bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
+}
+if (bankCollisions.length) {
+  throw new Error(
+    `Answers already active in the bank under a same-class clue — re-drafting a live answer is a ` +
+      `wasted repeat (run category-coverage and swap them). Collisions: ${bankCollisions.join(', ')}`,
   );
 }
 

@@ -12,7 +12,9 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
   // The reveal text shown after submitting. When `answer_detail` is set (e.g.
   // "Mona Lisa — Leonardo da Vinci" on a visual clue), show that regardless of
   // which part the clue asked for. Grading still uses `answer` + aliases only.
-  const reveal = question.answer_detail || question.answer;
+  // Display answers capitalized (sentence-case) — many common-noun answers are
+  // stored lowercase ("contraindication", "umami"), which reads wrong in the reveal.
+  const reveal = capitalizeFirst(question.answer_detail || question.answer);
   // 'name' answers (people) accept the bare surname; everything else ('other'/unset) is
   // strict — answer + aliases only. Authored on the question, not guessed by the grader.
   const answerType = question.answer_type ?? 'other';
@@ -76,8 +78,13 @@ export function gradeResponse(question: RecommendedQuestion, response: string): 
   return {
     grade: 'missed',
     label: 'Missed',
-    detail: `Correct response: ${question.answer}`,
+    detail: `Correct response: ${reveal}`,
   };
+}
+
+/** Sentence-case the displayed answer (display only — grading is case-insensitive). */
+function capitalizeFirst(value: string) {
+  return value ? value.charAt(0).toUpperCase() + value.slice(1) : value;
 }
 
 function matchesSurname(submitted: string, answer: string) {
