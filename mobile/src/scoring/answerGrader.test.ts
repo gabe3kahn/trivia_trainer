@@ -35,6 +35,9 @@ const cases: Case[] = [
   { name: 'alias match (JFK)', answer: 'John F. Kennedy', aliases: ['JFK'], submitted: 'jfk', want: 'correct' },
   { name: 'alias match (Nike of Samothrace)', answer: 'Winged Victory of Samothrace', aliases: ['Nike of Samothrace', 'Winged Victory'], submitted: 'Nike of Samothrace', want: 'correct' },
   { name: 'common-name alias (Winged Victory)', answer: 'Winged Victory of Samothrace', aliases: ['Nike of Samothrace', 'Winged Victory'], submitted: 'Winged Victory', want: 'correct' },
+  // Reported live: short common form of a longer canonical answer (fixed via aliases).
+  { name: 'short form via alias (Warner Bros)', answer: 'Warner Bros. Discovery', aliases: ['WBD', 'Warner Bros Discovery', 'Warner Brothers Discovery', 'Warner Bros', 'Warner Brothers'], submitted: 'Warner bros', want: 'correct' },
+  { name: "short form via alias (Beethoven's Fifth)", answer: "Beethoven's Fifth Symphony", aliases: ["Beethoven's Fifth", 'Symphony No. 5', 'Fifth Symphony'], submitted: "Beethoven's Fifth", want: 'correct' },
 
   // ---- typos / fuzzy on longer answers ----
   { name: 'typo within tolerance (Massachusets)', answer: 'Massachusetts', submitted: 'Massachusets', want: 'correct' },

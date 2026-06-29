@@ -7,7 +7,7 @@ import { Card, Header, Pill, PrimaryAction, Screen, Section } from '@/src/compon
 import { tapMedium } from '@/src/lib/haptics';
 import {
   createInvite, getDailyChallenge, getDailyLeaderboard, getDailyStreak,
-  listFriends, listGames, respondFriendRequest, searchUsers, sendFriendRequest, submitDailyAttempt,
+  listFriends, listGames, respondFriendRequest, searchUsers, sendFriendRequest, submitDailyRun,
 } from '@/src/services/triviaApi';
 import { supabase } from '@/src/services/supabase';
 import { colors, radius, spacing, type } from '@/src/theme';
@@ -88,10 +88,19 @@ export default function CompeteScreen() {
       <ChallengePlayer
         questions={remaining}
         secondsPerQuestion={daily.seconds_per_question}
-        onSubmit={async ({ question, response, grade, timeMs }) => {
-          await submitDailyAttempt({ date: daily.challenge_date, questionId: question.id, response, grade, timeMs });
+        onComplete={async (attempts) => {
+          try {
+            await submitDailyRun(
+              daily.challenge_date,
+              attempts.map((a) => ({ questionId: a.question.id, response: a.response, grade: a.grade, timeMs: a.timeMs })),
+            );
+          } catch (e) {
+            Alert.alert('Could not save your challenge', e instanceof Error ? e.message : 'Try again.');
+            throw e; // keep the player on Finish for a retry
+          }
+          setPlaying(false);
+          await load();
         }}
-        onComplete={async () => { setPlaying(false); await load(); }}
       />
     );
   }

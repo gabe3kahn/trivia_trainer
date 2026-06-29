@@ -10,12 +10,11 @@ import { badgeIcon } from '@/src/constants/badges';
 import { useBadgeCheck } from '@/src/contexts/BadgeUnlockContext';
 import { gradeResponse, type GradeResult } from '@/src/scoring/answerGrader';
 import {
-  createPracticeSession,
   fetchBadges,
   fetchEarnedBadges,
   fetchHomeCompetencies,
   getRecommendedQuestions,
-  submitPracticeAttempt,
+  submitPracticeRun,
 } from '@/src/services/triviaApi';
 import { accentFor, colors, radius, spacing, type } from '@/src/theme';
 import type { AttemptGrade, RecommendedQuestion, SessionMode } from '@/src/types/supabase';
@@ -118,20 +117,23 @@ export default function TrainScreen() {
     if (!completed || flushedRef.current) return;
     flushedRef.current = true;
     void (async () => {
-      // 1) Commit the whole run now. Nothing is written mid-run, so abandoning a run
-      //    records nothing; competency + badges recalc here, at the end of the run.
+      // 1) Commit the whole run in one batch call. Nothing is written mid-run, so
+      //    abandoning records nothing; competency + badges recalc once, server-side.
       try {
         if (runConfig && pendingAttempts.length) {
-          const sid = await createPracticeSession({
+          await submitPracticeRun({
             mode: runConfig.mode,
             questionIds: runConfig.questionIds,
+            attempts: pendingAttempts.map((a) => ({
+              questionId: a.questionId,
+              response: a.typedResponse,
+              grade: a.grade,
+              timeMs: a.timeToAnswerMs,
+            })),
             selectedCategories: runConfig.selectedCategories,
             selectedValues: runConfig.selectedValues,
             selectedMechanics: runConfig.selectedMechanics,
           });
-          for (const attempt of pendingAttempts) {
-            await submitPracticeAttempt({ sessionId: sid, ...attempt });
-          }
         }
       } catch (error) {
         Alert.alert(

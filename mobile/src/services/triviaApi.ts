@@ -184,6 +184,64 @@ export async function submitPracticeAttempt({
   return data;
 }
 
+// A buffered run is committed in one call when it finishes (033): all attempts are
+// inserted server-side and competency recalcs once. Abandoning a run writes nothing.
+export type RunAttempt = {
+  questionId: string;
+  response: string | null;
+  grade: AttemptGrade;
+  timeMs: number | null;
+};
+
+const toAttemptJson = (attempts: RunAttempt[]) =>
+  attempts.map((a) => ({ question_id: a.questionId, response: a.response, grade: a.grade, time_ms: a.timeMs }));
+
+export async function submitPracticeRun({
+  mode,
+  questionIds,
+  attempts,
+  selectedCategories = [],
+  selectedSubcategories = [],
+  selectedValues = [],
+  selectedMechanics = [],
+}: {
+  mode: SessionMode;
+  questionIds: string[];
+  attempts: RunAttempt[];
+  selectedCategories?: string[];
+  selectedSubcategories?: string[];
+  selectedValues?: number[];
+  selectedMechanics?: string[];
+}) {
+  const { data, error } = await (supabase.rpc as any)('submit_practice_run', {
+    p_mode: mode,
+    p_question_ids: questionIds,
+    p_attempts: toAttemptJson(attempts),
+    p_selected_categories: selectedCategories,
+    p_selected_subcategories: selectedSubcategories,
+    p_selected_values: selectedValues,
+    p_selected_mechanics: selectedMechanics,
+  });
+  if (error) throwSupabaseError(error);
+  return data;
+}
+
+export async function submitGameRun(gameId: string, attempts: RunAttempt[]) {
+  const { error } = await (supabase.rpc as any)('submit_game_run', {
+    p_game: gameId,
+    p_attempts: toAttemptJson(attempts),
+  });
+  if (error) throwSupabaseError(error);
+}
+
+export async function submitDailyRun(date: string, attempts: RunAttempt[]) {
+  const { error } = await (supabase.rpc as any)('submit_daily_run', {
+    p_date: date,
+    p_attempts: toAttemptJson(attempts),
+  });
+  if (error) throwSupabaseError(error);
+}
+
 /* ---- Daily Challenge (017) ------------------------------------------------ */
 export async function getDailyChallenge(date?: string): Promise<DailyChallenge> {
   const { data, error } = await (supabase.rpc as any)('get_daily_challenge', date ? { p_date: date } : {});
