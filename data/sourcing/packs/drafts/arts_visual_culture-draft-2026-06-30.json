@@ -1,0 +1,510 @@
+{
+  "pack_id": "arts_visual_culture-draft-2026-06-30",
+  "category_id": "arts_visual_culture",
+  "created_at": "2026-06-30",
+  "notes": [
+    "Under-covered tiers: $800 and $1000. Pack weighted toward both.",
+    "3 visual clues (public-domain works): The Garden of Earthly Delights (Bosch), The Third of May 1808 (Goya), The Burial of the Count of Orgaz (El Greco).",
+    "New/thin subcategories covered: Design & Decorative Arts (Ikebana, Dale Chihuly), Patrons/Critics/Schools (Sister Wendy), Art Terms & Techniques (Cerulean), Public Art & Monuments (Great Wall, Frederick Law Olmsted).",
+    "Hard tail: El Escorial ($800), Frederick Law Olmsted ($800), Portrait of Adele Bloch-Bauer I ($1000), El Greco visual ($1000)."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+      "external_id": "arts-vc-2026-06-30-001",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Public Art & Monuments",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Stretching thousands of miles, this series of ancient fortifications was built in stages by successive dynasties — the oldest sections dating to the 7th century BC and the most visited portions added by the Ming between 1368 and 1644.",
+      "answer": "Great Wall of China",
+      "answer_type": "other",
+      "aliases": [
+        "Great Wall"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "public-art-monuments"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Great Wall of China",
+          "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+          "snippet": "The Great Wall of China is a series of fortifications in China. They were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. The f"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:30.392Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+      "external_id": "arts-vc-2026-06-30-002",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The campanile, or freestanding bell tower, of its city's cathedral, this Italian structure is world-famous for a nearly four-degree tilt caused by the unstable ground on which its foundations were built.",
+      "answer": "Leaning Tower of Pisa",
+      "answer_type": "other",
+      "aliases": [
+        "Tower of Pisa"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Leaning Tower of Pisa",
+          "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+          "snippet": "The Leaning Tower of Pisa, or simply the Tower of Pisa, is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four-degree lean, the result of an unstable foundation. The tower is one of three structures"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:30.756Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/British_Museum",
+      "external_id": "arts-vc-2026-06-30-003",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Established in 1753 as the world's first public national repository of human history and culture, this London institution holds a permanent collection of some eight million works — the largest in the world.",
+      "answer": "British Museum",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "museums-collections"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "British Museum",
+          "url": "https://en.wikipedia.org/wiki/British_Museum",
+          "snippet": "The British Museum is a public museum dedicated to human history, art and culture located in the Bloomsbury area of London. Its permanent collection of eight million works is the largest in the world. It documents the story of human culture"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:31.118Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ikebana",
+      "external_id": "arts-vc-2026-06-30-004",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Design & Decorative Arts",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Practiced in Japan since ancient times and also known by a name meaning 'way of flowers,' this art of flower arrangement is counted among the three classical Japanese arts of refinement, alongside incense appreciation and the tea ceremony.",
+      "answer": "Ikebana",
+      "answer_type": "other",
+      "aliases": [
+        "kadō",
+        "kado"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "design-decorative-arts"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ikebana",
+          "url": "https://en.wikipedia.org/wiki/Ikebana",
+          "snippet": "Ikebana  is the Japanese art of flower arrangement. It is also known as kadō . The origin of ikebana can be traced back to the ancient Japanese custom of erecting evergreen trees and decorating them with flowers as Yorishiro to invite the g"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:31.483Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dale_Chihuly",
+      "external_id": "arts-vc-2026-06-30-005",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Design & Decorative Arts",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in 1941, this American glass artist is celebrated for elevating blown glass from a craft into the realm of large-scale sculpture.",
+      "answer": "Dale Chihuly",
+      "answer_type": "name",
+      "aliases": [
+        "Chihuly"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "design-decorative-arts"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dale Chihuly",
+          "url": "https://en.wikipedia.org/wiki/Dale_Chihuly",
+          "snippet": "Dale Chihuly is an American glass artist. He is well known in the field of blown glass, \"moving it into the realm of large-scale sculpture\"."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:31.839Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art",
+      "external_id": "arts-vc-2026-06-30-006",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Home to 1.5 million catalogued works across 17 curatorial departments, this encyclopedic New York City institution is the largest cultural repository in the Americas by floor area and the most-visited of its kind in the United States.",
+      "answer": "Metropolitan Museum of Art",
+      "answer_type": "other",
+      "aliases": [
+        "the Met",
+        "Met Museum"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "museums-collections"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Metropolitan Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art",
+          "snippet": "The Metropolitan Museum of Art, colloquially referred to as the Met, is an encyclopedic art museum in New York City. By floor area, it is the fourth-largest museum in the world and the largest art museum in the Americas. With 5,727,258 visi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:32.195Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wendy_Beckett",
+      "external_id": "arts-vc-2026-06-30-007",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A British Catholic nun who lived as a contemplative hermit, this art historian captivated audiences with BBC television documentaries on the history of art in the 1990s, drawing a 25-percent viewing share in the UK before debuting on US public television in 1997.",
+      "answer": "Sister Wendy",
+      "answer_type": "other",
+      "aliases": [
+        "Wendy Beckett",
+        "Sister Wendy Beckett"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "patrons-critics-schools"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wendy Beckett",
+          "url": "https://en.wikipedia.org/wiki/Wendy_Beckett",
+          "snippet": "Wendy Mary Beckett, better known as Sister Wendy, was a British Catholic religious sister and art historian who became known internationally during the 1990s when she presented a series of BBC television documentaries on the history of art."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:32.550Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cerulean",
+      "external_id": "arts-vc-2026-06-30-008",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First recorded as an English color name in 1590, this shade of blue ranging from light azure to intense sky blue takes its name from the Latin caeruleus — itself probably derived from caelum, meaning 'heaven' or 'sky.'",
+      "answer": "Cerulean",
+      "answer_type": "other",
+      "aliases": [
+        "caerulean"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-terms-techniques"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cerulean",
+          "url": "https://en.wikipedia.org/wiki/Cerulean",
+          "snippet": "The color cerulean, or caerulean, is a variety of the hue of blue that may range from a light azure blue to a more intense sky blue. Cerulean may also be mixed with the hue of green. The first recorded use of cerulean as a color name in Eng"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:32.942Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD",
+      "external_id": "arts-vc-2026-06-30-009",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in Figueres in Catalonia and trained in Madrid, this Spanish artist joined the Surrealist movement in 1929 and became one of its foremost exponents, renowned for precise draftsmanship applied to bizarre and dreamlike imagery.",
+      "answer": "Salvador Dalí",
+      "answer_type": "name",
+      "aliases": [
+        "Dalí",
+        "Dali",
+        "Salvador Dali"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Salvador Dalí",
+          "url": "https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD",
+          "snippet": "Salvador Domingo Felipe Jacinto Dalí i Domènech, Marquess of Dalí de Púbol, known as Salvador Dalí, was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:33.298Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/El_Escorial",
+      "external_id": "arts-vc-2026-06-30-010",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Built between 1563 and 1584 at the order of King Philip II of Spain, this granite complex northwest of Madrid is considered the largest Renaissance building in the world, housing a royal residence, mausoleum, basilica, monastery, and college under one roof.",
+      "answer": "El Escorial",
+      "answer_type": "other",
+      "aliases": [
+        "Escorial",
+        "Royal Monastery of El Escorial"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "El Escorial",
+          "url": "https://en.wikipedia.org/wiki/El_Escorial",
+          "snippet": "The Royal Site of San Lorenzo de El Escorial, also called Monasterio de El Escorial or simply El Escorial, is a historical residence of the king of Spain located in the town of San Lorenzo de El Escorial, 2.06 kilometres (1.28 mi) up the va"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:33.653Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Frederick_Law_Olmsted",
+      "external_id": "arts-vc-2026-06-30-011",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Public Art & Monuments",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Considered the father of landscape architecture in the United States, this 19th-century designer co-created Central Park in New York City with his partner Calvert Vaux and went on to design other major urban parks including Prospect Park in Brooklyn.",
+      "answer": "Frederick Law Olmsted",
+      "answer_type": "name",
+      "aliases": [
+        "Olmsted"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "public-art-monuments"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Frederick Law Olmsted",
+          "url": "https://en.wikipedia.org/wiki/Frederick_Law_Olmsted",
+          "snippet": "Frederick Law Olmsted was an American landscape architect, journalist, social critic, and public administrator. He is considered to be the father of landscape architecture in the United States. Olmsted was famous for co-designing many well-"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:34.009Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I",
+      "external_id": "arts-vc-2026-06-30-012",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Commissioned between 1903 and 1907 by a Viennese Jewish sugar producer as a depiction of his wife, this oil-on-canvas work with gold leaf was seized by Nazi authorities in 1941 and displayed in an Austrian gallery for decades before its restitution to the original family's heirs.",
+      "answer": "Portrait of Adele Bloch-Bauer I",
+      "answer_type": "other",
+      "aliases": [
+        "Woman in Gold",
+        "Lady in Gold",
+        "Portrait of Adele Bloch-Bauer"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Portrait of Adele Bloch-Bauer I",
+          "url": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I",
+          "snippet": "Portrait of Adele Bloch-Bauer I is an oil painting on canvas, with gold leaf, by Gustav Klimt, completed between 1903 and 1907. The portrait was commissioned by the sitter's husband, Ferdinand Bloch-Bauer, a Viennese and Jewish banker and s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:34.372Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+      "external_id": "arts-vc-2026-06-30-013",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "The Garden of Earthly Delights",
+      "answer_type": "other",
+      "aliases": [
+        "Garden of Earthly Delights"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Garden of Earthly Delights",
+          "url": "https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+          "snippet": "The Garden of Earthly Delights is the modern title given to a five-panel triptych by the Early Netherlandish master Hieronymus Bosch, between 1490 and 1510, when Bosch was between 40 and 60 years old. Because of Bosch's religious beliefs, i"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Garden_of_earthly_delights.jpg/3840px-The_Garden_of_earthly_delights.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Garden of Earthly Delights — Hieronymus Bosch",
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:34.860Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Third_of_May_1808",
+      "external_id": "arts-vc-2026-06-30-014",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name the artist.",
+      "answer": "Francisco Goya",
+      "answer_type": "name",
+      "aliases": [
+        "Goya",
+        "Francisco de Goya"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Third of May 1808",
+          "url": "https://en.wikipedia.org/wiki/The_Third_of_May_1808",
+          "snippet": "The Third of May 1808 in Madrid and also known, in Spanish, as El tres de mayo de 1808 en Madrid or Los fusilamientos de la montaña del Príncipe Pío, or Los fusilamientos del tres de mayo, is a painting completed in 1814 by the Spanish pain"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/3840px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Third of May 1808 — Francisco Goya",
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:23:35.347Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Burial_of_the_Count_of_Orgaz",
+      "external_id": "arts-vc-2026-06-30-015",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name the artist.",
+      "answer": "El Greco",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Burial of the Count of Orgaz",
+          "url": "https://en.wikipedia.org/wiki/The_Burial_of_the_Count_of_Orgaz",
+          "snippet": "The Burial of the Count of Orgaz is a 1586 painting by El Greco, a prominent Renaissance painter, sculptor, and architect of Greek origin. Widely considered among his finest works, it illustrates a popular local legend of his time. An excep"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Burial of the Count of Orgaz — El Greco",
+      "verification_status": "verified",
+      "verified_at": "2026-06-30T14:24:00.871Z"
+    }
+  ]
+}
