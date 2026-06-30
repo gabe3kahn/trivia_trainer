@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T13:51:43.557Z",
-  "topic_count": 2818,
+  "updated_at": "2026-06-30T13:51:27.269Z",
+  "topic_count": 3263,
   "topics": {
     "1619": {
       "display": "1619",
@@ -15,6 +15,20 @@
         "education",
         "politics",
         "united states"
+      ]
+    },
+    "1776": {
+      "display": "1776",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Songs from this Broadway musical include \"The Lees of Old Virginia\" & \"Sit Down, John\"",
+      "keywords": [
+        "broadway",
+        "musical",
+        "history",
+        "american revolution"
       ]
     },
     "1984": {
@@ -939,7 +953,7 @@
     },
     "delaware": {
       "display": "Delaware",
-      "count": 1,
+      "count": 2,
       "values": [
         600
       ],
@@ -1066,7 +1080,7 @@
     },
     "cleveland": {
       "display": "Cleveland",
-      "count": 3,
+      "count": 4,
       "values": [
         200,
         600,
@@ -1318,9 +1332,10 @@
     },
     "john adams": {
       "display": "John Adams",
-      "count": 1,
+      "count": 2,
       "values": [
-        400
+        400,
+        800
       ],
       "example_clue": "In 2008 Paul Giamatti donned a powdered wig to play this Founding Father; Danny Huston played his cousin Samuel",
       "keywords": [
@@ -2752,11 +2767,12 @@
     },
     "f. scott fitzgerald": {
       "display": "F. Scott Fitzgerald",
-      "count": 3,
+      "count": 4,
       "values": [
         200,
         400,
-        600
+        600,
+        800
       ],
       "example_clue": "Author of The Great Gatsby and Tender Is the Night",
       "keywords": [
@@ -3969,10 +3985,11 @@
     },
     "mercury": {
       "display": "Mercury",
-      "count": 3,
+      "count": 4,
       "values": [
         200,
-        800
+        800,
+        600
       ],
       "example_clue": "This planet lacked gravitas & gravi-ty (only 38% of Earth's), & had poor atmosphere. I give it no grade. Not even a retrograde!",
       "keywords": [
@@ -5446,7 +5463,7 @@
     },
     "australia": {
       "display": "Australia",
-      "count": 3,
+      "count": 4,
       "values": [
         400,
         200
@@ -6409,7 +6426,7 @@
     },
     "matthew": {
       "display": "Matthew",
-      "count": 1,
+      "count": 2,
       "values": [
         1000
       ],
@@ -7319,7 +7336,7 @@
     },
     "spain": {
       "display": "Spain",
-      "count": 1,
+      "count": 2,
       "values": [
         400
       ],
@@ -9961,7 +9978,7 @@
     },
     "the philippines": {
       "display": "the Philippines",
-      "count": 3,
+      "count": 4,
       "values": [
         800,
         400
@@ -10175,9 +10192,10 @@
     },
     "mirrors": {
       "display": "mirrors",
-      "count": 1,
+      "count": 2,
       "values": [
-        400
+        400,
+        200
       ],
       "example_clue": "As these are covered, eisoptrophobics can rest easy while sitting Shiva",
       "keywords": [
@@ -12054,10 +12072,11 @@
     },
     "albania": {
       "display": "Albania",
-      "count": 2,
+      "count": 3,
       "values": [
         1000,
-        400
+        400,
+        600
       ],
       "example_clue": "The Factbook's travel tidbits included stuff like people in this land, capital Tirana, prefer to open gifts in private",
       "keywords": [
@@ -12857,9 +12876,10 @@
     },
     "uranus": {
       "display": "Uranus",
-      "count": 1,
+      "count": 2,
       "values": [
-        1000
+        1000,
+        600
       ],
       "example_clue": "But one visit from a spacecraft -- Voyager 2, in 1986, which pinned down a 17.24-hour rotation time for its interior",
       "keywords": [
@@ -13363,9 +13383,11 @@
     },
     "zeus": {
       "display": "Zeus",
-      "count": 5,
-      "values": [],
-      "example_clue": "",
+      "count": 6,
+      "values": [
+        600
+      ],
+      "example_clue": "In Greek mythology, the 9 Muses were the daughters of Mnemosyne, the goddess of memory, & this god",
       "keywords": [
         "mythology",
         "greek",
@@ -14491,7 +14513,7 @@
     },
     "boxing": {
       "display": "Boxing",
-      "count": 5,
+      "count": 6,
       "values": [
         200
       ],
@@ -14866,9 +14888,11 @@
     },
     "guillotine": {
       "display": "Guillotine",
-      "count": 3,
-      "values": [],
-      "example_clue": "",
+      "count": 4,
+      "values": [
+        600
+      ],
+      "example_clue": "It was named for a French doctor who advocated for as quick & painless a death as possible",
       "keywords": [
         "etymology",
         "eponym",
@@ -16530,9 +16554,10 @@
     },
     "urban": {
       "display": "Urban",
-      "count": 1,
+      "count": 2,
       "values": [
-        800
+        800,
+        400
       ],
       "example_clue": "The first of 8 popes of this name reigned from 222 to 230 during the rule of Emperor Severus Alexander",
       "keywords": [
@@ -17101,7 +17126,7 @@
     },
     "dante": {
       "display": "Dante",
-      "count": 1,
+      "count": 2,
       "values": [
         200
       ],
@@ -17987,9 +18012,10 @@
     },
     "the volga": {
       "display": "the Volga",
-      "count": 1,
+      "count": 2,
       "values": [
-        200
+        200,
+        400
       ],
       "example_clue": "Astrakhan & Ulyanovsk",
       "keywords": [
@@ -18569,9 +18595,10 @@
     },
     "venezuela": {
       "display": "Venezuela",
-      "count": 1,
+      "count": 2,
       "values": [
-        600
+        600,
+        400
       ],
       "example_clue": "In 2025, Maria Corina Machado won the Nobel Peace Prize for promoting democratic rights for the people of this country",
       "keywords": [
@@ -19611,9 +19638,10 @@
     },
     "bender": {
       "display": "Bender",
-      "count": 1,
+      "count": 2,
       "values": [
-        1000
+        1000,
+        800
       ],
       "example_clue": "John DiMaggio, as this liquor-lovin' robot: \"My life, & by extension everyone else's, is meaningless\"",
       "keywords": [
@@ -19751,9 +19779,10 @@
     },
     "bridgerton": {
       "display": "Bridgerton",
-      "count": 1,
+      "count": 2,
       "values": [
-        400
+        400,
+        800
       ],
       "example_clue": "In \"The Duke and I\" by Julia Quinn, Daphne, the eldest daughter of this family, KOs a suitor as the Duke of Hastings looks on",
       "keywords": [
@@ -20122,9 +20151,10 @@
     },
     "cinderella": {
       "display": "Cinderella",
-      "count": 1,
+      "count": 2,
       "values": [
-        200
+        200,
+        800
       ],
       "example_clue": "Bro folklorists Jacob & Wilhelm Grimm's collection of more than 200 fairy tales included \"Aschenputtel\", this title in English",
       "keywords": [
@@ -20508,9 +20538,10 @@
     },
     "chicago": {
       "display": "Chicago",
-      "count": 1,
+      "count": 2,
       "values": [
-        200
+        200,
+        1000
       ],
       "example_clue": "The 100th pick for Oprah's Book Club is Ann Napolitano's \"Hello Beautiful\", set in this city that brought Oprah to fame",
       "keywords": [
@@ -22345,9 +22376,10 @@
     },
     "panama": {
       "display": "Panama",
-      "count": 1,
+      "count": 2,
       "values": [
-        400
+        400,
+        600
       ],
       "example_clue": "Go north from Costa Rica & you're in Nicaragua; head southeast & you're in this country",
       "keywords": [
@@ -24452,9 +24484,10 @@
     },
     "oxford": {
       "display": "Oxford",
-      "count": 1,
+      "count": 2,
       "values": [
-        400
+        400,
+        200
       ],
       "example_clue": "If you've studied, you'll know an Oxonian is from this city",
       "keywords": [
@@ -24632,9 +24665,10 @@
     },
     "arizona": {
       "display": "Arizona",
-      "count": 1,
+      "count": 2,
       "values": [
-        800
+        800,
+        600
       ],
       "example_clue": "An ancient Phoenician lived in the region that's now Lebanon; a modern Phoenician lives in the capital city of this state",
       "keywords": [
@@ -26176,9 +26210,10 @@
     },
     "the alamo": {
       "display": "the Alamo",
-      "count": 1,
+      "count": 2,
       "values": [
-        200
+        200,
+        800
       ],
       "example_clue": "Before an activist named Clara Driscoll stepped up in 1903, this site where Jim Bowie fought was in danger of being replaced by a hotel",
       "keywords": [
@@ -27609,9 +27644,10 @@
     },
     "the british museum": {
       "display": "the British Museum",
-      "count": 1,
+      "count": 2,
       "values": [
-        600
+        600,
+        400
       ],
       "example_clue": "Then in Montague House, this London institute opened in 1759 featuring a \"Beowulf\" manuscript & a couple of Magna Cartas",
       "keywords": [
@@ -28772,9 +28808,10 @@
     },
     "the articles of confederation": {
       "display": "the Articles of Confederation",
-      "count": 1,
+      "count": 2,
       "values": [
-        400
+        400,
+        1000
       ],
       "example_clue": "Enacted in 1781, this first charter of U.S. govt. failed to give Congress the power to tax, leaving it largely ineffective",
       "keywords": [
@@ -28904,9 +28941,10 @@
     },
     "ramparts": {
       "display": "ramparts",
-      "count": 1,
+      "count": 2,
       "values": [
-        600
+        600,
+        200
       ],
       "example_clue": "\"To\" these fortifications, men! The ones at Berwick Castle were strengthened in the 1500s to try to cope with artillery",
       "keywords": [
@@ -29101,9 +29139,10 @@
     },
     "sinatra": {
       "display": "Sinatra",
-      "count": 1,
+      "count": 2,
       "values": [
-        200
+        200,
+        400
       ],
       "example_clue": "He sang, \"I did it my way\", & my way to get to the N.J. rest area named for him is to head north past the Atlantic City reservoir",
       "keywords": [
@@ -31926,9 +31965,10 @@
     },
     "commedia dell'arte": {
       "display": "commedia dell'arte",
-      "count": 1,
+      "count": 2,
       "values": [
-        1000
+        1000,
+        800
       ],
       "example_clue": "Modern mime has roots in the physical comedy, stock characters & improvisation of this 16th c. Italian theatrical form",
       "keywords": [
@@ -35317,9 +35357,10 @@
     },
     "jamaica": {
       "display": "Jamaica",
-      "count": 1,
+      "count": 2,
       "values": [
-        1000
+        1000,
+        600
       ],
       "example_clue": "\"Nanny of the Maroons\", or escaped slaves, fought the British colonizers to a draw on this Caribbean island & is on its $500 bill",
       "keywords": [
@@ -35499,9 +35540,10 @@
     },
     "gold": {
       "display": "gold",
-      "count": 1,
+      "count": 2,
       "values": [
-        400
+        400,
+        600
       ],
       "example_clue": "Pink dolphins in the Amazon basin face many threats, including mercury contamination caused by illegal mining of this element",
       "keywords": [
@@ -35709,7 +35751,12 @@
         800
       ],
       "example_clue": "Keri Russell has been Emmy-nominated for this streaming series in which the title is also her job",
-      "keywords": []
+      "keywords": [
+        "streaming",
+        "television",
+        "international politics",
+        "diplomacy"
+      ]
     },
     "spruce goose": {
       "display": "Spruce Goose",
@@ -35916,7 +35963,12 @@
         400
       ],
       "example_clue": "\"Doesn't mean I'm lonely when I'm alone\", proclaims Kelly Clarkson, proudly solo in this 2011 anthem",
-      "keywords": []
+      "keywords": [
+        "kelly clarkson",
+        "pop music",
+        "empowerment",
+        "anthem"
+      ]
     },
     "the lost world": {
       "display": "The Lost World",
@@ -36083,7 +36135,12 @@
         800
       ],
       "example_clue": "It's the breakout (& breakup) hit in which Lizzo snipes to an ex, \"That's the sound of me not calling you back\"",
-      "keywords": []
+      "keywords": [
+        "lizzo",
+        "hip-hop",
+        "breakup",
+        "pop"
+      ]
     },
     "men are from mars, women are from venus": {
       "display": "Men Are from Mars, Women Are from Venus",
@@ -36163,7 +36220,12 @@
         1000
       ],
       "example_clue": "\"It's unnatural, you belong to me, I belong to you\", sang Boyz II Men, clearly not happy to arrive at this title location",
-      "keywords": []
+      "keywords": [
+        "boyz ii men",
+        "r&b",
+        "love",
+        "ballad"
+      ]
     },
     "the things they carried": {
       "display": "The Things They Carried",
@@ -36550,9 +36612,10 @@
     },
     "ford": {
       "display": "Ford",
-      "count": 1,
+      "count": 2,
       "values": [
-        1000
+        1000,
+        200
       ],
       "example_clue": "Played by Christian Bale on film, Ken Miles covered hundreds of miles for this team that beat Ferrari at Le Mans",
       "keywords": [
@@ -39845,7 +39908,12 @@
         1000
       ],
       "example_clue": "A highlight of OutKast's 2000 album \"Stankonia\" is \"B.O.B\", subtitled this; it became reality a few years later",
-      "keywords": []
+      "keywords": [
+        "outkast",
+        "hip-hop",
+        "iraq war",
+        "politics"
+      ]
     },
     "triceratops": {
       "display": "Triceratops",
@@ -40596,7 +40664,12 @@
         800
       ],
       "example_clue": "Sit down & have a bier as you read how a tailor first met his beautiful bride -- asleep & imprisoned in \"The Glass\" this",
-      "keywords": []
+      "keywords": [
+        "edgar allan poe",
+        "gothic",
+        "literature",
+        "short story"
+      ]
     },
     "(breezy) johnson": {
       "display": "(Breezy) Johnson",
@@ -41306,7 +41379,12 @@
         200
       ],
       "example_clue": "( Gordon Ramsay presents the clue. ) You have done time for forgery & human trafficking & then you go promising 50% investment returns in 45 days -- oh, my, God; I hope you enjoyed those 86 counts of mail fraud in 1920, you donkey!",
-      "keywords": []
+      "keywords": [
+        "fraud",
+        "finance",
+        "investment scheme",
+        "history"
+      ]
     },
     "whales": {
       "display": "whales",
@@ -41395,7 +41473,12 @@
         400
       ],
       "example_clue": "( Gordon Ramsay presents the clue. ) I heard you hoarded food for your favorites during an Arctic winter in 1611; some captain -- no wonder your crew mutinied & dumped you in your own bay; let me paraphrase what your men said: \"Get out!\"",
-      "keywords": []
+      "keywords": [
+        "arctic exploration",
+        "geography",
+        "history",
+        "navigation"
+      ]
     },
     "elephant ear": {
       "display": "elephant ear",
@@ -41656,7 +41739,12 @@
         200
       ],
       "example_clue": "This fighting \"Gamecock\" of the American Revolution lent his name to a South Carolina fort",
-      "keywords": []
+      "keywords": [
+        "american revolution",
+        "military history",
+        "south carolina",
+        "gamecock"
+      ]
     },
     "walt whitman": {
       "display": "Walt Whitman",
@@ -42081,6 +42169,6694 @@
         "fate",
         "latin etymology",
         "christianity"
+      ]
+    },
+    "box": {
+      "display": "box",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "To put into crates, or to put up your dukes",
+      "keywords": [
+        "wordplay",
+        "container",
+        "boxing",
+        "double meaning"
+      ]
+    },
+    "the university of pennsylvania": {
+      "display": "the University of Pennsylvania",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This Ivy follows a maxim of its founder Benjamin Franklin: \"Well done is better than well said\"",
+      "keywords": [
+        "university",
+        "ivy league",
+        "education",
+        "philadelphia"
+      ]
+    },
+    "washington, d.c.": {
+      "display": "Washington, D.C.",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Marion Barry, a 4-term mayor of this city, wrote the memoir \"Mayor for Life\"",
+      "keywords": [
+        "government",
+        "mayor",
+        "politics",
+        "capital"
+      ]
+    },
+    "a gravy boat": {
+      "display": "a gravy boat",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It's the nautical name for the dish from which sauce is poured at Thanksgiving",
+      "keywords": [
+        "tableware",
+        "dining",
+        "sauce",
+        "thanksgiving"
+      ]
+    },
+    "billy crystal": {
+      "display": "Billy Crystal",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "( Conan O'Brien presents the clue. ) Bob Hope hosted the ceremony an amazing 19 times; coming in second with 9 shows between 1990 & 2012 is this man, who I hereby challenge to a host song-&-dance-off -- I'm gonna tune you up & take you down, man",
+      "keywords": [
+        "oscars",
+        "hosting",
+        "comedy",
+        "entertainment"
+      ]
+    },
+    "buckingham palace": {
+      "display": "Buckingham Palace",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Originally part of this palace, the marble arch was moved to Hyde Park when a newlywed queen needed a new wing for nurseries",
+      "keywords": [
+        "london",
+        "palace",
+        "royalty",
+        "architecture"
+      ]
+    },
+    "cue": {
+      "display": "cue",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "To prompt, or to set up a music track",
+      "keywords": [
+        "wordplay",
+        "prompt",
+        "theater",
+        "music"
+      ]
+    },
+    "ohio": {
+      "display": "Ohio",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The University of Miami is in Florida; head to Oxford in this state to find the main campus of Miami University",
+      "keywords": [
+        "geography",
+        "midwest",
+        "college",
+        "education"
+      ]
+    },
+    "dave barry": {
+      "display": "Dave Barry",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"Big Trouble\" was this Miami humor columnist's fiction debut",
+      "keywords": [
+        "humor",
+        "journalism",
+        "florida",
+        "fiction"
+      ]
+    },
+    "a finger bowl": {
+      "display": "a finger bowl",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "If you see this small dish of water next to your place at the table, use it for cleaning, not -- repeat, not -- for drinking",
+      "keywords": [
+        "etiquette",
+        "dining",
+        "tableware",
+        "manners"
+      ]
+    },
+    "goodfellas": {
+      "display": "Goodfellas",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "( Conan O'Brien presents the clue. ) Sit back, relax & enjoy almost as much as the show's producers did in 1991 as I \"amuse you\" with Joe Pesci's full acceptance speech for acting in this film: \"It was my privilege. Thank you.\"",
+      "keywords": [
+        "film",
+        "organized crime",
+        "1990",
+        "scorsese"
+      ]
+    },
+    "kabul": {
+      "display": "Kabul",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Devastated by war, Darul Aman Palace in this Afghan city was restored & reopened to visitors in 2023",
+      "keywords": [
+        "afghanistan",
+        "geography",
+        "capital",
+        "asia"
+      ]
+    },
+    "ply": {
+      "display": "ply",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "To work diligently at your trade, or to push alcohol on someone",
+      "keywords": [
+        "wordplay",
+        "trade",
+        "diligence",
+        "double meaning"
+      ]
+    },
+    "arizona state": {
+      "display": "Arizona State",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The original campus of this public school is in Tempe",
+      "keywords": [
+        "university",
+        "tempe",
+        "college",
+        "education"
+      ]
+    },
+    "barry bonds": {
+      "display": "Barry Bonds",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Balco & this slugger are mentioned in the subtitle of the nonfiction book \"Game of Shadows\"",
+      "keywords": [
+        "baseball",
+        "steroids scandal",
+        "sports record",
+        "athletics"
+      ]
+    },
+    "a chafing dish": {
+      "display": "a chafing dish",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "From the French meaning \"to warm\", this dish is used to heat food that's already been cooked; caterers are big fans",
+      "keywords": [
+        "tableware",
+        "heating",
+        "kitchen",
+        "french"
+      ]
+    },
+    "adele dazeem": {
+      "display": "Adele Dazeem",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "( Conan O'Brien presents the clue. ) In 2015, a year after John Travolta introduced Idina Menzel as \"the wickedly talented one & only\" this new name, Idina welcomed John to the stage as Glom Gazingo",
+      "keywords": [
+        "oscars",
+        "mishap",
+        "2014",
+        "john travolta"
+      ]
+    },
+    "the dalai lama": {
+      "display": "the Dalai Lama",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Now a museum, until 1959 the Potala Palace in Lhasa was the winter home of this spiritual leader",
+      "keywords": [
+        "tibet",
+        "buddhism",
+        "spiritual leader",
+        "asia"
+      ]
+    },
+    "vet": {
+      "display": "vet",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "It can mean to check something for accuracy, or to work to make sure animals are healthy",
+      "keywords": [
+        "wordplay",
+        "veterinary",
+        "examination",
+        "double meaning"
+      ]
+    },
+    "purdue": {
+      "display": "Purdue",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The teams at this school are called the Boilermakers",
+      "keywords": [
+        "university",
+        "indiana",
+        "boilermakers",
+        "college"
+      ]
+    },
+    "barry diller": {
+      "display": "Barry Diller",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "In 2025, this CEO of Paramount & Fox published the memoir \"Who Knew\"",
+      "keywords": [
+        "entertainment",
+        "media",
+        "ceo",
+        "memoir"
+      ]
+    },
+    "pyrex": {
+      "display": "Pyrex",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Corning launched this brand in 1915 with ads exclaiming, \"Bake in glass!\"; the temp-resistant bakeware was durable & so was the brand",
+      "keywords": [
+        "brand",
+        "baking",
+        "glass cookware",
+        "kitchen"
+      ]
+    },
+    "the brutalist": {
+      "display": "The Brutalist",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "( Conan O'Brien presents the clue. ) Hosting in 2025, I said I love this nominated film, I didn't want it to end, and luckily it didn't; that feeling even carried over into a speech later that night",
+      "keywords": [
+        "film",
+        "architecture",
+        "2023",
+        "oscar"
+      ]
+    },
+    "the black sea": {
+      "display": "the Black Sea",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Bulgaria's Euxinograd Palace lies along the coast of this colorful sea",
+      "keywords": [
+        "geography",
+        "body of water",
+        "bulgaria",
+        "eastern europe"
+      ]
+    },
+    "vie": {
+      "display": "vie",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "To contend with another, perhaps a rival",
+      "keywords": [
+        "wordplay",
+        "competition",
+        "rivalry",
+        "double meaning"
+      ]
+    },
+    "barry lyndon": {
+      "display": "Barry Lyndon",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "When this William Makepeace Thackeray novel was made into a movie, Ryan O'Neal played the title character",
+      "keywords": [
+        "thackeray",
+        "novel",
+        "film",
+        "18th century"
+      ]
+    },
+    "a charger": {
+      "display": "a charger",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Not named for an NFL team, this large plate is used as a base for other plates & doesn't actually hold food",
+      "keywords": [
+        "tableware",
+        "dinnerware",
+        "dining",
+        "base plate"
+      ]
+    },
+    "midnight cowboy": {
+      "display": "Midnight Cowboy",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "( Conan O'Brien presents the clue. ) Some amazing films aside, the only so far to have an X rating & win Best Picture is this 1969 movie that gave us the immortal Dustin Hoffman line \"I'm walkin' here. I'm walkin' here!\"",
+      "keywords": [
+        "film",
+        "1969",
+        "x-rated",
+        "dustin hoffman"
+      ]
+    },
+    "matter": {
+      "display": "matter",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Using a type of quasiparticle, Microsoft said it created a new state of this for quantum computing",
+      "keywords": [
+        "quantum computing",
+        "physics",
+        "microsoft",
+        "science"
+      ]
+    },
+    "9 to 5": {
+      "display": "9 to 5",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This 1980 film inspired a sitcom, then clocked in on Broadway in 2009 with music & lyrics by Dolly Parton",
+      "keywords": [
+        "dolly parton",
+        "film",
+        "musical",
+        "workplace"
+      ]
+    },
+    "the seine": {
+      "display": "the Seine",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In the opening ceremony of the 2024 Olympics, the athletes arrived in a parade of boats sailing on this river",
+      "keywords": [
+        "river",
+        "paris",
+        "france",
+        "olympics",
+        "geography",
+        "sports"
+      ]
+    },
+    "aged & agèd": {
+      "display": "aged & agèd",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Got older, like all of us & ripe & ready, like a fine cheese",
+      "keywords": [
+        "wordplay",
+        "aging",
+        "cheese",
+        "time",
+        "adjectives"
+      ]
+    },
+    "rome": {
+      "display": "Rome",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This city was the center of the Italian Baroque with palaces like the Barberini , full of the family's symbolic bees",
+      "keywords": [
+        "rome",
+        "italy",
+        "baroque",
+        "architecture",
+        "art",
+        "history",
+        "palaces"
+      ]
+    },
+    "the audacity of hope": {
+      "display": "The Audacity of Hope",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Obama began his bid for pres. 4 months after releasing this \"bold\" book subtitled \"Thoughts on Reclaiming the American Dream\"",
+      "keywords": [
+        "obama",
+        "book",
+        "memoir",
+        "politics",
+        "presidential campaign"
+      ]
+    },
+    "pokémon": {
+      "display": "Pokémon",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A Saudi investment fund's purchase of Niantic Games, known for this \"GO\", also brings with it a ton of user location data",
+      "keywords": [
+        "pokemon",
+        "video game",
+        "gaming",
+        "technology",
+        "location data",
+        "niantic"
+      ]
+    },
+    "\"mambo no. 5\"": {
+      "display": "\"Mambo No. 5\"",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This bouncy Lou Bega tune subtitled \"A Little Bit Of...\" says, \"A little bit of you makes me your man\"",
+      "keywords": [
+        "song",
+        "music",
+        "1990s",
+        "dance",
+        "latin music",
+        "lou bega"
+      ]
+    },
+    "learned & learnèd": {
+      "display": "learned & learnèd",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Picked up new knowledge & full of wisdom",
+      "keywords": [
+        "wordplay",
+        "adjectives",
+        "knowledge",
+        "wisdom",
+        "learning"
+      ]
+    },
+    "shadow & light": {
+      "display": "shadow & light",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "As seen here , Adam Elsheimer was among many Baroque painters to experiment with tenebrism, the play of these opposites",
+      "keywords": [
+        "baroque",
+        "art",
+        "painting",
+        "tenebrism",
+        "technique",
+        "light"
+      ]
+    },
+    "justice": {
+      "display": "justice",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "As president, Obama popularized a quote from MLK that goes, \"The arc of the moral universe is long but it bends towards\" this",
+      "keywords": [
+        "obama",
+        "mlk",
+        "civil rights",
+        "quote",
+        "morality",
+        "politics"
+      ]
+    },
+    "an autopen": {
+      "display": "an autopen",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A newly elected President Trump claimed some of Biden's pardons were invalid due to this machine, a writing implement",
+      "keywords": [
+        "autopen",
+        "trump",
+        "biden",
+        "politics",
+        "pardons",
+        "writing device"
+      ]
+    },
+    "500 days of summer": {
+      "display": "500 Days of Summer",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "At the end of this romcom, Joseph Gordon-Levitt has a meet-cute with a woman fatefully named Autumn",
+      "keywords": [
+        "movie",
+        "romcom",
+        "film",
+        "summer",
+        "romance"
+      ]
+    },
+    "lake maracaibo": {
+      "display": "Lake Maracaibo",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "About 2/3 of Venezuela's oil output comes from the Basin of this large lake, now greatly polluted as a result",
+      "keywords": [
+        "venezuela",
+        "lake",
+        "oil",
+        "geography",
+        "pollution",
+        "environment"
+      ]
+    },
+    "ragged & raggèd": {
+      "display": "ragged & raggèd",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Teased or mocked, maybe with \"on\", & in tatters",
+      "keywords": [
+        "wordplay",
+        "adjectives",
+        "teasing",
+        "torn",
+        "appearance"
+      ]
+    },
+    "occidental": {
+      "display": "Occidental",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Before transferring to Columbia, Obama went to this college in L.A. whose motto translates to \"the west is nearest the east\"",
+      "keywords": [
+        "college",
+        "los angeles",
+        "california",
+        "obama",
+        "education"
+      ]
+    },
+    "a graphics processing unit": {
+      "display": "a graphics processing unit",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Sharing a name with a legendary astronomer, Rubin from Nvidia is a new GPU, short for one of these",
+      "keywords": [
+        "gpu",
+        "nvidia",
+        "technology",
+        "graphics",
+        "computing",
+        "astronomy"
+      ]
+    },
+    "the murray river": {
+      "display": "the Murray River",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Australia's principal river, it forms most of the border between Victoria & New South Wales",
+      "keywords": [
+        "australia",
+        "river",
+        "geography",
+        "victoria",
+        "new south wales"
+      ]
+    },
+    "blessed & blessèd": {
+      "display": "blessed & blessèd",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "A hashtag for humblebraggers & a keyword from the Beatitudes",
+      "keywords": [
+        "wordplay",
+        "adjectives",
+        "beatitudes",
+        "religion",
+        "blessed"
+      ]
+    },
+    "a linen closet (or cupboard)": {
+      "display": "a linen closet (or cupboard)",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The Dutch favored homey scenes & can't get more domestic than women \"bij een linnenkast\" , \"at\" this; maybe Lowe's has one on sale",
+      "keywords": [
+        "dutch",
+        "art",
+        "paintings",
+        "household",
+        "domestic",
+        "dutch golden age"
+      ]
+    },
+    "abbottabad": {
+      "display": "Abbottabad",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "On May 2, 2011 Obama announced that a targeted operation was launched at a compound in this Pakistani city",
+      "keywords": [
+        "pakistan",
+        "bin laden",
+        "obama",
+        "military",
+        "geopolitics",
+        "2011"
+      ]
+    },
+    "sickle-cell anemia": {
+      "display": "sickle-cell anemia",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Thanks to a therapy called Lyfgenia, Sebastien Beauzile became the first New Yorker cured of this hereditary blood disease",
+      "keywords": [
+        "disease",
+        "medicine",
+        "blood disorder",
+        "genetics",
+        "hereditary",
+        "therapy"
+      ]
+    },
+    "\"three little birds\"": {
+      "display": "\"Three Little Birds\"",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This song by Bob Marley & the Wailers says, \"Don't worry about a thing 'cause every little thing gonna be alright\"",
+      "keywords": [
+        "song",
+        "bob marley",
+        "reggae",
+        "music",
+        "wailers",
+        "worry"
+      ]
+    },
+    "the irrawaddy": {
+      "display": "the Irrawaddy",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"I\" spy this 1,350-mile-long river that flows through the center of Myanmar",
+      "keywords": [
+        "myanmar",
+        "river",
+        "geography",
+        "burma",
+        "asia"
+      ]
+    },
+    "peaked & peakèd": {
+      "display": "peaked & peakèd",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Rising to a sharp point & sickly looking",
+      "keywords": [
+        "wordplay",
+        "adjectives",
+        "appearance",
+        "sickly"
+      ]
+    },
+    "dodd-frank": {
+      "display": "Dodd-Frank",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This act passed under the Obama administration in response to the 2008 financial crisis had 2 New England pols in its name",
+      "keywords": [
+        "legislation",
+        "financial crisis",
+        "obama",
+        "2008",
+        "banking",
+        "finance"
+      ]
+    },
+    "a fisherman's sweater": {
+      "display": "a fisherman's sweater",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Called an Aran sweater for the islands where it was first made, it's also known as this type of sweater for those who wore it",
+      "keywords": [
+        "sweater",
+        "aran",
+        "ireland",
+        "clothing",
+        "knit",
+        "traditional"
+      ]
+    },
+    "bright-eyed": {
+      "display": "bright-eyed",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In an idiom it's paired with \"bushy-tailed\"",
+      "keywords": [
+        "idiom",
+        "appearance",
+        "adjectives",
+        "bushy-tailed"
+      ]
+    },
+    "white": {
+      "display": "white",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Those from Munich know that authentic weisswurst, German for this color sausage, is made with veal & only eaten before noon",
+      "keywords": [
+        "sausage",
+        "germany",
+        "food",
+        "weisswurst",
+        "munich",
+        "cooking"
+      ]
+    },
+    "java": {
+      "display": "Java",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In 1696 the Dutch began planting coffee on this island, & a new slang term was brewing",
+      "keywords": [
+        "coffee",
+        "indonesia",
+        "dutch",
+        "agriculture",
+        "slang",
+        "island"
+      ]
+    },
+    "the beach boys": {
+      "display": "The Beach Boys",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "I wish they all could be California bands like this one",
+      "keywords": [
+        "band",
+        "music",
+        "california",
+        "1960s",
+        "pop"
+      ]
+    },
+    "the arkansas river": {
+      "display": "the Arkansas River",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Toad Suck is a crossing of this river, like Clinton Presidential Park Bridge further downriver",
+      "keywords": [
+        "river",
+        "usa",
+        "arkansas",
+        "geography",
+        "toad suck"
+      ]
+    },
+    "a fleece": {
+      "display": "a fleece",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Shane's Team Canada one of these soft jackets became a must-have for fans of the hot TV series \"Heated Rivalry\"",
+      "keywords": [
+        "jacket",
+        "clothing",
+        "canada",
+        "television",
+        "shane"
+      ]
+    },
+    "off-the-job (off-duty)": {
+      "display": "off-the-job (off-duty)",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Hyphenated adjective for a police officer who isn't on the clock",
+      "keywords": [
+        "adjective",
+        "hyphenated",
+        "police",
+        "off-duty"
+      ]
+    },
+    "pudding": {
+      "display": "pudding",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Cooked sausage made with animal blood, blutwurst or \"blood sausage\" is called boudin noir in France & black this in England",
+      "keywords": [
+        "blood sausage",
+        "food",
+        "meat",
+        "cooking",
+        "boudin noir",
+        "blutwurst"
+      ]
+    },
+    "radiohead": {
+      "display": "Radiohead",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Tune into this band, pioneers of alternative rock",
+      "keywords": [
+        "band",
+        "music",
+        "alternative rock",
+        "rock",
+        "1990s"
+      ]
+    },
+    "bird in hand": {
+      "display": "Bird in Hand",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Proverbially, this 3-name village in Pennsylvania that's been around since colonial times is worth 2-in-bush",
+      "keywords": [
+        "pennsylvania",
+        "village",
+        "proverb",
+        "colonial",
+        "geography"
+      ]
+    },
+    "the cossacks (a cossack hat)": {
+      "display": "the Cossacks (a Cossack hat)",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "This type of hat is named for a people of Southern Russia & Ukraine who are also known for their military prowess & great dance moves",
+      "keywords": [
+        "cossacks",
+        "russia",
+        "ukraine",
+        "hat",
+        "military",
+        "dance",
+        "cultural"
+      ]
+    },
+    "thick-skinned": {
+      "display": "thick-skinned",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "This can describe a pachyderm literally, or a person insensitive to criticism",
+      "keywords": [
+        "elephant",
+        "adjective",
+        "pachyderm",
+        "insensitive",
+        "criticism"
+      ]
+    },
+    "frankfurt": {
+      "display": "Frankfurt",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Though similar to Vienna sausages & American hot dogs, Würstchen from this city are served in pairs & made only with pork",
+      "keywords": [
+        "frankfurt",
+        "sausage",
+        "germany",
+        "food",
+        "pork",
+        "wurst"
+      ]
+    },
+    "a panic": {
+      "display": "a panic",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The U.S. suffered financial crises known by this frantic name in 1837, 1857 & 1873",
+      "keywords": [
+        "financial crisis",
+        "usa",
+        "economics",
+        "history",
+        "1800s",
+        "banking"
+      ]
+    },
+    "maroon 5": {
+      "display": "Maroon 5",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "They headlined the 2019 Super Bowl halftime show",
+      "keywords": [
+        "band",
+        "music",
+        "pop",
+        "super bowl",
+        "2019",
+        "halftime show"
+      ]
+    },
+    "ontario": {
+      "display": "Ontario",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Kitchener, Brantford & the much more fun-ly named Punkeydoodles Corners are in this Canadian province",
+      "keywords": [
+        "canada",
+        "geography",
+        "provinces",
+        "north america"
+      ]
+    },
+    "an infinity scarf": {
+      "display": "an infinity scarf",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "We could go on & on & on & on & on about the elegance & versatility of this neck wrap made from a conjoined loop of fabric",
+      "keywords": [
+        "fashion",
+        "clothing",
+        "accessories",
+        "textile"
+      ]
+    },
+    "shell-shocked": {
+      "display": "shell-shocked",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This alliterative adjective was used to describe WWI soldiers who physically & mentally suffered the horrors of war",
+      "keywords": [
+        "world war i",
+        "military",
+        "history",
+        "psychology",
+        "trauma"
+      ]
+    },
+    "knockwurst": {
+      "display": "knockwurst",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Who's there? It's this sausage with a name from German for \"crackle\", which refers to the sound it makes when you bite into it",
+      "keywords": [
+        "german",
+        "sausage",
+        "food",
+        "cooking"
+      ]
+    },
+    "the bay of pigs": {
+      "display": "the Bay of Pigs",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "\"On that unhappy island... the news has grown worse instead of better\", said JFK after a failed April 1961 landing here",
+      "keywords": [
+        "cuba",
+        "united states",
+        "military",
+        "history",
+        "cold war",
+        "invasion"
+      ]
+    },
+    "the supremes": {
+      "display": "The Supremes",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "In the 1960s, they had 12 No. 1 hits",
+      "keywords": [
+        "music",
+        "1960s",
+        "pop",
+        "girl groups",
+        "motown"
+      ]
+    },
+    "essex": {
+      "display": "Essex",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "U-G-L-E-Y, you ain't got no alibi for being unaware that Ugley is in this county in England that begins with \"E\"",
+      "keywords": [
+        "england",
+        "county",
+        "geography",
+        "united kingdom"
+      ]
+    },
+    "gore-tex": {
+      "display": "GORE-TEX",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A chemical engineer futzing with a polymer accidentally invented this brand of breathable, waterproof fabric used in ski jackets",
+      "keywords": [
+        "fabric",
+        "waterproof",
+        "material science",
+        "technology",
+        "brand"
+      ]
+    },
+    "eco-friendly": {
+      "display": "eco-friendly",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Unless it can be proved, the FTC warns marketers about labeling products \"green\" or this amiable adjective",
+      "keywords": [
+        "environment",
+        "sustainability",
+        "marketing",
+        "consumer"
+      ]
+    },
+    "nuremberg": {
+      "display": "Nuremberg",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "No \"judgment\", but this city loves its bratwurst: there's a museum devoted to the local version, which is small, thin & made with marjoram",
+      "keywords": [
+        "germany",
+        "city",
+        "food",
+        "sausage",
+        "bratwurst"
+      ]
+    },
+    "the marshall plan": {
+      "display": "the Marshall Plan",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Formally the European Recovery Program, it went into effect April 3, 1948",
+      "keywords": [
+        "history",
+        "economics",
+        "europe",
+        "united states",
+        "post-ww2"
+      ]
+    },
+    "drake": {
+      "display": "Drake",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "He was named Billboard's Artist of the Decade for the 2010s",
+      "keywords": [
+        "music",
+        "hip-hop",
+        "rap",
+        "canadian"
+      ]
+    },
+    "artist (a painter)": {
+      "display": "artist (a painter)",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Profession of Claude Lantier in Émile Zola's \"The Belly of Paris\" & \"The Masterpiece\"; \"The Open Air\" is one of Claude's works",
+      "keywords": [
+        "art",
+        "painting",
+        "literature",
+        "french"
+      ]
+    },
+    "uncle sam": {
+      "display": "Uncle Sam",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "\"I want you\", said this finger-pointing character on a World War I recruiting poster, & he looked like he meant it",
+      "keywords": [
+        "united states",
+        "propaganda",
+        "military",
+        "american history"
+      ]
+    },
+    "an upper respiratory infection": {
+      "display": "an upper respiratory infection",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "URI is short for this & is another name for the common cold",
+      "keywords": [
+        "medicine",
+        "health",
+        "respiratory",
+        "disease"
+      ]
+    },
+    "ratatouille": {
+      "display": "Ratatouille",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It's the garbage boy, Linguini , who discovers Remy's hidden culinary talents in this film",
+      "keywords": [
+        "film",
+        "animation",
+        "cooking",
+        "france",
+        "pixar"
+      ]
+    },
+    "rodeo": {
+      "display": "rodeo",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Many Western cities & towns have a parade named for this event showcasing riding skills",
+      "keywords": [
+        "american west",
+        "sports",
+        "animals",
+        "horses",
+        "cowboys"
+      ]
+    },
+    "a whale fail bail (whale bail fail)": {
+      "display": "a whale fail bail (whale bail fail)",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Moby Dick's credit card gets declined as he tries to temporarily get out of jail",
+      "keywords": [
+        "literature",
+        "humor",
+        "puns",
+        "moby dick"
+      ]
+    },
+    "dr. watson": {
+      "display": "Dr. Watson",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "He narrates the stories \"The Musgrave Ritual\" & \"The Red-Headed League\"",
+      "keywords": [
+        "literature",
+        "detective fiction",
+        "sherlock holmes"
+      ]
+    },
+    "tetanus, diphtheria & pertussis": {
+      "display": "tetanus, diphtheria & pertussis",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A TDaP vaccine is one that works to prevent these 3 possible infections",
+      "keywords": [
+        "medicine",
+        "disease",
+        "vaccines",
+        "immunization"
+      ]
+    },
+    "russell crowe": {
+      "display": "Russell Crowe",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "After Ridley Scott directed him as Maximus, they reteamed when he was Max, stuck with a Provençal vineyard in \"A Good Year\"",
+      "keywords": [
+        "film",
+        "actor",
+        "cinema",
+        "movies"
+      ]
+    },
+    "marksmen": {
+      "display": "marksmen",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The Schützenfest in Hanover, Germany honors these men who once protected the city, a word including an old German currency",
+      "keywords": [
+        "germany",
+        "culture",
+        "festival",
+        "history",
+        "shooting"
+      ]
+    },
+    "a tyke hike strike": {
+      "display": "a tyke hike strike",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "It's what happens when all the little kids agree to rebel against taking long walks in the woods",
+      "keywords": [
+        "humor",
+        "puns",
+        "wordplay",
+        "children"
+      ]
+    },
+    "florida": {
+      "display": "Florida",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Carl Hiaasen created Skink, who's missing an eye, eats roadkill & is an ex-governor of this state",
+      "keywords": [
+        "united states",
+        "geography",
+        "literature",
+        "american fiction"
+      ]
+    },
+    "(bob) uecker": {
+      "display": "(Bob) Uecker",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "\"I was with the Braves twice. They didn't believe how bad I was the first time\", said this actor/ballplayer/broadcaster",
+      "keywords": [
+        "baseball",
+        "sports",
+        "actor",
+        "entertainment"
+      ]
+    },
+    "atrial fibrillation": {
+      "display": "atrial fibrillation",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "If you've got AFib, get it checked out right away, as it's this type of disturbance of the rhythm of the heart",
+      "keywords": [
+        "medicine",
+        "cardiology",
+        "heart disease",
+        "health"
+      ]
+    },
+    "(jean-luc) picard": {
+      "display": "(Jean-Luc) Picard",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In 2020 this character from the future got his name on a series & the first episode showed him on the family vineyard in France",
+      "keywords": [
+        "science fiction",
+        "television",
+        "star trek",
+        "france"
+      ]
+    },
+    "place de (la) concorde": {
+      "display": "Place de (la) Concorde",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Like the lives of counter-French revolutionaries, Paris' annual Bastille Day Parade ends at this \"Place\" or square",
+      "keywords": [
+        "paris",
+        "france",
+        "geography",
+        "history",
+        "landmark"
+      ]
+    },
+    "boomer rumor humor": {
+      "display": "boomer rumor humor",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A joke based on hearsay without a discernible source said by someone in the generation born between 1946 & 1964",
+      "keywords": [
+        "humor",
+        "demography",
+        "generation",
+        "internet culture"
+      ]
+    },
+    "smiley": {
+      "display": "Smiley",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "John le Carré created this British agent & titled one novel his \"People\"",
+      "keywords": [
+        "literature",
+        "spy fiction",
+        "intelligence",
+        "british fiction"
+      ]
+    },
+    "uther pendragon": {
+      "display": "Uther Pendragon",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "\"I am sick for anger and for love of fair Igraine\", said this Pendragon of a king",
+      "keywords": [
+        "mythology",
+        "arthurian legend",
+        "literature",
+        "fantasy"
+      ]
+    },
+    "a complete blood count": {
+      "display": "a complete blood count",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This type of comprehensive test, a CBC, measures many different properties of your little red & white soldiers",
+      "keywords": [
+        "medicine",
+        "health",
+        "medical tests",
+        "diagnostics"
+      ]
+    },
+    "la vie en rose": {
+      "display": "La Vie en Rose",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This award-winning biopic had a different French in France: \"La Môme\", from Édith Piaf's nickname \"Kid Sparrow\"",
+      "keywords": [
+        "film",
+        "biography",
+        "french cinema",
+        "music",
+        "history"
+      ]
+    },
+    "the golden knights": {
+      "display": "the Golden Knights",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The 2025 D.C. parade marking 250 years of the U.S. Army included a jump by them , not a hockey club, but the Army's parachute team",
+      "keywords": [
+        "united states military",
+        "army",
+        "parachute",
+        "history"
+      ]
+    },
+    "a caddie daddy baddie": {
+      "display": "a caddie daddy baddie",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The golfer assistant's villainous parent",
+      "keywords": [
+        "humor",
+        "puns",
+        "golf",
+        "wordplay"
+      ]
+    },
+    "trollope": {
+      "display": "Trollope",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Mrs. Proudie is the domineering wife of a bishop in this Victorian's \"The Last Chronicle of Barset\" & \"Barchester Towers\"",
+      "keywords": [
+        "literature",
+        "victorian fiction",
+        "british fiction"
+      ]
+    },
+    "u thant": {
+      "display": "U Thant",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"The war we have to wage today has only one goal... to make the world safe for diversity\", said this Burmese U.N. Secretary-General",
+      "keywords": [
+        "united nations",
+        "burma",
+        "politics",
+        "history",
+        "international relations"
+      ]
+    },
+    "peptic ulcer disease": {
+      "display": "peptic ulcer disease",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "You may need antibiotics if you've got PUD, one of these maladies of the stomach",
+      "keywords": [
+        "medicine",
+        "health",
+        "disease",
+        "digestive system"
+      ]
+    },
+    "lupin": {
+      "display": "Lupin",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The big heist in this TV show about a master thief in Paris is, of course, of a Marie Antoinette necklace from the Louvre",
+      "keywords": [
+        "television",
+        "french",
+        "heist",
+        "crime fiction"
+      ]
+    },
+    "von steuben": {
+      "display": "Von Steuben",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "As seen on film with Ferris Bueller on a float, Chicago's German community parades in honor of this man who helped George Washington",
+      "keywords": [
+        "american history",
+        "military",
+        "revolutionary war",
+        "germany"
+      ]
+    },
+    "a drake wake cake": {
+      "display": "a Drake wake cake",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A red velvet or tres leches served at the funeral reception for an English explorer who died in 1596",
+      "keywords": [
+        "drake",
+        "explorer",
+        "england",
+        "funeral",
+        "food",
+        "dessert",
+        "history",
+        "maritime"
+      ]
+    },
+    "the nautilus": {
+      "display": "the Nautilus",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Captain Nemo piloted this craft, some 230 feet long with a 12,000-volume library & a stellar art collection to boot",
+      "keywords": [
+        "submarine",
+        "fiction",
+        "literature",
+        "jules verne",
+        "vessel",
+        "science fiction"
+      ]
+    },
+    "the chicago fire": {
+      "display": "the Chicago Fire",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "\"It's a story that speaks to the resilient attitude and bravery of Chicago\", said an exec with this MLS club",
+      "keywords": [
+        "soccer",
+        "mls",
+        "sports",
+        "chicago",
+        "team",
+        "athletic"
+      ]
+    },
+    "zürich": {
+      "display": "Zürich",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This Swiss city that shares several letters with \"zilch\" appropriately once had a museum dedicated to nothing",
+      "keywords": [
+        "switzerland",
+        "city",
+        "dada",
+        "art",
+        "museum",
+        "culture",
+        "geography"
+      ]
+    },
+    "merch": {
+      "display": "merch",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Love that band? Pick up a T-shirt & maybe get a signed album at this 5-letter sales table in the lobby",
+      "keywords": [
+        "merchandise",
+        "commerce",
+        "retail",
+        "concerts",
+        "music",
+        "sales",
+        "goods"
+      ]
+    },
+    "spectrum": {
+      "display": "spectrum",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It can mean a broad array of anything, not just colors",
+      "keywords": [
+        "language",
+        "definition",
+        "colors",
+        "range",
+        "breadth",
+        "vocabulary"
+      ]
+    },
+    "gen z": {
+      "display": "Gen Z",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Lively conversation is not helped much by a vacant stare like that characteristic of this cohort, aka centennials",
+      "keywords": [
+        "generation",
+        "demographics",
+        "culture",
+        "age",
+        "society",
+        "communication"
+      ]
+    },
+    "herbert": {
+      "display": "Herbert",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Before he took us to Arrakis, he wrote of nuclear-powered subtugs that scour the seabed for oil in a war-torn world",
+      "keywords": [
+        "science fiction",
+        "author",
+        "literature",
+        "frank herbert",
+        "dune",
+        "fiction"
+      ]
+    },
+    "the (colorado) avalanche": {
+      "display": "the (Colorado) Avalanche",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This Denver team buried the competition in the 2022 NHL playoffs, going 16-4 on their way to hoisting the Stanley Cup",
+      "keywords": [
+        "hockey",
+        "nhl",
+        "sports",
+        "colorado",
+        "denver",
+        "stanley cup"
+      ]
+    },
+    "flanders": {
+      "display": "Flanders",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Antwerp is an unofficial capital of this Dutch-speaking Belgian region",
+      "keywords": [
+        "belgium",
+        "region",
+        "geography",
+        "dutch",
+        "language",
+        "europe",
+        "antwerp"
+      ]
+    },
+    "royalties": {
+      "display": "royalties",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Performance & mechanical are 2 types of these recurring payments made for the use & distribution of a recording",
+      "keywords": [
+        "music",
+        "payment",
+        "recording",
+        "copyright",
+        "music industry",
+        "distribution"
+      ]
+    },
+    "a symposium": {
+      "display": "a symposium",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Today meaning a conference & from words meaning \"drinking together\", this was an ancient Greek party to discuss & imbibe",
+      "keywords": [
+        "ancient greece",
+        "gathering",
+        "conference",
+        "discussion",
+        "culture",
+        "etymology",
+        "greek"
+      ]
+    },
+    "a curtsy": {
+      "display": "a curtsy",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This traditional act for a woman meeting a member of the royal family can easily get awkward; a good basic tip is don't go too low",
+      "keywords": [
+        "royalty",
+        "etiquette",
+        "greeting",
+        "tradition",
+        "manners",
+        "body language",
+        "protocol"
+      ]
+    },
+    "the hunt for red october": {
+      "display": "The Hunt for Red October",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Ronald Reagan called this 1984 book, the first novel published by the Naval Institute Press, \"the perfect yarn\"",
+      "keywords": [
+        "literature",
+        "cold war",
+        "submarines",
+        "espionage",
+        "military",
+        "tom clancy",
+        "fiction"
+      ]
+    },
+    "the raiders": {
+      "display": "the Raiders",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The face of actor Randolph Scott is said to have inspired the logo of this NFL team with eye patch & crossed swords",
+      "keywords": [
+        "football",
+        "nfl",
+        "sports",
+        "team",
+        "logo",
+        "history",
+        "pirate"
+      ]
+    },
+    "venice": {
+      "display": "Venice",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Take a ferry from Cannaregio in this city to get to the island of Murano & check out some glass blowing",
+      "keywords": [
+        "italy",
+        "city",
+        "geography",
+        "murano",
+        "glassblowing",
+        "art",
+        "craft",
+        "water"
+      ]
+    },
+    "diamond": {
+      "display": "diamond",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Who needs gold & platinum? Albums that sell 10 million copies get this gem of an award from the RIAA",
+      "keywords": [
+        "music",
+        "recording",
+        "award",
+        "certification",
+        "riaa",
+        "album",
+        "sales"
+      ]
+    },
+    "the optimum": {
+      "display": "the optimum",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A Latin superlative gave us this word meaning the most favorable",
+      "keywords": [
+        "language",
+        "etymology",
+        "latin",
+        "vocabulary",
+        "definition",
+        "superlative"
+      ]
+    },
+    "the gobi": {
+      "display": "the Gobi",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Lumbering gait, huge arms, beer gut, humpback -- Deinocheirus didn't exactly terrorize this Asian desert where its fossils were found",
+      "keywords": [
+        "desert",
+        "asia",
+        "paleontology",
+        "dinosaur",
+        "geography",
+        "fossils",
+        "mongolia"
+      ]
+    },
+    "run deep": {
+      "display": "Run Deep",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Edward Beach's tale of a WWII sub titled \"Run Silent\", this, was later made into a Clark Gable/ Burt Lancaster flick",
+      "keywords": [
+        "literature",
+        "world war ii",
+        "submarines",
+        "military",
+        "film",
+        "edward beach",
+        "fiction"
+      ]
+    },
+    "the (toronto) raptors": {
+      "display": "the (Toronto) Raptors",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "These NBA predators devour weaker creatures at Scotiabank Arena, formerly the Air Canada Centre",
+      "keywords": [
+        "basketball",
+        "nba",
+        "sports",
+        "toronto",
+        "team",
+        "canada",
+        "animals"
+      ]
+    },
+    "marseille": {
+      "display": "Marseille",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "With communities from many parts of Africa, it's no wonder that this French city is called \"the city of 100 neighborhoods\"",
+      "keywords": [
+        "france",
+        "city",
+        "geography",
+        "culture",
+        "africa",
+        "europe",
+        "port"
+      ]
+    },
+    "masters": {
+      "display": "masters",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Taylor Swift rerecorded her early work after these versions from which copies are made were sold without her consent",
+      "keywords": [
+        "music",
+        "recording",
+        "copyright",
+        "taylor swift",
+        "ownership",
+        "music industry"
+      ]
+    },
+    "decorum": {
+      "display": "decorum",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Proper behavior, correctness of manners, y'know, this",
+      "keywords": [
+        "language",
+        "etiquette",
+        "manners",
+        "behavior",
+        "vocabulary",
+        "definition"
+      ]
+    },
+    "on the beach": {
+      "display": "On the Beach",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A submarine scours the coast of Australia to look for life after nuclear war in this Nevil Shute classic",
+      "keywords": [
+        "literature",
+        "nuclear war",
+        "post-apocalyptic",
+        "submarines",
+        "australia",
+        "science fiction"
+      ]
+    },
+    "cyclone": {
+      "display": "cyclone",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"Northwestern might as well have tried to play football with an Iowa\" this, wrote a reporter in 1895, & a nickname was born",
+      "keywords": [
+        "sports",
+        "football",
+        "college",
+        "iowa",
+        "nickname",
+        "weather",
+        "history"
+      ]
+    },
+    "pamplona": {
+      "display": "Pamplona",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "After its 9-day Festival of San Fermín, people in this Spanish city gather & sing a song called \"Poor Me\"",
+      "keywords": [
+        "spain",
+        "city",
+        "festival",
+        "culture",
+        "geography",
+        "san fermín",
+        "tradition"
+      ]
+    },
+    "artists & repertoire": {
+      "display": "artists & repertoire",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Record label talent scouts work in A&R, standing for this, the music makers & their works",
+      "keywords": [
+        "music",
+        "recording",
+        "industry",
+        "talent",
+        "record label",
+        "music production"
+      ]
+    },
+    "sorghum": {
+      "display": "sorghum",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A dark syrup made from the sweet variety of this cereal grass is often mistakenly called molasses",
+      "keywords": [
+        "agriculture",
+        "grain",
+        "crop",
+        "food",
+        "plants",
+        "syrup",
+        "botany"
+      ]
+    },
+    "a high-ankle sprain (a sprained ankle)": {
+      "display": "a high-ankle sprain (a sprained ankle)",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "An awkward landing when running or jumping can lead to a syndesmotic injury, aka this, specifically of the \"high\" ligaments",
+      "keywords": [
+        "sports",
+        "injury",
+        "anatomy",
+        "medicine",
+        "ligaments",
+        "orthopedics",
+        "athletic"
+      ]
+    },
+    "idk": {
+      "display": "IDK",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "G'day! Did you know Indulkana Airport in Australia has this code? Oddly, by responding, it shows you may not",
+      "keywords": [
+        "airport code",
+        "acronym",
+        "australia",
+        "code",
+        "geography",
+        "wordplay",
+        "language"
+      ]
+    },
+    "i, tonya": {
+      "display": "I, Tonya",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This film with Margot Robbie brought even more drama to the world of figure skating",
+      "keywords": [
+        "film",
+        "figure skating",
+        "sports",
+        "margot robbie",
+        "drama",
+        "cinema",
+        "biography"
+      ]
+    },
+    "carbon copy": {
+      "display": "carbon copy",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "You can BCC others on an email without knowing the CC is short for this",
+      "keywords": [
+        "technology",
+        "email",
+        "communication",
+        "acronym",
+        "history",
+        "business",
+        "abbreviation"
+      ]
+    },
+    "the river styx": {
+      "display": "the River Styx",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "There are 9 rings in this river across which souls are ferried to the underworld",
+      "keywords": [
+        "mythology",
+        "greek",
+        "underworld",
+        "ancient greece",
+        "afterlife",
+        "water",
+        "legend"
+      ]
+    },
+    "once in a blue moon": {
+      "display": "once in a blue moon",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Astronomers & old-timey farmers disagree on the definition of this, but either way, it pops up in a phrase for something rare",
+      "keywords": [
+        "astronomy",
+        "moon",
+        "idiom",
+        "language",
+        "rare",
+        "culture",
+        "science"
+      ]
+    },
+    "rudolph valentino": {
+      "display": "Rudolph Valentino",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "His death after \"The Son of the Sheik\" in 1926 caused worldwide hysteria",
+      "keywords": [
+        "film",
+        "cinema",
+        "actor",
+        "silent film",
+        "history",
+        "celebrity",
+        "1920s"
+      ]
+    },
+    "doh": {
+      "display": "DOH",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "It's the Simpsonesque code for the main airport that serves Qatar's capital",
+      "keywords": [
+        "airport code",
+        "qatar",
+        "geography",
+        "abbreviation",
+        "middle east",
+        "doha",
+        "code"
+      ]
+    },
+    "i love you, man": {
+      "display": "I Love You, Man",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Paul Rudd slaps the bass alongside Jason Segel in this bromance from 2009",
+      "keywords": [
+        "film",
+        "comedy",
+        "cinema",
+        "paul rudd",
+        "jason segel",
+        "bromance",
+        "music"
+      ]
+    },
+    "the iron age": {
+      "display": "the Iron Age",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Dating from roughly the birth of Christ, the Melsonby Hoard is a trove of artifacts of this period",
+      "keywords": [
+        "archaeology",
+        "history",
+        "period",
+        "iron age",
+        "ancient",
+        "artifacts",
+        "britain"
+      ]
+    },
+    "golden apples": {
+      "display": "golden apples",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The Hesperides were maidens who guarded a tree that bore these precious fruits",
+      "keywords": [
+        "mythology",
+        "greek",
+        "legend",
+        "magic",
+        "trees",
+        "fruit",
+        "underworld"
+      ]
+    },
+    "from the horse's mouth": {
+      "display": "from the horse's mouth",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This phrase meaning from a primary source has been traced to 19th century racetrack gambling",
+      "keywords": [
+        "idioms",
+        "etymology",
+        "phrases",
+        "language",
+        "gambling",
+        "horses",
+        "origins"
+      ]
+    },
+    "vietnam": {
+      "display": "Vietnam",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "At the age of 12, Bao Dai of the Nguyen Dynasty became the last emperor of this country",
+      "keywords": [
+        "geography",
+        "history",
+        "asia",
+        "emperors",
+        "dynasties"
+      ]
+    },
+    "i know what you did last summer": {
+      "display": "I Know What You Did Last Summer",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In 2025, Jennifer Love Hewitt & Freddie Prinze Jr. reunited in this sequel/franchise reboot of a '90s slasher classic",
+      "keywords": [
+        "film",
+        "horror",
+        "slasher",
+        "sequels",
+        "remakes",
+        "1990s"
+      ]
+    },
+    "neon lights": {
+      "display": "neon lights",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "They say these are bright on Broadway, they say there's always magic in the air",
+      "keywords": [
+        "broadway",
+        "theater",
+        "new york",
+        "light",
+        "songs"
+      ]
+    },
+    "the hydra": {
+      "display": "the Hydra",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Cut off one of the 9 heads of this huge watersnake-like monster & 2 would grow in its place",
+      "keywords": [
+        "greek mythology",
+        "monsters",
+        "ancient greece",
+        "creatures"
+      ]
+    },
+    "when pigs fly": {
+      "display": "when pigs fly",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Used to describe the likelihood of something that'll never, ever happen, it used to be followed by \"with their tails forward\"",
+      "keywords": [
+        "idioms",
+        "phrases",
+        "expressions",
+        "animals"
+      ]
+    },
+    "schrödinger": {
+      "display": "Schrödinger",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Cat's out of the bag! In 1926 this Austrian physicist introduced his famous wave equation",
+      "keywords": [
+        "physics",
+        "quantum mechanics",
+        "scientists",
+        "austria"
+      ]
+    },
+    "tripoli": {
+      "display": "Tripoli",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Here's a travel tip: TIP was the intl. airport in this North African capital -- it closed in 2014 after a militia attack",
+      "keywords": [
+        "geography",
+        "africa",
+        "libya",
+        "cities",
+        "airports"
+      ]
+    },
+    "i am legend": {
+      "display": "I Am Legend",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "\"The Last Man on Earth\", \"The Omega Man\" & this 2007 film are all adaptations of a tale by Richard Matheson",
+      "keywords": [
+        "film",
+        "science fiction",
+        "adaptation"
+      ]
+    },
+    "oxygen tent": {
+      "display": "oxygen tent",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "In 1926, Dr. Alvan Barach created the first practical one of these aids to respiration",
+      "keywords": [
+        "medicine",
+        "medical devices",
+        "health",
+        "respiratory"
+      ]
+    },
+    "priam": {
+      "display": "Priam",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Paris is one of the 50 sons of this king of Troy",
+      "keywords": [
+        "greek mythology",
+        "ancient greece",
+        "troy",
+        "classical literature"
+      ]
+    },
+    "the back of your hand": {
+      "display": "the back of your hand",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "To be extremely familiar with something is to know it like this, also called a dorsum",
+      "keywords": [
+        "idioms",
+        "phrases",
+        "language",
+        "anatomy"
+      ]
+    },
+    "gertrude ederle": {
+      "display": "Gertrude Ederle",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In 1926 she swam across the English Channel, beating the fastest men's time by 2 hours",
+      "keywords": [
+        "sports",
+        "swimming",
+        "athletics",
+        "history"
+      ]
+    },
+    "mad": {
+      "display": "MAD",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "It's the crazy-sounding code of Barajas Airport, serving a European capital",
+      "keywords": [
+        "airports",
+        "geography",
+        "spain",
+        "madrid",
+        "codes"
+      ]
+    },
+    "i heart huckabees": {
+      "display": "I Heart Huckabees",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Dustin Hoffman & Lily Tomlin played existential detectives in this film directed by David O. Russell",
+      "keywords": [
+        "film",
+        "comedy",
+        "existentialism",
+        "directors"
+      ]
+    },
+    "nitrogen fixation": {
+      "display": "nitrogen fixation",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "It's not an obsession with element No. 7, it's a process that creates more reactive compounds to help plants grow",
+      "keywords": [
+        "chemistry",
+        "biology",
+        "agriculture",
+        "plants"
+      ]
+    },
+    "antigone": {
+      "display": "Antigone",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "After she was forbidden from doing so, she buried her brother Polyneices & was punished",
+      "keywords": [
+        "greek mythology",
+        "classical literature",
+        "drama",
+        "tragedy"
+      ]
+    },
+    "hoist on one's own petard": {
+      "display": "hoist on one's own petard",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "With a synonym for \"lift\" & an archaic word for a bomb, it's a very old-timey way of saying plans have backfired",
+      "keywords": [
+        "idioms",
+        "phrases",
+        "history",
+        "expressions"
+      ]
+    },
+    "an atm": {
+      "display": "an ATM",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In 2023 a forklift was used in an attempt to steal one of these machines outside of a credit union",
+      "keywords": [
+        "banking",
+        "finance",
+        "technology",
+        "crime"
+      ]
+    },
+    "guardians of the galaxy": {
+      "display": "Guardians of the Galaxy",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "\"He don't know talkin' good like me & you. So his vocabulistics is limited to I & am & Groot\" is explained in this 2014 film",
+      "keywords": [
+        "film",
+        "science fiction",
+        "superhero",
+        "marvel"
+      ]
+    },
+    "august": {
+      "display": "August",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A month of the year, or majestically grand",
+      "keywords": [
+        "months",
+        "language",
+        "adjectives",
+        "definitions"
+      ]
+    },
+    "charlemagne": {
+      "display": "Charlemagne",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Regarding this founder of the Holy Roman Empire, analysis of his left tibia shows he was \"very tall, but not robust\"",
+      "keywords": [
+        "history",
+        "holy roman empire",
+        "medieval",
+        "biography"
+      ]
+    },
+    "the butterfly effect": {
+      "display": "the butterfly effect",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The idea that small changes can lead to vastly different outcomes, aka this effect, causes quite a \"flap\" among mathematicians",
+      "keywords": [
+        "physics",
+        "chaos theory",
+        "mathematics",
+        "science"
+      ]
+    },
+    "shel silverstein": {
+      "display": "Shel Silverstein",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This poet who wrote the children's book \"Where the Sidewalk Ends\" also wrote the song \"A Boy Named Sue\"",
+      "keywords": [
+        "literature",
+        "poetry",
+        "children's books",
+        "music",
+        "biography"
+      ]
+    },
+    "tines": {
+      "display": "tines",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Forklift prongs are known as these, also used for the points on your dinner fork",
+      "keywords": [
+        "words",
+        "definitions",
+        "tools",
+        "utensils"
+      ]
+    },
+    "apollo 13": {
+      "display": "Apollo 13",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Ed Harris considers using the Moon's gravity to slingshot astronauts safely back to Earth in this film",
+      "keywords": [
+        "film",
+        "space",
+        "nasa",
+        "history"
+      ]
+    },
+    "a bohemian": {
+      "display": "a Bohemian",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A native of a part of the Czech Republic, or an eccentric art lover who's not into social conventions",
+      "keywords": [
+        "geography",
+        "czech republic",
+        "culture",
+        "art"
+      ]
+    },
+    "lyndon baines johnson": {
+      "display": "Lyndon Baines Johnson",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This 6'3\" president loomed large in every way; to Tom Wicker, he \"seems 20 feet tall -- when he really measures no more than 10\"",
+      "keywords": [
+        "history",
+        "presidents",
+        "usa",
+        "politics",
+        "biography"
+      ]
+    },
+    "prairie dogs": {
+      "display": "prairie dogs",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "These rodents, genus Cynomys, weigh just 2 to 4 pounds but are pivotal to the grasslands; their digging aerates & fertilizes the soil",
+      "keywords": [
+        "animals",
+        "rodents",
+        "ecology",
+        "biology",
+        "usa"
+      ]
+    },
+    "phillis": {
+      "display": "Phillis",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In 1761 the Wheatley family bought a girl from this slave ship & named her after it; she became the 1st major African-American poet",
+      "keywords": [
+        "history",
+        "literature",
+        "slavery",
+        "poetry",
+        "african-american",
+        "biography"
+      ]
+    },
+    "pallets": {
+      "display": "pallets",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Forklifts efficiently lift these flat wooden platforms that, as a standard, hold up to 4,600 pounds",
+      "keywords": [
+        "warehousing",
+        "logistics",
+        "equipment",
+        "materials"
+      ]
+    },
+    "the wrath of khan": {
+      "display": "The Wrath of Khan",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Spock suffers this subtitle of \"Star Trek II\" & (spoiler?) dies, but shakes it off for the IIIrd one",
+      "keywords": [
+        "film",
+        "science fiction",
+        "star trek"
+      ]
+    },
+    "king solomon": {
+      "display": "King Solomon",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In Jewish mysticism, a \"little ring\" sent by God to this biblical king enabled him to control demons & speak with animals",
+      "keywords": [
+        "religion",
+        "biblical",
+        "judaism",
+        "mysticism"
+      ]
+    },
+    "ginsberg": {
+      "display": "Ginsberg",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "He said he wrote poems like \"Howl\" in a \"Hebraic-Melvillian bardic breath\" -- sort of like how I read clues",
+      "keywords": [
+        "literature",
+        "poetry",
+        "biography",
+        "20th century"
+      ]
+    },
+    "toyota": {
+      "display": "Toyota",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This company also known for its Camrys is a major manufacturer of forklifts",
+      "keywords": [
+        "automobiles",
+        "companies",
+        "manufacturing",
+        "vehicles"
+      ]
+    },
+    "sigourney weaver": {
+      "display": "Sigourney Weaver",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Before repeating whatever the computer said in \"Galaxy Quest\", she had a very different meeting with \"Aliens\"",
+      "keywords": [
+        "film",
+        "actors",
+        "science fiction",
+        "actresses"
+      ]
+    },
+    "mosaic": {
+      "display": "Mosaic",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Relating to the biblical sea-parting guy, or a decoration using tiles to form patterns",
+      "keywords": [
+        "art",
+        "decoration",
+        "religion",
+        "biblical",
+        "visual arts"
+      ]
+    },
+    "peter the great": {
+      "display": "Peter the Great",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This czar-turned-emperor was of \"enormous height\" & \"unusual physical strength\"; no wonder Catherine I swiped right",
+      "keywords": [
+        "history",
+        "russia",
+        "biography",
+        "rulers"
+      ]
+    },
+    "compounding interest": {
+      "display": "compounding interest",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Thanks to this 2-word financial term that produces exponential growth, even a small sum of money can eventually grow into a fortune",
+      "keywords": [
+        "finance",
+        "economics",
+        "mathematics",
+        "investments"
+      ]
+    },
+    "shelley": {
+      "display": "Shelley",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In 1822 the adventurer Edward John Trelawny arranged the cremation of this Romantic poet after he drowned in Italy",
+      "keywords": [
+        "literature",
+        "poetry",
+        "biography",
+        "romantic period"
+      ]
+    },
+    "osha": {
+      "display": "OSHA",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Forklift training is mandated & governed by this regulatory agency of the U.S. Department of Labor",
+      "keywords": [
+        "labor",
+        "regulation",
+        "safety",
+        "government",
+        "workplace",
+        "usa"
+      ]
+    },
+    "pandora": {
+      "display": "Pandora",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "What's in the box?! Why, a clue about this extrasolar moon in \"Avatar: The Way of Water\"",
+      "keywords": [
+        "moon",
+        "avatar",
+        "film",
+        "science fiction",
+        "extrasolar"
+      ]
+    },
+    "fiat": {
+      "display": "Fiat",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A Euro auto brand, or an official decree from a royal",
+      "keywords": [
+        "automobile",
+        "italy",
+        "brand",
+        "decree",
+        "royal"
+      ]
+    },
+    "mary, queen of scots": {
+      "display": "Mary, Queen of Scots",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A queen at 6 days old, this daughter of James V was a foot taller than average for her time: 5'11\" while she still had a head",
+      "keywords": [
+        "scotland",
+        "royalty",
+        "history",
+        "medieval",
+        "biography",
+        "james v"
+      ]
+    },
+    "polonium": {
+      "display": "polonium",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A single gram of the 210 isotope of this, the most radioactive naturally occurring element, could kill 50 million people -- yikes",
+      "keywords": [
+        "chemistry",
+        "element",
+        "radioactive",
+        "isotope",
+        "physics"
+      ]
+    },
+    "the danube": {
+      "display": "the Danube",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Rising in the Black Forest, this river waltzes through 10 countries, including Ukraine & Moldova",
+      "keywords": [
+        "geography",
+        "river",
+        "europe",
+        "eastern europe",
+        "water"
+      ]
+    },
+    "\"poker face\"": {
+      "display": "\"Poker Face\"",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This Lady Gaga song says, \"Play the cards with spades to start\" -- which, come to think of it, sounds more like bridge",
+      "keywords": [
+        "music",
+        "lady gaga",
+        "song",
+        "pop",
+        "card game"
+      ]
+    },
+    "the venus de milo": {
+      "display": "the Venus de Milo",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The Louvre's website says, apparently without irony, that this piece found on a Greek island \"was welcomed with open arms\" in 1821",
+      "keywords": [
+        "art",
+        "sculpture",
+        "classical",
+        "greek",
+        "louvre",
+        "museum"
+      ]
+    },
+    "the roma": {
+      "display": "the Roma",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A Madeline Potter book tells the story of this marginalized group thought to have migrated to Europe from India & moved a lot since",
+      "keywords": [
+        "ethnicity",
+        "people",
+        "migration",
+        "history",
+        "europe",
+        "marginalized"
+      ]
+    },
+    "(elizabeth) holmes": {
+      "display": "(Elizabeth) Holmes",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "For defrauding Theranos investors: sentenced to more than 11 years in federal prison",
+      "keywords": [
+        "fraud",
+        "theranos",
+        "startup",
+        "criminal",
+        "technology",
+        "justice"
+      ]
+    },
+    "gridlock": {
+      "display": "gridlock",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Total traffic jam (8 letters)",
+      "keywords": [
+        "traffic",
+        "transportation",
+        "urban",
+        "infrastructure",
+        "congestion"
+      ]
+    },
+    "\"can't feel my face\"": {
+      "display": "\"Can't Feel My Face\"",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"I know she'll be the death of me / At least we'll both be numb\", sang The Weeknd in this chart-topper",
+      "keywords": [
+        "music",
+        "the weeknd",
+        "song",
+        "pop",
+        "chart"
+      ]
+    },
+    "vance": {
+      "display": "Vance",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "In 2016 the N.Y. Times called his \"Hillbilly Elegy\" a \"discerning sociological analysis of the white underclass\"",
+      "keywords": [
+        "author",
+        "memoir",
+        "sociology",
+        "appalachia",
+        "literature"
+      ]
+    },
+    "hoffa": {
+      "display": "Hoffa",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "For jury tampering & mishandling of the Teamsters' pension fund: prison time, before he disappeared",
+      "keywords": [
+        "labor",
+        "unions",
+        "crime",
+        "history",
+        "teamsters"
+      ]
+    },
+    "glasses": {
+      "display": "glasses",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Specs (7 letters)",
+      "keywords": [
+        "eyewear",
+        "vision",
+        "accessories",
+        "spectacles"
+      ]
+    },
+    "put on a happy face": {
+      "display": "put on a happy face",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The classic musical \"Bye Bye Birdie\" gave us the song that says, \"Gray skies are gonna clear up\", so do this",
+      "keywords": [
+        "musical",
+        "theater",
+        "song",
+        "broadway"
+      ]
+    },
+    "sue": {
+      "display": "Sue",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "At Chicago's Field Museum, say hi to specimen FMNH PR 2081, better known by this female first name & looking good for 67 million years",
+      "keywords": [
+        "dinosaur",
+        "fossil",
+        "paleontology",
+        "museum",
+        "prehistoric"
+      ]
+    },
+    "intersectionality": {
+      "display": "intersectionality",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In a 2019 book Patricia Hill Collins says this concept sits \"at the crossroads of multiple... communities\"",
+      "keywords": [
+        "sociology",
+        "identity",
+        "theory",
+        "race",
+        "gender",
+        "marginalization"
+      ]
+    },
+    "(gerald) ford": {
+      "display": "(Gerald) Ford",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "For separate attempts to assassinate him, Lynette Fromme & Sara Jane Moore: life in prison; both were paroled",
+      "keywords": [
+        "politics",
+        "assassination",
+        "history",
+        "justice",
+        "criminal",
+        "usa"
+      ]
+    },
+    "gramophone": {
+      "display": "gramophone",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Early record player (10 letters)",
+      "keywords": [
+        "music",
+        "audio",
+        "technology",
+        "vintage",
+        "recording"
+      ]
+    },
+    "the zambezi": {
+      "display": "the Zambezi",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This end-of-the-alphabet river begins in the central African plateau & drains an area of 500,000 square miles",
+      "keywords": [
+        "geography",
+        "river",
+        "africa",
+        "water"
+      ]
+    },
+    "\"set fire to the rain\"": {
+      "display": "\"Set Fire To The Rain\"",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Adele did this amazing title thing & \"watched it pour as I touched your face\"",
+      "keywords": [
+        "music",
+        "adele",
+        "song",
+        "pop",
+        "chart"
+      ]
+    },
+    "the zero": {
+      "display": "the Zero",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The Planes of Fame Air Museum boasts the only authentic still-flying model of the Japanese World War II fighter with this numeric nickname",
+      "keywords": [
+        "military",
+        "aircraft",
+        "world war ii",
+        "japan",
+        "aviation"
+      ]
+    },
+    "(booker t.) washington": {
+      "display": "(Booker T.) Washington",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Chapter 3 of \"The Souls of Black Folk\" by W.E.B. DuBois is about the views of this educator & rival",
+      "keywords": [
+        "history",
+        "education",
+        "african american",
+        "civil rights",
+        "biography"
+      ]
+    },
+    "adolf eichmann": {
+      "display": "Adolf Eichmann",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "For war crimes & crimes against the Jewish people & humanity: death by hanging in Israel, in 1962",
+      "keywords": [
+        "history",
+        "war crimes",
+        "holocaust",
+        "nazi",
+        "justice"
+      ]
+    },
+    "a gastropod": {
+      "display": "a gastropod",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "A slug or snail, by class (9 letters)",
+      "keywords": [
+        "biology",
+        "zoology",
+        "mollusk",
+        "animals",
+        "creatures"
+      ]
+    },
+    "the ob": {
+      "display": "the Ob",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "If you include the Irtysh as part of the main course, this Siberian river flows over 3,300 miles (but only uses 2 letters to do so)",
+      "keywords": [
+        "geography",
+        "river",
+        "russia",
+        "siberia",
+        "water"
+      ]
+    },
+    "rod stewart": {
+      "display": "Rod Stewart",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The Faces were early '70s stars with future Rolling Stone Ron Wood on guitar & this soon-to-be solo superstar on lead vocals",
+      "keywords": [
+        "music",
+        "rock",
+        "musician",
+        "1970s",
+        "the faces",
+        "british"
+      ]
+    },
+    "delft": {
+      "display": "Delft",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Visiting the Rijksmuseum? Don't miss the blue & white ware from this city, including dishes, vases & much more",
+      "keywords": [
+        "ceramics",
+        "pottery",
+        "dutch",
+        "netherlands",
+        "art",
+        "geography"
+      ]
+    },
+    "(judith) butler": {
+      "display": "(Judith) Butler",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Works by this thinker include \"Gender Trouble\" & \"Who's Afraid of Gender?\"",
+      "keywords": [
+        "philosophy",
+        "gender theory",
+        "academia",
+        "queer studies"
+      ]
+    },
+    "aileen wuornos": {
+      "display": "Aileen Wuornos",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Portrayed on screen by Charlize Theron: admitted to several murders, died by lethal injection",
+      "keywords": [
+        "true crime",
+        "criminal",
+        "history",
+        "serial killer",
+        "justice"
+      ]
+    },
+    "galena": {
+      "display": "galena",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Chief ore from which to get the lead out (6 letters)",
+      "keywords": [
+        "chemistry",
+        "mineral",
+        "geology",
+        "lead",
+        "mining",
+        "ore"
+      ]
+    },
+    "madagascar": {
+      "display": "Madagascar",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Follow your nose to Nosy Komba & have a fun-filled visit at the Black Lemur Sanctuary in this nation with 100% coast",
+      "keywords": [
+        "geography",
+        "island",
+        "madagascar",
+        "wildlife",
+        "nature",
+        "lemurs"
+      ]
+    },
+    "excalibur": {
+      "display": "Excalibur",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Arthur hit the jackpot with this weapon that in one film granted power \"'cause some watery tart threw a sword at you\"",
+      "keywords": [
+        "mythology",
+        "legend",
+        "king arthur",
+        "fantasy",
+        "sword",
+        "medieval"
+      ]
+    },
+    "calm": {
+      "display": "calm",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This 4-letter word comes before \"down\" in an order to stifle rowdiness; a Taylor Swift song title says you need to do it!",
+      "keywords": [
+        "music",
+        "taylor swift",
+        "song",
+        "emotion",
+        "command"
+      ]
+    },
+    "aloha": {
+      "display": "aloha",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "My neighborhood thrift store has a large collection of Hawaiian shirts also known by this familiar Hawaiian word",
+      "keywords": [
+        "hawaiian",
+        "language",
+        "culture",
+        "greeting",
+        "word"
+      ]
+    },
+    "monaco": {
+      "display": "Monaco",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The coastline of this principality on the Med is a mere 2.5 miles, but it's rich in a lot of other ways",
+      "keywords": [
+        "geography",
+        "principality",
+        "europe",
+        "mediterranean",
+        "wealth"
+      ]
+    },
+    "the chunnel": {
+      "display": "the Chunnel",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Completed in 1993 & with 23 1/2 miles underwater, it links England & France",
+      "keywords": [
+        "geography",
+        "engineering",
+        "transportation",
+        "infrastructure",
+        "channel"
+      ]
+    },
+    "the venetian": {
+      "display": "the Venetian",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Naming this proper adjective for natives like Marco Polo & Casanova makes you a winner winner!",
+      "keywords": [
+        "geography",
+        "italy",
+        "venice",
+        "proper noun"
+      ]
+    },
+    "basketball": {
+      "display": "basketball",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"Buzzer beater\"",
+      "keywords": [
+        "sports",
+        "athletics",
+        "team sport",
+        "competition"
+      ]
+    },
+    "a church mouse": {
+      "display": "a church mouse",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "You can be as poor as one of these worship-house rodents, or as quiet as one; your choice",
+      "keywords": [
+        "church",
+        "poverty",
+        "animals",
+        "quiet",
+        "religion"
+      ]
+    },
+    "a jean jacket": {
+      "display": "a jean jacket",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Gonna sing \"Badlands\" during karaoke tonight, so I'm on the hunt for this alliterative denim coat to look like The Boss",
+      "keywords": [
+        "clothing",
+        "denim",
+        "fashion",
+        "music"
+      ]
+    },
+    "nicaragua": {
+      "display": "Nicaragua",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Directly north of Costa Rica, this country boasts coasts on the Caribbean & the Pacific as well as Lago Cocibolca",
+      "keywords": [
+        "central america",
+        "geography",
+        "countries",
+        "caribbean",
+        "pacific"
+      ]
+    },
+    "the highland games": {
+      "display": "the Highland Games",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The Braemar Gathering is one of the most well-attended of these athletic, music & dance competitions held in Scotland",
+      "keywords": [
+        "scotland",
+        "sports",
+        "athletics",
+        "music",
+        "dance",
+        "culture"
+      ]
+    },
+    "the aria": {
+      "display": "the aria",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "You can bet Puccini's \"O mio babbino caro\" is a notable one, sometimes done as an encore",
+      "keywords": [
+        "opera",
+        "music",
+        "vocal",
+        "performance"
+      ]
+    },
+    "football": {
+      "display": "football",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "\"Call an audible\"",
+      "keywords": [
+        "sports",
+        "american football",
+        "strategy",
+        "terminology"
+      ]
+    },
+    "placid": {
+      "display": "placid",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Part of the name of the 1980 Winter Olympics site, it means quiet or peaceful",
+      "keywords": [
+        "adjectives",
+        "olympics",
+        "new york",
+        "geography"
+      ]
+    },
+    "bell bottoms": {
+      "display": "bell bottoms",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "For my flower power party I'm buying round sunglasses, a tie-dye shirt & some of these trousers with curved hems also known as flares",
+      "keywords": [
+        "clothing",
+        "fashion",
+        "1970s",
+        "hippie"
+      ]
+    },
+    "the ivory coast (côte d'ivoire)": {
+      "display": "the Ivory Coast (Côte d'Ivoire)",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Bounded to the north by Mali, this French-named nation is perfect for the category",
+      "keywords": [
+        "west africa",
+        "geography",
+        "countries",
+        "french"
+      ]
+    },
+    "george iii": {
+      "display": "George III",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "According to the British monarchy's website, in 1810 this royal \"became permanently deranged\"",
+      "keywords": [
+        "british history",
+        "royalty",
+        "monarchy",
+        "mental health"
+      ]
+    },
+    "cosmopolitan": {
+      "display": "cosmopolitan",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Synonyms for this word include cultured & urbane, & that reminds me... who needs a drink at the table?",
+      "keywords": [
+        "adjectives",
+        "cocktails",
+        "drinks",
+        "culture"
+      ]
+    },
+    "cricket": {
+      "display": "cricket",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "\"Knock for six\" (to shock or upset)",
+      "keywords": [
+        "sports",
+        "cricket",
+        "britain",
+        "terminology"
+      ]
+    },
+    "reserved": {
+      "display": "reserved",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Quality of a table procured at a restaurant for a later date, or restrained verbally in general",
+      "keywords": [
+        "adjectives",
+        "restaurants",
+        "personality",
+        "behavior"
+      ]
+    },
+    "hoka": {
+      "display": "HOKA",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Looking to complete my athleisure fit with trendy shoes from this four-letter company named after a Maori word for \"to fly\"",
+      "keywords": [
+        "shoes",
+        "fashion",
+        "brands",
+        "hip-hop"
+      ]
+    },
+    "myanmar (burma)": {
+      "display": "Myanmar (Burma)",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This country with 2 names in English has coastline on the Gulf of Martaban, an arm of the Andaman Sea",
+      "keywords": [
+        "southeast asia",
+        "geography",
+        "countries"
+      ]
+    },
+    "cornwall": {
+      "display": "Cornwall",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This county at England's southwest tip has its own Celtic language",
+      "keywords": [
+        "england",
+        "geography",
+        "celtic",
+        "languages"
+      ]
+    },
+    "the flamingo": {
+      "display": "the flamingo",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Letting the chips fall where they may, this animal goes unipedal for several hours at a time",
+      "keywords": [
+        "birds",
+        "animals",
+        "wildlife",
+        "behavior"
+      ]
+    },
+    "golf": {
+      "display": "golf",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"Making the cut\"",
+      "keywords": [
+        "sports",
+        "golf",
+        "terminology",
+        "tournaments"
+      ]
+    },
+    "sotto voce": {
+      "display": "sotto voce",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Shh, I need you to talk quietly, this 2-word Italian term",
+      "keywords": [
+        "italian",
+        "music",
+        "language",
+        "terminology"
+      ]
+    },
+    "kangol": {
+      "display": "Kangol",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "I'm looking for a flat cap with a marsupial logo from this company -- it's big in rap fandom",
+      "keywords": [
+        "hats",
+        "fashion",
+        "brands",
+        "hip-hop"
+      ]
+    },
+    "the federal reserve": {
+      "display": "the Federal Reserve",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Under the ruse of a duck hunt, a 1910 meeting on Georgia's Jekyll Island laid the foundation for this U.S. banking authority",
+      "keywords": [
+        "banking",
+        "usa",
+        "history",
+        "monetary policy"
+      ]
+    },
+    "harper lee": {
+      "display": "Harper Lee",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "\"'Mr. Finch,' Mr. Tate said stolidly, 'Bob Ewell fell on his knife. He killed himself'\"",
+      "keywords": [
+        "literature",
+        "authors",
+        "american literature",
+        "writing"
+      ]
+    },
+    "a dune buggy": {
+      "display": "a dune buggy",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It 's one way to get around a desert or off-road",
+      "keywords": [
+        "vehicles",
+        "transportation",
+        "desert",
+        "off-road"
+      ]
+    },
+    "propaganda": {
+      "display": "propaganda",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The dissemination of information in a biased way; it's meant to persuade",
+      "keywords": [
+        "communication",
+        "media",
+        "history",
+        "politics"
+      ]
+    },
+    "metamorphic": {
+      "display": "metamorphic",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Gneiss & schist are examples of this class of rock transformed by heat, pressure or chemical reactions",
+      "keywords": [
+        "geology",
+        "rocks",
+        "earth science",
+        "mineralogy"
+      ]
+    },
+    "(david) lynch": {
+      "display": "(David) Lynch",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "On the passing of this director, Kyle MacLachlan said, \"While the world has lost a remarkable artist, I've lost a dear friend\"",
+      "keywords": [
+        "film",
+        "directors",
+        "television",
+        "cinema"
+      ]
+    },
+    "the sistine chapel": {
+      "display": "the Sistine Chapel",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "For papal conclaves, blacked out windows ensure privacy in this building, where electors vote, burn ballots & swear an oath of secrecy",
+      "keywords": [
+        "architecture",
+        "religion",
+        "vatican",
+        "art"
+      ]
+    },
+    "golding": {
+      "display": "Golding",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Simon's end: \"The beast lay still, a few yards from the sea... the boys rushed screaming into the darkness\"",
+      "keywords": [
+        "literature",
+        "authors",
+        "fiction",
+        "british literature"
+      ]
+    },
+    "remove your shoes": {
+      "display": "remove your shoes",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "To the delight of airline passengers, in July 2025 TSA announced you no longer have to do this when going through security",
+      "keywords": [
+        "travel",
+        "airports",
+        "usa",
+        "security"
+      ]
+    },
+    "a roadrunner": {
+      "display": "a roadrunner",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Beep beep! It's also called the chaparral cock",
+      "keywords": [
+        "birds",
+        "animals",
+        "wildlife",
+        "desert"
+      ]
+    },
+    "methane": {
+      "display": "methane",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Climate warming is largely attributed to 2 gases, carbon dioxide & this one mainly produced by human activity",
+      "keywords": [
+        "chemistry",
+        "climate",
+        "environment",
+        "greenhouse gases"
+      ]
+    },
+    "scorsese": {
+      "display": "Scorsese",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "On finally winning his first Oscar in 2007 for \"The Departed\", he jokingly asked, \"Could you double-check the envelope?\"",
+      "keywords": [
+        "film",
+        "directors",
+        "cinema",
+        "awards"
+      ]
+    },
+    "the sons of liberty": {
+      "display": "the Sons of Liberty",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The Boston chapter of this paramilitary colonial org. met in Hanover Square under cover of darkness beneath a \"stately elm\"",
+      "keywords": [
+        "american history",
+        "colonial america",
+        "boston"
+      ]
+    },
+    "erich maria remarque": {
+      "display": "Erich Maria Remarque",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Paul Bäumer \"fell in October 1918, on a day that was so quiet & still on the whole front\"",
+      "keywords": [
+        "literature",
+        "authors",
+        "world war i",
+        "writing"
+      ]
+    },
+    "relative humidity": {
+      "display": "relative humidity",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The heat index combines current temperature & this, water vapor in the air as a percentage of its saturation point",
+      "keywords": [
+        "weather",
+        "meteorology",
+        "climate",
+        "science"
+      ]
+    },
+    "sofia coppola": {
+      "display": "Sofia Coppola",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Oscar-nominated for directing, she made her first onscreen appearance as an infant in \"The Godfather\"",
+      "keywords": [
+        "film",
+        "directors",
+        "cinema",
+        "awards"
+      ]
+    },
+    "beijing": {
+      "display": "Beijing",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "To set the stage for a later meeting, Henry Kissinger feigned illness on a 1971 visit to Pakistan, then snuck off to this city",
+      "keywords": [
+        "geography",
+        "china",
+        "cities",
+        "history"
+      ]
+    },
+    "the tgv": {
+      "display": "the TGV",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The high-speed train known by this 3-letter abbreviation operates in France & also connects it with Belgium & a few other countries",
+      "keywords": [
+        "trains",
+        "france",
+        "transportation",
+        "europe"
+      ]
+    },
+    "a fascinator": {
+      "display": "a fascinator",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Not exactly a hat, this headpiece that's a staple at royal weddings seems to get its name from Latin for \"to cast a spell on\"",
+      "keywords": [
+        "fashion",
+        "hats",
+        "royalty",
+        "weddings"
+      ]
+    },
+    "zinc": {
+      "display": "zinc",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Sphalerite is the principal ore of this widely used metal employed in galvanizing steel against corrosion",
+      "keywords": [
+        "chemistry",
+        "metals",
+        "mineralogy",
+        "elements"
+      ]
+    },
+    "ava duvernay": {
+      "display": "Ava DuVernay",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "She worked in publicity & public relations before directing such films as \"Selma\" & \"Origin\"",
+      "keywords": [
+        "film",
+        "director",
+        "cinema",
+        "biography",
+        "american"
+      ]
+    },
+    "the wannsee conference": {
+      "display": "the Wannsee Conference",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Marked \"Secret Reich Matter\", a single copy remains of the grim protocol outlined at this 1942 conference of Nazi leaders",
+      "keywords": [
+        "history",
+        "world war ii",
+        "holocaust",
+        "nazi",
+        "genocide"
+      ]
+    },
+    "(joseph) heller": {
+      "display": "(Joseph) Heller",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"After Kid Sampson's legs, he would think of pitiful, whimpering Snowden freezing to death in the rear section of the plane\"",
+      "keywords": [
+        "literature",
+        "fiction",
+        "novel",
+        "satire",
+        "american",
+        "world war ii"
+      ]
+    },
+    "a tuk-tuk": {
+      "display": "a tuk-tuk",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In Thailand, you can get around on one of these double-talk auto rickshaws named for the sound the engine makes",
+      "keywords": [
+        "transportation",
+        "vehicle",
+        "thailand",
+        "rickshaw",
+        "asia",
+        "sound"
+      ]
+    },
+    "a barcarolle": {
+      "display": "a barcarolle",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "It's a traditional boat song made famous by Venice's gondoliers",
+      "keywords": [
+        "music",
+        "song",
+        "classical",
+        "venice",
+        "italy",
+        "boats"
+      ]
+    },
+    "stratus clouds": {
+      "display": "stratus clouds",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "These clouds are described as basically fog, just a few thousand feet higher",
+      "keywords": [
+        "meteorology",
+        "weather",
+        "atmosphere",
+        "science",
+        "clouds"
+      ]
+    },
+    "(pedro) almodóvar": {
+      "display": "(Pedro) Almodóvar",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This Spaniard has directed the films \"All About My Mother\" & \"Parallel Mothers\" (notice a trend?)",
+      "keywords": [
+        "film",
+        "director",
+        "cinema",
+        "spanish",
+        "biography"
+      ]
+    },
+    "decibels": {
+      "display": "decibels",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The loudness of sound is measured in these units; a crying baby can hit 120",
+      "keywords": [
+        "physics",
+        "sound",
+        "measurement",
+        "acoustics",
+        "science"
+      ]
+    },
+    "it's always sunny in philadelphia": {
+      "display": "It's Always Sunny in Philadelphia",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Hijinks ensued when the Paddy's Pub gang from this show found themselves at Abbott Elementary",
+      "keywords": [
+        "television",
+        "tv show",
+        "comedy",
+        "american",
+        "pop culture"
+      ]
+    },
+    "the bough": {
+      "display": "the bough",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In a lullaby when this breaks, \"the cradle will fall\"",
+      "keywords": [
+        "nursery rhyme",
+        "lullaby",
+        "literature",
+        "folk",
+        "trees"
+      ]
+    },
+    "the serenity prayer": {
+      "display": "the Serenity Prayer",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A prayer about things needing change, things that can't be changed & knowing the difference has this peaceful name",
+      "keywords": [
+        "religion",
+        "prayer",
+        "christianity",
+        "spirituality",
+        "peace"
+      ]
+    },
+    "julie andrews": {
+      "display": "Julie Andrews",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "She flew off with an Oscar for playing Mary Poppins",
+      "keywords": [
+        "film",
+        "actress",
+        "cinema",
+        "music",
+        "biography",
+        "british"
+      ]
+    },
+    "henry viii": {
+      "display": "Henry VIII",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "His kids Edward, Mary & Elizabeth succeeded him consecutively on the throne of England",
+      "keywords": [
+        "history",
+        "england",
+        "monarchy",
+        "royalty",
+        "biography"
+      ]
+    },
+    "hiccups": {
+      "display": "hiccups",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Singultus is the medical term for these noisy spasms most of us have experienced; boo!",
+      "keywords": [
+        "medicine",
+        "health",
+        "biology",
+        "physiology",
+        "anatomy"
+      ]
+    },
+    "the x-files": {
+      "display": "The X-Files",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "In a rare reality show sci-fi show crossover, Mulder & Scully from this series teamed up with a \"Cops\" documentary crew",
+      "keywords": [
+        "television",
+        "tv show",
+        "science fiction",
+        "american",
+        "pop culture"
+      ]
+    },
+    "laughter": {
+      "display": "laughter",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "It's the best medicine, according to a proverb",
+      "keywords": [
+        "psychology",
+        "humor",
+        "health",
+        "wellness",
+        "medicine"
+      ]
+    },
+    "psalms": {
+      "display": "Psalms",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"Deliver me out of the mire, and let me not sink\" is from a prayer in this many-chaptered Bible book",
+      "keywords": [
+        "religion",
+        "christianity",
+        "bible",
+        "scripture",
+        "spirituality"
+      ]
+    },
+    "mary berry": {
+      "display": "Mary Berry",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Cordon Bleu trained, she 's written more than 80 cookbooks & was one of the original hosts of \"The Great British Baking Show\"",
+      "keywords": [
+        "cooking",
+        "chef",
+        "food",
+        "television",
+        "biography",
+        "british"
+      ]
+    },
+    "brigham young": {
+      "display": "Brigham Young",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "He was born in Vermont in 1801; by the time he died in Utah 76 years later, he'd wed 50+ times & had more than 50 kids",
+      "keywords": [
+        "religion",
+        "mormonism",
+        "history",
+        "american",
+        "biography"
+      ]
+    },
+    "a creak (from croak)": {
+      "display": "a creak (from croak)",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Change 1 letter in the sound a frog makes to get this sound a spooky door makes in a haunted house",
+      "keywords": [
+        "language",
+        "wordplay",
+        "phonetics",
+        "puns",
+        "sound"
+      ]
+    },
+    "bel air": {
+      "display": "Bel Air",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In a rare 3-show crossover, Mr. Drummond & George Jefferson appeared at the Banks family home in this swanky L.A. neighborhood",
+      "keywords": [
+        "television",
+        "tv show",
+        "american",
+        "pop culture",
+        "los angeles"
+      ]
+    },
+    "poughkeepsie": {
+      "display": "Poughkeepsie",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Home to Vassar College, this city on the Hudson River is approximately 75 miles north of New York City",
+      "keywords": [
+        "geography",
+        "new york",
+        "usa",
+        "cities",
+        "colleges"
+      ]
+    },
+    "allahu akbar": {
+      "display": "Allahu Akbar",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Early in daily prayers, Muslims lift both hands near their ears to say these 2 Arabic words affirming God's greatness",
+      "keywords": [
+        "religion",
+        "islam",
+        "prayer",
+        "spirituality",
+        "ritual",
+        "culture",
+        "arabic"
+      ]
+    },
+    "peter, paul and mary": {
+      "display": "Peter, Paul and Mary",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Mary Travers was one-third of this famous folk trio",
+      "keywords": [
+        "music",
+        "folk music",
+        "american",
+        "biography",
+        "singers"
+      ]
+    },
+    "a foley artist": {
+      "display": "a foley artist",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "\"Snapping celery sounds a lot like a breaking bone\" is one tip for this kind of artist who creates movie sound effects",
+      "keywords": [
+        "film",
+        "cinema",
+        "sound",
+        "production",
+        "art"
+      ]
+    },
+    "a trough": {
+      "display": "a trough",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Like the Trobriand one in the Southwestern Pacific, it's a long but shallow depression in the seabed",
+      "keywords": [
+        "geography",
+        "oceanography",
+        "geology",
+        "seabed",
+        "science"
+      ]
+    },
+    "contrition": {
+      "display": "Contrition",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "\"O my God, I am heartily sorry for having offended you\", begins the Act of this, a synonym for repentance",
+      "keywords": [
+        "religion",
+        "christianity",
+        "catholic",
+        "prayer",
+        "spirituality"
+      ]
+    },
+    "mary matalin": {
+      "display": "Mary Matalin",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Now married over 30 years, she & James Carville have been called the quintessential bipartisan power couple",
+      "keywords": [
+        "politics",
+        "biography",
+        "american",
+        "government",
+        "media"
+      ]
+    },
+    "shah jahan": {
+      "display": "Shah Jahan",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This Taj Mahal builder had 4 sons who wanted to succeed him but was deposed (& imprisoned) by son Aurangzeb",
+      "keywords": [
+        "history",
+        "india",
+        "architecture",
+        "biography",
+        "mughal"
+      ]
+    },
+    "a harpsichord": {
+      "display": "a harpsichord",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This sound maker popular for centuries takes its name in part from \"string\"; many are plucked when it's played",
+      "keywords": [
+        "music",
+        "instrument",
+        "classical",
+        "strings",
+        "keyboard"
+      ]
+    },
+    "how to get away with murder": {
+      "display": "How to Get Away with Murder",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In a 2018 episode of \"Scandal\", Kerry Washington teamed up with Viola Davis from this show on a class-action case",
+      "keywords": [
+        "television",
+        "tv show",
+        "american",
+        "drama",
+        "pop culture"
+      ]
+    },
+    "a dreadnought": {
+      "display": "a dreadnought",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This type of battleship takes its name from one launched in 1906, suggesting that it feared zero others",
+      "keywords": [
+        "military",
+        "naval",
+        "warfare",
+        "history",
+        "ships"
+      ]
+    },
+    "the shema": {
+      "display": "the Shema",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Hebrew for \"hear\", this prayer has been said for centuries by Jewish martyrs & is uttered by Dr. Robby in a moment of crisis on \"The Pitt\"",
+      "keywords": [
+        "religion",
+        "judaism",
+        "prayer",
+        "hebrew",
+        "spirituality"
+      ]
+    },
+    "cassatt": {
+      "display": "Cassatt",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "She's the American-born artist seen here in a self portrait from 1878",
+      "keywords": [
+        "art",
+        "artist",
+        "painting",
+        "american",
+        "biography"
+      ]
+    },
+    "william jennings bryan": {
+      "display": "William Jennings Bryan",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This great orator had 2 daughters, Ruth & Grace, & one son, William Jr., who died in 1978",
+      "keywords": [
+        "politics",
+        "history",
+        "american",
+        "biography",
+        "government"
+      ]
+    },
+    "meat loaf": {
+      "display": "Meat Loaf",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "1977: \"Bat Out of Hell\"",
+      "keywords": [
+        "music",
+        "rock music",
+        "american",
+        "biography",
+        "singer",
+        "1970s"
+      ]
+    },
+    "nachos": {
+      "display": "nachos",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A chef named Ignacio in Piedras Negras, Mexico is said to have lent his nickname to this dish using tortilla chips",
+      "keywords": [
+        "food",
+        "cooking",
+        "mexican",
+        "cuisine",
+        "recipe"
+      ]
+    },
+    "lord byron": {
+      "display": "Lord Byron",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Lady Caroline Lamb, once the lover of this poet, caricatured him as Lord Glenarvon in an 1816 novel",
+      "keywords": [
+        "literature",
+        "poetry",
+        "english",
+        "biography",
+        "romantic"
+      ]
+    },
+    "the iris": {
+      "display": "the iris",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Fleur-de-lis can refer to a lily as well as to this flower whose name also has 4 letters",
+      "keywords": [
+        "plants",
+        "flowers",
+        "botany",
+        "nature",
+        "biology"
+      ]
+    },
+    "tigers": {
+      "display": "tigers",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "In Korea, the equivalent of the fairy tale opener \"Once upon a time\" is \"Back when\" these big cats \"used to smoke\"",
+      "keywords": [
+        "animals",
+        "wildlife",
+        "asia",
+        "korea",
+        "folklore",
+        "mythology"
+      ]
+    },
+    "the mohawk": {
+      "display": "the Mohawk",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "( Sam Heughan presents the clue. ) Reaching continental America, we become involved with this Iroquois tribe that sided with the British; I believe the production did justice to the famous hairstyles",
+      "keywords": [
+        "native american",
+        "iroquois",
+        "history",
+        "indigenous peoples",
+        "colonial america"
+      ]
+    },
+    "billie eilish": {
+      "display": "Billie Eilish",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "2019: \"When We All Fall Asleep, Where Do We Go?\"",
+      "keywords": [
+        "music",
+        "pop",
+        "2019",
+        "contemporary music",
+        "singers"
+      ]
+    },
+    "diesel": {
+      "display": "Diesel",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This type of internal combustion engine was named for a German guy with the first name of Rudolf",
+      "keywords": [
+        "engines",
+        "automotive",
+        "engineering",
+        "technology",
+        "vehicles"
+      ]
+    },
+    "newark": {
+      "display": "Newark",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "What Carl Sandburg was to Chicago, Amiri Baraka was to this largest New Jersey city with poems like \"Lullaby of Avon Ave.\"",
+      "keywords": [
+        "geography",
+        "new jersey",
+        "poetry",
+        "literature",
+        "cities"
+      ]
+    },
+    "a daisy": {
+      "display": "a daisy",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "A contemporary of Linnaeus, German botanist Traugott Gerber has a variety of this flower named in his honor",
+      "keywords": [
+        "flowers",
+        "botany",
+        "plants",
+        "horticulture"
+      ]
+    },
+    "kazakhstan": {
+      "display": "Kazakhstan",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The city of Oral in this country was founded around 1620 by the Cossacks, mighty horsemen with a name related to the country's",
+      "keywords": [
+        "geography",
+        "central asia",
+        "history",
+        "cossacks"
+      ]
+    },
+    "versailles": {
+      "display": "Versailles",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "( Sam Heughan presents the clue. ) Clare & Jamie travel to France to try to influence the Jacobites , & encounter King Louis XV at this palace that he made once again the seat of government",
+      "keywords": [
+        "france",
+        "architecture",
+        "palaces",
+        "history",
+        "louis xv"
+      ]
+    },
+    "hootie & the blowfish": {
+      "display": "Hootie & the Blowfish",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "1994: One of the best-selling debuts of all time, \"Cracked Rear View\"",
+      "keywords": [
+        "music",
+        "rock",
+        "1990s",
+        "alternative rock",
+        "debut albums"
+      ]
+    },
+    "a lutz": {
+      "display": "a Lutz",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In 4-letter figure skating jumps, the Axel is from a skater's first name & this one was originally a last name",
+      "keywords": [
+        "figure skating",
+        "sports",
+        "winter sports"
+      ]
+    },
+    "(emma) lazarus": {
+      "display": "(Emma) Lazarus",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Best known for writing about Lady Liberty, she penned \"Venus of the Louvre\" about a different statue",
+      "keywords": []
+    },
+    "azaleas": {
+      "display": "azaleas",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "That's Rory McIlroy about to chip his ball out of these flowering bushes at the 2018 Masters",
+      "keywords": [
+        "flowers",
+        "botany",
+        "golf",
+        "sports",
+        "masters tournament"
+      ]
+    },
+    "mandalay": {
+      "display": "Mandalay",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Rudyard Kipling's poem has inspired some to refer to the Irrawaddy River as \"the road to\" this city",
+      "keywords": [
+        "literature",
+        "poetry",
+        "myanmar",
+        "geography",
+        "asia"
+      ]
+    },
+    "lorde": {
+      "display": "Lorde",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "2013: \"Pure Heroine\"",
+      "keywords": [
+        "music",
+        "pop",
+        "2013",
+        "contemporary music",
+        "singers"
+      ]
+    },
+    "abrahamic": {
+      "display": "Abrahamic",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "From the name of an Old Testament patriarch, this adjective refers collectively to Judaism, Christianity & Islam",
+      "keywords": [
+        "religion",
+        "theology",
+        "judaism",
+        "christianity",
+        "islam"
+      ]
+    },
+    "bukowski": {
+      "display": "Bukowski",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "In the 1987 film \"Barfly\", this L.A. poet who inspired the film fittingly plays a patron in a bar",
+      "keywords": [
+        "literature",
+        "poetry",
+        "american literature",
+        "film",
+        "los angeles"
+      ]
+    },
+    "impatiens": {
+      "display": "impatiens",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Touch-me-not is another name for a variety of this flower, & please don't keep us waiting",
+      "keywords": [
+        "flowers",
+        "botany",
+        "plants",
+        "horticulture"
+      ]
+    },
+    "saigon": {
+      "display": "Saigon",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "In April 1975 victorious Vietnamese forces announced that this city had been renamed after Ho Chi Minh",
+      "keywords": [
+        "history",
+        "vietnam",
+        "geography",
+        "asian history",
+        "war"
+      ]
+    },
+    "skye": {
+      "display": "Skye",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "( Sam Heughan presents the clue. ) Jamie gets to meet Scottish heroine Flora MacDonald , famous for helping Prince Charlie make a daring escape, as heard in the \"Outlander\" theme song, \"over the sea to\" this isle",
+      "keywords": [
+        "geography",
+        "scotland",
+        "history",
+        "jacobites",
+        "islands"
+      ]
+    },
+    "elvis costello": {
+      "display": "Elvis Costello",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "1977: \"My Aim Is True\"",
+      "keywords": [
+        "music",
+        "rock",
+        "1977",
+        "new wave",
+        "singer-songwriter"
+      ]
+    },
+    "raynaud's": {
+      "display": "Raynaud's",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Named for a Paris professor of medicine, this syndrome causes numbness due to cold or stress",
+      "keywords": [
+        "medicine",
+        "health",
+        "medical conditions",
+        "circulatory",
+        "diseases"
+      ]
+    },
+    "omar khayyam": {
+      "display": "Omar Khayyam",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In 2020 Juan Cole put out a new English version of the \"Rubáiyát of\" this Persian poet, most famous in a 19th c. translation",
+      "keywords": [
+        "literature",
+        "poetry",
+        "persian literature",
+        "history"
+      ]
+    },
+    "ranunculus": {
+      "display": "ranunculus",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Carlsbad, California is famous for its fields of these flowers of the buttercup family that carpet the hills in spring",
+      "keywords": [
+        "flowers",
+        "botany",
+        "plants",
+        "california",
+        "horticulture"
+      ]
+    },
+    "bangladesh": {
+      "display": "Bangladesh",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In 1971 George Harrison & Ravi Shankar hosted the \"Concert for\" this country, which served as a benefit for its people",
+      "keywords": [
+        "music",
+        "history",
+        "geography",
+        "charity",
+        "culture"
+      ]
+    },
+    "north carolina": {
+      "display": "North Carolina",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "( Sam Heughan presents the clue. ) In pre-Revolution America Jamie & Clare are caught up in a rebellion in this coastal state where Governor Tryon angered the people by building a palace at New Bern",
+      "keywords": [
+        "history",
+        "geography",
+        "american history",
+        "colonial america"
+      ]
+    },
+    "yellowstone": {
+      "display": "Yellowstone",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "On March 1, 1872, it officially became the USA's first national park; it even has its own Grand Canyon",
+      "keywords": [
+        "geography",
+        "nature",
+        "parks",
+        "geology",
+        "wyoming"
+      ]
+    },
+    "dead": {
+      "display": "Dead",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "An obituary writer accidentally publishes his own obit in John Kenney's 2025 novel \"I See You've Called In\" this way",
+      "keywords": [
+        "literature",
+        "fiction",
+        "books",
+        "wordplay"
+      ]
+    },
+    "potatoes": {
+      "display": "potatoes",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Salzkartoffeln is a staple side dish in Germany; just peel & boil these tubers in salt water",
+      "keywords": [
+        "food",
+        "cooking",
+        "vegetables",
+        "german cuisine"
+      ]
+    },
+    "lincoln": {
+      "display": "Lincoln",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Of the 4 presidents depicted on Mount Rushmore, he was the one born farthest west",
+      "keywords": [
+        "history",
+        "american history",
+        "presidents",
+        "mount rushmore"
+      ]
+    },
+    "james taylor": {
+      "display": "James Taylor",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Before \"Sweet Baby James\", he released an album on Apple Records; Paul McCartney was his Rock Hall of Fame inductor",
+      "keywords": [
+        "music",
+        "folk",
+        "rock",
+        "singer-songwriter",
+        "1970s"
+      ]
+    },
+    "howdy": {
+      "display": "howdy",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "An \"official greeting\" at the campus of Texas A&M is this 5-letter one, a shortening of an old phrase",
+      "keywords": [
+        "language",
+        "greetings",
+        "slang",
+        "american english",
+        "texas"
+      ]
+    },
+    "march 15": {
+      "display": "March 15",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "In 44 B.C. a world leader received the ultimate veto at the Senate on this date",
+      "keywords": [
+        "history",
+        "ancient rome",
+        "caesar",
+        "assassination",
+        "classical history"
+      ]
+    },
+    "role-playing game": {
+      "display": "role-playing game",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"Dungeon Crawler Carl\" is part of the fantasy genre called LitRPG, with RPG standing for this",
+      "keywords": [
+        "gaming",
+        "fantasy",
+        "literature",
+        "interactive fiction"
+      ]
+    },
+    "rice pudding": {
+      "display": "rice pudding",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "In Brazil arroz doce, traditionally served at the festival Festa Junina, is this dessert topped with cinnamon",
+      "keywords": [
+        "food",
+        "cuisine",
+        "desserts",
+        "brazil",
+        "festivals"
+      ]
+    },
+    "clubs": {
+      "display": "clubs",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The 4 suits used in playing cards include this one originally known by its French name \"trèfle\"",
+      "keywords": [
+        "cards",
+        "games",
+        "playing cards",
+        "gambling",
+        "symbols"
+      ]
+    },
+    "a cuppa": {
+      "display": "a cuppa",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Brits might inquire if you'd fancy a spot of tea by offering this, a 5-letter alteration of a 3-word term",
+      "keywords": [
+        "language",
+        "british english",
+        "slang",
+        "colloquial",
+        "tea"
+      ]
+    },
+    "slow horses": {
+      "display": "Slow Horses",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Jackson Lamb leads a bunch of misfit MI5 agents in this novel by Mick Herron, the first in a series & the basis for an Apple TV show",
+      "keywords": [
+        "literature",
+        "fiction",
+        "spy fiction",
+        "espionage",
+        "british",
+        "television"
+      ]
+    },
+    "curry (garam masala)": {
+      "display": "curry (garam masala)",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In Trinidad try chicken roti, usually flavored with this Indian spice blend & served with a flatbread",
+      "keywords": [
+        "food",
+        "cuisine",
+        "spices",
+        "trinidad",
+        "caribbean",
+        "indian cuisine"
+      ]
+    },
+    "percussion": {
+      "display": "percussion",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "If you're a triangle virtuoso, take your place in this one of the 4 major sections of a symphony orchestra",
+      "keywords": [
+        "music",
+        "orchestral instruments",
+        "classical music",
+        "symphony"
+      ]
+    },
+    "shakira": {
+      "display": "Shakira",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In 2020, this Colombian singer thanked Plato after completing an online course in ancient philosophy",
+      "keywords": [
+        "music",
+        "pop",
+        "entertainment",
+        "colombia",
+        "singers"
+      ]
+    },
+    "fixing to": {
+      "display": "fixing to",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Meaning you're preparing to do something, finna is a variation of these 2 words",
+      "keywords": [
+        "language",
+        "slang",
+        "american english",
+        "dialects",
+        "colloquial"
+      ]
+    },
+    "taylor jenkins reid": {
+      "display": "Taylor Jenkins Reid",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This three-named author has covered women in '60s Hollywood, in '70s rock & now in '80s NASA with \"Atmosphere\"",
+      "keywords": [
+        "author",
+        "fiction",
+        "women",
+        "hollywood",
+        "rock",
+        "nasa",
+        "historical-fiction"
+      ]
+    },
+    "satay": {
+      "display": "satay",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This popular Thai dish is marinated meat on a skewer served with a peanut dipping sauce",
+      "keywords": [
+        "food",
+        "thai",
+        "meat",
+        "peanut",
+        "asian-cuisine",
+        "skewers"
+      ]
+    },
+    "science, technology, engineering & mathematics": {
+      "display": "science, technology, engineering & mathematics",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The 21st century educational acronym STEM stands for this quartet of fields",
+      "keywords": [
+        "education",
+        "stem",
+        "science",
+        "technology",
+        "engineering",
+        "mathematics",
+        "academic"
+      ]
+    },
+    "(olivia) newton-john": {
+      "display": "(Olivia) Newton-John",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "The co-writer of this woman's '80s song \"Physical\" originally had in mind a \"macho... rock figure like Rod Stewart\" for the hit",
+      "keywords": [
+        "music",
+        "1980s",
+        "pop",
+        "australian",
+        "singer",
+        "female-artist"
+      ]
+    },
+    "ornery": {
+      "display": "ornery",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Mark Twain liked to use this word, a contraction of ordinary, for someone disagreeable",
+      "keywords": [
+        "vocabulary",
+        "adjective",
+        "mark-twain",
+        "etymology",
+        "language"
+      ]
+    },
+    "sarah maas": {
+      "display": "Sarah Maas",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "She writes series of series, including \"Throne of Glass\" & \"A Court of Thorns & Roses\"",
+      "keywords": [
+        "author",
+        "fantasy",
+        "fiction",
+        "literature",
+        "young-adult",
+        "series"
+      ]
+    },
+    "ceviche": {
+      "display": "ceviche",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This appetizer from South America is raw fish or shrimp marinated or cooked in lemon or lime juice",
+      "keywords": [
+        "food",
+        "seafood",
+        "south-american",
+        "peruvian",
+        "cuisine",
+        "appetizer"
+      ]
+    },
+    "the ring cycle ( ring of the nibelung )": {
+      "display": "the Ring Cycle ( Ring of the Nibelung )",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "\"Das Rheingold\" was the initial entry of this 4-part opera cycle first performed in full in 1876",
+      "keywords": [
+        "opera",
+        "wagner",
+        "music",
+        "classical",
+        "german",
+        "mythology"
+      ]
+    },
+    "tate mcrae": {
+      "display": "Tate McRae",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This singer from Calgary got her start as a dancer & even competed on \"So You Think You Can Dance: The Next Generation\"",
+      "keywords": [
+        "music",
+        "pop",
+        "singer",
+        "dancer",
+        "canadian",
+        "contemporary"
+      ]
+    },
+    "would rather": {
+      "display": "would rather",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Have your way & tell us you know the word druthers smushed together these 2 words",
+      "keywords": [
+        "vocabulary",
+        "idiom",
+        "grammar",
+        "language",
+        "preference"
+      ]
+    },
+    "salome": {
+      "display": "Salome",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "This Richard Strauss opera is famous (or infamous) for its \"Dance of the Seven Veils\"",
+      "keywords": [
+        "opera",
+        "richard-strauss",
+        "music",
+        "classical",
+        "dance",
+        "biblical"
+      ]
+    },
+    "ed sullivan": {
+      "display": "Ed Sullivan",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The 2025 Netflix doc \"Sunday Best\" looks at how he showcased Black artists on his Sunday night variety show during the civil rights era",
+      "keywords": [
+        "television",
+        "variety-show",
+        "entertainment",
+        "civil-rights",
+        "black-history"
+      ]
+    },
+    "mimicry": {
+      "display": "mimicry",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "It's the imitative behavior of talking parrots or of harmless snakes taking on the colors of venomous ones",
+      "keywords": [
+        "biology",
+        "animal-behavior",
+        "evolution",
+        "zoology",
+        "adaptation"
+      ]
+    },
+    "the evergreen city": {
+      "display": "the Evergreen City",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Like a plant that keeps its leaves year round, lush Thiruvananthapuram in India is known as this city",
+      "keywords": [
+        "geography",
+        "india",
+        "city",
+        "kerala"
+      ]
+    },
+    "garbage": {
+      "display": "Garbage",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "( Oscar the Grouch presents the clue. ) With lyrics like \"I'm only happy when it rains, I'm only happy when it's complicated\", this alternative rock band with Shirley Manson is a favorite among grouches",
+      "keywords": [
+        "music",
+        "alternative-rock",
+        "1990s",
+        "rock-band",
+        "artist"
+      ]
+    },
+    "verdi": {
+      "display": "Verdi",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "\"La vendetta\" was an early title of this composer's \"Il trovatore\"",
+      "keywords": [
+        "composer",
+        "opera",
+        "italian",
+        "classical-music",
+        "19th-century"
+      ]
+    },
+    "60 minutes": {
+      "display": "60 Minutes",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Ed Bradley was best known for a quarter century on this serious CBS show but was also a fixture onstage with Jimmy Buffett",
+      "keywords": [
+        "television",
+        "news",
+        "cbs",
+        "journalism",
+        "documentary",
+        "media"
+      ]
+    },
+    "reflex": {
+      "display": "reflex",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Vestigial features in babies include the PGR, or palmar grasp one of these, likely used by our ancestors to grab Mom's fur",
+      "keywords": [
+        "biology",
+        "anatomy",
+        "human-development",
+        "infants",
+        "evolution",
+        "neurology"
+      ]
+    },
+    "rambunctious": {
+      "display": "rambunctious",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Wildly exuberant",
+      "keywords": [
+        "vocabulary",
+        "adjective",
+        "language",
+        "personality",
+        "exuberant"
+      ]
+    },
+    "orange": {
+      "display": "Orange",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The New Jersey city called this was incorporated as a town in 1860; East this, West this & South this soon followed",
+      "keywords": [
+        "geography",
+        "new-jersey",
+        "city",
+        "united-states"
+      ]
+    },
+    "flotsam & jetsam": {
+      "display": "Flotsam & Jetsam",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "( Oscar the Grouch presents the clue. ) You can even be grouchy under the sea; that's why my favorite characters in the 1989 animated film \"The Little Mermaid\" are obviously these two eels, both voiced by Paddi Edwards",
+      "keywords": [
+        "animation",
+        "film",
+        "disney",
+        "characters",
+        "the-little-mermaid"
+      ]
+    },
+    "\"habanera\"": {
+      "display": "\"Habanera\"",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "\" L'amour est un oiseau rebelle \" from \"Carmen\" is called this, for the Caribbean city where its distinctive rhythm was born",
+      "keywords": [
+        "music",
+        "opera",
+        "carmen",
+        "rhythm",
+        "dance",
+        "caribbean",
+        "cuba"
+      ]
+    },
+    "ed helms": {
+      "display": "Ed Helms",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "On \"The Office\" he played Andy Bernard, proud Cornell alum & member of the a cappella group \"Here Comes Treble\"",
+      "keywords": [
+        "actor",
+        "television",
+        "the-office",
+        "comedy",
+        "entertainment"
+      ]
+    },
+    "a dandelion": {
+      "display": "a dandelion",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Despite having sex organs, this flower with fluffy seed heads propagates asexually through a process called apomixis",
+      "keywords": [
+        "botany",
+        "plants",
+        "flowers",
+        "biology",
+        "reproduction",
+        "flora"
+      ]
+    },
+    "ramekin": {
+      "display": "ramekin",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A little baking dish",
+      "keywords": [
+        "cooking",
+        "kitchen",
+        "baking",
+        "cookware",
+        "dishware"
+      ]
+    },
+    "napoleon iii": {
+      "display": "Napoleon III",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Magenta, Italy gave its name to a color after the III emperor of this name beat the Austrians in a nearby 1859 battle",
+      "keywords": [
+        "history",
+        "france",
+        "emperor",
+        "1859",
+        "battle",
+        "colors"
+      ]
+    },
+    "debris": {
+      "display": "Debris",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "( Oscar the Grouch presents the clue. ) The FAA has a program to manage FOD, short for Foreign Object this, a French synonym for trash; like me, they take the topic of trash seriously [Oscar laughs]",
+      "keywords": [
+        "aviation",
+        "faa",
+        "safety",
+        "french-language",
+        "trash",
+        "acronym"
+      ]
+    },
+    "mister robinson": {
+      "display": "Mister Robinson",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Eddie Murphy as him on \"SNL\": \"I hope I get to live in your neighborhood someday. The problem is, is when I move in, y'all move away\"",
+      "keywords": [
+        "comedy",
+        "snl",
+        "eddie-murphy",
+        "sketch-comedy",
+        "television"
+      ]
+    },
+    "endemic": {
+      "display": "endemic",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Many fish in Lake Malawi like the chambo can't be found anywhere else, meaning they're this, from Greek for \"district\"",
+      "keywords": [
+        "biology",
+        "ecology",
+        "zoology",
+        "geography",
+        "evolution",
+        "lake-malawi"
+      ]
+    },
+    "ramblin wreck": {
+      "display": "ramblin wreck",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "These 2 words are in the URL for the official website of the Georgia Tech Yellow Jackets",
+      "keywords": [
+        "sports",
+        "georgia-tech",
+        "college",
+        "mascot",
+        "athletics"
+      ]
+    },
+    "the white city": {
+      "display": "the White City",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "For the color of many buildings, the 1893 World's Fair in Chicago had this nickname referenced in the title of a 2003 bestseller",
+      "keywords": [
+        "history",
+        "chicago",
+        "1893",
+        "world's-fair",
+        "architecture"
+      ]
+    },
+    "a junk": {
+      "display": "a junk",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "( Oscar the Grouch presents the clue. ) I long to sail aboard this type of ancient Chinese sailing vessel that has up to five sails that can be opened easily like Venetian blinds; its name comes to us from the Javanese language",
+      "keywords": [
+        "ships",
+        "sailing",
+        "chinese",
+        "transportation",
+        "maritime",
+        "history"
+      ]
+    },
+    "akhnaten": {
+      "display": "Akhnaten",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This 1984 Philip Glass opera tells the story of an Egyptian pharaoh & religious reformer",
+      "keywords": [
+        "opera",
+        "philip-glass",
+        "egypt",
+        "pharaoh",
+        "music",
+        "classical"
+      ]
+    },
+    "ed begley jr.": {
+      "display": "Ed Begley Jr.",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Long before he was Dr. Grant Linkletter on \"Young Sheldon\", he played Dr. Victor Ehrlich on \"St. Elsewhere\"",
+      "keywords": [
+        "actor",
+        "television",
+        "st-elsewhere",
+        "young-sheldon"
+      ]
+    },
+    "golgi": {
+      "display": "Golgi",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "An Italian scientist lent his name to this \"apparatus\" responsible for Amazon-ing protein deliveries within the cell",
+      "keywords": [
+        "biology",
+        "cell-biology",
+        "anatomy",
+        "science",
+        "organelles"
+      ]
+    },
+    "rambutan": {
+      "display": "rambutan",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "This specialty fruit is native to Malaysia",
+      "keywords": [
+        "food",
+        "fruit",
+        "tropical",
+        "malaysia",
+        "cuisine",
+        "botany"
+      ]
+    },
+    "amarillo": {
+      "display": "Amarillo",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In his version of \"The Yellow Rose of Texas\", Elvis Presley sang, \"My heart's in\" this appropriate panhandle city",
+      "keywords": [
+        "geography",
+        "texas",
+        "city",
+        "united-states",
+        "music"
+      ]
+    },
+    "a litter": {
+      "display": "a litter",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "( Oscar the Grouch presents the clue. ) Sure, you can call it a sedan chair, a palanquin, but why would you when you can use this trashy 6-letter word for the enclosed couch that's mounted on poles & carried by porters?",
+      "keywords": [
+        "history",
+        "transportation",
+        "furniture",
+        "royalty",
+        "cultural-practices"
+      ]
+    },
+    "the staten island ferry": {
+      "display": "the Staten Island Ferry",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A free 25-minute ride to (or from) a certain outer borough on this boat might be the Big Apple's biggest bargain",
+      "keywords": [
+        "new-york",
+        "transportation",
+        "geography",
+        "ferry",
+        "travel"
+      ]
+    },
+    "the bagpipes": {
+      "display": "the bagpipes",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Paul Burns of the Royal Regiment of Scotland played this instrument for Queen Elizabeth II each morning & at her funeral",
+      "keywords": [
+        "music",
+        "scotland",
+        "instruments",
+        "royal",
+        "british-culture",
+        "traditional-music"
+      ]
+    },
+    "a spring": {
+      "display": "a spring",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "An elastic device, or a hot geothermal feature",
+      "keywords": [
+        "physics",
+        "mechanics",
+        "geology",
+        "thermodynamics",
+        "elasticity",
+        "nature",
+        "water"
+      ]
+    },
+    "a turkey": {
+      "display": "a turkey",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Distinguishing features of this bird include a red snood on the forehead & of course, that sexy wattle",
+      "keywords": [
+        "birds",
+        "animals",
+        "ornithology",
+        "wildlife",
+        "anatomy",
+        "poultry"
+      ]
+    },
+    "margot robbie": {
+      "display": "Margot Robbie",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "You can bet she was in the pink for the \"Barbie\" press tour, which included a glam look for the film's London premiere",
+      "keywords": [
+        "cinema",
+        "actors",
+        "entertainment",
+        "fashion",
+        "celebrity",
+        "pop culture"
+      ]
+    },
+    "an earthquake": {
+      "display": "an earthquake",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "The Parthenon remained open with little to no damage when one of these shook Athens in 1999",
+      "keywords": [
+        "geology",
+        "natural disasters",
+        "seismology",
+        "greece",
+        "history",
+        "architecture"
+      ]
+    },
+    "getty": {
+      "display": "Getty",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The two L.A. art museums named for this oil tycoon are free to visit; the villa location seen here specializes in antiquities",
+      "keywords": [
+        "art",
+        "museums",
+        "california",
+        "antiquities",
+        "architecture",
+        "history"
+      ]
+    },
+    "accordion": {
+      "display": "accordion",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The early 1900s to the 1960s was considered the golden age of this instrument heard here",
+      "keywords": [
+        "music",
+        "instruments",
+        "folk",
+        "history",
+        "performance",
+        "culture"
+      ]
+    },
+    "current": {
+      "display": "current",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Happening right now, or directional movement of seawater",
+      "keywords": [
+        "ocean",
+        "physics",
+        "water",
+        "geography",
+        "meteorology",
+        "nature"
+      ]
+    },
+    "a toucan": {
+      "display": "a toucan",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The long, brightly colored beak of this tropical bird is made of bony fibers covered with keratin",
+      "keywords": [
+        "birds",
+        "animals",
+        "ornithology",
+        "tropical",
+        "anatomy",
+        "zoology"
+      ]
+    },
+    "legally blonde": {
+      "display": "Legally Blonde",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Elle Woods is especially fond of pink in this film; even her résumé is pink",
+      "keywords": [
+        "cinema",
+        "comedy",
+        "fashion",
+        "entertainment",
+        "pop culture",
+        "film"
+      ]
+    },
+    "the euro zone": {
+      "display": "the Euro Zone",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "To prevent a Grexit in 2015, Alexis Tsipras made austerity decisions so his country could stay in this \"Zone\"",
+      "keywords": [
+        "economics",
+        "europe",
+        "finance",
+        "politics",
+        "greece",
+        "currency"
+      ]
+    },
+    "inter miami": {
+      "display": "Inter Miami",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Florida's Goool Getter shuttle carries MLS fans for free to the home field of Lionel Messi & this pink-shirted team",
+      "keywords": [
+        "sports",
+        "soccer",
+        "mls",
+        "football",
+        "florida",
+        "entertainment"
+      ]
+    },
+    "a viola": {
+      "display": "a viola",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Pinchas Zukerman also plays this instrument a bit bigger than his usual one & says heavier bow, thicker strings, you adjust",
+      "keywords": [
+        "music",
+        "instruments",
+        "classical",
+        "performance",
+        "orchestra",
+        "strings"
+      ]
+    },
+    "gauntlet": {
+      "display": "gauntlet",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "A trial, or a glove worn by a medieval knight",
+      "keywords": [
+        "history",
+        "medieval",
+        "armor",
+        "fashion",
+        "literature",
+        "challenge"
+      ]
+    },
+    "a tern": {
+      "display": "a tern",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "\"To everything\" there's this gull relative; the Inca type sports a darling little mustache",
+      "keywords": [
+        "birds",
+        "animals",
+        "ornithology",
+        "wildlife",
+        "zoology",
+        "inca"
+      ]
+    },
+    "molly ringwald": {
+      "display": "Molly Ringwald",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Here 's this actress, pretty in pink on the arm of a young Jon Cryer in the '80s Brat Pack film \"Pretty in Pink\"",
+      "keywords": [
+        "cinema",
+        "actors",
+        "entertainment",
+        "1980s",
+        "fashion",
+        "pop culture"
+      ]
+    },
+    "onassis": {
+      "display": "Onassis",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "When this man bought Greece's national airline in the '50s, a pal said that he used \"the money he made at sea with his mistress in the sky\"",
+      "keywords": [
+        "business",
+        "greece",
+        "aviation",
+        "history",
+        "shipping",
+        "wealth"
+      ]
+    },
+    "the jackalope": {
+      "display": "the jackalope",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Douglas, Wyoming is the self-declared home of this fake beast from a 1930s taxidermy hoax; grab a free photo of the one seen here",
+      "keywords": [
+        "animals",
+        "hoax",
+        "americana",
+        "tourism",
+        "wyoming",
+        "folklore"
+      ]
+    },
+    "a sousaphone": {
+      "display": "a sousaphone",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Named for a band conductor, it's the marching band instrument being played here",
+      "keywords": [
+        "music",
+        "instruments",
+        "brass",
+        "marching bands",
+        "performance",
+        "classical"
+      ]
+    },
+    "spruce": {
+      "display": "spruce",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "A verb that often precedes \"up\" & an evergreen tree",
+      "keywords": [
+        "nature",
+        "trees",
+        "botany",
+        "plants",
+        "forestry",
+        "vocabulary"
+      ]
+    },
+    "a trumpeter swan": {
+      "display": "a trumpeter swan",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Satchmo would be proud of this type of swan with his favorite instrument in its name",
+      "keywords": [
+        "birds",
+        "wildlife",
+        "music",
+        "animals",
+        "ornithology",
+        "nature"
+      ]
+    },
+    "corfu": {
+      "display": "Corfu",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "Lawrence Durrell's \"Prospero's Cell\" chronicles his life on this island until Axis occupation starting in 1941",
+      "keywords": [
+        "greece",
+        "islands",
+        "literature",
+        "history",
+        "world war ii",
+        "mediterranean"
+      ]
+    },
+    "the bellagio": {
+      "display": "the Bellagio",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "See the fountains at this Vegas casino, then check out its free conservatory & botanical gardens maintained by a staff of 120",
+      "keywords": [
+        "tourism",
+        "nevada",
+        "gambling",
+        "architecture",
+        "entertainment",
+        "gardens"
+      ]
+    },
+    "a sitar": {
+      "display": "a sitar",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Like her famous father, Anoushka Shankar is a renowned player of this instrument",
+      "keywords": [
+        "music",
+        "instruments",
+        "india",
+        "world music",
+        "classical",
+        "performance"
+      ]
+    },
+    "cordial": {
+      "display": "cordial",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "A warm & hearty adjective, or a warm & hearty liqueur",
+      "keywords": [
+        "beverages",
+        "alcohol",
+        "vocabulary",
+        "drinks",
+        "social",
+        "language"
+      ]
+    },
+    "thrush": {
+      "display": "thrush",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The Western bluebird is a type of this bird that also includes the hermit type",
+      "keywords": [
+        "birds",
+        "animals",
+        "ornithology",
+        "wildlife",
+        "zoology",
+        "nature"
+      ]
+    },
+    "helen mirren": {
+      "display": "Helen Mirren",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "At the British Academy Film Awards in 2013, this dame rocked a pink pixie",
+      "keywords": [
+        "cinema",
+        "actors",
+        "entertainment",
+        "fashion",
+        "celebrity",
+        "british"
+      ]
+    },
+    "the minoan civilization": {
+      "display": "the Minoan civilization",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "The bull-leaping fresco in the Palace of Knossos was made by this civilization circa 1400 B.C.",
+      "keywords": [
+        "history",
+        "archaeology",
+        "greece",
+        "ancient civilizations",
+        "art",
+        "mediterranean"
+      ]
+    },
+    "quidditch": {
+      "display": "Quidditch",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Popular among Muggles, as at Hogwarts, was the book titled this sport \"Through the Ages\"",
+      "keywords": [
+        "literature",
+        "fantasy",
+        "harry potter",
+        "fiction",
+        "pop culture",
+        "books"
+      ]
+    },
+    "the rockies": {
+      "display": "the Rockies",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "Running north & south, North America's continental divide is located mostly along the tops of these mountains",
+      "keywords": [
+        "geography",
+        "geology",
+        "mountains",
+        "north america",
+        "nature",
+        "topography"
+      ]
+    },
+    "a runner": {
+      "display": "a runner",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "My stairway has a lovely one of these long, narrow rugs, but I haven't vacuumed it since the Obama administration",
+      "keywords": [
+        "home decor",
+        "furniture",
+        "textiles",
+        "interior design",
+        "rugs",
+        "home"
+      ]
+    },
+    "\"drivers license\"": {
+      "display": "\"Drivers License\"",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "2021: A teenaged girl with a government-issued I.D. cruises longingly through an ex's neighborhood",
+      "keywords": []
+    },
+    "muhammad": {
+      "display": "Muhammad",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "His tomb in Medina is covered by the Green Dome, part of the Al-Masjid an-Nabawi mosque",
+      "keywords": [
+        "religion",
+        "islam",
+        "history",
+        "architecture",
+        "middle east",
+        "spirituality"
+      ]
+    },
+    "piccolo": {
+      "display": "piccolo",
+      "count": 1,
+      "values": [
+        200
+      ],
+      "example_clue": "A small woodwind, or the last name of late great Chicago Bear Brian",
+      "keywords": [
+        "music",
+        "instruments",
+        "classical",
+        "sports",
+        "american football",
+        "performance"
+      ]
+    },
+    "fast food nation": {
+      "display": "Fast Food Nation",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "This exposé of American diets by Eric Schlosser may have made a few of us think twice about that burger & fries",
+      "keywords": [
+        "books",
+        "food",
+        "culture",
+        "business",
+        "diet",
+        "non-fiction"
+      ]
+    },
+    "a duvet": {
+      "display": "a duvet",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "Though my sheets are clean, I've never laundered this down-filled bed covering aka a continental quilt & having a continental name",
+      "keywords": [
+        "home decor",
+        "textiles",
+        "bedding",
+        "interior design",
+        "furniture",
+        "france"
+      ]
+    },
+    "\"we don't talk about bruno\"": {
+      "display": "\"We Don't Talk About Bruno\"",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "2021: Relatives refuse to discuss a family member whose visions of the future always seem to bring bad luck",
+      "keywords": []
+    },
+    "jim morrison": {
+      "display": "Jim Morrison",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "The bust for this man's tomb at Père Lachaise in Paris was stolen in 1988, but it was recently recovered by the police",
+      "keywords": [
+        "music",
+        "rock",
+        "entertainment",
+        "history",
+        "france",
+        "pop culture"
+      ]
+    },
+    "a portobello": {
+      "display": "a portobello",
+      "count": 1,
+      "values": [
+        400
+      ],
+      "example_clue": "It's a type of big, meaty mushroom, or a road in London with a market where you can buy one",
+      "keywords": [
+        "food",
+        "fungi",
+        "london",
+        "cooking",
+        "agriculture",
+        "markets"
+      ]
+    },
+    "artemis fowl": {
+      "display": "Artemis Fowl",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "The adventures began for this 12-year-old criminal genius, despite his name a boy, not a chicken or duck",
+      "keywords": [
+        "literature",
+        "fantasy",
+        "fiction",
+        "children's literature",
+        "books",
+        "pop culture"
+      ]
+    },
+    "sconce": {
+      "display": "sconce",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "I've gotten great at ignoring the dust on these wall-mounted light fixtures on either side of my bed",
+      "keywords": [
+        "lighting",
+        "interior design",
+        "home decor",
+        "architecture",
+        "furniture",
+        "home"
+      ]
+    },
+    "\"cry me a river\"": {
+      "display": "\"Cry Me A River\"",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "2002: A sarcastic Justin Timberlake has zero sympathy for an unfaithful ex",
+      "keywords": [
+        "pop-music",
+        "breakup",
+        "2000s",
+        "justin-timberlake",
+        "song",
+        "relationships"
+      ]
+    },
+    "padua": {
+      "display": "Padua",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "In this Italian city visit the basilica with the tomb of St. Anthony & also a display of his miraculously undecayed tongue",
+      "keywords": [
+        "italy",
+        "city",
+        "basilica",
+        "religion",
+        "christianity",
+        "saint",
+        "travel"
+      ]
+    },
+    "a whistleblower": {
+      "display": "a whistleblower",
+      "count": 1,
+      "values": [
+        600
+      ],
+      "example_clue": "Enforced by the Department of Labor, a 1989 law provides legal protection to federal employees who become these",
+      "keywords": [
+        "labor-law",
+        "government",
+        "federal-employee",
+        "legal-protection",
+        "law",
+        "1989"
+      ]
+    },
+    "british columbia": {
+      "display": "British Columbia",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "In the 1860s Barkerville in this province became home to Canada's first Chinese community",
+      "keywords": [
+        "canada",
+        "geography",
+        "history",
+        "immigration",
+        "chinese-canadian",
+        "1800s"
+      ]
+    },
+    "the gasket": {
+      "display": "the gasket",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "My fridge emits an unsettling odor when opened; this flexible rubber sealing strip around the door keeps the smell contained",
+      "keywords": [
+        "appliance",
+        "fridge",
+        "mechanical",
+        "rubber",
+        "sealing",
+        "household"
+      ]
+    },
+    "\"you oughta know\"": {
+      "display": "\"You Oughta Know\"",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "1995: Alanis Morissette would like her ex, who's now in another relationship, to be aware of her post-breakup anger",
+      "keywords": [
+        "pop-music",
+        "breakup",
+        "1990s",
+        "alanis-morissette",
+        "song",
+        "relationships"
+      ]
+    },
+    "jack london": {
+      "display": "Jack London",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "This writer who chronicled man's & animals' battles with nature is under a lava rock in Sonoma County, California",
+      "keywords": [
+        "writer",
+        "literature",
+        "author",
+        "nature",
+        "california",
+        "1900s"
+      ]
+    },
+    "a clothes horse": {
+      "display": "a clothes horse",
+      "count": 1,
+      "values": [
+        800
+      ],
+      "example_clue": "It's a frame for drying wet garments, or (assuming the garments are stylish) someone who loves wearing the garments when dry",
+      "keywords": [
+        "clothing",
+        "fashion",
+        "household-item",
+        "drying-rack",
+        "style",
+        "wordplay"
+      ]
+    },
+    "bel canto": {
+      "display": "Bel Canto",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "Ann Patchett's book club breakthrough was this novel centering on an opera singer in a hostage crisis",
+      "keywords": [
+        "novel",
+        "literature",
+        "book",
+        "opera",
+        "hostage",
+        "fiction"
+      ]
+    },
+    "martinique": {
+      "display": "Martinique",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "In 1763, Napoleon's wife Josephine was born on this Caribbean island, a French territory since 1635",
+      "keywords": [
+        "caribbean",
+        "island",
+        "geography",
+        "history",
+        "france",
+        "josephine"
+      ]
+    },
+    "creosote": {
+      "display": "creosote",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "There's still soot everywhere from when I tried to scrub the buildup of this flammable black tarry substance from my chimney flue",
+      "keywords": [
+        "chimney",
+        "chemical",
+        "flammable",
+        "maintenance",
+        "household",
+        "substance"
+      ]
+    },
+    "\"99 red balloons\"": {
+      "display": "\"99 Red Balloons\"",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "1983: Roughly 8 dozen errant inflatables mistakenly trigger a war",
+      "keywords": [
+        "song",
+        "1980s",
+        "pop-music",
+        "balloons",
+        "anti-war",
+        "cold-war"
+      ]
+    },
+    "queen christina": {
+      "display": "Queen Christina",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "91 popes are entombed at St. Peter's Basilica & so is this Swedish queen who died in 1689",
+      "keywords": [
+        "royalty",
+        "queen",
+        "sweden",
+        "history",
+        "1600s",
+        "religion"
+      ]
+    },
+    "megalomania": {
+      "display": "megalomania",
+      "count": 1,
+      "values": [
+        1000
+      ],
+      "example_clue": "It's more than just a big head -- it's a delusion of grandeur",
+      "keywords": [
+        "psychology",
+        "mental-health",
+        "disorder",
+        "delusion",
+        "personality",
+        "arrogance"
       ]
     }
   }
