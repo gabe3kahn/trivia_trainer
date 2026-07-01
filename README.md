@@ -204,7 +204,7 @@ Old packs can fall out of sync with the live schema and stop re-importing. To ma
 
 Ships via **EAS Update** (channel `production`, which TestFlight builds use). The runtimeVersion policy is **`fingerprint`**, so an over-the-air update only reaches a build whose fingerprint hash matches the update's.
 
-- **JS / asset-only change → OTA:** `eas update --channel production --message "…"`.
+- **JS / asset-only change → OTA:** `eas update --channel production --message "…"`. The app **auto-applies** updates — `_layout.tsx` checks → fetches → `reloadAsync()` on launch and on foreground — so a published update lands on the next launch without the default two-force-quits (download-now-apply-next-launch). No-op in dev / Expo Go.
 - **Native change (new native dep, `app.json`, a config plugin) → rebuild + submit.** A rebuild also resets the fingerprint baseline.
 
 **Check before publishing** — compare the current tree's fingerprint to the installed build's:
@@ -228,7 +228,7 @@ The mobile app (`mobile/`, Expo SDK 54, expo-router, StyleSheet) follows a few s
 - **Scoring = difficulty rank.** A run's points are the sum of each correct answer's `difficulty_rank` (1–5), matching daily/duel scoring — not the Jeopardy dollar value.
 - **Badges** award via a trigger on the `category_competencies` overall row (`030`), surfaced by an app-wide unlock modal (`BadgeUnlockContext` / `useBadgeUnlock` / `BadgeUnlockModal`).
 - **Answer-reveal casing.** The grader sentence-cases the revealed answer for display, but store answers properly cased anyway — other surfaces show the raw value (brands keep their own casing, e.g. `23andMe`).
-- **Design tokens** live in `theme.ts` (`type` / `radius` / `spacing` / `colors` / `accentFor`); shared components in `ui.tsx` (`Screen`, `ScoreRing`, `Touchable`, `Card`, `ModeCard`, `CategoryScoreRow`, `PrimaryAction`). The shared `Screen` ScrollView disables bounce/overscroll so content doesn't scroll past the bottom on short screens, and `Touchable` adds a short press delay so scroll-drags don't fire taps.
+- **Design tokens** live in `theme.ts` (`type` / `radius` / `spacing` / `colors` / `accentFor`); shared components in `ui.tsx` (`Screen`, `ScoreRing`, `Touchable`, `Card`, `ModeCard`, `CategoryScoreRow`, `PrimaryAction`). The shared `Screen` ScrollView disables bounce/overscroll so content doesn't scroll past the bottom on short screens, and `Touchable` adds a short press delay so scroll-drags don't fire taps. Screens with a text input near the bottom pass `<Screen keyboardAware>` so the keyboard doesn't cover the field.
 
 ## Multiplayer / Competitive (designed, not built)
 
