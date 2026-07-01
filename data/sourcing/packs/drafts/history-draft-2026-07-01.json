@@ -1,0 +1,470 @@
+{
+  "pack_id": "history-draft-2026-07-01",
+  "category_id": "history",
+  "created_at": "2026-07-01",
+  "notes": "Run 2026-07-01. 15 clues across: Ancient History (2), Dates/Documents (1), European History (3), Historical Figures (2), Medieval & Renaissance (1), Revolutions (1), U.S. History (4), World Wars (1). Tier: $200×1, $400×4, $600×5, $800×3, $1000×1. Focus on thin subcategories (Ancient History, Dates/Documents, World Wars). $1000 = Kalmar Union (from Copenhagen doc).",
+  "questions": [
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-001",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Following a 13-day siege during the Texas Revolution, Mexican forces under President-General Santa Anna retook this former Franciscan mission near San Antonio in March 1836.",
+      "answer": "The Alamo",
+      "answer_type": "other",
+      "aliases": [
+        "Alamo",
+        "Battle of the Alamo"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Battle of the Alamo",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Alamo",
+          "snippet": "The Battle of the Alamo was a pivotal event and military engagement in the Texas Revolution. Following a 13-day siege, Mexican troops under President General Antonio López de Santa Anna reclaimed the Alamo Mission near San Antonio de Béxar."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:53.627Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-002",
+      "category_id": "history",
+      "subcategory_name": "Revolutions & Independence Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "French land forces under the Comte de Rochambeau and a French fleet under the Comte de Grasse combined with George Washington's Continental Army to win this 1781 Virginia engagement, the final major land battle of the Revolutionary War.",
+      "answer": "Siege of Yorktown",
+      "answer_type": "other",
+      "aliases": [
+        "Yorktown",
+        "Battle of Yorktown",
+        "Yorktown campaign"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "revolutions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Siege of Yorktown",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Yorktown",
+          "snippet": "The Siege of Yorktown, also known as the Battle of Yorktown and the surrender at Yorktown, took place in 1781 and was the final major land engagement of the American Revolutionary War. It was won decisively by the Continental Army, led by G"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:54.008Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-003",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Recognized as the leading force of the unified Greek military during the Greco-Persian Wars, this city-state's army made its legendary stand at Thermopylae in 480 BCE under King Leonidas.",
+      "answer": "Sparta",
+      "answer_type": "other",
+      "aliases": [
+        "Lacedaemon",
+        "Lacedaemon city-state"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "ancient-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sparta",
+          "url": "https://en.wikipedia.org/wiki/Sparta",
+          "snippet": "Sparta was a prominent city-state in Laconia in ancient Greece. In antiquity, the state was known as Lacedaemon, while Sparta referred to its capital, a group of villages in the valley of the Evrotas River in Laconia, in southeastern Pelopo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:54.379Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-004",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This type of 19th-century American West conflict typically arose from disputes over water rights, grazing rights, and the use of unfenced land that multiple competing ranchers tried to control.",
+      "answer": "Range War",
+      "answer_type": "other",
+      "aliases": [
+        "range conflict",
+        "cattle war"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Range war",
+          "url": "https://en.wikipedia.org/wiki/Range_war",
+          "snippet": "A range war, also known as range conflict or cattle war, is a type of usually violent conflict, most commonly in the 19th and early 20th centuries in the American West. The subject of these conflicts was control of \"open range\", or range la"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:54.760Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-005",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Settled as a Viking fishing village in the 10th century, this Scandinavian city became the capital of Denmark in the early 15th century and was bombarded by the British fleet during the Napoleonic Wars in 1807.",
+      "answer": "Copenhagen",
+      "answer_type": "other",
+      "aliases": [
+        "København"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Copenhagen",
+          "url": "https://en.wikipedia.org/wiki/Copenhagen",
+          "snippet": "Copenhagen is the capital and most populous city of both the country of Denmark and the wider Kingdom of Denmark, with a population of 671,714 people in the municipality and 1.4 million in the urban area. The city is situated mainly on the "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:55.139Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-006",
+      "category_id": "history",
+      "subcategory_name": "Dates, Documents & Treaties",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Finalized by the Continental Congress in November 1777 and ratified by all thirteen states by 1781, this document served as the new nation's first governing framework before being superseded by the Constitution.",
+      "answer": "Articles of Confederation",
+      "answer_type": "other",
+      "aliases": [
+        "Articles of Confederation and Perpetual Union"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "dates-documents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Articles of Confederation",
+          "url": "https://en.wikipedia.org/wiki/Articles_of_Confederation",
+          "snippet": "The Articles of Confederation, officially the Articles of Confederation and Perpetual Union, was an agreement and early body of law in the Thirteen Colonies, which served as the nation's first frame of government during the American Revolut"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:55.518Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-007",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient Athenian democratic practice could banish any citizen for a decade, and was often deployed preemptively against someone the populace considered a threat to the state rather than as punishment for a past offense.",
+      "answer": "Ostracism",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "history",
+        "sourced",
+        "ancient-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ostracism",
+          "url": "https://en.wikipedia.org/wiki/Ostracism",
+          "snippet": "Ostracism was an Athenian democratic procedure in which any citizen could be expelled from the city-state of Athens for ten years. While some instances clearly expressed popular anger at the citizen, ostracism was often used preemptively as"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:55.898Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-008",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American attorney, a leading member of the ACLU, defended Nathan Leopold and Richard Loeb in their 1924 murder trial and represented the biology teacher prosecuted in the 1925 Scopes 'monkey' trial.",
+      "answer": "Clarence Darrow",
+      "answer_type": "name",
+      "aliases": [],
+      "tags": [
+        "history",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Clarence Darrow",
+          "url": "https://en.wikipedia.org/wiki/Clarence_Darrow",
+          "snippet": "Clarence Seward Darrow was an American lawyer and politician who became famous in the 19th century for high-profile representations of trade union causes, and in the 20th century for several criminal matters, including the Leopold and Loeb "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:56.270Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-009",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Triggered by the sinking of the USS Maine in Havana Harbor, this 1898 conflict ended with the United States acquiring Puerto Rico, Guam, and the Philippines from an empire that had held those territories for nearly four centuries.",
+      "answer": "Spanish-American War",
+      "answer_type": "other",
+      "aliases": [
+        "Spanish American War"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Spanish–American War",
+          "url": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+          "snippet": "The Spanish–American War was fought between Spain and the United States in 1898. It began with the sinking of the USS Maine in Havana Harbor in Cuba, and resulted in the U.S. acquiring sovereignty over Puerto Rico, Guam, and the Philippines"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:56.649Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-010",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Arising from the Council of Trent (1545–1563), this period of Catholic revival produced new religious orders, internal disciplinary changes, and doctrinal clarifications as a comprehensive response to the theological upheaval sweeping Protestant northern Europe.",
+      "answer": "Counter-Reformation",
+      "answer_type": "other",
+      "aliases": [
+        "Catholic Reformation",
+        "Catholic Revival"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Counter-Reformation",
+          "url": "https://en.wikipedia.org/wiki/Counter-Reformation",
+          "snippet": "The Counter-Reformation, also sometimes called the Catholic Revival or the Catholic Reformation, was the period of Catholic resurgence that was initiated in response to and as an alternative to, or from similar insights as, the Protestant R"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:57.029Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-011",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Following Germany's post-World War II division, this city served as the West German capital until reunification in 1990 returned the seat of government to Berlin.",
+      "answer": "Bonn",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "history",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Berlin",
+          "url": "https://en.wikipedia.org/wiki/Berlin",
+          "snippet": "Berlin is the capital of Germany as well as its largest city by both area and population. With 3.7 million inhabitants, it has the highest population within its city limits of any city in the European Union. The city is also one of the stat"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:26:57.411Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-012",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This militia, formed in 1770 to defend the New Hampshire Grants territory from rival New York claims, was led by Ethan Allen and a man later infamous for his treason when it captured Fort Ticonderoga from the British in May 1775.",
+      "answer": "Green Mountain Boys",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "history",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Green Mountain Boys",
+          "url": "https://en.wikipedia.org/wiki/Green_Mountain_Boys",
+          "snippet": "The Green Mountain Boys were a militia organization established in 1770 in the territory between the British provinces of New York and New Hampshire, known as the New Hampshire Grants and later in 1777 as the Vermont Republic. Headed by Eth"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:27:00.816Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-013",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 18th-century Franciscan priest established eight of the 21 missions stretching from San Diego to San Francisco in Alta California and was beatified by Pope John Paul II in 1988.",
+      "answer": "Junipero Serra",
+      "answer_type": "name",
+      "aliases": [
+        "Junípero Serra",
+        "Father Serra",
+        "Father Junipero Serra"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Junípero Serra",
+          "url": "https://en.wikipedia.org/wiki/Jun%C3%ADpero_Serra",
+          "snippet": "Junípero Serra Ferrer, popularly known simply as Junipero Serra, was a Spanish Catholic priest and missionary of the Franciscan Order. He is credited with establishing the Franciscan Missions in the Sierra Gorda, a UNESCO World Heritage Sit"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:27:01.196Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-014",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Construction of this freestanding Italian campanile began in the 12th century on ground too soft to support its weight, causing a tilt that worsened throughout its medieval completion — a structural fault not addressed until remedial work in the 1990s stabilized it to just under four degrees.",
+      "answer": "Leaning Tower of Pisa",
+      "answer_type": "other",
+      "aliases": [
+        "Tower of Pisa",
+        "The Leaning Tower of Pisa"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "medieval-renaissance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Leaning Tower of Pisa",
+          "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+        }
+      ],
+      "verification_status": "unverified"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-01-015",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Copenhagen served as the de facto capital and royal seat of this late medieval arrangement that bound Denmark, Sweden, and Norway under a shared monarch, governing most of the modern Nordic region.",
+      "answer": "Kalmar Union",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "history",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Copenhagen",
+          "url": "https://en.wikipedia.org/wiki/Copenhagen",
+          "snippet": "Copenhagen is the capital and most populous city of both the country of Denmark and the wider Kingdom of Denmark, with a population of 671,714 people in the municipality and 1.4 million in the urban area. The city is situated mainly on the "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-01T14:27:01.948Z"
+    }
+  ]
+}
