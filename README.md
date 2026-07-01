@@ -205,7 +205,7 @@ Old packs can fall out of sync with the live schema and stop re-importing. To ma
 Ships via **EAS Update** (channel `production`, which TestFlight builds use). The runtimeVersion policy is **`fingerprint`**, so an over-the-air update only reaches a build whose fingerprint hash matches the update's.
 
 - **JS / asset-only change → OTA:** `eas update --channel production --message "…"`. The app **auto-applies** updates — `_layout.tsx` checks → fetches → `reloadAsync()` on launch and on foreground — so a published update lands on the next launch without the default two-force-quits (download-now-apply-next-launch). No-op in dev / Expo Go.
-- **Native change (new native dep, `app.json`, a config plugin) → rebuild + submit.** A rebuild also resets the fingerprint baseline. Cut one with `eas build --profile production --platform ios --auto-submit` — it builds and submits to TestFlight in one go (the ASC app id lives in `eas.json` → `submit.production.ios.ascAppId`).
+- **Native change (new native dep, `app.json`, a config plugin) → rebuild + submit.** A rebuild also resets the fingerprint baseline.
 
 **Check before publishing** — compare the current tree's fingerprint to the installed build's:
 
