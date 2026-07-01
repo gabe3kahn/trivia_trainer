@@ -29,12 +29,11 @@ export default function CompeteScreen() {
 
   const load = useCallback(async () => {
     try {
-      const [d, s, lb, g, fr, sentReq] = await Promise.all([
-        getDailyChallenge(), getDailyStreak(), getDailyLeaderboard(), listGames(), listFriends(), listSentFriendRequests(),
+      const [d, s, lb, g, fr] = await Promise.all([
+        getDailyChallenge(), getDailyStreak(), getDailyLeaderboard(), listGames(), listFriends(),
       ]);
       setDaily(d); setStreak(s); setBoard(lb); setGames(g); setFriends(fr);
-      setSent((sentReq ?? []).map((r) => ({ id: r.id, name: r.display_name ?? r.username ?? 'Someone' })));
-      await loadPending();
+      await Promise.all([loadPending(), loadSent()]);
     } catch (e) {
       Alert.alert('Could not load Compete', e instanceof Error ? e.message : 'Try again.');
     } finally {
@@ -48,6 +47,12 @@ export default function CompeteScreen() {
   async function loadPending() {
     const { data } = await (supabase.rpc as any)('list_friend_requests');
     setPending((data ?? []).map((r: any) => ({ id: r.id, name: r.display_name ?? r.username ?? 'Someone' })));
+  }
+
+  // Outgoing (sent) pending invites — refreshed on load and right after sending one.
+  async function loadSent() {
+    const rows = await listSentFriendRequests();
+    setSent((rows ?? []).map((r) => ({ id: r.id, name: r.display_name ?? r.username ?? 'Someone' })));
   }
 
   // Re-focus refetch, but skip if we loaded very recently — switching tabs back
@@ -71,7 +76,7 @@ export default function CompeteScreen() {
     try { setResults(await searchUsers(text.trim())); } catch { /* ignore transient */ }
   }
   async function addFriend(u: UserSearchRow) {
-    try { await sendFriendRequest(u.id); Alert.alert('Request sent', `Friend request sent to ${u.display_name ?? u.username}.`); void runSearch(q); }
+    try { await sendFriendRequest(u.id); Alert.alert('Request sent', `Friend request sent to ${u.display_name ?? u.username}.`); void runSearch(q); void loadSent(); }
     catch (e) { Alert.alert('Could not send', e instanceof Error ? e.message : 'Try again.'); }
   }
   async function respond(id: string, accept: boolean) {
