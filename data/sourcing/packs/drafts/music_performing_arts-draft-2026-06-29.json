@@ -1,0 +1,490 @@
+{
+  "pack_id": "music_performing_arts-draft-2026-06-29",
+  "category_id": "music_performing_arts",
+  "created_at": "2026-06-29",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+      "external_id": "music-2026-06-29-001",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in Salzburg and a keyboard prodigy by age five, this composer performed before European royalty as a child and completed more than 800 works before dying at the age of 35.",
+      "answer": "Wolfgang Amadeus Mozart",
+      "answer_type": "name",
+      "aliases": [
+        "Mozart"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical-composers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wolfgang Amadeus Mozart",
+          "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+          "snippet": "Wolfgang Amadeus Mozart was a Classical composer and musician. He completed more than 800 works in his life—including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera, and choral music—and "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:25.555Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Johnny_Cash",
+      "external_id": "music-2026-06-29-002",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Known as 'the Man in Black' for his all-black stage wardrobe, this country singer was celebrated for his deep bass-baritone voice and for performing free concerts inside prison walls.",
+      "answer": "Johnny Cash",
+      "answer_type": "name",
+      "aliases": [
+        "Cash"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Johnny Cash",
+          "url": "https://en.wikipedia.org/wiki/Johnny_Cash",
+          "snippet": "John R. Cash was an American singer-songwriter. Most of his music contains themes of sorrow, moral tribulation, and redemption, especially songs from the later stages of his career. He was known for his deep, calm, bass-baritone voice, the "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:25.910Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Can-can",
+      "external_id": "music-2026-06-29-003",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Dance",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This high-energy Parisian music-hall dance, popular since the 1840s, is performed by a chorus line with vigorous skirt and petticoat manipulations, high kicks, splits, and cartwheels.",
+      "answer": "Can-can",
+      "answer_type": "other",
+      "aliases": [
+        "Cancan",
+        "Can can"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "dance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Can-can",
+          "url": "https://en.wikipedia.org/wiki/Can-can",
+          "snippet": "The can-can is a high-energy, physically demanding dance that became a popular music-hall dance in the 1840s, continuing in popularity in French cabaret to modern days. Originally danced by couples, it is traditionally associated with a cho"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:26.266Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Foxtrot",
+      "external_id": "music-2026-06-29-004",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Dance",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A smooth, progressive ballroom dance with long, flowing movements, this style developed in the 1910s, reached its peak popularity in the 1930s, and is danced to big-band music.",
+      "answer": "Foxtrot",
+      "answer_type": "other",
+      "aliases": [
+        "Fox Trot"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "dance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Foxtrot",
+          "url": "https://en.wikipedia.org/wiki/Foxtrot",
+          "snippet": "The foxtrot is a smooth, progressive dance characterized by long, continuous flowing movements across the dance floor. It is danced to big band music. The dance is similar in its look to waltz, although the rhythm is in a 44 time signature "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:26.621Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Marvin_Gaye",
+      "external_id": "music-2026-06-29-005",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Known as both the 'Prince of Motown' and the 'Prince of Soul,' this Washington, D.C.-born R&B singer helped shape the Motown sound with hits including 'I Heard It Through the Grapevine.'",
+      "answer": "Marvin Gaye",
+      "answer_type": "name",
+      "aliases": [
+        "Gaye"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Marvin Gaye",
+          "url": "https://en.wikipedia.org/wiki/Marvin_Gaye",
+          "snippet": "Marvin Pentz Gaye Jr. was an American R&B and soul singer, songwriter, musician, and record producer. Commonly referred to as the \"Prince of Motown\" and \"Prince of Soul\", he helped to shape the sound of Motown and soul music in the 1960s an"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:26.976Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Morgan_Wallen",
+      "external_id": "music-2026-06-29-006",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This country pop singer from Sneedville, Tennessee, first gained national exposure as a contestant on a television singing competition in 2014, then released a debut album that topped the country charts in 2018.",
+      "answer": "Morgan Wallen",
+      "answer_type": "name",
+      "aliases": [
+        "Wallen"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Morgan Wallen",
+          "url": "https://en.wikipedia.org/wiki/Morgan_Wallen",
+          "snippet": "Morgan Cole Wallen is an American country and country pop singer from Sneedville, Tennessee. Wallen first gained recognition as a contestant on the sixth season of The Voice in 2014. After signing to Big Loud, he released his debut studio a"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:27.331Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)",
+      "external_id": "music-2026-06-29-007",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Released as the lead single from a French electronic duo's fourth and final studio album in 2013, this house-inspired disco track featured Pharrell Williams and guitarist Nile Rodgers.",
+      "answer": "Get Lucky",
+      "answer_type": "other",
+      "aliases": [
+        "Get Lucky (Daft Punk)"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Get Lucky (Daft Punk song)",
+          "url": "https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)",
+          "snippet": "\"Get Lucky\" is a song by French electronic music duo Daft Punk featuring American musician Pharrell Williams and American guitarist Nile Rodgers. Daft Punk released the song as the lead single from their fourth and final studio album, Rando"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:27.686Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mr._Mistoffelees",
+      "external_id": "music-2026-06-29-008",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally drawn from a T.S. Eliot poem in his 1939 'Old Possum's Book of Practical Cats,' this character in Andrew Lloyd Webber's long-running musical is renowned for a solo dance called the 'Conjuring Turn,' which culminates in 24 consecutive fouettés en tournant.",
+      "answer": "Mr. Mistoffelees",
+      "answer_type": "other",
+      "aliases": [
+        "Mister Mistoffelees"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "broadway-musicals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mr. Mistoffelees",
+          "url": "https://en.wikipedia.org/wiki/Mr._Mistoffelees",
+          "snippet": "Mr. Mistoffelees is a character in T. S. Eliot's 1939 poetry book Old Possum's Book of Practical Cats and its 1981 musical adaptation, Andrew Lloyd Webber's Cats. Mistoffelees is a young black-and-white tuxedo cat with magical powers that h"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:28.042Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+      "external_id": "music-2026-06-29-009",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Jazz & Blues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After joining the Harry James band as its vocalist in 1939 and later signing with Columbia Records, this singer became the idol of devoted adolescent fans known as 'bobby soxers.'",
+      "answer": "Frank Sinatra",
+      "answer_type": "name",
+      "aliases": [
+        "Sinatra"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "jazz-blues"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Frank Sinatra",
+          "url": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+          "snippet": "Francis Albert Sinatra was an American singer and actor. Nicknamed the \"Chairman of the Board\" and \"Ol' Blue Eyes\", he is regarded as one of the most influential entertainers of the 20th century."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:28.396Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Absolute_pitch",
+      "external_id": "music-2026-06-29-010",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Music Theory & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A musician with this rare faculty can name or reproduce any note on demand, without first needing to hear a reference tone — a gift sometimes called 'perfect' to distinguish it from the 'relative' variety most players rely on.",
+      "answer": "Absolute pitch",
+      "answer_type": "other",
+      "aliases": [
+        "Perfect pitch"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "music-theory"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Absolute pitch",
+          "url": "https://en.wikipedia.org/wiki/Absolute_pitch",
+          "snippet": "\nAbsolute pitch (AP), often called perfect pitch, is the ability to identify or re-create a given pitch without the benefit of a reference tone. AP may be demonstrated using linguistic labelling, associating mental imagery with the note, or"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:28.760Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sutton_Foster",
+      "external_id": "music-2026-06-29-011",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Known for Broadway stage work, this American actress has earned two Tony Awards for Best Actress in a Musical — including for playing the title role in 'Thoroughly Modern Millie' in 2002 — along with Drama Desk Awards and nominations for both a Grammy and an Olivier Award.",
+      "answer": "Sutton Foster",
+      "answer_type": "name",
+      "aliases": [
+        "Foster"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "broadway-musicals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sutton Foster",
+          "url": "https://en.wikipedia.org/wiki/Sutton_Foster",
+          "snippet": "Sutton Lenore Foster is an American actress, singer, and dancer. She is known for her work in stage musicals on Broadway and has received numerous accolades including two Tony Awards, two Drama Desk Awards, a Drama League Award, and three O"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:29.115Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Neil_Simon",
+      "external_id": "music-2026-06-29-012",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American playwright, the author of more than 30 plays and nearly as many film screenplays, received a Special Tony Award in 1975, the Pulitzer Prize for Drama in 1991, and the Kennedy Center Honors in 1995.",
+      "answer": "Neil Simon",
+      "answer_type": "name",
+      "aliases": [
+        "Simon"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "theater"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Neil Simon",
+          "url": "https://en.wikipedia.org/wiki/Neil_Simon",
+          "snippet": "Marvin Neil Simon was an American playwright, screenwriter and author. He wrote more than 30 plays and nearly the same number of movie screenplays, mostly film adaptations of his plays. He received three Tony Awards and a Golden Globe Award"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:29.470Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Long_Day's_Journey_into_Night",
+      "external_id": "music-2026-06-29-013",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Written by its American playwright in the early 1940s and first staged posthumously in Sweden in February 1956, this four-act autobiographical drama opened on Broadway later that year and won its author a posthumous Pulitzer Prize.",
+      "answer": "Long Day's Journey into Night",
+      "answer_type": "other",
+      "aliases": [
+        "Long Day's Journey Into Night",
+        "Long Days Journey Into Night"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "theater"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Long Day's Journey into Night",
+          "url": "https://en.wikipedia.org/wiki/Long_Day's_Journey_into_Night",
+          "snippet": "Long Day's Journey into Night is a play in four acts written by American playwright Eugene O'Neill in 1939–1941 and first published posthumously in 1956. It is widely regarded as his magnum opus and one of the great American plays of the 20"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:29.825Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
+      "external_id": "music-2026-06-29-014",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This early form of Italian professional theatre, popular across Europe between the 16th and 18th centuries, was defined by its masked, standardized character archetypes identified by their costumes and functions across every production.",
+      "answer": "Commedia dell'arte",
+      "answer_type": "other",
+      "aliases": [
+        "Commedia dell'Arte",
+        "commedia dell'arte"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "theater"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Commedia dell'arte",
+          "url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
+          "snippet": "Commedia dell'arte was an early form of professional theatre, originating from Italian theatre, that was popular throughout Europe between the 16th and 18th centuries. It was formerly called Italian comedy in English and is also known as co"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:30.181Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dropkick_Murphys",
+      "external_id": "music-2026-06-29-015",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Irish-American Celtic punk band, formed in Quincy, Massachusetts in 1996, has maintained its co-lead vocalist as the sole constant member through multiple lineup changes over nearly three decades.",
+      "answer": "Dropkick Murphys",
+      "answer_type": "other",
+      "aliases": [
+        "The Dropkick Murphys"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dropkick Murphys",
+          "url": "https://en.wikipedia.org/wiki/Dropkick_Murphys",
+          "snippet": "Dropkick Murphys are an Irish-American Celtic punk band formed in Quincy, Massachusetts, in 1996. The lineup consists of co-lead vocalist Ken Casey, drummer Matt Kelly, co-lead vocalist Al Barr, rhythm and lead guitarist James Lynch, lead g"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-06-29T14:35:30.535Z"
+    }
+  ]
+}
