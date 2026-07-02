@@ -1,0 +1,222 @@
+{
+  "pack_id": "wordplay-2026-07-02",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-02",
+  "questions": [
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The trainer warned her never to snipe at rivals for bad posture — the real test is keeping the vertebral column running from skull to pelvis long and properly aligned.",
+      "answer": "SPINE",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "snipe"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The knight raised his sword and declared that the most powerful things in the world are not forged in steel but composed of letters on a page.",
+      "answer": "WORDS",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "sword"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The militia volunteers arrived fully armed, but the general told them that what they truly fought for was the vision that had kept them awake through long cold nights.",
+      "answer": "DREAM",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "armed"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The botanist pressed each petal flat in her journal before arranging the dried specimens on the clean, flat surface from which the evening meal would be served.",
+      "answer": "PLATE",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "petal"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "After selling off acres of family land, the farmer stood at the fence wondering what deep feeling — if any — still bound him to the place where he had grown up.",
+      "answer": "CARES",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "acres"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-cw-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "crossword",
+      "constraint_text": "(6) _ A _ _ _ _",
+      "clue": "Cultivated in many colors including purple and red before Dutch growers standardized the orange variety in the 17th century, this biennial taproot vegetable belongs to the same plant family as parsley and dill.",
+      "answer": "CARROT",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "length": 6,
+        "pattern": "_A____"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-cw-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword",
+      "constraint_text": "(6) B _ _ _ _ _",
+      "clue": "This classical dance form, codified in French technique with positions numbered first through fifth, requires years of rigorous training and is performed wearing special blocked footwear.",
+      "answer": "BALLET",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "length": 6,
+        "pattern": "B_____"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-cw-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "crossword",
+      "constraint_text": "(6) _ _ _ I _ _",
+      "clue": "Guarding the road to ancient Thebes, this legendary creature with a human head and a lion's body posed a riddle to every traveler and devoured those who failed to answer.",
+      "answer": "SPHINX",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "length": 6,
+        "pattern": "___I__"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-cw-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "crossword",
+      "constraint_text": "(6) _ _ R _ _ _",
+      "clue": "This circular protrusion on a castle wall gave archers a position from which to fire through narrow slots in multiple directions while remaining protected behind the battlements.",
+      "answer": "TURRET",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "length": 6,
+        "pattern": "__R___"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-02-cw-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "crossword",
+      "constraint_text": "(7) _ _ _ T _ _ _",
+      "clue": "Before GPS, mariners used this optical instrument to determine their position at sea by measuring the angle between a celestial body and the horizon, employing two mirrors and a graduated arc.",
+      "answer": "SEXTANT",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "length": 7,
+        "pattern": "___T___"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
