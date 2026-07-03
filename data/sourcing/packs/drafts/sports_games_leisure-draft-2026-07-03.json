@@ -1,0 +1,465 @@
+{
+  "pack_id": "sports_games_leisure-draft-2026-07-03",
+  "category_id": "sports_games_leisure",
+  "created_at": "2026-07-03T00:00:00.000Z",
+  "notes": "Run 2026-07-03. 14 clues: 3×$200, 3×$400, 4×$600, 3×$800, 1×$1000. Subcats: Video Games & Esports (2), Baseball (2), Board Games & Card Games (1), Toys & Games (1), Rules & Terminology (3), Football (2), Tennis & Golf (1), Basketball (1), Sports Records & Awards (1).",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pong",
+      "external_id": "sgl-2026-07-03-001",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Created by Atari engineer Allan Alcorn as a training exercise in 1972, this arcade simulation of table tennis became the first commercially successful video game.",
+      "answer": "Pong",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "video-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pong",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "snippet": "Pong is a 1972 sports video game developed and published by Atari, Inc. for arcades. It was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell. Bushnell and Atari co-founder Ted Dabney were so "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:44.443Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Fenway_Park",
+      "external_id": "sgl-2026-07-03-002",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The oldest active venue in Major League Baseball, this Boston stadium opened in 1912 and features a towering left-field wall nicknamed 'the Green Monster.'",
+      "answer": "Fenway Park",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Fenway Park",
+          "url": "https://en.wikipedia.org/wiki/Fenway_Park",
+          "snippet": "Fenway Park is a ballpark in Boston, Massachusetts, United States, close to Kenmore Square. Since 1912, it has been the home field of Major League Baseball's (MLB) Boston Red Sox. While the stadium was built in 1912, it was substantially re"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:44.798Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Battleship",
+      "external_id": "sgl-2026-07-03-003",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This board game takes its name from the heavily armored naval vessel that dominated combat from the late 1880s until supplanted by aircraft carriers in the 1940s.",
+      "answer": "Battleship",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Battleship",
+          "url": "https://en.wikipedia.org/wiki/Battleship",
+          "snippet": "A battleship is a large, heavily armored warship with a main battery consisting of large guns, designed to serve as a capital ship. From their advent in the late 1880s, battleships were among the largest and most formidable warship types ev"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:45.153Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Table_football",
+      "external_id": "sgl-2026-07-03-004",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Based on the world's most popular sport, this tabletop game has players manipulate rows of miniature figures on spinning rods to score against an opponent.",
+      "answer": "Foosball",
+      "answer_type": "other",
+      "aliases": [
+        "Table Football",
+        "Table Soccer"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "toys-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Table football",
+          "url": "https://en.wikipedia.org/wiki/Table_football",
+          "snippet": "Table football, known as foosball (fußball) or table soccer in North America, is a tabletop game loosely based on association football. Its objective is to move the ball into the opponent's goal by manipulating rods which have figures attac"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:45.508Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Uppercut",
+      "external_id": "sgl-2026-07-03-005",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Starting low and rising toward the chin, this boxing punch counts alongside the cross as one of two power punches and proves most effective at close range.",
+      "answer": "Uppercut",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology",
+        "boxing"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Uppercut",
+          "url": "https://en.wikipedia.org/wiki/Uppercut",
+          "snippet": "The uppercut is a punch used in boxing that starts low and travels upwards vertically aiming at the opponent's chin or upper abdomen. It is, along with the cross, one of the two main punches that count in the statistics as power punches."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:45.872Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Rose_Bowl_(stadium)",
+      "external_id": "sgl-2026-07-03-006",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A National Historic Landmark in Pasadena, this stadium has hosted two FIFA World Cup finals and the annual college gridiron classic that takes its name from the venue.",
+      "answer": "Rose Bowl",
+      "answer_type": "other",
+      "aliases": [
+        "The Rose Bowl"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "football",
+        "stadiums"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rose Bowl (stadium)",
+          "url": "https://en.wikipedia.org/wiki/Rose_Bowl_(stadium)",
+          "snippet": "The Rose Bowl is an outdoor athletic stadium located in Pasadena, California, United States. Opened in October 1922, the stadium is recognized as a National Historic Landmark and a California Historic Civil Engineering landmark. With a mode"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:46.226Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Flag_football",
+      "external_id": "sgl-2026-07-03-007",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this non-contact gridiron variant, defenders stop a runner by pulling a cloth streamer from the carrier's belt rather than tackling, requiring no heavy protective equipment.",
+      "answer": "Flag Football",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "football"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Flag football",
+          "url": "https://en.wikipedia.org/wiki/Flag_football",
+          "snippet": "Flag football is a variant of gridiron football where, instead of tackling players to the ground, the defensive team must remove a flag or flag belt from the ball carrier (\"deflagging\") to end a down. In flag football, contact is limited be"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:46.582Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+      "external_id": "sgl-2026-07-03-008",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In tennis, this distinction goes to a player who captures all four major championships — the Australian, French, Wimbledon, and U.S. Opens — in a single calendar year.",
+      "answer": "Grand Slam",
+      "answer_type": "other",
+      "aliases": [
+        "Grand Slam (tennis)",
+        "Calendar Grand Slam"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "tennis"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Grand Slam (tennis)",
+          "url": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)",
+          "snippet": "The Grand Slam in tennis is the achievement of winning all four major championships in one discipline in a calendar year. In doubles, a Grand Slam may be achieved as a team or as an individual with different partners. Winning all four major"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:46.946Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bantamweight",
+      "external_id": "sgl-2026-07-03-009",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This tier in boxing and combat sports — whose name derives from a small, feisty breed of domestic fowl — caps professional bouts at 118 pounds.",
+      "answer": "Bantamweight",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology",
+        "boxing"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bantamweight",
+          "url": "https://en.wikipedia.org/wiki/Bantamweight",
+          "snippet": "Bantamweight is a weight class in combat sports and weightlifting. For boxing, the range is above 115 lb (52.2 kg) and up to 118 lb (53.5 kg). In kickboxing, a bantamweight fighter generally weighs between 53 and 55 kilograms. In MMA, banta"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:48.717Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/AstroTurf",
+      "external_id": "sgl-2026-07-03-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1965 Monsanto product — a synthetic grass — spread so widely across professional playing surfaces that its name became the common generic term for all artificial athletic fields.",
+      "answer": "AstroTurf",
+      "answer_type": "other",
+      "aliases": [
+        "Astroturf"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "AstroTurf",
+          "url": "https://en.wikipedia.org/wiki/AstroTurf",
+          "snippet": "AstroTurf is an American subsidiary of SportGroup that produces artificial turf for playing surfaces in sports. The original AstroTurf product was a short-pile synthetic turf invented in 1965 by Monsanto. Since the early 2000s, AstroTurf ha"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:49.078Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Calgary_Flames",
+      "external_id": "sgl-2026-07-03-011",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This NHL franchise played eight seasons in Atlanta before relocating to Alberta in 1980 and winning its first and only Stanley Cup title nine years later.",
+      "answer": "Calgary Flames",
+      "answer_type": "other",
+      "aliases": [
+        "The Calgary Flames"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "hockey",
+        "sports-records"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Calgary Flames",
+          "url": "https://en.wikipedia.org/wiki/Calgary_Flames",
+          "snippet": "The Calgary Flames are a professional ice hockey team based in Calgary, Alberta, Canada. The Flames compete in the National Hockey League (NHL) as a member of the Pacific Division in the Western Conference. They are the city's third major p"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:49.440Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pong",
+      "external_id": "sgl-2026-07-03-012",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The first commercial home gaming console, released in 1972, this device inspired the Atari arcade hit that prompted its maker to sue Atari for patent infringement.",
+      "answer": "Magnavox Odyssey",
+      "answer_type": "other",
+      "aliases": [
+        "Odyssey"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "video-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pong",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "snippet": "Pong is a 1972 sports video game developed and published by Atari, Inc. for arcades. It was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell. Bushnell and Atari co-founder Ted Dabney were so "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:49.795Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Three-peat",
+      "external_id": "sgl-2026-07-03-013",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Coined during the Los Angeles Lakers' 1988–89 bid for another title following two straight championships, this portmanteau now describes any sports dynasty completing such a run.",
+      "answer": "Three-peat",
+      "answer_type": "other",
+      "aliases": [
+        "Threepeat"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "basketball",
+        "lakers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Three-peat",
+          "url": "https://en.wikipedia.org/wiki/Three-peat",
+          "snippet": "In sports, a three-peat is winning three consecutive championships or tournaments. The term, a portmanteau of the words three and repeat, originated with the Los Angeles Lakers of the National Basketball Association, during their unsuccessf"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:50.157Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ty_Cobb",
+      "external_id": "sgl-2026-07-03-014",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "His early investments in Coca-Cola and General Motors funded a college scholarship program for Georgia students, a legacy that outlasted the tumultuous reputation attached to his name.",
+      "answer": "Ty Cobb",
+      "answer_type": "name",
+      "aliases": [
+        "Cobb"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ty Cobb",
+          "url": "https://en.wikipedia.org/wiki/Ty_Cobb",
+          "snippet": "Tyrus Raymond Cobb, nicknamed \"the Georgia Peach\", was an American professional baseball center fielder. A native of rural Narrows, Georgia, Cobb played 24 seasons in Major League Baseball (MLB). He spent 22 years with the Detroit Tigers an"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:50.513Z"
+    }
+  ]
+}

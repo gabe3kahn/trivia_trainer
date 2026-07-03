@@ -1,0 +1,508 @@
+{
+  "pack_id": "music_performing_arts-draft-2026-07-03",
+  "category_id": "music_performing_arts",
+  "created_at": "2026-07-03T00:00:00.000Z",
+  "notes": "Run 2026-07-03. 15 clues: 3×$200, 3×$400, 3×$600, 3×$800, 3×$1000. Subcats: Popular Music (6), Dance (2), Theater (5), Broadway & Musicals (1), Jazz & Blues (1).",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+      "external_id": "music-2026-07-03-001",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed 'Ol' Blue Eyes' and 'Chairman of the Board,' this Hoboken-born singer of Italian descent joined the Harry James band as its vocalist in 1939.",
+      "answer": "Frank Sinatra",
+      "answer_type": "name",
+      "aliases": [
+        "Sinatra"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Frank Sinatra",
+          "url": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+          "snippet": "Francis Albert Sinatra was an American singer and actor. Nicknamed the \"Chairman of the Board\" and \"Ol' Blue Eyes\", he is regarded as one of the most influential entertainers of the 20th century."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:24.009Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Can-can",
+      "external_id": "music-2026-07-03-002",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Dance",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This high-energy music-hall dance, popular in French cabarets since the 1840s, is performed by a chorus line known for vigorous skirt manipulation and spectacular high kicks.",
+      "answer": "Can-can",
+      "answer_type": "other",
+      "aliases": [
+        "Cancan"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "dance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Can-can",
+          "url": "https://en.wikipedia.org/wiki/Can-can",
+          "snippet": "The can-can is a high-energy, physically demanding dance that became a popular music-hall dance in the 1840s, continuing in popularity in French cabaret to modern days. Originally danced by couples, it is traditionally associated with a cho"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:24.364Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Aerosmith",
+      "external_id": "music-2026-07-03-003",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Formed in Boston in 1970 and nicknamed 'the Bad Boys from Boston,' this blues-based hard rock band features vocalist Steven Tyler and guitarist Joe Perry.",
+      "answer": "Aerosmith",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music",
+        "rock"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Aerosmith",
+          "url": "https://en.wikipedia.org/wiki/Aerosmith",
+          "snippet": "Aerosmith is an American rock band formed in Boston in 1970. The group consists of lead vocalist Steven Tyler, bassist Tom Hamilton, drummer Joey Kramer, and guitarists Joe Perry and Brad Whitford. Their style, which is rooted in blues-base"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:24.720Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Foxtrot",
+      "external_id": "music-2026-07-03-004",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Dance",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Danced to big-band music in 4/4 time, this smooth, progressive ballroom dance developed in the 1910s resembles the waltz in appearance and peaked in popularity during the 1930s.",
+      "answer": "Foxtrot",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "dance",
+        "ballroom"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Foxtrot",
+          "url": "https://en.wikipedia.org/wiki/Foxtrot",
+          "snippet": "The foxtrot is a smooth, progressive dance characterized by long, continuous flowing movements across the dance floor. It is danced to big band music. The dance is similar in its look to waltz, although the rhythm is in a 44 time signature "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:25.075Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
+      "external_id": "music-2026-07-03-005",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Italian theatre form, popular across Europe between the 16th and 18th centuries, features masked stock characters and gave rise to celebrated actresses including Isabella Andreini.",
+      "answer": "Commedia dell'arte",
+      "answer_type": "other",
+      "aliases": [
+        "Commedia dell'Arte"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "theater",
+        "italian"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Commedia dell'arte",
+          "url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
+          "snippet": "Commedia dell'arte was an early form of professional theatre, originating from Italian theatre, that was popular throughout Europe between the 16th and 18th centuries. It was formerly called Italian comedy in English and is also known as co"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:25.430Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sutton_Foster",
+      "external_id": "music-2026-07-03-006",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Broadway actress won two Tony Awards for Best Actress in a Musical — for the title role in Thoroughly Modern Millie (2002) and for Reno Sweeney in Anything Goes (2011).",
+      "answer": "Sutton Foster",
+      "answer_type": "name",
+      "aliases": [
+        "Foster"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "broadway",
+        "theater"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sutton Foster",
+          "url": "https://en.wikipedia.org/wiki/Sutton_Foster",
+          "snippet": "Sutton Lenore Foster is an American actress, singer, and dancer. She is known for her work in stage musicals on Broadway and has received numerous accolades including two Tony Awards, two Drama Desk Awards, a Drama League Award, and three O"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:25.785Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+      "external_id": "music-2026-07-03-007",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Jazz & Blues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Two albums with Frank Sinatra — starting with the 1962 LP subtitled 'An Historic Musical First' — brought this jazz bandleader's orchestra to a mainstream pop audience.",
+      "answer": "Count Basie",
+      "answer_type": "name",
+      "aliases": [
+        "Basie"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "jazz",
+        "big-band"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Frank Sinatra",
+          "url": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+          "snippet": "Francis Albert Sinatra was an American singer and actor. Nicknamed the \"Chairman of the Board\" and \"Ol' Blue Eyes\", he is regarded as one of the most influential entertainers of the 20th century."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:26.204Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Neil_Simon",
+      "external_id": "music-2026-07-03-008",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American playwright received three Tony Awards, the Pulitzer Prize for Drama, and the Mark Twain Prize while writing more than 30 plays and nearly as many screenplays.",
+      "answer": "Neil Simon",
+      "answer_type": "name",
+      "aliases": [
+        "Simon"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "theater",
+        "playwright"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Neil Simon",
+          "url": "https://en.wikipedia.org/wiki/Neil_Simon",
+          "snippet": "Marvin Neil Simon was an American playwright, screenwriter and author. He wrote more than 30 plays and nearly the same number of movie screenplays, mostly film adaptations of his plays. He received three Tony Awards and a Golden Globe Award"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:26.559Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Death_of_a_Salesman",
+      "external_id": "music-2026-07-03-009",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Arthur Miller's two-act tragedy premiered on Broadway in 1949, ran for 742 performances, and won both the Tony Award for Best Play and the Pulitzer Prize for Drama.",
+      "answer": "Death of a Salesman",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "theater",
+        "playwright"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Death of a Salesman",
+          "url": "https://en.wikipedia.org/wiki/Death_of_a_Salesman",
+          "snippet": "Death of a Salesman is a 1949 stage play written by the American playwright Arthur Miller. The play premiered on Broadway on February 10, 1949, running for 742 performances. It is a two-act tragedy—the subtitle of the play is \"Certain Priva"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:26.922Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Greensleeves",
+      "external_id": "music-2026-07-03-010",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Registered at the London Stationers' Company as a broadside ballad in September 1580, this traditional English melody was documented in several late 16th-century lute books.",
+      "answer": "Greensleeves",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music",
+        "folk"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Greensleeves",
+          "url": "https://en.wikipedia.org/wiki/Greensleeves",
+          "snippet": "\"Greensleeves\" is a traditional English folk song. A broadside ballad by the name \"A Newe Northen Dittye of ye Ladye Greene Sleves\" was registered by Richard Jones at the London Stationers' Company in September 1580, and the tune is found i"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:27.277Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Long_Day's_Journey_into_Night",
+      "external_id": "music-2026-07-03-011",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Eugene O'Neill's openly autobiographical four-act play was withheld from publication; its 1956 Broadway premiere won the Tony Award for Best Play and earned him a posthumous Pulitzer.",
+      "answer": "Long Day's Journey into Night",
+      "answer_type": "other",
+      "aliases": [
+        "Long Day's Journey"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "theater",
+        "playwright"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Long Day's Journey into Night",
+          "url": "https://en.wikipedia.org/wiki/Long_Day's_Journey_into_Night",
+          "snippet": "Long Day's Journey into Night is a play in four acts written by American playwright Eugene O'Neill in 1939–1941 and first published posthumously in 1956. It is widely regarded as his magnum opus and one of the great American plays of the 20"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:27.632Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dropkick_Murphys",
+      "external_id": "music-2026-07-03-012",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Their 2004 single 'Tessie' marked this Celtic punk band's mainstream breakthrough; a 2005 track featured in a Martin Scorsese crime film then became their only platinum single.",
+      "answer": "Dropkick Murphys",
+      "answer_type": "other",
+      "aliases": [
+        "The Dropkick Murphys"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music",
+        "punk"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dropkick Murphys",
+          "url": "https://en.wikipedia.org/wiki/Dropkick_Murphys",
+          "snippet": "Dropkick Murphys are an Irish-American Celtic punk band formed in Quincy, Massachusetts, in 1996. The lineup consists of co-lead vocalist Ken Casey, drummer Matt Kelly, co-lead vocalist Al Barr, rhythm and lead guitarist James Lynch, lead g"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:27.987Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Black_Francis",
+      "external_id": "music-2026-07-03-013",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Cryptic lyrics exploring UFOs and biblical violence, atypical meter signatures, and a vocal range from guttural screams to measured melody define this alternative rock guitarist's signature sound.",
+      "answer": "Black Francis",
+      "answer_type": "other",
+      "aliases": [
+        "Frank Black"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music",
+        "alternative-rock"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Black Francis",
+          "url": "https://en.wikipedia.org/wiki/Black_Francis",
+          "snippet": "Charles Michael Kittridge Thompson IV, known professionally as Black Francis and formerly Frank Black, is an American singer, songwriter, and guitarist who is the lead vocalist of the alternative rock band Pixies. Following the band's break"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:28.341Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Morgan_Wallen",
+      "external_id": "music-2026-07-03-014",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This country singer's 2021 double album was the first of its genre to spend its opening seven weeks at number one on the Billboard 200.",
+      "answer": "Morgan Wallen",
+      "answer_type": "name",
+      "aliases": [
+        "Wallen"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music",
+        "country"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Morgan Wallen",
+          "url": "https://en.wikipedia.org/wiki/Morgan_Wallen",
+          "snippet": "Morgan Cole Wallen is an American country pop singer from Sneedville, Tennessee. He first gained recognition as a contestant on the sixth season of The Voice in 2014. After signing to Big Loud, he released his debut studio album, If I Know "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:28.697Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
+      "external_id": "music-2026-07-03-015",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This commedia dell'arte term names a performer's signature gag — a joke or 'something foolish or witty' that is freshly improvised with each performance.",
+      "answer": "Lazzo",
+      "answer_type": "other",
+      "aliases": [
+        "Lazzi"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "theater",
+        "commedia"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Commedia dell'arte",
+          "url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
+          "snippet": "Commedia dell'arte was an early form of professional theatre, originating from Italian theatre, that was popular throughout Europe between the 16th and 18th centuries. It was formerly called Italian comedy in English and is also known as co"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:29.051Z"
+    }
+  ]
+}
