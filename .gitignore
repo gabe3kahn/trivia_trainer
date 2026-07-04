@@ -27,6 +27,7 @@ data/sourcing/topics/*
 data/sourcing/harvest-log.jsonl
 data/acquisition/feedback-issue-audit.*
 data/acquisition/source-verification-*
+data/acquisition/clue-critique-*
 data/acquisition/grader-override-mining.*
 data/acquisition/clue-edits.*
 
