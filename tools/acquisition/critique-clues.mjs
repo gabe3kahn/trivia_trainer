@@ -6,24 +6,26 @@
  * validate-wordplay) catch STRUCTURAL faults: exact/stem answer leaks, thin/overlong
  * clues, broken wordplay mechanics. They are blind to the EDITORIAL faults that keep
  * showing up in review — tortured wording, a difficulty that doesn't match the value,
- * too-easy initials, a hidden word that's signposted, a wrong category, a fact re-drafted
- * from a retired clue. Those need judgment, so this shells out to a fresh-context model
- * with a fixed rubric and asks it to critique each clue: pass / revise / drop.
+ * too-easy initials, a hidden word that's signposted, a wrong category. Those need
+ * judgment, so this shells out to a fresh-context model with a fixed rubric and asks it
+ * to critique each clue: pass / revise / drop.
  *
- * To ground that judgment it gives the model, per clue: the FULL source extract the
- * drafter authored from (data/sourcing/docs/<category>/*.json, matched by URL — same
- * text the author saw, not a truncated snippet), the deterministic linter hits, and —
- * per pack — the list of answers already used in that category (active AND retired, from
- * Supabase) so it can flag a wasteful re-draft. It REVIEWS (it does not rewrite the pack):
- * the report is what the drafter agent (or a human) acts on before a PR.
+ * To ground that judgment it gives the model, per clue, the FULL source extract the
+ * drafter authored from (data/sourcing/docs/<category>/*.json, matched by URL — same text
+ * the author saw, not a truncated snippet) plus the deterministic linter hits. DUPLICATES
+ * are handled separately and deterministically, MIRRORING the import gate's rule (same
+ * normalized answer/alias AND same class = wordplay-ness + image-ness; `allow_duplicate`
+ * exempt) over the ACTIVE bank, extended via --dup-index to the pending answers of other
+ * open PRs — surfaced as an advisory collision, not an auto-drop. It REVIEWS (it does not
+ * rewrite the pack): the report is what the drafter agent (or a human) acts on before a PR.
  *
  * Runs wherever the drafter does — the `claude` CLI (CLAUDE_CODE_OAUTH_TOKEN in CI or a
- * local install) and the SUPABASE_* env for the duplicate check. Everything degrades
- * gracefully: no CLI → warn + skip; no source doc → no factual grounding for that clue;
- * no Supabase → the duplicate dimension is disabled. The deterministic gates remain the
- * hard line; this is advisory and never hard-fails.
+ * local install) and the SUPABASE_* env for the duplicate index. Everything degrades
+ * gracefully: no CLI → warn + skip; no source doc → snippet fallback; no Supabase +
+ * no --dup-index → duplicate detection is off. The deterministic gates remain the hard
+ * line; this is advisory and never hard-fails.
  *
- *   node tools/acquisition/critique-clues.mjs --pack data/sourcing/packs/drafts/<pack>.json [--pack …] [--model <id>]
+ *   node tools/acquisition/critique-clues.mjs --pack <pack.json> [--pack …] [--model <id>] [--dup-index <answers.json>]
  *
  * Exit code is always 0; read the printed summary / the report in data/acquisition/.
  */
@@ -41,20 +43,22 @@ const rootDir = path.resolve(__dirname, '..', '..');
 const argv = process.argv.slice(2);
 const packPaths = [];
 let model = 'claude-sonnet-4-6';
+let dupIndexPath = null;
 for (let i = 0; i < argv.length; i += 1) {
   if (argv[i] === '--pack') packPaths.push(argv[(i += 1)]);
   else if (argv[i] === '--model') model = argv[(i += 1)];
+  else if (argv[i] === '--dup-index') dupIndexPath = argv[(i += 1)];
   else if (!argv[i].startsWith('--')) packPaths.push(argv[i]);
 }
 if (!packPaths.length) {
-  console.error('usage: critique-clues.mjs --pack <pack.json> [--pack …] [--model <id>]');
+  console.error('usage: critique-clues.mjs --pack <pack.json> [--pack …] [--model <id>] [--dup-index <answers.json>]');
   process.exit(1);
 }
 
 const RUBRIC = [
   'You are a STRICT but FAIR trivia editor reviewing clues for a Jeopardy-style app before they go live.',
   'Return a verdict per clue. Only flag GENUINE problems — a clean clue must PASS. Prefer "revise" with a',
-  'concrete fix; reserve "drop" for irredeemable clues or true duplicates.',
+  'concrete fix; reserve "drop" for irredeemable clues.',
   '',
   'GROUNDING — non-negotiable: for every leak / wording / category claim, QUOTE the exact offending',
   'substring from the CLUE as given. If you cannot quote it verbatim from the clue text, do NOT make the',
@@ -79,9 +83,7 @@ const RUBRIC = [
   '  physics"), or an odd/wrong word. Quote the offending phrase.',
   '- factual: the clue\'s claim CONTRADICTS the provided SOURCE excerpt. Flag ONLY a clear contradiction — never',
   '  flag merely because a detail is absent from the excerpt (it may be partial).',
-  '- duplicate: the answer, or the same underlying FACT, already appears in the EXISTING ANSWERS list given for',
-  '  this category below — INCLUDING retired ones. Re-drafting a previously-clued answer is wasted work. Name the',
-  '  match. (If no list is provided, skip this dimension.)',
+  '  (Duplicate detection is handled deterministically outside this rubric — do NOT flag duplicates yourself.)',
   '- wordplay (ONLY for language_wordplay clues): judge the MECHANIC and, above all, RETRIEVABILITY — could a',
   '  solver actually reach the answer? A Before & After\'s two halves must each be a real standalone phrase AND be',
   '  non-trivially spliced (not two unrelated things bolted together; not so independent that a half is just its',
@@ -95,7 +97,7 @@ const RUBRIC = [
   '',
   'Return one object per clue:',
   '{"external_id":"<id>","verdict":"pass"|"revise"|"drop",',
-  ' "issues":[{"dimension":"leak|category|difficulty_fit|wording|factual|duplicate|wordplay","detail":"<quote the substring>"}],',
+  ' "issues":[{"dimension":"leak|category|difficulty_fit|wording|factual|wordplay","detail":"<quote the substring>"}],',
   ' "suggested_clue":"<full rewrite, only when it fixes the issue AND preserves any mechanic; omit otherwise>",',
   ' "suggested_value":<200|400|600|800|1000, only when difficulty_fit>, "notes":"<one line, optional>"}',
   'pass = ship as-is (empty issues). Respond with ONLY a JSON array, no prose, no code fences.',
@@ -129,19 +131,60 @@ function sourceFor(q, docMap) {
   return (q.citations && q.citations[0] && q.citations[0].snippet) || '';
 }
 
-async function loadExistingAnswers(categoryId) {
+// Duplicate detection MIRRORS the import gate (import-to-supabase.mjs hard-gate #2), just
+// surfaced as advisory feedback instead of a block: a collision is the same normalized answer
+// (or alias) AND the same CLASS — class = wordplay-ness (category === language_wordplay) and
+// image-ness (image_url present) both match — and `allow_duplicate: true` is exempt. Scoped to
+// the ACTIVE bank (same as the gate), plus — via --dup-index — the pending answers of every
+// OTHER open drafter PR, so a genuine cross-PR collision surfaces too. NOT the LLM's job.
+const WORDPLAY_CATEGORY = 'language_wordplay';
+const classKey = (categoryId, hasImage) => `${categoryId === WORDPLAY_CATEGORY ? 'wp' : 'std'}:${hasImage ? 'img' : 'txt'}`;
+const normAns = (s) => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+
+async function buildDupIndex(indexPath) {
+  const index = new Map(); // normalized answer/alias -> [{ cls, label }]
+  const add = (val, cls, label) => {
+    const k = normAns(val);
+    if (!k) return;
+    if (!index.has(k)) index.set(k, []);
+    index.get(k).push({ cls, label });
+  };
+  let bank = null;
   try {
     const request = createSupabaseRequest(getSupabaseAdminConfig());
-    const rows = await fetchAllSupabaseRows(
-      request,
-      `/rest/v1/questions?select=answer,is_active&category_id=eq.${encodeURIComponent(categoryId)}`,
-    );
-    const seen = new Set();
-    for (const r of rows) { const a = String(r.answer || '').trim(); if (a) seen.add(a); }
-    return [...seen];
-  } catch {
-    return null; // no creds / offline → duplicate dimension disabled
+    const rows = await fetchAllSupabaseRows(request, '/rest/v1/questions?select=answer,aliases,category_id,image_url&is_active=eq.true');
+    bank = rows.length;
+    for (const r of rows) {
+      const cls = classKey(r.category_id, Boolean(r.image_url));
+      const label = `bank:${r.category_id}`;
+      add(r.answer, cls, label);
+      for (const a of Array.isArray(r.aliases) ? r.aliases : []) add(a, cls, label);
+    }
+  } catch { bank = null; /* no creds → bank part skipped */ }
+  let pending = 0;
+  if (indexPath) {
+    try {
+      for (const e of JSON.parse(fs.readFileSync(indexPath, 'utf8'))) {
+        const cls = classKey(e.category_id || '', Boolean(e.image_url));
+        const label = e.where || 'open-PR';
+        add(e.answer, cls, label);
+        for (const a of e.aliases || []) add(a, cls, label);
+        pending += 1;
+      }
+    } catch (err) { console.error(`  ! could not read --dup-index: ${err.message}`); }
   }
+  return { index, bank, pending };
+}
+
+// Locations where this clue collides under the gate's rules (same answer/alias + same class),
+// honoring the allow_duplicate exemption. Empty unless a real same-class collision exists.
+function dupHits(q, index) {
+  if (!index || q.allow_duplicate === true) return [];
+  const cls = classKey(q.category_id, Boolean(q.image_url));
+  const keys = new Set([q.answer, ...(q.aliases || [])].map(normAns).filter(Boolean));
+  const labels = new Set();
+  for (const k of keys) for (const e of index.get(k) || []) if (e.cls === cls) labels.add(e.label);
+  return [...labels];
 }
 
 function itemBlock(q, index, docMap) {
@@ -201,18 +244,12 @@ function extractJsonArray(text) {
   try { return JSON.parse(fenced.slice(start, end + 1)); } catch { return null; }
 }
 
-async function critiquePack(packPath) {
+async function critiquePack(packPath, dupIndex) {
   const pack = JSON.parse(fs.readFileSync(packPath, 'utf8'));
   const questions = pack.questions || pack;
   const categoryId = pack.category_id || (questions[0] && questions[0].category_id) || '';
   const docMap = loadDocs(categoryId);
-  const existing = await loadExistingAnswers(categoryId);
-
-  const preamble = [RUBRIC];
-  if (existing && existing.length) {
-    preamble.push('', `EXISTING ANSWERS already used in category "${categoryId}" (active AND retired — a match means a wasteful re-draft):`, existing.join('; '));
-  }
-  const prompt = `${preamble.join('\n')}\n\n${questions.map((q, i) => itemBlock(q, i, docMap)).join('\n\n')}`;
+  const prompt = `${RUBRIC}\n\n${questions.map((q, i) => itemBlock(q, i, docMap)).join('\n\n')}`;
 
   let verdicts;
   try {
@@ -228,11 +265,25 @@ async function critiquePack(packPath) {
   }
 
   const byId = new Map(verdicts.map((v) => [String(v.external_id), v]));
+  let dupFlagged = 0;
   const rows = questions.map((q) => {
     const v = byId.get(String(q.external_id || q.answer)) || { verdict: 'pass', issues: [] };
-    return { external_id: q.external_id || q.answer, answer: q.answer, value: q.value, ...v };
+    const row = { external_id: q.external_id || q.answer, answer: q.answer, value: q.value, ...v };
+    // Deterministic, gate-mirroring dedup merged in AFTER the LLM pass — advisory, never an
+    // auto-drop: a same-answer + same-class collision is either blessed with allow_duplicate
+    // (genuinely different fact) or one clue is cut, exactly as the import gate treats it.
+    const hits = dupHits(q, dupIndex);
+    if (hits.length) {
+      dupFlagged += 1;
+      row.issues = [...(row.issues || []), {
+        dimension: 'duplicate',
+        detail: `same-answer, same-class collision with ${hits.join('; ')} — bless with allow_duplicate if a genuinely different fact, otherwise cut one.`,
+      }];
+      if (!row.verdict || row.verdict === 'pass') row.verdict = 'revise';
+    }
+    return row;
   });
-  return { packPath, rows, docs: docMap.size, existing: existing ? existing.length : null };
+  return { packPath, rows, docs: docMap.size, dupFlagged };
 }
 
 function renderMarkdown(results) {
@@ -253,14 +304,17 @@ function renderMarkdown(results) {
   return lines.join('\n');
 }
 
-await loadDefaultEnv(rootDir); // for the Supabase duplicate check (no-op if creds absent)
+await loadDefaultEnv(rootDir); // for the Supabase duplicate index (no-op if creds absent)
+
+const { index: dupIndex, bank, pending } = await buildDupIndex(dupIndexPath);
+console.log(`Duplicate index: ${bank == null ? 'bank OFF (no Supabase)' : bank + ' active bank rows'}${pending ? `, ${pending} pending answers from other open PRs` : ''} (same-answer + same-class, allow_duplicate-exempt).`);
 
 const results = [];
 for (const packPath of packPaths) {
   console.log(`Critiquing ${path.basename(packPath)} with ${model}…`);
-  const res = await critiquePack(packPath);
+  const res = await critiquePack(packPath, dupIndex);
   if (res) {
-    console.log(`  (source docs matched for ${res.docs} topic(s); ${res.existing == null ? 'duplicate check OFF (no Supabase)' : res.existing + ' existing answers in category'})`);
+    console.log(`  (source docs matched for ${res.docs} topic(s); ${res.dupFlagged} clue(s) flagged as collisions)`);
     results.push(res);
   }
 }
