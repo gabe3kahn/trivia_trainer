@@ -21,28 +21,10 @@
         "first": "Night Club",
         "second": "Club Soda"
       },
-      "tags": ["wp-draft", "before-after"],
-      "citations": [],
-      "verification_status": "skipped"
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-07-01-ba-02",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Before & After",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "before_after",
-      "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The blown fuse that knocked out the power to the testing floor was traced back to a failed green-and-copper component inside the machine's central control unit.",
-      "answer": "Short Circuit Board",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "first": "Short Circuit",
-        "second": "Circuit Board"
-      },
-      "tags": ["wp-draft", "before-after"],
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -55,7 +37,7 @@
       "difficulty_rank": 3,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The keeper who tended the harbor beacon overlooking the coastal highway noticed that the crimson glow warning ships away from the rocks was the same shade as the stop signal at the intersection below, visible from her tower every evening.",
+      "clue": "The pale glow shining through the darkness to keep ships away from the rocks changes color to indicate traffic coming from the other direction.",
       "answer": "Red Light House",
       "answer_type": "other",
       "aliases": [],
@@ -63,7 +45,10 @@
         "first": "Red Light",
         "second": "Light House"
       },
-      "tags": ["wp-draft", "before-after"],
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -76,36 +61,20 @@
       "difficulty_rank": 4,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The warty intruder that Queensland farmers brought from Central America to devour beetles attacking their tropical grass crop has since spread across the continent as an ecological nightmare.",
-      "answer": "Sugar Cane Toad",
+      "clue": "An invasive Australian amphibian stops for a rest upon a warted fungus before hopping on through the forest.",
+      "answer": "Cane Toad Stool",
       "answer_type": "other",
-      "aliases": [],
+      "aliases": [
+        "Cane Toadstool"
+      ],
       "wp": {
-        "first": "Sugar Cane",
-        "second": "Cane Toad"
+        "first": "Cane Toad",
+        "second": "Toad Stool"
       },
-      "tags": ["wp-draft", "before-after"],
-      "citations": [],
-      "verification_status": "skipped"
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-07-01-ba-05",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Before & After",
-      "value": 1000,
-      "difficulty_rank": 5,
-      "mechanic": "before_after",
-      "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The two sprinters crossed the finish tape in an identical time, with officials declaring a tie just as the temperature outside the stadium climbed to the dangerous threshold that forecasters had warned about all week.",
-      "answer": "Dead Heat Wave",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "first": "Dead Heat",
-        "second": "Heat Wave"
-      },
-      "tags": ["wp-draft", "before-after"],
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -121,11 +90,19 @@
       "clue": "The traditional paper-and-envelope postal service.",
       "answer": "Snail Mail",
       "answer_type": "other",
-      "aliases": ["Mail Snail"],
+      "aliases": [
+        "Mail Snail"
+      ],
       "wp": {
-        "rhyme_pair": ["snail", "mail"]
+        "rhyme_pair": [
+          "snail",
+          "mail"
+        ]
       },
-      "tags": ["wp-draft", "rhyme_time"],
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -134,18 +111,26 @@
       "external_id": "wordplay-2026-07-01-rt-02",
       "category_id": "language_wordplay",
       "subcategory_name": "Rhyme Time",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "rhyme_time",
       "constraint_text": "Find the two-word rhyming phrase described.",
       "clue": "A delectable dessert or confection.",
       "answer": "Sweet Treat",
       "answer_type": "other",
-      "aliases": ["Treat Sweet"],
+      "aliases": [
+        "Treat Sweet"
+      ],
       "wp": {
-        "rhyme_pair": ["sweet", "treat"]
+        "rhyme_pair": [
+          "sweet",
+          "treat"
+        ]
       },
-      "tags": ["wp-draft", "rhyme_time"],
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -161,11 +146,19 @@
       "clue": "An escaped large waterfowl on the run.",
       "answer": "Loose Goose",
       "answer_type": "other",
-      "aliases": ["Goose Loose"],
+      "aliases": [
+        "Goose Loose"
+      ],
       "wp": {
-        "rhyme_pair": ["loose", "goose"]
+        "rhyme_pair": [
+          "loose",
+          "goose"
+        ]
       },
-      "tags": ["wp-draft", "rhyme_time"],
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -174,18 +167,26 @@
       "external_id": "wordplay-2026-07-01-rt-04",
       "category_id": "language_wordplay",
       "subcategory_name": "Rhyme Time",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "rhyme_time",
       "constraint_text": "Find the two-word rhyming phrase described.",
       "clue": "Utterly loyal and completely faithful.",
       "answer": "True Blue",
       "answer_type": "other",
-      "aliases": ["Blue True"],
+      "aliases": [
+        "Blue True"
+      ],
       "wp": {
-        "rhyme_pair": ["true", "blue"]
+        "rhyme_pair": [
+          "true",
+          "blue"
+        ]
       },
-      "tags": ["wp-draft", "rhyme_time"],
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
       "citations": [],
       "verification_status": "skipped"
     },
@@ -201,11 +202,19 @@
       "clue": "A waterlogged outdoor sleeping spot.",
       "answer": "Damp Camp",
       "answer_type": "other",
-      "aliases": ["Camp Damp"],
+      "aliases": [
+        "Camp Damp"
+      ],
       "wp": {
-        "rhyme_pair": ["damp", "camp"]
+        "rhyme_pair": [
+          "damp",
+          "camp"
+        ]
       },
-      "tags": ["wp-draft", "rhyme_time"],
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
       "citations": [],
       "verification_status": "skipped"
     }

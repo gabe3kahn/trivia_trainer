@@ -31,7 +31,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:02.500Z"
+      "verified_at": "2026-07-04T23:36:49.755Z"
     },
     {
       "source": "wikipedia",
@@ -42,7 +42,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This 1943 Betty Smith novel about a girl coming of age in a New York City tenement was so popular it went to a second printing before its official publication date and was later named by the Library of Congress as one of 'Books that Shaped America.'",
+      "clue": "This 1943 Betty Smith novel about a girl coming of age in a New York City tenement was so popular it went to a second printing before its official publication date and was later named by the Library of Congress as one of the 'Books That Shaped America.'",
       "answer": "A Tree Grows in Brooklyn",
       "answer_type": "other",
       "aliases": [],
@@ -60,7 +60,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:02.881Z"
+      "verified_at": "2026-07-04T23:36:50.136Z"
     },
     {
       "source": "wikipedia",
@@ -94,7 +94,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:03.271Z"
+      "verified_at": "2026-07-04T23:36:50.513Z"
     },
     {
       "source": "wikipedia",
@@ -123,7 +123,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:03.653Z"
+      "verified_at": "2026-07-04T23:36:50.891Z"
     },
     {
       "source": "wikipedia",
@@ -148,11 +148,13 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "The Owl and the Pussycat",
-          "url": "https://en.wikipedia.org/wiki/The_Owl_and_the_Pussycat"
+          "title": "The Owl and the Pussy-Cat",
+          "url": "https://en.wikipedia.org/wiki/The_Owl_and_the_Pussy-Cat",
+          "snippet": "\"The Owl and the Pussy-Cat\" is a nonsense poem by Edward Lear, first published in 1870 in the American magazine Our Young Folks and again the following year in Lear's own book Nonsense Songs, Stories, Botany, and Alphabets. Lear wrote the p"
         }
       ],
-      "verification_status": "unverified"
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T23:36:51.456Z"
     },
     {
       "source": "wikipedia",
@@ -163,7 +165,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "During her lifetime, this English author published her six major novels anonymously, with title pages identifying her only as 'By a Lady,' while her sharp social commentary and irony would eventually earn her a place among the most widely read writers in English literature.",
+      "clue": "All six major novels by this English author were originally published anonymously, their title pages identifying her only as 'By a Lady'; her sharp social commentary and irony eventually earned her a place among the most widely read writers in English literature.",
       "answer": "Jane Austen",
       "answer_type": "name",
       "aliases": [],
@@ -181,7 +183,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:04.436Z"
+      "verified_at": "2026-07-04T23:36:51.835Z"
     },
     {
       "source": "wikipedia",
@@ -210,7 +212,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:04.819Z"
+      "verified_at": "2026-07-04T23:36:52.208Z"
     },
     {
       "source": "wikipedia",
@@ -242,7 +244,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:05.208Z"
+      "verified_at": "2026-07-04T23:36:52.637Z"
     },
     {
       "source": "wikipedia",
@@ -273,7 +275,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:05.590Z"
+      "verified_at": "2026-07-04T23:36:53.004Z"
     },
     {
       "source": "wikipedia",
@@ -299,10 +301,12 @@
         {
           "source": "wikipedia",
           "title": "Isaac Babel",
-          "url": "https://en.wikipedia.org/wiki/Isaac_Babel"
+          "url": "https://en.wikipedia.org/wiki/Isaac_Babel",
+          "snippet": "Isaac Emmanuilovich Babel was a Russian and Soviet writer, journalist, playwright, and literary translator. He is best known as the author of Red Cavalry and Odessa Stories, and has been acclaimed as \"the greatest prose writer of Russian Je"
         }
       ],
-      "verification_status": "unverified"
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T23:36:53.427Z"
     },
     {
       "source": "wikipedia",
@@ -334,7 +338,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:06.364Z"
+      "verified_at": "2026-07-04T23:36:53.809Z"
     },
     {
       "source": "wikipedia",
@@ -365,7 +369,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:06.755Z"
+      "verified_at": "2026-07-04T23:36:54.223Z"
     },
     {
       "source": "wikipedia",
@@ -376,7 +380,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In Charlotte Brontë's 1847 novel, this character is Rochester's first wife, locked in a third-floor room at Thornfield Hall whose existence is deliberately hidden from the heroine.",
+      "clue": "In Charlotte Brontë's 1847 novel, this madwoman — the first wife of Thornfield Hall's brooding master — is confined to a hidden third-floor room, her existence concealed from the young governess who has come to love him.",
       "answer": "Bertha Mason",
       "answer_type": "name",
       "aliases": [
@@ -397,7 +401,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:28:00.257Z"
+      "verified_at": "2026-07-04T23:36:54.647Z"
     },
     {
       "source": "wikipedia",
@@ -429,7 +433,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:28:00.630Z"
+      "verified_at": "2026-07-04T23:36:55.071Z"
     },
     {
       "source": "wikipedia",
@@ -440,7 +444,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The pen name adopted by Mary Ann Evans, this Victorian author's last completed novel — published in eight installments in 1876 — follows both a spirited young woman named Gwendolen and a young man on the cusp of discovering his Jewish heritage.",
+      "clue": "This Victorian novelist's final work, published in 1876, interweaves the story of the spirited Gwendolen Harleth with that of a young man awakening to his Jewish heritage — an ambitious departure from the English provincial life her earlier novels charted.",
       "answer": "George Eliot",
       "answer_type": "other",
       "aliases": [
@@ -461,7 +465,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:28:01.000Z"
+      "verified_at": "2026-07-04T23:36:55.502Z"
     }
   ]
 }

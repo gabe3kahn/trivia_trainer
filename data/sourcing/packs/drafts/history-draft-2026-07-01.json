@@ -34,7 +34,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:53.627Z"
+      "verified_at": "2026-07-04T23:37:09.693Z"
     },
     {
       "source": "wikipedia",
@@ -67,7 +67,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:54.008Z"
+      "verified_at": "2026-07-04T23:37:10.127Z"
     },
     {
       "source": "wikipedia",
@@ -99,15 +99,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:54.379Z"
+      "verified_at": "2026-07-04T23:37:10.496Z"
     },
     {
       "source": "wikipedia",
       "external_id": "history-draft-2026-07-01-004",
       "category_id": "history",
       "subcategory_name": "U.S. History",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "This type of 19th-century American West conflict typically arose from disputes over water rights, grazing rights, and the use of unfenced land that multiple competing ranchers tried to control.",
@@ -131,7 +131,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:54.760Z"
+      "verified_at": "2026-07-04T23:37:10.913Z"
     },
     {
       "source": "wikipedia",
@@ -162,7 +162,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:55.139Z"
+      "verified_at": "2026-07-04T23:37:11.281Z"
     },
     {
       "source": "wikipedia",
@@ -173,7 +173,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Finalized by the Continental Congress in November 1777 and ratified by all thirteen states by 1781, this document served as the new nation's first governing framework before being superseded by the Constitution.",
+      "clue": "Finalized by the Continental Congress in November 1777 and ratified by all thirteen states by 1781, this document served as the new American nation's first governing framework before being superseded by the Constitution.",
       "answer": "Articles of Confederation",
       "answer_type": "other",
       "aliases": [
@@ -193,7 +193,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:55.518Z"
+      "verified_at": "2026-07-04T23:37:11.717Z"
     },
     {
       "source": "wikipedia",
@@ -204,7 +204,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This ancient Athenian democratic practice could banish any citizen for a decade, and was often deployed preemptively against someone the populace considered a threat to the state rather than as punishment for a past offense.",
+      "clue": "In this ancient Athenian procedure, citizens could vote — by scratching a name onto a broken piece of pottery — to banish a fellow citizen for ten years, often deployed preemptively against someone judged a threat to the state rather than to punish a specific crime.",
       "answer": "Ostracism",
       "answer_type": "other",
       "aliases": [],
@@ -222,7 +222,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:55.898Z"
+      "verified_at": "2026-07-04T23:37:12.133Z"
     },
     {
       "source": "wikipedia",
@@ -251,7 +251,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:56.270Z"
+      "verified_at": "2026-07-04T23:37:12.566Z"
     },
     {
       "source": "wikipedia",
@@ -282,7 +282,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:56.649Z"
+      "verified_at": "2026-07-04T23:37:12.992Z"
     },
     {
       "source": "wikipedia",
@@ -293,7 +293,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Arising from the Council of Trent (1545–1563), this period of Catholic revival produced new religious orders, internal disciplinary changes, and doctrinal clarifications as a comprehensive response to the theological upheaval sweeping Protestant northern Europe.",
+      "clue": "Arising from the Council of Trent (1545–1563), this movement produced new religious orders, stricter internal discipline, and doctrinal clarifications as the Roman Church's comprehensive answer to the Protestant upheaval sweeping northern Europe.",
       "answer": "Counter-Reformation",
       "answer_type": "other",
       "aliases": [
@@ -314,7 +314,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:57.029Z"
+      "verified_at": "2026-07-04T23:37:13.417Z"
     },
     {
       "source": "wikipedia",
@@ -343,7 +343,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:26:57.411Z"
+      "verified_at": "2026-07-04T23:37:13.785Z"
     },
     {
       "source": "wikipedia",
@@ -354,7 +354,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This militia, formed in 1770 to defend the New Hampshire Grants territory from rival New York claims, was led by Ethan Allen and a man later infamous for his treason when it captured Fort Ticonderoga from the British in May 1775.",
+      "clue": "This militia, formed in 1770 to defend the New Hampshire Grants from rival New York claims, was led by Ethan Allen and Benedict Arnold when it captured Fort Ticonderoga from the British in May 1775.",
       "answer": "Green Mountain Boys",
       "answer_type": "other",
       "aliases": [],
@@ -372,7 +372,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:00.816Z"
+      "verified_at": "2026-07-04T23:37:14.212Z"
     },
     {
       "source": "wikipedia",
@@ -405,15 +405,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:01.196Z"
+      "verified_at": "2026-07-04T23:37:14.588Z"
     },
     {
       "source": "wikipedia",
       "external_id": "history-draft-2026-07-01-014",
       "category_id": "history",
       "subcategory_name": "Medieval & Renaissance History",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Construction of this freestanding Italian campanile began in the 12th century on ground too soft to support its weight, causing a tilt that worsened throughout its medieval completion — a structural fault not addressed until remedial work in the 1990s stabilized it to just under four degrees.",
@@ -432,10 +432,12 @@
         {
           "source": "wikipedia",
           "title": "Leaning Tower of Pisa",
-          "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+          "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+          "snippet": "The Leaning Tower of Pisa, or simply the Tower of Pisa, is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four-degree lean, the result of an unstable foundation. The tower is one of three structures"
         }
       ],
-      "verification_status": "unverified"
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T23:37:14.965Z"
     },
     {
       "source": "wikipedia",
@@ -464,7 +466,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-01T14:27:01.948Z"
+      "verified_at": "2026-07-04T23:37:15.343Z"
     }
   ]
 }
