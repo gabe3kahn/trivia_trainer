@@ -1,0 +1,457 @@
+{
+  "pack_id": "sports_games_leisure-draft-2026-06-29",
+  "category_id": "sports_games_leisure",
+  "created_at": "2026-06-29",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Roulette",
+      "external_id": "sgl-2026-06-29-001",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This casino game is named from the French for 'little wheel'; it likely evolved from the Italian game Biribi.",
+      "answer": "Roulette",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Roulette",
+          "url": "https://en.wikipedia.org/wiki/Roulette",
+          "snippet": "Roulette is a casino game which was likely developed from the Italian game Biribi. In the game, a player may choose to place a bet on a single number, various groupings of numbers, the color red or black, whether the number is odd or even, "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:23.693Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Table_football",
+      "external_id": "sgl-2026-06-29-002",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this game, players spin rows of rod-mounted figures to drive a small ball into the opponent's goal.",
+      "answer": "Foosball",
+      "answer_type": "other",
+      "aliases": [
+        "Table Football",
+        "Table Soccer"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Table football",
+          "url": "https://en.wikipedia.org/wiki/Table_football",
+          "snippet": "Table football, known as foosball (fußball) or table soccer in North America, is a tabletop game loosely based on association football. Its objective is to move the ball into the opponent's goal by manipulating rods which have figures attac"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:24.115Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pong",
+      "external_id": "sgl-2026-06-29-003",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally created by an Atari engineer as a training exercise in 1972, this simple two-player arcade game became the first commercially successful video game.",
+      "answer": "Pong",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "video-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pong",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "snippet": "Pong is a 1972 sports video game developed and published by Atari, Inc. for arcades. It was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell. Bushnell and Atari co-founder Ted Dabney were so "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:24.519Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Flag_football",
+      "external_id": "sgl-2026-06-29-004",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this non-contact variant of the American gridiron sport, defensive players end a down by pulling a small fabric strip from the ball carrier's waist rather than making a tackle.",
+      "answer": "Flag Football",
+      "answer_type": "other",
+      "aliases": [
+        "flag football"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Flag football",
+          "url": "https://en.wikipedia.org/wiki/Flag_football",
+          "snippet": "Flag football is a variant of gridiron football where, instead of tackling players to the ground, the defensive team must remove a flag or flag belt from the ball carrier (\"deflagging\") to end a down. In flag football, contact is limited be"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:24.915Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/National_Hockey_League",
+      "external_id": "sgl-2026-06-29-005",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Awarded annually to the playoff champion of professional ice hockey's premier North American league, this trophy is the oldest professional sports prize on the continent.",
+      "answer": "Stanley Cup",
+      "answer_type": "other",
+      "aliases": [
+        "The Stanley Cup"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "sports-records"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "National Hockey League",
+          "url": "https://en.wikipedia.org/wiki/National_Hockey_League",
+          "snippet": "The National Hockey League is a professional ice hockey league in North America composed of 32 teams, 25 in the United States and 7 in Canada. The NHL is one of the major professional sports leagues in the United States and Canada and is co"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:25.313Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Rose_Bowl_Game",
+      "external_id": "sgl-2026-06-29-006",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed 'the Granddaddy of Them All' by broadcaster Keith Jackson, this New Year's Day contest held in Pasadena, California was the first postseason college football game ever established, first played in 1902.",
+      "answer": "Rose Bowl",
+      "answer_type": "other",
+      "aliases": [
+        "Rose Bowl Game",
+        "The Rose Bowl",
+        "The Rose Bowl Game"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "football"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rose Bowl Game",
+          "url": "https://en.wikipedia.org/wiki/Rose_Bowl_Game",
+          "snippet": "The Rose Bowl Game is an annual American college football bowl game, traditionally played on January 1 at the Rose Bowl in Pasadena, California. When New Year's Day falls on a Sunday, the game is played on Monday, January 2."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:25.708Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Quidditch",
+      "external_id": "sgl-2026-06-29-007",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Invented by J.K. Rowling for her fantasy series, this fictional sport is played on broomsticks by two seven-player teams who score through elevated hooped goals while a Seeker pursues a small golden ball.",
+      "answer": "Quidditch",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Quidditch",
+          "url": "https://en.wikipedia.org/wiki/Quidditch",
+          "snippet": "Quidditch is a fictional sport invented by author J. K. Rowling for her fantasy book series Harry Potter. It first appeared in the novel Harry Potter and the Philosopher's Stone (1997). In the series, Quidditch is portrayed as a dangerous b"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:26.118Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Uppercut",
+      "external_id": "sgl-2026-06-29-009",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Thrown upward from a low position toward an opponent's chin, this boxing punch is counted — along with the cross — as one of the two 'power punches' in the sport's statistics.",
+      "answer": "Uppercut",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Uppercut",
+          "url": "https://en.wikipedia.org/wiki/Uppercut",
+          "snippet": "The uppercut is a punch used in boxing that starts low and travels upwards vertically aiming at the opponent's chin or upper abdomen. It is, along with the cross, one of the two main punches that count in the statistics as power punches."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:26.531Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Three-peat",
+      "external_id": "sgl-2026-06-29-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This term entered the sports lexicon during the Los Angeles Lakers' 1988–89 season, when the back-to-back defending champions fell short in their bid for another championship.",
+      "answer": "Three-peat",
+      "answer_type": "other",
+      "aliases": [
+        "three-peat",
+        "threepeat",
+        "3-peat"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "sports-records"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Three-peat",
+          "url": "https://en.wikipedia.org/wiki/Three-peat",
+          "snippet": "In sports, a three-peat is winning three consecutive championships or tournaments. The term, a portmanteau of the words three and repeat, originated with the Los Angeles Lakers of the National Basketball Association, during their unsuccessf"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:26.937Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bantamweight",
+      "external_id": "sgl-2026-06-29-011",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This combat-sports division, with an upper limit of 118 pounds for boxing, takes its name from a small breed of chicken known for its pluckiness.",
+      "answer": "Bantamweight",
+      "answer_type": "other",
+      "aliases": [
+        "bantam weight",
+        "bantam-weight"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bantamweight",
+          "url": "https://en.wikipedia.org/wiki/Bantamweight",
+          "snippet": "Bantamweight is a weight class in combat sports and weightlifting. For boxing, the range is above 115 lb (52.2 kg) and up to 118 lb (53.5 kg). In kickboxing, a bantamweight fighter generally weighs between 53 and 55 kilograms. In MMA, banta"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:27.340Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ty_Cobb",
+      "external_id": "sgl-2026-06-29-012",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On the inaugural 1936 ballot for the Baseball Hall of Fame, this Detroit Tigers outfielder received 222 out of 226 possible votes — the highest share of any player until Tom Seaver in 1992.",
+      "answer": "Ty Cobb",
+      "answer_type": "name",
+      "aliases": [
+        "Cobb"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ty Cobb",
+          "url": "https://en.wikipedia.org/wiki/Ty_Cobb",
+          "snippet": "Tyrus Raymond Cobb, nicknamed \"the Georgia Peach\", was an American professional baseball center fielder. A native of rural Narrows, Georgia, Cobb played 24 seasons in Major League Baseball (MLB). He spent 22 years with the Detroit Tigers an"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:27.753Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Five-hole",
+      "external_id": "sgl-2026-06-29-013",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First named by legendary goalie Jacques Plante in his 1972 instructional book, this ice hockey term describes the opening between a goaltender's legs that shooters aim to exploit.",
+      "answer": "Five-hole",
+      "answer_type": "other",
+      "aliases": [
+        "five hole",
+        "the five-hole",
+        "the five hole"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Five-hole",
+          "url": "https://en.wikipedia.org/wiki/Five-hole",
+          "snippet": "The five-hole is an ice hockey term for the space between a goaltender's legs. The name and its first recorded usage was in 1972 by legendary goalie Jacques Plante in his book, On Goaltending. The phrases through the five-hole and gone five"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:28.172Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chicago_Bears",
+      "external_id": "sgl-2026-06-29-014",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Along with the Arizona Cardinals — once known as the Racine Cardinals — this NFL franchise is one of only two clubs still competing from the league's 1920 founding.",
+      "answer": "Chicago Bears",
+      "answer_type": "other",
+      "aliases": [
+        "The Chicago Bears",
+        "Da Bears",
+        "Bears"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "football"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chicago Bears",
+          "url": "https://en.wikipedia.org/wiki/Chicago_Bears",
+          "snippet": "The Chicago Bears are a professional American football team based in Chicago. The Bears compete in the National Football League (NFL) as a member of the National Football Conference (NFC) North division. They are one of two remaining franch"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:28.582Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Larry_Bird",
+      "external_id": "sgl-2026-06-29-015",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "He is the only person in NBA history to be named Rookie of the Year, Most Valuable Player, Finals MVP, All-Star Game MVP, Coach of the Year, and Executive of the Year.",
+      "answer": "Larry Bird",
+      "answer_type": "name",
+      "aliases": [
+        "Bird"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "basketball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Larry Bird",
+          "url": "https://en.wikipedia.org/wiki/Larry_Bird",
+          "snippet": "Larry Joe Bird is an American former professional basketball player, coach, and executive in the National Basketball Association (NBA). Nicknamed \"the Hick from French Lick\" and \"Larry Legend\", Bird is widely regarded as one of the greatest"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T18:10:28.983Z"
+    }
+  ]
+}
