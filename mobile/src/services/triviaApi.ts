@@ -282,6 +282,25 @@ export async function listFriends(): Promise<FriendRow[]> {
   if (error) throwSupabaseError(error);
   return (data ?? []) as FriendRow[];
 }
+// Outgoing friend requests you've sent that are still pending (035). RLS hides the
+// addressee's profile until you're friends, so this reads via a SECURITY DEFINER RPC.
+export async function listSentFriendRequests(): Promise<{ id: string; username: string | null; display_name: string | null }[]> {
+  const { data, error } = await (supabase.rpc as any)('list_sent_friend_requests');
+  if (error) return []; // RPC ships in migration 035 — degrade quietly until it's applied
+  return (data ?? []) as { id: string; username: string | null; display_name: string | null }[];
+}
+// The signed-in user's own profile (for the home avatar initial).
+export async function getMyProfile(): Promise<{ username: string | null; display_name: string | null } | null> {
+  const { data: auth } = await supabase.auth.getUser();
+  const uid = auth.user?.id;
+  if (!uid) return null;
+  const { data, error } = await (supabase.from('profiles') as any)
+    .select('username, display_name')
+    .eq('id', uid)
+    .maybeSingle();
+  if (error) return null;
+  return (data as { username: string | null; display_name: string | null } | null) ?? null;
+}
 export async function sendFriendRequest(addresseeId: string): Promise<string> {
   const { data, error } = await (supabase.rpc as any)('send_friend_request', { p_addressee: addresseeId });
   if (error) throwSupabaseError(error);

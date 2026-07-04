@@ -55,7 +55,11 @@ function Touchable({
 /* ------------------------------------------------------------------ *
  * Layout
  * ------------------------------------------------------------------ */
-export function Screen({ children, contentStyle }: PropsWithChildren<{ contentStyle?: object }>) {
+export function Screen({
+  children,
+  contentStyle,
+  keyboardAware,
+}: PropsWithChildren<{ contentStyle?: object; keyboardAware?: boolean }>) {
   return (
     <SafeAreaView style={styles.safeArea} edges={['top']}>
       <ScrollView
@@ -65,6 +69,10 @@ export function Screen({ children, contentStyle }: PropsWithChildren<{ contentSt
         bounces={false}
         alwaysBounceVertical={false}
         overScrollMode="never"
+        // Screens with a text input near the bottom (e.g. Compete's friend search) opt in:
+        // insets grow with the keyboard so the field isn't covered and the list stays scrollable.
+        automaticallyAdjustKeyboardInsets={keyboardAware}
+        keyboardDismissMode={keyboardAware ? 'interactive' : 'none'}
       >
         {children}
       </ScrollView>

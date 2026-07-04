@@ -7,7 +7,7 @@ import { Card, Header, Pill, PrimaryAction, Screen, Section } from '@/src/compon
 import { tapMedium } from '@/src/lib/haptics';
 import {
   createInvite, getDailyChallenge, getDailyLeaderboard, getDailyStreak,
-  listFriends, listGames, respondFriendRequest, searchUsers, sendFriendRequest, submitDailyRun,
+  listFriends, listGames, listSentFriendRequests, respondFriendRequest, searchUsers, sendFriendRequest, submitDailyRun,
 } from '@/src/services/triviaApi';
 import { supabase } from '@/src/services/supabase';
 import { colors, radius, spacing, type } from '@/src/theme';
@@ -20,6 +20,7 @@ export default function CompeteScreen() {
   const [games, setGames] = useState<GameSummary[]>([]);
   const [friends, setFriends] = useState<FriendRow[]>([]);
   const [pending, setPending] = useState<{ id: string; name: string }[]>([]);
+  const [sent, setSent] = useState<{ id: string; name: string }[]>([]);
   const [loading, setLoading] = useState(true);
   const [playing, setPlaying] = useState(false);
 
@@ -32,7 +33,7 @@ export default function CompeteScreen() {
         getDailyChallenge(), getDailyStreak(), getDailyLeaderboard(), listGames(), listFriends(),
       ]);
       setDaily(d); setStreak(s); setBoard(lb); setGames(g); setFriends(fr);
-      await loadPending();
+      await Promise.all([loadPending(), loadSent()]);
     } catch (e) {
       Alert.alert('Could not load Compete', e instanceof Error ? e.message : 'Try again.');
     } finally {
@@ -48,6 +49,12 @@ export default function CompeteScreen() {
     setPending((data ?? []).map((r: any) => ({ id: r.id, name: r.display_name ?? r.username ?? 'Someone' })));
   }
 
+  // Outgoing (sent) pending invites — refreshed on load and right after sending one.
+  async function loadSent() {
+    const rows = await listSentFriendRequests();
+    setSent((rows ?? []).map((r) => ({ id: r.id, name: r.display_name ?? r.username ?? 'Someone' })));
+  }
+
   // Re-focus refetch, but skip if we loaded very recently — switching tabs back
   // and forth shouldn't fire 6 network calls each time. Friend/daily actions
   // call load() explicitly, so this only debounces the passive focus refetch.
@@ -61,6 +68,7 @@ export default function CompeteScreen() {
   const answered = daily?.my_attempts.length ?? 0;
   const setSize = daily?.set_size ?? 0;
   const dailyDone = !!daily?.completed;
+  const activeGames = games.filter((g) => g.status !== 'completed' && g.status !== 'expired');
 
   async function runSearch(text: string) {
     setQ(text);
@@ -68,7 +76,7 @@ export default function CompeteScreen() {
     try { setResults(await searchUsers(text.trim())); } catch { /* ignore transient */ }
   }
   async function addFriend(u: UserSearchRow) {
-    try { await sendFriendRequest(u.id); Alert.alert('Request sent', `Friend request sent to ${u.display_name ?? u.username}.`); void runSearch(q); }
+    try { await sendFriendRequest(u.id); Alert.alert('Request sent', `Friend request sent to ${u.display_name ?? u.username}.`); void runSearch(q); void loadSent(); }
     catch (e) { Alert.alert('Could not send', e instanceof Error ? e.message : 'Try again.'); }
   }
   async function respond(id: string, accept: boolean) {
@@ -110,7 +118,7 @@ export default function CompeteScreen() {
   }
 
   return (
-    <Screen>
+    <Screen keyboardAware>
       <Header kicker="Compete" title="Compete" right={streak > 0 ? <Pill tone="gold">{`🔥 ${streak}`}</Pill> : undefined} />
 
       {/* Daily Challenge hero */}
@@ -150,11 +158,22 @@ export default function CompeteScreen() {
         </Section>
       ) : null}
 
-      {/* Duels */}
-      <Section title="Duels" right={<Pressable onPress={() => router.push('/duel/new' as any)}><Text style={styles.link}>New</Text></Pressable>}>
-        {games.length === 0 ? (
-          <Text style={styles.empty}>No duels yet. Challenge a friend to a 6-clue head-to-head.</Text>
-        ) : games.map((g) => (
+      {/* Duels — active only inline; completed ones live behind History so the list
+          doesn't pile up. */}
+      <Section
+        title="Duels"
+        right={
+          <View style={styles.sectionLinks}>
+            {games.some((g) => g.status === 'completed' || g.status === 'expired') ? (
+              <Pressable onPress={() => router.push('/duel/history' as any)}><Text style={styles.link}>History</Text></Pressable>
+            ) : null}
+            <Pressable onPress={() => router.push('/duel/new' as any)}><Text style={styles.link}>New</Text></Pressable>
+          </View>
+        }
+      >
+        {activeGames.length === 0 ? (
+          <Text style={styles.empty}>No active duels. Challenge a friend to a 6-clue head-to-head.</Text>
+        ) : activeGames.map((g) => (
           <Pressable key={g.id} onPress={() => router.push(`/duel/${g.id}` as any)} style={({ pressed }) => [styles.duelRow, pressed && styles.duelPressed]}>
             <View style={styles.flex}>
               <Text style={styles.duelName} numberOfLines={1}>{g.opponent_name ?? g.opponent_username ?? 'Opponent'}</Text>
@@ -205,6 +224,18 @@ export default function CompeteScreen() {
           </>
         ) : null}
 
+        {sent.length > 0 && results.length === 0 ? (
+          <>
+            <Text style={styles.subhead}>Sent</Text>
+            {sent.map((s) => (
+              <View key={s.id} style={styles.friendRow}>
+                <Text style={styles.friendName} numberOfLines={1}>{s.name}</Text>
+                <Pill>Pending</Pill>
+              </View>
+            ))}
+          </>
+        ) : null}
+
         {friends.length > 0 && results.length === 0 ? (
           <>
             <Text style={styles.subhead}>Your friends</Text>
@@ -245,5 +276,6 @@ const styles = StyleSheet.create({
   reqBtns: { flexDirection: 'row', gap: spacing.md },
   subhead: { ...type.overline, color: colors.muted, marginTop: spacing.sm },
   link: { ...type.label, color: colors.teal },
+  sectionLinks: { flexDirection: 'row', gap: spacing.md },
   empty: { ...type.body, color: colors.dim },
 });

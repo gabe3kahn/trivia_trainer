@@ -3,11 +3,44 @@ import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
+import * as Updates from 'expo-updates';
+import { useEffect, useRef } from 'react';
+import { AppState } from 'react-native';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/components/useColorScheme';
 import { AuthProvider } from '@/src/contexts/AuthContext';
+
+// Apply OTA updates automatically instead of the default "downloads now, applies on the
+// NEXT cold start" behavior (which is why an update took two force-quits to appear). On
+// launch and when returning to the foreground, check → download → reload into the new
+// bundle in one go. Dev builds / Expo Go have Updates disabled, so this is a no-op there.
+function useOtaAutoReload() {
+  const busy = useRef(false);
+  useEffect(() => {
+    if (__DEV__ || !Updates.isEnabled) return;
+    const apply = async () => {
+      if (busy.current) return;
+      busy.current = true;
+      try {
+        const check = await Updates.checkForUpdateAsync();
+        if (check.isAvailable) {
+          await Updates.fetchUpdateAsync();
+          await Updates.reloadAsync();
+        }
+      } catch {
+        // offline / no update / mid-download — leave the current bundle running
+      } finally {
+        busy.current = false;
+      }
+    };
+    void apply();
+    const sub = AppState.addEventListener('change', (state) => {
+      if (state === 'active') void apply();
+    });
+    return () => sub.remove();
+  }, []);
+}
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -48,6 +81,7 @@ export default function RootLayout() {
 
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
+  useOtaAutoReload();
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
@@ -63,6 +97,7 @@ function RootLayoutNav() {
           <Stack.Screen name="badges" options={{ headerShown: false }} />
           <Stack.Screen name="duel/[id]" options={{ title: 'Duel', headerBackButtonDisplayMode: 'minimal' }} />
           <Stack.Screen name="duel/new" options={{ presentation: 'modal', title: 'New duel' }} />
+          <Stack.Screen name="duel/history" options={{ headerShown: false }} />
         </Stack>
       </AuthProvider>
     </ThemeProvider>

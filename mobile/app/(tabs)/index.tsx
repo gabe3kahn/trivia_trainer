@@ -11,6 +11,7 @@ import {
   getActivitySummary,
   getCompetencyTimeseries,
   getDailyStreak,
+  getMyProfile,
   type ActivityDay,
   type CompetencyPoint,
 } from '@/src/services/triviaApi';
@@ -27,23 +28,27 @@ export default function HomeScreen() {
   const [activityDaily, setActivityDaily] = useState<ActivityDay[]>([]);
   const [competencySeries, setCompetencySeries] = useState<CompetencyPoint[]>([]);
   const [streak, setStreak] = useState(0);
+  const [avatarInitial, setAvatarInitial] = useState('');
   const [error, setError] = useState<string | null>(null);
 
   const loadHome = useCallback(async () => {
     try {
       setError(null);
-      const [categoryRows, competencyRows, summary, streakCount, series] = await Promise.all([
+      const [categoryRows, competencyRows, summary, streakCount, series, profile] = await Promise.all([
         fetchCategories(),
         fetchHomeCompetencies(),
         getActivitySummary(30),
         getDailyStreak(),
         getCompetencyTimeseries(30),
+        getMyProfile(),
       ]);
       setCategories(categoryRows ?? []);
       setCompetencies(competencyRows ?? []);
       setActivityDaily(summary.daily ?? []);
       setStreak(streakCount ?? 0);
       setCompetencySeries(series ?? []);
+      const name = profile?.username || profile?.display_name || '';
+      setAvatarInitial(name.trim().charAt(0).toUpperCase());
     } catch (nextError) {
       setError(nextError instanceof Error ? nextError.message : 'Could not load home data.');
     }
@@ -125,7 +130,7 @@ export default function HomeScreen() {
 
   return (
     <Screen>
-      <Header logo title="Home" right={<Avatar />} />
+      <Header logo title="Home" right={<Avatar label={avatarInitial || undefined} />} />
 
       <StreakStrip daily={activityDaily} streak={streak} />
 

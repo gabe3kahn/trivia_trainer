@@ -204,7 +204,7 @@ Old packs can fall out of sync with the live schema and stop re-importing. To ma
 
 Ships via **EAS Update** (channel `production`, which TestFlight builds use). The runtimeVersion policy is **`fingerprint`**, so an over-the-air update only reaches a build whose fingerprint hash matches the update's.
 
-- **JS / asset-only change → OTA:** `eas update --channel production --message "…"`.
+- **JS / asset-only change → OTA:** `eas update --channel production --message "…"`. The app **auto-applies** updates — `_layout.tsx` checks → fetches → `reloadAsync()` on launch and on foreground — so a published update lands on the next launch without the default two-force-quits (download-now-apply-next-launch). No-op in dev / Expo Go.
 - **Native change (new native dep, `app.json`, a config plugin) → rebuild + submit.** A rebuild also resets the fingerprint baseline.
 
 **Check before publishing** — compare the current tree's fingerprint to the installed build's:
@@ -228,11 +228,19 @@ The mobile app (`mobile/`, Expo SDK 54, expo-router, StyleSheet) follows a few s
 - **Scoring = difficulty rank.** A run's points are the sum of each correct answer's `difficulty_rank` (1–5), matching daily/duel scoring — not the Jeopardy dollar value.
 - **Badges** award via a trigger on the `category_competencies` overall row (`030`), surfaced by an app-wide unlock modal (`BadgeUnlockContext` / `useBadgeUnlock` / `BadgeUnlockModal`).
 - **Answer-reveal casing.** The grader sentence-cases the revealed answer for display, but store answers properly cased anyway — other surfaces show the raw value (brands keep their own casing, e.g. `23andMe`).
-- **Design tokens** live in `theme.ts` (`type` / `radius` / `spacing` / `colors` / `accentFor`); shared components in `ui.tsx` (`Screen`, `ScoreRing`, `Touchable`, `Card`, `ModeCard`, `CategoryScoreRow`, `PrimaryAction`). The shared `Screen` ScrollView disables bounce/overscroll so content doesn't scroll past the bottom on short screens, and `Touchable` adds a short press delay so scroll-drags don't fire taps.
+- **Design tokens** live in `theme.ts` (`type` / `radius` / `spacing` / `colors` / `accentFor`); shared components in `ui.tsx` (`Screen`, `ScoreRing`, `Touchable`, `Card`, `ModeCard`, `CategoryScoreRow`, `PrimaryAction`). The shared `Screen` ScrollView disables bounce/overscroll so content doesn't scroll past the bottom on short screens, and `Touchable` adds a short press delay so scroll-drags don't fire taps. Screens with a text input near the bottom pass `<Screen keyboardAware>` so the keyboard doesn't cover the field.
 
-## Multiplayer / Competitive (designed, not built)
+## Multiplayer / Competitive
 
-The full back-end + front-end design lives in **[`planning/multiplayer-design.md`](planning/multiplayer-design.md)**. Decisions: opponents can be **friends or random matchmaking**; the competitive layer is **1v1 duels + a shared daily challenge + leaderboards**; **push notifications** are included. It ships in phases — **async turn-based first, live (Supabase Realtime) later** — and grading starts client-side (honor system) then moves to a server-side Supabase Edge Function that reuses `answerGrader`. Recommended build order: **M1** friends + 1v1 async duel → **M2** daily challenge + leaderboards → **M3** random matchmaking → **M4** push. The doc covers linking users into a game (friendship → frozen shared `question_ids` → per-player attempts) and determining wins/losses (points, finalize/tiebreak/forfeit rules). It builds on the existing `games`, `game_attempts`, and `friendships` tables; the next concrete step is migration `014_multiplayer.sql` plus the RPC set, RLS, and the Social-tab UI.
+The **Compete** tab is live (original design in [`planning/multiplayer-design.md`](planning/multiplayer-design.md)). Built and shipped:
+
+- **Friends** (`014_multiplayer.sql`, `020`, `035`): search users, send/accept requests, and share invite links. Compete shows **incoming** requests (`list_friend_requests`) and **sent/outgoing** pending invites (`list_sent_friend_requests`). RLS hides other users' profiles until you're friends, so identity reads go through `SECURITY DEFINER` RPCs.
+- **1v1 duels** (`014`/`018`): async turn-based, 6 clues, 30s each, a frozen shared `question_ids` set, per-player `game_attempts`. Scoring is **difficulty rank** (1–5) per correct answer, not dollars; `finalize_game` decides the winner (score → correct → draw) once both finish. Active duels show inline on Compete; completed ones live behind a **History** link (`app/duel/history.tsx`). Attempts are **buffered and committed in one batch at the end** (`submit_game_run`, migration `033`).
+- **Daily challenge** (`017`/`019`): one shared 7-clue set per day, 30s each, a friends leaderboard (score → correct → time) and a streak. Same batch-commit flow (`submit_daily_run`).
+
+Grading is still **client-side** (`answerGrader`); competency/badges recompute once at run end (see Frontend conventions).
+
+Not built yet: **random matchmaking** (duels are friend-based today) and **push notifications** — the remaining phases from the design doc.
 
 ## Roadmap / Next Steps
 
