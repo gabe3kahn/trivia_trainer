@@ -72,13 +72,27 @@ const isImage = (q) => Boolean(q.image_url);
 const packExternalIds = new Set(questions.map((q) => q.external_id).filter(Boolean));
 const activeRows = await fetchAllSupabaseRows(
   request,
-  '/rest/v1/questions?select=answer,external_id,category_id,image_url&is_active=eq.true',
+  '/rest/v1/questions?select=answer,aliases,external_id,category_id,image_url&is_active=eq.true',
 );
+// A clue is identified for dedup by ANY of its acceptable answers — the primary
+// plus every alias. Index and compare on all of them so a draft collides even when
+// its primary answer matches a live clue's ALIAS or vice versa (e.g. draft primary
+// "Absolute pitch" vs a live "Perfect pitch" whose alias is "Absolute pitch" — the
+// answer-only gate missed these).
+const answerKeys = (row) => {
+  const keys = new Set();
+  for (const value of [row.answer, ...(Array.isArray(row.aliases) ? row.aliases : [])]) {
+    const key = normAnswer(value);
+    if (key) keys.add(key);
+  }
+  return keys;
+};
 const activeByAnswer = new Map();
 for (const row of activeRows) {
-  const key = normAnswer(row.answer);
-  if (!key) continue;
-  (activeByAnswer.get(key) ?? activeByAnswer.set(key, []).get(key)).push(row);
+  for (const key of answerKeys(row)) {
+    if (!activeByAnswer.has(key)) activeByAnswer.set(key, []);
+    activeByAnswer.get(key).push(row);
+  }
 }
 const bankCollisions = [];
 for (const question of questions) {
@@ -88,12 +102,16 @@ for (const question of questions) {
   if (question.allow_duplicate === true) continue;
   const packWordplay = isWordplay(question.category_id);
   const packImage = isImage(question);
-  const hits = (activeByAnswer.get(normAnswer(question.answer)) ?? []).filter(
-    (row) =>
-      !packExternalIds.has(row.external_id) &&
-      isWordplay(row.category_id) === packWordplay &&
-      isImage(row) === packImage,
-  );
+  const seen = new Set();
+  const hits = [];
+  for (const key of answerKeys(question)) {
+    for (const row of activeByAnswer.get(key) ?? []) {
+      if (packExternalIds.has(row.external_id) || seen.has(row.external_id)) continue;
+      if (isWordplay(row.category_id) !== packWordplay || isImage(row) !== packImage) continue;
+      seen.add(row.external_id);
+      hits.push(row);
+    }
+  }
   if (hits.length) bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
 }
 if (bankCollisions.length) {
