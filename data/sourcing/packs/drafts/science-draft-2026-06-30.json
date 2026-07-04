@@ -1,0 +1,496 @@
+{
+  "pack_id": "science-draft-2026-06-30",
+  "category_id": "science",
+  "created_at": "2026-06-30",
+  "notes": [
+    "Under-covered tier: $1000. Pack weighted toward $800 and $1000.",
+    "Thin subcategories filled: Physics (Lepton $800, Quark $1000), Earth Science (Dew point, Altostratus), Inventions & Discoveries (Aqua-Lung).",
+    "Hard tail: Altostratus ($800), Lepton ($800), Sleeping sickness ($800), Sandhill crane ($800), Tin ($1000), Quark ($1000)."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "external_id": "science-2026-06-30-001",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The biological process by which most plants, algae, and cyanobacteria convert light energy — typically from sunlight — into the chemical energy needed to fuel their metabolism, releasing oxygen as a byproduct.",
+      "answer": "Photosynthesis",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Photosynthesis",
+          "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+          "snippet": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy — typically from sunlight — into the chemical energy necessary to fue"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:10.686Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Blood_pressure",
+      "external_id": "science-2026-06-30-002",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Expressed as two measurements — the higher systolic figure captured during heartbeats and the lower diastolic figure between them — this cardiovascular reading is typically taken at the brachial artery and reported in millimeters of mercury.",
+      "answer": "Blood pressure",
+      "answer_type": "other",
+      "aliases": [
+        "BP"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Blood pressure",
+          "url": "https://en.wikipedia.org/wiki/Blood_pressure",
+          "snippet": "Blood pressure (BP) is the pressure of circulating blood against the walls of blood vessels. Most of this pressure results from the heart pumping blood through the circulatory system. When used without qualification, the term \"blood pressur"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:11.119Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/DNA",
+      "external_id": "science-2026-06-30-003",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A polymer composed of two polynucleotide chains coiled around each other in a double helix, this molecule carries the genetic instructions for the development and reproduction of all known organisms and many viruses.",
+      "answer": "DNA",
+      "answer_type": "other",
+      "aliases": [
+        "deoxyribonucleic acid"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "DNA",
+          "url": "https://en.wikipedia.org/wiki/DNA",
+          "snippet": "Deoxyribonucleic acid is a polymer composed of two polynucleotide chains that coil around each other to form a double helix. The polymer carries genetic instructions for the development, functioning, growth and reproduction of all known org"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:11.489Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Millipede",
+      "external_id": "science-2026-06-30-004",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "These many-legged arthropods roll into a tight spiral when threatened and move with a slow, rippling wave of their legs; each of their body rings is formed from two fused segments, giving them two pairs of legs per ring.",
+      "answer": "Millipede",
+      "answer_type": "other",
+      "aliases": [
+        "millipedes",
+        "diplopod"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "animals-plants"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Millipede",
+          "url": "https://en.wikipedia.org/wiki/Millipede",
+          "snippet": "Millipedes are a group of arthropods that are characterised by having two pairs of jointed legs on most body segments; they are known scientifically as the class Diplopoda, the name derived from this feature. Each double-legged segment is a"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:11.872Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dew_point",
+      "external_id": "science-2026-06-30-005",
+      "category_id": "science",
+      "subcategory_name": "Earth Science",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The temperature at which air, cooled at constant pressure, becomes saturated and its water vapor begins to condense into liquid droplets.",
+      "answer": "Dew point",
+      "answer_type": "other",
+      "aliases": [
+        "dewpoint"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "earth-science"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dew point",
+          "url": "https://en.wikipedia.org/wiki/Dew_point",
+          "snippet": "The dew point is the temperature that air, of a constant absolute humidity and pressure, must be cooled to in order for the relative humidity to rise to 100%. This temperature is a thermodynamic property that depends on the pressure and wat"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:12.303Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Aqua-Lung",
+      "external_id": "science-2026-06-30-006",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Invented in France during the winter of 1942–43 by engineer Émile Gagnan and naval officer Jacques Cousteau, this device was the first open-circuit, self-contained underwater breathing apparatus to achieve worldwide commercial success.",
+      "answer": "Aqua-Lung",
+      "answer_type": "other",
+      "aliases": [
+        "Aqualung",
+        "Aqua Lung",
+        "aqua-lung"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "inventions-discoveries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Aqua-Lung",
+          "url": "https://en.wikipedia.org/wiki/Aqua-Lung",
+          "snippet": "Aqua-Lung was the first open-circuit, self-contained underwater breathing apparatus to achieve worldwide popularity and commercial success. This class of equipment is now commonly referred to as a twin-hose diving regulator, or demand valve"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:12.741Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Stem_cell",
+      "external_id": "science-2026-06-30-007",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Found in both embryonic and adult organisms, these undifferentiated precursors can differentiate into any of a body's specialized tissue types and proliferate indefinitely, making them central to regenerative medicine research.",
+      "answer": "Stem cells",
+      "answer_type": "other",
+      "aliases": [
+        "stem cell"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Stem cell",
+          "url": "https://en.wikipedia.org/wiki/Stem_cell",
+          "snippet": "In multicellular organisms, stem cells are undifferentiated or partially differentiated cells that can change into various types of cells and proliferate indefinitely to produce more of the same stem cell. They are the earliest type of cell"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:13.171Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Manhattan_Project",
+      "external_id": "science-2026-06-30-008",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Directed by Major General Leslie Groves and absorbing Britain's Tube Alloys initiative, this WWII research program produced two distinct weapon designs — a gun-type model and an implosion type — before its first successful test at White Sands in July 1945.",
+      "answer": "Manhattan Project",
+      "answer_type": "other",
+      "aliases": [
+        "the Manhattan Project"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "inventions-discoveries"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Manhattan Project",
+          "url": "https://en.wikipedia.org/wiki/Manhattan_Project",
+          "snippet": "The Manhattan Project was a research and development program undertaken during World War II to produce the first nuclear weapons. It was led by the United States in collaboration with the United Kingdom and Canada. The Manhattan Project emp"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:13.606Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gold",
+      "external_id": "science-2026-06-30-009",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This dense, malleable transition metal with atomic number 79 is the second-least reactive of all elements, surpassed in that regard only by platinum.",
+      "answer": "Gold",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gold",
+          "url": "https://en.wikipedia.org/wiki/Gold",
+          "snippet": "Gold is a chemical element; its chemical symbol is Au and atomic number 79. In its pure form, it is a bright-metallic-yellow, dense, soft, malleable, and ductile metal. Chemically, gold is a transition metal, a group 11 element, and one of "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:10:13.989Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Altostratus_cloud",
+      "external_id": "science-2026-06-30-010",
+      "category_id": "science",
+      "subcategory_name": "Earth Science",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This middle-altitude cloud type forms flat, uniform sheets that develop horizontally in the mid-levels of the atmosphere; it can be composed of water droplets, ice crystals, or both, and the sun is sometimes visible through its thinner layers.",
+      "answer": "Altostratus",
+      "answer_type": "other",
+      "aliases": [
+        "altostratus cloud",
+        "altostratus clouds"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "earth-science"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Altostratus cloud",
+          "url": "https://en.wikipedia.org/wiki/Altostratus_cloud",
+          "snippet": "Altostratus are middle-altitude clouds that develop horizontally and have a flat and uniform texture in the mid levels. As a middle-altitude cloud type, they can be made up of water droplets, ice crystals, or a mixture of the two."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:11:01.520Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lepton",
+      "external_id": "science-2026-06-30-011",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This elementary particle of half-integer spin does not undergo strong interactions and comes in six types — including the electron, muon, and tauon among the charged class, plus three corresponding neutrinos.",
+      "answer": "Lepton",
+      "answer_type": "other",
+      "aliases": [
+        "leptons"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lepton",
+          "url": "https://en.wikipedia.org/wiki/Lepton",
+          "snippet": "In particle physics, a lepton is an elementary particle of half-integer spin that does not undergo strong interactions. Two main classes of leptons exist: charged leptons, including the electron, muon, and tauon, and neutral leptons, better"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:11:01.896Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/African_trypanosomiasis",
+      "external_id": "science-2026-06-30-012",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Caused by the protozoan Trypanosoma brucei and transmitted through the bite of an infected tsetse fly, this parasitic disease endemic to sub-Saharan Africa causes fever, swollen lymph nodes, and eventual neurological deterioration if untreated.",
+      "answer": "Sleeping sickness",
+      "answer_type": "other",
+      "aliases": [
+        "African sleeping sickness",
+        "African trypanosomiasis",
+        "human African trypanosomiasis"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "medicine-anatomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "African trypanosomiasis",
+          "url": "https://en.wikipedia.org/wiki/African_trypanosomiasis",
+          "snippet": "African trypanosomiasis is an insect-borne parasitic infection of humans and other animals caused by the protozoan species Trypanosoma brucei, which is transmitted by the bite of an infected tsetse fly. Human African trypanosomiasis (HAT) i"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:11:02.278Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sandhill_crane",
+      "external_id": "science-2026-06-30-013",
+      "category_id": "science",
+      "subcategory_name": "Animals & Plants",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Each year, up to 450,000 members of the lesser subspecies of this large, red-capped North American bird converge on the central Platte River Valley in Nebraska — the most critical stopover in their annual migration from Gulf Coast wintering grounds to Arctic breeding territory.",
+      "answer": "Sandhill crane",
+      "answer_type": "other",
+      "aliases": [
+        "sandhill cranes",
+        "Antigone canadensis"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "animals-plants"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sandhill crane",
+          "url": "https://en.wikipedia.org/wiki/Sandhill_crane",
+          "snippet": "The sandhill crane is a species of large crane of North America and extreme northeastern Siberia. The common name of this bird refers to its habitat, such as the Platte River, on the edge of Nebraska's Sandhills on the American Great Plains"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:11:02.649Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tin",
+      "external_id": "science-2026-06-30-014",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "When a bar of this atomic-number-50 element is slowly bent by hand, its crystal lattice undergoes twinning — a deformation process that produces a distinctive crackling sound audible without any instruments.",
+      "answer": "Tin",
+      "answer_type": "other",
+      "aliases": [
+        "Sn",
+        "stannum"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tin",
+          "url": "https://en.wikipedia.org/wiki/Tin",
+          "snippet": "Tin is a chemical element; it has the symbol Sn and atomic number 50. A metallic-gray metal, tin is soft enough to be cut with little force, and a bar of tin can be bent by hand with little effort. When bent, a bar of tin makes a sound, the"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:11:03.019Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Quark",
+      "external_id": "science-2026-06-30-015",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Due to a phenomenon known as color confinement, this fundamental constituent of matter has never been observed in isolation — it exists only within composite particles called hadrons, such as protons, neutrons, and mesons.",
+      "answer": "Quark",
+      "answer_type": "other",
+      "aliases": [
+        "quarks"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Quark",
+          "url": "https://en.wikipedia.org/wiki/Quark",
+          "snippet": "A quark is a type of elementary particle and a fundamental constituent of matter. Quarks combine to form composite particles called hadrons, the most stable of which are protons and neutrons, the components of atomic nuclei. All commonly ob"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-04T21:11:03.452Z"
+    }
+  ]
+}

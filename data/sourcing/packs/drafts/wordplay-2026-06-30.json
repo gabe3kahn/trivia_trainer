@@ -1,0 +1,220 @@
+{
+  "pack_id": "wordplay-2026-06-30",
+  "category_id": "language_wordplay",
+  "created_at": "2026-06-30T00:00:00.000Z",
+  "notes": "Run 2026-06-30. Mechanics: Before & After (5) + Rhyme Time (5). B&A last used 2026-06-26; Rhyme Time last used 2026-06-27. All 10 answers are fresh across every prior wordplay pack. B&A answers: Iron Curtain Call (Iron Curtain + Curtain Call), Ground Floor Plan (Ground Floor + Floor Plan), Rock and Roll Call (Rock and Roll + Roll Call), Music Box Office (Music Box + Box Office), Dead Heat Wave (Dead Heat + Heat Wave). Rhyme Time answers: Fine Wine, Dream Team, Mop Top, Neat Feat, Dark Park.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-30-ba-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "As the barrier that had divided the continent's competing blocs finally came down, the previously separated artists stepped forward together to acknowledge the long-withheld applause of their newly united audience.",
+      "answer": "Iron Curtain Call",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Iron Curtain",
+        "second": "Curtain Call"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-30-ba-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The legendary music educator was known for checking attendance before anyone switched on an amplifier, insisting every student be present at the start of each electrifying session.",
+      "answer": "Rock and Roll Call",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Rock and Roll",
+        "second": "Roll Call"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-30-ba-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "Two runners racing through the stifling afternoon sun cross the finish line simultaneously.",
+      "answer": "Dead Heat Wave",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Dead Heat",
+        "second": "Heat Wave"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-30-rt-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "A well-aged grape beverage reserved for only the most special of occasions",
+      "answer": "Fine Wine",
+      "answer_type": "other",
+      "aliases": [
+        "wine fine"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "fine",
+          "wine"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme-time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-30-rt-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "An all-star lineup cherry-picked from the sport's very best for a single special competition",
+      "answer": "Dream Team",
+      "answer_type": "other",
+      "aliases": [
+        "team dream"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "dream",
+          "team"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme-time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-30-rt-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "The distinctive overgrown bowl-cut hairstyle made iconic by famous early 1960s British musicians",
+      "answer": "Mop Top",
+      "answer_type": "other",
+      "aliases": [
+        "top mop"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "mop",
+          "top"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme-time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-30-rt-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "An admirably well-executed and accomplished achievement",
+      "answer": "Neat Feat",
+      "answer_type": "other",
+      "aliases": [
+        "feat neat"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "neat",
+          "feat"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme-time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-06-30-rt-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "rhyme_time",
+      "constraint_text": null,
+      "clue": "A normally welcoming recreational green space takes on an eerie, foreboding character due to the overgrown, looming trees",
+      "answer": "Dark Park",
+      "answer_type": "other",
+      "aliases": [
+        "park dark"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "dark",
+          "park"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme-time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
