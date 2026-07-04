@@ -36,7 +36,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:30.031Z"
+      "verified_at": "2026-07-04T21:10:10.686Z"
     },
     {
       "source": "original_sourced",
@@ -44,8 +44,8 @@
       "external_id": "science-2026-06-30-002",
       "category_id": "science",
       "subcategory_name": "Medicine & Anatomy",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Expressed as two measurements — the higher systolic figure captured during heartbeats and the lower diastolic figure between them — this cardiovascular reading is typically taken at the brachial artery and reported in millimeters of mercury.",
@@ -68,7 +68,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:30.385Z"
+      "verified_at": "2026-07-04T21:10:11.119Z"
     },
     {
       "source": "original_sourced",
@@ -76,8 +76,8 @@
       "external_id": "science-2026-06-30-003",
       "category_id": "science",
       "subcategory_name": "Biology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "A polymer composed of two polynucleotide chains coiled around each other in a double helix, this molecule carries the genetic instructions for the development and reproduction of all known organisms and many viruses.",
@@ -100,7 +100,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:30.741Z"
+      "verified_at": "2026-07-04T21:10:11.489Z"
     },
     {
       "source": "original_sourced",
@@ -112,7 +112,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Members of the class Diplopoda, these arthropods are named from the Latin for 'thousand feet' — though they actually have far fewer; each of their elongated body segments is formed from two fused single segments, giving them their characteristic paired-legs appearance.",
+      "clue": "These many-legged arthropods roll into a tight spiral when threatened and move with a slow, rippling wave of their legs; each of their body rings is formed from two fused segments, giving them two pairs of legs per ring.",
       "answer": "Millipede",
       "answer_type": "other",
       "aliases": [
@@ -133,7 +133,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:31.096Z"
+      "verified_at": "2026-07-04T21:10:11.872Z"
     },
     {
       "source": "original_sourced",
@@ -145,7 +145,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The temperature to which air must be cooled — at constant pressure — for its relative humidity to reach 100 percent, at which point water vapor begins to condense into liquid droplets.",
+      "clue": "The temperature at which air, cooled at constant pressure, becomes saturated and its water vapor begins to condense into liquid droplets.",
       "answer": "Dew point",
       "answer_type": "other",
       "aliases": [
@@ -165,7 +165,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:31.452Z"
+      "verified_at": "2026-07-04T21:10:12.303Z"
     },
     {
       "source": "original_sourced",
@@ -199,7 +199,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:31.806Z"
+      "verified_at": "2026-07-04T21:10:12.741Z"
     },
     {
       "source": "original_sourced",
@@ -231,7 +231,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:32.162Z"
+      "verified_at": "2026-07-04T21:10:13.171Z"
     },
     {
       "source": "original_sourced",
@@ -263,7 +263,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:32.518Z"
+      "verified_at": "2026-07-04T21:10:13.606Z"
     },
     {
       "source": "original_sourced",
@@ -275,7 +275,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Its chemical symbol Au derives from the Latin aurum; this dense, malleable transition metal with atomic number 79 is the second-least reactive of all elements, surpassed in that regard only by platinum.",
+      "clue": "This dense, malleable transition metal with atomic number 79 is the second-least reactive of all elements, surpassed in that regard only by platinum.",
       "answer": "Gold",
       "answer_type": "other",
       "aliases": [],
@@ -293,7 +293,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:32.873Z"
+      "verified_at": "2026-07-04T21:10:13.989Z"
     },
     {
       "source": "original_sourced",
@@ -326,7 +326,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:33.229Z"
+      "verified_at": "2026-07-04T21:11:01.520Z"
     },
     {
       "source": "original_sourced",
@@ -338,7 +338,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In particle physics, this elementary particle of half-integer spin does not undergo strong interactions and comes in six types — including the electron, muon, and tauon among the charged class, plus three corresponding neutrinos.",
+      "clue": "This elementary particle of half-integer spin does not undergo strong interactions and comes in six types — including the electron, muon, and tauon among the charged class, plus three corresponding neutrinos.",
       "answer": "Lepton",
       "answer_type": "other",
       "aliases": [
@@ -358,7 +358,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:33.584Z"
+      "verified_at": "2026-07-04T21:11:01.896Z"
     },
     {
       "source": "original_sourced",
@@ -370,7 +370,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Caused by the protozoan Trypanosoma brucei, which is transmitted through the bite of an infected tsetse fly, this insect-borne African disease is formally known as human African trypanosomiasis.",
+      "clue": "Caused by the protozoan Trypanosoma brucei and transmitted through the bite of an infected tsetse fly, this parasitic disease endemic to sub-Saharan Africa causes fever, swollen lymph nodes, and eventual neurological deterioration if untreated.",
       "answer": "Sleeping sickness",
       "answer_type": "other",
       "aliases": [
@@ -392,7 +392,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:33.938Z"
+      "verified_at": "2026-07-04T21:11:02.278Z"
     },
     {
       "source": "original_sourced",
@@ -404,7 +404,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Each year, up to 450,000 of the lesser subspecies of this large North American bird (Antigone canadensis) converge on the central Platte River Valley in Nebraska during their annual migration — the most important stopover for the species.",
+      "clue": "Each year, up to 450,000 members of the lesser subspecies of this large, red-capped North American bird converge on the central Platte River Valley in Nebraska — the most critical stopover in their annual migration from Gulf Coast wintering grounds to Arctic breeding territory.",
       "answer": "Sandhill crane",
       "answer_type": "other",
       "aliases": [
@@ -425,7 +425,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:34.294Z"
+      "verified_at": "2026-07-04T21:11:02.649Z"
     },
     {
       "source": "original_sourced",
@@ -437,7 +437,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "When a bar of this element with atomic number 50 is slowly bent by hand, its crystals undergo a process called twinning that emits a characteristic crackling sound — a phenomenon that has lent the element's own name to the noise it makes.",
+      "clue": "When a bar of this atomic-number-50 element is slowly bent by hand, its crystal lattice undergoes twinning — a deformation process that produces a distinctive crackling sound audible without any instruments.",
       "answer": "Tin",
       "answer_type": "other",
       "aliases": [
@@ -458,7 +458,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:34.648Z"
+      "verified_at": "2026-07-04T21:11:03.019Z"
     },
     {
       "source": "original_sourced",
@@ -490,7 +490,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:26:35.003Z"
+      "verified_at": "2026-07-04T21:11:03.452Z"
     }
   ]
 }

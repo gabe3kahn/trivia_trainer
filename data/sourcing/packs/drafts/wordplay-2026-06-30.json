@@ -13,37 +13,13 @@
       "difficulty_rank": 3,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "As the barrier that had divided the continent's competing blocs finally came down, the artists who had been separated by it stepped forward together to acknowledge the long-withheld applause of their newly united audience.",
+      "clue": "As the barrier that had divided the continent's competing blocs finally came down, the previously separated artists stepped forward together to acknowledge the long-withheld applause of their newly united audience.",
       "answer": "Iron Curtain Call",
       "answer_type": "other",
       "aliases": [],
       "wp": {
         "first": "Iron Curtain",
         "second": "Curtain Call"
-      },
-      "tags": [
-        "wp-draft",
-        "before-after"
-      ],
-      "citations": [],
-      "verification_status": "skipped"
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-06-30-ba-02",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Before & After",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "before_after",
-      "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The young architect unrolled a blueprint of a building's street-level lobby and entry area, tracing how visitors would first step inside.",
-      "answer": "Ground Floor Plan",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "first": "Ground Floor",
-        "second": "Floor Plan"
       },
       "tags": [
         "wp-draft",
@@ -78,30 +54,6 @@
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-06-30-ba-04",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Before & After",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "before_after",
-      "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "As the curtain was set to rise, a visitor wound the tiny keepsake she carried and let its tinkling tune carry her to the window where she bought the final seat of the evening.",
-      "answer": "Music Box Office",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "first": "Music Box",
-        "second": "Box Office"
-      },
-      "tags": [
-        "wp-draft",
-        "before-after"
-      ],
-      "citations": [],
-      "verification_status": "skipped"
-    },
-    {
-      "source": "constructed",
       "external_id": "wordplay-2026-06-30-ba-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Before & After",
@@ -109,7 +61,7 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "Neither runner could be named the winner that stifling afternoon, as the summer air hung so thick and heavy that both crossed the finish line simultaneously.",
+      "clue": "Two runners racing through the stifling afternoon sun cross the finish line simultaneously.",
       "answer": "Dead Heat Wave",
       "answer_type": "other",
       "aliases": [],
@@ -133,7 +85,7 @@
       "difficulty_rank": 1,
       "mechanic": "rhyme_time",
       "constraint_text": null,
-      "clue": "An aged, premium grape beverage",
+      "clue": "A well-aged grape beverage reserved for only the most special of occasions",
       "answer": "Fine Wine",
       "answer_type": "other",
       "aliases": [
@@ -161,7 +113,7 @@
       "difficulty_rank": 2,
       "mechanic": "rhyme_time",
       "constraint_text": null,
-      "clue": "An ideal lineup of all-stars assembled from the very best for a single special event",
+      "clue": "An all-star lineup cherry-picked from the sport's very best for a single special competition",
       "answer": "Dream Team",
       "answer_type": "other",
       "aliases": [
@@ -189,7 +141,7 @@
       "difficulty_rank": 2,
       "mechanic": "rhyme_time",
       "constraint_text": null,
-      "clue": "The shaggy bowl-cut hairstyle associated with famous early 1960s British musicians",
+      "clue": "The distinctive overgrown bowl-cut hairstyle made iconic by famous early 1960s British musicians",
       "answer": "Mop Top",
       "answer_type": "other",
       "aliases": [
@@ -217,7 +169,7 @@
       "difficulty_rank": 3,
       "mechanic": "rhyme_time",
       "constraint_text": null,
-      "clue": "An impressively clean and accomplished achievement",
+      "clue": "An admirably well-executed and accomplished achievement",
       "answer": "Neat Feat",
       "answer_type": "other",
       "aliases": [
@@ -245,7 +197,7 @@
       "difficulty_rank": 4,
       "mechanic": "rhyme_time",
       "constraint_text": null,
-      "clue": "A normally welcoming recreational green space that becomes foreboding after nightfall",
+      "clue": "A normally welcoming recreational green space takes on an eerie, foreboding character due to the overgrown, looming trees",
       "answer": "Dark Park",
       "answer_type": "other",
       "aliases": [

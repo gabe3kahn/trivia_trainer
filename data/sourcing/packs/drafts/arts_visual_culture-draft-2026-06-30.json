@@ -11,38 +11,6 @@
   "questions": [
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
-      "external_id": "arts-vc-2026-06-30-001",
-      "category_id": "arts_visual_culture",
-      "subcategory_name": "Public Art & Monuments",
-      "value": 200,
-      "difficulty_rank": 1,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Stretching thousands of miles, this series of ancient fortifications was built in stages by successive dynasties — the oldest sections dating to the 7th century BC and the most visited portions added by the Ming between 1368 and 1644.",
-      "answer": "Great Wall of China",
-      "answer_type": "other",
-      "aliases": [
-        "Great Wall"
-      ],
-      "tags": [
-        "arts-visual-culture-draft",
-        "sourced",
-        "public-art-monuments"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Great Wall of China",
-          "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
-          "snippet": "The Great Wall of China is a series of fortifications in China. They were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. The f"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:30.392Z"
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
       "external_id": "arts-vc-2026-06-30-002",
       "category_id": "arts_visual_culture",
@@ -51,7 +19,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The campanile, or freestanding bell tower, of its city's cathedral, this Italian structure is world-famous for a nearly four-degree tilt caused by the unstable ground on which its foundations were built.",
+      "clue": "This Italian structure is world-famous for its off-vertical angle of nearly four degrees, caused by the unstable ground on which its foundations were built.",
       "answer": "Leaning Tower of Pisa",
       "answer_type": "other",
       "aliases": [
@@ -71,7 +39,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:30.756Z"
+      "verified_at": "2026-07-04T21:09:19.602Z"
     },
     {
       "source": "original_sourced",
@@ -101,7 +69,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:31.118Z"
+      "verified_at": "2026-07-04T21:09:19.977Z"
     },
     {
       "source": "original_sourced",
@@ -109,8 +77,8 @@
       "external_id": "arts-vc-2026-06-30-004",
       "category_id": "arts_visual_culture",
       "subcategory_name": "Design & Decorative Arts",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Practiced in Japan since ancient times and also known by a name meaning 'way of flowers,' this art of flower arrangement is counted among the three classical Japanese arts of refinement, alongside incense appreciation and the tea ceremony.",
@@ -134,7 +102,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:31.483Z"
+      "verified_at": "2026-07-04T21:09:20.360Z"
     },
     {
       "source": "original_sourced",
@@ -142,8 +110,8 @@
       "external_id": "arts-vc-2026-06-30-005",
       "category_id": "arts_visual_culture",
       "subcategory_name": "Design & Decorative Arts",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Born in 1941, this American glass artist is celebrated for elevating blown glass from a craft into the realm of large-scale sculpture.",
@@ -166,7 +134,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:31.839Z"
+      "verified_at": "2026-07-04T21:09:20.745Z"
     },
     {
       "source": "original_sourced",
@@ -178,7 +146,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Home to 1.5 million catalogued works across 17 curatorial departments, this encyclopedic New York City institution is the largest cultural repository in the Americas by floor area and the most-visited of its kind in the United States.",
+      "clue": "Home to more than 1.5 million catalogued works across 17 curatorial departments, this New York City institution is the largest art museum in the Americas by floor area and the most-visited in the United States.",
       "answer": "Metropolitan Museum of Art",
       "answer_type": "other",
       "aliases": [
@@ -199,7 +167,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:32.195Z"
+      "verified_at": "2026-07-04T21:09:21.128Z"
     },
     {
       "source": "original_sourced",
@@ -232,7 +200,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:32.550Z"
+      "verified_at": "2026-07-04T21:09:21.702Z"
     },
     {
       "source": "original_sourced",
@@ -244,7 +212,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "First recorded as an English color name in 1590, this shade of blue ranging from light azure to intense sky blue takes its name from the Latin caeruleus — itself probably derived from caelum, meaning 'heaven' or 'sky.'",
+      "clue": "First recorded as an English color name in 1590, this shade of blue — ranging from light azure to deep sky blue — takes its name from a Latin word meaning 'heaven' or 'sky.'",
       "answer": "Cerulean",
       "answer_type": "other",
       "aliases": [
@@ -264,7 +232,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:32.942Z"
+      "verified_at": "2026-07-04T21:09:22.076Z"
     },
     {
       "source": "original_sourced",
@@ -272,8 +240,8 @@
       "external_id": "arts-vc-2026-06-30-009",
       "category_id": "arts_visual_culture",
       "subcategory_name": "Painters & Sculptors",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Born in Figueres in Catalonia and trained in Madrid, this Spanish artist joined the Surrealist movement in 1929 and became one of its foremost exponents, renowned for precise draftsmanship applied to bizarre and dreamlike imagery.",
@@ -298,7 +266,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:33.298Z"
+      "verified_at": "2026-07-04T21:09:22.455Z"
     },
     {
       "source": "original_sourced",
@@ -331,7 +299,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:33.653Z"
+      "verified_at": "2026-07-04T21:09:22.885Z"
     },
     {
       "source": "original_sourced",
@@ -363,7 +331,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:34.009Z"
+      "verified_at": "2026-07-04T21:09:23.264Z"
     },
     {
       "source": "original_sourced",
@@ -375,7 +343,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Commissioned between 1903 and 1907 by a Viennese Jewish sugar producer as a depiction of his wife, this oil-on-canvas work with gold leaf was seized by Nazi authorities in 1941 and displayed in an Austrian gallery for decades before its restitution to the original family's heirs.",
+      "clue": "Commissioned between 1903 and 1907 by a Viennese Jewish sugar magnate to honor his wife, this gilded oil-on-canvas work was seized by Nazi authorities in 1941 and held in an Austrian gallery for decades before its restitution to the original family's heirs.",
       "answer": "Portrait of Adele Bloch-Bauer I",
       "answer_type": "other",
       "aliases": [
@@ -397,7 +365,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:34.372Z"
+      "verified_at": "2026-07-04T21:09:23.693Z"
     },
     {
       "source": "original_sourced",
@@ -433,7 +401,7 @@
       "image_license": "public-domain",
       "answer_detail": "The Garden of Earthly Delights — Hieronymus Bosch",
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:34.860Z"
+      "verified_at": "2026-07-04T21:09:24.447Z"
     },
     {
       "source": "original_sourced",
@@ -470,7 +438,7 @@
       "image_license": "public-domain",
       "answer_detail": "The Third of May 1808 — Francisco Goya",
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:23:35.347Z"
+      "verified_at": "2026-07-04T21:10:01.239Z"
     },
     {
       "source": "original_sourced",
@@ -504,7 +472,7 @@
       "image_license": "public-domain",
       "answer_detail": "The Burial of the Count of Orgaz — El Greco",
       "verification_status": "verified",
-      "verified_at": "2026-06-30T14:24:00.871Z"
+      "verified_at": "2026-07-04T21:10:01.978Z"
     }
   ]
 }
