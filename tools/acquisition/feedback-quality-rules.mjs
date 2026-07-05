@@ -59,6 +59,20 @@ export function auditFeedbackIssues(row) {
     add(true, 'answer-number-form-in-clue', 10, `Clue number/symbol spells an answer word: ${numberFormLeaks.join(', ')}.`);
   }
 
+  // Punctuation belongs OUTSIDE a title's quotes: a comma/semicolon before a closing single quote
+  // ('Jazz Age,' -> 'Jazz Age',) is a title-punctuation error the human editor consistently fixes.
+  if (/[,;]'/.test(clue)) {
+    add(true, 'punctuation-inside-title-quote', 6, "A comma/semicolon sits inside a title's closing quote; move it outside ('Title', not 'Title,').");
+  }
+
+  // Conservative comma-splice heuristic: a comma directly joining a new independent clause led by a
+  // subject pronoun + finite verb, with NO coordinating conjunction (", it was" / ", he became" — but
+  // ", but it was" is fine). Approximate — flags for a rewrite, not a hard block.
+  const splice = clue.match(/\w,\s+(it|he|she|they|this)\s+(was|were|is|are|has|had|became|began|died|created|wrote|led|founded|won|made)\b/i);
+  if (splice) {
+    add(true, 'possible-comma-splice', 6, `Possible comma splice — two independent clauses joined by a comma: "${splice[0]}".`);
+  }
+
   const categoryName = String(row.categories?.name ?? row.category_name ?? row.category_id ?? '').toLowerCase();
   if (categoryName.includes('wordplay') && row.mechanic === 'standard' && /\b(the word|this word|these letters)\b/i.test(clue)) {
     add(true, 'wordplay-answer-form-needs-extra-care', 3, 'Wordplay-shaped clue should be checked for exact answer-form ambiguity.');

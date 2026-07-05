@@ -9,8 +9,11 @@ it reflects every merged edit. Pre-apply these so the drafter writes the FINAL v
 
 > **Difficulty/value is out of scope here** — handled separately. Do not change values based on these lessons.
 
+> **Restraint above all:** rewrite only a GENUINE defect. A clue that already reads well should be left ALONE.
+> Polish must never cost difficulty, flow, or elegance — when a fix would make the clue easier or choppier, don't.
+
 ## 1. Tighten the wording (43)
-Cut every word that doesn't earn its place; compress a multi-word descriptor into one precise word. The final clue is almost always SHORTER than the draft.
+Cut every word that doesn't earn its place; compress a multi-word descriptor into one precise word. The final clue is usually SHORTER. **Guardrail:** cut only GENUINE bloat — never strip color, flow, or an elegant cadence, and a SHORT clue can keep descriptive words that carry it. Brevity is a means, not the goal; if the clue already reads well, leave it.
 
 - **Sagrada Família** — Eliminate redundant qualifiers and restructure so 'this [noun]' clearly marks the answer proxy.
   - before: Antoni Gaudí's unfinished Catholic basilica in Barcelona's Eixample district, begun in 1882 and still under construction, is the tallest church in the world and a UNESCO World Heritage Site.
@@ -44,7 +47,7 @@ Cut every word that doesn't earn its place; compress a multi-word descriptor int
   - after:  All six major novels by this English author were originally published anonymously, their title pages identifying her only as 'By a Lady'; her sharp social commentary and irony eventually earned her a …
 
 ## 2. Lead with a vivid, concrete hook — not provenance or category labels (37)
-Replace biography, provenance, and generic category descriptions with a specific work, a visual image, or a memorable nickname. Show the thing; don't catalog facts about it.
+Replace biography, provenance, and generic category descriptions with a specific work, a visual image, or a memorable nickname. Show the thing; don't catalog facts about it. **Guardrail:** the hook must NEVER add a famous work/title or detail that gives the answer away or makes the clue easier — that's a giveaway, not a hook. Preserve the difficulty.
 
 - **Girl with a Pearl Earring** — Replace provenance and naming history with visual description and a vivid comparative nickname.
   - before: This c. 1665 oil painting by Dutch Golden Age master Johannes Vermeer has been in the Mauritshuis in The Hague since 1902 and went by various names before acquiring its current title late in the 20th …
@@ -112,7 +115,7 @@ Remove any detail that reveals or phonetically implies the answer: a quote conta
   - after:  Among Stanford University's first cohort of graduates, this American statesman organized wartime food relief for occupied Belgium during World War I, then directed the federal response to the catastro…
 
 ## 4. Un-bury the subject (15)
-Don't name the answer's creator/location in a leading subordinate phrase; restructure so "this [noun]" clearly marks the answer and the identifying detail comes AFTER.
+Don't name the answer's creator/location in a leading subordinate phrase; restructure so "this [noun]" clearly marks the answer and the identifying detail comes AFTER. **Guardrail:** only when the burial genuinely obscures — a strong, clear lede can precede the subject, so don't un-bury mechanically.
 
 - **Battle of Waterloo** — Name the person directly instead of using 'its commander' or a pronoun when the name tightens the clue.
   - before: Fought on June 18, 1815, in what is now Belgium, this final engagement of the Napoleonic era saw the French Imperial Army crushed by a British-led coalition and Prussian forces, ending its commander's…
@@ -146,7 +149,7 @@ Don't name the answer's creator/location in a leading subordinate phrase; restru
   - after:  Thrown upward from a low position toward an opponent's chin, this boxing punch is counted — along with the cross — as one of the two 'power punches' in the sport's statistics.
 
 ## 5. Grammar & polish (5)
-Fix comma splices and stray commas (a deterministic rule backs this up). Add a brief role label when citing a less-familiar authority ("the historian A.J.P. Taylor…").
+Match the clue's tense to the event (a past event takes past tense — "relied," not "relies"). Keep a comma/semicolon OUTSIDE a title's quotes ('Jazz Age', not 'Jazz Age,'). Never join two independent clauses with a bare comma (comma splice). A brief role label helps when citing a less-familiar authority ("the historian A.J.P. Taylor…"). (The punctuation-inside-quote and comma-splice cases are also caught deterministically.)
 
 - **A Tree Grows in Brooklyn** — Capitalize all major words in proper titles, including conjunctions and prepositions that appear mid-title.
   - before: This 1943 Betty Smith novel about a girl coming of age in a New York City tenement was so popular it went to a second printing before its official publication date and was later named by the Library o…

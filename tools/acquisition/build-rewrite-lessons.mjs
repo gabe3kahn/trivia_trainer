@@ -16,15 +16,15 @@ const corpus = fs.existsSync('data/acquisition/clue-rewrite-lessons.jsonl')
 
 const SECTIONS = [
   { title: '1. Tighten the wording', types: ['tighten_wording', 'fill_trim'],
-    guide: "Cut every word that doesn't earn its place; compress a multi-word descriptor into one precise word. The final clue is almost always SHORTER than the draft." },
+    guide: "Cut every word that doesn't earn its place; compress a multi-word descriptor into one precise word. The final clue is usually SHORTER. **Guardrail:** cut only GENUINE bloat — never strip color, flow, or an elegant cadence, and a SHORT clue can keep descriptive words that carry it. Brevity is a means, not the goal; if the clue already reads well, leave it." },
   { title: '2. Lead with a vivid, concrete hook — not provenance or category labels', types: ['add_vivid_hook', 'concrete_over_abstract'],
-    guide: 'Replace biography, provenance, and generic category descriptions with a specific work, a visual image, or a memorable nickname. Show the thing; don\'t catalog facts about it.' },
+    guide: "Replace biography, provenance, and generic category descriptions with a specific work, a visual image, or a memorable nickname. Show the thing; don't catalog facts about it. **Guardrail:** the hook must NEVER add a famous work/title or detail that gives the answer away or makes the clue easier — that's a giveaway, not a hook. Preserve the difficulty." },
   { title: '3. Cut the giveaway — and hidden or phonetic leaks', types: ['cut_giveaway', 'cut_leak'],
     guide: "Remove any detail that reveals or phonetically implies the answer: a quote containing the answer word, an etymological root, an ordinal rank that telegraphs it." },
   { title: '4. Un-bury the subject', types: ['unbury_subject'],
-    guide: "Don't name the answer's creator/location in a leading subordinate phrase; restructure so \"this [noun]\" clearly marks the answer and the identifying detail comes AFTER." },
+    guide: "Don't name the answer's creator/location in a leading subordinate phrase; restructure so \"this [noun]\" clearly marks the answer and the identifying detail comes AFTER. **Guardrail:** only when the burial genuinely obscures — a strong, clear lede can precede the subject, so don't un-bury mechanically." },
   { title: '5. Grammar & polish', types: ['fix_grammar'],
-    guide: 'Fix comma splices and stray commas (a deterministic rule backs this up). Add a brief role label when citing a less-familiar authority ("the historian A.J.P. Taylor…").' },
+    guide: 'Match the clue\'s tense to the event (a past event takes past tense — "relied," not "relies"). Keep a comma/semicolon OUTSIDE a title\'s quotes (\'Jazz Age\', not \'Jazz Age,\'). Never join two independent clauses with a bare comma (comma splice). A brief role label helps when citing a less-familiar authority ("the historian A.J.P. Taylor…"). (The punctuation-inside-quote and comma-splice cases are also caught deterministically.)' },
   { title: '6. Dedupe across the whole run', types: ['dedup_reword'],
     guide: 'When the standard angle duplicates another clue in the run or the bank, pivot to an unexpected detail that still uniquely identifies the subject — or cut it.' },
 ];
@@ -40,6 +40,8 @@ const out = [
   '> The top edits — tighten, vivid hook, cut giveaway, concrete-over-abstract — are the ones no deterministic gate',
   '> can catch. This is where they get taught.', '',
   '> **Difficulty/value is out of scope here** — handled separately. Do not change values based on these lessons.', '',
+  '> **Restraint above all:** rewrite only a GENUINE defect. A clue that already reads well should be left ALONE.',
+  '> Polish must never cost difficulty, flow, or elegance — when a fix would make the clue easier or choppier, don\'t.', '',
 ];
 
 for (const s of SECTIONS) {
