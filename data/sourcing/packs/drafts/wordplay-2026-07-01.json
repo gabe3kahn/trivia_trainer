@@ -1,0 +1,222 @@
+{
+  "pack_id": "wordplay-2026-07-01",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-01",
+  "notes": "Run 2026-07-01. Mechanics: Before & After (5) + Rhyme Time (5). Rotation: prior run (2026-06-28) used anagram + homophone; run before (2026-06-27) used crossword + rhyme_time; run before (2026-06-26) used initials + before_after. Choosing before_after + rhyme_time as least-recently-used pairing. B&A answers: Night Club Soda, Sugar Cane Toad, Short Order Cookbook, Traffic Lighthouse, Bookworm Farm. Rhyme Time answers: Snail Mail, Sweet Treat, Loose Goose, True Blue, Damp Camp. All 10 answers verified fresh against every prior wordplay-*.json pack.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-01-ba-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The after-hours lounge on the corner was famous for mixing its aged whiskey with perfectly carbonated sparkling water poured straight from a cobalt-blue bottle.",
+      "answer": "Night Club Soda",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Night Club",
+        "second": "Club Soda"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-01-ba-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The pale glow shining through the darkness to keep ships away from the rocks changes color to indicate traffic coming from the other direction.",
+      "answer": "Red Light House",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Red Light",
+        "second": "Light House"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-01-ba-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "An invasive Australian amphibian stops for a rest upon a warted fungus before hopping on through the forest.",
+      "answer": "Cane Toad Stool",
+      "answer_type": "other",
+      "aliases": [
+        "Cane Toadstool"
+      ],
+      "wp": {
+        "first": "Cane Toad",
+        "second": "Toad Stool"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-01-rt-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "The traditional paper-and-envelope postal service.",
+      "answer": "Snail Mail",
+      "answer_type": "other",
+      "aliases": [
+        "Mail Snail"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "snail",
+          "mail"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-01-rt-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "A delectable dessert or confection.",
+      "answer": "Sweet Treat",
+      "answer_type": "other",
+      "aliases": [
+        "Treat Sweet"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "sweet",
+          "treat"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-01-rt-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "An escaped large waterfowl on the run.",
+      "answer": "Loose Goose",
+      "answer_type": "other",
+      "aliases": [
+        "Goose Loose"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "loose",
+          "goose"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-01-rt-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "Utterly loyal and completely faithful.",
+      "answer": "True Blue",
+      "answer_type": "other",
+      "aliases": [
+        "Blue True"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "true",
+          "blue"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-01-rt-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "A waterlogged outdoor sleeping spot.",
+      "answer": "Damp Camp",
+      "answer_type": "other",
+      "aliases": [
+        "Camp Damp"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "damp",
+          "camp"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
