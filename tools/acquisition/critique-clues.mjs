@@ -93,6 +93,12 @@ const RUBRIC = [
   '  (b) the spliced composite reads as a REAL standalone term/answer in its own right ("Ground Floor Plan",',
   '  "Music Box Office", "Short Circuit Board" are real things, not surprising splices). A hidden-word carrier',
   '  must be an ordinary word unrelated to the answer, and the clue must not define the answer.',
+  "- alias: review the clue's ALIASES (the \"aliases:\" line). Flag an alias that (a) LEAKS — the alias,",
+  '  or a number/symbol of it spelled out, appears in the clue; (b) is NON-CONFORMING — it drops an',
+  "  essential disambiguator (a monarch's regnal number), is an over-broad bare surname when the answer",
+  '  is not a simple personal name, or does not fit a shown initials/length hint; or (c) is VAGUE or',
+  '  DUPLICATIVE — it has many well-known referents (e.g. "Medici" for Lorenzo de\' Medici) or collides',
+  '  with a different famous entity. Quote the offending alias.',
   '',
   'SUGGESTED REWRITES (suggested_clue): follow the craft rules the authors do — lead with the subject, keep it',
   'tight, introduce NO new term close to the answer. For a WORDPLAY clue, a rewrite MUST preserve the wp',
@@ -101,7 +107,7 @@ const RUBRIC = [
   '',
   'Return one object per clue:',
   '{"external_id":"<id>","verdict":"pass"|"revise"|"drop",',
-  ' "issues":[{"dimension":"leak|category|difficulty_fit|wording|factual|wordplay","detail":"<quote the substring>"}],',
+  ' "issues":[{"dimension":"leak|category|difficulty_fit|wording|factual|wordplay|alias","detail":"<quote the substring>"}],',
   ' "suggested_clue":"<full rewrite, only when it fixes the issue AND preserves any mechanic; omit otherwise>",',
   ' "suggested_value":<200|400|600|800|1000, only when difficulty_fit>, "notes":"<one line, optional>"}',
   'pass = ship as-is (empty issues). Respond with ONLY a JSON array, no prose, no code fences.',
@@ -142,6 +148,10 @@ function sourceFor(q, docMap) {
 // the ACTIVE bank (same as the gate), plus — via --dup-index — the pending answers of every
 // OTHER open drafter PR, so a genuine cross-PR collision surfaces too. NOT the LLM's job.
 const WORDPLAY_CATEGORY = 'language_wordplay';
+// Mechanics where the hint IS the disambiguator (initials, revealed letters), so a duplicate
+// answer is a real duplicate — allow_duplicate does NOT exempt these (unlike anagram/before-after/
+// homophone/hidden-word/rhyme-time, where the answer is itself the novel wordplay object).
+const HINTED_MECHANICS = new Set(['initials', 'crossword']);
 const classKey = (categoryId, hasImage) => `${categoryId === WORDPLAY_CATEGORY ? 'wp' : 'std'}:${hasImage ? 'img' : 'txt'}`;
 const normAns = (s) => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 
@@ -173,7 +183,7 @@ async function buildDupIndex(indexPath) {
       for (const a of Array.isArray(r.aliases) ? r.aliases : []) add(a, cls, label);
       // stored tags (migration 036); fall back to on-the-fly extraction for un-backfilled rows
       const ent = (Array.isArray(r.topic_entities) && r.topic_entities.length) ? r.topic_entities : extractTopicEntities(r.answer, r.clue);
-      bankRows.push({ external_id: r.external_id, answer: r.answer, category_id: r.category_id, ent });
+      bankRows.push({ external_id: r.external_id, answer: r.answer, category_id: r.category_id, ent, where: 'the active bank' });
     }
   } catch { bank = null; /* no creds → bank part skipped */ }
   let pending = 0;
@@ -191,17 +201,21 @@ async function buildDupIndex(indexPath) {
   return { index, bank, pending, bankRows };
 }
 
-// Bank clues that share enough distinctive entities to be RELATED (same fact/topic, possibly
-// under a different answer) — the gap answer-dedup can't see. Advisory only. Same answer is
-// the dedup's job, so it's excluded here; the cross-category bar is higher (relatedThreshold).
-function relatedHits(q, bankRows) {
+// Clues that share enough distinctive entities to be RELATED (same fact/topic, possibly under a
+// different answer) — the gap answer-dedup can't see. Advisory only. Compares against BOTH the
+// active bank AND the other clues in this run (a within-run near-duplicate — e.g. a Darwin clue
+// and a Natural-selection clue in the same pack — is just as bad as colliding with the bank).
+// Same answer is the dedup's job, so it's excluded; self is excluded by external_id; the
+// cross-category bar is higher (relatedThreshold).
+function relatedHits(q, compareRows) {
   // Prefer the clue's stamped/curated tags (tag-pack.mjs); fall back to on-the-fly extraction.
   const ent = (Array.isArray(q.topic_entities) && q.topic_entities.length) ? q.topic_entities : extractTopicEntities(q.answer, q.clue);
-  if (ent.length < 2 || !bankRows) return [];
+  if (ent.length < 2 || !compareRows) return [];
   const qa = normAns(q.answer);
+  const qid = String(q.external_id || q.answer);
   const out = [];
-  for (const b of bankRows) {
-    if (normAns(b.answer) === qa) continue;
+  for (const b of compareRows) {
+    if (String(b.external_id) === qid || normAns(b.answer) === qa) continue;
     const shared = sharedEntities(ent, b.ent);
     if (shared.length >= relatedThreshold(q.category_id, b.category_id)) out.push({ b, shared });
   }
@@ -211,7 +225,8 @@ function relatedHits(q, bankRows) {
 // Locations where this clue collides under the gate's rules (same answer/alias + same class),
 // honoring the allow_duplicate exemption. Empty unless a real same-class collision exists.
 function dupHits(q, index) {
-  if (!index || q.allow_duplicate === true) return [];
+  if (!index) return [];
+  if (q.allow_duplicate === true && !HINTED_MECHANICS.has(q.mechanic)) return [];
   const cls = classKey(q.category_id, Boolean(q.image_url));
   const keys = new Set([q.answer, ...(q.aliases || [])].map(normAns).filter(Boolean));
   const labels = new Set();
@@ -276,7 +291,7 @@ function extractJsonArray(text) {
   try { return JSON.parse(fenced.slice(start, end + 1)); } catch { return null; }
 }
 
-async function critiquePack(packPath, dupIndex, bankRows) {
+async function critiquePack(packPath, dupIndex, relatedRows) {
   const pack = JSON.parse(fs.readFileSync(packPath, 'utf8'));
   const questions = pack.questions || pack;
   const categoryId = pack.category_id || (questions[0] && questions[0].category_id) || '';
@@ -316,13 +331,13 @@ async function critiquePack(packPath, dupIndex, bankRows) {
     }
     // Advisory RELATED check — same fact/topic under a (possibly) different answer, via shared
     // entities. Not a dup and not a gate: a heads-up to compare and decide.
-    const rel = relatedHits(q, bankRows);
+    const rel = relatedHits(q, relatedRows);
     if (rel.length) {
       relFlagged += 1;
-      const where = rel.map((r) => `${r.b.external_id} "${r.b.answer}" [${r.b.category_id}] (shared: ${r.shared.join(', ')})`).join('; ');
+      const where = rel.map((r) => `${r.b.external_id} "${r.b.answer}" [${r.b.category_id}] in ${r.b.where} (shared: ${r.shared.join(', ')})`).join('; ');
       row.issues = [...(row.issues || []), {
         dimension: 'related',
-        detail: `may re-ask the same fact/topic as an existing clue — ${where}. Compare and decide (reword to differentiate, or drop if truly redundant).`,
+        detail: `may re-ask the same fact/topic as another clue — ${where}. Compare and decide (reword to differentiate, or drop if truly redundant).`,
       }];
       if (!row.verdict || row.verdict === 'pass') row.verdict = 'revise';
     }
@@ -354,10 +369,25 @@ await loadDefaultEnv(rootDir); // for the Supabase duplicate index (no-op if cre
 const { index: dupIndex, bank, pending, bankRows } = await buildDupIndex(dupIndexPath);
 console.log(`Duplicate index: ${bank == null ? 'bank OFF (no Supabase)' : bank + ' active bank rows'}${pending ? `, ${pending} pending answers from other open PRs` : ''} (same-answer + same-class, allow_duplicate-exempt; entity tags for related-check).`);
 
+// The related-check compares each clue against the bank AND the other clues in THIS run, so a
+// within-run near-duplicate (same fact under a different answer, in another pack) is caught too.
+const runRows = [];
+for (const packPath of packPaths) {
+  try {
+    const pack = JSON.parse(fs.readFileSync(packPath, 'utf8'));
+    for (const q of (pack.questions || pack)) {
+      const ent = (Array.isArray(q.topic_entities) && q.topic_entities.length) ? q.topic_entities : extractTopicEntities(q.answer, q.clue);
+      runRows.push({ external_id: q.external_id || q.answer, answer: q.answer, category_id: q.category_id, ent, where: 'this run' });
+    }
+  } catch { /* critiquePack re-reads and reports read errors */ }
+}
+const relatedRows = [...bankRows, ...runRows];
+console.log(`Related-check compares against ${bankRows.length} bank + ${runRows.length} in-run clue(s).`);
+
 const results = [];
 for (const packPath of packPaths) {
   console.log(`Critiquing ${path.basename(packPath)} with ${model}…`);
-  const res = await critiquePack(packPath, dupIndex, bankRows);
+  const res = await critiquePack(packPath, dupIndex, relatedRows);
   if (res) {
     console.log(`  (source docs matched for ${res.docs} topic(s); ${res.dupFlagged} collision(s), ${res.relFlagged} related-clue flag(s))`);
     results.push(res);

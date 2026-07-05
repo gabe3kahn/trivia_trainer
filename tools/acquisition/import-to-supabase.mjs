@@ -69,6 +69,10 @@ if (duplicateAnswers.length) {
 // A collision counts only when BOTH the wordplay-ness AND the image-ness match.
 const WORDPLAY_CATEGORY = 'language_wordplay';
 const isWordplay = (categoryId) => categoryId === WORDPLAY_CATEGORY;
+// Mechanics whose hint (initials, revealed letters) IS the disambiguator — a duplicate answer
+// there is a real duplicate, so allow_duplicate does NOT exempt them (it stays valid for
+// anagram/before-after/homophone/hidden-word/rhyme-time, where the answer is the novel object).
+const HINTED_MECHANICS = new Set(['initials', 'crossword']);
 const isImage = (q) => Boolean(q.image_url);
 const packExternalIds = new Set(questions.map((q) => q.external_id).filter(Boolean));
 const activeRows = await fetchAllSupabaseRows(
@@ -100,7 +104,10 @@ for (const question of questions) {
   // Reviewer-blessed cross-fact dupe (e.g. "Brazil" as a geography fact AND a World Cup
   // fact). The gate is answer-only, so it can't tell different facts apart — allow_duplicate
   // is the manual override that says "this shared answer is intentional, not a re-draft".
-  if (question.allow_duplicate === true) continue;
+  // Exception: initials/crossword clues can't use it — their hint is the disambiguator, so a
+  // duplicate answer is just a duplicate (a legitimately new anagram/homophone of the same word
+  // still may). See HINTED_MECHANICS.
+  if (question.allow_duplicate === true && !HINTED_MECHANICS.has(question.mechanic)) continue;
   const packWordplay = isWordplay(question.category_id);
   const packImage = isImage(question);
   const seen = new Set();

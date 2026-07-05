@@ -68,7 +68,11 @@ export function relatedThreshold(catA, catB) {
 
 const MAX_ENTITIES = 8;
 
-/** Normalize an LLM entity list: lowercase, collapse spaces, drop empty/short/generic, dedupe, cap, sort. */
+/**
+ * Normalize an LLM entity list: lowercase, collapse spaces, drop empty/short/generic, dedupe, cap,
+ * sort. Multi-word entities are kept ATOMIC (internal spaces collapsed, never split) — the
+ * related-check counts whole strings, so "westminster abbey" is one shared entity, not two.
+ */
 export function normalizeEntities(arr) {
   const out = [];
   for (const raw of Array.isArray(arr) ? arr : []) {
@@ -87,8 +91,10 @@ function buildEntityPrompt(batch) {
     'movements, and years a knowledgeable person connects to it — so that two clues covering the same subject',
     'can be detected. INCLUDE key associations even when the clue text does not mention them (e.g. "Mona Lisa"',
     '→ leonardo da vinci, louvre, renaissance, florence, 1503). Prefer proper nouns and years; keep the answer',
-    "itself when it's a proper noun. Avoid generic words. Output ONLY a JSON object mapping each clue's id",
-    '(verbatim) to its lowercase entity array — no prose, no code fences.',
+    "itself when it's a proper noun. Avoid generic words. Keep each multi-word entity as ONE tag",
+    "(e.g. 'westminster abbey', 'new york city', 'natural selection') — NEVER split it into separate",
+    'words, since two clues that merely share the generic halves would then look falsely related.',
+    "Output ONLY a JSON object mapping each clue's id (verbatim) to its lowercase entity array — no prose, no code fences.",
     '',
     'Clues:',
     list,
