@@ -171,36 +171,27 @@
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-05-ini-01",
+      "external_id": "wordplay-2026-07-05-ini-06",
       "category_id": "language_wordplay",
       "subcategory_name": "Initials & Abbreviations",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "initials",
       "constraint_text": "These letters are the initials of the answer — what is it?",
-      "clue": "Awarded annually to the champion of North America's highest professional tier of ice hockey, this sterling trophy bears engraved champions' names added in rings around its base and is the oldest of its kind in major professional team sport — S.C.",
-      "answer": "Stanley Cup",
+      "clue": "For over four decades, two rival superpowers waged their global struggle through proxy conflicts, espionage, and a relentless arms race rather than open battle between themselves — C.W.",
+      "answer": "Cold War",
       "answer_type": "other",
       "aliases": [],
       "wp": {
-        "initials": "S.C."
+        "initials": "C.W."
       },
-      "lock_value": true,
       "tags": [
         "wp-draft",
         "initials"
       ],
       "citations": [],
       "verification_status": "skipped",
-      "topic_entities": [
-        "1892",
-        "championship",
-        "ice hockey",
-        "nhl",
-        "north america",
-        "stanley cup",
-        "trophy"
-      ]
+      "topic_entities": []
     },
     {
       "source": "constructed",

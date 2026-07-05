@@ -38,7 +38,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:06.513Z",
+      "verified_at": "2026-07-05T21:46:00.201Z",
       "topic_entities": [
         "1957",
         "aerobic respiration",
@@ -79,7 +79,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:06.869Z",
+      "verified_at": "2026-07-05T21:46:00.650Z",
       "topic_entities": [
         "1859",
         "charles darwin",
@@ -118,7 +118,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:07.316Z",
+      "verified_at": "2026-07-05T21:46:01.196Z",
       "topic_entities": [
         "1896",
         "alpha rays",
@@ -159,7 +159,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:07.671Z",
+      "verified_at": "2026-07-05T21:46:01.579Z",
       "topic_entities": [
         "gamma rays",
         "james clerk maxwell",
@@ -198,7 +198,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:08.026Z",
+      "verified_at": "2026-07-05T21:46:01.999Z",
       "topic_entities": [
         "0 kelvin",
         "cryogenics",
@@ -238,7 +238,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:08.390Z",
+      "verified_at": "2026-07-05T21:46:02.430Z",
       "topic_entities": [
         "albert einstein",
         "event horizon",
@@ -279,7 +279,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:08.745Z",
+      "verified_at": "2026-07-05T21:46:02.850Z",
       "topic_entities": [
         "1842",
         "ambulance siren",
@@ -320,7 +320,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:09.101Z",
+      "verified_at": "2026-07-05T21:46:03.284Z",
       "topic_entities": [
         "1687",
         "calculus",
@@ -341,7 +341,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Defined so that its zero point corresponds to the theoretically coldest possible temperature and its degrees are the same size as Celsius degrees, this is the base unit for temperature in the International System of Units.",
+      "clue": "Named for a 19th-century British physicist, this SI base unit of temperature rises in increments identical in size to the Celsius degree.",
       "answer": "Kelvin",
       "answer_type": "other",
       "aliases": [
@@ -362,7 +362,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:09.455Z",
+      "verified_at": "2026-07-05T21:46:03.718Z",
       "topic_entities": [
         "absolute zero",
         "kelvin scale",
@@ -403,7 +403,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:09.809Z",
+      "verified_at": "2026-07-05T21:46:04.106Z",
       "topic_entities": [
         "118 elements",
         "1869",
@@ -442,7 +442,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:10.164Z",
+      "verified_at": "2026-07-05T21:46:04.488Z",
       "topic_entities": [
         "anaphase",
         "chromosomes",
@@ -456,19 +456,19 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Natural_selection",
-      "external_id": "science-2026-07-05-012",
+      "source_url": "https://en.wikipedia.org/wiki/Capillary",
+      "external_id": "science-2026-07-05-016",
       "category_id": "science",
       "subcategory_name": "Biology",
       "value": 600,
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Jointly announced by Charles Darwin and Alfred Russel Wallace in 1858, this evolutionary mechanism describes how individuals with traits better suited to their environment tend to survive and reproduce, gradually shifting a population's inherited characteristics over generations.",
-      "answer": "Natural selection",
+      "clue": "The smallest and most numerous blood vessels in the body, these microvessels have walls just one endothelial cell thick — the site where oxygen, glucose, and metabolic wastes pass between the bloodstream and the surrounding tissue.",
+      "answer": "Capillaries",
       "answer_type": "other",
       "aliases": [
-        "survival of the fittest"
+        "Capillary"
       ],
       "tags": [
         "science-draft",
@@ -478,22 +478,14 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Natural selection",
-          "url": "https://en.wikipedia.org/wiki/Natural_selection",
-          "snippet": "Natural selection is the differential survival and reproduction of individuals due to differences in the relative fitness endowed on them by their own particular complement of observable characteristics. It is a key law or mechanism of evol"
+          "title": "Capillary",
+          "url": "https://en.wikipedia.org/wiki/Capillary",
+          "snippet": "A capillary is a small blood vessel, from 5 to 10 micrometres in diameter, and is part of the microcirculation system. Capillaries are microvessels and the smallest blood vessels in the body. They are composed of only the tunica intima, con"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:10.518Z",
-      "topic_entities": [
-        "1858",
-        "adaptation",
-        "alfred russel wallace",
-        "charles darwin",
-        "evolution",
-        "population genetics",
-        "survival of the fittest"
-      ]
+      "topic_entities": [],
+      "verified_at": "2026-07-05T21:46:04.914Z"
     },
     {
       "source": "original_sourced",
@@ -525,7 +517,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:10.873Z",
+      "verified_at": "2026-07-05T21:46:05.348Z",
       "topic_entities": [
         "1898",
         "element 84",
@@ -566,7 +558,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:11.229Z",
+      "verified_at": "2026-07-05T21:46:05.732Z",
       "topic_entities": [
         "1911",
         "critical temperature",
@@ -604,7 +596,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T14:23:11.584Z",
+      "verified_at": "2026-07-05T21:46:06.104Z",
       "topic_entities": [
         "clausius",
         "disorder",
