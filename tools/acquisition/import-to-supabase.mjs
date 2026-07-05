@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createSupabaseRequest, fetchAllSupabaseRows, formatDifficultyCounts, formatQualityCounts, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
 import { assessQuestionForIntake } from './intake-assessment.mjs';
+import { extractTopicEntities } from './topic-entities.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -165,6 +166,11 @@ for (const question of questions) {
     answer_detail: question.answer_detail ?? null,
     answer_type: question.answer_type === 'name' ? 'name' : 'other', // default safe; only people are 'name'
     allow_duplicate: question.allow_duplicate === true, // reviewer-blessed cross-fact dupe (skips the dedup gate)
+    // Distinctive entities for RELATED-clue detection (migration 036) — computed deterministically
+    // so every clue is tagged the same way; a pack may override with a curated list.
+    topic_entities: (Array.isArray(question.topic_entities) && question.topic_entities.length)
+      ? question.topic_entities
+      : extractTopicEntities(prepared.answer, prepared.clue),
     quality_status: quality.decision,
     quality_score: quality.score,
     quality_issues: quality.issues,

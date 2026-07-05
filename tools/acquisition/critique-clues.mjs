@@ -36,6 +36,7 @@ import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 import { auditFeedbackIssues } from './feedback-quality-rules.mjs';
 import { createSupabaseRequest, fetchAllSupabaseRows, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
+import { extractTopicEntities, relatedThreshold, sharedEntities } from './topic-entities.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -83,7 +84,7 @@ const RUBRIC = [
   '  physics"), or an odd/wrong word. Quote the offending phrase.',
   '- factual: the clue\'s claim CONTRADICTS the provided SOURCE excerpt. Flag ONLY a clear contradiction — never',
   '  flag merely because a detail is absent from the excerpt (it may be partial).',
-  '  (Duplicate detection is handled deterministically outside this rubric — do NOT flag duplicates yourself.)',
+  '  (Duplicate AND related-clue detection are handled deterministically outside this rubric — do NOT flag either yourself.)',
   '- wordplay (ONLY for language_wordplay clues): judge the MECHANIC and, above all, RETRIEVABILITY — could a',
   '  solver actually reach the answer? For a BEFORE & AFTER, the two source phrases must be CONCEPTUALLY',
   '  UNRELATED — joined only by a coincidental shared pivot word, never by a shared theme or domain. Flag it if',
@@ -153,15 +154,26 @@ async function buildDupIndex(indexPath) {
     index.get(k).push({ cls, label });
   };
   let bank = null;
+  const bankRows = []; // for the advisory RELATED check (entity overlap)
   try {
     const request = createSupabaseRequest(getSupabaseAdminConfig());
-    const rows = await fetchAllSupabaseRows(request, '/rest/v1/questions?select=answer,aliases,category_id,image_url&is_active=eq.true');
+    let rows;
+    try {
+      rows = await fetchAllSupabaseRows(request, '/rest/v1/questions?select=external_id,answer,aliases,category_id,image_url,topic_entities,clue&is_active=eq.true');
+    } catch {
+      // topic_entities column absent (migration 036 not yet applied) — fetch without it and
+      // compute entities on the fly, so dedup + related both keep working during the transition.
+      rows = await fetchAllSupabaseRows(request, '/rest/v1/questions?select=external_id,answer,aliases,category_id,image_url,clue&is_active=eq.true');
+    }
     bank = rows.length;
     for (const r of rows) {
       const cls = classKey(r.category_id, Boolean(r.image_url));
       const label = `bank:${r.category_id}`;
       add(r.answer, cls, label);
       for (const a of Array.isArray(r.aliases) ? r.aliases : []) add(a, cls, label);
+      // stored tags (migration 036); fall back to on-the-fly extraction for un-backfilled rows
+      const ent = (Array.isArray(r.topic_entities) && r.topic_entities.length) ? r.topic_entities : extractTopicEntities(r.answer, r.clue);
+      bankRows.push({ external_id: r.external_id, answer: r.answer, category_id: r.category_id, ent });
     }
   } catch { bank = null; /* no creds → bank part skipped */ }
   let pending = 0;
@@ -176,7 +188,23 @@ async function buildDupIndex(indexPath) {
       }
     } catch (err) { console.error(`  ! could not read --dup-index: ${err.message}`); }
   }
-  return { index, bank, pending };
+  return { index, bank, pending, bankRows };
+}
+
+// Bank clues that share enough distinctive entities to be RELATED (same fact/topic, possibly
+// under a different answer) — the gap answer-dedup can't see. Advisory only. Same answer is
+// the dedup's job, so it's excluded here; the cross-category bar is higher (relatedThreshold).
+function relatedHits(q, bankRows) {
+  const ent = extractTopicEntities(q.answer, q.clue);
+  if (ent.length < 2 || !bankRows) return [];
+  const qa = normAns(q.answer);
+  const out = [];
+  for (const b of bankRows) {
+    if (normAns(b.answer) === qa) continue;
+    const shared = sharedEntities(ent, b.ent);
+    if (shared.length >= relatedThreshold(q.category_id, b.category_id)) out.push({ b, shared });
+  }
+  return out.sort((x, y) => y.shared.length - x.shared.length).slice(0, 3);
 }
 
 // Locations where this clue collides under the gate's rules (same answer/alias + same class),
@@ -247,7 +275,7 @@ function extractJsonArray(text) {
   try { return JSON.parse(fenced.slice(start, end + 1)); } catch { return null; }
 }
 
-async function critiquePack(packPath, dupIndex) {
+async function critiquePack(packPath, dupIndex, bankRows) {
   const pack = JSON.parse(fs.readFileSync(packPath, 'utf8'));
   const questions = pack.questions || pack;
   const categoryId = pack.category_id || (questions[0] && questions[0].category_id) || '';
@@ -269,6 +297,7 @@ async function critiquePack(packPath, dupIndex) {
 
   const byId = new Map(verdicts.map((v) => [String(v.external_id), v]));
   let dupFlagged = 0;
+  let relFlagged = 0;
   const rows = questions.map((q) => {
     const v = byId.get(String(q.external_id || q.answer)) || { verdict: 'pass', issues: [] };
     const row = { external_id: q.external_id || q.answer, answer: q.answer, value: q.value, ...v };
@@ -284,9 +313,21 @@ async function critiquePack(packPath, dupIndex) {
       }];
       if (!row.verdict || row.verdict === 'pass') row.verdict = 'revise';
     }
+    // Advisory RELATED check — same fact/topic under a (possibly) different answer, via shared
+    // entities. Not a dup and not a gate: a heads-up to compare and decide.
+    const rel = relatedHits(q, bankRows);
+    if (rel.length) {
+      relFlagged += 1;
+      const where = rel.map((r) => `${r.b.external_id} "${r.b.answer}" [${r.b.category_id}] (shared: ${r.shared.join(', ')})`).join('; ');
+      row.issues = [...(row.issues || []), {
+        dimension: 'related',
+        detail: `may re-ask the same fact/topic as an existing clue — ${where}. Compare and decide (reword to differentiate, or drop if truly redundant).`,
+      }];
+      if (!row.verdict || row.verdict === 'pass') row.verdict = 'revise';
+    }
     return row;
   });
-  return { packPath, rows, docs: docMap.size, dupFlagged };
+  return { packPath, rows, docs: docMap.size, dupFlagged, relFlagged };
 }
 
 function renderMarkdown(results) {
@@ -309,15 +350,15 @@ function renderMarkdown(results) {
 
 await loadDefaultEnv(rootDir); // for the Supabase duplicate index (no-op if creds absent)
 
-const { index: dupIndex, bank, pending } = await buildDupIndex(dupIndexPath);
-console.log(`Duplicate index: ${bank == null ? 'bank OFF (no Supabase)' : bank + ' active bank rows'}${pending ? `, ${pending} pending answers from other open PRs` : ''} (same-answer + same-class, allow_duplicate-exempt).`);
+const { index: dupIndex, bank, pending, bankRows } = await buildDupIndex(dupIndexPath);
+console.log(`Duplicate index: ${bank == null ? 'bank OFF (no Supabase)' : bank + ' active bank rows'}${pending ? `, ${pending} pending answers from other open PRs` : ''} (same-answer + same-class, allow_duplicate-exempt; entity tags for related-check).`);
 
 const results = [];
 for (const packPath of packPaths) {
   console.log(`Critiquing ${path.basename(packPath)} with ${model}…`);
-  const res = await critiquePack(packPath, dupIndex);
+  const res = await critiquePack(packPath, dupIndex, bankRows);
   if (res) {
-    console.log(`  (source docs matched for ${res.docs} topic(s); ${res.dupFlagged} clue(s) flagged as collisions)`);
+    console.log(`  (source docs matched for ${res.docs} topic(s); ${res.dupFlagged} collision(s), ${res.relFlagged} related-clue flag(s))`);
     results.push(res);
   }
 }
