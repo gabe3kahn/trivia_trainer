@@ -141,7 +141,7 @@
       "external_id": "wordplay-2026-07-05-hom-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Homophones & Soundalikes",
-      "value": 800,
+      "value": 600,
       "difficulty_rank": 4,
       "mechanic": "homophone",
       "constraint_text": "This word sounds like another word that means something different — what is it?",
@@ -192,38 +192,6 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": []
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-07-05-ini-02",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Initials & Abbreviations",
-      "value": 200,
-      "difficulty_rank": 2,
-      "mechanic": "initials",
-      "constraint_text": "These letters are the initials of the answer — what is it?",
-      "clue": "This hollow wooden construction was left outside a besieged ancient city as an apparent tribute; soldiers concealed inside its belly emerged at night to unlock the gates, ending a ten-year standoff — T.H.",
-      "answer": "Trojan Horse",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "initials": "T.H."
-      },
-      "lock_value": true,
-      "tags": [
-        "wp-draft",
-        "initials"
-      ],
-      "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "ancient history",
-        "greeks",
-        "siege",
-        "trojan horse",
-        "trojan war",
-        "troy"
-      ]
     },
     {
       "source": "constructed",
@@ -301,7 +269,7 @@
       "difficulty_rank": 4,
       "mechanic": "initials",
       "constraint_text": "These letters are the initials of the answer — what is it?",
-      "clue": "Named for a 13th-century Italian mathematician who encountered it while modeling rabbit population growth, this mathematical series appears throughout nature — in the spiral of a nautilus shell and the arrangement of sunflower seeds — F.S.",
+      "clue": "Named for a 13th-century Italian mathematician who encountered it while modeling rabbit population growth, this mathematical progression appears throughout nature — in the spiral of a nautilus shell and the arrangement of sunflower seeds — F.S.",
       "answer": "Fibonacci Sequence",
       "answer_type": "other",
       "aliases": [
@@ -327,6 +295,30 @@
         "rabbit population",
         "spiral"
       ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-ini-07",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "This sprawling network of overland trade routes linked distant civilizations across Eurasia for well over a millennium, carrying goods, religions, and even plague from one end to the other — S.R.",
+      "answer": "Silk Road",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "initials": "S.R."
+      },
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": []
     }
   ]
 }
