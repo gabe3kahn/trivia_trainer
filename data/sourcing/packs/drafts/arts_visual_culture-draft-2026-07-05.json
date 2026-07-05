@@ -1,0 +1,603 @@
+{
+  "pack_id": "arts_visual_culture-draft-2026-07-05",
+  "category_id": "arts_visual_culture",
+  "created_at": "2026-07-05",
+  "notes": [
+    "Under-covered tiers: $800 and $1000. Pack weighted toward both.",
+    "Photography subcategory was empty — added 4 text clues (Daguerre, Lange, Cartier-Bresson, Stieglitz) and Man Ray as Painters & Sculptors.",
+    "3 visual clues (public-domain works): The Milkmaid (Vermeer, 1658–1660), The Gleaners (Millet, 1857), Liberty Leading the People (Delacroix, 1830).",
+    "New/thin subcategories covered: Photography (x4), Art Terms & Techniques (Fresco, Chiaroscuro, Sfumato), Design & Decorative Arts (Bauhaus), Patrons/Critics/Schools (Lorenzo de' Medici).",
+    "Hard tail: Man Ray ($800), Henri Cartier-Bresson ($800), Sfumato ($800), Alfred Stieglitz ($1000)."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Space_Needle",
+      "external_id": "arts-vc-2026-07-05-001",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Built for the 1962 World's Fair and standing 605 feet tall in Seattle, this observation tower was once the tallest structure west of the Mississippi River in the United States.",
+      "answer": "Space Needle",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Space Needle",
+          "url": "https://en.wikipedia.org/wiki/Space_Needle",
+          "snippet": "The Space Needle is an observation tower in Seattle, Washington, United States. Considered to be an icon of the city, it has been designated a Seattle landmark. Located at 400 Broad Street in the Lower Queen Anne neighborhood, it was built "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:22:59.629Z",
+      "topic_entities": [
+        "1962",
+        "built",
+        "fair",
+        "mississippi",
+        "needle",
+        "river",
+        "seattle",
+        "space"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Fresco",
+      "external_id": "arts-vc-2026-07-05-002",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Closely associated with Italian Renaissance painting, this mural technique involves applying pigment to lime plaster that has just been laid, so the artwork bonds permanently with the wall as it sets.",
+      "answer": "Fresco",
+      "answer_type": "other",
+      "aliases": [
+        "buon fresco",
+        "true fresco"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-terms-techniques"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Fresco",
+          "url": "https://en.wikipedia.org/wiki/Fresco",
+          "snippet": "Fresco is a technique of mural painting executed upon freshly laid (\"wet\") lime plaster. Water is used as the vehicle for the dry-powder pigment to merge with the plaster, and with the setting of the plaster, the painting becomes an integra"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:22:59.984Z",
+      "topic_entities": [
+        "closely",
+        "fresco",
+        "renaissance"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dorothea_Lange",
+      "external_id": "arts-vc-2026-07-05-003",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Her Depression-era photographs for the Farm Security Administration — including an iconic portrait of a haggard migrant mother with her children — helped define documentary photography and humanize the victims of economic collapse.",
+      "answer": "Dorothea Lange",
+      "answer_type": "name",
+      "aliases": [
+        "Lange"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "photography"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dorothea Lange",
+          "url": "https://en.wikipedia.org/wiki/Dorothea_Lange",
+          "snippet": "Dorothea Lange was an American documentary photographer and photojournalist, best known for her Depression-era work for the Farm Security Administration (FSA). Lange's photographs influenced the development of documentary photography and hu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:00.340Z",
+      "topic_entities": [
+        "administration",
+        "depression",
+        "dorothea",
+        "farm",
+        "lange",
+        "security"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Art_Nouveau",
+      "external_id": "arts-vc-2026-07-05-004",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Movements",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Popular during the Belle Époque between 1890 and 1910, this international decorative style drew on sinuous natural forms — plant tendrils, flower petals, and insect wings — and used modern materials such as iron and glass to create organic, asymmetrical structures.",
+      "answer": "Art Nouveau",
+      "answer_type": "other",
+      "aliases": [
+        "art nouveau"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-movements"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Art Nouveau",
+          "url": "https://en.wikipedia.org/wiki/Art_Nouveau",
+          "snippet": "Art Nouveau is an international style of art, architecture, and applied art, especially the decorative arts. It was often inspired by natural forms such as the sinuous curves of plants and flowers. Other characteristics of Art Nouveau were "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:00.697Z",
+      "topic_entities": [
+        "1890",
+        "1910",
+        "belle",
+        "nouveau",
+        "popular"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)",
+      "external_id": "arts-vc-2026-07-05-005",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "The Milkmaid",
+      "answer_type": "other",
+      "aliases": [
+        "The Kitchen Maid",
+        "Milkmaid"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Milkmaid (Vermeer)",
+          "url": "https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)",
+          "snippet": "The Milkmaid, sometimes called The Kitchen Maid, is an oil-on-canvas painting of a \"milkmaid\", in fact, a domestic kitchen maid, by the Dutch artist Johannes Vermeer. It is in the Rijksmuseum in Amsterdam, the Netherlands, which regards it "
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png/3840px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Milkmaid — Johannes Vermeer",
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:01.114Z",
+      "topic_entities": [
+        "milkmaid",
+        "name"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "external_id": "arts-vc-2026-07-05-006",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Design & Decorative Arts",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Operational from 1919 to 1933 and shuttered under political pressure, this influential German school unified craft and fine arts by emphasizing that good design must serve mass production and function.",
+      "answer": "Bauhaus",
+      "answer_type": "other",
+      "aliases": [
+        "the Bauhaus",
+        "Staatliches Bauhaus"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "design-decorative-arts"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bauhaus",
+          "url": "https://en.wikipedia.org/wiki/Bauhaus",
+          "snippet": "The Staatliches Bauhaus, commonly known as the Bauhaus, was a German art school operational from 1919 to 1933 that combined crafts and the fine arts. The school became famous for its approach to design, which attempted to unify individual a"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:01.469Z",
+      "topic_entities": [
+        "1919",
+        "1933",
+        "bauhaus",
+        "operational"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Louis_Daguerre",
+      "external_id": "arts-vc-2026-07-05-007",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A former panorama designer and showman, this Frenchman became one of the fathers of photography by unveiling in 1839 a process that produced positive images on silver-coated copper plates — the first practical photographic method adopted worldwide.",
+      "answer": "Louis Daguerre",
+      "answer_type": "name",
+      "aliases": [
+        "Daguerre"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "photography"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Louis Daguerre",
+          "url": "https://en.wikipedia.org/wiki/Louis_Daguerre",
+          "snippet": "Louis-Jacques-Mandé Daguerre was a French scientist, artist and photographer recognized for his invention of the eponymous daguerreotype process of photography. He became known as one of the fathers of photography. Though he is most famous "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:01.899Z",
+      "topic_entities": [
+        "1839",
+        "daguerre",
+        "frenchman",
+        "louis"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chiaroscuro",
+      "external_id": "arts-vc-2026-07-05-008",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Used by painters from Caravaggio to Rembrandt, this Italian technique employs bold contrasts between illuminated and shadowed areas to model three-dimensional figures and create dramatic atmospheric effects on the canvas.",
+      "answer": "Chiaroscuro",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-terms-techniques"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chiaroscuro",
+          "url": "https://en.wikipedia.org/wiki/Chiaroscuro",
+          "snippet": "In art, chiaroscuro is the use of strong contrasts between light and dark, usually bold contrasts affecting a whole composition. It is also a technical term used by artists and art historians for the use of contrasts of light to achieve a s"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:02.254Z",
+      "topic_entities": [
+        "caravaggio",
+        "chiaroscuro",
+        "rembrandt",
+        "used"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lorenzo_de%27_Medici",
+      "external_id": "arts-vc-2026-07-05-009",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Known as 'the Magnificent,' this 15th-century de facto ruler of the Florentine Republic was the most powerful patron of Renaissance culture in Italy, sponsoring young artists including Botticelli and Michelangelo.",
+      "answer": "Lorenzo de' Medici",
+      "answer_type": "name",
+      "aliases": [
+        "Medici",
+        "Lorenzo the Magnificent",
+        "Lorenzo dei Medici"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "patrons-critics-schools"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lorenzo de' Medici",
+          "url": "https://en.wikipedia.org/wiki/Lorenzo_de'_Medici",
+          "snippet": "Lorenzo di Piero de' Medici, known as Lorenzo the Magnificent, was an Italian statesman, de facto ruler of the Florentine Republic, and the most powerful patron of Renaissance culture in Italy. Lorenzo held the balance of power within the I"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:02.609Z",
+      "topic_entities": [
+        "botticelli",
+        "florentine",
+        "italy",
+        "lorenzo",
+        "magnificent",
+        "medici",
+        "michelangelo",
+        "renaissance"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Gleaners",
+      "external_id": "arts-vc-2026-07-05-010",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name the artist.",
+      "answer": "Jean-François Millet",
+      "answer_type": "name",
+      "aliases": [
+        "Millet",
+        "Jean-Francois Millet"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Gleaners",
+          "url": "https://en.wikipedia.org/wiki/The_Gleaners",
+          "snippet": "The Gleaners is an oil painting by Jean-François Millet completed in 1857. It is held in the Musée d'Orsay, in Paris."
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg/3840px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The Gleaners — Jean-François Millet",
+      "verification_status": "weak",
+      "verified_at": "2026-07-05T14:23:03.088Z",
+      "topic_entities": [
+        "fran",
+        "jean",
+        "millet",
+        "name"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+      "external_id": "arts-vc-2026-07-05-011",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "Liberty Leading the People",
+      "answer_type": "other",
+      "aliases": [
+        "La Liberté guidant le peuple"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Liberty Leading the People",
+          "url": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+          "snippet": "Liberty Leading the People is a painting of the Romantic era by the French artist Eugène Delacroix, commemorating the July Revolution of 1830 that toppled King Charles X. A bare-breasted \"woman of the people\" with a Phrygian cap personifyin"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/3840px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "Liberty Leading the People — Eugène Delacroix",
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:03.496Z",
+      "topic_entities": [
+        "leading",
+        "liberty",
+        "name",
+        "people"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Man_Ray",
+      "external_id": "arts-vc-2026-07-05-012",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born Emmanuel Radnitzky in Philadelphia, this American-born artist spent most of his career in Paris as a central figure in Dada and Surrealism; though he considered himself a painter above all, he pioneered camera-less photograms that he nicknamed after himself.",
+      "answer": "Man Ray",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Man Ray",
+          "url": "https://en.wikipedia.org/wiki/Man_Ray",
+          "snippet": "Man Ray was an American-born, French-naturalized visual artist who spent most of his career in Paris. He was a significant contributor to the Dada and Surrealist movements, although his ties to each were informal. He produced major works in"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:03.851Z",
+      "topic_entities": [
+        "born",
+        "dada",
+        "emmanuel",
+        "paris",
+        "philadelphia",
+        "radnitzky",
+        "surrealism"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Henri_Cartier-Bresson",
+      "external_id": "arts-vc-2026-07-05-013",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This French humanist photographer, considered a master of candid street photography and an early adopter of 35mm film, named his approach around capturing what he called the decisive moment — the split second when composition and content align perfectly.",
+      "answer": "Henri Cartier-Bresson",
+      "answer_type": "name",
+      "aliases": [
+        "Cartier-Bresson"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "photography"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Henri Cartier-Bresson",
+          "url": "https://en.wikipedia.org/wiki/Henri_Cartier-Bresson",
+          "snippet": "Henri Cartier-Bresson was a French humanist photographer and artist. He was considered a master of candid photography, and was an early user of 35mm film. He pioneered the genre of street photography and viewed capturing what he named the d"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:04.205Z",
+      "topic_entities": [
+        "bresson",
+        "cartier",
+        "henri"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sfumato",
+      "external_id": "arts-vc-2026-07-05-014",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Leonardo da Vinci described this Italian painting technique for softening transitions between colors — eliminating hard edges entirely — as being applied 'without lines or borders, in the manner of smoke.'",
+      "answer": "Sfumato",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "art-terms-techniques"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sfumato",
+          "url": "https://en.wikipedia.org/wiki/Sfumato",
+          "snippet": "Sfumato is a painting technique for softening the transition between colours, mimicking an area beyond what the human eye is focusing on, or the out-of-focus plane. It is one of the canonical painting modes of the Renaissance. Leonardo da V"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:04.569Z",
+      "topic_entities": [
+        "leonardo",
+        "sfumato",
+        "vinci"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Alfred_Stieglitz",
+      "external_id": "arts-vc-2026-07-05-015",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American photographer's influential New York galleries in the early 20th century introduced avant-garde European artists — among them Matisse and Cézanne — to American audiences for the first time, while his own images are considered milestones in establishing the camera as a medium for fine art.",
+      "answer": "Alfred Stieglitz",
+      "answer_type": "name",
+      "aliases": [
+        "Stieglitz"
+      ],
+      "tags": [
+        "arts-visual-culture-draft",
+        "sourced",
+        "photography"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Alfred Stieglitz",
+          "url": "https://en.wikipedia.org/wiki/Alfred_Stieglitz",
+          "snippet": "Alfred Stieglitz was an American photographer and modern art promoter who was instrumental over his 50-year career in making photography an accepted art form. In addition to his photography, Stieglitz was known for the New York art gallerie"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T14:23:04.923Z",
+      "topic_entities": [
+        "alfred",
+        "matisse",
+        "stieglitz",
+        "york"
+      ]
+    }
+  ]
+}

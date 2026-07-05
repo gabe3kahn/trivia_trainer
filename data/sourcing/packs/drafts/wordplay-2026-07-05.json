@@ -1,0 +1,303 @@
+{
+  "pack_id": "wordplay-2026-07-05",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-05",
+  "notes": [
+    "Mechanics: homophone (5) + initials (5). Homophone last used 2026-06-28; initials last used 2026-06-29 — both most overdue.",
+    "Homophone pairs: leek/leak, mane/main, vane/vain, isle/aisle, rite/right.",
+    "Initials answers: Stanley Cup (S.C. $200), Trojan Horse (T.H. $400), Mardi Gras (M.G. $400), Magna Carta (M.C. $600), Fibonacci Sequence (F.S. $800)."
+  ],
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-hom-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds like another word that means something different — what is it?",
+      "clue": "A leak in the galley ceiling dripped steadily onto the cutting board where the cook had arranged this long-stalked member of the allium family, prized in Welsh cuisine and displayed on its national emblem.",
+      "answer": "Leek",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "leak"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "leek",
+        "welsh"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-hom-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds like another word that means something different — what is it?",
+      "clue": "The main attraction at many equine shows, this flowing cascade of hair along the neck and crest is carefully groomed, braided, or banded to accentuate a horse's carriage and posture.",
+      "answer": "Mane",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "main"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "mane"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-hom-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds like another word that means something different — what is it?",
+      "clue": "It would be vain to expect precision from this spinning arrow atop old barns and church steeples — indicating wind direction since medieval times, its readings are qualitative rather than quantitative.",
+      "answer": "Vane",
+      "answer_type": "other",
+      "aliases": [
+        "weather vane"
+      ],
+      "wp": {
+        "homophone": "vain"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "vane"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-hom-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds like another word that means something different — what is it?",
+      "clue": "The bride walked down the aisle of the small church on the coral-fringed tropical landmass, a sea breeze carrying the scent of salt and flowers through the open doors.",
+      "answer": "Isle",
+      "answer_type": "other",
+      "aliases": [
+        "island"
+      ],
+      "wp": {
+        "homophone": "aisle"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "isle"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-hom-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "homophone",
+      "constraint_text": "This word sounds like another word that means something different — what is it?",
+      "clue": "Every gesture at the initiation ceremony was performed in the right order, each step exactly as the elders had prescribed for generations, ensuring no tradition was neglected.",
+      "answer": "Rite",
+      "answer_type": "other",
+      "aliases": [
+        "rites"
+      ],
+      "wp": {
+        "homophone": "right"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "every",
+        "rite"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-ini-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "Awarded annually to the champion of North America's highest professional tier of ice hockey, this sterling trophy bears engraved champions' names added in rings around its base and is the oldest of its kind in major professional team sport — S.C.",
+      "answer": "Stanley Cup",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "initials": "S.C."
+      },
+      "lock_value": true,
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "america",
+        "awarded",
+        "stanley"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-ini-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "This hollow wooden construction was left outside a besieged ancient city as an apparent tribute; soldiers concealed inside its belly emerged at night to unlock the gates, ending a ten-year standoff — T.H.",
+      "answer": "Trojan Horse",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "initials": "T.H."
+      },
+      "lock_value": true,
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "horse",
+        "trojan"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-ini-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "The day immediately preceding Ash Wednesday, this annual festival is marked by elaborate street processions, costumed revelry, and the centuries-old tradition of feasting before the fasting season begins — most lavishly celebrated in New Orleans — M.G.",
+      "answer": "Mardi Gras",
+      "answer_type": "other",
+      "aliases": [
+        "Fat Tuesday"
+      ],
+      "wp": {
+        "initials": "M.G."
+      },
+      "lock_value": true,
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "gras",
+        "mardi",
+        "orleans"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-ini-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "Forced upon a reluctant English king at a Thames meadow in 1215, this foundational agreement — sealed under pressure from rebellious barons — was the first to establish that even the sovereign was bound by the law — M.C.",
+      "answer": "Magna Carta",
+      "answer_type": "other",
+      "aliases": [
+        "Magna Charta"
+      ],
+      "wp": {
+        "initials": "M.C."
+      },
+      "lock_value": true,
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "1215",
+        "carta",
+        "forced",
+        "magna",
+        "thames"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-05-ini-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "Named for a 13th-century Italian mathematician who encountered it while modeling rabbit population growth, this mathematical series appears throughout nature — in the spiral of a nautilus shell and the arrangement of sunflower seeds — with consecutive terms converging on the golden ratio — F.S.",
+      "answer": "Fibonacci Sequence",
+      "answer_type": "other",
+      "aliases": [
+        "Fibonacci series",
+        "Fibonacci numbers"
+      ],
+      "wp": {
+        "initials": "F.S."
+      },
+      "lock_value": true,
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "fibonacci",
+        "named",
+        "sequence"
+      ]
+    }
+  ]
+}
