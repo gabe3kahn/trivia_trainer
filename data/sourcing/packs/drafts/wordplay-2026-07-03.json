@@ -17,10 +17,25 @@
       "answer": "ALE",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "tales"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "tales"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ale",
+        "barley",
+        "brewed",
+        "england",
+        "fermentation",
+        "hops",
+        "sailor",
+        "tavern"
+      ]
     },
     {
       "source": "constructed",
@@ -35,10 +50,25 @@
       "answer": "ICE",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "office"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "office"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "arctic",
+        "cold therapy",
+        "cryotherapy",
+        "crystalline",
+        "freezing",
+        "glacier",
+        "swelling",
+        "water"
+      ]
     },
     {
       "source": "constructed",
@@ -53,10 +83,25 @@
       "answer": "ASH",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "fashion"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "fashion"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "cremation",
+        "death",
+        "fire",
+        "funeral",
+        "grey",
+        "powder",
+        "remains",
+        "urn"
+      ]
     },
     {
       "source": "constructed",
@@ -71,10 +116,25 @@
       "answer": "NET",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "planet"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "planet"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "catch",
+        "dock",
+        "drying",
+        "fishing",
+        "knot",
+        "maritime",
+        "mesh",
+        "neptune"
+      ]
     },
     {
       "source": "constructed",
@@ -88,11 +148,28 @@
       "clue": "The sommelier uncorked the magnum and poured two generous glasses, while outside the window a herd of bearded African antelopes grazed peacefully in the dusk.",
       "answer": "GNU",
       "answer_type": "other",
-      "aliases": ["Wildebeest"],
-      "wp": {"hidden_in": "magnum"},
-      "tags": ["wp-draft", "hidden_word"],
+      "aliases": [
+        "Wildebeest"
+      ],
+      "wp": {
+        "hidden_in": "magnum"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "africa",
+        "antelope",
+        "bearded",
+        "grazing",
+        "herd",
+        "horns",
+        "savanna",
+        "wildebeest"
+      ]
     },
     {
       "source": "constructed",
@@ -107,10 +184,26 @@
       "answer": "Fire Truck Stop",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Fire Truck", "second": "Truck Stop"},
-      "tags": ["wp-draft", "before_after"],
+      "wp": {
+        "first": "Fire Truck",
+        "second": "Truck Stop"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "diesel",
+        "emergency",
+        "fire truck",
+        "highway",
+        "ladder",
+        "red",
+        "siren",
+        "truck stop"
+      ]
     },
     {
       "source": "constructed",
@@ -124,11 +217,29 @@
       "clue": "The bony, upright-drifting creature from the coral reef somehow found itself tangled up in the boisterous roughhousing out by the stable.",
       "answer": "Sea Horse Play",
       "answer_type": "other",
-      "aliases": ["Seahorse Play"],
-      "wp": {"first": "Sea Horse", "second": "Horse Play"},
-      "tags": ["wp-draft", "before_after"],
+      "aliases": [
+        "Seahorse Play"
+      ],
+      "wp": {
+        "first": "Sea Horse",
+        "second": "Horse Play"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "bony",
+        "coral reef",
+        "horse",
+        "horseplay",
+        "marine",
+        "roughhousing",
+        "seahorse",
+        "stable"
+      ]
     },
     {
       "source": "constructed",
@@ -143,10 +254,26 @@
       "answer": "Cotton Candy Bar",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Cotton Candy", "second": "Candy Bar"},
-      "tags": ["wp-draft", "before_after"],
+      "wp": {
+        "first": "Cotton Candy",
+        "second": "Candy Bar"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "candy bar",
+        "chocolate",
+        "confection",
+        "cotton candy",
+        "fairground",
+        "foil",
+        "pink",
+        "spun sugar"
+      ]
     },
     {
       "source": "constructed",
@@ -161,10 +288,26 @@
       "answer": "Ghost Town Hall",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Ghost Town", "second": "Town Hall"},
-      "tags": ["wp-draft", "before_after"],
+      "wp": {
+        "first": "Ghost Town",
+        "second": "Town Hall"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "abandoned",
+        "civic",
+        "dilapidated",
+        "ghost town",
+        "meeting",
+        "residents",
+        "settlement",
+        "town hall"
+      ]
     },
     {
       "source": "constructed",
@@ -179,10 +322,26 @@
       "answer": "Dream Boat Race",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Dream Boat", "second": "Boat Race"},
-      "tags": ["wp-draft", "before_after"],
+      "wp": {
+        "first": "Dream Boat",
+        "second": "Boat Race"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "annual",
+        "boat race",
+        "competition",
+        "dreamboat",
+        "river",
+        "rowing",
+        "thames",
+        "watercraft"
+      ]
     }
   ]
 }
