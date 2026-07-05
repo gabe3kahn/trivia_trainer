@@ -195,7 +195,8 @@ async function buildDupIndex(indexPath) {
 // under a different answer) — the gap answer-dedup can't see. Advisory only. Same answer is
 // the dedup's job, so it's excluded here; the cross-category bar is higher (relatedThreshold).
 function relatedHits(q, bankRows) {
-  const ent = extractTopicEntities(q.answer, q.clue);
+  // Prefer the clue's stamped/curated tags (tag-pack.mjs); fall back to on-the-fly extraction.
+  const ent = (Array.isArray(q.topic_entities) && q.topic_entities.length) ? q.topic_entities : extractTopicEntities(q.answer, q.clue);
   if (ent.length < 2 || !bankRows) return [];
   const qa = normAns(q.answer);
   const out = [];
