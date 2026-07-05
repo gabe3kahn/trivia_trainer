@@ -157,6 +157,25 @@ jobs:
           git add data/sourcing/topics/pool.json data/sourcing/harvest-state.json
           git commit -m "chore(harvest): refresh topic pool + cursor for $(date -u +%F)" || echo "No harvest changes to commit this run."
 
+      # LEARN from every merged edit BEFORE drafting: re-harvest the (draft->final) rewrites from git
+      # history, pull the editor's review comments, condense any NEW pairs (Sonnet, incremental), and
+      # regenerate planning/clue-rewrite-lessons.md — which the draft pass then reads. Committed onto
+      # the branch so the refreshed lessons + corpus + edit-rate metrics ride in the reviewed PR (the
+      # bot can't push to protected main directly; the PR is the rule-abiding path). Degrades safely:
+      # a failure here must not sink the draft, so it never exits non-zero.
+      - name: Learn from merged edits (refresh rewrite lessons)
+        run: |
+          set +e
+          node tools/acquisition/harvest-clue-rewrites.mjs
+          node tools/acquisition/harvest-review-comments.mjs
+          node tools/acquisition/condense-rewrites.mjs
+          node tools/acquisition/build-rewrite-lessons.mjs
+          git add planning/clue-rewrite-lessons.md \
+            data/acquisition/clue-rewrites.jsonl data/acquisition/clue-comments.jsonl \
+            data/acquisition/clue-rewrite-lessons.jsonl data/acquisition/drafter-metrics.jsonl
+          git commit -m "chore(learn): refresh rewrite lessons from merged edits ($(date -u +%F))" || echo "No lesson changes this run."
+          exit 0
+
       # DIAGNOSTIC: the draft step has been running ~50+ min on hosted runners vs
       # ~20-30 min locally. Prime suspect is Wikipedia rate-limiting the shared Actions
       # egress IP — build-topic-docs fetches ~25 docs/category and the 429-backoff turns
