@@ -40,8 +40,10 @@ const out = [
   '> The top edits — tighten, vivid hook, cut giveaway, concrete-over-abstract — are the ones no deterministic gate',
   '> can catch. This is where they get taught.', '',
   '> **Difficulty/value is out of scope here** — handled separately. Do not change values based on these lessons.', '',
-  '> **Restraint above all:** rewrite only a GENUINE defect. A clue that already reads well should be left ALONE.',
-  '> Polish must never cost difficulty, flow, or elegance — when a fix would make the clue easier or choppier, don\'t.', '',
+  '> **These guardrails constrain HOW you rewrite, not WHETHER.** Propose a rewrite whenever it clearly IMPROVES the',
+  '> clue — a hedged/generic opener, a subject buried so it obscures, real wordiness, a leak, a grammar error. Do not',
+  "> withhold a clear improvement, and do not make lateral/trivial edits that don't improve it. When you DO rewrite,",
+  '> apply the guardrails so the fix never backfires: it must not cost difficulty, flow, or elegance.', '',
 ];
 
 for (const s of SECTIONS) {

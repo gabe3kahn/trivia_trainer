@@ -9,8 +9,10 @@ it reflects every merged edit. Pre-apply these so the drafter writes the FINAL v
 
 > **Difficulty/value is out of scope here** — handled separately. Do not change values based on these lessons.
 
-> **Restraint above all:** rewrite only a GENUINE defect. A clue that already reads well should be left ALONE.
-> Polish must never cost difficulty, flow, or elegance — when a fix would make the clue easier or choppier, don't.
+> **These guardrails constrain HOW you rewrite, not WHETHER.** Propose a rewrite whenever it clearly IMPROVES the
+> clue — a hedged/generic opener, a subject buried so it obscures, real wordiness, a leak, a grammar error. Do not
+> withhold a clear improvement, and do not make lateral/trivial edits that don't improve it. When you DO rewrite,
+> apply the guardrails so the fix never backfires: it must not cost difficulty, flow, or elegance.
 
 ## 1. Tighten the wording (43)
 Cut every word that doesn't earn its place; compress a multi-word descriptor into one precise word. The final clue is usually SHORTER. **Guardrail:** cut only GENUINE bloat — never strip color, flow, or an elegant cadence, and a SHORT clue can keep descriptive words that carry it. Brevity is a means, not the goal; if the clue already reads well, leave it.
