@@ -272,38 +272,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Death_of_a_Salesman",
-      "external_id": "music-2026-07-03-009",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Theater",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Arthur Miller's two-act tragedy premiered on Broadway in 1949, ran for 742 performances, and won both the Tony Award for Best Play and the Pulitzer Prize for Drama.",
-      "answer": "Death of a Salesman",
-      "answer_type": "other",
-      "aliases": [],
-      "tags": [
-        "mpa-draft",
-        "sourced",
-        "theater",
-        "playwright"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Death of a Salesman",
-          "url": "https://en.wikipedia.org/wiki/Death_of_a_Salesman",
-          "snippet": "Death of a Salesman is a 1949 stage play written by the American playwright Arthur Miller. The play premiered on Broadway on February 10, 1949, running for 742 performances. It is a two-act tragedy—the subtitle of the play is \"Certain Priva"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-03T14:43:26.922Z"
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Greensleeves",
       "external_id": "music-2026-07-03-010",
       "category_id": "music_performing_arts",
