@@ -40,14 +40,11 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:22:59.629Z",
       "topic_entities": [
-        "1962",
-        "built",
-        "fair",
-        "mississippi",
-        "needle",
-        "river",
+        "1962 world's fair",
+        "observation tower",
+        "pacific northwest",
         "seattle",
-        "space"
+        "space needle"
       ]
     },
     {
@@ -83,9 +80,12 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:22:59.984Z",
       "topic_entities": [
-        "closely",
         "fresco",
-        "renaissance"
+        "italian renaissance",
+        "lime plaster",
+        "mural",
+        "painting technique",
+        "permanent bonding"
       ]
     },
     {
@@ -120,12 +120,11 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:00.340Z",
       "topic_entities": [
-        "administration",
-        "depression",
-        "dorothea",
-        "farm",
-        "lange",
-        "security"
+        "depression era",
+        "documentary photography",
+        "dorothea lange",
+        "farm security administration",
+        "migrant mother"
       ]
     },
     {
@@ -160,11 +159,12 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:00.697Z",
       "topic_entities": [
-        "1890",
-        "1910",
-        "belle",
-        "nouveau",
-        "popular"
+        "1890-1910",
+        "art nouveau",
+        "belle époque",
+        "decorative arts",
+        "iron and glass",
+        "sinuous forms"
       ]
     },
     {
@@ -204,8 +204,12 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:01.114Z",
       "topic_entities": [
-        "milkmaid",
-        "name"
+        "domestic scene",
+        "dutch golden age",
+        "johannes vermeer",
+        "light",
+        "rijksmuseum",
+        "the milkmaid"
       ]
     },
     {
@@ -241,10 +245,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:01.469Z",
       "topic_entities": [
-        "1919",
-        "1933",
+        "1919-1933",
         "bauhaus",
-        "operational"
+        "craft",
+        "functionalism",
+        "germany",
+        "industrial design",
+        "walter gropius"
       ]
     },
     {
@@ -280,9 +287,11 @@
       "verified_at": "2026-07-05T14:23:01.899Z",
       "topic_entities": [
         "1839",
-        "daguerre",
-        "frenchman",
-        "louis"
+        "daguerreotype",
+        "france",
+        "louis daguerre",
+        "photography",
+        "silver-coated copper plates"
       ]
     },
     {
@@ -317,8 +326,10 @@
       "topic_entities": [
         "caravaggio",
         "chiaroscuro",
+        "dramatic contrast",
+        "light and shadow",
         "rembrandt",
-        "used"
+        "renaissance"
       ]
     },
     {
@@ -355,14 +366,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:02.609Z",
       "topic_entities": [
+        "15th century",
         "botticelli",
-        "florentine",
-        "italy",
-        "lorenzo",
-        "magnificent",
-        "medici",
+        "florence",
+        "lorenzo de' medici",
+        "medici family",
         "michelangelo",
-        "renaissance"
+        "renaissance patron"
       ]
     },
     {
@@ -402,10 +412,13 @@
       "verification_status": "weak",
       "verified_at": "2026-07-05T14:23:03.088Z",
       "topic_entities": [
-        "fran",
-        "jean",
-        "millet",
-        "name"
+        "19th century",
+        "barbizon school",
+        "french realism",
+        "jean-françois millet",
+        "peasant subjects",
+        "rural",
+        "the gleaners"
       ]
     },
     {
@@ -444,10 +457,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:03.496Z",
       "topic_entities": [
-        "leading",
-        "liberty",
-        "name",
-        "people"
+        "1830 july revolution",
+        "allegory",
+        "barricade",
+        "eugène delacroix",
+        "france",
+        "french romanticism",
+        "liberty leading the people"
       ]
     },
     {
@@ -480,12 +496,12 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:03.851Z",
       "topic_entities": [
-        "born",
         "dada",
-        "emmanuel",
+        "emmanuel radnitzky",
+        "man ray",
         "paris",
         "philadelphia",
-        "radnitzky",
+        "rayographs",
         "surrealism"
       ]
     },
@@ -521,9 +537,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:04.205Z",
       "topic_entities": [
-        "bresson",
-        "cartier",
-        "henri"
+        "35mm film",
+        "candid",
+        "decisive moment",
+        "french photography",
+        "henri cartier-bresson",
+        "humanist",
+        "street photography"
       ]
     },
     {
@@ -556,9 +576,12 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:04.569Z",
       "topic_entities": [
-        "leonardo",
+        "italian renaissance",
+        "last supper",
+        "leonardo da vinci",
+        "mona lisa",
         "sfumato",
-        "vinci"
+        "soft transitions"
       ]
     },
     {
@@ -593,10 +616,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:04.923Z",
       "topic_entities": [
-        "alfred",
+        "alfred stieglitz",
+        "avant-garde",
+        "cézanne",
+        "early 20th century",
         "matisse",
-        "stieglitz",
-        "york"
+        "new york",
+        "photography"
       ]
     }
   ]

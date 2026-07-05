@@ -41,9 +41,12 @@
       "verified_at": "2026-07-05T14:23:06.513Z",
       "topic_entities": [
         "1957",
-        "mitochondria",
-        "nicknamed",
-        "scientific"
+        "aerobic respiration",
+        "atp",
+        "double membrane",
+        "eukaryotic cells",
+        "powerhouse of the cell",
+        "scientific american"
       ]
     },
     {
@@ -79,12 +82,12 @@
       "verified_at": "2026-07-05T14:23:06.869Z",
       "topic_entities": [
         "1859",
-        "abbey",
-        "charles",
-        "darwin",
-        "origin",
-        "species",
-        "westminster"
+        "charles darwin",
+        "evolution",
+        "galapagos islands",
+        "natural selection",
+        "on the origin of species",
+        "westminster abbey"
       ]
     },
     {
@@ -120,10 +123,12 @@
       "verified_at": "2026-07-05T14:23:07.316Z",
       "topic_entities": [
         "1896",
-        "becquerel",
-        "henri",
-        "observed",
-        "radioactivity"
+        "alpha rays",
+        "beta rays",
+        "gamma rays",
+        "henri becquerel",
+        "marie curie",
+        "uranium"
       ]
     },
     {
@@ -158,8 +163,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:07.671Z",
       "topic_entities": [
-        "electromagnetic",
-        "organized"
+        "gamma rays",
+        "james clerk maxwell",
+        "radio waves",
+        "speed of light",
+        "ultraviolet radiation",
+        "visible light",
+        "wavelength"
       ]
     },
     {
@@ -192,8 +202,12 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:08.026Z",
       "topic_entities": [
-        "absolute",
-        "kelvin"
+        "0 kelvin",
+        "cryogenics",
+        "kelvin scale",
+        "thermodynamics",
+        "william thomson",
+        "−273.15°c"
       ]
     },
     {
@@ -228,9 +242,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:08.390Z",
       "topic_entities": [
-        "black",
-        "einstein",
-        "predicted"
+        "albert einstein",
+        "event horizon",
+        "general relativity",
+        "gravity",
+        "schwarzschild radius",
+        "singularity",
+        "spacetime"
       ]
     },
     {
@@ -266,8 +284,12 @@
       "verified_at": "2026-07-05T14:23:08.745Z",
       "topic_entities": [
         "1842",
-        "austrian",
-        "doppler"
+        "ambulance siren",
+        "blueshift",
+        "christoph doppler",
+        "frequency",
+        "redshift",
+        "wavelength"
       ]
     },
     {
@@ -303,12 +325,12 @@
       "verified_at": "2026-07-05T14:23:09.101Z",
       "topic_entities": [
         "1687",
-        "isaac",
-        "mathematica",
-        "naturalis",
-        "newton",
-        "philosophi",
-        "principia"
+        "calculus",
+        "classical mechanics",
+        "isaac newton",
+        "law of gravitation",
+        "optics",
+        "principia mathematica"
       ]
     },
     {
@@ -344,11 +366,12 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:09.455Z",
       "topic_entities": [
-        "celsius",
-        "defined",
-        "kelvin",
-        "system",
-        "units"
+        "absolute zero",
+        "kelvin scale",
+        "si base unit",
+        "thermodynamics",
+        "william thomson",
+        "−273.15°c"
       ]
     },
     {
@@ -384,9 +407,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:09.809Z",
       "topic_entities": [
-        "dmitri",
-        "mendeleev",
-        "periodic"
+        "118 elements",
+        "1869",
+        "atomic number",
+        "dmitri mendeleev",
+        "lanthanides",
+        "noble gases",
+        "periodic law"
       ]
     },
     {
@@ -419,7 +446,14 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:10.164Z",
       "topic_entities": [
-        "mitosis"
+        "anaphase",
+        "chromosomes",
+        "daughter cells",
+        "dna replication",
+        "eukaryotic cells",
+        "metaphase",
+        "prophase",
+        "telophase"
       ]
     },
     {
@@ -455,13 +489,12 @@
       "verified_at": "2026-07-05T14:23:10.518Z",
       "topic_entities": [
         "1858",
-        "alfred",
-        "charles",
-        "darwin",
-        "jointly",
-        "natural",
-        "russel",
-        "wallace"
+        "adaptation",
+        "alfred russel wallace",
+        "charles darwin",
+        "evolution",
+        "population genetics",
+        "survival of the fittest"
       ]
     },
     {
@@ -497,8 +530,12 @@
       "verified_at": "2026-07-05T14:23:10.873Z",
       "topic_entities": [
         "1898",
-        "named",
-        "polonium"
+        "element 84",
+        "marie curie",
+        "pierre curie",
+        "poland",
+        "radioactivity",
+        "uranium ore"
       ]
     },
     {
@@ -534,10 +571,11 @@
       "verified_at": "2026-07-05T14:23:11.229Z",
       "topic_entities": [
         "1911",
-        "heike",
-        "kamerlingh",
-        "onnes",
-        "superconductivity"
+        "critical temperature",
+        "heike kamerlingh onnes",
+        "liquid helium",
+        "mercury",
+        "zero electrical resistance"
       ]
     },
     {
@@ -570,7 +608,13 @@
       "verification_status": "verified",
       "verified_at": "2026-07-05T14:23:11.584Z",
       "topic_entities": [
-        "entropy"
+        "clausius",
+        "disorder",
+        "ludwig boltzmann",
+        "microscopic configurations",
+        "second law of thermodynamics",
+        "statistical mechanics",
+        "time's arrow"
       ]
     }
   ]
