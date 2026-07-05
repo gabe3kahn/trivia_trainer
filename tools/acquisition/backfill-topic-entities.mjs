@@ -9,25 +9,33 @@
  * are processed, in batches, PATCHed per batch — so re-running continues where it left off,
  * and --limit bounds a run's budget. Prod write — run it after applying 036.
  *
- *   node tools/acquisition/backfill-topic-entities.mjs [--dry-run] [--limit N] [--batch N]
+ * --retag-regex ALSO re-tags clues whose stored tags exactly equal the deterministic regex
+ * extractor's output — i.e. clues stamped by the offline fallback (or an older run) rather than
+ * the LLM. Use it to upgrade those to LLM tags without disturbing the ones already LLM-tagged.
+ *
+ *   node tools/acquisition/backfill-topic-entities.mjs [--dry-run] [--limit N] [--batch N] [--retag-regex]
  */
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createSupabaseRequest, fetchAllSupabaseRows, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
-import { llmTagEntities } from './topic-entities.mjs';
+import { llmTagEntities, extractTopicEntities } from './topic-entities.mjs';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 await loadDefaultEnv(rootDir);
 const argv = process.argv.slice(2);
 const dryRun = argv.includes('--dry-run');
+const retagRegex = argv.includes('--retag-regex');
 const limit = argv.includes('--limit') ? Number(argv[argv.indexOf('--limit') + 1]) : Infinity;
 const batchSize = argv.includes('--batch') ? Number(argv[argv.indexOf('--batch') + 1]) : 40;
 const request = createSupabaseRequest(getSupabaseAdminConfig());
 
 const rows = await fetchAllSupabaseRows(request, '/rest/v1/questions?select=id,external_id,answer,clue,topic_entities&is_active=eq.true');
-const pending = rows.filter((r) => !(Array.isArray(r.topic_entities) && r.topic_entities.length));
+const isEmpty = (r) => !(Array.isArray(r.topic_entities) && r.topic_entities.length);
+const arraysEqual = (a, b) => (a || []).length === (b || []).length && (a || []).every((x, i) => x === b[i]);
+const isRegexTagged = (r) => !isEmpty(r) && arraysEqual(r.topic_entities, extractTopicEntities(r.answer, r.clue));
+const pending = rows.filter((r) => isEmpty(r) || (retagRegex && isRegexTagged(r)));
 const todo = pending.slice(0, Number.isFinite(limit) ? limit : pending.length);
-console.log(`${pending.length} active clue(s) need tags; doing ${todo.length} this run (batch ${batchSize}${dryRun ? ', DRY RUN' : ''}).`);
+console.log(`${pending.length} active clue(s) need tags${retagRegex ? ' (incl. regex-tagged re-tag)' : ''}; doing ${todo.length} this run (batch ${batchSize}${dryRun ? ', DRY RUN' : ''}).`);
 
 const idToRow = new Map(todo.map((r) => [r.external_id, r]));
 let wrote = 0;
