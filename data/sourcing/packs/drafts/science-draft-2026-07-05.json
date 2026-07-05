@@ -100,12 +100,10 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Observed by Henri Becquerel in 1896, this property of certain unstable atomic nuclei causes them to spontaneously emit particles or energy as they decay, with the three most common emission types named for the first three letters of the Greek alphabet.",
+      "clue": "Observed by Henri Becquerel in 1896, this property of certain unstable atomic nuclei causes them to spontaneously emit particles or energy as they decay; the three most common emission types are named for the first three letters of the Greek alphabet.",
       "answer": "Radioactivity",
       "answer_type": "other",
-      "aliases": [
-        "radioactive decay"
-      ],
+      "aliases": [],
       "tags": [
         "science-draft",
         "sourced",
@@ -182,7 +180,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "At exactly −273.15°C or −459.67°F, this theoretical temperature minimum corresponds to 0 K on the Kelvin scale and represents the lowest thermodynamic state a system's internal energy can reach.",
+      "clue": "At exactly −273.15°C or −459.67°F, this theoretical temperature minimum marks the lowest point on the Kelvin scale and represents the lowest energy state a system can reach.",
       "answer": "Absolute zero",
       "answer_type": "other",
       "aliases": [],
@@ -220,7 +218,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Predicted by Einstein's general theory of relativity, this astronomical object's gravity is so extreme that nothing — not even light — can escape once it crosses the boundary known as the event horizon.",
+      "clue": "Predicted by Einstein's general theory of relativity, this astronomical object's gravity is so extreme that nothing can escape once it crosses the boundary known as the event horizon.",
       "answer": "Black hole",
       "answer_type": "other",
       "aliases": [
@@ -298,7 +296,7 @@
       "external_id": "science-2026-07-05-008",
       "category_id": "science",
       "subcategory_name": "Scientists",
-      "value": 600,
+      "value": 200,
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,

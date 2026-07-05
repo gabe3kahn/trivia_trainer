@@ -20,7 +20,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Built for the 1962 World's Fair and standing 605 feet tall in Seattle, this observation tower was once the tallest structure west of the Mississippi River in the United States.",
+      "clue": "Built for the 1962 World's Fair and standing 605 feet tall in Seattle, this observation tower was once the tallest structure in the United States west of the Mississippi River.",
       "answer": "Space Needle",
       "answer_type": "other",
       "aliases": [],
@@ -57,7 +57,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Closely associated with Italian Renaissance painting, this mural technique involves applying pigment to lime plaster that has just been laid, so the artwork bonds permanently with the wall as it sets.",
+      "clue": "Closely associated with Italian Renaissance painting, this mural technique involves applying pigment to lime plaster that has just been laid so the artwork bonds permanently with the wall as it sets.",
       "answer": "Fresco",
       "answer_type": "other",
       "aliases": [
@@ -133,7 +133,7 @@
       "external_id": "arts-vc-2026-07-05-004",
       "category_id": "arts_visual_culture",
       "subcategory_name": "Art Movements",
-      "value": 400,
+      "value": 600,
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
@@ -264,7 +264,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A former panorama designer and showman, this Frenchman became one of the fathers of photography by unveiling in 1839 a process that produced positive images on silver-coated copper plates — the first practical photographic method adopted worldwide.",
+      "clue": "A former panorama designer and showman, this Frenchman became one of the fathers of photography in 1839 by unveiling a process that produced positive images on silver-coated copper plates — the first practical photographic method adopted worldwide.",
       "answer": "Louis Daguerre",
       "answer_type": "name",
       "aliases": [
@@ -346,7 +346,6 @@
       "answer": "Lorenzo de' Medici",
       "answer_type": "name",
       "aliases": [
-        "Medici",
         "Lorenzo the Magnificent",
         "Lorenzo dei Medici"
       ],
