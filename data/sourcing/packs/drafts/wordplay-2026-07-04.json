@@ -15,12 +15,30 @@
       "clue": "The fierce undomesticated feline of the forest ends up right on the elevated runway where fashion models parade in designer garments.",
       "answer": "Wild Cat Walk",
       "answer_type": "other",
-      "aliases": ["Wildcat Walk"],
-      "wp": {"first": "Wild Cat", "second": "Cat Walk"},
-      "tags": ["wp-draft", "before-after"],
+      "aliases": [
+        "Wildcat Walk"
+      ],
+      "wp": {
+        "first": "Wild Cat",
+        "second": "Cat Walk"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "catwalk",
+        "fashion",
+        "fashion models",
+        "feline",
+        "haute couture",
+        "paris fashion week",
+        "runway",
+        "wildcat"
+      ]
     },
     {
       "source": "constructed",
@@ -35,11 +53,27 @@
       "answer": "Silver Screen Door",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Silver Screen", "second": "Screen Door"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Silver Screen",
+        "second": "Screen Door"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "architecture",
+        "cinema",
+        "film",
+        "golden age of hollywood",
+        "hollywood",
+        "projection",
+        "screen door",
+        "silver screen"
+      ]
     },
     {
       "source": "constructed",
@@ -54,11 +88,27 @@
       "answer": "Free Range Rover",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Free Range", "second": "Range Rover"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Free Range",
+        "second": "Range Rover"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "agriculture",
+        "british motor company",
+        "free-range farming",
+        "land rover",
+        "livestock",
+        "luxury vehicles",
+        "off-road",
+        "range rover"
+      ]
     },
     {
       "source": "constructed",
@@ -73,11 +123,27 @@
       "answer": "Stone Cold Shoulder",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Stone Cold", "second": "Cold Shoulder"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Stone Cold",
+        "second": "Cold Shoulder"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "body",
+        "cold shoulder",
+        "death",
+        "detective",
+        "investigation",
+        "murder",
+        "rejection",
+        "rigor mortis"
+      ]
     },
     {
       "source": "constructed",
@@ -92,11 +158,27 @@
       "answer": "Short Circuit Board",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Short Circuit", "second": "Circuit Board"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Short Circuit",
+        "second": "Circuit Board"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "1986",
+        "artificial intelligence",
+        "circuit board",
+        "johnny 5",
+        "microprocessor",
+        "robotics",
+        "short circuit",
+        "silicon"
+      ]
     },
     {
       "source": "constructed",
@@ -111,11 +193,26 @@
       "answer": "Elf",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "shelf"},
-      "tags": ["wp-draft", "hidden-word"],
+      "wp": {
+        "hidden_in": "shelf"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "elf",
+        "fantasy",
+        "folklore",
+        "library",
+        "magic",
+        "mischief",
+        "mythology",
+        "trickster"
+      ]
     },
     {
       "source": "constructed",
@@ -130,11 +227,26 @@
       "answer": "Leg",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "elegant"},
-      "tags": ["wp-draft", "hidden-word"],
+      "wp": {
+        "hidden_in": "elegant"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "chef",
+        "chicken",
+        "cooking",
+        "cuisine",
+        "drumstick",
+        "meat",
+        "poultry",
+        "roasted"
+      ]
     },
     {
       "source": "constructed",
@@ -149,11 +261,26 @@
       "answer": "Orb",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "absorb"},
-      "tags": ["wp-draft", "hidden-word"],
+      "wp": {
+        "hidden_in": "absorb"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "astronomy",
+        "atmospheres",
+        "celestial bodies",
+        "earth",
+        "physics",
+        "planets",
+        "solar system",
+        "spheres"
+      ]
     },
     {
       "source": "constructed",
@@ -168,11 +295,26 @@
       "answer": "Pea",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "appear"},
-      "tags": ["wp-draft", "hidden-word"],
+      "wp": {
+        "hidden_in": "appear"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "agriculture",
+        "botany",
+        "gardening",
+        "kitchen garden",
+        "legume",
+        "spring",
+        "vegetable",
+        "vegetables"
+      ]
     },
     {
       "source": "constructed",
@@ -187,11 +329,26 @@
       "answer": "Hen",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "phenomenon"},
-      "tags": ["wp-draft", "hidden-word"],
+      "wp": {
+        "hidden_in": "phenomenon"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden-word"
+      ],
       "citations": [],
       "lock_value": true,
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "agriculture",
+        "barnyard",
+        "chicken",
+        "eggs",
+        "farming",
+        "livestock",
+        "poultry",
+        "rural"
+      ]
     }
   ]
 }
