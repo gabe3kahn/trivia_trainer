@@ -38,7 +38,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:00.201Z",
+      "verified_at": "2026-07-05T21:48:08.399Z",
       "topic_entities": [
         "1957",
         "aerobic respiration",
@@ -79,7 +79,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:00.650Z",
+      "verified_at": "2026-07-05T21:48:08.775Z",
       "topic_entities": [
         "1859",
         "charles darwin",
@@ -118,7 +118,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:01.196Z",
+      "verified_at": "2026-07-05T21:48:09.369Z",
       "topic_entities": [
         "1896",
         "alpha rays",
@@ -159,7 +159,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:01.579Z",
+      "verified_at": "2026-07-05T21:48:09.761Z",
       "topic_entities": [
         "gamma rays",
         "james clerk maxwell",
@@ -198,7 +198,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:01.999Z",
+      "verified_at": "2026-07-05T21:48:10.144Z",
       "topic_entities": [
         "0 kelvin",
         "cryogenics",
@@ -238,7 +238,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:02.430Z",
+      "verified_at": "2026-07-05T21:48:10.528Z",
       "topic_entities": [
         "albert einstein",
         "event horizon",
@@ -279,7 +279,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:02.850Z",
+      "verified_at": "2026-07-05T21:48:10.899Z",
       "topic_entities": [
         "1842",
         "ambulance siren",
@@ -320,7 +320,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:03.284Z",
+      "verified_at": "2026-07-05T21:48:11.282Z",
       "topic_entities": [
         "1687",
         "calculus",
@@ -362,7 +362,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:03.718Z",
+      "verified_at": "2026-07-05T21:48:11.660Z",
       "topic_entities": [
         "absolute zero",
         "kelvin scale",
@@ -403,7 +403,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:04.106Z",
+      "verified_at": "2026-07-05T21:48:12.041Z",
       "topic_entities": [
         "118 elements",
         "1869",
@@ -442,7 +442,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:04.488Z",
+      "verified_at": "2026-07-05T21:48:12.474Z",
       "topic_entities": [
         "anaphase",
         "chromosomes",
@@ -485,7 +485,7 @@
       ],
       "verification_status": "verified",
       "topic_entities": [],
-      "verified_at": "2026-07-05T21:46:04.914Z"
+      "verified_at": "2026-07-05T21:48:12.853Z"
     },
     {
       "source": "original_sourced",
@@ -497,7 +497,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Named for the homeland of the woman who co-discovered it in 1898 by extracting it from uranium ore on the basis of its unusual emission intensity alone — with no conventional chemical test — this metallic element has atomic number 84.",
+      "clue": "Named for the homeland of the woman who co-discovered it in 1898, this radioactive metallic element with atomic number 84 was detected in uranium ore by its intense radioactivity alone.",
       "answer": "Polonium",
       "answer_type": "other",
       "aliases": [
@@ -517,7 +517,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:05.348Z",
+      "verified_at": "2026-07-05T21:48:13.229Z",
       "topic_entities": [
         "1898",
         "element 84",
@@ -558,7 +558,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:05.732Z",
+      "verified_at": "2026-07-05T21:48:13.608Z",
       "topic_entities": [
         "1911",
         "critical temperature",
@@ -578,7 +578,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A thermodynamic state variable measuring the probabilistic distribution of accessible microscopic configurations of a system, this quantity — which can never decrease in an isolated system — underpins the second law of thermodynamics.",
+      "clue": "This thermodynamic state variable measures the number and distribution of microscopic configurations accessible to a system.",
       "answer": "Entropy",
       "answer_type": "other",
       "aliases": [],
@@ -596,7 +596,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-05T21:46:06.104Z",
+      "verified_at": "2026-07-05T21:48:13.982Z",
       "topic_entities": [
         "clausius",
         "disorder",
