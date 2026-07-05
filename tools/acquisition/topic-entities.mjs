@@ -9,11 +9,15 @@
  * share {1781, virginia, revolutionary}; a George-Eliot clue and a Middlemarch clue share
  * {george, eliot, mary, evans, victorian}.
  *
- * Deterministic + stable: the importer stamps these onto every clue (migration 036,
- * questions.topic_entities), a backfill fills the existing bank, and the critic reads them
- * for its advisory `related` check. The tags are stored so they're consistent across runs
- * and a bad extraction can be corrected in place.
+ * Tags are LLM-generated (Haiku, via the shared llm-batch component) so they capture the
+ * subject's canonical ASSOCIATIONS — Mona Lisa → leonardo da vinci, louvre, renaissance,
+ * florence — not merely words the clue happens to contain. `extractTopicEntities` (regex over
+ * answer+clue) is the OFFLINE FALLBACK when no LLM is available. Stored per clue (migration
+ * 036, questions.topic_entities): the drafter tags each draft (tag-pack), a backfill fills the
+ * existing bank, the importer persists them, and the critic reads them for its advisory
+ * `related` check — so tags are consistent across runs and a bad one can be corrected in place.
  */
+import { batchClassify } from './llm-batch.mjs';
 
 // Common / ambiguous capitalized words that create false overlaps (nationalities, calendar
 // words, generic determiners, weak geo/qualifier words). Distinctive names (Cornwallis,
@@ -60,4 +64,60 @@ export function sharedEntities(a, b) {
  */
 export function relatedThreshold(catA, catB) {
   return catA === catB ? 2 : 3;
+}
+
+const MAX_ENTITIES = 8;
+
+/** Normalize an LLM entity list: lowercase, collapse spaces, drop empty/short/generic, dedupe, cap, sort. */
+export function normalizeEntities(arr) {
+  const out = [];
+  for (const raw of Array.isArray(arr) ? arr : []) {
+    const e = String(raw ?? '').toLowerCase().replace(/\s+/g, ' ').trim();
+    if (e.length < 3 || STOP.has(e)) continue;
+    if (!out.includes(e)) out.push(e);
+  }
+  return out.slice(0, MAX_ENTITIES).sort();
+}
+
+function buildEntityPrompt(batch) {
+  const list = batch.map((c) => `- ${c.id} | ${c.answer} — "${String(c.clue || '').replace(/"/g, "'").slice(0, 220)}"`).join('\n');
+  return [
+    'For each trivia clue below (id | answer — example clue), list the 5–8 most DISTINCTIVE real-world',
+    'entities most closely ASSOCIATED with its ANSWER — the specific people, places, works, organizations,',
+    'movements, and years a knowledgeable person connects to it — so that two clues covering the same subject',
+    'can be detected. INCLUDE key associations even when the clue text does not mention them (e.g. "Mona Lisa"',
+    '→ leonardo da vinci, louvre, renaissance, florence, 1503). Prefer proper nouns and years; keep the answer',
+    "itself when it's a proper noun. Avoid generic words. Output ONLY a JSON object mapping each clue's id",
+    '(verbatim) to its lowercase entity array — no prose, no code fences.',
+    '',
+    'Clues:',
+    list,
+  ].join('\n');
+}
+
+/**
+ * LLM-tag clues with topic entities. `clues`: [{ id, answer, clue }]. Returns Map(id -> string[]).
+ * Batched + resumable via the shared llm-batch component; `onBatch({ index, batches, tagged })`
+ * fires after each batch with that batch's tagged clues (`{ ...clue, topic_entities }`) so the
+ * caller can persist progress. Uses Haiku by default — bulk classification, not reasoning.
+ */
+export async function llmTagEntities(clues, { batchSize = 40, model = 'claude-haiku-4-5', onBatch } = {}) {
+  const out = new Map();
+  await batchClassify({
+    items: clues,
+    buildPrompt: buildEntityPrompt,
+    batchSize,
+    model,
+    onBatch: async ({ index, batches, batch, parsed }) => {
+      const tagged = [];
+      for (const c of batch) {
+        const v = parsed[String(c.id)] ?? parsed[c.answer];
+        const ent = Array.isArray(v) ? normalizeEntities(v) : [];
+        out.set(String(c.id), ent);
+        if (ent.length) tagged.push({ ...c, topic_entities: ent });
+      }
+      if (onBatch) await onBatch({ index, batches, tagged });
+    },
+  });
+  return out;
 }
