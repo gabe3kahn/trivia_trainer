@@ -20,9 +20,20 @@
       "wp": {
         "scramble": "snipe"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "anatomy",
+        "nervous system",
+        "posture",
+        "skeleton",
+        "spine",
+        "vertebra"
+      ]
     },
     {
       "source": "constructed",
@@ -41,9 +52,20 @@
       "wp": {
         "scramble": "sword"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "alphabet",
+        "language",
+        "letters",
+        "literature",
+        "words",
+        "writing"
+      ]
     },
     {
       "source": "constructed",
@@ -62,9 +84,20 @@
       "wp": {
         "scramble": "armed"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "aspiration",
+        "dream",
+        "rem sleep",
+        "sleep",
+        "unconscious mind",
+        "vision"
+      ]
     },
     {
       "source": "constructed",
@@ -83,9 +116,20 @@
       "wp": {
         "scramble": "petal"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "botanist",
+        "dinner",
+        "herbarium",
+        "plate",
+        "pressing",
+        "specimen"
+      ]
     },
     {
       "source": "constructed",
@@ -104,9 +148,20 @@
       "wp": {
         "scramble": "acres"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "acres",
+        "agriculture",
+        "cares",
+        "emotion",
+        "family",
+        "land"
+      ]
     },
     {
       "source": "constructed",
@@ -126,9 +181,21 @@
         "length": 6,
         "pattern": "_A____"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "17th century",
+        "apiaceae",
+        "carrot",
+        "dill",
+        "netherlands",
+        "orange",
+        "parsley"
+      ]
     },
     {
       "source": "constructed",
@@ -148,9 +215,20 @@
         "length": 6,
         "pattern": "B_____"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ballet",
+        "classical dance",
+        "france",
+        "pointe shoes",
+        "positions",
+        "tchaikovsky"
+      ]
     },
     {
       "source": "constructed",
@@ -170,9 +248,20 @@
         "length": 6,
         "pattern": "___I__"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ancient greece",
+        "lion",
+        "oedipus",
+        "riddle",
+        "sphinx",
+        "thebes"
+      ]
     },
     {
       "source": "constructed",
@@ -192,9 +281,20 @@
         "length": 6,
         "pattern": "__R___"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "archer",
+        "arrow slit",
+        "battlements",
+        "castle",
+        "fortification",
+        "turret"
+      ]
     },
     {
       "source": "constructed",
@@ -214,9 +314,21 @@
         "length": 7,
         "pattern": "___T___"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "angle measurement",
+        "astronomy",
+        "celestial navigation",
+        "horizon",
+        "maritime",
+        "mirrors",
+        "sextant"
+      ]
     }
   ]
 }
