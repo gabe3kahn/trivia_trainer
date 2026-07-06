@@ -182,3 +182,70 @@ When the standard angle duplicates another clue in the run or the bank, pivot to
   - before: This island state — the only U.S. state that is an archipelago, the only one located south of the Tropic of Cancer, and one of only two states that were internationally recognized sovereign nations be…
   - after:  The last sovereign monarch of the Hawaiian Kingdom, this queen was deposed in an 1893 overthrow backed by American business interests; an accomplished musician, she composed the beloved farewell song …
 
+## Left unchanged — already good, do NOT over-edit these
+These clues passed review with no change. If a clue already reads well, LEAVE IT ALONE — most clues need no edit.
+
+- **Mona Lisa** [arts_visual_culture]: This half-length Italian Renaissance portrait has been described as the most visited, most written about, and most parodied work of art in the world.
+- **Leonardo da Vinci** [arts_visual_culture]: This Italian polymath of the High Renaissance (1452–1519) was active as a painter, draughtsman, engineer, scientist, and architect.
+- **Alexander the Great** [history]: This Macedonian conqueror established a city on Egypt's northern coast in 331 BC that became one of antiquity's greatest centers of learning and scholarship.
+- **French Revolution** [history]: This 1789 upheaval overthrew the Ancien Régime and produced the Declaration of the Rights of Man.
+- **Hamlet** [literature_books]: Set in Denmark, this Shakespeare tragedy — his longest play — follows a prince who seeks revenge against the uncle who murdered his father to seize the throne and marry his mother.
+- **Pride and Prejudice** [literature_books]: Published in 1813, this Jane Austen novel of manners follows Elizabeth Bennet's courtship with the wealthy, reserved Mr. Darcy — a match complicated by first impressions and social class.
+- **Beethoven's Fifth Symphony** [music_performing_arts]: This frequently performed work for orchestra opens with a distinctive 4-note 'short-short-short-long' motif, often characterized as 'fate knocking at the door'; it was first performed in Vienna in 180…
+- **Boléro** [music_performing_arts]: This 1928 work for large orchestra by French composer Maurice Ravel is one of his most famous compositions and was among his last completed works before illness diminished his ability to compose.
+- **Saturday Night Fever** [pop_culture_media_modern_life]: This 1977 John Travolta film, set in Brooklyn's disco scene, stars him as Tony Manero and is based on a mostly fictional 1976 New York magazine article; its Bee Gees soundtrack is one of the best-sell…
+- **Blazing Saddles** [pop_culture_media_modern_life]: This 1974 Mel Brooks satirical Western comedy, co-written by Richard Pryor, is ranked sixth on the American Film Institute's 100 Years...100 Laughs list and was selected for preservation in the Nation…
+- **tarot** [sports_games_leisure]: First called trionfi — 'triumphs' — in 15th-century Italian card games, these 78-card decks spread across Europe before French occultists in the 18th century recast them as instruments of divination.
+- **contraindication** [science]: In clinical medicine, this term names any condition that renders a proposed treatment harmful rather than beneficial — coming in absolute and relative varieties depending on the severity of the risk.
+- **taiga** [science]: This biome of conifers — pines, spruces, and larches — is the world’s largest land biome, ringing the subarctic across Canada, Scandinavia, and Russia.
+- **Stoicism** [religion_mythology_philosophy]: This ancient philosophical tradition, founded in the Hellenistic period, held that virtue alone is sufficient for happiness and that the universe operates according to reason, called logos.
+- **Quran** [religion_mythology_philosophy]: Believed by Muslims to be a direct revelation from God, this Arabic scripture is organized into 114 chapters called sūrahs and is widely regarded as the finest work in Arabic literature.
+- **Michael Jordan** [sports_games_leisure]: This six-time NBA champion with the Chicago Bulls is widely considered the greatest basketball player of all time and is also the wealthiest former athlete in the world.
+- **Palindrome** [words_language]: The words 'madam' and 'racecar,' and the sentence 'A man, a plan, a canal — Panama,' are classic examples of this term for a sequence that reads identically forwards and backwards.
+- **Caveat emptor** [words_language]: This Latin legal maxim translates as 'let the buyer beware' and holds that the purchaser — having less information than the seller — should examine goods before buying.
+
+## From editor review of proposed rewrites
+How the editor judged specific proposals — emulate the approved rewrites, do NOT make the kind that were rejected, apply the refinements.
+
+**Approved rewrites (emulate this kind of improvement):**
+- **Anna Karenina**: Count Vronsky's affair with this Tolstoy title heroine begins and ends with a death at a train station.
+  → This Tolstoy title heroine's affair with Count Vronsky begins and ends with a death at a train station.
+- **Douglas Adams**: In this author's novels, 42 is the Answer to the Ultimate Question of Life, the Universe, and Everything.
+  → This author's novels declare 42 to be the Answer to the Ultimate Question of Life, the Universe, and Everything.
+- **Alice's Adventures in Wonderland**: An example of the literary nonsense genre, this 1865 Lewis Carroll children's novel follows a young girl who tumbles down a rabbit hole into a fantasy world of anthropomorphic creatures.
+  → This 1865 Lewis Carroll children's novel follows a young girl who tumbles down a rabbit hole into a fantasy world of anthropomorphic creatures.
+- **23andMe**: Concern over this company's bankruptcy centered on the genetic data stored in its databases.
+  → Concern over this company's bankruptcy centered on its customers' genetic data.
+- **Longtermism**: This ethical stance prioritizes actions that benefit the long-run future and far-future generations.
+  → This ethical stance holds that improving the lives of people in the far future should be humanity's top priority.
+- **Avogadro's number**: This constant, approximately 6.022 x 10^23, is how many particles are contained in one mole of a substance.
+  → This constant, approximately 6.022 × 10^23, counts the particles in one mole of a substance.
+- **Hummingbird**: The wings of these tiny birds can beat up to about 80 times per second.
+  → The wings of these tiny birds beat up to 80 times per second.
+- **Octopus**: Paul, a member of this eight-armed species, correctly called all eight matches he was given at the 2010 World Cup.
+  → Paul, a member of this eight-armed species, correctly predicted all eight of his 2010 World Cup picks.
+- **Capybara**: Native to much of South America, it is the largest living rodent.
+  → Native to South America, this animal is the largest living rodent.
+- **Nacre**: Produced by certain molluscs to line the inside of their shells, this iridescent material is the same substance that forms a pearl.
+  → Produced by certain molluscs to line their shells, this iridescent material also forms pearls.
+- **Taiga**: This biome of conifers — pines, spruces, and larches — is the world’s largest land biome, ringing the subarctic across Canada, Scandinavia, and Russia.
+  → The world's largest land biome, this belt of conifers — pines, spruces, and larches — rings the subarctic across Canada, Scandinavia, and Russia.
+- **Easy-Bake Oven**: This Kenner toy introduced in 1963 originally used a pair of ordinary incandescent light bulbs as its heat source; Kenner sold 500,000 units in the first year of production.
+  → Introduced by Kenner in 1963, this toy used a pair of incandescent light bulbs as its heat source and sold 500,000 units in the first year.
+
+**Rewrite REJECTED — editor kept the original (do NOT over-edit clues like these):**
+- **Isaac Asimov**: This author devised the Three Laws of Robotics across his science-fiction stories.
+- **Thomas Hardy**: Though he saw himself primarily as a poet, this English Victorian author achieved fame through his novels set in the fictional county of Wessex, including 'Tess of the d'Urbervilles.'
+- **Aristotle**: This Greek philosopher held that 'eudaimonia,' or flourishing, is the highest human good.
+- **Victoria**: Romanized from the Greek Nike during the First Punic War, she came to symbolize Rome's hegemony and right to rule; a deified abstraction with virtually no mythology of her own, she left behind a name …
+- **Rickey Henderson**: This Hall of Famer stole a record 1,406 bases, far more than any other player in MLB history.
+
+**Refined — editor accepted the rewrite with a tweak:**
+- **Anne Boleyn**: This second wife of Henry VIII was executed for treason in 1536; Henry's pursuit of their marriage, which required a break from Rome, helped spark the English Reformation.  _(Rewrite is a big improvement. Once piece of feedback: the second part of the question is too indirect and chop…)_
+- **Nero**: This ruler reigned from 54 to 68 AD as the last Julio-Claudian emperor, dying by suicide — and had his own mother, Agrippina the Younger, murdered on his orders.  _(Better but not quite: This ruler reigned from 54 to 68 AD as the last Julio-Claudian emperor before dying by s…)_
+- **Charles Dickens**: This Victorian author of 'Oliver Twist' and 'Great Expectations' left school at 12 when his father was imprisoned for debt, forcing him to work in a boot-blacking factory.  _(This one makes the question significantly easier. I agree with the comment that 'Opening superlative 'The grea…)_
+- **Hercule Poirot**: This fastidious Belgian detective relies on his 'little grey cells' to solve cases across 33 Agatha Christie novels and 51 short stories.  _(Good, but should be past tense (relied) which was also a problem in the original clue)_
+- **F. Scott Fitzgerald**: This American novelist coined the term 'Jazz Age' and wrote 'The Great Gatsby,' though critical acclaim came only after his death.  _(Fixes one problem and creates others by making it a lot easier by adding the great gatsby and comma splicing o…)_
+- **Iceman**: In 'Top Gun,' Maverick clashes with this pilot played by Val Kilmer.  _(Right to suggest a fix, but the better fix is just to remove 'rival' since 'starts a rivalry' is better than c…)_
+- **Ennui**: Borrowed directly from French, this word names a listless weariness and dissatisfaction arising from boredom.  _(Not redundant, but agree that arising from is better than 'that arises from')_
+

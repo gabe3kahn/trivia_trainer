@@ -23,6 +23,7 @@ const norm = (s) => String(s ?? '').replace(/\s+/g, ' ').trim();
 const packs = fs.existsSync(DRAFTS) ? fs.readdirSync(DRAFTS).filter((f) => f.endsWith('.json') && !/wordplay/i.test(f)) : [];
 const rewrites = [];
 const metrics = [];
+const labeled = [];
 
 for (const file of packs) {
   const rel = `${DRAFTS}/${file}`;
@@ -42,7 +43,11 @@ for (const file of packs) {
     const id = o.external_id || o.answer;
     const f = fById.get(id);
     if (!f) { dropped += 1; continue; }
-    if (norm(o.clue) !== norm(f.clue)) {
+    const textChanged = norm(o.clue) !== norm(f.clue);
+    // labeled row for the eval / restraint examples: edit = clue text changed, keep = unchanged
+    // (a value-only change counts as keep here — the text was not touched; difficulty is out of scope).
+    labeled.push({ category: o.category_id, answer: o.answer, before: norm(o.clue), after: norm(f.clue), action: textChanged ? 'edit' : 'keep' });
+    if (textChanged) {
       rewritten += 1;
       rewrites.push({ pack: file, category: o.category_id, id, answer: o.answer, before: norm(o.clue), after: norm(f.clue), value_before: o.value, value_after: f.value });
     } else if (o.value !== f.value) {
@@ -54,6 +59,7 @@ for (const file of packs) {
 
 fs.mkdirSync('data/acquisition', { recursive: true });
 fs.writeFileSync('data/acquisition/clue-rewrites.jsonl', rewrites.map((r) => JSON.stringify(r)).join('\n') + '\n');
+fs.writeFileSync('data/acquisition/labeled-clues.jsonl', labeled.map((l) => JSON.stringify(l)).join('\n') + '\n');
 fs.writeFileSync('data/acquisition/drafter-metrics.jsonl', metrics.map((m) => JSON.stringify(m)).join('\n') + '\n');
 const avg = metrics.length ? (metrics.reduce((a, m) => a + m.edit_rate, 0) / metrics.length) : 0;
 console.log(`Harvested ${rewrites.length} rewrite(s) from ${metrics.length} pack(s); mean edit_rate ${avg.toFixed(3)}.`);

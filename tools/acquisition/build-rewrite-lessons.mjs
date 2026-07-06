@@ -10,9 +10,13 @@
  */
 import fs from 'node:fs';
 
-const corpus = fs.existsSync('data/acquisition/clue-rewrite-lessons.jsonl')
-  ? fs.readFileSync('data/acquisition/clue-rewrite-lessons.jsonl', 'utf8').trim().split('\n').filter(Boolean).map((l) => JSON.parse(l))
-  : [];
+const loadJsonl = (p) => (fs.existsSync(p) ? fs.readFileSync(p, 'utf8').trim().split('\n').filter(Boolean).map((l) => JSON.parse(l)) : []);
+const corpus = loadJsonl('data/acquisition/clue-rewrite-lessons.jsonl');
+// Restraint signal: clues the editor left UNCHANGED (labeled-clues.jsonl, action=keep) so the drafter
+// learns when NOT to edit — the eval showed the file was edit-only, biasing toward over-editing.
+const keeps = loadJsonl('data/acquisition/labeled-clues.jsonl').filter((r) => r.action === 'keep');
+// Editor's outcome-routed judgments on proposed rewrites (bank-rewrite feedback seed).
+const fb118 = loadJsonl('data/acquisition/feedback-118.jsonl');
 
 const SECTIONS = [
   { title: '1. Tighten the wording', types: ['tighten_wording', 'fill_trim'],
@@ -70,5 +74,24 @@ for (const s of SECTIONS) {
   out.push('');
 }
 
+// RESTRAINT section — clues left unchanged (up to 2 per category for a diverse spread).
+if (keeps.length) {
+  const byCat = {};
+  const picks = [];
+  for (const k of keeps) { byCat[k.category] = (byCat[k.category] || 0) + 1; if (byCat[k.category] <= 2) picks.push(k); }
+  out.push('## Left unchanged — already good, do NOT over-edit these', 'These clues passed review with no change. If a clue already reads well, LEAVE IT ALONE — most clues need no edit.', '');
+  for (const k of picks.slice(0, 18)) out.push(`- **${k.answer}** [${k.category}]: ${clip(k.before)}`);
+  out.push('');
+}
+
+// EDITOR-REVIEW section — outcome-routed judgments on proposed rewrites (emulate approvals, leave rejects alone, apply tweaks).
+if (fb118.length) {
+  const ap = fb118.filter((f) => f.outcome === 'approve'), rj = fb118.filter((f) => f.outcome === 'reject'), tw = fb118.filter((f) => f.outcome === 'tweak');
+  out.push('## From editor review of proposed rewrites', 'How the editor judged specific proposals — emulate the approved rewrites, do NOT make the kind that were rejected, apply the refinements.', '');
+  if (ap.length) { out.push('**Approved rewrites (emulate this kind of improvement):**'); for (const f of ap.slice(0, 12)) out.push(`- **${f.answer}**: ${clip(f.before)}\n  → ${clip(f.proposed)}`); out.push(''); }
+  if (rj.length) { out.push('**Rewrite REJECTED — editor kept the original (do NOT over-edit clues like these):**'); for (const f of rj) out.push(`- **${f.answer}**: ${clip(f.before)}`); out.push(''); }
+  if (tw.length) { out.push('**Refined — editor accepted the rewrite with a tweak:**'); for (const f of tw) out.push(`- **${f.answer}**: ${clip(f.proposed)}  _(${clip(f.comment, 110)})_`); out.push(''); }
+}
+
 fs.writeFileSync('planning/clue-rewrite-lessons.md', out.join('\n').replace(/\n{3,}/g, '\n\n') + '\n');
-console.log(`Wrote planning/clue-rewrite-lessons.md from ${corpus.length} corpus pairs (${used.size} exemplars across ${SECTIONS.length} sections).`);
+console.log(`Wrote planning/clue-rewrite-lessons.md: ${SECTIONS.length} principle sections + ${keeps.length ? 'restraint(keeps)' : 'no-keeps'} + ${fb118.length} editor-review examples.`);
