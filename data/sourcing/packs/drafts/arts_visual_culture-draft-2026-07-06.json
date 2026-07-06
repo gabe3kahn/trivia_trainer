@@ -33,7 +33,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:06.645Z"
+      "verified_at": "2026-07-06T14:29:06.645Z",
+      "topic_entities": [
+        "ancient rome",
+        "byzantine",
+        "ceramic",
+        "glass",
+        "plaster",
+        "ravenna",
+        "roman empire",
+        "stone"
+      ]
     },
     {
       "source": "original_sourced",
@@ -67,7 +77,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:07.052Z"
+      "verified_at": "2026-07-06T14:29:07.052Z",
+      "topic_entities": [
+        "1819",
+        "bosch",
+        "el greco",
+        "goya",
+        "madrid",
+        "museo del prado",
+        "spain",
+        "velázquez"
+      ]
     },
     {
       "source": "original_sourced",
@@ -100,7 +120,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:07.485Z"
+      "verified_at": "2026-07-06T14:29:07.485Z",
+      "topic_entities": [
+        "1869",
+        "alpine",
+        "bavaria",
+        "disney castle",
+        "germany",
+        "historicism",
+        "ludwig ii",
+        "neuschwanstein"
+      ]
     },
     {
       "source": "original_sourced",
@@ -136,7 +166,17 @@
       "image_license": "public-domain",
       "answer_detail": "Haystacks (Stacks of Wheat) — Claude Monet",
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:08.084Z"
+      "verified_at": "2026-07-06T14:29:08.084Z",
+      "topic_entities": [
+        "1840-1926",
+        "claude monet",
+        "france",
+        "giverny",
+        "haystacks",
+        "impressionism",
+        "japanese bridge",
+        "water lilies"
+      ]
     },
     {
       "source": "original_sourced",
@@ -168,7 +208,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:08.439Z"
+      "verified_at": "2026-07-06T14:29:08.439Z",
+      "topic_entities": [
+        "american painter",
+        "edgar degas",
+        "impressionism",
+        "mary cassatt",
+        "motherhood",
+        "paris",
+        "pennsylvania",
+        "women"
+      ]
     },
     {
       "source": "original_sourced",
@@ -204,7 +254,17 @@
       "image_license": "public-domain",
       "answer_detail": "The School of Athens — Raphael",
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:08.878Z"
+      "verified_at": "2026-07-06T14:29:08.878Z",
+      "topic_entities": [
+        "aristotle",
+        "italian renaissance",
+        "philosophy",
+        "plato",
+        "raphael",
+        "renaissance",
+        "the school of athens",
+        "vatican"
+      ]
     },
     {
       "source": "original_sourced",
@@ -237,7 +297,14 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:45:00.000Z"
+      "verified_at": "2026-07-06T14:45:00.000Z",
+      "topic_entities": [
+        "artist",
+        "career-defining",
+        "great work",
+        "magnum opus",
+        "masterpiece"
+      ]
     },
     {
       "source": "original_sourced",
@@ -269,7 +336,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:09.587Z"
+      "verified_at": "2026-07-06T14:29:09.587Z",
+      "topic_entities": [
+        "1907",
+        "cubism",
+        "georges braque",
+        "guernica",
+        "les demoiselles d'avignon",
+        "pablo picasso",
+        "paris",
+        "spain"
+      ]
     },
     {
       "source": "original_sourced",
@@ -301,7 +378,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:09.942Z"
+      "verified_at": "2026-07-06T14:29:09.942Z",
+      "topic_entities": [
+        "1919-1947",
+        "california",
+        "central coast",
+        "hearst castle",
+        "julia morgan",
+        "neo-gothic",
+        "san simeon",
+        "william randolph hearst"
+      ]
     },
     {
       "source": "original_sourced",
@@ -334,7 +421,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:10.347Z"
+      "verified_at": "2026-07-06T14:29:10.347Z",
+      "topic_entities": [
+        "1912",
+        "guggenheim family",
+        "modern art",
+        "palazzo venier dei leoni",
+        "peggy guggenheim",
+        "surrealism",
+        "titanic",
+        "venice"
+      ]
     },
     {
       "source": "original_sourced",
@@ -367,7 +464,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:10.702Z"
+      "verified_at": "2026-07-06T14:29:10.702Z",
+      "topic_entities": [
+        "1860s",
+        "american civil war",
+        "battlefield photography",
+        "civil war",
+        "daguerreotype",
+        "mathew brady",
+        "samuel morse"
+      ]
     },
     {
       "source": "original_sourced",
@@ -401,7 +507,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:11.058Z"
+      "verified_at": "2026-07-06T14:29:11.058Z",
+      "topic_entities": [
+        "1977",
+        "beaubourg",
+        "centre pompidou",
+        "high-tech architecture",
+        "modern art",
+        "paris",
+        "renzo piano",
+        "richard rogers"
+      ]
     },
     {
       "source": "original_sourced",
@@ -438,7 +554,17 @@
       "image_license": "public-domain",
       "answer_detail": "Judith Beheading Holofernes — Caravaggio",
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:11.491Z"
+      "verified_at": "2026-07-06T14:29:11.491Z",
+      "topic_entities": [
+        "1571-1610",
+        "baroque",
+        "caravaggio",
+        "chiaroscuro",
+        "dramatic lighting",
+        "italy",
+        "religious art",
+        "rome"
+      ]
     },
     {
       "source": "original_sourced",
@@ -472,7 +598,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:11.847Z"
+      "verified_at": "2026-07-06T14:29:11.847Z",
+      "topic_entities": [
+        "1758-1790",
+        "5th arrondissement",
+        "french revolution",
+        "mausoleum",
+        "neoclassical",
+        "panthéon",
+        "paris",
+        "sainte-geneviève"
+      ]
     },
     {
       "source": "original_sourced",
@@ -504,7 +640,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:12.202Z"
+      "verified_at": "2026-07-06T14:29:12.202Z",
+      "topic_entities": [
+        "1933",
+        "alice b. toklas",
+        "autobiography of alice b. toklas",
+        "gertrude stein",
+        "hemingway",
+        "matisse",
+        "paris",
+        "picasso"
+      ]
     }
   ]
 }

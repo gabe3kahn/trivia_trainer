@@ -15,13 +15,28 @@
       "clue": "The warrior's dream was to outshine all rivals in battle, his shield polished and sword hung ready at his hip.",
       "answer": "Armed",
       "answer_type": "other",
-      "aliases": ["ARMED"],
+      "aliases": [
+        "ARMED"
+      ],
       "wp": {
         "scramble": "dream"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "armed forces",
+        "combat",
+        "defense",
+        "martial",
+        "military",
+        "security",
+        "warfare",
+        "weapons"
+      ]
     },
     {
       "source": "constructed",
@@ -35,13 +50,28 @@
       "clue": "The cook would baste the roasting haunch for hours while the guests debated which wild thing from the forest they had feasted on most memorably.",
       "answer": "Beast",
       "answer_type": "other",
-      "aliases": ["BEAST"],
+      "aliases": [
+        "BEAST"
+      ],
       "wp": {
         "scramble": "baste"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "beasts",
+        "folklore",
+        "game",
+        "hunting",
+        "nature",
+        "predators",
+        "wild animals",
+        "zoology"
+      ]
     },
     {
       "source": "constructed",
@@ -55,13 +85,28 @@
       "clue": "The chef arranged each rose petal as a garnish around the rim, then set the finished course on a polished silver vessel at the head of the table.",
       "answer": "Plate",
       "answer_type": "other",
-      "aliases": ["PLATE"],
+      "aliases": [
+        "PLATE"
+      ],
       "wp": {
         "scramble": "petal"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ceramics",
+        "culinary",
+        "dining",
+        "dishware",
+        "food service",
+        "plating",
+        "restaurant",
+        "tableware"
+      ]
     },
     {
       "source": "constructed",
@@ -75,13 +120,28 @@
       "clue": "The young colt stumbled at the fence, and the vet who rushed over found blood pooling thickly from the gash where the wound had begun to congeal.",
       "answer": "Clot",
       "answer_type": "other",
-      "aliases": ["CLOT"],
+      "aliases": [
+        "CLOT"
+      ],
       "wp": {
         "scramble": "colt"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "blood",
+        "coagulation",
+        "health",
+        "hemostasis",
+        "medical",
+        "physiology",
+        "stroke",
+        "thrombosis"
+      ]
     },
     {
       "source": "constructed",
@@ -95,13 +155,28 @@
       "clue": "The mist rolled across the empty acres at dusk, and the sudden shriek from beyond the tree line was enough to make even the bravest groundskeeper bolt for the gate.",
       "answer": "Scare",
       "answer_type": "other",
-      "aliases": ["SCARE"],
+      "aliases": [
+        "SCARE"
+      ],
       "wp": {
         "scramble": "acres"
       },
-      "tags": ["wp-draft", "anagram"],
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "fear",
+        "fright",
+        "halloween",
+        "horror",
+        "phobia",
+        "scarecrow",
+        "supernatural",
+        "thriller"
+      ]
     },
     {
       "source": "constructed",
@@ -115,14 +190,29 @@
       "clue": "A small cluster of trees",
       "answer": "Grove",
       "answer_type": "other",
-      "aliases": ["GROVE"],
+      "aliases": [
+        "GROVE"
+      ],
       "wp": {
         "length": 5,
         "pattern": "_R___"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "copse",
+        "forest",
+        "landscape",
+        "nature",
+        "olive grove",
+        "sacred groves",
+        "trees",
+        "woodland"
+      ]
     },
     {
       "source": "constructed",
@@ -136,14 +226,29 @@
       "clue": "A natural aptitude for a particular skill",
       "answer": "Knack",
       "answer_type": "other",
-      "aliases": ["KNACK"],
+      "aliases": [
+        "KNACK"
+      ],
       "wp": {
         "length": 5,
         "pattern": "K____"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ability",
+        "aptitude",
+        "craft",
+        "dexterity",
+        "expertise",
+        "proficiency",
+        "skill",
+        "talent"
+      ]
     },
     {
       "source": "constructed",
@@ -157,14 +262,29 @@
       "clue": "A distinct period in history or geology",
       "answer": "Epoch",
       "answer_type": "other",
-      "aliases": ["EPOCH"],
+      "aliases": [
+        "EPOCH"
+      ],
       "wp": {
         "length": 5,
         "pattern": "__O__"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "chronology",
+        "era",
+        "geology",
+        "historical",
+        "history",
+        "neolithic",
+        "paleolithic",
+        "period"
+      ]
     },
     {
       "source": "constructed",
@@ -178,14 +298,29 @@
       "clue": "A ballroom dance performed in three-quarter time",
       "answer": "Waltz",
       "answer_type": "other",
-      "aliases": ["WALTZ"],
+      "aliases": [
+        "WALTZ"
+      ],
       "wp": {
         "length": 5,
         "pattern": "____Z"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "19th century",
+        "ballroom",
+        "classical music",
+        "dance",
+        "elegant",
+        "strauss",
+        "three-quarter time",
+        "vienna"
+      ]
     },
     {
       "source": "constructed",
@@ -199,14 +334,29 @@
       "clue": "A solemn verse composition mourning the dead",
       "answer": "Elegy",
       "answer_type": "other",
-      "aliases": ["ELEGY"],
+      "aliases": [
+        "ELEGY"
+      ],
       "wp": {
         "length": 5,
         "pattern": "____Y"
       },
-      "tags": ["wp-draft", "crossword"],
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "classical verse",
+        "death",
+        "epitaph",
+        "funeral",
+        "lamentation",
+        "mourning",
+        "poetry",
+        "thomas gray"
+      ]
     }
   ]
 }
