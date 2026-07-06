@@ -210,7 +210,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "While imprisoned in 1946, this American civil rights leader and Muslim minister joined the Nation of Islam and replaced his birth surname with the letter 'X' to symbolize his unknown African ancestral name, discarding what he called his 'white slavemaster name.'",
+      "clue": "While imprisoned in 1946, this American civil rights leader and Muslim minister joined the Nation of Islam, replacing his birth surname 'Little' with a symbol of his unknown African ancestral name and discarding what he called his 'white slavemaster name.'",
       "answer": "Malcolm X",
       "answer_type": "other",
       "aliases": [
@@ -232,12 +232,6 @@
       "verification_status": "verified",
       "verified_at": "2026-07-06T03:52:04.142Z",
       "topic_entities": [
-        "1946",
-        "1960s",
-        "malcolm little",
-        "malcolm x",
-        "muslim minister",
-        "nation of islam"
       ]
     },
     {
@@ -405,7 +399,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Louis XIV's 1685 revocation of this 1598 proclamation abolished the rights of France's Huguenot Protestant minority, subjected them to waves of forced conversion, and drove hundreds of thousands into exile across Europe.",
+      "clue": "Louis XIV's 1685 revocation of this 1598 proclamation abolished the rights of France's Huguenot Protestant minority, subjected them to a wave of dragonnades and forced conversion, and drove hundreds of thousands into exile across Europe.",
       "answer": "Edict of Nantes",
       "answer_type": "other",
       "aliases": [
@@ -427,13 +421,6 @@
       "verification_status": "verified",
       "verified_at": "2026-07-06T03:52:06.102Z",
       "topic_entities": [
-        "1598",
-        "1685",
-        "edict of nantes",
-        "france",
-        "huguenots",
-        "louis xiv",
-        "protestants"
       ]
     },
     {
@@ -485,7 +472,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Historians regard this nearly 900-day encirclement of a major Soviet city as the most lethal siege in military history; when it was lifted in January 1944, the city — renamed in 1924 after the Bolshevik leader who had died that year — had lost over one million civilians.",
+      "clue": "Historians regard this nearly 900-day blockade of a major Soviet city as the deadliest military encirclement in history; when it ended in January 1944, the city — renamed in 1924 after the Bolshevik leader who had died that year — had lost over one million civilians.",
       "answer": "Siege of Leningrad",
       "answer_type": "other",
       "aliases": [
@@ -509,13 +496,6 @@
       "verification_status": "verified",
       "verified_at": "2026-07-06T03:52:06.891Z",
       "topic_entities": [
-        "1941-1944",
-        "900 days",
-        "blockade",
-        "leningrad",
-        "siege of leningrad",
-        "soviet union",
-        "world war ii"
       ]
     },
     {
@@ -527,7 +507,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Named after the Roman dictator nicknamed 'the Delayer,' this war-of-attrition doctrine — which Quintus Fabius Maximus applied against the Carthaginian invader of Italy by avoiding pitched battle and instead harassing supply lines — remains a key concept in military history.",
+      "clue": "Named after a Roman dictator nicknamed 'the Delayer,' this war-of-attrition doctrine — applied against the Carthaginian invader of Italy by avoiding pitched battle and instead harassing supply lines — remains a key concept in military history.",
       "answer": "Fabian Strategy",
       "answer_type": "other",
       "aliases": [
@@ -550,13 +530,6 @@
       "verification_status": "verified",
       "verified_at": "2026-07-06T03:52:07.307Z",
       "topic_entities": [
-        "carthage",
-        "fabian strategy",
-        "fabius maximus",
-        "hannibal",
-        "rome",
-        "second punic war",
-        "war of attrition"
       ]
     },
     {

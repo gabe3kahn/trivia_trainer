@@ -91,9 +91,7 @@
       "clue": "This American author made his debut with Carrie in 1974 and has since written approximately 200 short stories and dozens of novels; The Shawshank Redemption, Stand by Me, and It are among the films adapted from his fiction.",
       "answer": "Stephen King",
       "answer_type": "name",
-      "aliases": [
-        "King"
-      ],
+      "aliases": [],
       "tags": [
         "literature_books",
         "sourced",
@@ -110,12 +108,6 @@
       "verification_status": "verified",
       "verified_at": "2026-07-06T03:52:08.894Z",
       "topic_entities": [
-        "1974",
-        "carrie",
-        "maine",
-        "stand by me",
-        "stephen king",
-        "the shawshank redemption"
       ]
     },
     {
@@ -398,7 +390,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In 1991, this American journalist and essayist published what became one of the earliest mainstream media articles to argue that the Central Park Five had been wrongfully convicted; later, her 2005 memoir of grief won the National Book Award for Nonfiction.",
+      "clue": "In 1991, this American journalist and essayist published the earliest mainstream media article to argue that the Central Park Five had been wrongfully convicted; her 2005 memoir of grief later won the National Book Award for Nonfiction.",
       "answer": "Joan Didion",
       "answer_type": "name",
       "aliases": [
@@ -420,12 +412,6 @@
       "verification_status": "verified",
       "verified_at": "2026-07-06T03:52:11.790Z",
       "topic_entities": [
-        "1991",
-        "2005",
-        "american essayist",
-        "central park five",
-        "joan didion",
-        "the year of magical thinking"
       ]
     },
     {
@@ -437,7 +423,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Published in 1922 by Margery Williams, this British children's book follows a stuffed toy's longing to become real through the unconditional love of its young owner; it was first serialized in Harper's Bazaar the previous year.",
+      "clue": "Published in 1922 by Margery Williams, this British children's book follows a stuffed toy's longing to become real through the love of its young owner; it had first appeared in Harper's Bazaar the previous year.",
       "answer": "The Velveteen Rabbit",
       "answer_type": "other",
       "aliases": [
@@ -459,12 +445,6 @@
       "verification_status": "verified",
       "verified_at": "2026-07-06T03:52:12.149Z",
       "topic_entities": [
-        "1922",
-        "becoming real",
-        "harper's bazaar",
-        "margery williams",
-        "stuffed toy",
-        "the velveteen rabbit"
       ]
     },
     {

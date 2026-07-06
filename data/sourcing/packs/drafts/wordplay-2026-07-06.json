@@ -147,7 +147,7 @@
       "difficulty_rank": 4,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "After the night editor made her final edits before dawn, she looked up to watch the Moon's gravitational pull retreating the sea from the harbor mouth.",
+      "clue": "After the night editor made her final edits before dawn, she looked up to watch the Moon's gravitational pull drawing the sea back from the harbor mouth.",
       "answer": "Tides",
       "answer_type": "other",
       "aliases": [
@@ -163,13 +163,6 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "gravity",
-        "high tide",
-        "low tide",
-        "lunar cycles",
-        "moon",
-        "neap tide",
-        "oceanography"
       ]
     },
     {
@@ -245,7 +238,7 @@
       "difficulty_rank": 3,
       "mechanic": "crossword",
       "constraint_text": "(5) _ _ _ R _",
-      "clue": "Landing place where ships are loaded and unloaded",
+      "clue": "Raised platform built along a waterway where vessels moor to load or discharge",
       "answer": "WHARF",
       "answer_type": "other",
       "aliases": [],
@@ -260,13 +253,6 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "cargo",
-        "dock",
-        "harbor",
-        "maritime",
-        "port",
-        "shipping",
-        "waterfront"
       ]
     },
     {
