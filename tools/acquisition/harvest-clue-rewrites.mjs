@@ -45,13 +45,17 @@ for (const file of packs) {
     if (!f) { dropped += 1; continue; }
     const textChanged = norm(o.clue) !== norm(f.clue);
     // labeled row for the eval / restraint examples: edit = clue text changed, keep = unchanged
-    // (a value-only change counts as keep here — the text was not touched; difficulty is out of scope).
+    // (a value-only change counts as keep here — the text was not touched; that's a difficulty edit, below).
     labeled.push({ category: o.category_id, answer: o.answer, before: norm(o.clue), after: norm(f.clue), action: textChanged ? 'edit' : 'keep' });
     if (textChanged) {
       rewritten += 1;
       rewrites.push({ pack: file, category: o.category_id, id, answer: o.answer, before: norm(o.clue), after: norm(f.clue), value_before: o.value, value_after: f.value });
     } else if (o.value !== f.value) {
+      // Value-only edit: the editor changed difficulty without touching the text. Capture it as a
+      // rewrite too so condense learns the calibration — the "why" is in the review COMMENT (there is
+      // no text delta to read), so it's flagged value_only for condense to key off the comment.
       valueChanged += 1;
+      rewrites.push({ pack: file, category: o.category_id, id, answer: o.answer, before: norm(o.clue), after: norm(f.clue), value_before: o.value, value_after: f.value, value_only: true });
     }
   }
   metrics.push({ pack: file, category: (oq[0] || {}).category_id, total: oq.length, rewritten, value_changed: valueChanged, dropped, edit_rate: Number(((rewritten + valueChanged + dropped) / Math.max(1, oq.length)).toFixed(3)) });
