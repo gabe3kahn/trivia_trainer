@@ -96,7 +96,16 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "el bulli",
+        "escoffier",
+        "ferran adrià",
+        "haute cuisine",
+        "michelin stars",
+        "molecular gastronomy",
+        "nouvelle cuisine"
+      ]
     },
     {
       "source": "constructed",
@@ -228,7 +237,16 @@
         "crossword"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "acumen",
+        "aptitude",
+        "flair",
+        "gift",
+        "natural ability",
+        "skill",
+        "talent"
+      ]
     },
     {
       "source": "constructed",
@@ -254,7 +272,17 @@
         "crossword"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "anthropocene",
+        "cambrian explosion",
+        "digital age",
+        "enlightenment",
+        "industrial revolution",
+        "medieval period",
+        "renaissance",
+        "victorian era"
+      ]
     },
     {
       "source": "constructed",
@@ -280,7 +308,17 @@
         "crossword"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "1867",
+        "3/4 time",
+        "austria",
+        "ballroom",
+        "johann strauss ii",
+        "the blue danube",
+        "vienna",
+        "viennese waltz"
+      ]
     },
     {
       "source": "constructed",
@@ -306,7 +344,17 @@
         "crossword"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "1751",
+        "ancient greece",
+        "elegiac",
+        "elegy written in a country churchyard",
+        "ovid",
+        "pastoral elegy",
+        "romanticism",
+        "thomas gray"
+      ]
     }
   ]
 }
