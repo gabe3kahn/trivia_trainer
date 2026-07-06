@@ -172,7 +172,8 @@ jobs:
           node tools/acquisition/build-rewrite-lessons.mjs
           git add planning/clue-rewrite-lessons.md \
             data/acquisition/clue-rewrites.jsonl data/acquisition/clue-comments.jsonl \
-            data/acquisition/clue-rewrite-lessons.jsonl data/acquisition/drafter-metrics.jsonl
+            data/acquisition/clue-rewrite-lessons.jsonl data/acquisition/drafter-metrics.jsonl \
+            data/acquisition/labeled-clues.jsonl
           git commit -m "chore(learn): refresh rewrite lessons from merged edits ($(date -u +%F))" || echo "No lesson changes this run."
           exit 0
 
