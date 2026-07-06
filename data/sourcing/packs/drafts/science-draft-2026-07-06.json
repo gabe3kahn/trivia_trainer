@@ -13,7 +13,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Charles Darwin popularized this key mechanism of evolution, which describes how individuals with traits better suited to their environment survive and reproduce at higher rates, gradually altering a population's heritable characteristics over generations.",
+      "clue": "This mechanism holds that organisms with traits better adapted to their environment survive and reproduce more often, gradually shifting a population's inherited characteristics over successive generations — a process that can produce new species over long timescales.",
       "answer": "Natural selection",
       "answer_type": "other",
       "aliases": [],
@@ -31,16 +31,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:07.401Z",
-      "topic_entities": [
-        "1859",
-        "adaptation",
-        "charles darwin",
-        "evolution",
-        "galapagos",
-        "heredity",
-        "origin of species"
-      ]
+      "verified_at": "2026-07-06T14:32:07.401Z"
     },
     {
       "source": "original_sourced",
@@ -52,7 +43,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "With formula CO2, this colorless atmospheric gas consists of molecules each containing one central atom covalently double bonded to two oxygen atoms; it is the primary raw material for plant photosynthesis and a major greenhouse gas.",
+      "clue": "This colorless atmospheric gas consists of molecules each containing one central atom covalently double bonded to two oxygen atoms; it is the primary raw material for plant photosynthesis and a major greenhouse gas.",
       "answer": "Carbon dioxide",
       "answer_type": "other",
       "aliases": [
@@ -72,16 +63,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:40:00.000Z",
-      "topic_entities": [
-        "atmosphere",
-        "carbon cycle",
-        "climate change",
-        "co2",
-        "global warming",
-        "greenhouse gas",
-        "photosynthesis"
-      ]
+      "verified_at": "2026-07-06T14:40:00.000Z"
     },
     {
       "source": "original_sourced",
@@ -93,7 +75,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "From the Latin for 'cloud' or 'fog,' this term describes a luminous region of the interstellar medium consisting of ionized gas and cosmic dust — often a cradle of new star formation, as exemplified by the famous Pillars of Creation.",
+      "clue": "From the Latin for 'cloud' or 'fog,' this term describes a luminous region of the interstellar medium consisting of gas and cosmic dust — often a cradle of new star formation, as exemplified by the famous Pillars of Creation.",
       "answer": "Nebula",
       "answer_type": "other",
       "aliases": [
@@ -113,16 +95,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:08.213Z",
-      "topic_entities": [
-        "cosmic dust",
-        "interstellar medium",
-        "ionized gas",
-        "nebula",
-        "orion nebula",
-        "pillars of creation",
-        "star formation"
-      ]
+      "verified_at": "2026-07-06T14:32:08.213Z"
     },
     {
       "source": "original_sourced",
@@ -337,7 +310,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In physics and astronomy, this phenomenon describes an increase in the wavelength — and corresponding decrease in frequency — of electromagnetic radiation, typically observed when a source and observer are moving apart; its opposite is a blueshift.",
+      "clue": "When Edwin Hubble charted distant galaxies in the 1920s, he found their spectral lines consistently shifted toward the lower-energy end of the visible spectrum, suggesting those galaxies were moving away; this phenomenon remains a cornerstone of how cosmologists measure the universe's expansion.",
       "answer": "Redshift",
       "answer_type": "other",
       "aliases": [
@@ -358,16 +331,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:10.494Z",
-      "topic_entities": [
-        "astronomy",
-        "cosmology",
-        "doppler effect",
-        "electromagnetic radiation",
-        "recession velocity",
-        "redshift",
-        "wavelength"
-      ]
+      "verified_at": "2026-07-06T14:32:10.494Z"
     },
     {
       "source": "original_sourced",
@@ -416,15 +380,14 @@
       "external_id": "sci-2026-07-06-011",
       "category_id": "science",
       "subcategory_name": "Inventions & Discoveries",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "A Scottish-born engineer who co-founded what became the American Telephone and Telegraph Company, this inventor and scientist holds the patent for the first practical telephone and also contributed to advances in aeronautics and telecommunications.",
       "answer": "Alexander Graham Bell",
       "answer_type": "name",
       "aliases": [
-        "Bell",
         "A.G. Bell"
       ],
       "tags": [
@@ -441,16 +404,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:45:00.000Z",
-      "topic_entities": [
-        "1876",
-        "aeronautics",
-        "alexander graham bell",
-        "at&t",
-        "patent",
-        "scottish",
-        "telephone"
-      ]
+      "verified_at": "2026-07-06T14:45:00.000Z"
     },
     {
       "source": "original_sourced",

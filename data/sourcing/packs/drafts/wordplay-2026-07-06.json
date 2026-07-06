@@ -82,7 +82,7 @@
       "difficulty_rank": 2,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The chef arranged each rose petal as a garnish around the rim, then set the finished course on a polished silver vessel at the head of the table.",
+      "clue": "The chef arranged each rose petal as a garnish around the rim, then presented the finished course on a polished silver charger at the head of the table.",
       "answer": "Plate",
       "answer_type": "other",
       "aliases": [
@@ -96,17 +96,7 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "ceramics",
-        "culinary",
-        "dining",
-        "dishware",
-        "food service",
-        "plating",
-        "restaurant",
-        "tableware"
-      ]
+      "verification_status": "skipped"
     },
     {
       "source": "constructed",
@@ -223,7 +213,7 @@
       "difficulty_rank": 2,
       "mechanic": "crossword",
       "constraint_text": null,
-      "clue": "A natural aptitude for a particular skill",
+      "clue": "Something you either have or you don't",
       "answer": "Knack",
       "answer_type": "other",
       "aliases": [
@@ -238,17 +228,7 @@
         "crossword"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "ability",
-        "aptitude",
-        "craft",
-        "dexterity",
-        "expertise",
-        "proficiency",
-        "skill",
-        "talent"
-      ]
+      "verification_status": "skipped"
     },
     {
       "source": "constructed",
@@ -259,7 +239,7 @@
       "difficulty_rank": 3,
       "mechanic": "crossword",
       "constraint_text": null,
-      "clue": "A distinct period in history or geology",
+      "clue": "A memorable sweep of time defined by remarkable change",
       "answer": "Epoch",
       "answer_type": "other",
       "aliases": [
@@ -274,25 +254,15 @@
         "crossword"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "chronology",
-        "era",
-        "geology",
-        "historical",
-        "history",
-        "neolithic",
-        "paleolithic",
-        "period"
-      ]
+      "verification_status": "skipped"
     },
     {
       "source": "constructed",
       "external_id": "wordplay-2026-07-06-cwd-04",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "crossword",
       "constraint_text": null,
       "clue": "A ballroom dance performed in three-quarter time",
@@ -310,17 +280,7 @@
         "crossword"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "19th century",
-        "ballroom",
-        "classical music",
-        "dance",
-        "elegant",
-        "strauss",
-        "three-quarter time",
-        "vienna"
-      ]
+      "verification_status": "skipped"
     },
     {
       "source": "constructed",
@@ -331,7 +291,7 @@
       "difficulty_rank": 4,
       "mechanic": "crossword",
       "constraint_text": null,
-      "clue": "A solemn verse composition mourning the dead",
+      "clue": "A lyric form that gives its name to an adjective for anything touchingly sorrowful or wistful",
       "answer": "Elegy",
       "answer_type": "other",
       "aliases": [
@@ -346,17 +306,7 @@
         "crossword"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "classical verse",
-        "death",
-        "epitaph",
-        "funeral",
-        "lamentation",
-        "mourning",
-        "poetry",
-        "thomas gray"
-      ]
+      "verification_status": "skipped"
     }
   ]
 }

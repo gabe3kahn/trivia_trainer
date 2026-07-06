@@ -55,7 +55,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Founded in Madrid in 1819, this national art museum houses the largest and most important collection of Spanish art in the world and draws its holdings largely from the former Spanish royal collection.",
+      "clue": "Among the world's most visited art institutions, this neoclassical building inaugurated in 1819 holds one of Europe's richest collections of paintings from the 12th through the 19th century, with particular strengths in Spanish Baroque, Flemish masters, and the Italian Renaissance — drawn largely from former royal collections.",
       "answer": "Museo del Prado",
       "answer_type": "other",
       "aliases": [
@@ -77,17 +77,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:07.052Z",
-      "topic_entities": [
-        "1819",
-        "bosch",
-        "el greco",
-        "goya",
-        "madrid",
-        "museo del prado",
-        "spain",
-        "velázquez"
-      ]
+      "verified_at": "2026-07-06T14:29:07.052Z"
     },
     {
       "source": "original_sourced",
@@ -99,7 +89,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Commissioned by King Ludwig II of Bavaria and holding the Guinness record as the world's tallest at 65 metres, this 19th-century historicist palace crowns a rugged Alpine hilltop in the German state of Bavaria near the Austrian border.",
+      "clue": "Commissioned by King Ludwig II of Bavaria and holding the Guinness record as the world's tallest castle at 65 metres, this 19th-century historicist palace crowns a rugged Alpine hilltop in the German state of Bavaria near the Austrian border.",
       "answer": "Neuschwanstein",
       "answer_type": "other",
       "aliases": [
@@ -120,17 +110,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:07.485Z",
-      "topic_entities": [
-        "1869",
-        "alpine",
-        "bavaria",
-        "disney castle",
-        "germany",
-        "historicism",
-        "ludwig ii",
-        "neuschwanstein"
-      ]
+      "verified_at": "2026-07-06T14:29:07.485Z"
     },
     {
       "source": "original_sourced",
@@ -316,7 +296,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Spanish-born artist co-founded Cubism with Georges Braque and pioneered constructed sculpture; his 1907 proto-Cubist canvas 'Les Demoiselles d'Avignon' is considered a watershed moment in Western art, and his career spanned more than 76 years.",
+      "clue": "Among the most prolific modern artists in history, this Málaga-born painter's career of more than 70 years included his introspective Blue Period, his joyful Rose Period, and an experimental ceramics phase at the Madoura pottery workshop in southern France.",
       "answer": "Pablo Picasso",
       "answer_type": "name",
       "aliases": [
@@ -336,17 +316,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:09.587Z",
-      "topic_entities": [
-        "1907",
-        "cubism",
-        "georges braque",
-        "guernica",
-        "les demoiselles d'avignon",
-        "pablo picasso",
-        "paris",
-        "spain"
-      ]
+      "verified_at": "2026-07-06T14:29:09.587Z"
     },
     {
       "source": "original_sourced",
