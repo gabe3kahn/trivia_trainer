@@ -191,7 +191,16 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "topic_entities": []
+      "topic_entities": [
+        "1947",
+        "1989",
+        "berlin wall",
+        "cuban missile crisis",
+        "iron curtain",
+        "soviet union",
+        "united states",
+        "warsaw pact"
+      ]
     },
     {
       "source": "constructed",
@@ -318,7 +327,16 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "topic_entities": []
+      "topic_entities": [
+        "black plague",
+        "byzantine empire",
+        "central asia",
+        "chang'an",
+        "china",
+        "marco polo",
+        "roman empire",
+        "samarkand"
+      ]
     }
   ]
 }
