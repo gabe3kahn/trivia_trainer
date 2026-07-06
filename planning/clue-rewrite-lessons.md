@@ -7,7 +7,8 @@ it reflects every merged edit. Pre-apply these so the drafter writes the FINAL v
 > The top edits — tighten, vivid hook, cut giveaway, concrete-over-abstract — are the ones no deterministic gate
 > can catch. This is where they get taught.
 
-> **Difficulty/value is out of scope here** — handled separately. Do not change values based on these lessons.
+> **Calibrate difficulty as you draft (section 7).** Write each clue so its obliqueness matches the value you assign it —
+> oblique/single-hook for high value, direct for low — never pad difficulty by stacking facts or leading with a giveaway.
 
 > **These guardrails constrain HOW you rewrite, not WHETHER.** Propose a rewrite whenever it clearly IMPROVES the
 > clue — a hedged/generic opener, a subject buried so it obscures, real wordiness, a leak, a grammar error. Do not
@@ -181,6 +182,40 @@ When the standard angle duplicates another clue in the run or the bank, pivot to
 - **Hawaii** — When a geographic clue duplicates existing content, pivot to a specific historical figure associated with that place.
   - before: This island state — the only U.S. state that is an archipelago, the only one located south of the Tropic of Cancer, and one of only two states that were internationally recognized sovereign nations be…
   - after:  The last sovereign monarch of the Hawaiian Kingdom, this queen was deposed in an 1893 overthrow backed by American business interests; an accomplished musician, she composed the beloved farewell song …
+
+## 7. Calibrate difficulty to the value — obliqueness, NOT fact-stacking (18)
+Difficulty comes from HOW OBLIQUE the hook is, never from piling on facts. For a HIGH-value clue ($800–1000), discard the famous summary/nickname and anchor on a lesser-known detail, an obscure endpoint or supporting character, or a surprising origin/reception fact that demands real subject knowledge. A LOW-value clue ($200–400) can use a direct hook. Never lead with the giveaway nickname, and never stack multiple identifying facts to pad a clue — one well-chosen oblique hook beats three obvious ones. Don't define an answer as the missing member of a short list, and cut trivia-within-trivia that inflates difficulty past the stated value without aiding recognition. Write each clue so its obliqueness matches its dollar value.
+
+- **Henri Matisse** — Lead with a lesser-known biographical detail; save the famous movement or title for the clue's end.
+  - before: This French artist gained notoriety between 1900 and 1905 as a leader of the movement whose French name means 'wild beasts,' known for intense, unnaturalistic colorism; during his final years, when il…
+  - after:  In his final years, when illness kept him from the easel, this French artist created some of his most celebrated works in cut-paper collage; decades earlier he had risen to fame among the Paris avant-…
+- **Moby-Dick** — Replace canonical plot hooks with surprising publication or reception history to reframe a famous work as a clue.
+  - before: Its famous opening line, 'Call me Ishmael,' is one of world literature's most quoted; this 1851 Herman Melville novel centers on the obsessive Captain Ahab's pursuit of a white sperm whale that severe…
+  - after:  First published in London as 'The Whale' in October 1851, this novel was a commercial failure and out of print at its author's death in 1891; its standing as a Great American Novel was only establishe…
+- **The Divine Comedy** — For high-value clues, discard the famous structural summary and anchor on an obscure endpoint or supporting character.
+  - before: In this Italian narrative poem, a pilgrim travels through Hell and Purgatory guided by the Roman poet Virgil — who represents human reason — then continues into Paradise led by Beatrice, who represent…
+  - after:  This tripartite 14th-century poem ends with its narrator led through heaven by his idealized beloved Beatrice and, finally, by Saint Bernard of Clairvaux.
+- **Robinson Crusoe** — Cut trivia-within-trivia details that inflate difficulty past the stated value without aiding recognition.
+  - before: Daniel Defoe's 1719 novel — often credited as the first English work of realistic fiction — follows a man born with the surname Kreutznaer, stranded on a tropical island near Venezuela for 28 years.
+  - after:  Daniel Defoe's 1719 novel — often credited as the first English work of realistic fiction — follows a man stranded on a tropical island near Venezuela for 28 years.
+- **The Three Musketeers** — Replace a title-pointing frame with historical origin and antagonist details that demand real subject knowledge.
+  - before: Though titled for a famous group of royal guards, this 1844 Dumas novel was composed with ghostwriter Auguste Maquet and centers on the young Gascon d'Artagnan, who longs to join their ranks.
+  - after:  Loosely inspired by a 1700 pseudo-memoir of a real Gascon soldier in Louis XIII's guard, this 1844 French serial novel pits its heroes against Cardinal Richelieu and the cunning Milady de Winter.
+- **Swan Lake** — Never define an answer as the missing member of a short list; replace thin set-completion clues with specific historical events.
+  - before: Along with The Nutcracker and The Sleeping Beauty, this completes the trio of Tchaikovsky's most celebrated ballet scores.
+  - after:  This Tchaikovsky ballet — drawn from a folk tale of a princess under a sorcerer’s curse — flopped at its 1877 Bolshoi premiere as “too Wagnerian,” yet the 1895 Petipa–Ivanov revival made it one of the…
+- **John Coltrane** — Replace genre superlatives ('most influential') with a coined phrase, a specific album, or a posthumous honor that requires real knowledge.
+  - before: This American jazz saxophonist, bandleader, and composer is regarded as among the most influential and acclaimed figures in the history of jazz and 20th-century music.
+  - after:  Critic Ira Gitler coined the phrase “sheets of sound” for this musician’s dense, cascading style; his increasingly spiritual music culminated in the 1965 album “A Love Supreme,” and he received a spec…
+- **Apollo** — When the most-known attributes are too obvious, reframe through lesser-cited roles or epithets to raise difficulty.
+  - before: This Olympian twin of Artemis served as patron deity of Delphi and was the god through whom the most famous oracle of the ancient world spoke.
+  - after:  God of healing yet also of plague, of music and of the far-shooting bow, this deity was held up by the Greeks as the very ideal of youthful male beauty — the kouros made divine.
+- **Poseidon** — For high-value clues, strip iconic attributes and substitute obscure historical or cultic details.
+  - before: This god of the sea and earthquakes carried a trident and was believed to have created horses with a strike of it; his Roman counterpart is Neptune.
+  - after:  Bronze Age clay tablets at Pylos rank this 'Earth-Shaker' among the chief gods, and in the hills of remote Arcadia he was once worshipped in the form of a horse.
+- **Loki** — When one obscure fact carries the whole clue, pivot to multiple vivid corroborating details for better difficulty calibration.
+  - before: This Norse shape-shifter once took the form of a mare, was impregnated by a stallion, and gave birth to the eight-legged horse Sleipnir.
+  - after:  By a giantess this trickster sired three bringers of doom — the wolf Fenrir, the world-serpent, and the death-queen Hel.
 
 ## Left unchanged — already good, do NOT over-edit these
 These clues passed review with no change. If a clue already reads well, LEAVE IT ALONE — most clues need no edit.
