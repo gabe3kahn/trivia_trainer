@@ -51,6 +51,28 @@ export function auditFeedbackIssues(row) {
     add(true, 'answer-stem-in-clue', 12, `Clue word(s) share a stem with the answer: ${stemLeaks.join(', ')}.`);
   }
 
+  // A digit or symbol in the clue leaks an answer word just as much as spelling it out:
+  // "0 K" leaks "zero" in Absolute zero, "100°" leaks "hundred". Evaluate numbers/symbols
+  // in their TEXT form against the answer's distinctive words.
+  const numberFormLeaks = answerNumberFormLeak(row);
+  if (numberFormLeaks.length > 0) {
+    add(true, 'answer-number-form-in-clue', 10, `Clue number/symbol spells an answer word: ${numberFormLeaks.join(', ')}.`);
+  }
+
+  // Punctuation belongs OUTSIDE a title's quotes: a comma/semicolon before a closing single quote
+  // ('Jazz Age,' -> 'Jazz Age',) is a title-punctuation error the human editor consistently fixes.
+  if (/[,;]'/.test(clue)) {
+    add(true, 'punctuation-inside-title-quote', 6, "A comma/semicolon sits inside a title's closing quote; move it outside ('Title', not 'Title,').");
+  }
+
+  // Conservative comma-splice heuristic: a comma directly joining a new independent clause led by a
+  // subject pronoun + finite verb, with NO coordinating conjunction (", it was" / ", he became" — but
+  // ", but it was" is fine). Approximate — flags for a rewrite, not a hard block.
+  const splice = clue.match(/\w,\s+(it|he|she|they|this)\s+(was|were|is|are|has|had|became|began|died|created|wrote|led|founded|won|made)\b/i);
+  if (splice) {
+    add(true, 'possible-comma-splice', 6, `Possible comma splice — two independent clauses joined by a comma: "${splice[0]}".`);
+  }
+
   const categoryName = String(row.categories?.name ?? row.category_name ?? row.category_id ?? '').toLowerCase();
   if (categoryName.includes('wordplay') && row.mechanic === 'standard' && /\b(the word|this word|these letters)\b/i.test(clue)) {
     add(true, 'wordplay-answer-form-needs-extra-care', 3, 'Wordplay-shaped clue should be checked for exact answer-form ambiguity.');
@@ -113,6 +135,25 @@ function exactAnswerLeak(row) {
     .filter((value) => value.length === 1 ? value[0].length >= 3 : value.length > 1);
 
   return candidates.some((candidate) => containsTokenSequence(clueTokens, candidate));
+}
+
+// A digit/symbol in the clue that spells out a distinctive answer word is a leak in text form
+// ("0" → "zero" leaks Absolute zero). Normalize standalone small integers + a few symbols to
+// words, then match against answer words (short number-words like "zero"/"one" included).
+function answerNumberFormLeak(row) {
+  if (['anagram', 'before_after', 'rhyme_time', 'word_ladder', 'crossword_clue', 'crossword', 'initials', 'starts_with', 'ends_with', 'contains'].includes(row.mechanic)) {
+    return [];
+  }
+  const answerWords = new Set(tokenize(row.answer).filter((t) => t.length >= 3 && !STOP_WORDS.has(t)));
+  if (!answerWords.size) return [];
+  let text = String(row.clue ?? '');
+  for (const [sym, word] of DEGREE_SYMBOL_WORDS) text = text.split(sym).join(` ${word} `);
+  const hits = new Set();
+  for (const tok of tokenize(text)) {
+    const word = DIGIT_TO_WORD.get(tok);
+    if (word && answerWords.has(word)) hits.add(`${tok}→${word}`);
+  }
+  return [...hits];
 }
 
 function numericConcept(value) {
@@ -183,6 +224,16 @@ function escapeRegex(value) {
 
 const STOP_WORDS = new Set('a an the of in on at to for from with by and or as this that these those is are was were be been being it its his her their into over after before under during about who what when where why how which one ones man woman men women people person thing things first last new old great greater little big small'.split(' '));
 const IMPORTANT_SHORT_WORDS = new Set(['rome', 'mars', 'zeus', 'hera', 'odin', 'thor', 'java', 'ruby', 'perl', 'ford', 'nile', 'yale', 'duke', 'jazz']);
+// Standalone integers / symbols that spell out a word which could BE an answer word. Kept small
+// and specific (not years like 1896) so it only fires on genuine text-form leaks.
+const DIGIT_TO_WORD = new Map(Object.entries({
+  0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight',
+  9: 'nine', 10: 'ten', 11: 'eleven', 12: 'twelve', 13: 'thirteen', 14: 'fourteen', 15: 'fifteen',
+  16: 'sixteen', 17: 'seventeen', 18: 'eighteen', 19: 'nineteen', 20: 'twenty', 30: 'thirty',
+  40: 'forty', 50: 'fifty', 60: 'sixty', 70: 'seventy', 80: 'eighty', 90: 'ninety', 100: 'hundred',
+  1000: 'thousand', 1000000: 'million',
+}));
+const DEGREE_SYMBOL_WORDS = new Map([['°', 'degree'], ['%', 'percent']]);
 // Generic "head noun" of an answer that, on its own, doesn't reveal the
 // distinctive part (e.g. "amendment" in "Eighth Amendment", "corporation" in
 // "B Corporation", "principle" in "principle of double effect"). Allowed to

@@ -95,6 +95,12 @@ for (const q of qs) {
     const derived = aWords.map((w) => w[0]).join('');
     const given = String(wp.initials).toLowerCase().replace(/[^a-z]/g, '');
     if (given !== derived) fail(`initials "${wp.initials}" don't match the answer's word-initials ("${derived.toUpperCase()}")`);
+    // Every accepted alias must ALSO fit the shown initials — an alias with different initials
+    // is unsolvable from the hint yet would be accepted (e.g. "Fat Tuesday" under an "M.G." clue).
+    for (const alias of q.aliases || []) {
+      const alInit = words(alias).map((w) => w[0]).join('');
+      if (alInit !== given) fail(`initials alias "${alias}" (${alInit.toUpperCase()}) doesn't match the shown initials "${wp.initials}"`);
+    }
   } else if (q.mechanic === 'crossword') {
     // Clue + length + a revealed-letter pattern (e.g. "___S___"). Verify the answer fits
     // the length and every revealed letter. (Leak guard above blocks naming the answer.)
@@ -110,6 +116,15 @@ for (const q of qs) {
     if (pat.length !== ans.length) fail(`crossword pattern length ${pat.length} != answer length ${ans.length}`);
     else for (let i = 0; i < pat.length; i += 1) {
       if (pat[i] !== '_' && pat[i] !== ans[i]) fail(`crossword pattern mismatch at position ${i + 1}: pattern "${pat[i]}" vs answer "${ans[i]}"`);
+    }
+    // Every accepted alias must also fit the grid (exact length + every revealed letter),
+    // otherwise it's an accepted answer that the shown pattern can't lead to.
+    for (const alias of q.aliases || []) {
+      const al = flat(alias);
+      if (al.length !== ans.length) { fail(`crossword alias "${alias}" (len ${al.length}) doesn't fit the ${ans.length}-letter grid`); continue; }
+      for (let i = 0; i < pat.length; i += 1) {
+        if (pat[i] !== '_' && pat[i] !== al[i]) { fail(`crossword alias "${alias}" violates the revealed pattern "${wp.pattern}"`); break; }
+      }
     }
   } else if (q.mechanic === 'rhyme_time') {
     // Answer is a rhyming pair (e.g. "fat cat") clued by description. The rhyme itself is
