@@ -1,0 +1,483 @@
+{
+  "pack_id": "sci-draft-2026-07-06",
+  "category_id": "science",
+  "created_at": "2026-07-06T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Natural_selection",
+      "external_id": "sci-2026-07-06-001",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Charles Darwin popularized this key mechanism of evolution, which describes how individuals with traits better suited to their environment survive and reproduce at higher rates, gradually altering a population's heritable characteristics over generations.",
+      "answer": "Natural selection",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Natural selection",
+          "url": "https://en.wikipedia.org/wiki/Natural_selection",
+          "snippet": "Natural selection is the differential survival and reproduction of individuals due to differences in the relative fitness endowed on them by their own particular complement of observable characteristics. It is a key law or mechanism of evol"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:07.401Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Carbon_dioxide",
+      "external_id": "sci-2026-07-06-002",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "With formula CO2, this colorless atmospheric gas consists of molecules each containing one central atom covalently double bonded to two oxygen atoms; it is the primary raw material for plant photosynthesis and a major greenhouse gas.",
+      "answer": "Carbon dioxide",
+      "answer_type": "other",
+      "aliases": [
+        "CO2"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Carbon dioxide",
+          "url": "https://en.wikipedia.org/wiki/Carbon_dioxide",
+          "snippet": "Carbon dioxide is a chemical compound with the chemical formula CO2. It is made up of molecules that each have one carbon atom covalently double bonded to two oxygen atoms. It is found in a gas state at room temperature. As the source of carbon in the carbon cycle, atmospheric CO2 is the primary carbon source for life on Earth."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:40:00.000Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nebula",
+      "external_id": "sci-2026-07-06-003",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "From the Latin for 'cloud' or 'fog,' this term describes a luminous region of the interstellar medium consisting of ionized gas and cosmic dust — often a cradle of new star formation, as exemplified by the famous Pillars of Creation.",
+      "answer": "Nebula",
+      "answer_type": "other",
+      "aliases": [
+        "Nebulae"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "astronomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nebula",
+          "url": "https://en.wikipedia.org/wiki/Nebula",
+          "snippet": "A nebula is a distinct luminescent part of interstellar medium, which can consist of ionized, neutral, or molecular hydrogen and also cosmic dust. Nebulae are often star-forming regions, such as the Pillars of Creation in the Eagle Nebula. "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:08.213Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mycology",
+      "external_id": "sci-2026-07-06-004",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This branch of biology studies fungi — from yeasts and molds to mushrooms — examining their taxonomy, genetics, and biochemical properties, as well as their uses in medicine and food production and the hazards they can pose.",
+      "answer": "Mycology",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mycology",
+          "url": "https://en.wikipedia.org/wiki/Mycology",
+          "snippet": "Mycology is the branch of biology concerned with the study of fungi, including their taxonomy, genetics, biochemical properties, and use by humans. Fungi can be a source of tinder, food, and traditional medicine, as well as entheogens, pois"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:08.619Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Myopia",
+      "external_id": "sci-2026-07-06-005",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This eye condition occurs when light from distant objects focuses in front of, rather than on, the retina, causing distant objects to appear blurry while close objects remain clear.",
+      "answer": "Myopia",
+      "answer_type": "other",
+      "aliases": [
+        "Nearsightedness",
+        "Near-sightedness",
+        "Short-sightedness"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "medicine"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Myopia",
+          "url": "https://en.wikipedia.org/wiki/Myopia",
+          "snippet": "Myopia, also known as near-sightedness and short-sightedness, is an eye condition where light from distant objects focuses in front of, instead of on, the retina. As a result, distant objects appear blurry, while close objects appear normal."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:45:00.000Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gout",
+      "external_id": "sci-2026-07-06-006",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This form of inflammatory arthritis causes sudden, severe pain in swollen joints — most often at the base of the big toe in about half of all cases — triggered by the deposition of needle-shaped uric acid crystals.",
+      "answer": "Gout",
+      "answer_type": "other",
+      "aliases": [
+        "Rheumatic gout"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "medicine"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gout",
+          "url": "https://en.wikipedia.org/wiki/Gout",
+          "snippet": "Gout, also called rheumatic gout, is a form of inflammatory arthritis characterized by recurrent attacks of pain in a red, tender, hot, and swollen joint, caused by the deposition of needle-shaped crystals of the monosodium salt of uric aci"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:09.378Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Scapula",
+      "external_id": "sci-2026-07-06-007",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This flat triangular bone at the back of the shoulder connects the humerus to the collarbone and takes its name from the Classical Latin word for a trowel or small shovel, which it was thought to resemble.",
+      "answer": "Scapula",
+      "answer_type": "other",
+      "aliases": [
+        "Shoulder blade"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "medicine"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Scapula",
+          "url": "https://en.wikipedia.org/wiki/Scapula",
+          "snippet": "The scapula, also known as the shoulder blade, is the bone that connects the humerus with the clavicle. Like their connected bones, the scapulae are paired, with each scapula on either side of the body being roughly a mirror image of the ot"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:09.782Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nicotine",
+      "external_id": "sci-2026-07-06-008",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This addictive alkaloid, found at high concentrations in tobacco leaves, also occurs in trace amounts in tomatoes, potatoes, and eggplants — all members of the nightshade family — and is valued recreationally for its stimulant and calming effects.",
+      "answer": "Nicotine",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nicotine",
+          "url": "https://en.wikipedia.org/wiki/Nicotine",
+          "snippet": "Nicotine is an alkaloid found primarily in plants of the nightshade family, notably in tobacco; it is also synthesized. Nicotine is used recreationally for its stimulant and anxiolytic effects. In tobacco leaves, nicotine constitutes about "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:10.138Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Redshift",
+      "external_id": "sci-2026-07-06-009",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In physics and astronomy, this phenomenon describes an increase in the wavelength — and corresponding decrease in frequency — of electromagnetic radiation, typically observed when a source and observer are moving apart; its opposite is a blueshift.",
+      "answer": "Redshift",
+      "answer_type": "other",
+      "aliases": [
+        "Red shift",
+        "Red-shift"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "astronomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Redshift",
+          "url": "https://en.wikipedia.org/wiki/Redshift",
+          "snippet": "In physics, a redshift is an increase in the wavelength, or equivalently, a decrease in the frequency, of electromagnetic radiation. The opposite change, a decrease in wavelength and increase in frequency and energy, is known as a blueshift"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:10.494Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Homeostasis",
+      "external_id": "sci-2026-07-06-010",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In biology, this term names the state of steady internal physical and chemical conditions that living organisms actively maintain — keeping variables such as body temperature and fluid balance within narrow limits for optimal functioning.",
+      "answer": "Homeostasis",
+      "answer_type": "other",
+      "aliases": [
+        "Homoeostasis"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Homeostasis",
+          "url": "https://en.wikipedia.org/wiki/Homeostasis",
+          "snippet": "In biology, homeostasis is the state of steady internal physical and chemical conditions maintained by living organisms. This is the condition of optimal functioning for the organism and includes many variables, such as body temperature and"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:10.898Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+      "external_id": "sci-2026-07-06-011",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A Scottish-born engineer who co-founded what became the American Telephone and Telegraph Company, this inventor and scientist holds the patent for the first practical telephone and also contributed to advances in aeronautics and telecommunications.",
+      "answer": "Alexander Graham Bell",
+      "answer_type": "name",
+      "aliases": [
+        "Bell",
+        "A.G. Bell"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "inventions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Alexander Graham Bell",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+          "snippet": "Alexander Graham Bell (March 3, 1847 – August 2, 1922) was a Scottish-born Canadian-American inventor, scientist, and engineer who is credited with patenting the first practical telephone. He also co-founded the American Telephone and Telegraph Company."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:45:00.000Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Philtrum",
+      "external_id": "sci-2026-07-06-012",
+      "category_id": "science",
+      "subcategory_name": "Medicine & Anatomy",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "From the Latin, which borrowed it from the Ancient Greek for 'love charm,' this term names the vertical indentation running from the nasal septum to the upper lip that is common to therian mammals, including humans.",
+      "answer": "Philtrum",
+      "answer_type": "other",
+      "aliases": [
+        "Medial cleft"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "medicine"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Philtrum",
+          "url": "https://en.wikipedia.org/wiki/Philtrum",
+          "snippet": "The philtrum or medial cleft is a vertical indentation in the middle area of the upper lip, common to therian mammals, extending in humans from the nasal septum to the tubercle of the upper lip. Together with a glandular rhinarium and slit-"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:11.658Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Guanine",
+      "external_id": "sci-2026-07-06-013",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Designated by the letter G, this purine derivative is one of the four nucleotide bases found in both DNA and RNA; in the double helix, it forms base pairs exclusively with cytosine.",
+      "answer": "Guanine",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Guanine",
+          "url": "https://en.wikipedia.org/wiki/Guanine",
+          "snippet": "Guanine is one of the four main nucleotide bases found in the nucleic acids DNA and RNA, the others being adenine, cytosine, and thymine. In DNA, guanine is paired with cytosine. The guanine nucleoside is called guanosine."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:32:12.072Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Big_Crunch",
+      "external_id": "sci-2026-07-06-014",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This cosmological hypothesis posits that the universe's current expansion will eventually halt and reverse, causing all matter and spacetime to recollapse to a singularity — possibly triggering another cosmic bang that restarts everything.",
+      "answer": "Big Crunch",
+      "answer_type": "other",
+      "aliases": [
+        "The Big Crunch"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "astronomy"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Big Crunch",
+          "url": "https://en.wikipedia.org/wiki/Big_Crunch",
+          "snippet": "The Big Crunch is a hypothetical scenario for the ultimate fate of the universe, in which the expansion of the universe eventually reverses and the universe recollapses, ultimately causing the cosmic scale factor to reach absolute zero, an "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:33:00.589Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/ENIAC",
+      "external_id": "sci-2026-07-06-015",
+      "category_id": "science",
+      "subcategory_name": "Inventions & Discoveries",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally designed to calculate artillery firing tables for the United States Army's Ballistic Research Laboratory, this machine completed in 1945 by John Mauchly and J. Presper Eckert was the first programmable, electronic, general-purpose digital computer.",
+      "answer": "ENIAC",
+      "answer_type": "other",
+      "aliases": [
+        "Electronic Numerical Integrator and Computer"
+      ],
+      "tags": [
+        "sci-draft",
+        "sourced",
+        "inventions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "ENIAC",
+          "url": "https://en.wikipedia.org/wiki/ENIAC",
+          "snippet": "ENIAC (Electronic Numerical Integrator and Computer) was the first programmable, electronic, general-purpose digital computer, completed in 1945. ENIAC was designed by John Mauchly and J. Presper Eckert to calculate artillery firing tables for the United States Army's Ballistic Research Laboratory."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T14:40:00.000Z"
+    }
+  ]
+}

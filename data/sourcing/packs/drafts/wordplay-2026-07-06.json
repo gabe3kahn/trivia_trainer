@@ -1,0 +1,212 @@
+{
+  "pack_id": "wordplay-2026-07-06",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-06T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The warrior's dream was to outshine all rivals in battle, his shield polished and sword hung ready at his hip.",
+      "answer": "Armed",
+      "answer_type": "other",
+      "aliases": ["ARMED"],
+      "wp": {
+        "scramble": "dream"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The cook would baste the roasting haunch for hours while the guests debated which wild thing from the forest they had feasted on most memorably.",
+      "answer": "Beast",
+      "answer_type": "other",
+      "aliases": ["BEAST"],
+      "wp": {
+        "scramble": "baste"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The chef arranged each rose petal as a garnish around the rim, then set the finished course on a polished silver vessel at the head of the table.",
+      "answer": "Plate",
+      "answer_type": "other",
+      "aliases": ["PLATE"],
+      "wp": {
+        "scramble": "petal"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The young colt stumbled at the fence, and the vet who rushed over found blood pooling thickly from the gash where the wound had begun to congeal.",
+      "answer": "Clot",
+      "answer_type": "other",
+      "aliases": ["CLOT"],
+      "wp": {
+        "scramble": "colt"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The mist rolled across the empty acres at dusk, and the sudden shriek from beyond the tree line was enough to make even the bravest groundskeeper bolt for the gate.",
+      "answer": "Scare",
+      "answer_type": "other",
+      "aliases": ["SCARE"],
+      "wp": {
+        "scramble": "acres"
+      },
+      "tags": ["wp-draft", "anagram"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-cwd-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "A small cluster of trees",
+      "answer": "Grove",
+      "answer_type": "other",
+      "aliases": ["GROVE"],
+      "wp": {
+        "length": 5,
+        "pattern": "_R___"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-cwd-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "A natural aptitude for a particular skill",
+      "answer": "Knack",
+      "answer_type": "other",
+      "aliases": ["KNACK"],
+      "wp": {
+        "length": 5,
+        "pattern": "K____"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-cwd-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "A distinct period in history or geology",
+      "answer": "Epoch",
+      "answer_type": "other",
+      "aliases": ["EPOCH"],
+      "wp": {
+        "length": 5,
+        "pattern": "__O__"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-cwd-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "A ballroom dance performed in three-quarter time",
+      "answer": "Waltz",
+      "answer_type": "other",
+      "aliases": ["WALTZ"],
+      "wp": {
+        "length": 5,
+        "pattern": "____Z"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06-cwd-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "A solemn verse composition mourning the dead",
+      "answer": "Elegy",
+      "answer_type": "other",
+      "aliases": ["ELEGY"],
+      "wp": {
+        "length": 5,
+        "pattern": "____Y"
+      },
+      "tags": ["wp-draft", "crossword"],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}
