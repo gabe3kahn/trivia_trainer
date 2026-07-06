@@ -1,0 +1,479 @@
+{
+  "pack_id": "history-draft-2026-07-06",
+  "category_id": "history",
+  "created_at": "2026-07-06",
+  "questions": [
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-001",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This network of secret routes and safe houses, organized primarily by free and enslaved African Americans, helped more than 100,000 enslaved people escape to freedom in the Northern United States and Canada before the Civil War.",
+      "answer": "Underground Railroad",
+      "answer_type": "other",
+      "aliases": [
+        "The Underground Railroad"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Underground Railroad",
+          "url": "https://en.wikipedia.org/wiki/Underground_Railroad",
+          "snippet": "The Underground Railroad was an organized network of secret routes and safe houses for fugitive slaves to escape to the abolitionist Northern United States and Eastern Canada during the era of slavery in the United States. Slaves escaped fr"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:02.347Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-002",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The assassination of this Austro-Hungarian heir to the throne by Gavrilo Princip in Sarajevo on June 28, 1914 set off the chain of mobilizations and declarations of war that ignited the First World War.",
+      "answer": "Franz Ferdinand",
+      "answer_type": "name",
+      "aliases": [
+        "Archduke Franz Ferdinand",
+        "Archduke Ferdinand"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "World War I",
+          "url": "https://en.wikipedia.org/wiki/World_War_I",
+          "snippet": "World War I, or the First World War, also known as the Great War, was a global conflict between two coalitions: the Allies and the Central Powers. Major areas of conflict included Europe and the Middle East, as well as parts of Africa and t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:02.706Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-003",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On February 20, 1962, this American astronaut circled the Earth three times aboard Friendship 7, becoming the first American to orbit the planet; he later flew again at age 77, making him the oldest person to reach orbit.",
+      "answer": "John Glenn",
+      "answer_type": "name",
+      "aliases": [
+        "Glenn"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "John Glenn",
+          "url": "https://en.wikipedia.org/wiki/John_Glenn",
+          "snippet": "John Herschel Glenn Jr. was an American Marine Corps aviator, astronaut, businessman, and politician. He was the third American in space and the first to orbit the Earth, circling it three times in 1962. Following his retirement from NASA, "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:03.065Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-004",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Styling himself 'the Sun King,' this French monarch held the throne for 72 years and 110 days — the longest reign of any sovereign in recorded history — and made the Palace of Versailles his royal seat to consolidate absolute power.",
+      "answer": "Louis XIV",
+      "answer_type": "other",
+      "aliases": [
+        "Louis the Fourteenth",
+        "Louis the 14th"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Louis XIV",
+          "url": "https://en.wikipedia.org/wiki/Louis_XIV",
+          "snippet": "Louis XIV was King of France from 14 May 1643 until his death in 1715. He is a symbol of the Age of Absolutism in Europe for styling himself as \"The Sun King\" and \"Louis the Great\", which portrayed him as supreme leader. He presided over a "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:03.425Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-005",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Carthaginian general invaded Italy in 218 BC by leading North African war elephants across the Alps and inflicted a devastating defeat on Rome at the Battle of Cannae in 216 BC, killing an estimated 50,000 Roman soldiers in a single day.",
+      "answer": "Hannibal",
+      "answer_type": "name",
+      "aliases": [
+        "Hannibal Barca"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "ancient-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hannibal",
+          "url": "https://en.wikipedia.org/wiki/Hannibal",
+          "snippet": "Hannibal was a Carthaginian general and statesman who commanded the forces of Carthage in their battle against the Roman Republic during the Second Punic War. Hannibal lived during a period of great tension in the Mediterranean Basin, trigg"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:03.783Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-006",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "While imprisoned in 1946, this American civil rights leader and Muslim minister joined the Nation of Islam and replaced his birth surname with the letter 'X' to symbolize his unknown African ancestral name, discarding what he called his 'white slavemaster name.'",
+      "answer": "Malcolm X",
+      "answer_type": "other",
+      "aliases": [
+        "El-Hajj Malik el-Shabazz"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Malcolm X",
+          "url": "https://en.wikipedia.org/wiki/Malcolm_X",
+          "snippet": "Malcolm X was an American civil rights activist and Muslim minister who came from a background of poverty, family disruption, and criminal activity to a prominent figure during the civil rights movement until his assassination in 1965. He d"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:04.142Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-007",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In his 1961 farewell address, this Republican president coined the phrase 'military–industrial complex' to warn Americans against the growing political influence of the defense industry on government policy.",
+      "answer": "Dwight D. Eisenhower",
+      "answer_type": "name",
+      "aliases": [
+        "Eisenhower",
+        "Ike",
+        "Dwight Eisenhower"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dwight D. Eisenhower",
+          "url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
+          "snippet": "Dwight David Eisenhower, also known as Ike, was the 34th president of the United States from 1953 to 1961. In his previously military career, he led the Allied Expeditionary Force during the Second World War, launching decisive campaigns in"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:04.501Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-008",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 18th-century British nobleman allegedly demanded sliced meat between bread so he could eat without leaving his card game; his aristocratic title has since become the name of one of the world's most widely eaten foods.",
+      "answer": "Earl of Sandwich",
+      "answer_type": "other",
+      "aliases": [
+        "John Montagu",
+        "John Montagu, 4th Earl of Sandwich",
+        "4th Earl of Sandwich"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sandwich",
+          "url": "https://en.wikipedia.org/wiki/Sandwich",
+          "snippet": "A sandwich is a dish typically consisting variously of meat, cheese, sauces, and vegetables used as a filling between slices of bread, or placed atop a slice of bread ; or, more generally, any dish in which bread serves as a container or wr"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:04.861Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-009",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "One of the first U.S. Army Air Forces B-17 heavy bombers to complete 25 combat missions over Europe, this aircraft and its crew returned home to sell war bonds and inspired both a 1944 documentary and a 1990 Hollywood feature film sharing its name.",
+      "answer": "Memphis Belle",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "history",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Memphis Belle (aircraft)",
+          "url": "https://en.wikipedia.org/wiki/Memphis_Belle_(aircraft)",
+          "snippet": "The Memphis Belle is a Boeing B-17F Flying Fortress used during the Second World War that inspired the making of two motion pictures: a 1944 documentary film, Memphis Belle: A Story of a Flying Fortress, and the 1990 Hollywood feature film "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:05.227Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-010",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This deliberate famine of the early 1930s killed millions in Soviet Ukraine through enforced grain collection quotas and forcible collectivization, and it remains central to that country's national identity and its case for recognition as a genocide.",
+      "answer": "Holodomor",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "history",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ukraine",
+          "url": "https://en.wikipedia.org/wiki/Ukraine",
+          "snippet": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast. Ukraine also borders Belarus to the north; Poland and Slovakia to the west; Hungary, Romania and Mo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:05.676Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-011",
+      "category_id": "history",
+      "subcategory_name": "Dates, Documents & Treaties",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Louis XIV's 1685 revocation of this 1598 proclamation abolished the rights of France's Huguenot Protestant minority, subjected them to waves of forced conversion, and drove hundreds of thousands into exile across Europe.",
+      "answer": "Edict of Nantes",
+      "answer_type": "other",
+      "aliases": [
+        "the Edict of Nantes"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "dates-documents-treaties"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Louis XIV",
+          "url": "https://en.wikipedia.org/wiki/Louis_XIV",
+          "snippet": "Louis XIV was King of France from 14 May 1643 until his death in 1715. He is a symbol of the Age of Absolutism in Europe for styling himself as \"The Sun King\" and \"Louis the Great\", which portrayed him as supreme leader. He presided over a "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:06.102Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-012",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Bavarian capital served as the birthplace and early headquarters of the Nazi Party in the 1920s, earning it the official designation 'Capital of the Movement,' before being heavily damaged during Allied bombing campaigns in World War II.",
+      "answer": "Munich",
+      "answer_type": "other",
+      "aliases": [
+        "München"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Munich",
+          "url": "https://en.wikipedia.org/wiki/Munich",
+          "snippet": "Munich is the capital and most populous city of Bavaria, Germany. As of 30 November 2024, its population was 1,604,384, making it the third-largest city in Germany after Berlin and Hamburg. Munich is the largest city in Germany that is not "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:06.462Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-013",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Historians regard this nearly 900-day encirclement of a major Soviet city as the most lethal siege in military history; when it was lifted in January 1944, the city — renamed in 1924 after the Bolshevik leader who had died that year — had lost over one million civilians.",
+      "answer": "Siege of Leningrad",
+      "answer_type": "other",
+      "aliases": [
+        "Leningrad Siege",
+        "the Siege of Leningrad",
+        "Leningrad"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Saint Petersburg",
+          "url": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+          "snippet": "Saint Petersburg, formerly known as Petrograd (Петроград) and later Leningrad (Ленинград), is the second-largest city in Russia, after Moscow, the nation's capital. Situated on the Neva River at the head of the Gulf of Finland on the Baltic"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:06.891Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-014",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named after the Roman dictator nicknamed 'the Delayer,' this war-of-attrition doctrine — which Quintus Fabius Maximus applied against the Carthaginian invader of Italy by avoiding pitched battle and instead harassing supply lines — remains a key concept in military history.",
+      "answer": "Fabian Strategy",
+      "answer_type": "other",
+      "aliases": [
+        "the Fabian strategy",
+        "Fabian strategy"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "ancient-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hannibal",
+          "url": "https://en.wikipedia.org/wiki/Hannibal",
+          "snippet": "Hannibal was a Carthaginian general and statesman who commanded the forces of Carthage in their battle against the Roman Republic during the Second Punic War. Hannibal lived during a period of great tension in the Mediterranean Basin, trigg"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:07.307Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "history-draft-2026-07-06-015",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The largest and most powerful realm in Europe during the 10th and 11th centuries, this early medieval East Slavic state emerged in the 9th century and is regarded as the forerunner of modern Ukraine, Russia, and Belarus before being destroyed by the Mongols in the 13th century.",
+      "answer": "Kievan Rus'",
+      "answer_type": "other",
+      "aliases": [
+        "Kievan Rus",
+        "Kyivan Rus",
+        "Kyivan Rus'"
+      ],
+      "tags": [
+        "history",
+        "sourced",
+        "empires-dynasties"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ukraine",
+          "url": "https://en.wikipedia.org/wiki/Ukraine",
+          "snippet": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast. Ukraine also borders Belarus to the north; Poland and Slovakia to the west; Hungary, Romania and Mo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:07.665Z"
+    }
+  ]
+}

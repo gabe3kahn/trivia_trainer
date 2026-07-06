@@ -1,0 +1,472 @@
+{
+  "pack_id": "literature_books-draft-2026-07-06",
+  "category_id": "literature_books",
+  "created_at": "2026-07-06",
+  "questions": [
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-001",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Beatrix Potter introduced this blue-jacketed character who ventures into Mr. McGregor's garden in 1902; by 1903 he had become the first fictional character to be manufactured and patented as a stuffed toy.",
+      "answer": "Peter Rabbit",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "childrens-ya-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Peter Rabbit",
+          "url": "https://en.wikipedia.org/wiki/Peter_Rabbit",
+          "snippet": "Peter Rabbit is a fictional animal character in various children's stories by English author Beatrix Potter. A mischievous, adventurous young anthropomorphic rabbit who wears a blue jacket, he first appeared in The Tale of Peter Rabbit in 1"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:08.174Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-002",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "J. D. Salinger's 1951 coming-of-age novel follows Holden Caulfield, a disaffected teenager whose cynical narration became an icon for adolescent alienation; it sells approximately one million copies annually and has never gone out of print.",
+      "answer": "The Catcher in the Rye",
+      "answer_type": "other",
+      "aliases": [
+        "Catcher in the Rye"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Catcher in the Rye",
+          "url": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+          "snippet": "The Catcher in the Rye is a 1951 American coming-of-age novel by American author J. D. Salinger. It was partially published in serial form in 1945–46 before being novelized in 1951."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:08.534Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-003",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American author made his debut with Carrie in 1974 and has since written approximately 200 short stories and dozens of novels; The Shawshank Redemption, Stand by Me, and It are among the films adapted from his fiction.",
+      "answer": "Stephen King",
+      "answer_type": "name",
+      "aliases": [
+        "King"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "authors-works"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Stephen King",
+          "url": "https://en.wikipedia.org/wiki/Stephen_King",
+          "snippet": "Stephen Edwin King is an American author. Dubbed the \"King of Horror\", he is widely known for his horror fiction and has also explored other genres, among them suspense, crime, science-fiction, fantasy, and mystery. He has written approxima"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:08.894Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-004",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Published in 1908 by Kenneth Grahame, this British children's novel follows the riverbank misadventures of Mole, Ratty, and Badger as they attempt to restrain the irrepressible Mr. Toad, who has developed a dangerous obsession with motorcars.",
+      "answer": "The Wind in the Willows",
+      "answer_type": "other",
+      "aliases": [
+        "Wind in the Willows"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "british-irish-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Wind in the Willows",
+          "url": "https://en.wikipedia.org/wiki/The_Wind_in_the_Willows",
+          "snippet": "The Wind in the Willows is a children's novel by the British novelist Kenneth Grahame, first published in 1908. It tells the story of Mole, Ratty and Badger as they try to help Mr. Toad after he becomes obsessed with motorcars and gets into"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:09.254Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-005",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "George Orwell's 1945 novella follows a livestock rebellion against their human owner, only to find their new pig rulers becoming as oppressive as the humans they replaced — a pointed allegory of the Russian Revolution and the betrayal of Soviet Communism under Stalin.",
+      "answer": "Animal Farm",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "british-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Animal Farm",
+          "url": "https://en.wikipedia.org/wiki/Animal_Farm",
+          "snippet": "Animal Farm is a satirical allegorical dystopian novella, in the form of a beast fable, by George Orwell, first published in England on 17 August 1945. It follows the mistreated anthropomorphic farm animals of Manor Farm as they rebel again"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:09.615Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-006",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This early American novelist created Natty Bumppo — the frontier scout hero of his five Leatherstocking Tales — and wrote The Last of the Mohicans, a historical romance of the French and Indian War often regarded as his masterpiece.",
+      "answer": "James Fenimore Cooper",
+      "answer_type": "name",
+      "aliases": [
+        "Cooper",
+        "Fenimore Cooper"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "James Fenimore Cooper",
+          "url": "https://en.wikipedia.org/wiki/James_Fenimore_Cooper",
+          "snippet": "James Fenimore Cooper was an American writer of the first half of the 19th century, whose historical romances depicting colonial and indigenous characters from the 17th to the 19th centuries brought him fame and fortune. He lived much of hi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:09.974Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-007",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Drawing on her insider's knowledge of Gilded Age New York society, this American author won the 1921 Pulitzer Prize for Fiction for The Age of Innocence, becoming the first woman to receive that honor.",
+      "answer": "Edith Wharton",
+      "answer_type": "name",
+      "aliases": [
+        "Wharton"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Edith Wharton",
+          "url": "https://en.wikipedia.org/wiki/Edith_Wharton",
+          "snippet": "Edith Newbold Wharton was an American writer and designer. Wharton drew upon her insider's knowledge of upper-class New York society to portray, realistically, the lives and morals of the Gilded Age. In 1921, she became the first woman to w"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:10.334Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-008",
+      "category_id": "literature_books",
+      "subcategory_name": "British & Irish Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Richard Adams's debut novel, rejected by several publishers before winning the Carnegie Medal and the Guardian Prize, follows a band of anthropomorphized animals with their own culture, language, and mythology as they escape a threatened warren in Hampshire.",
+      "answer": "Watership Down",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "british-irish-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Watership Down",
+          "url": "https://en.wikipedia.org/wiki/Watership_Down",
+          "snippet": "Watership Down is an adventure novel by English author Richard Adams. Set in Hampshire in southern England, the story features a small group of rabbits. Although they live in their natural wild environment, with burrows, they are anthropomo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:10.694Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-009",
+      "category_id": "literature_books",
+      "subcategory_name": "Awards, Movements & Terms",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This dramatic device, prominent in Elizabethan and Jacobean theatre, has a character voice their inner thoughts while alone on stage; Hamlet's 'To be, or not to be' speech is perhaps the most famous example in the English language.",
+      "answer": "Soliloquy",
+      "answer_type": "other",
+      "aliases": [
+        "A soliloquy"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "literary-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Soliloquy",
+          "url": "https://en.wikipedia.org/wiki/Soliloquy",
+          "snippet": "A soliloquy is a monologue in drama in which a character speaks their thoughts aloud, typically while alone on stage or onscreen. It is used to reveal the character's inner feelings, motivations, or plans directly to the audience, providing"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:11.053Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-010",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in French Algeria and later a member of the French Resistance, this philosopher-novelist won the 1957 Nobel Prize in Literature at age 44 — the second-youngest recipient — for works including The Stranger and The Myth of Sisyphus, which defined the philosophy of absurdism.",
+      "answer": "Albert Camus",
+      "answer_type": "name",
+      "aliases": [
+        "Camus"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "world-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Albert Camus",
+          "url": "https://en.wikipedia.org/wiki/Albert_Camus",
+          "snippet": "Albert Camus was a French philosopher, novelist, author, dramatist, journalist, world federalist, and political activist. He was the recipient of the 1957 Nobel Prize in Literature at the age of 44, the second-youngest recipient in history,"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:11.411Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-011",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 1991, this American journalist and essayist published what became one of the earliest mainstream media articles to argue that the Central Park Five had been wrongfully convicted; later, her 2005 memoir of grief won the National Book Award for Nonfiction.",
+      "answer": "Joan Didion",
+      "answer_type": "name",
+      "aliases": [
+        "Didion"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Joan Didion",
+          "url": "https://en.wikipedia.org/wiki/Joan_Didion",
+          "snippet": "Joan Didion was an American writer and journalist. She is considered one of the pioneers of New Journalism, along with Gay Talese, Truman Capote, Norman Mailer, Hunter S. Thompson and Tom Wolfe."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:11.790Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-012",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Published in 1922 by Margery Williams, this British children's book follows a stuffed toy's longing to become real through the unconditional love of its young owner; it was first serialized in Harper's Bazaar the previous year.",
+      "answer": "The Velveteen Rabbit",
+      "answer_type": "other",
+      "aliases": [
+        "Velveteen Rabbit"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "childrens-ya-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Velveteen Rabbit",
+          "url": "https://en.wikipedia.org/wiki/The_Velveteen_Rabbit",
+          "snippet": "The Velveteen Rabbit is a British children's book written by Margery Williams and illustrated by William Nicholson. It chronicles the story of a stuffed rabbit's desire to become real through the love of his owner. The story was first publi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:12.149Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-013",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rudolf Erich Raspe's 1785 book cast a real German military officer's exaggerated stories about his campaigns into fiction; the historical figure was so upset by the resulting character — famous for impossible exploits such as riding a cannonball and travelling to the Moon — that he threatened legal action, though Raspe never acknowledged authorship during his lifetime.",
+      "answer": "Baron Munchausen",
+      "answer_type": "other",
+      "aliases": [
+        "Baron von Munchausen",
+        "Munchausen",
+        "Münchhausen",
+        "Baron Münchhausen"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "literary-characters"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Baron Munchausen",
+          "url": "https://en.wikipedia.org/wiki/Baron_Munchausen",
+          "snippet": "Baron Munchausen is a fictional German nobleman created by the German writer Rudolf Erich Raspe in his 1785 book Baron Munchausen's Narrative of His Marvellous Travels and Campaigns in Russia. The character is loosely based on baron Hierony"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:12.509Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-014",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Michael Chabon's 2000 novel follows two Jewish cousins — a Czech artist who escapes Nazi-occupied Prague and a Brooklyn-born writer — as they create a superhero called The Escapist during comics' Golden Age; it won the Pulitzer Prize for Fiction in 2001.",
+      "answer": "The Amazing Adventures of Kavalier & Clay",
+      "answer_type": "other",
+      "aliases": [
+        "Kavalier and Clay",
+        "Kavalier & Clay",
+        "The Amazing Adventures of Kavalier and Clay"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Amazing Adventures of Kavalier & Clay",
+          "url": "https://en.wikipedia.org/wiki/The_Amazing_Adventures_of_Kavalier_%26_Clay",
+          "snippet": "The Amazing Adventures of Kavalier & Clay is a 2000 novel by American author Michael Chabon. A historical fiction novel, it follows the lives of two Jewish cousins, Josef \"Joe\" Kavalier, a Czech artist and magician who escapes Nazi-occupied"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:12.868Z"
+    },
+    {
+      "source": "wikipedia",
+      "external_id": "literature_books-draft-2026-07-06-015",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this 1936 William Faulkner novel, the rise and fall of Mississippi planter Thomas Sutpen is pieced together through the conflicting testimony of several unreliable narrators decades after the events — a Southern Gothic dissection of the Civil War's long shadow.",
+      "answer": "Absalom, Absalom!",
+      "answer_type": "other",
+      "aliases": [
+        "Absalom Absalom"
+      ],
+      "tags": [
+        "literature_books",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Absalom, Absalom!",
+          "url": "https://en.wikipedia.org/wiki/Absalom%2C_Absalom!",
+          "snippet": "Absalom, Absalom! is a Southern Gothic novel by the American author William Faulkner, first published in 1936. Taking place before, during, and after the American Civil War, it focuses on the rise and fall of Thomas Sutpen, a plantation own"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-06T03:52:13.228Z"
+    }
+  ]
+}
