@@ -1,0 +1,19 @@
+{
+  "topic": "red shift, blue shift",
+  "category_id": "science",
+  "clue_frequency": 1,
+  "seen_at_values": [
+    600
+  ],
+  "source": "wikipedia",
+  "title": "Hypsochromic shift",
+  "url": "https://en.wikipedia.org/wiki/Hypsochromic_shift",
+  "retrieved_at": "2026-07-05T14:06:00.909Z",
+  "summary": "In spectroscopy, hypsochromic shift is a change of spectral band position in the absorption, reflectance, transmittance, or emission spectrum of a molecule to a shorter wavelength. Because the blue color in the visible spectrum has a shorter wavelength than most other colors, this effect is also commonly called a blue shift. It should not be confused with a bathochromic shift, which is the opposite process – the molecule's spectra are changed to a longer wavelength.",
+  "extract": "In spectroscopy, hypsochromic shift (from Ancient Greek  ὕψος (upsos) 'height' and  χρῶμα (chrōma) 'color') is a change of spectral band position in the absorption, reflectance, transmittance, or emission spectrum of a molecule to a shorter wavelength (higher frequency). Because the blue color in the visible spectrum has a shorter wavelength than most other colors, this effect is also commonly called a blue shift. It should not be confused with a bathochromic shift, which is the opposite process – the molecule's spectra are changed to a longer wavelength (lower frequency).\nHypsochromic shifts can occur because of a change in environmental conditions. For example, a change in solvent polarity will result in solvatochromism.  A series of structurally related molecules in a substitution series can also show a hypsochromic shift.  Hypsochromic shift is a phenomenon seen in molecular spectra, not atomic spectra - it is thus more common to speak of the movement of the peaks in the spectrum rather than lines.\n\n  \n    \n      \n        Δ\n        λ\n        =\n        λ\n        \n          \n          \n            \n              \n                state 1\n              \n              \n                observed\n              \n            \n          \n        \n        −\n        \n        λ\n        \n          \n          \n            \n              \n                state 2\n              \n              \n                observed\n              \n            \n          \n        \n      \n    \n    {\\displaystyle \\Delta \\lambda =\\lambda \\!_{{\\text{state 1}} \\atop {\\text{observed}}}-\\,\\lambda \\!_{{\\text{state 2}} \\atop {\\text{observed}}}}\n  \n\nwhere \n  \n    \n      \n        λ\n      \n    \n    {\\displaystyle \\lambda }\n  \n is the wavelength of the spectral peak of interest and \n  \n    \n      \n        λ\n        \n          \n          \n            \n              \n                state 1\n              \n              \n                observed\n              \n            \n          \n        \n        >\n        \n        λ\n        \n          \n          \n            \n              \n                state 2\n              \n              \n                observed\n              \n            \n          \n        \n        \n        .\n      \n    \n    {\\displaystyle \\lambda \\!_{{\\text{state 1}} \\atop {\\text{observed}}}>\\,\\lambda \\!_{{\\text{state 2}} \\atop {\\text{observed}}}\\!.}\n  \n\nFor example, β-acylpyrrole will show a hypsochromic shift of 30-40 nm in comparison with α-acylpyrroles.",
+  "citation": {
+    "source": "wikipedia",
+    "title": "Hypsochromic shift",
+    "url": "https://en.wikipedia.org/wiki/Hypsochromic_shift"
+  }
+}

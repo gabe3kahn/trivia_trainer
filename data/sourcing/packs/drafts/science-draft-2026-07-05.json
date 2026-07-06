@@ -1,0 +1,620 @@
+{
+  "pack_id": "science-draft-2026-07-05",
+  "category_id": "science",
+  "created_at": "2026-07-05",
+  "notes": [
+    "Under-covered tier: $1000. Pack weighted toward $800 and $1000.",
+    "Thin subcategories covered: Physics (Radioactivity, Doppler effect, Absolute zero, Superconductivity, Entropy), Units/Laws/Constants (Kelvin), Biology (Mitochondria, Mitosis, Natural selection), Chemistry (Periodic table, Polonium), Astronomy (Black hole), Scientists (Darwin, Newton).",
+    "Hard tail: Polonium ($800), Superconductivity ($800), Entropy ($1000)."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mitochondrion",
+      "external_id": "science-2026-07-05-001",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed the 'powerhouse of the cell' in a 1957 Scientific American article, this double-membraned organelle generates adenosine triphosphate through aerobic respiration to supply chemical energy throughout the cell.",
+      "answer": "Mitochondria",
+      "answer_type": "other",
+      "aliases": [
+        "Mitochondrion"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mitochondria",
+          "url": "https://en.wikipedia.org/wiki/Mitochondria",
+          "snippet": "A mitochondrion is an organelle found in the cells of most eukaryotes, such as animals, plants and fungi. Mitochondria have a double membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used thro"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:38.464Z",
+      "topic_entities": [
+        "1957",
+        "aerobic respiration",
+        "atp",
+        "double membrane",
+        "eukaryotic cells",
+        "powerhouse of the cell",
+        "scientific american"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+      "external_id": "science-2026-07-05-002",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "His 1859 work 'On the Origin of Species' introduced the theory of natural selection and is considered one of the most transformative books in the history of science; he was honored by burial in Westminster Abbey.",
+      "answer": "Charles Darwin",
+      "answer_type": "name",
+      "aliases": [
+        "Darwin"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "scientists"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Charles Darwin",
+          "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+          "snippet": "Charles Robert Darwin was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species of life have descended from a common ancestor is now generally accepted "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:38.832Z",
+      "topic_entities": [
+        "1859",
+        "charles darwin",
+        "evolution",
+        "galapagos islands",
+        "natural selection",
+        "on the origin of species",
+        "westminster abbey"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Radioactive_decay",
+      "external_id": "science-2026-07-05-003",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Observed by Henri Becquerel in 1896, this property of certain unstable atomic nuclei causes them to spontaneously emit particles or energy as they decay; the three most common emission types are named for the first three letters of the Greek alphabet.",
+      "answer": "Radioactivity",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Radioactive decay",
+          "url": "https://en.wikipedia.org/wiki/Radioactive_decay",
+          "snippet": "Radioactive decay is the process by which an unstable atomic nucleus loses energy by radiation. A material containing unstable nuclei is considered radioactive. Three of the most common types of decay are alpha, beta, and gamma decay. The w"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:39.399Z",
+      "topic_entities": [
+        "1896",
+        "alpha rays",
+        "beta rays",
+        "gamma rays",
+        "henri becquerel",
+        "marie curie",
+        "uranium"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Electromagnetic_spectrum",
+      "external_id": "science-2026-07-05-004",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Organized from long-wavelength radio waves through microwaves, visible light, and ultraviolet to high-energy gamma rays, this is the complete ordered range of all types of radiation that travel at the speed of light.",
+      "answer": "Electromagnetic spectrum",
+      "answer_type": "other",
+      "aliases": [
+        "EM spectrum"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Electromagnetic spectrum",
+          "url": "https://en.wikipedia.org/wiki/Electromagnetic_spectrum",
+          "snippet": "The electromagnetic spectrum is the full range of electromagnetic radiation, organized by frequency or wavelength. The spectrum is divided into separate bands, with different names for the electromagnetic waves within each band. From low to"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:39.772Z",
+      "topic_entities": [
+        "gamma rays",
+        "james clerk maxwell",
+        "radio waves",
+        "speed of light",
+        "ultraviolet radiation",
+        "visible light",
+        "wavelength"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Absolute_zero",
+      "external_id": "science-2026-07-05-005",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "At exactly −273.15°C, this theoretical minimum marks the bottom of the Kelvin scale and represents the lowest energy state a system can reach.",
+      "answer": "Absolute zero",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Absolute zero",
+          "url": "https://en.wikipedia.org/wiki/Absolute_zero",
+          "snippet": "Absolute zero is the theoretically coldest temperature, a state at which a system's internal energy, and in ideal cases entropy, reach their minimum values. The Kelvin scale is defined so that absolute zero is 0 K, equivalent to −273.15 °C "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:40.163Z",
+      "topic_entities": [
+        "0 kelvin",
+        "cryogenics",
+        "kelvin scale",
+        "thermodynamics",
+        "william thomson",
+        "−273.15°c"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Black_hole",
+      "external_id": "science-2026-07-05-006",
+      "category_id": "science",
+      "subcategory_name": "Astronomy & Space",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Predicted by Einstein's general theory of relativity, this astronomical object's gravity is so extreme that nothing can escape once it crosses the boundary known as the event horizon.",
+      "answer": "Black hole",
+      "answer_type": "other",
+      "aliases": [
+        "black holes"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "astronomy-space"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Black hole",
+          "url": "https://en.wikipedia.org/wiki/Black_hole",
+          "snippet": "A black hole is an astronomical body so compact that its gravity prevents anything, including light, from escaping. Albert Einstein's theory of general relativity, which describes gravitation as the curvature of spacetime, predicts that any"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:40.536Z",
+      "topic_entities": [
+        "albert einstein",
+        "event horizon",
+        "general relativity",
+        "gravity",
+        "schwarzschild radius",
+        "singularity",
+        "spacetime"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Doppler_effect",
+      "external_id": "science-2026-07-05-007",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The familiar rise and fall in pitch of an ambulance siren as it approaches and then passes a stationary listener is the classic real-world demonstration of this wave phenomenon, named for an Austrian physicist who described it in 1842.",
+      "answer": "Doppler effect",
+      "answer_type": "other",
+      "aliases": [
+        "Doppler shift"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Doppler effect",
+          "url": "https://en.wikipedia.org/wiki/Doppler_effect",
+          "snippet": "The Doppler effect is the change in the frequency or, equivalently, the period of a wave in relation to an observer who is moving relative to the source of the wave. It is named after the physicist Christian Doppler, who described the pheno"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:40.929Z",
+      "topic_entities": [
+        "1842",
+        "ambulance siren",
+        "blueshift",
+        "christoph doppler",
+        "frequency",
+        "redshift",
+        "wavelength"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "external_id": "science-2026-07-05-008",
+      "category_id": "science",
+      "subcategory_name": "Scientists",
+      "value": 200,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "His 1687 Philosophiæ Naturalis Principia Mathematica established classical mechanics and is often described as the most influential work in the history of physics; he also independently developed calculus and made foundational contributions to optics.",
+      "answer": "Isaac Newton",
+      "answer_type": "name",
+      "aliases": [
+        "Newton"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "scientists"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Isaac Newton",
+          "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
+          "snippet": "Sir Isaac Newton was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, author and inventor. He was a key figure in the Scientific Revolution and the Enlightenment that followed. His book Philosophiæ "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:41.309Z",
+      "topic_entities": [
+        "1687",
+        "calculus",
+        "classical mechanics",
+        "isaac newton",
+        "law of gravitation",
+        "optics",
+        "principia mathematica"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Kelvin",
+      "external_id": "science-2026-07-05-009",
+      "category_id": "science",
+      "subcategory_name": "Units, Laws & Constants",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named for a 19th-century British physicist, this SI base unit of temperature rises in increments identical in size to the Celsius degree.",
+      "answer": "Kelvin",
+      "answer_type": "other",
+      "aliases": [
+        "kelvin scale",
+        "Kelvin scale"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "units-laws-constants"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Kelvin",
+          "url": "https://en.wikipedia.org/wiki/Kelvin",
+          "snippet": "The kelvin is the base unit for temperature in the International System of Units (SI). The Kelvin scale is an absolute temperature scale that starts at the lowest possible temperature, taken to be 0 K. By definition, the units of the Celsiu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:41.684Z",
+      "topic_entities": [
+        "absolute zero",
+        "kelvin scale",
+        "si base unit",
+        "thermodynamics",
+        "william thomson",
+        "−273.15°c"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Periodic_table",
+      "external_id": "science-2026-07-05-010",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This grid-like arrangement of the 118 known chemical elements, organized in order of increasing atomic number, places elements with similar properties in the same vertical column — realizing a law first proposed by Dmitri Mendeleev.",
+      "answer": "Periodic table",
+      "answer_type": "other",
+      "aliases": [
+        "periodic table of the elements",
+        "periodic table of elements"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Periodic table",
+          "url": "https://en.wikipedia.org/wiki/Periodic_table",
+          "snippet": "The periodic table, also known as the periodic table of the elements, is an ordered arrangement of the chemical elements into rows (\"periods\") and columns (\"groups\"). An icon of chemistry, the periodic table is widely used in physics and ot"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:42.059Z",
+      "topic_entities": [
+        "118 elements",
+        "1869",
+        "atomic number",
+        "dmitri mendeleev",
+        "lanthanides",
+        "noble gases",
+        "periodic law"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mitosis",
+      "external_id": "science-2026-07-05-011",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "During this type of cell division, a eukaryotic cell separates its replicated chromosomes into two new nuclei, producing daughter cells that are genetically identical to the parent.",
+      "answer": "Mitosis",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mitosis",
+          "url": "https://en.wikipedia.org/wiki/Mitosis",
+          "snippet": "Mitosis is a part of the cell cycle in eukaryotic cells in which replicated chromosomes are separated into two new nuclei. Cell division by mitosis is an equational division which gives rise to genetically identical cells in which the total"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:42.432Z",
+      "topic_entities": [
+        "anaphase",
+        "chromosomes",
+        "daughter cells",
+        "dna replication",
+        "eukaryotic cells",
+        "metaphase",
+        "prophase",
+        "telophase"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Capillary",
+      "external_id": "science-2026-07-05-016",
+      "category_id": "science",
+      "subcategory_name": "Biology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The smallest and most numerous blood vessels in the body, these microvessels have walls just one endothelial cell thick.",
+      "answer": "Capillaries",
+      "answer_type": "other",
+      "aliases": [
+        "Capillary"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "biology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Capillary",
+          "url": "https://en.wikipedia.org/wiki/Capillary",
+          "snippet": "A capillary is a small blood vessel, from 5 to 10 micrometres in diameter, and is part of the microcirculation system. Capillaries are microvessels and the smallest blood vessels in the body. They are composed of only the tunica intima, con"
+        }
+      ],
+      "verification_status": "verified",
+      "topic_entities": [
+        "1661",
+        "arterioles",
+        "endothelial cells",
+        "gas exchange",
+        "marcello malpighi",
+        "microcirculation",
+        "venules",
+        "william harvey"
+      ],
+      "verified_at": "2026-07-05T22:35:42.800Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Polonium",
+      "external_id": "science-2026-07-05-013",
+      "category_id": "science",
+      "subcategory_name": "Chemistry",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named for the homeland of the woman who co-discovered it in 1898, this radioactive metallic element was identified in uranium ore solely by its intense radioactivity.",
+      "answer": "Polonium",
+      "answer_type": "other",
+      "aliases": [
+        "Po"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "chemistry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Polonium",
+          "url": "https://en.wikipedia.org/wiki/Polonium",
+          "snippet": "Polonium is a chemical element; it has symbol Po and atomic number 84. A rare and highly radioactive metal with no stable isotopes, polonium is a chalcogen and chemically similar to selenium and tellurium, though its metallic character rese"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:43.173Z",
+      "topic_entities": [
+        "1898",
+        "element 84",
+        "marie curie",
+        "pierre curie",
+        "poland",
+        "radioactivity",
+        "uranium ore"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Superconductivity",
+      "external_id": "science-2026-07-05-014",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "First observed in mercury by Heike Kamerlingh Onnes in 1911, this physical phenomenon occurs when a material is cooled below a characteristic critical temperature and its electrical resistance drops abruptly to exactly zero.",
+      "answer": "Superconductivity",
+      "answer_type": "other",
+      "aliases": [
+        "superconductor"
+      ],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Superconductivity",
+          "url": "https://en.wikipedia.org/wiki/Superconductivity",
+          "snippet": "Superconductivity is a set of physical properties observed in superconductors: materials where electrical resistance is exactly zero and magnetic fields are expelled from the material. Unlike an ordinary metallic conductor, whose resistance"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:43.551Z",
+      "topic_entities": [
+        "1911",
+        "critical temperature",
+        "heike kamerlingh onnes",
+        "liquid helium",
+        "mercury",
+        "zero electrical resistance"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Entropy",
+      "external_id": "science-2026-07-05-015",
+      "category_id": "science",
+      "subcategory_name": "Physics",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This thermodynamic state variable measures the number and distribution of microscopic configurations accessible to a system.",
+      "answer": "Entropy",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "science-draft",
+        "sourced",
+        "physics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Entropy",
+          "url": "https://en.wikipedia.org/wiki/Entropy",
+          "snippet": "Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system. The term and the concept are used in diverse fields, from classical thermodynamics, to the microscopic descripti"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-05T22:35:43.930Z",
+      "topic_entities": [
+        "clausius",
+        "disorder",
+        "ludwig boltzmann",
+        "microscopic configurations",
+        "second law of thermodynamics",
+        "statistical mechanics",
+        "time's arrow"
+      ]
+    }
+  ]
+}
