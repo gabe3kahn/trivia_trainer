@@ -235,7 +235,6 @@ How the editor judged specific proposals — emulate the approved rewrites, do N
 
 **Rewrite REJECTED — editor kept the original (do NOT over-edit clues like these):**
 - **Isaac Asimov**: This author devised the Three Laws of Robotics across his science-fiction stories.
-- **Thomas Hardy**: Though he saw himself primarily as a poet, this English Victorian author achieved fame through his novels set in the fictional county of Wessex, including 'Tess of the d'Urbervilles.'
 - **Aristotle**: This Greek philosopher held that 'eudaimonia,' or flourishing, is the highest human good.
 - **Victoria**: Romanized from the Greek Nike during the First Punic War, she came to symbolize Rome's hegemony and right to rule; a deified abstraction with virtually no mythology of her own, she left behind a name …
 - **Rickey Henderson**: This Hall of Famer stole a record 1,406 bases, far more than any other player in MLB history.
@@ -245,6 +244,7 @@ How the editor judged specific proposals — emulate the approved rewrites, do N
 - **Nero**: This ruler reigned from 54 to 68 AD as the last Julio-Claudian emperor, dying by suicide — and had his own mother, Agrippina the Younger, murdered on his orders.  _(Better but not quite: This ruler reigned from 54 to 68 AD as the last Julio-Claudian emperor before dying by s…)_
 - **Charles Dickens**: This Victorian author of 'Oliver Twist' and 'Great Expectations' left school at 12 when his father was imprisoned for debt, forcing him to work in a boot-blacking factory.  _(This one makes the question significantly easier. I agree with the comment that 'Opening superlative 'The grea…)_
 - **Hercule Poirot**: This fastidious Belgian detective relies on his 'little grey cells' to solve cases across 33 Agatha Christie novels and 51 short stories.  _(Good, but should be past tense (relied) which was also a problem in the original clue)_
+- **Thomas Hardy**: Though he saw himself primarily as a poet, this English Victorian author achieved fame through novels such as 'Tess of the d'Urbervilles' set in the fictional county of Wessex.  _(I like the before but the comma splice needs fixing; I actually like the before here more. It's okay to bury t…)_
 - **F. Scott Fitzgerald**: This American novelist coined the term 'Jazz Age' and wrote 'The Great Gatsby,' though critical acclaim came only after his death.  _(Fixes one problem and creates others by making it a lot easier by adding the great gatsby and comma splicing o…)_
 - **Iceman**: In 'Top Gun,' Maverick clashes with this pilot played by Val Kilmer.  _(Right to suggest a fix, but the better fix is just to remove 'rival' since 'starts a rivalry' is better than c…)_
 - **Ennui**: Borrowed directly from French, this word names a listless weariness and dissatisfaction arising from boredom.  _(Not redundant, but agree that arising from is better than 'that arises from')_
