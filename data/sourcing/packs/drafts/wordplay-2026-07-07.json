@@ -18,12 +18,28 @@
       "clue": "The genuine article — not a counterfeit or imitation.",
       "answer": "Real Deal",
       "answer_type": "other",
-      "aliases": ["Deal Real"],
-      "tags": ["wordplay-draft", "rhyme_time"],
+      "aliases": [
+        "Deal Real"
+      ],
+      "tags": [
+        "wordplay-draft",
+        "rhyme_time"
+      ],
       "wp": {
-        "rhyme_pair": ["real", "deal"]
+        "rhyme_pair": [
+          "real",
+          "deal"
+        ]
       },
-      "topic_entities": [],
+      "topic_entities": [
+        "authenticity",
+        "branding",
+        "consumer protection",
+        "counterfeit",
+        "fraud",
+        "intellectual property",
+        "trademark"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -40,12 +56,28 @@
       "clue": "A high-profile performance or major work engagement.",
       "answer": "Big Gig",
       "answer_type": "other",
-      "aliases": ["Gig Big"],
-      "tags": ["wordplay-draft", "rhyme_time"],
+      "aliases": [
+        "Gig Big"
+      ],
+      "tags": [
+        "wordplay-draft",
+        "rhyme_time"
+      ],
       "wp": {
-        "rhyme_pair": ["big", "gig"]
+        "rhyme_pair": [
+          "big",
+          "gig"
+        ]
       },
-      "topic_entities": [],
+      "topic_entities": [
+        "broadway",
+        "concert",
+        "las vegas",
+        "madison square garden",
+        "performance",
+        "touring",
+        "venue"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -63,11 +95,17 @@
       "answer": "Bruce Banner",
       "answer_type": "other",
       "aliases": [],
-      "tags": ["wordplay-draft", "initials"],
+      "tags": [
+        "wordplay-draft",
+        "initials"
+      ],
       "wp": {
         "initials": "B.B."
       },
-      "topic_entities": ["Bruce Banner", "Hulk"],
+      "topic_entities": [
+        "Bruce Banner",
+        "Hulk"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -84,12 +122,28 @@
       "clue": "An airborne journey undertaken after dark.",
       "answer": "Night Flight",
       "answer_type": "other",
-      "aliases": ["Flight Night"],
-      "tags": ["wordplay-draft", "rhyme_time"],
+      "aliases": [
+        "Flight Night"
+      ],
+      "tags": [
+        "wordplay-draft",
+        "rhyme_time"
+      ],
       "wp": {
-        "rhyme_pair": ["night", "flight"]
+        "rhyme_pair": [
+          "night",
+          "flight"
+        ]
       },
-      "topic_entities": [],
+      "topic_entities": [
+        "1931",
+        "antoine de saint-exupéry",
+        "aviation",
+        "night flight",
+        "novel",
+        "pilots",
+        "transatlantic flight"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -106,12 +160,28 @@
       "clue": "A brief romantic entanglement during the warmer months.",
       "answer": "Spring Fling",
       "answer_type": "other",
-      "aliases": ["Fling Spring"],
-      "tags": ["wordplay-draft", "rhyme_time"],
+      "aliases": [
+        "Fling Spring"
+      ],
+      "tags": [
+        "wordplay-draft",
+        "rhyme_time"
+      ],
       "wp": {
-        "rhyme_pair": ["spring", "fling"]
+        "rhyme_pair": [
+          "spring",
+          "fling"
+        ]
       },
-      "topic_entities": [],
+      "topic_entities": [
+        "brief romance",
+        "college",
+        "dating",
+        "love",
+        "romance",
+        "seasonal",
+        "spring"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -129,11 +199,16 @@
       "answer": "Double Jeopardy",
       "answer_type": "other",
       "aliases": [],
-      "tags": ["wordplay-draft", "initials"],
+      "tags": [
+        "wordplay-draft",
+        "initials"
+      ],
       "wp": {
         "initials": "D.J."
       },
-      "topic_entities": ["Double Jeopardy"],
+      "topic_entities": [
+        "Double Jeopardy"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -150,12 +225,20 @@
       "clue": "The irrational number approximately equal to 1.618, observed in aesthetically pleasing proportions across art, architecture, and nature — G.R.",
       "answer": "Golden Ratio",
       "answer_type": "other",
-      "aliases": ["Golden Mean", "Golden Section"],
-      "tags": ["wordplay-draft", "initials"],
+      "aliases": [
+        "Golden Mean",
+        "Golden Section"
+      ],
+      "tags": [
+        "wordplay-draft",
+        "initials"
+      ],
       "wp": {
         "initials": "G.R."
       },
-      "topic_entities": ["Golden Ratio"],
+      "topic_entities": [
+        "Golden Ratio"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -172,12 +255,28 @@
       "clue": "A state of profound slumber from which one is difficult to rouse.",
       "answer": "Deep Sleep",
       "answer_type": "other",
-      "aliases": ["Sleep Deep"],
-      "tags": ["wordplay-draft", "rhyme_time"],
+      "aliases": [
+        "Sleep Deep"
+      ],
+      "tags": [
+        "wordplay-draft",
+        "rhyme_time"
+      ],
       "wp": {
-        "rhyme_pair": ["deep", "sleep"]
+        "rhyme_pair": [
+          "deep",
+          "sleep"
+        ]
       },
-      "topic_entities": [],
+      "topic_entities": [
+        "brain",
+        "consciousness",
+        "dreams",
+        "neuroscience",
+        "rem sleep",
+        "sleep",
+        "sleep science"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -195,11 +294,17 @@
       "answer": "Invisible Hand",
       "answer_type": "other",
       "aliases": [],
-      "tags": ["wordplay-draft", "initials"],
+      "tags": [
+        "wordplay-draft",
+        "initials"
+      ],
       "wp": {
         "initials": "I.H."
       },
-      "topic_entities": ["Adam Smith", "Invisible Hand"],
+      "topic_entities": [
+        "Adam Smith",
+        "Invisible Hand"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -217,11 +322,17 @@
       "answer": "Pyrrhic Victory",
       "answer_type": "other",
       "aliases": [],
-      "tags": ["wordplay-draft", "initials"],
+      "tags": [
+        "wordplay-draft",
+        "initials"
+      ],
       "wp": {
         "initials": "P.V."
       },
-      "topic_entities": ["Pyrrhic Victory", "Pyrrhus of Epirus"],
+      "topic_entities": [
+        "Pyrrhic Victory",
+        "Pyrrhus of Epirus"
+      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
