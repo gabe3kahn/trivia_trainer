@@ -91,7 +91,7 @@
       "difficulty_rank": 2,
       "mechanic": "initials",
       "constraint_text": "What two-word term do these initials stand for?",
-      "clue": "The mild-mannered physicist concealing a hulking green Avenger — B.B.",
+      "clue": "The mild-mannered physicist whose anger unleashes a towering green Avenger — B.B.",
       "answer": "Bruce Banner",
       "answer_type": "other",
       "aliases": [],
@@ -102,10 +102,6 @@
       "wp": {
         "initials": "B.B."
       },
-      "topic_entities": [
-        "Bruce Banner",
-        "Hulk"
-      ],
       "citations": [],
       "verification_status": "pending",
       "reviewer_note": null
@@ -225,10 +221,7 @@
       "clue": "The irrational number approximately equal to 1.618, observed in aesthetically pleasing proportions across art, architecture, and nature — G.R.",
       "answer": "Golden Ratio",
       "answer_type": "other",
-      "aliases": [
-        "Golden Mean",
-        "Golden Section"
-      ],
+      "aliases": [],
       "tags": [
         "wordplay-draft",
         "initials"
@@ -248,8 +241,8 @@
       "external_id": "wp-2026-07-07-rt-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Rhyme Time",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "rhyme_time",
       "constraint_text": "Name the rhyming pair.",
       "clue": "A state of profound slumber from which one is difficult to rouse.",

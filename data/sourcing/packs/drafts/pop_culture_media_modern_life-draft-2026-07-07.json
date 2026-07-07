@@ -136,9 +136,7 @@
       "clue": "This Chinese social networking platform hosts user-submitted short-form videos ranging from three seconds to sixty minutes in length and has attracted enormous global audiences since its international launch.",
       "answer": "TikTok",
       "answer_type": "other",
-      "aliases": [
-        "Tik Tok"
-      ],
+      "aliases": [],
       "tags": [
         "pcm-draft",
         "sourced",
@@ -247,8 +245,8 @@
       "external_id": "pcm-2026-07-07-007",
       "category_id": "pop_culture_media_modern_life",
       "subcategory_name": "Streaming & Internet Culture",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Founded on Valentine's Day 2005 by three former employees of the online payment company PayPal, this video-sharing platform became the second-most-visited website in the world.",
@@ -378,9 +376,7 @@
       "clue": "Before becoming one of Hollywood's most bankable stars, this performer first found fame as half of a hip hop duo with DJ Jazzy Jeff, scoring multiple top-20 Billboard Hot 100 singles.",
       "answer": "Will Smith",
       "answer_type": "name",
-      "aliases": [
-        "Smith"
-      ],
+      "aliases": [],
       "tags": [
         "pcm-draft",
         "sourced",
@@ -416,7 +412,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Art Spiegelman's graphic novel — depicting Jews as mice, Germans as cats, and Poles as pigs — recounts the Holocaust experiences of the author's father and became, in 1992, the first of its kind to win a Pulitzer Prize.",
+      "clue": "Art Spiegelman's graphic novel — depicting Jews as rodents, Germans as cats, and Poles as pigs — recounts the Holocaust experiences of the author's father and became, in 1992, the first of its kind to win a Pulitzer Prize.",
       "answer": "Maus",
       "answer_type": "other",
       "aliases": [
@@ -437,16 +433,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-07-07T14:52:27.931Z",
-      "topic_entities": [
-        "1992",
-        "art spiegelman",
-        "germans as cats",
-        "graphic novel",
-        "holocaust",
-        "jews as mice",
-        "pulitzer prize"
-      ]
+      "verified_at": "2026-07-07T14:52:27.931Z"
     },
     {
       "source": "original_sourced",
@@ -581,7 +568,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Born Vera Mindy Chokalingam in Massachusetts, this actress and writer first gained recognition as Kelly Kapoor on a long-running NBC workplace comedy and has since received both a Tony Award and six Primetime Emmy nominations.",
+      "clue": "This actress and writer first gained recognition as Kelly Kapoor on NBC's long-running workplace comedy The Office, later created Never Have I Ever, and has received both a Tony Award and six Primetime Emmy nominations.",
       "answer": "Mindy Kaling",
       "answer_type": "name",
       "aliases": [
@@ -602,15 +589,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-07-07T14:52:29.366Z",
-      "topic_entities": [
-        "emmy",
-        "indian-american",
-        "kelly kapoor",
-        "the office",
-        "tony award",
-        "vera mindy chokalingam"
-      ]
+      "verified_at": "2026-07-07T14:52:29.366Z"
     }
   ]
 }

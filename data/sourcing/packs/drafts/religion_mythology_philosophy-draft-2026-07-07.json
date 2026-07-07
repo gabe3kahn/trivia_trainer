@@ -80,6 +80,7 @@
       "verification_status": "verified",
       "reviewer_note": null,
       "verified_at": "2026-07-07T14:47:41.554Z",
+      "allow_duplicate": true,
       "topic_entities": [
         "deepavali",
         "festival of lights",
@@ -141,7 +142,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Norse goddess of love, beauty, fertility, and war possesses a cloak of falcon feathers for shapeshifting and the legendary necklace Brísingamen; she presides over Fólkvangr, receiving half of all warriors slain in battle.",
+      "clue": "This Norse goddess of love, beauty, fertility, and war owns the legendary necklace Brísingamen, rides a chariot pulled by two cats, and is renowned as the foremost practitioner of the Norse shamanic sorcery known as seiðr.",
       "answer": "Freyja",
       "answer_type": "other",
       "aliases": [
@@ -163,16 +164,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-07-07T14:47:42.272Z",
-      "topic_entities": [
-        "asgard",
-        "brísingamen",
-        "falcon feathers",
-        "fertility",
-        "fólkvangr",
-        "norse mythology",
-        "valkyries"
-      ]
+      "verified_at": "2026-07-07T14:47:42.272Z"
     },
     {
       "source": "original_sourced",
@@ -266,7 +258,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Located in Asgard and presided over by Odin, this majestic Norse hall receives half of those warriors chosen from the battlefield by the Valkyries to feast and train for the final cosmic battle.",
+      "clue": "Located in Asgard and presided over by Odin, this majestic Norse hall is the destination for half of the warriors slain in battle, who are chosen by the Valkyries and spend their afterlife feasting and honing their combat skills.",
       "answer": "Valhalla",
       "answer_type": "other",
       "aliases": [],
@@ -285,16 +277,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-07-07T14:47:43.348Z",
-      "topic_entities": [
-        "afterlife",
-        "asgard",
-        "final cosmic battle",
-        "norse mythology",
-        "odin",
-        "valkyries",
-        "warriors"
-      ]
+      "verified_at": "2026-07-07T14:47:43.348Z"
     },
     {
       "source": "original_sourced",
@@ -328,6 +311,7 @@
       "verification_status": "verified",
       "reviewer_note": null,
       "verified_at": "2026-07-07T14:47:43.706Z",
+      "allow_duplicate": true,
       "topic_entities": [
         "apocalypse",
         "fimbulwinter",
@@ -384,8 +368,8 @@
       "external_id": "rmp-2026-07-07-010",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "World Mythology",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Recognized throughout India by his distinctive elephant head, this widely revered Hindu deity is associated with new beginnings and the removal of obstacles, and his veneration extends to Jain and Buddhist communities as well.",
@@ -411,6 +395,7 @@
       "verification_status": "verified",
       "reviewer_note": null,
       "verified_at": "2026-07-07T14:47:44.425Z",
+      "allow_duplicate": true,
       "topic_entities": [
         "elephant head",
         "ganesh chaturthi",
@@ -431,7 +416,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Among the world's oldest organized faiths, this Iranian religion centers on the teachings of Zarathushtra and reveres an uncreated, all-wise supreme deity called Ahura Mazda.",
+      "clue": "Among the world's oldest organized faiths, this Iranian religion centers on the teachings of Zarathushtra and exalts an uncreated, benevolent, all-wise deity as the supreme being of the universe.",
       "answer": "Zoroastrianism",
       "answer_type": "other",
       "aliases": [
@@ -452,16 +437,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-07-07T14:47:44.784Z",
-      "topic_entities": [
-        "ahura mazda",
-        "ancient religion",
-        "dualism",
-        "fire worship",
-        "iran",
-        "persia",
-        "zarathushtra"
-      ]
+      "verified_at": "2026-07-07T14:47:44.784Z"
     },
     {
       "source": "original_sourced",
@@ -552,7 +528,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "At a divine wedding feast, this Greek goddess of strife cast a golden apple inscribed 'for the fairest' among the assembled deities, igniting a rivalry between Hera, Athena, and Aphrodite that culminated in the Judgement of Paris and the Trojan War.",
+      "clue": "At a divine wedding feast, this Greek goddess of strife cast a golden apple inscribed 'for the fairest' among the assembled deities, igniting a three-way rivalry among the Olympians that culminated in the Judgement of Paris and the Trojan War.",
       "answer": "Eris",
       "answer_type": "other",
       "aliases": [
@@ -573,16 +549,7 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-07-07T14:47:45.858Z",
-      "topic_entities": [
-        "aphrodite",
-        "athena",
-        "golden apple",
-        "greek mythology",
-        "hera",
-        "judgement of paris",
-        "trojan war"
-      ]
+      "verified_at": "2026-07-07T14:47:45.858Z"
     },
     {
       "source": "original_sourced",
