@@ -1,0 +1,230 @@
+{
+  "pack_id": "wordplay-2026-07-07",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-07",
+  "notes": [
+    "Run 2026-07-07 (wordplay pack). Mechanics rotation: rhyme_time + initials selected — the only two not already in open draft PRs (#107, #109, #112, #113, #114). 5 rhyme_time clues + 5 initials clues. Rhyme pairs verified distinct from all active/draft rhyme_time answers."
+  ],
+  "questions": [
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-rt-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Name the rhyming pair.",
+      "clue": "The genuine article — not a counterfeit or imitation.",
+      "answer": "Real Deal",
+      "answer_type": "other",
+      "aliases": ["Deal Real"],
+      "tags": ["wordplay-draft", "rhyme_time"],
+      "wp": {
+        "rhyme_pair": ["real", "deal"]
+      },
+      "topic_entities": [],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-rt-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Name the rhyming pair.",
+      "clue": "A high-profile performance or major work engagement.",
+      "answer": "Big Gig",
+      "answer_type": "other",
+      "aliases": ["Gig Big"],
+      "tags": ["wordplay-draft", "rhyme_time"],
+      "wp": {
+        "rhyme_pair": ["big", "gig"]
+      },
+      "topic_entities": [],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-ini-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": "What two-word term do these initials stand for?",
+      "clue": "The mild-mannered physicist concealing a hulking green Avenger — B.B.",
+      "answer": "Bruce Banner",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": ["wordplay-draft", "initials"],
+      "wp": {
+        "initials": "B.B."
+      },
+      "topic_entities": ["Bruce Banner", "Hulk"],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-rt-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Name the rhyming pair.",
+      "clue": "An airborne journey undertaken after dark.",
+      "answer": "Night Flight",
+      "answer_type": "other",
+      "aliases": ["Flight Night"],
+      "tags": ["wordplay-draft", "rhyme_time"],
+      "wp": {
+        "rhyme_pair": ["night", "flight"]
+      },
+      "topic_entities": [],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-rt-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Name the rhyming pair.",
+      "clue": "A brief romantic entanglement during the warmer months.",
+      "answer": "Spring Fling",
+      "answer_type": "other",
+      "aliases": ["Fling Spring"],
+      "tags": ["wordplay-draft", "rhyme_time"],
+      "wp": {
+        "rhyme_pair": ["spring", "fling"]
+      },
+      "topic_entities": [],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-ini-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": "What two-word term do these initials stand for?",
+      "clue": "The constitutional protection that prevents the government from prosecuting someone twice for the same offense — D.J.",
+      "answer": "Double Jeopardy",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": ["wordplay-draft", "initials"],
+      "wp": {
+        "initials": "D.J."
+      },
+      "topic_entities": ["Double Jeopardy"],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-ini-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": "What two-word term do these initials stand for?",
+      "clue": "The irrational number approximately equal to 1.618, observed in aesthetically pleasing proportions across art, architecture, and nature — G.R.",
+      "answer": "Golden Ratio",
+      "answer_type": "other",
+      "aliases": ["Golden Mean", "Golden Section"],
+      "tags": ["wordplay-draft", "initials"],
+      "wp": {
+        "initials": "G.R."
+      },
+      "topic_entities": ["Golden Ratio"],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-rt-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Name the rhyming pair.",
+      "clue": "A state of profound slumber from which one is difficult to rouse.",
+      "answer": "Deep Sleep",
+      "answer_type": "other",
+      "aliases": ["Sleep Deep"],
+      "tags": ["wordplay-draft", "rhyme_time"],
+      "wp": {
+        "rhyme_pair": ["deep", "sleep"]
+      },
+      "topic_entities": [],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-ini-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "initials",
+      "constraint_text": "What two-word term do these initials stand for?",
+      "clue": "Adam Smith's metaphor for the way individual self-interest unconsciously promotes broad societal welfare — I.H.",
+      "answer": "Invisible Hand",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": ["wordplay-draft", "initials"],
+      "wp": {
+        "initials": "I.H."
+      },
+      "topic_entities": ["Adam Smith", "Invisible Hand"],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    },
+    {
+      "source": "original_wordplay",
+      "external_id": "wp-2026-07-07-ini-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "initials",
+      "constraint_text": "What two-word term do these initials stand for?",
+      "clue": "A military or competitive success won at such devastating cost that it effectively amounts to a defeat — P.V.",
+      "answer": "Pyrrhic Victory",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": ["wordplay-draft", "initials"],
+      "wp": {
+        "initials": "P.V."
+      },
+      "topic_entities": ["Pyrrhic Victory", "Pyrrhus of Epirus"],
+      "citations": [],
+      "verification_status": "pending",
+      "reviewer_note": null
+    }
+  ]
+}
