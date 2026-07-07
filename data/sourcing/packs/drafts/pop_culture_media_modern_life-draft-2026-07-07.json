@@ -433,7 +433,17 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-07-07T14:52:27.931Z"
+      "verified_at": "2026-07-07T14:52:27.931Z",
+      "topic_entities": [
+        "1992",
+        "art spiegelman",
+        "auschwitz",
+        "graphic novel",
+        "holocaust",
+        "poland",
+        "pulitzer prize",
+        "vladek spiegelman"
+      ]
     },
     {
       "source": "original_sourced",
@@ -589,7 +599,16 @@
       ],
       "verification_status": "verified",
       "reviewer_note": null,
-      "verified_at": "2026-07-07T14:52:29.366Z"
+      "verified_at": "2026-07-07T14:52:29.366Z",
+      "topic_entities": [
+        "emmy award",
+        "kelly kapoor",
+        "nbc",
+        "never have i ever",
+        "the office",
+        "tony award",
+        "writer"
+      ]
     }
   ]
 }
