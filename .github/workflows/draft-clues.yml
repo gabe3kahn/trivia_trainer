@@ -269,6 +269,16 @@ jobs:
           git commit -m "chore(clues): LLM topic_entities + wordplay casing for revised clues" \
             && git push origin HEAD || echo "No new tags to commit."
 
+      # (e2) Flag answers that ALSO appear in other open draft PRs. The bank-collision gate only
+      # sees ACTIVE clues, so an answer sitting in an unmerged sibling PR is invisible until it
+      # merges — then the second PR's clue is skipped at import (the #99/#107 "Ice" case). This
+      # appends an overlap warning to the PR body so the human de-dups before merging. Advisory.
+      - name: Flag answer overlaps with open draft PRs
+        run: |
+          packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
+          node tools/acquisition/check-open-pr-answer-overlaps.mjs $packs --append data/acquisition/pr-body.md \
+            || echo "Overlap check degraded (advisory) — continuing."
+
       # (f) Open the ONE review PR. The workflow owns PR creation (not the agent) because
       # tagging now happens after the revise pass; the agent supplied the title/body files.
       - name: Open the review PR
