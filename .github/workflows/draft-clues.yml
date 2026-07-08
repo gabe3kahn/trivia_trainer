@@ -235,8 +235,11 @@ jobs:
           packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
           echo "Tagging: $packs"
           node tools/acquisition/tag-pack.mjs $packs
+          # Deterministically fix wordplay answer casing (crossword UPPER, others Title Case) so the
+          # LLM-constructed wordplay doesn't need hand-fixing — see normalize-wordplay-casing.mjs.
+          node tools/acquisition/normalize-wordplay-casing.mjs $packs
           git add $packs
-          git commit -m "chore(clues): LLM topic_entities for $(date -u +%F) draft" \
+          git commit -m "chore(clues): LLM topic_entities + wordplay casing for $(date -u +%F) draft" \
             && git push origin HEAD || echo "No tag changes to commit."
 
       # Advisory critic. Runs on the now-tagged packs so its RELATED-clue check uses the
@@ -261,8 +264,9 @@ jobs:
         run: |
           packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
           node tools/acquisition/tag-pack.mjs $packs
+          node tools/acquisition/normalize-wordplay-casing.mjs $packs
           git add $packs
-          git commit -m "chore(clues): LLM topic_entities for revised clues" \
+          git commit -m "chore(clues): LLM topic_entities + wordplay casing for revised clues" \
             && git push origin HEAD || echo "No new tags to commit."
 
       # (f) Open the ONE review PR. The workflow owns PR creation (not the agent) because
