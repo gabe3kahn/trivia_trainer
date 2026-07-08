@@ -93,7 +93,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Created by Ryan Murphy and Brad Falchuk for FX, this anthology series presents an entirely new cast of characters in a different self-contained setting each season while sharing an overarching fictional universe.",
+      "clue": "Created by Ryan Murphy and Brad Falchuk for FX, this anthology series presents a new set of characters in a different self-contained setting each season while sharing an overarching fictional universe.",
       "answer": "American Horror Story",
       "answer_type": "other",
       "aliases": [
@@ -160,48 +160,6 @@
         "regency era",
         "rhonda rhimes",
         "shondaland"
-      ]
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Hors_d%27oeuvre",
-      "external_id": "pcm-2026-07-02-005",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Food & Drink",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This French term for a small dish served before the main meal in European cuisine applies whether the bite-sized food is brought to seated guests or passed at a cocktail reception.",
-      "answer": "Hors d'oeuvre",
-      "answer_type": "other",
-      "aliases": [
-        "hors d'oeuvres",
-        "appetizer",
-        "appetizers",
-        "starter",
-        "starters"
-      ],
-      "tags": [
-        "pcm-draft",
-        "sourced",
-        "food-drink"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Hors d'oeuvre",
-          "url": "https://en.wikipedia.org/wiki/Hors_d'oeuvre",
-          "snippet": "An hors d'oeuvre, entrée, appetiser, appetizer or starter is a small dish served before a meal in European cuisine. Some hors d'oeuvres are served cold, others hot. Hors d'oeuvres may be served at the dinner table as a part of the meal, or "
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-07-02T14:49:02.714Z",
-      "topic_entities": [
-        "appetizer",
-        "bite-sized",
-        "cocktail reception",
-        "european cuisine"
       ]
     },
     {
@@ -333,7 +291,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Born Tyler Gregory Okonma, this rapper and record producer is known for his eclectic alter egos across multiple studio albums and for co-founding the avant-garde collective Odd Future.",
+      "clue": "Known for his eclectic alter egos across multiple studio albums, this rapper and record producer co-founded the hip-hop collective Odd Future and has won three Grammy Awards.",
       "answer": "Tyler, the Creator",
       "answer_type": "other",
       "aliases": [

@@ -128,11 +128,11 @@
       "external_id": "rmp-2026-07-02-004",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Bible",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A short Hebrew scripture that mourns the fall of Jerusalem in 586 BCE, this book appears in the Ketuvim as one of the Five Megillot alongside Ruth, Esther, and Ecclesiastes.",
+      "clue": "A short Hebrew scripture that mourns the fall of Jerusalem in 586 BCE, this book appears in the Ketuvim as one of the Five Megillot alongside the Song of Songs, Ruth, Esther, and Ecclesiastes.",
       "answer": "Book of Lamentations",
       "answer_type": "other",
       "aliases": [
@@ -161,49 +161,8 @@
         "hebrew bible",
         "jerusalem",
         "ketuvim"
-      ]
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Counter-Reformation",
-      "external_id": "rmp-2026-07-02-005",
-      "category_id": "religion_mythology_philosophy",
-      "subcategory_name": "World Religions",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Also called the Catholic Revival, this period of institutional Church resurgence was initiated as a comprehensive response to the Protestant movement that challenged papal authority in the 16th century.",
-      "answer": "Counter-Reformation",
-      "answer_type": "other",
-      "aliases": [
-        "Catholic Revival",
-        "Catholic Reformation"
       ],
-      "tags": [
-        "rmp-draft",
-        "sourced",
-        "world-religions"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Counter-Reformation",
-          "url": "https://en.wikipedia.org/wiki/Counter-Reformation",
-          "snippet": "The Counter-Reformation, also sometimes called the Catholic Revival or the Catholic Reformation, was the period of Catholic resurgence that was initiated in response to and as an alternative to, or from similar insights as, the Protestant R"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-07-02T14:46:14.813Z",
-      "topic_entities": [
-        "16th century",
-        "catholic church",
-        "council of trent",
-        "counter-reformation",
-        "papal authority",
-        "protestant reformation",
-        "rome"
-      ]
+      "allow_duplicate": true
     },
     {
       "source": "original_sourced",
@@ -215,12 +174,12 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Also known as Progressive or Liberal, this denomination holds that its faith's laws must evolve with each generation, placing moral duties above ceremonial ones.",
-      "answer": "Reform Judaism",
+      "clue": "This major Jewish denomination holds that its ethical principles take precedence over ceremonial law and that Jewish practice must continuously evolve through human reason and ongoing revelation.",
+      "answer": "Reform",
       "answer_type": "other",
       "aliases": [
-        "Progressive Judaism",
-        "Liberal Judaism"
+        "Progressive",
+        "Liberal"
       ],
       "tags": [
         "rmp-draft",
@@ -332,11 +291,11 @@
       "external_id": "rmp-2026-07-02-009",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "World Religions",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Born Jorge Mario Bergoglio in Buenos Aires, this pontiff became in 2013 the first member of the Society of Jesus to serve as head of the Catholic Church.",
+      "clue": "Born Jorge Mario Bergoglio in Buenos Aires, in 2013 this pontiff became the first member of the Society of Jesus to serve as head of the Catholic Church.",
       "answer": "Pope Francis",
       "answer_type": "other",
       "aliases": [
@@ -548,7 +507,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In Jain teaching, a 'ford-maker' is one of the 24 supreme teachers who has conquered the cycle of rebirth and attained omniscience, serving as a guide toward spiritual liberation.",
+      "clue": "In Jain teaching, each cosmic time cycle is guided by 24 of these supreme beings who have conquered rebirth and attained omniscience; the last in the current cycle was Mahavira, a 6th-century BCE contemporary of the Buddha.",
       "answer": "Tirthankara",
       "answer_type": "other",
       "aliases": [
