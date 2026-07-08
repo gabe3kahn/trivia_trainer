@@ -26,7 +26,16 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "aster",
+        "asteraceae",
+        "autumn",
+        "composite flower",
+        "daisy",
+        "perennial",
+        "wildflower"
+      ]
     },
     {
       "source": "constructed",
@@ -50,7 +59,15 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "detection",
+        "evidence",
+        "footprint",
+        "forensics",
+        "investigation",
+        "tracking"
+      ]
     },
     {
       "source": "constructed",
@@ -74,7 +91,15 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "companionship",
+        "crew",
+        "maritime",
+        "navy",
+        "sailors",
+        "shipmates"
+      ]
     },
     {
       "source": "constructed",
@@ -98,7 +123,16 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "facial expression",
+        "grin",
+        "happiness",
+        "involuntary",
+        "joy",
+        "positive emotion",
+        "teeth"
+      ]
     },
     {
       "source": "constructed",
@@ -122,7 +156,15 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "botanist",
+        "dancer",
+        "flower",
+        "performance",
+        "petals",
+        "stage"
+      ]
     },
     {
       "source": "constructed",
@@ -151,7 +193,15 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "distribution",
+        "equality",
+        "equity",
+        "fairness",
+        "justice",
+        "proportion"
+      ]
     },
     {
       "source": "constructed",
@@ -180,7 +230,15 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "boundaries",
+        "free spirit",
+        "parenting",
+        "rebellion",
+        "undisciplined",
+        "youth"
+      ]
     },
     {
       "source": "constructed",
@@ -209,7 +267,15 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "chroma key",
+        "cinema",
+        "compositing",
+        "filmmaking",
+        "post-production",
+        "vfx"
+      ]
     },
     {
       "source": "constructed",
@@ -238,7 +304,15 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "asian cuisine",
+        "broth",
+        "chinese cuisine",
+        "communal dining",
+        "simmering",
+        "table cooking"
+      ]
     },
     {
       "source": "constructed",
@@ -267,7 +341,16 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "cetaceans",
+        "marine",
+        "migration",
+        "migratory routes",
+        "ocean",
+        "seasonal",
+        "whales"
+      ]
     }
   ]
 }
