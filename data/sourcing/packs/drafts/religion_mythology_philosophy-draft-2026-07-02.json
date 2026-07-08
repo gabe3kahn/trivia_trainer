@@ -128,8 +128,8 @@
       "external_id": "rmp-2026-07-02-004",
       "category_id": "religion_mythology_philosophy",
       "subcategory_name": "Bible",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "A short Hebrew scripture that mourns the fall of Jerusalem in 586 BCE, this book appears in the Ketuvim as one of the Five Megillot alongside the Song of Songs, Ruth, Esther, and Ecclesiastes.",
@@ -161,7 +161,8 @@
         "hebrew bible",
         "jerusalem",
         "ketuvim"
-      ]
+      ],
+      "allow_duplicate": true
     },
     {
       "source": "original_sourced",
@@ -215,7 +216,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This winged horse of Greek myth sprang from the blood of the Gorgon when Perseus slew her.",
+      "clue": "This winged horse of Greek myth sprang from the blood of the Gorgon Medusa when Perseus slew her.",
       "answer": "Pegasus",
       "answer_type": "other",
       "aliases": [],
