@@ -294,48 +294,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Neil_Simon",
-      "external_id": "music-2026-07-03-008",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Theater",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This American playwright received three Tony Awards, the Pulitzer Prize for Drama, and the Mark Twain Prize while writing more than 30 plays and nearly as many screenplays.",
-      "answer": "Neil Simon",
-      "answer_type": "name",
-      "aliases": [
-        "Simon"
-      ],
-      "tags": [
-        "mpa-draft",
-        "sourced",
-        "theater",
-        "playwright"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Neil Simon",
-          "url": "https://en.wikipedia.org/wiki/Neil_Simon",
-          "snippet": "Marvin Neil Simon was an American playwright, screenwriter and author. He wrote more than 30 plays and nearly the same number of movie screenplays, mostly film adaptations of his plays. He received three Tony Awards and a Golden Globe Award"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-03T14:43:26.559Z",
-      "topic_entities": [
-        "barefoot in the park",
-        "mark twain prize",
-        "neil simon",
-        "pulitzer prize",
-        "the odd couple",
-        "tony award"
-      ]
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Greensleeves",
       "external_id": "music-2026-07-03-010",
       "category_id": "music_performing_arts",
@@ -372,90 +330,6 @@
         "greensleeves",
         "london stationers' company",
         "lute"
-      ]
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Long_Day's_Journey_into_Night",
-      "external_id": "music-2026-07-03-011",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Theater",
-      "value": 800,
-      "difficulty_rank": 4,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Eugene O'Neill's openly autobiographical four-act play was withheld from publication; its 1956 Broadway premiere won the Tony Award for Best Play and earned him a posthumous Pulitzer.",
-      "answer": "Long Day's Journey into Night",
-      "answer_type": "other",
-      "aliases": [
-        "Long Day's Journey"
-      ],
-      "tags": [
-        "mpa-draft",
-        "sourced",
-        "theater",
-        "playwright"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Long Day's Journey into Night",
-          "url": "https://en.wikipedia.org/wiki/Long_Day's_Journey_into_Night",
-          "snippet": "Long Day's Journey into Night is a play in four acts written by American playwright Eugene O'Neill in 1939–1941 and first published posthumously in 1956. It is widely regarded as his magnum opus and one of the great American plays of the 20"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-03T14:43:27.632Z",
-      "topic_entities": [
-        "1956",
-        "eugene o'neill",
-        "long day's journey into night",
-        "pulitzer prize",
-        "tony award",
-        "tyrone family"
-      ]
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Dropkick_Murphys",
-      "external_id": "music-2026-07-03-012",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Popular Music",
-      "value": 800,
-      "difficulty_rank": 4,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Their 2004 single 'Tessie' marked this Celtic punk band's mainstream breakthrough; a 2005 track featured in a Martin Scorsese crime film then became their only platinum single.",
-      "answer": "Dropkick Murphys",
-      "answer_type": "other",
-      "aliases": [
-        "The Dropkick Murphys"
-      ],
-      "tags": [
-        "mpa-draft",
-        "sourced",
-        "popular-music",
-        "punk"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Dropkick Murphys",
-          "url": "https://en.wikipedia.org/wiki/Dropkick_Murphys",
-          "snippet": "Dropkick Murphys are an Irish-American Celtic punk band formed in Quincy, Massachusetts, in 1996. The lineup consists of co-lead vocalist Ken Casey, drummer Matt Kelly, co-lead vocalist Al Barr, rhythm and lead guitarist James Lynch, lead g"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-03T14:43:27.987Z",
-      "topic_entities": [
-        "2004",
-        "celtic punk",
-        "dropkick murphys",
-        "martin scorsese",
-        "tessie",
-        "the departed"
       ]
     },
     {
@@ -503,47 +377,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Morgan_Wallen",
-      "external_id": "music-2026-07-03-014",
-      "category_id": "music_performing_arts",
-      "subcategory_name": "Popular Music",
-      "value": 1000,
-      "difficulty_rank": 5,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This country singer's 2021 double album was the first of its genre to spend its opening seven weeks at number one on the Billboard 200.",
-      "answer": "Morgan Wallen",
-      "answer_type": "name",
-      "aliases": [
-        "Wallen"
-      ],
-      "tags": [
-        "mpa-draft",
-        "sourced",
-        "popular-music",
-        "country"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Morgan Wallen",
-          "url": "https://en.wikipedia.org/wiki/Morgan_Wallen",
-          "snippet": "Morgan Cole Wallen is an American country pop singer from Sneedville, Tennessee. He first gained recognition as a contestant on the sixth season of The Voice in 2014. After signing to Big Loud, he released his debut studio album, If I Know "
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-03T14:43:28.697Z",
-      "topic_entities": [
-        "2021",
-        "billboard 200",
-        "country music",
-        "dangerous",
-        "morgan wallen"
-      ]
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
       "external_id": "music-2026-07-03-015",
       "category_id": "music_performing_arts",
@@ -552,11 +385,11 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This commedia dell'arte term names a performer's signature gag — a joke or 'something foolish or witty' that is freshly improvised with each performance.",
-      "answer": "Lazzo",
+      "clue": "These signature routines performed in the commedia dell'arte could either be improvised or preplanned.",
+      "answer": "Lazzi",
       "answer_type": "other",
       "aliases": [
-        "Lazzi"
+        "Lazzo"
       ],
       "tags": [
         "mpa-draft",

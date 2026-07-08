@@ -13,7 +13,7 @@
       "difficulty_rank": 1,
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The old sailor's tales were best told over a frosty mug of this amber, hoppy brew in the dockside tavern.",
+      "clue": "The old sailor spun tales for anyone who would buy him a drink at the pub on the harbor's edge.",
       "answer": "ALE",
       "answer_type": "other",
       "aliases": [],
@@ -42,11 +42,11 @@
       "external_id": "wordplay-2026-07-03-hw-02",
       "category_id": "language_wordplay",
       "subcategory_name": "Hidden Words",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The surgeon's office kept a supply of this cold, crystalline substance on hand to reduce swelling after procedures.",
+      "clue": "The receptionist in the doctor's office had to go to her for help after slamming his finger in a door.",
       "answer": "ICE",
       "answer_type": "other",
       "aliases": [],
@@ -79,12 +79,12 @@
       "difficulty_rank": 2,
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "An old-fashioned cremation ceremony calls for this grey, powdery residue to be gathered into a clay urn.",
+      "clue": "The fire left destruction in its wake as it flashed through the forest.",
       "answer": "ASH",
       "answer_type": "other",
       "aliases": [],
       "wp": {
-        "hidden_in": "fashion"
+        "hidden_in": "flashed"
       },
       "tags": [
         "wp-draft",
@@ -105,47 +105,14 @@
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-03-hw-04",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Hidden Words",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "hidden_word",
-      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "She floated past the outermost planet in the system, dreaming of the mesh she had left drying on the dock back home.",
-      "answer": "NET",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "hidden_in": "planet"
-      },
-      "tags": [
-        "wp-draft",
-        "hidden_word"
-      ],
-      "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "catch",
-        "dock",
-        "drying",
-        "fishing",
-        "knot",
-        "maritime",
-        "mesh",
-        "neptune"
-      ]
-    },
-    {
-      "source": "constructed",
       "external_id": "wordplay-2026-07-03-hw-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Hidden Words",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The sommelier uncorked the magnum and poured two generous glasses, while outside the window a herd of bearded African antelopes grazed peacefully in the dusk.",
+      "clue": "The honeymooners uncorked a magnum as they sat back and watched the parade of animals on the Serengeti.",
       "answer": "GNU",
       "answer_type": "other",
       "aliases": [
@@ -176,17 +143,17 @@
       "external_id": "wordplay-2026-07-03-ba-01",
       "category_id": "language_wordplay",
       "subcategory_name": "Before & After",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The red, ladder-mounted emergency vehicle blew past the diesel-pump highway rest area at 90 miles an hour.",
-      "answer": "Fire Truck Stop",
+      "clue": "The mages cast spells at each other inside the plastic toy pool in Chuck E. Cheese.",
+      "answer": "Fire Ball Pit",
       "answer_type": "other",
       "aliases": [],
       "wp": {
-        "first": "Fire Truck",
-        "second": "Truck Stop"
+        "first": "Fire Ball",
+        "second": "Ball Pit"
       },
       "tags": [
         "wp-draft",
@@ -194,16 +161,7 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "topic_entities": [
-        "diesel",
-        "emergency",
-        "fire truck",
-        "highway",
-        "ladder",
-        "red",
-        "siren",
-        "truck stop"
-      ]
+      "topic_entities": []
     },
     {
       "source": "constructed",
@@ -214,7 +172,7 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The bony, upright-drifting creature from the coral reef somehow found itself tangled up in the boisterous roughhousing out by the stable.",
+      "clue": "The young pipe-snouted fish got injured playing with his friends while his parents weren't looking.",
       "answer": "Sea Horse Play",
       "answer_type": "other",
       "aliases": [
@@ -246,17 +204,17 @@
       "external_id": "wordplay-2026-07-03-ba-03",
       "category_id": "language_wordplay",
       "subcategory_name": "Before & After",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The pink, spun-sugar treat from the fairground was stretched into a foil-wrapped rectangular confection sold beside the peanut butter cups.",
-      "answer": "Cotton Candy Bar",
+      "clue": "The plantation workers mixed cocktails atop Eli Whitney's signature invention while enjoying a well-deserved happy hour.",
+      "answer": "Cotton Gin and Tonic",
       "answer_type": "other",
       "aliases": [],
       "wp": {
-        "first": "Cotton Candy",
-        "second": "Candy Bar"
+        "first": "Cotton Gin",
+        "second": "Gin and Tonic"
       },
       "tags": [
         "wp-draft",
@@ -264,16 +222,7 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "topic_entities": [
-        "candy bar",
-        "chocolate",
-        "confection",
-        "cotton candy",
-        "fairground",
-        "foil",
-        "pink",
-        "spun sugar"
-      ]
+      "topic_entities": []
     },
     {
       "source": "constructed",
