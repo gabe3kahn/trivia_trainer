@@ -1,0 +1,296 @@
+{
+  "pack_id": "wordplay-2026-07-03",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-03T00:00:00.000Z",
+  "notes": "Run 2026-07-03. Mechanics: Hidden Words (5) + Before & After (5). Last pack (2026-06-28) used Anagram + Homophone; (2026-06-27) Crossword + Rhyme Time; (2026-06-26) Initials + Before & After; (2026-06-24) Hidden Word + Homophone. Choosing Hidden Words + Before & After as this pair hasn't run recently together. Hidden answers (ALE, ICE, EWE, ASH, NET) and Before & After pivots (Truck, Horse, Candy, Town, Boat) are all fresh — none appear in the active bank or prior drafts. Each sentence evokes the answer's meaning naturally around the carrier word or pivot.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-hw-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The old sailor spun tales for anyone who would buy him a drink at the pub on the harbor's edge.",
+      "answer": "Ale",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "tales"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ale",
+        "barley",
+        "brewed",
+        "england",
+        "fermentation",
+        "hops",
+        "sailor",
+        "tavern"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-hw-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The receptionist in the doctor's office had to go to her for help after slamming his finger in a door.",
+      "answer": "Ice",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "office"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "arctic",
+        "cold therapy",
+        "cryotherapy",
+        "crystalline",
+        "freezing",
+        "glacier",
+        "swelling",
+        "water"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-hw-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The fire left destruction in its wake as it flashed through the forest.",
+      "answer": "Ash",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "hidden_in": "flashed"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "cremation",
+        "death",
+        "fire",
+        "funeral",
+        "grey",
+        "powder",
+        "remains",
+        "urn"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-hw-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Hidden Words",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "hidden_word",
+      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
+      "clue": "The honeymooners uncorked a magnum as they sat back and watched the parade of animals on the Serengeti.",
+      "answer": "Gnu",
+      "answer_type": "other",
+      "aliases": [
+        "Wildebeest"
+      ],
+      "wp": {
+        "hidden_in": "magnum"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "africa",
+        "antelope",
+        "bearded",
+        "grazing",
+        "herd",
+        "horns",
+        "savanna",
+        "wildebeest"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-ba-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The mages cast spells at each other inside the plastic toy pool in Chuck E. Cheese.",
+      "answer": "Fire Ball Pit",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Fire Ball",
+        "second": "Ball Pit"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": []
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-ba-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The young pipe-snouted fish got injured playing with his friends while his parents weren't looking.",
+      "answer": "Sea Horse Play",
+      "answer_type": "other",
+      "aliases": [
+        "Seahorse Play"
+      ],
+      "wp": {
+        "first": "Sea Horse",
+        "second": "Horse Play"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "bony",
+        "coral reef",
+        "horse",
+        "horseplay",
+        "marine",
+        "roughhousing",
+        "seahorse",
+        "stable"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-ba-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The plantation workers mixed cocktails atop Eli Whitney's signature invention while enjoying a well-deserved happy hour.",
+      "answer": "Cotton Gin and Tonic",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Cotton Gin",
+        "second": "Gin and Tonic"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": []
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-ba-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The undead inhabitants of an abandoned village gather for a civic meeting.",
+      "answer": "Ghost Town Hall",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Ghost Town",
+        "second": "Town Hall"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "abandoned",
+        "civic",
+        "dilapidated",
+        "ghost town",
+        "meeting",
+        "residents",
+        "settlement",
+        "town hall"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-03-ba-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer combines two phrases that share a pivot word.",
+      "clue": "The impossibly handsome man swept past every competitor and took first place in the annual contest on the Thames.",
+      "answer": "Dream Boat Race",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Dream Boat",
+        "second": "Boat Race"
+      },
+      "tags": [
+        "wp-draft",
+        "before_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "annual",
+        "boat race",
+        "competition",
+        "dreamboat",
+        "river",
+        "rowing",
+        "thames",
+        "watercraft"
+      ]
+    }
+  ]
+}
