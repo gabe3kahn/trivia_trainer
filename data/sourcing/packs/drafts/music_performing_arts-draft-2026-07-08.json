@@ -1,0 +1,486 @@
+{
+  "pack_id": "music_performing_arts-draft-2026-07-08",
+  "category_id": "music_performing_arts",
+  "created_at": "2026-07-08",
+  "notes": "Run 2026-07-08. 15 clues: 3×$200, 4×$400, 3×$600, 3×$800, 2×$1000. Subcats: Popular Music (10), Classical Composers (2), Music Theory & Terms (1), Opera (1), Broadway & Musicals (1).",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Andrew_Lloyd_Webber",
+      "external_id": "music-2026-07-08-001",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The British composer behind 'Cats,' 'Evita,' and 'The Phantom of the Opera' became one of only thirteen EGOT recipients when a 2018 television production of one of his musicals won the Primetime Emmy Award.",
+      "answer": "Andrew Lloyd Webber",
+      "answer_type": "name",
+      "aliases": [
+        "Lloyd Webber"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "broadway-musicals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Andrew Lloyd Webber",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Lloyd_Webber",
+          "snippet": "Andrew Lloyd Webber, Baron Lloyd-Webber is an English composer and impresario of musical theatre. Several of his musicals have run for more than a decade both in the West End and on Broadway. He has composed 21 musicals, a song cycle, a set"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:24.281Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mariah_Carey",
+      "external_id": "music-2026-07-08-002",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Dubbed the 'Songbird Supreme' for her five-octave vocal range, this singer holds the record for the most Billboard Hot 100 number-one singles by a solo artist, and her holiday hit 'All I Want for Christmas Is You' is the longest-running number one in that chart's history.",
+      "answer": "Mariah Carey",
+      "answer_type": "name",
+      "aliases": [
+        "Carey"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mariah Carey",
+          "url": "https://en.wikipedia.org/wiki/Mariah_Carey",
+          "snippet": "Mariah Carey is an American singer-songwriter, record producer, and actress. Dubbed the \"Songbird Supreme\", Carey is known for her five-octave vocal range, melismatic singing style, signature use of the whistle register, and diva persona. A"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:24.640Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bruce_Springsteen",
+      "external_id": "music-2026-07-08-003",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed 'the Boss,' this New Jersey rock icon achieved worldwide fame with his 1975 album 'Born to Run' and later became the first artist to score a top-five album in six consecutive decades.",
+      "answer": "Bruce Springsteen",
+      "answer_type": "name",
+      "aliases": [
+        "Springsteen"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bruce Springsteen",
+          "url": "https://en.wikipedia.org/wiki/Bruce_Springsteen",
+          "snippet": "Bruce Frederick Joseph Springsteen is an American singer, songwriter, and musician. Nicknamed \"the Boss\", Springsteen has released 21 studio albums spanning six decades; most feature the E Street Band, his backing band since 1972."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:25.000Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Rhapsody_in_Blue",
+      "external_id": "music-2026-07-08-004",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Commissioned by bandleader Paul Whiteman for a 1924 concert titled 'An Experiment in Modern Music,' the jazz-infused orchestral work 'Rhapsody in Blue' established this American composer as a bridge between popular and classical traditions.",
+      "answer": "George Gershwin",
+      "answer_type": "name",
+      "aliases": [
+        "Gershwin"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical-composers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rhapsody in Blue",
+          "url": "https://en.wikipedia.org/wiki/Rhapsody_in_Blue",
+          "snippet": "Rhapsody in Blue is a 1924 musical composition for solo piano and jazz band by George Gershwin. Commissioned by bandleader Paul Whiteman, the work combines elements of classical music with jazz-influenced effects and premiered in a concert "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:25.358Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Cars",
+      "external_id": "music-2026-07-08-005",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Boston new-wave rock band's 1984 video for 'You Might Think' won Video of the Year at the inaugural MTV Video Music Awards, while their ballad 'Drive' became another major hit the same year.",
+      "answer": "The Cars",
+      "answer_type": "other",
+      "aliases": [
+        "Cars"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Cars",
+          "url": "https://en.wikipedia.org/wiki/The_Cars",
+          "snippet": "The Cars were an American rock band formed in Boston in 1976. Emerging from the new wave scene in the late 1970s, they consisted of Ric Ocasek, Benjamin Orr, Elliot Easton, Greg Hawkes (keyboards) and David Robinson (drums). Ocasek and Orr "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:25.717Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/TLC_(group)",
+      "external_id": "music-2026-07-08-006",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Atlanta girl group — whose members went by T-Boz, Left Eye, and Chilli — scored four Billboard Hot 100 number-one singles including 'Waterfalls' and 'No Scrubs,' and their 1994 album 'CrazySexyCool' earned diamond certification.",
+      "answer": "TLC",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "TLC (group)",
+          "url": "https://en.wikipedia.org/wiki/TLC_(group)",
+          "snippet": "TLC is an American girl group formed in 1990 in Atlanta, Georgia. The group's best-known line-up was composed of Tionne \"T-Boz\" Watkins, Lisa \"Left Eye\" Lopes, and Rozonda \"Chilli\" Thomas. The group enjoyed success during the 1990s, with ni"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:26.076Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dua_Lipa",
+      "external_id": "music-2026-07-08-007",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This British pop singer's second album, 'Future Nostalgia,' topped the UK Albums Chart, and she went on to make her acting debut in the 2023 film 'Barbie,' contributing its accompanying hit single 'Dance the Night.'",
+      "answer": "Dua Lipa",
+      "answer_type": "name",
+      "aliases": [
+        "Lipa"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dua Lipa",
+          "url": "https://en.wikipedia.org/wiki/Dua_Lipa",
+          "snippet": "Dua Lipa is an English singer and songwriter. Her accolades include seven Brit Awards and three Grammy Awards."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:26.435Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Claude_Debussy",
+      "external_id": "music-2026-07-08-008",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Classical Composers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often labeled the first Impressionist composer — a description he vigorously rejected — this French composer was nearly forty before achieving international fame in 1902 with his only completed opera.",
+      "answer": "Claude Debussy",
+      "answer_type": "name",
+      "aliases": [
+        "Debussy"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "classical-composers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Claude Debussy",
+          "url": "https://en.wikipedia.org/wiki/Claude_Debussy",
+          "snippet": "Achille Claude Debussy was a French composer, born in Saint-Germain-en-Laye. He is sometimes seen as the first Impressionist composer, although he vigorously rejected the term. He was among the most influential composers of the late 19th an"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:26.794Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Fugue",
+      "external_id": "music-2026-07-08-009",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Music Theory & Terms",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Derived from the Latin for 'flight,' this Baroque-era polyphonic compositional technique features multiple voices entering one by one, each presenting the same melodic subject in overlapping contrapuntal fashion.",
+      "answer": "Fugue",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "music-theory"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Fugue",
+          "url": "https://en.wikipedia.org/wiki/Fugue",
+          "snippet": "In classical music, a fugue is a contrapuntal, polyphonic compositional technique in two or more voices, built on a subject that is introduced at the beginning in imitation, which recurs frequently throughout the course of the composition. "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:27.154Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/CBGB",
+      "external_id": "music-2026-07-08-010",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Its acronym originally stood for Country, Bluegrass, Blues, but this Manhattan venue founded by Hilly Kristal in 1973 quickly became the incubator for punk rock and new wave, nurturing acts including the Ramones, Blondie, and Talking Heads.",
+      "answer": "CBGB",
+      "answer_type": "other",
+      "aliases": [
+        "CBGBs",
+        "CBGB's"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "CBGB",
+          "url": "https://en.wikipedia.org/wiki/CBGB",
+          "snippet": "CBGB was a New York City music club opened in 1973 by Hilly Kristal and his ex-wife Karen Kristal at 315 Bowery in the East Village in Manhattan, New York City. The club was previously a biker bar and before that it was a dive bar. The lett"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:27.512Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Claude_Debussy",
+      "external_id": "music-2026-07-08-011",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Opera",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The only opera Debussy completed, its 1902 Paris premiere brought the composer international recognition when he was nearly forty and stands as a cornerstone of Symbolist opera.",
+      "answer": "Pelléas et Mélisande",
+      "answer_type": "other",
+      "aliases": [
+        "Pelleas et Melisande",
+        "Pelléas and Mélisande",
+        "Pelleas and Melisande"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "opera"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Claude Debussy",
+          "url": "https://en.wikipedia.org/wiki/Claude_Debussy",
+          "snippet": "Achille Claude Debussy was a French composer, born in Saint-Germain-en-Laye. He is sometimes seen as the first Impressionist composer, although he vigorously rejected the term. He was among the most influential composers of the late 19th an"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:27.871Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/New_Kids_on_the_Block",
+      "external_id": "music-2026-07-08-012",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Dorchester, Massachusetts boy group — featuring Donnie Wahlberg and brothers Jonathan and Jordan Knight among its five members — is often credited with creating the blueprint that the Backstreet Boys and NSYNC would later follow.",
+      "answer": "New Kids on the Block",
+      "answer_type": "other",
+      "aliases": [
+        "NKOTB"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "New Kids on the Block",
+          "url": "https://en.wikipedia.org/wiki/New_Kids_on_the_Block",
+          "snippet": "New Kids on the Block are an American vocal group from Dorchester, Massachusetts. Initially conceived as a boy band, the group consists of brothers Jonathan and Jordan Knight, Joey McIntyre, Donnie Wahlberg, and Danny Wood. New Kids on the "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:28.238Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/LL_Cool_J",
+      "external_id": "music-2026-07-08-013",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In 2017, this rapper — whose stage name is shorthand for 'Ladies Love Cool James' — became the first hip-hop artist to receive the Kennedy Center Honors; four years later he entered the Rock and Roll Hall of Fame under the Musical Excellence category.",
+      "answer": "LL Cool J",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "LL Cool J",
+          "url": "https://en.wikipedia.org/wiki/LL_Cool_J",
+          "snippet": "James Todd Smith, known professionally as LL Cool J, is an American rapper and actor. He is one of the earliest rappers to realize crossover commercial success, alongside fellow new-school hip-hop acts like Run-DMC."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:28.597Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jay-Z",
+      "external_id": "music-2026-07-08-014",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A protégé of fellow New York rapper Jaz-O, this artist co-founded Roc-A-Fella Records in 1994 and released his critically acclaimed debut album 'Reasonable Doubt' in 1996.",
+      "answer": "Jay-Z",
+      "answer_type": "other",
+      "aliases": [
+        "Jay Z",
+        "Shawn Carter"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jay-Z",
+          "url": "https://en.wikipedia.org/wiki/Jay-Z",
+          "snippet": "Shawn Corey Carter, known professionally as Jay-Z, also written as JAŸ-Z is an American rapper, businessman, and record executive. In 2023, Billboard and Vibe ranked him as the greatest rapper of all time. Rooted in East Coast hip-hop, Jay-"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:28.956Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Fairytale_of_New_York",
+      "external_id": "music-2026-07-08-015",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Kept at number two in the UK on its original 1987 release by the Pet Shop Boys' cover of 'Always on My Mind,' this Pogues duet featuring Kirsty MacColl has since become the most-played Christmas song in 21st-century Britain.",
+      "answer": "Fairytale of New York",
+      "answer_type": "other",
+      "aliases": [
+        "A Fairytale of New York"
+      ],
+      "tags": [
+        "music-draft",
+        "sourced",
+        "popular-music"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Fairytale of New York",
+          "url": "https://en.wikipedia.org/wiki/Fairytale_of_New_York",
+          "snippet": "\"Fairytale of New York\" is a song written by Jem Finer and Shane MacGowan and recorded by their London-based band the Pogues, featuring English singer-songwriter Kirsty MacColl on vocals. The song is an Irish folk–style ballad and was writt"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-08T14:50:29.315Z"
+    }
+  ]
+}
