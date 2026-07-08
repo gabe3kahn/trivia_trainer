@@ -41,7 +41,8 @@
         "atari",
         "pong",
         "table tennis"
-      ]
+      ],
+      "allow_duplicate": true
     },
     {
       "source": "original_sourced",
