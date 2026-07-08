@@ -13,7 +13,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Indian religion carries the principle of ahimsa to its furthest extreme — its most devout ascetics sweep the ground as they walk and strain their drinking water to avoid harming even the tiniest organisms; its teachings were revealed by 24 tirthankaras, the last of whom was Mahavira.",
+      "clue": "This Indian religion carries the principle of ahimsa to its furthest extreme — its most devout ascetics sweep the ground as they walk and strain their drinking water to avoid harming even the tiniest organisms.",
       "answer": "Jainism",
       "answer_type": "other",
       "aliases": [
@@ -161,8 +161,7 @@
         "hebrew bible",
         "jerusalem",
         "ketuvim"
-      ],
-      "allow_duplicate": true
+      ]
     },
     {
       "source": "original_sourced",
