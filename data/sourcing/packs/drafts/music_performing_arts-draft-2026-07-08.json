@@ -14,7 +14,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The British composer behind 'Cats,' 'Evita,' and 'The Phantom of the Opera' became one of only thirteen EGOT recipients when a 2018 television production of one of his musicals won the Primetime Emmy Award.",
+      "clue": "The British composer behind 'Evita,' 'Jesus Christ Superstar,' and 'The Phantom of the Opera' became one of only thirteen EGOT recipients when a 2018 live television production of one of his musicals won the Primetime Emmy Award.",
       "answer": "Andrew Lloyd Webber",
       "answer_type": "name",
       "aliases": [
@@ -34,16 +34,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:24.281Z",
-      "topic_entities": [
-        "2018",
-        "andrew lloyd webber",
-        "cats",
-        "egot",
-        "evita",
-        "musical",
-        "the phantom of the opera"
-      ]
+      "verified_at": "2026-07-08T15:21:27.091Z"
     },
     {
       "source": "original_sourced",
@@ -75,7 +66,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:24.640Z",
+      "verified_at": "2026-07-08T15:21:27.451Z",
       "topic_entities": [
         "1990s",
         "all i want for christmas is you",
@@ -115,7 +106,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:25.000Z",
+      "verified_at": "2026-07-08T15:21:27.811Z",
       "topic_entities": [
         "1975",
         "born to run",
@@ -155,7 +146,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:25.358Z",
+      "verified_at": "2026-07-08T15:21:28.170Z",
       "topic_entities": [
         "1924",
         "american composer",
@@ -196,7 +187,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:25.717Z",
+      "verified_at": "2026-07-08T15:21:28.528Z",
       "topic_entities": [
         "1984",
         "boston",
@@ -235,7 +226,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:26.076Z",
+      "verified_at": "2026-07-08T15:21:28.886Z",
       "topic_entities": [
         "atlanta",
         "chilli",
@@ -277,7 +268,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:26.435Z",
+      "verified_at": "2026-07-08T15:21:29.246Z",
       "topic_entities": [
         "2023",
         "barbie",
@@ -297,7 +288,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Often labeled the first Impressionist composer — a description he vigorously rejected — this French composer was nearly forty before achieving international fame in 1902 with his only completed opera.",
+      "clue": "Often labeled the first Impressionist composer — a description he vigorously rejected — this French master's shimmering piano piece 'Clair de lune' and orchestral seascape 'La mer' count among the most beloved works of early-twentieth-century concert music.",
       "answer": "Claude Debussy",
       "answer_type": "name",
       "aliases": [
@@ -317,16 +308,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:26.794Z",
-      "topic_entities": [
-        "1902",
-        "claude debussy",
-        "french composer",
-        "impressionism",
-        "paris",
-        "pelléas et mélisande",
-        "symbolism"
-      ]
+      "verified_at": "2026-07-08T15:21:29.605Z"
     },
     {
       "source": "original_sourced",
@@ -338,7 +320,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Derived from the Latin for 'flight,' this Baroque-era polyphonic compositional technique features multiple voices entering one by one, each presenting the same melodic subject in overlapping contrapuntal fashion.",
+      "clue": "This Baroque-era polyphonic compositional technique features a main melodic theme — called the subject — introduced at the outset and then imitated successively by each entering voice in overlapping contrapuntal fashion.",
       "answer": "Fugue",
       "answer_type": "other",
       "aliases": [],
@@ -356,15 +338,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:27.154Z",
-      "topic_entities": [
-        "bach",
-        "baroque era",
-        "contrapuntal",
-        "fugue",
-        "multiple voices",
-        "polyphonic"
-      ]
+      "verified_at": "2026-07-08T15:21:29.965Z"
     },
     {
       "source": "original_sourced",
@@ -397,7 +371,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:27.512Z",
+      "verified_at": "2026-07-08T15:21:30.324Z",
       "topic_entities": [
         "1973",
         "blondie",
@@ -419,7 +393,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The only opera Debussy completed, its 1902 Paris premiere brought the composer international recognition when he was nearly forty and stands as a cornerstone of Symbolist opera.",
+      "clue": "Set to a French libretto drawn from Maurice Maeterlinck's Symbolist play of the same name, this 1902 opera — its composer's only completed work in the genre — depicts the doomed love triangle between a nobleman, his younger brother, and a mysterious woman discovered wandering in a forest.",
       "answer": "Pelléas et Mélisande",
       "answer_type": "other",
       "aliases": [
@@ -441,15 +415,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:27.871Z",
-      "topic_entities": [
-        "1902",
-        "claude debussy",
-        "maurice maeterlinck",
-        "paris",
-        "pelléas et mélisande",
-        "symbolism"
-      ]
+      "verified_at": "2026-07-08T15:21:30.926Z"
     },
     {
       "source": "original_sourced",
@@ -481,7 +447,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:28.238Z",
+      "verified_at": "2026-07-08T15:21:31.284Z",
       "topic_entities": [
         "backstreet boys",
         "boy band",
@@ -503,7 +469,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In 2017, this rapper — whose stage name is shorthand for 'Ladies Love Cool James' — became the first hip-hop artist to receive the Kennedy Center Honors; four years later he entered the Rock and Roll Hall of Fame under the Musical Excellence category.",
+      "clue": "In 2017, this Def Jam pioneer became the first rapper to receive the Kennedy Center Honors; four years later he entered the Rock and Roll Hall of Fame under the Musical Excellence category, known for hits including 'Mama Said Knock You Out' and 'I Need Love.'",
       "answer": "LL Cool J",
       "answer_type": "other",
       "aliases": [],
@@ -521,16 +487,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:28.597Z",
-      "topic_entities": [
-        "2017",
-        "2021",
-        "hip-hop",
-        "kennedy center honors",
-        "ladies love cool james",
-        "ll cool j",
-        "rock and roll hall of fame"
-      ]
+      "verified_at": "2026-07-08T15:21:31.642Z"
     },
     {
       "source": "original_sourced",
@@ -563,7 +520,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:28.956Z",
+      "verified_at": "2026-07-08T15:21:32.003Z",
       "topic_entities": [
         "1996",
         "hip-hop",
@@ -604,7 +561,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-08T14:50:29.315Z",
+      "verified_at": "2026-07-08T15:21:32.361Z",
       "topic_entities": [
         "1987",
         "always on my mind",

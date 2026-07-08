@@ -14,7 +14,7 @@
       "difficulty_rank": 1,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The botanist stopped to stare at the patch of late-blooming wildflowers, each head's petals arranged in a perfect star pattern around its yellow center.",
+      "clue": "The botanist paused to stare at the patch of late-blooming wildflowers, each a daisy-like bloom with narrow petals ringing a bright yellow disk.",
       "answer": "Aster",
       "answer_type": "other",
       "aliases": [],
@@ -26,16 +26,7 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "aster",
-        "asteraceae",
-        "autumn",
-        "composite flower",
-        "daisy",
-        "perennial",
-        "wildflower"
-      ]
+      "verification_status": "skipped"
     },
     {
       "source": "constructed",
@@ -111,7 +102,7 @@
       "difficulty_rank": 4,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "He squeezed limes over the salsa and turned to the crowd with the warm, involuntary expression of happiness that rises to the lips whenever something genuinely delights you.",
+      "clue": "He squeezed limes over the salsa and turned to the crowd with the warm, involuntary expression of happiness that plays across the lips whenever something genuinely delights you.",
       "answer": "Smile",
       "answer_type": "other",
       "aliases": [],
@@ -123,16 +114,7 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "facial expression",
-        "grin",
-        "happiness",
-        "involuntary",
-        "joy",
-        "positive emotion",
-        "teeth"
-      ]
+      "verification_status": "skipped"
     },
     {
       "source": "constructed",
@@ -324,7 +306,7 @@
       "difficulty_rank": 3,
       "mechanic": "rhyme_time",
       "constraint_text": "Find the two-word rhyming phrase described.",
-      "clue": "The seasonal migratory route followed by a large cetacean across the open ocean.",
+      "clue": "The seasonal migratory path traced across the open ocean by one of the planet's largest mammals.",
       "answer": "Whale Trail",
       "answer_type": "other",
       "aliases": [
@@ -341,16 +323,7 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "cetaceans",
-        "marine",
-        "migration",
-        "migratory routes",
-        "ocean",
-        "seasonal",
-        "whales"
-      ]
+      "verification_status": "skipped"
     }
   ]
 }
