@@ -26,7 +26,15 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "asteraceae",
+        "astra",
+        "daisy family",
+        "fall blooming",
+        "greek mythology",
+        "michaelmas daisy"
+      ]
     },
     {
       "source": "constructed",
@@ -114,7 +122,15 @@
         "anagram"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "duchenne smile",
+        "emotion psychology",
+        "facial expression",
+        "mona lisa",
+        "social signaling",
+        "zygomaticus major"
+      ]
     },
     {
       "source": "constructed",
@@ -323,7 +339,16 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "baja california",
+        "endangered species",
+        "grey whale",
+        "humpback whale",
+        "pacific coast",
+        "pacific ocean",
+        "seasonal migration"
+      ]
     }
   ]
 }
