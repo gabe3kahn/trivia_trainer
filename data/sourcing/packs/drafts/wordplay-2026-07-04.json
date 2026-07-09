@@ -49,7 +49,7 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "Marvel's fastest mutant blurs across the glowing surface where Hollywood's golden-age films once flickered to life.",
+      "clue": "A flask of liquid mercury glinted beside the glowing surface where Hollywood's golden-age films once flickered to life.",
       "answer": "Quicksilver Screen",
       "answer_type": "other",
       "aliases": [
@@ -67,13 +67,12 @@
       "lock_value": true,
       "verification_status": "skipped",
       "topic_entities": [
+        "alchemy",
         "cinema",
         "hollywood",
-        "marvel comics",
         "mercury",
         "quicksilver",
-        "silver screen",
-        "speedster"
+        "silver screen"
       ]
     },
     {
