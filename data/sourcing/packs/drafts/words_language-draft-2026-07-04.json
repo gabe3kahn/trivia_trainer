@@ -13,7 +13,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A nymph punished by Hera with the inability to speak first gave her name to the acoustic phenomenon of reflected sound.",
+      "clue": "The name for a repetition of sound caused by reflected waves derives from this nymph who was punished by the Greek goddess Hera to only be able to repeat the words spoken to her.",
       "answer": "Echo",
       "answer_type": "other",
       "aliases": [],
@@ -31,7 +31,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:44.249Z",
+      "verified_at": "2026-07-09T05:37:37.716Z",
       "topic_entities": [
         "echo",
         "greek mythology",
@@ -46,11 +46,11 @@
       "external_id": "wl-2026-07-04-002",
       "category_id": "words_language",
       "subcategory_name": "Etymology",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This English word for noisy chaos takes its name from a historic London psychiatric hospital formally known as Bethlem Royal Hospital.",
+      "clue": "This English word for noisy chaos takes its name from the popular nickname for a London psychiatric hospital that has operated since the 13th century.",
       "answer": "Bedlam",
       "answer_type": "other",
       "aliases": [],
@@ -68,7 +68,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:44.605Z",
+      "verified_at": "2026-07-09T05:37:38.140Z",
       "topic_entities": [
         "bethlehem",
         "bethlem royal hospital",
@@ -105,7 +105,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:44.961Z",
+      "verified_at": "2026-07-09T05:37:38.551Z",
       "topic_entities": [
         "ancient greece",
         "aphrodite",
@@ -142,7 +142,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:45.316Z",
+      "verified_at": "2026-07-09T05:37:38.982Z",
       "topic_entities": [
         "1560",
         "diplomat",
@@ -162,7 +162,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This term for an independently-minded nonconformist traces to a 19th-century Texas rancher who signed his state's Declaration of Independence and famously left his cattle unbranded.",
+      "clue": "This term for an independently-minded nonconformist traces back to a 19th-century Texas rancher who signed his state's Declaration of Independence and famously left his cattle unbranded.",
       "answer": "Maverick",
       "answer_type": "other",
       "aliases": [],
@@ -180,7 +180,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:45.724Z",
+      "verified_at": "2026-07-09T05:37:39.519Z",
       "topic_entities": [
         "19th century",
         "samuel maverick",
@@ -195,14 +195,16 @@
       "external_id": "wl-2026-07-04-006",
       "category_id": "words_language",
       "subcategory_name": "Etymology",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Coined by the English author Horace Walpole in 1754, this word describes the making of a fortunate discovery entirely by chance.",
       "answer": "Serendipity",
       "answer_type": "other",
-      "aliases": [],
+      "aliases": [
+        "Serendipitous"
+      ],
       "tags": [
         "wl-draft",
         "sourced",
@@ -217,7 +219,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:46.079Z",
+      "verified_at": "2026-07-09T05:37:39.959Z",
       "topic_entities": [
         "1754",
         "horace walpole",
@@ -256,7 +258,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:46.433Z",
+      "verified_at": "2026-07-09T05:37:40.386Z",
       "topic_entities": [
         "breast-beating",
         "catholic",
@@ -295,7 +297,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:46.788Z",
+      "verified_at": "2026-07-09T05:37:40.836Z",
       "topic_entities": [
         "non-generalized",
         "specific situation",
@@ -312,7 +314,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Shakespearean aphorism, with roots traced to at least the 12th century, cautions that not everything that appears valuable or true truly proves to be so.",
+      "clue": "This Shakespearean aphorism, with roots traced to at least the 12th century, cautions that not everything that appears valuable truly proves to be so.",
       "answer": "All that glitters is not gold",
       "answer_type": "other",
       "aliases": [
@@ -334,7 +336,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:47.143Z",
+      "verified_at": "2026-07-09T05:37:41.247Z",
       "topic_entities": [
         "12th century",
         "merchant of venice",
@@ -349,11 +351,11 @@
       "external_id": "wl-2026-07-04-010",
       "category_id": "words_language",
       "subcategory_name": "Foreign Words & Phrases",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Latin phrase, meaning 'it does not follow,' names the logical fallacy in which a conclusion is not supported by its premises — and informally describes any irrelevant remark dropped into conversation.",
+      "clue": "This Latin phrase, meaning 'it does not follow,' describes the logical fallacy in which a conclusion is not supported by its premises, and informally refers to any irrelevant remark dropped into conversation.",
       "answer": "Non sequitur",
       "answer_type": "other",
       "aliases": [
@@ -373,13 +375,14 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:47.498Z",
+      "verified_at": "2026-07-09T05:37:41.713Z",
       "topic_entities": [
         "argument",
         "irrelevant remark",
         "logical fallacy",
         "premises"
-      ]
+      ],
+      "lock_value": true
     },
     {
       "source": "original_sourced",
@@ -411,7 +414,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:47.852Z",
+      "verified_at": "2026-07-09T05:37:42.133Z",
       "topic_entities": [
         "eternal punishment",
         "fruit trees",
@@ -431,7 +434,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Like a signed but otherwise blank cheque, this French expression describes a situation in which an agreement is left open-ended — or a party is willing to consider any expense in the pursuance of their goals.",
+      "clue": "This French expression for unchecked authority translates literally as 'white card,' evoking an unconditional signed document left entirely for its bearer to fill in.",
       "answer": "Carte blanche",
       "answer_type": "other",
       "aliases": [
@@ -451,7 +454,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:48.207Z",
+      "verified_at": "2026-07-09T05:37:42.686Z",
       "topic_entities": [
         "blank check",
         "carte blanche",
@@ -469,7 +472,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Old Norse warriors who reportedly fought in a trance-like fury on the battlefield gave this modern adjective for wild, uncontrolled rage its name.",
+      "clue": "This modern adjective for wild, uncontrolled rage derives from old Norse warriors who reportedly fought in a trance-like fury on the battlefield.",
       "answer": "Berserk",
       "answer_type": "other",
       "aliases": [],
@@ -487,7 +490,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:48.562Z",
+      "verified_at": "2026-07-09T05:37:43.097Z",
       "topic_entities": [
         "battle fury",
         "berserker",
@@ -503,11 +506,11 @@
       "external_id": "wl-2026-07-04-014",
       "category_id": "words_language",
       "subcategory_name": "Foreign Words & Phrases",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This French phrase for the final, merciful blow administered to a mortally wounded person or animal has passed into English to describe any decisive finishing stroke that conclusively ends a contest.",
+      "clue": "This French phrase for the final, merciful blow administered to a mortally wounded person or animal has passed into English to describe any decisive finishing stroke that ends a contest.",
       "answer": "Coup de grâce",
       "answer_type": "other",
       "aliases": [
@@ -529,18 +532,19 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:48.916Z",
+      "verified_at": "2026-07-09T05:37:43.520Z",
       "topic_entities": [
         "coup de grace",
         "final blow",
         "finishing stroke",
         "mercy",
         "mortally wounded"
-      ]
+      ],
+      "lock_value": true
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Samuel_Maverick",
+      "source_url": "https://en.wikipedia.org/wiki/Gobbledygook",
       "external_id": "wl-2026-07-04-015",
       "category_id": "words_language",
       "subcategory_name": "Etymology",
@@ -548,7 +552,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Coined in 1944 by a Texas congressman, this word for incomprehensible bureaucratic jargon owes its existence to that politician's grandfather — a rancher whose habit of leaving his cattle unmarked gave English its word for a nonconformist.",
+      "clue": "This word for convoluted, jargon-laden bureaucratic language was coined in 1944 by a Texas congressman who said pompous official prose reminded him of the sound of a turkey.",
       "answer": "Gobbledygook",
       "answer_type": "other",
       "aliases": [
@@ -562,19 +566,18 @@
       "citations": [
         {
           "source": "wikipedia",
-          "title": "Samuel Maverick",
-          "url": "https://en.wikipedia.org/wiki/Samuel_Maverick",
-          "snippet": "Samuel Augustus Maverick was a Texas lawyer, politician, land baron and signer of the Texas Declaration of Independence. His name is the source of the term \"maverick\", first attested in 1867. He was the grandfather of Texas politician Maury"
+          "title": "Gibberish",
+          "url": "https://en.wikipedia.org/wiki/Gibberish",
+          "snippet": "Gibberish, also known as jibber-jabber, gobbledygook or \"utter nonsense” is speech that is nonsense: ranging across speech sounds that are not actual words, pseudowords, language games, and specialized jargon that seems nonsensical to outsi"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:39:49.348Z",
+      "verified_at": "2026-07-09T05:38:01.247Z",
       "topic_entities": [
         "1944",
         "bureaucratic jargon",
         "maury maverick",
-        "samuel maverick",
-        "texas"
+        "turkey gobble"
       ]
     }
   ]

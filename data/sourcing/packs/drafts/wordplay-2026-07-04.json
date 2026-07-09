@@ -12,7 +12,7 @@
       "difficulty_rank": 1,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The fierce undomesticated feline of the forest ends up right on the elevated runway where fashion models parade in designer garments.",
+      "clue": "The model's pet tiger joined her on the runway to help her show off the designer's new clothing line.",
       "answer": "Wild Cat Walk",
       "answer_type": "other",
       "aliases": [
@@ -49,13 +49,15 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "Hollywood's projection-lit stage of movie glamour leads straight through the mesh-covered entryway that keeps summer insects out of the farmhouse porch.",
-      "answer": "Silver Screen Door",
+      "clue": "Marvel's fastest mutant blurs across the glowing surface where Hollywood's golden-age films once flickered to life.",
+      "answer": "Quicksilver Screen",
       "answer_type": "other",
-      "aliases": [],
+      "aliases": [
+        "Quick Silver Screen"
+      ],
       "wp": {
-        "first": "Silver Screen",
-        "second": "Screen Door"
+        "first": "Quick Silver",
+        "second": "Silver Screen"
       },
       "tags": [
         "wp-draft",
@@ -65,14 +67,13 @@
       "lock_value": true,
       "verification_status": "skipped",
       "topic_entities": [
-        "architecture",
         "cinema",
-        "film",
-        "golden age of hollywood",
         "hollywood",
-        "projection",
-        "screen door",
-        "silver screen"
+        "marvel comics",
+        "mercury",
+        "quicksilver",
+        "silver screen",
+        "speedster"
       ]
     },
     {
@@ -80,11 +81,11 @@
       "external_id": "wordplay-2026-07-04-ba-03",
       "category_id": "language_wordplay",
       "subcategory_name": "Before & After",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 1000,
+      "difficulty_rank": 5,
       "mechanic": "before_after",
       "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The farm's livestock roamed the open countryside unenclosed as the landed estate's most prized luxury off-roader rolled through the paddock gate.",
+      "clue": "Roaming chickens steal the farmer's luxury car and take a joyride through the countryside.",
       "answer": "Free Range Rover",
       "answer_type": "other",
       "aliases": [],
@@ -108,76 +109,6 @@
         "luxury vehicles",
         "off-road",
         "range rover"
-      ]
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-07-04-ba-04",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Before & After",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "before_after",
-      "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The detective found the body had grown rigid overnight, then turned to question a witness who looked away and refused to say a single word.",
-      "answer": "Stone Cold Shoulder",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "first": "Stone Cold",
-        "second": "Cold Shoulder"
-      },
-      "tags": [
-        "wp-draft",
-        "before-after"
-      ],
-      "citations": [],
-      "lock_value": true,
-      "verification_status": "skipped",
-      "topic_entities": [
-        "body",
-        "cold shoulder",
-        "death",
-        "detective",
-        "investigation",
-        "murder",
-        "rejection",
-        "rigor mortis"
-      ]
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-07-04-ba-05",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Before & After",
-      "value": 800,
-      "difficulty_rank": 4,
-      "mechanic": "before_after",
-      "constraint_text": "The answer combines two phrases that share a pivot word.",
-      "clue": "The power surge that inexplicably gave the military robot consciousness in the 1986 film simultaneously vaporized the fundamental piece of silicon driving every modern computer.",
-      "answer": "Short Circuit Board",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "first": "Short Circuit",
-        "second": "Circuit Board"
-      },
-      "tags": [
-        "wp-draft",
-        "before-after"
-      ],
-      "citations": [],
-      "lock_value": true,
-      "verification_status": "skipped",
-      "topic_entities": [
-        "1986",
-        "artificial intelligence",
-        "circuit board",
-        "johnny 5",
-        "microprocessor",
-        "robotics",
-        "short circuit",
-        "silicon"
       ]
     },
     {
@@ -223,7 +154,7 @@
       "difficulty_rank": 2,
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The chef's elegant plating featured the roasted bird's most prized lower appendage, served bone-in and golden-skinned for the evening's prix fixe menu.",
+      "clue": "The chef's elegant plating featured the drumsticks from the roasted bird served on top of rice and mixed vegetables.",
       "answer": "Leg",
       "answer_type": "other",
       "aliases": [],
@@ -257,7 +188,7 @@
       "difficulty_rank": 2,
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The young physicist had to absorb all she could about spherical celestial bodies before presenting her dissertation on planetary atmospheres.",
+      "clue": "The young physicist had to absorb all she could about celestial bodies before presenting her dissertation on planetary atmospheres.",
       "answer": "Orb",
       "answer_type": "other",
       "aliases": [],
@@ -314,40 +245,6 @@
         "spring",
         "vegetable",
         "vegetables"
-      ]
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-07-04-hw-05",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Hidden Words",
-      "value": 800,
-      "difficulty_rank": 4,
-      "mechanic": "hidden_word",
-      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The naturalist described the female bird's daily egg-laying as a biological phenomenon that sustained entire rural communities through the winter.",
-      "answer": "Hen",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "hidden_in": "phenomenon"
-      },
-      "tags": [
-        "wp-draft",
-        "hidden-word"
-      ],
-      "citations": [],
-      "lock_value": true,
-      "verification_status": "skipped",
-      "topic_entities": [
-        "agriculture",
-        "barnyard",
-        "chicken",
-        "eggs",
-        "farming",
-        "livestock",
-        "poultry",
-        "rural"
       ]
     }
   ]

@@ -33,7 +33,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:06.306Z",
+      "verified_at": "2026-07-09T05:37:30.433Z",
       "topic_entities": [
         "2000-2023",
         "7 super bowls",
@@ -49,11 +49,11 @@
       "external_id": "sports-2026-07-04-002",
       "category_id": "sports_games_leisure",
       "subcategory_name": "Video Games & Esports",
-      "value": 200,
-      "difficulty_rank": 1,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Originally titled 'Puck Man' in Japan, this 1980 Namco arcade game tasks players with navigating a maze to eat dots while fleeing four colored ghosts.",
+      "clue": "This 1980 Namco arcade maze game is famous for its \"kill screen\": a byte overflow at level 256 garbles the right half of the board into unplayable gibberish.",
       "answer": "Pac-Man",
       "answer_type": "other",
       "aliases": [
@@ -74,7 +74,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:06.663Z",
+      "verified_at": "2026-07-09T05:37:31.056Z",
       "topic_entities": [
         "1980",
         "arcade game",
@@ -113,7 +113,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:07.019Z",
+      "verified_at": "2026-07-09T05:37:31.466Z",
       "topic_entities": [
         "1943",
         "gimbels",
@@ -134,7 +134,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This American track and field athlete won four gold medals at the 1936 Berlin Olympic Games, setting individual Olympic records in each of his events.",
+      "clue": "This American track and field athlete, a Black man competing before Adolf Hitler in Nazi Germany, won four gold medals at the 1936 Berlin Olympic Games.",
       "answer": "Jesse Owens",
       "answer_type": "name",
       "aliases": [
@@ -154,7 +154,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:07.377Z",
+      "verified_at": "2026-07-09T05:37:31.865Z",
       "topic_entities": [
         "1936 berlin olympics",
         "four gold medals",
@@ -174,7 +174,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This 1978 Taito arcade game, the first with endless gameplay, set the template for the fixed-shooter genre by having players repel waves of descending alien attackers.",
+      "clue": "This 1978 Taito arcade game set the template for the fixed-shooter genre by having players repel waves of descending alien attackers.",
       "answer": "Space Invaders",
       "answer_type": "other",
       "aliases": [],
@@ -192,7 +192,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:07.732Z",
+      "verified_at": "2026-07-09T05:37:32.283Z",
       "topic_entities": [
         "1978",
         "aliens",
@@ -213,7 +213,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Nicknamed 'Sweetness,' this Chicago Bears running back spent 13 NFL seasons with the team and is widely regarded as one of the greatest players at his position in league history.",
+      "clue": "Nicknamed \"Sweetness,\" this Chicago Bears running back spent 13 NFL seasons with the team; the league's annual award honoring a player's volunteer and community service work is now named after him.",
       "answer": "Walter Payton",
       "answer_type": "name",
       "aliases": [
@@ -233,7 +233,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:08.087Z",
+      "verified_at": "2026-07-09T05:37:32.704Z",
       "topic_entities": [
         "1993",
         "chicago bears",
@@ -253,7 +253,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Portuguese forward has won five Ballon d'Or awards and a record three UEFA Men's Player of the Year Awards over a career spanning top clubs in England, Spain, and Italy.",
+      "clue": "This Portuguese forward became the first man to score at five different World Cups and is the all-time leading goalscorer in men's international football.",
       "answer": "Cristiano Ronaldo",
       "answer_type": "name",
       "aliases": [
@@ -269,11 +269,11 @@
           "source": "wikipedia",
           "title": "Cristiano Ronaldo",
           "url": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
-          "snippet": "Cristiano Ronaldo dos Santos Aveiro, nicknamed CR7, is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al-Nassr and the Portugal national team. Widely regarded as one of the greatest p"
+          "snippet": "Cristiano Ronaldo dos Santos Aveiro, nicknamed CR7, is a Portuguese professional footballer who plays as a forward for and captains both the Saudi Pro League club Al-Nassr and the Portugal national team. Widely regarded as one of the greate"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:08.443Z",
+      "verified_at": "2026-07-09T05:37:33.154Z",
       "topic_entities": [
         "5 ballon d'or",
         "cristiano ronaldo",
@@ -294,7 +294,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This head coach led the Green Bay Packers to three consecutive NFL Championships in the 1960s and won the first two Super Bowls at the conclusion of the 1966 and 1967 seasons.",
+      "clue": "This coach led the Green Bay Packers to victory in the first two Super Bowls at the conclusion of the 1966 and 1967 seasons; the trophy awarded to the game's winner was later named after him.",
       "answer": "Vince Lombardi",
       "answer_type": "name",
       "aliases": [
@@ -314,7 +314,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:08.799Z",
+      "verified_at": "2026-07-09T05:37:33.585Z",
       "topic_entities": [
         "1966",
         "1967",
@@ -334,7 +334,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Standing 7 feet 1 inch tall, this NBA center played 14 seasons and was enshrined in the Naismith Memorial Basketball Hall of Fame in 1978.",
+      "clue": "On March 2, 1962, this NBA center scored 100 points in a single game against the New York Knicks, setting a single-game scoring record that still stands.",
       "answer": "Wilt Chamberlain",
       "answer_type": "name",
       "aliases": [
@@ -354,7 +354,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:09.154Z",
+      "verified_at": "2026-07-09T05:37:34.054Z",
       "topic_entities": [
         "center",
         "hall of fame",
@@ -375,7 +375,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This pitcher's career in Major League Baseball spanned a record 27 seasons across four teams, ending with his induction into the Baseball Hall of Fame in his first year of eligibility.",
+      "clue": "This flame-throwing pitcher struck out a record 5,714 batters and threw a record seven no-hitters over a 27-season career.",
       "answer": "Nolan Ryan",
       "answer_type": "name",
       "aliases": [
@@ -395,7 +395,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:09.509Z",
+      "verified_at": "2026-07-09T05:37:34.478Z",
       "topic_entities": [
         "27 seasons",
         "fastball",
@@ -416,7 +416,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The all-time leading scorer in NHL history, this Canadian player accumulated so many career assists that his assists alone surpass the total career points of any other player in league history.",
+      "clue": "Nicknamed \"the Great One,\" this Canadian became the only player in NHL history to have his number, 99, retired league-wide.",
       "answer": "Wayne Gretzky",
       "answer_type": "name",
       "aliases": [
@@ -436,7 +436,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:09.864Z",
+      "verified_at": "2026-07-09T05:37:34.902Z",
       "topic_entities": [
         "all-time points",
         "assists",
@@ -457,11 +457,12 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This 1968 Mexico City gold medalist in the high jump introduced a back-first technique at that lone Olympic appearance that was subsequently adopted by every elite competitor in the event.",
+      "clue": "This 1968 Mexico City gold medalist in the high jump introduced a back-first technique in his lone Olympic appearance that has since seen near-universal adoption among elite competitors in the event.",
       "answer": "Dick Fosbury",
       "answer_type": "name",
       "aliases": [
-        "Fosbury"
+        "Fosbury",
+        "Richard Fosbury"
       ],
       "tags": [
         "sports-draft",
@@ -477,7 +478,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:10.220Z",
+      "verified_at": "2026-07-09T05:37:35.315Z",
       "topic_entities": [
         "1968 mexico city olympics",
         "back-first technique",
@@ -497,7 +498,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Swedish champion claimed five consecutive Wimbledon titles among his eleven Grand Slam victories and spent 109 weeks ranked the world's top men's tennis player.",
+      "clue": "This tennis great won all eleven of his majors at the French Open and Wimbledon, never winning one on hard court.",
       "answer": "Björn Borg",
       "answer_type": "name",
       "aliases": [
@@ -518,7 +519,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:10.576Z",
+      "verified_at": "2026-07-09T05:37:35.734Z",
       "topic_entities": [
         "1970s-1980s",
         "5 consecutive wimbledon",
@@ -539,7 +540,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The first athlete to successfully defend an Olympic marathon title, this Ethiopian runner won his inaugural gold barefoot on the streets of Rome in 1960 while setting a world record.",
+      "clue": "This Ethiopian runner won his inaugural gold barefoot on the streets of Rome in 1960 while setting a world record before becoming the first athlete to successfully defend an Olympic marathon title in Tokyo in 1964.",
       "answer": "Abebe Bikila",
       "answer_type": "name",
       "aliases": [
@@ -559,7 +560,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:10.932Z",
+      "verified_at": "2026-07-09T05:37:36.155Z",
       "topic_entities": [
         "1960 rome olympics",
         "1964 tokyo olympics",
@@ -600,7 +601,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-04T14:30:11.288Z",
+      "verified_at": "2026-07-09T05:37:36.572Z",
       "topic_entities": [
         "1974",
         "baseball",
