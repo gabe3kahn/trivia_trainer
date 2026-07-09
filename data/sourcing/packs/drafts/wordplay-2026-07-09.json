@@ -19,10 +19,25 @@
       "answer": "Penny Lane Bryant",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Penny Lane", "second": "Lane Bryant"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Penny Lane",
+        "second": "Lane Bryant"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "1967",
+        "bryant",
+        "john lennon",
+        "liverpool",
+        "paul mccartney",
+        "penny lane",
+        "the beatles"
+      ]
     },
     {
       "source": "constructed",
@@ -37,10 +52,24 @@
       "answer": "Blind Spot Check",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Blind Spot", "second": "Spot Check"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Blind Spot",
+        "second": "Spot Check"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "blind spot",
+        "eye anatomy",
+        "inspection",
+        "optic nerve",
+        "spot check",
+        "vision"
+      ]
     },
     {
       "source": "constructed",
@@ -55,10 +84,23 @@
       "answer": "Solar Panel Discussion",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Solar Panel", "second": "Panel Discussion"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Solar Panel",
+        "second": "Panel Discussion"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "electricity",
+        "panel discussion",
+        "renewable energy",
+        "solar energy",
+        "solar panel"
+      ]
     },
     {
       "source": "constructed",
@@ -73,10 +115,24 @@
       "answer": "Strawberry Fields Medal",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Strawberry Fields", "second": "Fields Medal"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Strawberry Fields",
+        "second": "Fields Medal"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "central park",
+        "fields medal",
+        "international mathematical union",
+        "john lennon",
+        "mathematics",
+        "strawberry fields"
+      ]
     },
     {
       "source": "constructed",
@@ -91,10 +147,24 @@
       "answer": "Free Range Rover",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"first": "Free Range", "second": "Range Rover"},
-      "tags": ["wp-draft", "before-after"],
+      "wp": {
+        "first": "Free Range",
+        "second": "Range Rover"
+      },
+      "tags": [
+        "wp-draft",
+        "before-after"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "animal husbandry",
+        "farming",
+        "free range",
+        "land rover",
+        "livestock",
+        "range rover"
+      ]
     },
     {
       "source": "constructed",
@@ -106,13 +176,27 @@
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
       "clue": "After midnight, the howling storms kept the small crew of technicians awake in the remote relay station.",
-      "answer": "OWL",
+      "answer": "Owl",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "howling"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "howling"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "barn owl",
+        "birds of prey",
+        "great horned owl",
+        "hooting",
+        "night vision",
+        "nocturnal",
+        "owl"
+      ]
     },
     {
       "source": "constructed",
@@ -124,13 +208,27 @@
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
       "clue": "Every morning she arranged her vintage camera collection on the top shelf, taking care to keep each lens dust-free.",
-      "answer": "ELF",
+      "answer": "Elf",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "shelf"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "shelf"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "christmas",
+        "elf",
+        "folklore",
+        "magic",
+        "mythology",
+        "santa's elves",
+        "small stature"
+      ]
     },
     {
       "source": "constructed",
@@ -142,13 +240,28 @@
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
       "clue": "Worn out from transplanting seedlings all afternoon, the gardener finally set down her trowel and walked inside for the evening.",
-      "answer": "ANT",
+      "answer": "Ant",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "transplanting"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "transplanting"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ant",
+        "colony",
+        "eusocial",
+        "formica",
+        "insect",
+        "strength",
+        "teamwork",
+        "worker ant"
+      ]
     },
     {
       "source": "constructed",
@@ -160,13 +273,28 @@
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
       "clue": "The architect spent the entire morning studying the landscape drawings spread across the wide drafting table.",
-      "answer": "APE",
+      "answer": "Ape",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "landscape"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "landscape"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "africa",
+        "ape",
+        "chimpanzee",
+        "evolution",
+        "gorilla",
+        "intelligence",
+        "orangutan",
+        "primate"
+      ]
     },
     {
       "source": "constructed",
@@ -178,13 +306,28 @@
       "mechanic": "hidden_word",
       "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
       "clue": "The cardiologist pressed the sensor to the patient's chest, listening to the steady rhythm of his heart.",
-      "answer": "EAR",
+      "answer": "Ear",
       "answer_type": "other",
       "aliases": [],
-      "wp": {"hidden_in": "heart"},
-      "tags": ["wp-draft", "hidden_word"],
+      "wp": {
+        "hidden_in": "heart"
+      },
+      "tags": [
+        "wp-draft",
+        "hidden_word"
+      ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "auditory system",
+        "balance",
+        "cochlea",
+        "ear",
+        "eardrum",
+        "hearing",
+        "inner ear",
+        "stethoscope"
+      ]
     }
   ]
 }
