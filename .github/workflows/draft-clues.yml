@@ -249,7 +249,14 @@ jobs:
         run: |
           packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
           args=""; for p in $packs; do args="$args --pack $p"; done
-          node tools/acquisition/critique-clues.mjs $args || echo "Critic degraded (advisory) — continuing."
+          # `timeout` bounds the critic: it shells out to the `claude` CLI, which can hang
+          # indefinitely (network / model stall). The critic is ADVISORY, so a hang must
+          # degrade like any other failure instead of stalling the job to its 240-min cap —
+          # `timeout` kills it (exit 124) and the `|| echo` catches it, same as a crash.
+          # 1800s (30 min) ≈ 2.2× the observed healthy max (recent runs: 530/641/690/817s),
+          # so a slow-but-working critic is never killed, yet a true hang dies ~8× sooner
+          # than the 240-min job cap.
+          timeout 1800 node tools/acquisition/critique-clues.mjs $args || echo "Critic degraded or timed out (advisory) — continuing."
 
       # (d) REVISE pass. Reads the critique JSON and applies every revise/drop verdict —
       # replacing dropped clues so each pack keeps its count — re-runs the affected gates,
