@@ -50,7 +50,9 @@ for (const pr of openPrs) {
   // Only the draft packs this PR CHANGES vs main (not the whole drafts/ dir the branch carries) —
   // those are the NEW clues it proposes. Already-merged packs are handled by the bank gate.
   let changed;
-  try { changed = JSON.parse(gh(['pr', 'view', String(pr.number), '--repo', REPO, '--json', 'files'])).files.map((f) => f.path); } catch { continue; }
+  // Paginated — `gh pr view --json files` caps at 100 files, so a large draft PR (pack +
+  // dozens of harvested docs + pool) can push the pack past the cap and hide the overlap.
+  try { changed = gh(['api', `repos/${REPO}/pulls/${pr.number}/files`, '--paginate', '--jq', '.[].filename']).split('\n').filter(Boolean); } catch { continue; }
   for (const p of changed.filter((x) => /^data\/sourcing\/packs\/drafts\/.*\.json$/.test(x))) {
     let txt;
     try { txt = Buffer.from(gh(['api', `repos/${REPO}/contents/${p}?ref=${pr.headRefName}`, '--jq', '.content']), 'base64').toString('utf8'); } catch { continue; }
