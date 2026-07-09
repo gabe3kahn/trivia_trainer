@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createSupabaseRequest, fetchAllSupabaseRows, formatDifficultyCounts, formatQualityCounts, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
 import { assessQuestionForIntake } from './intake-assessment.mjs';
+import { extractTopicEntities } from './topic-entities.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -19,7 +20,7 @@ if (!bankPath) {
 const request = createSupabaseRequest(getSupabaseAdminConfig());
 
 const bank = JSON.parse(await fs.readFile(path.resolve(bankPath), 'utf8'));
-const questions = Array.isArray(bank) ? bank : bank.questions;
+let questions = Array.isArray(bank) ? bank : bank.questions;
 if (!Array.isArray(questions)) {
   throw new Error('Question bank must be an array or an object with a questions array.');
 }
@@ -68,6 +69,10 @@ if (duplicateAnswers.length) {
 // A collision counts only when BOTH the wordplay-ness AND the image-ness match.
 const WORDPLAY_CATEGORY = 'language_wordplay';
 const isWordplay = (categoryId) => categoryId === WORDPLAY_CATEGORY;
+// Mechanics whose hint (initials, revealed letters) IS the disambiguator — a duplicate answer
+// there is a real duplicate, so allow_duplicate does NOT exempt them (it stays valid for
+// anagram/before-after/homophone/hidden-word/rhyme-time, where the answer is the novel object).
+const HINTED_MECHANICS = new Set(['initials', 'crossword']);
 const isImage = (q) => Boolean(q.image_url);
 const packExternalIds = new Set(questions.map((q) => q.external_id).filter(Boolean));
 const activeRows = await fetchAllSupabaseRows(
@@ -95,11 +100,15 @@ for (const row of activeRows) {
   }
 }
 const bankCollisions = [];
+const collidingIds = new Set();
 for (const question of questions) {
   // Reviewer-blessed cross-fact dupe (e.g. "Brazil" as a geography fact AND a World Cup
   // fact). The gate is answer-only, so it can't tell different facts apart — allow_duplicate
   // is the manual override that says "this shared answer is intentional, not a re-draft".
-  if (question.allow_duplicate === true) continue;
+  // Exception: initials/crossword clues can't use it — their hint is the disambiguator, so a
+  // duplicate answer is just a duplicate (a legitimately new anagram/homophone of the same word
+  // still may). See HINTED_MECHANICS.
+  if (question.allow_duplicate === true && !HINTED_MECHANICS.has(question.mechanic)) continue;
   const packWordplay = isWordplay(question.category_id);
   const packImage = isImage(question);
   const seen = new Set();
@@ -112,13 +121,28 @@ for (const question of questions) {
       hits.push(row);
     }
   }
-  if (hits.length) bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
+  if (hits.length) {
+    bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
+    if (question.external_id) collidingIds.add(question.external_id);
+  }
 }
 if (bankCollisions.length) {
-  throw new Error(
-    `Answers already active in the bank under a same-class clue — re-drafting a live answer is a ` +
-      `wasted repeat (run category-coverage and swap them). Collisions: ${bankCollisions.join(', ')}`,
+  const detail = `Collisions: ${bankCollisions.join(', ')}`;
+  if (dryRun) {
+    // DRAFT-TIME gate: hard-fail so the drafter swaps the answer before it reaches a PR.
+    throw new Error(
+      `Answers already active in the bank under a same-class clue — re-drafting a live answer is a ` +
+        `wasted repeat (run category-coverage and swap them). ${detail}`,
+    );
+  }
+  // LIVE import (import-on-merge): a SIBLING draft PR may have imported this answer AFTER this
+  // pack was drafted, so the dry-run couldn't have seen it. Don't abort the whole pack over one
+  // dup — SKIP the colliding clue(s) and import the rest, loudly (surfaced as an Actions warning).
+  console.warn(
+    `::warning::Skipping ${collidingIds.size} clue(s) already active in the bank (a sibling PR likely ` +
+      `imported the answer after this pack was drafted). ${detail}`,
   );
+  questions = questions.filter((q) => !collidingIds.has(q.external_id));
 }
 
 const subcategories = await request('/rest/v1/subcategories?select=id,category_id,name');
@@ -165,6 +189,11 @@ for (const question of questions) {
     answer_detail: question.answer_detail ?? null,
     answer_type: question.answer_type === 'name' ? 'name' : 'other', // default safe; only people are 'name'
     allow_duplicate: question.allow_duplicate === true, // reviewer-blessed cross-fact dupe (skips the dedup gate)
+    // Distinctive entities for RELATED-clue detection (migration 036) — computed deterministically
+    // so every clue is tagged the same way; a pack may override with a curated list.
+    topic_entities: (Array.isArray(question.topic_entities) && question.topic_entities.length)
+      ? question.topic_entities
+      : extractTopicEntities(prepared.answer, prepared.clue),
     quality_status: quality.decision,
     quality_score: quality.score,
     quality_issues: quality.issues,

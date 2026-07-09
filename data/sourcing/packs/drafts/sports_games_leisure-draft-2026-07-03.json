@@ -1,0 +1,248 @@
+{
+  "pack_id": "sports_games_leisure-draft-2026-07-03",
+  "category_id": "sports_games_leisure",
+  "created_at": "2026-07-03T00:00:00.000Z",
+  "notes": "Run 2026-07-03. 14 clues: 3×$200, 3×$400, 4×$600, 3×$800, 1×$1000. Subcats: Video Games & Esports (2), Baseball (2), Board Games & Card Games (1), Toys & Games (1), Rules & Terminology (3), Football (2), Tennis & Golf (1), Basketball (1), Sports Records & Awards (1).",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pong",
+      "external_id": "sgl-2026-07-03-001",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Created by Atari engineer Allan Alcorn as a training exercise in 1972, this arcade simulation of table tennis became the first commercially successful video game.",
+      "answer": "Pong",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "video-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pong",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "snippet": "Pong is a 1972 sports video game developed and published by Atari, Inc. for arcades. It was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell. Bushnell and Atari co-founder Ted Dabney were so "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:44.443Z",
+      "topic_entities": [
+        "1972",
+        "allan alcorn",
+        "arcade",
+        "atari",
+        "pong",
+        "table tennis"
+      ],
+      "allow_duplicate": true
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Fenway_Park",
+      "external_id": "sgl-2026-07-03-002",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The oldest active venue in Major League Baseball, this Boston stadium opened in 1912 and features a towering left-field wall nicknamed 'the Green Monster.'",
+      "answer": "Fenway Park",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Fenway Park",
+          "url": "https://en.wikipedia.org/wiki/Fenway_Park",
+          "snippet": "Fenway Park is a ballpark in Boston, Massachusetts, United States, close to Kenmore Square. Since 1912, it has been the home field of Major League Baseball's (MLB) Boston Red Sox. While the stadium was built in 1912, it was substantially re"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:44.798Z",
+      "topic_entities": [
+        "1912",
+        "boston",
+        "fenway park",
+        "green monster",
+        "major league baseball"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Battleship",
+      "external_id": "sgl-2026-07-03-003",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Board Games & Card Games",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this board game, players fire 'shots' over a dividing mark, trying to guess the positions of their opponent's pieces.",
+      "answer": "Battleship",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "board-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Battleship",
+          "url": "https://en.wikipedia.org/wiki/Battleship",
+          "snippet": "A battleship is a large, heavily armored warship with a main battery consisting of large guns, designed to serve as a capital ship. From their advent in the late 1880s, battleships were among the largest and most formidable warship types ev"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:45.153Z",
+      "topic_entities": [
+        "1880s",
+        "1940s",
+        "aircraft carriers",
+        "battleship",
+        "board game"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/AstroTurf",
+      "external_id": "sgl-2026-07-03-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Rules & Terminology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1965 Monsanto product spread so widely across professional playing surfaces that its name became the common generic term for all artificial athletic fields.",
+      "answer": "AstroTurf",
+      "answer_type": "other",
+      "aliases": [
+        "Astroturf"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "rules-terminology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "AstroTurf",
+          "url": "https://en.wikipedia.org/wiki/AstroTurf",
+          "snippet": "AstroTurf is an American subsidiary of SportGroup that produces artificial turf for playing surfaces in sports. The original AstroTurf product was a short-pile synthetic turf invented in 1965 by Monsanto. Since the early 2000s, AstroTurf ha"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:49.078Z",
+      "topic_entities": [
+        "1965",
+        "astroturf",
+        "monsanto",
+        "sports fields",
+        "synthetic grass"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Calgary_Flames",
+      "external_id": "sgl-2026-07-03-011",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This NHL franchise played eight seasons in Atlanta before relocating to Canada in 1980 and winning its first and only Stanley Cup title nine years later.",
+      "answer": "Calgary Flames",
+      "answer_type": "other",
+      "aliases": [
+        "The Calgary Flames"
+      ],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "hockey",
+        "sports-records"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Calgary Flames",
+          "url": "https://en.wikipedia.org/wiki/Calgary_Flames",
+          "snippet": "The Calgary Flames are a professional ice hockey team based in Calgary, Alberta, Canada. The Flames compete in the National Hockey League (NHL) as a member of the Pacific Division in the Western Conference. They are the city's third major p"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:49.440Z",
+      "topic_entities": [
+        "1980",
+        "1989",
+        "atlanta",
+        "calgary",
+        "calgary flames",
+        "nhl",
+        "stanley cup"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pong",
+      "external_id": "sgl-2026-07-03-012",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Released in 1972, this device became the first commercial home gaming console and later inspired the hit Atari arcade.",
+      "answer": "Odyssey",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sgl-draft",
+        "sourced",
+        "video-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pong",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "snippet": "Pong is a 1972 sports video game developed and published by Atari, Inc. for arcades. It was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell. Bushnell and Atari co-founder Ted Dabney were so "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:39:49.795Z",
+      "topic_entities": [
+        "1972",
+        "atari",
+        "home console",
+        "magnavox",
+        "magnavox odyssey",
+        "patent infringement",
+        "pong"
+      ],
+      "allow_duplicate": true
+    }
+  ]
+}

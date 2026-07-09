@@ -6,80 +6,237 @@
  * validate-wordplay) catch STRUCTURAL faults: exact/stem answer leaks, thin/overlong
  * clues, broken wordplay mechanics. They are blind to the EDITORIAL faults that keep
  * showing up in review — tortured wording, a difficulty that doesn't match the value,
- * too-easy initials, a hidden word that's signposted instead of surprising, a synonym
- * leak the regex misses. Those need judgment, so this shells out to a fresh-context
- * model with a fixed rubric and asks it to critique each clue: pass / revise / drop.
+ * too-easy initials, a hidden word that's signposted, a wrong category. Those need
+ * judgment, so this shells out to a fresh-context model with a fixed rubric and asks it
+ * to critique each clue: pass / revise / drop.
  *
- * It reviews (it does not rewrite the pack): the report is what the drafter agent (or a
- * human reviewer) acts on before opening/merging a PR. Runs wherever the drafter does —
- * the `claude` CLI authenticated via CLAUDE_CODE_OAUTH_TOKEN in CI, or a local install.
- * The deterministic leak findings are passed in as hints so the model doesn't re-derive
- * them. If the CLI is missing or errors, it prints a warning and exits 0 (advisory tool,
- * never a hard blocker) — the deterministic gates remain the hard line.
+ * To ground that judgment it gives the model, per clue, the FULL source extract the
+ * drafter authored from (data/sourcing/docs/<category>/*.json, matched by URL — same text
+ * the author saw, not a truncated snippet) plus the deterministic linter hits. DUPLICATES
+ * are handled separately and deterministically, MIRRORING the import gate's rule (same
+ * normalized answer/alias AND same class = wordplay-ness + image-ness; `allow_duplicate`
+ * exempt) over the ACTIVE bank, extended via --dup-index to the pending answers of other
+ * open PRs — surfaced as an advisory collision, not an auto-drop. It REVIEWS (it does not
+ * rewrite the pack): the report is what the drafter agent (or a human) acts on before a PR.
  *
- *   node tools/acquisition/critique-clues.mjs --pack data/sourcing/packs/drafts/<pack>.json [--pack …] [--model <id>]
+ * Runs wherever the drafter does — the `claude` CLI (CLAUDE_CODE_OAUTH_TOKEN in CI or a
+ * local install) and the SUPABASE_* env for the duplicate index. Everything degrades
+ * gracefully: no CLI → warn + skip; no source doc → snippet fallback; no Supabase +
+ * no --dup-index → duplicate detection is off. The deterministic gates remain the hard
+ * line; this is advisory and never hard-fails.
  *
- * Exit code is always 0; read the printed summary / the JSON+MD report written to
- * data/acquisition/clue-critique-<pack>.{json,md}.
+ *   node tools/acquisition/critique-clues.mjs --pack <pack.json> [--pack …] [--model <id>] [--dup-index <answers.json>]
+ *
+ * Exit code is always 0; read the printed summary / the report in data/acquisition/.
  */
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 import { auditFeedbackIssues } from './feedback-quality-rules.mjs';
+import { createSupabaseRequest, fetchAllSupabaseRows, getSupabaseAdminConfig, loadDefaultEnv } from './acquisition-utils.mjs';
+import { extractTopicEntities, relatedThreshold, sharedEntities } from './topic-entities.mjs';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const rootDir = path.resolve(__dirname, '..', '..');
 
 const argv = process.argv.slice(2);
 const packPaths = [];
 let model = 'claude-sonnet-4-6';
+let dupIndexPath = null;
 for (let i = 0; i < argv.length; i += 1) {
   if (argv[i] === '--pack') packPaths.push(argv[(i += 1)]);
   else if (argv[i] === '--model') model = argv[(i += 1)];
+  else if (argv[i] === '--dup-index') dupIndexPath = argv[(i += 1)];
   else if (!argv[i].startsWith('--')) packPaths.push(argv[i]);
 }
 if (!packPaths.length) {
-  console.error('usage: critique-clues.mjs --pack <pack.json> [--pack …] [--model <id>]');
+  console.error('usage: critique-clues.mjs --pack <pack.json> [--pack …] [--model <id>] [--dup-index <answers.json>]');
   process.exit(1);
 }
 
 const RUBRIC = [
-  'You are a STRICT trivia editor reviewing clues for a Jeopardy-style practice app before they go live.',
-  'Apply the rubric to each clue and return a verdict. Be conservative: flag only genuine problems, and',
-  'prefer "revise" with a concrete rewrite over a vague complaint. Reserve "drop" for irredeemable clues.',
+  'You are a STRICT but FAIR trivia editor reviewing clues for a Jeopardy-style app before they go live.',
+  'Return a verdict per clue. Only flag GENUINE problems — a clean clue must PASS. Prefer "revise" with a',
+  'concrete fix; reserve "drop" for irredeemable clues.',
   '',
-  'RUBRIC — flag every dimension that applies:',
-  '- leak: the answer, ANY alias, a shared word-stem, or an obvious synonym appears in the clue and gives it',
-  '  away. (Deterministic linter hits are pre-listed per item as "linter_flags" — corroborate + extend them,',
-  "  especially synonyms/paraphrases the regex can't see.)",
-  '- wording: the clue is not a clean, single-parse declarative sentence — a solver should grasp it on the',
-  '  first read. Flag front-loaded subordinate clauses that bury the subject ("Along with the cross, one of',
-  '  two punches classified as…, this strike…"), stacked em-dash asides, or otherwise convoluted phrasing.',
-  '- difficulty_fit: the dollar value does not match the clue\'s real difficulty. A marquee/household answer',
-  '  reached by a direct hook belongs at $200–$400; $800–$1000 requires an oblique hook OR a genuinely deep',
-  '  answer, not a famous one described plainly. Suggest a corrected value when it is off.',
-  '- initials: (ONLY if mechanic="initials") the initials are a large hint, so the clue must be pitched at',
-  '  least one tier HARDER than a normal clue at the same value. Flag initials clues that are too easy for',
-  '  their value (a plainly-described marquee entity).',
-  '- hidden_word: (ONLY if mechanic="hidden_word") the carrier word must be an ORDINARY word whose meaning is',
-  '  unrelated to the answer, and the clue must NOT also define the answer — the hidden word should be a',
-  '  surprise, never signposted by the surrounding clue.',
-  '- answer_form: the primary answer should be the shortest natural form a player would actually say',
-  '  (e.g. "Rose Bowl", not "Rose Bowl Game"; move the longer form to an alias).',
-  '- factual: the clue\'s claim contradicts or is not supported by the provided citation snippet.',
+  'GROUNDING — non-negotiable: for every leak / wording / category claim, QUOTE the exact offending',
+  'substring from the CLUE as given. If you cannot quote it verbatim from the clue text, do NOT make the',
+  'claim. Never reference a word that is not actually in the clue.',
   '',
-  'For EACH clue return an object:',
+  'DIMENSIONS — flag every one that genuinely applies:',
+  '- leak: the ANSWER, an ALIAS, or a word sharing the answer\'s STEM/ROOT appears in the clue (e.g. a',
+  '  "millipede" clue that says "thousand feet"; a clue containing the answer\'s Latin root). A mere SYNONYM',
+  '  or paraphrase is NOT a leak — do not flag it as one. A good clue often describes what the answer MEANS,',
+  '  and in wordplay a related/soundalike word is often essential to the mechanic. Quote the leaking substring.',
+  '- category: the answer\'s subject does not match its category/subcategory (a PERSON → their field; a FILM →',
+  '  Film; a PLACE → Geography; a definition/word → words_language). Name the category it should be in.',
+  '- difficulty_fit: the dollar value does not match the clue\'s real difficulty, in EITHER direction. Ladder:',
+  '  $200 = a household name/fact stated plainly · $400 = one solid identifying fact · $600 = needs triangulation',
+  '  or a moderately obscure fact · $800–$1000 = a single oblique/counterintuitive hook OR a genuinely deep or',
+  '  lesser-known answer. Calibrate to a KNOWLEDGEABLE TRIVIA PLAYER, not to your own knowledge — do NOT assume a',
+  '  specialist (a landscape architect, a mid-tier composer, a scientific term) is "common knowledge." Be',
+  '  CONSERVATIVE about downgrading: only lower a value when the answer is genuinely a household name reached by a',
+  '  direct hook. Also catch UNDER-priced clues (a plainly-stated fact sitting at $600+). Give suggested_value.',
+  '- wording: the clue is not a clean, single-parse declarative sentence. Flag front-loaded subordinate clauses',
+  '  that bury the subject, stacked em-dash asides, convoluted phrasing, redundant filler (e.g. "in particle',
+  '  physics"), or an odd/wrong word. Quote the offending phrase.',
+  '- factual: the clue\'s claim CONTRADICTS the provided SOURCE excerpt. Flag ONLY a clear contradiction — never',
+  '  flag merely because a detail is absent from the excerpt (it may be partial).',
+  '  (Duplicate AND related-clue detection are handled deterministically outside this rubric — do NOT flag either yourself.)',
+  '- wordplay (ONLY for language_wordplay clues): judge the MECHANIC and, above all, RETRIEVABILITY — could a',
+  '  solver actually reach the answer? For a BEFORE & AFTER, the two source phrases must be CONCEPTUALLY',
+  '  UNRELATED — joined only by a coincidental shared pivot word, never by a shared theme or domain. Flag it if',
+  '  (a) the two halves are thematically linked / would naturally co-occur (e.g. "Sugar Cane" + "Cane Toad" both',
+  '  belong to the cane-toad story — bad; "Cane Toad" + "Toadstool", an amphibian and a fungus, is good), or',
+  '  (b) the spliced composite reads as a REAL standalone term/answer in its own right ("Ground Floor Plan",',
+  '  "Music Box Office", "Short Circuit Board" are real things, not surprising splices). A hidden-word carrier',
+  '  must be an ordinary word unrelated to the answer, and the clue must not define the answer.',
+  "- alias: review the clue's ALIASES (the \"aliases:\" line). Flag an alias that (a) LEAKS — the alias,",
+  '  or a number/symbol of it spelled out, appears in the clue; (b) is NON-CONFORMING — it drops an',
+  "  essential disambiguator (a monarch's regnal number), is an over-broad bare surname when the answer",
+  '  is not a simple personal name, or does not fit a shown initials/length hint; or (c) is VAGUE or',
+  '  DUPLICATIVE — it has many well-known referents (e.g. "Medici" for Lorenzo de\' Medici) or collides',
+  '  with a different famous entity. Quote the offending alias.',
+  '',
+  'SUGGESTED REWRITES (suggested_clue): follow the craft rules the authors do — lead with the subject, keep it',
+  'tight, introduce NO new term close to the answer. For a WORDPLAY clue, a rewrite MUST preserve the wp',
+  'constraint (same scramble letters / same splice / same hidden carrier / same soundalike); if you cannot',
+  'preserve it, flag the issue but OMIT suggested_clue — do not propose a rewrite that breaks the mechanic.',
+  '',
+  'Return one object per clue:',
   '{"external_id":"<id>","verdict":"pass"|"revise"|"drop",',
-  ' "issues":[{"dimension":"leak|wording|difficulty_fit|initials|hidden_word|answer_form|factual","detail":"<short>"}],',
-  ' "suggested_clue":"<full rewritten clue, ONLY when a clue rewrite fixes it; omit otherwise>",',
-  ' "suggested_value":<200|400|600|800|1000, ONLY when difficulty_fit is flagged>,',
-  ' "notes":"<one line, optional>"}',
+  ' "issues":[{"dimension":"leak|category|difficulty_fit|wording|factual|wordplay|alias","detail":"<quote the substring>"}],',
+  ' "suggested_clue":"<full rewrite, only when it fixes the issue AND preserves any mechanic; omit otherwise>",',
+  ' "suggested_value":<200|400|600|800|1000, only when difficulty_fit>, "notes":"<one line, optional>"}',
   'pass = ship as-is (empty issues). Respond with ONLY a JSON array, no prose, no code fences.',
 ].join('\n');
 
-const CITATION_CAP = 400;
+const SOURCE_CAP = 4000;
 
-function itemBlock(q, index) {
+// Build a URL -> full extract map from the drafter's source docs for a category, so the
+// critic fact-checks against the SAME text the author wrote from (not a truncated snippet).
+function loadDocs(categoryId) {
+  const dir = path.join(rootDir, 'data', 'sourcing', 'docs', categoryId);
+  const map = new Map();
+  let files = [];
+  try { files = fs.readdirSync(dir).filter((f) => f.endsWith('.json')); } catch { return map; }
+  for (const f of files) {
+    try {
+      const d = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      const text = d.extract || d.summary;
+      if (d.url && text) map.set(normUrl(d.url), text);
+    } catch { /* skip unreadable doc */ }
+  }
+  return map;
+}
+
+function normUrl(u) { return String(u).trim().replace(/^https?:\/\//, '').replace(/\/$/, '').toLowerCase(); }
+
+function sourceFor(q, docMap) {
+  const urls = [q.source_url, ...((q.citations || []).map((c) => c.url))].filter(Boolean);
+  for (const u of urls) { const hit = docMap.get(normUrl(u)); if (hit) return hit; }
+  // fall back to the (truncated) citation snippet if no full doc matched
+  return (q.citations && q.citations[0] && q.citations[0].snippet) || '';
+}
+
+// Duplicate detection MIRRORS the import gate (import-to-supabase.mjs hard-gate #2), just
+// surfaced as advisory feedback instead of a block: a collision is the same normalized answer
+// (or alias) AND the same CLASS — class = wordplay-ness (category === language_wordplay) and
+// image-ness (image_url present) both match — and `allow_duplicate: true` is exempt. Scoped to
+// the ACTIVE bank (same as the gate), plus — via --dup-index — the pending answers of every
+// OTHER open drafter PR, so a genuine cross-PR collision surfaces too. NOT the LLM's job.
+const WORDPLAY_CATEGORY = 'language_wordplay';
+// Mechanics where the hint IS the disambiguator (initials, revealed letters), so a duplicate
+// answer is a real duplicate — allow_duplicate does NOT exempt these (unlike anagram/before-after/
+// homophone/hidden-word/rhyme-time, where the answer is itself the novel wordplay object).
+const HINTED_MECHANICS = new Set(['initials', 'crossword']);
+const classKey = (categoryId, hasImage) => `${categoryId === WORDPLAY_CATEGORY ? 'wp' : 'std'}:${hasImage ? 'img' : 'txt'}`;
+const normAns = (s) => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+
+async function buildDupIndex(indexPath) {
+  const index = new Map(); // normalized answer/alias -> [{ cls, label }]
+  const add = (val, cls, label) => {
+    const k = normAns(val);
+    if (!k) return;
+    if (!index.has(k)) index.set(k, []);
+    index.get(k).push({ cls, label });
+  };
+  let bank = null;
+  const bankRows = []; // for the advisory RELATED check (entity overlap)
+  try {
+    const request = createSupabaseRequest(getSupabaseAdminConfig());
+    let rows;
+    try {
+      rows = await fetchAllSupabaseRows(request, '/rest/v1/questions?select=external_id,answer,aliases,category_id,image_url,topic_entities,clue&is_active=eq.true');
+    } catch {
+      // topic_entities column absent (migration 036 not yet applied) — fetch without it and
+      // compute entities on the fly, so dedup + related both keep working during the transition.
+      rows = await fetchAllSupabaseRows(request, '/rest/v1/questions?select=external_id,answer,aliases,category_id,image_url,clue&is_active=eq.true');
+    }
+    bank = rows.length;
+    for (const r of rows) {
+      const cls = classKey(r.category_id, Boolean(r.image_url));
+      const label = `bank:${r.category_id}`;
+      add(r.answer, cls, label);
+      for (const a of Array.isArray(r.aliases) ? r.aliases : []) add(a, cls, label);
+      // stored tags (migration 036); fall back to on-the-fly extraction for un-backfilled rows
+      const ent = (Array.isArray(r.topic_entities) && r.topic_entities.length) ? r.topic_entities : extractTopicEntities(r.answer, r.clue);
+      bankRows.push({ external_id: r.external_id, answer: r.answer, category_id: r.category_id, ent, where: 'the active bank' });
+    }
+  } catch { bank = null; /* no creds → bank part skipped */ }
+  let pending = 0;
+  if (indexPath) {
+    try {
+      for (const e of JSON.parse(fs.readFileSync(indexPath, 'utf8'))) {
+        const cls = classKey(e.category_id || '', Boolean(e.image_url));
+        const label = e.where || 'open-PR';
+        add(e.answer, cls, label);
+        for (const a of e.aliases || []) add(a, cls, label);
+        pending += 1;
+      }
+    } catch (err) { console.error(`  ! could not read --dup-index: ${err.message}`); }
+  }
+  return { index, bank, pending, bankRows };
+}
+
+// Clues that share enough distinctive entities to be RELATED (same fact/topic, possibly under a
+// different answer) — the gap answer-dedup can't see. Advisory only. Compares against BOTH the
+// active bank AND the other clues in this run (a within-run near-duplicate — e.g. a Darwin clue
+// and a Natural-selection clue in the same pack — is just as bad as colliding with the bank).
+// Same answer is the dedup's job, so it's excluded; self is excluded by external_id; the
+// cross-category bar is higher (relatedThreshold).
+function relatedHits(q, compareRows) {
+  // Prefer the clue's stamped/curated tags (tag-pack.mjs); fall back to on-the-fly extraction.
+  const ent = (Array.isArray(q.topic_entities) && q.topic_entities.length) ? q.topic_entities : extractTopicEntities(q.answer, q.clue);
+  if (ent.length < 2 || !compareRows) return [];
+  const qa = normAns(q.answer);
+  const qid = String(q.external_id || q.answer);
+  const out = [];
+  for (const b of compareRows) {
+    if (String(b.external_id) === qid || normAns(b.answer) === qa) continue;
+    const shared = sharedEntities(ent, b.ent);
+    if (shared.length >= relatedThreshold(q.category_id, b.category_id)) out.push({ b, shared });
+  }
+  return out.sort((x, y) => y.shared.length - x.shared.length).slice(0, 3);
+}
+
+// Locations where this clue collides under the gate's rules (same answer/alias + same class),
+// honoring the allow_duplicate exemption. Empty unless a real same-class collision exists.
+function dupHits(q, index) {
+  if (!index) return [];
+  if (q.allow_duplicate === true && !HINTED_MECHANICS.has(q.mechanic)) return [];
+  const cls = classKey(q.category_id, Boolean(q.image_url));
+  const keys = new Set([q.answer, ...(q.aliases || [])].map(normAns).filter(Boolean));
+  const labels = new Set();
+  for (const k of keys) for (const e of index.get(k) || []) if (e.cls === cls) labels.add(e.label);
+  return [...labels];
+}
+
+function itemBlock(q, index, docMap) {
   const linter = auditFeedbackIssues(q);
-  const cite = (q.citations && q.citations[0] && q.citations[0].snippet) || '';
+  const src = String(sourceFor(q, docMap)).slice(0, SOURCE_CAP);
   const lines = [
     `### Item ${index + 1}`,
     `external_id: ${q.external_id || q.answer}`,
@@ -92,16 +249,15 @@ function itemBlock(q, index) {
   ];
   if (q.wp && Object.keys(q.wp).length) lines.push(`wp: ${JSON.stringify(q.wp)}`);
   lines.push(`clue: ${q.clue}`);
-  if (cite) lines.push(`citation: ${String(cite).slice(0, CITATION_CAP)}`);
+  if (src) lines.push(`source_excerpt: ${src}`);
   lines.push(`linter_flags: ${linter.issues.length ? linter.issues.join(', ') : '(none)'}`);
   return lines.join('\n');
 }
 
 function runClaude(prompt, timeoutMs = 360000) {
   return new Promise((resolve, reject) => {
-    // shell:true so the npm-global `claude` shim resolves on Windows + POSIX; the prompt
-    // is piped via stdin (not argv) so size/quoting are non-issues and there's no
-    // shell-injection surface (argv is fixed flags only). Mirrors llm-grader.mjs.
+    // shell:true so the npm-global `claude` shim resolves on Windows + POSIX; the prompt is
+    // piped via stdin (not argv) so size/quoting are non-issues. Mirrors llm-grader.mjs.
     const child = spawn(`claude -p --output-format json --model ${model}`, { shell: true });
     let out = '';
     let err = '';
@@ -111,10 +267,7 @@ function runClaude(prompt, timeoutMs = 360000) {
     }, timeoutMs);
     child.stdout.on('data', (d) => (out += d));
     child.stderr.on('data', (d) => (err += d));
-    child.on('error', (e) => {
-      clearTimeout(timer);
-      reject(e);
-    });
+    child.on('error', (e) => { clearTimeout(timer); reject(e); });
     child.on('close', (code) => {
       clearTimeout(timer);
       if (code !== 0) return reject(new Error(`claude exited ${code}: ${err.slice(0, 300)}`));
@@ -135,17 +288,15 @@ function extractJsonArray(text) {
   const start = fenced.indexOf('[');
   const end = fenced.lastIndexOf(']');
   if (start === -1 || end === -1 || end <= start) return null;
-  try {
-    return JSON.parse(fenced.slice(start, end + 1));
-  } catch {
-    return null;
-  }
+  try { return JSON.parse(fenced.slice(start, end + 1)); } catch { return null; }
 }
 
-async function critiquePack(packPath) {
+async function critiquePack(packPath, dupIndex, relatedRows) {
   const pack = JSON.parse(fs.readFileSync(packPath, 'utf8'));
   const questions = pack.questions || pack;
-  const prompt = `${RUBRIC}\n\n${questions.map(itemBlock).join('\n\n')}`;
+  const categoryId = pack.category_id || (questions[0] && questions[0].category_id) || '';
+  const docMap = loadDocs(categoryId);
+  const prompt = `${RUBRIC}\n\n${questions.map((q, i) => itemBlock(q, i, docMap)).join('\n\n')}`;
 
   let verdicts;
   try {
@@ -161,11 +312,38 @@ async function critiquePack(packPath) {
   }
 
   const byId = new Map(verdicts.map((v) => [String(v.external_id), v]));
+  let dupFlagged = 0;
+  let relFlagged = 0;
   const rows = questions.map((q) => {
     const v = byId.get(String(q.external_id || q.answer)) || { verdict: 'pass', issues: [] };
-    return { external_id: q.external_id || q.answer, answer: q.answer, value: q.value, ...v };
+    const row = { external_id: q.external_id || q.answer, answer: q.answer, value: q.value, ...v };
+    // Deterministic, gate-mirroring dedup merged in AFTER the LLM pass — advisory, never an
+    // auto-drop: a same-answer + same-class collision is either blessed with allow_duplicate
+    // (genuinely different fact) or one clue is cut, exactly as the import gate treats it.
+    const hits = dupHits(q, dupIndex);
+    if (hits.length) {
+      dupFlagged += 1;
+      row.issues = [...(row.issues || []), {
+        dimension: 'duplicate',
+        detail: `same-answer, same-class collision with ${hits.join('; ')} — bless with allow_duplicate if a genuinely different fact, otherwise cut one.`,
+      }];
+      if (!row.verdict || row.verdict === 'pass') row.verdict = 'revise';
+    }
+    // Advisory RELATED check — same fact/topic under a (possibly) different answer, via shared
+    // entities. Not a dup and not a gate: a heads-up to compare and decide.
+    const rel = relatedHits(q, relatedRows);
+    if (rel.length) {
+      relFlagged += 1;
+      const where = rel.map((r) => `${r.b.external_id} "${r.b.answer}" [${r.b.category_id}] in ${r.b.where} (shared: ${r.shared.join(', ')})`).join('; ');
+      row.issues = [...(row.issues || []), {
+        dimension: 'related',
+        detail: `may re-ask the same fact/topic as another clue — ${where}. Compare and decide (reword to differentiate, or drop if truly redundant).`,
+      }];
+      if (!row.verdict || row.verdict === 'pass') row.verdict = 'revise';
+    }
+    return row;
   });
-  return { packPath, rows };
+  return { packPath, rows, docs: docMap.size, dupFlagged, relFlagged };
 }
 
 function renderMarkdown(results) {
@@ -173,10 +351,7 @@ function renderMarkdown(results) {
   for (const { packPath, rows } of results) {
     const flagged = rows.filter((r) => r.verdict !== 'pass');
     lines.push(`## ${path.basename(packPath)} — ${flagged.length}/${rows.length} need work`, '');
-    if (!flagged.length) {
-      lines.push('_All clues pass._', '');
-      continue;
-    }
+    if (!flagged.length) { lines.push('_All clues pass._', ''); continue; }
     for (const r of flagged) {
       lines.push(`### [${r.verdict.toUpperCase()}] ${r.external_id} — "${r.answer}" ($${r.value})`);
       for (const iss of r.issues || []) lines.push(`- **${iss.dimension}**: ${iss.detail}`);
@@ -189,17 +364,37 @@ function renderMarkdown(results) {
   return lines.join('\n');
 }
 
+await loadDefaultEnv(rootDir); // for the Supabase duplicate index (no-op if creds absent)
+
+const { index: dupIndex, bank, pending, bankRows } = await buildDupIndex(dupIndexPath);
+console.log(`Duplicate index: ${bank == null ? 'bank OFF (no Supabase)' : bank + ' active bank rows'}${pending ? `, ${pending} pending answers from other open PRs` : ''} (same-answer + same-class, allow_duplicate-exempt; entity tags for related-check).`);
+
+// The related-check compares each clue against the bank AND the other clues in THIS run, so a
+// within-run near-duplicate (same fact under a different answer, in another pack) is caught too.
+const runRows = [];
+for (const packPath of packPaths) {
+  try {
+    const pack = JSON.parse(fs.readFileSync(packPath, 'utf8'));
+    for (const q of (pack.questions || pack)) {
+      const ent = (Array.isArray(q.topic_entities) && q.topic_entities.length) ? q.topic_entities : extractTopicEntities(q.answer, q.clue);
+      runRows.push({ external_id: q.external_id || q.answer, answer: q.answer, category_id: q.category_id, ent, where: 'this run' });
+    }
+  } catch { /* critiquePack re-reads and reports read errors */ }
+}
+const relatedRows = [...bankRows, ...runRows];
+console.log(`Related-check compares against ${bankRows.length} bank + ${runRows.length} in-run clue(s).`);
+
 const results = [];
 for (const packPath of packPaths) {
   console.log(`Critiquing ${path.basename(packPath)} with ${model}…`);
-  const res = await critiquePack(packPath);
-  if (res) results.push(res);
+  const res = await critiquePack(packPath, dupIndex, relatedRows);
+  if (res) {
+    console.log(`  (source docs matched for ${res.docs} topic(s); ${res.dupFlagged} collision(s), ${res.relFlagged} related-clue flag(s))`);
+    results.push(res);
+  }
 }
 
-if (!results.length) {
-  console.log('No critiques produced.');
-  process.exit(0);
-}
+if (!results.length) { console.log('No critiques produced.'); process.exit(0); }
 
 const outDir = 'data/acquisition';
 fs.mkdirSync(outDir, { recursive: true });

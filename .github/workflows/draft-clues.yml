@@ -4,8 +4,18 @@ name: Draft clues (daily)
 # harvesting AND drafting run in the cloud, not on a laptop. Each run:
 #   1. harvests a few fresh J! Archive games into the flat topic pool + keywords them
 #      (committed straight onto the run's branch),
-#   2. drafts ~15 source-grounded clues for two under-covered categories (pulling docs
-#      from the keyword pool) and opens ONE PR — pool + clues ride in that PR.
+#   2. TWO-PASS drafting so the LLM critic + LLM entity tagger actually run. They can't
+#      run INSIDE the drafter's own headless `claude -p` session (a nested `claude -p`
+#      exits 1 in CI — that's why earlier runs shipped regex tags + no critic), so each
+#      LLM step is its own TOP-LEVEL step, exactly like keyword-topics:
+#        (a) DRAFT pass  — author 3 packs + deterministic gates, commit, write pr-body.md
+#        (b) TAG         — node tag-pack.mjs → LLM topic_entities on the draft clues
+#        (c) CRITIC      — node critique-clues.mjs → advisory verdicts (clue-critique-*.json)
+#        (d) REVISE pass — apply the critic's revise/drop verdicts, replace dropped clues
+#        (e) TAG (again) — tag any replacement clues
+#        (f) PR          — open ONE review PR from pr-body.md
+#      The drafter→critic→replace loop is preserved; it's just handed across two passes
+#      through the critique JSON instead of nested in one session.
 # It NEVER imports live and NEVER merges; going live happens only when a human merges the
 # PR (which also lands the pool update), via the existing import-on-merge.yml workflow.
 #
@@ -147,6 +157,26 @@ jobs:
           git add data/sourcing/topics/pool.json data/sourcing/harvest-state.json
           git commit -m "chore(harvest): refresh topic pool + cursor for $(date -u +%F)" || echo "No harvest changes to commit this run."
 
+      # LEARN from every merged edit BEFORE drafting: re-harvest the (draft->final) rewrites from git
+      # history, pull the editor's review comments, condense any NEW pairs (Sonnet, incremental), and
+      # regenerate planning/clue-rewrite-lessons.md — which the draft pass then reads. Committed onto
+      # the branch so the refreshed lessons + corpus + edit-rate metrics ride in the reviewed PR (the
+      # bot can't push to protected main directly; the PR is the rule-abiding path). Degrades safely:
+      # a failure here must not sink the draft, so it never exits non-zero.
+      - name: Learn from merged edits (refresh rewrite lessons)
+        run: |
+          set +e
+          node tools/acquisition/harvest-clue-rewrites.mjs
+          node tools/acquisition/harvest-review-comments.mjs
+          node tools/acquisition/condense-rewrites.mjs
+          node tools/acquisition/build-rewrite-lessons.mjs
+          git add planning/clue-rewrite-lessons.md \
+            data/acquisition/clue-rewrites.jsonl data/acquisition/clue-comments.jsonl \
+            data/acquisition/clue-rewrite-lessons.jsonl data/acquisition/drafter-metrics.jsonl \
+            data/acquisition/labeled-clues.jsonl
+          git commit -m "chore(learn): refresh rewrite lessons from merged edits ($(date -u +%F))" || echo "No lesson changes this run."
+          exit 0
+
       # DIAGNOSTIC: the draft step has been running ~50+ min on hosted runners vs
       # ~20-30 min locally. Prime suspect is Wikipedia rate-limiting the shared Actions
       # egress IP — build-topic-docs fetches ~25 docs/category and the 429-backoff turns
@@ -189,52 +219,76 @@ jobs:
             })();
           '
 
-      - name: Draft clues and open a PR (headless Claude Code)
+      # (a) DRAFT pass. Authors the three packs, runs the deterministic gates, commits +
+      # pushes the packs, and writes data/acquisition/pr-{title.txt,body.md} for the PR
+      # step. Does NOT tag, critique, or open a PR — those are the top-level steps below.
+      # Streaming + 529-retry live in the shared run-claude-pass.sh helper (both passes
+      # use it), so a transient overload doesn't throw away a ~25-50 min pass.
+      - name: Draft pass — author packs + deterministic gates
+        run: bash tools/acquisition/run-claude-pass.sh planning/draft-clues-prompt.md claude-sonnet-4-6
+
+      # Today's packs by date: sourced are "<cat>-draft-<date>.json", wordplay is
+      # "wordplay-<date>.json" — both end in "-<date>.json", so this glob catches exactly
+      # this run's three packs (older packs carry other dates). Reused by every step below.
+      - name: Tag draft clues with LLM topic entities
         run: |
-          # Stream the run as NDJSON (--output-format stream-json) through
-          # format-stream.mjs, which prints one timestamped line per tool call / LLM
-          # turn AS IT HAPPENS. Plain --verbose buffers everything into one dump at the
-          # end (we get no live timeline), so stream-json is what makes the wall-clock
-          # readable — which step (build-topic-docs, verify-clue-sources, import, or LLM
-          # thinking) is slow.
-          #
-          # RETRY on transient server-side errors only. A single Anthropic 529 (Overloaded)
-          # mid-run otherwise throws away the whole ~25-50 min draft (happened 2026-06-23,
-          # 24 min in, right before writing the packs). We retry the run on 529 / 5xx /
-          # overloaded with backoff, but NOT on a genuine failure (a real bug should fail
-          # fast). `set +e` because the default GitHub shell is `bash -eo pipefail`, which
-          # would abort the step on the first failed pipeline before the loop can react.
-          # tee captures the stream so we can classify the failure; PIPESTATUS[1] is
-          # claude's own exit (cat=0, claude=1, tee=2, node=3) — the real success signal.
-          set +e
-          max_attempts=4
-          log="$(mktemp)"
-          attempt=1
-          while :; do
-            echo "::group::Draft attempt ${attempt}/${max_attempts}"
-            cat planning/draft-clues-prompt.md | claude -p --verbose --output-format stream-json \
-              --model claude-sonnet-4-6 \
-              --allowedTools "Bash,Read,Write,Edit,Glob,Grep,TodoWrite" \
-              --max-turns 120 | tee "$log" | node tools/acquisition/format-stream.mjs
-            status=${PIPESTATUS[1]}
-            echo "::endgroup::"
+          packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
+          echo "Tagging: $packs"
+          node tools/acquisition/tag-pack.mjs $packs
+          # Deterministically fix wordplay answer casing (crossword UPPER, others Title Case) so the
+          # LLM-constructed wordplay doesn't need hand-fixing — see normalize-wordplay-casing.mjs.
+          node tools/acquisition/normalize-wordplay-casing.mjs $packs
+          git add $packs
+          git commit -m "chore(clues): LLM topic_entities + wordplay casing for $(date -u +%F) draft" \
+            && git push origin HEAD || echo "No tag changes to commit."
 
-            if [ "$status" -eq 0 ]; then
-              echo "Draft succeeded on attempt ${attempt}."
-              exit 0
-            fi
+      # Advisory critic. Runs on the now-tagged packs so its RELATED-clue check uses the
+      # LLM tags. Writes data/acquisition/clue-critique-batch.json (+ .md) for the revise
+      # pass to consume. Never hard-fails (it exits 0 and degrades) — guard anyway.
+      - name: Editorial critic (advisory; feeds the revise pass)
+        run: |
+          packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
+          args=""; for p in $packs; do args="$args --pack $p"; done
+          node tools/acquisition/critique-clues.mjs $args || echo "Critic degraded (advisory) — continuing."
 
-            if [ "$attempt" -lt "$max_attempts" ] && \
-               grep -qiE '529|overloaded|api error: 5[0-9][0-9]|internal server error|service unavailable|temporarily unavailable' "$log"; then
-              # Long, escalating waits: 5 / 10 / 20 min. A 529 overload can persist for a
-              # while, and dropping a ~25-50 min job is the expensive outcome — so wait it out.
-              backoff=$(( 300 * (1 << (attempt - 1)) ))
-              echo "::warning::Draft attempt ${attempt} hit a transient API error (claude exit ${status}). Retrying in ${backoff}s…"
-              sleep "${backoff}"
-              attempt=$(( attempt + 1 ))
-              continue
-            fi
+      # (d) REVISE pass. Reads the critique JSON and applies every revise/drop verdict —
+      # replacing dropped clues so each pack keeps its count — re-runs the affected gates,
+      # updates pr-body.md with the critic outcome, and commits. Replacement clues are left
+      # UNtagged so the next step tags them. Does NOT tag or open a PR.
+      - name: Revise pass — apply critic feedback + replace drops
+        run: bash tools/acquisition/run-claude-pass.sh planning/revise-clues-prompt.md claude-sonnet-4-6
 
-            echo "::error::Draft failed on attempt ${attempt} (claude exit ${status}) — not a retryable transient error, or retries exhausted."
+      # Tag any fresh replacement clues the revise pass authored (tag-pack skips clues that
+      # already carry topic_entities, so this only touches new ones). No-op if nothing changed.
+      - name: Tag any replacement clues
+        run: |
+          packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
+          node tools/acquisition/tag-pack.mjs $packs
+          node tools/acquisition/normalize-wordplay-casing.mjs $packs
+          git add $packs
+          git commit -m "chore(clues): LLM topic_entities + wordplay casing for revised clues" \
+            && git push origin HEAD || echo "No new tags to commit."
+
+      # (e2) Flag answers that ALSO appear in other open draft PRs. The bank-collision gate only
+      # sees ACTIVE clues, so an answer sitting in an unmerged sibling PR is invisible until it
+      # merges — then the second PR's clue is skipped at import (the #99/#107 "Ice" case). This
+      # appends an overlap warning to the PR body so the human de-dups before merging. Advisory.
+      - name: Flag answer overlaps with open draft PRs
+        run: |
+          packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
+          node tools/acquisition/check-open-pr-answer-overlaps.mjs $packs --append data/acquisition/pr-body.md \
+            || echo "Overlap check degraded (advisory) — continuing."
+
+      # (f) Open the ONE review PR. The workflow owns PR creation (not the agent) because
+      # tagging now happens after the revise pass; the agent supplied the title/body files.
+      - name: Open the review PR
+        run: |
+          title_file="data/acquisition/pr-title.txt"
+          body_file="data/acquisition/pr-body.md"
+          if [ ! -f "$title_file" ] || [ ! -f "$body_file" ]; then
+            echo "::error::pr-title.txt / pr-body.md missing — the draft pass did not write them." >&2
             exit 1
-          done
+          fi
+          git push origin HEAD  # ensure the branch is on origin (no-op if already pushed)
+          gh pr create --base main --head "$DRAFT_BRANCH" \
+            --title "$(cat "$title_file")" --body-file "$body_file"
