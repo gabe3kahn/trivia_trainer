@@ -3,8 +3,9 @@
  * Regenerate planning/clue-rewrite-lessons.md from the condensed corpus (clue-rewrite-lessons.jsonl).
  * Curated PRINCIPLE headers (stable) + EXEMPLARS pulled live from the corpus. We keep exemplars
  * AGGRESSIVELY — variety of flavor beats brevity, more beats fewer — deduping only near-identical
- * ones (same answer, or the same one-line lesson). Difficulty/value edits are intentionally OUT OF
- * SCOPE (handled separately); this file is about writing good clues.
+ * ones (same answer, or the same one-line lesson). Difficulty-calibration edits (section 7) ARE in
+ * scope now — the editor's difficulty rewrites are the drafter's best signal for writing oblique,
+ * value-matched clues instead of fact-stacked ones; this file is about writing good clues.
  *
  *   node tools/acquisition/build-rewrite-lessons.mjs   (after condense-rewrites)
  */
@@ -31,6 +32,8 @@ const SECTIONS = [
     guide: 'Match the clue\'s tense to the event (a past event takes past tense — "relied," not "relies"). Keep a comma/semicolon OUTSIDE a title\'s quotes (\'Jazz Age\', not \'Jazz Age,\'). Never join two independent clauses with a bare comma (comma splice). A brief role label helps when citing a less-familiar authority ("the historian A.J.P. Taylor…"). (The punctuation-inside-quote and comma-splice cases are also caught deterministically.)' },
   { title: '6. Dedupe across the whole run', types: ['dedup_reword'],
     guide: 'When the standard angle duplicates another clue in the run or the bank, pivot to an unexpected detail that still uniquely identifies the subject — or cut it.' },
+  { title: '7. Calibrate difficulty to the value — obliqueness, NOT fact-stacking', types: ['reframe_difficulty', 'value_up', 'value_down'],
+    guide: "Difficulty comes from HOW OBLIQUE the hook is, never from piling on facts. For a HIGH-value clue ($800–1000), discard the famous summary/nickname and anchor on a lesser-known detail, an obscure endpoint or supporting character, or a surprising origin/reception fact that demands real subject knowledge. A LOW-value clue ($200–400) can use a direct hook. Never lead with the giveaway nickname, and never stack multiple identifying facts to pad a clue — one well-chosen oblique hook beats three obvious ones. Don't define an answer as the missing member of a short list, and cut trivia-within-trivia that inflates difficulty past the stated value without aiding recognition. Write each clue so its obliqueness matches its dollar value." },
 ];
 const CAP = 10;
 const clip = (s, n = 200) => (s.length > n ? s.slice(0, n) + '…' : s);
@@ -43,7 +46,8 @@ const out = [
   'it reflects every merged edit. Pre-apply these so the drafter writes the FINAL version on the first pass._', '',
   '> The top edits — tighten, vivid hook, cut giveaway, concrete-over-abstract — are the ones no deterministic gate',
   '> can catch. This is where they get taught.', '',
-  '> **Difficulty/value is out of scope here** — handled separately. Do not change values based on these lessons.', '',
+  '> **Calibrate difficulty as you draft (section 7).** Write each clue so its obliqueness matches the value you assign it —',
+  '> oblique/single-hook for high value, direct for low — never pad difficulty by stacking facts or leading with a giveaway.', '',
   '> **These guardrails constrain HOW you rewrite, not WHETHER.** Propose a rewrite whenever it clearly IMPROVES the',
   '> clue — a hedged/generic opener, a subject buried so it obscures, real wordiness, a leak, a grammar error. Do not',
   "> withhold a clear improvement, and do not make lateral/trivial edits that don't improve it. When you DO rewrite,",
