@@ -83,7 +83,7 @@ Replace biography, provenance, and generic category descriptions with a specific
   - before: This Tchaikovsky concert piece, written in 1880, commemorates Russia's successful defense against a French invasion; it was first performed in Moscow on August 20, 1882, under a tent near the still-un…
   - after:  This Tchaikovsky concert piece — written in 1880, sixty-eight years after the year that lends the work its name — commemorates Russia's successful defense against the invading French; it premiered in …
 
-## 3. Cut the giveaway — and hidden or phonetic leaks (48)
+## 3. Cut the giveaway — and hidden or phonetic leaks (49)
 Remove any detail that reveals or phonetically implies the answer: a quote containing the answer word, an etymological root, an ordinal rank that telegraphs it.
 
 - **American Gothic** — Remove any word from the clue body that also appears in the answer's title, even buried in descriptors.
@@ -183,7 +183,7 @@ When the standard angle duplicates another clue in the run or the bank, pivot to
   - before: This island state — the only U.S. state that is an archipelago, the only one located south of the Tropic of Cancer, and one of only two states that were internationally recognized sovereign nations be…
   - after:  The last sovereign monarch of the Hawaiian Kingdom, this queen was deposed in an 1893 overthrow backed by American business interests; an accomplished musician, she composed the beloved farewell song …
 
-## 7. Calibrate difficulty to the value — obliqueness, NOT fact-stacking (18)
+## 7. Calibrate difficulty to the value — obliqueness, NOT fact-stacking (17)
 Difficulty comes from HOW OBLIQUE the hook is, never from piling on facts. For a HIGH-value clue ($800–1000), discard the famous summary/nickname and anchor on a lesser-known detail, an obscure endpoint or supporting character, or a surprising origin/reception fact that demands real subject knowledge. A LOW-value clue ($200–400) can use a direct hook. Never lead with the giveaway nickname, and never stack multiple identifying facts to pad a clue — one well-chosen oblique hook beats three obvious ones. Don't define an answer as the missing member of a short list, and cut trivia-within-trivia that inflates difficulty past the stated value without aiding recognition. Write each clue so its obliqueness matches its dollar value.
 
 - **Henri Matisse** — Lead with a lesser-known biographical detail; save the famous movement or title for the clue's end.
@@ -213,9 +213,9 @@ Difficulty comes from HOW OBLIQUE the hook is, never from piling on facts. For a
 - **Poseidon** — For high-value clues, strip iconic attributes and substitute obscure historical or cultic details.
   - before: This god of the sea and earthquakes carried a trident and was believed to have created horses with a strike of it; his Roman counterpart is Neptune.
   - after:  Bronze Age clay tablets at Pylos rank this 'Earth-Shaker' among the chief gods, and in the hills of remote Arcadia he was once worshipped in the form of a horse.
-- **Loki** — When one obscure fact carries the whole clue, pivot to multiple vivid corroborating details for better difficulty calibration.
-  - before: This Norse shape-shifter once took the form of a mare, was impregnated by a stallion, and gave birth to the eight-legged horse Sleipnir.
-  - after:  By a giantess this trickster sired three bringers of doom — the wolf Fenrir, the world-serpent, and the death-queen Hel.
+- **Anubis** — For lower dollar values, swap specific ceremony names for core epithet-roles that more players will recognize.
+  - before: This jackal-headed deity of ancient Egypt presided over the 'Weighing of the Heart' ceremony, in which a deceased soul's virtue was judged against a feather.
+  - after:  Protector of graves and lord of embalming, this canine-headed Egyptian god led the newly dead along the road to the underworld and its judgment.
 
 ## Left unchanged — already good, do NOT over-edit these
 These clues passed review with no change. If a clue already reads well, LEAVE IT ALONE — most clues need no edit.
