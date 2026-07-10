@@ -22,11 +22,22 @@
         "pivot": "Mob",
         "second": "Mob Rule"
       },
-      "tags": ["wp-draft", "before_and_after"],
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "2003",
+        "choreography",
+        "flash mob",
+        "public performance",
+        "social media",
+        "spontaneous assembly",
+        "viral video"
+      ]
     },
     {
       "source": "constructed",
@@ -46,11 +57,22 @@
         "pivot": "Case",
         "second": "Case Study"
       },
-      "tags": ["wp-draft", "before_and_after"],
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "classroom",
+        "pencil",
+        "pencil case",
+        "school supplies",
+        "stationery",
+        "students",
+        "writing instruments"
+      ]
     },
     {
       "source": "constructed",
@@ -64,17 +86,30 @@
       "clue": "A baked orchard-fruit pastry dusted with cinnamon inspired the consultant's go-to visual: a circular diagram divided into labeled portions.",
       "answer": "Apple Pie Chart",
       "answer_type": "other",
-      "aliases": ["Apple Pie Graph"],
+      "aliases": [
+        "Apple Pie Graph"
+      ],
       "wp": {
         "first": "Apple Pie",
         "pivot": "Pie",
         "second": "Pie Chart"
       },
-      "tags": ["wp-draft", "before_and_after"],
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "1801",
+        "circular diagram",
+        "data visualization",
+        "percentages",
+        "pie chart",
+        "statistics",
+        "william playfair"
+      ]
     },
     {
       "source": "constructed",
@@ -94,11 +129,22 @@
         "pivot": "Zone",
         "second": "Zone Defense"
       },
-      "tags": ["wp-draft", "before_and_after"],
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "basketball",
+        "court",
+        "defensive strategy",
+        "nba",
+        "players",
+        "sports",
+        "zone defense"
+      ]
     },
     {
       "source": "constructed",
@@ -118,11 +164,22 @@
         "pivot": "Dew",
         "second": "Dew Drop"
       },
-      "tags": ["wp-draft", "before_and_after"],
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "condensation",
+        "dawn",
+        "dew drop",
+        "grass",
+        "moisture",
+        "morning",
+        "mountain dew"
+      ]
     },
     {
       "source": "constructed",
@@ -140,11 +197,22 @@
       "wp": {
         "homophone": "stair"
       },
-      "tags": ["wp-draft", "homophone"],
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "architecture",
+        "building",
+        "home",
+        "stair",
+        "staircase",
+        "stairs",
+        "steps"
+      ]
     },
     {
       "source": "constructed",
@@ -162,11 +230,22 @@
       "wp": {
         "homophone": "gate"
       },
-      "tags": ["wp-draft", "homophone"],
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "barrier",
+        "door",
+        "entrance",
+        "farm",
+        "fence",
+        "gate",
+        "paddock"
+      ]
     },
     {
       "source": "constructed",
@@ -184,11 +263,22 @@
       "wp": {
         "homophone": "wail"
       },
-      "tags": ["wp-draft", "homophone"],
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "cry",
+        "distress",
+        "emotion",
+        "infant",
+        "lamentation",
+        "sound",
+        "wail"
+      ]
     },
     {
       "source": "constructed",
@@ -206,11 +296,22 @@
       "wp": {
         "homophone": "sent"
       },
-      "tags": ["wp-draft", "homophone"],
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "correspondence",
+        "delivery",
+        "mail",
+        "parcel",
+        "postage",
+        "sent",
+        "shipping"
+      ]
     },
     {
       "source": "constructed",
@@ -228,11 +329,22 @@
       "wp": {
         "homophone": "dough"
       },
-      "tags": ["wp-draft", "homophone"],
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
       "citations": [],
       "verification_status": "skipped",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "bakery",
+        "baking",
+        "bread",
+        "dough",
+        "fermentation",
+        "flour",
+        "yeast"
+      ]
     }
   ]
 }

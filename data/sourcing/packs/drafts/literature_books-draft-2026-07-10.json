@@ -18,7 +18,9 @@
       "clue": "Set in Messina around 1598, this Shakespeare comedy features two romances: one nearly wrecked by the scheming of Don John, and the other fueled by the banter of Benedick and Beatrice.",
       "answer": "Much Ado About Nothing",
       "answer_type": "other",
-      "aliases": ["Much Ado"],
+      "aliases": [
+        "Much Ado"
+      ],
       "tags": [
         "literature-books-draft",
         "sourced",
@@ -34,7 +36,14 @@
       ],
       "verification_status": "unverified",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "1598",
+        "beatrice",
+        "benedick",
+        "don john",
+        "messina",
+        "shakespeare"
+      ]
     },
     {
       "source": "original_sourced",
@@ -67,7 +76,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:01.114Z",
-      "topic_entities": []
+      "topic_entities": [
+        "2008",
+        "capitol",
+        "katniss everdeen",
+        "panem",
+        "suzanne collins"
+      ]
     },
     {
       "source": "original_sourced",
@@ -82,7 +97,9 @@
       "clue": "George Eliot's last completed novel, published in 1876, is her only work set in contemporary Victorian society — notable for its sympathetic treatment of proto-Zionist ideas.",
       "answer": "Daniel Deronda",
       "answer_type": "other",
-      "aliases": ["Deronda"],
+      "aliases": [
+        "Deronda"
+      ],
       "tags": [
         "literature-books-draft",
         "sourced",
@@ -98,7 +115,13 @@
       ],
       "verification_status": "unverified",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "1876",
+        "daniel deronda",
+        "george eliot",
+        "victorian england",
+        "zionism"
+      ]
     },
     {
       "source": "original_sourced",
@@ -131,7 +154,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:01.849Z",
-      "topic_entities": []
+      "topic_entities": [
+        "1922",
+        "bohemian-austrian",
+        "duino elegies",
+        "prague",
+        "sonnets to orpheus"
+      ]
     },
     {
       "source": "original_sourced",
@@ -146,7 +175,9 @@
       "clue": "Rudyard Kipling's 1897 novel follows a spoiled railroad heir rescued from the North Atlantic by a fishing schooner and forced to earn his keep among the crew.",
       "answer": "Captains Courageous",
       "answer_type": "other",
-      "aliases": ["Captains Courageous: A Story of the Grand Banks"],
+      "aliases": [
+        "Captains Courageous: A Story of the Grand Banks"
+      ],
       "tags": [
         "literature-books-draft",
         "sourced",
@@ -162,7 +193,13 @@
       ],
       "verification_status": "unverified",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "1897",
+        "fishing schooner",
+        "harvey cheyne",
+        "north atlantic",
+        "rudyard kipling"
+      ]
     },
     {
       "source": "original_sourced",
@@ -195,7 +232,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:02.580Z",
-      "topic_entities": []
+      "topic_entities": [
+        "2006",
+        "america",
+        "cormac mccarthy",
+        "post-apocalyptic",
+        "pulitzer prize"
+      ]
     },
     {
       "source": "original_sourced",
@@ -210,7 +253,9 @@
       "clue": "Dennis Lehane's 2023 novel is set in Boston's summer of 1974, just before citywide school integration, weaving Irish Mob conflict, a missing teenager, and racial unrest.",
       "answer": "Small Mercies",
       "answer_type": "other",
-      "aliases": ["Small Mercies (novel)"],
+      "aliases": [
+        "Small Mercies (novel)"
+      ],
       "tags": [
         "literature-books-draft",
         "sourced",
@@ -226,7 +271,14 @@
       ],
       "verification_status": "unverified",
       "verified_at": null,
-      "topic_entities": []
+      "topic_entities": [
+        "1974",
+        "2023",
+        "boston",
+        "dennis lehane",
+        "irish mob",
+        "school integration"
+      ]
     },
     {
       "source": "original_sourced",
@@ -259,7 +311,14 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:03.297Z",
-      "topic_entities": []
+      "topic_entities": [
+        "1982",
+        "2014",
+        "chilean-american",
+        "magical realism",
+        "presidential medal of freedom",
+        "the house of the spirits"
+      ]
     },
     {
       "source": "original_sourced",
@@ -274,7 +333,9 @@
       "clue": "Completed around 1799 but published posthumously in 1817, this Jane Austen novel satirizes Gothic fiction through Catherine Morland's overactive imagination.",
       "answer": "Northanger Abbey",
       "answer_type": "other",
-      "aliases": ["Northanger Abbey (Austen)"],
+      "aliases": [
+        "Northanger Abbey (Austen)"
+      ],
       "tags": [
         "literature-books-draft",
         "sourced",
@@ -290,7 +351,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:03.655Z",
-      "topic_entities": []
+      "topic_entities": [
+        "1799",
+        "1817",
+        "catherine morland",
+        "gothic fiction",
+        "jane austen"
+      ]
     },
     {
       "source": "original_sourced",
@@ -323,7 +390,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:04.051Z",
-      "topic_entities": []
+      "topic_entities": [
+        "1912",
+        "physician",
+        "professor challenger",
+        "sherlock holmes",
+        "the lost world"
+      ]
     },
     {
       "source": "original_sourced",
@@ -338,7 +411,9 @@
       "clue": "In Shakespeare's Scottish tragedy, this ambitious queen goads her husband into regicide; wracked by guilt, she later sleepwalks obsessively before dying offstage.",
       "answer": "Lady Macbeth",
       "answer_type": "other",
-      "aliases": ["Lady M"],
+      "aliases": [
+        "Lady M"
+      ],
       "tags": [
         "literature-books-draft",
         "sourced",
@@ -354,7 +429,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:04.410Z",
-      "topic_entities": []
+      "topic_entities": [
+        "guilt",
+        "macbeth",
+        "regicide",
+        "shakespeare",
+        "sleepwalking"
+      ]
     },
     {
       "source": "original_sourced",
@@ -387,7 +468,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:04.775Z",
-      "topic_entities": []
+      "topic_entities": [
+        "2017",
+        "2020",
+        "pulitzer prize",
+        "the nickel boys",
+        "the underground railroad"
+      ]
     },
     {
       "source": "original_sourced",
@@ -421,7 +508,14 @@
       ],
       "verification_status": "weak",
       "verified_at": "2026-07-10T14:52:05.250Z",
-      "topic_entities": []
+      "topic_entities": [
+        "1896",
+        "1898",
+        "anton chekhov",
+        "moscow art theatre",
+        "st. petersburg",
+        "stanislavski"
+      ]
     },
     {
       "source": "original_sourced",
@@ -452,7 +546,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:05.608Z",
-      "topic_entities": []
+      "topic_entities": [
+        "1605-1608",
+        "coriolanus",
+        "roman tragedy",
+        "rome",
+        "shakespeare"
+      ]
     },
     {
       "source": "original_sourced",
@@ -467,7 +567,9 @@
       "clue": "Jane Austen's third published novel (1814) received no public review until seven years after publication, making it among the most critically overlooked works of her career.",
       "answer": "Mansfield Park",
       "answer_type": "other",
-      "aliases": ["Mansfield Park (Austen)"],
+      "aliases": [
+        "Mansfield Park (Austen)"
+      ],
       "tags": [
         "literature-books-draft",
         "sourced",
@@ -483,7 +585,13 @@
       ],
       "verification_status": "verified",
       "verified_at": "2026-07-10T14:52:05.966Z",
-      "topic_entities": []
+      "topic_entities": [
+        "1814",
+        "fanny price",
+        "jane austen",
+        "mansfield park",
+        "third published novel"
+      ]
     }
   ]
 }
