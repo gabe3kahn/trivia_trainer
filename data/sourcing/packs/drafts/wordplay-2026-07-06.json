@@ -109,8 +109,8 @@
       "external_id": "wordplay-2026-07-06-ana-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
       "clue": "The almanac's editor stayed up past midnight making edits to her charts of the sea's daily rise and fall.",
@@ -133,7 +133,8 @@
         "ocean",
         "sea",
         "tides"
-      ]
+      ],
+      "lock_value": true
     },
     {
       "source": "constructed",

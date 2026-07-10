@@ -32,7 +32,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:35.299Z",
+      "verified_at": "2026-07-10T05:33:22.058Z",
       "topic_entities": [
         "1800s",
         "abolitionism",
@@ -72,7 +72,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:35.727Z",
+      "verified_at": "2026-07-10T05:33:22.443Z",
       "topic_entities": [
         "austro-hungarian empire",
         "franz ferdinand",
@@ -111,7 +111,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:36.149Z",
+      "verified_at": "2026-07-10T05:33:22.826Z",
       "topic_entities": [
         "1962",
         "friendship 7",
@@ -151,7 +151,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:36.578Z",
+      "verified_at": "2026-07-10T05:33:23.214Z",
       "topic_entities": [
         "1643-1715",
         "absolute monarchy",
@@ -190,7 +190,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:37.015Z",
+      "verified_at": "2026-07-10T05:33:23.591Z",
       "topic_entities": [
         "alps",
         "battle of cannae",
@@ -230,7 +230,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:37.398Z",
+      "verified_at": "2026-07-10T05:33:23.971Z",
       "topic_entities": [
         "1946",
         "1965",
@@ -273,7 +273,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:37.779Z",
+      "verified_at": "2026-07-10T05:33:24.349Z",
       "topic_entities": [
         "1961",
         "dwight d. eisenhower",
@@ -292,7 +292,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In 1778 Captain James Cook named the Hawaiian archipelago after this British First Lord of the Admiralty, the chief backer of his Pacific voyage.",
+      "clue": "This British First Lord of the Admiralty backed Captain James Cook's Pacific voyage, and in 1778 Cook named the Hawaiian archipelago in his honor.",
       "answer": "Earl of Sandwich",
       "answer_type": "other",
       "aliases": [
@@ -314,7 +314,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:38.384Z",
+      "verified_at": "2026-07-10T05:33:24.894Z",
       "topic_entities": [
         "captain james cook",
         "earl of sandwich",
@@ -351,7 +351,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:38.769Z",
+      "verified_at": "2026-07-10T05:33:25.272Z",
       "topic_entities": [
         "1930s",
         "collectivization",
@@ -391,7 +391,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:39.152Z",
+      "verified_at": "2026-07-10T05:33:25.651Z",
       "topic_entities": [
         "1598",
         "1685",
@@ -408,8 +408,8 @@
       "external_id": "history-draft-2026-07-06-012",
       "category_id": "history",
       "subcategory_name": "European History",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "The birthplace and early headquarters of the Nazi Party in the 1920s, this German city was designated 'Capital of the Movement' and later lent its name to the 1938 agreement in which Britain and France let Hitler annex the Sudetenland.",
@@ -432,7 +432,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:39.538Z",
+      "verified_at": "2026-07-10T05:33:26.044Z",
       "topic_entities": [
         "1920s",
         "bavaria",
@@ -441,8 +441,7 @@
         "munich",
         "nazi party",
         "world war ii"
-      ],
-      "lock_value": true
+      ]
     },
     {
       "source": "wikipedia",
@@ -453,7 +452,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Historians regard this nearly 900-day encirclement of the former imperial Russian capital on the Neva as the deadliest in military history; over a million civilians died before it was lifted in January 1944.",
+      "clue": "Historians regard this nearly 900-day engagement between Soviet and Nazi forces as one of the deadliest in military history; over a million civilians died before it was lifted in January 1944.",
       "answer": "Siege of Leningrad",
       "answer_type": "other",
       "aliases": [
@@ -475,7 +474,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:40.155Z",
+      "verified_at": "2026-07-10T05:33:26.645Z",
       "topic_entities": [
         "1941",
         "1944",
@@ -517,7 +516,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:40.762Z",
+      "verified_at": "2026-07-10T05:33:27.196Z",
       "topic_entities": [
         "attrition",
         "avoiding pitched battle",
@@ -560,7 +559,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T04:45:41.147Z",
+      "verified_at": "2026-07-10T05:33:27.577Z",
       "topic_entities": [
         "9th century",
         "belarus",
