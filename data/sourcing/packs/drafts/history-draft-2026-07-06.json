@@ -32,7 +32,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:06.453Z",
+      "verified_at": "2026-07-10T05:50:37.375Z",
       "topic_entities": [
         "1800s",
         "abolitionism",
@@ -72,7 +72,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:06.843Z",
+      "verified_at": "2026-07-10T05:50:37.748Z",
       "topic_entities": [
         "austro-hungarian empire",
         "franz ferdinand",
@@ -111,7 +111,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:07.225Z",
+      "verified_at": "2026-07-10T05:50:38.133Z",
       "topic_entities": [
         "1962",
         "friendship 7",
@@ -151,7 +151,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:07.608Z",
+      "verified_at": "2026-07-10T05:50:38.507Z",
       "topic_entities": [
         "1643-1715",
         "absolute monarchy",
@@ -190,7 +190,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:07.987Z",
+      "verified_at": "2026-07-10T05:50:38.880Z",
       "topic_entities": [
         "alps",
         "battle of cannae",
@@ -230,7 +230,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:08.380Z",
+      "verified_at": "2026-07-10T05:50:39.262Z",
       "topic_entities": [
         "1946",
         "1965",
@@ -273,7 +273,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:08.763Z",
+      "verified_at": "2026-07-10T05:50:39.633Z",
       "topic_entities": [
         "1961",
         "dwight d. eisenhower",
@@ -287,16 +287,18 @@
       "source": "wikipedia",
       "external_id": "history-draft-2026-07-06-008",
       "category_id": "history",
-      "subcategory_name": "European History",
+      "subcategory_name": "Historical Figures",
       "value": 600,
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In 1778 Captain James Cook named this Hawaiian archipelago after the British First Lord of the Admiralty, the chief backer of his Pacific voyage.",
-      "answer": "Sandwich Islands",
+      "clue": "In 1778, Captain James Cook discovered the Hawaiian archipelago and named it after this British First Lord of the Admiralty, the chief backer of his Pacific voyage.",
+      "answer": "Earl of Sandwich",
       "answer_type": "other",
       "aliases": [
-        "the Sandwich Islands"
+        "John Montagu",
+        "John Montagu, 4th Earl of Sandwich",
+        "4th Earl of Sandwich"
       ],
       "tags": [
         "history",
@@ -312,13 +314,14 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:09.258Z",
+      "verified_at": "2026-07-10T05:50:40.173Z",
       "topic_entities": [
         "1778",
         "captain james cook",
         "earl of sandwich",
+        "first lord of the admiralty",
         "hawaii",
-        "pacific ocean"
+        "john montagu"
       ]
     },
     {
@@ -348,7 +351,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:09.637Z",
+      "verified_at": "2026-07-10T05:50:40.545Z",
       "topic_entities": [
         "1930s",
         "collectivization",
@@ -388,7 +391,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:10.020Z",
+      "verified_at": "2026-07-10T05:50:40.939Z",
       "topic_entities": [
         "1598",
         "1685",
@@ -429,7 +432,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:10.417Z",
+      "verified_at": "2026-07-10T05:50:41.357Z",
       "topic_entities": [
         "1920s",
         "bavaria",
@@ -471,7 +474,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:10.910Z",
+      "verified_at": "2026-07-10T05:50:41.963Z",
       "topic_entities": [
         "1941",
         "1944",
@@ -513,7 +516,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:11.492Z",
+      "verified_at": "2026-07-10T05:50:42.551Z",
       "topic_entities": [
         "attrition",
         "avoiding pitched battle",
@@ -556,7 +559,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T05:47:11.871Z",
+      "verified_at": "2026-07-10T05:50:42.951Z",
       "topic_entities": [
         "9th century",
         "belarus",
