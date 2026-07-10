@@ -25,6 +25,7 @@ await loadDefaultEnv(rootDir);
 const argv = process.argv.slice(2);
 const dryRun = argv.includes('--dry-run');
 const retagRegex = argv.includes('--retag-regex');
+const retagAll = argv.includes('--retag-all'); // re-tag EVERY active clue (e.g. after a tagger-prompt change)
 const limit = argv.includes('--limit') ? Number(argv[argv.indexOf('--limit') + 1]) : Infinity;
 const batchSize = argv.includes('--batch') ? Number(argv[argv.indexOf('--batch') + 1]) : 40;
 const request = createSupabaseRequest(getSupabaseAdminConfig());
@@ -33,7 +34,7 @@ const rows = await fetchAllSupabaseRows(request, '/rest/v1/questions?select=id,e
 const isEmpty = (r) => !(Array.isArray(r.topic_entities) && r.topic_entities.length);
 const arraysEqual = (a, b) => (a || []).length === (b || []).length && (a || []).every((x, i) => x === b[i]);
 const isRegexTagged = (r) => !isEmpty(r) && arraysEqual(r.topic_entities, extractTopicEntities(r.answer, r.clue));
-const pending = rows.filter((r) => isEmpty(r) || (retagRegex && isRegexTagged(r)));
+const pending = rows.filter((r) => retagAll || isEmpty(r) || (retagRegex && isRegexTagged(r)));
 const todo = pending.slice(0, Number.isFinite(limit) ? limit : pending.length);
 console.log(`${pending.length} active clue(s) need tags${retagRegex ? ' (incl. regex-tagged re-tag)' : ''}; doing ${todo.length} this run (batch ${batchSize}${dryRun ? ', DRY RUN' : ''}).`);
 
