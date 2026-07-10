@@ -117,7 +117,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:51:35.264Z"
+      "verified_at": "2026-07-10T14:51:35.264Z",
+      "topic_entities": [
+        "altercation",
+        "baseball",
+        "bench",
+        "bullpen",
+        "dugout",
+        "ice hockey",
+        "melee"
+      ]
     },
     {
       "source": "original_sourced",
@@ -392,7 +401,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:51:37.817Z"
+      "verified_at": "2026-07-10T14:51:37.817Z",
+      "topic_entities": [
+        "aquatic sport",
+        "eggbeater kick",
+        "olympic games",
+        "pool",
+        "seven-a-side",
+        "swimming",
+        "water polo"
+      ]
     },
     {
       "source": "original_sourced",
@@ -544,7 +562,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:51:39.403Z"
+      "verified_at": "2026-07-10T14:51:39.403Z",
+      "topic_entities": [
+        "1894",
+        "1900",
+        "chicago",
+        "chicago white sox",
+        "major league baseball",
+        "saint paul",
+        "sioux city cornhuskers",
+        "south siders"
+      ]
     }
   ]
 }

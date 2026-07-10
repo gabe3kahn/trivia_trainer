@@ -114,7 +114,14 @@
         }
       ],
       "verification_status": "unverified",
-      "verified_at": null
+      "verified_at": null,
+      "topic_entities": [
+        "1876",
+        "england",
+        "george eliot",
+        "victorian society",
+        "zionism"
+      ]
     },
     {
       "source": "original_sourced",
@@ -303,7 +310,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:52:03.297Z"
+      "verified_at": "2026-07-10T14:52:03.297Z",
+      "topic_entities": [
+        "1982",
+        "2014",
+        "chile",
+        "presidential medal of freedom",
+        "the house of the spirits",
+        "united states"
+      ]
     },
     {
       "source": "original_sourced",
@@ -413,7 +428,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:52:04.410Z"
+      "verified_at": "2026-07-10T14:52:04.410Z",
+      "topic_entities": [
+        "ambition",
+        "guilt",
+        "macbeth",
+        "regicide",
+        "scotland",
+        "shakespeare",
+        "sleepwalking"
+      ]
     },
     {
       "source": "original_sourced",
@@ -445,7 +469,14 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:52:04.775Z"
+      "verified_at": "2026-07-10T14:52:04.775Z",
+      "topic_entities": [
+        "2017",
+        "2020",
+        "pulitzer prize for fiction",
+        "the nickel boys",
+        "the underground railroad"
+      ]
     },
     {
       "source": "original_sourced",

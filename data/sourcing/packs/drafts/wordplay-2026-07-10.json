@@ -28,7 +28,15 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "verified_at": null
+      "verified_at": null,
+      "topic_entities": [
+        "2000s",
+        "crowd",
+        "democracy",
+        "flash mob",
+        "mob rule",
+        "viral video"
+      ]
     },
     {
       "source": "constructed",
@@ -91,7 +99,14 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "verified_at": null
+      "verified_at": null,
+      "topic_entities": [
+        "apple pie",
+        "apples",
+        "cinnamon",
+        "data visualization",
+        "pie chart"
+      ]
     },
     {
       "source": "constructed",
@@ -152,7 +167,15 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "verified_at": null
+      "verified_at": null,
+      "topic_entities": [
+        "1940",
+        "citrus",
+        "dew drop",
+        "mountain dew",
+        "pepsico",
+        "soda"
+      ]
     },
     {
       "source": "constructed",
@@ -308,7 +331,15 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "verified_at": null
+      "verified_at": null,
+      "topic_entities": [
+        "deer",
+        "doe",
+        "dough",
+        "female",
+        "homophone",
+        "money"
+      ]
     }
   ]
 }
