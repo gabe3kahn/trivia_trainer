@@ -13,7 +13,7 @@
       "difficulty_rank": 3,
       "mechanic": "before_after",
       "constraint_text": "The answer bridges two phrases that share a pivot word.",
-      "clue": "Hundreds of strangers descended on the town square in perfect choreography — a stunt that struck the mayor as a vivid illustration of what happens when the crowd, not the institution, controls the moment.",
+      "clue": "The synchronized dancers who overtook the transit concourse made the viral-video rounds; the symposium that week addressed civilizations undone when crowds, not courts, served as final arbiter.",
       "answer": "Flash Mob Rule",
       "answer_type": "other",
       "aliases": [],
@@ -28,16 +28,7 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "verified_at": null,
-      "topic_entities": [
-        "2003",
-        "choreography",
-        "flash mob",
-        "public performance",
-        "social media",
-        "spontaneous assembly",
-        "viral video"
-      ]
+      "verified_at": null
     },
     {
       "source": "constructed",
@@ -83,7 +74,7 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer bridges two phrases that share a pivot word.",
-      "clue": "A baked orchard-fruit pastry dusted with cinnamon inspired the consultant's go-to visual: a circular diagram divided into labeled portions.",
+      "clue": "The diner's glass case featured a cinnamon-dusted orchard-fruit pastry; the strategist's presentation, across town, opened with a circular diagram of labeled wedge segments.",
       "answer": "Apple Pie Chart",
       "answer_type": "other",
       "aliases": [
@@ -100,16 +91,7 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "verified_at": null,
-      "topic_entities": [
-        "1801",
-        "circular diagram",
-        "data visualization",
-        "percentages",
-        "pie chart",
-        "statistics",
-        "william playfair"
-      ]
+      "verified_at": null
     },
     {
       "source": "constructed",
@@ -155,7 +137,7 @@
       "difficulty_rank": 2,
       "mechanic": "before_after",
       "constraint_text": "The answer bridges two phrases that share a pivot word.",
-      "clue": "The hiker cracked open the bright neon can she'd grabbed from the cooler and watched the tiny beads of morning moisture on the nearby grass catch the dawn light one by one.",
+      "clue": "The road tripper loaded the cooler with neon cans of the citrus-flavored soda; the nature photographer, working separately at first light, captured a single glistening bead of moisture clinging to a spider's web.",
       "answer": "Mountain Dew Drop",
       "answer_type": "other",
       "aliases": [],
@@ -170,16 +152,7 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "verified_at": null,
-      "topic_entities": [
-        "condensation",
-        "dawn",
-        "dew drop",
-        "grass",
-        "moisture",
-        "morning",
-        "mountain dew"
-      ]
+      "verified_at": null
     },
     {
       "source": "constructed",
@@ -322,7 +295,7 @@
       "difficulty_rank": 2,
       "mechanic": "homophone",
       "constraint_text": "What word sounds like the italicized word but is spelled differently and means something different?",
-      "clue": "Before dawn, the baker stretched and punched the *dough* while a slender creature picked its silent way through the mist beyond the kitchen window.",
+      "clue": "He pocketed the *dough* from the antique sale and drove home through the predawn countryside, nearly stopping when a pale, slender creature stepped out of the fog ahead.",
       "answer": "Doe",
       "answer_type": "other",
       "aliases": [],
@@ -335,16 +308,7 @@
       ],
       "citations": [],
       "verification_status": "skipped",
-      "verified_at": null,
-      "topic_entities": [
-        "bakery",
-        "baking",
-        "bread",
-        "dough",
-        "fermentation",
-        "flour",
-        "yeast"
-      ]
+      "verified_at": null
     }
   ]
 }

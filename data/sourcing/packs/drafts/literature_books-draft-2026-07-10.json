@@ -90,8 +90,8 @@
       "external_id": "lit-2026-07-10-003",
       "category_id": "literature_books",
       "subcategory_name": "19th-Century Novels",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "George Eliot's last completed novel, published in 1876, is her only work set in contemporary Victorian society — notable for its sympathetic treatment of proto-Zionist ideas.",
@@ -114,14 +114,7 @@
         }
       ],
       "verification_status": "unverified",
-      "verified_at": null,
-      "topic_entities": [
-        "1876",
-        "daniel deronda",
-        "george eliot",
-        "victorian england",
-        "zionism"
-      ]
+      "verified_at": null
     },
     {
       "source": "original_sourced",
@@ -294,7 +287,7 @@
       "answer": "Isabel Allende",
       "answer_type": "name",
       "aliases": [
-        "Allende"
+        "Allende (novelist)"
       ],
       "tags": [
         "literature-books-draft",
@@ -310,15 +303,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:52:03.297Z",
-      "topic_entities": [
-        "1982",
-        "2014",
-        "chilean-american",
-        "magical realism",
-        "presidential medal of freedom",
-        "the house of the spirits"
-      ]
+      "verified_at": "2026-07-10T14:52:03.297Z"
     },
     {
       "source": "original_sourced",
@@ -404,8 +389,8 @@
       "external_id": "lit-2026-07-10-011",
       "category_id": "literature_books",
       "subcategory_name": "Literary Characters",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "In Shakespeare's Scottish tragedy, this ambitious queen goads her husband into regicide; wracked by guilt, she later sleepwalks obsessively before dying offstage.",
@@ -428,14 +413,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:52:04.410Z",
-      "topic_entities": [
-        "guilt",
-        "macbeth",
-        "regicide",
-        "shakespeare",
-        "sleepwalking"
-      ]
+      "verified_at": "2026-07-10T14:52:04.410Z"
     },
     {
       "source": "original_sourced",
@@ -447,7 +425,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "One of only four authors ever to win the Pulitzer Prize for Fiction twice, this American novelist claimed the honor in back-to-back award cycles — in 2017 for The Underground Railroad and again in 2020 for The Nickel Boys.",
+      "clue": "One of only four authors ever to win the Pulitzer Prize for Fiction twice, this American novelist claimed the honor in 2017 for The Underground Railroad and again in 2020 for The Nickel Boys.",
       "answer": "Colson Whitehead",
       "answer_type": "name",
       "aliases": [
@@ -467,14 +445,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:52:04.775Z",
-      "topic_entities": [
-        "2017",
-        "2020",
-        "pulitzer prize",
-        "the nickel boys",
-        "the underground railroad"
-      ]
+      "verified_at": "2026-07-10T14:52:04.775Z"
     },
     {
       "source": "original_sourced",

@@ -96,7 +96,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In baseball and ice hockey, this term names the melee in which most or all players abandon their dugouts or bullpens to converge on the playing surface, typically in response to an altercation already underway.",
+      "clue": "In baseball and ice hockey, this term names the melee in which most or all players abandon their dugouts, bullpens, or benches to converge on the playing surface, typically in response to an altercation already underway.",
       "answer": "Bench-clearing brawl",
       "answer_type": "other",
       "aliases": [
@@ -117,15 +117,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:51:35.264Z",
-      "topic_entities": [
-        "baseball",
-        "bench-clearing brawl",
-        "bullpen",
-        "dugout",
-        "ice hockey",
-        "melee"
-      ]
+      "verified_at": "2026-07-10T14:51:35.264Z"
     },
     {
       "source": "original_sourced",
@@ -380,7 +372,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Contested in an all-deep pool between two seven-player teams, this aquatic sport requires athletes to tread continuously using the 'eggbeater kick,' as they are not permitted to touch the pool's floor during play.",
+      "clue": "Contested in an all-deep pool between two seven-player teams, this aquatic sport requires athletes to tread water continuously using the eggbeater kick, as they are not permitted to touch the pool's floor during play.",
       "answer": "Water Polo",
       "answer_type": "other",
       "aliases": [
@@ -400,14 +392,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:51:37.817Z",
-      "topic_entities": [
-        "aquatic sport",
-        "eggbeater kick",
-        "pool",
-        "seven-a-side",
-        "water polo"
-      ]
+      "verified_at": "2026-07-10T14:51:37.817Z"
     },
     {
       "source": "original_sourced",
@@ -539,7 +524,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This MLB franchise — known as the 'South Siders' — traces its origins to 1894 as the Sioux City Cornhuskers before relocating through Saint Paul, Minnesota, and settling under its current name when it arrived in Illinois in 1900.",
+      "clue": "This MLB franchise — known as the 'South Siders' — traces its origins to 1894 as the Sioux City Cornhuskers before relocating through Saint Paul, Minnesota, and arriving in Chicago in 1900; the current name was not adopted until four years later.",
       "answer": "Chicago White Sox",
       "answer_type": "other",
       "aliases": [
@@ -559,15 +544,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-10T14:51:39.403Z",
-      "topic_entities": [
-        "1894",
-        "baseball",
-        "chicago",
-        "chicago white sox",
-        "mlb",
-        "sioux city cornhuskers"
-      ]
+      "verified_at": "2026-07-10T14:51:39.403Z"
     }
   ]
 }
