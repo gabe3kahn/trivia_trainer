@@ -39,40 +39,6 @@
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-06-ana-02",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Anagrams",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "anagram",
-      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "A snipe rose from the wetland reeds just as the anatomist pressed her fingers carefully along the vertebral column of the unearthed fossil.",
-      "answer": "Spine",
-      "answer_type": "other",
-      "aliases": [
-        "spine"
-      ],
-      "wp": {
-        "scramble": "snipe"
-      },
-      "tags": [
-        "wp-draft",
-        "anagram"
-      ],
-      "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "anatomy",
-        "backbone",
-        "neurology",
-        "orthopedics",
-        "paleontology",
-        "skeleton",
-        "vertebrae"
-      ]
-    },
-    {
-      "source": "constructed",
       "external_id": "wordplay-2026-07-06-ana-03",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
@@ -109,8 +75,8 @@
       "external_id": "wordplay-2026-07-06-ana-04",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
       "clue": "On Halloween, children traipse from door to door waving cutlasses and demanding candy or their lives.",
@@ -147,7 +113,7 @@
       "difficulty_rank": 4,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "After the night editor made her final edits before dawn, she looked up to watch the Moon's gravitational pull drawing the sea back from the harbor mouth.",
+      "clue": "The almanac's editor stayed up past midnight making edits to her charts of the sea's daily rise and fall.",
       "answer": "Tides",
       "answer_type": "other",
       "aliases": [
@@ -163,14 +129,10 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "1687",
-        "earth",
-        "gravity",
-        "isaac newton",
         "moon",
         "ocean",
-        "principia mathematica",
-        "sun"
+        "sea",
+        "tides"
       ]
     },
     {
@@ -182,7 +144,7 @@
       "difficulty_rank": 2,
       "mechanic": "crossword",
       "constraint_text": "(4) _ Y _ _",
-      "clue": "Unit of digital storage equal to eight bits",
+      "clue": "Amount of computer memory that typically holds a single character of text.",
       "answer": "BYTE",
       "answer_type": "other",
       "aliases": [],
@@ -268,15 +230,16 @@
         "pier",
         "port",
         "ships"
-      ]
+      ],
+      "lock_value": true
     },
     {
       "source": "constructed",
       "external_id": "wordplay-2026-07-06-cw-04",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "crossword",
       "constraint_text": "(5) _ _ _ T _",
       "clue": "Ballroom dance in triple time",
@@ -300,15 +263,16 @@
         "johann strauss",
         "romantic era",
         "vienna"
-      ]
+      ],
+      "lock_value": true
     },
     {
       "source": "constructed",
       "external_id": "wordplay-2026-07-06-cw-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "crossword",
       "constraint_text": "(5) _ _ _ _ K",
       "clue": "Loose protective overgarment worn over clothing",
@@ -333,7 +297,8 @@
         "painter",
         "protective wear",
         "workwear"
-      ]
+      ],
+      "lock_value": true
     }
   ]
 }
