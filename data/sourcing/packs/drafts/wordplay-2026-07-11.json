@@ -34,7 +34,16 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "anarchy",
+        "behavior",
+        "disobedience",
+        "rebellion",
+        "troublemaker",
+        "wild child",
+        "youth"
+      ]
     },
     {
       "source": "constructed",
@@ -62,7 +71,14 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "femininity",
+        "modesty",
+        "ordinariness",
+        "plain jane",
+        "plainness"
+      ]
     },
     {
       "source": "constructed",
@@ -90,7 +106,15 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "bedrooms",
+        "children",
+        "darkness",
+        "night light",
+        "nighttime",
+        "safety"
+      ]
     },
     {
       "source": "constructed",
@@ -118,7 +142,15 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "chaos",
+        "double trouble",
+        "mischief",
+        "pairs",
+        "troublemakers",
+        "twins"
+      ]
     },
     {
       "source": "constructed",
@@ -146,7 +178,15 @@
         "rhyme_time"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "cunning",
+        "deception",
+        "misdirection",
+        "sleight of hand",
+        "slick trick",
+        "trickery"
+      ]
     },
     {
       "source": "constructed",
@@ -169,7 +209,16 @@
         "initials"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "1914",
+        "atlantic ocean",
+        "central america",
+        "pacific ocean",
+        "panama",
+        "panama canal",
+        "theodore roosevelt"
+      ]
     },
     {
       "source": "constructed",
@@ -192,7 +241,16 @@
         "initials"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "atlantic ocean",
+        "bermuda",
+        "bermuda triangle",
+        "flight 19",
+        "miami",
+        "san juan",
+        "sargasso sea"
+      ]
     },
     {
       "source": "constructed",
@@ -215,7 +273,16 @@
         "initials"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ancient greece",
+        "deception",
+        "greece",
+        "trojan horse",
+        "trojan war",
+        "troy",
+        "wooden horse"
+      ]
     },
     {
       "source": "constructed",
@@ -238,7 +305,15 @@
         "initials"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "ancient greece",
+        "geometry",
+        "mathematics",
+        "pythagoras",
+        "pythagorean theorem",
+        "right triangle"
+      ]
     },
     {
       "source": "constructed",
@@ -261,7 +336,16 @@
         "initials"
       ],
       "citations": [],
-      "verification_status": "skipped"
+      "verification_status": "skipped",
+      "topic_entities": [
+        "1957",
+        "attitudes",
+        "beliefs",
+        "cognitive dissonance",
+        "cognitive psychology",
+        "leon festinger",
+        "psychology"
+      ]
     }
   ]
 }
