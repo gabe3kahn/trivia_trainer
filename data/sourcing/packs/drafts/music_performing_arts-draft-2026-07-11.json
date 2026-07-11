@@ -16,7 +16,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This English singer-songwriter, born Adele Laurie Blue Adkins, has sold more than 120 million records and received 16 Grammy Awards, and her 2015 single 'Hello' broke the UK digital download record in its first week.",
+      "clue": "This English singer-songwriter has sold more than 120 million records and received 16 Grammy Awards; her 2015 single 'Hello' broke the UK digital download record in its first week.",
       "answer": "Adele",
       "answer_type": "other",
       "aliases": [],
@@ -34,14 +34,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:14.461Z",
-      "topic_entities": [
-        "2015",
-        "adele",
-        "england",
-        "grammy awards",
-        "hello"
-      ]
+      "verified_at": "2026-07-11T14:49:14.461Z"
     },
     {
       "source": "original_sourced",
@@ -53,7 +46,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "The second-largest bowed string instrument in the violin family, this instrument's name is an abbreviation of violoncello; it is played upright between the legs of a seated performer and voices the tenor and bass registers of the string section.",
+      "clue": "Played upright between the legs of a seated performer, this second-largest member of the violin family is a bowed string instrument that voices the tenor and bass registers of the orchestra's string section.",
       "answer": "Cello",
       "answer_type": "other",
       "aliases": [
@@ -73,15 +66,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:14.865Z",
-      "topic_entities": [
-        "bach cello suites",
-        "baroque",
-        "bowed string instrument",
-        "cello",
-        "string quartet",
-        "violin family"
-      ]
+      "verified_at": "2026-07-11T14:49:14.865Z"
     },
     {
       "source": "original_sourced",
@@ -133,7 +118,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Originating in Naples in the early 18th century as a contrast to opera seria, this genre of Italian comic opera reached its zenith in such works as Rossini's 'The Barber of Seville' and Mozart's 'The Marriage of Figaro.'",
+      "clue": "Originating in Naples in the early 18th century as a contrast to opera seria, this genre of Italian opera—distinguished by its everyday settings, vernacular characters, and humorous tone—reached its zenith in such works as Rossini's 'The Barber of Seville' and Mozart's 'The Marriage of Figaro.'",
       "answer": "Opera buffa",
       "answer_type": "other",
       "aliases": [
@@ -154,16 +139,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:15.578Z",
-      "topic_entities": [
-        "18th century",
-        "mozart",
-        "naples",
-        "opera buffa",
-        "rossini",
-        "the barber of seville",
-        "the marriage of figaro"
-      ]
+      "verified_at": "2026-07-11T14:49:15.578Z"
     },
     {
       "source": "original_sourced",
@@ -175,7 +151,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Formed in London in 1964 with Roger Daltrey, Pete Townshend, and Keith Moon, this rock band pioneered the concept of the rock opera with Tommy (1969) and Quadrophenia (1973).",
+      "clue": "Formed in London in 1964 with Roger Daltrey, Pete Townshend, John Entwistle, and Keith Moon, this rock band pioneered the concept of the rock opera with Tommy (1969) and Quadrophenia (1973).",
       "answer": "The Who",
       "answer_type": "other",
       "aliases": [],
@@ -193,17 +169,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:15.935Z",
-      "topic_entities": [
-        "1964",
-        "keith moon",
-        "london",
-        "pete townshend",
-        "quadrophenia",
-        "roger daltrey",
-        "the who",
-        "tommy"
-      ]
+      "verified_at": "2026-07-11T14:49:15.935Z"
     },
     {
       "source": "original_sourced",
@@ -215,7 +181,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Opening with the exuberant nonsense phrase 'A-wop-bop-a-loo-bop-a-wop-bam-boom,' this 1955 Little Richard recording was one of the first rock and roll records to cross over from the R&B charts to the mainstream pop charts.",
+      "clue": "Opening with the exuberant nonsense phrase 'A-wop-bop-a-loo-mop-a-lop-bam-boom,' this 1955 Little Richard recording was one of the first rock and roll records to cross over from the R&B charts to the mainstream pop charts.",
       "answer": "Tutti Frutti",
       "answer_type": "other",
       "aliases": [
@@ -235,14 +201,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:16.290Z",
-      "topic_entities": [
-        "1955",
-        "little richard",
-        "r&b",
-        "rock and roll",
-        "tutti frutti"
-      ]
+      "verified_at": "2026-07-11T14:49:16.290Z"
     },
     {
       "source": "original_sourced",
@@ -254,7 +213,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This Brazilian genre emerged in the late 1950s by blending the rhythms of samba with the harmonics of cool jazz; closely associated with João Gilberto and later popularized internationally by 'The Girl from Ipanema.'",
+      "clue": "This Brazilian genre, developed in late-1950s Rio de Janeiro, blends the syncopated rhythms of samba with complex, unconventional harmonies; closely associated with João Gilberto, it was later popularized internationally by 'The Girl from Ipanema.'",
       "answer": "Bossa Nova",
       "answer_type": "other",
       "aliases": [],
@@ -272,16 +231,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:16.648Z",
-      "topic_entities": [
-        "1950s",
-        "bossa nova",
-        "brazil",
-        "cool jazz",
-        "joão gilberto",
-        "samba",
-        "the girl from ipanema"
-      ]
+      "verified_at": "2026-07-11T14:49:16.648Z"
     },
     {
       "source": "original_sourced",
@@ -446,7 +396,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Born O'Shea Jackson in Los Angeles, this rapper formed his first group, C.I.A., in 1986 before co-founding N.W.A. with Eazy-E and Dr. Dre in 1987; he was inducted into the Rock and Roll Hall of Fame as an N.W.A. member in 2016.",
+      "clue": "This Los Angeles-born rapper formed his first group, C.I.A., in 1986 before co-founding N.W.A. with Eazy-E and Dr. Dre in 1987; he was inducted into the Rock and Roll Hall of Fame as an N.W.A. member in 2016.",
       "answer": "Ice Cube",
       "answer_type": "name",
       "aliases": [
@@ -466,16 +416,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:18.525Z",
-      "topic_entities": [
-        "1987",
-        "dr. dre",
-        "eazy-e",
-        "ice cube",
-        "los angeles",
-        "n.w.a.",
-        "rock and roll hall of fame"
-      ]
+      "verified_at": "2026-07-11T14:49:18.525Z"
     },
     {
       "source": "original_sourced",

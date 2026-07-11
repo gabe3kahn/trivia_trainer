@@ -197,7 +197,7 @@
       "difficulty_rank": 2,
       "mechanic": "initials",
       "constraint_text": "These letters are the initials of the answer — what is it?",
-      "clue": "Opened in 1914, this 77-kilometer waterway cut through a Central American isthmus and dramatically shortened maritime routes between the Atlantic and Pacific oceans — P.C.",
+      "clue": "Opened in 1914, this 77-kilometer waterway cut through a Central American isthmus using a system of locks to lift ships across a continental divide and shorten global shipping routes by thousands of miles — P.C.",
       "answer": "Panama Canal",
       "answer_type": "other",
       "aliases": [],
@@ -209,16 +209,7 @@
         "initials"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "1914",
-        "atlantic ocean",
-        "central america",
-        "pacific ocean",
-        "panama",
-        "panama canal",
-        "theodore roosevelt"
-      ]
+      "verification_status": "skipped"
     },
     {
       "source": "constructed",
@@ -261,7 +252,7 @@
       "difficulty_rank": 3,
       "mechanic": "initials",
       "constraint_text": "These letters are the initials of the answer — what is it?",
-      "clue": "Greek soldiers concealed themselves inside a giant hollow wooden statue left as a gift at the gates of a besieged city, triggering its fall — T.H.",
+      "clue": "In computing, a program that appears harmless or useful but secretly performs harmful actions takes its name from the ancient stratagem of soldiers concealed within a hollow offering left at an enemy's gate — T.H.",
       "answer": "Trojan Horse",
       "answer_type": "other",
       "aliases": [],
@@ -273,16 +264,7 @@
         "initials"
       ],
       "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "ancient greece",
-        "deception",
-        "greece",
-        "trojan horse",
-        "trojan war",
-        "troy",
-        "wooden horse"
-      ]
+      "verification_status": "skipped"
     },
     {
       "source": "constructed",
