@@ -1,0 +1,267 @@
+{
+  "pack_id": "wordplay-2026-07-11",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-11",
+  "notes": [
+    "Mechanics: rhyme_time (5) + initials (5). Rotation check: prior run (2026-07-06) used anagram + crossword; (2026-07-05) used homophone + initials; (2026-07-04/03) used hidden + before_after; (2026-07-02) used anagram + crossword; (2026-07-01) used rhyme_time + before_after. Selecting rhyme_time + initials as the pairing least recently used together.",
+    "Rhyme Time answers: Wild Child, Plain Jane, Night Light, Double Trouble, Slick Trick. All verified fresh against prior wordplay packs.",
+    "Initials answers: Panama Canal (P.C., $400), Bermuda Triangle (B.T., $600), Trojan Horse (T.H., $600), Occam's Razor (O.R., $800), Prisoner's Dilemma (P.D., $1000). All initials verified against prior pack used-initials list."
+  ],
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-rt-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "An untamable youngster who refuses to follow the rules.",
+      "answer": "Wild Child",
+      "answer_type": "other",
+      "aliases": [
+        "Child Wild"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "wild",
+          "child"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-rt-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "An unremarkably dressed woman who draws no special notice.",
+      "answer": "Plain Jane",
+      "answer_type": "other",
+      "aliases": [
+        "Jane Plain"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "plain",
+          "jane"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-rt-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "A small safety lamp kept on to gently illuminate a dark room.",
+      "answer": "Night Light",
+      "answer_type": "other",
+      "aliases": [
+        "Light Night"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "night",
+          "light"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-rt-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "Two people or things that together reliably cause twice the usual level of chaos.",
+      "answer": "Double Trouble",
+      "answer_type": "other",
+      "aliases": [
+        "Trouble Double"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "double",
+          "trouble"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-rt-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "A deviously clever maneuver that catches its target completely off guard.",
+      "answer": "Slick Trick",
+      "answer_type": "other",
+      "aliases": [
+        "Trick Slick"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "slick",
+          "trick"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-ini-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "Opened in 1914, this 77-kilometer waterway cut through a Central American isthmus and dramatically shortened maritime routes between the Atlantic and Pacific oceans — P.C.",
+      "answer": "Panama Canal",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "initials": "P.C."
+      },
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-ini-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "This loosely defined Atlantic region between Miami, San Juan, and a North Atlantic island has accumulated legends of ships and aircraft vanishing without explanation — B.T.",
+      "answer": "Bermuda Triangle",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "initials": "B.T."
+      },
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-ini-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "Greek soldiers concealed themselves inside a giant hollow wooden statue left as a gift at the gates of a besieged city, triggering its fall — T.H.",
+      "answer": "Trojan Horse",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "initials": "T.H."
+      },
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-ini-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "This fundamental geometric relationship states that in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides — P.T.",
+      "answer": "Pythagorean Theorem",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "initials": "P.T."
+      },
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-11-ini-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Initials & Abbreviations",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "initials",
+      "constraint_text": "These letters are the initials of the answer — what is it?",
+      "clue": "The psychological discomfort that arises when a person simultaneously holds two contradictory beliefs or attitudes, often resolved by unconsciously rationalizing one of them away — C.D.",
+      "answer": "Cognitive Dissonance",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "initials": "C.D."
+      },
+      "tags": [
+        "wp-draft",
+        "initials"
+      ],
+      "citations": [],
+      "verification_status": "skipped"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "generated_at": "2026-07-11T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "religion_mythology_philosophy",
+  "notes": [
+    "Religion, Mythology & Philosophy draft — 15 clues grounded in Wikipedia lead extracts. Targets thin subcategories: Religious Texts & Terms (adds 3), Symbols/Rituals/Holidays (adds 1), Roman & Norse Mythology (adds 2), Philosophical Schools (adds 1), Philosophers (adds 2), World Religions (adds 2), Bible (adds 1), Greek Mythology (adds 1). Tier spread: $200×3, $400×3, $600×3, $800×3, $1000×3."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Garden_of_Eden",
+      "external_id": "rmp-2026-07-11-001",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Described in Genesis 2–3 as the first home of humanity and fed by four rivers, this biblical paradise is placed by various traditions at the head of the Persian Gulf or somewhere in ancient Mesopotamia.",
+      "answer": "Garden of Eden",
+      "answer_type": "other",
+      "aliases": [
+        "Eden"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Garden of Eden",
+          "url": "https://en.wikipedia.org/wiki/Garden_of_Eden",
+          "snippet": "The Garden of Eden, also called Garden of God or the (Terrestrial) Paradise, is the biblical paradise described in Genesis 2–3 and Ezekiel 28 and 31."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:20.609Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Seven_deadly_sins",
+      "external_id": "rmp-2026-07-11-002",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Pride, envy, wrath, gluttony, lust, sloth, and greed compose this Catholic grouping, first systematized by Tertullian and Evagrius Ponticus from a mix of Greco-Roman and Biblical antecedents.",
+      "answer": "Seven Deadly Sins",
+      "answer_type": "other",
+      "aliases": [
+        "7 Deadly Sins",
+        "Capital Vices",
+        "Cardinal Sins"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "symbols-rituals-holidays"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Seven deadly sins",
+          "url": "https://en.wikipedia.org/wiki/Seven_deadly_sins",
+          "snippet": "The seven deadly sins function as a grouping of major vices within the teachings of Christianity. They are not explicitly listed in the Bible but developed within early Christian theological tradition, drawing on various biblical passages. "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:23.500Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mother_Teresa",
+      "external_id": "rmp-2026-07-11-003",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in Skopje—then part of the Ottoman Empire—to an Albanian family, this Catholic nun founded the Missionaries of Charity in India and was canonized as Saint Teresa of Calcutta in September 2016.",
+      "answer": "Mother Teresa",
+      "answer_type": "other",
+      "aliases": [
+        "Teresa of Calcutta",
+        "Saint Teresa of Calcutta"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mother Teresa",
+          "url": "https://en.wikipedia.org/wiki/Mother_Teresa",
+          "snippet": "Anjezë Gonxhe Bojaxhiu, better known as Mother Teresa or Saint Mother Teresa of Calcutta, was an Albanian-Indian Catholic nun, founder of the Missionaries of Charity and a Catholic saint."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:23.857Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hadith",
+      "external_id": "rmp-2026-07-11-004",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Arabic word for 'report' names the body of Islamic tradition recording the sayings, actions, and silent approvals of the Prophet Muhammad; it ranks second in authority to the Quran for most Muslims and is the primary source of Sharia rules.",
+      "answer": "Hadith",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "religious-texts-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hadith",
+          "url": "https://en.wikipedia.org/wiki/Hadith",
+          "snippet": "Hadith is the Arabic word for a 'report' or an 'account [of an event]' and refers to the Islamic oral tradition of anecdotes containing the purported words, actions, and the silent approvals of the Islamic prophet Muhammad or his immediate "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:24.213Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hinduism",
+      "external_id": "rmp-2026-07-11-005",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Classified by tradition as śruti—'that which was heard'—these ancient Sanskrit scriptures are the oldest stratum of Hindu religious literature and the foundational source of the concept of dharma.",
+      "answer": "Vedas",
+      "answer_type": "other",
+      "aliases": [
+        "Veda"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "religious-texts-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hinduism",
+          "url": "https://en.wikipedia.org/wiki/Hinduism",
+          "snippet": "\nHinduism is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that are unified by adherence to the concept of dharma, a cosmic order maintained by its followers through rituals and righteous living, as"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:24.569Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Basilica",
+      "external_id": "rmp-2026-07-11-006",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally built in ancient Rome to house courts and public functions, this building type—characterized by a central nave flanked by side aisles and an apse at one end—became the standard architectural model for Christian houses of worship after Emperor Constantine embraced Christianity in the 4th century.",
+      "answer": "Basilica",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "symbols-rituals-holidays"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Basilica",
+          "url": "https://en.wikipedia.org/wiki/Basilica",
+          "snippet": "In Ancient Roman architecture, a basilica was a large public building with multiple functions that was typically built alongside the town's forum. The basilica was in the Latin West equivalent to a stoa in the Greek East. The building gave "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:24.975Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Odin",
+      "external_id": "rmp-2026-07-11-007",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named in the Prose Edda as the wife of Odin and the mother of the beloved Baldr, this Norse goddess stood at the center of the Æsir family alongside the chief of the Norse pantheon.",
+      "answer": "Frigg",
+      "answer_type": "other",
+      "aliases": [
+        "Frigga"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "roman-norse-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Odin",
+          "url": "https://en.wikipedia.org/wiki/Odin",
+          "snippet": "Odin is a widely revered god in Norse mythology and Germanic paganism. Most surviving information on Odin comes from Norse mythology, but he figures prominently in the recorded history of Northern Europe. This includes the Roman Empire's pa"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:25.381Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/William_James",
+      "external_id": "rmp-2026-07-11-008",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Trained as a physician but drawn to philosophy, this Harvard professor was the first educator in the United States to offer a psychology course; his brother was the novelist Henry James.",
+      "answer": "William James",
+      "answer_type": "name",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "William James",
+          "url": "https://en.wikipedia.org/wiki/William_James",
+          "snippet": "William James was an American philosopher and psychologist. The first educator to offer a psychology course in the United States, he is considered to be one of the leading thinkers of the late 19th century, one of the most influential philo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:25.738Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hinduism",
+      "external_id": "rmp-2026-07-11-009",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Prominent in Hindu belief as described in the Vedas and Upanishads, this Sanskrit concept names the cycle of death and rebirth from which liberation—moksha—is held to be the highest aim of human life.",
+      "answer": "Samsara",
+      "answer_type": "other",
+      "aliases": [
+        "Saṃsāra"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hinduism",
+          "url": "https://en.wikipedia.org/wiki/Hinduism",
+          "snippet": "\nHinduism is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that are unified by adherence to the concept of dharma, a cosmic order maintained by its followers through rituals and righteous living, as"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:26.094Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Odysseus",
+      "external_id": "rmp-2026-07-11-010",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The son of Laërtes and Anticlea, this king of Ithaca was called Ulysses by the Romans and honored by Homer for his mêtis—his cunning intelligence—as much as for his decade-long struggle to return home after the Trojan War.",
+      "answer": "Odysseus",
+      "answer_type": "other",
+      "aliases": [
+        "Ulysses"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Odysseus",
+          "url": "https://en.wikipedia.org/wiki/Odysseus",
+          "snippet": "In Greek and Roman mythology, Odysseus, also known by the Latin variant Ulysses, is a legendary Greek king of Ithaca and the hero of Homer's epic poem, the Odyssey. Odysseus also plays a key role in Homer's Iliad and other works in that sam"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:26.449Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Biblical_apocrypha",
+      "external_id": "rmp-2026-07-11-011",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Including texts written between roughly 200 BC and 100 AD, this collection takes its name from a Greek word meaning 'hidden'; Catholics call these books deuterocanonical, while most Protestant Bibles place fourteen of them in a distinct intertestamental section.",
+      "answer": "Biblical Apocrypha",
+      "answer_type": "other",
+      "aliases": [
+        "Apocrypha",
+        "Deuterocanonical Books"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "religious-texts-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Biblical apocrypha",
+          "url": "https://en.wikipedia.org/wiki/Biblical_apocrypha",
+          "snippet": "The Biblical apocrypha denotes the collection of ancient books, some of which are believed by some to be of doubtful origin, thought to have been written some time between 200 BC and 100 AD."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:26.805Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Thomas_Carlyle",
+      "external_id": "rmp-2026-07-11-012",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Known as the 'sage of Chelsea,' this 19th-century Scottish essayist and philosopher attended the University of Edinburgh, first gained renown writing about German Romanticism, and went on to shape the intellectual culture of the Victorian era.",
+      "answer": "Thomas Carlyle",
+      "answer_type": "name",
+      "aliases": [
+        "Carlyle"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Thomas Carlyle",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Carlyle",
+          "snippet": "Thomas Carlyle was a Scottish essayist, historian and philosopher. Known as the \"sage of Chelsea, London\", his writings strongly influenced the intellectual and artistic culture of the Victorian era."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:27.161Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Albert_Camus",
+      "external_id": "rmp-2026-07-11-013",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Defined largely through Albert Camus's 1942 essay 'The Myth of Sisyphus,' this philosophical school holds that humans instinctively seek meaning in a universe that offers none—a condition Camus called the fundamental 'absurd' predicament.",
+      "answer": "Absurdism",
+      "answer_type": "other",
+      "aliases": [
+        "Philosophy of the Absurd"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophical-schools"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Albert Camus",
+          "url": "https://en.wikipedia.org/wiki/Albert_Camus",
+          "snippet": "Albert Camus was a French philosopher, novelist, author, dramatist, journalist, world federalist, and political activist. He was the recipient of the 1957 Nobel Prize in Literature at the age of 44, the second-youngest recipient in history,"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:27.648Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hinduism",
+      "external_id": "rmp-2026-07-11-014",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named in Hindu thought as the highest of the four Puruṣārthas—proper goals of human life—this concept represents liberation from the cycle of rebirth and stands above dharma, artha, and kama in the traditional hierarchy.",
+      "answer": "Moksha",
+      "answer_type": "other",
+      "aliases": [
+        "Moksa"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hinduism",
+          "url": "https://en.wikipedia.org/wiki/Hinduism",
+          "snippet": "\nHinduism is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that are unified by adherence to the concept of dharma, a cosmic order maintained by its followers through rituals and righteous living, as"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:28.004Z"
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Odin",
+      "external_id": "rmp-2026-07-11-015",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "At Ragnarök, Norse myth holds that Odin leads the slain warriors of Valhöll into the final battle, where he is killed by this monstrous wolf before his son Víðarr takes revenge.",
+      "answer": "Fenrir",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "roman-norse-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Odin",
+          "url": "https://en.wikipedia.org/wiki/Odin",
+          "snippet": "Odin is a widely revered god in Norse mythology and Germanic paganism. Most surviving information on Odin comes from Norse mythology, but he figures prominently in the recorded history of Northern Europe. This includes the Roman Empire's pa"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-11T14:56:28.360Z"
+    }
+  ]
+}
