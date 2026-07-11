@@ -34,7 +34,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:14.461Z"
+      "verified_at": "2026-07-11T14:49:14.461Z",
+      "topic_entities": [
+        "'21'",
+        "'25'",
+        "'hello'",
+        "2015",
+        "adele",
+        "england",
+        "grammy awards"
+      ]
     },
     {
       "source": "original_sourced",
@@ -66,7 +75,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:14.865Z"
+      "verified_at": "2026-07-11T14:49:14.865Z",
+      "topic_entities": [
+        "bach suites",
+        "cello",
+        "concerto",
+        "orchestra",
+        "string quartet",
+        "violin family"
+      ]
     },
     {
       "source": "original_sourced",
@@ -139,7 +156,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:15.578Z"
+      "verified_at": "2026-07-11T14:49:15.578Z",
+      "topic_entities": [
+        "18th century",
+        "italy",
+        "mozart",
+        "naples",
+        "opera buffa",
+        "opera seria",
+        "rossini"
+      ]
     },
     {
       "source": "original_sourced",
@@ -169,7 +195,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:15.935Z"
+      "verified_at": "2026-07-11T14:49:15.935Z",
+      "topic_entities": [
+        "1964",
+        "london",
+        "pete townshend",
+        "quadrophenia",
+        "rock opera",
+        "roger daltrey",
+        "the who",
+        "tommy"
+      ]
     },
     {
       "source": "original_sourced",
@@ -201,7 +237,14 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:16.290Z"
+      "verified_at": "2026-07-11T14:49:16.290Z",
+      "topic_entities": [
+        "1955",
+        "little richard",
+        "r&b",
+        "rock and roll",
+        "tutti frutti"
+      ]
     },
     {
       "source": "original_sourced",
@@ -231,7 +274,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:16.648Z"
+      "verified_at": "2026-07-11T14:49:16.648Z",
+      "topic_entities": [
+        "'the girl from ipanema'",
+        "1950s",
+        "bossa nova",
+        "brazil",
+        "joão gilberto",
+        "rio de janeiro",
+        "samba",
+        "tom jobim"
+      ]
     },
     {
       "source": "original_sourced",
@@ -416,7 +469,17 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:49:18.525Z"
+      "verified_at": "2026-07-11T14:49:18.525Z",
+      "topic_entities": [
+        "1987",
+        "2016",
+        "dr. dre",
+        "eazy-e",
+        "ice cube",
+        "los angeles",
+        "n.w.a.",
+        "rock and roll hall of fame"
+      ]
     },
     {
       "source": "original_sourced",

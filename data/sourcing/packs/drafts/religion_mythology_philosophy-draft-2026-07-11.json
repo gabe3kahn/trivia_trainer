@@ -121,7 +121,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:23.857Z"
+      "verified_at": "2026-07-11T14:56:23.857Z",
+      "topic_entities": [
+        "2016",
+        "albania",
+        "catholic church",
+        "india",
+        "missionaries of charity",
+        "mother teresa",
+        "skopje"
+      ]
     },
     {
       "source": "original_sourced",
@@ -151,7 +160,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:24.213Z"
+      "verified_at": "2026-07-11T14:56:24.213Z",
+      "topic_entities": [
+        "arabic",
+        "hadith",
+        "islam",
+        "islamic tradition",
+        "isnads",
+        "prophet muhammad",
+        "scripture"
+      ]
     },
     {
       "source": "original_sourced",
@@ -183,7 +201,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:24.569Z"
+      "verified_at": "2026-07-11T14:56:24.569Z",
+      "topic_entities": [
+        "hinduism",
+        "india",
+        "oral tradition",
+        "sanskrit",
+        "shruti",
+        "vedas"
+      ]
     },
     {
       "source": "original_sourced",
@@ -252,7 +278,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:25.381Z"
+      "verified_at": "2026-07-11T14:56:25.381Z",
+      "topic_entities": [
+        "aesir",
+        "baldr",
+        "frigg",
+        "norse mythology",
+        "odin",
+        "prose edda"
+      ]
     },
     {
       "source": "original_sourced",
@@ -282,7 +316,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:25.738Z"
+      "verified_at": "2026-07-11T14:56:25.738Z",
+      "topic_entities": [
+        "harvard",
+        "henry james",
+        "physician",
+        "psychology",
+        "united states",
+        "william james"
+      ]
     },
     {
       "source": "original_sourced",
@@ -314,7 +356,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:26.094Z"
+      "verified_at": "2026-07-11T14:56:26.094Z",
+      "topic_entities": [
+        "buddhism",
+        "cycle of rebirth",
+        "hinduism",
+        "india",
+        "liberation",
+        "samsara",
+        "sanskrit"
+      ]
     },
     {
       "source": "original_sourced",
@@ -346,7 +397,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:26.449Z"
+      "verified_at": "2026-07-11T14:56:26.449Z",
+      "topic_entities": [
+        "ancient greece",
+        "homer",
+        "ithaca",
+        "odysseus",
+        "odyssey",
+        "trojan war"
+      ]
     },
     {
       "source": "original_sourced",
@@ -379,7 +438,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:26.805Z"
+      "verified_at": "2026-07-11T14:56:26.805Z",
+      "topic_entities": [
+        "100 ad",
+        "200 bc",
+        "biblical apocrypha",
+        "catholic church",
+        "old testament",
+        "orthodox church"
+      ]
     },
     {
       "source": "original_sourced",
@@ -411,7 +478,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:27.161Z"
+      "verified_at": "2026-07-11T14:56:27.161Z",
+      "topic_entities": [
+        "19th century",
+        "chelsea",
+        "german romanticism",
+        "scotland",
+        "thomas carlyle",
+        "university of edinburgh"
+      ]
     },
     {
       "source": "original_sourced",
@@ -443,7 +518,15 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:27.648Z"
+      "verified_at": "2026-07-11T14:56:27.648Z",
+      "topic_entities": [
+        "1942",
+        "absurdism",
+        "albert camus",
+        "existentialism",
+        "sisyphus",
+        "the myth of sisyphus"
+      ]
     },
     {
       "source": "original_sourced",
@@ -475,7 +558,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:28.004Z"
+      "verified_at": "2026-07-11T14:56:28.004Z",
+      "topic_entities": [
+        "atman",
+        "hinduism",
+        "india",
+        "liberation",
+        "moksha",
+        "purusharthas",
+        "sanskrit"
+      ]
     },
     {
       "source": "original_sourced",
@@ -505,7 +597,16 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-11T14:56:28.360Z"
+      "verified_at": "2026-07-11T14:56:28.360Z",
+      "topic_entities": [
+        "fenrir",
+        "norse mythology",
+        "odin",
+        "prose edda",
+        "ragnarok",
+        "vidar",
+        "wolf"
+      ]
     }
   ]
 }
