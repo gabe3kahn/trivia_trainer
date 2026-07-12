@@ -23,7 +23,9 @@ name: Draft clues (daily)
 # workflow_dispatch endpoint. GitHub's own `schedule:` cron proved too unreliable —
 # it silently dropped runs — so it was removed. The `guard` job still dedups: it skips
 # if today's branch (draft-clues/daily-<UTC date>) already exists, so an accidental
-# double dispatch can't double-draft. FORCED dispatches (force=true) bypass the guard
+# double dispatch can't double-draft. It ALSO applies review back-pressure: if 5+
+# draft-clues PRs are already open/unmerged, it skips the run so drafts don't pile up
+# faster than they can be reviewed. FORCED dispatches (force=true) bypass the guard
 # AND get a unique -r<run_id> branch suffix, so a manual re-run never collides.
 #
 # Required repository secret (Settings → Secrets and variables → Actions):
@@ -64,12 +66,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
             echo "Forced run — guard bypassed."
             echo "already=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          # Review back-pressure: when the human review queue falls behind, new drafts pile up
+          # faster than they can be merged and every fix takes longer to land. If 5+ draft-clues
+          # PRs are already open and unmerged, skip today's run so the backlog can clear. A forced
+          # dispatch (handled above) still bypasses this.
+          open_prs=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("draft-clues/"))] | length')
+          if [ "${open_prs:-0}" -ge 5 ]; then
+            echo "::warning::${open_prs} open draft-clues PRs (>=5) — skipping today's draft so the review backlog can clear. Merge some, or dispatch with force=true to override."
+            echo "already=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "${open_prs} open draft-clues PR(s) — under the backlog cap of 5, proceeding."
           today="$(date -u +%F)"
           if git ls-remote --heads origin "draft-clues/daily-$today" | grep -q .; then
             echo "Today's draft branch (draft-clues/daily-$today) already exists — skipping."
