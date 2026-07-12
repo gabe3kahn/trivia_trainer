@@ -1,7 +1,7 @@
 {
   "pack_id": "wordplay-2026-07-06",
   "category_id": "language_wordplay",
-  "created_at": "2026-07-06T00:00:00.000Z",
+  "created_at": "2026-07-06",
   "questions": [
     {
       "source": "constructed",
@@ -12,14 +12,14 @@
       "difficulty_rank": 2,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The warrior's dream was to outshine all rivals in battle, his shield polished and sword hung ready at his hip.",
-      "answer": "Armed",
+      "clue": "After coiling the ropes on deck at the end of a long voyage, the first mate finally sat down to work on the plainspoken narrative he'd been composing for months.",
+      "answer": "Prose",
       "answer_type": "other",
       "aliases": [
-        "ARMED"
+        "prose"
       ],
       "wp": {
-        "scramble": "dream"
+        "scramble": "ropes"
       },
       "tags": [
         "wp-draft",
@@ -28,49 +28,13 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "armed forces",
-        "combat",
-        "defense",
-        "martial",
-        "military",
-        "security",
-        "warfare",
-        "weapons"
-      ]
-    },
-    {
-      "source": "constructed",
-      "external_id": "wordplay-2026-07-06-ana-02",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Anagrams",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "anagram",
-      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The cook would baste the roasting haunch for hours while the guests debated which wild thing from the forest they had feasted on most memorably.",
-      "answer": "Beast",
-      "answer_type": "other",
-      "aliases": [
-        "BEAST"
-      ],
-      "wp": {
-        "scramble": "baste"
-      },
-      "tags": [
-        "wp-draft",
-        "anagram"
-      ],
-      "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "beasts",
-        "folklore",
-        "game",
-        "hunting",
-        "nature",
-        "predators",
-        "wild animals",
-        "zoology"
+        "autobiography",
+        "fiction",
+        "literature",
+        "modernism",
+        "narrative",
+        "novel",
+        "realism"
       ]
     },
     {
@@ -78,18 +42,18 @@
       "external_id": "wordplay-2026-07-06-ana-03",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The chef arranged each rose petal as a garnish around the rim, then presented the finished course on a polished silver charger at the head of the table.",
-      "answer": "Plate",
+      "clue": "The seamstress leapt to her feet to press a neat parallel fold into the fabric before the model arrived for her fitting.",
+      "answer": "Pleat",
       "answer_type": "other",
       "aliases": [
-        "PLATE"
+        "pleat"
       ],
       "wp": {
-        "scramble": "petal"
+        "scramble": "leapt"
       },
       "tags": [
         "wp-draft",
@@ -98,13 +62,12 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "el bulli",
-        "escoffier",
-        "ferran adrià",
-        "haute cuisine",
-        "michelin stars",
-        "molecular gastronomy",
-        "nouvelle cuisine"
+        "dressmaking",
+        "fashion",
+        "garment",
+        "sewing",
+        "tailoring",
+        "textile"
       ]
     },
     {
@@ -112,18 +75,18 @@
       "external_id": "wordplay-2026-07-06-ana-04",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 800,
+      "difficulty_rank": 4,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The young colt stumbled at the fence, and the vet who rushed over found blood pooling thickly from the gash where the wound had begun to congeal.",
-      "answer": "Clot",
+      "clue": "On Halloween, children traipse from door to door waving cutlasses and demanding candy or their lives.",
+      "answer": "Pirates",
       "answer_type": "other",
       "aliases": [
-        "CLOT"
+        "pirates"
       ],
       "wp": {
-        "scramble": "colt"
+        "scramble": "traipse"
       },
       "tags": [
         "wp-draft",
@@ -132,14 +95,13 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "blood",
-        "coagulation",
-        "health",
-        "hemostasis",
-        "medical",
-        "physiology",
-        "stroke",
-        "thrombosis"
+        "blackbeard",
+        "buccaneer",
+        "caribbean",
+        "cutlass",
+        "golden age of piracy",
+        "privateering",
+        "treasure"
       ]
     },
     {
@@ -147,18 +109,18 @@
       "external_id": "wordplay-2026-07-06-ana-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Anagrams",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "anagram",
       "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
-      "clue": "The mist rolled across the empty acres at dusk, and the sudden shriek from beyond the tree line was enough to make even the bravest groundskeeper bolt for the gate.",
-      "answer": "Scare",
+      "clue": "The almanac's editor stayed up past midnight making edits to her charts of the sea's daily rise and fall.",
+      "answer": "Tides",
       "answer_type": "other",
       "aliases": [
-        "SCARE"
+        "tides"
       ],
       "wp": {
-        "scramble": "acres"
+        "scramble": "edits"
       },
       "tags": [
         "wp-draft",
@@ -167,34 +129,29 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "fear",
-        "fright",
-        "halloween",
-        "horror",
-        "phobia",
-        "scarecrow",
-        "supernatural",
-        "thriller"
-      ]
+        "moon",
+        "ocean",
+        "sea",
+        "tides"
+      ],
+      "lock_value": true
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-06-cwd-01",
+      "external_id": "wordplay-2026-07-06-cw-01",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
       "value": 400,
       "difficulty_rank": 2,
       "mechanic": "crossword",
-      "constraint_text": null,
-      "clue": "A small cluster of trees",
-      "answer": "Grove",
+      "constraint_text": "(4) _ Y _ _",
+      "clue": "Amount of computer memory that typically holds a single character of text.",
+      "answer": "BYTE",
       "answer_type": "other",
-      "aliases": [
-        "GROVE"
-      ],
+      "aliases": [],
       "wp": {
-        "length": 5,
-        "pattern": "_R___"
+        "length": 4,
+        "pattern": "_Y__"
       },
       "tags": [
         "wp-draft",
@@ -203,34 +160,30 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "copse",
-        "forest",
-        "landscape",
-        "nature",
-        "olive grove",
-        "sacred groves",
-        "trees",
-        "woodland"
+        "binary",
+        "bits",
+        "computing",
+        "digital storage",
+        "kilobyte",
+        "megabyte"
       ]
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-06-cwd-02",
+      "external_id": "wordplay-2026-07-06-cw-02",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
       "value": 400,
       "difficulty_rank": 2,
       "mechanic": "crossword",
-      "constraint_text": null,
-      "clue": "Something you either have or you don't",
-      "answer": "Knack",
+      "constraint_text": "(5) _ _ _ _ N",
+      "clue": "Wading bird known for standing motionless in shallow water",
+      "answer": "HERON",
       "answer_type": "other",
-      "aliases": [
-        "KNACK"
-      ],
+      "aliases": [],
       "wp": {
         "length": 5,
-        "pattern": "K____"
+        "pattern": "____N"
       },
       "tags": [
         "wp-draft",
@@ -239,33 +192,30 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "acumen",
-        "aptitude",
-        "flair",
-        "gift",
-        "natural ability",
-        "skill",
-        "talent"
+        "bird",
+        "great blue heron",
+        "marsh",
+        "ornithology",
+        "wading bird",
+        "wetlands"
       ]
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-06-cwd-03",
+      "external_id": "wordplay-2026-07-06-cw-03",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
       "value": 600,
       "difficulty_rank": 3,
       "mechanic": "crossword",
-      "constraint_text": null,
-      "clue": "A memorable sweep of time defined by remarkable change",
-      "answer": "Epoch",
+      "constraint_text": "(5) _ _ _ R _",
+      "clue": "Raised platform built along a waterway where vessels moor to load or discharge",
+      "answer": "WHARF",
       "answer_type": "other",
-      "aliases": [
-        "EPOCH"
-      ],
+      "aliases": [],
       "wp": {
         "length": 5,
-        "pattern": "__O__"
+        "pattern": "___R_"
       },
       "tags": [
         "wp-draft",
@@ -274,34 +224,32 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "anthropocene",
-        "cambrian explosion",
-        "digital age",
-        "enlightenment",
-        "industrial revolution",
-        "medieval period",
-        "renaissance",
-        "victorian era"
-      ]
+        "cargo",
+        "dock",
+        "harbor",
+        "maritime trade",
+        "pier",
+        "port",
+        "ships"
+      ],
+      "lock_value": true
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-06-cwd-04",
+      "external_id": "wordplay-2026-07-06-cw-04",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
       "value": 400,
       "difficulty_rank": 2,
       "mechanic": "crossword",
-      "constraint_text": null,
-      "clue": "A ballroom dance performed in three-quarter time",
-      "answer": "Waltz",
+      "constraint_text": "(5) _ _ _ T _",
+      "clue": "Ballroom dance in triple time",
+      "answer": "WALTZ",
       "answer_type": "other",
-      "aliases": [
-        "WALTZ"
-      ],
+      "aliases": [],
       "wp": {
         "length": 5,
-        "pattern": "____Z"
+        "pattern": "___T_"
       },
       "tags": [
         "wp-draft",
@@ -310,34 +258,31 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "1867",
-        "3/4 time",
         "austria",
         "ballroom",
-        "johann strauss ii",
-        "the blue danube",
-        "vienna",
-        "viennese waltz"
-      ]
+        "dance",
+        "johann strauss",
+        "romantic era",
+        "vienna"
+      ],
+      "lock_value": true
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-06-cwd-05",
+      "external_id": "wordplay-2026-07-06-cw-05",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
-      "value": 800,
-      "difficulty_rank": 4,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "crossword",
-      "constraint_text": null,
-      "clue": "A lyric form that gives its name to an adjective for anything touchingly sorrowful or wistful",
-      "answer": "Elegy",
+      "constraint_text": "(5) _ _ _ _ K",
+      "clue": "Loose protective overgarment worn over clothing",
+      "answer": "SMOCK",
       "answer_type": "other",
-      "aliases": [
-        "ELEGY"
-      ],
+      "aliases": [],
       "wp": {
         "length": 5,
-        "pattern": "____Y"
+        "pattern": "____K"
       },
       "tags": [
         "wp-draft",
@@ -346,15 +291,15 @@
       "citations": [],
       "verification_status": "skipped",
       "topic_entities": [
-        "1751",
-        "ancient greece",
-        "elegiac",
-        "elegy written in a country churchyard",
-        "ovid",
-        "pastoral elegy",
-        "romanticism",
-        "thomas gray"
-      ]
+        "apron",
+        "artist",
+        "clothing",
+        "garment",
+        "painter",
+        "protective wear",
+        "workwear"
+      ],
+      "lock_value": true
     }
   ]
 }

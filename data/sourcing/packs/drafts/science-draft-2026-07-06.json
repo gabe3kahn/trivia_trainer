@@ -13,7 +13,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This mechanism holds that organisms with traits better adapted to their environment survive and reproduce more often, gradually shifting a population's inherited characteristics over successive generations — a process that can produce new species over long timescales.",
+      "clue": "This principle holds that organisms with traits better adapted to their environment survive and reproduce more often, gradually shifting a population's inherited characteristics over successive generations — a process that can produce new species over long timescales.",
       "answer": "Natural selection",
       "answer_type": "other",
       "aliases": [],
@@ -31,7 +31,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:07.401Z",
+      "verified_at": "2026-07-12T03:27:02.975Z",
       "topic_entities": [
         "1859",
         "adaptation",
@@ -53,7 +53,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This colorless atmospheric gas consists of molecules each containing one central atom covalently double bonded to two oxygen atoms; it is the primary raw material for plant photosynthesis and a major greenhouse gas.",
+      "clue": "This colorless atmospheric gas is the primary raw material for plant photosynthesis and a major greenhouse gas.",
       "answer": "Carbon dioxide",
       "answer_type": "other",
       "aliases": [
@@ -69,11 +69,11 @@
           "source": "wikipedia",
           "title": "Carbon dioxide",
           "url": "https://en.wikipedia.org/wiki/Carbon_dioxide",
-          "snippet": "Carbon dioxide is a chemical compound with the chemical formula CO2. It is made up of molecules that each have one carbon atom covalently double bonded to two oxygen atoms. It is found in a gas state at room temperature. As the source of carbon in the carbon cycle, atmospheric CO2 is the primary carbon source for life on Earth."
+          "snippet": "Carbon dioxide is a chemical compound with the chemical formula CO2. It is made up of molecules that each have one carbon atom covalently double bonded to two oxygen atoms. It is found in a gas state at room temperature and at normally-enco"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:40:00.000Z",
+      "verified_at": "2026-07-12T03:27:03.413Z",
       "topic_entities": [
         "climate change",
         "earth's atmosphere",
@@ -95,7 +95,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "From the Latin for 'cloud' or 'fog,' this term describes a luminous region of the interstellar medium consisting of gas and cosmic dust — often a cradle of new star formation, as exemplified by the famous Pillars of Creation.",
+      "clue": "From the Latin for 'cloud' or 'fog,' this term describes a luminous region of the interstellar medium consisting of gas and cosmic dust; it is often a cradle of new star formation as exemplified by the famous Pillars of Creation.",
       "answer": "Nebula",
       "answer_type": "other",
       "aliases": [
@@ -115,7 +115,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:08.213Z",
+      "verified_at": "2026-07-12T03:27:03.797Z",
       "topic_entities": [
         "cosmic dust",
         "eagle nebula",
@@ -137,7 +137,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This branch of biology studies fungi — from yeasts and molds to mushrooms — examining their taxonomy, genetics, and biochemical properties, as well as their uses in medicine and food production and the hazards they can pose.",
+      "clue": "This branch of biology studies fungi, examining their taxonomy, genetics, and biochemical properties, their uses in medicine and food production, and the hazards they can pose.",
       "answer": "Mycology",
       "answer_type": "other",
       "aliases": [],
@@ -155,7 +155,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:08.619Z",
+      "verified_at": "2026-07-12T03:27:04.229Z",
       "topic_entities": [
         "food production",
         "fungi",
@@ -194,11 +194,11 @@
           "source": "wikipedia",
           "title": "Myopia",
           "url": "https://en.wikipedia.org/wiki/Myopia",
-          "snippet": "Myopia, also known as near-sightedness and short-sightedness, is an eye condition where light from distant objects focuses in front of, instead of on, the retina. As a result, distant objects appear blurry, while close objects appear normal."
+          "snippet": "Myopia, also known as near-sightedness and short-sightedness, is an eye condition where light from distant objects focuses in front of, instead of on, the retina. As a result, distant objects appear blurry, while close objects appear normal"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:45:00.000Z",
+      "verified_at": "2026-07-12T03:27:04.611Z",
       "topic_entities": [
         "blurry",
         "lens",
@@ -219,7 +219,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This form of inflammatory arthritis causes sudden, severe pain in swollen joints — most often at the base of the big toe in about half of all cases — triggered by the deposition of needle-shaped uric acid crystals.",
+      "clue": "This form of inflammatory arthritis causes sudden, severe pain in swollen joints, triggered by the deposition of needle-shaped uric acid crystals.",
       "answer": "Gout",
       "answer_type": "other",
       "aliases": [
@@ -239,7 +239,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:09.378Z",
+      "verified_at": "2026-07-12T03:27:05.043Z",
       "topic_entities": [
         "big toe",
         "crystals",
@@ -280,7 +280,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:09.782Z",
+      "verified_at": "2026-07-12T03:27:05.434Z",
       "topic_entities": [
         "bone",
         "collarbone",
@@ -301,7 +301,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This addictive alkaloid, found at high concentrations in tobacco leaves, also occurs in trace amounts in tomatoes, potatoes, and eggplants — all members of the nightshade family — and is valued recreationally for its stimulant and calming effects.",
+      "clue": "This addictive alkaloid, found at high concentrations in tobacco leaves, also occurs in trace amounts in tomatoes, potatoes, and eggplants, and is valued recreationally for its stimulant and calming effects.",
       "answer": "Nicotine",
       "answer_type": "other",
       "aliases": [],
@@ -319,7 +319,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:10.138Z",
+      "verified_at": "2026-07-12T03:28:00.014Z",
       "topic_entities": [
         "addictive",
         "alkaloid",
@@ -328,7 +328,8 @@
         "solanaceae",
         "stimulant",
         "tobacco"
-      ]
+      ],
+      "allow_duplicate": true
     },
     {
       "source": "original_sourced",
@@ -340,7 +341,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "When Edwin Hubble charted distant galaxies in the 1920s, he found their spectral lines consistently shifted toward the lower-energy end of the visible spectrum, suggesting those galaxies were moving away; this phenomenon remains a cornerstone of how cosmologists measure the universe's expansion.",
+      "clue": "This phenomenon, in which light from galaxies receding from us is stretched toward the lower-energy end of the visible spectrum, was first charted by Edwin Hubble in the 1920s and remains a cornerstone of how cosmologists measure the universe's expansion.",
       "answer": "Redshift",
       "answer_type": "other",
       "aliases": [
@@ -361,7 +362,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:10.494Z",
+      "verified_at": "2026-07-12T03:28:00.613Z",
       "topic_entities": [
         "1920s",
         "cosmology",
@@ -383,7 +384,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "In biology, this term names the state of steady internal physical and chemical conditions that living organisms actively maintain — keeping variables such as body temperature and fluid balance within narrow limits for optimal functioning.",
+      "clue": "In biology, this is the state of steady internal physical and chemical conditions that living organisms actively maintain — keeping variables such as body temperature and fluid balance within narrow limits for optimal functioning.",
       "answer": "Homeostasis",
       "answer_type": "other",
       "aliases": [
@@ -403,7 +404,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:10.898Z",
+      "verified_at": "2026-07-12T03:28:01.051Z",
       "topic_entities": [
         "body temperature",
         "fluid balance",
@@ -424,7 +425,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A Scottish-born engineer who co-founded what became the American Telephone and Telegraph Company, this inventor and scientist holds the patent for the first practical telephone and also contributed to advances in aeronautics and telecommunications.",
+      "clue": "This Scottish-born engineer, inventor, and scientist holds the patent for the first practical telephone and also contributed to advances in aeronautics and telecommunications.",
       "answer": "Alexander Graham Bell",
       "answer_type": "name",
       "aliases": [
@@ -440,11 +441,11 @@
           "source": "wikipedia",
           "title": "Alexander Graham Bell",
           "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
-          "snippet": "Alexander Graham Bell (March 3, 1847 – August 2, 1922) was a Scottish-born Canadian-American inventor, scientist, and engineer who is credited with patenting the first practical telephone. He also co-founded the American Telephone and Telegraph Company."
+          "snippet": "Alexander Graham Bell was a Scottish-born Canadian-American inventor, scientist, and engineer who is credited with patenting the first practical telephone. He also co-founded the American Telephone and Telegraph Company (AT&T) in 1885."
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:45:00.000Z",
+      "verified_at": "2026-07-12T03:28:01.437Z",
       "topic_entities": [
         "1876",
         "aeronautics",
@@ -466,7 +467,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "From the Latin, which borrowed it from the Ancient Greek for 'love charm,' this term names the vertical indentation running from the nasal septum to the upper lip that is common to therian mammals, including humans.",
+      "clue": "The name for this vertical indentation running from the nasal septum to the upper lip originates from the Ancient Greek for 'love charm'.",
       "answer": "Philtrum",
       "answer_type": "other",
       "aliases": [
@@ -486,7 +487,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:11.658Z",
+      "verified_at": "2026-07-12T03:28:01.867Z",
       "topic_entities": [
         "anatomical feature",
         "groove",
@@ -507,7 +508,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Designated by the letter G, this purine derivative is one of the four nucleotide bases found in both DNA and RNA; in the double helix, it forms base pairs exclusively with cytosine.",
+      "clue": "This purine derivative is one of the four nucleotide bases found in both DNA and RNA; in the double helix, it forms base pairs exclusively with cytosine.",
       "answer": "Guanine",
       "answer_type": "other",
       "aliases": [],
@@ -525,7 +526,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:32:12.072Z",
+      "verified_at": "2026-07-12T03:28:02.299Z",
       "topic_entities": [
         "base pairing",
         "cytosine",
@@ -546,7 +547,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This cosmological hypothesis posits that the universe's current expansion will eventually halt and reverse, causing all matter and spacetime to recollapse to a singularity — possibly triggering another cosmic bang that restarts everything.",
+      "clue": "This cosmological hypothesis posits that the universe's current expansion will eventually halt and reverse, causing all matter and spacetime to recollapse to a singularity, possibly triggering another cosmic bang that restarts everything.",
       "answer": "Big Crunch",
       "answer_type": "other",
       "aliases": [
@@ -566,7 +567,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:33:00.589Z",
+      "verified_at": "2026-07-12T03:28:02.987Z",
       "topic_entities": [
         "big bang",
         "big crunch",
@@ -587,7 +588,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Originally designed to calculate artillery firing tables for the United States Army's Ballistic Research Laboratory, this machine completed in 1945 by John Mauchly and J. Presper Eckert was the first programmable, electronic, general-purpose digital computer.",
+      "clue": "Originally designed to calculate artillery firing tables for the United States Army's Ballistic Research Laboratory, this machine, completed in 1945 by John Mauchly and J. Presper Eckert, was the first programmable, electronic, general-purpose digital computer.",
       "answer": "ENIAC",
       "answer_type": "other",
       "aliases": [
@@ -603,11 +604,11 @@
           "source": "wikipedia",
           "title": "ENIAC",
           "url": "https://en.wikipedia.org/wiki/ENIAC",
-          "snippet": "ENIAC (Electronic Numerical Integrator and Computer) was the first programmable, electronic, general-purpose digital computer, completed in 1945. ENIAC was designed by John Mauchly and J. Presper Eckert to calculate artillery firing tables for the United States Army's Ballistic Research Laboratory."
+          "snippet": "ENIAC was the first programmable, electronic, general-purpose digital computer, completed in 1945. Other computers had some of these features, but ENIAC was the first to have them all. ENIAC was Turing-complete and able to solve \"a large cl"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:40:00.000Z",
+      "verified_at": "2026-07-12T03:28:04.182Z",
       "topic_entities": [
         "1945",
         "ballistic research laboratory",

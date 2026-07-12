@@ -13,7 +13,7 @@
       "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "This ancient decorative technique assembles images and patterns from small pieces of colored stone, glass, or ceramic set in plaster, and was especially popular in the Roman world as flooring and wall decoration.",
+      "clue": "This ancient decorative technique assembles images and patterns from small pieces of colored stone, glass, or ceramic set in plaster; it was especially popular in the Roman world as flooring and wall decoration.",
       "answer": "Mosaic",
       "answer_type": "other",
       "aliases": [
@@ -33,7 +33,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:06.645Z",
+      "verified_at": "2026-07-12T03:26:15.891Z",
       "topic_entities": [
         "ancient rome",
         "byzantine",
@@ -55,7 +55,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Among the world's most visited art institutions, this neoclassical building inaugurated in 1819 holds one of Europe's richest collections of paintings from the 12th through the 19th century, with particular strengths in Spanish Baroque, Flemish masters, and the Italian Renaissance — drawn largely from former royal collections.",
+      "clue": "Among the world's most visited art institutions, this neoclassical building inaugurated in 1819 holds one of Europe's richest collections of paintings from the 12th through the 19th century.",
       "answer": "Museo del Prado",
       "answer_type": "other",
       "aliases": [
@@ -77,7 +77,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:07.052Z",
+      "verified_at": "2026-07-12T03:26:16.347Z",
       "topic_entities": [
         "1819",
         "goya",
@@ -98,7 +98,7 @@
       "difficulty_rank": 2,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Commissioned by King Ludwig II of Bavaria and holding the Guinness record as the world's tallest castle at 65 metres, this 19th-century historicist palace crowns a rugged Alpine hilltop in the German state of Bavaria near the Austrian border.",
+      "clue": "Commissioned by King Ludwig II of Bavaria and holding the Guinness record as the world's tallest castle at 65 metres, this 19th-century palace crowns a rugged Alpine hilltop in the German state of Bavaria near the Austrian border.",
       "answer": "Neuschwanstein",
       "answer_type": "other",
       "aliases": [
@@ -119,7 +119,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:07.485Z",
+      "verified_at": "2026-07-12T03:26:16.745Z",
       "topic_entities": [
         "1869",
         "alpine",
@@ -164,7 +164,7 @@
       "image_license": "public-domain",
       "answer_detail": "Haystacks (Stacks of Wheat) — Claude Monet",
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:08.084Z",
+      "verified_at": "2026-07-12T03:26:17.753Z",
       "topic_entities": [
         "1840-1926",
         "claude monet",
@@ -206,7 +206,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:08.439Z",
+      "verified_at": "2026-07-12T03:26:18.242Z",
       "topic_entities": [
         "american painter",
         "edgar degas",
@@ -252,7 +252,7 @@
       "image_license": "public-domain",
       "answer_detail": "The School of Athens — Raphael",
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:08.878Z",
+      "verified_at": "2026-07-12T03:26:19.053Z",
       "topic_entities": [
         "aristotle",
         "italian renaissance",
@@ -274,7 +274,7 @@
       "difficulty_rank": 3,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "From the Latin for 'great work,' this term names a creation that has been given much critical praise — especially the most important piece produced by an artist during their career or a defining example of a craft.",
+      "clue": "From the Latin for 'great work,' this term names a creation that has been given much critical praise; it is often the most important piece produced by an artist during their career or a defining example of a craft.",
       "answer": "Magnum opus",
       "answer_type": "other",
       "aliases": [
@@ -291,11 +291,11 @@
           "source": "wikipedia",
           "title": "Masterpiece",
           "url": "https://en.wikipedia.org/wiki/Masterpiece",
-          "snippet": "A masterpiece, magnum opus (Latin for 'great work'), or chef-d'oeuvre (French for 'master of work') is a creation that has been given much critical praise, especially the most important piece produced by a craftsperson during their career."
+          "snippet": "A masterpiece, magnum opus, or chef-d'œuvre is a creation that has been given much critical praise, especially one that is considered the greatest work of a person's career or a work of outstanding creativity, skill, profundity, or workmans"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:45:00.000Z",
+      "verified_at": "2026-07-12T03:26:19.493Z",
       "topic_entities": [
         "artist",
         "career-defining",
@@ -310,8 +310,8 @@
       "external_id": "arts-vc-2026-07-06-008",
       "category_id": "arts_visual_culture",
       "subcategory_name": "Painters & Sculptors",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 200,
+      "difficulty_rank": 1,
       "mechanic": "standard",
       "constraint_text": null,
       "clue": "Among the most prolific modern artists in history, this Málaga-born painter's career of more than 70 years included his introspective Blue Period, his joyful Rose Period, and an experimental ceramics phase at the Madoura pottery workshop in southern France.",
@@ -334,7 +334,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:09.587Z",
+      "verified_at": "2026-07-12T03:26:19.869Z",
       "topic_entities": [
         "blue period",
         "cubism",
@@ -375,7 +375,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:09.942Z",
+      "verified_at": "2026-07-12T03:26:20.241Z",
       "topic_entities": [
         "1919-1947",
         "california",
@@ -397,7 +397,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Her father perished when the Titanic sank in 1912; this American heiress channeled her inheritance into building one of the century's foremost collections of modern art, eventually settling in Venice to display it in a Grand Canal palazzo.",
+      "clue": "After her father perished on the Titanic in 1912, this American heiress channeled her inheritance into building one of the century's foremost collections of modern art and eventually settled in Venice to display it in a Grand Canal palazzo.",
       "answer": "Peggy Guggenheim",
       "answer_type": "other",
       "aliases": [
@@ -418,7 +418,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:10.347Z",
+      "verified_at": "2026-07-12T03:26:20.676Z",
       "topic_entities": [
         "1912",
         "guggenheim family",
@@ -440,7 +440,7 @@
       "difficulty_rank": 4,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "A student of Samuel Morse — who had pioneered the daguerreotype technique in America — this photographer's Civil War mobile darkrooms produced thousands of battlefield images that gave the American public its first unsparing view of modern warfare.",
+      "clue": "A student of Samuel Morse, this photographer's Civil War mobile darkrooms produced thousands of battlefield images that gave the American public its first unsparing view of modern warfare.",
       "answer": "Mathew Brady",
       "answer_type": "name",
       "aliases": [
@@ -461,7 +461,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:10.702Z",
+      "verified_at": "2026-07-12T03:26:21.113Z",
       "topic_entities": [
         "1860s",
         "american civil war",
@@ -470,7 +470,8 @@
         "daguerreotype",
         "mathew brady",
         "samuel morse"
-      ]
+      ],
+      "allow_duplicate": true
     },
     {
       "source": "original_sourced",
@@ -504,7 +505,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:11.058Z",
+      "verified_at": "2026-07-12T03:27:00.675Z",
       "topic_entities": [
         "1977",
         "beaubourg",
@@ -551,7 +552,7 @@
       "image_license": "public-domain",
       "answer_detail": "Judith Beheading Holofernes — Caravaggio",
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:11.491Z",
+      "verified_at": "2026-07-12T03:27:01.225Z",
       "topic_entities": [
         "1571-1610",
         "baroque",
@@ -595,7 +596,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:11.847Z",
+      "verified_at": "2026-07-12T03:27:01.654Z",
       "topic_entities": [
         "1758-1790",
         "5th arrondissement",
@@ -617,7 +618,7 @@
       "difficulty_rank": 5,
       "mechanic": "standard",
       "constraint_text": null,
-      "clue": "Her 1933 memoir was written entirely in the voice of her companion and personal secretary rather than her own, and titled with that companion's name; her Paris salon had earlier drawn Picasso, Hemingway, and Matisse to her home in one of modernism's most storied gatherings.",
+      "clue": "Her 1933 memoir was written entirely in the voice of her companion and personal secretary rather than her own, and titled with that companion's name.",
       "answer": "Gertrude Stein",
       "answer_type": "name",
       "aliases": [
@@ -637,7 +638,7 @@
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-07-06T14:29:12.202Z",
+      "verified_at": "2026-07-12T03:27:02.092Z",
       "topic_entities": [
         "1933",
         "alice b. toklas",
