@@ -1,0 +1,588 @@
+{
+  "pack_id": "rmp-draft-2026-07-02",
+  "category_id": "religion_mythology_philosophy",
+  "created_at": "2026-07-02",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jainism",
+      "external_id": "rmp-2026-07-02-001",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Indian religion carries the principle of ahimsa to its furthest extreme — its most devout ascetics sweep the ground as they walk and strain their drinking water to avoid harming even the tiniest organisms.",
+      "answer": "Jainism",
+      "answer_type": "other",
+      "aliases": [
+        "Jain Dharma"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jainism",
+          "url": "https://en.wikipedia.org/wiki/Jainism",
+          "snippet": "\nJainism, also known as Jain Dharma, is an Indian religion that teaches a path toward spiritual purity and enlightenment through disciplined nonviolence to all living creatures. The tradition is spiritually guided by 24 tirthankaras (ford-m"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:13.287Z",
+      "topic_entities": [
+        "6th century bce",
+        "ahimsa",
+        "asceticism",
+        "india",
+        "karma",
+        "mahavira",
+        "tirthankaras"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hijab",
+      "external_id": "rmp-2026-07-02-002",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Islamic head covering wraps around the head to cover the hair, neck and ears while leaving the face exposed.",
+      "answer": "Hijab",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "symbols-rituals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hijab",
+          "url": "https://en.wikipedia.org/wiki/Hijab",
+          "snippet": "The Hijab, while commonly equated with the headscarf worn by Muslim women, is a term also associated with a broader range of bodily covering and behavioral patterns that extend to human emotions. When used in the sense of headscarf, this te"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:13.643Z",
+      "topic_entities": [
+        "islam",
+        "middle east",
+        "modesty",
+        "muslim women",
+        "sharia law",
+        "veil"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hermes",
+      "external_id": "rmp-2026-07-02-003",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Serving as the herald of the Olympians in his winged sandals, this Greek god slew the hundred-eyed giant Argus and guided the souls of the dead to the underworld.",
+      "answer": "Hermes",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hermes",
+          "url": "https://en.wikipedia.org/wiki/Hermes",
+          "snippet": "Hermes is an Olympian deity in ancient Greek religion and mythology considered the herald of the gods. He is also widely considered the protector of human heralds, travelers, thieves, merchants, and orators. He is able to move quickly and f"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:14.049Z",
+      "topic_entities": [
+        "greek mythology",
+        "hades",
+        "hermes",
+        "mercury",
+        "messenger god",
+        "olympus",
+        "psychopomp",
+        "talaria"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Book_of_Lamentations",
+      "external_id": "rmp-2026-07-02-004",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A short Hebrew scripture that mourns the fall of Jerusalem in 586 BCE, this book appears in the Ketuvim as one of the Five Megillot alongside the Song of Songs, Ruth, Esther, and Ecclesiastes.",
+      "answer": "Book of Lamentations",
+      "answer_type": "other",
+      "aliases": [
+        "Lamentations"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Book of Lamentations",
+          "url": "https://en.wikipedia.org/wiki/Book_of_Lamentations",
+          "snippet": "The Book of Lamentations is a collection of poetic laments for the destruction of Jerusalem in 586 BCE. In the Hebrew Bible, it appears in the Ketuvim (\"Writings\") as one of the Five Megillot alongside the Song of Songs, Book of Ruth, Eccle"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:14.457Z",
+      "topic_entities": [
+        "586 bce",
+        "babylon",
+        "book of lamentations",
+        "five megillot",
+        "hebrew bible",
+        "jerusalem",
+        "ketuvim"
+      ],
+      "allow_duplicate": true
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Reform_Judaism",
+      "external_id": "rmp-2026-07-02-006",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This major Jewish denomination holds that its ethical principles take precedence over ceremonial law and that Jewish practice must continuously evolve through human reason and ongoing revelation.",
+      "answer": "Reform",
+      "answer_type": "other",
+      "aliases": [
+        "Progressive",
+        "Liberal"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Reform Judaism",
+          "url": "https://en.wikipedia.org/wiki/Reform_Judaism",
+          "snippet": "Reform Judaism, also known as Liberal Judaism or Progressive Judaism, is a major Jewish denomination that emphasizes the evolving nature of Judaism, the superiority of its ethical aspects to its ceremonial ones, and belief in a continuous r"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:15.168Z",
+      "topic_entities": [
+        "19th century",
+        "ethical monotheism",
+        "germany",
+        "halacha",
+        "judaism",
+        "progressive judaism",
+        "reform judaism"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pegasus",
+      "external_id": "rmp-2026-07-02-007",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This winged horse of Greek myth sprang from the blood of the Gorgon Medusa when Perseus slew her.",
+      "answer": "Pegasus",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pegasus",
+          "url": "https://en.wikipedia.org/wiki/Pegasus",
+          "snippet": "Pegasus is a winged horse in Greek mythology, usually depicted as a white stallion. He was sired by Poseidon, in his role as horse-god, and foaled by the Gorgon Medusa. Pegasus was the brother of Chrysaor, both born from Medusa's blood when"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:15.524Z",
+      "topic_entities": [
+        "bellerophon",
+        "chimera",
+        "greek mythology",
+        "medusa",
+        "pegasus",
+        "perseus",
+        "poseidon"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Orpheus",
+      "external_id": "rmp-2026-07-02-008",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This legendary Thracian musician sailed with Jason and the Argonauts before making a separate journey into the realm of the dead to reclaim his lost wife.",
+      "answer": "Orpheus",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Orpheus",
+          "url": "https://en.wikipedia.org/wiki/Orpheus",
+          "snippet": "In Greek mythology, Orpheus was a Thracian bard, legendary musician and prophet. He was also a renowned poet and, according to legend, travelled with Jason and the Argonauts in search of the Golden Fleece, and descended into the underworld "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:15.880Z",
+      "topic_entities": [
+        "argonauts",
+        "eurydice",
+        "greek mythology",
+        "hades",
+        "jason",
+        "orpheus",
+        "thrace",
+        "underworld"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pope_Francis",
+      "external_id": "rmp-2026-07-02-009",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born Jorge Mario Bergoglio in Buenos Aires, in 2013 this pontiff became the first member of the Society of Jesus to serve as head of the Catholic Church.",
+      "answer": "Pope Francis",
+      "answer_type": "other",
+      "aliases": [
+        "Francis"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pope Francis",
+          "url": "https://en.wikipedia.org/wiki/Pope_Francis",
+          "snippet": "Pope Francis was the head of the Catholic Church and sovereign of Vatican City from 13 March 2013 until his death in 2025. He was the first Jesuit pope, the first Latin American, and the first pope born or raised outside Europe since the 8t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:16.237Z",
+      "topic_entities": [
+        "2013",
+        "argentina",
+        "buenos aires",
+        "jesuit",
+        "jorge mario bergoglio",
+        "pope francis",
+        "society of jesus",
+        "vatican"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Socratic_method",
+      "external_id": "rmp-2026-07-02-010",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this form of philosophical dialogue, a questioner probes a partner with systematic questions and clarifications until the partner either reaches a conclusion independently or must admit the limits of their knowledge.",
+      "answer": "Socratic Method",
+      "answer_type": "other",
+      "aliases": [
+        "Socratic dialogue",
+        "Socratic Dialogue",
+        "elenchus",
+        "maieutic method"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophical-schools"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Socratic method",
+          "url": "https://en.wikipedia.org/wiki/Socratic_method",
+          "snippet": "The Socratic method is a form of argumentative dialogue in which an individual probes a conversation partner on a topic, using questions and clarifications, until the partner is pressed to come to a conclusion on their own, or else their re"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:16.592Z",
+      "topic_entities": [
+        "ancient greece",
+        "athens",
+        "dialogue",
+        "epistemology",
+        "philosophy",
+        "plato",
+        "socrates",
+        "socratic method"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Conscience",
+      "external_id": "rmp-2026-07-02-011",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Ethics & Political Thought",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This cognitive process elicits both emotional and rational associations from an individual's moral framework, producing the inner sense of guilt or approval that guides ethical decisions.",
+      "answer": "Conscience",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "ethics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Conscience",
+          "url": "https://en.wikipedia.org/wiki/Conscience",
+          "snippet": "A conscience is a cognitive process that elicits emotion and rational associations based on an individual's moral philosophy or value system. Conscience is not an elicited emotion or thought produced by associations based on immediate senso"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:16.947Z",
+      "topic_entities": [
+        "conscience",
+        "ethics",
+        "guilt",
+        "kant",
+        "moral framework",
+        "morality",
+        "philosophy"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Beelzebub",
+      "external_id": "rmp-2026-07-02-012",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Derived from a Philistine deity once worshipped in Ekron, this demon's name in Abrahamic tradition translates as 'Lord of the Flies' and is associated with a Canaanite god.",
+      "answer": "Beelzebub",
+      "answer_type": "other",
+      "aliases": [
+        "Beelzebul",
+        "Belzebuth",
+        "Ba'al Zebub"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Beelzebub",
+          "url": "https://en.wikipedia.org/wiki/Beelzebub",
+          "snippet": "Ba'al Zabub, Ba'al Zvuv or Beelzebub, also spelled Beelzebul or Belzebuth, and occasionally known as the Lord of the Flies, is a name derived from a Philistine god, formerly worshipped in Ekron, and later adopted by some Abrahamic religions"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:17.303Z",
+      "topic_entities": [
+        "baal",
+        "beelzebub",
+        "canaanite",
+        "demon",
+        "ekron",
+        "lord of the flies",
+        "philistine deity",
+        "satan"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Agnes_of_Rome",
+      "external_id": "rmp-2026-07-02-013",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This virgin martyr was executed as an adolescent in 304 CE for refusing to deny her faith; she is now venerated as a patron saint and commemorated by the Catholic Church on January 21 every year.",
+      "answer": "Agnes of Rome",
+      "answer_type": "other",
+      "aliases": [
+        "Saint Agnes",
+        "St. Agnes"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Agnes of Rome",
+          "url": "https://en.wikipedia.org/wiki/Agnes_of_Rome",
+          "snippet": "Agnes of Rome was a Roman Christian adolescent who was executed for her faith in the 4th century. She is venerated as a virgin martyr and as a saint in the Catholic Church, Oriental Orthodox Church and the Eastern Orthodox Church, as well a"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:17.658Z",
+      "topic_entities": [
+        "304 ce",
+        "agnes of rome",
+        "january 21",
+        "patron saint",
+        "roman martyr",
+        "rome",
+        "virgin martyr"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jainism",
+      "external_id": "rmp-2026-07-02-014",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Jain teaching, each cosmic time cycle is guided by 24 of these supreme beings who have conquered rebirth and attained omniscience; the last in the current cycle was Mahavira, a 6th-century BCE contemporary of the Buddha.",
+      "answer": "Tirthankara",
+      "answer_type": "other",
+      "aliases": [
+        "Tirthankaras",
+        "ford-maker",
+        "ford-makers"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jainism",
+          "url": "https://en.wikipedia.org/wiki/Jainism",
+          "snippet": "\nJainism, also known as Jain Dharma, is an Indian religion that teaches a path toward spiritual purity and enlightenment through disciplined nonviolence to all living creatures. The tradition is spiritually guided by 24 tirthankaras (ford-m"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:18.013Z",
+      "topic_entities": [
+        "24 tirthankaras",
+        "jainism",
+        "karma",
+        "mahavira",
+        "omniscience",
+        "rebirth",
+        "tirthankara"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pope_Francis",
+      "external_id": "rmp-2026-07-02-015",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born in Syria, this 8th-century pontiff was the last non-European head of the Catholic Church until Pope Francis I was elected to lead it in 2013.",
+      "answer": "Gregory III",
+      "answer_type": "other",
+      "aliases": [
+        "Pope Gregory III",
+        "Pope Gregory the Third",
+        "Gregory the Third"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pope Francis",
+          "url": "https://en.wikipedia.org/wiki/Pope_Francis",
+          "snippet": "Pope Francis was the head of the Catholic Church and sovereign of Vatican City from 13 March 2013 until his death in 2025. He was the first Jesuit pope, the first Latin American, and the first pope born or raised outside Europe since the 8t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:46:18.369Z",
+      "topic_entities": [
+        "731-741",
+        "8th century",
+        "catholic church",
+        "gregory iii",
+        "latin america",
+        "pope",
+        "pope francis",
+        "syria"
+      ]
+    }
+  ]
+}

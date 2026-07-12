@@ -20,7 +20,7 @@ if (!bankPath) {
 const request = createSupabaseRequest(getSupabaseAdminConfig());
 
 const bank = JSON.parse(await fs.readFile(path.resolve(bankPath), 'utf8'));
-const questions = Array.isArray(bank) ? bank : bank.questions;
+let questions = Array.isArray(bank) ? bank : bank.questions;
 if (!Array.isArray(questions)) {
   throw new Error('Question bank must be an array or an object with a questions array.');
 }
@@ -100,6 +100,7 @@ for (const row of activeRows) {
   }
 }
 const bankCollisions = [];
+const collidingIds = new Set();
 for (const question of questions) {
   // Reviewer-blessed cross-fact dupe (e.g. "Brazil" as a geography fact AND a World Cup
   // fact). The gate is answer-only, so it can't tell different facts apart — allow_duplicate
@@ -120,13 +121,28 @@ for (const question of questions) {
       hits.push(row);
     }
   }
-  if (hits.length) bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
+  if (hits.length) {
+    bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
+    if (question.external_id) collidingIds.add(question.external_id);
+  }
 }
 if (bankCollisions.length) {
-  throw new Error(
-    `Answers already active in the bank under a same-class clue — re-drafting a live answer is a ` +
-      `wasted repeat (run category-coverage and swap them). Collisions: ${bankCollisions.join(', ')}`,
+  const detail = `Collisions: ${bankCollisions.join(', ')}`;
+  if (dryRun) {
+    // DRAFT-TIME gate: hard-fail so the drafter swaps the answer before it reaches a PR.
+    throw new Error(
+      `Answers already active in the bank under a same-class clue — re-drafting a live answer is a ` +
+        `wasted repeat (run category-coverage and swap them). ${detail}`,
+    );
+  }
+  // LIVE import (import-on-merge): a SIBLING draft PR may have imported this answer AFTER this
+  // pack was drafted, so the dry-run couldn't have seen it. Don't abort the whole pack over one
+  // dup — SKIP the colliding clue(s) and import the rest, loudly (surfaced as an Actions warning).
+  console.warn(
+    `::warning::Skipping ${collidingIds.size} clue(s) already active in the bank (a sibling PR likely ` +
+      `imported the answer after this pack was drafted). ${detail}`,
   );
+  questions = questions.filter((q) => !collidingIds.has(q.external_id));
 }
 
 const subcategories = await request('/rest/v1/subcategories?select=id,category_id,name');

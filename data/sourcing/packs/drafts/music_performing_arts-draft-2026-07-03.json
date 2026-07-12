@@ -1,0 +1,257 @@
+{
+  "pack_id": "music_performing_arts-draft-2026-07-03",
+  "category_id": "music_performing_arts",
+  "created_at": "2026-07-03T00:00:00.000Z",
+  "notes": "Run 2026-07-03. 15 clues: 3×$200, 3×$400, 3×$600, 3×$800, 3×$1000. Subcats: Popular Music (6), Dance (2), Theater (5), Broadway & Musicals (1), Jazz & Blues (1).",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Aerosmith",
+      "external_id": "music-2026-07-03-003",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Formed in 1970 and nicknamed 'the Bad Boys from Boston,' this blues-based hard rock band features vocalist Steven Tyler and guitarist Joe Perry.",
+      "answer": "Aerosmith",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music",
+        "rock"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Aerosmith",
+          "url": "https://en.wikipedia.org/wiki/Aerosmith",
+          "snippet": "Aerosmith is an American rock band formed in Boston in 1970. The group consists of lead vocalist Steven Tyler, bassist Tom Hamilton, drummer Joey Kramer, and guitarists Joe Perry and Brad Whitford. Their style, which is rooted in blues-base"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:24.720Z",
+      "topic_entities": [
+        "1970",
+        "aerosmith",
+        "boston",
+        "joe perry",
+        "steven tyler",
+        "walk this way"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Sutton_Foster",
+      "external_id": "music-2026-07-03-006",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Broadway & Musicals",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Broadway actress won two Tony Awards for Best Actress in a Musical — for the title role in Thoroughly Modern Millie (2002) and for Reno Sweeney in Anything Goes (2011).",
+      "answer": "Sutton Foster",
+      "answer_type": "name",
+      "aliases": [
+        "Foster"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "broadway",
+        "theater"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Sutton Foster",
+          "url": "https://en.wikipedia.org/wiki/Sutton_Foster",
+          "snippet": "Sutton Lenore Foster is an American actress, singer, and dancer. She is known for her work in stage musicals on Broadway and has received numerous accolades including two Tony Awards, two Drama Desk Awards, a Drama League Award, and three O"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:25.785Z",
+      "topic_entities": [
+        "2002",
+        "2011",
+        "anything goes",
+        "sutton foster",
+        "thoroughly modern millie",
+        "tony award"
+      ],
+      "allow_duplicate": true
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+      "external_id": "music-2026-07-03-007",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Jazz & Blues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This jazz bandleader's orchestra reached a mainstream pop audience through two albums performed with Frank Sinatra including the 1962 LP subtitled 'An Historic Musical First.'",
+      "answer": "Count Basie",
+      "answer_type": "name",
+      "aliases": [
+        "Basie"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "jazz",
+        "big-band"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Frank Sinatra",
+          "url": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+          "snippet": "Francis Albert Sinatra was an American singer and actor. Nicknamed the \"Chairman of the Board\" and \"Ol' Blue Eyes\", he is regarded as one of the most influential entertainers of the 20th century."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:26.204Z",
+      "topic_entities": [
+        "1962",
+        "big band",
+        "count basie",
+        "frank sinatra",
+        "kansas city",
+        "swing"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Greensleeves",
+      "external_id": "music-2026-07-03-010",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Registered at the London Stationers' Company as a broadside ballad in September 1580, this traditional English melody was documented in several late 16th-century lute books.",
+      "answer": "Greensleeves",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music",
+        "folk"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Greensleeves",
+          "url": "https://en.wikipedia.org/wiki/Greensleeves",
+          "snippet": "\"Greensleeves\" is a traditional English folk song. A broadside ballad by the name \"A Newe Northen Dittye of ye Ladye Greene Sleves\" was registered by Richard Jones at the London Stationers' Company in September 1580, and the tune is found i"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:27.277Z",
+      "topic_entities": [
+        "1580",
+        "ballad",
+        "england",
+        "greensleeves",
+        "london stationers' company",
+        "lute"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Black_Francis",
+      "external_id": "music-2026-07-03-013",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Popular Music",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This alternative rock guitarist's signature sound was defined by cryptic lyrics and vocals ranging from guttural screams to measured melody.",
+      "answer": "Black Francis",
+      "answer_type": "other",
+      "aliases": [
+        "Frank Black",
+        "Charles Thompson IV",
+        "Charles Thompson"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "popular-music",
+        "alternative-rock"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Black Francis",
+          "url": "https://en.wikipedia.org/wiki/Black_Francis",
+          "snippet": "Charles Michael Kittridge Thompson IV, known professionally as Black Francis and formerly Frank Black, is an American singer, songwriter, and guitarist who is the lead vocalist of the alternative rock band Pixies. Following the band's break"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:28.341Z",
+      "topic_entities": [
+        "4ad records",
+        "alternative rock",
+        "black francis",
+        "kim deal",
+        "pixies"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
+      "external_id": "music-2026-07-03-015",
+      "category_id": "music_performing_arts",
+      "subcategory_name": "Theater",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "These signature routines performed in the commedia dell'arte could either be improvised or preplanned.",
+      "answer": "Lazzi",
+      "answer_type": "other",
+      "aliases": [
+        "Lazzo"
+      ],
+      "tags": [
+        "mpa-draft",
+        "sourced",
+        "theater",
+        "commedia"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Commedia dell'arte",
+          "url": "https://en.wikipedia.org/wiki/Commedia_dell'arte",
+          "snippet": "Commedia dell'arte was an early form of professional theatre, originating from Italian theatre, that was popular throughout Europe between the 16th and 18th centuries. It was formerly called Italian comedy in English and is also known as co"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-03T14:43:29.051Z",
+      "topic_entities": [
+        "commedia dell'arte",
+        "gag",
+        "harlequin",
+        "improvisation",
+        "lazzo"
+      ]
+    }
+  ]
+}
