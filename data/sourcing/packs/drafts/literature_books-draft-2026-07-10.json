@@ -1,0 +1,599 @@
+{
+  "pack_id": "literature_books-draft-2026-07-10",
+  "pack_type": "sourced",
+  "category_id": "literature_books",
+  "created_at": "2026-07-10",
+  "notes": "15 clues covering American Literature, Poetry, Authors & Works, 19th-Century Novels, Shakespeare & Drama, Literary Characters, Children's & YA, Awards/Movements/Terms, World Literature. Weighted toward $800–$1000 to correct UNDER-WEIGHT tier.",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Much_Ado_About_Nothing",
+      "external_id": "lit-2026-07-10-001",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Set in Messina around 1598, this Shakespeare comedy features two romances: one nearly wrecked by the scheming of Don John, and the other fueled by the banter of Benedick and Beatrice.",
+      "answer": "Much Ado About Nothing",
+      "answer_type": "other",
+      "aliases": [
+        "Much Ado"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "shakespeare-drama"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Much Ado About Nothing",
+          "url": "https://en.wikipedia.org/wiki/Much_Ado_About_Nothing",
+          "snippet": "Much Ado About Nothing is a comedy by William Shakespeare thought to have been written in 1598 and 1599. The play is set in Messina and revolves around two romantic pairings... The first, between Claudio and Hero, is nearly scuppered by the accusations of the villain, Don John. The second, between Claudio's friend Benedick and Hero's cousin Beatrice, takes centre stage."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": null,
+      "topic_entities": [
+        "1598",
+        "beatrice",
+        "benedick",
+        "don john",
+        "messina",
+        "shakespeare"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Hunger_Games",
+      "external_id": "lit-2026-07-10-002",
+      "category_id": "literature_books",
+      "subcategory_name": "Children's & Young Adult Literature",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Suzanne Collins's 2008 dystopian novel is set in the nation of Panem, where a young woman named Katniss Everdeen volunteers to take her sister's place in a televised fight to the death staged by the ruling Capitol.",
+      "answer": "The Hunger Games",
+      "answer_type": "other",
+      "aliases": [
+        "Hunger Games"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "childrens-ya"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Hunger Games",
+          "url": "https://en.wikipedia.org/wiki/The_Hunger_Games",
+          "snippet": "The Hunger Games is a series of young adult dystopian novels written by American author Suzanne Collins. The series consists of a trilogy that follows teenage protagonist Katniss Everdeen, as well as two prequels. The Hunger Games universe "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:01.114Z",
+      "topic_entities": [
+        "2008",
+        "capitol",
+        "katniss everdeen",
+        "panem",
+        "suzanne collins"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Daniel_Deronda",
+      "external_id": "lit-2026-07-10-003",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "George Eliot's last completed novel, published in 1876, is her only work set in contemporary Victorian society — notable for its sympathetic treatment of proto-Zionist ideas.",
+      "answer": "Daniel Deronda",
+      "answer_type": "other",
+      "aliases": [
+        "Deronda"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "19th-century-novels"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Daniel Deronda",
+          "url": "https://en.wikipedia.org/wiki/Daniel_Deronda",
+          "snippet": "Daniel Deronda is a novel by English author George Eliot (the pen name of Mary Ann Evans), first published in eight installments from February to September 1876. It was the last novel she completed and the only one set in the Victorian society of her day. Along with its sympathetic rendering of proto-Zionist ideas, it has made it a final statement from one of the most renowned Victorian novelists."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": null,
+      "topic_entities": [
+        "1876",
+        "england",
+        "george eliot",
+        "victorian society",
+        "zionism"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Rainer_Maria_Rilke",
+      "external_id": "lit-2026-07-10-004",
+      "category_id": "literature_books",
+      "subcategory_name": "Poetry",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Bohemian-Austrian poet — often regarded as one of the most significant German-language writers of the 20th century — composed the ten Duino Elegies and the Sonnets to Orpheus in a late creative burst in 1922.",
+      "answer": "Rainer Maria Rilke",
+      "answer_type": "name",
+      "aliases": [
+        "Rilke"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "poetry"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Rainer Maria Rilke",
+          "url": "https://en.wikipedia.org/wiki/Rainer_Maria_Rilke",
+          "snippet": "René Karl Wilhelm Johann Josef Maria Rilke, known as Rainer Maria Rilke, was an Austrian poet. Acclaimed as an idiosyncratic and expressive poet, he is widely recognized as a significant writer in the German language. His work is viewed by "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:01.849Z",
+      "topic_entities": [
+        "1922",
+        "bohemian-austrian",
+        "duino elegies",
+        "prague",
+        "sonnets to orpheus"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Captains_Courageous",
+      "external_id": "lit-2026-07-10-005",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Rudyard Kipling's 1897 novel follows a spoiled railroad heir rescued from the North Atlantic by a fishing schooner and forced to earn his keep among the crew.",
+      "answer": "Captains Courageous",
+      "answer_type": "other",
+      "aliases": [
+        "Captains Courageous: A Story of the Grand Banks"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "world-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Captains Courageous",
+          "url": "https://en.wikipedia.org/wiki/Captains_Courageous",
+          "snippet": "Captains Courageous: A Story of the Grand Banks is an 1897 novel by Rudyard Kipling that follows the adventures of fifteen-year-old Harvey Cheyne Jr., the spoiled son of a railroad tycoon, after he is saved from drowning by an American fishing schooner in the North Atlantic and is made to earn his keep as a member of the crew."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": null,
+      "topic_entities": [
+        "1897",
+        "fishing schooner",
+        "harvey cheyne",
+        "north atlantic",
+        "rudyard kipling"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_Road",
+      "external_id": "lit-2026-07-10-006",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Cormac McCarthy's 2006 post-apocalyptic novel — awarded the Pulitzer Prize for Fiction the following year — follows an unnamed father and son walking southward through a blasted, ashen American landscape toward the coast.",
+      "answer": "The Road",
+      "answer_type": "other",
+      "aliases": [
+        "Road"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The Road",
+          "url": "https://en.wikipedia.org/wiki/The_Road",
+          "snippet": "The Road is a 2006 post-apocalyptic novel by American writer Cormac McCarthy. The book details the grueling journey of a father and his young son over several months across a landscape blasted by an unspecified cataclysm that has destroyed "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:02.580Z",
+      "topic_entities": [
+        "2006",
+        "america",
+        "cormac mccarthy",
+        "post-apocalyptic",
+        "pulitzer prize"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Small_Mercies_(novel)",
+      "external_id": "lit-2026-07-10-007",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Dennis Lehane's 2023 novel is set in Boston's summer of 1974, just before citywide school integration, weaving Irish Mob conflict, a missing teenager, and racial unrest.",
+      "answer": "Small Mercies",
+      "answer_type": "other",
+      "aliases": [
+        "Small Mercies (novel)"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Small Mercies",
+          "url": "https://en.wikipedia.org/wiki/Small_Mercies_(novel)",
+          "snippet": "Small Mercies is a 2023 detective-mystery novel by American author Dennis Lehane. The novel is set in Boston in summer 1974, during the tense days approaching the start of the school year at the height of the Boston busing crisis. The story encompasses Irish Mob conflicts, a missing teenaged white girl, and a Black man's murder."
+        }
+      ],
+      "verification_status": "unverified",
+      "verified_at": null,
+      "topic_entities": [
+        "1974",
+        "2023",
+        "boston",
+        "dennis lehane",
+        "irish mob",
+        "school integration"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Isabel_Allende",
+      "external_id": "lit-2026-07-10-008",
+      "category_id": "literature_books",
+      "subcategory_name": "World Literature",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Often cited as the world's most widely read Spanish-language author, this Chilean-American writer published her debut novel The House of the Spirits in 1982 and received the Presidential Medal of Freedom in 2014.",
+      "answer": "Isabel Allende",
+      "answer_type": "name",
+      "aliases": [
+        "Allende (novelist)"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "world-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Isabel Allende",
+          "url": "https://en.wikipedia.org/wiki/Isabel_Allende",
+          "snippet": "Isabel Angélica Allende Llona is a Chilean-American writer. Allende, whose works sometimes contain aspects of the magical realism genre, is known for novels such as The House of the Spirits and City of the Beasts, which have been commercial"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:03.297Z",
+      "topic_entities": [
+        "1982",
+        "2014",
+        "chile",
+        "presidential medal of freedom",
+        "the house of the spirits",
+        "united states"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Northanger_Abbey",
+      "external_id": "lit-2026-07-10-009",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Completed around 1799 but published posthumously in 1817, this Jane Austen novel satirizes Gothic fiction through Catherine Morland's overactive imagination.",
+      "answer": "Northanger Abbey",
+      "answer_type": "other",
+      "aliases": [
+        "Northanger Abbey (Austen)"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "19th-century-novels"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Northanger Abbey",
+          "url": "https://en.wikipedia.org/wiki/Northanger_Abbey",
+          "snippet": "Northanger Abbey, written by the English author Jane Austen, is a coming-of-age novel and a satire of Gothic novels. Although the title page is dated 1818 and the novel was published posthumously in 1817 with Persuasion, Northanger Abbey wa"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:03.655Z",
+      "topic_entities": [
+        "1799",
+        "1817",
+        "catherine morland",
+        "gothic fiction",
+        "jane austen"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+      "external_id": "lit-2026-07-10-010",
+      "category_id": "literature_books",
+      "subcategory_name": "Authors & Works",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This British physician-turned-author — knighted in 1902 — created the scientist-adventurer Professor Challenger, whose 1912 expedition novel gave its name to an entire subgenre of speculative fiction involving prehistoric survivors.",
+      "answer": "Arthur Conan Doyle",
+      "answer_type": "name",
+      "aliases": [
+        "Conan Doyle"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "authors-works"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Arthur Conan Doyle",
+          "url": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle",
+          "snippet": "Sir Arthur Ignatius Conan Doyle was a British writer and physician. He is best known for his four novels and fifty-six short stories about the fictional consulting detective Sherlock Holmes and his assistant Dr. Watson, which are milestones"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:04.051Z",
+      "topic_entities": [
+        "1912",
+        "physician",
+        "professor challenger",
+        "sherlock holmes",
+        "the lost world"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Lady_Macbeth",
+      "external_id": "lit-2026-07-10-011",
+      "category_id": "literature_books",
+      "subcategory_name": "Literary Characters",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In Shakespeare's Scottish tragedy, this ambitious queen goads her husband into regicide; wracked by guilt, she later sleepwalks obsessively before dying offstage.",
+      "answer": "Lady Macbeth",
+      "answer_type": "other",
+      "aliases": [
+        "Lady M"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "literary-characters"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Lady Macbeth",
+          "url": "https://en.wikipedia.org/wiki/Lady_Macbeth",
+          "snippet": "Lady Macbeth is a leading fictional character in William Shakespeare's tragedy Macbeth. As the wife of the play's tragic hero, Macbeth, Lady Macbeth goads her husband into committing regicide, after which she becomes queen of Scotland. Some"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:04.410Z",
+      "topic_entities": [
+        "ambition",
+        "guilt",
+        "macbeth",
+        "regicide",
+        "scotland",
+        "shakespeare",
+        "sleepwalking"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Colson_Whitehead",
+      "external_id": "lit-2026-07-10-012",
+      "category_id": "literature_books",
+      "subcategory_name": "American Literature",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "One of only four authors ever to win the Pulitzer Prize for Fiction twice, this American novelist claimed the honor in 2017 for The Underground Railroad and again in 2020 for The Nickel Boys.",
+      "answer": "Colson Whitehead",
+      "answer_type": "name",
+      "aliases": [
+        "Whitehead"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "american-literature"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Colson Whitehead",
+          "url": "https://en.wikipedia.org/wiki/Colson_Whitehead",
+          "snippet": "Arch Colson Chipp Whitehead is an American novelist. He is the author of nine novels, including his 1999 debut The Intuitionist; The Underground Railroad (2016), for which he won the 2016 National Book Award for Fiction and the 2017 Pulitze"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:04.775Z",
+      "topic_entities": [
+        "2017",
+        "2020",
+        "pulitzer prize for fiction",
+        "the nickel boys",
+        "the underground railroad"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Anton_Chekhov",
+      "external_id": "lit-2026-07-10-013",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Its disastrous 1896 St. Petersburg premiere drove its author to swear off playwriting; only Stanislavski's landmark 1898 revival at the Moscow Art Theatre rescued both the work and its creator's theatrical reputation.",
+      "answer": "The Seagull",
+      "answer_type": "other",
+      "aliases": [
+        "The Sea Gull",
+        "Chaika"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "shakespeare-drama"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Anton Chekhov",
+          "url": "https://en.wikipedia.org/wiki/Anton_Chekhov",
+          "snippet": "Anton Pavlovich Chekhov was a Russian playwright and short story writer. Widely considered one of the greatest writers of all time, his career as a playwright produced four classics, and his best short stories are held in high esteem by wri"
+        }
+      ],
+      "verification_status": "weak",
+      "verified_at": "2026-07-10T14:52:05.250Z",
+      "topic_entities": [
+        "1896",
+        "1898",
+        "anton chekhov",
+        "moscow art theatre",
+        "st. petersburg",
+        "stanislavski"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Coriolanus",
+      "external_id": "lit-2026-07-10-014",
+      "category_id": "literature_books",
+      "subcategory_name": "Shakespeare & Drama",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Written between 1605 and 1608 and staged alongside Antony and Cleopatra as Shakespeare's final pair of Roman tragedies, this play follows a legendary general exiled from Rome who subsequently leads an enemy army against his own city.",
+      "answer": "Coriolanus",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "shakespeare-drama"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Coriolanus",
+          "url": "https://en.wikipedia.org/wiki/Coriolanus",
+          "snippet": "Coriolanus is a tragedy by William Shakespeare, believed to have been written between 1605 and 1608. The play is based on the life of the legendary Roman leader Gnaeus Marcius Coriolanus. Shakespeare worked on it during the same years he wr"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:05.608Z",
+      "topic_entities": [
+        "1605-1608",
+        "coriolanus",
+        "roman tragedy",
+        "rome",
+        "shakespeare"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+      "external_id": "lit-2026-07-10-015",
+      "category_id": "literature_books",
+      "subcategory_name": "19th-Century Novels",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Jane Austen's third published novel (1814) received no public review until seven years after publication, making it among the most critically overlooked works of her career.",
+      "answer": "Mansfield Park",
+      "answer_type": "other",
+      "aliases": [
+        "Mansfield Park (Austen)"
+      ],
+      "tags": [
+        "literature-books-draft",
+        "sourced",
+        "19th-century-novels"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mansfield Park",
+          "url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+          "snippet": "Mansfield Park is the third published novel by the English author Jane Austen, first published in 1814 by Thomas Egerton. A second edition was published in 1816 by John Murray, still within Austen's lifetime. The novel did not receive any p"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-10T14:52:05.966Z",
+      "topic_entities": [
+        "1814",
+        "fanny price",
+        "jane austen",
+        "mansfield park",
+        "third published novel"
+      ]
+    }
+  ]
+}

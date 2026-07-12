@@ -1,112 +1,118 @@
-## Draft summary — 2026-07-06
+## Draft summary — 2026-07-10
 
-Three packs drafted, all passed dry-run gate (40/40 clues, 0 bank collisions).
+Three packs drafted, all passed dry-run gate (39/39 clues, 0 bank collisions).
 
 ---
 
-### History (15 clues)
+### Sports, Games & Leisure (14 clues)
 
-Targets the $1000-underweight tier. Fills Historical Figures, World Wars, European History, Ancient History, U.S. History, and Empires gaps.
+Fills Rules & Terminology, Baseball, Board Games & Card Games, Olympics, Video Games, Tennis & Golf, Sports Records & Awards, and Soccer gaps.
 
 | Value | Answer | Subcategory |
 |-------|--------|-------------|
-| $200 | Underground Railroad | U.S. History |
-| $400 | Franz Ferdinand | World Wars |
-| $400 | John Glenn | Historical Figures |
-| $400 | Louis XIV | European History |
-| $600 | Hannibal | Ancient History |
-| $600 | Malcolm X | Historical Figures |
-| $600 | Dwight D. Eisenhower | Historical Figures |
-| $600 | Earl of Sandwich | Historical Figures |
-| $800 | Memphis Belle | World Wars |
-| $800 | Holodomor | European History |
-| $800 | Edict of Nantes | European History |
-| $800 | Munich | European History |
-| $1000 | Siege of Leningrad | World Wars |
-| $1000 | Fabian Strategy | Ancient History |
-| $1000 | Kievan Rus' | European History |
+| $200 | Box score | Rules & Terminology |
+| $400 | Hat-trick | Rules & Terminology |
+| $400 | Bench-clearing brawl | Baseball |
+| $400 | Cricket | Rules & Terminology |
+| $400 | Mahjong | Board Games & Card Games |
+| $400 | Fosbury Flop | Olympics |
+| $600 | Grand Slam | Tennis & Golf |
+| $600 | Floyd Mayweather Jr. | Sports Records & Awards |
+| $600 | Fencing | Rules & Terminology |
+| $600 | Water Polo | Rules & Terminology |
+| $800 | Save | Baseball |
+| $800 | Garry Kasparov | Board Games & Card Games |
+| $1000 | Eggbeater kick | Rules & Terminology |
+| $1000 | Chicago White Sox | Baseball |
 
-**Difficulty calibration note:** Dry-run flagged 1 clue for $800→$600 recalibration and 4 for rewrite; critic pass will address.
+**Dry-run quality gate:** keep=14, rewrite=0, replace=0.
 
 ---
 
 ### Literature & Books (15 clues)
 
-Targets the $1000-underweight tier. Fills American Literature, British & Irish, World Literature, Children's, Awards/Terms, and Authors & Works gaps.
+Fills Shakespeare & Drama, Children's & YA, 19th-Century Novels, Poetry, World Literature, American Literature, Authors & Works, and Literary Characters gaps.
 
 | Value | Answer | Subcategory |
 |-------|--------|-------------|
-| $200 | Peter Rabbit | Children's & Young Adult Literature |
-| $400 | The Catcher in the Rye | American Literature |
-| $400 | Stephen King | American Literature |
-| $400 | The Wind in the Willows | British & Irish Literature |
-| $400 | Animal Farm | British & Irish Literature |
-| $600 | James Fenimore Cooper | American Literature |
-| $600 | Edith Wharton | American Literature |
-| $600 | Watership Down | British & Irish Literature |
-| $600 | Soliloquy | Awards, Movements & Terms |
-| $600 | Albert Camus | World Literature |
-| $800 | Joan Didion | American Literature |
-| $800 | The Velveteen Rabbit | Children's & Young Adult Literature |
-| $1000 | Baron Munchausen | World Literature |
-| $1000 | The Amazing Adventures of Kavalier & Clay | American Literature |
-| $1000 | Absalom, Absalom! | American Literature |
+| $400 | Much Ado About Nothing | Shakespeare & Drama |
+| $400 | The Hunger Games | Children's & Young Adult Literature |
+| $400 | Daniel Deronda | 19th-Century Novels |
+| $600 | Rainer Maria Rilke | Poetry |
+| $600 | Captains Courageous | World Literature |
+| $600 | The Road | American Literature |
+| $600 | Small Mercies | American Literature |
+| $600 | Isabel Allende | World Literature |
+| $600 | Northanger Abbey | 19th-Century Novels |
+| $800 | Arthur Conan Doyle | Authors & Works |
+| $800 | Lady Macbeth | Literary Characters |
+| $800 | Colson Whitehead | American Literature |
+| $800 | The Seagull | Shakespeare & Drama |
+| $1000 | Coriolanus | Shakespeare & Drama |
+| $1000 | Mansfield Park | 19th-Century Novels |
 
-**Dry-run quality gate:** keep=13, rewrite=2; critic pass will address rewrites.
+**Dry-run quality gate:** keep=15, rewrite=0, replace=0.
 
 ---
 
 ### Wordplay (10 clues)
 
-Mechanics rotation: **anagram** (5) + **crossword** (5). Last anagram run: 2026-06-28; last crossword run: 2026-06-27.
+Mechanics rotation: **before_after** (5) + **homophone** (5). Last before_after run: 2026-07-06; last homophone run: 2026-07-06.
 
-| Value | Mechanic | Answer | Scramble/Pattern |
-|-------|----------|--------|-----------------|
-| $400 | anagram | Prose | ropes |
-| $400 | anagram | Spine | snipe |
-| $600 | anagram | Pleat | leapt |
-| $600 | anagram | Pirates | traipse |
-| $800 | anagram | Tides | edits |
-| $400 | crossword | BYTE | `_ Y _ _` |
-| $400 | crossword | HERON | `_ _ _ _ N` |
-| $600 | crossword | WHARF | `_ _ _ R _` |
-| $600 | crossword | WALTZ | `_ _ _ T _` |
-| $800 | crossword | SMOCK | `_ _ _ _ K` |
+| Value | Mechanic | Answer | Pivot / Soundalike |
+|-------|----------|--------|--------------------|
+| $400 | before_after | Pencil Case Study | Case |
+| $400 | before_after | Apple Pie Chart | Pie |
+| $400 | before_after | Mountain Dew Drop | Dew |
+| $600 | before_after | Flash Mob Rule | Mob |
+| $600 | before_after | Time Zone Defense | Zone |
+| $400 | homophone | Stare | stair |
+| $400 | homophone | Gait | gate |
+| $400 | homophone | Doe | dough |
+| $600 | homophone | Whale | wail |
+| $600 | homophone | Scent | sent |
+
+**Dry-run quality gate:** keep=10, rewrite=0, replace=0.
 
 ---
 
-## Editorial critic — revise pass applied
+## Editorial critic
 
-**9 clues revised, 0 dropped, 6 critique verdicts overridden.**
+**11 clues revised, 0 dropped.**
 
-### Fixes applied (9)
+### Revisions applied
 
-| Pack | ID | Issue | Fix |
-|------|----|-------|-----|
-| history | 006 Malcolm X | **leak** — clue named "the letter 'X'", exposing the answer's surname | Rewrote: replaced "the letter 'X'" with "a symbol of his unknown African ancestral name"; added birth surname 'Little' |
-| history | 011 Edict of Nantes | **factual** — "waves of forced conversion" contradicts the source (singular dragonnades) | Applied suggested fix: "a wave of dragonnades and forced conversion" |
-| history | 013 Siege of Leningrad | **leak** — "siege" appeared verbatim in answer and clue body | Applied suggested fix: "blockade" + "deadliest military encirclement" |
-| history | 014 Fabian Strategy | **leak** — "Quintus Fabius Maximus" exposes the "Fabian" stem | Applied suggested fix: "Named after a Roman dictator nicknamed 'the Delayer'" |
-| literature | 003 Stephen King | **alias** — bare "King" is ambiguous (MLK, BB King, etc.) | Dropped "King" from aliases |
-| literature | 011 Joan Didion | **factual** — source says "the earliest," clue diluted to "one of the earliest" | Applied suggested fix: restored superlative, reordered "later" |
-| literature | 012 The Velveteen Rabbit | **wording** — "serialized" implies multiple installments; source says single publication | Applied suggested fix: "had first appeared in Harper's Bazaar" |
-| wordplay | ana-05 Tides | **wording** — "retreating the sea" is grammatically malformed (intransitive verb) | Applied suggested fix: "drawing the sea back" |
-| wordplay | cw-03 WHARF | **related** — "Landing place where ships are loaded and unloaded" shared dock/harbor/cargo entities with two active bank clues | Rewrote definition: "Raised platform built along a waterway where vessels moor to load or discharge" |
+| Pack | ID | Change |
+|------|----|--------|
+| literature_books | lit-003 Daniel Deronda | Value $400→$600 (difficulty_fit: triangulation clue under-priced) |
+| literature_books | lit-008 Isabel Allende | Alias "Allende"→"Allende (novelist)" (collision with Salvador Allende) |
+| literature_books | lit-011 Lady Macbeth | Value $800→$600 (difficulty_fit: iconic traits, over-priced) |
+| literature_books | lit-012 Colson Whitehead | Removed "back-to-back award cycles" (factual: 2017 and 2020 are three cycles apart, not consecutive) |
+| sports_games_leisure | sgl-003 Bench-clearing brawl | Added "or benches" to location list (factual: ice hockey players leave benches, not dugouts/bullpens) |
+| sports_games_leisure | sgl-010 Water Polo | Rewrote clue to fix punctuation (comma outside single quote) and remove single-quote framing |
+| sports_games_leisure | sgl-014 Chicago White Sox | Fixed name-adoption date: arrived Chicago 1900 as White Stockings; "White Sox" not until 1904 |
+| wordplay | wordplay-2026-07-10-ba-01 Flash Mob Rule | Rewrote: old clue made Flash Mob a direct illustration of Mob Rule (thematic link); two separate, unconnected scenes now |
+| wordplay | wordplay-2026-07-10-ba-03 Apple Pie Chart | Rewrote: removed "inspired" causal link between pastry and pie chart |
+| wordplay | wordplay-2026-07-10-ba-05 Mountain Dew Drop | Rewrote: split into two separate characters (road tripper / nature photographer) to remove single-scene thematic link |
+| wordplay | wordplay-2026-07-10-hp-05 Doe | Rewrote: moved away from baking context (shared "baking, flour" with bank "Flour" clue); "dough" now used in financial-slang sense |
 
-### Critic verdicts overridden (6)
+### Critique overrides
 
-| ID | Verdict | Override reason |
-|----|---------|----------------|
-| history-004 Louis XIV | related (→ Edict of Nantes 011) | Different answers and different facts: 004 covers the Sun King's 72-year reign at Versailles; 011 covers the 1685 revocation of a document. Shared entity is just the historical era. |
-| history-005 Hannibal | related (→ Fabian Strategy 014) | Different answers (a general vs. a military doctrine); tests distinct knowledge — the commander who crossed the Alps vs. the war-of-attrition response his Roman opponents used against him. |
-| history-008 Earl of Sandwich | related (→ bank "Sandwich" words_language) | Different answers and different categories (historical person vs. word etymology); the person's role differs from the food word's origin story. |
-| history-009 Memphis Belle | related (→ bank "Warsaw Uprising") | Only shared entities are the broad time period (1944, WWII); topics are completely unrelated — a specific B-17 aircraft vs. a Polish resistance uprising. |
-| history-012 Munich | related (→ bank "Oktoberfest") | Only shared entities are the city's geographic identity (Bavaria, Germany, Munich); topics are completely unrelated — Nazi Party origins vs. a beer festival. |
-| literature-005 Animal Farm | related (→ bank "Orwellian" + "George Orwell") | Different answers (book vs. derived adjective vs. author); tests distinct knowledge of the book's specific plot, not the adjective's meaning or the author's biography. |
+| ID | Flag | Reason kept |
+|----|------|-------------|
+| sgl-001 Box score | related: Bench-clearing brawl, Save | Different answers (tabular format vs. fight event vs. pitching stat); surface topic overlap only |
+| sgl-006 Fosbury Flop | related: bank "Dick Fosbury" | Different answers (technique vs. person); clue already avoids naming Fosbury directly |
+| sgl-007 Grand Slam | related: bank Federer, Borg, Wimbledon | Different answers (definition of the term vs. specific players/tournament) |
+| sgl-011 Save | related: Box score | Different answers; box score tests the format, save tests the specific pitching statistic |
+| sgl-012 Eggbeater kick | related: Water Polo (this run) | Different answers (named technique vs. sport); co-presence in a run is expected |
+| lit-003 Daniel Deronda | related: bank "George Eliot" | Different answers (novel vs. author); value bump to $600 addresses difficulty concern |
+| lit-011 Lady Macbeth | related: bank "Macbeth" | Different answers (character vs. play title); value drop to $600 addresses the difficulty concern |
 
-### Gate results after edits
+---
+
+## Gate results (after revise pass)
 
 - `validate-wordplay.mjs` — ✓ 10/10 valid
-- `import-to-supabase.mjs --dry-run` (history) — ✓ 15/15 pass, 0 bank collisions
-- `import-to-supabase.mjs --dry-run` (literature) — ✓ 15/15 pass, 0 bank collisions
-- `import-to-supabase.mjs --dry-run` (wordplay) — ✓ 10/10 pass, 0 bank collisions
+- `import-to-supabase.mjs --dry-run` (sports_games_leisure) — ✓ Dry run OK (14/14)
+- `import-to-supabase.mjs --dry-run` (literature_books) — ✓ Dry run OK (15/15)
+- `import-to-supabase.mjs --dry-run` (wordplay) — ✓ Dry run OK (10/10)

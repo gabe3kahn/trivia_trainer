@@ -1,0 +1,345 @@
+{
+  "pack_id": "wordplay-2026-07-10",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-10T00:00:00.000Z",
+  "notes": "Mechanics: before_and_after (5) + homophone (5). B&A pivots: Mob, Case, Pie, Zone, Dew. Homophone pairs: Stare/stair, Gait/gate, Whale/wail, Scent/sent, Doe/dough.",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-ba-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer bridges two phrases that share a pivot word.",
+      "clue": "The synchronized dancers who overtook the transit concourse made the viral-video rounds; the symposium that week addressed civilizations undone when crowds, not courts, served as final arbiter.",
+      "answer": "Flash Mob Rule",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Flash Mob",
+        "pivot": "Mob",
+        "second": "Mob Rule"
+      },
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "2000s",
+        "crowd",
+        "democracy",
+        "flash mob",
+        "mob rule",
+        "viral video"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-ba-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer bridges two phrases that share a pivot word.",
+      "clue": "She dug into the zippered pouch beside her laptop and drew out a number-two writing stick to annotate the research scenario the professor had just projected.",
+      "answer": "Pencil Case Study",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Pencil Case",
+        "pivot": "Case",
+        "second": "Case Study"
+      },
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "classroom",
+        "pencil",
+        "pencil case",
+        "school supplies",
+        "stationery",
+        "students",
+        "writing instruments"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-ba-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer bridges two phrases that share a pivot word.",
+      "clue": "The diner's glass case featured a cinnamon-dusted orchard-fruit pastry; the strategist's presentation, across town, opened with a circular diagram of labeled wedge segments.",
+      "answer": "Apple Pie Chart",
+      "answer_type": "other",
+      "aliases": [
+        "Apple Pie Graph"
+      ],
+      "wp": {
+        "first": "Apple Pie",
+        "pivot": "Pie",
+        "second": "Pie Chart"
+      },
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "apple pie",
+        "apples",
+        "cinnamon",
+        "data visualization",
+        "pie chart"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-ba-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "before_after",
+      "constraint_text": "The answer bridges two phrases that share a pivot word.",
+      "clue": "Disoriented after too many longitudinal divisions on her flight west, the point guard had to focus on the team's strategy of assigning each player a fixed area of the court to guard.",
+      "answer": "Time Zone Defense",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Time Zone",
+        "pivot": "Zone",
+        "second": "Zone Defense"
+      },
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "basketball",
+        "court",
+        "defensive strategy",
+        "nba",
+        "players",
+        "sports",
+        "zone defense"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-ba-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Before & After",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "before_after",
+      "constraint_text": "The answer bridges two phrases that share a pivot word.",
+      "clue": "The road tripper loaded the cooler with neon cans of the citrus-flavored soda; the nature photographer, working separately at first light, captured a single glistening bead of moisture clinging to a spider's web.",
+      "answer": "Mountain Dew Drop",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "first": "Mountain Dew",
+        "pivot": "Dew",
+        "second": "Dew Drop"
+      },
+      "tags": [
+        "wp-draft",
+        "before_and_after"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "1940",
+        "citrus",
+        "dew drop",
+        "mountain dew",
+        "pepsico",
+        "soda"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-hp-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "What word sounds like the italicized word but is spelled differently and means something different?",
+      "clue": "She stood frozen on the middle *stair*, eyes locked on the stranger who had entered the lobby without making a sound.",
+      "answer": "Stare",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "stair"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "architecture",
+        "building",
+        "home",
+        "stair",
+        "staircase",
+        "stairs",
+        "steps"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-hp-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "What word sounds like the italicized word but is spelled differently and means something different?",
+      "clue": "The stable hand swung the *gate* wide and watched as the old mare picked her way across the paddock with her particular rolling stride.",
+      "answer": "Gait",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "gate"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "barrier",
+        "door",
+        "entrance",
+        "farm",
+        "fence",
+        "gate",
+        "paddock"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-hp-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "homophone",
+      "constraint_text": "What word sounds like the italicized word but is spelled differently and means something different?",
+      "clue": "The infant's *wail* carried through the harbor at the very moment something enormous broke the surface just offshore, sending spray twenty feet into the air.",
+      "answer": "Whale",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "wail"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "cry",
+        "distress",
+        "emotion",
+        "infant",
+        "lamentation",
+        "sound",
+        "wail"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-hp-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "homophone",
+      "constraint_text": "What word sounds like the italicized word but is spelled differently and means something different?",
+      "clue": "He *sent* a parcel to the cabin with dried lavender tucked inside; she said the air around her changed before she had even broken the seal.",
+      "answer": "Scent",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "sent"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "correspondence",
+        "delivery",
+        "mail",
+        "parcel",
+        "postage",
+        "sent",
+        "shipping"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-10-hp-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Homophones & Soundalikes",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "homophone",
+      "constraint_text": "What word sounds like the italicized word but is spelled differently and means something different?",
+      "clue": "He pocketed the *dough* from the antique sale and drove home through the predawn countryside, nearly stopping when a pale, slender creature stepped out of the fog ahead.",
+      "answer": "Doe",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "homophone": "dough"
+      },
+      "tags": [
+        "wp-draft",
+        "homophone"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "verified_at": null,
+      "topic_entities": [
+        "deer",
+        "doe",
+        "dough",
+        "female",
+        "homophone",
+        "money"
+      ]
+    }
+  ]
+}
