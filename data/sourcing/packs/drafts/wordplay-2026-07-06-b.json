@@ -148,8 +148,8 @@
       "external_id": "wordplay-2026-07-06b-cwd-01",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
-      "value": 600,
-      "difficulty_rank": 3,
+      "value": 400,
+      "difficulty_rank": 2,
       "mechanic": "crossword",
       "constraint_text": null,
       "clue": "A small cluster of trees",
@@ -177,16 +177,15 @@
         "sacred groves",
         "trees",
         "woodland"
-      ],
-      "lock_value": true
+      ]
     },
     {
       "source": "constructed",
       "external_id": "wordplay-2026-07-06b-cwd-02",
       "category_id": "language_wordplay",
       "subcategory_name": "Crossword Clues",
-      "value": 400,
-      "difficulty_rank": 2,
+      "value": 600,
+      "difficulty_rank": 3,
       "mechanic": "crossword",
       "constraint_text": null,
       "clue": "Something you either have or you don't",
@@ -213,7 +212,8 @@
         "natural ability",
         "skill",
         "talent"
-      ]
+      ],
+      "lock_value": true
     },
     {
       "source": "constructed",
@@ -224,7 +224,7 @@
       "difficulty_rank": 3,
       "mechanic": "crossword",
       "constraint_text": null,
-      "clue": "A distinct stretch of history or geological time.",
+      "clue": "A memorable sweep of time defined by remarkable change",
       "answer": "EPOCH",
       "answer_type": "other",
       "aliases": [
