@@ -23,7 +23,9 @@ name: Draft clues (daily)
 # workflow_dispatch endpoint. GitHub's own `schedule:` cron proved too unreliable —
 # it silently dropped runs — so it was removed. The `guard` job still dedups: it skips
 # if today's branch (draft-clues/daily-<UTC date>) already exists, so an accidental
-# double dispatch can't double-draft. FORCED dispatches (force=true) bypass the guard
+# double dispatch can't double-draft. It ALSO applies review back-pressure: if 5+
+# draft-clues PRs are already open/unmerged, it skips the run so drafts don't pile up
+# faster than they can be reviewed. FORCED dispatches (force=true) bypass the guard
 # AND get a unique -r<run_id> branch suffix, so a manual re-run never collides.
 #
 # Required repository secret (Settings → Secrets and variables → Actions):
@@ -64,12 +66,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
             echo "Forced run — guard bypassed."
             echo "already=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          # Review back-pressure: when the human review queue falls behind, new drafts pile up
+          # faster than they can be merged and every fix takes longer to land. If 5+ draft-clues
+          # PRs are already open and unmerged, skip today's run so the backlog can clear. A forced
+          # dispatch (handled above) still bypasses this.
+          open_prs=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("draft-clues/"))] | length')
+          if [ "${open_prs:-0}" -ge 5 ]; then
+            echo "::warning::${open_prs} open draft-clues PRs (>=5) — skipping today's draft so the review backlog can clear. Merge some, or dispatch with force=true to override."
+            echo "already=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "${open_prs} open draft-clues PR(s) — under the backlog cap of 5, proceeding."
           today="$(date -u +%F)"
           if git ls-remote --heads origin "draft-clues/daily-$today" | grep -q .; then
             echo "Today's draft branch (draft-clues/daily-$today) already exists — skipping."
@@ -249,7 +265,14 @@ jobs:
         run: |
           packs=$(ls data/sourcing/packs/drafts/*-"$(date -u +%F)".json)
           args=""; for p in $packs; do args="$args --pack $p"; done
-          node tools/acquisition/critique-clues.mjs $args || echo "Critic degraded (advisory) — continuing."
+          # `timeout` bounds the critic: it shells out to the `claude` CLI, which can hang
+          # indefinitely (network / model stall). The critic is ADVISORY, so a hang must
+          # degrade like any other failure instead of stalling the job to its 240-min cap —
+          # `timeout` kills it (exit 124) and the `|| echo` catches it, same as a crash.
+          # 1800s (30 min) ≈ 2.2× the observed healthy max (recent runs: 530/641/690/817s),
+          # so a slow-but-working critic is never killed, yet a true hang dies ~8× sooner
+          # than the 240-min job cap.
+          timeout 1800 node tools/acquisition/critique-clues.mjs $args || echo "Critic degraded or timed out (advisory) — continuing."
 
       # (d) REVISE pass. Reads the critique JSON and applies every revise/drop verdict —
       # replacing dropped clues so each pack keeps its count — re-runs the affected gates,
