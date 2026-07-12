@@ -1,0 +1,616 @@
+{
+  "pack_id": "sports-draft-2026-07-04",
+  "category_id": "sports_games_leisure",
+  "created_at": "2026-07-04T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tom_Brady",
+      "external_id": "sports-2026-07-04-001",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This New England Patriots quarterback won a record seven Super Bowl titles and is widely regarded as the greatest to ever play the position.",
+      "answer": "Tom Brady",
+      "answer_type": "name",
+      "aliases": [
+        "Brady"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "football"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tom Brady",
+          "url": "https://en.wikipedia.org/wiki/Tom_Brady",
+          "snippet": "Thomas Edward Patrick Brady Jr. is an American former professional football quarterback who played in the National Football League (NFL) for 23 seasons. He spent his first 20 seasons with the New England Patriots and was a central contribut"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:31.793Z",
+      "topic_entities": [
+        "2000-2023",
+        "7 super bowls",
+        "miami dolphins",
+        "new england patriots",
+        "nfl",
+        "tom brady"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pac-Man",
+      "external_id": "sports-2026-07-04-002",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1980 Namco arcade maze game is famous for its \"kill screen\": a byte overflow at level 256 garbles the right half of the board into unplayable gibberish.",
+      "answer": "Pac-Man",
+      "answer_type": "other",
+      "aliases": [
+        "Pac Man",
+        "Pacman"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "video-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pac-Man",
+          "url": "https://en.wikipedia.org/wiki/Pac-Man",
+          "snippet": "Pac-Man, originally titled Puck Man in Japan, is a 1980 maze video game developed and published by Namco for arcades. It was released in Japan on May 22, 1980 and by Midway Manufacturing in North America in August 1980. The player controls "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:32.428Z",
+      "topic_entities": [
+        "1980",
+        "arcade game",
+        "ghosts",
+        "namco",
+        "pac-man",
+        "puck man",
+        "video game"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Slinky",
+      "external_id": "sports-2026-07-04-003",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Toys & Games",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This helical spring toy was invented by American naval engineer Richard T. James in 1943 and first publicly demonstrated at Gimbels department store in Philadelphia.",
+      "answer": "Slinky",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "toys-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Slinky",
+          "url": "https://en.wikipedia.org/wiki/Slinky",
+          "snippet": "The Slinky is a helical spring toy invented and developed by American naval engineer Richard T. James in 1943 and successfully demonstrated at Gimbels department store in Philadelphia on November 27, 1945."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:32.835Z",
+      "topic_entities": [
+        "1943",
+        "gimbels",
+        "helical spring",
+        "philadelphia",
+        "richard t. james",
+        "slinky",
+        "toy"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jesse_Owens",
+      "external_id": "sports-2026-07-04-004",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American track and field athlete, a Black man competing before Adolf Hitler in Nazi Germany, won four gold medals at the 1936 Berlin Olympic Games.",
+      "answer": "Jesse Owens",
+      "answer_type": "name",
+      "aliases": [
+        "Owens"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "olympics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jesse Owens",
+          "url": "https://en.wikipedia.org/wiki/Jesse_Owens",
+          "snippet": "James Cleveland \"Jesse\" Owens was an American track and field athlete who made history at the 1936 Olympic Games by winning four gold medals, setting individual Olympic records in each event, plus another as a member of the 400 meter relay."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:33.231Z",
+      "topic_entities": [
+        "1936 berlin olympics",
+        "four gold medals",
+        "jesse owens",
+        "nazi germany",
+        "racism",
+        "track and field"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Space_Invaders",
+      "external_id": "sports-2026-07-04-005",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Video Games & Esports",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1978 Taito arcade game set the template for the fixed-shooter genre by having players repel waves of descending alien attackers.",
+      "answer": "Space Invaders",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "video-games"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Space Invaders",
+          "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+          "snippet": "Space Invaders is a 1978 shoot 'em up game developed and published by Taito for arcades. Taito released it in Japan in July 1978 and overseas through a partnership with Midway Manufacturing later that year. Space Invaders was the first vide"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:33.628Z",
+      "topic_entities": [
+        "1978",
+        "aliens",
+        "arcade game",
+        "endless gameplay",
+        "fixed-shooter",
+        "space invaders",
+        "taito"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Walter_Payton",
+      "external_id": "sports-2026-07-04-006",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed \"Sweetness,\" this Chicago Bears running back spent 13 NFL seasons with the team; the league's annual award honoring a player's volunteer and community service work is now named after him.",
+      "answer": "Walter Payton",
+      "answer_type": "name",
+      "aliases": [
+        "Payton"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "football"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Walter Payton",
+          "url": "https://en.wikipedia.org/wiki/Walter_Payton",
+          "snippet": "Walter Jerry Payton was an American professional football running back who played in the National Football League (NFL) for 13 seasons with the Chicago Bears. Nicknamed \"Sweetness\", he is widely regarded as one of the greatest football play"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:34.049Z",
+      "topic_entities": [
+        "1993",
+        "chicago bears",
+        "nfl",
+        "running back",
+        "sweetness",
+        "walter payton"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+      "external_id": "sports-2026-07-04-007",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Soccer",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Portuguese forward became the first man to score at six different World Cups and is the all-time leading goalscorer in men's international football.",
+      "answer": "Cristiano Ronaldo",
+      "answer_type": "name",
+      "aliases": [
+        "Ronaldo"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "soccer"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cristiano Ronaldo",
+          "url": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+          "snippet": "Cristiano Ronaldo dos Santos Aveiro, nicknamed CR7, is a Portuguese professional footballer who plays as a forward for and captains both the Saudi Pro League club Al-Nassr and the Portugal national team. Widely regarded as one of the greate"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:34.452Z",
+      "topic_entities": [
+        "5 ballon d'or",
+        "cristiano ronaldo",
+        "juventus",
+        "manchester united",
+        "portugal",
+        "real madrid",
+        "uefa player of year"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+      "external_id": "sports-2026-07-04-008",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Football",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This coach led the Green Bay Packers to victory in the first two Super Bowls at the conclusion of the 1966 and 1967 seasons; the trophy awarded to the game's winner was later named after him.",
+      "answer": "Vince Lombardi",
+      "answer_type": "name",
+      "aliases": [
+        "Lombardi"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "football"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Vince Lombardi",
+          "url": "https://en.wikipedia.org/wiki/Vince_Lombardi",
+          "snippet": "Vincent Thomas Lombardi was an American professional football coach and executive in the National Football League (NFL). Lombardi is considered by many to be among the greatest coaches and leaders in American sports. He is best known as the"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:34.849Z",
+      "topic_entities": [
+        "1966",
+        "1967",
+        "green bay packers",
+        "nfl",
+        "super bowl",
+        "vince lombardi"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wilt_Chamberlain",
+      "external_id": "sports-2026-07-04-009",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Basketball",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On March 2, 1962, this NBA center scored 100 points in a single game against the New York Knicks, setting a single-game scoring record that still stands today.",
+      "answer": "Wilt Chamberlain",
+      "answer_type": "name",
+      "aliases": [
+        "Chamberlain"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "basketball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wilt Chamberlain",
+          "url": "https://en.wikipedia.org/wiki/Wilt_Chamberlain",
+          "snippet": "Wilton Norman Chamberlain was an American professional basketball player. Standing 7 feet 1 inch (2.16 m) tall, he played center in the National Basketball Association (NBA) for 14 seasons. He was enshrined in the Naismith Memorial Basketba"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:35.243Z",
+      "topic_entities": [
+        "center",
+        "hall of fame",
+        "los angeles lakers",
+        "nba",
+        "philadelphia warriors",
+        "scoring records",
+        "wilt chamberlain"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Nolan_Ryan",
+      "external_id": "sports-2026-07-04-010",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This flame-throwing pitcher struck out a record 5,714 batters and threw a record seven no-hitters over a 27-season career.",
+      "answer": "Nolan Ryan",
+      "answer_type": "name",
+      "aliases": [
+        "Ryan"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Nolan Ryan",
+          "url": "https://en.wikipedia.org/wiki/Nolan_Ryan",
+          "snippet": "Lynn Nolan Ryan Jr., nicknamed \"the Ryan Express\", is an American former professional baseball pitcher and sports executive. Over a record 27-year playing career in Major League Baseball (MLB), Ryan pitched for the New York Mets, California"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:35.670Z",
+      "topic_entities": [
+        "27 seasons",
+        "fastball",
+        "hall of fame",
+        "no-hitter",
+        "nolan ryan",
+        "pitcher",
+        "texas rangers"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Wayne_Gretzky",
+      "external_id": "sports-2026-07-04-011",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Sports Records & Awards",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Nicknamed \"the Great One,\" this Canadian became the only player in NHL history to have his number, 99, retired league-wide.",
+      "answer": "Wayne Gretzky",
+      "answer_type": "name",
+      "aliases": [
+        "Gretzky"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "sports-records"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Wayne Gretzky",
+          "url": "https://en.wikipedia.org/wiki/Wayne_Gretzky",
+          "snippet": "Wayne Douglas Gretzky is a Canadian former professional ice hockey player and former head coach. He played 20 seasons in the National Hockey League (NHL) for four teams from 1979 to 1999. Nicknamed \"the Great One\", he has been called the gr"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:36.088Z",
+      "topic_entities": [
+        "all-time points",
+        "assists",
+        "canada",
+        "edmonton oilers",
+        "los angeles kings",
+        "nhl",
+        "wayne gretzky"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dick_Fosbury",
+      "external_id": "sports-2026-07-04-012",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1968 Mexico City gold medalist in the high jump introduced a back-first technique in his lone Olympic appearance that has since seen near-universal adoption among elite competitors in the event.",
+      "answer": "Dick Fosbury",
+      "answer_type": "name",
+      "aliases": [
+        "Fosbury",
+        "Richard Fosbury"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "olympics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dick Fosbury",
+          "url": "https://en.wikipedia.org/wiki/Dick_Fosbury",
+          "snippet": "Richard Douglas Fosbury was an American high jumper, who is considered one of the most influential athletes in the history of track and field. He won a gold medal at the 1968 Summer Olympics, revolutionizing the high jump event with a \"back"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:36.501Z",
+      "topic_entities": [
+        "1968 mexico city olympics",
+        "back-first technique",
+        "dick fosbury",
+        "fosbury flop",
+        "high jump",
+        "olympic gold"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bj%C3%B6rn_Borg",
+      "external_id": "sports-2026-07-04-013",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Tennis & Golf",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This tennis great won all eleven of his majors at the French Open and Wimbledon, never winning one on hard court.",
+      "answer": "Björn Borg",
+      "answer_type": "name",
+      "aliases": [
+        "Borg",
+        "Bjorn Borg"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "tennis"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Björn Borg",
+          "url": "https://en.wikipedia.org/wiki/Bj%C3%B6rn_Borg",
+          "snippet": "Björn Rune Borg is a Swedish former professional tennis player. He was ranked as the world No. 1 in men's singles by the Association of Tennis Professionals (ATP) for 109 weeks. Borg won 66 singles titles during his career, including eleven"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:36.897Z",
+      "topic_entities": [
+        "1970s-1980s",
+        "5 consecutive wimbledon",
+        "björn borg",
+        "grand slam",
+        "sweden",
+        "tennis",
+        "world no. 1"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Abebe_Bikila",
+      "external_id": "sports-2026-07-04-014",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Olympics",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Ethiopian runner won his inaugural gold barefoot on the streets of Rome in 1960 while setting a world record before becoming the first athlete to successfully defend an Olympic marathon title in Tokyo in 1964.",
+      "answer": "Abebe Bikila",
+      "answer_type": "name",
+      "aliases": [
+        "Bikila"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "olympics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Abebe Bikila",
+          "url": "https://en.wikipedia.org/wiki/Abebe_Bikila",
+          "snippet": "Shambel Abebe Bikila was an Ethiopian marathon runner who was a back-to-back Olympic marathon champion. He was the first Ethiopian Olympic gold medalist, winning his first gold medal at the 1960 Summer Olympics in Rome while running barefoo"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:37.310Z",
+      "topic_entities": [
+        "1960 rome olympics",
+        "1964 tokyo olympics",
+        "abebe bikila",
+        "barefoot",
+        "ethiopia",
+        "marathon",
+        "world record"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cool_Papa_Bell",
+      "external_id": "sports-2026-07-04-015",
+      "category_id": "sports_games_leisure",
+      "subcategory_name": "Baseball",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Regarded as one of the fastest men ever to play baseball, this center fielder starred in the Negro Leagues and was elected to the Baseball Hall of Fame in 1974.",
+      "answer": "Cool Papa Bell",
+      "answer_type": "other",
+      "aliases": [
+        "Cool Papa"
+      ],
+      "tags": [
+        "sports-draft",
+        "sourced",
+        "baseball"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cool Papa Bell",
+          "url": "https://en.wikipedia.org/wiki/Cool_Papa_Bell",
+          "snippet": "James Thomas \"Cool Papa\" Bell was an American center fielder and pitcher in Negro league baseball and the Mexican League from 1922 to 1946. He is considered to have been one of the fastest men ever to play the game. He was elected to the Ba"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T05:54:37.717Z",
+      "topic_entities": [
+        "1974",
+        "baseball",
+        "center fielder",
+        "cool papa bell",
+        "hall of fame",
+        "negro leagues",
+        "speed"
+      ]
+    }
+  ]
+}

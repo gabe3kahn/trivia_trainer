@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T13:53:03.572Z",
+  "updated_at": "2026-07-06T03:01:22.352Z",
   "topic_count": 4157,
   "topics": {
     "7": {
@@ -48531,7 +48531,14 @@
         200
       ],
       "example_clue": "2021: A teenaged girl with a government-issued I.D. cruises longingly through an ex's neighborhood",
-      "keywords": []
+      "keywords": [
+        "pop-music",
+        "songs",
+        "2021",
+        "breakup",
+        "olivia-rodrigo",
+        "teenage-romance"
+      ]
     },
     "muhammad": {
       "display": "Muhammad",
@@ -48603,7 +48610,15 @@
         400
       ],
       "example_clue": "2021: Relatives refuse to discuss a family member whose visions of the future always seem to bring bad luck",
-      "keywords": []
+      "keywords": [
+        "songs",
+        "musicals",
+        "disney",
+        "2021",
+        "movies",
+        "family",
+        "magic"
+      ]
     },
     "jim morrison": {
       "display": "Jim Morrison",
@@ -48675,7 +48690,14 @@
         600
       ],
       "example_clue": "2002: A sarcastic Justin Timberlake has zero sympathy for an unfaithful ex",
-      "keywords": []
+      "keywords": [
+        "songs",
+        "pop-music",
+        "2002",
+        "breakup",
+        "justin-timberlake",
+        "infidelity"
+      ]
     },
     "padua": {
       "display": "Padua",
@@ -48741,7 +48763,14 @@
         800
       ],
       "example_clue": "1995: Alanis Morissette would like her ex, who's now in another relationship, to be aware of her post-breakup anger",
-      "keywords": []
+      "keywords": [
+        "songs",
+        "alternative-rock",
+        "1995",
+        "breakup",
+        "alanis-morissette",
+        "anger"
+      ]
     },
     "jack london": {
       "display": "Jack London",
@@ -48821,7 +48850,14 @@
         1000
       ],
       "example_clue": "1983: Roughly 8 dozen errant inflatables mistakenly trigger a war",
-      "keywords": []
+      "keywords": [
+        "songs",
+        "1980s-music",
+        "1983",
+        "german-language",
+        "war",
+        "balloons"
+      ]
     },
     "queen christina": {
       "display": "Queen Christina",
@@ -49774,8 +49810,9 @@
       "keywords": [
         "television",
         "drama",
-        "family",
-        "2022"
+        "2022",
+        "family-drama",
+        "contemporary-tv"
       ]
     },
     "(jane) goodall": {
@@ -49800,9 +49837,8 @@
       ],
       "example_clue": "In 2022 MMA fighter Hauley Tillman won a PFC title, short for Championship in this slumber party activity",
       "keywords": [
-        "mma",
         "sports",
-        "fighting",
+        "mma",
         "2022"
       ]
     },
@@ -53406,7 +53442,14 @@
         400
       ],
       "example_clue": "The slogan of Liverpool's John Lennon Airport, \"Above us only sky\", comes from this classic song",
-      "keywords": []
+      "keywords": [
+        "songs",
+        "john-lennon",
+        "beatles",
+        "peace",
+        "liverpool",
+        "rock-music"
+      ]
     },
     "sake": {
       "display": "sake",
@@ -53657,7 +53700,13 @@
         1000
       ],
       "example_clue": "\"Under the bludgeonings of chance / My head is bloody, but unbowed\" is from this inspiring W.E. Henley poem",
-      "keywords": []
+      "keywords": [
+        "poetry",
+        "literature",
+        "victorian-era",
+        "perseverance",
+        "british-literature"
+      ]
     },
     "skopje": {
       "display": "Skopje",
@@ -53740,7 +53789,13 @@
         200
       ],
       "example_clue": "Being caught in a storm might have inspired Augustus Toplady to write this hymn",
-      "keywords": []
+      "keywords": [
+        "hymns",
+        "christian-music",
+        "poetry",
+        "weather",
+        "religious-music"
+      ]
     },
     "abuja": {
       "display": "Abuja",
@@ -54701,7 +54756,14 @@
         400
       ],
       "example_clue": "At her 1986 royal wedding, she wore a Victorian style ivory satin dress embroidered with bees & thistles; but divorce followed",
-      "keywords": []
+      "keywords": [
+        "british-royalty",
+        "fashion",
+        "1986",
+        "weddings",
+        "divorce",
+        "nobility"
+      ]
     },
     "barracks": {
       "display": "barracks",
@@ -54780,7 +54842,13 @@
         600
       ],
       "example_clue": "The Ramones took us all down to \"rock, rock, rock, rock\" this title location",
-      "keywords": []
+      "keywords": [
+        "songs",
+        "punk-rock",
+        "ramones",
+        "schools",
+        "1970s-music"
+      ]
     },
     "offspring": {
       "display": "offspring",
@@ -55141,7 +55209,13 @@
         600
       ],
       "example_clue": "The Mormon Church's 13 Articles of Faith were written in 1842 by this man",
-      "keywords": []
+      "keywords": [
+        "mormonism",
+        "religion",
+        "theology",
+        "founding-figures",
+        "lds-church"
+      ]
     },
     "kate spade": {
       "display": "Kate Spade",
@@ -55179,7 +55253,14 @@
         600
       ],
       "example_clue": "An article in the journal Nature was titled this \"and the wronged heroine\", about Rosalind Franklin",
-      "keywords": []
+      "keywords": [
+        "science",
+        "biology",
+        "molecular-biology",
+        "dna",
+        "rosalind-franklin",
+        "discovery"
+      ]
     },
     "mount ararat": {
       "display": "Mount Ararat",
@@ -55365,10 +55446,12 @@
       ],
       "example_clue": "Sophocles gave us the expression this \"eases all things\"",
       "keywords": [
-        "sophocles",
-        "ancient greece",
+        "ancient-greece",
         "philosophy",
-        "literature"
+        "literature",
+        "proverbs",
+        "healing",
+        "greek-philosophy"
       ]
     },
     "petty": {
@@ -55380,9 +55463,11 @@
       "example_clue": "It means relatively minor; legally, it precedes a type of misdemeanor theft",
       "keywords": [
         "law",
+        "legal-terminology",
         "crime",
-        "theft",
-        "misdemeanor"
+        "vocabulary",
+        "misdemeanors",
+        "theft"
       ]
     },
     "cigars": {
@@ -55393,12 +55478,12 @@
       ],
       "example_clue": "Lectores were used at factories for this product in Ybor City & Havana -- they read to workers hand-rolling dried leaves",
       "keywords": [
-        "cigars",
-        "ybor city",
-        "havana",
+        "labor-history",
+        "tobacco",
+        "manufacturing",
         "cuba",
-        "history",
-        "workers"
+        "ybor-city",
+        "havana"
       ]
     },
     "a baby monitor": {
@@ -55409,12 +55494,12 @@
       ],
       "example_clue": "The Zenith Radio Nurse, the first of these, was invented following the kidnapping of Charles Lindbergh's son",
       "keywords": [
-        "baby monitor",
-        "lindbergh kidnapping",
-        "history",
-        "crime",
-        "invention",
-        "technology"
+        "technology",
+        "inventions",
+        "true-crime",
+        "1930s",
+        "lindbergh-kidnapping",
+        "history"
       ]
     },
     "max": {
@@ -55425,10 +55510,11 @@
       ],
       "example_clue": "In \"Where the Wild Things Are\", this kid threatened to eat his mother & was sent to bed; soon after, a forest grew & grew there",
       "keywords": [
-        "maurice sendak",
-        "children's literature",
-        "books",
-        "where the wild things are"
+        "childrens-literature",
+        "fantasy",
+        "imagination",
+        "maurice-sendak",
+        "picture-books"
       ]
     },
     "josh allen": {
@@ -55439,11 +55525,11 @@
       ],
       "example_clue": "2025 was a big year for this man; he was named the NFL's MVP for the previous year, & he married Hailee Steinfeld",
       "keywords": [
-        "josh allen",
-        "nfl",
+        "sports",
+        "nfl-football",
         "2025",
-        "football",
-        "sports"
+        "celebrity-marriages",
+        "hailee-steinfeld"
       ]
     },
     "in the pits": {
@@ -55454,10 +55540,10 @@
       ],
       "example_clue": "This 3-word phrase completes the bestselling Erma Bombeck title, \"If Life Is a Bowl of Cherries, What Am I Doing\" here?",
       "keywords": [
-        "erma bombeck",
-        "books",
-        "humor",
-        "literature"
+        "humor-writing",
+        "bestselling-books",
+        "erma-bombeck",
+        "life-advice"
       ]
     },
     "game boy": {
@@ -55468,11 +55554,11 @@
       ],
       "example_clue": "A Nintendo employee saw a bored commuter playing with a calculator, leading to this product that was released in 1989",
       "keywords": [
+        "video-games",
         "nintendo",
-        "video games",
-        "gaming",
+        "handheld-gaming",
         "1989",
-        "handheld"
+        "gaming-history"
       ]
     },
     "treebeard": {
@@ -55483,10 +55569,11 @@
       ],
       "example_clue": "Fangorn in Tolkien's works is the name of a spooky forest near the Misty Mountains & an alias for this Ent who presides over the place",
       "keywords": [
+        "fantasy-literature",
         "tolkien",
-        "lord of the rings",
-        "fantasy",
-        "literature"
+        "lord-of-the-rings",
+        "middle-earth",
+        "forests"
       ]
     },
     "osaka": {
@@ -55497,10 +55584,12 @@
       ],
       "example_clue": "This tennis star & 2018 U.S. Open winner shares her last name with one of the most populous cities in Asia",
       "keywords": [
-        "naomi osaka",
-        "tennis",
         "sports",
-        "2018"
+        "tennis",
+        "naomi-osaka",
+        "geography",
+        "japan",
+        "cities"
       ]
     },
     "i think, therefore i am": {
@@ -55511,10 +55600,11 @@
       ],
       "example_clue": "Descartes came up with this famous dictum in his \"Discourse on Method\"",
       "keywords": [
-        "descartes",
         "philosophy",
-        "latin",
-        "cogito ergo sum"
+        "descartes",
+        "french-philosophy",
+        "epistemology",
+        "quotes"
       ]
     },
     "heart-wrenching": {
@@ -55525,10 +55615,12 @@
       ],
       "example_clue": "This hyphenated word uses a body part & a twisting tool to mean very sad, but it also sounds very painful if taken literally",
       "keywords": [
-        "wordplay",
         "vocabulary",
-        "emotion",
-        "compound words"
+        "wordplay",
+        "language",
+        "compound-words",
+        "etymology",
+        "emotions"
       ]
     },
     "a soda jerk": {
@@ -55539,10 +55631,11 @@
       ],
       "example_clue": "The name of this profession is also the action done by the worker who pulls a handle to make fizzy nonpotent potables flow",
       "keywords": [
-        "wordplay",
-        "history",
-        "professions",
-        "soda fountain"
+        "1950s-americana",
+        "slang",
+        "occupations",
+        "onomatopoeia",
+        "language-wordplay"
       ]
     },
     "victoria's secret": {
@@ -55553,11 +55646,11 @@
       ],
       "example_clue": "Roy Raymond created this lingerie store since he felt trained corsetieres at department stores treated men as outsiders",
       "keywords": [
-        "victoria's secret",
-        "retail",
         "fashion",
+        "retail",
         "lingerie",
-        "history"
+        "retail-history",
+        "womens-fashion"
       ]
     },
     "(christian) pulisic": {
@@ -55567,7 +55660,14 @@
         800
       ],
       "example_clue": "Now with A.C. Milan, this U.S. Men's National Soccer Team star got to play in Europe at 16 on his Croatian passport",
-      "keywords": []
+      "keywords": [
+        "sports",
+        "soccer",
+        "usmnt",
+        "europe",
+        "athletes",
+        "italy"
+      ]
     },
     "morse": {
       "display": "Morse",
@@ -55577,12 +55677,12 @@
       ],
       "example_clue": "Predating his famous invention, he said, \"I see no reason why intelligence may not be transmitted instantaneously by electricity\"",
       "keywords": [
-        "samuel morse",
+        "inventors",
+        "communication",
+        "electricity",
         "telegraph",
-        "morse code",
-        "invention",
-        "history",
-        "communication"
+        "morse-code",
+        "history"
       ]
     },
     "\"pitiful\"": {
@@ -55592,7 +55692,13 @@
         800
       ],
       "example_clue": "Deserving commiseration, like Warren Zevon's \"Poor Poor...Me\"",
-      "keywords": []
+      "keywords": [
+        "vocabulary",
+        "songs",
+        "warren-zevon",
+        "adjectives",
+        "definitions"
+      ]
     },
     "bowling alleys": {
       "display": "bowling alleys",
@@ -55602,10 +55708,12 @@
       ],
       "example_clue": "Machines by Brunswick & AMF put pinsetters out of a job in these specialized recreation facilities",
       "keywords": [
+        "sports",
+        "recreation",
         "bowling",
-        "machines",
         "automation",
-        "history"
+        "technology",
+        "retro-americana"
       ]
     },
     "coca-cola": {
@@ -55616,11 +55724,12 @@
       ],
       "example_clue": "Civil War vet John Pemberton's attempt to make an opiate-free painkiller eventually led him to create this drink",
       "keywords": [
-        "coca-cola",
         "history",
-        "soft drink",
-        "beverage",
-        "company"
+        "beverages",
+        "civil-war",
+        "medicinal-chemistry",
+        "commerce",
+        "soft-drinks"
       ]
     },
     "the overstory": {
@@ -55631,12 +55740,12 @@
       ],
       "example_clue": "Ann Patchett said \"The best novel ever written about trees\" is this one by Richard Powers; it did win the Pulitzer",
       "keywords": [
-        "richard powers",
         "literature",
-        "fiction",
-        "pulitzer prize",
+        "novels",
+        "pulitzer-prize",
         "trees",
-        "environment"
+        "nature",
+        "contemporary-literature"
       ]
     },
     "(a'ja) wilson": {
@@ -55646,7 +55755,14 @@
         1000
       ],
       "example_clue": "After winning the WNBA Finals MVP in 2025, this center invited Beyoncé to the Las Vegas Aces championship parade",
-      "keywords": []
+      "keywords": [
+        "sports",
+        "basketball",
+        "wnba",
+        "2025",
+        "beyonce",
+        "las-vegas-aces"
+      ]
     },
     "santayana": {
       "display": "Santayana",
@@ -55656,9 +55772,11 @@
       ],
       "example_clue": "He's the Spanish-born American philosopher who opined, \"Those who cannot remember the past are condemned to repeat it\"",
       "keywords": [
-        "santayana",
         "philosophy",
         "history",
+        "philosophers",
+        "quotes",
+        "epistemology",
         "spanish-american"
       ]
     },
@@ -55671,9 +55789,11 @@
       "example_clue": "Boasting a silent G within it, this word has positive connotations like emotional & moving, though it's also just darn sad",
       "keywords": [
         "vocabulary",
-        "wordplay",
-        "silent letters",
-        "emotion"
+        "language-wordplay",
+        "adjectives",
+        "silent-letters",
+        "emotions",
+        "definitions"
       ]
     },
     "the bobbin": {
@@ -55684,11 +55804,11 @@
       ],
       "example_clue": "In old textile factories, slubber doffers, often kids, removed this type of spool that held the yarn for spinning machines",
       "keywords": [
-        "textile industry",
-        "history",
-        "child labor",
-        "spinning",
-        "industrial history"
+        "labor-history",
+        "textile-industry",
+        "child-labor",
+        "industrial-revolution",
+        "occupations"
       ]
     },
     "a super soaker": {
@@ -55702,8 +55822,8 @@
         "toys",
         "water",
         "engineering",
-        "inventor",
-        "science"
+        "recreation",
+        "inventors"
       ]
     },
     "ursula k. le guin": {
@@ -55714,10 +55834,10 @@
       ],
       "example_clue": "She won a 1973 Hugo Award for her novella \"The Word for World Is Forest\"",
       "keywords": [
-        "literature",
         "science fiction",
-        "author",
-        "awards"
+        "authors",
+        "literature",
+        "hugo award"
       ]
     },
     "a goat": {
@@ -55729,8 +55849,8 @@
       "example_clue": "The lifestyle of Argentina's Crianceros is herding this horned animal that, like sheep, produces meat & wool",
       "keywords": [
         "livestock",
+        "animals",
         "agriculture",
-        "argentina",
         "wool"
       ]
     },
@@ -55742,10 +55862,10 @@
       ],
       "example_clue": "In Old English, a \"shot\" was a type of payment, leading to this not-actually-Caledonian-related term for \"without having to pay\"",
       "keywords": [
-        "language",
         "etymology",
-        "english",
-        "phrase"
+        "language",
+        "phrases",
+        "idioms"
       ]
     },
     "rob roy": {
@@ -55757,9 +55877,9 @@
       "example_clue": "Naturally, Scotch is the main ingredient in this alliterative cocktail bearing the name of a highland outlaw",
       "keywords": [
         "cocktails",
-        "spirits",
+        "whisky",
         "scotland",
-        "alcohol"
+        "drinks"
       ]
     },
     "\"gangnam style\"": {
@@ -55769,12 +55889,7 @@
         200
       ],
       "example_clue": "Hey, \"Sexy Lady\", this No. 2 hit from 2012 uses \"oppa\", which means older brother in Korean",
-      "keywords": [
-        "music",
-        "korean",
-        "pop",
-        "dance"
-      ]
+      "keywords": []
     },
     "the colossus of rhodes": {
       "display": "the Colossus of Rhodes",
@@ -55784,10 +55899,10 @@
       ],
       "example_clue": "Once towering over Mandraki Harbor, this massive statue of a sun god collapsed during an earthquake in the 3rd century B.C.",
       "keywords": [
-        "ancient world",
-        "sculpture",
-        "greece",
-        "monument"
+        "ancient greece",
+        "sculptures",
+        "wonders",
+        "antiquity"
       ]
     },
     "the cree": {
@@ -55798,10 +55913,10 @@
       ],
       "example_clue": "In 1935 journalist Eric Sevareid wrote an account of this 4-letter First Nations people going from Minneapolis to Hudson Bay",
       "keywords": [
-        "indigenous",
+        "indigenous peoples",
+        "native americans",
         "north america",
-        "history",
-        "journalism"
+        "tribes"
       ]
     },
     "a $3 bill": {
@@ -55813,9 +55928,9 @@
       "example_clue": "A proverbial example of something fake; the Continental Congress issued them, with a motto meaning \"the outcome is in doubt\"",
       "keywords": [
         "currency",
-        "united states",
-        "history",
-        "counterfeiting"
+        "american history",
+        "counterfeiting",
+        "banknotes"
       ]
     },
     "clam juice": {
@@ -55826,10 +55941,10 @@
       ],
       "example_clue": "The uninitiated should beware of the Bloody Caesar, augmented with the juice of one of these creatures",
       "keywords": [
-        "drinks",
         "cocktails",
-        "shellfish",
-        "beverages"
+        "seafood",
+        "drinks",
+        "mollusks"
       ]
     },
     "despacito": {
@@ -55841,9 +55956,10 @@
       "example_clue": "\"Quiero respirar tu cuello\" (I want to breathe in your neck) this Spanish adverb, says a No. 1 hit",
       "keywords": [
         "music",
-        "spanish",
-        "pop",
-        "language"
+        "spanish language",
+        "reggaeton",
+        "latin",
+        "pop"
       ]
     },
     "the hindenburg": {
@@ -55855,9 +55971,9 @@
       "example_clue": "This aircraft combusted 200 feet above an airfield in Lakehurst, N.J., then crashed to the ground; oh, the humanity!",
       "keywords": [
         "aviation",
-        "disaster",
-        "history",
-        "germany"
+        "airships",
+        "disasters",
+        "1930s"
       ]
     },
     "a gazelle": {
@@ -55871,7 +55987,7 @@
         "animals",
         "wildlife",
         "africa",
-        "antelope"
+        "zoology"
       ]
     },
     "afrikaners": {
@@ -55885,7 +56001,7 @@
         "south africa",
         "ethnicity",
         "history",
-        "dutch"
+        "colonial"
       ]
     },
     "to weasel out": {
@@ -55896,10 +56012,10 @@
       ],
       "example_clue": "A small carnivore appears in this phrase meaning to sneakily avoid an obligation",
       "keywords": [
-        "language",
         "idioms",
-        "phrase",
-        "evasion"
+        "language",
+        "phrases",
+        "animals"
       ]
     },
     "a ramos gin fizz": {
@@ -55913,7 +56029,7 @@
         "cocktails",
         "drinks",
         "new orleans",
-        "alcohol"
+        "gin"
       ]
     },
     "qu'est-ce que c'est?": {
@@ -55924,10 +56040,10 @@
       ],
       "example_clue": "The Talking Heads asked, \"Psycho Killer\", this French question",
       "keywords": [
-        "music",
         "language",
         "french",
-        "1980s"
+        "music",
+        "talking heads"
       ]
     },
     "baghdad": {
@@ -55940,8 +56056,8 @@
       "keywords": [
         "iraq",
         "middle east",
-        "war",
-        "history"
+        "history",
+        "politics"
       ]
     },
     "\"the blue danube\"": {
@@ -55951,12 +56067,7 @@
         600
       ],
       "example_clue": "This waltz was written to boost the morale of the Viennese, who were bummed out by losing the Austro-Prussian War",
-      "keywords": [
-        "classical music",
-        "austria",
-        "waltzes",
-        "vienna"
-      ]
+      "keywords": []
     },
     "the bum's rush (bum-rush)": {
       "display": "the bum's rush (bum-rush)",
@@ -55965,12 +56076,7 @@
         800
       ],
       "example_clue": "As what you \"give\" someone to eject them, it's 2 words & possessive; meaning to crash a show, one word, no 's",
-      "keywords": [
-        "language",
-        "slang",
-        "idioms",
-        "eject"
-      ]
+      "keywords": []
     },
     "galliano": {
       "display": "Galliano",
@@ -55980,10 +56086,10 @@
       ],
       "example_clue": "Harvey Wallbangers may not be named for a real guy, but this Italian liqueur in them has the name of an Italian war hero",
       "keywords": [
-        "alcohol",
         "liqueurs",
+        "drinks",
         "italy",
-        "war hero"
+        "cocktails"
       ]
     },
     "\"eyes without a face\"": {
@@ -55993,12 +56099,7 @@
         800
       ],
       "example_clue": "This Billy Idol song is classed up with the French lyrics \"les yeux sans visage\" playing through it",
-      "keywords": [
-        "music",
-        "rock",
-        "french",
-        "1980s"
-      ]
+      "keywords": []
     },
     "(john wesley) powell": {
       "display": "(John Wesley) Powell",
@@ -56010,8 +56111,8 @@
       "keywords": [
         "geology",
         "exploration",
-        "united states",
-        "grand canyon"
+        "colorado river",
+        "american west"
       ]
     },
     "sargent": {
@@ -56024,8 +56125,8 @@
       "keywords": [
         "art",
         "painting",
-        "portraiture",
-        "american"
+        "american",
+        "portraiture"
       ]
     },
     "dalmatian": {
@@ -56036,10 +56137,10 @@
       ],
       "example_clue": "Salata od hobotnice, octopus salad, is often bitten by this, someone from Croatia's southwest coastal strip",
       "keywords": [
-        "croatia",
         "geography",
-        "food",
-        "seafood"
+        "croatia",
+        "europe",
+        "ethnicity"
       ]
     },
     "protest too much": {
@@ -56050,10 +56151,10 @@
       ],
       "example_clue": "To insist on a point until people start to doubt you & it is to do this, spoken by Queen Gertrude in \"Hamlet\"",
       "keywords": [
-        "literature",
         "shakespeare",
-        "language",
-        "doubt"
+        "hamlet",
+        "literature",
+        "idioms"
       ]
     },
     "a dubonnet": {
@@ -56064,10 +56165,10 @@
       ],
       "example_clue": "A fave of Elizabeth II, this quinine-laced drink was named for its inventor, a French chemist hoping to prevent malaria",
       "keywords": [
+        "cocktails",
         "drinks",
-        "alcohol",
-        "france",
-        "royalty"
+        "french",
+        "aperitif"
       ]
     },
     "\"across the universe\"": {
@@ -56077,12 +56178,7 @@
         1000
       ],
       "example_clue": "Some of the words flowing in this Beatles song are \"jai guru deva om\", a Sanskrit mantra",
-      "keywords": [
-        "music",
-        "beatles",
-        "spirituality",
-        "sanskrit"
-      ]
+      "keywords": []
     },
     "(jacques) piccard": {
       "display": "(Jacques) Piccard",
@@ -56094,8 +56190,8 @@
       "keywords": [
         "oceanography",
         "exploration",
-        "deep sea",
-        "switzerland"
+        "mariana trench",
+        "diving"
       ]
     },
     "jacaranda": {
@@ -56106,9 +56202,9 @@
       ],
       "example_clue": "File under \"J\": this tree whose purple blooms are beautiful but produce a sticky mess when they fall",
       "keywords": [
-        "botany",
+        "plants",
         "trees",
-        "flowers",
+        "botany",
         "tropical"
       ]
     },
@@ -56123,7 +56219,7 @@
         "geography",
         "europe",
         "wealth",
-        "landlocked"
+        "countries"
       ]
     },
     "an heir": {
@@ -56134,10 +56230,10 @@
       ],
       "example_clue": "You've become a legatee of your uncle's estate, which also makes you one of these",
       "keywords": [
-        "family",
         "law",
         "inheritance",
-        "legatee"
+        "family",
+        "legal"
       ]
     },
     "fly fishing": {
@@ -56148,10 +56244,10 @@
       ],
       "example_clue": "Found a box labeled \"angling\", whatever that means; inside were a bunch of fuzzy things for use in this alliterative pastime",
       "keywords": [
-        "fishing",
         "sports",
+        "fishing",
         "recreation",
-        "angling"
+        "outdoors"
       ]
     },
     "phineas & ferb": {
@@ -56162,10 +56258,10 @@
       ],
       "example_clue": "Here 's secret agent Perry the Platypus, the greenest pet of this duo who returned to TV in 2025 after a decade-long hiatus",
       "keywords": [
-        "animation",
         "television",
-        "cartoon",
-        "disney"
+        "animation",
+        "disney",
+        "children"
       ]
     },
     "nintendo": {
@@ -56178,7 +56274,7 @@
       "keywords": [
         "video games",
         "gaming",
-        "japan",
+        "japanese",
         "electronics"
       ]
     },
@@ -56189,12 +56285,7 @@
         200
       ],
       "example_clue": "Poe waxes poetic about his fond affection for an onion relative who lives in a seaside sepulchre",
-      "keywords": [
-        "literature",
-        "poetry",
-        "edgar allan poe",
-        "wordplay"
-      ]
+      "keywords": []
     },
     "a rendezvous": {
       "display": "a rendezvous",
@@ -56206,8 +56297,8 @@
       "keywords": [
         "language",
         "french",
-        "pronunciation",
-        "words"
+        "etymology",
+        "pronunciation"
       ]
     },
     "badminton": {
@@ -56220,8 +56311,8 @@
       "keywords": [
         "sports",
         "recreation",
-        "british",
-        "racket"
+        "badminton",
+        "british"
       ]
     },
     "salt lake city": {
@@ -56232,10 +56323,10 @@
       ],
       "example_clue": "A coveted pin made for the 2002 winter Olympics features a bowl of green Jell-O, a nod to this host city's snacking affinities",
       "keywords": [
-        "olympics",
+        "geography",
         "utah",
-        "sports",
-        "culture"
+        "olympics",
+        "regional culture"
       ]
     },
     "merrie melodies": {
@@ -56248,8 +56339,8 @@
       "keywords": [
         "animation",
         "cartoons",
-        "warner",
-        "television"
+        "1930s",
+        "warner bros"
       ]
     },
     "\"fire and lice\"": {
@@ -56270,9 +56361,8 @@
       "example_clue": "The Spirit of Gobi has been called this country's answer to Coachella",
       "keywords": [
         "geography",
-        "central asia",
         "music festival",
-        "tourism",
+        "asia",
         "culture"
       ]
     },
@@ -56287,7 +56377,6 @@
         "sports",
         "nba",
         "basketball",
-        "measurement",
         "statistics"
       ]
     },
@@ -56299,11 +56388,10 @@
       ],
       "example_clue": "I've never used this exercise gadget that became infomercial famous in the '90s & I don't plan to start anytime soon",
       "keywords": [
-        "fitness equipment",
-        "infomercial",
-        "1990s",
-        "exercise",
-        "consumer products"
+        "fitness",
+        "products",
+        "advertising",
+        "1990s"
       ]
     },
     "zinnia": {
@@ -56314,11 +56402,10 @@
       ],
       "example_clue": "Here's the envy variety of this flower in the daisy family; it's mainly derived from Mexico but named for a German botanist",
       "keywords": [
-        "flowers",
         "botany",
-        "horticulture",
-        "mexico",
-        "daisy family"
+        "flowers",
+        "plants",
+        "mexico"
       ]
     },
     "smartless": {
@@ -56329,10 +56416,10 @@
       ],
       "example_clue": "Jason Bateman came up with the name of this podcast he hosts with Will Arnett & Sean Hayes to reflect that the 3 know nothing",
       "keywords": [
-        "podcast",
-        "comedy",
+        "podcasts",
         "entertainment",
-        "celebrities"
+        "comedy",
+        "media"
       ]
     },
     "\"ode on a grecian burn\"": {
@@ -56353,7 +56440,6 @@
       "example_clue": "In the past few years, tourists have trickled into this country to see where the Buddha statues of Bamiyan once stood",
       "keywords": [
         "geography",
-        "central asia",
         "tourism",
         "archaeology",
         "buddhism"
@@ -56368,10 +56454,9 @@
       "example_clue": "From the French for \"red\", this thickening base for soups & sauces contains flour",
       "keywords": [
         "cooking",
+        "food",
         "french cuisine",
-        "culinary arts",
-        "sauces",
-        "flour"
+        "culinary"
       ]
     },
     "struts": {
@@ -56382,11 +56467,10 @@
       ],
       "example_clue": "Some of these structural parts of my car's suspension system were loose on the garage floor & I for one was \"shock\"ed",
       "keywords": [
-        "automotive",
-        "suspension systems",
+        "automobiles",
         "mechanics",
-        "car parts",
-        "engineering"
+        "engineering",
+        "cars"
       ]
     },
     "schubert": {
@@ -56398,10 +56482,9 @@
       "example_clue": "This composer's song cycle \"Die schöne Müllerin\" includes 2 lieder about the color green, one for & one against",
       "keywords": [
         "classical music",
-        "composer",
-        "austrian music",
-        "lieder",
-        "vocal music"
+        "composers",
+        "austrian",
+        "lieder"
       ]
     },
     "lilith fair": {
@@ -56413,10 +56496,9 @@
       "example_clue": "Sarah McLachlan helped found this female-centric music festival that ran from 1997 to 1999; a 2025 documentary looked back at it",
       "keywords": [
         "music festival",
-        "1990s",
-        "female musicians",
-        "live music",
-        "sarah mclachlan"
+        "women",
+        "entertainment",
+        "1990s"
       ]
     },
     "\"the newt colossus\"": {
@@ -56436,11 +56518,10 @@
       ],
       "example_clue": "This 2nd-longest South American river borders a landlocked nation with the same first 4 letters",
       "keywords": [
-        "south america",
         "geography",
         "rivers",
-        "argentina",
-        "paraguay"
+        "south america",
+        "argentina"
       ]
     },
     "a tsunami": {
@@ -56451,11 +56532,10 @@
       ],
       "example_clue": "The NOAA says this, formed from 2 words with one meaning \"wave\", can have a wavelength in excess of 300 miles",
       "keywords": [
-        "natural disasters",
         "oceanography",
-        "geology",
         "earth science",
-        "japan"
+        "natural disasters",
+        "geology"
       ]
     },
     "a bandsaw": {
@@ -56467,10 +56547,9 @@
       "example_clue": "Time to offload this power tool that cuts wood & metal using a continuous steel strip; it takes up half my garage & I've used it... never",
       "keywords": [
         "tools",
-        "power tools",
         "woodworking",
         "machinery",
-        "metalworking"
+        "equipment"
       ]
     },
     "donatella versace": {
@@ -56482,10 +56561,9 @@
       "example_clue": "The internet very nearly exploded after J. Lo wore a green dress by this designer to the 2000 Grammys",
       "keywords": [
         "fashion",
-        "italian fashion",
-        "haute couture",
-        "designers",
-        "celebrities"
+        "design",
+        "celebrity",
+        "music"
       ]
     },
     "(troy) kotsur": {
@@ -56497,10 +56575,9 @@
       "example_clue": "This actor who won an Oscar for \"CODA\" said he hoped his role in \" Black Rabbit \" would open doors for more deaf actors",
       "keywords": [
         "film",
-        "actor",
-        "deaf representation",
-        "oscar",
-        "cinema"
+        "acting",
+        "oscars",
+        "deaf representation"
       ]
     },
     "how do i love three?": {
@@ -56511,11 +56588,10 @@
       ],
       "example_clue": "Elizabeth Barrett Browning, perhaps entertaining the idea of a ménage a quatre, once asked this lusty poetic question",
       "keywords": [
+        "literature",
         "poetry",
         "elizabeth barrett browning",
-        "parody",
-        "love",
-        "literature"
+        "love"
       ]
     },
     "richard nixon": {
@@ -56526,11 +56602,10 @@
       ],
       "example_clue": "Defeated by JFK in 1960, in 1963 he was playing piano on Jack Paar's show & started to change his image; 5 years later he was elected",
       "keywords": [
-        "us politics",
-        "president",
-        "1960s history",
         "politics",
-        "television"
+        "history",
+        "presidents",
+        "america"
       ]
     },
     "the tropic of cancer": {
@@ -56542,10 +56617,9 @@
       "example_clue": "An analemma shows points where the Sun is directly overhead throughout the year; it hits this line at 23 1/2 degrees north around June 21",
       "keywords": [
         "geography",
-        "latitude",
         "astronomy",
         "earth science",
-        "navigation"
+        "maps"
       ]
     },
     "turandot": {
@@ -56557,10 +56631,9 @@
       "example_clue": "How to pronounce this title of Puccini's last opera? It's not French, so probably the final \"T\" should be articulated",
       "keywords": [
         "opera",
-        "italian opera",
-        "classical music",
-        "puccini",
-        "theatre"
+        "music",
+        "italian",
+        "classical music"
       ]
     },
     "a bird": {
@@ -56571,11 +56644,10 @@
       ],
       "example_clue": "In a video teaching British slang, Idris Elba explains chirpsing means hitting on & is related to this word for a woman",
       "keywords": [
-        "slang",
-        "british english",
         "language",
-        "idioms",
-        "culture"
+        "slang",
+        "british",
+        "terminology"
       ]
     },
     "a (girl) squad": {
@@ -56586,11 +56658,10 @@
       ],
       "example_clue": "It's a singer or actress' group of friends, best forever or not; Joy Behar says, \"We used to call it a clique in my day\"",
       "keywords": [
-        "celebrities",
         "entertainment",
+        "celebrity",
         "friendship",
-        "culture",
-        "social groups"
+        "culture"
       ]
     },
     "a pretzel": {
@@ -56604,8 +56675,7 @@
         "food",
         "baking",
         "bread",
-        "snacks",
-        "german food"
+        "symbolism"
       ]
     },
     "bulgaria": {
@@ -56616,11 +56686,10 @@
       ],
       "example_clue": "Tsar Simeon II of this Balkan land was replaced by communists in 1946 but returned to serve as its prime minister in 2001",
       "keywords": [
-        "eastern europe",
         "geography",
-        "politics",
-        "communism",
-        "monarchy"
+        "history",
+        "europe",
+        "politics"
       ]
     },
     "the greenland problem": {
@@ -56632,9 +56701,8 @@
       "example_clue": "Cartographers call the size-warping of the Mercator projection map this problem, after an island that looks way too big",
       "keywords": [
         "cartography",
+        "maps",
         "geography",
-        "map projection",
-        "greenland",
         "earth science"
       ]
     },
@@ -56646,11 +56714,10 @@
       ],
       "example_clue": "Coolidge is the apt presidential middle name of this composer of modern operas like \"The Death of Klinghoffer\"",
       "keywords": [
-        "classical music",
-        "composer",
-        "american music",
+        "music",
+        "composers",
         "opera",
-        "modern opera"
+        "classical music"
       ]
     },
     "you're out of money (you're broke, you don't have money)": {
@@ -56660,13 +56727,7 @@
         400
       ],
       "example_clue": "If you say you can't go to the pub because you're skint, that's this reason",
-      "keywords": [
-        "slang",
-        "british english",
-        "language",
-        "idioms",
-        "culture"
-      ]
+      "keywords": []
     },
     "the rat pack": {
       "display": "The Rat Pack",
@@ -56677,10 +56738,9 @@
       "example_clue": "Passing on in 2007, Joey Bishop was the last surviving member of this show biz social group",
       "keywords": [
         "entertainment",
-        "1950s history",
+        "music",
         "celebrities",
-        "show business",
-        "los angeles"
+        "1950s"
       ]
     },
     "macramé": {
@@ -56693,9 +56753,8 @@
       "keywords": [
         "crafts",
         "textiles",
-        "knots",
         "fashion",
-        "diy"
+        "art"
       ]
     },
     "iacocca": {
@@ -56707,10 +56766,9 @@
       "example_clue": "After being fired by Ford, this man joined Chrysler as president in the late 1970s & brought it back from the brink of bankruptcy",
       "keywords": [
         "business",
-        "automotive",
-        "corporate history",
-        "chrysler",
-        "american industry"
+        "automobiles",
+        "leadership",
+        "history"
       ]
     },
     "japan": {
@@ -56724,7 +56782,6 @@
         "geography",
         "history",
         "exploration",
-        "navigation",
         "cartography"
       ]
     },
@@ -56737,9 +56794,8 @@
       "example_clue": "Maidens guard the title object of this opera, the first of the \"Ring\" cycle",
       "keywords": [
         "opera",
-        "richard wagner",
-        "mythology",
-        "german opera",
+        "music",
+        "german",
         "classical music"
       ]
     },
@@ -56751,11 +56807,10 @@
       ],
       "example_clue": "Don't worry, mate, it's all this -- more than just arranged in categories, it means fixed, settled, taken care of",
       "keywords": [
-        "slang",
-        "british english",
         "language",
-        "idioms",
-        "culture"
+        "slang",
+        "british",
+        "terminology"
       ]
     },
     "the sisterhood of the traveling pants": {
@@ -56767,10 +56822,9 @@
       "example_clue": "Fittingly, Amber Tamblyn, America Ferrera, Blake Lively & Alexis Bledel kept a bond long after making this movie together",
       "keywords": [
         "film",
-        "young adult",
-        "ensemble cast",
-        "cinema",
-        "culture"
+        "entertainment",
+        "literature",
+        "adaptation"
       ]
     },
     "a yurt": {
@@ -56782,10 +56836,9 @@
       "example_clue": "A knotted pile rug called an ensi was hung over the entrance of this tentlike structure of nomadic Turkmen",
       "keywords": [
         "architecture",
-        "nomadic dwellings",
+        "housing",
         "central asia",
-        "turkmen",
-        "traditional housing"
+        "textiles"
       ]
     },
     "wessex": {
@@ -56796,11 +56849,10 @@
       ],
       "example_clue": "Alfred the Great of this Anglo-Saxon kingdom survived a Viking onslaught circa 878, then took back much of southern England",
       "keywords": [
-        "england",
         "history",
-        "anglo-saxon",
-        "medieval history",
-        "vikings"
+        "england",
+        "medieval",
+        "geography"
       ]
     },
     "parallels": {
@@ -56812,8 +56864,7 @@
       "example_clue": "Lines of latitude are also called these, from their geometric layout; you're just about standing on the 34th",
       "keywords": [
         "geography",
-        "latitude",
-        "cartography",
+        "maps",
         "earth science",
         "navigation"
       ]
@@ -56827,10 +56878,9 @@
       "example_clue": "The aria \"Casta Diva\" from this Bellini opera is a prayer from the title druid priestess to the goddess of the moon",
       "keywords": [
         "opera",
-        "italian opera",
-        "classical music",
-        "bellini",
-        "theatre"
+        "music",
+        "italian",
+        "classical music"
       ]
     },
     "knees-up": {
@@ -56842,11 +56892,9 @@
       "example_clue": "It means a wild party & precedes \"Mother Brown\" in a song that some say has sexual meanings (but Raffi sang it)",
       "keywords": [
         "party",
-        "celebration",
-        "british-slang",
-        "nursery-rhyme",
         "music",
-        "song"
+        "slang",
+        "british-culture"
       ]
     },
     "richard kind": {
@@ -56858,10 +56906,9 @@
       "example_clue": "This character actor seems to turn up everywhere, including in George Clooney's core group of pals called \"The Boys\"",
       "keywords": [
         "actor",
-        "entertainment",
         "television",
-        "film",
-        "comedy"
+        "comedy",
+        "entertainment"
       ]
     },
     "athol fugard": {
@@ -56874,9 +56921,9 @@
       "keywords": [
         "playwright",
         "south-africa",
-        "drama",
-        "race-relations",
-        "theater"
+        "theater",
+        "apartheid",
+        "race"
       ]
     },
     "scipio": {
@@ -56887,11 +56934,11 @@
       ],
       "example_clue": "After years of defeat, a Roman army under this general known as Africanus won a decisive victory over Hannibal in 202 B.C.",
       "keywords": [
-        "rome",
-        "general",
-        "ancient-history",
+        "ancient-rome",
         "military",
-        "hannibal"
+        "generals",
+        "hannibal",
+        "warfare"
       ]
     },
     "a topographical map": {
@@ -56902,8 +56949,8 @@
       ],
       "example_clue": "Need to hike around Poison Canyon in Utah? At usgs.gov, you can build your own this type of detailed map with contour lines",
       "keywords": [
-        "geography",
         "cartography",
+        "geography",
         "maps",
         "hiking",
         "usgs"
@@ -56918,10 +56965,10 @@
       "example_clue": "\"Deh vieni, non tardar\" (\"Oh, come, do not delay\") is also known as Susanna's aria in this comic opera",
       "keywords": [
         "opera",
-        "music",
         "mozart",
-        "classical-music",
-        "comedy"
+        "music",
+        "aria",
+        "theater"
       ]
     },
     "bedfordshire": {
@@ -56934,9 +56981,8 @@
       "keywords": [
         "england",
         "geography",
-        "counties",
         "wordplay",
-        "sleep"
+        "counties"
       ]
     },
     "impractical jokers": {
@@ -56962,10 +57008,9 @@
       "example_clue": "The Incas used a record-keeping system of knotted strings called this",
       "keywords": [
         "inca",
-        "south-america",
-        "ancient-history",
-        "writing-systems",
-        "archaeology"
+        "pre-columbian",
+        "record-keeping",
+        "technology"
       ]
     },
     "winter": {
@@ -56976,11 +57021,10 @@
       ],
       "example_clue": "Russian drone attacks on Ukrainian infrastructure in a sub-zero January are called by the alliterative term \"weaponizing\" this",
       "keywords": [
-        "ukraine",
-        "russia",
+        "russia-ukraine-war",
         "military",
-        "conflict",
-        "weather"
+        "weapons",
+        "current-events"
       ]
     },
     "bovine": {
@@ -56991,11 +57035,10 @@
       ],
       "example_clue": "Appropriately, this adjective is from the Latin for \"ox\"",
       "keywords": [
-        "language",
+        "latin",
         "etymology",
-        "vocabulary",
-        "animals",
-        "cattle"
+        "cattle",
+        "language"
       ]
     },
     "2 pi r": {
@@ -57008,7 +57051,8 @@
       "keywords": [
         "mathematics",
         "geometry",
-        "formulas"
+        "formulas",
+        "circles"
       ]
     },
     "world series of poker": {
@@ -57021,7 +57065,6 @@
       "keywords": [
         "poker",
         "gambling",
-        "sports",
         "las-vegas",
         "card-games"
       ]
@@ -57036,8 +57079,9 @@
       "keywords": [
         "venezuela",
         "politics",
+        "government",
         "current-events",
-        "international-relations"
+        "military"
       ]
     },
     "belize": {
@@ -57048,11 +57092,10 @@
       ],
       "example_clue": "Its capital of Belmopan came to be after Hurricane Hattie wrecked the old capital in 1961",
       "keywords": [
-        "geography",
         "central-america",
-        "caribbean",
-        "natural-disasters",
-        "capitals"
+        "geography",
+        "hurricanes",
+        "capital-cities"
       ]
     },
     "acclamation": {
@@ -57063,11 +57106,11 @@
       ],
       "example_clue": "An oral vote that doesn't require a count of ayes & nays is \"by\" this, from the Latin for \"to shout\"",
       "keywords": [
-        "language",
-        "government",
         "voting",
-        "democracy",
-        "etymology"
+        "government",
+        "parliament",
+        "latin",
+        "civics"
       ]
     },
     "the outsiders": {
@@ -57079,9 +57122,10 @@
       "example_clue": "English: The working class Greasers face off against the rich kid Socs in this 1967 novel",
       "keywords": [
         "literature",
-        "american-fiction",
-        "coming-of-age",
-        "class-conflict"
+        "novel",
+        "youth-culture",
+        "class-conflict",
+        "fiction"
       ]
     },
     "don giovanni": {
@@ -57093,10 +57137,10 @@
       "example_clue": "In a Mozart opera this title rake invites folks to his castle for a nosh; he has eyes on Zerlina, & Z's fiancé? Not pleased",
       "keywords": [
         "opera",
-        "music",
         "mozart",
-        "classical-music",
-        "italian-culture"
+        "music",
+        "theater",
+        "italian"
       ]
     },
     "(mike) tomlin": {
@@ -57108,9 +57152,9 @@
       "example_clue": "After 19 straight seasons without a losing record, this longest-serving current NFL (or any major pro sport) coach stepped down",
       "keywords": [
         "nfl",
-        "sports",
-        "american-football",
-        "coaching"
+        "football",
+        "coaching",
+        "sports"
       ]
     },
     "belarus": {
@@ -57121,8 +57165,8 @@
       ],
       "example_clue": "The Dnieper flows through this landlocked country on its way to the Black Sea",
       "keywords": [
-        "geography",
         "eastern-europe",
+        "geography",
         "rivers",
         "landlocked"
       ]
@@ -57144,10 +57188,11 @@
       ],
       "example_clue": "A captive audience watches \"Gilda\" as Andy asks Red to get Rita Hayworth for him in this movie, & Red does (in a way)",
       "keywords": [
-        "cinema",
         "film",
+        "cinema",
         "drama",
-        "prison-narrative"
+        "prison",
+        "stephen-king"
       ]
     },
     "shot put": {
@@ -57158,10 +57203,10 @@
       ],
       "example_clue": "Phys ed: We'll see if you can break the record of a bit over 77 feet in this sport using an Olympics-ready 16-pound sphere",
       "keywords": [
-        "sports",
-        "olympics",
         "track-and-field",
-        "athletics"
+        "olympics",
+        "athletics",
+        "sports"
       ]
     },
     "collaborators": {
@@ -57172,10 +57217,10 @@
       ],
       "example_clue": "When making Reels, Instagram lets you invite multiple these, which sounds like you're plotting something nefarious, but it's all for fun",
       "keywords": [
-        "social-media",
         "instagram",
-        "technology",
-        "content-creation"
+        "social-media",
+        "content-creation",
+        "technology"
       ]
     },
     "reza pahlavi": {
@@ -57188,8 +57233,9 @@
       "keywords": [
         "iran",
         "politics",
+        "government",
         "current-events",
-        "international-relations"
+        "middle-east"
       ]
     },
     "barbados": {
@@ -57200,10 +57246,10 @@
       ],
       "example_clue": "Cricket is the national sport of this Caribbean nation & Anglicanism is the predominant religion",
       "keywords": [
-        "geography",
         "caribbean",
         "cricket",
         "sports",
+        "geography",
         "religion"
       ]
     },
@@ -57215,10 +57261,10 @@
       ],
       "example_clue": "Partly from Yiddish & from Russian & literally \"destruction\", it's an organized massacre of a class of people",
       "keywords": [
-        "language",
         "history",
-        "violence",
+        "genocide",
         "persecution",
+        "violence",
         "jewish-history"
       ]
     },
@@ -57230,10 +57276,11 @@
       ],
       "example_clue": "Time-traveling Bruce Willis feels like he's seen \"Vertigo\" before in this 1995 film",
       "keywords": [
-        "cinema",
         "science-fiction",
         "film",
-        "time-travel"
+        "cinema",
+        "time-travel",
+        "dystopia"
       ]
     },
     "the afl": {
@@ -57245,9 +57292,9 @@
       "example_clue": "U.S. history: Founded in 1886 with 138,000 members, this trade unionist group had nearly 3 million by 1924",
       "keywords": [
         "labor-history",
+        "trade-unions",
         "american-history",
-        "unions",
-        "workers-rights"
+        "workers"
       ]
     },
     "attica": {
@@ -57258,10 +57305,11 @@
       ],
       "example_clue": "On Sept. 10, 1971 inmates revolting at this prison! this prison! welcomed observers who'd later serve as intermediaries",
       "keywords": [
-        "criminal-justice",
-        "american-history",
         "prison",
-        "prison-uprising"
+        "new-york",
+        "history",
+        "uprising",
+        "criminal-justice"
       ]
     },
     "(doug) wilder": {
@@ -57272,11 +57320,10 @@
       ],
       "example_clue": "The USA's first Black elected governor, he came to the inauguration of Virginia's first female governor on his 95th birthday",
       "keywords": [
-        "american-politics",
-        "american-history",
-        "governors",
-        "race",
-        "virginia"
+        "virginia",
+        "politics",
+        "african-american-history",
+        "governors"
       ]
     },
     "weltschmerz": {
@@ -57287,11 +57334,11 @@
       ],
       "example_clue": "German words for \"world\" & \"pain\" combine to form this pessimistic feeling about life",
       "keywords": [
-        "language",
+        "german",
         "philosophy",
         "psychology",
-        "german-language",
-        "emotions"
+        "emotions",
+        "pessimism"
       ]
     },
     "shane": {
@@ -57302,9 +57349,11 @@
       ],
       "example_clue": "In \"Logan\", Charles Xavier & Laura watch this 1953 Western in which a boy implored Alan Ladd to \"Come back!\"",
       "keywords": [
+        "western",
         "cinema",
-        "western-films",
-        "film"
+        "film",
+        "classic-film",
+        "alan-ladd"
       ]
     },
     "fortune favors the brave (bold)": {
@@ -57324,10 +57373,10 @@
       ],
       "example_clue": "At a 1966 party McGeorge Bundy got a 2nd invite -- let's step outside! -- from this \"Naked & the Dead\" author, arguing over Vietnam",
       "keywords": [
-        "literature",
         "american-literature",
-        "authors",
-        "vietnam-war"
+        "author",
+        "vietnam-war",
+        "politics"
       ]
     },
     "(neil) simon": {
@@ -57338,10 +57387,9 @@
       ],
       "example_clue": "In 1991 his play \"Lost in Yonkers\", about a Jewish family, won a Tony & a Pulitzer",
       "keywords": [
-        "literature",
         "theater",
-        "american-literature",
-        "playwrights",
+        "playwright",
+        "american-drama",
         "jewish-culture"
       ]
     },
@@ -57353,10 +57401,11 @@
       ],
       "example_clue": "Carnies & nuclear war are the only things that terrify this international man of mystery",
       "keywords": [
-        "cinema",
-        "comedy",
         "film",
-        "spy-fiction"
+        "comedy",
+        "spy-parody",
+        "mike-myers",
+        "satire"
       ]
     },
     "meteorologist": {
@@ -57367,10 +57416,10 @@
       ],
       "example_clue": "Alex Wallace & Alex Wilson are 2 of these on-camera professionals for The Weather Channel",
       "keywords": [
-        "science",
+        "meteorology",
         "weather",
-        "careers",
-        "television"
+        "television",
+        "science"
       ]
     },
     "jefferson (memorial)": {
@@ -57380,7 +57429,13 @@
         200
       ],
       "example_clue": "Your countertops can be made of Danby marble, like this Neoclassical domed memorial on Washington, D.C.'s Tidal Basin",
-      "keywords": []
+      "keywords": [
+        "washington-dc",
+        "architecture",
+        "monuments",
+        "memorials",
+        "neoclassical"
+      ]
     },
     "funeral": {
       "display": "Funeral",
@@ -57390,10 +57445,10 @@
       ],
       "example_clue": "In black culture this event is often called a homegoing & TLC featured some elaborate ones on a show called \"Best\" this \"Ever\"",
       "keywords": [
-        "culture",
-        "death-rituals",
-        "television",
-        "african-american-culture"
+        "death",
+        "african-american-culture",
+        "rituals",
+        "television"
       ]
     },
     "(edward) albee": {
@@ -57423,9 +57478,10 @@
       "example_clue": "Marisa Tomei is in a trying relationship with an attorney who has an unusual office in this 2011 film",
       "keywords": [
         "film",
-        "legal thriller",
-        "los angeles",
-        "2011"
+        "law",
+        "attorney",
+        "thriller",
+        "marisa tomei"
       ]
     },
     "sesquicentennial": {
@@ -57438,8 +57494,9 @@
       "keywords": [
         "anniversary",
         "colorado",
+        "2026",
         "milestone",
-        "2026"
+        "history"
       ]
     },
     "maximalism": {
@@ -57452,8 +57509,10 @@
       "keywords": [
         "interior design",
         "style",
+        "luxury",
+        "kelly wearstler",
         "marble",
-        "aesthetic"
+        "contemporary design"
       ]
     },
     "stealing home": {
@@ -57466,8 +57525,10 @@
       "keywords": [
         "baseball",
         "sports",
-        "world series",
-        "jackie robinson"
+        "baserunning",
+        "ty cobb",
+        "jackie robinson",
+        "1955 world series"
       ]
     },
     "inherit the wind": {
@@ -57478,10 +57539,12 @@
       ],
       "example_clue": "Set in a fictional town in the South, this 1955 courtroom drama was based on the Scopes trial; a film would follow",
       "keywords": [
-        "theater",
+        "drama",
         "courtroom drama",
         "scopes trial",
-        "religion"
+        "evolution",
+        "religion",
+        "american literature"
       ]
     },
     "perpetual motion": {
@@ -57494,8 +57557,9 @@
       "keywords": [
         "physics",
         "mechanics",
+        "energy",
         "thermodynamics",
-        "science"
+        "engineering"
       ]
     },
     "madison beer": {
@@ -57506,10 +57570,11 @@
       ],
       "example_clue": "Stardom was around the corner after Justin Bieber shared this singer's cover of \"At Last\"",
       "keywords": [
-        "singer",
         "pop music",
-        "musician",
-        "contemporary"
+        "singer",
+        "contemporary pop",
+        "justin bieber",
+        "musician"
       ]
     },
     "hemodialysis": {
@@ -57521,9 +57586,11 @@
       "example_clue": "It's the full name of the lifesaving treatment that utilizes an artificial kidney machine to cleanse the blood",
       "keywords": [
         "medicine",
-        "kidney",
-        "medical treatment",
-        "nephrology"
+        "nephrology",
+        "kidney disease",
+        "healthcare",
+        "treatment",
+        "blood filtration"
       ]
     },
     "the sea of marmara": {
@@ -57537,7 +57604,8 @@
         "geography",
         "turkey",
         "marble",
-        "mediterranean"
+        "body of water",
+        "geology"
       ]
     },
     "kicked out of school": {
@@ -57548,10 +57616,11 @@
       ],
       "example_clue": "If a young British person unexpectedly returns home because they've been \"sent down\", they've been this",
       "keywords": [
-        "british english",
         "education",
+        "british english",
         "university",
-        "slang"
+        "expulsion",
+        "school discipline"
       ]
     },
     "stoppard": {
@@ -57563,9 +57632,10 @@
       "example_clue": "King Charles & Queen Camilla were among those who paid tribute to this witty Czech-born playwright on his recent passing",
       "keywords": [
         "playwright",
-        "theater",
         "drama",
-        "contemporary"
+        "modern theater",
+        "czech-born",
+        "contemporary drama"
       ]
     },
     "helena bonham carter": {
@@ -57577,9 +57647,10 @@
       "example_clue": "In 1990 she played Polonius' daughter in \"Hamlet\" & in 2020, Millie Bobby Brown's mom in \"Enola Holmes\"",
       "keywords": [
         "actress",
+        "british cinema",
         "film",
-        "television",
-        "shakespeare"
+        "shakespeare",
+        "period drama"
       ]
     },
     "tintinnabulation": {
@@ -57590,10 +57661,12 @@
       ],
       "example_clue": "Poe wrote about this \"that so musically wells from the bells, bells, bells, bells\"",
       "keywords": [
-        "literature",
-        "poetry",
         "edgar allan poe",
-        "bells"
+        "poetry",
+        "bells",
+        "sound",
+        "onomatopoeia",
+        "literary devices"
       ]
     },
     "carrara": {
@@ -57604,10 +57677,12 @@
       ],
       "example_clue": "After some effort, \"The Brutalist\" director Brady Corbet got to film in the quarries of this Italian marble mecca",
       "keywords": [
-        "marble",
         "italy",
-        "film",
-        "quarry"
+        "marble",
+        "quarrying",
+        "geology",
+        "stone",
+        "art"
       ]
     },
     "bonnet (sharks)": {
@@ -57628,9 +57703,10 @@
       "example_clue": "This pioneering absurdist playwright wrote \"The Bald Soprano\"",
       "keywords": [
         "playwright",
-        "theater",
-        "drama",
-        "absurdist"
+        "absurdist drama",
+        "modern theater",
+        "french theater",
+        "existentialism"
       ]
     },
     "albedo": {
@@ -57641,10 +57717,12 @@
       ],
       "example_clue": "Latin for \"whiteness\", it's a measure of the reflectivity of a planet or other surface",
       "keywords": [
-        "physics",
         "astronomy",
-        "optics",
-        "planetary science"
+        "physics",
+        "planets",
+        "reflectivity",
+        "light",
+        "optics"
       ]
     },
     "cheyenne jackson": {
@@ -57658,7 +57736,8 @@
         "actor",
         "television",
         "american horror story",
-        "state capitals"
+        "musical theater",
+        "performer"
       ]
     },
     "abiogenesis": {
@@ -57671,8 +57750,9 @@
       "keywords": [
         "biology",
         "evolution",
-        "origin of life",
-        "science"
+        "origins of life",
+        "biochemistry",
+        "thomas huxley"
       ]
     },
     "stoa": {
@@ -57683,10 +57763,12 @@
       ],
       "example_clue": "This 4-letter type of colonnade was often made with marble, Pentelic for the one of Atlas in the Agora of Athens",
       "keywords": [
-        "ancient greece",
         "architecture",
+        "ancient greece",
+        "colonnade",
         "marble",
-        "athens"
+        "classicism",
+        "archaeology"
       ]
     },
     "martin guerre": {
@@ -57697,10 +57779,12 @@
       ],
       "example_clue": "A film subject, the return of this peasant -- or someone claiming his name -- to his French village in the 1550s began a legal \"war\"",
       "keywords": [
-        "history",
-        "france",
+        "french history",
+        "legal history",
+        "peasant",
         "16th century",
-        "peasant"
+        "identity",
+        "impostor"
       ]
     },
     "housework": {
@@ -57711,10 +57795,12 @@
       ],
       "example_clue": "Crystal Eastman's 1920 speech \"Now We Can Begin\" asks for this type of \"work\" to be recognized & have \"economic reward\"",
       "keywords": [
-        "womens rights",
-        "feminism",
         "labor",
-        "economics"
+        "women's rights",
+        "feminism",
+        "1920s",
+        "economics",
+        "gender"
       ]
     },
     "a bear market": {
@@ -57726,9 +57812,10 @@
       "example_clue": "Charles Schwab defines one of these as \"a market in which share prices have declined more than 20% from a recent high\"",
       "keywords": [
         "finance",
-        "economics",
         "stock market",
-        "investment"
+        "economics",
+        "investing",
+        "business"
       ]
     },
     "anglican": {
@@ -57740,9 +57827,11 @@
       "example_clue": "Compiled by Thomas Cranmer in 1549, the Book of Common Prayer is the liturgy of this Protestant branch",
       "keywords": [
         "religion",
+        "protestantism",
         "christianity",
-        "protestant",
-        "theology"
+        "church of england",
+        "theology",
+        "liturgy"
       ]
     },
     "\"norwegian wood\"": {
@@ -57763,9 +57852,10 @@
       "example_clue": "Grizzly feet & to exchange one thing for another",
       "keywords": [
         "wordplay",
-        "pun",
-        "bear",
-        "animal"
+        "animals",
+        "grizzly bears",
+        "exchange",
+        "riddle"
       ]
     },
     "the epa": {
@@ -57776,10 +57866,11 @@
       ],
       "example_clue": "While dumps tend to be unregulated, this govt. agency regulates landfills under the Resource Conservation & Recovery Act",
       "keywords": [
-        "government",
+        "united states government",
         "environmental protection",
         "regulation",
-        "usa"
+        "waste management",
+        "landfills"
       ]
     },
     "prima ballerina": {
@@ -57790,10 +57881,12 @@
       ],
       "example_clue": "Born on an Osage reservation, Maria Tallchief was the first American with this two-word title",
       "keywords": [
-        "ballet",
         "dance",
+        "ballet",
+        "maria tallchief",
+        "osage",
         "native american",
-        "arts"
+        "performing arts"
       ]
     },
     "a limited liability company (corporation)": {
@@ -57803,12 +57896,7 @@
         400
       ],
       "example_clue": "These, LLCs, protect stock owners from potential losses beyond the amounts they've invested",
-      "keywords": [
-        "business",
-        "law",
-        "legal structure",
-        "finance"
-      ]
+      "keywords": []
     },
     "common sense": {
       "display": "Common Sense",
@@ -57818,10 +57906,11 @@
       ],
       "example_clue": "Working title \"Plain Truth\", it was published anonymously in January 1776 & sold 120,000 copies in the first 3 months",
       "keywords": [
+        "thomas paine",
+        "1776",
         "american revolution",
         "politics",
-        "history",
-        "1776"
+        "political philosophy"
       ]
     },
     "\"girlfriend in a coma\"": {
@@ -57842,9 +57931,9 @@
       "example_clue": "A castle stronghold & a quick glance",
       "keywords": [
         "wordplay",
-        "pun",
-        "castle",
-        "architecture"
+        "castles",
+        "fortification",
+        "riddle"
       ]
     },
     "compost": {
@@ -57855,10 +57944,12 @@
       ],
       "example_clue": "Some refer to this method of garbage disposal, which fertilizes the land & reduces landfill waste, as \"nature's way of recycling\"",
       "keywords": [
-        "environmental",
+        "gardening",
         "waste management",
-        "recycling",
-        "sustainability"
+        "sustainability",
+        "environmental",
+        "agriculture",
+        "recycling"
       ]
     },
     "the shakers": {
@@ -57870,9 +57961,10 @@
       "example_clue": "In a 2025 film Amanda Seyfried stars as Ann Lee, a leader of this 18th century religious sect",
       "keywords": [
         "religion",
-        "18th century",
         "religious sect",
-        "history"
+        "18th century",
+        "christianity",
+        "theology"
       ]
     },
     "meme stocks": {
@@ -57885,8 +57977,9 @@
       "keywords": [
         "finance",
         "stock market",
+        "internet culture",
         "social media",
-        "internet culture"
+        "investing"
       ]
     },
     "oliver wendell holmes": {
@@ -57898,9 +57991,10 @@
       "example_clue": "This future Supreme Court justice gave a series of lectures in Boston on common law, which became his 1881 book, \"The Common Law\"",
       "keywords": [
         "law",
-        "legal scholar",
         "supreme court",
-        "history"
+        "american history",
+        "legal philosophy",
+        "jurisprudence"
       ]
     },
     "bright lights, big city": {
@@ -57911,10 +58005,11 @@
       ],
       "example_clue": "Jay McInerney had a hit with the novel in 1984; in Jimmy Reed's classic blues song, the title elements have \"gone to my baby's head\"",
       "keywords": [
-        "literature",
-        "novel",
-        "1980s",
-        "music"
+        "fiction",
+        "1980s literature",
+        "blues music",
+        "jay mcinerney",
+        "new york"
       ]
     },
     "elba & able": {
@@ -57926,9 +58021,9 @@
       "example_clue": "Isle of exile in the Tyrrhenian Sea & especially proficient",
       "keywords": [
         "wordplay",
-        "pun",
         "napoleon",
-        "geography"
+        "geography",
+        "riddle"
       ]
     },
     "the european central bank": {
@@ -57941,9 +58036,9 @@
       "keywords": [
         "banking",
         "finance",
-        "economics",
+        "monetary policy",
         "europe",
-        "institutions"
+        "international"
       ]
     },
     "earnings": {
@@ -57954,11 +58049,11 @@
       ],
       "example_clue": "Stock prices are often driven by 10-Qs, quarterly these reports detailing a company's financial results",
       "keywords": [
-        "business",
         "finance",
         "accounting",
-        "stocks",
-        "corporate"
+        "business",
+        "stock market",
+        "corporate reporting"
       ]
     },
     "fanfare for the common man": {
@@ -57970,9 +58065,10 @@
       "example_clue": "At the start of this piece by Aaron Copland, 3 trumpets in unison give the flourish mentioned in the work's title",
       "keywords": [
         "classical music",
-        "orchestral music",
         "composition",
-        "copland"
+        "orchestral music",
+        "american composer",
+        "instrumentation"
       ]
     },
     "\"the boys of summer\"": {
@@ -57992,10 +58088,11 @@
       ],
       "example_clue": "A stopwatch & a fancy way to say \"send payment\"",
       "keywords": [
-        "sports time",
-        "payment",
-        "finance",
-        "wordplay"
+        "homophones",
+        "wordplay",
+        "compound words",
+        "time",
+        "payment"
       ]
     },
     "clark county, nevada": {
@@ -58006,10 +58103,11 @@
       ],
       "example_clue": "The Guinness record for largest landfill site in area belongs to Apex Regional Landfill in this county, also home to Vegas, baby, Vegas!",
       "keywords": [
-        "nevada",
-        "united states",
         "geography",
-        "las vegas"
+        "nevada",
+        "las vegas",
+        "landfill",
+        "waste management"
       ]
     },
     "vassar": {
@@ -58020,11 +58118,11 @@
       ],
       "example_clue": "19th c. scientist Maria Mitchell discovered a comet in 1847 & was this New York college's first professor of astronomy",
       "keywords": [
-        "colleges",
-        "education",
+        "women's education",
+        "liberal arts college",
         "astronomy",
-        "new york",
-        "women"
+        "women scientists",
+        "new york"
       ]
     },
     "a stock split": {
@@ -58035,10 +58133,10 @@
       ],
       "example_clue": "In one of these, each stockholder in a company gets additional shares, but per-share value decreases proportionately",
       "keywords": [
-        "finance",
-        "stocks",
-        "corporate",
-        "business"
+        "stock market",
+        "corporate finance",
+        "investment",
+        "economics"
       ]
     },
     "common business-oriented language": {
@@ -58049,10 +58147,11 @@
       ],
       "example_clue": "A joint venture of the U.S. government & the private sector, COBOL is an acronym standing for this language",
       "keywords": [
-        "programming",
-        "computer science",
-        "languages",
-        "cobol"
+        "programming language",
+        "computing",
+        "software",
+        "government project",
+        "acronym"
       ]
     },
     "lust for life": {
@@ -58063,10 +58162,10 @@
       ],
       "example_clue": "Irving Stone's novel was about van Gogh; Iggy Pop liked the title for his song about drug addiction",
       "keywords": [
+        "rock music",
+        "popular song",
+        "visual art",
         "literature",
-        "art",
-        "music",
-        "biography",
         "van gogh"
       ]
     },
@@ -58078,11 +58177,11 @@
       ],
       "example_clue": "A summary of yesterday's soap opera episode & a horse trained to move at a special gait",
       "keywords": [
+        "homophones",
+        "wordplay",
+        "compound words",
         "television",
-        "animals",
-        "horses",
-        "soap opera",
-        "wordplay"
+        "horses"
       ]
     },
     "sludge": {
@@ -58093,10 +58192,10 @@
       ],
       "example_clue": "Hazardous waste can take many forms, including liquid, gas, solid & this icky one the OED describes as \"earthy or slimy\"",
       "keywords": [
-        "environment",
-        "waste",
+        "waste management",
+        "environmental science",
         "hazardous materials",
-        "pollution"
+        "chemistry"
       ]
     },
     "amsterdam": {
@@ -58107,10 +58206,11 @@
       ],
       "example_clue": "I'm heading to Zaanse Schans , a historic windmill village 12 miles north of this capital",
       "keywords": [
-        "netherlands",
-        "europe",
-        "geography",
-        "cities"
+        "dutch geography",
+        "european city",
+        "travel",
+        "windmills",
+        "netherlands"
       ]
     },
     "plath": {
@@ -58121,11 +58221,11 @@
       ],
       "example_clue": "She wrote, \"To the person in the bell jar, blank and stopped... the world itself is the bad dream\"",
       "keywords": [
-        "literature",
         "poetry",
-        "authors",
-        "modernism",
-        "women writers"
+        "20th century literature",
+        "mental illness",
+        "american author",
+        "contemporary writing"
       ]
     },
     "silica (silicon dioxide)": {
@@ -58137,10 +58237,10 @@
       "example_clue": "Commonly found in nature as quartz, this major constituent of sand has the formula SiO 2",
       "keywords": [
         "chemistry",
-        "minerals",
         "geology",
-        "quartz",
-        "sand"
+        "minerals",
+        "sand",
+        "materials science"
       ]
     },
     "tower of london": {
@@ -58151,10 +58251,11 @@
       ],
       "example_clue": "Artist Paul Delaroche depicted two princes' 15th century captivity in this landmark",
       "keywords": [
-        "history",
-        "landmarks",
-        "architecture",
-        "london"
+        "english history",
+        "medieval architecture",
+        "landmark",
+        "royal history",
+        "art history"
       ]
     },
     "asbestos": {
@@ -58166,10 +58267,10 @@
       "example_clue": "In \"The Wizard of Oz\", the \"snow\" that falls on Dorothy & friends in the poppy field was actually this, which causes mesothelioma",
       "keywords": [
         "chemistry",
-        "hazardous materials",
-        "health",
-        "film",
-        "minerals"
+        "minerals",
+        "health hazards",
+        "filmmaking",
+        "special effects"
       ]
     },
     "felicity": {
@@ -58180,10 +58281,11 @@
       ],
       "example_clue": "O joy! This feminine first name comes from the Latin for \"happy\"",
       "keywords": [
+        "english language",
         "names",
         "etymology",
-        "language",
-        "feminine"
+        "latin roots",
+        "feminine names"
       ]
     },
     "cn tower": {
@@ -58195,9 +58297,10 @@
       "example_clue": "I'm on the Western Hemisphere's highest observation deck atop this Toronto structure, & I can see New York!",
       "keywords": [
         "architecture",
-        "landmarks",
-        "canada",
-        "toronto"
+        "canadian landmark",
+        "toronto",
+        "observation deck",
+        "engineering"
       ]
     },
     "spaghettification": {
@@ -58209,8 +58312,9 @@
       "example_clue": "It's the delicious term for being stretched out upon falling into a black hole",
       "keywords": [
         "physics",
-        "astronomy",
+        "cosmology",
         "black holes",
+        "space",
         "relativity"
       ]
     },
@@ -58224,9 +58328,9 @@
       "keywords": [
         "geography",
         "new york",
-        "prisons",
         "islands",
-        "music"
+        "prisons",
+        "corrections"
       ]
     },
     "raiders of the lost ark": {
@@ -58237,10 +58341,11 @@
       ],
       "example_clue": "A matte painting was used for the military warehouse where an object from Exodus 25 is kept at the end of this film",
       "keywords": [
-        "film",
-        "movies",
-        "adventure",
-        "archaeology"
+        "cinema",
+        "adventure film",
+        "archaeology",
+        "action film",
+        "special effects"
       ]
     },
     "roman": {
@@ -58252,9 +58357,10 @@
       "example_clue": "It refers to a nose with a prominent bridge, also called aquiline",
       "keywords": [
         "anatomy",
-        "noses",
-        "adjectives",
-        "language"
+        "descriptive language",
+        "appearance",
+        "nose",
+        "physical characteristics"
       ]
     },
     "st. james": {
@@ -58266,10 +58372,10 @@
       "example_clue": "I'm walking the Camino de Santiago in Spain, en route to the tomb of this martyred apostle & saint; hola, my fellow pilgrims!",
       "keywords": [
         "religion",
-        "saints",
         "christianity",
-        "spain",
-        "pilgrimage"
+        "apostles",
+        "pilgrimage",
+        "spain"
       ]
     },
     "george eliot": {
@@ -58280,10 +58386,11 @@
       ],
       "example_clue": "Dickens saluted this writer as \"my dear sir\" but also expressed doubt that it was actually a man behind the name (it wasn't)",
       "keywords": [
-        "literature",
+        "victorian literature",
         "authors",
-        "victorian",
-        "women writers"
+        "pseudonyms",
+        "women writers",
+        "contemporary writing"
       ]
     },
     "starfish": {
@@ -58294,10 +58401,11 @@
       ],
       "example_clue": "Fossils called Asteriacites show where these sea creatures rested millions of years ago",
       "keywords": [
-        "biology",
+        "marine biology",
+        "paleontology",
         "fossils",
-        "marine life",
-        "paleontology"
+        "sea creatures",
+        "zoology"
       ]
     },
     "turkish (prison)": {
@@ -58309,10 +58417,10 @@
       "example_clue": "Told in \"Midnight Express\", the story of Billy Hayes, sent to Imrali Prison, made this type of \"prison\" a byword for a bad one",
       "keywords": [
         "geography",
+        "turkey",
+        "cinema",
         "prisons",
-        "film",
-        "true crime",
-        "middle east"
+        "history"
       ]
     },
     "an american werewolf in london": {
@@ -58323,10 +58431,11 @@
       ],
       "example_clue": "In this '80s horror comedy, David Naughton's male pattern hirsuteness as he gets all lupine was filmed in reverse",
       "keywords": [
-        "film",
-        "horror",
-        "1980s",
-        "werewolves"
+        "horror film",
+        "special effects",
+        "1980s cinema",
+        "makeup effects",
+        "cinematography"
       ]
     },
     "\"the holly and the ivy\"": {
@@ -58346,10 +58455,12 @@
       ],
       "example_clue": "I'm visiting this walled city on the Brittany coast; it looks just like I imagined from reading \"All the Light We Cannot See\"",
       "keywords": [
-        "geography",
-        "france",
-        "architecture",
-        "walled cities"
+        "french geography",
+        "brittany",
+        "medieval architecture",
+        "walled cities",
+        "travel",
+        "literature"
       ]
     },
     "pynchon": {
@@ -58360,10 +58471,10 @@
       ],
       "example_clue": "\"V.\" is the 1963 first novel by this man whose later books have inspired 2 Paul Thomas Anderson movies",
       "keywords": [
-        "literature",
-        "authors",
+        "postmodern literature",
+        "american authors",
         "contemporary fiction",
-        "postmodern"
+        "film adaptation"
       ]
     },
     "titan": {
@@ -58374,10 +58485,11 @@
       ],
       "example_clue": "The Cassini-Huygens mission found rippling sand dunes & liquid seas on this moon",
       "keywords": [
-        "astronomy",
+        "planetary science",
         "moons",
+        "saturn",
         "space exploration",
-        "saturn"
+        "astronomy"
       ]
     },
     "the shape of water": {
@@ -58388,10 +58500,11 @@
       ],
       "example_clue": "Sally Hawkins on a wire & light that seemed to come through liquid made this film's opening scene look like it was under the sea",
       "keywords": [
-        "film",
+        "contemporary cinema",
         "cinematography",
-        "special effects",
-        "fantasy"
+        "fantasy film",
+        "visual effects",
+        "production design"
       ]
     },
     "beau": {
@@ -58402,10 +58515,11 @@
       ],
       "example_clue": "In an Anthony Trollope novel, characters talking about Fanny's guy reject this word for \"lover\", which is at least English",
       "keywords": [
-        "literature",
-        "language",
-        "french origin",
-        "victorian"
+        "english language",
+        "word origins",
+        "courtship",
+        "romantic terminology",
+        "literature"
       ]
     },
     "ushuaia": {
@@ -58418,8 +58532,9 @@
       "keywords": [
         "geography",
         "argentina",
+        "tierra del fuego",
         "south america",
-        "cities"
+        "exploration"
       ]
     },
     "mary oliver": {
@@ -58430,10 +58545,11 @@
       ],
       "example_clue": "She said \"Poetry mustn't be fancy\", an approach that earned her a Pulitzer for her collection \"American Primitive\"",
       "keywords": [
-        "literature",
-        "poetry",
-        "american poets",
-        "nature"
+        "american poetry",
+        "contemporary poets",
+        "nature poetry",
+        "pulitzer prize",
+        "20th century literature"
       ]
     },
     "blastocyst": {
@@ -58444,10 +58560,11 @@
       ],
       "example_clue": "This 10-letter ball of cells is formed during the early embryonic stage of a mammal",
       "keywords": [
-        "biology",
         "embryology",
+        "cell biology",
         "reproduction",
-        "cells"
+        "developmental biology",
+        "mammals"
       ]
     },
     "(ned) kelly": {
@@ -58458,10 +58575,11 @@
       ],
       "example_clue": "A tour of the Old Melbourne Gaol includes the 1880 execution site of him, \"Australia's most notorious outlaw\"",
       "keywords": [
-        "history",
-        "australia",
+        "australian history",
         "crime",
-        "outlaws"
+        "outlaws",
+        "19th century",
+        "execution"
       ]
     },
     "day for night": {
@@ -58472,10 +58590,11 @@
       ],
       "example_clue": "Some movies use underexposure & color correction to depict evening with this 3-word method, also the title of a Truffaut film",
       "keywords": [
-        "film",
+        "filmmaking technique",
         "cinematography",
-        "techniques",
-        "lighting"
+        "lighting",
+        "camera tricks",
+        "visual effects"
       ]
     },
     "a carter": {
@@ -58486,10 +58605,11 @@
       ],
       "example_clue": "Old-time transportation job seen here",
       "keywords": [
-        "history",
+        "labor history",
+        "medieval occupation",
         "transportation",
-        "occupations",
-        "jobs"
+        "common people",
+        "working class"
       ]
     },
     "(mikey) madison": {
@@ -58500,12 +58620,11 @@
       ],
       "example_clue": "Her role in \"Anora\" bested 9 other stars as she danced away with Best Lead Performance in a Film",
       "keywords": [
-        "film",
         "acting",
+        "film",
         "awards",
-        "performance",
-        "anora",
-        "independent-film"
+        "entertainment",
+        "cinema"
       ]
     },
     "the pacific ocean": {
@@ -58517,10 +58636,8 @@
       "example_clue": "In 1513 the first Europeans gazed on this body of water looking west from a Darién peak",
       "keywords": [
         "geography",
-        "exploration",
         "ocean",
-        "discovery",
-        "1513",
+        "exploration",
         "history"
       ]
     },
@@ -58533,10 +58650,10 @@
       "example_clue": "\"The risk of conviction and punishment that a criminal defendant faces at trial\"",
       "keywords": [
         "law",
-        "criminal-justice",
+        "criminal law",
+        "courts",
         "legal",
-        "trial",
-        "punishment"
+        "trials"
       ]
     },
     "lively": {
@@ -58547,10 +58664,10 @@
       ],
       "example_clue": "Of gloomy: This word that's also the surname of a famous Blake",
       "keywords": [
-        "personality",
-        "adjective",
-        "antonym",
-        "vocabulary"
+        "vocabulary",
+        "antonyms",
+        "entertainment",
+        "surnames"
       ]
     },
     "the east end": {
@@ -58561,11 +58678,10 @@
       ],
       "example_clue": "Toynbee Hall & the Whitechapel Art Gallery can be found in this London area",
       "keywords": [
-        "london",
         "geography",
-        "urban",
+        "london",
+        "history",
         "art",
-        "neighborhood",
         "culture"
       ]
     },
@@ -58577,12 +58693,11 @@
       ],
       "example_clue": "50-plus years ago, Ling-Ling & Hsing-Hsing 's arrival at the zoo of this institution began its giant panda breeding & conservation work",
       "keywords": [
+        "institutions",
         "museums",
-        "wildlife",
+        "zoology",
         "conservation",
-        "washington-dc",
-        "pandas",
-        "institutions"
+        "animals"
       ]
     },
     "judy garland": {
@@ -58594,11 +58709,10 @@
       "example_clue": "In 2019 biopic Renée Zellweger sang \"By Myself\" & \"Get Happy\" on her way to getting some Spirit love as this performer",
       "keywords": [
         "entertainment",
-        "film",
         "music",
-        "performance",
         "acting",
-        "singing"
+        "film",
+        "biography"
       ]
     },
     "lake huron": {
@@ -58611,10 +58725,9 @@
       "keywords": [
         "geography",
         "lakes",
-        "great-lakes",
-        "freshwater",
-        "islands",
-        "canada"
+        "north america",
+        "canada",
+        "freshwater"
       ]
     },
     "disbarment": {
@@ -58626,10 +58739,9 @@
       "example_clue": "\"The official act by which an attorney is deprived of the privilege of practicing law\"",
       "keywords": [
         "law",
-        "legal",
-        "professional-discipline",
-        "attorneys",
-        "ethics"
+        "legal profession",
+        "courts",
+        "penalties"
       ]
     },
     "artificial": {
@@ -58640,10 +58752,10 @@
       ],
       "example_clue": "Of natural: This word you'll find before intelligence or insemination",
       "keywords": [
-        "adjective",
-        "antonym",
         "vocabulary",
-        "technology"
+        "antonyms",
+        "technology",
+        "science"
       ]
     },
     "eagle eye": {
@@ -58654,12 +58766,11 @@
       ],
       "example_clue": "Sharpshooters in video games like Skyrim can get special abilities with this \"avian\" name",
       "keywords": [
-        "video-games",
+        "video games",
         "gaming",
-        "skyrim",
+        "fantasy",
         "abilities",
-        "archery",
-        "supernatural"
+        "entertainment"
       ]
     },
     "cleopatra": {
@@ -58671,11 +58782,10 @@
       "example_clue": "Shakespeare described her grand entrance at Tarsus: \"The barge she sat in, like a burnished throne, burned on the water\"",
       "keywords": [
         "history",
-        "ancient-egypt",
-        "shakespeare",
+        "ancient egypt",
         "literature",
-        "rulers",
-        "egypt"
+        "shakespeare",
+        "royalty"
       ]
     },
     "jury duty": {
@@ -58688,9 +58798,8 @@
       "keywords": [
         "television",
         "entertainment",
-        "casting",
-        "comedy",
-        "legal-themes"
+        "awards",
+        "comedy"
       ]
     },
     "the ionian sea": {
@@ -58702,11 +58811,10 @@
       "example_clue": "Cythera & Paxos are 2 of the Heptanesos, 7 islands in a group in this sea believed to be named for a maiden",
       "keywords": [
         "geography",
-        "greece",
-        "mythology",
-        "islands",
         "mediterranean",
-        "sea"
+        "islands",
+        "greece",
+        "mythology"
       ]
     },
     "bad faith": {
@@ -58719,8 +58827,8 @@
       "keywords": [
         "law",
         "legal",
-        "dishonesty",
-        "legal-terms",
+        "philosophy",
+        "latin",
         "ethics"
       ]
     },
@@ -58732,11 +58840,11 @@
       ],
       "example_clue": "Of trivial: This word that's also a military rank & an elite tennis tournament",
       "keywords": [
+        "vocabulary",
+        "antonyms",
         "military",
-        "academics",
-        "tennis",
-        "rank",
-        "career"
+        "sports",
+        "tennis"
       ]
     },
     "an easter egg": {
@@ -58748,10 +58856,10 @@
       "example_clue": "The first \"Imperial\" one of these objets d'art was created in 1885 for Empress Maria Feodorovna",
       "keywords": [
         "art",
+        "history",
+        "russia",
         "craftsmanship",
-        "fabergé",
-        "decorative-objects",
-        "russian-art"
+        "luxury goods"
       ]
     },
     "the mount of olives": {
@@ -58763,12 +58871,11 @@
       "example_clue": "Just like Jesus did in Matthew 21, the first Crusaders went to this mount before entering a besieged Jerusalem",
       "keywords": [
         "geography",
-        "religion",
         "history",
-        "israel",
-        "jerusalem",
+        "religion",
+        "christianity",
         "crusades",
-        "christianity"
+        "jerusalem"
       ]
     },
     "(ethan) hawke": {
@@ -58779,12 +58886,11 @@
       ],
       "example_clue": "Here's \"The Lowdown\": He survived \"Training Day\" to pick up a nom in 2025 for playing Tulsa's own Lee Raybon",
       "keywords": [
-        "film",
         "acting",
+        "film",
         "awards",
         "entertainment",
-        "performance",
-        "drama"
+        "cinema"
       ]
     },
     "res ipsa loquitur": {
@@ -58798,8 +58904,7 @@
         "law",
         "legal",
         "latin",
-        "legal-phrases",
-        "contract-law"
+        "evidence"
       ]
     },
     "frequent": {
@@ -58810,10 +58915,10 @@
       ],
       "example_clue": "Of seldom: This adjective that as a verb means to go somewhere often",
       "keywords": [
-        "adjective",
-        "antonym",
         "vocabulary",
-        "adverb"
+        "antonyms",
+        "grammar",
+        "language"
       ]
     },
     "electrical engineering": {
@@ -58824,11 +58929,11 @@
       ],
       "example_clue": "At Purdue, courses you might take for this major include Signals & Systems & Linear Circuit Analysis II",
       "keywords": [
-        "academics",
         "engineering",
-        "stem",
         "technology",
-        "university"
+        "education",
+        "science",
+        "circuits"
       ]
     },
     "(matthew) perry": {
@@ -58842,8 +58947,8 @@
         "history",
         "military",
         "japan",
-        "international-relations",
-        "1853"
+        "usa",
+        "naval"
       ]
     },
     "blood simple": {
@@ -58857,8 +58962,8 @@
         "film",
         "cinema",
         "awards",
-        "coen-brothers",
-        "independent-film"
+        "entertainment",
+        "noir"
       ]
     },
     "the east river & the harlem river": {
@@ -58871,9 +58976,9 @@
       "keywords": [
         "geography",
         "rivers",
-        "manhattan",
-        "new-york",
-        "urban"
+        "new york",
+        "waterways",
+        "usa"
       ]
     },
     "an easement": {
@@ -58885,9 +58990,9 @@
       "example_clue": "\"An interest in land owned by another person, consisting in the right to use... the land... for a specific limited purpose\"",
       "keywords": [
         "law",
-        "property-law",
-        "real-estate",
-        "legal-terms"
+        "property",
+        "real estate",
+        "legal"
       ]
     },
     "grasp": {
@@ -58898,10 +59003,10 @@
       ],
       "example_clue": "Of misunderstand: This ability of prehensile things",
       "keywords": [
-        "verbs",
         "vocabulary",
-        "cognition",
-        "comprehension"
+        "antonyms",
+        "anatomy",
+        "biology"
       ]
     },
     "the early edition": {
@@ -58913,9 +59018,9 @@
       "example_clue": "In the days of multi-newspaper cities, the morning paper used to have this in circulation by around 2 A.M.",
       "keywords": [
         "journalism",
-        "newspapers",
-        "history",
         "media",
+        "history",
+        "newspapers",
         "publishing"
       ]
     },
@@ -58928,11 +59033,10 @@
       "example_clue": "Originally named Operation Fritz, the German invasion of Russia later was renamed this, same as a Holy Roman Emperor",
       "keywords": [
         "history",
+        "world war ii",
         "military",
-        "world-war-2",
         "germany",
-        "soviet-union",
-        "operation"
+        "holy roman empire"
       ]
     },
     "bullfighting": {
@@ -58944,9 +59048,9 @@
       "example_clue": "Hemingway said Maia Wojciechowska knew more about this than any other woman; she wrote a novel about a boy afraid of entering the ring",
       "keywords": [
         "sports",
-        "spain",
-        "literature",
         "culture",
+        "literature",
+        "spain",
         "animals"
       ]
     },
@@ -58958,11 +59062,11 @@
       ],
       "example_clue": "February 2 is the World these Day, for ecosystems like swamps & marshes in which water is the major environmental factor",
       "keywords": [
+        "ecology",
         "environment",
-        "ecosystems",
         "geography",
-        "conservation",
-        "water"
+        "biology",
+        "ecosystems"
       ]
     },
     "a llama": {
@@ -58973,11 +59077,11 @@
       ],
       "example_clue": "This pack animal is the largest domesticated South American member of the camel family",
       "keywords": [
+        "biology",
         "animals",
-        "south-america",
-        "livestock",
-        "camel-family",
-        "domesticated"
+        "south america",
+        "mammals",
+        "domestication"
       ]
     },
     "hyperventilation": {
@@ -58990,9 +59094,9 @@
       "keywords": [
         "medicine",
         "health",
-        "physiology",
-        "breathing",
-        "psychology"
+        "respiratory",
+        "biology",
+        "physiology"
       ]
     },
     "nicholas ii": {
@@ -59006,9 +59110,8 @@
         "history",
         "russia",
         "royalty",
-        "russian-revolution",
-        "dna",
-        "excavation"
+        "archaeology",
+        "soviet history"
       ]
     },
     "conrad": {
@@ -59022,8 +59125,8 @@
         "literature",
         "authors",
         "fiction",
-        "maritime",
-        "classics"
+        "british literature",
+        "adventure"
       ]
     },
     "stevie nicks": {
@@ -59037,9 +59140,8 @@
         "music",
         "entertainment",
         "rock",
-        "fleetwood-mac",
-        "pop-culture",
-        "merchandise"
+        "pop culture",
+        "musicians"
       ]
     },
     "sign languages": {
@@ -59051,10 +59153,10 @@
       "example_clue": "September 23 is the International Day of these, like BSL & CSL",
       "keywords": [
         "language",
-        "deaf-culture",
         "communication",
-        "linguistics",
-        "international"
+        "accessibility",
+        "culture",
+        "linguistics"
       ]
     },
     "a wallaby": {
@@ -59065,12 +59167,11 @@
       ],
       "example_clue": "First thought to be a cat-sized species of rat, the quokka is actually a species of this marsupial in the kangaroo family",
       "keywords": [
+        "biology",
         "animals",
         "zoology",
-        "marsupials",
         "australia",
-        "fauna",
-        "quokka"
+        "mammals"
       ]
     },
     "overprotectiveness": {
@@ -59083,9 +59184,9 @@
       "keywords": [
         "psychology",
         "parenting",
+        "sociology",
         "behavior",
-        "child-development",
-        "family-dynamics"
+        "family"
       ]
     },
     "the paris catacombs": {
@@ -59097,11 +59198,10 @@
       "example_clue": "There are a lot of remains to be seen in these underground ossuaries below Paris, built when cemeteries were overcrowded",
       "keywords": [
         "history",
-        "architecture",
-        "geography",
+        "archaeology",
         "france",
-        "urban",
-        "burial"
+        "architecture",
+        "geography"
       ]
     },
     "roderick (usher)": {
@@ -59113,9 +59213,11 @@
       "example_clue": "\"An excessive nervous agitation\" troubles this man of the house of Usher & things just get worse",
       "keywords": [
         "literature",
-        "gothic fiction",
-        "psychological horror",
-        "decay"
+        "gothic",
+        "horror",
+        "fiction",
+        "poe",
+        "madness"
       ]
     },
     "(gretchen) wilson": {
@@ -59126,10 +59228,11 @@
       ],
       "example_clue": "In 2025, this singer of \"Redneck Woman\" showed she still has what it takes when she won Season 13 of \"The Masked Singer\"",
       "keywords": [
-        "country music",
-        "singing",
+        "music",
+        "country",
+        "singer",
         "entertainment",
-        "reality television"
+        "reality tv"
       ]
     },
     "zoroastrianism": {
@@ -59140,10 +59243,12 @@
       ],
       "example_clue": "Meaning \"new day\" in Farsi, the March observance of Nowruz dates to spring rites of this ancient religion",
       "keywords": [
-        "ancient religion",
+        "religion",
+        "ancient",
         "persia",
         "iran",
-        "spring festivals"
+        "festival",
+        "history"
       ]
     },
     "a walrus": {
@@ -59154,10 +59259,12 @@
       ],
       "example_clue": "Just between us, these mammals' genus is Odobenus, meaning \"tooth walk\" -- they use their tusks to get out of the water",
       "keywords": [
-        "marine mammals",
-        "arctic",
+        "animal",
+        "mammal",
+        "marine",
         "zoology",
-        "pinnipeds"
+        "arctic",
+        "tusks"
       ]
     },
     "institutionalization": {
@@ -59168,10 +59275,10 @@
       ],
       "example_clue": "20 letters: Confinement to a facility providing a certain type of long-term care; it doesn't have the nicest ring to it",
       "keywords": [
+        "healthcare",
         "mental health",
-        "psychiatry",
-        "social issues",
-        "medical history"
+        "medicine",
+        "social services"
       ]
     },
     "khufu": {
@@ -59182,10 +59289,11 @@
       ],
       "example_clue": "In 1954, the remains of one of this king's ships was found buried next to his Great Pyramid",
       "keywords": [
-        "ancient egypt",
-        "pyramids",
-        "pharaohs",
-        "archaeology"
+        "egypt",
+        "ancient",
+        "pharaoh",
+        "archaeology",
+        "pyramids"
       ]
     },
     "the thin red line": {
@@ -59196,10 +59304,11 @@
       ],
       "example_clue": "In this James Jones war novel, soldiers are afraid but also fear being cowards, like Fife, played by Adrien Brody in the Terrence Malick film",
       "keywords": [
-        "war fiction",
-        "military literature",
+        "literature",
+        "war",
+        "novel",
         "film",
-        "james jones"
+        "military"
       ]
     },
     "doja cat": {
@@ -59210,10 +59319,12 @@
       ],
       "example_clue": "Amala Dlamini is the real name of this woman whose remix with Nicki Minaj of \"Say So\" was the first No. 1 hit for both",
       "keywords": [
+        "music",
         "hip-hop",
-        "rap music",
-        "contemporary music",
-        "entertainment"
+        "pop",
+        "singer",
+        "entertainment",
+        "rap"
       ]
     },
     "gastronomy": {
@@ -59224,10 +59335,12 @@
       ],
       "example_clue": "June 18 is Sustainable this art of preparing & enjoying fine food Day",
       "keywords": [
+        "food",
         "cooking",
-        "culinary arts",
-        "food culture",
-        "fine dining"
+        "culinary",
+        "cuisine",
+        "art",
+        "sustainability"
       ]
     },
     "a kestrel": {
@@ -59238,9 +59351,10 @@
       ],
       "example_clue": "Preying on small animals by swooping down on them, the American type of this raptor is North America's smallest & most common falcon",
       "keywords": [
-        "raptors",
-        "birds of prey",
-        "falcons",
+        "bird",
+        "raptor",
+        "falcon",
+        "zoology",
         "ornithology"
       ]
     },
@@ -59253,9 +59367,10 @@
       "example_clue": "17 letters: It's an inaccurate or deceiving version of the facts; if it's intentional, it becomes fraud",
       "keywords": [
         "law",
+        "legal",
         "fraud",
-        "deception",
-        "ethics"
+        "ethics",
+        "deception"
       ]
     },
     "marengo": {
@@ -59266,10 +59381,11 @@
       ],
       "example_clue": "The skeleton of this beloved horse whom Napoleon left behind at Waterloo is on display at a British Museum",
       "keywords": [
-        "napoleonic history",
-        "horses",
+        "history",
         "military",
-        "museums"
+        "napoleon",
+        "horse",
+        "waterloo"
       ]
     },
     "patricia highsmith": {
@@ -59280,10 +59396,10 @@
       ],
       "example_clue": "\"The Tremor of Forgery\" is one book that led Graham Greene to call this American novelist \"the poet of apprehension\"",
       "keywords": [
-        "crime fiction",
-        "thriller",
         "literature",
-        "american authors"
+        "author",
+        "fiction",
+        "novelist"
       ]
     },
     "etta james": {
@@ -59294,10 +59410,11 @@
       ],
       "example_clue": "The Rock & Roll Hall of Fame called this \"At Last\" singer \"forever the matriarch of the blues\"",
       "keywords": [
-        "blues music",
-        "soul music",
-        "rock and roll",
-        "singing"
+        "music",
+        "blues",
+        "jazz",
+        "singer",
+        "rock and roll"
       ]
     },
     "muscular dystrophy": {
@@ -59308,10 +59425,11 @@
       ],
       "example_clue": "September 7 is Awareness Day for the Duchenne type of this genetic disorder",
       "keywords": [
-        "genetics",
-        "genetic disorders",
         "medicine",
-        "neuromuscular"
+        "genetics",
+        "disease",
+        "neurology",
+        "healthcare"
       ]
     },
     "a jacobson's organ": {
@@ -59322,10 +59440,11 @@
       ],
       "example_clue": "Snakes have a highly specialized sensory organ called this , after the Danish anatomist who discovered it",
       "keywords": [
+        "zoology",
         "anatomy",
-        "sensory organs",
-        "reptiles",
-        "biology"
+        "biology",
+        "sensory",
+        "snakes"
       ]
     },
     "counterrevolutionary": {
@@ -59337,9 +59456,10 @@
       "example_clue": "20 letters: One seeking to overthrow a government that was established by overthrowing a previous government",
       "keywords": [
         "politics",
-        "revolution",
+        "government",
         "history",
-        "government"
+        "revolution",
+        "ideology"
       ]
     },
     "tollund man": {
@@ -59351,10 +59471,10 @@
       "example_clue": "Possibly hanged as a sacrifice, the body of this over-2,000-year-old man was discovered in a peat bog in Denmark in 1950",
       "keywords": [
         "archaeology",
+        "history",
+        "prehistoric",
         "denmark",
-        "ancient peoples",
-        "iron age",
-        "human remains"
+        "anthropology"
       ]
     },
     "hermione granger": {
@@ -59365,10 +59485,11 @@
       ],
       "example_clue": "In a 1999 book she's told, \"You're the cleverest witch of your age I've ever met\"",
       "keywords": [
-        "fantasy literature",
+        "literature",
+        "fiction",
+        "fantasy",
         "harry potter",
-        "wizarding",
-        "magic"
+        "character"
       ]
     },
     "pueblo": {
@@ -59379,10 +59500,11 @@
       ],
       "example_clue": "Since 1872 this city whose name is Spanish for \"town\" has hosted the Colorado State Fair",
       "keywords": [
-        "colorado",
         "geography",
-        "american cities",
-        "state fairs"
+        "city",
+        "colorado",
+        "usa",
+        "history"
       ]
     },
     "clouseau": {
@@ -59393,10 +59515,11 @@
       ],
       "example_clue": "For a reboot of the \"Pink Panther\" franchise, Steve Martin took on the role of this bumbling detective",
       "keywords": [
-        "film comedy",
-        "detective characters",
+        "film",
+        "cinema",
         "comedy",
-        "pink panther"
+        "detective",
+        "character"
       ]
     },
     "peal (from petal)": {
@@ -59406,12 +59529,7 @@
         200
       ],
       "example_clue": "From a colorful flower part to get this verb, what a bell does",
-      "keywords": [
-        "wordplay",
-        "homophones",
-        "language puzzles",
-        "puns"
-      ]
+      "keywords": []
     },
     "the spanish civil war": {
       "display": "the Spanish Civil War",
@@ -59421,9 +59539,10 @@
       ],
       "example_clue": "\"No pasarán\", or \"They shall not pass\", the Republican battle cry in this conflict, was coined by Dolores Ibárruri",
       "keywords": [
-        "european history",
-        "spanish history",
-        "civil warfare",
+        "history",
+        "war",
+        "spain",
+        "military",
         "politics"
       ]
     },
@@ -59435,10 +59554,11 @@
       ],
       "example_clue": "In \"They Do It with Mirrors\", this Christie sleuth recalls attending boarding school in Florence",
       "keywords": [
-        "detective fiction",
+        "literature",
         "mystery",
-        "agatha christie",
-        "literature"
+        "detective",
+        "fiction",
+        "character"
       ]
     },
     "fenway": {
@@ -59449,10 +59569,11 @@
       ],
       "example_clue": "A red seat 502 feet from home plate in this ballpark marks the landing spot of a Ted Williams home run",
       "keywords": [
+        "sports",
         "baseball",
-        "sports stadiums",
+        "venue",
         "boston",
-        "american sports"
+        "history"
       ]
     },
     "kevlar": {
@@ -59464,9 +59585,10 @@
       "example_clue": "Impacts in orbit are rare, but Whipple shields made from this bulletproof vest polymer limit damage from objects traveling 17,000 mph",
       "keywords": [
         "materials science",
-        "polymer chemistry",
-        "space technology",
-        "textiles"
+        "chemistry",
+        "technology",
+        "physics",
+        "space"
       ]
     },
     "bruce lee": {
@@ -59477,10 +59599,11 @@
       ],
       "example_clue": "With roles in martial arts films like \"Enter the Dragon\" & \"Fist of Fury\", he helped popularize the genre",
       "keywords": [
+        "film",
         "martial arts",
-        "action films",
         "cinema",
-        "kung fu"
+        "actor",
+        "biography"
       ]
     },
     "prate (from pirate)": {
@@ -59490,12 +59613,7 @@
         400
       ],
       "example_clue": "From a synonym for buccaneer to get this verb meaning to chatter at length",
-      "keywords": [
-        "wordplay",
-        "homophones",
-        "language puzzles",
-        "puns"
-      ]
+      "keywords": []
     },
     "lecter": {
       "display": "Lecter",
@@ -59505,10 +59623,11 @@
       ],
       "example_clue": "Though he's a \"pure sociopath\", this Thomas Harris character is a contributor to the Journal of Clinical Psychiatry",
       "keywords": [
-        "crime fiction",
-        "psychological thriller",
-        "horror",
-        "literary characters"
+        "literature",
+        "fiction",
+        "character",
+        "thriller",
+        "psychology"
       ]
     },
     "west virginia": {
@@ -59519,10 +59638,11 @@
       ],
       "example_clue": "In 2020 New River Gorge in the Appalachians became this state's first national park",
       "keywords": [
-        "american geography",
+        "geography",
+        "usa",
         "appalachia",
-        "states",
-        "national parks"
+        "state",
+        "geology"
       ]
     },
     "bulwark": {
@@ -59533,10 +59653,10 @@
       ],
       "example_clue": "Barrier is a 7-letter word that starts with B & is a synonym for protection -- so is this, a wall raised for defense",
       "keywords": [
-        "vocabulary",
-        "synonyms",
         "language",
-        "fortifications"
+        "definition",
+        "synonyms",
+        "military"
       ]
     },
     "sophia loren": {
@@ -59547,10 +59667,11 @@
       ],
       "example_clue": "In 1962, she won the first Best Actress Oscar for a role in a foreign language film, \"Two Women\"",
       "keywords": [
-        "italian cinema",
-        "film acting",
+        "film",
+        "cinema",
+        "actor",
         "entertainment",
-        "oscar winners"
+        "italian"
       ]
     },
     "arrow (from narrow)": {
@@ -59560,12 +59681,7 @@
         600
       ],
       "example_clue": "From a word meaning of little width to get this weapon",
-      "keywords": [
-        "wordplay",
-        "homophones",
-        "language puzzles",
-        "puns"
-      ]
+      "keywords": []
     },
     "sojourner truth": {
       "display": "Sojourner Truth",
@@ -59575,10 +59691,11 @@
       ],
       "example_clue": "In 1843 the formerly enslaved Isabella Van Wagenen took this name reflecting her intention to \"travel up and down the land\"",
       "keywords": [
+        "history",
         "civil rights",
         "abolition",
-        "women's rights",
-        "african american history"
+        "biography",
+        "women"
       ]
     },
     "professor moriarty": {
@@ -59589,10 +59706,10 @@
       ],
       "example_clue": "Sherlock Holmes describes this man as having been \"endowed by nature with a phenomenal mathematical faculty\"",
       "keywords": [
-        "detective fiction",
-        "sherlock holmes",
         "literature",
-        "crime"
+        "fiction",
+        "character",
+        "mystery"
       ]
     },
     "amethyst": {
@@ -59603,10 +59720,11 @@
       ],
       "example_clue": "Its name is from Greek meaning \"not intoxicated\" from an ancient belief that the stone protected against drunkenness",
       "keywords": [
-        "gemstones",
-        "minerals",
+        "geology",
+        "gemstone",
+        "mineralogy",
         "crystals",
-        "jewelry"
+        "chemistry"
       ]
     },
     "sally bowles": {
@@ -59617,10 +59735,11 @@
       ],
       "example_clue": "Life was a cabaret for Lea Thompson & Natasha Richardson, 2 of the actresses who have played this role on Broadway",
       "keywords": [
-        "theater",
+        "theatre",
+        "musical",
         "broadway",
-        "musical theater",
-        "cabaret"
+        "character",
+        "entertainment"
       ]
     },
     "tint (from taint)": {
@@ -59630,12 +59749,7 @@
         800
       ],
       "example_clue": "From a word meaning to sully to get this trace of a color",
-      "keywords": [
-        "wordplay",
-        "homophones",
-        "language puzzles",
-        "puns"
-      ]
+      "keywords": []
     },
     "demosthenes": {
       "display": "Demosthenes",
@@ -59645,10 +59759,11 @@
       ],
       "example_clue": "The name of this orator who roused the people of ancient Athens begins with a Greek word for \"people\"",
       "keywords": [
+        "history",
         "ancient greece",
-        "oratory",
-        "classical history",
-        "rhetoric"
+        "orator",
+        "biography",
+        "classical"
       ]
     },
     "flowers for algernon": {
@@ -59659,10 +59774,11 @@
       ],
       "example_clue": "In this 1966 work the narrator's IQ climbs from 68 to 185, then declines rapidly",
       "keywords": [
+        "literature",
+        "fiction",
         "science fiction",
         "psychology",
-        "literature",
-        "dystopian fiction"
+        "novella"
       ]
     },
     "raleigh, durham & chapel hill": {
@@ -59673,11 +59789,12 @@
       ],
       "example_clue": "Home to 3 prestigious universities, North Carolina's Research Triangle is formed by these 3 cities or towns",
       "keywords": [
-        "geography",
+        "universities",
+        "research",
         "north carolina",
         "education",
-        "research",
-        "universities"
+        "geography",
+        "cities"
       ]
     },
     "anthony hopkins": {
@@ -59689,9 +59806,10 @@
       "example_clue": "In the '90s his movie roles included Richard Nixon & Picasso",
       "keywords": [
         "actor",
-        "film",
-        "biography",
-        "1990s"
+        "1990s",
+        "films",
+        "british",
+        "biography"
       ]
     },
     "garish (from garnish)": {
@@ -59711,11 +59829,11 @@
       ],
       "example_clue": "Komitake forms the north slope of this landmark that's been \"asleep\" since 1707; we'll step softly, just in case",
       "keywords": [
-        "geography",
+        "volcano",
         "japan",
-        "volcanoes",
-        "landmarks",
-        "nature"
+        "geography",
+        "landmark",
+        "mountain"
       ]
     },
     "raphael": {
@@ -59727,10 +59845,10 @@
       "example_clue": "The now seldom-used last name of this Renaissance man known for his Madonnas was Sanzio or Santi",
       "keywords": [
         "renaissance",
+        "painter",
+        "italian",
         "art",
-        "italy",
-        "artists",
-        "history"
+        "biography"
       ]
     },
     "scorpio": {
@@ -59741,11 +59859,10 @@
       ],
       "example_clue": "Arabic for \"stinger\", Shaula is a triple star system & the second-brightest light in this constellation",
       "keywords": [
-        "astronomy",
         "constellation",
+        "astronomy",
         "zodiac",
-        "stars",
-        "etymology"
+        "stars"
       ]
     },
     "family matters": {
@@ -59758,8 +59875,8 @@
       "keywords": [
         "television",
         "sitcom",
-        "comedy",
         "1990s",
+        "comedy",
         "spinoff"
       ]
     },
@@ -59771,10 +59888,11 @@
       ],
       "example_clue": "Not just a noun, it's a verb used with \"myself\" or \"herself\" to mean feel satisfaction over one's accomplishments",
       "keywords": [
+        "vocabulary",
+        "verb",
+        "noun",
         "emotion",
-        "language",
-        "grammar",
-        "verbs"
+        "english"
       ]
     },
     "point of view": {
@@ -59788,7 +59906,7 @@
         "literature",
         "narrative",
         "writing",
-        "storytelling"
+        "literary devices"
       ]
     },
     "the tigris & euphrates": {
@@ -59799,10 +59917,9 @@
       ],
       "example_clue": "Ah, the history! The bulk of Eastern Turkey is drained by these 2 rivers that flow 100s of miles further south, then join together",
       "keywords": [
-        "geography",
         "rivers",
+        "geography",
         "middle east",
-        "history",
         "mesopotamia"
       ]
     },
@@ -59815,10 +59932,10 @@
       "example_clue": "Parma school hotshot Correggio gave us the uplifting piece seen here & named for this trip Mary took",
       "keywords": [
         "art",
-        "renaissance",
         "painting",
-        "religion",
-        "christianity"
+        "renaissance",
+        "religious",
+        "correggio"
       ]
     },
     "saturn": {
@@ -59829,11 +59946,11 @@
       ],
       "example_clue": "Fly me to Phoebe, Telesto or Janus, 3 of the 274 moons of this planet",
       "keywords": [
+        "planet",
         "astronomy",
-        "planets",
-        "solar system",
         "space",
-        "moons"
+        "moons",
+        "solar system"
       ]
     },
     "watch what happens live!": {
@@ -59846,9 +59963,9 @@
       "keywords": [
         "television",
         "talk show",
+        "entertainment",
         "bravo",
-        "reality tv",
-        "celebrities"
+        "reality tv"
       ]
     },
     "hoof": {
@@ -59859,11 +59976,11 @@
       ],
       "example_clue": "Mainly a noun for part of a horse, it can also get verb-al meaning to move fast (with \"it\") or to dance",
       "keywords": [
-        "anatomy",
+        "vocabulary",
         "animals",
         "horse",
-        "language",
-        "verbs"
+        "movement",
+        "verb"
       ]
     },
     "petit point": {
@@ -59877,8 +59994,8 @@
         "needlework",
         "crafts",
         "embroidery",
-        "french",
-        "stitching"
+        "textiles",
+        "french"
       ]
     },
     "pakistan": {
@@ -59890,9 +60007,10 @@
       "example_clue": "Of the 7 \"-stan\" countries, we're headed for this one, the southernmost",
       "keywords": [
         "geography",
-        "countries",
+        "country",
+        "asia",
         "south asia",
-        "central asia"
+        "nations"
       ]
     },
     "philip ii": {
@@ -59919,10 +60037,10 @@
       "example_clue": "In 1997 the high resolution spectrograph on this was removed & replaced in orbit on a second servicing mission",
       "keywords": [
         "astronomy",
-        "space exploration",
-        "technology",
+        "space",
         "nasa",
-        "repair"
+        "technology",
+        "science"
       ]
     },
     "starfleet academy": {
@@ -59935,8 +60053,7 @@
       "keywords": [
         "television",
         "science fiction",
-        "star trek",
-        "academy"
+        "star trek"
       ]
     },
     "absent": {
@@ -59947,11 +60064,11 @@
       ],
       "example_clue": "This adjective for \"missing at roll call\" is also a verb meaning \"remove oneself\"; Hamlet tells Horatio to do it \"from Felicity\"",
       "keywords": [
+        "vocabulary",
+        "adjective",
+        "verb",
         "shakespeare",
-        "language",
-        "grammar",
-        "hamlet",
-        "wordplay"
+        "english"
       ]
     },
     "the ulna": {
@@ -59965,7 +60082,7 @@
         "anatomy",
         "bones",
         "skeletal system",
-        "arms"
+        "human body"
       ]
     },
     "angkor thom": {
@@ -59976,11 +60093,11 @@
       ],
       "example_clue": "After we turned up for Wat in Cambodia, we'll make the call -- ground control to this 13th century city, home to the Bayon temple",
       "keywords": [
-        "archaeology",
         "cambodia",
-        "architecture",
-        "history",
-        "temples"
+        "archaeology",
+        "temple",
+        "ancient",
+        "history"
       ]
     },
     "bosch": {
@@ -59991,11 +60108,11 @@
       ],
       "example_clue": "This Dutchman was known as a devil maker, as seen in his \" Temptation of Saint Anthony \"",
       "keywords": [
+        "painter",
+        "dutch",
         "renaissance",
         "art",
-        "dutch",
-        "painting",
-        "artists"
+        "devils"
       ]
     },
     "solar wind": {
@@ -60007,9 +60124,8 @@
       "example_clue": "The tail of Earth's magnetosphere is caused by this flux of particles that emits from the Sun's corona",
       "keywords": [
         "astronomy",
-        "space",
-        "physics",
-        "plasma",
+        "sun",
+        "space weather",
         "magnetosphere"
       ]
     },
@@ -60023,8 +60139,8 @@
       "keywords": [
         "new york city",
         "geography",
-        "television",
-        "vampires"
+        "boroughs",
+        "television"
       ]
     },
     "creative": {
@@ -60035,10 +60151,11 @@
       ],
       "example_clue": "This adjective is used more & more as a noun meaning anyone who generates content, from poems to advertising",
       "keywords": [
-        "marketing",
-        "language",
-        "content creation",
-        "modern usage"
+        "vocabulary",
+        "noun",
+        "adjective",
+        "modern",
+        "arts"
       ]
     },
     "the flashpoint": {
@@ -60050,10 +60167,10 @@
       "example_clue": "This brightly named \"point\" is the lowest temperature at which vapors above a liquid will ignite in the presence of flame",
       "keywords": [
         "chemistry",
-        "fire",
-        "combustion",
         "physics",
-        "temperature"
+        "temperature",
+        "fire",
+        "science"
       ]
     },
     "potala palace": {
@@ -60064,10 +60181,10 @@
       ],
       "example_clue": "We have friends in high palaces -- like at 12,000 ft. -- at this alliterative landmark in Tibet, a World Heritage Site since 1994",
       "keywords": [
-        "architecture",
         "tibet",
+        "architecture",
         "geography",
-        "landmarks",
+        "landmark",
         "buddhism"
       ]
     },
@@ -60079,11 +60196,11 @@
       ],
       "example_clue": "Paintings from this \"Elder\" German artist were signed with a winged serpent between the letters \"L\" & \"C\"",
       "keywords": [
+        "painter",
+        "german",
         "renaissance",
         "art",
-        "german",
-        "painting",
-        "artists"
+        "biography"
       ]
     },
     "synchronous": {
@@ -60094,10 +60211,10 @@
       ],
       "example_clue": "It was always 5 o'clock somewhere over Mars for the Odyssey spacecraft -- it's near the polar orbit known as SSO, Sun this word orbit",
       "keywords": [
+        "vocabulary",
+        "adjective",
         "astronomy",
-        "orbits",
-        "mars",
-        "space exploration",
+        "orbit",
         "spacecraft"
       ]
     },
@@ -60111,9 +60228,9 @@
       "keywords": [
         "actor",
         "television",
-        "fargo",
+        "british",
         "sherlock",
-        "british"
+        "biography"
       ]
     },
     "just": {
@@ -60124,11 +60241,11 @@
       ],
       "example_clue": "Mainly an adverb, it's an adjective as it ends Jefferson's \"I tremble for my country when I reflect that God is...\"",
       "keywords": [
-        "thomas jefferson",
-        "american history",
-        "philosophy",
-        "language",
-        "adjectives"
+        "vocabulary",
+        "adjective",
+        "adverb",
+        "jefferson",
+        "declaration"
       ]
     },
     "the lagrange point": {
@@ -60142,8 +60259,8 @@
         "astronomy",
         "physics",
         "gravity",
-        "space",
-        "orbital mechanics"
+        "orbit",
+        "space"
       ]
     },
     "trafalgar": {
@@ -60155,10 +60272,10 @@
       "example_clue": "Though Britain didn't lose one ship in this 1805 battle, it did lose a national hero, Admiral Nelson",
       "keywords": [
         "history",
-        "naval battle",
-        "britain",
-        "nelson",
-        "1805"
+        "battle",
+        "1805",
+        "naval",
+        "nelson"
       ]
     },
     "world": {
@@ -60169,10 +60286,10 @@
       ],
       "example_clue": "Game: Super Mario ____ of Warcraft",
       "keywords": [
-        "wordplay",
-        "pun",
         "video games",
-        "gaming"
+        "super mario",
+        "wordplay",
+        "pun"
       ]
     },
     "luna": {
@@ -60184,9 +60301,9 @@
       "example_clue": "Spanish for \"moon\", it frequently tops lists of the most popular female dog names",
       "keywords": [
         "spanish",
+        "moon",
         "dogs",
-        "mythology",
-        "astronomy",
+        "pets",
         "names"
       ]
     },
@@ -60199,10 +60316,10 @@
       "example_clue": "Revelation 22:21 concludes the Bible with this word",
       "keywords": [
         "religion",
-        "bible",
         "christianity",
-        "revelation",
-        "endings"
+        "bible",
+        "vocabulary",
+        "prayer"
       ]
     },
     "chef ref": {
@@ -60216,7 +60333,8 @@
         "wordplay",
         "pun",
         "basketball",
-        "cooking"
+        "cooking",
+        "homophones"
       ]
     },
     "the korean war": {
@@ -60229,9 +60347,9 @@
       "keywords": [
         "history",
         "military",
-        "1950s",
+        "conflict",
         "asia",
-        "korea"
+        "battles"
       ]
     },
     "buck": {
@@ -60242,11 +60360,11 @@
       ],
       "example_clue": "Like the main character in \"The Call of the Wild\", this name evokes strength & an adventurous spirit",
       "keywords": [
-        "names",
-        "animals",
         "literature",
-        "adventure",
-        "character"
+        "jack london",
+        "character",
+        "animals",
+        "names"
       ]
     },
     "jericho": {
@@ -60258,10 +60376,11 @@
       "example_clue": "\"And the seventh day ye shall compass\" this city \"seven times, and the priests shall blow with the trumpets\"",
       "keywords": [
         "bible",
-        "ancient-history",
+        "biblical",
+        "ancient",
         "siege",
         "walls",
-        "archaeology"
+        "religion"
       ]
     },
     "(ed) sullivan": {
@@ -60275,8 +60394,9 @@
         "television",
         "music",
         "beatles",
+        "1960s",
         "entertainment",
-        "history"
+        "american"
       ]
     },
     "a pottery lottery": {
@@ -60288,9 +60408,10 @@
       "example_clue": "A scratcher game where you might win earthenware ceramics",
       "keywords": [
         "lottery",
-        "games",
         "ceramics",
-        "pottery"
+        "gambling",
+        "game",
+        "prizes"
       ]
     },
     "belgium": {
@@ -60301,10 +60422,12 @@
       ],
       "example_clue": "The 3 Battles of Ypres, fought between 1914 & 1917, took place near the city of Ypres in this country",
       "keywords": [
-        "world-war-i",
-        "geography",
-        "battle",
-        "history"
+        "belgium",
+        "world war i",
+        "military",
+        "ypres",
+        "european",
+        "warfare"
       ]
     },
     "chicken": {
@@ -60316,9 +60439,10 @@
       "example_clue": "Animation: Cow & ____ Run",
       "keywords": [
         "animation",
+        "cartoons",
+        "television",
         "animals",
-        "cartoon",
-        "television"
+        "comedy"
       ]
     },
     "daisy": {
@@ -60330,9 +60454,10 @@
       "example_clue": "Give me your answer do -- this name frequently ranks as the most popular floral name for dogs, along with Lily",
       "keywords": [
         "dogs",
-        "pet-names",
         "flowers",
-        "popular-culture"
+        "pet names",
+        "animals",
+        "plants"
       ]
     },
     "noah": {
@@ -60344,9 +60469,11 @@
       "example_clue": "He \"was five hundred years old; and\" he \"begat Shem, Ham and Japheth\"",
       "keywords": [
         "bible",
-        "old-testament",
-        "genesis",
-        "patriarch"
+        "religion",
+        "ancient",
+        "family",
+        "judaism",
+        "biblical"
       ]
     },
     "rear window": {
@@ -60359,8 +60486,8 @@
       "keywords": [
         "film",
         "thriller",
-        "cinema",
         "mystery",
+        "1950s",
         "hitchcock"
       ]
     },
@@ -60373,9 +60500,10 @@
       "example_clue": "An exhaustive history of an ocular device for a single eye",
       "keywords": [
         "history",
+        "monocle",
         "eyewear",
-        "fashion",
-        "biography"
+        "optics",
+        "fashion"
       ]
     },
     "(george) dewey": {
@@ -60387,9 +60515,11 @@
       "example_clue": "On May 1, 1898, this commodore began the Battle of Manila Bay by telling his captain, \"You may fire when you are ready, Gridley\"",
       "keywords": [
         "military",
-        "naval-history",
-        "spanish-american-war",
-        "united-states"
+        "american history",
+        "navy",
+        "1898",
+        "spanish-american war",
+        "philippines"
       ]
     },
     "murder": {
@@ -60400,10 +60530,11 @@
       ],
       "example_clue": "Podcasts: Crime, Conspiracy, Cults & ____ with My Husband",
       "keywords": [
-        "podcasts",
-        "true-crime",
-        "media",
-        "entertainment"
+        "podcast",
+        "true crime",
+        "entertainment",
+        "audio",
+        "mystery"
       ]
     },
     "fifi": {
@@ -60414,11 +60545,11 @@
       ],
       "example_clue": "Derived from French & a pet form of Josephine, this double-talk name has long been popular for French poodles",
       "keywords": [
-        "names",
-        "french-culture",
+        "pet names",
         "dogs",
-        "linguistics",
-        "pet-names"
+        "poodles",
+        "french",
+        "names"
       ]
     },
     "the east of eden": {
@@ -60430,9 +60561,10 @@
       "example_clue": "\"And Cain went out from the presence of the Lord, and dwelt in the land of Nod\", location: this",
       "keywords": [
         "bible",
-        "old-testament",
-        "geography",
-        "ancient-locations"
+        "mythology",
+        "ancient",
+        "literature",
+        "geography"
       ]
     },
     "carvel (cakes)": {
@@ -60443,11 +60575,12 @@
       ],
       "example_clue": "The founder of this brand, known for his ice cream cakes like Fudgie the Whale, is buried with his wife, Agnes",
       "keywords": [
-        "food",
-        "ice-cream",
-        "brands",
+        "ice cream",
         "desserts",
-        "american-business"
+        "food",
+        "brands",
+        "american",
+        "retail"
       ]
     },
     "loyalty royalty": {
@@ -60460,9 +60593,9 @@
       "keywords": [
         "monarchy",
         "feudalism",
+        "loyalty",
         "government",
-        "politics",
-        "medieval"
+        "politics"
       ]
     },
     "flodden field": {
@@ -60473,11 +60606,11 @@
       ],
       "example_clue": "The 1513 battle of this field was the largest ever fought between England & Scotland",
       "keywords": [
-        "military-history",
+        "battle",
+        "history",
         "scotland",
         "england",
-        "battle",
-        "renaissance"
+        "military"
       ]
     },
     "faith": {
@@ -60488,10 +60621,11 @@
       ],
       "example_clue": "Musicians: Paloma ____ Hill",
       "keywords": [
-        "names",
         "music",
-        "musicians",
-        "pop-culture"
+        "pop",
+        "female",
+        "contemporary",
+        "american"
       ]
     },
     "mishka": {
@@ -60502,11 +60636,12 @@
       ],
       "example_clue": "A popular name for Siberian Huskies, it's a diminutive of the Russian equivalent of Michael",
       "keywords": [
-        "names",
         "dogs",
-        "russian-language",
-        "siberian-husky",
-        "pet-names"
+        "pet names",
+        "russian",
+        "huskies",
+        "animals",
+        "slavic"
       ]
     },
     "1 corinthians": {
@@ -60518,10 +60653,10 @@
       "example_clue": "This New Testament book: \"And now abideth faith, hope, charity, these three; but the greatest of these is charity\"",
       "keywords": [
         "bible",
-        "new-testament",
-        "literature",
+        "religion",
         "christianity",
-        "theology"
+        "scripture",
+        "new testament"
       ]
     },
     "cynical pinnacle": {
@@ -60532,10 +60667,11 @@
       ],
       "example_clue": "You've reached this, the utmost point of distrusting the motives of mankind",
       "keywords": [
-        "philosophy",
         "cynicism",
-        "human-nature",
-        "ethics"
+        "human nature",
+        "philosophy",
+        "distrust",
+        "psychology"
       ]
     },
     "curaçao": {
@@ -60547,10 +60683,12 @@
       "example_clue": "This Dutch island in the Caribbean is known for its colorful architecture & its blue namesake liqueur",
       "keywords": [
         "caribbean",
-        "geography",
         "islands",
         "liqueur",
-        "dutch-caribbean"
+        "architecture",
+        "travel",
+        "geography",
+        "dutch"
       ]
     },
     "notorious rbg": {
@@ -60561,11 +60699,12 @@
       ],
       "example_clue": "A 2015 biography of Ruth Bader Ginsburg has this title reminiscent of a rapper's name",
       "keywords": [
-        "law",
-        "supreme-court",
         "biography",
-        "women's-rights",
-        "pop-culture"
+        "law",
+        "supreme court",
+        "feminism",
+        "women",
+        "justice"
       ]
     },
     "cystic fibrosis": {
@@ -60579,8 +60718,9 @@
         "medicine",
         "disease",
         "genetics",
-        "medical-research",
-        "health"
+        "research",
+        "health",
+        "awards"
       ]
     },
     "jolene": {
@@ -60592,10 +60732,11 @@
       "example_clue": "In a spin on a Dolly Parton hit, Beyoncé warns this woman, \"The games you play are nothing new, so you don't want no heat with me\"",
       "keywords": [
         "music",
-        "country-music",
-        "pop-culture",
-        "songs",
-        "hip-hop"
+        "song",
+        "country",
+        "covers",
+        "pop",
+        "women"
       ]
     },
     "nyet": {
@@ -60606,9 +60747,10 @@
       ],
       "example_clue": "Just say \"no\" (4 letters)",
       "keywords": [
-        "russian-language",
+        "russian",
+        "language",
         "vocabulary",
-        "words"
+        "culture"
       ]
     },
     "lesbos": {
@@ -60619,10 +60761,13 @@
       ],
       "example_clue": "Not surprisingly, Sappho Square is in the center of Mytilene, the chief town of this Greek island",
       "keywords": [
-        "geography",
-        "greek-islands",
-        "ancient-greece",
-        "literature"
+        "greece",
+        "islands",
+        "sappho",
+        "poetry",
+        "lesbian",
+        "ancient",
+        "geography"
       ]
     },
     "107 days": {
@@ -60633,10 +60778,13 @@
       ],
       "example_clue": "The title of this 2025 memoir by Kamala Harris refers to how long she had to launch & run her 2024 presidential campaign",
       "keywords": [
+        "politics",
         "memoir",
-        "american-politics",
-        "2024-election",
-        "biography"
+        "biography",
+        "2024",
+        "women",
+        "presidential",
+        "american"
       ]
     },
     "john lewis": {
@@ -60646,12 +60794,7 @@
         400
       ],
       "example_clue": "The Amer. Historical Association gives a prize for history & social justice named for this civil rights leader who died in 2020",
-      "keywords": [
-        "civil-rights",
-        "american-history",
-        "awards",
-        "biography"
-      ]
+      "keywords": []
     },
     "\"stand by your man\"": {
       "display": "\"Stand By Your Man\"",
@@ -60660,13 +60803,7 @@
         400
       ],
       "example_clue": "Tammy Wynette's signature tune, she'd later use it as the title of her autobiography",
-      "keywords": [
-        "music",
-        "country-music",
-        "songs",
-        "autobiography",
-        "women-musicians"
-      ]
+      "keywords": []
     },
     "dacha": {
       "display": "dacha",
@@ -60675,12 +60812,7 @@
         400
       ],
       "example_clue": "A country cottage or summer home (5 letters)",
-      "keywords": [
-        "russian-culture",
-        "russian-language",
-        "vocabulary",
-        "architecture"
-      ]
+      "keywords": []
     },
     "baffin": {
       "display": "Baffin",
@@ -60689,13 +60821,7 @@
         600
       ],
       "example_clue": "Named for a 17th century English navigator, it's Canada's largest island",
-      "keywords": [
-        "geography",
-        "canada",
-        "islands",
-        "arctic",
-        "exploration"
-      ]
+      "keywords": []
     },
     "a beautiful mind": {
       "display": "A Beautiful Mind",
@@ -60704,13 +60830,7 @@
         600
       ],
       "example_clue": "This biography about the rise of math genius John Nash & his struggles with mental illness inspired a film of the same name",
-      "keywords": [
-        "film",
-        "biography",
-        "mathematics",
-        "mental-health",
-        "cinema"
-      ]
+      "keywords": []
     },
     "(alan) shepard": {
       "display": "(Alan) Shepard",
@@ -60720,11 +60840,13 @@
       ],
       "example_clue": "23 days after Yuri Gagarin's flight, this astronaut went 116 miles up on a suborbital flight & came down a national hero",
       "keywords": [
-        "space-exploration",
+        "space",
         "astronaut",
         "nasa",
-        "united-states",
-        "1960s"
+        "1960s",
+        "american",
+        "science",
+        "exploration"
       ]
     },
     "the fields medal": {
@@ -60738,7 +60860,9 @@
         "mathematics",
         "awards",
         "academia",
-        "prize"
+        "science",
+        "education",
+        "international"
       ]
     },
     "five o'clock somewhere": {
@@ -60750,10 +60874,11 @@
       "example_clue": "Alan Jackson orders \"a hurricane before I go insane, it's only half-past twelve but I don't care, it's\" this",
       "keywords": [
         "music",
-        "country-music",
-        "songs",
+        "song",
+        "country",
         "drinking",
-        "pop-culture"
+        "alcohol",
+        "entertainment"
       ]
     },
     "gogol": {
@@ -60764,10 +60889,12 @@
       ],
       "example_clue": "\"Dead Souls\" author (5 letters)",
       "keywords": [
-        "russian-literature",
         "literature",
-        "author",
-        "19th-century"
+        "russian",
+        "authors",
+        "fiction",
+        "19th century",
+        "classics"
       ]
     },
     "kyushu": {
@@ -60778,11 +60905,13 @@
       ],
       "example_clue": "An active volcano, Mount Aso is located on this third-largest of Japan's main islands",
       "keywords": [
-        "geography",
         "japan",
-        "islands",
+        "geography",
         "volcanoes",
-        "geology"
+        "islands",
+        "asia",
+        "mountains",
+        "nature"
       ]
     },
     "carl sandburg": {
@@ -60793,11 +60922,13 @@
       ],
       "example_clue": "This poet & author wrote a 6-volume bio of Abe Lincoln made up of \"The Prairie Years\" & the Pulitzer-winning \"The War Years\"",
       "keywords": [
-        "american-literature",
+        "literature",
         "poetry",
         "biography",
-        "lincoln",
-        "pulitzer-prize"
+        "history",
+        "american",
+        "authors",
+        "lincoln"
       ]
     },
     "apollo 12": {
@@ -60808,11 +60939,14 @@
       ],
       "example_clue": "Pete Conrad, post-liftoff on this last Moon mission of the decade: \"I'm not sure we didn't get hit by lightning\" (but they'd be OK)",
       "keywords": [
-        "space-exploration",
+        "space",
         "nasa",
+        "astronaut",
         "moon",
         "1960s",
-        "astronauts"
+        "history",
+        "science",
+        "exploration"
       ]
     },
     "build a bridge": {
@@ -60824,10 +60958,11 @@
       "example_clue": "Co-written by Naomi, a Judds anthem of unity says, \"Love can\" do this \"between your heart & mine\"",
       "keywords": [
         "music",
-        "country-music",
-        "songs",
-        "the-judds",
-        "unity"
+        "song",
+        "country",
+        "unity",
+        "love",
+        "women"
       ]
     },
     "tovarich": {
@@ -60838,10 +60973,10 @@
       ],
       "example_clue": "Russian comrade (8 letters)",
       "keywords": [
-        "russian language",
-        "communism",
-        "soviet union",
-        "political terminology"
+        "russian",
+        "language",
+        "soviet",
+        "communism"
       ]
     },
     "lewis and harris": {
@@ -60854,9 +60989,9 @@
       "keywords": [
         "scotland",
         "geography",
-        "hebrides",
         "islands",
-        "place names"
+        "toponymy",
+        "british"
       ]
     },
     "ida b. wells": {
@@ -60869,10 +61004,9 @@
       "keywords": [
         "journalism",
         "civil rights",
-        "naacp",
-        "african american history",
-        "memoir",
-        "activism"
+        "african american",
+        "biography",
+        "naacp"
       ]
     },
     "ed white": {
@@ -60884,10 +61018,10 @@
       "example_clue": "Two years after being the first American to space walk , he lost his life with capsule mates Grissom & Chaffee testing Apollo 1",
       "keywords": [
         "space exploration",
-        "nasa",
-        "apollo program",
         "astronauts",
-        "apollo 1"
+        "nasa",
+        "apollo",
+        "space race"
       ]
     },
     "(renzo) piano": {
@@ -60897,7 +61031,13 @@
         1000
       ],
       "example_clue": "The San Nicola Stadium in Bari is among the designs of this Italian-born architect who won the Pritzker Prize way back in 1998",
-      "keywords": []
+      "keywords": [
+        "architecture",
+        "italy",
+        "design",
+        "buildings",
+        "pritzker prize"
+      ]
     },
     "\"i hope you dance\"": {
       "display": "\"I Hope You Dance\"",
@@ -60917,10 +61057,10 @@
       "example_clue": "\"Minority\" party member in opposition to Lenin's faction (9 letters)",
       "keywords": [
         "russian history",
+        "political parties",
         "communism",
-        "lenin",
-        "political factions",
-        "soviet union"
+        "soviet",
+        "lenin"
       ]
     },
     "madison square garden": {
@@ -60931,11 +61071,10 @@
       ],
       "example_clue": "In the early days of college basketball, the National Invitation Tournament held in this legendary New York City venue was a bigger deal than the NCAA Tournament",
       "keywords": [
+        "sports",
         "basketball",
-        "new york city",
-        "sports venues",
-        "tournaments",
-        "venue"
+        "venues",
+        "new york"
       ]
     },
     "spam": {
@@ -60947,10 +61086,9 @@
       "example_clue": "The website for this brand claims Hawaii eats 7 million cans of its products every year",
       "keywords": [
         "food",
+        "canned meat",
         "brands",
-        "meat product",
-        "hawaii",
-        "canned goods"
+        "hawaii"
       ]
     },
     "dorothy": {
@@ -60961,11 +61099,11 @@
       ],
       "example_clue": "\"Oh, dear! Oh, dear!... The house must have fallen on her. Whatever shall we do?\"",
       "keywords": [
-        "wizard of oz",
         "literature",
-        "film",
         "fantasy",
-        "characters"
+        "movies",
+        "characters",
+        "wizard of oz"
       ]
     },
     "lyft": {
@@ -60976,10 +61114,10 @@
       ],
       "example_clue": "In 2015 cars from this ride-sharing app ditched their large pink mustaches",
       "keywords": [
-        "ride-sharing",
         "technology",
+        "apps",
         "transportation",
-        "mobile apps",
+        "ridesharing",
         "startups"
       ]
     },
@@ -60991,11 +61129,11 @@
       ],
       "example_clue": "Perhaps feeling a bit lazy, Sam defined this 4-letter item simply as \"something put between the foot and shoe\"",
       "keywords": [
+        "language",
         "clothing",
-        "footwear",
-        "samuel johnson",
-        "dictionary",
-        "apparel"
+        "definition",
+        "lexicography",
+        "samuel johnson"
       ]
     },
     "gershwin": {
@@ -61006,11 +61144,10 @@
       ],
       "example_clue": "A love triangle turns tragic in \"Blue Monday\", a Harlem-set jazz opera by this man of \"Porgy & Bess\" fame",
       "keywords": [
-        "composers",
         "music",
-        "opera",
         "jazz",
-        "george gershwin"
+        "opera",
+        "composers"
       ]
     },
     "asia": {
@@ -61023,7 +61160,7 @@
       "keywords": [
         "table tennis",
         "sports",
-        "geography",
+        "tournaments",
         "continents"
       ]
     },
@@ -61037,9 +61174,9 @@
       "keywords": [
         "food",
         "brands",
-        "italian",
         "pasta",
-        "canned goods"
+        "italian",
+        "marketing"
       ]
     },
     "aslan": {
@@ -61050,11 +61187,10 @@
       ],
       "example_clue": "\"Those who are good with their noses must come in the front with us lions to smell out where the battle is\"",
       "keywords": [
+        "literature",
+        "fantasy",
         "narnia",
-        "fantasy literature",
-        "cs lewis",
-        "lions",
-        "allegory"
+        "characters"
       ]
     },
     "duolingo": {
@@ -61065,11 +61201,10 @@
       ],
       "example_clue": "In 2025 the green owl mascot from this app \"died\", but on the 13th day, rose again, having apparently faked his own death",
       "keywords": [
-        "language learning",
-        "mobile apps",
-        "education",
         "technology",
-        "mascot"
+        "apps",
+        "language learning",
+        "education"
       ]
     },
     "monsieur": {
@@ -61080,11 +61215,11 @@
       ],
       "example_clue": "We think of it as a courteous title of address; to Sam, it was \"a term of reproach for a Frenchman\"",
       "keywords": [
-        "french language",
+        "language",
+        "french",
+        "definition",
         "samuel johnson",
-        "dictionary",
-        "titles",
-        "language"
+        "titles"
       ]
     },
     "parker": {
@@ -61095,11 +61230,11 @@
       ],
       "example_clue": "\"Yardbird\" is in the title of an opera about this alto saxophonist that includes scenes at Birdland & in Kansas City",
       "keywords": [
+        "music",
         "jazz",
         "saxophone",
-        "opera",
-        "music",
-        "charlie parker"
+        "biography",
+        "musicians"
       ]
     },
     "spaghettios": {
@@ -61113,8 +61248,8 @@
         "food",
         "brands",
         "pasta",
-        "canned goods",
-        "campbell soup"
+        "soup",
+        "marketing"
       ]
     },
     "bella": {
@@ -61125,11 +61260,11 @@
       ],
       "example_clue": "\"Vampires like baseball?\"",
       "keywords": [
-        "twilight",
         "literature",
-        "film",
+        "fantasy",
+        "romance",
         "vampires",
-        "young adult fiction"
+        "young adult"
       ]
     },
     "letterboxd": {
@@ -61140,11 +61275,11 @@
       ],
       "example_clue": "Catalogue & review films you've seen on this app founded in 2011; it's been called Goodreads for movies",
       "keywords": [
-        "film",
-        "mobile apps",
         "technology",
-        "reviews",
-        "social media"
+        "apps",
+        "movies",
+        "social networks",
+        "entertainment"
       ]
     },
     "a pension": {
@@ -61155,11 +61290,11 @@
       ],
       "example_clue": "To us, it's a stipend paid to a retiree; to Sam, it was \"pay given to a state hireling for treason to his country\"",
       "keywords": [
+        "language",
+        "definition",
         "samuel johnson",
-        "dictionary",
-        "government",
-        "retirement",
-        "economics"
+        "money",
+        "occupations"
       ]
     },
     "brooks": {
@@ -61170,11 +61305,10 @@
       ],
       "example_clue": "A so-called \"Hepcat Opera\" about Archy & Mehitabel, 1957's \"Shinbone Alley\" was co-written by this man known for \"Blazing Saddles\"",
       "keywords": [
+        "movies",
         "comedy",
-        "film",
-        "theater",
-        "directors",
-        "mel brooks"
+        "directing",
+        "screenwriting"
       ]
     },
     "darts": {
@@ -61185,11 +61319,10 @@
       ],
       "example_clue": "At the Bullshooter Invitational Shootout in this sport, elite competitors diddle to see who goes first in 501",
       "keywords": [
-        "darts",
         "sports",
         "games",
-        "pub sports",
-        "competitions"
+        "competitions",
+        "bar games"
       ]
     },
     "goya": {
@@ -61202,9 +61335,9 @@
       "keywords": [
         "food",
         "brands",
-        "spanish",
         "canned goods",
-        "puerto rican cuisine"
+        "spanish language",
+        "marketing"
       ]
     },
     "yossarian": {
@@ -61216,10 +61349,10 @@
       "example_clue": "\"Then why don't you ground me? I'm crazy. Ask Clevinger... ask any of the others. They'll tell you how crazy I am\"",
       "keywords": [
         "literature",
-        "catch-22",
-        "joseph heller",
-        "military fiction",
-        "satire"
+        "fiction",
+        "war",
+        "satire",
+        "military"
       ]
     },
     "kalshi": {
@@ -61230,11 +61363,11 @@
       ],
       "example_clue": "It makes sense that the name of this app means \"everything\" in Arabic since you can gamble on just about everything on it",
       "keywords": [
-        "betting",
-        "mobile apps",
+        "technology",
+        "finance",
         "gambling",
-        "prediction markets",
-        "technology"
+        "apps",
+        "markets"
       ]
     },
     "a diver": {
@@ -61245,11 +61378,10 @@
       ],
       "example_clue": "Definitely not what it sounds like! A urinator is one of these \"who searches under water\", perhaps for pearls",
       "keywords": [
-        "diving",
-        "pearls",
-        "maritime",
+        "language",
+        "etymology",
         "occupations",
-        "history"
+        "pearl diving"
       ]
     },
     "agamemnon": {
@@ -61263,8 +61395,7 @@
         "greek mythology",
         "opera",
         "music",
-        "classical",
-        "iliad"
+        "characters"
       ]
     },
     "(arnold) palmer": {
@@ -61274,7 +61405,12 @@
         1000
       ],
       "example_clue": "The golf invitational named for him awards a red cardigan sweater like the one he wore when charging with his army",
-      "keywords": []
+      "keywords": [
+        "sports",
+        "golf",
+        "tournaments",
+        "tradition"
+      ]
     },
     "dole": {
       "display": "Dole",
@@ -61286,9 +61422,9 @@
       "keywords": [
         "food",
         "brands",
-        "pineapple",
         "agriculture",
-        "business"
+        "pineapple",
+        "hawaii"
       ]
     },
     "elinor dashwood": {
@@ -61299,10 +61435,11 @@
       ],
       "example_clue": "\"Is Mr. Edward Ferrars... going to be married?\"",
       "keywords": [
-        "jane austen",
         "literature",
+        "jane austen",
+        "characters",
         "romance",
-        "sense and sensibility"
+        "fiction"
       ]
     },
     "grok": {
@@ -61313,10 +61450,11 @@
       ],
       "example_clue": "Merriam-Webster notes that the name of this app from xAI \"may be the only English word that derives from Martian\"",
       "keywords": [
-        "artificial intelligence",
-        "mobile apps",
         "technology",
-        "science fiction"
+        "ai",
+        "apps",
+        "language",
+        "etymology"
       ]
     },
     "lexicographer": {
@@ -61327,11 +61465,11 @@
       ],
       "example_clue": "Self-effacing Sam defined this, his occupation at the time, as \"a harmless drudge, that busies himself in tracing\" words",
       "keywords": [
-        "dictionary",
-        "samuel johnson",
         "language",
+        "lexicography",
         "occupations",
-        "words"
+        "literature",
+        "dictionaries"
       ]
     },
     "madam c.j. walker": {
@@ -61342,10 +61480,10 @@
       ],
       "example_clue": "Duke Ellington's unfinished \"Queenie Pie\" opera about a beautician was inspired by this real-life hair care millionaire \"Madam\"",
       "keywords": [
-        "hair care",
         "business",
-        "african american history",
-        "beauty industry",
+        "beauty",
+        "hair care",
+        "african american",
         "entrepreneurs"
       ]
     },
@@ -61358,10 +61496,10 @@
       "example_clue": "In the 600s B.C. the Assyrian King Ashurbanipal built one of these that housed more than 30,000 clay tablets",
       "keywords": [
         "history",
-        "ancient assyria",
-        "books",
-        "knowledge",
-        "cuneiform"
+        "ancient",
+        "assyria",
+        "archaeology",
+        "libraries"
       ]
     },
     "an essay contest": {
@@ -61372,11 +61510,11 @@
       ],
       "example_clue": "Guinness has run these contests with your own pub in Ireland as the prize; the entry must begin, \"The perfect pint...\"",
       "keywords": [
-        "beer",
-        "ireland",
+        "marketing",
         "contests",
-        "writing",
-        "marketing"
+        "ireland",
+        "beverages",
+        "guinness"
       ]
     },
     "lionel richie": {
@@ -61388,10 +61526,10 @@
       "example_clue": "When influencer & model Sofia Richie married Elliot Grainge in 2023, this man, her dad, was under the chuppah with her",
       "keywords": [
         "music",
-        "singers",
-        "entertainment",
-        "pop music",
-        "celebrity"
+        "musicians",
+        "biography",
+        "celebrity",
+        "family"
       ]
     },
     "goodall": {
@@ -61402,11 +61540,11 @@
       ],
       "example_clue": "This primatologist left the Earth with a message of hope on an episode of \"Famous Last Words\" recorded in March 2025",
       "keywords": [
-        "primatology",
         "science",
+        "primatology",
         "animals",
         "conservation",
-        "jane goodall"
+        "biography"
       ]
     },
     "outgo": {
@@ -61419,6 +61557,7 @@
       "keywords": [
         "finance",
         "accounting",
+        "budgeting",
         "economics"
       ]
     },
@@ -61430,9 +61569,10 @@
       ],
       "example_clue": "In Rome you'd be 2 days late for an appointment if you forgot that this fell on the 15th in March but on the 13th in April",
       "keywords": [
-        "ancient rome",
+        "roman history",
         "calendar",
-        "history"
+        "ancient rome",
+        "dates"
       ]
     },
     "minnesota": {
@@ -61443,9 +61583,10 @@
       ],
       "example_clue": "Andrew Prekker said the North Star was his focus in designing the winning contest entry that's now this state's flag",
       "keywords": [
-        "united states",
-        "geography",
-        "flags"
+        "state symbols",
+        "flags",
+        "heraldry",
+        "us geography"
       ]
     },
     "lawrence": {
@@ -61457,11 +61598,10 @@
       "example_clue": "Founded in 1854 to keep the area free from slavery, this city is now home to the University of Kansas",
       "keywords": [
         "kansas",
-        "united states",
-        "cities",
-        "history",
+        "us cities",
         "education",
-        "slavery"
+        "american history",
+        "abolition"
       ]
     },
     "amanda peet": {
@@ -61472,10 +61612,10 @@
       ],
       "example_clue": "Also a writer herself, this actress married \"Game of Thrones\" co-creator David Benioff in a Jewish ceremony",
       "keywords": [
-        "actress",
-        "writer",
+        "actresses",
         "television",
-        "marriage",
+        "entertainment",
+        "writers",
         "jewish culture"
       ]
     },
@@ -61490,7 +61630,9 @@
         "genetics",
         "biology",
         "science",
-        "history"
+        "heredity",
+        "dna",
+        "czechoslovakia"
       ]
     },
     "eyesore": {
@@ -61501,8 +61643,11 @@
       ],
       "example_clue": "Unfinished after 20 years, an office building in Seminole County, Florida became known as the \"I-4\" this unlovely sight",
       "keywords": [
+        "architecture",
         "florida",
-        "architecture"
+        "construction",
+        "highways",
+        "real estate"
       ]
     },
     "the potato": {
@@ -61513,10 +61658,13 @@
       ],
       "example_clue": "Ancient Peruvians ate a wild & toxic version of this plant, Solanum tuberosum; eating with clay likely absorbed toxins",
       "keywords": [
+        "botany",
+        "plants",
         "agriculture",
-        "history",
+        "peru",
+        "ancient history",
         "food",
-        "peru"
+        "ethnobotany"
       ]
     },
     "cornhusking": {
@@ -61528,8 +61676,11 @@
       "example_clue": "Think of Nebraska's nickname to know this type of contest held in Grand Island in 2025; in the '30s, NBC used to cover similar events",
       "keywords": [
         "nebraska",
+        "agriculture",
+        "corn",
         "contests",
-        "agriculture"
+        "farming",
+        "traditions"
       ]
     },
     "dearborn": {
@@ -61541,9 +61692,9 @@
       "example_clue": "This Michigan city is home to Henry Ford College",
       "keywords": [
         "michigan",
-        "united states",
-        "cities",
-        "education"
+        "us cities",
+        "education",
+        "colleges"
       ]
     },
     "beverly hills": {
@@ -61555,10 +61706,9 @@
       "example_clue": "The lavish bat mitzvah of Portia Umansky, daughter of \"Real Housewives of\" this place star Kyle Richards, was held in... Encino?",
       "keywords": [
         "california",
-        "united states",
-        "cities",
-        "television",
+        "celebrity",
         "entertainment",
+        "television",
         "jewish culture"
       ]
     },
@@ -61571,8 +61721,10 @@
       "example_clue": "Astronomer Jill Tarter was the inspiration for Dr. Ellie Arroway in this novel by Carl Sagan",
       "keywords": [
         "science fiction",
+        "novels",
         "astronomy",
-        "literature"
+        "literature",
+        "seti"
       ]
     },
     "the abscissa": {
@@ -61584,7 +61736,9 @@
       "example_clue": "It's the horizontal or x-coordinate of a point of the Cartesian coordinate system",
       "keywords": [
         "mathematics",
-        "geometry"
+        "geometry",
+        "coordinates",
+        "algebra"
       ]
     },
     "draco": {
@@ -61596,8 +61750,10 @@
       "example_clue": "Under this 600s B.C. Athenian lawgiver, there were many capital crimes -- stole an apple? Believe it or not, straight to death",
       "keywords": [
         "ancient greece",
-        "history",
-        "law"
+        "law",
+        "athens",
+        "classical history",
+        "justice"
       ]
     },
     "rube goldberg": {
@@ -61609,8 +61765,10 @@
       "example_clue": "Create a device that does a simple task in a silly way & you can win the contest named for this man whose dad wanted him to be an engineer",
       "keywords": [
         "engineering",
-        "inventions",
-        "contests"
+        "inventors",
+        "machines",
+        "contests",
+        "humor"
       ]
     },
     "gulfport": {
@@ -61622,8 +61780,9 @@
       "example_clue": "After Jackson, this city well to the southeast is Mississippi's largest",
       "keywords": [
         "mississippi",
-        "united states",
-        "cities"
+        "us cities",
+        "us geography",
+        "gulf coast"
       ]
     },
     "leonard cohen": {
@@ -61635,9 +61794,11 @@
       "example_clue": "A bit ironically, he sang, \"I was born with the gift of a golden voice\" & showed it at his 1947 bar mitzvah in Montreal",
       "keywords": [
         "music",
-        "canada",
+        "singers",
+        "songwriters",
         "jewish culture",
-        "singers"
+        "poetry",
+        "montreal"
       ]
     },
     "novo nordisk": {
@@ -61648,10 +61809,10 @@
       ],
       "example_clue": "1920 Nobel Prize winner August Krogh was a founder of what's now this Danish company that manufactures Ozempic",
       "keywords": [
-        "pharmaceutical",
-        "business",
+        "pharmaceuticals",
         "denmark",
-        "medicine"
+        "medicine",
+        "companies"
       ]
     },
     "anathema": {
@@ -61664,7 +61825,9 @@
       "keywords": [
         "religion",
         "language",
-        "history"
+        "latin",
+        "theology",
+        "vocabulary"
       ]
     },
     "mohenjo-daro": {
@@ -61675,9 +61838,10 @@
       ],
       "example_clue": "One of the main centers of the Indus civilization along with Harappa, its hyphenated name is said to mean \"mound of the dead\"",
       "keywords": [
+        "indus civilization",
         "archaeology",
         "ancient history",
-        "india",
+        "cities",
         "pakistan"
       ]
     },
@@ -61688,12 +61852,7 @@
         1000
       ],
       "example_clue": "The 1958 Eurovision song contest popularized Italy's 3rd place finisher, \"Nel blu dipinto di blu\", also known by this one-word title",
-      "keywords": [
-        "music",
-        "italy",
-        "eurovision",
-        "italian language"
-      ]
+      "keywords": []
     },
     "muskogee": {
       "display": "Muskogee",
@@ -61704,9 +61863,9 @@
       "example_clue": "This city near Tulsa was once the headquarters of the 5 Civilized Tribes",
       "keywords": [
         "oklahoma",
-        "united states",
-        "cities",
-        "native american"
+        "us cities",
+        "native american history",
+        "five civilized tribes"
       ]
     },
     "christina aguilera": {
@@ -61717,8 +61876,8 @@
       ],
       "example_clue": "We'd guess that in 2008 this \"Beautiful\" singer & new mom was crying at the bris of Max Bratman",
       "keywords": [
-        "music",
         "singers",
+        "pop music",
         "entertainment",
         "jewish culture"
       ]
@@ -61732,8 +61891,11 @@
       "example_clue": "Though its name is a word meaning \"huge\", this Nile River island of ancient temples is less than a mile long",
       "keywords": [
         "egypt",
+        "nile river",
+        "ancient history",
         "archaeology",
-        "ancient history"
+        "temples",
+        "geography"
       ]
     }
   }

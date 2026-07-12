@@ -9,12 +9,65 @@
 // Reads active questions via the service-role key (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY,
 // from .env.local locally or repo secrets in CI). Read-only.
 
+import { execFileSync } from 'node:child_process';
 import {
   loadDefaultEnv,
   getSupabaseAdminConfig,
   createSupabaseRequest,
   fetchAllSupabaseRows,
 } from './acquisition-utils.mjs';
+
+// Answers already proposed in OPEN, unmerged draft-clues PRs for this category. They
+// aren't active in the bank yet, so the active-answer dump (and the import gate) can't
+// see them — but re-drafting one still produces a duplicate that collides the moment the
+// sibling PR merges (the race that shipped a near-duplicate sports pack on 2026-07-09).
+// Surfaced here so the drafter treats in-flight answers as taken too. Best-effort: if `gh`
+// is unavailable it returns nothing rather than failing the (Supabase-only) coverage dump.
+function openPrAnswers(categoryId) {
+  const REPO = process.env.HARVEST_REPO || 'gabe3kahn/trivia_trainer';
+  const gh = (a) => execFileSync('gh', a, { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+  const norm = (s) => String(s ?? '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const out = [];
+  let prs;
+  try {
+    prs = JSON.parse(gh(['pr', 'list', '--repo', REPO, '--state', 'open', '--json', 'number,headRefName', '--limit', '50']))
+      .filter((p) => /^draft-clues\//.test(p.headRefName));
+  } catch {
+    return out; // gh missing/unauth (e.g. offline local run) — skip silently
+  }
+  for (const pr of prs) {
+    let changed;
+    try {
+      // Paginated — `gh pr view --json files` caps at 100 files, and a daily draft PR
+      // (pack + ~50 harvested docs + pool) routinely exceeds that, dropping the pack itself.
+      changed = gh(['api', `repos/${REPO}/pulls/${pr.number}/files`, '--paginate', '--jq', '.[].filename']).split('\n').filter(Boolean);
+    } catch {
+      continue;
+    }
+    for (const p of changed.filter((x) => /^data\/sourcing\/packs\/drafts\/.*\.json$/.test(x))) {
+      let txt;
+      try {
+        txt = Buffer.from(gh(['api', `repos/${REPO}/contents/${p}?ref=${pr.headRefName}`, '--jq', '.content']), 'base64').toString('utf8');
+      } catch {
+        continue;
+      }
+      let qs;
+      try {
+        qs = JSON.parse(txt).questions || [];
+      } catch {
+        continue;
+      }
+      for (const q of qs) if (q.category_id === categoryId && q.answer) out.push({ answer: q.answer, pr: pr.number });
+    }
+  }
+  const seen = new Set();
+  return out.filter((o) => {
+    const k = `${norm(o.answer)}#${o.pr}`;
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+}
 
 const args = process.argv.slice(2);
 const ci = args.indexOf('--category');
@@ -106,6 +159,14 @@ if (!only) {
     for (const r of bySub[s].sort((a, b) => (a.value || 0) - (b.value || 0))) {
       console.log(`    $${r.value} r${r.difficulty_rank}  ${r.answer}`);
     }
+  }
+  const inflight = openPrAnswers(only);
+  if (inflight.length) {
+    const byPr = {};
+    for (const o of inflight) (byPr[o.pr] ??= []).push(o.answer);
+    console.log('\n⚠ ALSO PROPOSED IN OPEN DRAFT PRs — not active yet, but treat as TAKEN');
+    console.log('  (re-drafting one collides the moment that PR merges):');
+    for (const pr of Object.keys(byPr)) console.log(`    #${pr}: ${byPr[pr].sort().join(', ')}`);
   }
   console.log('\nGaps = subcategories/topics thin or missing above. Fetch FRESH docs for those, ~1 distinct source per clue.');
 }

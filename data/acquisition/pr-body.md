@@ -1,114 +1,112 @@
-## 2026-07-08 Daily Draft
+## Draft summary — 2026-07-06
 
-Three packs authored, verified, and dry-run clean. No live imports.
+Three packs drafted, all passed dry-run gate (40/40 clues, 0 bank collisions).
 
 ---
 
-### Pack 1 — `music_performing_arts` (15 clues)
+### History (15 clues)
 
-**Tier balance:** 3×$200 · 4×$400 · 3×$600 · 3×$800 · 2×$1000  
-**Subcategory coverage:** Popular Music (10), Classical Composers (2), Music Theory & Terms (1), Opera (1), Broadway & Musicals (1)  
-**Verification:** 15/15 verified · dry-run OK (keep=11, rewrite=4)
+Targets the $1000-underweight tier. Fills Historical Figures, World Wars, European History, Ancient History, U.S. History, and Empires gaps.
 
 | Value | Answer | Subcategory |
 |-------|--------|-------------|
-| $200 | Andrew Lloyd Webber | Broadway & Musicals |
-| $200 | Mariah Carey | Popular Music |
-| $200 | Bruce Springsteen | Popular Music |
-| $400 | George Gershwin | Classical Composers |
-| $400 | The Cars | Popular Music |
-| $400 | TLC | Popular Music |
-| $400 | Dua Lipa | Popular Music |
-| $600 | Claude Debussy | Classical Composers |
-| $600 | Fugue | Music Theory & Terms |
-| $600 | CBGB | Popular Music |
-| $800 | Pelléas et Mélisande | Opera |
-| $800 | New Kids on the Block | Popular Music |
-| $800 | LL Cool J | Popular Music |
-| $1000 | Jay-Z | Popular Music |
-| $1000 | Fairytale of New York | Popular Music |
+| $200 | Underground Railroad | U.S. History |
+| $400 | Franz Ferdinand | World Wars |
+| $400 | John Glenn | Historical Figures |
+| $400 | Louis XIV | European History |
+| $600 | Hannibal | Ancient History |
+| $600 | Malcolm X | Historical Figures |
+| $600 | Dwight D. Eisenhower | Historical Figures |
+| $600 | Earl of Sandwich | Historical Figures |
+| $800 | Memphis Belle | World Wars |
+| $800 | Holodomor | European History |
+| $800 | Edict of Nantes | European History |
+| $800 | Munich | European History |
+| $1000 | Siege of Leningrad | World Wars |
+| $1000 | Fabian Strategy | Ancient History |
+| $1000 | Kievan Rus' | European History |
 
-**Collision resolved:** Tyler, the Creator blocked (active in pop_culture_media as pcm-2026-07-02-009) → replaced with New Kids on the Block.
+**Difficulty calibration note:** Dry-run flagged 1 clue for $800→$600 recalibration and 4 for rewrite; critic pass will address.
 
 ---
 
-### Pack 2 — `words_language` (15 clues)
+### Literature & Books (15 clues)
 
-**Tier balance:** 3×$200 · 4×$400 · 3×$600 · 3×$800 · 2×$1000  
-**Subcategory coverage:** Definitions (10), Etymology (3), Foreign Words & Phrases (2)  
-**Verification:** 12/15 verified · 2 unverified (URL-fetch failures for Raison d'être, Escalate — content is sourced) · 1 weak (Lechazo) · dry-run OK (keep=13, rewrite=2)
+Targets the $1000-underweight tier. Fills American Literature, British & Irish, World Literature, Children's, Awards/Terms, and Authors & Works gaps.
 
 | Value | Answer | Subcategory |
 |-------|--------|-------------|
-| $200 | Hashtag | Definitions |
-| $200 | Waif | Definitions |
-| $200 | Raison d'être | Foreign Words & Phrases |
-| $400 | Gerund | Definitions |
-| $400 | Pluperfect | Definitions |
-| $400 | Escalate | Etymology |
-| $400 | Taboo | Definitions |
-| $600 | Nomenclature | Definitions |
-| $600 | Proscription | Etymology |
-| $600 | Mutton | Definitions |
-| $800 | Urdu | Definitions |
-| $800 | Philtrum | Etymology |
-| $800 | Onomastics | Definitions |
-| $1000 | Plusquamperfect | Definitions |
-| $1000 | Lechazo | Foreign Words & Phrases |
+| $200 | Peter Rabbit | Children's & Young Adult Literature |
+| $400 | The Catcher in the Rye | American Literature |
+| $400 | Stephen King | American Literature |
+| $400 | The Wind in the Willows | British & Irish Literature |
+| $400 | Animal Farm | British & Irish Literature |
+| $600 | James Fenimore Cooper | American Literature |
+| $600 | Edith Wharton | American Literature |
+| $600 | Watership Down | British & Irish Literature |
+| $600 | Soliloquy | Awards, Movements & Terms |
+| $600 | Albert Camus | World Literature |
+| $800 | Joan Didion | American Literature |
+| $800 | The Velveteen Rabbit | Children's & Young Adult Literature |
+| $1000 | Baron Munchausen | World Literature |
+| $1000 | The Amazing Adventures of Kavalier & Clay | American Literature |
+| $1000 | Absalom, Absalom! | American Literature |
 
-**Collisions resolved:** Guillotine blocked (active in history as hist-2026-06-19-003) → replaced with Waif. Sodium blocked (active in science as sci-draft-2026-06-20-002) → replaced with Philtrum.
-
----
-
-### Pack 3 — `wordplay` (10 clues)
-
-**Mechanics:** Anagram (5) + Rhyme Time (5)  
-**Validation:** 10/10 valid · dry-run OK (keep=10, rewrite=0)
-
-| Mechanic | Value | Answer | Detail |
-|----------|-------|--------|--------|
-| anagram | $200 | Aster | scramble: stare |
-| anagram | $400 | Trace | scramble: crate |
-| anagram | $600 | Mates | scramble: steam |
-| anagram | $800 | Smile | scramble: limes |
-| anagram | $1000 | Petal | scramble: leapt |
-| rhyme_time | $200 | Fair Share | fair/share |
-| rhyme_time | $200 | Wild Child | wild/child |
-| rhyme_time | $400 | Green Screen | green/screen |
-| rhyme_time | $400 | Hot Pot | hot/pot |
-| rhyme_time | $600 | Whale Trail | whale/trail |
-
-**Collision resolved:** Melon blocked (alias of active Melons in wp-draft-2026-06-17-005) → replaced with Trace (crate→Trace).
+**Dry-run quality gate:** keep=13, rewrite=2; critic pass will address rewrites.
 
 ---
 
----
+### Wordplay (10 clues)
 
-### Editorial critic — revise pass applied
+Mechanics rotation: **anagram** (5) + **crossword** (5). Last anagram run: 2026-06-28; last crossword run: 2026-06-27.
 
-**5 revises in music pack, 3 revises in wordplay pack. No drops. No overrides.**
-
-| ID | Answer | Change |
-|----|--------|--------|
-| music-2026-07-08-001 | Andrew Lloyd Webber | Removed "Cats" from clue (shared entity with active bank clue music-2026-06-29-008 "Mr. Mistoffelees"); replaced with "Jesus Christ Superstar" and retained the EGOT hook |
-| music-2026-07-08-008 | Claude Debussy | Rewrote to pivot to "Clair de lune" / "La mer" — drops the 1902/Pelléas/Symbolism entities shared with clue 011 |
-| music-2026-07-08-009 | Fugue | Dropped etymology opener ("Derived from the Latin for 'flight'") — root-leak fix; applied suggested structural description |
-| music-2026-07-08-011 | Pelléas et Mélisande | Rewrote to use Maeterlinck source + plot description instead of naming Debussy or mirroring clue 008's biographical moment |
-| music-2026-07-08-013 | LL Cool J | Removed stage-name expansion ("Ladies Love Cool James") that leaked "Cool"; applied suggested clue with Def Jam / Kennedy Center / Hall of Fame / song-title hooks |
-| wordplay-2026-07-08-ana-01 | Aster | Removed "star pattern" (root-leak on Greek aster); applied suggested clue preserving "stare" scramble |
-| wordplay-2026-07-08-ana-04 | Smile | Fixed non-idiomatic "rises to the lips" → "plays across the lips" |
-| wordplay-2026-07-08-rt-05 | Whale Trail | Removed "cetacean" (shares ketos/cetus root with WHALE); applied suggested clue |
-
-**Gates after revise pass:** wordplay validation ✓ · source verification 15/15 · music dry-run OK (keep=10, rewrite=5) · wordplay dry-run OK (keep=10, rewrite=0)
+| Value | Mechanic | Answer | Scramble/Pattern |
+|-------|----------|--------|-----------------|
+| $400 | anagram | Prose | ropes |
+| $400 | anagram | Spine | snipe |
+| $600 | anagram | Pleat | leapt |
+| $600 | anagram | Pirates | traipse |
+| $800 | anagram | Tides | edits |
+| $400 | crossword | BYTE | `_ Y _ _` |
+| $400 | crossword | HERON | `_ _ _ _ N` |
+| $600 | crossword | WHARF | `_ _ _ R _` |
+| $600 | crossword | WALTZ | `_ _ _ T _` |
+| $800 | crossword | SMOCK | `_ _ _ _ K` |
 
 ---
 
-### Checklist
+## Editorial critic — revise pass applied
 
-- [x] Exactly 2 sourced categories + 1 wordplay pack
-- [x] No live Supabase import (dry-run only)
-- [x] All answers fresh against active bank and in-flight PRs
-- [x] Wordplay mechanics: anagram + rhyme_time (least-recently-used pairing)
-- [x] Branch pushed: `draft-clues/daily-2026-07-08`
-- [x] Editorial critic feedback applied (revise pass)
-- [ ] PR to be opened by automated step
+**9 clues revised, 0 dropped, 6 critique verdicts overridden.**
+
+### Fixes applied (9)
+
+| Pack | ID | Issue | Fix |
+|------|----|-------|-----|
+| history | 006 Malcolm X | **leak** — clue named "the letter 'X'", exposing the answer's surname | Rewrote: replaced "the letter 'X'" with "a symbol of his unknown African ancestral name"; added birth surname 'Little' |
+| history | 011 Edict of Nantes | **factual** — "waves of forced conversion" contradicts the source (singular dragonnades) | Applied suggested fix: "a wave of dragonnades and forced conversion" |
+| history | 013 Siege of Leningrad | **leak** — "siege" appeared verbatim in answer and clue body | Applied suggested fix: "blockade" + "deadliest military encirclement" |
+| history | 014 Fabian Strategy | **leak** — "Quintus Fabius Maximus" exposes the "Fabian" stem | Applied suggested fix: "Named after a Roman dictator nicknamed 'the Delayer'" |
+| literature | 003 Stephen King | **alias** — bare "King" is ambiguous (MLK, BB King, etc.) | Dropped "King" from aliases |
+| literature | 011 Joan Didion | **factual** — source says "the earliest," clue diluted to "one of the earliest" | Applied suggested fix: restored superlative, reordered "later" |
+| literature | 012 The Velveteen Rabbit | **wording** — "serialized" implies multiple installments; source says single publication | Applied suggested fix: "had first appeared in Harper's Bazaar" |
+| wordplay | ana-05 Tides | **wording** — "retreating the sea" is grammatically malformed (intransitive verb) | Applied suggested fix: "drawing the sea back" |
+| wordplay | cw-03 WHARF | **related** — "Landing place where ships are loaded and unloaded" shared dock/harbor/cargo entities with two active bank clues | Rewrote definition: "Raised platform built along a waterway where vessels moor to load or discharge" |
+
+### Critic verdicts overridden (6)
+
+| ID | Verdict | Override reason |
+|----|---------|----------------|
+| history-004 Louis XIV | related (→ Edict of Nantes 011) | Different answers and different facts: 004 covers the Sun King's 72-year reign at Versailles; 011 covers the 1685 revocation of a document. Shared entity is just the historical era. |
+| history-005 Hannibal | related (→ Fabian Strategy 014) | Different answers (a general vs. a military doctrine); tests distinct knowledge — the commander who crossed the Alps vs. the war-of-attrition response his Roman opponents used against him. |
+| history-008 Earl of Sandwich | related (→ bank "Sandwich" words_language) | Different answers and different categories (historical person vs. word etymology); the person's role differs from the food word's origin story. |
+| history-009 Memphis Belle | related (→ bank "Warsaw Uprising") | Only shared entities are the broad time period (1944, WWII); topics are completely unrelated — a specific B-17 aircraft vs. a Polish resistance uprising. |
+| history-012 Munich | related (→ bank "Oktoberfest") | Only shared entities are the city's geographic identity (Bavaria, Germany, Munich); topics are completely unrelated — Nazi Party origins vs. a beer festival. |
+| literature-005 Animal Farm | related (→ bank "Orwellian" + "George Orwell") | Different answers (book vs. derived adjective vs. author); tests distinct knowledge of the book's specific plot, not the adjective's meaning or the author's biography. |
+
+### Gate results after edits
+
+- `validate-wordplay.mjs` — ✓ 10/10 valid
+- `import-to-supabase.mjs --dry-run` (history) — ✓ 15/15 pass, 0 bank collisions
+- `import-to-supabase.mjs --dry-run` (literature) — ✓ 15/15 pass, 0 bank collisions
+- `import-to-supabase.mjs --dry-run` (wordplay) — ✓ 10/10 pass, 0 bank collisions

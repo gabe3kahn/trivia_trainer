@@ -1,0 +1,653 @@
+{
+  "pack_id": "arts-vc-draft-2026-07-06",
+  "category_id": "arts_visual_culture",
+  "created_at": "2026-07-06T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mosaic",
+      "external_id": "arts-vc-2026-07-06-001",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This ancient decorative technique assembles images and patterns from small pieces of colored stone, glass, or ceramic set in plaster; it was especially popular in the Roman world as flooring and wall decoration.",
+      "answer": "Mosaic",
+      "answer_type": "other",
+      "aliases": [
+        "Mosaics"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "art-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mosaic",
+          "url": "https://en.wikipedia.org/wiki/Mosaic",
+          "snippet": "A mosaic is a pattern or image made of small regular or irregular pieces of colored stone, glass or ceramic, held in place by plaster/mortar, and covering a surface. Mosaics are often used as floor and wall decoration, and were particularly"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:15.891Z",
+      "topic_entities": [
+        "ancient rome",
+        "byzantine",
+        "ceramic",
+        "glass",
+        "plaster",
+        "ravenna",
+        "roman empire",
+        "stone"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Museo_del_Prado",
+      "external_id": "arts-vc-2026-07-06-002",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Among the world's most visited art institutions, this neoclassical building inaugurated in 1819 holds one of Europe's richest collections of paintings from the 12th through the 19th century.",
+      "answer": "Museo del Prado",
+      "answer_type": "other",
+      "aliases": [
+        "Prado",
+        "Prado Museum",
+        "The Prado"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "museums"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Museo del Prado",
+          "url": "https://en.wikipedia.org/wiki/Museo_del_Prado",
+          "snippet": "The Museo del Prado, officially known as Museo Nacional del Prado, is the main Spanish national art museum, located in central Madrid. It houses collections of European art, dating from the 12th century to the early 20th century, based on t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:16.347Z",
+      "topic_entities": [
+        "1819",
+        "goya",
+        "madrid",
+        "museo del prado",
+        "neoclassical",
+        "spain",
+        "velazquez"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+      "external_id": "arts-vc-2026-07-06-003",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Commissioned by King Ludwig II of Bavaria and holding the Guinness record as the world's tallest castle at 65 metres, this 19th-century palace crowns a rugged Alpine hilltop in the German state of Bavaria near the Austrian border.",
+      "answer": "Neuschwanstein",
+      "answer_type": "other",
+      "aliases": [
+        "Neuschwanstein Castle",
+        "Schloss Neuschwanstein"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Neuschwanstein Castle",
+          "url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+          "snippet": "Neuschwanstein Castle is a 19th-century historicist palace on a rugged hill of the foothills of the Alps in the very south of Germany, near the border with Austria. It is located in the Swabia region of Bavaria, in the municipality of Schwa"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:16.745Z",
+      "topic_entities": [
+        "1869",
+        "alpine",
+        "bavaria",
+        "germany",
+        "historicist",
+        "ludwig ii",
+        "neuschwanstein"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Haystacks_(Monet_series)",
+      "external_id": "arts-vc-2026-07-06-004",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name the artist.",
+      "answer": "Claude Monet",
+      "answer_type": "name",
+      "aliases": [
+        "Monet"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Haystacks (Monet series)",
+          "url": "https://en.wikipedia.org/wiki/Haystacks_(Monet_series)",
+          "snippet": "Haystacks is the common English title for a series of impressionist paintings by Claude Monet. The principal subject of each painting in the series is stacks of harvested wheat. The title refers primarily to a twenty-five canvas series whic"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "Haystacks (Stacks of Wheat) — Claude Monet",
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:17.753Z",
+      "topic_entities": [
+        "1840-1926",
+        "claude monet",
+        "france",
+        "giverny",
+        "haystacks",
+        "impressionism",
+        "japanese bridge",
+        "water lilies"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mary_Cassatt",
+      "external_id": "arts-vc-2026-07-06-005",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The only American painter who exhibited regularly with the French Impressionists, this Pennsylvania-born artist befriended Edgar Degas in Paris and became celebrated for tender depictions of women and the intimate bonds between mothers and children.",
+      "answer": "Mary Cassatt",
+      "answer_type": "name",
+      "aliases": [
+        "Cassatt"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mary Cassatt",
+          "url": "https://en.wikipedia.org/wiki/Mary_Cassatt",
+          "snippet": "Mary Stevenson Cassatt was an American painter and printmaker. She was born in Allegheny, Pennsylvania, but lived most of her adult life in France, where she befriended Edgar Degas and exhibited with the Impressionists. Cassatt often create"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:18.242Z",
+      "topic_entities": [
+        "american painter",
+        "edgar degas",
+        "impressionism",
+        "mary cassatt",
+        "motherhood",
+        "paris",
+        "pennsylvania",
+        "women"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/The_School_of_Athens",
+      "external_id": "arts-vc-2026-07-06-006",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name this painting.",
+      "answer": "The School of Athens",
+      "answer_type": "other",
+      "aliases": [
+        "School of Athens"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "The School of Athens",
+          "url": "https://en.wikipedia.org/wiki/The_School_of_Athens",
+          "snippet": "The School of Athens is a fresco by the Italian Renaissance artist Raphael. It was painted between 1509 and 1511 as part of a commission by Pope Julius II to decorate the rooms now called the Stanze di Raffaello in the Apostolic Palace in V"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "The School of Athens — Raphael",
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:19.053Z",
+      "topic_entities": [
+        "aristotle",
+        "italian renaissance",
+        "philosophy",
+        "plato",
+        "raphael",
+        "renaissance",
+        "the school of athens",
+        "vatican"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Masterpiece",
+      "external_id": "arts-vc-2026-07-06-007",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Art Terms & Techniques",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "From the Latin for 'great work,' this term names a creation that has been given much critical praise; it is often the most important piece produced by an artist during their career or a defining example of a craft.",
+      "answer": "Magnum opus",
+      "answer_type": "other",
+      "aliases": [
+        "Masterpiece",
+        "Chef-d'oeuvre"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "art-terms"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Masterpiece",
+          "url": "https://en.wikipedia.org/wiki/Masterpiece",
+          "snippet": "A masterpiece, magnum opus, or chef-d'œuvre is a creation that has been given much critical praise, especially one that is considered the greatest work of a person's career or a work of outstanding creativity, skill, profundity, or workmans"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:19.493Z",
+      "topic_entities": [
+        "artist",
+        "career-defining",
+        "great work",
+        "magnum opus",
+        "masterpiece"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pablo_Picasso",
+      "external_id": "arts-vc-2026-07-06-008",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Painters & Sculptors",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Among the most prolific modern artists in history, this Málaga-born painter's career of more than 70 years included his introspective Blue Period, his joyful Rose Period, and an experimental ceramics phase at the Madoura pottery workshop in southern France.",
+      "answer": "Pablo Picasso",
+      "answer_type": "name",
+      "aliases": [
+        "Picasso"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "painters-sculptors"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pablo Picasso",
+          "url": "https://en.wikipedia.org/wiki/Pablo_Picasso",
+          "snippet": "Pablo Ruiz Picasso was a Spanish painter and sculptor who spent most of his adult life in France. One of the most influential artists of the 20th century, he is known for co-founding the Cubist movement, the invention of constructed sculptu"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:19.869Z",
+      "topic_entities": [
+        "blue period",
+        "cubism",
+        "madoura",
+        "malaga",
+        "pablo picasso",
+        "rose period",
+        "spain"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Hearst_Castle",
+      "external_id": "arts-vc-2026-07-06-009",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Built between 1919 and 1947 on a hilltop on California's Central Coast, this estate was conceived by a publishing magnate and his architect Julia Morgan; today it is a California State Park and registered National Historic Landmark.",
+      "answer": "Hearst Castle",
+      "answer_type": "other",
+      "aliases": [
+        "La Cuesta Encantada"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Hearst Castle",
+          "url": "https://en.wikipedia.org/wiki/Hearst_Castle",
+          "snippet": "Hearst Castle, known formally as La Cuesta Encantada, is a historic estate in San Simeon, located on the Central Coast of California. Conceived by William Randolph Hearst, the publishing tycoon, and his architect Julia Morgan, the castle wa"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:20.241Z",
+      "topic_entities": [
+        "1919-1947",
+        "california",
+        "central coast",
+        "hearst castle",
+        "julia morgan",
+        "neo-gothic",
+        "san simeon",
+        "william randolph hearst"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Peggy_Guggenheim",
+      "external_id": "arts-vc-2026-07-06-010",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After her father perished on the Titanic in 1912, this American heiress channeled her inheritance into building one of the century's foremost collections of modern art and eventually settled in Venice to display it in a Grand Canal palazzo.",
+      "answer": "Peggy Guggenheim",
+      "answer_type": "other",
+      "aliases": [
+        "Peggy",
+        "Marguerite Guggenheim"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "patrons-critics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Peggy Guggenheim",
+          "url": "https://en.wikipedia.org/wiki/Peggy_Guggenheim",
+          "snippet": "Marguerite \"Peggy\" Guggenheim was an American art collector, bohemian, and socialite. Born to the wealthy New York City Guggenheim family, she was the daughter of Benjamin Guggenheim, who went down with the Titanic in 1912, and the niece of"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:20.676Z",
+      "topic_entities": [
+        "1912",
+        "guggenheim family",
+        "modern art",
+        "palazzo venier dei leoni",
+        "peggy guggenheim",
+        "surrealism",
+        "titanic",
+        "venice"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mathew_Brady",
+      "external_id": "arts-vc-2026-07-06-011",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Photography",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "A student of Samuel Morse, this photographer's Civil War mobile darkrooms produced thousands of battlefield images that gave the American public its first unsparing view of modern warfare.",
+      "answer": "Mathew Brady",
+      "answer_type": "name",
+      "aliases": [
+        "Brady",
+        "Matthew Brady"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "photography"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mathew Brady",
+          "url": "https://en.wikipedia.org/wiki/Mathew_Brady",
+          "snippet": "Mathew B. Brady was an American photographer. Known as one of the earliest and most famous photographers in American history, he is best known for his scenes of the American Civil War. He studied under inventor Samuel Morse, who pioneered t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:26:21.113Z",
+      "topic_entities": [
+        "1860s",
+        "american civil war",
+        "battlefield photography",
+        "civil war",
+        "daguerreotype",
+        "mathew brady",
+        "samuel morse"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Centre_Pompidou",
+      "external_id": "arts-vc-2026-07-06-012",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Museums & Collections",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Opened in 1977 and designed by Richard Rogers and Renzo Piano in the high-tech architectural style, this Paris cultural complex was commissioned by and named after a French head of state and was considered a radical departure from conventional building design.",
+      "answer": "Centre Pompidou",
+      "answer_type": "other",
+      "aliases": [
+        "Pompidou Centre",
+        "Beaubourg",
+        "Center Pompidou"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "museums"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Centre Pompidou",
+          "url": "https://en.wikipedia.org/wiki/Centre_Pompidou",
+          "snippet": "The Centre Pompidou, more fully the Centre national d'art et de culture Georges-Pompidou, also known as the Pompidou Centre in English and colloquially as Beaubourg, is a building complex in Paris, France. It was designed in the style of hi"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:27:00.675Z",
+      "topic_entities": [
+        "1977",
+        "beaubourg",
+        "centre pompidou",
+        "high-tech architecture",
+        "modern art",
+        "paris",
+        "renzo piano",
+        "richard rogers"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes_(Caravaggio)",
+      "external_id": "arts-vc-2026-07-06-013",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Famous Artworks",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "visual",
+      "constraint_text": null,
+      "clue": "Name the artist.",
+      "answer": "Caravaggio",
+      "answer_type": "other",
+      "aliases": [
+        "Michelangelo Merisi da Caravaggio",
+        "Michelangelo Merisi"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "visual",
+        "famous-artworks"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Judith Beheading Holofernes (Caravaggio)",
+          "url": "https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes_(Caravaggio)",
+          "snippet": "Judith Beheading Holofernes is a painting of the biblical episode by the Italian Baroque artist Caravaggio, painted in c. 1598 – 1599 or 1602, in which the widow Judith stayed with the Assyrian general Holofernes in his tent after a banquet"
+        }
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Caravaggio_-_Giuditta_e_Oloferne_%28ca._1599%29.jpg/3840px-Caravaggio_-_Giuditta_e_Oloferne_%28ca._1599%29.jpg",
+      "image_attribution": null,
+      "image_license": "public-domain",
+      "answer_detail": "Judith Beheading Holofernes — Caravaggio",
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:27:01.225Z",
+      "topic_entities": [
+        "1571-1610",
+        "baroque",
+        "caravaggio",
+        "chiaroscuro",
+        "dramatic lighting",
+        "italy",
+        "religious art",
+        "rome"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Panth%C3%A9on",
+      "external_id": "arts-vc-2026-07-06-014",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Architecture",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Built between 1758 and 1790 as a church dedicated to Paris's patron saint, this 5th-arrondissement monument was transformed during the Revolution into a secular mausoleum for distinguished French citizens; the first person interred within it was the orator Honoré Gabriel Riqueti.",
+      "answer": "Panthéon",
+      "answer_type": "other",
+      "aliases": [
+        "The Panthéon",
+        "Pantheon",
+        "Pantheon Paris"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "architecture"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Panthéon",
+          "url": "https://en.wikipedia.org/wiki/Panth%C3%A9on",
+          "snippet": "The Panthéon is a monument in the 5th arrondissement of Paris, France. It stands in the Latin Quarter, on the Montagne Sainte-Geneviève, in the centre of the Place du Panthéon, which was named after it. The edifice was built between 1758 an"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:27:01.654Z",
+      "topic_entities": [
+        "1758-1790",
+        "5th arrondissement",
+        "french revolution",
+        "mausoleum",
+        "neoclassical",
+        "panthéon",
+        "paris",
+        "sainte-geneviève"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Gertrude_Stein",
+      "external_id": "arts-vc-2026-07-06-015",
+      "category_id": "arts_visual_culture",
+      "subcategory_name": "Patrons, Critics & Schools",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Her 1933 memoir was written entirely in the voice of her companion and personal secretary rather than her own, and titled with that companion's name.",
+      "answer": "Gertrude Stein",
+      "answer_type": "name",
+      "aliases": [
+        "Stein"
+      ],
+      "tags": [
+        "arts-vc-draft",
+        "sourced",
+        "patrons-critics"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Gertrude Stein",
+          "url": "https://en.wikipedia.org/wiki/Gertrude_Stein",
+          "snippet": "Gertrude Stein was an American novelist, poet, playwright, and art collector. Born in Allegheny, Pennsylvania, and raised in Oakland, California, Stein moved to Paris in 1903, and made France her home for the remainder of her life. She host"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-12T03:27:02.092Z",
+      "topic_entities": [
+        "1933",
+        "alice b. toklas",
+        "autobiography of alice b. toklas",
+        "gertrude stein",
+        "hemingway",
+        "matisse",
+        "paris",
+        "picasso"
+      ]
+    }
+  ]
+}

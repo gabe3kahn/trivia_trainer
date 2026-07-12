@@ -39,39 +39,6 @@
     },
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-03-hw-02",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Hidden Words",
-      "value": 800,
-      "difficulty_rank": 4,
-      "mechanic": "hidden_word",
-      "constraint_text": "A short word is hidden inside one of the words in this clue — find it.",
-      "clue": "The receptionist in the doctor's office had to go to her for help after slamming his finger in a door.",
-      "answer": "Ice",
-      "answer_type": "other",
-      "aliases": [],
-      "wp": {
-        "hidden_in": "office"
-      },
-      "tags": [
-        "wp-draft",
-        "hidden_word"
-      ],
-      "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "arctic",
-        "cold therapy",
-        "cryotherapy",
-        "crystalline",
-        "freezing",
-        "glacier",
-        "swelling",
-        "water"
-      ]
-    },
-    {
-      "source": "constructed",
       "external_id": "wordplay-2026-07-03-hw-03",
       "category_id": "language_wordplay",
       "subcategory_name": "Hidden Words",
