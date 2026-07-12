@@ -1,0 +1,558 @@
+{
+  "pack_id": "pcm-draft-2026-07-02",
+  "category_id": "pop_culture_media_modern_life",
+  "created_at": "2026-07-02",
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Planes%2C_Trains_and_Automobiles",
+      "external_id": "pcm-2026-07-02-001",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1987 John Hughes comedy pairs an uptight advertising executive with a friendly, talkative salesman as they navigate a chaotic journey home for Thanksgiving.",
+      "answer": "Planes, Trains and Automobiles",
+      "answer_type": "other",
+      "aliases": [
+        "Planes Trains and Automobiles"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Planes, Trains and Automobiles",
+          "url": "https://en.wikipedia.org/wiki/Planes%2C_Trains_and_Automobiles",
+          "snippet": "Planes, Trains and Automobiles is a 1987 American road trip comedy film written, produced, and directed by John Hughes. The film stars Steve Martin as Neal Page, an uptight advertising executive, and John Candy as Del Griffith, an overly-fr"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:01.288Z",
+      "topic_entities": [
+        "1987",
+        "john candy",
+        "john hughes",
+        "paramount pictures",
+        "steve martin",
+        "thanksgiving"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Cargo_pants",
+      "external_id": "pcm-2026-07-02-002",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Fashion & Lifestyle",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Originally designed as military and outdoor workwear, this style of garment is distinguished by its numerous large utility pockets on each leg.",
+      "answer": "Cargo pants",
+      "answer_type": "other",
+      "aliases": [
+        "cargo trousers",
+        "cargo shorts"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "fashion-lifestyle"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Cargo pants",
+          "url": "https://en.wikipedia.org/wiki/Cargo_pants",
+          "snippet": "Cargo pants or cargo trousers, also sometimes called combat pants or combat trousers after their original purpose as military workwear, are loosely cut pants originally designed for rough work environments and outdoor activities, distinguis"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:01.645Z",
+      "topic_entities": [
+        "leg pockets",
+        "military",
+        "outdoor wear",
+        "utility pockets",
+        "workwear"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/American_Horror_Story",
+      "external_id": "pcm-2026-07-02-003",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Created by Ryan Murphy and Brad Falchuk for FX, this anthology series presents a new set of characters in a different self-contained setting each season while sharing an overarching fictional universe.",
+      "answer": "American Horror Story",
+      "answer_type": "other",
+      "aliases": [
+        "AHS"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "television"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "American Horror Story",
+          "url": "https://en.wikipedia.org/wiki/American_Horror_Story",
+          "snippet": "American Horror Story (AHS) is an American horror anthology television series created by Ryan Murphy and Brad Falchuk for the cable network FX. The first installment in the American Story media franchise, seasons of AHS are mostly conceived"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:02.001Z",
+      "topic_entities": [
+        "2011",
+        "anthology series",
+        "brad falchuk",
+        "jessica lange",
+        "ryan murphy",
+        "sarah paulson"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bridgerton",
+      "external_id": "pcm-2026-07-02-004",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Netflix Regency-era romance series, the first scripted show produced by Shondaland for the platform, reimagines the British aristocracy as multiracial in an alternative-history setting.",
+      "answer": "Bridgerton",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "television"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bridgerton",
+          "url": "https://en.wikipedia.org/wiki/Bridgerton",
+          "snippet": "Bridgerton is an American alternative history, Regency romance television series created by Chris Van Dusen for Netflix. Based on the book series of the same name by Julia Quinn, it is Shondaland's first scripted show for Netflix. The serie"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:02.358Z",
+      "topic_entities": [
+        "2020",
+        "julia quinn",
+        "multiracial casting",
+        "netflix",
+        "regency era",
+        "rhonda rhimes",
+        "shondaland"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Michael_Bloomberg",
+      "external_id": "pcm-2026-07-02-006",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This New York businessman co-founded a major financial data and media company, then served three terms as the 109th mayor of New York City from 2002 to 2013.",
+      "answer": "Michael Bloomberg",
+      "answer_type": "name",
+      "aliases": [
+        "Bloomberg",
+        "Mike Bloomberg"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Michael Bloomberg",
+          "url": "https://en.wikipedia.org/wiki/Michael_Bloomberg",
+          "snippet": "Michael Rubens Bloomberg is an American businessman and politician. He is the majority owner and co-founder of Bloomberg L.P., and was its CEO from 1981 to 2001, and again from 2014 to 2023. He served as the 109th mayor of New York City fro"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:03.069Z",
+      "topic_entities": [
+        "2002",
+        "2013",
+        "bloomberg lp",
+        "financial media",
+        "mayor",
+        "new york city"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/FUBU",
+      "external_id": "pcm-2026-07-02-007",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Brands & Advertising",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Wanting a catchy four-letter name akin to major brands like Nike or Coke, the founders of this company created an acronym that celebrates the hip-hop community for whom the fashion label was made.",
+      "answer": "FUBU",
+      "answer_type": "other",
+      "aliases": [
+        "For Us, By Us"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "brands-advertising"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "FUBU",
+          "url": "https://en.wikipedia.org/wiki/FUBU",
+          "snippet": "FUBU is an American hip hop apparel company. FUBU stands for \"For Us, By Us\" and was created when the founders were brainstorming for a catchy four-letter word following other big brands such as Nike and Coke. It includes casual wear, sport"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:03.424Z",
+      "topic_entities": [
+        "1990s",
+        "community",
+        "daymond john",
+        "fashion",
+        "for us by us",
+        "hip-hop"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Skims",
+      "external_id": "pcm-2026-07-02-008",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Fashion & Lifestyle",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This American shapewear and clothing brand, co-founded by a reality television star and Swedish entrepreneur Jens Grede, was valued at over $5 billion as of 2025.",
+      "answer": "Skims",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "fashion-lifestyle"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Skims",
+          "url": "https://en.wikipedia.org/wiki/Skims",
+          "snippet": "Skims is an American shapewear and clothing brand co-founded by Kim Kardashian and Jens Grede. The company is valued at over $5 billion as of 2025."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:03.778Z",
+      "topic_entities": [
+        "$5 billion",
+        "2025",
+        "clothing",
+        "jens grede",
+        "kim kardashian",
+        "shapewear"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tyler%2C_the_Creator",
+      "external_id": "pcm-2026-07-02-009",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Known for his eclectic alter egos across multiple studio albums, this rapper and record producer co-founded the hip-hop collective Odd Future and has won three Grammy Awards.",
+      "answer": "Tyler, the Creator",
+      "answer_type": "other",
+      "aliases": [
+        "Tyler the Creator"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tyler, the Creator",
+          "url": "https://en.wikipedia.org/wiki/Tyler%2C_the_Creator",
+          "snippet": "Tyler Gregory Okonma, known professionally as Tyler, the Creator, is an American rapper and record producer. He is known for his eclectic and experimental music, raw lyrical style, and frequent use of alter egos and alternate personas acros"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:04.135Z",
+      "topic_entities": [
+        "alter egos",
+        "alternative hip-hop",
+        "odd future",
+        "producer",
+        "rapper",
+        "tyler gregory okonma"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Niall_Horan",
+      "external_id": "pcm-2026-07-02-010",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The sole Irish member of the pop group assembled on The X Factor in 2010, this singer and multi-instrumentalist has since built a successful solo recording career.",
+      "answer": "Niall Horan",
+      "answer_type": "name",
+      "aliases": [
+        "Horan"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Niall Horan",
+          "url": "https://en.wikipedia.org/wiki/Niall_Horan",
+          "snippet": "Niall James Horan (born 13 September 1993) is an Irish singer, songwriter, musician, and multi-instrumentalist. He rose to prominence as a member of the boy band One Direction, formed in 2010 on the singing competition The X Factor."
+        }
+      ],
+      "verification_status": "unverified",
+      "topic_entities": [
+        "2010",
+        "irish",
+        "one direction",
+        "singer-songwriter",
+        "x factor"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/As_Good_as_It_Gets",
+      "external_id": "pcm-2026-07-02-011",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "In this 1997 James L. Brooks film, a misanthropic, obsessive-compulsive novelist becomes entangled with a single-mother waitress and her new neighbor, a gay artist played by Greg Kinnear.",
+      "answer": "As Good as It Gets",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "As Good as It Gets",
+          "url": "https://en.wikipedia.org/wiki/As_Good_as_It_Gets",
+          "snippet": "As Good as It Gets is a 1997 American romantic comedy film directed by James L. Brooks from a screenplay he co-wrote with Mark Andrus. It stars Jack Nicholson as a misanthropic, bigoted and obsessive–compulsive novelist, Helen Hunt as a sin"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:04.847Z",
+      "topic_entities": [
+        "1997",
+        "greg kinnear",
+        "helen hunt",
+        "jack nicholson",
+        "james l. brooks",
+        "ocd"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Bari_Weiss",
+      "external_id": "pcm-2026-07-02-012",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "After resigning from the New York Times in 2020 citing the newsroom's culture, this journalist launched The Free Press digital media company and later became editor-in-chief of a major broadcast news network.",
+      "answer": "Bari Weiss",
+      "answer_type": "name",
+      "aliases": [
+        "Weiss"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Bari Weiss",
+          "url": "https://en.wikipedia.org/wiki/Bari_Weiss",
+          "snippet": "Bari Weiss is an American journalist and political commentator who has served since October 2025 as editor-in-chief of CBS News. She was an op-ed and book review editor at The Wall Street Journal from 2013 to 2017 and an op-ed staff editor "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:05.201Z",
+      "topic_entities": [
+        "2020",
+        "free speech",
+        "journalist",
+        "new york times",
+        "the free press"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Memphis_Belle_(film)",
+      "external_id": "pcm-2026-07-02-013",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Starring Matthew Modine, Eric Stoltz, and Harry Connick Jr. in his cinematic debut, this 1990 Michael Caton-Jones drama follows an American bomber crew attempting to complete their final WWII mission.",
+      "answer": "Memphis Belle",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Memphis Belle (film)",
+          "url": "https://en.wikipedia.org/wiki/Memphis_Belle_(film)",
+          "snippet": "Memphis Belle is a 1990 war drama film directed by Michael Caton-Jones and written by Monte Merrick. The film stars Matthew Modine, Eric Stoltz, and Harry Connick Jr.. Memphis Belle is a fictional version of the 1944 documentary Memphis Bel"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:05.604Z",
+      "topic_entities": [
+        "1990",
+        "b-17",
+        "eric stoltz",
+        "harry connick jr.",
+        "matthew modine",
+        "michael caton-jones",
+        "wwii"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Clerks_(film)",
+      "external_id": "pcm-2026-07-02-014",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Presented in black and white, this 1994 Kevin Smith debut was filmed on a budget of roughly $27,575 and took place entirely in the actual convenience and video stores where Smith worked in real life.",
+      "answer": "Clerks",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Clerks (film)",
+          "url": "https://en.wikipedia.org/wiki/Clerks_(film)",
+          "snippet": "Clerks is a 1994 American independent black-and-white comedy film written, produced, co-edited and directed by Kevin Smith in his debut. The independent film stars Brian O'Halloran, Jeff Anderson, Marilyn Ghigliotti, Jason Mewes, and Lisa S"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:05.961Z",
+      "topic_entities": [
+        "$27,575",
+        "1994",
+        "black and white",
+        "independent film",
+        "jay and silent bob",
+        "kevin smith"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Al_Jazeera_Media_Network",
+      "external_id": "pcm-2026-07-02-015",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Technology & Companies",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Headquartered in Doha and primarily funded by the government of Qatar, this media network reaches a global audience of over 430 million people across more than 150 countries and territories.",
+      "answer": "Al Jazeera",
+      "answer_type": "other",
+      "aliases": [
+        "Al Jazeera Media Network",
+        "Aljazeera"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "technology-companies"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Al Jazeera Media Network",
+          "url": "https://en.wikipedia.org/wiki/Al_Jazeera_Media_Network",
+          "snippet": "Al Jazeera Media Network (AJMN) is a Qatari news media organization headquartered in Wadi Al Sail, Doha. It is a statutory private foundation for public benefit, and is primarily funded by the government of Qatar. The network's flagship cha"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-02T14:49:06.317Z",
+      "topic_entities": [
+        "150 countries",
+        "430 million",
+        "doha",
+        "government-funded",
+        "news network",
+        "qatar"
+      ]
+    }
+  ]
+}

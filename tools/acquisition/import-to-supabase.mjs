@@ -20,7 +20,7 @@ if (!bankPath) {
 const request = createSupabaseRequest(getSupabaseAdminConfig());
 
 const bank = JSON.parse(await fs.readFile(path.resolve(bankPath), 'utf8'));
-const questions = Array.isArray(bank) ? bank : bank.questions;
+let questions = Array.isArray(bank) ? bank : bank.questions;
 if (!Array.isArray(questions)) {
   throw new Error('Question bank must be an array or an object with a questions array.');
 }
@@ -77,13 +77,38 @@ const isImage = (q) => Boolean(q.image_url);
 const packExternalIds = new Set(questions.map((q) => q.external_id).filter(Boolean));
 const activeRows = await fetchAllSupabaseRows(
   request,
-  '/rest/v1/questions?select=answer,aliases,external_id,category_id,image_url&is_active=eq.true',
+  '/rest/v1/questions?select=answer,aliases,external_id,category_id,image_url,answer_type&is_active=eq.true',
 );
-// A clue is identified for dedup by ANY of its acceptable answers — the primary
-// plus every alias. Index and compare on all of them so a draft collides even when
-// its primary answer matches a live clue's ALIAS or vice versa (e.g. draft primary
-// "Absolute pitch" vs a live "Perfect pitch" whose alias is "Absolute pitch" — the
-// answer-only gate missed these).
+// A clue is identified for dedup by its acceptable answers, but with two guards so an
+// ambiguous SURNAME shared by different people (Tom Brady / Mathew Brady, MLK / Stephen King)
+// doesn't wrongly block the drafter forever once one is live:
+//  1. A collision needs a PRIMARY answer on at least one side — a mere shared ALIAS between two
+//     different primaries is not a dup (it's a surname, or an ambiguous word like "Football").
+//     Primary-vs-alias still collides (draft primary "Absolute pitch" vs a live "Perfect pitch"
+//     whose alias is "Absolute pitch" — genuinely the same thing).
+//  2. A NAME answer's aliases are only visible when compared against another NAME answer — so a
+//     person's surname alias ("Washington" on George Washington) doesn't clash with a same-named
+//     PLACE (Washington). For non-name answers aliases always count (there a shared alias usually
+//     IS the same thing). Both-names + primary=alias still collides ("van Gogh" vs the primary
+//     "Vincent van Gogh" whose alias is "van Gogh" — the same person written two ways).
+const isNameType = (row) => row.answer_type === 'name';
+// The keys of `row` that are VISIBLE when compared against a clue whose name-ness is `otherIsName`.
+const visibleKeys = (row, otherIsName) => {
+  const keys = new Set([normAnswer(row.answer)]);
+  if (!isNameType(row) || otherIsName) {
+    for (const value of Array.isArray(row.aliases) ? row.aliases : []) {
+      const key = normAnswer(value);
+      if (key) keys.add(key);
+    }
+  }
+  return keys;
+};
+// True only when a PRIMARY answer of one side matches a visible key of the other.
+const collides = (q, row) =>
+  visibleKeys(row, isNameType(q)).has(normAnswer(q.answer)) ||
+  visibleKeys(q, isNameType(row)).has(normAnswer(row.answer));
+// All acceptable-answer keys (primary + aliases) — used ONLY to INDEX candidate matches
+// cheaply; the precise decision is `collides` above.
 const answerKeys = (row) => {
   const keys = new Set();
   for (const value of [row.answer, ...(Array.isArray(row.aliases) ? row.aliases : [])]) {
@@ -100,6 +125,7 @@ for (const row of activeRows) {
   }
 }
 const bankCollisions = [];
+const collidingIds = new Set();
 for (const question of questions) {
   // Reviewer-blessed cross-fact dupe (e.g. "Brazil" as a geography fact AND a World Cup
   // fact). The gate is answer-only, so it can't tell different facts apart — allow_duplicate
@@ -116,17 +142,33 @@ for (const question of questions) {
     for (const row of activeByAnswer.get(key) ?? []) {
       if (packExternalIds.has(row.external_id) || seen.has(row.external_id)) continue;
       if (isWordplay(row.category_id) !== packWordplay || isImage(row) !== packImage) continue;
+      if (!collides(question, row)) continue; // primary-involved + name-alias-visibility guard
       seen.add(row.external_id);
       hits.push(row);
     }
   }
-  if (hits.length) bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
+  if (hits.length) {
+    bankCollisions.push(`"${question.answer}" (already active as ${hits[0].external_id})`);
+    if (question.external_id) collidingIds.add(question.external_id);
+  }
 }
 if (bankCollisions.length) {
-  throw new Error(
-    `Answers already active in the bank under a same-class clue — re-drafting a live answer is a ` +
-      `wasted repeat (run category-coverage and swap them). Collisions: ${bankCollisions.join(', ')}`,
+  const detail = `Collisions: ${bankCollisions.join(', ')}`;
+  if (dryRun) {
+    // DRAFT-TIME gate: hard-fail so the drafter swaps the answer before it reaches a PR.
+    throw new Error(
+      `Answers already active in the bank under a same-class clue — re-drafting a live answer is a ` +
+        `wasted repeat (run category-coverage and swap them). ${detail}`,
+    );
+  }
+  // LIVE import (import-on-merge): a SIBLING draft PR may have imported this answer AFTER this
+  // pack was drafted, so the dry-run couldn't have seen it. Don't abort the whole pack over one
+  // dup — SKIP the colliding clue(s) and import the rest, loudly (surfaced as an Actions warning).
+  console.warn(
+    `::warning::Skipping ${collidingIds.size} clue(s) already active in the bank (a sibling PR likely ` +
+      `imported the answer after this pack was drafted). ${detail}`,
   );
+  questions = questions.filter((q) => !collidingIds.has(q.external_id));
 }
 
 const subcategories = await request('/rest/v1/subcategories?select=id,category_id,name');

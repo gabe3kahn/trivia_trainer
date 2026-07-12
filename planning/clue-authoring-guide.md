@@ -31,6 +31,14 @@ draft-clues routine). Hard-won from real calibration feedback — follow them.
 Difficulty does **not** come from stacking more identifying facts — that makes a
 clue *easier* (more ways in). It comes from revealing *less*:
 
+**A clue's difficulty is set by its single most recognizable fact — the most
+obvious path to the answer — and nothing else can raise it.** Every extra fact is
+another path in, so more facts only make a clue *easier*, never harder. Difficulty
+isn't something you *add*; it's a ceiling you find and lower — locate the most
+obvious link and either cut it or make it as oblique as the value demands. (Cluing
+*Tom Hanks*, you can pile on obscure films forever — but the instant "Forrest Gump"
+appears it's a $200 clue, and nothing else pulls it back up.)
+
 - **$200–$400 (recall):** a direct, well-known fact. *"It is the capital of Egypt."*
 - **$600 (triangulation):** a couple of facts that narrow to a few candidates, or
   a moderately obscure single fact.

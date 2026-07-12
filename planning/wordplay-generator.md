@@ -10,7 +10,7 @@ Clues in `category_id = language_wordplay`, `mechanic` per type, that exercise a
 
 - **Anagram** — "Rearrange CRATE into a piece of furniture" → CARTER… (target is a real word/name; the letters are the clue).
 - **Before & After** — two terms sharing a pivot word: "Boxing legend + Baba's cave password" → MUHAMMAD ALI + ALI BABA → "MUHAMMAD ALI BABA".
-- **Hidden word** — answer concealed in a phrase: "There's a tree in foREST Areas" → REST? (define precisely at build time).
+- **Hidden word** — answer concealed in a phrase: "There's a tree in foREST Areas" → Rest? (define precisely at build time).
 - **Homophones / soundalikes** — "Sounds like a number but means a writing instrument."
 - **Starts-with / ends-with / contains** — letter-pattern constraints.
 - **Rhyme / word ladder** — chains and rhyming pairs.
