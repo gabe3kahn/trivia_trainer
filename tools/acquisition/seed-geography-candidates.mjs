@@ -149,7 +149,6 @@ for (const cand of candidates) {
         source: 'wikipedia',
         title: doc.title,
         url: doc.url,
-        retrieved_at: new Date().toISOString(),
         extract: doc.extract,
         citation: { source: 'wikipedia', title: doc.title, url: doc.url },
       });
