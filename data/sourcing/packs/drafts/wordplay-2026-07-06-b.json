@@ -1,0 +1,291 @@
+{
+  "pack_id": "wordplay-2026-07-06-b",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-06T00:00:00.000Z",
+  "questions": [
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06b-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The warrior's dream was to outshine all rivals in battle with his polished shield and sword hanging ready at his hip.",
+      "answer": "Armed",
+      "answer_type": "other",
+      "aliases": [
+        "ARMED"
+      ],
+      "wp": {
+        "scramble": "dream"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "armed forces",
+        "combat",
+        "defense",
+        "martial",
+        "military",
+        "security",
+        "warfare",
+        "weapons"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06b-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The cook asked her assistant to baste the boar's roasting haunch while regaling him with stories of other wild animals she had cooked.",
+      "answer": "Beast",
+      "answer_type": "other",
+      "aliases": [
+        "BEAST"
+      ],
+      "wp": {
+        "scramble": "baste"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "beasts",
+        "folklore",
+        "game",
+        "hunting",
+        "nature",
+        "predators",
+        "wild animals",
+        "zoology"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06b-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The vet rushed over to the injured colt to find blood pooling thickly from the gash on its leg.",
+      "answer": "Clot",
+      "answer_type": "other",
+      "aliases": [
+        "CLOT"
+      ],
+      "wp": {
+        "scramble": "colt"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "blood",
+        "coagulation",
+        "health",
+        "hemostasis",
+        "medical",
+        "physiology",
+        "stroke",
+        "thrombosis"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06b-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The mist rolled across the farm's empty acres at dusk, creating an ominous vibe that made even the bravest groundskeeper uneasy.",
+      "answer": "Scare",
+      "answer_type": "other",
+      "aliases": [
+        "SCARE"
+      ],
+      "wp": {
+        "scramble": "acres"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "fear",
+        "fright",
+        "halloween",
+        "horror",
+        "phobia",
+        "scarecrow",
+        "supernatural",
+        "thriller"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06b-cwd-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "A small cluster of trees",
+      "answer": "GROVE",
+      "answer_type": "other",
+      "aliases": [
+        "GROVE"
+      ],
+      "wp": {
+        "length": 5,
+        "pattern": "_R___"
+      },
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "copse",
+        "forest",
+        "landscape",
+        "nature",
+        "olive grove",
+        "sacred groves",
+        "trees",
+        "woodland"
+      ],
+      "lock_value": true
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06b-cwd-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "Something you either have or you don't",
+      "answer": "KNACK",
+      "answer_type": "other",
+      "aliases": [
+        "KNACK"
+      ],
+      "wp": {
+        "length": 5,
+        "pattern": "K____"
+      },
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "acumen",
+        "aptitude",
+        "flair",
+        "gift",
+        "natural ability",
+        "skill",
+        "talent"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06b-cwd-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "A distinct stretch of history or geological time.",
+      "answer": "EPOCH",
+      "answer_type": "other",
+      "aliases": [
+        "EPOCH"
+      ],
+      "wp": {
+        "length": 5,
+        "pattern": "__O__"
+      },
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "anthropocene",
+        "cambrian explosion",
+        "digital age",
+        "enlightenment",
+        "industrial revolution",
+        "medieval period",
+        "renaissance",
+        "victorian era"
+      ]
+    },
+    {
+      "source": "constructed",
+      "external_id": "wordplay-2026-07-06b-cwd-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Crossword Clues",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "crossword",
+      "constraint_text": null,
+      "clue": "A mournful poem, typically a lament for the dead.",
+      "answer": "ELEGY",
+      "answer_type": "other",
+      "aliases": [
+        "ELEGY"
+      ],
+      "wp": {
+        "length": 5,
+        "pattern": "____Y"
+      },
+      "tags": [
+        "wp-draft",
+        "crossword"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "1751",
+        "ancient greece",
+        "elegiac",
+        "elegy written in a country churchyard",
+        "ovid",
+        "pastoral elegy",
+        "romanticism",
+        "thomas gray"
+      ]
+    }
+  ]
+}
