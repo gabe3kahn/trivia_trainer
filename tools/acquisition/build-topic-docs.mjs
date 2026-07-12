@@ -112,7 +112,6 @@ for (const p of pending) {
     source: 'wikipedia',
     title: p.title,
     url: p.url,
-    retrieved_at: new Date().toISOString(),
     summary: p.summaryExtract,
     extract,
     citation: { source: 'wikipedia', title: p.title, url: p.url },
