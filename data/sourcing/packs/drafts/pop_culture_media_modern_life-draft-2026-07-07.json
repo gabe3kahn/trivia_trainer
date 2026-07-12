@@ -47,84 +47,6 @@
     },
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Bridgerton",
-      "external_id": "pcm-2026-07-07-002",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Television",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Shondaland's first scripted series for Netflix, this Regency-era romance is based on Julia Quinn's novel series and is set in an alternative-history London where George III established racial equality.",
-      "answer": "Bridgerton",
-      "answer_type": "other",
-      "aliases": [],
-      "tags": [
-        "pcm-draft",
-        "sourced",
-        "television"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Bridgerton",
-          "url": "https://en.wikipedia.org/wiki/Bridgerton",
-          "snippet": "Bridgerton is an American alternative history, Regency romance television series created by Chris Van Dusen for Netflix. Based on the book series of the same name by Julia Quinn, it is Shondaland's first scripted show for Netflix. The serie"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-07T14:52:24.700Z",
-      "topic_entities": [
-        "george iii",
-        "julia quinn",
-        "london",
-        "netflix",
-        "regency era",
-        "shondaland"
-      ]
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Planes%2C_Trains_and_Automobiles",
-      "external_id": "pcm-2026-07-07-003",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Film",
-      "value": 400,
-      "difficulty_rank": 2,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "This 1987 John Hughes road-trip comedy pairs Steve Martin as an uptight advertising executive with John Candy as an overly-friendly traveling salesman in a series of misadventures aimed at getting home to Chicago for Thanksgiving.",
-      "answer": "Planes, Trains and Automobiles",
-      "answer_type": "other",
-      "aliases": [],
-      "tags": [
-        "pcm-draft",
-        "sourced",
-        "film"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Planes, Trains and Automobiles",
-          "url": "https://en.wikipedia.org/wiki/Planes%2C_Trains_and_Automobiles",
-          "snippet": "Planes, Trains and Automobiles is a 1987 American road trip comedy film written, produced, and directed by John Hughes. The film stars Steve Martin as Neal Page, an uptight advertising executive, and John Candy as Del Griffith, an overly-fr"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-07T14:52:25.059Z",
-      "topic_entities": [
-        "1987",
-        "chicago",
-        "john candy",
-        "john hughes",
-        "steve martin",
-        "thanksgiving"
-      ]
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/TikTok",
       "external_id": "pcm-2026-07-07-004",
       "category_id": "pop_culture_media_modern_life",
@@ -198,45 +120,6 @@
         "oreck",
         "royal appliance manufacturing",
         "vacuum"
-      ]
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Clerks_(film)",
-      "external_id": "pcm-2026-07-07-006",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Film",
-      "value": 600,
-      "difficulty_rank": 3,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Kevin Smith's 1994 debut feature — shot in black-and-white at the New Jersey convenience and video stores where he actually worked — initially cost just $27,575 before Miramax purchased the film rights.",
-      "answer": "Clerks",
-      "answer_type": "other",
-      "aliases": [],
-      "tags": [
-        "pcm-draft",
-        "sourced",
-        "film"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Clerks (film)",
-          "url": "https://en.wikipedia.org/wiki/Clerks_(film)",
-          "snippet": "Clerks is a 1994 American independent black-and-white comedy film written, produced, co-edited and directed by Kevin Smith in his debut. The independent film stars Brian O'Halloran, Jeff Anderson, Marilyn Ghigliotti, Jason Mewes, and Lisa S"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-07T14:52:26.136Z",
-      "topic_entities": [
-        "1994",
-        "black and white",
-        "convenience store",
-        "kevin smith",
-        "miramax",
-        "new jersey"
       ]
     },
     {
@@ -487,45 +370,6 @@
         "october 31",
         "samhain",
         "scottish"
-      ]
-    },
-    {
-      "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/As_Good_as_It_Gets",
-      "external_id": "pcm-2026-07-07-013",
-      "category_id": "pop_culture_media_modern_life",
-      "subcategory_name": "Film",
-      "value": 1000,
-      "difficulty_rank": 5,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "At the 70th Academy Awards, this 1997 James L. Brooks comedy won both the Best Actor and Best Actress prizes — making it the most recent film ever to sweep both lead acting awards at the same ceremony.",
-      "answer": "As Good as It Gets",
-      "answer_type": "other",
-      "aliases": [],
-      "tags": [
-        "pcm-draft",
-        "sourced",
-        "film"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "As Good as It Gets",
-          "url": "https://en.wikipedia.org/wiki/As_Good_as_It_Gets",
-          "snippet": "As Good as It Gets is a 1997 American romantic comedy film directed by James L. Brooks from a screenplay he co-wrote with Mark Andrus. It stars Jack Nicholson as a misanthropic, bigoted and obsessive–compulsive novelist, Helen Hunt as a sin"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-07T14:52:28.649Z",
-      "topic_entities": [
-        "1997",
-        "70th academy awards",
-        "helen hunt",
-        "jack nicholson",
-        "james l. brooks",
-        "tom cruise"
       ]
     },
     {

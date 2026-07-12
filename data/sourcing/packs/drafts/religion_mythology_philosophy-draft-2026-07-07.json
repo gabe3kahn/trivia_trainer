@@ -8,46 +8,6 @@
   "questions": [
     {
       "source": "original_sourced",
-      "source_url": "https://en.wikipedia.org/wiki/Hermes",
-      "external_id": "rmp-2026-07-07-001",
-      "category_id": "religion_mythology_philosophy",
-      "subcategory_name": "Greek Mythology",
-      "value": 200,
-      "difficulty_rank": 1,
-      "mechanic": "standard",
-      "constraint_text": null,
-      "clue": "Herald of the gods and guide of souls into the afterlife, this Greek deity — aided by his winged sandals — served as messenger between Olympus and the mortal world; his Roman counterpart was Mercury.",
-      "answer": "Hermes",
-      "answer_type": "other",
-      "aliases": [],
-      "tags": [
-        "rmp-draft",
-        "sourced",
-        "greek-mythology"
-      ],
-      "citations": [
-        {
-          "source": "wikipedia",
-          "title": "Hermes",
-          "url": "https://en.wikipedia.org/wiki/Hermes",
-          "snippet": "Hermes is an Olympian deity in ancient Greek religion and mythology considered the herald of the gods. He is also widely considered the protector of human heralds, travelers, thieves, merchants, and orators. He is able to move quickly and f"
-        }
-      ],
-      "verification_status": "verified",
-      "reviewer_note": null,
-      "verified_at": "2026-07-07T14:47:41.195Z",
-      "topic_entities": [
-        "caduceus",
-        "greek mythology",
-        "hermes trismegistus",
-        "mercury",
-        "olympus",
-        "psychopompos",
-        "talaria"
-      ]
-    },
-    {
-      "source": "original_sourced",
       "source_url": "https://en.wikipedia.org/wiki/Diwali",
       "external_id": "rmp-2026-07-07-002",
       "category_id": "religion_mythology_philosophy",
