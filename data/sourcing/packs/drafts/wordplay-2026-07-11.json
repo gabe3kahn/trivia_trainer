@@ -10,43 +10,6 @@
   "questions": [
     {
       "source": "constructed",
-      "external_id": "wordplay-2026-07-11-rt-01",
-      "category_id": "language_wordplay",
-      "subcategory_name": "Rhyme Time",
-      "value": 200,
-      "difficulty_rank": 1,
-      "mechanic": "rhyme_time",
-      "constraint_text": "Find the two-word rhyming phrase described.",
-      "clue": "An untamable youngster who refuses to follow the rules.",
-      "answer": "Wild Child",
-      "answer_type": "other",
-      "aliases": [
-        "Child Wild"
-      ],
-      "wp": {
-        "rhyme_pair": [
-          "wild",
-          "child"
-        ]
-      },
-      "tags": [
-        "wp-draft",
-        "rhyme_time"
-      ],
-      "citations": [],
-      "verification_status": "skipped",
-      "topic_entities": [
-        "anarchy",
-        "behavior",
-        "disobedience",
-        "rebellion",
-        "troublemaker",
-        "wild child",
-        "youth"
-      ]
-    },
-    {
-      "source": "constructed",
       "external_id": "wordplay-2026-07-11-rt-02",
       "category_id": "language_wordplay",
       "subcategory_name": "Rhyme Time",
