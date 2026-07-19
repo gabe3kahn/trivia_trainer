@@ -128,6 +128,20 @@ export async function getRecommendedQuestions({
   return data ?? [];
 }
 
+// Record that a set of questions was just served (run start), so the adaptive
+// selector can apply anti-repeat + the wordplay cooldown. Best-effort: the RPC
+// ships in the data-model migration, so degrade quietly until it's applied.
+export async function recordServedQuestions(questionIds: string[]) {
+  if (!questionIds.length) return;
+  const { error } = await (supabase.rpc as any)('record_served_questions', {
+    p_question_ids: questionIds,
+  });
+  if (error) {
+    // Non-fatal — never block starting a session on serve-tracking.
+    console.warn('record_served_questions failed (is the migration applied?):', error.message);
+  }
+}
+
 export async function createPracticeSession({
   mode,
   questionIds,

@@ -96,6 +96,12 @@ function matchesSurname(submitted: string, answer: string) {
   // token is a suffix/particle or that flip order (Deng Xiaoping, Aung San Suu Kyi) won't be
   // handled well here by design — those rely on authored aliases instead.
   if (surname.length < 3) return false;
+  // A nobiliary particle before the last token means the last token is a DYNASTY/place
+  // name, not a bare surname the person is known by — "Medici" of "Lorenzo de' Medici",
+  // "Gaulle" of "Charles de Gaulle", "Vinci" of "Leonardo da Vinci". Accepting it alone
+  // is wrong (people say "de' Medici" / "da Vinci"); the short form must be an authored
+  // alias instead. (Reported 2026-07-19.)
+  if (NOBILIARY_PARTICLES.has(answerTokens[answerTokens.length - 2])) return false;
 
   // Only a BARE surname qualifies for this shortcut ("Pollock" for "Jackson Pollock").
   // A multi-word submission that merely ENDS in the surname is NOT a surname-only answer
@@ -117,6 +123,12 @@ function matchesSurname(submitted: string, answer: string) {
 // is a per-name call the drafter makes via an alias (fine for King, never for a monarch
 // where the numeral is essential — "Elizabeth" must not pass for "Elizabeth II").
 const NAME_SUFFIXES = new Set(['jr', 'sr', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii']);
+
+// Nobiliary / patronymic particles. When one precedes the last token of an answer,
+// that last token isn't the bare surname the person goes by (see matchesSurname).
+const NOBILIARY_PARTICLES = new Set([
+  'de', 'del', 'della', 'dei', 'di', 'da', 'van', 'von', 'der', 'la', 'le', 'du', 'af', 'av',
+]);
 
 function matchesNameWithSuffix(submitted: string, answer: string) {
   const at = answer.split(' ').filter(Boolean);
@@ -218,11 +230,38 @@ function extractNumberKeys(value: string) {
     thousand: '1000',
   };
 
-  for (const token of compact.split(/\s+/)) {
+  const tokens = compact.split(/\s+/).filter(Boolean);
+  for (const token of tokens) {
     if (words[token]) keys.push(words[token]);
   }
 
+  // Regnal numerals ("George V", "Louis XIV", "Elizabeth II"). Treat a Roman
+  // numeral as a number ONLY in regnal position — a non-first token, so a name
+  // precedes it — which keeps "I, Claudius" (leading "i") from reading as 1. The
+  // recognizer is bounded to 1–39 and canonical form (see regnalRomanValue), so
+  // the ambiguous single letters C/D/L/M never match (no Vitamin D → 500) and
+  // surnames like "Li" stay unrecognized. Making the numeral a key means an answer
+  // that carries one (George V) rejects a submission that drops it (King George).
+  for (let i = 1; i < tokens.length; i += 1) {
+    const value = regnalRomanValue(tokens[i]);
+    if (value !== null) keys.push(String(value));
+  }
+
   return [...new Set(keys)];
+}
+
+// Parse a canonical Roman numeral in the regnal range 1–39, else null. The regex
+// is the validator: tens are 0–3 X's and units are the canonical I…IX forms, so
+// only i/v/x can appear — 40+ (needing L/C/D/M) and non-canonical junk ("iiii",
+// "vx", "li") fail, and English words with those letters don't false-match.
+function regnalRomanValue(token: string): number | null {
+  const match = /^(x{0,3})(ix|iv|v?i{0,3})$/.exec(token);
+  if (!match || (!match[1] && !match[2])) return null;
+  const units: Record<string, number> = {
+    '': 0, i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9,
+  };
+  const value = match[1].length * 10 + units[match[2]];
+  return value >= 1 ? value : null;
 }
 
 function setsIntersect(a: Set<string>, b: Set<string>) {
