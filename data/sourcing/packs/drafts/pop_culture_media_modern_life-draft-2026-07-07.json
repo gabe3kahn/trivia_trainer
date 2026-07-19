@@ -1,0 +1,458 @@
+{
+  "pack_id": "pop_culture_media_modern_life-draft-2026-07-07",
+  "category_id": "pop_culture_media_modern_life",
+  "created_at": "2026-07-07",
+  "notes": [
+    "Run 2026-07-07 (category 2 of 2). Active count was 64 — second-thinnest non-geography eligible category. Thinnest tier: $1000 (2 active vs avg 12.8). All other non-geography categories had open draft PRs; PR #106 (07-02) covers religion_mythology_philosophy + pop_culture; answers from that PR excluded. Pack weighted toward $1000 and $800 tiers and gaps in Comics & Graphic Novels, Fashion & Lifestyle, Streaming & Internet Culture. Fresh docs fetched from Wikipedia REST API for Bridget Jones, Labubu, TikTok, YouTube, Chanel No. 5, Watchmen, Maus, Gene Simmons, Mindy Kaling, Stop Making Sense, Ben-Hur, Dirt Devil, Mary Poppins, Moulin Rouge!, Will Smith."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mary_Poppins_(film)",
+      "external_id": "pcm-2026-07-07-001",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Julie Andrews's feature film debut, this 1964 Walt Disney production blends live-action with animated sequences, following a magical nanny who transforms a London family's life; it's based on P. L. Travers's book series.",
+      "answer": "Mary Poppins",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mary Poppins (film)",
+          "url": "https://en.wikipedia.org/wiki/Mary_Poppins_(film)",
+          "snippet": "Mary Poppins is a 1964 American animated live action fantasy musical comedy film directed by Robert Stevenson and produced by Walt Disney, with songs written and composed by the Sherman Brothers. The screenplay is by Bill Walsh and Don DaGr"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:24.341Z",
+      "topic_entities": [
+        "1964",
+        "animated sequences",
+        "julie andrews",
+        "london",
+        "p.l. travers",
+        "walt disney"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/TikTok",
+      "external_id": "pcm-2026-07-07-004",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Streaming & Internet Culture",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Chinese social networking platform hosts user-submitted short-form videos ranging from three seconds to sixty minutes in length and has attracted enormous global audiences since its international launch.",
+      "answer": "TikTok",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "streaming-internet"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "TikTok",
+          "url": "https://en.wikipedia.org/wiki/TikTok",
+          "snippet": "TikTok is a Chinese social networking service and short-form online video platform. It hosts user-submitted videos, which range in duration from three seconds to 60 minutes. It can be accessed through a mobile app or through its website."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:25.418Z",
+      "topic_entities": [
+        "2020s",
+        "algorithm",
+        "bytedance",
+        "short-form video",
+        "viral"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Dirt_Devil",
+      "external_id": "pcm-2026-07-07-005",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Brands & Advertising",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Introduced in 1981 by the Royal Appliance Manufacturing Co., this vacuum cleaner brand is now owned by the same Hong Kong–based parent company that also controls Oreck and Hoover North America.",
+      "answer": "Dirt Devil",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "brands-advertising"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Dirt Devil",
+          "url": "https://en.wikipedia.org/wiki/Dirt_Devil",
+          "snippet": "Dirt Devil is a brand name originally introduced in 1981 by the Royal Appliance Manufacturing Co, an American vacuum cleaner and floor care company. The company and the brand are now owned by TTI Floor Care North America, a subsidiary of Ho"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:25.777Z",
+      "topic_entities": [
+        "1981",
+        "hong kong",
+        "hoover",
+        "oreck",
+        "royal appliance manufacturing",
+        "vacuum"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/YouTube",
+      "external_id": "pcm-2026-07-07-007",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Streaming & Internet Culture",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Founded on Valentine's Day 2005 by three former employees of the online payment company PayPal, this video-sharing platform became the second-most-visited website in the world.",
+      "answer": "YouTube",
+      "answer_type": "other",
+      "aliases": [
+        "You Tube"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "streaming-internet"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "YouTube",
+          "url": "https://en.wikipedia.org/wiki/YouTube",
+          "snippet": "YouTube is an American online video-sharing platform owned by Google. YouTube was founded on February 14, 2005, by Chad Hurley, Jawed Karim, and Steve Chen who were all former employees at PayPal. Headquartered in San Bruno, California, it "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:26.495Z",
+      "topic_entities": [
+        "2005",
+        "february 14",
+        "google",
+        "paypal",
+        "streaming",
+        "video sharing"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Chanel_No._5",
+      "external_id": "pcm-2026-07-07-008",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Fashion & Lifestyle",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Launched in 1921 and bearing a numeral rather than a poetic name as its title, this celebrated fragrance was the first by the designer known as 'Coco,' with a scent formula created by the French-Russian chemist Ernest Beaux.",
+      "answer": "Chanel No. 5",
+      "answer_type": "other",
+      "aliases": [
+        "No. 5",
+        "Number 5"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "fashion-lifestyle"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Chanel No. 5",
+          "url": "https://en.wikipedia.org/wiki/Chanel_No._5",
+          "snippet": "Chanel No. 5 is the first perfume launched by French couturier Gabrielle \"Coco\" Chanel in 1921. The scent formula for the fragrance was compounded by French-Russian chemist and perfumer Ernest Beaux. The design of its bottle has been an imp"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:26.854Z",
+      "topic_entities": [
+        "1921",
+        "coco chanel",
+        "ernest beaux",
+        "fashion",
+        "paris",
+        "perfume"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)",
+      "external_id": "pcm-2026-07-07-009",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Film",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "At the time of its 1959 release, this Charlton Heston epic — a remake of a 1925 silent film — had the largest budget and the largest sets of any motion picture ever produced; it was adapted from Lew Wallace's 1880 novel.",
+      "answer": "Ben-Hur",
+      "answer_type": "other",
+      "aliases": [
+        "Ben Hur"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "film"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ben-Hur (1959 film)",
+          "url": "https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)",
+          "snippet": "Ben-Hur is a 1959 American religious epic film directed by William Wyler, produced by Sam Zimbalist, and starring Charlton Heston as the title character. A remake of the 1925 silent film with a similar title, it was adapted from Lew Wallace"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:27.213Z",
+      "topic_entities": [
+        "1880 novel",
+        "1959",
+        "biblical",
+        "charlton heston",
+        "epic",
+        "lew wallace"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Will_Smith",
+      "external_id": "pcm-2026-07-07-010",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Celebrities & Public Figures",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Before becoming one of Hollywood's most bankable stars, this performer first found fame as half of a hip hop duo with DJ Jazzy Jeff, scoring multiple top-20 Billboard Hot 100 singles.",
+      "answer": "Will Smith",
+      "answer_type": "name",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "celebrities"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Will Smith",
+          "url": "https://en.wikipedia.org/wiki/Will_Smith",
+          "snippet": "Willard Carroll Smith II is an American actor, rapper, and film producer. Known for his work in both the screen and music industries, his accolades include an Academy Award, a Golden Globe Award, a BAFTA Award, and four Grammy Awards. Films"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:27.572Z",
+      "topic_entities": [
+        "dj jazzy jeff",
+        "fresh prince of bel-air",
+        "grammy",
+        "hip hop",
+        "independence day",
+        "men in black"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Maus",
+      "external_id": "pcm-2026-07-07-011",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Art Spiegelman's graphic novel — depicting Jews as rodents, Germans as cats, and Poles as pigs — recounts the Holocaust experiences of the author's father and became, in 1992, the first of its kind to win a Pulitzer Prize.",
+      "answer": "Maus",
+      "answer_type": "other",
+      "aliases": [
+        "Maus: A Survivor's Tale"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "comics-graphic-novels"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Maus",
+          "url": "https://en.wikipedia.org/wiki/Maus",
+          "snippet": "Maus, often published as Maus: A Survivor's Tale, is a graphic novel by American cartoonist Art Spiegelman, serialized from 1980 to 1991. It depicts Spiegelman interviewing his father about his experiences as a Polish Jew and Holocaust surv"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:27.931Z",
+      "topic_entities": [
+        "1992",
+        "art spiegelman",
+        "auschwitz",
+        "graphic novel",
+        "holocaust",
+        "poland",
+        "pulitzer prize",
+        "vladek spiegelman"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Halloween",
+      "external_id": "pcm-2026-07-07-012",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Fashion & Lifestyle",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Academics are divided on whether this holiday's traditions derive from the Celtic harvest festival Samhain or began independently as a Christian religious observance; Irish and Scottish immigrants brought many of its customs to North America in the 19th century.",
+      "answer": "Halloween",
+      "answer_type": "other",
+      "aliases": [
+        "All Hallows' Eve",
+        "All Saints' Eve"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "fashion-lifestyle"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Halloween",
+          "url": "https://en.wikipedia.org/wiki/Halloween",
+          "snippet": "Halloween, also known as All Hallows' Eve, or All Saints' Eve, is a celebration observed in many countries on 31 October, the eve of the Western Christian feast of All Hallows' Day. It is at the beginning of the observance of Allhallowtide,"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:28.290Z",
+      "topic_entities": [
+        "candy",
+        "celtic",
+        "costume",
+        "irish",
+        "jack-o-lantern",
+        "october 31",
+        "samhain",
+        "scottish"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Watchmen",
+      "external_id": "pcm-2026-07-07-014",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Comics & Graphic Novels",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Alan Moore's story proposal for this DC Comics limited series originally featured superheroes acquired from Charlton Comics, but since the plot would have left those characters unusable in future stories, he was asked to create entirely original ones instead.",
+      "answer": "Watchmen",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "comics-graphic-novels"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Watchmen",
+          "url": "https://en.wikipedia.org/wiki/Watchmen",
+          "snippet": "Watchmen is a comic book limited series by the British creative team of writer Alan Moore, artist Dave Gibbons, and colorist John Higgins. It was published monthly by DC Comics in 1986 and 1987 before being collected in a single-volume edit"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:29.007Z",
+      "topic_entities": [
+        "1986",
+        "alan moore",
+        "charlton comics",
+        "dc comics",
+        "graphic novel",
+        "limited series",
+        "rorschach"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mindy_Kaling",
+      "external_id": "pcm-2026-07-07-015",
+      "category_id": "pop_culture_media_modern_life",
+      "subcategory_name": "Television",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This actress and writer first gained recognition as Kelly Kapoor on NBC's long-running workplace comedy The Office, later created Never Have I Ever, and has received both a Tony Award and six Primetime Emmy nominations.",
+      "answer": "Mindy Kaling",
+      "answer_type": "name",
+      "aliases": [
+        "Kaling"
+      ],
+      "tags": [
+        "pcm-draft",
+        "sourced",
+        "television"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mindy Kaling",
+          "url": "https://en.wikipedia.org/wiki/Mindy_Kaling",
+          "snippet": "Vera Mindy Chokalingam, known professionally as Mindy Kaling, is an American actress, comedian, screenwriter, and producer. Known for her work on television, she has received a Tony Award and six nominations at the Primetime Emmy Awards. Am"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:52:29.366Z",
+      "topic_entities": [
+        "emmy award",
+        "kelly kapoor",
+        "nbc",
+        "never have i ever",
+        "the office",
+        "tony award",
+        "writer"
+      ]
+    }
+  ]
+}
