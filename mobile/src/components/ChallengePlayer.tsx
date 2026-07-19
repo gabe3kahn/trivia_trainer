@@ -103,6 +103,7 @@ export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion 
             categoryId={q.category_id}
             categoryName={q.category_name}
             subcategoryName={q.subcategory_name}
+            mechanic={q.mechanic}
             rank={q.difficulty_rank}
             clue={displayClue(q as any)}
             imageUrl={q.image_url}

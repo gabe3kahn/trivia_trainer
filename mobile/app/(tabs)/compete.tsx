@@ -260,12 +260,17 @@ const styles = StyleSheet.create({
   heroKicker: { ...type.overline, color: colors.gold },
   heroTitle: { ...type.title, color: colors.ink },
   heroSub: { ...type.body, color: colors.muted },
-  lbRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: colors.lineSoft },
-  lbMe: { backgroundColor: colors.elevated, borderRadius: radius.sm, paddingHorizontal: spacing.sm },
-  lbRank: { ...type.label, color: colors.dim, width: 22 },
+  // Every row carries the same horizontal padding so the highlighted `(you)` row
+  // lines up with the rest — previously only `lbMe` had paddingHorizontal, insetting
+  // the current user's row ~10px from all others. The highlight is bg/border only.
+  lbRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 10, paddingHorizontal: spacing.sm, borderBottomWidth: 1, borderBottomColor: colors.lineSoft },
+  lbMe: { backgroundColor: colors.elevated, borderRadius: radius.sm, borderBottomColor: 'transparent' },
+  // tabular-nums keeps rank/score/meta digit columns from jittering row to row; the
+  // rank cell is wide + right-aligned so 2-digit ranks (10+) stay flush.
+  lbRank: { ...type.label, color: colors.dim, width: 26, textAlign: 'right', fontVariant: ['tabular-nums'] },
   lbName: { ...type.bodyStrong, color: colors.ink, flex: 1 },
-  lbMeta: { ...type.caption, color: colors.muted, width: 44, textAlign: 'right' },
-  lbScore: { ...type.bodyStrong, color: colors.gold, width: 56, textAlign: 'right' },
+  lbMeta: { ...type.caption, color: colors.muted, width: 44, textAlign: 'right', fontVariant: ['tabular-nums'] },
+  lbScore: { ...type.bodyStrong, color: colors.gold, width: 56, textAlign: 'right', fontVariant: ['tabular-nums'] },
   duelRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, paddingVertical: 10 },
   duelPressed: { opacity: 0.6 },
   duelName: { ...type.bodyStrong, color: colors.ink },

@@ -1,9 +1,11 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import type { ComponentProps, PropsWithChildren, ReactNode } from 'react';
+import { useState, type ComponentProps, type PropsWithChildren, type ReactNode } from 'react';
 import { ActivityIndicator, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Circle } from 'react-native-svg';
 
+import { MechanicInfoModal } from '@/src/components/MechanicInfoModal';
+import { mechanicInfo } from '@/src/constants/mechanics';
 import type { CategoryScore, DailyActivity } from '@/src/data/mockData';
 import { tapLight, tapMedium } from '@/src/lib/haptics';
 import { accentFor, colors, difficultyTier, radius, scoreColor, serifFont, shadow, spacing, type } from '@/src/theme';
@@ -205,6 +207,7 @@ export function ClueCard({
   categoryId,
   categoryName,
   subcategoryName,
+  mechanic,
   rank,
   clue,
   imageUrl,
@@ -212,11 +215,16 @@ export function ClueCard({
   categoryId?: string | null;
   categoryName: string;
   subcategoryName?: string | null;
+  mechanic?: string | null;
   rank: number;
   clue: string;
   imageUrl?: string | null;
 }) {
   const accent = accentFor(categoryId);
+  // Wordplay clues get an "i" chip next to the category that opens a short
+  // explainer of the mechanic (with an example). Plain clues have no info.
+  const info = mechanicInfo(mechanic);
+  const [infoOpen, setInfoOpen] = useState(false);
   return (
     <View style={styles.clueCard}>
       <View style={[styles.clueRail, { backgroundColor: accent }]} />
@@ -227,6 +235,17 @@ export function ClueCard({
             <Text style={[styles.clueCat, { color: accent }]} numberOfLines={1}>
               {categoryName}
             </Text>
+            {info ? (
+              <Pressable
+                onPress={() => { tapLight(); setInfoOpen(true); }}
+                hitSlop={10}
+                accessibilityRole="button"
+                accessibilityLabel={`What is ${info.name}?`}
+                style={styles.infoChip}
+              >
+                <Text style={styles.infoChipText}>i</Text>
+              </Pressable>
+            ) : null}
           </View>
           {subcategoryName ? <Text style={styles.clueSub}>{subcategoryName}</Text> : null}
         </View>
@@ -234,6 +253,7 @@ export function ClueCard({
       </View>
       {imageUrl ? <Image source={{ uri: imageUrl }} style={styles.clueImage} resizeMode="contain" /> : null}
       <Text style={styles.clueText}>{clue}</Text>
+      {info ? <MechanicInfoModal info={infoOpen ? info : null} onDismiss={() => setInfoOpen(false)} /> : null}
     </View>
   );
 }
@@ -684,17 +704,43 @@ const styles = StyleSheet.create({
     gap: spacing.xs,
   },
   clueDot: {
-    width: 9,
-    height: 9,
-    borderRadius: 5,
+    width: 11,
+    height: 11,
+    borderRadius: 6,
   },
   clueCat: {
+    // Bumped up from `type.overline` (11px) — the beta tester couldn't tell which
+    // category/subcategory a clue belonged to. Bigger caps label in the accent color.
     ...type.overline,
+    fontSize: 14,
+    lineHeight: 18,
+    letterSpacing: 1,
+  },
+  // "i" info affordance for wordplay clues — an italic serif "i" in a subtle
+  // circle, distinct from the caps category label beside it.
+  infoChip: {
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: colors.line,
+    backgroundColor: colors.surfaceAlt,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 2,
+  },
+  infoChipText: {
+    fontFamily: serifFont,
+    fontStyle: 'italic',
+    fontSize: 13,
+    lineHeight: 16,
+    fontWeight: '700',
+    color: colors.muted,
   },
   clueSub: {
-    ...type.caption,
+    ...type.label,
     color: colors.muted,
-    marginTop: 3,
+    marginTop: 4,
   },
   clueImage: {
     width: '100%',

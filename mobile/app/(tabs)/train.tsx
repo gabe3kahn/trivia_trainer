@@ -14,6 +14,7 @@ import {
   fetchEarnedBadges,
   fetchHomeCompetencies,
   getRecommendedQuestions,
+  recordServedQuestions,
   submitPracticeRun,
 } from '@/src/services/triviaApi';
 import { accentFor, colors, radius, spacing, type } from '@/src/theme';
@@ -239,6 +240,11 @@ export default function TrainScreen() {
         return;
       }
 
+      // Mark these questions served NOW (run start), so the adaptive selector can
+      // apply anti-repeat + the wordplay cooldown even if the run is abandoned.
+      // Best-effort — never blocks the session.
+      void recordServedQuestions(nextQuestions.map((question) => question.id));
+
       // Don't create the session or write anything yet — buffer the run and commit it
       // only if it reaches the end (see the completion effect). Abandoning records nothing.
       setRunConfig({
@@ -329,6 +335,25 @@ export default function TrainScreen() {
     setStartedAt(Date.now());
   }
 
+  // Clear all session state, returning to the mode-pick home. Shared by the quit
+  // flow (mid-session) and the "Back to Train" control on the completed screen.
+  function resetSession() {
+    setQuestions([]);
+    setPendingAttempts([]);
+    setRunConfig(null);
+    flushedRef.current = false;
+    setActiveIndex(0);
+    setTypedResponse('');
+    setGradeResult(null);
+    setOverrideGrade(null);
+    setElapsedMs(null);
+    setAttemptSummaries([]);
+    setStartedAt(null);
+    handledParamRef.current = null;
+    // `completed` is derived from questions/activeIndex (see above), so clearing
+    // those returns us to mode-pick — no separate flag to reset.
+  }
+
   // Bail out of an in-progress session. The run is only committed when it reaches the
   // end, so quitting partway through records nothing — no attempts, no competency change.
   function endSession() {
@@ -339,21 +364,17 @@ export default function TrainScreen() {
         style: 'destructive',
         onPress: () => {
           tapLight();
-          setQuestions([]);
-          setPendingAttempts([]);
-          setRunConfig(null);
-          flushedRef.current = false;
-          setActiveIndex(0);
-          setTypedResponse('');
-          setGradeResult(null);
-          setOverrideGrade(null);
-          setElapsedMs(null);
-          setAttemptSummaries([]);
-          setStartedAt(null);
-          handledParamRef.current = null;
+          resetSession();
         },
       },
     ]);
+  }
+
+  // From the completed screen: the run is already recorded, so go straight back
+  // to mode-pick with no "won't be recorded" warning.
+  function backToTrain() {
+    tapLight();
+    resetSession();
   }
 
   const sessionSummary = summarizeAttempts(attemptSummaries);
@@ -386,6 +407,7 @@ export default function TrainScreen() {
           categoryId={activeQuestion.category_id}
           categoryName={activeQuestion.category_name}
           subcategoryName={activeQuestion.subcategory_name ?? formatMechanic(activeQuestion.mechanic)}
+          mechanic={activeQuestion.mechanic}
           rank={activeQuestion.difficulty_rank}
           clue={displayClue(activeQuestion)}
           imageUrl={activeQuestion.image_url}
@@ -466,6 +488,9 @@ export default function TrainScreen() {
   if (completed) {
     return (
       <Screen>
+        <Pressable onPress={backToTrain} hitSlop={12} style={styles.backLink}>
+          <Text style={styles.backLinkText}>‹ Train</Text>
+        </Pressable>
         <Header kicker="Train" title="Session done" right={<Pill tone="teal">{questions.length} clues</Pill>} />
         <Card style={styles.summaryCard}>
           <View style={styles.summaryHero}>
@@ -533,11 +558,14 @@ export default function TrainScreen() {
 
         <PrimaryAction
           title="Run another set"
-          subtitle="Pull a fresh difficulty-weighted mix"
+          subtitle="A fresh balanced mix tuned to your level"
           icon="refresh"
-          loading={loadingMode === 'weakness'}
-          onPress={() => startSession('weakness')}
+          loading={loadingMode === 'balanced'}
+          onPress={() => startSession('balanced')}
         />
+        <Pressable onPress={backToTrain} style={styles.backToTrainBtn}>
+          <Text style={styles.backToTrainText}>Back to Train</Text>
+        </Pressable>
       </Screen>
     );
   }
@@ -548,14 +576,23 @@ export default function TrainScreen() {
       <Header kicker="Train" title="Pick a mode" right={<Pill tone="teal">{sessionLength} clues</Pill>} />
 
       <PrimaryAction
-        title="Challenge my weaknesses"
-        subtitle="Difficulty-weighted gaps, skewed just above your comfort zone"
-        loading={loadingMode === 'weakness'}
+        title="Balanced session"
+        subtitle="A smart mix across your strengths and weak spots, tuned to your level"
+        loading={loadingMode === 'balanced'}
         disabled={Boolean(loadingMode)}
-        onPress={() => startSession('weakness')}
+        onPress={() => startSession('balanced')}
       />
 
       <Section title="Other modes">
+        <ModeCard
+          icon="bullseye"
+          title="Challenge my weaknesses"
+          subtitle="Difficulty-weighted gaps, skewed just above your comfort zone."
+          label={loadingMode === 'weakness' ? 'Loading' : 'Focus'}
+          tone="teal"
+          onPress={() => startSession('weakness')}
+          disabled={Boolean(loadingMode)}
+        />
         <ModeCard
           icon="random"
           title="Randomize"
@@ -864,6 +901,22 @@ const styles = StyleSheet.create({
   recapBadgeText: { flex: 1 },
   recapBadgeTitle: { ...type.bodyStrong, color: colors.ink },
   recapBadgeSub: { ...type.caption, color: colors.gold, fontWeight: '700', marginTop: 1 },
+  backLink: {
+    alignSelf: 'flex-start',
+    marginBottom: spacing.xs,
+  },
+  backLinkText: {
+    ...type.label,
+    color: colors.muted,
+  },
+  backToTrainBtn: {
+    alignItems: 'center',
+    paddingVertical: spacing.sm,
+  },
+  backToTrainText: {
+    ...type.bodyStrong,
+    color: colors.muted,
+  },
   summaryCard: {
     gap: spacing.md,
   },

@@ -1,7 +1,7 @@
 export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[];
 
 export type AttemptGrade = 'correct' | 'close' | 'missed' | 'unknown';
-export type SessionMode = 'weakness' | 'random' | 'selected' | 'review' | 'wordplay' | 'daily' | 'challenge';
+export type SessionMode = 'weakness' | 'balanced' | 'random' | 'selected' | 'review' | 'wordplay' | 'daily' | 'challenge';
 
 export type Database = {
   public: {

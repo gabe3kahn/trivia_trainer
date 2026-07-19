@@ -88,6 +88,27 @@ const cases: Case[] = [
   // no surname shortcut for 'other'). "Reformation" had been scored correct. (Reported 2026-06-23.)
   { name: 'distinct sub-phrase of a compound rejected (Reformation≠Counter-Reformation)', answer: 'Counter-Reformation', submitted: 'Reformation', want: 'missed' },
 
+  // ---- regnal numerals are essential: an answer carrying one rejects a submission
+  //      that drops it. "King George" had been accepted for "George V" (the numeral
+  //      wasn't recognized as a number, so " V" read as a typo). (Reported 2026-07-19.)
+  { name: 'regnal numeral required (King George ≠ George V)', answer: 'George V', answerType: 'name', aliases: ['King George V'], submitted: 'King George', want: 'missed' },
+  { name: 'regnal full form still correct (George V)', answer: 'George V', answerType: 'name', submitted: 'George V', want: 'correct' },
+  { name: 'wrong regnal numeral rejected (Henry V ≠ Henry VIII)', answer: 'Henry VIII', answerType: 'name', submitted: 'Henry V', want: 'missed' },
+  { name: 'multi-letter regnal full form correct (Louis XIV)', answer: 'Louis XIV', answerType: 'name', submitted: 'Louis XIV', want: 'correct' },
+  // Leading "I" is a word/title, not a regnal numeral — must not become a number key.
+  { name: 'leading I not treated as numeral (I, Claudius)', answer: 'I, Claudius', submitted: 'I Claudius', want: 'correct' },
+  // A roman-lettered surname (Jet Li) is not a regnal numeral (out of 1–39 canonical range).
+  { name: 'roman-lettered surname not a numeral (Jet Li)', answer: 'Jet Li', answerType: 'name', submitted: 'Jet Li', want: 'correct' },
+
+  // ---- nobiliary particle: the token after "de/da/van/von/…" is a dynasty/place name,
+  //      not the bare surname. "Medici" had been accepted for "Lorenzo de' Medici".
+  //      (Reported 2026-07-19.)
+  { name: 'nobiliary particle blocks bare last token (Medici ≠ Lorenzo de\' Medici)', answer: "Lorenzo de' Medici", answerType: 'name', submitted: 'Medici', want: 'missed' },
+  { name: 'nobiliary short form via alias still works (de\' Medici)', answer: "Lorenzo de' Medici", answerType: 'name', aliases: ["de' Medici", 'Medici'], submitted: "de' Medici", want: 'correct' },
+  { name: 'da Vinci: bare Vinci rejected', answer: 'Leonardo da Vinci', answerType: 'name', submitted: 'Vinci', want: 'missed' },
+  // Control: an ordinary surname (no particle before it) still takes the shortcut.
+  { name: 'ordinary surname still accepted (Poe)', answer: 'Edgar Allan Poe', answerType: 'name', submitted: 'Poe', want: 'correct' },
+
   // ---- exact-match-only mechanics (crossword + anagram): the displayed length /
   //      the scramble pin the EXACT word, so fuzzy tolerance is OFF — a near-miss is a
   //      different inflection or a different anagram, not a typo. (Reported 2026-06-24.)
