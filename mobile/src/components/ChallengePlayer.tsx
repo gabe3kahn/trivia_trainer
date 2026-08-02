@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -49,6 +49,27 @@ export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion 
   const finalGrade: AttemptGrade = override ?? result?.grade ?? 'unknown';
   const elapsedMs = useMemo(() => () => Math.min(secondsPerQuestion * 1000, Date.now() - startedAt.current), [secondsPerQuestion]);
 
+  // Hold the countdown until an image clue's picture is actually on screen — a slow
+  // image used to eat the whole timer, leaving a blank box. markImageReady both starts
+  // the clock (via `imgReady`) and rebases the answer-time origin to now. A safety
+  // timeout starts anyway if the image hangs, so a clue can never freeze.
+  const hasImage = !!q?.image_url;
+  const [imgReady, setImgReady] = useState(false);
+  const readyRef = useRef(false);
+  function markImageReady() {
+    if (readyRef.current) return;
+    readyRef.current = true;
+    startedAt.current = Date.now();
+    setImgReady(true);
+  }
+  useEffect(() => {
+    readyRef.current = false;
+    setImgReady(false);
+    if (!questions[index]?.image_url) return;
+    const t = setTimeout(markImageReady, 8000);
+    return () => clearTimeout(t);
+  }, [index, questions]);
+
   function reveal(auto: boolean) {
     if (!q || result) return;
     const r: GradeResult = auto && !typed.trim()
@@ -96,8 +117,14 @@ export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion 
           <View style={styles.progressRow}>
             <Text style={styles.progressText}>Clue {index + 1} of {questions.length}</Text>
           </View>
-          {/* Timer pauses (running=false) once an answer is revealed. questionKey resets it per clue. */}
-          <QuestionTimer seconds={secondsPerQuestion} running={!result} questionKey={q.id} onExpire={() => reveal(true)} />
+          {/* Timer pauses (running=false) once an answer is revealed, and doesn't start
+              on an image clue until the picture has loaded. questionKey resets it per clue. */}
+          <QuestionTimer
+            seconds={secondsPerQuestion}
+            running={!result && (!hasImage || imgReady)}
+            questionKey={q.id}
+            onExpire={() => reveal(true)}
+          />
 
           <ClueCard
             categoryId={q.category_id}
@@ -107,6 +134,8 @@ export function ChallengePlayer({ questions, startIndex = 0, secondsPerQuestion 
             rank={q.difficulty_rank}
             clue={displayClue(q as any)}
             imageUrl={q.image_url}
+            onImageLoad={markImageReady}
+            onImageError={markImageReady}
           />
           {q.constraint_text ? <Text style={styles.constraint}>{q.constraint_text}</Text> : null}
 

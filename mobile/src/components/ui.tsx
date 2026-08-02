@@ -1,5 +1,5 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import { useState, type ComponentProps, type PropsWithChildren, type ReactNode } from 'react';
+import { useEffect, useState, type ComponentProps, type PropsWithChildren, type ReactNode } from 'react';
 import { ActivityIndicator, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Circle } from 'react-native-svg';
@@ -211,6 +211,8 @@ export function ClueCard({
   rank,
   clue,
   imageUrl,
+  onImageLoad,
+  onImageError,
 }: {
   categoryId?: string | null;
   categoryName: string;
@@ -219,12 +221,19 @@ export function ClueCard({
   rank: number;
   clue: string;
   imageUrl?: string | null;
+  // Fired when the clue image finishes loading (or fails). Timed modes use this to
+  // hold the countdown until the image is actually visible (see ChallengePlayer).
+  onImageLoad?: () => void;
+  onImageError?: () => void;
 }) {
   const accent = accentFor(categoryId);
   // Wordplay clues get an "i" chip next to the category that opens a short
   // explainer of the mechanic (with an example). Plain clues have no info.
   const info = mechanicInfo(mechanic);
   const [infoOpen, setInfoOpen] = useState(false);
+  // Spinner over the image until it loads; reset when the image changes.
+  const [imgLoaded, setImgLoaded] = useState(false);
+  useEffect(() => setImgLoaded(false), [imageUrl]);
   return (
     <View style={styles.clueCard}>
       <View style={[styles.clueRail, { backgroundColor: accent }]} />
@@ -251,7 +260,22 @@ export function ClueCard({
         </View>
         <DifficultyPips rank={rank} tone={accent} />
       </View>
-      {imageUrl ? <Image source={{ uri: imageUrl }} style={styles.clueImage} resizeMode="contain" /> : null}
+      {imageUrl ? (
+        <View style={styles.clueImageWrap}>
+          <Image
+            source={{ uri: imageUrl }}
+            style={styles.clueImage}
+            resizeMode="contain"
+            onLoad={() => { setImgLoaded(true); onImageLoad?.(); }}
+            onError={() => { setImgLoaded(true); onImageError?.(); }}
+          />
+          {!imgLoaded ? (
+            <View style={styles.clueImageLoading} pointerEvents="none">
+              <ActivityIndicator color={colors.muted} />
+            </View>
+          ) : null}
+        </View>
+      ) : null}
       <Text style={styles.clueText}>{clue}</Text>
       {info ? <MechanicInfoModal info={infoOpen ? info : null} onDismiss={() => setInfoOpen(false)} /> : null}
     </View>
@@ -742,12 +766,20 @@ const styles = StyleSheet.create({
     color: colors.muted,
     marginTop: 4,
   },
+  clueImageWrap: {
+    marginTop: spacing.md,
+    position: 'relative',
+  },
   clueImage: {
     width: '100%',
     height: 196,
     borderRadius: radius.md,
     backgroundColor: colors.surfaceAlt,
-    marginTop: spacing.md,
+  },
+  clueImageLoading: {
+    ...StyleSheet.absoluteFillObject,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   clueText: {
     fontFamily: serifFont,

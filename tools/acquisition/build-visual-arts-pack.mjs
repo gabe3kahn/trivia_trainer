@@ -30,12 +30,26 @@ function surnameOf(name) {
   return parts.slice(i).join(' ');
 }
 
+// The REST summary's originalimage is often a multi-thousand-px file (2 MB+), which
+// is too slow to load inside a timed clue on mobile — the image can miss the whole
+// countdown, leaving a blank box. Cap Wikimedia URLs to a display-appropriate width
+// (a full-res original is pointless behind a ~200px-tall card). Non-Wikimedia URLs
+// pass through untouched.
+function capWikimediaWidth(u, max = 1280) {
+  if (!u) return u;
+  const thumb = u.match(/^(https?:\/\/upload\.wikimedia\.org\/.*\/thumb\/.*\/)(\d+)(px-[^/]+)$/);
+  if (thumb) return Number(thumb[2]) > max ? `${thumb[1]}${max}${thumb[3]}` : u;
+  const orig = u.match(/^(https?:\/\/upload\.wikimedia\.org\/wikipedia\/[a-z]+\/)([0-9a-f])\/([0-9a-f]{2})\/([^/]+)$/i);
+  if (orig) return `${orig[1]}thumb/${orig[2]}/${orig[3]}/${orig[4]}/${max}px-${orig[4]}`;
+  return u;
+}
+
 async function leadImage(title) {
   const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}`;
   const r = await fetch(url, { headers: { 'User-Agent': 'TriviaTrainerVisualPack/0.1 (personal study app)', Accept: 'application/json' } });
   if (!r.ok) throw new Error(`${r.status} for ${title}`);
   const d = await r.json();
-  const img = d.originalimage?.source || d.thumbnail?.source || null;
+  const img = capWikimediaWidth(d.originalimage?.source || d.thumbnail?.source || null);
   const page = d.content_urls?.desktop?.page || `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`;
   return { img, page };
 }
