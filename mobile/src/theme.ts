@@ -13,20 +13,26 @@ import { Platform, type TextStyle } from 'react-native';
 
 export const colors = {
   // Base surfaces — a calmer navy. Panels sit a clear step above the page so
-  // cards read as distinct surfaces, not flat black (lifted after device review).
-  background: '#0B0B14',
-  surface: '#1A1B2B',
-  surfaceAlt: '#24263A',
-  elevated: '#222338',
+  // cards read as distinct surfaces, not flat black. Contrast lifted in the
+  // 2026-07 redesign so chrome and panel edges register on device.
+  background: '#0E0F1A',
+  surface: '#1C1E30',
+  surfaceAlt: '#262943',
+  elevated: '#2C2F4C',
 
-  // Text ramp.
-  ink: '#F4F6FB',
-  muted: '#9AA0B4',
-  dim: '#5A6076',
+  // Tab bar / bottom nav — a step above `surface` so the nav reads as its own
+  // attention-commanding chrome, not the page bleeding to the edge.
+  nav: '#23263E',
+
+  // Text ramp — `muted`/`dim` brightened so secondary text and inactive tabs
+  // stay legible against the dark chrome (the beta contrast complaint).
+  ink: '#F5F7FC',
+  muted: '#B7BDD2',
+  dim: '#8890A8',
 
   // Hairlines — more visible so panel edges and the accent rail register.
-  line: '#34374F',
-  lineSoft: '#24263A',
+  line: '#3A3E5A',
+  lineSoft: '#2A2D45',
 
   // Brand accent.
   gold: '#F2B84B',

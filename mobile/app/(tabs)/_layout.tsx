@@ -14,7 +14,7 @@ function TabIcon({ name, color }: { name: IconName; color: string }) {
 }
 
 export default function TabLayout() {
-  const { loading, session } = useAuth();
+  const { loading, session, hasSeenOnboarding } = useAuth();
 
   if (loading) {
     return (
@@ -28,14 +28,30 @@ export default function TabLayout() {
     return <Redirect href="/auth" />;
   }
 
+  // First run for NEW accounts only: show the intro once. The `hasSeenOnboarding`
+  // flag is device-local (AsyncStorage) and new in this build, so without the
+  // account-age check every existing user would see onboarding once on update. Gate
+  // on the account being freshly created (created_at within the last hour) so only
+  // real signups get it; the flag then suppresses repeats.
+  const createdAt = session.user.created_at ? Date.parse(session.user.created_at) : NaN;
+  const isNewAccount = Number.isFinite(createdAt) && Date.now() - createdAt < 60 * 60 * 1000;
+  if (!hasSeenOnboarding && isNewAccount) {
+    // Cast: typed-routes manifest regenerates for /onboarding when the dev server runs.
+    return <Redirect href={'/onboarding' as never} />;
+  }
+
   return (
     <BadgeUnlockProvider>
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: colors.gold,
-        tabBarInactiveTintColor: colors.dim,
+        // Was `colors.dim` (#5A6076) — too dark to read on the nav. `muted` is the
+        // lifted inactive tint from the redesign.
+        tabBarInactiveTintColor: colors.muted,
         tabBarStyle: {
-          backgroundColor: colors.surface,
+          // Distinct nav chrome, a step above the page/surface (was `surface`,
+          // which read as flat black against the page).
+          backgroundColor: colors.nav,
           borderTopColor: colors.line,
           minHeight: 72,
           paddingTop: 8,
