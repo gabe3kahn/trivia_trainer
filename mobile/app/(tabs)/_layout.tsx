@@ -28,10 +28,15 @@ export default function TabLayout() {
     return <Redirect href="/auth" />;
   }
 
-  // First run: show the intro once (flag persisted in AsyncStorage via AuthContext).
-  // Cast: typed-routes manifest regenerates for /onboarding when the dev server runs
-  // (same pattern the codebase uses for other new routes).
-  if (!hasSeenOnboarding) {
+  // First run for NEW accounts only: show the intro once. The `hasSeenOnboarding`
+  // flag is device-local (AsyncStorage) and new in this build, so without the
+  // account-age check every existing user would see onboarding once on update. Gate
+  // on the account being freshly created (created_at within the last hour) so only
+  // real signups get it; the flag then suppresses repeats.
+  const createdAt = session.user.created_at ? Date.parse(session.user.created_at) : NaN;
+  const isNewAccount = Number.isFinite(createdAt) && Date.now() - createdAt < 60 * 60 * 1000;
+  if (!hasSeenOnboarding && isNewAccount) {
+    // Cast: typed-routes manifest regenerates for /onboarding when the dev server runs.
     return <Redirect href={'/onboarding' as never} />;
   }
 
