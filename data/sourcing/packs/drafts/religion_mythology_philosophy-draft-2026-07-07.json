@@ -1,0 +1,592 @@
+{
+  "pack_id": "religion_mythology_philosophy-draft-2026-07-07",
+  "category_id": "religion_mythology_philosophy",
+  "created_at": "2026-07-07",
+  "notes": [
+    "Run 2026-07-07 (category 1 of 2). Active count was 59 — thinnest non-geography eligible category. Under-weight tier: $200 (7 active vs avg 11.8). All other non-geography categories had open draft PRs; PR #106 (07-02) covers religion_mythology_philosophy + pop_culture; answers from that PR avoided. Pack weighted toward $200 clues and gaps in Roman & Norse Mythology (4 active), World Mythology (3), Philosophical Schools (3), Religious Texts & Terms (3), Symbols/Rituals (2). Fresh docs fetched from Wikipedia REST API for Jupiter, Freyja, Valhalla, Ragnarök, Talmud, Confucius, Empiricism, Ganesha, Zoroastrianism, Janus, Eris, Mithraism, Diwali."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Diwali",
+      "external_id": "rmp-2026-07-07-002",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Symbols, Rituals & Holidays",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Observed across South Asia each autumn, this Hindu festival symbolizes the spiritual victory of light over darkness and good over evil, and is also marked in adapted forms by Jains and Sikhs.",
+      "answer": "Diwali",
+      "answer_type": "other",
+      "aliases": [
+        "Deepawali",
+        "Dipavali",
+        "Deepavali"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "symbols-rituals"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Diwali",
+          "url": "https://en.wikipedia.org/wiki/Diwali",
+          "snippet": "Dipavali, commonly known as Diwali, is the Hindu festival of lights, with variations celebrated in other Indian religions such as Jainism and Sikhism. It symbolises the spiritual victory of Dharma over Adharma, light over darkness, good ove"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:41.554Z",
+      "allow_duplicate": true,
+      "topic_entities": [
+        "deepavali",
+        "festival of lights",
+        "hinduism",
+        "india",
+        "lakshmi",
+        "light over darkness",
+        "south asia"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Adam",
+      "external_id": "rmp-2026-07-07-003",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Bible",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Named in Genesis 1–5 as the first human, this biblical figure is recognized across Judaism, Christianity, Islam, and the Baháʼí Faith as the ancestor of all humankind.",
+      "answer": "Adam",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "bible"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Adam",
+          "url": "https://en.wikipedia.org/wiki/Adam",
+          "snippet": "Adam is the name given in Genesis 1–5 to the first human. Adam is the first human being aware of God, and features as such in various belief systems."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:41.913Z",
+      "topic_entities": [
+        "bahai faith",
+        "christianity",
+        "eve",
+        "fall of man",
+        "garden of eden",
+        "genesis",
+        "islam",
+        "judaism"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Freyja",
+      "external_id": "rmp-2026-07-07-004",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Norse goddess of love, beauty, fertility, and war owns the legendary necklace Brísingamen, rides a chariot pulled by two cats, and is renowned as the foremost practitioner of the Norse shamanic sorcery known as seiðr.",
+      "answer": "Freyja",
+      "answer_type": "other",
+      "aliases": [
+        "Freya",
+        "Freja"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "norse-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Freyja",
+          "url": "https://en.wikipedia.org/wiki/Freyja",
+          "snippet": "In Norse mythology, Freyja is a goddess associated with love, beauty, fertility, war, gold, and seiðr. Freyja is the owner of the necklace Brísingamen, rides a chariot pulled by two cats, is accompanied by the boar Hildisvíni, and possesses"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:42.272Z",
+      "topic_entities": [
+        "asgard",
+        "brísingamen",
+        "cats",
+        "freyja",
+        "norse mythology",
+        "seið",
+        "vanir"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Confucius",
+      "external_id": "rmp-2026-07-07-005",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born Kong Qiu, this Chinese philosopher of the Spring and Autumn period taught that personal morality and harmonious social relationships form the foundation of a well-ordered society; his sayings were collected in the Analects.",
+      "answer": "Confucius",
+      "answer_type": "other",
+      "aliases": [
+        "Kong Fuzi",
+        "Kongzi"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Confucius",
+          "url": "https://en.wikipedia.org/wiki/Confucius",
+          "snippet": "Confucius, born Kong Qiu, was a Chinese philosopher of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages. Much of the shared cultural heritage of the Sinosphere originates in the philosophy and teachi"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:42.631Z",
+      "topic_entities": [
+        "analects",
+        "china",
+        "confucianism",
+        "kong qiu",
+        "personal morality",
+        "social harmony",
+        "spring and autumn period"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Talmud",
+      "external_id": "rmp-2026-07-07-006",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Religious Texts & Terms",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Second in authority only to the Hebrew Bible within Rabbinic Judaism, this central text is the primary source of Jewish law and theology, comprising the Mishnah and its interpretive commentary, the Gemara.",
+      "answer": "Talmud",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "religious-texts"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Talmud",
+          "url": "https://en.wikipedia.org/wiki/Talmud",
+          "snippet": "The Talmud is the central text of Rabbinic Judaism, and second in authority only to the Hebrew Bible, the first five books of which form the Torah along with the texts in Nevi'im (Prophets) and Ketuvim (Writings). It is a primary source of "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:42.989Z",
+      "topic_entities": [
+        "gemara",
+        "hebrew bible",
+        "jewish law",
+        "jewish theology",
+        "mishnah",
+        "rabbinic judaism"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Valhalla",
+      "external_id": "rmp-2026-07-07-007",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Located in Asgard and presided over by Odin, this majestic Norse hall is the destination for half of the warriors slain in battle, who are chosen by the Valkyries and spend their afterlife feasting and honing their combat skills.",
+      "answer": "Valhalla",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "norse-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Valhalla",
+          "url": "https://en.wikipedia.org/wiki/Valhalla",
+          "snippet": "In Norse mythology, Valhalla is described as a majestic hall located in Asgard and presided over by the god Odin. There were five possible realms the soul could travel to after death. The first was Fólkvangr, ruled by the goddess Freyja. Th"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:43.348Z",
+      "topic_entities": [
+        "asgard",
+        "einherjar",
+        "norse mythology",
+        "odin",
+        "valhalla",
+        "valkyries"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ragnar%C3%B6k",
+      "external_id": "rmp-2026-07-07-008",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This foretold Norse cataclysm encompasses a great final battle in which Odin, Thor, and other major deities perish, the world burns and sinks beneath the sea — only to rise again, cleansed and fertile.",
+      "answer": "Ragnarök",
+      "answer_type": "other",
+      "aliases": [
+        "Ragnarok"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "norse-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ragnarök",
+          "url": "https://en.wikipedia.org/wiki/Ragnar%C3%B6k",
+          "snippet": "In Norse mythology, Ragnarök is a foretold series of impending events, including a great battle in which numerous great Norse mythological figures will perish ; it will entail a catastrophic series of natural disasters, including the burnin"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:43.706Z",
+      "allow_duplicate": true,
+      "topic_entities": [
+        "apocalypse",
+        "fimbulwinter",
+        "norse mythology",
+        "odin",
+        "rebirth",
+        "thor",
+        "world tree"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Empiricism",
+      "external_id": "rmp-2026-07-07-009",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophical Schools",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This philosophical tradition holds that genuine knowledge arises primarily from sensory experience and observation rather than innate ideas or pure reason; it stands alongside rationalism and skepticism as one of the major schools in epistemology.",
+      "answer": "Empiricism",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophical-schools"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Empiricism",
+          "url": "https://en.wikipedia.org/wiki/Empiricism",
+          "snippet": "In philosophy, empiricism is an epistemological view which holds that true knowledge or justification comes either only or primarily from sensory experience and empirical evidence. It is one of several competing views within epistemology, a"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:44.066Z",
+      "topic_entities": [
+        "david hume",
+        "epistemology",
+        "francis bacon",
+        "john locke",
+        "observation",
+        "rationalism",
+        "sensory experience"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Ganesha",
+      "external_id": "rmp-2026-07-07-010",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Recognized throughout India by his distinctive elephant head, this widely revered Hindu deity is associated with new beginnings and the removal of obstacles, and his veneration extends to Jain and Buddhist communities as well.",
+      "answer": "Ganesha",
+      "answer_type": "other",
+      "aliases": [
+        "Ganesh",
+        "Ganapati"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Ganesha",
+          "url": "https://en.wikipedia.org/wiki/Ganesha",
+          "snippet": "Ganesha or Ganesh, also known as Ganapati, Vinayaka and Pillaiyar, is one of the best-known and most revered and worshipped deities in the Hindu pantheon and is the Supreme god in the Ganapatya sect. His depictions are found throughout Indi"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:44.425Z",
+      "allow_duplicate": true,
+      "topic_entities": [
+        "elephant head",
+        "ganesh chaturthi",
+        "hinduism",
+        "india",
+        "new beginnings",
+        "obstacle removal",
+        "wisdom"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Zoroastrianism",
+      "external_id": "rmp-2026-07-07-011",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Religions",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Among the world's oldest organized faiths, this Iranian religion centers on the teachings of Zarathushtra and exalts an uncreated, benevolent, all-wise deity as the supreme being of the universe.",
+      "answer": "Zoroastrianism",
+      "answer_type": "other",
+      "aliases": [
+        "Mazdayasna"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-religions"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Zoroastrianism",
+          "url": "https://en.wikipedia.org/wiki/Zoroastrianism",
+          "snippet": "Zoroastrianism, also called Mazdayasna and Behdin, is an Iranian religion centred on the Avesta and the teachings of Zarathushtra Spitama, who is more commonly referred to by the Greek translation, Zoroaster. Among the world's oldest organi"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:44.784Z",
+      "topic_entities": [
+        "ahura mazda",
+        "ancient persia",
+        "avesta",
+        "dualism",
+        "fire temple",
+        "iran",
+        "zarathushtra",
+        "zoroastrianism"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Janus",
+      "external_id": "rmp-2026-07-07-012",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Roman & Norse Mythology",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Depicted with two faces simultaneously gazing forward and backward, this Roman deity presided over beginnings and endings, passages and transitions; his name was given to the first month of the Roman calendar year.",
+      "answer": "Janus",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "roman-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Janus",
+          "url": "https://en.wikipedia.org/wiki/Janus",
+          "snippet": "In ancient Roman religion and myth, Janus is the god of beginnings, gates, transitions, time, duality, doorways, passages, frames, and endings. He is usually depicted as having a double-sided head. The month of January is named for Janus (I"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:45.142Z",
+      "topic_entities": [
+        "beginnings",
+        "door god",
+        "endings",
+        "roman mythology",
+        "transitions",
+        "two faces"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Epictetus",
+      "external_id": "rmp-2026-07-07-013",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Philosophers",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Born into slavery in Phrygia and later banished from Rome, this Greek Stoic philosopher settled in Nicopolis in northwestern Greece, where his teachings on inner freedom and accepting what lies beyond our control attracted students from across the empire.",
+      "answer": "Epictetus",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "philosophers"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Epictetus",
+          "url": "https://en.wikipedia.org/wiki/Epictetus",
+          "snippet": "Epictetus was a Greek Stoic philosopher. He was born into slavery at Hierapolis, Phrygia and lived in Rome until his banishment, after which he spent the rest of his life in Nicopolis in northwestern Greece."
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:45.500Z",
+      "topic_entities": [
+        "greece",
+        "inner freedom",
+        "nicopolis",
+        "phrygia",
+        "rome",
+        "slavery",
+        "stoicism"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Eris_(mythology)",
+      "external_id": "rmp-2026-07-07-014",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "Greek Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "At a divine wedding feast, this Greek goddess of strife cast a golden apple inscribed 'for the fairest' among the assembled deities, igniting a three-way rivalry among the Olympians that culminated in the Judgement of Paris and the Trojan War.",
+      "answer": "Eris",
+      "answer_type": "other",
+      "aliases": [
+        "Discordia"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "greek-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Eris (mythology)",
+          "url": "https://en.wikipedia.org/wiki/Eris_(mythology)",
+          "snippet": "In Greek mythology, Eris is the goddess and personification of strife and discord, particularly in war, and in the Iliad. According to Hesiod she was the daughter of primordial Nyx (Night), and the mother of a long list of undesirable perso"
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:45.858Z",
+      "topic_entities": [
+        "eris",
+        "golden apple",
+        "greek mythology",
+        "helen of troy",
+        "judgment of paris",
+        "trojan war"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Mithraism",
+      "external_id": "rmp-2026-07-07-015",
+      "category_id": "religion_mythology_philosophy",
+      "subcategory_name": "World Mythology",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Especially popular among the Imperial Roman army from the 1st to the 4th century AD, this secretive Roman mystery religion was inspired by an Iranian Zoroastrian deity yet developed its own distinctly Roman imagery and practice.",
+      "answer": "Mithraism",
+      "answer_type": "other",
+      "aliases": [
+        "Mithraic mysteries",
+        "Cult of Mithras"
+      ],
+      "tags": [
+        "rmp-draft",
+        "sourced",
+        "world-mythology"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Mithraism",
+          "url": "https://en.wikipedia.org/wiki/Mithraism",
+          "snippet": "Mithraism, also known as the Mithraic mysteries or the Cult of Mithras, was a Roman mystery religion focused on the god Mithras. Although inspired by Iranian worship of the Zoroastrian divinity (yazata) Mithra, the Roman Mithras was linked "
+        }
+      ],
+      "verification_status": "verified",
+      "reviewer_note": null,
+      "verified_at": "2026-07-07T14:47:46.217Z",
+      "topic_entities": [
+        "1st-4th century ad",
+        "imperial rome",
+        "mithras",
+        "roman army",
+        "roman mystery religion",
+        "zoroastrianism"
+      ]
+    }
+  ]
+}
