@@ -1,0 +1,354 @@
+{
+  "pack_id": "wordplay-2026-07-08",
+  "category_id": "language_wordplay",
+  "created_at": "2026-07-08",
+  "notes": "Run 2026-07-08. Mechanics: Anagram (5) + Rhyme Time (5). Anagram pairs: stare→Aster, crate→Trace, steam→Mates, limes→Smile, leapt→Petal. Rhyme Time: Fair Share, Wild Child, Green Screen, Hot Pot, Whale Trail. All 10 answers verified fresh against every prior wordplay-*.json pack.",
+  "questions": [
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-ana-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The botanist paused to stare at the patch of late-blooming wildflowers, each a daisy-like bloom with narrow petals ringing a bright yellow disk.",
+      "answer": "Aster",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "stare"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "asteraceae",
+        "astra",
+        "daisy family",
+        "fall blooming",
+        "greek mythology",
+        "michaelmas daisy"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-ana-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "She loaded the last crate onto the truck and set off to follow the faint marks the convoy ahead had left across the muddy road.",
+      "answer": "Trace",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "crate"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "detection",
+        "evidence",
+        "footprint",
+        "forensics",
+        "investigation",
+        "tracking"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-ana-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The old boiler built up steam before departure; the engineer's eyes grew warm as he thought of the long-time shipboard companions he would see again at the reunion.",
+      "answer": "Mates",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "steam"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "companionship",
+        "crew",
+        "maritime",
+        "navy",
+        "sailors",
+        "shipmates"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-ana-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "He squeezed limes over the salsa and turned to the crowd with the warm, involuntary expression of happiness that plays across the lips whenever something genuinely delights you.",
+      "answer": "Smile",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "limes"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "duchenne smile",
+        "emotion psychology",
+        "facial expression",
+        "mona lisa",
+        "social signaling",
+        "zygomaticus major"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-ana-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Anagrams",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "anagram",
+      "constraint_text": "Rearrange the letters of one word in this clue to find the answer.",
+      "clue": "The dancer leapt from the stage, leaving behind only a single fallen piece of the flower she had worn in her hair.",
+      "answer": "Petal",
+      "answer_type": "other",
+      "aliases": [],
+      "wp": {
+        "scramble": "leapt"
+      },
+      "tags": [
+        "wp-draft",
+        "anagram"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "botanist",
+        "dancer",
+        "flower",
+        "performance",
+        "petals",
+        "stage"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-rt-01",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "The equitable portion each party deserves when resources are divided.",
+      "answer": "Fair Share",
+      "answer_type": "other",
+      "aliases": [
+        "Share Fair"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "fair",
+          "share"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "distribution",
+        "equality",
+        "equity",
+        "fairness",
+        "justice",
+        "proportion"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-rt-02",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "An unruly youngster raised without firm boundaries.",
+      "answer": "Wild Child",
+      "answer_type": "other",
+      "aliases": [
+        "Child Wild"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "wild",
+          "child"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "boundaries",
+        "free spirit",
+        "parenting",
+        "rebellion",
+        "undisciplined",
+        "youth"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-rt-03",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "The solid-colored backdrop filmmakers use to composite digital environments behind actors in post-production.",
+      "answer": "Green Screen",
+      "answer_type": "other",
+      "aliases": [
+        "Screen Green"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "green",
+          "screen"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "chroma key",
+        "cinema",
+        "compositing",
+        "filmmaking",
+        "post-production",
+        "vfx"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-rt-04",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "A simmering communal vessel in which diners cook meats and vegetables in shared broth at the table.",
+      "answer": "Hot Pot",
+      "answer_type": "other",
+      "aliases": [
+        "Pot Hot"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "hot",
+          "pot"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "asian cuisine",
+        "broth",
+        "chinese cuisine",
+        "communal dining",
+        "simmering",
+        "table cooking"
+      ]
+    },
+    {
+      "source": "constructed",
+      "source_url": null,
+      "external_id": "wordplay-2026-07-08-rt-05",
+      "category_id": "language_wordplay",
+      "subcategory_name": "Rhyme Time",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "rhyme_time",
+      "constraint_text": "Find the two-word rhyming phrase described.",
+      "clue": "The seasonal migratory path traced across the open ocean by one of the planet's largest mammals.",
+      "answer": "Whale Trail",
+      "answer_type": "other",
+      "aliases": [
+        "Trail Whale"
+      ],
+      "wp": {
+        "rhyme_pair": [
+          "whale",
+          "trail"
+        ]
+      },
+      "tags": [
+        "wp-draft",
+        "rhyme_time"
+      ],
+      "citations": [],
+      "verification_status": "skipped",
+      "topic_entities": [
+        "baja california",
+        "endangered species",
+        "grey whale",
+        "humpback whale",
+        "pacific coast",
+        "pacific ocean",
+        "seasonal migration"
+      ]
+    }
+  ]
+}
