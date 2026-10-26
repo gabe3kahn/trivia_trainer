@@ -1,0 +1,641 @@
+{
+  "generated_at": "2026-07-09T00:00:00Z",
+  "provider": "original_sourced",
+  "category_id": "history",
+  "notes": [
+    "Daily draft 2026-07-09. Sources: Wikipedia lead extracts in data/sourcing/docs/history/. Collision sweep required three rounds: (1) Florence Nightingale/Jonas Salk/Timbuktu/Charles Boycott/Thomas Paine active cross-category; (2) Eva Perón/Rasputin/Normans/Guillotine/Siege of Vicksburg active in the history bank; (3) King David/John the Baptist/Isaac Babel/Zeus/Hermes active in rmp/lit categories. Final replacements pulled from newly fetched docs: Vikings, Tenochtitlan, Axis powers, McCarthyism, Warsaw Pact. Protestant Reformation and Weimar Republic clues cite the Germany Wikipedia article."
+  ],
+  "questions": [
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Vikings",
+      "external_id": "hist-draft-20260709-001",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Scandinavian seafarers of the late 8th to 11th centuries, these raiders and traders voyaged as far as North Africa, Greenland, and the coast of North America.",
+      "answer": "Vikings",
+      "answer_type": "other",
+      "aliases": [
+        "Norsemen",
+        "Norse",
+        "The Vikings"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "medieval-renaissance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Vikings",
+          "url": "https://en.wikipedia.org/wiki/Vikings",
+          "snippet": "Vikings were a seafaring people originally from Scandinavia, who from the late 8th to the late 11th centuries raided, pirated, traded, and settled throughout parts of Europe. They voyaged as far as the Mediterranean, North Africa, the Middl"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:41.625Z",
+      "topic_entities": [
+        "793",
+        "erik the red",
+        "greenland",
+        "leif erikson",
+        "longships",
+        "north america",
+        "scandinavian",
+        "vinland"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Germany",
+      "external_id": "hist-draft-20260709-002",
+      "category_id": "history",
+      "subcategory_name": "Medieval & Renaissance History",
+      "value": 200,
+      "difficulty_rank": 1,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 16th-century religious upheaval, centered in northern German regions, permanently split Western Christianity and challenged centuries of established church authority.",
+      "answer": "Protestant Reformation",
+      "answer_type": "other",
+      "aliases": [
+        "The Reformation",
+        "Reformation"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "medieval-renaissance"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Germany",
+          "url": "https://en.wikipedia.org/wiki/Germany",
+          "snippet": "Germany, officially the Federal Republic of Germany, is a country in Western and Central Europe. It lies between the Baltic Sea and the North Sea to the north with the Alps to the south. Its 16 constituent states have a total population of "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:42.033Z",
+      "topic_entities": [
+        "1517",
+        "christianity",
+        "henry viii",
+        "john calvin",
+        "martin luther",
+        "ninety-five theses",
+        "wittenberg"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/World_War_I",
+      "external_id": "hist-draft-20260709-003",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The massive troop movements at the close of this 1914–1918 conflict are credited with spreading the Spanish flu pandemic; it also resulted in up to 22 million casualties.",
+      "answer": "World War I",
+      "answer_type": "other",
+      "aliases": [
+        "WWI",
+        "World War 1",
+        "First World War",
+        "The Great War",
+        "WW1",
+        "The First World War"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "World War I",
+          "url": "https://en.wikipedia.org/wiki/World_War_I",
+          "snippet": "World War I, or the First World War, also known as the Great War, was a global conflict between two coalitions: the Allies and the Central Powers. Major areas of conflict included Europe and the Middle East, as well as parts of Africa and t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:42.389Z",
+      "topic_entities": [
+        "1914-1918",
+        "allied powers",
+        "somme",
+        "spanish flu",
+        "trench warfare",
+        "verdun",
+        "western front"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Axis_powers",
+      "external_id": "hist-draft-20260709-004",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Japan, Nazi Germany, and Italy formed this WWII military coalition in the mid-1930s, united by far-right politics and expansionist goals against the Allies.",
+      "answer": "Axis powers",
+      "answer_type": "other",
+      "aliases": [
+        "the Axis",
+        "Rome-Berlin-Tokyo Axis",
+        "Rome-Berlin Axis"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Axis powers",
+          "url": "https://en.wikipedia.org/wiki/Axis_powers",
+          "snippet": "The Axis powers, originally called the Rome–Berlin Axis and also Rome–Berlin–Tokyo Axis, was the military coalition which initiated World War II and fought against the Allies. Its principal members were Nazi Germany, the Kingdom of Italy an"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:42.750Z",
+      "topic_entities": [
+        "1936",
+        "fascist italy",
+        "hitler",
+        "imperial japan",
+        "mussolini",
+        "nazi germany",
+        "tojo"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/George_W._Bush",
+      "external_id": "hist-draft-20260709-005",
+      "category_id": "history",
+      "subcategory_name": "U.S. Presidents & Elections",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The eldest son of the 41st U.S. president, this former Texas governor served as the nation's 43rd president from 2001 to 2009.",
+      "answer": "George W. Bush",
+      "answer_type": "name",
+      "aliases": [
+        "Bush",
+        "W",
+        "George W Bush",
+        "George Walker Bush"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-presidents"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "George W. Bush",
+          "url": "https://en.wikipedia.org/wiki/George_W._Bush",
+          "snippet": "George Walker Bush is an American former politician, businessman, and former United States Air Force officer who was the 43rd president of the United States, serving from 2001 to 2009. A member of the Republican Party, he served as the gove"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:43.105Z",
+      "topic_entities": [
+        "2001-2009",
+        "43rd president",
+        "9/11",
+        "afghanistan war",
+        "george h.w. bush",
+        "iraq war",
+        "texas governor"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Germany",
+      "external_id": "hist-draft-20260709-006",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This democratic government replaced the German Empire after World War I but survived barely a decade before being dismantled by a rising totalitarian movement in 1933.",
+      "answer": "Weimar Republic",
+      "answer_type": "other",
+      "aliases": [
+        "The Weimar Republic"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Germany",
+          "url": "https://en.wikipedia.org/wiki/Germany",
+          "snippet": "Germany, officially the Federal Republic of Germany, is a country in Western and Central Europe. It lies between the Baltic Sea and the North Sea to the north with the Alps to the south. Its 16 constituent states have a total population of "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:43.458Z",
+      "topic_entities": [
+        "1919",
+        "1933",
+        "berlin",
+        "hitler",
+        "hyperinflation",
+        "nazi party",
+        "treaty of versailles"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tenzing_Norgay",
+      "external_id": "hist-draft-20260709-007",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 400,
+      "difficulty_rank": 2,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "On May 29, 1953, this Sherpa guide and Edmund Hillary became the first confirmed climbers to reach the summit of Mount Everest as part of a British expedition.",
+      "answer": "Tenzing Norgay",
+      "answer_type": "name",
+      "aliases": [
+        "Norgay",
+        "Tenzing"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tenzing Norgay",
+          "url": "https://en.wikipedia.org/wiki/Tenzing_Norgay",
+          "snippet": "Tenzing Norgay, born Namgyal Wangdi, and also referred to as Sherpa Tenzing, was a Nepalese-Indian Sherpa mountaineer. On 29 May 1953, he and Edmund Hillary were the first confirmed to have reached the summit of Mount Everest, as part of th"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:43.814Z",
+      "topic_entities": [
+        "british expedition",
+        "edmund hillary",
+        "may 29 1953",
+        "mount everest",
+        "nepal",
+        "sherpa"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Tenochtitlan",
+      "external_id": "hist-draft-20260709-008",
+      "category_id": "history",
+      "subcategory_name": "Empires & Dynasties",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Built on an island in Lake Texcoco in 1325, this Aztec capital in the Valley of Mexico now lies beneath the historic center of Mexico City.",
+      "answer": "Tenochtitlan",
+      "answer_type": "other",
+      "aliases": [
+        "Mexico-Tenochtitlan"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "empires-dynasties"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Tenochtitlan",
+          "url": "https://en.wikipedia.org/wiki/Tenochtitlan",
+          "snippet": "Tenochtitlan, also known as Mexico-Tenochtitlan, was a large Mexican altepetl in what is now the historic center of Mexico City. The exact date of the founding of the city is unclear, but the date 13 March 1325 was chosen in 1925 to celebra"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:44.168Z",
+      "topic_entities": [
+        "1325",
+        "aztec",
+        "aztec empire",
+        "hernán cortés",
+        "lake texcoco",
+        "mexico city",
+        "moctezuma"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/First_Battle_of_Bull_Run",
+      "external_id": "hist-draft-20260709-009",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This July 1861 engagement, the first major land battle of the Civil War, saw both sides field roughly 18,000 poorly trained troops near a Virginia stream.",
+      "answer": "First Battle of Bull Run",
+      "answer_type": "other",
+      "aliases": [
+        "Battle of Bull Run",
+        "First Bull Run",
+        "First Manassas",
+        "Battle of First Manassas",
+        "First Battle of Manassas"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "First Battle of Bull Run",
+          "url": "https://en.wikipedia.org/wiki/First_Battle_of_Bull_Run",
+          "snippet": "The First Battle of Bull Run, called the Battle of First Manassas by Confederate forces, was the first major battle of the American Civil War. The battle was fought on July 21, 1861, in Prince William County, Virginia, just north of what is"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:44.523Z",
+      "topic_entities": [
+        "civil war",
+        "confederate army",
+        "july 1861",
+        "manassas",
+        "union army",
+        "virginia"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Korean_War",
+      "external_id": "hist-draft-20260709-010",
+      "category_id": "history",
+      "subcategory_name": "World Wars",
+      "value": 600,
+      "difficulty_rank": 3,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1950–1953 armed conflict pitted United Nations forces, led by the United States, against northern troops backed by China and the Soviet Union on a divided peninsula.",
+      "answer": "Korean War",
+      "answer_type": "other",
+      "aliases": [
+        "The Korean War",
+        "Korean Conflict"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "world-wars"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Korean War",
+          "url": "https://en.wikipedia.org/wiki/Korean_War",
+          "snippet": "The Korean War was an armed conflict fought on the Korean Peninsula between North Korea and South Korea and their allies. North Korea was supported by China and the Soviet Union, while South Korea was supported by the United Nations led by "
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:44.877Z",
+      "topic_entities": [
+        "1950-1953",
+        "china",
+        "korea",
+        "korean peninsula",
+        "soviet union",
+        "united nations",
+        "united states"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Pompey",
+      "external_id": "hist-draft-20260709-011",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "The dictator Sulla granted this Roman general the cognomen 'Magnus,' though he had bypassed the entire traditional sequence of public offices and was later elected consul three times.",
+      "answer": "Pompey the Great",
+      "answer_type": "other",
+      "aliases": [
+        "Pompey",
+        "Gnaeus Pompeius Magnus"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "ancient-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Pompey",
+          "url": "https://en.wikipedia.org/wiki/Pompey",
+          "snippet": "Gnaeus Pompeius Magnus, known in English as Pompey or Pompey the Great, was a Roman general and statesman who was prominent in the final decades of the Roman Republic. As a young man, he was a partisan and protégé of the dictator Sulla, aft"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:45.233Z",
+      "topic_entities": [
+        "ancient rome",
+        "crassus",
+        "first triumvirate",
+        "julius caesar",
+        "pompey the great",
+        "sulla"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Kissinger",
+      "external_id": "hist-draft-20260709-012",
+      "category_id": "history",
+      "subcategory_name": "Historical Figures",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This Cold War diplomat shared the 1973 Nobel Peace Prize with a counterpart who declined it — while critics charged him with secretly authorizing bombing runs over Cambodia.",
+      "answer": "Henry Kissinger",
+      "answer_type": "name",
+      "aliases": [
+        "Kissinger"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "historical-figures"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Henry Kissinger",
+          "url": "https://en.wikipedia.org/wiki/Henry_Kissinger",
+          "snippet": "Henry Alfred Kissinger was an American diplomat, political scientist, and politician. A member of the Republican Party, he served as the 7th national security advisor from 1969 to 1975 and as the 56th United States secretary of state from 1"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:45.587Z",
+      "topic_entities": [
+        "1973",
+        "cambodia",
+        "cold war",
+        "le duc tho",
+        "nobel peace prize",
+        "shuttle diplomacy",
+        "vietnam war"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/McCarthyism",
+      "external_id": "hist-draft-20260709-013",
+      "category_id": "history",
+      "subcategory_name": "U.S. History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "This 1940s–50s U.S. campaign targeted left-wing individuals for alleged Communist influence on American institutions, until its Senate champion's public support collapsed after 1954.",
+      "answer": "McCarthyism",
+      "answer_type": "other",
+      "aliases": [
+        "McCarthy era",
+        "McCarthy hearings",
+        "Red Scare"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "us-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "McCarthyism",
+          "url": "https://en.wikipedia.org/wiki/McCarthyism",
+          "snippet": "McCarthyism is a political practice defined by the accusation and investigation of left-wing individuals of communist and Soviet influence on American institutions and of Soviet espionage in the United States during the late 1940s through t"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:45.941Z",
+      "topic_entities": [
+        "1950s",
+        "1954",
+        "communism",
+        "joseph mccarthy",
+        "red scare",
+        "senate",
+        "witch hunts"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Jericho",
+      "external_id": "hist-draft-20260709-014",
+      "category_id": "history",
+      "subcategory_name": "Ancient History",
+      "value": 800,
+      "difficulty_rank": 4,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Evidence of habitation dating to around 9000 BCE, some 11,000 years ago, makes this West Bank city one of the oldest continuously inhabited places in the world.",
+      "answer": "Jericho",
+      "answer_type": "other",
+      "aliases": [],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "ancient-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Jericho",
+          "url": "https://en.wikipedia.org/wiki/Jericho",
+          "snippet": "Jericho is a city in the West Bank, Palestine, and the capital of the Jericho Governorate. The city is located in the Jordan Valley, with the Jordan River to the east and Jerusalem to the west."
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:46.295Z",
+      "topic_entities": [
+        "9000 bce",
+        "continuous habitation",
+        "oldest city",
+        "palestine",
+        "walls of jericho",
+        "west bank"
+      ]
+    },
+    {
+      "source": "original_sourced",
+      "source_url": "https://en.wikipedia.org/wiki/Warsaw_Pact",
+      "external_id": "hist-draft-20260709-015",
+      "category_id": "history",
+      "subcategory_name": "European History",
+      "value": 1000,
+      "difficulty_rank": 5,
+      "mechanic": "standard",
+      "constraint_text": null,
+      "clue": "Formally titled the Treaty of Friendship, Cooperation and Mutual Assistance, this 1955 Cold War alliance committed the Soviet Union and seven Eastern Bloc states to mutual military defence.",
+      "answer": "Warsaw Pact",
+      "answer_type": "other",
+      "aliases": [
+        "TFCMA"
+      ],
+      "tags": [
+        "hist-draft",
+        "sourced",
+        "european-history"
+      ],
+      "citations": [
+        {
+          "source": "wikipedia",
+          "title": "Warsaw Pact",
+          "url": "https://en.wikipedia.org/wiki/Warsaw_Pact",
+          "snippet": "The Warsaw Pact (WP), formally the Treaty of Friendship, Cooperation and Mutual Assistance (TFCMA), was a collective defence treaty signed in Warsaw, Poland, between the Soviet Union and seven other Eastern Bloc socialist republics in Centr"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-07-09T15:40:46.650Z",
+      "topic_entities": [
+        "1955",
+        "cold war",
+        "eastern bloc",
+        "eastern europe",
+        "soviet union",
+        "treaty of friendship cooperation and mutual assistance"
+      ]
+    }
+  ]
+}
