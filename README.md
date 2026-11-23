@@ -287,6 +287,7 @@ Tracked here so the next session can pick up cleanly. Grouped by area, roughly i
 - Train **Select Categories** multi-pick UI (today only single-category via a Home tap; the `selected` mode + `categories[]` parameter already support multi-select on the backend).
 - Session recap / postmortem: list the missed clues with reveal, not just the counts.
 - Fix the stale `mobile/AGENTS.md` (it says Expo v56; the app is on SDK 54).
+- Polish pass on the **duel recap screen** (`mobile/app/duel/[id].tsx`: result banner, scoreline, clue-by-clue list). No bugs; layout and design only. Ask what feels off before starting.
 
 ### Practice loop & grading
 - Self-grade override after reveal is **done**, now **binary** (Correct / Missed); the final grade is what gets written. Grading is binary end to end — a near-string match counts as correct, there is no partial "close".
@@ -294,6 +295,7 @@ Tracked here so the next session can pick up cleanly. Grouped by area, roughly i
 - Short-answer fuzzy matching is guarded in `isClose` (equal-length substitutions and first-letter changes are rejected on short answers, so "Mars" ≠ "Mark" and "Rhône" ≠ "Rhine"), and `matchesSurname` accepts **last-name-only** answers plus a one-edit surname misspelling for multi-word person names ("Pollack" → "Jackson Pollock"), with a ≥6-char guard that keeps real neighbors apart ("Manet" ≠ "Monet"). Remaining work is widening alias coverage rather than loosening the matcher.
 - Optional: capture confidence and offer "show answer" before grading (both in `planning/product-plan.md`, not yet in the loop).
 - ~~Badge **awarding** is not implemented~~ — **done** (#85): `award_badges` runs via a trigger on the `category_competencies` overall row (migration `030`), surfaced by an app-wide unlock modal. Awards fire once at run end (see Frontend conventions).
+- **Ambiguous-surname guard.** `matchesSurname` accepts a bare last name for any `answer_type='name'` answer. That is wrong when the surname is shared ("Targaryen", or "Bush" for either president). Needs a way to mark a person answer as "do not accept the bare surname": a per-question flag, a third answer type, or suppressing the shortcut when more than one active answer shares the surname. Until then such answers are left as `'other'`.
 
 ### Question quality & difficulty (calibration)
 - **Difficulty re-centering.** The base-score prior currently shrinks toward 2.4, which is below the true scale midpoint of 3. The J! Archive benchmark shows the resulting structural compression: we rate $200 clues too hard (bias +0.72) and $1000 too easy (−0.40), monotonic across ranks. Re-center the prior to 3 and/or reduce the shrinkage weight in `difficulty-rules.mjs`, then re-run the benchmark and watch the per-rank bias collapse toward zero.
